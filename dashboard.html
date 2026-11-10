@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consola de Extracción ERASMUS - EPI Gijón</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* General Theme Variables */
+            --bg-color: #0b0f19;
+            --sidebar-bg: #111827;
+            --card-bg: rgba(22, 28, 45, 0.6);
+            --border-color: rgba(255, 255, 255, 0.08);
+            --text-main: #f3f4f6;
+            --text-muted: #9ca3af;
+            --terminal-bg: #070913;
+            
+            /* Dynamic Theme Variables (overwritten per university) */
+            --primary-color: #3b82f6;
+            --primary-rgb: 59, 130, 246;
+            --accent-color: #f59e0b;
+            --accent-rgb: 245, 158, 11;
+        }
+
+        /* University Colors Themes */
+        [data-uni="uniovi"] {
+            --primary-color: #004b93;
+            --primary-rgb: 0, 75, 147;
+            --accent-color: #e5a93b;
+            --accent-rgb: 229, 169, 59;
+        }
+
+        [data-uni="parma"] {
+            --primary-color: #003B71;
+            --primary-rgb: 0, 59, 113;
+            --accent-color: #FFC72C;
+            --accent-rgb: 255, 199, 44;
+        }
+
+        [data-uni="feup"] {
+            --primary-color: #8c1d40;
+            --primary-rgb: 140, 29, 64;
+            --accent-color: #d2a900;
+            --accent-rgb: 210, 169, 0;
+        }
+
+        [data-uni="upt"] {
+            --primary-color: #002d62;
+            --primary-rgb: 0, 45, 98;
+            --accent-color: #ff5f1f;
+            --accent-rgb: 255, 95, 31;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Sidebar Styling */
+        .sidebar {
+            width: 320px;
+            background-color: var(--sidebar-bg);
+            border-right: 1px solid var(--border-color);
+            display: flex;
+            flex-direction: column;
+            padding: 24px;
+            flex-shrink: 0;
+            z-index: 10;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 36px;
+        }
+
+        .logo-section svg {
+            width: 32px;
+            height: 32px;
+            fill: var(--primary-color);
+            transition: fill 0.3s;
+        }
+
+        .logo-text h1 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            background: linear-gradient(135deg, #ffffff 0%, var(--text-muted) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .logo-text p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .menu-label {
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+            margin-bottom: 12px;
+        }
+
+        .uni-selector-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            margin-bottom: auto;
+        }
+
+        .uni-btn {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            border-radius: 12px;
+            padding: 14px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            cursor: pointer;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            text-align: left;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .uni-btn::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 4px;
+            background-color: transparent;
+            transition: background-color 0.3s;
+        }
+
+        .uni-btn:hover {
+            background: rgba(255, 255, 255, 0.06);
+            transform: translateX(4px);
+        }
+
+        .uni-btn.active {
+            background: rgba(var(--primary-rgb), 0.15);
+            border-color: rgba(var(--primary-rgb), 0.3);
+        }
+
+        .uni-btn.active::before {
+            background-color: var(--primary-color);
+        }
+
+        .uni-flag {
+            font-size: 1.5rem;
+            line-height: 1;
+        }
+
+        .uni-info h3 {
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .uni-info p {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .sidebar-footer {
+            margin-top: 24px;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 12px;
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            border: 1px solid var(--border-color);
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #10b981;
+            box-shadow: 0 0 8px #10b981;
+        }
+
+        .status-text h4 {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+        .status-text p {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+
+        /* Main Workspace Panel */
+        .workspace {
+            flex-grow: 1;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .workspace-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .header-title h2 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            letter-spacing: -0.5px;
+            margin-bottom: 4px;
+        }
+
+        .header-title p {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .uni-badges {
+            display: flex;
+            gap: 8px;
+        }
+
+        .badge {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            padding: 6px 12px;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .badge-success {
+            background: rgba(16, 185, 129, 0.1);
+            border-color: rgba(16, 185, 129, 0.2);
+            color: #10b981;
+        }
+
+        /* Grid Controls Section */
+        .overview-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 24px;
+        }
+
+        .glass-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 16px;
+            padding: 24px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+        }
+
+        .metadata-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 16px;
+            margin-top: 16px;
+        }
+
+        .meta-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            padding: 12px;
+            border-radius: 8px;
+        }
+
+        .meta-item label {
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .meta-item span {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        /* Action Buttons Styling */
+        .controls-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .action-btn {
+            width: 100%;
+            background: linear-gradient(135deg, rgba(var(--primary-rgb), 0.8) 0%, rgba(var(--primary-rgb), 0.95) 100%);
+            border: none;
+            border-radius: 12px;
+            padding: 16px;
+            color: #ffffff;
+            font-weight: 600;
+            font-size: 0.95rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(var(--primary-rgb), 0.3);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .action-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(var(--primary-rgb), 0.45);
+        }
+
+        .action-btn:active {
+            transform: translateY(0);
+        }
+
+        .action-btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            color: #ffffff;
+            box-shadow: none;
+        }
+
+        .action-btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.08);
+            box-shadow: none;
+        }
+
+        .action-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+
+        /* Simulated Terminal Console */
+        .terminal-section {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            display: none; /* Shown dynamically when active */
+        }
+
+        .terminal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .terminal-header h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--text-muted);
+        }
+
+        .terminal-dots {
+            display: flex;
+            gap: 6px;
+        }
+
+        .terminal-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+        }
+
+        .t-red { background-color: #ef4444; }
+        .t-yellow { background-color: #f59e0b; }
+        .t-green { background-color: #10b981; }
+
+        .terminal-body {
+            background-color: var(--terminal-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 16px;
+            height: 180px;
+            overflow-y: auto;
+            font-family: 'Fira Code', monospace;
+            font-size: 0.8rem;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            box-shadow: inset 0 2px 8px rgba(0,0,0,0.8);
+        }
+
+        .terminal-body .log-entry {
+            display: block;
+        }
+
+        .log-info { color: #3b82f6; }
+        .log-success { color: #10b981; }
+        .log-warning { color: #f59e0b; }
+        .log-error { color: #ef4444; }
+
+        /* Progress Bar container */
+        .progress-container {
+            margin-top: 8px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 6px;
+            height: 8px;
+            width: 100%;
+            overflow: hidden;
+            display: none;
+        }
+
+        .progress-bar {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            transition: width 0.1s linear;
+        }
+
+        /* Extracted Data Section */
+        .data-section {
+            display: none; /* Shown dynamically */
+            flex-direction: column;
+            gap: 16px;
+            flex-grow: 1;
+            min-height: 350px;
+        }
+
+        .data-toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .search-container {
+            position: relative;
+            flex-grow: 1;
+            max-width: 400px;
+        }
+
+        .search-input {
+            width: 100%;
+            background: rgba(255, 255, 255, 0.04);
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 10px 16px 10px 40px;
+            color: #ffffff;
+            font-size: 0.9rem;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .search-input:focus {
+            border-color: var(--primary-color);
+        }
+
+        .search-icon {
+            position: absolute;
+            left: 14px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 16px;
+            height: 16px;
+            fill: var(--text-muted);
+        }
+
+        .table-wrapper {
+            background: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            flex-grow: 1;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+        }
+
+        th {
+            background: rgba(0, 0, 0, 0.15);
+            padding: 14px 20px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        td {
+            padding: 16px 20px;
+            font-size: 0.85rem;
+            border-bottom: 1px solid var(--border-color);
+            color: var(--text-main);
+            transition: background 0.2s;
+        }
+
+        tr:last-child td {
+            border-bottom: none;
+        }
+
+        tbody tr {
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        tbody tr:hover td {
+            background: rgba(255, 255, 255, 0.03);
+        }
+
+        .course-code {
+            font-family: 'Fira Code', monospace;
+            font-weight: 500;
+            color: var(--accent-color);
+        }
+
+        .course-title {
+            font-weight: 600;
+            color: #ffffff;
+        }
+
+        .syllabus-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-size: 0.7rem;
+            font-weight: 600;
+        }
+
+        .syllabus-done {
+            background-color: rgba(16, 185, 129, 0.12);
+            color: #10b981;
+        }
+
+        .syllabus-none {
+            background-color: rgba(245, 158, 11, 0.12);
+            color: #f59e0b;
+        }
+
+        /* Slide-out Drawer Panel */
+        .drawer-overlay {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.6);
+            backdrop-filter: blur(4px);
+            z-index: 99;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
+        }
+
+        .drawer-overlay.open {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .drawer {
+            position: fixed;
+            top: 0;
+            right: -600px;
+            width: 580px;
+            height: 100vh;
+            background-color: #0d1220;
+            border-left: 1px solid var(--border-color);
+            box-shadow: -8px 0 32px rgba(0, 0, 0, 0.5);
+            z-index: 100;
+            padding: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            transition: right 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            overflow-y: auto;
+        }
+
+        .drawer.open {
+            right: 0;
+        }
+
+        .drawer-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 20px;
+        }
+
+        .drawer-header-info label {
+            font-family: 'Fira Code', monospace;
+            font-size: 0.85rem;
+            color: var(--accent-color);
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .drawer-header-info h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #ffffff;
+            line-height: 1.2;
+        }
+
+        .close-btn {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid var(--border-color);
+            border-radius: 50%;
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: var(--text-muted);
+            transition: all 0.2s;
+        }
+
+        .close-btn:hover {
+            background: rgba(255, 255, 255, 0.1);
+            color: #ffffff;
+            transform: rotate(90deg);
+        }
+
+        .drawer-content {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .drawer-section {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 12px;
+            padding: 18px;
+        }
+
+        .drawer-section h3 {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            color: var(--text-muted);
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .drawer-section p {
+            font-size: 0.85rem;
+            line-height: 1.6;
+            color: var(--text-main);
+        }
+
+        .drawer-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        .drawer-grid-item {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 10px 14px;
+        }
+
+        .drawer-grid-item label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            display: block;
+            margin-bottom: 2px;
+        }
+
+        .drawer-grid-item span {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body data-uni="uniovi">
+
+    <!-- Sidebar Section -->
+    <aside class="sidebar">
+        <div class="logo-section">
+            <svg viewBox="0 0 24 24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            <div class="logo-text">
+                <h1>EPI GIJÓN</h1>
+                <p>Consola ERASMUS</p>
+            </div>
+        </div>
+
+        <div class="menu-label">Universidades</div>
+        <ul class="uni-selector-list">
+            <li>
+                <button class="uni-btn active" onclick="switchUniversity('uniovi')">
+                    <span class="uni-flag">🇪🇸</span>
+                    <div class="uni-info">
+                        <h3>UNIOVI</h3>
+                        <p>Universidad de Oviedo</p>
+                    </div>
+                </button>
+            </li>
+            <li>
+                <button class="uni-btn" onclick="switchUniversity('parma')">
+                    <span class="uni-flag">🇮🇹</span>
+                    <div class="uni-info">
+                        <h3>Parma</h3>
+                        <p>Università di Parma</p>
+                    </div>
+                </button>
+            </li>
+            <li>
+                <button class="uni-btn" onclick="switchUniversity('feup')">
+                    <span class="uni-flag">🇵🇹</span>
+                    <div class="uni-info">
+                        <h3>Porto (FEUP)</h3>
+                        <p>Universidade do Porto</p>
+                    </div>
+                </button>
+            </li>
+            <li>
+                <button class="uni-btn" onclick="switchUniversity('upt')">
+                    <span class="uni-flag">🇷🇴</span>
+                    <div class="uni-info">
+                        <h3>Timișoara (UPT)</h3>
+                        <p>Politehnica Timișoara</p>
+                    </div>
+                </button>
+            </li>
+        </ul>
+
+        <div class="sidebar-footer">
+            <div class="status-dot"></div>
+            <div class="status-text">
+                <h4>Base de datos conectada</h4>
+                <p>Modo Simulación</p>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Main Content Panel -->
+    <main class="workspace">
+        <div class="workspace-header">
+            <div class="header-title">
+                <h2 id="uni-full-name">Universidad de Oviedo (UNIOVI)</h2>
+                <p id="uni-location">Gijón/Oviedo, España — Grado en Ingeniería Mecánica (GIMECA)</p>
+            </div>
+            <div class="uni-badges">
+                <div id="badge-courses" class="badge">Asignaturas: Sin extraer</div>
+                <div id="badge-syllabus" class="badge">Guías: Sin extraer</div>
+            </div>
+        </div>
+
+        <!-- Cards Layout -->
+        <div class="overview-section">
+            <!-- Metadata Card -->
+            <div class="glass-card">
+                <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 12px; color: #ffffff;">Ficheros de Base de Datos y Origen</h3>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">Los datos que se visualizan en esta interfaz coinciden con los scripts en Python y bases de datos estructuradas de tu entorno local.</p>
+                <div class="metadata-grid">
+                    <div class="meta-item">
+                        <label>Fichero Origen</label>
+                        <span id="meta-src-file">gimeca_plan_estudios.json</span>
+                    </div>
+                    <div class="meta-item">
+                        <label>Base de Datos SQLite</label>
+                        <span id="meta-db-file">uniovi_guias.sqlite</span>
+                    </div>
+                    <div class="meta-item">
+                        <label>Script de Extracción</label>
+                        <span id="meta-script">uniovi_guide_extractor.py</span>
+                    </div>
+                    <div class="meta-item">
+                        <label>Formato de Salida</label>
+                        <span id="meta-format">JSON + SQLite</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls Card -->
+            <div class="glass-card controls-card">
+                <button id="btn-extract-courses" class="action-btn" onclick="startSimulateCourses()">
+                    <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z"/>
+                    </svg>
+                    Extraer Asignaturas
+                </button>
+                <button id="btn-extract-syllabus" class="action-btn action-btn-secondary" onclick="startSimulateSyllabus()" disabled>
+                    <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M12 3c-4.97 0-9 4.03-9 9 0 2.12.74 4.07 1.97 5.61L4.35 19.4c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0l1.9-1.9C9.07 19.53 10.4 20 12 20c4.97 0 9-4.03 9-9s-4.03-9-9-9zm0 15c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm1-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/>
+                    </svg>
+                    Extraer Guías Docentes
+                </button>
+            </div>
+        </div>
+
+        <!-- Terminal Console (Hidden initially) -->
+        <div id="terminal-section" class="terminal-section">
+            <div class="terminal-header">
+                <h3 id="terminal-title">Consola de Script: exe</h3>
+                <div class="terminal-dots">
+                    <div class="terminal-dot t-red"></div>
+                    <div class="terminal-dot t-yellow"></div>
+                    <div class="terminal-dot t-green"></div>
+                </div>
+            </div>
+            <div id="terminal-body" class="terminal-body">
+                <!-- Log entries will be written here dynamically -->
+            </div>
+            <div id="progress-container" class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+        </div>
+
+        <!-- Table Display Container -->
+        <div id="data-section" class="data-section">
+            <div class="data-toolbar">
+                <div class="search-container">
+                    <svg class="search-icon" viewBox="0 0 24 24">
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/>
+                    </svg>
+                    <input type="text" id="search-box" class="search-input" placeholder="Buscar asignaturas por nombre o código..." oninput="filterTable()">
+                </div>
+                <div style="font-size: 0.85rem; color: var(--text-muted); font-weight: 500;">
+                    Se muestran <span id="course-count" style="color: #ffffff; font-weight: 700;">0</span> asignaturas
+                </div>
+            </div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Nombre Asignatura</th>
+                            <th>Créditos</th>
+                            <th id="th-semester">Semestre</th>
+                            <th>Estado Guía</th>
+                        </tr>
+                    </thead>
+                    <tbody id="course-table-body">
+                        <!-- Table rows written here dynamically -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- Drawer Panel for Syllabus Details -->
+    <div id="drawer-overlay" class="drawer-overlay" onclick="closeDrawer()"></div>
+    <div id="drawer" class="drawer">
+        <div class="drawer-header">
+            <div class="drawer-header-info">
+                <label id="drawer-course-code">GIMECA01-4-012</label>
+                <h2 id="drawer-course-name">Diseño de Sistemas Mecánicos</h2>
+            </div>
+            <button class="close-btn" onclick="closeDrawer()">
+                <svg style="width: 20px; height: 20px; fill: currentColor;" viewBox="0 0 24 24">
+                    <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="drawer-content">
+            <div class="drawer-grid">
+                <div class="drawer-grid-item">
+                    <label>Créditos ECTS</label>
+                    <span id="drawer-course-credits">6.0</span>
+                </div>
+                <div class="drawer-grid-item">
+                    <label>Idioma de Impartición</label>
+                    <span id="drawer-course-language">Español</span>
+                </div>
+                <div class="drawer-grid-item">
+                    <label>Profesor Responsable</label>
+                    <span id="drawer-course-professor">Dr. Coordinador GIMECA</span>
+                </div>
+                <div class="drawer-grid-item">
+                    <label>Semestre / Curso</label>
+                    <span id="drawer-course-semester">Cuarto - Semestre 1</span>
+                </div>
+            </div>
+
+            <div class="drawer-section">
+                <h3>
+                    <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/>
+                    </svg>
+                    Objetivos de Aprendizaje
+                </h3>
+                <p id="drawer-objectives">
+                    Los estudiantes adquirirán las competencias necesarias para diseñar y calcular elementos y sistemas mecánicos complejos...
+                </p>
+            </div>
+
+            <div class="drawer-section">
+                <h3>
+                    <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M4 6H2v14c0 1.1.9 2 2 2h14v-2H4V6zm16-4H8c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h12c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H8V4h12v12z"/>
+                    </svg>
+                    Programa y Contenido
+                </h3>
+                <p id="drawer-program" style="white-space: pre-line;">
+                    Tema 1. Elementos flexibles de transmisión...
+                    Tema 2. Cojinetes de rodadura y cojinetes de fricción...
+                </p>
+            </div>
+
+            <div class="drawer-section">
+                <h3>
+                    <svg style="width: 16px; height: 16px; fill: currentColor;" viewBox="0 0 24 24">
+                        <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                    </svg>
+                    Método de Evaluación
+                </h3>
+                <p id="drawer-evaluation">
+                    Examen escrito teórico-práctico al final de semestre (60%) + Defensa de proyecto práctico individual de diseño CAD/CAE (40%).
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data Logic -->
+    <script>
+        // Real datasets extracted from project JSON/Details
+        const uniData = {
+            uniovi: {
+                fullName: "Universidad de Oviedo (UNIOVI)",
+                location: "Gijón/Oviedo, España — Grado en Ingeniería Mecánica (GIMECA)",
+                srcFile: "gimeca_plan_estudios.json",
+                dbFile: "uniovi_guias.sqlite",
+                script: "uniovi_guide_extractor.py",
+                format: "JSON + SQLite",
+                state: { courses: false, syllabus: false },
+                courses: [
+                    { code: "GIMECA01-4-012", name: "Diseño de Sistemas Mecánicos", credits: "6.0", semester: "4º - S1", language: "Español", professor: "Dr. A. Fernández", objectives: "Formar competencias técnicas para el diseño, dimensionamiento y selección de componentes estructurales y de transmisión de potencia en sistemas mecánicos complejos.", program: "1. Metodologías de diseño mecánico asistido por ordenador.\n2. Cálculo de transmisiones por engranajes cilíndricos y helicoidales.\n3. Acoplamientos de ejes y embragues mecánicos.\n4. Simulación por elementos finitos aplicable al diseño industrial.", evaluation: "Examen final teórico-práctico (60%), Trabajo de diseño en oficina técnica con CAD/CAE (40%)." },
+                    { code: "GIMECA01-4-013", name: "Elementos de Máquinas", credits: "6.0", semester: "4º - S1", language: "Español", professor: "Dr. J. M. Blanco", objectives: "Enseñar el diseño cinemático y resistente de componentes individuales de maquinaria sometidos a cargas estáticas y fatiga.", program: "1. Cálculo resistente frente a cargas estáticas y cargas dinámicas de fatiga.\n2. Ejes de transmisión y chavetas.\n3. Rodamientos de bolas e hidrodinámicos.\n4. Uniones atornilladas, soldadas y uniones por interferencia.", evaluation: "Prueba escrita individual (70%), Entrega de informes de laboratorios de cálculo (30%)." },
+                    { code: "GIMECA01-4-007", name: "Máquinas Térmicas", credits: "6.0", semester: "4º - S1", language: "Español", professor: "Dra. M. S. Álvarez", objectives: "Comprender la termodinámica aplicada a ciclos de turbinas de gas y de vapor, motores de combustión y centrales de generación.", program: "1. Motores de combustión interna alternativos (ciclos Otto y Diesel).\n2. Turbinas de gas y ciclos combinados gas-vapor.\n3. Calderas y generadores de vapor en la industria térmica.\n4. Turbinas de vapor y sistemas de condensación.", evaluation: "Examen escrito (75%), Prácticas de laboratorio de calibración y simulación (25%)." },
+                    { code: "GIMECA01-3-011", name: "Dirección de Operaciones", credits: "6.0", semester: "3º - S2", language: "Español/Inglés", professor: "Dr. P. Pérez", objectives: "Capacitar en la planificación de la producción, gestión del stock de almacén, dirección de proyectos y control de la calidad operativa.", program: "1. Introducción a la estrategia de producción industrial.\n2. Planificación agregada y MRP (Material Requirements Planning).\n3. Métodos Just-In-Time (JIT) y lean manufacturing.\n4. Gestión de inventarios deterministas y probabilistas.\n5. Teoría de colas y gestión de capacidad.", evaluation: "Evaluación continua con quizes parciales (30%), Resolución de casos prácticos (20%), Examen escrito global (50%)." },
+                    { code: "GIMECA01-3-001", name: "Ingeniería Ambiental", credits: "6.0", semester: "3º - S2", language: "Español", professor: "Dra. C. Rodríguez", objectives: "Introducir los principios de sostenibilidad ambiental, metodologías de tratamiento de aguas, emisiones a la atmósfera y gestión de residuos.", program: "1. Introducción al impacto ecológico en la industria mecánica.\n2. Dispersión de contaminantes atmosféricos y depuración de gases.\n3. Calidad del agua y procesos de depuración de aguas residuales industriales.\n4. Análisis del Ciclo de Vida (ACV) y Ecodiseño de maquinaria.", evaluation: "Trabajo grupal sobre auditoría ambiental (40%), Examen final de desarrollo de temario (60%)." }
+                ]
+            },
+            parma: {
+                fullName: "Università degli Studi di Parma (UNIPr)",
+                location: "Parma, Italia — Ingegneria Meccanica (Laurea Magistrale)",
+                srcFile: "Offerta Formativa 2025-2026.xlsx",
+                dbFile: "OfertaUNIPr_Ingegneria_Meccanica_Details.sqlite",
+                script: "export_oferta_unipr.py",
+                format: "JSON + SQLite",
+                state: { courses: false, syllabus: false },
+                courses: [
+                    { code: "1006530", name: "Principles of Structural Design for Industry", credits: "6.0", semester: "Anno 3 - S1", language: "Inglese/Italiano", professor: "Prof. Laura Galuppi", objectives: "Understand basic formulations and methods for structural analysis in design departments. Focus on beams, shell structures, and elastic instabilities.", program: "1. Intro to linear elasticity, stress tensor and strain states.\n2. Saint-Venant beam theory under flexure, shear and torsion.\n3. Thin-walled shells and structural stability analysis.\n4. Matrix structural analysis and computational applications.", evaluation: "Oral examination (100%) with code presentation." },
+                    { code: "1011077", name: "STUDENT FORMULA", credits: "6.0", semester: "Anno 3 - S1", language: "Italiano", professor: "Prof. Fabio Bozzoli", objectives: "Form student teams inside Formula SAE competition. Real mechanical project design from scratch to racing track validations.", program: "1. Vehicle dynamics: chassis, suspension systems, aero surfaces.\n2. Power unit: combustion tuning, cooling circuits, intake manifold optimization.\n3. Manufacturing planning: CNC milling, carbon fiber layups.\n4. Business presentation and cost report analysis.", evaluation: "Design presentation & practical work evaluation (100%)." },
+                    { code: "1010756", name: "Numerical and physical modelling for wind engineering", credits: "6.0", semester: "Anno 3 - S2", language: "Italiano", professor: "Prof. Luca Chiapponi", objectives: "Simulate and test aerodynamic behaviors of civil structures and industrial products using wind tunnel facilities and CFD software.", program: "1. Atmospheric boundary layer dynamics.\n2. Bluff body aerodynamics: drag coefficients, vortex shedding.\n3. Physical modeling: Wind Tunnel scale setups, sensor scaling.\n4. Numerical methods: RANS, LES models in OpenFOAM.", evaluation: "Written report of computational lab (40%) + Oral exam (60%)." },
+                    { code: "1013176", name: "POLYMER AND COMPOSITE PRODUCT DESIGN", credits: "6.0", semester: "Anno 3 - S1", language: "Italiano", professor: "Prof. Enrica Riva", objectives: "Provide methodologies to design products in polymers and advanced fiber reinforced composites, linking microstructures and macro behavior.", program: "1. Polymer chemistry, thermoplastics, thermosets.\n2. Viscoelastic behaviors: creep, stress relaxation, temperature effects.\n3. Anisotropic mechanics: classical lamination theory.\n4. Injection molding design guidelines and composite manufacturing processes.", evaluation: "Project work (40%) + Oral examination (60%)." }
+                ]
+            },
+            feup: {
+                fullName: "Faculdade de Engenharia da Universidade do Porto (FEUP)",
+                location: "Porto, Portugal — Licenciatura em Engenharia Mecânica (L.EM)",
+                srcFile: "sigarra.up.pt (Sigarra FEUP web scraper)",
+                dbFile: "OfertaFEUP_Ingegneria_Meccanica_Details.sqlite",
+                script: "extract_porto_courses.py",
+                format: "JSON + SQLite",
+                state: { courses: false, syllabus: false },
+                courses: [
+                    { code: "L.EM001", name: "Organização e Gestão de Empresas", credits: "4.5", semester: "Anno 1 - S1", language: "Português", professor: "Alcibíades P. Guedes", objectives: "Introduce fundamental management and organizational concepts, providing an integrated perspective of functional management areas.", program: "1. Basic concepts: The company, management process, planning, operations.\n2. Organizational design: functional, divisional, matrix structures.\n3. Marketing mix, Human Resource Management, Financial statements analysis.\n4. Production operations management: inventory control, EOQ, MRP, JIT systems.", evaluation: "Group project (15%) + Quizzes (25%) + Closed book exam (60%)." },
+                    { code: "L.EM003", name: "Desenho Técnico", credits: "6.0", semester: "Anno 1 - S1", language: "Português", professor: "José J. Mota Machado", objectives: "Acquire deep knowledge about technical representation of shapes and dimensions, developing spatial visualization skills.", program: "1. Standardization in technical drawings, scales, media formats.\n2. Orthographic projections (ISO E and ISO A), cuts and cross-sections.\n3. Pictorial representation: Isometric drawings.\n4. Limits and fits: ISO tolerancing, geometrical specifications (GPS).", evaluation: "Three continuous tests (40% + 35% + 25%). No final exam." },
+                    { code: "L.EM002", name: "Ciência dos Materiais", credits: "6.0", semester: "Anno 1 - S1", language: "Português", professor: "Teresa M. Duarte", objectives: "Relate atomic structure, chemical bonds, defects, and thermal histories with mechanical properties of structural metals and polymers.", program: "1. Crystalline lattices and defect structures.\n2. Diffusion in solids. Phase diagrams (binary Fe-C, eutectic systems).\n3. Mechanical tests: tensile, hardness, impact, fatigue, creep.\n4. Corrosion mechanisms and prevention in industrial facilities.", evaluation: "Two written tests (80%) + Laboratory exercises with reports (20%)." },
+                    { code: "L.EM006", name: "Mecânica I", credits: "6.0", semester: "Anno 1 - S1", language: "Português", professor: "DEMEC Staff", objectives: "Teach general principles of static equilibrium for particles, rigid bodies, and simple structures like trusses and beams.", program: "1. Vector operations, force systems reduction, equivalence.\n2. Center of mass, centroid, theorems of Pappus-Guldin.\n3. Static equilibrium of rigid bodies under 2D and 3D forces.\n4. Structural analysis: plane trusses (joints/sections), beams (bending/shear).", evaluation: "Distributed evaluation: 3 mini-tests (90%) + participation (10%)." }
+                ]
+            },
+            upt: {
+                fullName: "Universitatea Politehnica Timișoara (UPT)",
+                location: "Timișoara, Rumanía — Faculty of Mechanical Engineering",
+                srcFile: "Word documents (.doc/.docx UPT ERASMUS Cat.)",
+                dbFile: "OfertaUPT_Ingegneria_Meccanica_Details.sqlite",
+                script: "extract_upt_samples.py",
+                format: "JSON + SQLite",
+                state: { courses: false, syllabus: false },
+                courses: [
+                    { code: "L431.25.01.F1", name: "Mathematical analysis", credits: "4.0", semester: "Anno 1 - S1", language: "English", professor: "Remus-Daniel Ene", objectives: "Form base abilities of rigorous mathematical reasoning, series convergence tests, differentials, Taylor series, and optimization.", program: "1. Numerical series. Convergence criteria (D'Alembert, Cauchy).\n2. Multivariable limits, continuity, partial derivatives.\n3. Differentiability, Taylor series, extremum with constraints (Lagrange).\n4. Power series expansions.", evaluation: "Written exam (50%) + continuous test works in seminar (50%)." },
+                    { code: "L431.25.01.F3", name: "Physics", credits: "4.0", semester: "Anno 1 - S1", language: "English", professor: "Dr. Marius Costache", objectives: "Introduce classical mechanics laws, fluid dynamics, thermodynamics, electromagnetism, and basic quantum principles.", program: "1. Kinematics, dynamics, conservation laws, oscillations.\n2. Fluid mechanics: static and dynamic fluids (Bernoulli, viscosity).\n3. Thermodynamics: ideal gas laws, 1st and 2nd laws, heat capacities.\n4. Electromagnetism: electric field, Ohm's laws, induction.\n5. Modern physics: photo-electric effect, atomic spectra.", evaluation: "Final exam (67%) + continuous evaluation of laboratory works (33%)." },
+                    { code: "L431.25.01.D4", name: "Materials Science I", credits: "5.0", semester: "Anno 1 - S1", language: "English", professor: "Dr. Aurel Raduta", objectives: "Study structures of engineering materials, diffusion processes, crystallization, phase diagrams, and microstructures of steel.", program: "1. Engineering classification of materials.\n2. Atomic bonds, crystal lattices, miller indices, crystal defects.\n3. Alloy systems: diffusion, solidifications, binary phase diagrams.\n4. Iron-Carbon alloys: Fe-Fe3C phase diagram, microstructures of steel.", evaluation: "Oral exam (50%) + laboratory evaluation tests (50%)." },
+                    { code: "L431.25.01.F6", name: "Chemistry", credits: "3.0", semester: "Anno 1 - S1", language: "English", professor: "Dr. Narcis Duteanu", objectives: "Understand basic chemical concepts applicable to engineering materials, fuel characteristics, water purifications, and corrosion.", program: "1. Atomic structures, chemical bonds, molecules.\n2. Solutions: solubility limits, concentration conversions.\n3. Industrial water: classification, hardness, treatment processes.\n4. Fuel chemistry: combustion calculations, cetane/octane number.\n5. Corrosion: electrochemical oxidation, cathodic protection, coatings.", evaluation: "Written test with 5 subjects (67%) + lab reports check (33%)." }
+                ]
+            }
+        };
+
+        let activeUni = 'uniovi';
+
+        // Switch Active University
+        function switchUniversity(uniKey) {
+            activeUni = uniKey;
+            
+            // Toggle active sidebar button
+            document.querySelectorAll('.uni-btn').forEach(btn => btn.classList.remove('active'));
+            event.currentTarget.classList.add('active');
+            
+            // Set body theme attribute
+            document.body.setAttribute('data-uni', uniKey);
+            
+            // Update Headers & Metas
+            const uni = uniData[uniKey];
+            document.getElementById('uni-full-name').innerText = uni.fullName;
+            document.getElementById('uni-location').innerText = uni.location;
+            
+            document.getElementById('meta-src-file').innerText = uni.srcFile;
+            document.getElementById('meta-db-file').innerText = uni.dbFile;
+            document.getElementById('meta-script').innerText = uni.script;
+            document.getElementById('meta-format').innerText = uni.format;
+            
+            // Update badges status
+            updateBadges();
+            
+            // Clear Console and hide it if no extraction is done
+            document.getElementById('terminal-section').style.display = 'none';
+            document.getElementById('terminal-body').innerHTML = '';
+            document.getElementById('progress-container').style.display = 'none';
+            
+            // Reset Data Display
+            const dataSec = document.getElementById('data-section');
+            if (uni.state.courses) {
+                dataSec.style.display = 'flex';
+                buildTable(uni.courses);
+                document.getElementById('btn-extract-syllabus').disabled = false;
+            } else {
+                dataSec.style.display = 'none';
+                document.getElementById('btn-extract-syllabus').disabled = true;
+            }
+        }
+
+        // Update top badges
+        function updateBadges() {
+            const uni = uniData[activeUni];
+            
+            const badgeCourses = document.getElementById('badge-courses');
+            if (uni.state.courses) {
+                badgeCourses.innerText = "Asignaturas: Extraído ✔";
+                badgeCourses.classList.add('badge-success');
+            } else {
+                badgeCourses.innerText = "Asignaturas: Sin extraer";
+                badgeCourses.classList.remove('badge-success');
+            }
+            
+            const badgeSyllabus = document.getElementById('badge-syllabus');
+            if (uni.state.syllabus) {
+                badgeSyllabus.innerText = "Guías: Extraído ✔";
+                badgeSyllabus.classList.add('badge-success');
+            } else {
+                badgeSyllabus.innerText = "Guías: Sin extraer";
+                badgeSyllabus.classList.remove('badge-success');
+            }
+        }
+
+        // Simulated terminal logging helper
+        function appendTerminalLog(text, type='info') {
+            const body = document.getElementById('terminal-body');
+            const span = document.createElement('span');
+            span.className = `log-entry log-${type}`;
+            span.innerHTML = `[${new Date().toLocaleTimeString()}] ${text}`;
+            body.appendChild(span);
+            body.scrollTop = body.scrollHeight;
+        }
+
+        // SIMULATE EXTRACTION OF COURSE LIST
+        function startSimulateCourses() {
+            const uni = uniData[activeUni];
+            const btnCourses = document.getElementById('btn-extract-courses');
+            const btnSyllabus = document.getElementById('btn-extract-syllabus');
+            
+            btnCourses.disabled = true;
+            btnSyllabus.disabled = true;
+            
+            // Setup Console View
+            document.getElementById('terminal-title').innerText = `Proceso: ${uni.script}`;
+            document.getElementById('terminal-section').style.display = 'flex';
+            document.getElementById('progress-container').style.display = 'block';
+            
+            const pBar = document.getElementById('progress-bar');
+            pBar.style.width = '0%';
+            
+            let logs = [];
+            if (activeUni === 'uniovi') {
+                logs = [
+                    { t: "Inicializando conexión con la estructura del plan de estudios...", type: "info" },
+                    { t: `Cargando el archivo local '${uni.srcFile}'...`, type: "info" },
+                    { t: `Analizando estructura JSON de asignaturas...`, type: "info" },
+                    { t: `Total asignaturas detectadas: ${uni.courses.length} registros principales.`, type: "info" },
+                    { t: `Guardando registros filtrados en memoria de la sesión...`, type: "info" },
+                    { t: "Carga completada de forma correcta. Lista de asignaturas disponible.", type: "success" }
+                ];
+            } else if (activeUni === 'parma') {
+                logs = [
+                    { t: "Inicializando extractor de Parma en Excel...", type: "info" },
+                    { t: `Abriendo archivo origen '${uni.srcFile}'...`, type: "info" },
+                    { t: "Localizando hoja 'Insegnamenti e coperture'...", type: "info" },
+                    { t: "Parseando columnas: [Codice Insegnamento, Nome Insegnamento, Crediti, Anno, Lingua]...", type: "info" },
+                    { t: "Filtro activo: Curso de Estudio '3011' (Ingegneria Meccanica)", type: "warning" },
+                    { t: `Extracción finalizada. Encontradas ${uni.courses.length} asignaturas filtradas.`, type: "info" },
+                    { t: "Estructura JSON guardada temporalmente para procesamiento.", type: "success" }
+                ];
+            } else if (activeUni === 'feup') {
+                logs = [
+                    { t: "Estableciendo cliente HTTP para conexión con portal SIGARRA (Porto)...", type: "info" },
+                    { t: "Consultando: https://sigarra.up.pt/feup/pt/curric_geral.curr_view", type: "info" },
+                    { t: "Respuesta recibida: 200 OK. Iniciando parser HTML (lxml)...", type: "info" },
+                    { t: "Identificado plan de estudios de la Licenciatura em Engenharia Mecânica (L.EM)", type: "info" },
+                    { t: "Extrayendo siglas, nombres en portugués, enlaces relativos y créditos...", type: "info" },
+                    { t: `Parseado finalizado. ${uni.courses.length} asignaturas añadidas a base de datos.`, type: "success" }
+                ];
+            } else if (activeUni === 'upt') {
+                logs = [
+                    { t: "Cargando catálogo ERASMUS de la Universidad Politécnica de Timișoara (UPT)...", type: "info" },
+                    { t: `Leyendo catálogo de asignaturas desde '${uni.srcFile}'...`, type: "info" },
+                    { t: "Mapeando asignaturas del Grado de Ingeniería Mecánica...", type: "info" },
+                    { t: `Extracción del índice finalizada. Encontrados ${uni.courses.length} registros válidos.`, type: "info" },
+                    { t: "Estructura consolidada guardada en JSON temporal.", type: "success" }
+                ];
+            }
+            
+            // Execute simulated logging steps
+            let currentStep = 0;
+            const totalSteps = logs.length;
+            
+            const interval = setInterval(() => {
+                if (currentStep < totalSteps) {
+                    const step = logs[currentStep];
+                    appendTerminalLog(step.t, step.type);
+                    currentStep++;
+                    
+                    // Update progress bar
+                    pBar.style.width = `${Math.floor((currentStep / totalSteps) * 100)}%`;
+                } else {
+                    clearInterval(interval);
+                    
+                    // Finalize Simulated Step
+                    uni.state.courses = true;
+                    updateBadges();
+                    
+                    // Show Data
+                    const dataSec = document.getElementById('data-section');
+                    dataSec.style.display = 'flex';
+                    buildTable(uni.courses);
+                    
+                    btnCourses.disabled = false;
+                    btnSyllabus.disabled = false;
+                }
+            }, 500);
+        }
+
+        // SIMULATE EXTRACTION OF SYLLABUS DETAILS
+        function startSimulateSyllabus() {
+            const uni = uniData[activeUni];
+            const btnCourses = document.getElementById('btn-extract-courses');
+            const btnSyllabus = document.getElementById('btn-extract-syllabus');
+            
+            btnCourses.disabled = true;
+            btnSyllabus.disabled = true;
+            
+            // Setup Console View
+            document.getElementById('terminal-title').innerText = `Proceso: Generador de SQLite / Guías`;
+            document.getElementById('progress-container').style.display = 'block';
+            
+            const pBar = document.getElementById('progress-bar');
+            pBar.style.width = '0%';
+            
+            let logs = [];
+            if (activeUni === 'uniovi') {
+                logs = [
+                    { t: "Abriendo archivo consolidado de guías 'GuiasDocentesAll.json'...", type: "info" },
+                    { t: "Iniciando análisis semántico y estructuración de secciones...", type: "info" },
+                    { t: "Estructurando secciones: [Metadatos, Objetivos, Temario, Métodos de Evaluación, Bibliografía]...", type: "info" },
+                    { t: `Abriendo conexión de base de datos SQLite '${uni.dbFile}'...`, type: "info" },
+                    { t: "Creando tablas 'asignaturas', 'actividades', y 'bloques_texto' en la base de datos...", type: "warning" },
+                    { t: "Migrando guías de asignaturas de GIMECA al esquema SQL local...", type: "info" },
+                    { t: `Cerrando base de datos. Transacciones finalizadas.`, type: "info" },
+                    { t: "Visualizador de Guías de UNIOVI listo y sincronizado.", type: "success" }
+                ];
+            } else if (activeUni === 'parma') {
+                logs = [
+                    { t: "Cargando archivo temporal de asignaturas de Parma...", type: "info" },
+                    { t: "Iniciando descarga y parseo de las Fichas de Asignatura desde el portal web...", type: "info" },
+                    { t: "Parseando páginas de guías. Secciones: [Learning objectives, Content, Bibliography]...", type: "info" },
+                    { t: "Extrayendo profesorado responsable, enlaces de Teams y correos electrónicos...", type: "info" },
+                    { t: `Abriendo conexión SQLite '${uni.dbFile}'...`, type: "info" },
+                    { t: "Guardando datos consolidados de guías en la base de datos local...", type: "info" },
+                    { t: "Descarga y persistencia finalizada correctamente.", type: "success" }
+                ];
+            } else if (activeUni === 'feup') {
+                logs = [
+                    { t: "Cargando índices de asignaturas del Porto/FEUP...", type: "info" },
+                    { t: "Iterando urls para descargar fichas de asignatura en portugués e inglés...", type: "info" },
+                    { t: "Parseando estructura HTML: [Objectives, Program, Evaluation Type, Assessment Components]...", type: "info" },
+                    { t: "Corrigiendo semestres y créditos según la tabla general de asignaturas...", type: "warning" },
+                    { t: `Insertando registros consolidados en base de datos SQLite '${uni.dbFile}'...`, type: "info" },
+                    { t: "Guardando caché estructurada en JSON de detalles...", type: "info" },
+                    { t: "Extracción y almacenamiento de guías docentes completada.", type: "success" }
+                ];
+            } else if (activeUni === 'upt') {
+                logs = [
+                    { t: "Localizando ficheros de guías docentes en carpeta 'INGINERIE MECANICĂ - INGINERIE MECANICĂ/'...", type: "info" },
+                    { t: "Se han encontrado 112 archivos Word (.doc y .docx) con guías docentes.", type: "info" },
+                    { t: "Lanzando controlador de automatización Word a través de win32com...", type: "warning" },
+                    { t: "Leyendo y limpiando caracteres rumanos (Ă, Ș, Ț) de los archivos...", type: "info" },
+                    { t: "Extrayendo campos clave: [Objectives, Lecture Program, Practical Program, Evaluation]...", type: "info" },
+                    { t: `Cargando base de datos SQLite local '${uni.dbFile}'...`, type: "info" },
+                    { t: "Indexando datos de las guías correspondientes a los códigos de la oferta...", type: "info" },
+                    { t: "Conversión y persistencia de guías completada con éxito.", type: "success" }
+                ];
+            }
+            
+            // Execute simulated logging steps
+            let currentStep = 0;
+            const totalSteps = logs.length;
+            
+            const interval = setInterval(() => {
+                if (currentStep < totalSteps) {
+                    const step = logs[currentStep];
+                    appendTerminalLog(step.t, step.type);
+                    currentStep++;
+                    
+                    // Update progress bar
+                    pBar.style.width = `${Math.floor((currentStep / totalSteps) * 100)}%`;
+                } else {
+                    clearInterval(interval);
+                    
+                    // Finalize Simulated Step
+                    uni.state.syllabus = true;
+                    updateBadges();
+                    
+                    // Redraw Table to update syllabus badge status
+                    buildTable(uni.courses);
+                    
+                    btnCourses.disabled = false;
+                    btnSyllabus.disabled = false;
+                }
+            }, 500);
+        }
+
+        // Build table from courses list
+        function buildTable(courses) {
+            const tBody = document.getElementById('course-table-body');
+            tBody.innerHTML = '';
+            
+            const hasSyllabus = uniData[activeUni].state.syllabus;
+            
+            courses.forEach(c => {
+                const tr = document.createElement('tr');
+                tr.onclick = () => openDrawer(c);
+                
+                let badgeClass = hasSyllabus ? 'syllabus-done' : 'syllabus-none';
+                let badgeText = hasSyllabus ? 'Extraído ✔' : 'No Extraído';
+                
+                tr.innerHTML = `
+                    <td><span class="course-code">${c.code}</span></td>
+                    <td><span class="course-title">${c.name}</span></td>
+                    <td>${c.credits} ECTS</td>
+                    <td>${c.semester}</td>
+                    <td><span class="syllabus-badge ${badgeClass}">${badgeText}</span></td>
+                `;
+                
+                tBody.appendChild(tr);
+            });
+            
+            document.getElementById('course-count').innerText = courses.length;
+        }
+
+        // Search Filter Table
+        function filterTable() {
+            const query = document.getElementById('search-box').value.toLowerCase();
+            const courses = uniData[activeUni].courses;
+            
+            const filtered = courses.filter(c => 
+                c.name.toLowerCase().includes(query) || 
+                c.code.toLowerCase().includes(query)
+            );
+            
+            buildTable(filtered);
+        }
+
+        // Slide-out Drawer Functions
+        function openDrawer(course) {
+            const uni = uniData[activeUni];
+            
+            document.getElementById('drawer-course-code').innerText = course.code;
+            document.getElementById('drawer-course-name').innerText = course.name;
+            document.getElementById('drawer-course-credits').innerText = `${course.credits} ECTS`;
+            document.getElementById('drawer-course-language').innerText = course.language;
+            document.getElementById('drawer-course-professor').innerText = course.professor || "No especificado";
+            document.getElementById('drawer-course-semester').innerText = course.semester;
+            
+            // Set Syllabus detail contents if extracted
+            if (uni.state.syllabus) {
+                document.getElementById('drawer-objectives').innerText = course.objectives;
+                document.getElementById('drawer-program').innerText = course.program;
+                document.getElementById('drawer-evaluation').innerText = course.evaluation;
+            } else {
+                document.getElementById('drawer-objectives').innerText = "Guía docente no extraída. Por favor haz click en 'Extraer Guías Docentes' en el panel de control.";
+                document.getElementById('drawer-program').innerText = "—";
+                document.getElementById('drawer-evaluation').innerText = "—";
+            }
+            
+            document.getElementById('drawer-overlay').classList.add('open');
+            document.getElementById('drawer').classList.add('open');
+        }
+
+        function closeDrawer() {
+            document.getElementById('drawer-overlay').classList.remove('open');
+            document.getElementById('drawer').classList.remove('open');
+        }
+
+        // Initialize view with Oviedo
+        switchUniversity('uniovi');
+    </script>
+</body>
+</html>

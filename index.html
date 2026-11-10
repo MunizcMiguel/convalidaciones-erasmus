@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal ERASMUS de Convalidaciones | Grado en Ingeniería Mecánica - EPI Gijón</title>
+    <!-- Modern Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                        mono: ['"Fira Code"', 'monospace'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#f0f7ff',
+                            100: '#e0effe',
+                            200: '#bae0fd',
+                            500: '#0284c7',
+                            600: '#0369a1',
+                            700: '#003b71',
+                            800: '#002855',
+                            900: '#001938',
+                        },
+                        parma: '#059669',
+                        porto: '#d97706',
+                        upt: '#7c3aed',
+                        thi: '#1d4ed8',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: rgba(0, 0, 0, 0.05);
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(0, 0, 0, 0.35);
+        }
+        .card-hover-effect {
+            transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .card-hover-effect:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 24px -6px rgba(0, 0, 0, 0.08), 0 8px 12px -6px rgba(0, 0, 0, 0.04);
+        }
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(12px);
+        }
+        @media print {
+            .no-print { display: none !important; }
+            .print-only { display: block !important; }
+            body { background: white !important; color: black !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen flex flex-col font-sans">
+
+    <!-- Top Navigation Bar -->
+    <header class="bg-brand-800 text-white shadow-lg sticky top-0 z-40 border-b border-brand-700/50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
+                
+                <!-- Brand Title -->
+                <div class="flex items-center space-x-3.5">
+                    <div class="w-11 h-11 rounded-2xl bg-gradient-to-tr from-sky-400 to-brand-500 flex items-center justify-center font-display font-extrabold text-xl text-white shadow-md shadow-sky-950/40">
+                        EPI
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h1 class="text-base sm:text-lg font-display font-bold tracking-tight text-white">
+                                Portal ERASMUS de Convalidaciones
+                            </h1>
+                            <span class="px-2 py-0.5 text-[10px] font-bold rounded-full bg-sky-500/20 text-sky-200 border border-sky-400/30">
+                                2025–2026
+                            </span>
+                        </div>
+                        <p id="headerDegreeSubtitle" class="text-xs text-sky-200/90 font-medium">
+                            Grado en Ingeniería Mecánica (GIMECA) · Escuela Politécnica de Ingeniería de Gijón (UNIOVI)
+                        </p>
+                    </div>
+
+                    <!-- Degree Switcher Pills -->
+                    <div class="hidden lg:flex items-center p-1 bg-brand-900/90 rounded-2xl border border-brand-700/60 shadow-inner ml-4">
+                        <button id="btnDegreeGimeca" onclick="switchDegree('GIMECA')" class="px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-white text-brand-900 shadow-sm flex items-center gap-1.5">
+                            <span>⚙️</span> Mecánica (GIMECA)
+                        </button>
+                        <button id="btnDegreeGioi" onclick="switchDegree('GIOI')" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white flex items-center gap-1.5">
+                            <span>🏢</span> Organización Ind. (GIOI)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Navigation Tabs & Fast Actions -->
+                <div class="flex items-center flex-wrap gap-2">
+                    <button onclick="switchMainTab('matrix')" id="navTabMatrix" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition bg-brand-700 text-white shadow-sm flex items-center gap-1.5">
+                        <span>📊</span> Matriz de Convalidaciones
+                    </button>
+                    <button onclick="switchMainTab('guide')" id="navTabGuide" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white hover:bg-brand-700/60 flex items-center gap-1.5">
+                        <span>🧭</span> Guía de Destinos
+                    </button>
+                    <button onclick="openPlannerModal()" class="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-500 text-white rounded-xl text-xs font-semibold shadow flex items-center gap-1.5 transition">
+                        <span>📋</span> Simulador de Acuerdo (LA)
+                    </button>
+                    <a id="btnDownloadExcel" href="Tabla_Convalidaciones_ERASMUS.xlsx" download class="px-3.5 py-1.5 bg-sky-600 hover:bg-sky-500 text-white rounded-xl text-xs font-semibold shadow flex items-center gap-1.5 transition">
+                        <span>📥</span> <span id="downloadBtnText">Excel Mecánica</span>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- KPI Summary Bar -->
+        <div class="bg-brand-900/80 border-t border-brand-700/40 text-xs py-2 px-4 sm:px-6 lg:px-8">
+            <!-- Mobile Degree Selector -->
+            <div class="flex lg:hidden items-center justify-center p-1 bg-brand-950/80 rounded-2xl border border-brand-700/60 shadow-inner mb-2 w-full">
+                <button id="btnDegreeGimecaMob" onclick="switchDegree('GIMECA')" class="flex-1 py-1 text-center rounded-xl text-xs font-bold transition bg-white text-brand-900 shadow-sm">
+                    ⚙️ Mecánica
+                </button>
+                <button id="btnDegreeGioiMob" onclick="switchDegree('GIOI')" class="flex-1 py-1 text-center rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white">
+                    🏢 Organización
+                </button>
+            </div>
+
+            <!-- GIMECA KPI Bar -->
+            <div id="kpiBarGimeca" class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-6 text-slate-300">
+                <div class="flex items-center gap-2">
+                    <span class="text-sky-400 font-bold">44</span> asignaturas analizadas (2º, 3º y 4º curso GIMECA)
+                </div>
+                <div class="flex items-center gap-4 flex-wrap">
+                    <div class="flex items-center gap-1.5">
+                        <span class="inline-block w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
+                        <span class="font-medium text-white">🇮🇹 Parma:</span>
+                        <span class="text-emerald-300 font-bold">38 / 44</span> (86%)
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="inline-block w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+                        <span class="font-medium text-white">🇵🇹 Porto:</span>
+                        <span class="text-amber-300 font-bold">25 / 44</span> (57%)
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="inline-block w-2.5 h-2.5 rounded-full bg-purple-400"></span>
+                        <span class="font-medium text-white">🇷🇴 Timișoara:</span>
+                        <span class="text-purple-300 font-bold">32 / 44</span> (73%)
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="inline-block w-2.5 h-2.5 rounded-full bg-blue-400"></span>
+                        <span class="font-medium text-white">🇩🇪 THI (Ingolstadt):</span>
+                        <span class="text-blue-300 font-bold">40 / 44</span> (91%)
+                    </div>
+                    <div class="flex items-center gap-1.5 pl-2 border-l border-brand-700">
+                        <span class="text-amber-300">⭐</span>
+                        <span class="text-slate-200 font-semibold">13 probadas previamente</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GIOI KPI Bar -->
+            <div id="kpiBarGioi" class="hidden max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-y-2 gap-x-6 text-slate-300">
+                <div class="flex items-center gap-2">
+                    <span class="text-sky-400 font-bold">35</span> asignaturas analizadas (2º, 3º y 4º curso GIOI)
+                </div>
+                <div class="flex items-center gap-4 flex-wrap">
+                    <div class="flex items-center gap-1.5">
+                        <span class="inline-block w-2.5 h-2.5 rounded-full bg-amber-400"></span>
+                        <span class="font-medium text-white">🇵🇹 Porto (FEUP - Eng. e Gestão Industrial):</span>
+                        <span class="text-amber-300 font-bold">33 / 35</span> convalidables (<strong class="text-emerald-300 font-extrabold">94.3%</strong>)
+                    </div>
+                    <div class="flex items-center gap-1.5">
+                        <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-amber-500/20 text-amber-200 border border-amber-400/30">
+                            L.EGI + M.EGI
+                        </span>
+                    </div>
+                    <div class="flex items-center gap-1.5 pl-2 border-l border-brand-700">
+                        <span class="text-amber-300">⭐</span>
+                        <span class="text-slate-200 font-semibold">12 convalidaciones probadas previamente</span> con notas registradas
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 w-full flex-1">
+
+        <!-- SECTION 1: CONVALIDATION MATRIX VIEW -->
+        <div id="sectionMatrix">
+            
+            <!-- Toolbar: Search and Filters -->
+            <div class="bg-white rounded-3xl shadow-sm border border-slate-200/80 p-4 sm:p-5 mb-6 glass-panel">
+                <div class="flex flex-col gap-4">
+                    
+                    <!-- Search Input and View Switcher -->
+                    <div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+                        <div class="relative flex-1">
+                            <span class="absolute inset-y-0 left-0 flex items-center pl-3.5 pointer-events-none text-slate-400">
+                                🔍
+                            </span>
+                            <input type="text" id="searchInput" oninput="applyFilters()" placeholder="Buscar por asignatura, código UNIOVI, temario o destino (ej. fluidos, termo, cad, máquinas, estructuras)..."
+                                   class="w-full pl-10 pr-4 py-2.5 text-sm bg-slate-50 border border-slate-200 rounded-2xl focus:outline-none focus:ring-2 focus:ring-sky-500 focus:bg-white transition">
+                            <button id="clearSearchBtn" onclick="clearSearch()" class="hidden absolute inset-y-0 right-0 pr-3.5 flex items-center text-slate-400 hover:text-slate-600 text-xs font-semibold">
+                                ✕ Limpiar
+                            </button>
+                        </div>
+
+                        <!-- View Switcher -->
+                        <div class="flex items-center p-1 bg-slate-100 rounded-2xl border border-slate-200 shrink-0 self-start md:self-auto">
+                            <button onclick="setViewMode('matrix')" id="btnViewMatrix" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition bg-white shadow-sm text-slate-800">
+                                📊 Matriz Global
+                            </button>
+                            <button onclick="setViewMode('cards')" id="btnViewCards" class="px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-slate-500 hover:text-slate-800">
+                                🗂️ Fichas por Asignatura
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Filter Dropdowns Row -->
+                    <div class="flex flex-wrap items-center gap-2.5 pt-2.5 border-t border-slate-100 text-xs">
+                        
+                        <!-- Curso Filter -->
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-slate-400 font-semibold uppercase tracking-wider text-[11px]">Curso:</span>
+                            <select id="filterCurso" onchange="applyFilters()" class="bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1 text-slate-700 font-medium focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                                <option value="ALL">Todos los cursos (2º, 3º, 4º)</option>
+                                <option value="2">2º Curso</option>
+                                <option value="3">3º Curso</option>
+                                <option value="4">4º Curso</option>
+                            </select>
+                        </div>
+
+                        <!-- Semestre Filter -->
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-slate-400 font-semibold uppercase tracking-wider text-[11px]">Semestre:</span>
+                            <select id="filterSemestre" onchange="applyFilters()" class="bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1 text-slate-700 font-medium focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                                <option value="ALL">Todos los semestres</option>
+                                <option value="1">1º Semestre (Otoño)</option>
+                                <option value="2">2º Semestre (Primavera)</option>
+                            </select>
+                        </div>
+
+                        <!-- Carácter Filter -->
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-slate-400 font-semibold uppercase tracking-wider text-[11px]">Tipo:</span>
+                            <select id="filterCaracter" onchange="applyFilters()" class="bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1 text-slate-700 font-medium focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                                <option value="ALL">Obligatorias y Optativas</option>
+                                <option value="Obligatoria">Solo Obligatorias</option>
+                                <option value="Optativa">Solo Optativas</option>
+                            </select>
+                        </div>
+
+                        <!-- Destino Filter -->
+                        <div class="flex items-center gap-1.5">
+                            <span class="text-slate-400 font-semibold uppercase tracking-wider text-[11px]">Destino:</span>
+                            <select id="filterDestino" onchange="applyFilters()" class="bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1 text-slate-700 font-medium focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                                <option value="ALL">Todos los destinos</option>
+                                <option value="parma">🇮🇹 Università di Parma</option>
+                                <option value="feup">🇵🇹 Universidade do Porto (FEUP)</option>
+                                <option value="upt">🇷🇴 Politehnica Timișoara (UPT)</option>
+                                <option value="thi">🇩🇪 TH Ingolstadt (Alemania)</option>
+                            </select>
+                        </div>
+
+                        <!-- Estado Filter -->
+                        <div class="flex items-center gap-1.5 ml-auto">
+                            <span class="text-slate-400 font-semibold uppercase tracking-wider text-[11px]">Estado:</span>
+                            <select id="filterEstado" onchange="applyFilters()" class="bg-slate-50 border border-slate-200 rounded-xl px-2.5 py-1 text-slate-700 font-medium focus:ring-2 focus:ring-sky-500 focus:outline-none">
+                                <option value="ALL">Todos los estados</option>
+                                <option value="PROBADO">⭐ Con histórico probado</option>
+                                <option value="CONVALIDABLE">✅ Convalidables (>75% o probado)</option>
+                                <option value="NO_CONVALIDABLE">❌ Sin convalidación</option>
+                            </select>
+                        </div>
+
+                        <button onclick="resetFilters()" class="text-slate-400 hover:text-sky-600 font-semibold ml-2 transition">
+                            Restablecer
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Active Results Counter -->
+            <div class="flex items-center justify-between text-xs text-slate-500 mb-3 px-1">
+                <div>
+                    Mostrando <span id="counterMatches" class="font-bold text-slate-800">44</span> asignaturas de UNIOVI
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-emerald-500 inline-block"></span> Histórico probado</span>
+                    <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-sky-500 inline-block"></span> Propuesta técnica >75%</span>
+                    <span class="flex items-center gap-1"><span class="w-2.5 h-2.5 rounded-full bg-rose-400 inline-block"></span> Sin convalidación</span>
+                </div>
+            </div>
+
+            <!-- Matrix View Table -->
+            <div id="matrixViewContainer" class="bg-white rounded-3xl shadow-sm border border-slate-200 overflow-hidden">
+                <div class="overflow-x-auto custom-scrollbar">
+                    <table class="w-full text-left border-collapse text-xs">
+                        <thead id="matrixTableHead">
+                            <tr class="border-b border-slate-200 text-white font-display font-bold">
+                                <th colspan="4" class="bg-brand-800 py-3 px-4 border-r border-brand-700">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-base">🎓</span>
+                                            <span>ORIGEN: UNIOVI (Gijón)</span>
+                                        </div>
+                                        <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-brand-700 text-sky-200">GIMECA</span>
+                                    </div>
+                                </th>
+                                <th colspan="4" class="bg-emerald-800 py-3 px-4 border-r border-emerald-700">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-base">🇮🇹</span>
+                                            <span>DESTINO: PARMA</span>
+                                        </div>
+                                        <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-emerald-700 text-emerald-200">Ing. Meccanica</span>
+                                    </div>
+                                </th>
+                                <th colspan="4" class="bg-amber-800 py-3 px-4 border-r border-amber-700">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-base">🇵🇹</span>
+                                            <span>DESTINO: PORTO (FEUP)</span>
+                                        </div>
+                                        <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-amber-700 text-amber-200">Eng. Mecânica</span>
+                                    </div>
+                                </th>
+                                <th colspan="4" class="bg-purple-800 py-3 px-4 border-r border-purple-700">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-base">🇷🇴</span>
+                                            <span>DESTINO: TIMIȘOARA (UPT)</span>
+                                        </div>
+                                        <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-purple-700 text-purple-200">Inginerie Mecanică</span>
+                                    </div>
+                                </th>
+                                <th colspan="4" class="bg-blue-900 py-3 px-4">
+                                    <div class="flex items-center justify-between">
+                                        <div class="flex items-center gap-2">
+                                            <span class="text-base">🇩🇪</span>
+                                            <span>DESTINO: THI (INGOLSTADT)</span>
+                                        </div>
+                                        <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-blue-800 text-blue-200">Maschinenbau B.Eng.</span>
+                                    </div>
+                                </th>
+                            </tr>
+                            <tr class="bg-slate-100 text-slate-600 font-semibold border-b border-slate-200 text-[11px]">
+                                <!-- UNIOVI -->
+                                <th class="py-2.5 px-3 w-64">Asignatura</th>
+                                <th class="py-2.5 px-2 text-center w-12">Curso</th>
+                                <th class="py-2.5 px-2 text-center w-12">Sem</th>
+                                <th class="py-2.5 px-2 text-center w-16 border-r border-slate-200">ECTS</th>
+                                <!-- PARMA -->
+                                <th class="py-2.5 px-3 w-64 bg-emerald-50/50">Asignatura Parma</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-emerald-50/50">Año</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-emerald-50/50">Sem</th>
+                                <th class="py-2.5 px-2 text-center w-16 bg-emerald-50/50 border-r border-slate-200">ECTS</th>
+                                <!-- PORTO -->
+                                <th class="py-2.5 px-3 w-64 bg-amber-50/50">Asignatura Porto</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-amber-50/50">Ano</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-amber-50/50">Sem</th>
+                                <th class="py-2.5 px-2 text-center w-16 bg-amber-50/50 border-r border-slate-200">ECTS</th>
+                                <!-- TIMISOARA -->
+                                <th class="py-2.5 px-3 w-64 bg-purple-50/50">Asignatura UPT</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-purple-50/50">An</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-purple-50/50">Sem</th>
+                                <th class="py-2.5 px-2 text-center w-16 bg-purple-50/50 border-r border-slate-200">ECTS</th>
+                                <!-- THI INGOLSTADT -->
+                                <th class="py-2.5 px-3 w-64 bg-blue-50/50">Asignatura THI</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-blue-50/50">Sem</th>
+                                <th class="py-2.5 px-2 text-center w-12 bg-blue-50/50">Idioma</th>
+                                <th class="py-2.5 px-2 text-center w-16 bg-blue-50/50">ECTS</th>
+                            </tr>
+                        </thead>
+                        <tbody id="matrixTableBody" class="divide-y divide-slate-200/80">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Cards View Grid -->
+            <div id="cardsViewContainer" class="hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <!-- Populated by JS -->
+            </div>
+
+        </div>
+
+        <!-- SECTION 2: DESTINATION SELECTION GUIDE (COMPARATIVE ANALYSIS) -->
+        <div id="sectionGuide" class="hidden space-y-6">
+            
+            <div class="bg-gradient-to-r from-brand-900 via-brand-800 to-slate-900 rounded-3xl p-6 md:p-8 text-white shadow-lg">
+                <span class="px-3 py-1 rounded-full text-xs font-bold bg-sky-500/20 text-sky-200 border border-sky-400/30 inline-block mb-3">
+                    Guía de Orientación al Estudiante
+                </span>
+                <h2 class="text-2xl md:text-3xl font-display font-extrabold tracking-tight">
+                    ¿Qué destino elegir según tu perfil y curso?
+                </h2>
+                <p class="text-sm text-sky-200/90 max-w-3xl mt-2 leading-relaxed">
+                    Comparativa estratégica elaborada por la comisión de movilidad internacional para ayudarte a decidir el mejor destino Erasmus para tu itinerario en el Grado en Ingeniería Mecánica.
+                </p>
+            </div>
+
+            <!-- University Cards Comparison -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- PARMA -->
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+                            <div>
+                                <span class="text-2xl">🇮🇹</span>
+                                <h3 class="font-display font-bold text-lg text-slate-900">Università di Parma</h3>
+                                <p class="text-xs text-slate-500">Parma, Emilia-Romagna (Italia)</p>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                                86% Convalidable
+                            </span>
+                        </div>
+
+                        <div class="space-y-3 text-xs text-slate-600">
+                            <div>
+                                <span class="font-bold text-slate-800 block">Mejor momento de movilidad:</span>
+                                3º Curso Completo o 4º Curso (Semestre de Otoño).
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Puntos Fuertes:</span>
+                                Gran tradición en automoción (entorno "Motor Valley": Ferrari, Dallara, Ducati). Excelente oferta en cálculo de máquinas, vibraciones, oleohidráulica y proyectos de Formula Student.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Idiomas de Impartición:</span>
+                                Grado principalmente en italiano (fácil adaptación) con asignaturas de 3º y máster en inglés. Examen B1/B2 reconocido.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Tasa de Convalidación:</span>
+                                38 de 44 asignaturas con correspondencia directa comprobada (>75%).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://corsi.unipr.it/en/ugov/degreecourse/347209" target="_blank" class="text-emerald-700 font-semibold text-xs hover:underline flex items-center gap-1">
+                            Catálogo Oficial UNIPr ↗
+                        </a>
+                        <button onclick="filterByUniversity('parma')" class="px-3 py-1.5 rounded-xl bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs font-semibold transition">
+                            Ver Asignaturas
+                        </button>
+                    </div>
+                </div>
+
+                <!-- PORTO (FEUP) -->
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+                            <div>
+                                <span class="text-2xl">🇵🇹</span>
+                                <h3 class="font-display font-bold text-lg text-slate-900">Universidade do Porto (FEUP)</h3>
+                                <p class="text-xs text-slate-500">Porto (Portugal)</p>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-amber-50 text-amber-700 border border-amber-200">
+                                57% Convalidable
+                            </span>
+                        </div>
+
+                        <div class="space-y-3 text-xs text-slate-600">
+                            <div>
+                                <span class="font-bold text-slate-800 block">Mejor momento de movilidad:</span>
+                                2º Curso Completo o 3º Curso Completo.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Puntos Fuertes:</span>
+                                Escuela de máxima reputación internacional en Europa. Calidad docente sobresaliente en mecánica de sólidos, mecánica de estructuras, fluidos y procesos de conformado/mecanizado.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Idiomas de Impartición:</span>
+                                Portugués (muy accesible) con abundante bibliografía, tutorías y exámenes en inglés.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Tasa de Convalidación:</span>
+                                25 de 44 asignaturas (menor porcentaje en 4º año debido a la estructura de grado de 3 años / máster integrado).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://sigarra.up.pt/feup/pt/cur_geral.cur_planos_estudos_view?pv_plano_id=30744&pv_ano_lectivo=2025" target="_blank" class="text-amber-700 font-semibold text-xs hover:underline flex items-center gap-1">
+                            Portal SIGARRA FEUP ↗
+                        </a>
+                        <button onclick="filterByUniversity('feup')" class="px-3 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-800 text-xs font-semibold transition">
+                            Ver Asignaturas
+                        </button>
+                    </div>
+                </div>
+
+                <!-- TIMISOARA (UPT) -->
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+                            <div>
+                                <span class="text-2xl">🇷🇴</span>
+                                <h3 class="font-display font-bold text-lg text-slate-900">Politehnica Timișoara (UPT)</h3>
+                                <p class="text-xs text-slate-500">Timișoara (Rumanía)</p>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-purple-50 text-purple-700 border border-purple-200">
+                                73% Convalidable
+                            </span>
+                        </div>
+
+                        <div class="space-y-3 text-xs text-slate-600">
+                            <div>
+                                <span class="font-bold text-slate-800 block">Mejor momento de movilidad:</span>
+                                2º o 3º Curso Completo, o 4º Curso para Prácticas y TFG.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Puntos Fuertes:</span>
+                                Plan técnico muy riguroso alineado con la ingeniería clásica: órganos de máquinas, hidráulica, neumática, metrología y talleres mecánicos. Coste de vida muy reducido para el estudiante.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Idiomas de Impartición:</span>
+                                Programa en inglés disponible para estudiantes internacionales Erasmus en la Facultad de Ingeniería Mecánica.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Tasa de Convalidación:</span>
+                                32 de 44 asignaturas cubiertas con más del 75% del temario.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://mec.upt.ro/" target="_blank" class="text-purple-700 font-semibold text-xs hover:underline flex items-center gap-1">
+                            Facultatea Mecanică UPT ↗
+                        </a>
+                        <button onclick="filterByUniversity('upt')" class="px-3 py-1.5 rounded-xl bg-purple-50 hover:bg-purple-100 text-purple-800 text-xs font-semibold transition">
+                            Ver Asignaturas
+                        </button>
+                    </div>
+                </div>
+
+                <!-- TH INGOLSTADT (THI) -->
+                <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-6 flex flex-col justify-between">
+                    <div>
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100 mb-4">
+                            <div>
+                                <span class="text-2xl">🇩🇪</span>
+                                <h3 class="font-display font-bold text-lg text-slate-900">TH Ingolstadt (THI)</h3>
+                                <p class="text-xs text-slate-500">Ingolstadt, Baviera (Alemania)</p>
+                            </div>
+                            <span class="px-2.5 py-1 rounded-full text-xs font-bold bg-blue-50 text-blue-700 border border-blue-200">
+                                91% Convalidable
+                            </span>
+                        </div>
+
+                        <div class="space-y-3 text-xs text-slate-600">
+                            <div>
+                                <span class="font-bold text-slate-800 block">Mejor momento de movilidad:</span>
+                                3º o 4º Curso Completo (incluyendo prácticas en Audi y TFG).
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Puntos Fuertes:</span>
+                                Sede central de Audi AG y referente europeo en automoción y movilidad eléctrica (CARISSMA). Máxima convalidación del catálogo (40/44 materias): soldadura oficial SLV, FEM, vehículos eléctricos, ecodiseño y gestión de calidad.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Idiomas de Impartición:</span>
+                                Alemán e inglés técnico; asignaturas optativas y proyectos Formula Student/laboratorios en inglés.
+                            </div>
+                            <div>
+                                <span class="font-bold text-slate-800 block">Tasa de Convalidación:</span>
+                                40 de 44 asignaturas cubiertas con >75% del temario (90.9%).
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between">
+                        <a href="https://www.thi.de/maschinenbau/studiengaenge/maschinenbau-beng/" target="_blank" class="text-blue-700 font-semibold text-xs hover:underline flex items-center gap-1">
+                            Catálogo Oficial THI ↗
+                        </a>
+                        <button onclick="filterByUniversity('thi')" class="px-3 py-1.5 rounded-xl bg-blue-50 hover:bg-blue-100 text-blue-800 text-xs font-semibold transition">
+                            Ver Asignaturas
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- Detailed Syllabus & Competencies Modal (Side-by-Side Comparison) -->
+    <div id="detailsModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5">
+        <div class="bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-6xl max-h-[92vh] flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+            
+            <!-- Modal Header -->
+            <div class="px-6 py-4 bg-gradient-to-r from-brand-900 via-brand-800 to-slate-900 text-white flex items-center justify-between border-b border-brand-700">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 rounded-2xl bg-sky-500/20 border border-sky-400/30 flex items-center justify-center text-lg">
+                        📖
+                    </div>
+                    <div>
+                        <div class="flex items-center gap-2">
+                            <h2 id="modalTitleUniovi" class="text-base sm:text-lg font-display font-bold text-white"></h2>
+                            <span id="modalUnioviCode" class="px-2 py-0.5 rounded-full text-[10px] font-mono bg-sky-900/60 text-sky-200 border border-sky-600/40"></span>
+                        </div>
+                        <p id="modalUnioviSubtitle" class="text-xs text-sky-200/80"></p>
+                    </div>
+                </div>
+
+                <div class="flex items-center gap-3">
+                    <a id="modalUnioviOfficialLink" href="#" target="_blank" class="px-3 py-1.5 rounded-xl bg-sky-600/60 hover:bg-sky-600 text-white text-xs font-semibold flex items-center gap-1 transition">
+                        <span>Web Oficial UNIOVI</span> ↗
+                    </a>
+                    <button onclick="closeDetailsModal()" class="w-8 h-8 rounded-full bg-slate-700/60 hover:bg-slate-700 text-slate-300 hover:text-white flex items-center justify-center text-sm transition">
+                        ✕
+                    </button>
+                </div>
+            </div>
+
+            <!-- Modal Subnav / University Tab Selector -->
+            <div class="bg-slate-100 border-b border-slate-200 px-6 py-2.5 flex flex-wrap items-center justify-between gap-3 text-xs">
+                <div class="flex items-center gap-2">
+                    <span class="font-semibold text-slate-500">Comparar con destino:</span>
+                    <div class="flex rounded-xl bg-slate-200/80 p-0.5" id="modalDestSelector">
+                        <button onclick="setModalDestination('parma')" id="tabBtnParma" class="px-3 py-1 rounded-lg font-semibold transition text-slate-700">
+                            🇮🇹 Parma
+                        </button>
+                        <button onclick="setModalDestination('feup')" id="tabBtnFeup" class="px-3 py-1 rounded-lg font-semibold transition text-slate-700">
+                            🇵🇹 Porto (FEUP)
+                        </button>
+                        <button onclick="setModalDestination('upt')" id="tabBtnUpt" class="px-3 py-1 rounded-lg font-semibold transition text-slate-700">
+                            🇷🇴 Timișoara (UPT)
+                        </button>
+                        <button onclick="setModalDestination('thi')" id="tabBtnThi" class="px-3 py-1 rounded-lg font-semibold transition text-slate-700">
+                            🇩🇪 Ingolstadt (THI)
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Histórico Status Badge in Modal -->
+                <div id="modalHistoryBadge" class="flex items-center gap-2">
+                    <!-- Populated by JS -->
+                </div>
+            </div>
+
+            <!-- Technical Note Banner -->
+            <div id="modalTechnicalNote" class="bg-amber-50/70 border-b border-amber-200/60 px-6 py-2.5 text-xs text-amber-900 flex items-start gap-2">
+                <span class="text-amber-600 font-bold">💡 Dictamen Técnico:</span>
+                <span id="modalTechnicalNoteText" class="font-medium text-slate-700"></span>
+            </div>
+
+            <!-- Modal Main Body: Side-by-Side Syllabi Comparison -->
+            <div class="flex-1 overflow-y-auto p-6 custom-scrollbar bg-slate-50/50">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+                    
+                    <!-- LEFT COLUMN: UNIOVI SYLLABUS -->
+                    <div class="bg-white rounded-3xl p-5 border border-slate-200/80 shadow-sm flex flex-col gap-4">
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+                            <div class="flex items-center gap-2">
+                                <span class="w-3 h-3 rounded-full bg-brand-600"></span>
+                                <h3 class="font-display font-bold text-slate-800 text-sm">Guía Docente UNIOVI</h3>
+                            </div>
+                            <span id="modalUnioviCreditsChip" class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-sky-50 text-sky-700 border border-sky-200"></span>
+                        </div>
+
+                        <div class="space-y-4 text-xs">
+                            <!-- Competencias -->
+                            <div>
+                                <h4 class="font-bold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <span>🎯</span> Competencias y Resultados de Aprendizaje
+                                </h4>
+                                <div id="modalUnioviCompetencias" class="bg-slate-50 p-3 rounded-2xl border border-slate-200/70 text-slate-600 font-sans leading-relaxed whitespace-pre-line max-h-48 overflow-y-auto custom-scrollbar"></div>
+                            </div>
+
+                            <!-- Contenidos / Temario -->
+                            <div>
+                                <h4 class="font-bold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <span>📚</span> Contenidos del Temario (Capítulos)
+                                </h4>
+                                <div id="modalUnioviContenidos" class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200/70 text-slate-700 font-sans leading-relaxed whitespace-pre-line max-h-64 overflow-y-auto custom-scrollbar"></div>
+                            </div>
+
+                            <!-- Evaluación -->
+                            <div>
+                                <h4 class="font-bold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <span>⚖️</span> Criterios y Sistema de Evaluación
+                                </h4>
+                                <div id="modalUnioviEvaluacion" class="bg-slate-50 p-3 rounded-2xl border border-slate-200/70 text-slate-600 font-sans leading-relaxed whitespace-pre-line max-h-40 overflow-y-auto custom-scrollbar"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- RIGHT COLUMN: DESTINATION UNIVERSITY SYLLABUS -->
+                    <div class="bg-white rounded-3xl p-5 border border-slate-200/80 shadow-sm flex flex-col gap-4">
+                        <div class="flex items-center justify-between pb-3 border-b border-slate-100">
+                            <div class="flex items-center gap-2">
+                                <span id="modalDestDot" class="w-3 h-3 rounded-full bg-emerald-600"></span>
+                                <h3 id="modalDestHeaderTitle" class="font-display font-bold text-slate-800 text-sm"></h3>
+                            </div>
+                            <div class="flex items-center gap-2">
+                                <span id="modalDestCreditsChip" class="px-2.5 py-0.5 rounded-full text-xs font-semibold"></span>
+                                <a id="modalDestOfficialLink" href="#" target="_blank" class="px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold flex items-center gap-1 transition">
+                                    <span>Ficha oficial</span> ↗
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Destination Content or Empty Alert -->
+                        <div id="modalDestAvailableContent" class="space-y-4 text-xs">
+                            <!-- Objectives -->
+                            <div>
+                                <h4 class="font-bold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <span>🎯</span> Objetivos y Competencias (Learning Objectives)
+                                </h4>
+                                <div id="modalDestObjectives" class="bg-slate-50 p-3 rounded-2xl border border-slate-200/70 text-slate-600 font-sans leading-relaxed whitespace-pre-line max-h-48 overflow-y-auto custom-scrollbar"></div>
+                            </div>
+
+                            <!-- Course Programme / Syllabus -->
+                            <div>
+                                <h4 class="font-bold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <span>📚</span> Programa Docente y Temario
+                                </h4>
+                                <div id="modalDestProgram" class="bg-slate-50 p-3.5 rounded-2xl border border-slate-200/70 text-slate-700 leading-relaxed whitespace-pre-line max-h-64 overflow-y-auto custom-scrollbar"></div>
+                            </div>
+
+                            <!-- Assessment -->
+                            <div>
+                                <h4 class="font-bold text-slate-700 mb-1 flex items-center gap-1.5">
+                                    <span>⚖️</span> Método de Evaluación (Assessment)
+                                </h4>
+                                <div id="modalDestEvaluation" class="bg-slate-50 p-3 rounded-2xl border border-slate-200/70 text-slate-600 font-sans leading-relaxed whitespace-pre-line max-h-40 overflow-y-auto custom-scrollbar"></div>
+                            </div>
+                        </div>
+
+                        <!-- When No Convalidable -->
+                        <div id="modalDestNotAvailable" class="hidden py-16 flex flex-col items-center justify-center text-center p-6 bg-rose-50/50 rounded-2xl border border-rose-100">
+                            <span class="text-3xl mb-2">❌</span>
+                            <h4 class="font-display font-bold text-rose-800 text-sm mb-1">Sin asignatura equivalente convalidable</h4>
+                            <p class="text-xs text-rose-600 max-w-sm">
+                                No se ha identificado una asignatura en el catálogo oficial de este destino que cubra más del 75% del temario de esta asignatura de UNIOVI.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Modal Footer -->
+            <div class="px-6 py-3.5 bg-slate-100 border-t border-slate-200 flex items-center justify-between text-xs text-slate-500">
+                <div class="flex items-center gap-2">
+                    <span class="font-semibold text-slate-700">💡 Tip:</span>
+                    <span>Cambia de universidad destino en cualquier momento pulsando las pestañas superiores.</span>
+                </div>
+                <button onclick="closeDetailsModal()" class="px-4 py-1.5 bg-slate-800 hover:bg-slate-700 text-white rounded-xl font-semibold transition">
+                    Cerrar
+                </button>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ERASMUS Learning Agreement Simulator Modal -->
+    <div id="plannerModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5">
+        <div class="bg-white rounded-3xl shadow-2xl border border-slate-200 w-full max-w-5xl max-h-[92vh] flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-150">
+            
+            <div class="px-6 py-4 bg-brand-800 text-white flex items-center justify-between border-b border-brand-700">
+                <div class="flex items-center gap-2.5">
+                    <span class="text-xl">📋</span>
+                    <div>
+                        <h2 class="text-base font-display font-bold">Simulador de Acuerdo de Aprendizaje (Learning Agreement)</h2>
+                        <p class="text-xs text-sky-200">Planifica tus convalidaciones y comprueba en tiempo real el balance de créditos ECTS</p>
+                    </div>
+                </div>
+                <button onclick="closePlannerModal()" class="w-8 h-8 rounded-full bg-slate-700 hover:bg-slate-600 text-white flex items-center justify-center text-sm">
+                    ✕
+                </button>
+            </div>
+
+            <div class="p-6 overflow-y-auto flex-1 custom-scrollbar space-y-5">
+                
+                <!-- Destination, Year, Sem Selection -->
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 bg-slate-50 p-4 rounded-2xl border border-slate-200">
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Universidad Destino:</label>
+                        <select id="plannerDestSelect" onchange="updatePlannerTable()" class="w-full text-xs bg-white border border-slate-300 rounded-xl p-2 font-medium">
+                            <option value="parma">🇮🇹 Università di Parma (Italia)</option>
+                            <option value="feup">🇵🇹 Universidade do Porto - FEUP (Portugal)</option>
+                            <option value="upt">🇷🇴 Politehnica Timișoara (Rumanía)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Curso UNIOVI en Movilidad:</label>
+                        <select id="plannerYearSelect" onchange="updatePlannerTable()" class="w-full text-xs bg-white border border-slate-300 rounded-xl p-2 font-medium">
+                            <option value="3">3º Curso (Recomendado Erasmus)</option>
+                            <option value="2">2º Curso</option>
+                            <option value="4">4º Curso</option>
+                            <option value="ALL">Todos los cursos</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs font-bold text-slate-600 mb-1">Periodo de Movilidad:</label>
+                        <select id="plannerSemSelect" onchange="updatePlannerTable()" class="w-full text-xs bg-white border border-slate-300 rounded-xl p-2 font-medium">
+                            <option value="ALL">Curso Completo (Anual · Objetivo 60 ECTS)</option>
+                            <option value="1">Primer Semestre (Otoño · Objetivo 30 ECTS)</option>
+                            <option value="2">Segundo Semestre (Primavera · Objetivo 30 ECTS)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Simulation Summary KPI Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-4 gap-3">
+                    <div class="p-3 bg-sky-50 border border-sky-200 rounded-2xl">
+                        <div class="text-[11px] font-semibold text-sky-700">Asignaturas Seleccionadas</div>
+                        <div id="plannerCountSelected" class="text-xl font-display font-extrabold text-sky-900 mt-0.5">0</div>
+                    </div>
+                    <div class="p-3 bg-brand-50 border border-brand-200 rounded-2xl">
+                        <div class="text-[11px] font-semibold text-brand-700">Créditos ECTS Origen (UNIOVI)</div>
+                        <div id="plannerCreditsUniovi" class="text-xl font-display font-extrabold text-brand-900 mt-0.5">0 ECTS</div>
+                    </div>
+                    <div class="p-3 bg-emerald-50 border border-emerald-200 rounded-2xl">
+                        <div class="text-[11px] font-semibold text-emerald-700">Créditos ECTS Destino</div>
+                        <div id="plannerCreditsDest" class="text-xl font-display font-extrabold text-emerald-900 mt-0.5">0 ECTS</div>
+                    </div>
+                    <div class="p-3 bg-amber-50 border border-amber-200 rounded-2xl">
+                        <div class="text-[11px] font-semibold text-amber-700">Con Histórico Probado</div>
+                        <div id="plannerTestedCount" class="text-xl font-display font-extrabold text-amber-900 mt-0.5">0</div>
+                    </div>
+                </div>
+
+                <!-- Credit Balance Health Alert -->
+                <div id="plannerCreditAlert" class="hidden p-3 rounded-2xl text-xs flex items-center gap-2"></div>
+
+                <!-- Proposed Agreement Table -->
+                <div class="border border-slate-200 rounded-2xl overflow-hidden shadow-sm">
+                    <table class="w-full text-left text-xs border-collapse">
+                        <thead class="bg-slate-100 font-semibold text-slate-700 border-b border-slate-200">
+                            <tr>
+                                <th class="p-2.5 w-10 text-center">Incluir</th>
+                                <th class="p-2.5">Asignatura UNIOVI</th>
+                                <th class="p-2.5 text-center">Curso/Sem</th>
+                                <th class="p-2.5 text-center">ECTS UNIOVI</th>
+                                <th class="p-2.5">Asignatura Destino</th>
+                                <th class="p-2.5 text-center">Curso/Sem Destino</th>
+                                <th class="p-2.5 text-center">ECTS Destino</th>
+                                <th class="p-2.5 text-center">Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody id="plannerTableBody" class="divide-y divide-slate-100">
+                            <!-- Populated by JS -->
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+
+            <div class="px-6 py-3.5 bg-slate-100 border-t border-slate-200 flex items-center justify-between text-xs">
+                <span class="text-slate-500">Puedes imprimir este borrador oficial para presentarlo en la reunión con el coordinador Erasmus.</span>
+                <div class="flex items-center gap-2">
+                    <button onclick="window.print()" class="px-3.5 py-1.5 bg-slate-700 hover:bg-slate-600 text-white rounded-xl font-semibold transition">
+                        🖨️ Imprimir Borrador
+                    </button>
+                    <button onclick="closePlannerModal()" class="px-4 py-1.5 bg-brand-800 hover:bg-brand-700 text-white rounded-xl font-semibold transition">
+                        Guardar Selección
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-8 border-t border-slate-800 mt-auto no-print">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>
+                <p class="font-display font-semibold text-white">Escuela Politécnica de Ingeniería de Gijón (EPI Gijón)</p>
+                <p class="text-slate-500 text-[11px] mt-0.5">Universidad de Oviedo · Grado en Ingeniería Mecánica · Catálogo Oficial de Convalidaciones ERASMUS+</p>
+            </div>
+            <div class="flex items-center gap-4 text-[11px]">
+                <a href="Tabla_Convalidaciones_ERASMUS.xlsx" class="hover:text-sky-400 transition">Descargar Excel Maestro</a>
+                <span class="text-slate-700">|</span>
+                <span class="text-slate-500">Auditoría Técnica Completada · Junio 2026</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Load Consolidated Convalidation Data -->
+    <script src="convalidaciones_data.js"></script>
+
+    <!-- Interactive Script -->
+    <script>
+        let currentDegree = 'GIMECA'; // 'GIMECA' or 'GIOI'
+        let allData = [];
+        let filteredData = [];
+        let viewMode = 'matrix'; // 'matrix' or 'cards'
+        let currentModalCourse = null;
+        let currentModalDest = 'parma';
+        let plannerSelections = new Set();
+
+        document.addEventListener('DOMContentLoaded', () => {
+            initDegreeData('GIMECA');
+        });
+
+        function switchDegree(deg) {
+            if (currentDegree === deg) return;
+            currentDegree = deg;
+
+            const btnGim = document.getElementById('btnDegreeGimeca');
+            const btnGio = document.getElementById('btnDegreeGioi');
+            const btnGimMob = document.getElementById('btnDegreeGimecaMob');
+            const btnGioMob = document.getElementById('btnDegreeGioiMob');
+            const kpiGim = document.getElementById('kpiBarGimeca');
+            const kpiGio = document.getElementById('kpiBarGioi');
+            const subTitle = document.getElementById('headerDegreeSubtitle');
+            const dlBtn = document.getElementById('btnDownloadExcel');
+            const dlText = document.getElementById('downloadBtnText');
+            const filterDest = document.getElementById('filterDestino');
+
+            if (deg === 'GIMECA') {
+                if (btnGim) btnGim.className = 'px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-white text-brand-900 shadow-sm flex items-center gap-1.5';
+                if (btnGio) btnGio.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white flex items-center gap-1.5';
+                if (btnGimMob) btnGimMob.className = 'flex-1 py-1 text-center rounded-xl text-xs font-bold transition bg-white text-brand-900 shadow-sm';
+                if (btnGioMob) btnGioMob.className = 'flex-1 py-1 text-center rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white';
+                kpiGim.classList.remove('hidden');
+                kpiGio.classList.add('hidden');
+                subTitle.textContent = 'Grado en Ingeniería Mecánica (GIMECA) · Escuela Politécnica de Ingeniería de Gijón (UNIOVI)';
+                dlBtn.href = 'Tabla_Convalidaciones_ERASMUS.xlsx';
+                dlText.textContent = 'Excel Mecánica';
+
+                filterDest.innerHTML = `
+                    <option value="ALL">Todos los destinos</option>
+                    <option value="parma">🇮🇹 Università di Parma</option>
+                    <option value="feup">🇵🇹 Universidade do Porto (FEUP)</option>
+                    <option value="upt">🇷🇴 Politehnica Timișoara (UPT)</option>
+                    <option value="thi">🇩🇪 TH Ingolstadt (Alemania)</option>
+                `;
+            } else {
+                if (btnGio) btnGio.className = 'px-3.5 py-1.5 rounded-xl text-xs font-bold transition bg-white text-brand-900 shadow-sm flex items-center gap-1.5';
+                if (btnGim) btnGim.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white flex items-center gap-1.5';
+                if (btnGioMob) btnGioMob.className = 'flex-1 py-1 text-center rounded-xl text-xs font-bold transition bg-white text-brand-900 shadow-sm';
+                if (btnGimMob) btnGimMob.className = 'flex-1 py-1 text-center rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white';
+                kpiGim.classList.add('hidden');
+                kpiGio.classList.remove('hidden');
+                subTitle.textContent = 'Grado en Ingeniería de Organización Industrial (GIOI) · Escuela Politécnica de Ingeniería de Gijón (UNIOVI)';
+                dlBtn.href = 'Tabla_Convalidaciones_GIOI_Oporto.xlsx';
+                dlText.textContent = 'Excel Organización (Oporto)';
+
+                filterDest.innerHTML = `
+                    <option value="ALL">Todos los destinos</option>
+                    <option value="feup">🇵🇹 Universidade do Porto - FEUP (L.EGI / M.EGI)</option>
+                `;
+            }
+
+            initDegreeData(deg);
+        }
+
+        function initDegreeData(deg) {
+            const dataPool = (deg === 'GIOI') ? 
+                (window.CONVALIDACIONES_DATA_GIOI || []) : 
+                (window.CONVALIDACIONES_DATA_GIMECA || window.CONVALIDACIONES_DATA || []);
+
+            if (dataPool && Array.isArray(dataPool) && dataPool.length > 0) {
+                allData = dataPool;
+                plannerSelections.clear();
+                allData.forEach(item => {
+                    const d = item.destinos;
+                    if (d && (d.parma || d.feup || d.upt || d.thi)) {
+                        plannerSelections.add(item.uniovi.codigo);
+                    }
+                });
+                renderMatrixHeader();
+                applyFilters();
+            } else {
+                console.error("Error al cargar datos para titulación:", deg);
+            }
+        }
+
+        function renderMatrixHeader() {
+            const thead = document.getElementById('matrixTableHead');
+            if (!thead) return;
+            if (currentDegree === 'GIOI') {
+                thead.innerHTML = `
+                    <tr class="border-b border-slate-200 text-white font-display font-bold">
+                        <th colspan="4" class="bg-brand-800 py-3 px-4 border-r border-brand-700">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🎓</span>
+                                    <span>ORIGEN: UNIOVI (Gijón)</span>
+                                </div>
+                                <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-brand-700 text-sky-200">GIOI · Organización Industrial</span>
+                            </div>
+                        </th>
+                        <th colspan="5" class="bg-amber-800 py-3 px-4">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🇵🇹</span>
+                                    <span>DESTINO: PORTO (FEUP)</span>
+                                </div>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-amber-700 text-amber-200">L.EGI + M.EGI</span>
+                                    <span class="text-[10px] font-bold px-2 py-0.5 rounded-full bg-emerald-700 text-emerald-100">94.3% Convalidable</span>
+                                </div>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr class="bg-slate-100 text-slate-600 font-semibold border-b border-slate-200 text-[11px]">
+                        <!-- UNIOVI -->
+                        <th class="py-2.5 px-3 w-72">Asignatura GIOI</th>
+                        <th class="py-2.5 px-2 text-center w-14">Curso</th>
+                        <th class="py-2.5 px-2 text-center w-14">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-16 border-r border-slate-200">ECTS</th>
+                        <!-- PORTO -->
+                        <th class="py-2.5 px-3 w-80 bg-amber-50/50">Asignatura Porto (FEUP)</th>
+                        <th class="py-2.5 px-2 text-center w-24 bg-amber-50/50">Ciclo / Grau</th>
+                        <th class="py-2.5 px-2 text-center w-14 bg-amber-50/50">Ano</th>
+                        <th class="py-2.5 px-2 text-center w-14 bg-amber-50/50">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-16 bg-amber-50/50">ECTS</th>
+                    </tr>
+                `;
+            } else {
+                thead.innerHTML = `
+                    <tr class="border-b border-slate-200 text-white font-display font-bold">
+                        <th colspan="4" class="bg-brand-800 py-3 px-4 border-r border-brand-700">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🎓</span>
+                                    <span>ORIGEN: UNIOVI (Gijón)</span>
+                                </div>
+                                <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-brand-700 text-sky-200">GIMECA · Mecánica</span>
+                            </div>
+                        </th>
+                        <th colspan="4" class="bg-emerald-800 py-3 px-4 border-r border-emerald-700">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🇮🇹</span>
+                                    <span>DESTINO: PARMA</span>
+                                </div>
+                                <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-emerald-700 text-emerald-200">Ing. Meccanica</span>
+                            </div>
+                        </th>
+                        <th colspan="4" class="bg-amber-800 py-3 px-4 border-r border-amber-700">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🇵🇹</span>
+                                    <span>DESTINO: PORTO (FEUP)</span>
+                                </div>
+                                <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-amber-700 text-amber-200">Eng. Mecânica</span>
+                            </div>
+                        </th>
+                        <th colspan="4" class="bg-purple-800 py-3 px-4 border-r border-purple-700">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🇷🇴</span>
+                                    <span>DESTINO: TIMIȘOARA (UPT)</span>
+                                </div>
+                                <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-purple-700 text-purple-200">Inginerie Mecanică</span>
+                            </div>
+                        </th>
+                        <th colspan="4" class="bg-blue-900 py-3 px-4">
+                            <div class="flex items-center justify-between">
+                                <div class="flex items-center gap-2">
+                                    <span class="text-base">🇩🇪</span>
+                                    <span>DESTINO: THI (INGOLSTADT)</span>
+                                </div>
+                                <span class="text-[10px] font-normal px-2 py-0.5 rounded-full bg-blue-800 text-blue-200">Maschinenbau B.Eng.</span>
+                            </div>
+                        </th>
+                    </tr>
+                    <tr class="bg-slate-100 text-slate-600 font-semibold border-b border-slate-200 text-[11px]">
+                        <!-- UNIOVI -->
+                        <th class="py-2.5 px-3 w-64">Asignatura</th>
+                        <th class="py-2.5 px-2 text-center w-12">Curso</th>
+                        <th class="py-2.5 px-2 text-center w-12">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-16 border-r border-slate-200">ECTS</th>
+                        <!-- PARMA -->
+                        <th class="py-2.5 px-3 w-64 bg-emerald-50/50">Asignatura Parma</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-emerald-50/50">Año</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-emerald-50/50">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-16 bg-emerald-50/50 border-r border-slate-200">ECTS</th>
+                        <!-- PORTO -->
+                        <th class="py-2.5 px-3 w-64 bg-amber-50/50">Asignatura Porto</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-amber-50/50">Ano</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-amber-50/50">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-16 bg-amber-50/50 border-r border-slate-200">ECTS</th>
+                        <!-- TIMISOARA -->
+                        <th class="py-2.5 px-3 w-64 bg-purple-50/50">Asignatura UPT</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-purple-50/50">An</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-purple-50/50">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-16 bg-purple-50/50 border-r border-slate-200">ECTS</th>
+                        <!-- THI INGOLSTADT -->
+                        <th class="py-2.5 px-3 w-64 bg-blue-50/50">Asignatura THI</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-blue-50/50">Sem</th>
+                        <th class="py-2.5 px-2 text-center w-12 bg-blue-50/50">Idioma</th>
+                        <th class="py-2.5 px-2 text-center w-16 bg-blue-50/50">ECTS</th>
+                    </tr>
+                `;
+            }
+        }
+
+        // ----------------- TABS SWITCHER -----------------
+        function switchMainTab(tab) {
+            const secMatrix = document.getElementById('sectionMatrix');
+            const secGuide = document.getElementById('sectionGuide');
+            const navMatrix = document.getElementById('navTabMatrix');
+            const navGuide = document.getElementById('navTabGuide');
+
+            if (tab === 'matrix') {
+                secMatrix.classList.remove('hidden');
+                secGuide.classList.add('hidden');
+                navMatrix.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition bg-brand-700 text-white shadow-sm flex items-center gap-1.5';
+                navGuide.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white hover:bg-brand-700/60 flex items-center gap-1.5';
+            } else {
+                secMatrix.classList.add('hidden');
+                secGuide.classList.remove('hidden');
+                navGuide.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition bg-brand-700 text-white shadow-sm flex items-center gap-1.5';
+                navMatrix.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-sky-200 hover:text-white hover:bg-brand-700/60 flex items-center gap-1.5';
+            }
+        }
+
+        function filterByUniversity(destKey) {
+            switchMainTab('matrix');
+            document.getElementById('filterDestino').value = destKey;
+            applyFilters();
+        }
+
+        function extractSectionText(sec) {
+            if (!sec) return '';
+            if (typeof sec === 'string') return sec.trim();
+            if (typeof sec === 'object') {
+                if (sec.texto_plano) return String(sec.texto_plano).trim();
+                if (sec.texto) return String(sec.texto).trim();
+                if (sec.content) return String(sec.content).trim();
+                if (sec.description) return String(sec.description).trim();
+                if (Array.isArray(sec)) return sec.map(extractSectionText).filter(Boolean).join('\n\n');
+                const parts = [];
+                for (const [k, v] of Object.entries(sec)) {
+                    if (k === 'heading') continue;
+                    const sub = extractSectionText(v);
+                    if (sub) parts.push(sub);
+                }
+                if (parts.length > 0) return parts.join('\n\n');
+                if (sec.heading) return String(sec.heading).trim();
+            }
+            const s = String(sec).trim();
+            return s === '[object Object]' ? '' : s;
+        }
+
+        // ----------------- FILTERS & SEARCH -----------------
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.trim().toLowerCase();
+            const curso = document.getElementById('filterCurso').value;
+            const semestre = document.getElementById('filterSemestre').value;
+            const caracter = document.getElementById('filterCaracter').value;
+            const destino = document.getElementById('filterDestino').value;
+            const estado = document.getElementById('filterEstado').value;
+
+            document.getElementById('clearSearchBtn').classList.toggle('hidden', query === '');
+
+            filteredData = allData.filter(item => {
+                const u = item.uniovi;
+
+                if (curso !== 'ALL' && u.curso_num.toString() !== curso) return false;
+                if (semestre !== 'ALL' && u.semestre.toString() !== semestre) return false;
+                if (caracter !== 'ALL' && u.caracter !== caracter) return false;
+
+                if (destino !== 'ALL') {
+                    const destObj = item.destinos[destino];
+                    if (!destObj) return false;
+                }
+
+                if (estado === 'PROBADO') {
+                    const hasTested = Object.values(item.destinos).some(d => d && d.historico && d.historico.probado_previamente);
+                    if (!hasTested) return false;
+                } else if (estado === 'CONVALIDABLE') {
+                    const hasAny = Object.values(item.destinos).some(d => d !== null);
+                    if (!hasAny) return false;
+                } else if (estado === 'NO_CONVALIDABLE') {
+                    const hasNone = Object.values(item.destinos).every(d => d === null);
+                    if (!hasNone) return false;
+                }
+
+                if (query) {
+                    const textSource = [
+                        u.codigo,
+                        u.nombre,
+                        u.materia,
+                        item.nota_tecnica || '',
+                        extractSectionText(u.sections ? u.sections.contenidos : ''),
+                        extractSectionText(u.sections ? (u.sections.competencias || u.sections.competencias_resultados_aprendizaje) : ''),
+                        item.destinos.parma ? item.destinos.parma.nombre : '',
+                        item.destinos.parma ? item.destinos.parma.codigo : '',
+                        item.destinos.feup ? item.destinos.feup.nombre : '',
+                        item.destinos.feup ? item.destinos.feup.codigo : '',
+                        item.destinos.upt ? item.destinos.upt.nombre : '',
+                        item.destinos.upt ? item.destinos.upt.codigo : '',
+                        item.destinos.thi ? item.destinos.thi.nombre : '',
+                        item.destinos.thi ? item.destinos.thi.codigo : '',
+                    ].join(' ').toLowerCase();
+
+                    if (!textSource.includes(query)) return false;
+                }
+
+                return true;
+            });
+
+            document.getElementById('counterMatches').textContent = filteredData.length;
+
+            if (viewMode === 'matrix') {
+                renderMatrixView();
+            } else {
+                renderCardsView();
+            }
+        }
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            applyFilters();
+        }
+
+        function resetFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('filterCurso').value = 'ALL';
+            document.getElementById('filterSemestre').value = 'ALL';
+            document.getElementById('filterCaracter').value = 'ALL';
+            document.getElementById('filterDestino').value = 'ALL';
+            document.getElementById('filterEstado').value = 'ALL';
+            applyFilters();
+        }
+
+        function setViewMode(mode) {
+            viewMode = mode;
+            const btnM = document.getElementById('btnViewMatrix');
+            const btnC = document.getElementById('btnViewCards');
+            const containerM = document.getElementById('matrixViewContainer');
+            const containerC = document.getElementById('cardsViewContainer');
+
+            if (mode === 'matrix') {
+                btnM.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition bg-white shadow-sm text-slate-800';
+                btnC.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-slate-500 hover:text-slate-800';
+                containerM.classList.remove('hidden');
+                containerC.classList.add('hidden');
+                renderMatrixView();
+            } else {
+                btnC.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition bg-white shadow-sm text-slate-800';
+                btnM.className = 'px-3.5 py-1.5 rounded-xl text-xs font-semibold transition text-slate-500 hover:text-slate-800';
+                containerM.classList.add('hidden');
+                containerC.classList.remove('hidden');
+                renderCardsView();
+            }
+        }
+
+        // ----------------- MATRIX VIEW RENDERER -----------------
+        function renderMatrixView() {
+            const tbody = document.getElementById('matrixTableBody');
+            const totalCols = (currentDegree === 'GIOI') ? 9 : 20;
+
+            if (filteredData.length === 0) {
+                tbody.innerHTML = `
+                    <tr><td colspan="${totalCols}" class="p-12 text-center text-slate-400 font-medium">
+                        No se encontraron asignaturas con los filtros seleccionados.
+                    </td></tr>`;
+                return;
+            }
+
+            let html = '';
+            filteredData.forEach(item => {
+                const u = item.uniovi;
+                const d = item.destinos;
+
+                html += `<tr class="hover:bg-slate-50/80 transition group">`;
+
+                // UNIOVI Cell
+                html += `
+                    <td class="py-2.5 px-3">
+                        <div class="flex items-center justify-between gap-1">
+                            <span class="font-semibold text-slate-800 cursor-pointer hover:text-brand-600 transition" onclick="openDetailsModal('${u.codigo}')">
+                                ${u.nombre}
+                            </span>
+                            <a href="${u.link}" target="_blank" title="Ficha oficial UNIOVI" class="text-slate-400 hover:text-brand-600 transition text-[11px]">↗</a>
+                        </div>
+                        <div class="flex items-center gap-1.5 mt-0.5">
+                            <span class="font-mono text-[10px] text-slate-400">${u.codigo}</span>
+                            <span class="px-1.5 py-0.2 rounded text-[9px] font-medium ${u.caracter === 'Obligatoria' ? 'bg-sky-50 text-sky-700' : 'bg-slate-100 text-slate-600'}">
+                                ${u.caracter}
+                            </span>
+                            <button onclick="openDetailsModal('${u.codigo}')" class="text-[10px] text-brand-600 font-semibold hover:underline">
+                                Ver temario 👁️
+                            </button>
+                        </div>
+                    </td>
+                    <td class="py-2.5 px-2 text-center font-medium text-slate-600">${u.curso_num}º</td>
+                    <td class="py-2.5 px-2 text-center font-medium text-slate-600">S${u.semestre}</td>
+                    <td class="py-2.5 px-2 text-center font-bold text-brand-800 border-r border-slate-200">${u.creditos}</td>
+                `;
+
+                if (currentDegree === 'GIOI') {
+                    // PORTO GIOI Specific Cells (5 cols)
+                    const f = d.feup;
+                    if (!f) {
+                        html += `
+                            <td colspan="5" class="py-2.5 px-3 text-center bg-rose-50/40">
+                                <span class="px-2.5 py-1 rounded-md text-[10px] font-semibold bg-rose-50 text-rose-600 border border-rose-200">
+                                    NO CONVALIDABLE
+                                </span>
+                            </td>
+                        `;
+                    } else {
+                        const isTested = f.historico && f.historico.probado_previamente;
+                        const badge = isTested ? 
+                            `<span class="px-1.5 py-0.2 rounded text-[9px] font-bold bg-emerald-100 text-emerald-800" title="Validada: ${f.historico.anios_probados.join(', ')} · Media: ${f.historico.nota_media}/10">⭐ Validada</span>` : 
+                            `<span class="px-1.5 py-0.2 rounded text-[9px] font-semibold bg-sky-50 text-sky-700">🔬 >75%</span>`;
+
+                        html += `
+                            <td class="py-2.5 px-3 bg-amber-50/30">
+                                <div class="flex items-center justify-between gap-1">
+                                    <span class="font-medium text-slate-800 cursor-pointer hover:underline" onclick="openDetailsModal('${u.codigo}', 'feup')">
+                                        ${f.nombre}
+                                    </span>
+                                    <a href="${f.link}" target="_blank" title="Ficha oficial SIGARRA FEUP" class="text-slate-400 hover:text-slate-700 text-[11px]">↗</a>
+                                </div>
+                                <div class="flex items-center gap-1.5 mt-0.5">
+                                    <span class="font-mono text-[10px] text-slate-400">${f.codigo}</span>
+                                    ${badge}
+                                </div>
+                            </td>
+                            <td class="py-2.5 px-2 text-center font-medium text-amber-900 bg-amber-50/30 text-[10px]">
+                                <span class="px-1.5 py-0.5 rounded bg-amber-100/80 font-bold">${f.grau ? f.grau.split(' ')[0] : 'L.EGI'}</span>
+                            </td>
+                            <td class="py-2.5 px-2 text-center font-medium text-slate-600 bg-amber-50/30">${f.curso ? f.curso + 'º' : '—'}</td>
+                            <td class="py-2.5 px-2 text-center font-medium text-slate-600 bg-amber-50/30">${f.semestre ? 'S' + f.semestre : '—'}</td>
+                            <td class="py-2.5 px-2 text-center font-bold text-slate-700 bg-amber-50/30">${f.creditos}</td>
+                        `;
+                    }
+                } else {
+                    // GIMECA Cells
+                    html += renderDestMatrixCell(d.parma, u.codigo, 'parma', 'bg-emerald-50/30');
+                    html += renderDestMatrixCell(d.feup, u.codigo, 'feup', 'bg-amber-50/30');
+                    html += renderDestMatrixCell(d.upt, u.codigo, 'upt', 'bg-purple-50/30', true);
+                    html += renderDestMatrixCell(d.thi, u.codigo, 'thi', 'bg-blue-50/30', false);
+                }
+
+                html += `</tr>`;
+            });
+
+            tbody.innerHTML = html;
+        }
+
+        function renderDestMatrixCell(dest, uCode, destKey, bgClass, hasBorderRight = true) {
+            const borderR = hasBorderRight ? 'border-r border-slate-200' : '';
+            if (!dest) {
+                return `
+                    <td colspan="4" class="py-2.5 px-3 text-center ${bgClass} ${borderR}">
+                        <span class="px-2.5 py-1 rounded-md text-[10px] font-semibold bg-rose-50 text-rose-600 border border-rose-200">
+                            NO CONVALIDABLE
+                        </span>
+                    </td>
+                `;
+            }
+
+            const isTested = dest.historico && dest.historico.probado_previamente;
+            const badge = isTested ? 
+                `<span class="px-1.5 py-0.2 rounded text-[9px] font-bold bg-emerald-100 text-emerald-800" title="Validada: ${dest.historico.anios_probados.join(', ')} · Media: ${dest.historico.nota_media}/10">⭐ Validada</span>` : 
+                `<span class="px-1.5 py-0.2 rounded text-[9px] font-semibold bg-sky-50 text-sky-700">🔬 >75%</span>`;
+
+            return `
+                <td class="py-2.5 px-3 ${bgClass}">
+                    <div class="flex items-center justify-between gap-1">
+                        <span class="font-medium text-slate-800 cursor-pointer hover:underline" onclick="openDetailsModal('${uCode}', '${destKey}')">
+                            ${dest.nombre}
+                        </span>
+                        <a href="${dest.link}" target="_blank" title="Ficha oficial de destino" class="text-slate-400 hover:text-slate-700 text-[11px]">↗</a>
+                    </div>
+                    <div class="flex items-center gap-1.5 mt-0.5">
+                        <span class="font-mono text-[10px] text-slate-400">${dest.codigo}</span>
+                        ${badge}
+                    </div>
+                </td>
+                <td class="py-2.5 px-2 text-center font-medium text-slate-600 ${bgClass}">${dest.curso ? dest.curso + 'º' : '—'}</td>
+                <td class="py-2.5 px-2 text-center font-medium text-slate-600 ${bgClass}">${dest.semestre ? 'S' + dest.semestre : '—'}</td>
+                <td class="py-2.5 px-2 text-center font-bold text-slate-700 ${bgClass} ${borderR}">${dest.creditos}</td>
+            `;
+        }
+
+        // ----------------- CARDS VIEW RENDERER -----------------
+        function renderCardsView() {
+            const container = document.getElementById('cardsViewContainer');
+            if (filteredData.length === 0) {
+                container.innerHTML = `
+                    <div class="col-span-full p-12 text-center text-slate-400 font-medium bg-white rounded-3xl border border-slate-200">
+                        No se encontraron asignaturas con los filtros seleccionados.
+                    </div>`;
+                return;
+            }
+
+            let html = '';
+            filteredData.forEach(item => {
+                const u = item.uniovi;
+                const p = item.destinos.parma;
+                const f = item.destinos.feup;
+                const t = item.destinos.upt;
+
+                html += `
+                    <div class="bg-white rounded-3xl border border-slate-200 shadow-sm p-5 flex flex-col justify-between card-hover-effect">
+                        
+                        <div>
+                            <div class="flex items-start justify-between gap-2 mb-2">
+                                <span class="px-2.5 py-0.5 rounded-full text-[10px] font-mono bg-slate-100 text-slate-600 font-medium">
+                                    ${u.codigo}
+                                </span>
+                                <div class="flex items-center gap-1.5">
+                                    <span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-brand-50 text-brand-700 border border-brand-200">
+                                        ${u.creditos} ECTS
+                                    </span>
+                                    <span class="px-2 py-0.5 rounded-full text-[10px] font-medium ${u.caracter === 'Obligatoria' ? 'bg-sky-50 text-sky-700' : 'bg-slate-100 text-slate-600'}">
+                                        ${u.caracter}
+                                    </span>
+                                </div>
+                            </div>
+
+                            <h3 class="font-display font-bold text-slate-900 text-base leading-snug cursor-pointer hover:text-brand-600 transition" onclick="openDetailsModal('${u.codigo}')">
+                                ${u.nombre}
+                            </h3>
+                            <p class="text-xs text-slate-500 mt-1">
+                                ${u.curso_texto} · Semestre ${u.semestre} · ${u.materia}
+                            </p>
+
+                            <!-- Mini destinations preview -->
+                            <div class="mt-4 space-y-2 border-t border-slate-100 pt-3">
+                                ${currentDegree === 'GIOI' ? 
+                                    renderDestMiniCard(f, '🇵🇹 Porto (FEUP - EGI)', 'feup', u.codigo) : 
+                                    `
+                                    ${renderDestMiniCard(p, '🇮🇹 Parma', 'parma', u.codigo)}
+                                    ${renderDestMiniCard(f, '🇵🇹 Porto', 'feup', u.codigo)}
+                                    ${renderDestMiniCard(t, '🇷🇴 Timișoara', 'upt', u.codigo)}
+                                    ${renderDestMiniCard(item.destinos.thi, '🇩🇪 Ingolstadt (THI)', 'thi', u.codigo)}
+                                    `
+                                }
+                            </div>
+                        </div>
+
+                        <!-- Card Action -->
+                        <div class="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-xs">
+                            <a href="${u.link}" target="_blank" class="text-slate-400 hover:text-brand-600 flex items-center gap-1 transition">
+                                <span>Web UNIOVI</span> ↗
+                            </a>
+                            <button onclick="openDetailsModal('${u.codigo}')" class="px-3 py-1.5 rounded-xl bg-brand-50 hover:bg-brand-100 text-brand-700 font-semibold transition flex items-center gap-1">
+                                <span>Comparar Syllabi</span> 👁️
+                            </button>
+                        </div>
+
+                    </div>
+                `;
+            });
+
+            container.innerHTML = html;
+        }
+
+        function renderDestMiniCard(dest, label, destKey, uCode) {
+            if (!dest) {
+                return `
+                    <div class="p-2 rounded-xl bg-rose-50/60 border border-rose-100 flex items-center justify-between text-[11px]">
+                        <span class="font-semibold text-rose-800">${label}</span>
+                        <span class="text-rose-600 font-medium">No convalidable</span>
+                    </div>`;
+            }
+
+            const isTested = dest.historico && dest.historico.probado_previamente;
+
+            return `
+                <div class="p-2 rounded-xl bg-slate-50 hover:bg-slate-100/80 border border-slate-200/80 cursor-pointer transition" onclick="openDetailsModal('${uCode}', '${destKey}')">
+                    <div class="flex items-center justify-between text-[11px]">
+                        <span class="font-bold text-slate-700">${label}</span>
+                        <div class="flex items-center gap-1">
+                            <span class="font-semibold text-slate-600">${dest.creditos} ECTS</span>
+                            ${isTested ? '<span class="text-emerald-600 font-bold" title="Probada previamente con éxito">⭐</span>' : ''}
+                        </div>
+                    </div>
+                    <div class="text-[11px] font-medium text-slate-800 truncate mt-0.5">
+                        ${dest.nombre}
+                    </div>
+                </div>`;
+        }
+
+        // ----------------- DETAILS MODAL LOGIC -----------------
+        function openDetailsModal(uCode, initialDest = 'parma') {
+            const item = allData.find(d => d.uniovi.codigo === uCode);
+            if (!item) return;
+
+            currentModalCourse = item;
+            currentModalDest = (currentDegree === 'GIOI') ? 'feup' : initialDest;
+
+            // Toggle modal destination tabs visibility depending on degree
+            const tabParma = document.getElementById('tabBtnParma');
+            const tabUpt = document.getElementById('tabBtnUpt');
+            const tabThi = document.getElementById('tabBtnThi');
+            if (currentDegree === 'GIOI') {
+                if (tabParma) tabParma.classList.add('hidden');
+                if (tabUpt) tabUpt.classList.add('hidden');
+                if (tabThi) tabThi.classList.add('hidden');
+            } else {
+                if (tabParma) tabParma.classList.remove('hidden');
+                if (tabUpt) tabUpt.classList.remove('hidden');
+                if (tabThi) tabThi.classList.remove('hidden');
+            }
+
+            const u = item.uniovi;
+
+            document.getElementById('modalTitleUniovi').textContent = u.nombre;
+            document.getElementById('modalUnioviCode').textContent = u.codigo;
+            document.getElementById('modalUnioviSubtitle').textContent = `${u.curso_texto} · Semestre ${u.semestre} · ${u.caracter} · ${u.materia}`;
+            document.getElementById('modalUnioviOfficialLink').href = u.link;
+            document.getElementById('modalUnioviCreditsChip').textContent = `${u.creditos} Créditos ECTS`;
+
+            document.getElementById('modalTechnicalNoteText').textContent = item.nota_tecnica || 'Correspondencia de contenidos analizada según programa docente oficial.';
+
+            const uSec = u.sections || {};
+            const compText = extractSectionText(uSec.competencias || uSec.competencias_resultados_aprendizaje);
+            const contText = extractSectionText(uSec.contenidos);
+            const evalText = extractSectionText(uSec.evaluacion || uSec.evaluacion_aprendizaje);
+
+            document.getElementById('modalUnioviCompetencias').innerHTML = compText ? 
+                `<p class="whitespace-pre-line">${compText}</p>` : `<em class="text-slate-400">Sin desglose específico en la guía docente.</em>`;
+
+            document.getElementById('modalUnioviContenidos').textContent = contText || 'Sin contenidos detallados registrados.';
+            document.getElementById('modalUnioviEvaluacion').textContent = evalText || 'Evaluación según normativa estándar UNIOVI.';
+
+            setModalDestination(currentModalDest);
+            document.getElementById('detailsModal').classList.remove('hidden');
+        }
+
+        function closeDetailsModal() {
+            document.getElementById('detailsModal').classList.add('hidden');
+        }
+
+        function setModalDestination(destKey) {
+            currentModalDest = destKey;
+
+            const tabs = ['parma', 'feup', 'upt', 'thi'];
+            tabs.forEach(t => {
+                const btn = document.getElementById('tabBtn' + t.charAt(0).toUpperCase() + t.slice(1));
+                if (btn) {
+                    if (t === destKey) {
+                        btn.className = 'px-3 py-1 rounded-lg font-bold transition bg-white shadow-sm text-slate-900 border border-slate-300';
+                    } else {
+                        btn.className = 'px-3 py-1 rounded-lg font-semibold transition text-slate-600 hover:text-slate-900';
+                    }
+                }
+            });
+
+            const destObj = currentModalCourse.destinos[destKey];
+            const contentBox = document.getElementById('modalDestAvailableContent');
+            const emptyBox = document.getElementById('modalDestNotAvailable');
+            const destHeaderTitle = document.getElementById('modalDestHeaderTitle');
+            const destCreditsChip = document.getElementById('modalDestCreditsChip');
+            const destOfficialLink = document.getElementById('modalDestOfficialLink');
+            const destDot = document.getElementById('modalDestDot');
+            const historyBadge = document.getElementById('modalHistoryBadge');
+
+            if (!destObj) {
+                contentBox.classList.add('hidden');
+                emptyBox.classList.remove('hidden');
+                destHeaderTitle.textContent = getDestLabel(destKey) + ': Sin Equivalencia Directa';
+                destCreditsChip.className = 'hidden';
+                destOfficialLink.className = 'hidden';
+                historyBadge.innerHTML = `<span class="px-2.5 py-1 rounded-full text-xs font-semibold bg-rose-100 text-rose-700">❌ No convalidable</span>`;
+                return;
+            }
+
+            contentBox.classList.remove('hidden');
+            emptyBox.classList.add('hidden');
+            destOfficialLink.className = 'px-2.5 py-1 bg-slate-100 hover:bg-slate-200 text-slate-700 rounded-xl text-xs font-semibold flex items-center gap-1 transition';
+            destOfficialLink.href = destObj.link;
+
+            destHeaderTitle.textContent = `${getDestLabel(destKey)}: ${destObj.nombre} (${destObj.codigo})`;
+
+            if (destKey === 'parma') {
+                destDot.className = 'w-3 h-3 rounded-full bg-emerald-600';
+                destCreditsChip.className = 'px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200';
+            } else if (destKey === 'feup') {
+                destDot.className = 'w-3 h-3 rounded-full bg-amber-600';
+                destCreditsChip.className = 'px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-50 text-amber-700 border border-amber-200';
+            } else if (destKey === 'upt') {
+                destDot.className = 'w-3 h-3 rounded-full bg-purple-600';
+                destCreditsChip.className = 'px-2.5 py-0.5 rounded-full text-xs font-semibold bg-purple-50 text-purple-700 border border-purple-200';
+            } else {
+                destDot.className = 'w-3 h-3 rounded-full bg-blue-600';
+                destCreditsChip.className = 'px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200';
+            }
+            destCreditsChip.textContent = `${destObj.creditos} ECTS (${destObj.curso ? destObj.curso + 'º Año' : ''} ${destObj.semestre ? 'Sem ' + destObj.semestre : ''})`;
+
+            const h = destObj.historico;
+            if (h && h.probado_previamente) {
+                historyBadge.innerHTML = `
+                    <div class="flex items-center gap-2 px-3 py-1 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs">
+                        <span class="font-bold">⭐ Validada con éxito</span>
+                        <span>(${h.anios_probados.join(', ')})</span>
+                        <span class="font-semibold text-emerald-900">Nota media vuelta: ${h.nota_media} / 10</span>
+                    </div>
+                `;
+            } else {
+                historyBadge.innerHTML = `
+                    <div class="flex items-center gap-1.5 px-3 py-1 rounded-xl bg-sky-50 border border-sky-200 text-sky-800 text-xs font-medium">
+                        <span>🔬 Propuesta técnica avalada</span>
+                        <span class="text-sky-600">(Coincidencia temario > 75%)</span>
+                    </div>
+                `;
+            }
+
+            const s = destObj.sections || {};
+            const objText = extractSectionText(s.objectives || s.Learning_objectives) || 'Objetivos formativos registrados en la ficha oficial.';
+            const progText = extractSectionText(s.program || s.content || s.lecture_program || s.full_programme) || 'Temario registrado en la ficha oficial del curso.';
+            const evalText = extractSectionText(s.evaluation || s.assessment || s.evaluation_methods) || 'Método de evaluación oficial según la guía de destino.';
+
+            document.getElementById('modalDestObjectives').textContent = objText;
+            document.getElementById('modalDestProgram').textContent = progText;
+            document.getElementById('modalDestEvaluation').textContent = evalText;
+        }
+
+        function getDestLabel(key) {
+            if (key === 'parma') return '🇮🇹 Parma';
+            if (key === 'feup') return '🇵🇹 Porto (FEUP)';
+            if (key === 'upt') return '🇷🇴 Timișoara (UPT)';
+            if (key === 'thi') return '🇩🇪 Ingolstadt (THI)';
+            return key;
+        }
+
+        // ----------------- LEARNING AGREEMENT SIMULATOR -----------------
+        function openPlannerModal() {
+            updatePlannerTable();
+            document.getElementById('plannerModal').classList.remove('hidden');
+        }
+
+        function closePlannerModal() {
+            document.getElementById('plannerModal').classList.add('hidden');
+        }
+
+        function togglePlannerSelection(uCode) {
+            if (plannerSelections.has(uCode)) {
+                plannerSelections.delete(uCode);
+            } else {
+                plannerSelections.add(uCode);
+            }
+            updatePlannerTable();
+        }
+
+        function updatePlannerTable() {
+            let dest = document.getElementById('plannerDestSelect').value;
+            if (currentDegree === 'GIOI') {
+                dest = 'feup';
+            }
+            const year = document.getElementById('plannerYearSelect').value;
+            const sem = document.getElementById('plannerSemSelect').value;
+
+            const tbody = document.getElementById('plannerTableBody');
+            const alertBox = document.getElementById('plannerCreditAlert');
+
+            let totalSelected = 0;
+            let totalUnioviCredits = 0;
+            let totalDestCredits = 0;
+            let totalTested = 0;
+
+            let html = '';
+
+            allData.forEach(item => {
+                const u = item.uniovi;
+                const d = item.destinos[dest];
+
+                if (year !== 'ALL' && u.curso_num.toString() !== year) return;
+                if (sem !== 'ALL' && u.semestre.toString() !== sem) return;
+
+                const isChecked = plannerSelections.has(u.codigo);
+
+                if (isChecked && d) {
+                    totalSelected++;
+                    totalUnioviCredits += Number(u.creditos || 0);
+                    totalDestCredits += Number(d.creditos || 0);
+                    if (d.historico && d.historico.probado_previamente) {
+                        totalTested++;
+                    }
+                }
+
+                html += `
+                    <tr class="hover:bg-slate-50 transition ${!d ? 'opacity-50 bg-slate-50/50' : ''}">
+                        <td class="p-2.5 text-center">
+                            <input type="checkbox" ${isChecked ? 'checked' : ''} ${!d ? 'disabled' : ''} onchange="togglePlannerSelection('${u.codigo}')" class="w-4 h-4 text-brand-600 rounded focus:ring-brand-500">
+                        </td>
+                        <td class="p-2.5 font-medium text-slate-800">${u.nombre}</td>
+                        <td class="p-2.5 text-center text-slate-600">${u.curso_num}º S${u.semestre}</td>
+                        <td class="p-2.5 text-center font-bold text-brand-700">${u.creditos}</td>
+                        <td class="p-2.5 font-medium ${d ? 'text-slate-800' : 'text-rose-600 italic'}">
+                            ${d ? d.nombre : 'No convalidable'}
+                        </td>
+                        <td class="p-2.5 text-center text-slate-600">
+                            ${d && d.curso ? d.curso + 'º S' + (d.semestre || '') : '—'}
+                        </td>
+                        <td class="p-2.5 text-center font-bold ${d ? 'text-slate-700' : 'text-slate-400'}">
+                            ${d ? d.creditos : '—'}
+                        </td>
+                        <td class="p-2.5 text-center">
+                            ${d && d.historico && d.historico.probado_previamente ? 
+                                '<span class="text-emerald-700 font-bold bg-emerald-50 px-2 py-0.5 rounded-full text-[10px]">⭐ Probada</span>' : 
+                                (d ? '<span class="text-sky-700 bg-sky-50 px-2 py-0.5 rounded-full text-[10px]">🔬 Nueva</span>' : '—')}
+                        </td>
+                    </tr>
+                `;
+            });
+
+            tbody.innerHTML = html;
+
+            document.getElementById('plannerCountSelected').textContent = totalSelected;
+            document.getElementById('plannerCreditsUniovi').textContent = totalUnioviCredits + ' ECTS';
+            document.getElementById('plannerCreditsDest').textContent = totalDestCredits + ' ECTS';
+            document.getElementById('plannerTestedCount').textContent = totalTested + ' de ' + totalSelected;
+
+            // Health alert check
+            const targetCredits = (sem === 'ALL') ? 60 : 30;
+            alertBox.classList.remove('hidden');
+            if (totalUnioviCredits >= targetCredits - 6 && totalUnioviCredits <= targetCredits + 6) {
+                alertBox.className = 'p-3 rounded-2xl text-xs flex items-center gap-2 bg-emerald-50 border border-emerald-200 text-emerald-800';
+                alertBox.innerHTML = `<span>✅</span> <strong>Balance equilibrado:</strong> Tu propuesta de ${totalUnioviCredits} ECTS en UNIOVI cubre adecuadamente el objetivo formativo (${targetCredits} ECTS).`;
+            } else if (totalUnioviCredits < targetCredits - 6) {
+                alertBox.className = 'p-3 rounded-2xl text-xs flex items-center gap-2 bg-amber-50 border border-amber-200 text-amber-800';
+                alertBox.innerHTML = `<span>⚠️</span> <strong>Créditos insuficientes:</strong> Has seleccionado ${totalUnioviCredits} ECTS. Para un periodo de este tipo se recomienda alcanzar ~${targetCredits} ECTS.`;
+            } else {
+                alertBox.className = 'p-3 rounded-2xl text-xs flex items-center gap-2 bg-sky-50 border border-sky-200 text-sky-800';
+                alertBox.innerHTML = `<span>ℹ️</span> <strong>Carga lectiva superior:</strong> Has seleccionado ${totalUnioviCredits} ECTS en UNIOVI equivalentes a ${totalDestCredits} ECTS en destino.`;
+            }
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') {
+                closeDetailsModal();
+                closePlannerModal();
+            }
+        });
+    </script>
+</body>
+</html>
