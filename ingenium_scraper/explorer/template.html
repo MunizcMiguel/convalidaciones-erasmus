@@ -95,6 +95,27 @@ button.ext:hover{background:#15803f;border-color:#15803f}
 .cr .s{white-space:nowrap;font-size:12px;font-weight:600}
 .cr.ok .s{color:#1a9b50}.cr.parcial .s{color:#e8890c}.cr.sin_guia .s{color:#d33}
 
+.lwrap{display:grid;grid-template-columns:230px 1fr;flex:1;min-height:0}
+.side{display:flex;flex-direction:column;min-height:0;border-right:1px solid var(--line);background:var(--panel)}
+.side input{margin:8px;width:calc(100% - 16px)}
+.ulist{overflow:auto;flex:1}
+.ulist .cty{position:sticky;top:0;background:var(--bg);color:var(--mute);font-size:11px;text-transform:uppercase;letter-spacing:.05em;padding:4px 10px;border-bottom:1px solid var(--line)}
+.ulist .it{padding:6px 10px;border-bottom:1px solid var(--line);cursor:pointer;display:flex;gap:6px;align-items:baseline}
+.ulist .it:hover{background:var(--accent-soft)}
+.ulist .it.sel{background:var(--sel);box-shadow:inset 3px 0 0 var(--accent)}
+.ulist .it span{flex:1;min-width:0;overflow-wrap:anywhere}
+.ulist .it small{color:var(--mute);white-space:nowrap}
+.lmain{display:flex;flex-direction:column;min-width:0;min-height:0}
+.filters{padding:8px 12px;border-bottom:1px solid var(--line);background:var(--panel);display:flex;flex-direction:column;gap:6px;max-height:42%;overflow:auto}
+.filters[hidden]{display:none}
+.fh{display:flex;gap:8px;align-items:baseline}.fh b{font-size:15px}
+.fg{display:flex;gap:8px;align-items:flex-start}
+.fl{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);min-width:48px;padding-top:4px}
+.chipbar{display:flex;flex-wrap:wrap;gap:5px;flex:1}
+.chipbar button{padding:2px 9px;font-size:12px;border-radius:999px;text-align:left}
+.chipbar button small{opacity:.7;margin-left:4px}
+.filters input{width:100%}
+@media (max-width:700px){.lwrap{grid-template-columns:1fr;grid-template-rows:180px 1fr}.side{border-right:0;border-bottom:1px solid var(--line)}}
 </style>
 </head>
 <body>
@@ -105,13 +126,22 @@ button.ext:hover{background:#15803f;border-color:#15803f}
 </header>
 <div class="app">
   <section class="pane" id="left">
-    <div class="bar">
-      <label>Universidad <select id="uniSel"></select></label>
-      <label>Área <select id="areaSel"></select></label>
-      <input id="q" type="search" placeholder="Buscar asignatura o tema…" style="flex:1;min-width:140px">
+    <div class="lwrap">
+      <nav class="side" id="side">
+        <input id="uq" type="search" placeholder="Buscar institución…">
+        <div class="ulist" id="uList"></div>
+      </nav>
+      <div class="lmain">
+        <div class="filters" id="filters" hidden>
+          <div class="fh"><b id="instName"></b><span class="meta" id="instMeta"></span></div>
+          <div class="fg"><span class="fl">Grados</span><div class="chipbar" id="degChips"></div></div>
+          <div class="fg"><span class="fl">Áreas</span><div class="chipbar" id="areaChips"></div></div>
+          <input id="q" type="search" placeholder="Buscar asignatura o tema…">
+        </div>
+        <div class="list" id="leftList"></div>
+        <div class="card" id="leftCard"><div class="empty">Elige una institución a la izquierda y una asignatura.</div></div>
+      </div>
     </div>
-    <div class="list" id="leftList"></div>
-    <div class="card" id="leftCard"><div class="empty">Elige una universidad y una asignatura.</div></div>
   </section>
   <section class="pane" id="right">
     <div class="bar">
@@ -151,30 +181,81 @@ let curLeft = null, curRight = null, mode = "map", map = null, layer = null;
 
 $("#meta").textContent = `${courses.length} asignaturas · ${Object.keys(byUni).length} universidades · datos del ${DATA.generated}`;
 
-// ---------- selectores ----------
-$("#uniSel").innerHTML = `<option value="">— universidad —</option>` +
-  DATA.insts.filter(i => byUni[i.slug]).map(i => `<option value="${i.slug}">${esc(i.name)} (${byUni[i.slug].length})</option>`).join("");
-$("#areaSel").innerHTML = `<option value="">Todas las áreas</option>` + DATA.areas.map(a => `<option>${esc(a)}</option>`).join("");
-const fold = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+// ---------- instituciones -> grados ----------
+const fold = s => String(s || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+const groups = {};
+DATA.insts.filter(i => byUni[i.slug]).forEach(i => {
+  const g = (groups[i.g || i.slug] ||= { key: i.g || i.slug, name: i.gname || i.name, country: i.country, city: i.city, degs: [] });
+  g.degs.push({ slug: i.slug, name: i.deg || "Grado principal", n: byUni[i.slug].length });
+});
+const glist = Object.values(groups).sort((a, b) => (a.key === "uniovi" ? -1 : b.key === "uniovi" ? 1 : 0) || a.country.localeCompare(b.country) || a.name.localeCompare(b.name));
+let curG = null, selDegs = new Set(), selAreas = new Set();
+const gCount = g => g.degs.reduce((n, d) => n + d.n, 0);
+const resetCard = () => { curLeft = null; clearRight(); $("#leftCard").innerHTML = `<div class="empty">Elige una asignatura.</div>`; };
 
+function renderSide() {
+  const q = fold($("#uq").value);
+  let last = "", h = "";
+  glist.filter(g => !q || fold(g.name + " " + g.city + " " + g.country).includes(q)).forEach(g => {
+    const ct = g.key === "uniovi" ? "Universidad de Oviedo (origen)" : g.country;
+    if (ct !== last) { h += `<div class="cty">${esc(ct)}</div>`; last = ct; }
+    h += `<div class="it ${curG === g ? "sel" : ""}" data-k="${esc(g.key)}"><span>${esc(g.name)}</span><small>${g.degs.length > 1 ? g.degs.length + " grados · " : ""}${gCount(g)}</small></div>`;
+  });
+  $("#uList").innerHTML = h || `<div class="empty">Sin resultados.</div>`;
+  $("#uList").querySelectorAll(".it").forEach(r => r.onclick = () => pickG(groups[r.dataset.k]));
+}
+function pickG(g) {
+  curG = g; selDegs = new Set(); selAreas = new Set();
+  $("#filters").hidden = false;
+  $("#instName").textContent = g.name;
+  $("#q").value = "";
+  renderSide(); renderFilters(); renderLeft(); resetCard();
+}
+const inDegs = u => !selDegs.size || selDegs.has(u);
+const baseItems = () => curG ? curG.degs.flatMap(d => byUni[d.slug]) : [];
+function renderFilters() {
+  const chip = (on, label, n, attr) => `<button class="${on ? "on" : ""}" ${attr}>${esc(label)}<small>${n}</small></button>`;
+  const all = baseItems();
+  $("#degChips").innerHTML = (curG.degs.length > 1 ? chip(!selDegs.size, "Todos", all.length, 'data-d=""') : "") +
+    curG.degs.map(d => chip(selDegs.has(d.slug) || curG.degs.length === 1, d.name, d.n, `data-d="${esc(d.slug)}"`)).join("");
+  $("#degChips").querySelectorAll("button").forEach(b => b.onclick = () => {
+    const d = b.dataset.d;
+    if (curG.degs.length === 1) return;
+    if (!d) selDegs.clear(); else selDegs.has(d) ? selDegs.delete(d) : selDegs.add(d);
+    renderFilters(); renderLeft(); resetCard();
+  });
+  const cnt = {};
+  all.filter(c => inDegs(c.u)).forEach(c => cnt[c.area] = (cnt[c.area] || 0) + 1);
+  [...selAreas].forEach(a => { if (!cnt[a]) selAreas.delete(a); });
+  const areas = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a]);
+  $("#areaChips").innerHTML = chip(!selAreas.size, "Todas", Object.values(cnt).reduce((x, y) => x + y, 0), 'data-a=""') +
+    areas.map(a => chip(selAreas.has(a), a, cnt[a], `data-a="${esc(a)}"`)).join("");
+  $("#areaChips").querySelectorAll("button").forEach(b => b.onclick = () => {
+    const a = b.dataset.a;
+    if (!a) selAreas.clear(); else selAreas.has(a) ? selAreas.delete(a) : selAreas.add(a);
+    renderFilters(); renderLeft(); resetCard();
+  });
+}
 function leftFiltered() {
-  const u = $("#uniSel").value, a = $("#areaSel").value, q = fold($("#q").value);
-  return (byUni[u] || []).filter(c => (!a || c.area === a) &&
+  const q = fold($("#q").value);
+  return baseItems().filter(c => inDegs(c.u) && (!selAreas.size || selAreas.has(c.area)) &&
     (!q || fold(c.name + " " + c.en + " " + c.topics.join(" ")).includes(q)));
 }
 function renderLeft() {
-  const u = $("#uniSel").value;
   const L = $("#leftList");
-  if (!u) { L.innerHTML = `<div class="empty">Elige una universidad.</div>`; return; }
+  if (!curG) { L.innerHTML = `<div class="empty">Elige una institución en la lista de la izquierda.</div>`; return; }
   const items = leftFiltered();
+  const multi = curG.degs.length > 1;
+  $("#instMeta").textContent = [curG.city, curG.country].filter(Boolean).join(" · ") + ` · ${items.length} asignaturas`;
   L.innerHTML = items.length ? items.map(c => `<div class="row ${curLeft === c ? "sel" : ""}" data-i="${c._i}">
-      <div class="n"><b>${esc(c.name || c.en)}</b><small>${esc(c.en && c.en !== c.name ? c.en + " · " : "")}${esc(c.area)}</small></div>
+      <div class="n"><b>${esc(c.name || c.en)}</b><small>${esc(c.en && c.en !== c.name ? c.en + " · " : "")}${esc(c.area)}${multi ? " · " + esc((curG.degs.find(d => d.slug === c.u) || {}).name || "") : ""}</small></div>
       <div class="e">${c.yr ? c.yr + "º" : ""} ${c.ects != null ? c.ects + " ECTS" : ""}</div></div>`).join("")
     : `<div class="empty">Sin asignaturas con ese filtro.</div>`;
   L.querySelectorAll(".row").forEach(r => r.onclick = () => selectLeft(courses[+r.dataset.i]));
 }
-["#uniSel", "#areaSel"].forEach(s => $(s).onchange = () => { curLeft = null; renderLeft(); clearRight(); $("#leftCard").innerHTML = `<div class="empty">Elige una asignatura.</div>`; });
 $("#q").oninput = renderLeft;
+$("#uq").oninput = renderSide;
+renderSide();
 
 // ---------- ficha ----------
 function card(c, sim) {

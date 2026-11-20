@@ -232,6 +232,23 @@ def main() -> None:
                 print("  ¡sin coordenadas!", s)
             insts[s] = {"slug": s, "name": c["uni_name"], "country": c["country"],
                         "city": city[0] if city else "", "lat": city[1] if city else None, "lon": city[2] if city else None}
+    # agrupación institución -> grados (para la barra lateral del explorador)
+    for s, it in insts.items():
+        nm = it["name"]
+        if s.startswith("uniovi"):
+            it["g"], it["gname"] = "uniovi", "Universidad de Oviedo"
+            it["deg"] = nm.split(" - ", 1)[1] if " - " in nm else "Grado en Ingeniería Mecánica (GIMECA/GIOI)"
+        else:
+            base = s.split("__")[0]
+            it["g"] = base
+            if "__" in s and " – " in nm:
+                it["gname"], it["deg"] = nm.split(" – ", 1)
+            else:
+                it["gname"], it["deg"] = nm, "Grado principal"
+    for it in insts.values():  # el nombre de la institución es el del grupo base si existe
+        b = insts.get(it["g"])
+        if b and it["g"] != it["slug"]:
+            it["gname"] = b["gname"]
     slim = []
     for i, c in enumerate(courses):
         slim.append({
