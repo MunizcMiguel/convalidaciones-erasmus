@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Embedded Systems",
+  "course_name_en": "Embedded Systems",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "General processor structure, principle, function of particular blocks",
+    "Data and code memories, static and dynamic RAM, ROM, PROM, EPROM, EEPROM, flash EEPROM, FRAM memories",
+    "Data, address and control bus, multiplexed bus, three state and open collector bus drivers",
+    "Asynchronous events servicing, polling/interrupt. Interrupt system, priority, interrupt vector, interrupt service routine, application",
+    "Digital output, interfacing, accommodation, optical separation, Switching ON and OFF of induction and resistive load",
+    "Digital input, interfacing, accommodation, optical separation",
+    "D/A converters. Principle of PWM modulation, converter uses operation amplifier",
+    "A/D converter uses integrator principle. Single and double integration converters",
+    "Feedback A/D converters - incremental, tracking converter, converters with succeeded approximation",
+    "Unified voltage and current signal",
+    "Parallel data transfer, handshake principle, examples of communication (e.g. Centronics interface)",
+    "Serial data transfer, protocol TIA/EIA 232, data format, speed, signal levels",
+    "Industrial standards TIA/EIA 422, 423 and 485. Simplex, half duplex and full duplex communication.",
+    "Principle and using a MODEM for data transfer. Modulation, band width, modulation and transfer speed. Baud, bit/s",
+    "Mictroprocessor familu 8051/52, internal architecture. Data and code memory. SFR registers",
+    "External memory and periphery extension for 8051 processors. Data and code memory, address decoder, data flow, transfer control",
+    "Interrupt system of 8051 family. Sources, levels and priorities of interrupts",
+    "Counters and timers, serial port 8051's processors",
+    "Assembler, source text format, directives for translation control",
+    "Proceeding program, tools for program development, SW simulators, HW emulators",
+    "Translation, linking, locations. Object, absolute, relative code. Data hex format Libraries",
+    "Numeric systems, binary, decimal, hexadecimal. BCD coding. Conversion between numeric systems. Negative numbers notation",
+    "Direct, indirect, relative and absolute addressing. Examples of using",
+    "Internal and external address areas of 8051 family",
+    "Arithmetic and logic instructions of 8051 family",
+    "Instructions for data transfer of 8051 family",
+    "Instructions for jumps and subroutine calls of 8051 family"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the working principle of embedded computers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn to work with development environments, Assembler, ANSI-C.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop simple applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction into microcomputer programming - basic concepts, registers, memories",
+    "Binary arithmetic, numbers representation",
+    "Assembler 8051",
+    "Assembler 8051",
+    "Microcomputer memories",
+    "Processor I51, internal architecture",
+    "Interrupt system",
+    "Busses, auxiliary circuits",
+    "I/O circuits for digital interfaces",
+    "D/A, A/D converters, unified signal",
+    "Counters/timers, watch dog",
+    "Serial and parallel interfaces, buses for data transfer",
+    "Transfer channel, modems",
+    "Design of simple microcomputer system.",
+    "Basic data, numerical systems, data presentation, binary operations as addition, subtraction, multiplication, division",
+    "Using Keil IDE for I51, 1st semester work setting",
+    "1st semester work solving",
+    "1st semester work solving",
+    "1st semester work solving and its verification",
+    "Development tool kit LabTech51",
+    "Development tool kit BAST166 and programming in ANSY-C",
+    "Development tool kit BAST166 and programming in ANSY-C, examples",
+    "Intelligent servo drive AtlasCopco, basic features and programming, 2nd semester work setting",
+    "2nd semester work solving",
+    "2nd semester work solving",
+    "2nd semester work solving",
+    "2nd semester work solving",
+    "2nd semester work verification, assesment"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Lab work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "1st semester work verification",
+      "weight_percentage": null
+    },
+    {
+      "method": "2nd semester work verification",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Chyský J., Novák J., Novák L., Elektronické aplikace ve strojírenství, Vydavatelství ČVUT, 2001, ISBN 80-01-01744-3",
+    "Skalický P., Mikroprocesory řady 8051, BEN-technická literatura, Praha 1997, ISBN 80-86056-13-9",
+    "http://www.8052.com/"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E141005",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1744806.html",
+  "source_language": "en",
+  "source_sha256": "20710a33608a315a6eae4355fd45e93e0b25ae897c6aa0f33a5bccc035eb1c76",
+  "extracted_at": "2026-11-20T01:16:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Compilerbau",
+  "course_name_en": "Compiler Construction",
+  "ects": 9.0,
+  "semester": "One semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "No prerequisites. Competencies taught in the 'Theoretical Computer Science' module are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can compare different aspects of programming languages (lexicon, syntax, semantics, pragmatics).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can describe the structure of compilers and compiler phases.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students understand tools for compiler generation and can apply them.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can explain basic principles of code generation, denotational semantics, and abstract machines.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can program individual parts of a compiler.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply scientific working methods in independently identifying, formulating, and solving problems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students are able to speak freely about scientific content, both in front of an audience and in a discussion.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Lexical analysis: regular expressions, finite automata, flm principle, scanner generators",
+    "Syntactic analysis: Context-free grammars, RD-Parsing with LL(k)-grammars, SR-Parsing with LR(k)-grammars, precedence-driven parsers, parser generators",
+    "Semantic analysis with attribute grammars",
+    "Intermediate code generation",
+    "Code optimization"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercise assignments (at least 50% of points)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solutions to at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (individual examination)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credit points, students must achieve at least 50 percent of the points from the weekly exercise assignments and orally present the solution to at least two of the exercise assignments. The grading is done with 0 to 15 points according to the examination regulations for the M.Sc. Computer Science program. The examination performance can be either a written exam or an individual oral exam.",
+  "bibliography": [
+    "Drachenbuch: Aho/Sethi/Ullman: Compilers — Principles, Techniques, and Tools, Addison-Wesley 1986",
+    "Waite/Goos: Compiler Construction, Springer Verlag 1994",
+    "Wilhelm/Maurer: Übersetzerbau: Theorie, Konstruktion, Generierung, Springer Verlag 1992",
+    "Appel: Modern Compiler Implementation in ML/Java/C++, Addison-Wesley 1998"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS551",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Compilerbau.html",
+  "source_language": "de",
+  "source_sha256": "94e066967e74294c52c1895c032e37b07868b3f99654ac30659dbdd35b08dcf3",
+  "extracted_at": "2026-11-20T09:22:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

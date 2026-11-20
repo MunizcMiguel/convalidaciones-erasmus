@@ -1,0 +1,71 @@
+{
+  "course_name_original": "Algorithmische Netzwerkanalyse",
+  "course_name_en": "Algorithmic Network Analysis",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Successful completion of the \"Algorithms and Data Structures\" module is required.",
+    "Successful completion of the \"Efficient Algorithms\" module is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can model various facts using networks and formulate various analysis tasks as concrete computational problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can select or design efficient algorithms for these computational problems, or demonstrate that such algorithms do not exist according to current assessment.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Applications of network models such as social networks, biological interaction networks",
+    "Algorithms and complexity considerations for computational problems in network analysis, for example, for calculating centrality measures, clustering networks, querying networks, enumerating subnetworks",
+    "Random models for complex networks",
+    "Advanced network models: temporal graphs, multilayer networks"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercise assignments (at least 50% of points achieved)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of the solution of at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credit points, students must achieve at least 50 percent of the points from the weekly exercise assignments and orally present the solution of at least two exercise assignments. Grading is from 0 to 15 points according to the examination regulations for the M.Sc. Computer Science degree program.",
+  "bibliography": [
+    "Borgatti, Everett, Johnson: Analyzing social networks. SAGE, 2018.",
+    "Brandes, Erlebach (eds.): Network analysis: Methodological foundations. Lecture Notes in Computer Science, volume 3418, Springer 2005."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS529",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Algorithmische_Netzwerkanalyse.html",
+  "source_language": "de",
+  "source_sha256": "6f48e3d309195d9f4b1a168f95ae59d33ed89dea6e39bd45f2153afa784f03ca",
+  "extracted_at": "2026-11-20T09:22:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

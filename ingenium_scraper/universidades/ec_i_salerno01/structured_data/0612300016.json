@@ -1,0 +1,106 @@
+{
+  "course_name_original": "TECHNICAL COMPUTER GRAPHICS (0612300016)",
+  "course_name_en": "TECHNICAL COMPUTER GRAPHICS",
+  "ects": 6.0,
+  "semester": "SPRING SEMESTER",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Mathematical and informational knowledge required in the first year of the course, with particular reference to Euclidean, Cartesian, Algebraic and Differential Geometry."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course contributes to the training of engineers able to use techniques and tools for the assisted design of components, systems and processes. It is oriented towards integrated virtual design by proposing contents relating to the main methods of computer-assisted three-dimensional graphic and geometric modeling, to the design procedures and generation of the relative documentation and to integration with the skills of dimensioning and/or choosing mechanical components. Knowledge is also provided on the main design aid tools within the product development cycle and on reverse engineering, rapid prototyping and CAXX modeling technologies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student will be able to understand the terminology used in the field of 3D modeling; know the main 3D model management systems and the analysis and design methodologies of a virtual design system. Use the main 3D modeling tools and apply the best procedures for using virtual models with simulation software. Use commercial and standard components and parts and assemblies made by other members of the design team.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose the right commercial tools based on the required needs and identify the most appropriate methods to use them, possibly customizing them to optimize the design process.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Work in groups and produce and present project documentation using technical terminology correctly.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the acquired knowledge also using different software, even in different fields, and extend them to the topics proposed in the Master's Degree courses in relation to surface modeling and the use of other virtual analysis tools.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer Graphics and CAD systems",
+    "Principal methods of representation of the geometric model",
+    "Principal modeling methods of the geometric model",
+    "Transformation matrices for computer graphics",
+    "Parametric / variational modeling",
+    "The math of the interpolating and approximating curves, the parametric curves",
+    "The mathematics of the interpolating and approximating surfaces, the parametric surfaces",
+    "Reverse engineering and physical prototyping techniques in industrial design",
+    "Modern aided design techniques in the development plan of an industrial product: virtual engineering and DMU",
+    "The use of commercial components in design",
+    "3D model files format",
+    "Project documentation",
+    "Examples of industrial cases",
+    "Use of sketches for the generation of volumes",
+    "Adding and removing volumes with linear and revolved extrusions, sweeps and lofts",
+    "Use of features (holes, ribs, emptying of slots, welding, etc.)",
+    "The creation of assemblies, the use of 3D models from the catalog and the structuring of the project",
+    "Setting the table",
+    "Checks on the model (analysis of movement, interference, disassembly and assembly, etc.)",
+    "Parameterizations, equations and configurations"
+  ],
+  "teaching_methods": [
+    "Lessons",
+    "Frontal teaching",
+    "Teaching seminars in collaboration with industry experts",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Test on theory topics",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Practical modeling test of a simple mechanism and creation of tables in accordance with the law",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "(Optional) Discussion of a design paper / Project work",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Assessment is through a theory test (30% weight, passed with 50% correct answers) and a practical modeling test (40% weight, sufficient if a simple mechanism is correctly implemented). The (optional) discussion of a design paper or a project work accounts for 40% of the evaluation and allows for achieving the maximum evaluation. The project work must include a technical report, sizing calculations, a complete 3D model, and drawings of non-commercial components.",
+  "bibliography": [
+    "NOTES FROM LESSONS SUGGESTED",
+    "MONICA CARFAGNI, ROCCO FURFERI, LAPO GOVERNI, YARY VOLPE: ESERCIZI DI DISEGNO MECCANICO - SECONDA EDIZIONE (2020) - ED. ZANICHELLI",
+    "GARY BERTOLINE, ERIC WIEBE: FONDAMENTI DI COMUNICAZIONE GRAFICA - ED. MCGRAW-HILL",
+    "CHIRONE, TORNINCASA - DISEGNO TECNICO INDUSTRIALE - ED. CAPITELLO - VOL 1 & 2",
+    "CAD INTERNET TUTORIALS"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno",
+  "institution_slug": "ec_i_salerno01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "0612300016",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=505907&ordinamento_aa=2018&af_percorso=9999&corso_cod=500184&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "73baa4d8d44e516a7c53c30e830a40a1dc69ab2a5132e40890f2eedf4daa6225",
+  "extracted_at": "2026-11-18T10:03:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

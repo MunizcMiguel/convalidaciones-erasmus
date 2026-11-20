@@ -1,0 +1,75 @@
+{
+  "course_name_original": "Artificial Intelligence",
+  "course_name_en": "Artificial Intelligence",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Exam question outlines: State space and methods for its complete search. A* algorithm and its properties.",
+    "Exam question outlines: Use of the state space and its algorithms in problem solving and action planning.",
+    "Exam question outlines: Machine learning. Types of machine learning tasks.",
+    "Exam question outlines: Basic clustering algorithms and their practical applications.",
+    "Exam question outlines: Basic algorithm for decision tree construction and its application.",
+    "Exam question outlines: Propositional logic, its syntax, semantics and the notion of logical consequence.",
+    "Exam question outlines: Proof means of propositional logic - resolution and its properties.",
+    "Exam question outlines: Application of propositional logic in practical knowledge work tasks.",
+    "Exam question outlines: Neural networks, basic principles of perceptron, loss function, back propagation, MLP.",
+    "Exam question outlines: Convolutional neural networks - principle of convolution, architecture and typical operations, applications.",
+    "Exam question outlines: Genetic algorithms - basic concepts (population, objective function, GA cycle). Comparison of evolutionary and swarm algorithms."
+  ],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "What is the purpose of AI, what AI can do now and what impact it has on society.",
+    "State space and methods for solving typical problems.",
+    "State space - search complexity and how to face it.",
+    "Genetic algorithms 1",
+    "Genetic algorithms 2",
+    "Machine learning and its basic algorithms. Clustering.",
+    "Learning from classified data. Combination of classifiers.",
+    "Problem solving theory and the use of formal logic.",
+    "Propositional and predicate logic",
+    "Automatic theorem proving-resolution method",
+    "Neural networks, theories, perceptron, MLP",
+    "Deep learning, convolutional neural networks, influence of architecture",
+    "Neural networks for natural language processing, RNN, LSTM; Transformers."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Active Participation (Labs)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual Assignments (3 out of 5)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit conditions require active participation (at least 70% attendance in labs) and submission of 3 out of 5 assigned individual tasks. Each task must be submitted within 14 days from its assignment. Points for submitted tasks decrease by 1 point per day of delay beyond the deadline until reaching 0 points. These earned points contribute to the overall evaluation for the final exam.",
+  "bibliography": [
+    "Russel, Stuart and Norvig, Peter (2022 the 4th edition) (parts of chapters 2, 3, 6, 7, 10, 18). Artificial Intelligence: A Modern Approach (Prentice Hall, 1995 the 1st edition), ISBN 978-0134610993.",
+    "Mitchell, Melanie (1996). An Introduction to Genetic Algorithms. Cambridge, MA: MIT Press. ISBN 9780585030944",
+    "Ian Goodfellow, Yoshua Bengio, Aaron Courville, Deep Learning. MIT Press, 2016. [online] Available: https://www.deeplearningbook.org/"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "learning_outcomes"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371103",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet7991506.html",
+  "source_language": "en",
+  "source_sha256": "fc5b54e645d696ec6be95acf29bbcca9fb3981d45b95d53881ce836e28d86a85",
+  "extracted_at": "2026-11-20T01:18:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

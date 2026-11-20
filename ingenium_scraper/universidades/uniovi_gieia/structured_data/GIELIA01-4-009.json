@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Sistemas de Percepción",
+  "course_name_en": "Perception Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of linear algebra (matrices, vectors, and eigenvalues)",
+    "Basic set theory and probability",
+    "Familiarity with programming in MATLAB, C/C++ or Python"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Select the most appropriate hardware to solve a given perception problem.",
+      "type": "unspecified",
+      "code": "RSP-1"
+    },
+    {
+      "text": "Assess the suitability of different processing techniques to solve a given problem.",
+      "type": "unspecified",
+      "code": "RSP-2"
+    },
+    {
+      "text": "Build a system capable of identifying and describing objects of interest present in the scene.",
+      "type": "unspecified",
+      "code": "RSP-3"
+    },
+    {
+      "text": "Design a system capable of reconstructing the 3D geometry of the scene.",
+      "type": "unspecified",
+      "code": "RSP-4"
+    },
+    {
+      "text": "Evaluate the adequacy of a system to solve a given perception problem.",
+      "type": "unspecified",
+      "code": "RSP-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Images",
+    "Histograms",
+    "Vision with binary images",
+    "Geometric Transformations",
+    "Contours",
+    "Pattern recognition. Bayesian decision theory",
+    "Classification",
+    "Extraction and description of characteristic points",
+    "3D Reconstruction"
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures)",
+    "Problem-solving sessions (classroom practices)",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (E1)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Course project (T1)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "To pass the course in the ordinary call, a minimum score of 5 out of 10 in the theoretical exam (E1) and 4 out of 10 in the course project (T1) is mandatory. If these minimums are met, the final grade is calculated as: Note = 0.7 · E1 + 0.3 · T1. Otherwise, the grade will be the minimum between the calculated note and 4.0. The same elements and criteria apply for extraordinary calls.",
+  "bibliography": [
+    "Stan Birchfield. Image Processing and Analysis 1e. Cengage Learning, 2017. ISBN-13: 9781285179520 / ISBN-10: 1285179528",
+    "K. Dawson-Howe, A Practical Introduction To Computer Vision With OpenCV. Wiley, 2014.",
+    "Sonka, Milan, Vaclav Hlavac, and Roger Boyle. Image processing, analysis, and machine vision, International Edition 4e. Cengage Learning, 2015. ISBN-13: 9781133593690 / ISBN-10: 1133593690",
+    "Gary Bradski y Adrian Kaehler, Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library. O’Reilly Media, Inc., 2016. Print ISBN: 978-1-4919-3799-0| ISBN 10: 1-4919-3799-8",
+    "R. Szeliski, Computer Vision: Algorithms and Applications. Springer London Ltd, 2010. (Draft available on-line: http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)",
+    "C. Solomon y T. Breckon, Fundamentals of Digital Image Processing: A practical approach with examples in Matlab. Wiley, 2011.",
+    "David Forsyth & Jean Ponce, Computer Vision: A Modern Approach, 2e. Pearson, 2012."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-009",
+  "source_language": "es",
+  "source_sha256": "718a826dee81a088336c169f211a48ab6aaa6aedacdbb49bfc5088765ae276ee",
+  "extracted_at": "2026-11-20T01:13:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

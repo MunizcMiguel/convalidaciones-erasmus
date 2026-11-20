@@ -1,0 +1,147 @@
+{
+  "course_name_original": "Software systems verification and validation",
+  "course_name_en": "Software Systems Verification and Validation",
+  "ects": 7.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Object oriented programming",
+    "Advanced programming methods",
+    "Systems for design and implementation",
+    "Web Programming",
+    "Skills in highlevel object oriented programming environments"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has adequate knowledge related to the use of integrated development environments for creating large complex applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is familiar with traditional and agile development methodologies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to create automated tests of different levels of granularity for quality assurance of the developed systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is familiar with tools used for testing, debugging, validating software applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is familiar with methods for testing and verifying software systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is familiar with project management tools, version control systems, and continuous integration/continuous delivery (CI/CD) concepts, methods, tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to observe and obtain information from various sources.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Verification and validation",
+    "Program inspection",
+    "Program testing (1): the concept of program testing; unit testing: testing criteria – black box testing",
+    "Program testing (2): the concept of program testing; unit testing: testing criteria – white box testing (cont.)",
+    "Program testing (3): Levels of testing (unit, integration, system, regression, acceptance)",
+    "Testing Web applications",
+    "Agile testing",
+    "Script testing versus exploratory testing",
+    "Symbolic execution",
+    "Model checking",
+    "The theory of program correctness. The evolution of the concept of program correctness.",
+    "Floyd’s method for prooving correctness.",
+    "Hoare’s axiomatisation method",
+    "Dijkstra: the weakest precondition.Stepwise refinement from specifications",
+    "Program Quality",
+    "Verification/testing related activities: Technical testing skills, Soft testing skills, Giving, feedback.",
+    "Final exam preparation.",
+    "Inspection tool",
+    "Test cases using Black-box Testing (BBT)",
+    "Continuous Integration tool (Jenkins)",
+    "Test cases using White-box Testing (WBT)",
+    "Levels of testing - Integration testing",
+    "Web testing",
+    "Web testing tool (e.g. Selenium Web Driver)",
+    "Correctness. Static analysis",
+    "ESCJava2, JML"
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Didactical demonstration",
+    "Presentation",
+    "Problematizations",
+    "Discovery",
+    "Individual study",
+    "Exercises"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Seminar activity",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Laboratory activity",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Bonus points for additional activities (research/report, activities during lectures, R&D project)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is computed as 50% Written Exam + 25% Seminar + 25% Laboratory, and must be at least 5 to pass. Students must attend 75% of seminar activities and 90% of lab activities. Seminar/Laboratory assignments may not be redone in the retake session, but written exams can. For students from previous years, seminar/laboratory assignments and practical laboratory activity must be redone during didactic activity time.",
+  "bibliography": [
+    "[Fre10] FRENTIU, M., Verificarea si validarea sistemelor soft, Presa Universitara Clujeana, 2010",
+    "[Pres10] R. S. Pressman, Software engineering: a practinioner’s approach, seventh edition, Higher Education, 2010",
+    "[Crs09] L. Crispin, J. Grecory, Agile testing: a practical guide for testers and agile teams, Addison-Wesley, 2009",
+    "[You08] M. Pezzand, M. Young, Software Testing and Analysis: Process, Principles and Techniques, John Wiley & Sons, 2008",
+    "[Nai08] K. Naik, P. Tripathy, Software testing and quality assurance. Theory and Practice, A John Wiley & Sons, Inc., 2008",
+    "[Kat08] J. P. Katoen, Principles of Model Checking, MIT Press, May 2008",
+    "[Pat05] R. Patton, Software Testing, Sams Publishing, 2005",
+    "[Mye04] Glenford J. Myers, The Art of Software Testing, John Wiley & Sons, Inc., 2004",
+    "[Brn02] I. Brnstein, Practical software testing, Springer, 2002",
+    "[Mor90] Morgan, C., Programing from Specifications, Prentice Hall, NewYork, 1990.",
+    "[Dro89] DROMEY G., Program Derivation. The Development of Programs From Specifications, Addison Wesley Publishing Company, 1989.",
+    "[Kin75] J. Darringer, J. King, Applications of symbolic execution to program testing, 1975",
+    "[Dij75] DIJKSTRA, E., Guarded commands, nondeterminacy and formal derivation of programs, CACM, 18(1975), 8, pg.453-457.",
+    "[Hoa69] HOARE, C.A.R., An axiomatic basis for computer programming, CACM, 12(1969), pg.576-580, 583."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5014",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE5014_en_avescan_2025_9496.pdf",
+  "source_language": "en",
+  "source_sha256": "745b1514411be44a23ddad727fe2c1b021cca9988bd1eebcf8fc01256c9bd301",
+  "extracted_at": "2026-11-20T09:08:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

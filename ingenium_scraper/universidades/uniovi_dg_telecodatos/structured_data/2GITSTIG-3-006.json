@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Análisis de Datos",
+  "course_name_en": "Data Analysis",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Probability",
+    "Statistical Inference"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the main data preprocessing techniques and determine the most appropriate in each context.",
+      "type": "knowledge",
+      "code": "RAD1"
+    },
+    {
+      "text": "Perform a principal component analysis and know the main methods.",
+      "type": "skill",
+      "code": "RAD2"
+    },
+    {
+      "text": "Perform an exploratory and confirmatory factor analysis of a dataset.",
+      "type": "skill",
+      "code": "RAD3"
+    },
+    {
+      "text": "Know the different multidimensional scaling methods and the differences between them.",
+      "type": "knowledge",
+      "code": "RAD4"
+    },
+    {
+      "text": "Perform a correspondence analysis on a dataset.",
+      "type": "skill",
+      "code": "RAD5"
+    },
+    {
+      "text": "Fluently handle the different concepts and methodologies within discriminant analysis.",
+      "type": "skill",
+      "code": "RAD6"
+    },
+    {
+      "text": "Distinguish appropriately between all the previous techniques and apply the adequate one in each context.",
+      "type": "competence",
+      "code": "RAD7"
+    }
+  ],
+  "syllabus_topics": [
+    "Data preprocessing techniques. Motivation. Preprocessing tasks: cleaning, integration, transformation, reduction and discretization of data.",
+    "Principal component analysis. Correlation-based method. Covariance-based method. Limitations.",
+    "Exploratory and confirmatory factor analysis.",
+    "Multidimensional scaling (MDS). Classic and non-metric models.",
+    "Correspondence analysis. Extensions.",
+    "Discriminant analysis. Discriminant functions. LDA, incremental LDA, multiclass LDA and high-dimensional LDA methods."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes (lectures)",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Tutorials",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and participation",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in forums and Campus Virtual activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practice evaluation",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Theoretical final exam",
+      "weight_percentage": 45.0
+    }
+  ],
+  "assessment_rules": "The final grade for the ordinary call is calculated using the formula: Final grade = 0.05·A + 0.10·T + 0.40·P + 0.45·E. A minimum final grade of 5 out of 10 is required to pass the subject. For the extraordinary call in July, students can retain the grades obtained in the ordinary call. For the extraordinary call in January, the evaluation will consist of a theoretical-practical final exam, which will constitute 100% of the final grade. In all cases, a minimum of 5 out of 10 is required to pass.",
+  "bibliography": [
+    "C.M. Cuadras, Métodos de análisis multivariante, PPU, 1991.",
+    "R.A. Johnson and D.W. Wichern, Applied Multivariate Statistical Analysis, Prentice-Hall, 2002.",
+    "K.V. Mardia, J.T. Kent and J.M. Bibby, Multivariate analysis, Academic Press, 1979.",
+    "D. Peña, Análisis de Datos Multivariantes, McGraw Hill, 2002.",
+    "J. Aldás y E. Uriel. Análisis Multivariante aplicado con R, Paraninfo. 2017.",
+    "T. Aluja y A. Morineau: Aprender de los datos: el análsis de componentes principales, EUB, 1999.",
+    "M.R. Anderberg: Cluster Analysis for Applications. Academic Press, 1973.",
+    "M. Bilodeau and D. Brenner: Theory of Multivariate Analysis, Springer, 1999.",
+    "I. Borg and P. J. F. Groenen: Modern Multidimensional Scaling: Theory and Applications, Springer-Verlag, 2005.",
+    "M. Jambu: Exploratory and Multivariate Data Analysis, Academic Press, 1991.",
+    "J.D. Jobson: Applied Multivariate Data Analysis, vol. I y II. Springer, 1992.",
+    "W.J. Kraznoswski: Principles of multivariate analysis: a users perspective, Oxford University Press, 1988."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-3-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-006",
+  "source_language": "es",
+  "source_sha256": "81a1f28d5fe173b73e6b2a187c74cfb6cc85e1902dbf45e6ffb74dd6f589d687",
+  "extracted_at": "2026-11-20T06:06:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

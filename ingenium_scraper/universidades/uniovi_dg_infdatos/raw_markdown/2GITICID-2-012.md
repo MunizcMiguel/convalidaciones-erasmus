@@ -1,0 +1,175 @@
+---
+{
+ "course_code": "2GITICID-2-012",
+ "course_name": "Aprendizaje Automático II",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-012",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:06",
+ "content_sha256": "0530e082d14730b89ff387af4e2aace80f1c1d2f117c8b73f1cb85473a74a9ed"
+}
+---
+
+# Aprendizaje Automático II
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-2-012
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Clases Expositivas (16 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura de Aprendizaje Automático II (AA2) se imparte durante el segundo semestre del segundo curso y forma parte de la materia Análisis y Visualización de Datos.
+
+## Requisitos
+
+Es conveniente que los estudiantes hayan cursado Aprendizaje Automático I y que, aunque no hayan superado dicha asignatura, tengan los conocimientos básicos que en ella se imparten.
+
+## Competencias y resultados del aprendizaje
+
+**Competencias básicas**
+
+**CB2 -** Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+
+**CB3** - Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+
+**CB4** - Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un publico tanto especializado como no especializado.
+
+**Competencias generales**
+
+**CG01 -** Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+**CG02 -** Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+**CG03 -** Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+**CG04 -** Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+**CG07** - Identificar oportunidades para aplicaciones innovadoras orientadas a datos en entornos tecnológicos en continua evolución.
+
+**CG09 -** Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+**Competencias específicas**
+
+**CE07 -** Utilizar las técnicas más adecuadas para el preprocesado y la visualización de datos, incluyendo técnicas de reducción de la dimensionalidad, con objeto de facilitar su análisis y comunicación.
+
+**CE09** - Construcción de sistemas de aprendizaje automático utilizando técnicas básicas y avanzadas, para construir sistemas inteligentes a partir de conjuntos de datos.
+
+**Resultados de aprendizaje**
+
+**RAPII1 -** Aplicar técnicas de aprendizaje supervisado complejas utilizando un algoritmo adecuado dependiendo del tipo de problema.
+
+**RAPII2 -** Ser capaz de identificar problemas en los que la distribución de los datos cambia y adaptar los modelos para mejorar su precisión.
+
+**RAPII3 -** Comprender los conceptos del aprendizaje por refuerzo y saber utilizar este tipo de algoritmos para resolver aplicaciones reales.
+
+**RAPII4 -** Saber aplicar técnicas de aprendizaje no supervisado para la extracción de conocimiento.
+
+**RAPII5 -** Conocer los algoritmos básicos para la detección de anomalías.
+
+**RAPII6 -** Conocer técnicas de aprendizaje semi-supervisado para abordar aplicaciones donde abundan los datos no etiquetados.
+
+## Contenidos
+
+Tema 1: Problemas complejos de aprendizaje supervisado.
+
+Tema 2: Problemas con cambios en la distribución de los datos.
+
+Tema 3: Aprendizaje semi-supervisado.
+
+Tema 4: Aprendizaje no-supervisado.
+
+Tema 5: Detección de anomalías.
+
+Tema 6: Modelos de Markov.
+
+Tema 7: Aprendizaje por refuerzo.
+
+## Metodología y plan de trabajo
+
+|  |  | ***TRABAJO PRESENCIAL*** |  |  |  | **TRABAJO NO PRENSENCIAL** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | Prácticas de laboratorio /Campo /Aula de Informática /Aula de idiomas | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva (on-line)* | *Prácticas de laboratorio (on-line)* | *Trabajo autónomo* | **Total** |
+| T1: Problemas complejos de aprendizaje supervisado | 28.5 | 3 | 3 | 0.5 | 6.5 | 3 | 3 | 16 | 22 |
+| T2: Problemas con cambios en la distribución de los datos | 21.5 | 2 | 2 | 0.5 | 4.5 | 2 | 3 | 12 | 17 |
+| T3: Aprendizaje semi-supervisado | 20.5 | 2 | 2 | 0.5 | 4.5 | 2 | 2 | 12 | 16 |
+| T4: Aprendizaje no-supervisado | 23 | 2 | 2 |  | 4 | 2 | 2 | 15 | 19 |
+| T5: Detección de anomalías | 17 | 1 | 2 |  | 3 | 2 | 2 | 10 | 14 |
+| T6: Modelos de Markov | 15 | 2 | 1 |  | 3 | 1 | 1 | 10 | 12 |
+| T7: Aprendizaje por refuerzo | 24.5 | 2 | 2 | 0.5 | 4.5 | 2 | 3 | 15 | 20 |
+| Total | 150 | 14 | 14 | 2 | 30 | 14 | 16 | 90 | 120 |
+
+El resumen por modalidades de trabajo se muestra a continuación:
+
+| MODALIDADES |  | Horas | Totales |
+| --- | --- | --- | --- |
+| Presencial | Clase Expositiva | 14 | 30 |
+|  | Prácticas de laboratorio | 14 |  |
+|  | Sesiones de evaluación | 2 |  |
+| No presencial | *Clase Expositiva (on-line)* | 14 | 120 |
+|  | *Prácticas de laboratorio (on-line)* | 16 |  |
+|  | Trabajo Individual | 90 |  |
+|  | **Total** | **150** |  |
+
+Las prácticas de laboratorio consistirán en la resolución (utilizando el ordenador) de ejercicios planteados por el equipo docente donde el alumnado recibirá asistencia del profesorado para una correcta resolución de estos y, consecuentemente, una correcta comprensión de la materia explicada en las clases expositivas.
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+La evaluación constará de **cuatro bloques evaluables**, puntuados de **0 a 10 puntos** cada uno de ellos, con los siguientes pesos:
+
+1. **Actividades del Campus Virtual (ACV - 15%)**: test teóricos online y realización de ejercicios prácticos. No es necesario obtener una calificación mínima.
+2. **Asistencia / participación en seminarios y tutorías, incluye actividades online: (PAR - 5%)**: asistencia y participación activa, tanto en las prácticas de laboratorio celebradas durante la convocatoria ordinaria, como en cualquier otra actividad celebrada durante el curso. No es necesario obtener una calificación mínima.
+3. **Examen teórico (TE - 40%)**: examen final de carácter teórico que se realizará en el período de exámenes al final de la convocatoria ordinaria y cuya fecha exacta fijará el Centro. Es necesario obtener una **nota mínima de 4 puntos sobre 10**.
+4. **Examen práctico (PR - 40%)**: examen final de carácter práctico que se realizará en el período de exámenes al final de la convocatoria ordinaria y cuya fecha exacta fijará el Centro. Es necesario obtener una **nota mínima de 4 puntos sobre 10**.
+
+Si el peso total de las actividades evaluables realizadas por el estudiante **es inferior al 50%**, la calificación final será **“No Presentado”**. Si por el contrario, el peso total de las actividades evaluables realizadas por el estudiante **es igual o superior al 50%**, la nota de la convocatoria ordinaria se calculará con la siguiente fórmula:
+
+**Nota = ACV \* 0,15 + PAR \* 0,05 + TE \* 0,40 + PR \* 0,40**
+
+donde las actividades evaluables no realizadas por el estudiante entrarán a contabilizar en el cómputo de la nota con un 0. En el caso de que el estudiante hubiese obtenido **una nota inferior a 4 puntos sobre 10** en cualquiera de los exámenes finales, ya sea el teórico (TE) o el práctico (PR), la calificación final será el **mínimo entre 4 puntos y la nota calculada con la formula anterior**. Para superar la asignatura hay que obtener una **calificación final igual o superior a 5 puntos sobre 10**.
+
+**Convocatorias extraordinarias**
+
+Esta evaluación constará de **dos bloques evaluables**, puntuados de **0 a 10 puntos** cada uno de ellos, con los siguientes pesos:
+
+1. **Examen teórico (TE - 50%)**: examen de carácter teórico que se realizará en el período de exámenes de la convocatoria extraordinaria correspondiente y cuya fecha exacta fijará el Centro. Es necesario obtener una **nota mínima de 4 puntos sobre 10**.
+2. Examen práctico (PR - 50%): examen de carácter práctico que se realizará en el período de exámenes de la convocatoria extraordinaria correspondiente y cuya fecha exacta fijará el Centro. Es necesario obtener una **nota mínima de 4 puntos sobre 10**.
+
+En el caso de que el estudiante hubiese obtenido una nota igual o superior a 4 puntos sobre 10 en el examen teórico (TE) o práctico (PR) de una convocatoria anterior del mismo curso, podrá decidir no presentase a ese mismo examen en la convocatoria extraordinaria, siendo su nota en esa parte la que obtuvo en dicha convocatoria anterior en esa misma parte. Por ejemplo, si el estudiante obtuvo 6 puntos en el examen práctico de la convocatoria ordinaria (PR), podrá no presentarse al examen práctico de una convocatoria extraordinaria, siendo 6 puntos su nota en esa parte (PR), y presentarse solamente al examen teórico (TE) de la convocatoria extraordinaria.
+
+La nota de la convocatoria extraordinaria se calculará con la siguiente fórmula:
+
+**Nota = TE \* 0,50 + PR \* 0,50**
+
+En el caso de que el estudiante hubiese obtenido una **nota inferior a 4 puntos sobre 10** en cualquiera de los exámenes, ya sea el teórico (TE) o el práctico (PR), la calificación final será el **mínimo entre 4 puntos y la nota calculada** con la formula anterior. Para superar la asignatura hay que obtener una **calificación igual o superior a 5 puntos sobre 10**.
+
+**Evaluación diferenciada**
+
+Se rige por las mismas directrices que la **evaluación de las convocatorias extraordinarias**.
+
+## Bibliografía
+
+Referencias bibliográficas
+
+- Hastie, T., Tibshirani, R., Friedman, J. H., & Friedman, J. H. (2009). The elements of statistical learning: data mining, inference, and prediction. Springer.
+- Bishop, C. M., & Nasrabadi, N. M. (2006). Pattern recognition and machine learning. Springer.
+- Sugiyama, M. (2015). Introduction to statistical machine learning. Morgan Kaufmann.
+- Barber, D. (2012). Bayesian reasoning and machine learning. Cambridge University Press.
+- Han, J., Pei, J., & Kamber, M. (2011). Data mining: concepts and techniques. Elsevier.
+- Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT press.

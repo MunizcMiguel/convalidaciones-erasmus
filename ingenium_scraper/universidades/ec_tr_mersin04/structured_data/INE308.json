@@ -1,0 +1,113 @@
+{
+  "course_name_original": "FORECASTING METHODS",
+  "course_name_en": "Forecasting Methods",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "fundamental learning outcomes for Probability and Random Variables",
+    "fundamental learning outcomes for Engineering Statistics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Defines forecasting problems and selects appropriate forecasting methods based on the type of data, the objective of the study, and error measures.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Computes confidence intervals, prediction intervals, and tolerance intervals, and quantitatively interprets uncertainty.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Applies hypothesis tests (one-sample and two-sample tests for proportions and means) and draws statistical inferences from test results.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Defines and applies time series forecasting models (moving average, exponential smoothing, AR, MA, ARMA, and ARIMA) and identifies the most appropriate model by comparing alternative models.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Constructs correlation and simple linear regression models, evaluates model assumptions, and analyzes forecasting uncertainties.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Constructs multiple linear regression models and evaluates issues related to variable selection, confounding, and multicollinearity.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Statistical Preliminaries and An Introduction to Forecasting A Review of Elementary Statistical Concepts",
+    "Forecasting and Data; Forecasting Methods; Errors in Forecasting",
+    "Choosing a Forecasting Technique Quantitative Forecasting Techniques",
+    "Some Case Studies on Bad Sampling",
+    "Confidence Intervals",
+    "Confidence Intervals for Population Means (Large and Small Samples)",
+    "Confidence Intervals for Proportions",
+    "Confidence Intervals for Differences (Means and Proportions)",
+    "Prediction Intervals; Tolerance Intervals",
+    "Hypothesis Testing",
+    "Hypothesis Tests for Population Means (Large and Small Samples)",
+    "Hypothesis Tests for Population Proportions",
+    "Hypothesis Tests for Differences (Means and Proportions)",
+    "Drawing Conclusions from Hypothesis Tests",
+    "Midterm Exam",
+    "Time Series Forecasting Theory Types of Studies and Analysis; Cross-Sectional vs Time Series Data",
+    "Time Series Components and Processes; Model Selection",
+    "Moving Average, Weighted Moving Average, Exponential Smoothing",
+    "Forecasting Error; Examples in R Programming",
+    "AR, MA, ARMA, and ARIMA Models",
+    "Autocorrelation and Partial Autocorrelation Functions",
+    "Model Identification and Detection",
+    "Correlation and Simple Linear Regression",
+    "Covariance, Correlation, and Joint Distributions",
+    "The Least-Squares Line and Coefficient Uncertainty",
+    "Assumption Checking and Data Transformation",
+    "Multiple Regression",
+    "The Multiple Regression Model",
+    "Confounding and Collinearity",
+    "Model Selection",
+    "Final Exam"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 137.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Midterm Examination",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final Examination",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final success grade is determined by the contribution of the in-term activities and the final exam grade. The Midterm Examination contributes 50% to the final success grade. The Final Examination contributes 50% to the final success grade.",
+  "bibliography": [
+    "Bowerman, B. L., O’Connell, R. T., Koehler, A. B. Forecasting, Time Series, and Regression Thomson Brooks/Cole Publishing",
+    "Shmueli, G. Practical Time Series Forecasting with R Axelrod Schnall Publishers",
+    "Gilchrist, W. Statistical Forecasting John Wiley & Sons Ltd"
+  ],
+  "isced_f_code": "0413",
+  "missing_sections": [
+    "bibliography",
+    "assessment_methods"
+  ],
+  "institution": "Toros Üniversitesi (Toros University)",
+  "institution_slug": "ec_tr_mersin04",
+  "degree": "Endüstri Mühendisliği (Industrial Engineering), lisans",
+  "course_code": "INE308",
+  "academic_year": "2026-2027 - Endüstri Mühendisliği 2022-Devam",
+  "source_url": "https://obsogrenci.toros.edu.tr/BLGNDersBilgiPaketi/DersBilgileri?mufDersID=0&dersGrubuDersID=62323&dersID=4068&programID=115&dilID=2&yilID=49",
+  "source_language": "en",
+  "source_sha256": "46a3eccf4eccc8432b129f7ad7b3a25841acd2d7579bb23d503c50282d99b62a",
+  "extracted_at": "2026-11-20T09:11:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

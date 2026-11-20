@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Ingeniería Térmica",
+  "course_name_en": "Thermal Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Mechanics and Thermodynamics (recommended)",
+    "Basic knowledge of Calculus, Linear Algebra, and Mathematical Methods from the first year.",
+    "Mastery of thermometry and calorimetry concepts, and application of the first and second principles to closed systems and simple thermodynamic cycles."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Relate the field of study of Thermodynamics and Heat Transfer and know the most important applications of both disciplines in the field of Thermal Engineering",
+      "type": "unspecified",
+      "code": "RIT-1"
+    },
+    {
+      "text": "Apply mass, energy, and entropy balances to various systems, including the main equipment present in industrial plants (engines, turbines, compressors, boilers, condensers, etc.)",
+      "type": "skill",
+      "code": "RIT-2"
+    },
+    {
+      "text": "Know the equipment that integrates power generation cycles (steam, gas, and combined) and refrigeration cycles commonly used in industry and be able to perform their thermodynamic analysis to assess their energy efficiency",
+      "type": "knowledge",
+      "code": "RIT-3"
+    },
+    {
+      "text": "Know the main characteristics and fundamental physical laws on which the three basic mechanisms of heat transfer (conduction, convection, and radiation) are based",
+      "type": "knowledge",
+      "code": "RIT-4"
+    },
+    {
+      "text": "Mathematically express the equations that describe heat transfer in a physical problem from fundamental balances (mass, momentum, and heat) and the laws on which the basic mechanisms are based",
+      "type": "skill",
+      "code": "RIT-5"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I. APPLIED THERMODYNAMICS",
+    "Chapter 1. Properties and Processes in Thermodynamic Systems",
+    "Lesson 1: Basic concepts: Units of measurement. Gases: ideal, real and Van der Waals. Equations of state. Pure substance: phases and diagrams. State properties: determination using tables and/or equations of state.",
+    "Chapter 2. Basic Principles of Thermodynamics",
+    "Lesson 2. First Principle of Thermodynamics. Sign criterion. Application to closed and open systems in steady state.",
+    "Lesson 3. Second Principle of Thermodynamics. Definition of entropy and applications. Entropy generation. Isentropic efficiency of equipment.",
+    "Chapter 3. Thermal Machines",
+    "Lesson 4. The heat engine: types and efficiency. The Carnot cycle: thermal efficiency. Cycles of heat engines operating as motors: thermal efficiency.",
+    "Lesson 5. Gas power cycles: analysis of the Brayton cycle.",
+    "Lesson 6. Steam power cycles: analysis of the Rankine cycle. Combined cycle.",
+    "Lesson 7. Continuous production of cold by vapor compression of a refrigerant: analysis of the inverse Rankine cycle. The heat pump and its analysis.",
+    "BLOCK II. BASIC CONCEPTS OF HEAT TRANSFER",
+    "Chapter 4. Fundamentals of heat transfer",
+    "Lesson 8: Fundamental concepts, characteristics of basic heat transfer mechanisms and basic laws.",
+    "Chapter 5. Conduction",
+    "Lesson 9. Simple geometries: flat, cylindrical and spherical wall. Critical insulation radius.",
+    "Lesson 10. Additional surfaces: concept, temperature field, efficiency and dissipation coefficient. Heat transfer through finned surfaces.",
+    "Lesson 11. Heat transfer in common configurations: conduction shape factor.",
+    "Chapter 6. Convection",
+    "Lesson 12. Analysis methods in forced and natural convection.",
+    "Lesson 13. Use of empirical correlations in forced and natural convection.",
+    "Chapter 7. Radiation",
+    "Lesson 14. Fundamentals of thermal radiation. Radiative properties. Blackbody and gray body. Heat transfer by radiation between two surfaces. Combined heat transfer mechanisms."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practicals",
+    "Laboratory practicals",
+    "Seminars",
+    "Group tutorials",
+    "Virtual Campus activities (reading theoretical fundamentals, solving questionnaires, participating in debate forums, viewing additional material)",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Classroom participation (PA)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practicals (PL) questionnaire",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Group tutorial (TG) questionnaire",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written exam (EX)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practicals exam (EP)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For students with continuous assessment, the final grade is 0.1 * PA + 0.1 * PL + 0.1 * TG + 0.7 * EX, provided EX >= 3.5. Otherwise, the grade is min(formula result, 4.0). For students with differentiated assessment, the final grade is 0.3 * EP + 0.7 * EX, provided EX >= 3.5. Otherwise, the grade is min(formula result, 4.0). A minimum course grade of 5.0 is required to pass. In extraordinary calls, a written exam (EX) covers all theoretical content; for continuous assessment students, previous PA, PL, TG scores are retained. Differentiated assessment students also have a practical exam (EP) in extraordinary calls, and may choose to only examine one block of the course, or not take the practical exam if a previous score is valid.",
+  "bibliography": [
+    "Termodinámica. Çengel & Boles. Editorial Mc Graw Hill.",
+    "Transmisión de Calor. Apuntes. Prieto M.M., Suárez I. Ediuno",
+    "Fundamentos de Termodinámica Técnica. Moran y Shapiro. Vol. I y II. Editorial Reverté, S.A.",
+    "Transferencia de Calor y Masa. Çengel YA. McGraw-Hill. 3ª edición (2007)"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Química Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_giqi",
+  "degree": "Grado en Ingeniería Química Industrial",
+  "course_code": "GIIQUI01-2-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/quimicaindustrial/-/fof/asignatura/GIIQUI01-2-011",
+  "source_language": "es",
+  "source_sha256": "c09e7808f590bceba3d68df7ccb56bd354f4c2c167a3cbf434b2f2e588130845",
+  "extracted_at": "2026-11-20T01:14:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

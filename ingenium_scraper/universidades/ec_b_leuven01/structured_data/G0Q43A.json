@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Computer Networks",
+  "course_name_en": "Computer Networks",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Familiarity with algorithms and data structures (from 'Methods of informatics' or 'Principles of programming')",
+    "Acquaintance with the Internet as a user",
+    "Familiarity with basic concepts of protocol and network architecture",
+    "Elementary knowledge of cooperative tasks and deadlocks"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with a thorough understanding of important topics in computer networks, focusing on the application, transport, network, and data link layers of the protocol stack, and providing basic context on the physical layer.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the functioning of the most important building-blocks and protocols of a computer network.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Computer Networks and their applications",
+    "Reference models for computer networks",
+    "Application layer challenges",
+    "Architecture of key networked applications",
+    "Important application-layer protocols (e.g., Telnet, HTTP, SMTP, DNS, DHCP, Gnutella, Chord, Bittorrent, TOR)",
+    "Overview of transport layer services",
+    "Basic elements of a transport layer protocol",
+    "Important Internet transport protocols (e.g., UDP, RTP, TCP)",
+    "Network layer concerns: routing algorithms, congestion control, quality of service, internetworking",
+    "Important network layer Internet protocols (e.g., IPv4, ICMP, ARP, Link State Routing)",
+    "Introduction to Internet Protocol version 6 (IPv6)",
+    "Medium Access Control (MAC) sub-layer",
+    "Design issues for MAC-layer protocols",
+    "Case-study protocols: ALOHA, Ethernet, Berkeley-MAC (BMAC), Time Synchronized Mesh Protocol (TSMP)",
+    "Framing",
+    "Physical layer basics",
+    "Simulating application protocols using Telnet (home exercise)",
+    "Sockets Programming with Java (lab sessions)",
+    "Network Administration with CISCO (lab sessions)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical sessions",
+    "Home exercise",
+    "Lab sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 50.0,
+  "assessment_methods": [
+    {
+      "method": "Exam during the examination period (written, open and closed questions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam will consist of a total of four questions: two open book questions and two closed book questions. Permitted materials include course material.",
+  "bibliography": [
+    "Computer Networks, 5th Edition, A. Tanenbaum (Dutch or English edition)",
+    "Documentation will be made available via Toledo"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "G0Q43A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/G0Q43AE",
+  "source_language": "en",
+  "source_sha256": "d4f141ae9f3cf9237faec6d9f56312c93f6d00e4797a7fc8310d038d2c542377",
+  "extracted_at": "2026-11-20T09:17:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

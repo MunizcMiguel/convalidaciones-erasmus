@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Tecnologías Web",
+  "course_name_en": "Web Technologies",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming Technologies and Paradigms",
+    "Human-Computer Communication",
+    "Databases",
+    "Software Engineering",
+    "Information Systems",
+    "Distributed Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to conceive systems, applications and services based on network technologies, including Internet, web, e-commerce, multimedia, interactive services and mobile computing.",
+      "type": "competence",
+      "code": "ETI6.1"
+    },
+    {
+      "text": "Understand the different frameworks for defining the architecture of a web-based application.",
+      "type": "knowledge",
+      "code": "IS39"
+    },
+    {
+      "text": "Understand the technologies corresponding to service-oriented architectures and other emerging technologies.",
+      "type": "knowledge",
+      "code": "IS40"
+    },
+    {
+      "text": "Develop the client components of a web application using a technology and applicable tools.",
+      "type": "skill",
+      "code": "IS41"
+    },
+    {
+      "text": "Develop the business components of a web application using a technology, database, and applicable tools.",
+      "type": "skill",
+      "code": "IS42"
+    },
+    {
+      "text": "Integrate the different components of a web application.",
+      "type": "skill",
+      "code": "IS43"
+    },
+    {
+      "text": "Analyze and evaluate the implications and risks related to security in web applications.",
+      "type": "skill",
+      "code": "IS44"
+    },
+    {
+      "text": "Understand the different business models on the web and their typology, including e-commerce.",
+      "type": "knowledge",
+      "code": "IS45"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Review of technologies. Review of web application models.",
+    "Framework and frameworks.",
+    "Client-Server Technologies",
+    "Client-side technologies.",
+    "Server-side technologies.",
+    "Web services technologies.",
+    "Automated functional testing.",
+    "Security and legal aspects on the web",
+    "Business models on the web",
+    "Business typologies.",
+    "Involved technologies.",
+    "Use and applications of client technologies.",
+    "Use and applications of server technologies."
+  ],
+  "teaching_methods": [
+    "Participatory expository classes",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final written theory exam (NT)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Group practical tests (NP) (continuous assessment: two submissions and two exams)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active attendance to laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary examination, the final theory exam (NT) must be 5.0 or higher. The weighted average of group practical tests (NP) must be 5.0 or higher, with at least three individual practical test scores equal to or greater than 4.0. A minimum attendance of 80% and completion of at least 80% of proposed lab exercises are required for practical test grades. If all minimums are met, the final grade is 0.2 * NT + 0.8 * NP; otherwise, it is the minimum of this formula and 4.0. For extraordinary examination, a theoretical exam (NT) is performed, and the final grade is 0.60 * NT + 0.40 * NP, where NP is 0.0 unless practices were passed in the ordinary call (NP >= 5.0), in which case the maximum final grade is 6.0. If the theoretical exam is not passed, the grade is the minimum of the formula and 4.0. For differentiated assessment, a theory exam (NT >= 5.0) and a practical test (NP = 0.5 * NPrueba + 0.5 * NSupuesto, both >= 5.0) are required, with the final grade calculated as 0.2 * NT + 0.8 * NP if all minimums are met, otherwise the minimum of this formula and 4.0.",
+  "bibliography": [
+    "Morrison, Michael. XML al descubierto. Ed. Pearson, 2000. ISBN 978-84-205-2964-6.",
+    "Flanagan, David. JavaScript: The Definitive Guide. Sixth Edition. O’Reilly Media. ISBN 978-0596805524.",
+    "Craig Walls. Spring in Action, Sixth Edition, Manning, 2022.",
+    "Krug, Steve. Don't make me think, revisited : a common sense approach to Web usability. [Berkeley, Calif.] :New Riders, 2014.",
+    "Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy. Site Reliability Engineering: How Google Runs Production Systems (1st. ed.). O'Reilly Media, Inc., 2016, Disponible gratuitamente en: https://sre.google/sre-book/table-of-contents/ (Accedido 09/03/2026).",
+    "Martin Fowler. Patterns of Enterprise Application Architecture. Addison-Wesley, 2003",
+    "Robert C. Martin. Clean Code: A Handbook of Agile Software Craftsmanship (1st. ed.). Prentice Hall PTR, USA, 2008.",
+    "ERICH GAMMA, RICHARD HELM, RALPH JOHNSON, AND JOHN VLISSIDES (The Gang of Four). 1994. Design Patterns. Addison Wesley Professional Computing Series. ISBN 0-201-63361-2.",
+    "Sitio web de la oficina española del World Wide Web Consortium (W3C): http://www.w3c.es/ (Accedido 09/03/2025)",
+    "Web/Documentación oficial Spring: https://spring.io/ (Accedido 09/03/2025)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Informática (Informática, Oviedo)",
+  "institution_slug": "uniovi_mm_inf",
+  "degree": "Máster Universitario en Ingeniería Informática",
+  "course_code": "MINFOR01-C-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/informatica/-/fof/asignatura/MINFOR01-C-002",
+  "source_language": "es",
+  "source_sha256": "b65c8f67012bb757ee86942408c80605ec3e7f02129155f05e1c6368b385af08",
+  "extracted_at": "2026-11-20T05:58:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

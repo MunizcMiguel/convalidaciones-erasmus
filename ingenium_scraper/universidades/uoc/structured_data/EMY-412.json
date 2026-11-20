@@ -1,0 +1,125 @@
+{
+  "course_name_original": "ΕΜΥ - 412 Introduction to Numerical Analysis",
+  "course_name_en": "Introduction to Numerical Analysis",
+  "ects": 5.0,
+  "semester": "8th",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [
+    "Introduction to Computer Programming (ΕΜΥ-113)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the basic numerical methods for solving computational mathematical problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to develop complex computer programs in order to implement numerical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be prepared to attend additional computational courses: Computational Materials Science I (EMY-415) and II (EMY-416) etc.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to understand and apply new numerical methods to solve complex mathematical and physical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solving complex problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Development of scientific thinking.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Use of libraries and multiple bibliographic sources.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Search for resources and online lessons.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Create notes and standalone study method.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Implementation of research work.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Manage time and deadlines.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numeral systems. IEEE Standards for integer and floating point numbers. Computer representation of numbers.",
+    "Numerical solution of a nonlinear equation. Definitions, useful theorems. Methods: bisection, regula falsi, secant, Muller, fixed point, Ηοuseholder (Newton-Raphson, Halley).",
+    "Systems of linear equations. Direct methods (Gauss elimination, Gauss-Jordan, LU). Iterative methods (Gauss-Seidel, Jacobi, SOR). Other methods.",
+    "Applications: calculation of the determinant of a matrix, inverse matrix, matrix eigenvalues and eigenvectors.",
+    "Numerical solution of systems of nonlinear equations.",
+    "Function/set of points approximation: Interpolation of polynomial, rational, piecewise polynomial, spline. Runge phenomenon.",
+    "Numerical differentiation.",
+    "Least squares approximation: line, polynomial, logarithmic and exponential. Correlation coefficient.",
+    "Numerical quadrature. Trapezoid and Simpson rules. Newton-Cotes formulas. Gauss quadrature methods (Legendre, Hermite, Laguerre, Chebyshev). Clenshaw–Curtis method. Other methods.",
+    "Numerical solution of initial value problems of first order ordinary differential equations (ODE). Methods: Euler (explicit/implicit), Taylor, Runge-Kutta 2nd and 4th orders.",
+    "Systems of ODEs. Higher order ODEs.",
+    "Other topics (FFT, optimization, etc)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Programming exercises",
+    "Face-to-face instruction",
+    "Use of computers and projector in teaching and exercises",
+    "Communication with students through the course website and by email",
+    "Independent study"
+  ],
+  "workload_hours_total": 117.0,
+  "workload_hours_contact": 52.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-term written exam (optional)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam comprises questions on theory and programming exercises. The evaluation consists of (optional) mid-term and final written exams.",
+  "bibliography": [
+    "Notes (in greek): https://raw.githubusercontent.com/sstamat/mybooks/main/numanal.pdf",
+    "Λ. Πιτσούλης, \"Εισαγωγή στην Αριθμητική ανάλυση\", έκδοση 2η, Εκδόσεις Τζιόλα. 2015.",
+    "Steven C. Chapra, Raymond P. Canale, \"Αριθμητικές Μέθοδοι για Μηχανικούς\", έκδοση 7η. Εκδόσεις Τζιόλα. 2016.",
+    "Ιωάννης Θ. Φαμέλης, \"Υπολογιστικά Μαθηματικά\", Εκδόσεις Κριτική, 2021"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "University of Crete",
+  "institution_slug": "uoc",
+  "degree": "Materials Science and Engineering — Πτυχίο Τμήματος Επιστήμης και Μηχανικής Υλικών (first cycle, 240 ECTS, curriculum ΕΜΥ)",
+  "course_code": "EMY-412",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.materials.uoc.gr/wp-content/uploads/2026/07/new_courses-outline_en_eng.pdf",
+  "source_language": "en",
+  "source_sha256": "ac98c043845bb2bfe7a2544e0e93abca481ce7b152976177cc3da3f67d314188",
+  "extracted_at": "2026-11-13T00:17:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

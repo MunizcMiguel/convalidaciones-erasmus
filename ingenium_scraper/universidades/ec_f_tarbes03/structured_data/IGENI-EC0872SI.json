@@ -1,0 +1,83 @@
+{
+  "course_name_original": "Compatibilité Electromagnétique",
+  "course_name_en": "Electromagnetic Compatibility",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "IGENI-EC0144 Génie électrique",
+    "IGENI-EC0244 Structures électriques en courant continu",
+    "IGENI-EC0445 Circuits électriques en régime alternatif",
+    "IGENI-EC0742 Electronique de mesure",
+    "IGENI-EC0743 Conversion statique de l'énergie électrique 1",
+    "IGENI-EC0773SI Traitement du signal 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic principles of electromagnetic compatibility (EMC) and its importance in the design of electronic and electrotechnical systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify the main sources of electromagnetic disturbance (emissions) and coupling mechanisms (conducted and radiated).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the effects of electromagnetic interference on sensitive equipment (immunity).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn basic methods for limiting risks (shielding, filtering, grounding, routing rules, etc.).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Acquire an initial overview of the standards framework and project management incorporating EMC constraints (industrial standards and compliance testing).",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "General overview of the criticality of electromagnetic compatibility (EMC) issues for the operational safety of electronic and electrotechnical systems",
+    "General overview of the standards framework and EMC project management",
+    "Fundamental physics: parasitic impedances, radiated and conducted electromagnetic disturbances.",
+    "Coupling modes and design rules",
+    "EMC compliance testing: emission and immunity",
+    "EMC analysis approach"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Independent documentary research"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 3.0,
+  "assessment_methods": [
+    {
+      "method": "Project",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*PJ)/1.",
+  "bibliography": [
+    "Alain Charoy « Guide pratique de la CEM - 3e édition », Dunod 2017"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0872SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "d06628be488262bb8d2854e971b8c127c32c93ed7d153d7eec4934fbee54efa0",
+  "extracted_at": "2026-11-18T09:52:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

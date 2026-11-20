@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Numerical Methods",
+  "course_name_en": "Numerical Methods",
+  "ects": 3.0,
+  "semester": "3",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student has knowledge of mathematics, including algebra, analysis, differential equations, necessary for the description and analysis of technical objects and processes, and understands the meaning of all concepts discussed within the 'Numerical Methods' module.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "The student has basic knowledge of programming and the application of computer techniques in engineering activities; knows and understands the concepts of task algorithmization and methods of recording them in a computer language.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "The student has basic knowledge of the properties of numerical algorithms, their possibilities of application in engineering problems, and the modeling and study of the properties of dynamic systems using simulation methods.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "The student is able to obtain information from literature, databases, and other sources, and to use existing software libraries to solve problems in the field of technology.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "The student is able to examine the dynamic properties of a system using computer simulation methods and can solve a simple decision problem using computer optimization algorithms.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "The student is able to apply the learned computational methods in engineering problems and mathematical methods for the analysis and evaluation of system operation, and to conduct a thorough error analysis of the obtained numerical results.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "The student understands the need and knows the possibilities of continuous self-improvement and raising professional competencies and sharing knowledge, therefore can present new numerical library programs and determine their usefulness in solving specific problems.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "General issues, basic concepts and definitions of numerical analysis (4 hours): Sources of numerical errors, what is an exact method, an approximate method?, iterative and recursive calculations, method convergence, solution stability, numerically ill-conditioned tasks. Attention to computational properties of numerical algorithms, error estimation, convergence speed, computational complexity",
+    "Static issues - systems of equations and scalar equations, i.e., function zeros (6 hours): Systems of linear equations, Gauss elimination methods, Jordan elimination, special matrix decompositions, such as upper, lower, and diagonal triangular; iterative methods (can they be used?), inverse matrix calculations. Determination of function zeros (scalar equation) - iterative methods, algorithms convergent to the solution. Systems of nonlinear equations - simple iteration, Newton-Raphson method, conditions for algorithm convergence and possibilities of their implementation.",
+    "Static issues of functional approximations - interpolation and extrapolation (4 hours): Formalization of the concept of interpolation, principles of determining interpolating approximations. Polynomial interpolation, trigonometric interpolation (spectral analysis), spline interpolation, interpolation accuracy. Extrapolation, why extrapolation and what is its accuracy?",
+    "Static issues of functional approximations - approximation (4 hours): Approximation principle, least squares approximation, basis functions, approximation error as the value of the criterion function, least squares approximation as an identification task, polynomial approximation (smoothing filters).",
+    "Dynamic issues - calculation of system dynamics (6 hours): Ordinary differential equations with initial conditions. Numerical integration methods, as a task of reproducing the dynamics of a continuous system (methods based on polynomial interpolation and extrapolation, Taylor series expansion of functions). Properties of methods - order of method, solution accuracy, convergence, stability regions. Implementation - choice of method, integration step (sampling period). Stiff dynamics equations, Gear's procedures - possibilities of changing the method order and integration step. Ordinary differential equations with boundary conditions.",
+    "Optimization methods (6 hours): Formulation of the problem of minimizing a criterion function with constraints on decision variables. Kuhn-Tucker conditions, Lagrange function, Lagrange multipliers, active and inactive functional constraints. Admissible directions versus improvement directions - geometric interpretation of local minimum. Numerical algorithms for unconstrained problems - simple search methods, directional search methods, random methods. Numerical algorithms for constrained problems - directional search methods and penalty function methods. Implementation and application examples. Specific linear programming problem.",
+    "Introduction to numerical calculations in MatLab: syntax and semantics; data, expressions, functions, graphics, calculation accuracy, fixed- and floating-point notation.",
+    "Equations with one unknown - implementation of iterative methods.",
+    "Systems of equations, linear and nonlinear - vector notation of iterative methods; Gauss elimination methods and Newton-Raphson method.",
+    "Interpolation and approximation - comparison and applications.",
+    "Numerical integration and differentiation.",
+    "Solving ordinary differential equations, simulation of physical system dynamics and interpretation of results.",
+    "Searching for extreme points - static optimization with or without constraints on decision variables."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 77.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Essays written during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students participate in lectures and clarify doubts as they arise. Audiovisual recording of lectures requires the instructor's consent. Students perform laboratory exercises, preparing in advance, which may be verified by an oral or written colloquium. Course completion requires demonstrating a solution to the posed problem and passing all laboratory classes.",
+  "bibliography": [
+    "Z.Fortuna, B.Macukow : Metody numeryczne, WNT Warszawa 1993",
+    "G.Dalquist : Metody numeryczne , PWN Warszawa 1987",
+    "J.H. Mathews, K.D.Fink : Numerical Methods using MATLAB, Pearson Prentice",
+    "J.Kiusalaas : Numerical Methods in Engineering with MATLAB, Cambridge University Press 2010",
+    "J.Stoer i in. : Wstęp do analizy numerycznej, PWN Warszawa 1987",
+    "V.L.Fausett : Numerical Methods, Algorithms and Application, Prentice Hall",
+    "D. Kincaid, W. Cheney, Analiza numeryczna, Wydawnictwa Naukowo-Techniczne, Warszawa 2006"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii4.00475.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/60c25941-bdda-4441-9ece-e6cd2afa90e5.html",
+  "source_language": "pl",
+  "source_sha256": "083c50fead2622ca85a2ceb9d50724881103b82c839c8684cef56115d624c397",
+  "extracted_at": "2026-11-20T09:03:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

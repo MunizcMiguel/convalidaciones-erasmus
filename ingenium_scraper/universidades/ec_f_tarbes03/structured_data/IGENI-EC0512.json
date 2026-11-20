@@ -1,0 +1,99 @@
+{
+  "course_name_original": "Traitement des systèmes linéaires",
+  "course_name_en": "Linear Systems Processing",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Linear algebra (matrix calculus)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental principles of analyzing and solving systems of linear equations.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply analytical and numerical methods to model and solve engineering problems represented as linear systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Implement solving algorithms in a suitable computational environment.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and understand the theoretical foundations of linear algebra applied to systems of linear equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Have notions of sensitivity and conditioning of linear systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to apply analytical methods (exact resolution) and numerical methods (LU, QR decomposition, etc.) to solve linear systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement practical algorithm solutions in software environments such as Scilab or Matlab.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the significance of linear systems in engineering and modeling fields.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acknowledge the rigor required to interpret the results of numerical solutions.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to linear systems and matrix algebra.",
+    "Analytical solving methods.",
+    "Direct numerical methods (LU decomposition, QR, etc.).",
+    "Indirect numerical method (iterative method: Jacobi, Gauss-Seidel, etc.)",
+    "Solving exercises and implementing algorithms in a software environment using Matlab or Scilab."
+  ],
+  "teaching_methods": [
+    "Lectures with mathematical demonstrations",
+    "Practical exercises using Scilab/Matlab for algorithm implementation"
+  ],
+  "workload_hours_total": 17.5,
+  "workload_hours_contact": 11.5,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1.",
+  "bibliography": [
+    "G. Allaire, S.M. Kaber, Algèbre linéaire numérique, Ellipses, 2002.",
+    "F. Rotella, I. Zambettakis, Traitement des systèmes linéaires, Ellipses, 2015.",
+    "G.H. Golub, C.F. Van Loan, Matrix Computations, Johns Hopkins University Press, 1996."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0512",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "e6b6696eb32c3e6c21f6c96a6e64f5c04a9caf5a553d106fe53a13141716bff8",
+  "extracted_at": "2026-11-18T09:59:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

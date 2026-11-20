@@ -1,0 +1,164 @@
+{
+  "course_name_original": "Database management systems",
+  "course_name_en": "Database Management Systems",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Data Structures and Algorithms",
+    "Databases",
+    "Intermediate programming skills in a high-level programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student/graduate describes, identifies and explains the functioning and administration of computer networks and operating systems.",
+      "type": "unspecified",
+      "code": "PC16"
+    },
+    {
+      "text": "The student/graduate designs, applies, operates and develops relational databases.",
+      "type": "unspecified",
+      "code": "PC17"
+    },
+    {
+      "text": "The student/graduate identifies, selects and justifies database design principles and models.",
+      "type": "unspecified",
+      "code": "PC18"
+    },
+    {
+      "text": "The student/graduate designs, builds and develops databases and database systems.",
+      "type": "unspecified",
+      "code": "PC19"
+    },
+    {
+      "text": "The graduate is able to identify complex problems and examine related issues to develop solving options and implement solutions.",
+      "type": "unspecified",
+      "code": "TC2"
+    },
+    {
+      "text": "The student/graduate has the knowledge necessary to understand and solve complex problems, and to plan and organize advanced processes in various fields.",
+      "type": "knowledge",
+      "code": "TC2"
+    },
+    {
+      "text": "The graduate has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": "TC3"
+    },
+    {
+      "text": "The graduate is able to combine diverse information to formulate solutions and generate ideas for developing new products and applications.",
+      "type": "skill",
+      "code": "TC3"
+    },
+    {
+      "text": "To become familiar with the fundamental concepts of concurrency control and database recovery",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To become familiar with the fundamental concepts of query optimization",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To become familiar with the fundamental concepts of distributed databases and parallel databases",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To become familiar with the fundamental concepts of database security",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To create ADO.NET applications with data-bound controls",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To manage concurrent transactions using pessimistic and optimistic concurrency control mechanisms",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To optimize SQL queries",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. Transactions and Concurrency Control",
+    "Database Recovery",
+    "Database Security",
+    "Evaluating Relational Operators. Query Optimization",
+    "Distributed Databases",
+    "Data Stream Processing: Azure Stream Analytics, Azure Machine Learning",
+    "Parallel Databases. Spatial Databases",
+    "Problems",
+    "ADO.NET (I)",
+    "ADO.NET (II)",
+    "Transactions and Concurrency Control",
+    "Multiversion Concurrency Control",
+    "Performance Tuning in SQL Server (I)",
+    "Problems",
+    "Performance Tuning in SQL Server (II)",
+    "Windows Forms application using ADO.NET to interact with a SQL Server database",
+    "Generic Windows Forms application - configuration file",
+    "Concurrency control"
+  ],
+  "teaching_methods": [
+    "Interactive presentation",
+    "Discussion",
+    "Examples",
+    "Problem-solving",
+    "Explanation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "written exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "lab evaluation",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "practical exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass, a student must obtain a grade of at least 5 (on a scale from 1 to 10) in the written exam, practical exam, and lab evaluation. To be eligible to take the exam, a student must have attended at least 6 laboratory classes and at least 5 seminar classes.",
+  "bibliography": [
+    "DATE, C.J., An Introduction to Database Systems (8th Edition), Addison-Wesley, 2003",
+    "GARCIA-MOLINA, H., ULLMAN, J., WIDOM, J., Database Systems: The Complete Book (2nd Edition), Pearson Education, 2009",
+    "KNUTH, D.E., Tratat de programare a calculatoarelor. Algoritmi fundamentali, Editura Tehnica , Bucures ti, 1974",
+    "KNUTH, D.E., Tratat de programare a calculatoarelor. Sortare s i ca utare, Editura Tehnica , Bucures ti, 1976",
+    "LEVENE, M., LOIZOU, G., A Guided Tour of Relational Databases and Beyond, Springer, 1999",
+    "LITCHFIELD, D., ANLEY, C., HEASMAN, J., GRINDLAY, B., The Database Hacker's Handbook: Defending Database Servers, John Wiley & Sons, 2005",
+    "LIU, L., OZSU, M.T., Encyclopedia of Database Systems, Springer, 2009",
+    "RAMAKRISHNAN, R., GEHRKE, J., Database Management Systems (3rd Edition), McGraw-Hill, 2002",
+    "SILBERSCHATZ, A., KORTH, H., SUDARSHAN, S., Database System Concepts (7th Edition), McGraw-Hill, 2019",
+    "T A MBULEA, L., Curs Baze de date, Facultatea de Matematica s i Informatica , UBB, versiunea 2013-2014",
+    "T A MBULEA, L., Baze de date, Litografiat, Cluj-Napoca, 2003",
+    "ULLMAN, J., WIDOM, J., A First Course in Database Systems, http://infolab.stanford.edu/~ullman/fcdb.html",
+    "Azure Stream Analytics - technical documentation, https://azure.microsoft.com/en-us/services/stream-analytics/",
+    "Azure Machine Learning - technical documentation, https://azure.microsoft.com/en-us/services/machine-learning/"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5028",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem4_MLE5028_en_sabina_2025_11013.pdf",
+  "source_language": "en",
+  "source_sha256": "6c866cc9b93e5684d4ef3adcdcca7af453025eb3983394b376d42835a05a3393",
+  "extracted_at": "2026-11-20T09:08:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

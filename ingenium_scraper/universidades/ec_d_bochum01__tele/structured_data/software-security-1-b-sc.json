@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Software Security 1 [B.Sc.]",
+  "course_name_en": "Software Security 1 [B.Sc.]",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Prior knowledge about programming in Python, C, and assembler is recommended.",
+    "System Security (211011)",
+    "Operating Systems (211005)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "understand user-space software vulnerability types and protection mechanisms",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand how to write code to reduce the risk of vulnerabilities and apply defensive programming techniques",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "identify new software vulnerabilities and evaluate their impact",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "demonstrate the existence of a vulnerability, for example, by developing proof of concept exploits",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Assembly and Disassembly, Shellcode",
+    "Binary Reverse Engineering and Debugging",
+    "Memory and Type Safety/Errors",
+    "Stack-based Buffer Overflows",
+    "Heap Attacks",
+    "Information Leakage",
+    "Format String Vulnerabilities",
+    "Code Re-use Attacks",
+    "Types and Type Safety",
+    "Race Conditions"
+  ],
+  "teaching_methods": [
+    "Lecture with exercise"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "written exam (120 minutes)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "practical exercises",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The assessment is a combined exam consisting of a written exam (40%) and practical exercises (60%). Both parts need to be passed for credit allocation.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "software-security-1-b-sc",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "17e56bde39a93a26b2cf0bfb72328d1079972d8bb022a1948218f16d17825673",
+  "extracted_at": "2026-11-20T12:36:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

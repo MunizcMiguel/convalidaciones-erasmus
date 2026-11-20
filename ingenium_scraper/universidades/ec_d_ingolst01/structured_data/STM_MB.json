@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Strömungsmechanik",
+  "course_name_en": "Fluid Mechanics",
+  "ects": 5.0,
+  "semester": "3",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Correctly apply relevant technical terms of fluid mechanics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analytically calculate and professionally evaluate incompressible and compressible flow and through-flow processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analytically estimate and critically evaluate pressure losses and energy expenditure in fluid engineering applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain fundamental principles and procedures of Computational Fluid Dynamics (CFD) in the context of digitalization.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Independently apply fluid measurement techniques in practical sessions, conduct experiments, analyze measurement results, and document them comprehensibly. Students deepen the lecture material within the practical sessions ('learning by doing'), independently use fluid measurement techniques, and record experiments.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and basic concepts of fluid mechanics",
+    "Material properties of fluids (density, viscosity)",
+    "Hydrostatics and Aerostatics",
+    "Conservation equations: continuity equation, Bernoulli equation, momentum conservation, Navier-Stokes equations",
+    "Similarity numbers, especially Reynolds and Mach number",
+    "Incompressible flow through: pipe flow, laminar and turbulent flow, pressure losses, pipe friction, non-circular cross-sections, losses in pipe elements",
+    "Incompressible flow around: boundary layers, pressure and friction drag, aerodynamic forces on vehicles and airfoils, Magnus effect",
+    "Compressible flows: basic equations, pipe flow, outflow processes, Laval nozzle",
+    "Overview of flow simulation (procedure, basic equations, application examples)",
+    "Lab practicals on wind tunnel investigations, flow around and flow through"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction",
+    "Exercises",
+    "Practical work"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination (90 minutes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Proof of achievement (practical work)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The proof of achievement for the practical work is considered achieved if 5 experiments were successfully conducted, a lab report prepared for each, and an exercise problem satisfactorily pre-calculated in class. A bonus system may be offered, allowing for a maximum of 10% of the possible points in the module's final examination. Bonus points are credited to the module's final examination but cannot be carried over to resit examinations. Acquired bonus points expire at the end of the semester if the examination is not taken.",
+  "bibliography": [
+    "BOHL, Willi und Wolfgang ELMENDORF, 2014. Technische Strömungslehre: Stoffeigenschaften von Flüssigkeiten und Gasen, Hydrostatik, Aerostatik, Inkompressible Strömungen, Kompressible Strömungen, Strömungsmesstechnik. 15. Auflage. Würzburg: Vogel Buchverlag. ISBN 978-3-8343-6183-7, 978-3-8343-3329-2",
+    "BSCHORER, Sabine, KÖLTZSCH, Konrad, 2025. Technische Strömungslehre: Mit 262 Aufgaben und 31 Beispielen [online]. Wiesbaden: Springer Fachmedien Wiesbaden. PDF e-Book. ISBN 978-3-658-45375-6. Verfügbar unter: https://doi.org/10.1007/978-3-658-45375-6.",
+    "L. Böswirth, S. Bschorer: Technische Strömungslehre. Springer Vieweg Verlag"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt",
+  "institution_slug": "ec_d_ingolst01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "STM_MB",
+  "academic_year": "WS 2026/27",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetM/Modulhandbuch/Bachelor_MB/MHBuch_MB_SPO_2023_24_Stand_2026-07-16.pdf",
+  "source_language": "de",
+  "source_sha256": "4d7614fd66b102f2e722da0c2cbcf2696e0a0dffd7316e61018b832b66fe012b",
+  "extracted_at": "2026-11-18T04:06:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

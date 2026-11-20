@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Laboratorio de ensayo de máquinas",
+  "course_name_en": "Machine Testing Laboratory",
+  "ects": 3.0,
+  "semester": "1Q",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II/20224005",
+    "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA I/20224006",
+    "MÉTODOS NUMÉRICOS Y PROGRAMACIÓN ALGORÍTMICA/20224003",
+    "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA I/20224004",
+    "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA II/20224007",
+    "MÉTODOS ESTADÍSTICOS DE LA INGENIERÍA/20224008",
+    "MECÁNICA Y TEORÍA DE MECANISMOS I/20224103",
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES I/20224106",
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES II/20224107",
+    "MECÁNICA Y TEORÍA DE MECANISMOS II/20224104",
+    "DISEÑO DE MÁQUINAS/20224122"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Plans, executes, and interprets machine tests.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Applies experimental techniques to mechanical systems.",
+      "type": "skill",
+      "code": "A1.2"
+    },
+    {
+      "text": "Designs experimental systems for machine testing.",
+      "type": "skill",
+      "code": "A1.7"
+    },
+    {
+      "text": "Analyzes a problem and designs an algorithm to solve it. Understands and applies different algorithmic control structures. Works with files capable of storing large amounts of data. Represents data graphically and manipulates it effectively. Designs processes for the numerical solution of problems with linear and non-linear equation systems.",
+      "type": "skill",
+      "code": "A3.3"
+    },
+    {
+      "text": "Determines loads on machine elements using experimental methods.",
+      "type": "skill",
+      "code": "A5.2"
+    },
+    {
+      "text": "Plans communication: generates ideas, searches for information, selects and orders information, creates outlines, determines the audience type, communication objectives,... Drafts documents with appropriate format, content, structure, linguistic correctness, register, and illustrates concepts correctly using conventions: formats, titles, footers, legends,...",
+      "type": "competence",
+      "code": "B1.1"
+    },
+    {
+      "text": "Participates actively and shares information, knowledge, and experiences. Makes individual contributions within the planned time and with available resources. Accepts and complies with group rules. Actively collaborates in team work planning, task distribution, and required deadlines.",
+      "type": "competence",
+      "code": "B3.3"
+    },
+    {
+      "text": "Collects significant information needed to solve problems based on objective criteria. Follows a logical method to identify the causes of a problem. Presents different alternative solution options for the same problem and evaluates their possible risks and advantages. Develops a strategy to solve the problem. Obtains necessary support from others to achieve the success of their decisions. Has the ability to lead the decision-making process participatively. Methodically questions new ways of doing things, seeks new procedures, and experiments with new procedures. Analyzes risks and benefits of innovation.",
+      "type": "competence",
+      "code": "B5.3"
+    }
+  ],
+  "syllabus_topics": [
+    "Presentation",
+    "Signal analysis in the time domain",
+    "Introduction to MATLAB for signal analysis",
+    "Signal processing in the time domain with MATLAB",
+    "Introduction to signal analysis in the frequency domain",
+    "Introduction to MATLAB for signal analysis",
+    "Signal processing in the frequency domain with MATLAB",
+    "Sensors, data acquisition systems, and experimental system characterization",
+    "Flexible data acquisition system",
+    "Sensor calibration",
+    "Obtaining the uncertainty associated with the sensor (hysteresis, linearity, etc.)",
+    "Signal sampling and reconstruction",
+    "Image-based experimental system",
+    "Study of sampling and reconstruction using numerical simulation",
+    "Free vibrations of 1 GDL systems",
+    "Theoretical study (reduced model) of a tuning fork",
+    "Experimental study (audio signal analysis) of the tuning fork",
+    "Shake table",
+    "Theoretical study (reduced model) of a series of rods with different configurations",
+    "Experimental study (shake table) of a series of rods with different configurations",
+    "Forced vibrations of 1 GDL systems",
+    "Theoretical analysis (reduced model) of forced vibrations in a washing machine",
+    "Experimental analysis of forced vibrations in a washing machine using accelerometers",
+    "Study of damping effects",
+    "Equivalence of dry (Coulomb) and viscous damping",
+    "Vibrations of N GDL and continuous systems",
+    "Theoretical study (2 GDL reduced model) of a two-story building model",
+    "Experimental study (shake table) of the two-story building model",
+    "Theoretical study (one-dimensional standing wave model) of a vibrating string",
+    "Experimental study (stroboscopic illumination, exciter, etc.) of a vibrating string"
+  ],
+  "teaching_methods": [
+    "Introductory activities: Presentation of the syllabus, methodology to follow, evaluation, and work required to successfully complete the course.",
+    "Lectures: Explanation of topics and theoretical concepts associated with laboratory practices.",
+    "Laboratory practices: Carrying out laboratory practices either on computers or with experimental setups prepared by the professors.",
+    "Personalized attention: Professor's office hours."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Practical Test 1 (Parcial 1)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical Test 3 (Parcial 3)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Objective type tests (Parcial 2)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the minimum grade in any test/exam must be greater than or equal to 3.5 points. Attendance to theory and practical sessions is mandatory; only one unjustified absence from practices is allowed. Failure to recover any practice within the established period implies failing the course. For the second call, there will be an exam including practical tests and/or multiple-choice tests, covering all course material, with a weight of 100%.",
+  "bibliography": [
+    "F.J Huera-Huarte, METODES EXPERIMENTALS EN ENGINYERIA MECANICA, Edicions URV, 2022",
+    "Huera-Huarte, F.J. , Apuntes de clase: Experimental Methods for mechanical engineering, ",
+    "Smith, S.W., The Scientist & Engineer’s Guide to Digital Signal Processing., CRC Press., 1997"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224124",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224124&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "8e21212d56b90fe4f7a97537eeffd32d2d7ff9c9949eeda154283cc71dd06d83",
+  "extracted_at": "2026-11-13T22:49:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

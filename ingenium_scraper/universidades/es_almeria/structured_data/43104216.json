@@ -1,0 +1,172 @@
+{
+  "course_name_original": "Robótica",
+  "course_name_en": "Robotics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Competences associated with Industrial Automation course (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Introduce the student to the fundamental concepts of manipulation and mobile robotics, as well as the description of their peripherals, so that they are able to analyze, design, program, and use these types of systems and adapt to their evolution.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe the techniques used in the trajectory control that a robotic manipulator must follow when performing a task.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the automatic control techniques used for the control of a robotic manipulator's actuators.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the teaching methods for robotic manipulators, either through direct learning or through robot programming languages: textual, task-level, etc.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Introduce the criteria, norms, and techniques necessary for the design and implementation of robotic cells for problem-solving.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand robot applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will understand the applications of robots and their scope in different areas of society.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will understand the fundamentals of manipulation robotics, being able to calculate the direct and inverse kinematic and dynamic model, considering each robot segment as a rigid body. Additionally, they will know how to calculate the controllers associated with each of its joints to follow a desired trajectory in space.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will understand the fundamentals of mobile robotics and autonomous vehicles, will know how to calculate their direct kinematic model, as well as various algorithms for tracing and calculating trajectories and paths in known and unknown environments.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and possess knowledge",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Application of knowledge",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to learn",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Basic professional knowledge",
+      "type": "competence",
+      "code": "UAL1"
+    },
+    {
+      "text": "Ability in the use of ICT",
+      "type": "competence",
+      "code": "UAL2"
+    },
+    {
+      "text": "Knowledge of principles and applications of robotic systems",
+      "type": "competence",
+      "code": "CTEE9"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to robotics",
+    "Fundamentals of manipulation robotics",
+    "Modeling and control of industrial robots",
+    "Implementation of a robotic system",
+    "Basic programming of a robotic manipulator and integration of the robot in the manufacturing process",
+    "Layout of elements of a robotic system on the plant floor with RobotStudio",
+    "Programming of a robotic cell with RobotStudio",
+    "Fundamentals of mobile robotics",
+    "Path planning",
+    "Programming of robots with ROS"
+  ],
+  "teaching_methods": [
+    "Lectures/participative classes",
+    "Theoretical-practical classes",
+    "Laboratory practices",
+    "Autonomous or group work",
+    "Personalized tutorials",
+    "Audiovisual projections",
+    "Information search, consultation, and processing",
+    "Problem and exercise solving",
+    "Individual study of theoretical contents",
+    "Assimilation of knowledge from theoretical classes",
+    "Solving exercises proposed in lectures/participative classes",
+    "Solving practical cases proposed in laboratory practices",
+    "Preparation of laboratory practice reports",
+    "Teamwork (in groups of 2 colleagues)",
+    "Videoconferencing",
+    "Use of interactive material hosted on the Mechanical Engineering Area server"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Problem-solving exercises",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Laboratory practice report and interview",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Participation",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as (0.25*Problems + 0.3*Practice Report and Interview + 0.4*Exam + 0.05*Participation) * AI_Usage_Factor. A minimum score of 5 points is required in Problems, Practices, and Exam to pass. The 'Ability in the use of ICTs' competence must be passed (evaluated via lab practices and exercises) with at least 'Pass' for the course to be approved. Lab practices require a minimum of 5 points each and an oral interview. AI usage must be declared and adhere to good practices, otherwise, the AI_Usage_Factor is 0. For the extraordinary call and single assessment, the grading formula and minimum scores are similar, with provisions for resubmitting practices or alternative practices for those unable to attend, and personal interviews for participation if there was no prior contact.",
+  "bibliography": [
+    "Barrientos, A., Peñín, L. F., Balaguer, C., & Aracil, R. - (2010) - Fundamentos de robótica - McGraw-Hill",
+    "Ollero, A. - (2001) - Robótica. Manipuladores robóticos y robots móviles - Marcombo Boixareu Editores",
+    "Torres, F., Palomares, J., Gil, P., Puente, S. T., & Aracil, R. - (2002) - Robots y sistemas sensoriales - Prentice Hall",
+    "Comité Español de Automática - (2011) - Libro blanco de la robótica - Ministerio de Ciencia e Innovación",
+    "Craig, J. J. - (2006) - Robótica - Pearson Educación",
+    "Ferre, M., Buss, M., Aracil, R., & Melchiorri, C. - (2007) - Advances in telerobotics - Springer",
+    "Ge, S. S., & Lewis, F. - (2006) - Autonomous mobile robots: sensing, control, decision making and applications - Taylor & Francis",
+    "Santos, J., & Duro, R. J. - (2004) - Evolución artificial y robótica autónoma - Ra-Ma",
+    "Siciliano, B., & Khatib, O. (Eds.) - (2008) - Handbook of robotics - Springer",
+    "Saha, S. K. - (2010) - Introducción a la robótica - McGraw Hill",
+    "Choset, H., Lynch, K. M., Hutchinson, S., Kantor, G., Burgard, W., & Kavraki, L. - (2005) - Principles of Robot Motion. Theory, Algorithms, and implementations - MIT Press",
+    "Fu, K. S., González, R. C., & Lee, C. S. G. - (1988) - Robótica. Control, detección, visión e inteligencia - McGraw Hill",
+    "Kelly, R., & Santibañez, V. - (2003) - Control de movimiento de robots manipuladores - Pearson Educación",
+    "Spong, M. W., & Vidyasagar, M. - (1989) - Robot Dynamic and Control - John Wiley & Sons",
+    "Corke, P. - (2013) - Robotics, Vision and Control: Fundamental Algorithms in MATLAB - Springer"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "43104216",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/43104216/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "258e0399f5978101dabafc43601ead757befa212aff6ba58169e86507308276a",
+  "extracted_at": "2026-11-13T21:22:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

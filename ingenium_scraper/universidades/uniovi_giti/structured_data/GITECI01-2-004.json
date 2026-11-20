@@ -1,0 +1,166 @@
+{
+  "course_name_original": "Ingeniería Térmica",
+  "course_name_en": "Thermal Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mechanics and Thermodynamics (recommended)",
+    "Basic knowledge of Calculus",
+    "Linear Algebra",
+    "Mathematical Methods (first year courses)",
+    "Mastery of thermometry and calorimetry concepts",
+    "Application of the first and second principles to closed systems and simple thermodynamic cycles"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity and critical reasoning.",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills and abilities in the field of Mechanical Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "skill",
+      "code": "CG5"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans and other similar tasks.",
+      "type": "knowledge",
+      "code": "CG6"
+    },
+    {
+      "text": "Ability to analyze and assess the social and environmental impact of technical solutions.",
+      "type": "competence",
+      "code": "CG8"
+    },
+    {
+      "text": "Ability for the prevention of occupational risks and protection of the health and safety of workers and users.",
+      "type": "competence",
+      "code": "CG13"
+    },
+    {
+      "text": "Ability to develop and promote honesty, responsibility, ethical commitment, and a spirit of solidarity.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "skill",
+      "code": "CG15"
+    },
+    {
+      "text": "Knowledge of applied thermodynamics and heat transfer: Basic principles and their application to solving engineering problems.",
+      "type": "knowledge",
+      "code": "CC1"
+    },
+    {
+      "text": "Relate the scope of study of Thermodynamics and Heat Transfer and know the most important applications of both disciplines in the field of Thermal Engineering.",
+      "type": "unspecified",
+      "code": "RIT-1"
+    },
+    {
+      "text": "Apply mass, energy, and entropy balances to various systems, including the main equipment present in industrial plants (engines, turbines, compressors, boilers, condensers, etc.).",
+      "type": "skill",
+      "code": "RIT-2"
+    },
+    {
+      "text": "Know the equipment that integrates power generation cycles (steam, gas, and combined) and refrigeration cycles commonly used in industry and be able to perform their thermodynamic analysis to assess their energy efficiency.",
+      "type": "knowledge",
+      "code": "RIT-3"
+    },
+    {
+      "text": "Know the main characteristics and fundamental physical laws on which the three basic mechanisms of heat transfer (conduction, convection, and radiation) are based.",
+      "type": "knowledge",
+      "code": "RIT-4"
+    },
+    {
+      "text": "Mathematically express the equations that describe heat transfer in a physical problem based on fundamental balances (mass, momentum, and heat) and the laws on which the basic mechanisms are based.",
+      "type": "skill",
+      "code": "RIT-5"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I. APPLIED THERMODYNAMICS",
+    "Chapter 1. Properties and Processes in Thermodynamic Systems",
+    "Lesson 1: Basic concepts: Units of measurement. Gases: ideal, real and Van der Waals. Equations of state. Pure substance: phases and diagrams. State properties: determination using tables and/or equations of state.",
+    "Chapter 2. Basic Principles of Thermodynamics",
+    "Lesson 2. First Principle of Thermodynamics. Sign criterion. Application to closed and open systems in steady state.",
+    "Lesson 3. Second Principle of Thermodynamics. Definition of entropy and applications. Entropy generation. Isentropic efficiency of equipment.",
+    "Chapter 3. Thermal Machines",
+    "Lesson 4. The thermal machine: types and efficiency. The Carnot cycle: thermal efficiency. Cycles of thermal machines operating as engines: thermal efficiency.",
+    "Lesson 5. Gas power cycles: analysis of the Brayton cycle.",
+    "Lesson 6. Vapor power cycles: analysis of the Rankine cycle. Combined cycle.",
+    "Lesson 7. Continuous cold production by vapor compression of a refrigerant: analysis of the inverse Rankine cycle. The heat pump and its analysis.",
+    "BLOCK II. BASIC CONCEPTS OF HEAT TRANSFER",
+    "Chapter 4. Fundamentals of heat transfer",
+    "Lesson 8: Fundamental concepts, characteristics of basic heat transfer mechanisms and basic laws.",
+    "Chapter 5. Conduction",
+    "Lesson 9. Simple geometries: plane, cylindrical and spherical wall. Critical insulation radius.",
+    "Lesson 10. Additional surfaces: concept, temperature field, efficiency and dissipation coefficient. Heat transfer through finned surfaces.",
+    "Lesson 11. Heat transfer in common configurations: shape factor in conduction.",
+    "Chapter 6. Convection",
+    "Lesson 12. Analysis methods in forced and natural convection.",
+    "Lesson 13. Use of empirical correlations in forced and natural convection.",
+    "Chapter 7. Radiation",
+    "Lesson 14. Fundamentals of thermal radiation. Radiative properties. Black body and gray body. Heat transfer by radiation between two surfaces. Combined heat transfer mechanisms.",
+    "LABORATORY PRACTICES",
+    "Problem solving using Equation Engineering Solver (EES) for applied thermodynamics and heat transfer.",
+    "Study of the Stirling thermodynamic cycle or mechanical vapor compression refrigeration machine.",
+    "Study of heat transfer in facade enclosures or heat dissipation in additional surfaces."
+  ],
+  "teaching_methods": [
+    "Group tutorials",
+    "Laboratory practices",
+    "Expository classes",
+    "Classroom practices/Seminars",
+    "Virtual Campus activities (theoretical foundations, questionnaires, discussion forums, additional material)",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Participation in class (PA)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices (PL)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Group tutorial (TG)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written exam (EX)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "For students with continuous evaluation, if the written exam score is 3.5 or higher, the final grade is calculated as (0.1 x PA) + (0.1 x PL) + (0.1 x TG) + (0.7 x EX); otherwise, the grade is the minimum of the calculated score and 4.0. For students with differentiated evaluation, if the written exam score is 3.5 or higher, the final grade is (0.3 x EP) + (0.7 x EX); otherwise, the grade is the minimum of the calculated score and 4.0. A final grade of 5.0 or higher is required to pass the course. In extraordinary calls, for continuous evaluation students, the final grade is (0.1 x PA) + (0.1 x PL) + (0.1 x TG) + (0.7 x EX) with a minimum of 3.5 on EX; for differentiated evaluation students, the final grade is (0.3 x EP) + (0.7 x EX) with a minimum of 3.5 on EX. In extraordinary calls, students can opt to take only one block of the written exam, in which case the score from the last ordinary call for the non-examined block will be used, provided it was at least 3.5. Differentiated evaluation students may also opt not to take the practice exam, using their score from the last ordinary call.",
+  "bibliography": [
+    "Termodinámica. Çengel & Boles. Editorial Mc Graw Hill.",
+    "Transmisión de Calor. Apuntes. Prieto M.M., Suárez I. Ediuno",
+    "Fundamentos de Termodinámica Técnica. Moran y Shapiro. Vol. I y II. Editorial Reverté, S.A.",
+    "Transferencia de Calor y Masa. Çengel YA. McGraw-Hill. 3ª edición (2007)"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-2-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-2-004",
+  "source_language": "es",
+  "source_sha256": "4fa73829f2bfe2912263eeaac9fc186440d1c9d45ace518c387c3ad90e123daf",
+  "extracted_at": "2026-11-20T01:12:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

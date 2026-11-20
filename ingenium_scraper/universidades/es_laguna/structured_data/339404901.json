@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Neumática e Hidráulica Industrial",
+  "course_name_en": "Industrial Pneumatics and Hydraulics",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Thermodynamics and Fluid Mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Demonstrate having acquired the necessary knowledge to determine the analysis of pneumatic and hydraulic mechanisms, as well as their theoretical and practical resolution.",
+      "type": "competence",
+      "code": "1, 4, 7, 8, 22, T4, T6"
+    },
+    {
+      "text": "Know the English vocabulary related to the subject. Analysis and interpretation of an English document related to the subject.",
+      "type": "skill",
+      "code": "T9"
+    }
+  ],
+  "syllabus_topics": [
+    "Magnitudes and units: Absolute pressure, relative pressure. Perfect gases.",
+    "Production and distribution of compressed air. Types of compressors. Compressed air treatment. Filtering, regulation and lubrication.",
+    "Actuating elements, cylinders and motors: Type, sizing of the section and rod dimensions. Calculation of air consumption.",
+    "Control elements: Distributor valves. Auxiliary valves: non-return, selector, shuttle, flow and pressure regulating, quick exhaust and variable throttling non-return.",
+    "Sensors. (Inform about pressure and position to feed the system). Limit switch, flow or air barrier, and pressure switch.",
+    "Design of pneumatic circuits. Terminology. Work sequence diagram, spaces and space-time. Principles of command and speed control. Method of systematic cancellation of permanent signals (three or more lines).",
+    "Applications.",
+    "Hydraulic fluids: Density, pressure, viscosity, fluidity and lubrication and cooling capacity, emulsivity, corrosion resistance.",
+    "Principles of fluid mechanics: Pascal's principles, mass conservation, Bernoulli's theorem. Types of regime: laminar and turbulent. Reynolds number. Fluids in conduits, head losses.",
+    "Hydraulic installations: Pressure generators, filters, pressure gauges, tanks, accumulators, pumps (types and parameters).",
+    "Distribution, regulation and working elements. Conduits, distributor valves, regulating valves. Actuators (cylinders and motors: gear, vane and piston).",
+    "Applications.",
+    "Pneumatic cycle",
+    "Electro-pneumatic cycle",
+    "PLC pneumatic cycle"
+  ],
+  "teaching_methods": [
+    "Theoretical classes (1.5 hours per week) with audiovisual aids, printed material, and exercise solving.",
+    "Practical classes in the classroom (0.5 hours per week) with practical exercises.",
+    "Practical classes in the classroom (1 hour per week) for theory comprehension, including graded seminars and group exercise analysis.",
+    "Laboratory practices (15 hours per semester in four 3-hour sessions) for applying concepts and conducting measurements, requiring autonomous report writing.",
+    "Group-tutored work to analyze a scientific article in English related to the subject.",
+    "Autonomous work for laboratory reports.",
+    "Following activities proposed in the Virtual Campus."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Test 1: Performance of real and/or simulated task execution tests",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Test 2: Virtual Campus work",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Test 3: Development test",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Test 4: Final development test",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Completion of practices (PASS/FAIL grade)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the final grade is a weighted average of four tests (15%, 15%, 20%, 50%), provided a minimum score of 5 out of 10 is obtained in each test. Failure to meet minimum requirements in any test will result in a final grade of 3.5. Practices (Module III) are mandatory and must be passed (\"APTO\"); if not, an additional development test on practices, requiring a minimum score of 5 out of 10, is necessary. For single assessment, a single written development test accounts for 100% of the grade, requiring a minimum score of 5 out of 10. Practices are considered \"APTO\" if results are correct, reports are error-free, well-presented, and submitted on time.",
+  "bibliography": [
+    "Apuntes de Neumática e Hidráulica FESTO (www.festo.com)",
+    "Neumática SMC International Training. Paraninfo-Thomson Learning (2000)",
+    "Circuitos Básicos de Neumática. M. Carutia y V. Lladonosa. Marcombo (1993)",
+    "Circuitos Básicos de Ciclos Neumáticos y Electroneumáticos. J.M. Gea y V. Llanodosa. Marcombo (1998)",
+    "Circuitos Básicos de Electroneumática. V. Llanodosa. Marcombo (1997)",
+    "Aplicaciones de la Neumática. W. Depperl y K. Stoll. Marcombo (1991)",
+    "Curso de Hidráulica para la Formación Profesional. Manuales de Festo Didactic (1982)"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de La Laguna",
+  "institution_slug": "es_laguna",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "339404901",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ull.es/apps/guias/guias/print_guide/45570/",
+  "source_language": "es",
+  "source_sha256": "3193d4b766b18a88af32fbf3ff84c8b88b813bb38662a85fe89b4b41486dd3b0",
+  "extracted_at": "2026-11-13T21:45:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

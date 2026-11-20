@@ -1,0 +1,158 @@
+{
+  "course_name_original": "Electrónica de Comunicaciones",
+  "course_name_en": "Communications Electronics",
+  "ects": 6.0,
+  "semester": "First Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Electrónica Analógica",
+    "Teoría de Circuitos",
+    "Dispositivos Electrónicos y Fotónicos",
+    "Electrónica Digital",
+    "Diseño de Sistemas Electrónicos Analógicos",
+    "Señales y sistemas",
+    "Teoría de la Comunicación",
+    "Comunicaciones Digitales",
+    "General knowledge of English language in oral expression, equivalent to B2 level according to CEFR."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the operation of other general-purpose analog integrated circuits for communications and power electronics applications.",
+      "type": "unspecified",
+      "code": "RA-11.14"
+    },
+    {
+      "text": "Design oscillators, frequency synthesizers and mixers.",
+      "type": "unspecified",
+      "code": "RA-11.22"
+    },
+    {
+      "text": "Analyze and quantify narrow-band signal amplifier stages.",
+      "type": "unspecified",
+      "code": "RA-11.23"
+    },
+    {
+      "text": "Choose piezoelectric filters for radiofrequency applications.",
+      "type": "unspecified",
+      "code": "RA-11.24"
+    },
+    {
+      "text": "Analyze and quantify simple broadband and narrow-band power amplifier stages.",
+      "type": "unspecified",
+      "code": "RA-11.25"
+    },
+    {
+      "text": "Analyze the operation of various types of modulator and demodulator circuits and compare their advantages and disadvantages.",
+      "type": "unspecified",
+      "code": "RA-11.26"
+    },
+    {
+      "text": "Compare the various receiver structures and explain how these structures influence parameters such as sensitivity, selectivity, dynamic range, image frequency rejection, isolation against emissions in nearby bands, etc.",
+      "type": "unspecified",
+      "code": "RA-11.27"
+    },
+    {
+      "text": "Compare the various transmitter structures based on the type of transmission modulation.",
+      "type": "unspecified",
+      "code": "RA-11.28"
+    },
+    {
+      "text": "Understand the process of integrating common parts of a receiver and a transmitter to configure a transceiver.",
+      "type": "unspecified",
+      "code": "RA-11.29"
+    },
+    {
+      "text": "Know the physical realization through electronic circuits of the functional blocks that integrate radio signal reception and transmission systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the ability to choose, from several possible physical realizations of the functional blocks that integrate reception and transmission systems, the most suitable for a specific application and perform calculations for its design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the various possible structures of radio communication receivers and their advantages and disadvantages, being able to choose the most suitable for an application.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the various possible structures of radio communication transmitters based on the type of modulation used, comparing their advantages and disadvantages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the structure of reception and transmission systems with common elements (transceivers).",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Design of oscillators: Basic high-frequency oscillator circuits. Voltage-controlled oscillators. Oscillator stability. Crystal oscillators.",
+    "Design of mixers: Diode-based doubly balanced mixers. Design of Gilbert cell-based mixers. I/Q mixers.",
+    "Small-signal RF amplifiers: Impedance matching circuits with transformers. Impedance matching circuits with reactive elements. Doubly tuned circuits. Calculations with the admittance model of an amplifier. Amplifiers with electronic gain control. Examples of integrated RF amplifiers.",
+    "Bandpass filters based on piezoelectric resonators: Filters with a quartz crystal. Lattice filters with quartz crystals. Ladder filters with quartz crystals. Ceramic resonators and filters. Surface Acoustic Wave (SAW) filters.",
+    "Design of RF power amplifiers: Design of Class A amplifiers. Efficiency of Class A amplifiers with non-constant amplitude signals. Design of Class B amplifiers with one transistor. Class B amplifiers with two transistors in push-pull. Efficiency of Class B amplifiers with non-constant amplitude signals. Class C amplifiers. Class D amplifiers. Introduction to zero-voltage switching (ZVS) amplifiers.",
+    "Modulators: Introduction to modulators: signal-level and power-level modulators. AM modulators at signal level. AM modulators at power level. DSB modulators. SSB modulators based on crystal filters. SSB modulators with I/Q structure. ASK modulators. QAM modulator. FM modulator with varicap. FM modulator with PLL. PM modulator with PLL. FSK modulators from VCO. FSK modulators with programmable frequency divider. FSK modulators with PLLs. BPSK modulator.",
+    "Demodulators: Introduction to the demodulation process. AM demodulation with envelope detector. Coherent AM demodulators. Coherent DSB demodulators. Coherent SSB demodulators. I/Q demodulators for SSB. ASK demodulation with envelope detector and coherent demodulators. QAM demodulation. FM demodulation with limiters and discriminators. FM demodulation with quadrature detector. FM and PM demodulation with a PLL. FSK demodulation with discriminator and with filter bank detector. BPSK demodulation.",
+    "Types and structures of RF receivers: Characteristic parameters of RF receivers. Direct detection receivers. Superheterodyne receivers. Design of superheterodyne receivers. The double conversion superheterodyne receiver. The superheterodyne receiver with I/Q structure. Automatic Gain Control (AGC). Automatic Frequency Control (AFC). Examples of integrated circuits for receivers.",
+    "Types and structures of RF transmitters: Characteristic parameters of transmitters. Structure of an AM and ASK transmitter. Structure of an FM, FSK and PM transmitter. Structure of an SSB transmitter.",
+    "Transceivers for radiocommunications: Common parts of a receiver and a transmitter. Examples of transceivers: AM, ASK, FM and SSB transceivers.",
+    "Brief introduction to basic elements of oral presentations: structure, discourse markers, vocal techniques, referential language applied to visual aids, etc."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices / field / computer lab / language lab",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (EF1)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Project (T)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory Practices (PL)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical block is calculated as (0.8 x EF1) + (0.1 x T) and the practical block as (0.1 x PL). The final grade is Theory + Practices. For the extraordinary call, the final grade is (0.8 x EF2) + (0.1 x T) + (0.1 x PL). For differentiated evaluation, the final grade is (0.8 x EF) + (0.2 x T). Grades from the Project (T) and Laboratory Practices (PL) are retained only for the calls within the same academic year.",
+  "bibliography": [
+    "\"Electrónica de Comunicaciones\", M. Sierra, B. Galocha y J. de la Calle. Editorial: Pearson Prentice Hall. ISBN: 84-205-3674-1. También, servicio de publicaciones de la ETSIT de la UPM.",
+    "\"Sistemas de Comunicaciones Electrónicas\", W. Tomasi. Editorial: Prentice Hall. ISBN: 970-26-0316-1.",
+    "\"Radio Frequency and Microwave Electronics\", M. M. Radmanesh. Editorial: Prentice Hall PTR. ISBN: 0-13-027958-7.",
+    "\"Complete Wireless Design\", C. W. Sayre. Editorial: McGraw-Hill. ISBN: 0-07-137016-1.",
+    "\"Modern Electronic Communication\", Gary Miller y Jeffrey Beasley. Editorial: Pearson Education. ISBN: 0-13-016762-2.",
+    "\"Lecciones de Electrónica de Comunicaciones\", R. Gómez y D. J. Santos. Editorial: Tórculo Edicións. ISBN: 84-89641-85-4.",
+    "\"The Electronics of Radio\", D. B. Rutledge. Editorial: Cambridge University Press. ISBN: 0-521-64645-6.",
+    "\"RF Circuit Design\", Reinhold Ludwig y Pavel Bretchko. Editorial: Pearson Education. ISBN: 0-131-22475-1.",
+    "\"Laboratorio de Electrónica de Comunicaciones. Manual de prácticas\", P. Dorta y otros. Editorial: ETSIT de la UPM. ISBN: 84-7402-268-1.",
+    "\"Sistemas Electrónicos de Comunicaciones\", Roy Blake. Editorial: Thomson. ISBN: 970-686-365-6.",
+    "\"Electronic Communications\", Dennis Roddy y John Coolen. Editorial: Reston Publishing Company (Perteneciente a Prentice Hall). ISBN: 0-8359-1598-0.",
+    "Grussendorf, M., 2007, *English for Presentations*. Oxford: OUP. ISBN: 978-0194579360."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-006",
+  "source_language": "es",
+  "source_sha256": "9279de1b6524ac1903827100d4c947688af4226a4cc26b7c6851e4a289c898f4",
+  "extracted_at": "2026-11-20T06:04:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

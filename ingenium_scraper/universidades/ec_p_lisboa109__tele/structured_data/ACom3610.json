@@ -1,0 +1,59 @@
+{
+  "course_name_original": "Arquitectura de Computadores (ACom3610)",
+  "course_name_en": "Computer Architecture (ACom3610)",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Historical evolution of computing systems.",
+    "Instruction Set Architecture: types of operands and operations in a processor; memory map; interface with peripherals; interrupt/exception handling.",
+    "Processor operation: data paths; control structures; single-cycle and pipelined architectures.",
+    "Memory hierarchy: structure and operation of cache memories; hierarchical memory structures; physical, virtual addressing and address translation.",
+    "Evolution of Computer Architectures."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "MAP45 1",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "MAP45 2",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Project (intermediate version)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Project (final version)",
+      "weight_percentage": 37.5
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the average of the two MAP45 exams must be at least 8. The weighted average of the intermediate and final project versions must also be at least 8. For the final grade in the \"normal period\", the best grade between each exam part and the corresponding MAP is considered, with a minimum average of 8 for the two parts of the exam. The project accounts for 50%. For the \"special period\" exam, the average of the two parts must be at least 9.5.",
+  "bibliography": [
+    "David A. Patterson, John L. Hennessy, Computer Organization and Design: the Hardware/Software Interface, 5th Edition, Morgan Kaufmann, 2013 (main)"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "ACom3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192381",
+  "source_language": "pt",
+  "source_sha256": "4b7b543175fc0aa66f88fad6acde1b91e3cd5ed32708d3c2690fedef3eb22e36",
+  "extracted_at": "2026-11-20T12:41:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

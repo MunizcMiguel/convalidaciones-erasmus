@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Vibrations des structures",
+  "course_name_en": "Structural Vibrations",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Model vibrations in a concrete situation, analytically with a simple numerical model (using RdM7).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the most suitable models for a given vibration situation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret the results of analytical calculations and numerical simulations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand basic vibration phenomena: free vibrations, forced vibrations, resonance.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Handle different types of modeling of systems subjected to vibration: analytical (1DDL, 2DDL, 1D, E.F.).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compare and criticize the validity of different possible models for the same system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply all these concepts to a case study chosen personally by each student.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Sequence 1: Discrete systems with one degree of freedom",
+    "Equation of dynamics, free vibration (with initial conditions), natural frequency",
+    "Forced vibration, Dynamic Amplification Factor",
+    "Sequence 2: Discrete systems with 2 or more degrees of freedom",
+    "Coupled equations of dynamics, modal analysis",
+    "Free and sustained vibration response",
+    "Sequence 3: One-dimensional continuous systems with some analytical solutions",
+    "Tension/compression vibrations of straight beams: equilibrium equations (with boundary conditions), eigenmodes",
+    "Transverse vibrations of beams: analysis of a simple solution (embedded-free)",
+    "Sequence 4: Energy methods to obtain approximate numerical solutions",
+    "Theorem of kinetic energy and mechanical energy applied to vibrations",
+    "Expression of the mechanical energy of elementary structures (mass, spring, beams)",
+    "Introduction to the Finite Element Method in the case of vibrations, and the nature of the approximations involved",
+    "Numerical applications in computer simulation",
+    "Each student is free to choose a subject for study, and applies the proposed approach to his or her case study"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical work (TP)",
+    "Supervised project"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 17.5,
+  "assessment_methods": [
+    {
+      "method": "Report",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*RAP1)/1, indicating that the assessment is based entirely on a report (RAP1).",
+  "bibliography": [
+    "moodle.enit.fr : training platform with course material, interactive revision exercises, and examples of reports, some corrected.",
+    "B. Drouin, J-M Senicourt : De la mécanique vibratoire à la méthode des éléments finis",
+    "R-W Clough, J Penzien : Dynamique des Structures",
+    "Christian Lalanne, Vibrations et chocs mécaniques, tomes 1-6.",
+    "B. Drouin, J-M. Senicourt. De la mécanique vibratoire classique à la méthode des éléments finis.",
+    "R-W. Clough, J. Penzien. Dynamique des Structures"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0722",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "bc7cdbcf0fb6e640fe99198b48ae222cd63a241e2f49e25ee4eabab17ee0d855",
+  "extracted_at": "2026-11-18T09:52:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Matematisk statistik, fortsättningskurs",
+  "course_name_en": "Mathematical Statistics, Advanced Course",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Intended learning outcomes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Use an appropriate random model to describe and analyze observed data and draw conclusions about parameters of interest, and derive point estimates of parameters and analyze their properties.",
+      "type": "skill",
+      "code": "M1"
+    },
+    {
+      "text": "Understand the principles of drawing conclusions via confidence intervals and hypothesis testing. Construct confidence intervals and conduct hypothesis testing for observed data, report conclusions and assess certainty.",
+      "type": "skill",
+      "code": "M2"
+    },
+    {
+      "text": "Determine whether a difference between observed data and expected data is due to chance, or if it is due to a relationship between the variables you are studying.",
+      "type": "skill",
+      "code": "M3"
+    },
+    {
+      "text": "Analyze relationships between variables using simple or multiple linear regression and assess the relevance of the model used. Apply random models and statistical methods in connection with questions in economics, technology and natural sciences and critically review the results.",
+      "type": "skill",
+      "code": "M4"
+    },
+    {
+      "text": "Use an appropriate software package (e.g. Matlab, R or similar) for certain types of statistical analyses.",
+      "type": "skill",
+      "code": "M5"
+    }
+  ],
+  "syllabus_topics": [
+    "Chi-square-distribution",
+    "t-distribution",
+    "F-distribution",
+    "Point estimation",
+    "Properties of estimators",
+    "The method of maximum likelihood",
+    "The method of moments",
+    "The least squares method",
+    "Confidence intervals for one or several samples especially for normal, binomial and Poisson distribution and when the central limit theorem can be applied",
+    "Tests of hypotheses for one or several samples especially for normal, binomial and Poisson distribution and when the central limit theorem can be applied",
+    "Chi-square tests",
+    "Random vectors",
+    "Mean vectors",
+    "Covariance matrices",
+    "The multivariate normal distribution",
+    "Multiple regression",
+    "Estimation of parameters (Multiple regression)",
+    "Confidence intervals (Multiple regression)",
+    "Prediction (Multiple regression)",
+    "Analysis of variance table (Multiple regression)",
+    "Selection of variables (Multiple regression)",
+    "Transformations (Multiple regression)",
+    "Suitable statistical software for regression analysis"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Lessons",
+    "Obligatory computer exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project assignment",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grades for examination modules are decided in accordance with the assessment criteria presented at the start of the course. The grading scale is U, 3, 4, 5.",
+  "bibliography": [
+    "G. Blom, J. Enger, G. Englund, J. Grandell, L. Holst:, (2005) Sannolikhetsteori och statistikteori med tillämpningar Studentlitteratur ISBN: 978-91-44-02442-4",
+    "Grundläggande regressionsanalys",
+    "Formel- och tabellsamling i matematisk statistik, utgiven av matematiska institutionen."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Linköping University",
+  "institution_slug": "ec_s_linkopi01",
+  "degree": "Industrial Engineering and Management - International (6CIEI), terms 1-6 (first cycle)",
+  "course_code": "TAMS65",
+  "academic_year": "2023-2024 (cohorte HT 2023)",
+  "source_url": "https://studieinfo.liu.se/en/kurs/TAMS65/vt-2025",
+  "source_language": "en",
+  "source_sha256": "b4d135e81d7f4be3bf34d5190bcbce66ed83378833b560a1f9f8a67293267dba",
+  "extracted_at": "2026-11-20T09:08:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

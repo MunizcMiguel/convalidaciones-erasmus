@@ -1,0 +1,126 @@
+{
+  "course_name_original": "Programación Concurrente y Paralela",
+  "course_name_en": "Concurrent and Parallel Programming",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended that students have taken courses related to Programming (especially the Algorithmics course).",
+    "Knowledge of computer hardware (Computer Fundamentals and Networks and Computer Architecture courses) and operating systems (Operating Systems course).",
+    "Ability to read and understand texts written in English for part of the bibliography."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and implement the parallel programming paradigm based on distributed memory and message passing, shared memory, and heterogeneous/hybrid models.",
+      "type": "unspecified",
+      "code": "PR75 – PR78"
+    },
+    {
+      "text": "Select the appropriate parallel programming paradigm for a given problem.",
+      "type": "unspecified",
+      "code": "PR79"
+    },
+    {
+      "text": "Evaluate the gain of a parallel solution compared to the equivalent single-processor version.",
+      "type": "unspecified",
+      "code": "PR80"
+    },
+    {
+      "text": "Develop a parallel solution that meets a given specification.",
+      "type": "unspecified",
+      "code": "PR81"
+    },
+    {
+      "text": "Understand the concept of execution thread and know its programming models.",
+      "type": "unspecified",
+      "code": "PR82 – PR83"
+    },
+    {
+      "text": "Select the appropriate threading programming model for a given problem specification.",
+      "type": "unspecified",
+      "code": "PR84"
+    },
+    {
+      "text": "Know the synchronization mechanisms between threads. Understand and prevent their problems. Apply appropriate synchronization mechanisms to a given problem.",
+      "type": "unspecified",
+      "code": "PR85 – PR88"
+    },
+    {
+      "text": "Develop an efficient and effective multi-threaded solution for a given problem specification.",
+      "type": "unspecified",
+      "code": "PR89"
+    },
+    {
+      "text": "Evaluate the gain of a multi-threaded solution compared to the equivalent single-threaded version.",
+      "type": "unspecified",
+      "code": "PR90"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Presentation and State of the Art.",
+    "Performance Models and Analysis of Parallel Algorithms: Execution time, efficiency, speed-up, cost, scalability, etc.",
+    "Design of Parallel Algorithms: Decomposition, assignment, balancing, overlapping, partitioning, etc. Relaxed algorithms, pipeline, master-slave, process farm and replicated, etc.",
+    "Concurrent and Parallel Environments: Concurrency: basic concepts, models and synchronization mechanisms. Parallelism: programming models. Accelerators and hybrid-heterogeneous solutions."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practicals",
+    "Group tutorials",
+    "Study of theoretical material",
+    "Completion of proposed exercises/assignments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam (P1) on Performance and Design topics",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (P2) on Concurrent and Parallel Environments topics",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work sessions (individual or group assignments)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade (Nota) is calculated as 0.5 * Theory + 0.5 * Practicals. Theory is a weighted sum of partial exams, and Practicals is the arithmetic mean of graded practical sessions. A final score of 5 or more (out of 10) is required to pass. Uncompleted activities are graded with a zero; if their total weight exceeds 50% of the final grade, the student will receive \"No presentado\". In the extraordinary call, evaluation consists of a theoretical exam (50%) and a practical exam (50%), requiring a minimum of 5 out of 10 to pass. In case of doubt about authorship or unauthorized means (e.g., AI tools), students may be asked for an in-person defense.",
+  "bibliography": [
+    "Almeida F.; Giménez D.; Mantas J.M.; Vidal A.M. Introducción a la programación paralela. Paraninfo.",
+    "Chandra R.; Dagum L.; Kohr D.; Maydan D.; McDonald J.; Menon R. Parallel Programming in OpenMP. Morgan Kaufmann.",
+    "Grama A.; Gupta A.; Karypis G.; Kumar V. Introduction to Parallel Computing. Addison-Wesley.",
+    "Pachecho, P.S. Parallel programming with MPI. Morgan Kaufmann.",
+    "Quinn M.J. Parallel Programming in C with MPI and OpenMP. McGraw Hill.",
+    "Wilkinson B.; Allen Michael. Parallel Programming: Techniques and Applications Using Networked Workstations and Parallel Computers. Prentice-Hall.",
+    "Andrews. Foundations of Multithreaded, Parallel, and Distributed Programming. Addison-Wesley.",
+    "Bertsekas D.P.; Tsitsiklis J.N. Parallel and Distributed Computation. Prentice Hall.",
+    "Chapman B.; Jost .; Pas van der R., Kuck D.J. Using OpenMP: Portable Shared Memory Parallel Programming. The MIT Press.",
+    "Dongarra J.; Foster I.; Fox G.; Gropp W.; Kennedy K.; Torczon L.; White A. (Eds.). Sourcebook of Parallel Computing. Morgan Kaufmann Publishers.",
+    "El-Ghazawi T.; Carlson W.; Sterling T.; Yelick K. UPC: Distributed Shared Memory Programming. John Wiley Sons.",
+    "Foster I. Designing and Building Parallel Programs. Addison-Wesley.",
+    "Gropp W. Lusk E.; Skjellum A. Using MPI: Portable Parallel Programming with the Message-Passing Interface. . The MIT Press.",
+    "Kumar V.; Grama A.; Gupta A.; Karypis G. Introduction to Parallel Computing. Design and Analysis of Algorithms. The Benjamin Cumming Publishing Company.",
+    "Lastovetsky, Alexey L.: Parallel Computing on Heterogeneous Networks. Wiley, 2003",
+    "Lester B.P. The art of Parallel Programming. Prentice Hall.",
+    "Nickolls J.; Buck I.; Garland M.; Skadron K. Scalable parallel programming with CUDA. Queue.",
+    "Parhami, B. Introduction to Parallel Processing. Kluwer Academic Publishers.",
+    "Roosta S.H. Parallel Processing and Parallel Algorithms. Springer.",
+    "Sanders J.; Kandrot E. CUDA by Example: An Introduction to General-Purpose GPU Programming. Pearson."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-4-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-001",
+  "source_language": "es",
+  "source_sha256": "2e3ce593cc63829aaef764f47bc696f56074000434d912c8d4cf9ea99d742a74",
+  "extracted_at": "2026-11-20T05:57:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Cálculo",
+  "course_name_en": "Calculus",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "High school Mathematics I and II",
+    "satisfactory ESO mathematics background"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Operate and represent real functions of real variables, obtain their limits, determine their continuity, calculate derivatives, and formulate and solve optimization problems.",
+      "type": "skill",
+      "code": "RA1"
+    },
+    {
+      "text": "Handle the concepts of sequences and series and use power series to represent functions.",
+      "type": "skill",
+      "code": "RA2"
+    },
+    {
+      "text": "Formulate and calculate integrals of single-variable functions and apply them to solving engineering-related problems.",
+      "type": "skill",
+      "code": "RA3"
+    },
+    {
+      "text": "State and apply the basic properties of real functions of several real variables. Obtain their limits, analyze continuity and differentiability, and solve optimization problems.",
+      "type": "skill",
+      "code": "RA4"
+    },
+    {
+      "text": "Students must have demonstrated possession and understanding of knowledge in a field of study that builds upon general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects that imply knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students must be able to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated by the elaboration and defense of arguments and the resolution of problems within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Knowledge of basic subjects and technologies, enabling the learning of new methods and technologies, as well as providing great versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG.3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and to communicate and transmit knowledge, skills, and abilities, understanding the ethical and professional responsibility of the Telecommunication Technical Engineer's activity.",
+      "type": "competence",
+      "code": "CG.4"
+    },
+    {
+      "text": "Knowledge for performing measurements, calculations, valuations, appraisals, expert reports, studies, reports, task planning, and other similar works in their specific field of telecommunications.",
+      "type": "knowledge",
+      "code": "CG.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical Sets and Functions: Natural numbers, Induction method, Real numbers, Absolute value of a real number and its properties, Elementary functions, Function composition and inverse function.",
+    "Limits and continuity: Definition of limit, Properties, Infinitesimals and infinities, Indeterminations, Asymptotes, Continuous functions, Properties of continuous functions (Bolzano's theorem, Darboux's (intermediate value) theorem, and Weierstrass's theorem).",
+    "Differentiability. Properties of differentiable functions: Derivative of a function at a point, Derivative function, Differentiability and continuity, Properties of the derivative, Chain rule, Rolle's theorem, Lagrange's mean value theorem, L'Hôpital's rule.",
+    "Taylor Polynomial: Successive derivatives, Taylor polynomial, Taylor formula with remainder.",
+    "Optimization: Local study of a function, Monotonicity, Relative extrema, Concavity and inflection points, Absolute extrema, Graphical representation of functions.",
+    "Calculation of primitives: Immediate integrals, Integration methods.",
+    "The definite integral: Basic concepts and geometric interpretation, Integrable functions, Properties of the definite integral, Fundamental theorem of integral calculus, Barrow's rule, Applications.",
+    "Improper integrals: Definition of improper integral, Types, Application to the study of Eulerian integrals.",
+    "Numerical sequences: Definition, Convergence, Calculation of limits.",
+    "Numerical series: Definition, Convergence and sum, Harmonic series and geometric series, Convergence criteria.",
+    "Power series. Power series expansion: Definition, Radius of convergence, Differentiation and integration, Power series expansion of a function: Taylor series, Commonly used expansions.",
+    "The Euclidean space Rn: Basic notions of topology in Rn, Real functions, Vector functions.",
+    "Limits and continuity: Limit of a function at a point and properties, Calculation of limits, Continuity of a function, Properties.",
+    "Differentiability: Directional derivative, Partial derivative, Geometric interpretation, Higher-order derivatives, Differentiation and continuity.",
+    "Differentiation: Differential of a function at a point, Linear approximation, Sufficient condition for differentiability, Gradient vector, Tangent plane, Chain rule.",
+    "Optimization: Free relative extrema, Necessary condition, Sufficient condition, Absolute extrema, Constrained relative extrema, Lagrange multipliers."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom/Seminar Practices",
+    "Laboratory Practices",
+    "Group/individual work",
+    "Evaluation sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Exam (TE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom Practices (PA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practices (PL)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, it is mandatory to obtain a minimum of 3.5 points out of 10 in the Theoretical Exam (TE). The final grade is calculated as 0.15 x PL + maximum (0.15 x PA + 0.7 x TE, 0.85 x TE). If the minimums are not reached, the qualification will be failed with a numerical grade equal to TE. In extraordinary calls, a single exam comprises a theoretical part (TE) for which a minimum of 3.5 points is required, and the PA grade is saved from the ordinary period, while PL can be kept or retaken.",
+  "bibliography": [
+    "Bradley G. L.; Smith, K. J. Cálculo de una variable y varias variables. (Vol. I y II). Prentice Hall (4ª ed.), 2001.",
+    "García López, A y otros. Cálculo I: teoría y problemas de análisis matemático en una variable, CLAGSA (3ª ed.), 2007.",
+    "García López, A y otros. Cálculo II: teoría y problemas de funciones de varias variables. CLAGSA (2ª ed.), 2002.",
+    "Stewart, J. Cálculo de una variable y Cálculo multivariable. Paraninfo Thomson. (6ª ed.), 2009.",
+    "Bayón L, Grau J. M., Suárez P.M. Cálculo. Grados en Ingeniería. Ediciones de la Universidad de Oviedo. EDIUNO, 2011",
+    "Burgos Román, J. Cálculo Infinitesimal de una variable y en varias variables. (Vol. I y II). McGraw-Hill. (2ª ed.), 2008.",
+    "Larson, R. E. y otros. Cálculo y geometría analítica. (Vol. I y II). McGraw-Hill (8ªed.), 2005.",
+    "Marsden, J.; Tromba, A. Cálculo vectorial. Addison-Wesley Longman (5ªed.), 2004.",
+    "Neuhauser, Claudia. Matemáticas para ciencias. Pearson. Prentice Hall, 2004.",
+    "Tomeo Perucha, V. y otros. Problemas resueltos de Cálculo en una variable. Thomson, 2005."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-1-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-1-009",
+  "source_language": "es",
+  "source_sha256": "233026c12badade4e09589a74f15f1ab3a274eb67ce6eb6745f6f9833561eb8f",
+  "extracted_at": "2026-11-20T06:03:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

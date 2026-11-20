@@ -1,0 +1,159 @@
+{
+  "course_name_original": "Verteiltes Datenmanagement",
+  "course_name_en": "Distributed Data Management",
+  "ects": 9.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Competencies acquired in the Algorithms and Data Structures module",
+    "Competencies acquired in the Database Systems module"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know challenges in building Distributed Systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know reactive, distributed programming (Actor Programming).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know techniques for digital representation and data serialization (Encoding).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know methods for the functioning of networks (Communication).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know standards for structuring and querying data (Data Models and Query Languages).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know algorithms and data structures for distributed data processing (Storage and Retrieval).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know techniques to ensure fault tolerance and availability (Replication and Partitioning).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know techniques to ensure consistency and agreement (Consistency and Consensus).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know algorithms for distributed transaction management (Transactions).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know frameworks for distributed batch processing of data-intensive tasks (Batch Processing).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know frameworks for distributed data stream processing (Stream Processing).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know the functioning of distributed database management systems (Distributed DBMSs).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know the basics of distributed query processing (Distributed Query Optimization).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply this knowledge practically in programming data-intensive, distributed algorithms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply scientific working methods in independently identifying, formulating and solving problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to speak freely about scientific content, both in front of an audience and in a discussion.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Actor-, Service-, Batch- and Stream-based distributed programming",
+    "Big Data Systems",
+    "Data serialization and message transfer",
+    "Data structures for distributed data storage",
+    "OSI model and communication protocols",
+    "Data partitioning and replication",
+    "Consistency and consensus protocols",
+    "Time synchronization and change propagation",
+    "Distributed query planning"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solutions to at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (individual examination)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credits, students must achieve at least 50 percent of the points from the weekly exercise assignments and orally present the solution to at least two exercise assignments. Grading is from 0 to 15 points according to the examination regulations for the B.Sc. Computer Science degree program.",
+  "bibliography": [
+    "Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems, Martin Kleppmann, 2017, 978-1449373320",
+    "Distributed Systems, Maarten van Steen and Andrew S. Tanenbaum, 2017, 978-1543057386",
+    "Principles of Distributed Database Systems, M. Tamer Özsu and Patrick Valduriez, 2011, 978-1441988331",
+    "Web-Scale Data Management for the Cloud, Wolfgang Lehner and Kai-Uwe Sattler, 2013, 1489997717",
+    "Introduction to Parallel Computing, Zbigniew J. Czech, 2017, 978-1107174399",
+    "Designing Distributed Systems: Patterns and Paradigms for Scalable, Reliable Services, Brendan Burns, 2017, 978-1491983645",
+    "Spark: Big Data Cluster Computing in Production, Ilya Ganelin and Ema Orhian and Kai Sasaki and Brennon York, 2016, 978-1119254010",
+    "Reactive Messaging Patterns with the Actor Model, Vaughn Vernon, 2015, 978-0133846836",
+    "Mining Massive Datasets, Jure Leskovec and Anand Rajaraman and Jeffrey David Ullman, 2014, 978-1107077232",
+    "Algorithmische Geometrie, Rolf Klein, 2005, 978-3540209560"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS557",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Verteiltes_Datenmanagement.html",
+  "source_language": "de",
+  "source_sha256": "1e99e63d7bf4580f530e5985af5b0c7554e83b213d874c00125a86965d9a3bb1",
+  "extracted_at": "2026-11-20T09:22:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

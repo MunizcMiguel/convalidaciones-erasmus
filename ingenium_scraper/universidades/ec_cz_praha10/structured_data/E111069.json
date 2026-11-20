@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Design Against Fatigue",
+  "course_name_en": "Design Against Fatigue",
+  "ects": 2.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentals of engineering mechanics of deformable bodies: understanding displacements, strain and stress components, Hook's law, strain energy, basic tension, bending and torsion theories.",
+    "Fundamentals of matrix algebra and calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "understanding to fatigue phenomenon",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understanding basic phenomenological fatigue approaches, including the probability of failure",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "solving of simple notched parts subjected to simple cyclic loading",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understanding variational principles particularly of deformation approach",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understandig FEM as particular case of Ritz's method",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fatigue phenomenon: Wohler curve, stationary load cycles, stress/strain life curves.",
+    "Stress concentration: shape factor, notch sensitivity and notch factors; load, surface, treatment and size influence.",
+    "Mean stress influence: Haigh's/Smith's diagrams, equivalent stress amplitude.",
+    "Fatigue damage cummulation.",
+    "Probability of failure.",
+    "Deformation and force approach, principle of virtual displacements, principle of total potential minimum (Lagrange's principle) - all by hinged bar structure example.",
+    "Generalization of the principles in continuum.",
+    "Vector spaces and Ritz's method explanation using tension-compression example with goniometric and/or piecewise linear base functions.",
+    "Finite element method as particular case of Ritz's method."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Homework - calculation of durability and probability of failure of simple shaped (planar or axisymmetric) notched part under tension or bending stationary cyclic load. The shape factor of notch has to be determined using both literar resources and finite element analysis.",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Lecturers's slides and other resources are placed in http://moodle.fs.cvut.cz under „Automotive Engineering“ -> „European Master of Automotive Engineering“ -> „Design against fatigue“."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E111069",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1525906.html",
+  "source_language": "en",
+  "source_sha256": "2c1e6c14592c4dd8abe3f840a692cc02d62b28b8d37b1c79b5c2f865c9961450",
+  "extracted_at": "2026-11-20T01:16:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

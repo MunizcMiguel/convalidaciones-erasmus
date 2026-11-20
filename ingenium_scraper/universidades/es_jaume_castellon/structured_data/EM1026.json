@@ -1,0 +1,173 @@
+{
+  "course_name_original": "Teoria d'Estructures",
+  "course_name_en": "Theory of Structures",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "Algebra (Mathematics)",
+    "Calculus I (Mathematics)",
+    "Computer Science",
+    "Physics I",
+    "Chemistry",
+    "Calculus II (Mathematics)",
+    "Physics II",
+    "Graphic Expression",
+    "Statistics and Optimization",
+    "Mechanics of Machines and Structures",
+    "Electrotechnics",
+    "Thermal Engineering",
+    "Materials Science and Technology",
+    "Fluid Mechanics",
+    "Business",
+    "Electronics",
+    "Elasticity and Strength of Materials",
+    "Theory of Machines and Mechanisms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to apply calculation methods for articulated bar structures to determine the stress and deformation state in specific articulated systems.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to apply the matrix method for calculating bar structures in specific structural systems.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to implement simple bar structure models and calculate their static response to external actions using commercial structural calculation software tools.",
+      "type": "skill",
+      "code": "CG05"
+    },
+    {
+      "text": "Be able to prepare technical reports and documents in the field of structural analysis.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Be able to formulate and solve the equations governing the static response of articulated bar structures subjected to external actions.",
+      "type": "skill",
+      "code": "CEM05"
+    },
+    {
+      "text": "Be able to formulate and solve the matrix equations governing the static behavior of a structure subjected to external actions.",
+      "type": "skill",
+      "code": "CEM05"
+    },
+    {
+      "text": "Be able to determine internal forces in bar structure elements and size them based on mechanical resistance and stiffness requirements.",
+      "type": "skill",
+      "code": "CEM04"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOC I: BASES DE CÀLCUL I ACCIONS",
+    "TEMA 1. INTRODUCCIÓ A L'ANÀLISI ESTRUCTURAL",
+    "Introduction",
+    "Phases of structural project",
+    "Classification of structures",
+    "Classification of structural analysis methods",
+    "Basic hypotheses",
+    "Structural typologies",
+    "TEMA 2. CÀLCUL D'ACCIONS EN ESTRUCTURES INDUSTRIALS",
+    "Structural systems in industrial buildings",
+    "Contributed industrial warehouses",
+    "Actions, structural safety and regulatory framework",
+    "Calculation of actions according to CTE DB SE-AE",
+    "Action calculation problem",
+    "BLOC II: ANÀLISI ESTÀTICA",
+    "TEMA 3. EL MODEL ESTRUCTURAL",
+    "Introduction",
+    "The structural model (coord. systems, nodes, dof, elements, element properties, boundary conditions, actions, action combinations)",
+    "Model variables: internal force and displacement vectors",
+    "Equilibrium and compatibility equations",
+    "Degree of hyperstaticity",
+    "Degree of hyperstaticity of planar articulated structures",
+    "TEMA 4. ESTRUCTURES ARTICULADES PLANES",
+    "Introduction",
+    "Calculation of axial forces in planar articulated structures",
+    "Simplifications in planar articulated structures",
+    "Principle of virtual work applied to planar articulated structures",
+    "Calculation of displacements",
+    "TEMA 5. CÀLCUL MATRICIAL D'ESTRUCTURES",
+    "Introduction",
+    "Stiffness matrix of an element in local coordinates",
+    "Coordinate transformation",
+    "Stiffness matrix of rigid element in global coordinates.",
+    "Structure level equation in global coordinates. Assembly",
+    "Application of boundary conditions: nodal solution",
+    "Element level solution",
+    "Loads applied in elements",
+    "Stiffness matrix of an articulated bar",
+    "Treatment of known imposed displacements (settlements).",
+    "Computational aspects",
+    "Method summary and extrapolation to three dimensions",
+    "BLOC III: ANÀLISI A VINCLAMENT",
+    "TEMA 6. VINCLAMENT",
+    "Introduction to structural stability",
+    "Euler's critical load",
+    "Buckling length with non-biarticulated boundary conditions",
+    "Concept of mechanical slenderness",
+    "Elastic vs. inelastic buckling",
+    "Real design of slender elements",
+    "BLOC V: ANÀLISI DINÀMICA",
+    "TEMA 7. INTRODUCCIÓ A L'ANÀLISI DINÀMICA D'ESTRUCTURES",
+    "Introduction",
+    "Single degree of freedom systems in free vibration",
+    "Single degree of freedom systems in forced vibration",
+    "Multi-degree of freedom systems",
+    "PROB1) Actions in a contributed industrial warehouse",
+    "PROB2) Calculation of forces and displacements in a planar articulated structure.",
+    "PROB3) Matrix calculation of planar structures",
+    "PROB4) Buckling calculation of slender elements",
+    "PROB5) Dynamic calculation of a planar structure",
+    "LAB1) Obtaining actions using computer software",
+    "LAB2) Static analysis of planar articulated structures with computer software",
+    "LAB4) Analysis of planar structures with rigid nodes using computer software",
+    "LAB4) Buckling analysis of a planar structure with computer software",
+    "LAB5) Dynamic analysis of a bridge with computer software"
+  ],
+  "teaching_methods": [
+    "Lectures (for theoretical foundations, supported by multimedia presentations and blackboard)",
+    "Problem and exercise solving (interspersed with theoretical explanations, simple examples by professor, short examples by students, discussion)",
+    "Laboratory work (practical sessions, some in structures lab, others in computer lab using software for problem solving. Experimental measurements of forces, stresses, deformations, displacements. Autonomous work with professor assistance, requiring reports.)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Completion and delivery of laboratory practical works",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Continuous assessment activities, such as problem submissions and questionnaires",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "To pass the course, students must obtain at least 5 out of 10 points in the overall average grade. In the first and second calls, the final exam (70% or 85%) requires a minimum grade of 4.5 out of 10; if this or any other minimum is not met, the overall grade cannot exceed 4.5. Continuous assessment activities include laboratory practical works (15%, not recoverable) and other activities like problems and questionnaires (15%, recoverable in the second call). The extraordinary call consists of a 100% final exam with no minimum grade; this call is consumed upon request. Fraudulent activity in any assessment will result in a 0 for that activity/exam and may lead to further sanctions.",
+  "bibliography": [],
+  "isced_f_code": "0732",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1026",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1026",
+  "source_language": "ca",
+  "source_sha256": "b200aa1d2f1351b2b9de79b810ce8fd221c722f1b33be7f23e52786c89519655",
+  "extracted_at": "2026-11-13T22:36:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

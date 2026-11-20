@@ -1,0 +1,129 @@
+{
+  "course_name_original": "Elektrische netwerken",
+  "course_name_en": "Electrical Networks",
+  "ects": 3.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "algebra: systems of linear equations",
+    "algebra: complex numbers",
+    "analysis: 1st and 2nd order differential equations with constant coefficients",
+    "trigonometry",
+    "electricity: Ohm's law, Kirchhoff's laws"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can explain the basic principles of electricity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can explain the electrical behavior of the ideal elements from electrical network theory.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can independently calculate all electrical properties of linear electrical networks for both AC and DC.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can explain the basic principles of transfer functions.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory concepts",
+    "DC analysis",
+    "AC analysis",
+    "Chapter 1 - Basic Concepts",
+    "Introduction",
+    "Basic units and quantities",
+    "Circuit elements",
+    "Part 1 'DC' Direct voltage and current",
+    "Chapter 2 - Resistive circuits",
+    "Ohm's Law",
+    "Kirchhoff's Laws",
+    "Simple circuits",
+    "Series and parallel connection of resistors",
+    "Dependent sources",
+    "Examples",
+    "Chapter 3 - Nodal analysis",
+    "Nodal analysis",
+    "Examples",
+    "Chapter 4 - Operational amplifiers",
+    "Introduction",
+    "Opamp models",
+    "Fundamental opamp circuits",
+    "Examples",
+    "Chapter 5 - Other circuit analyses",
+    "Superposition",
+    "Thevenin and Norton",
+    "Power transfer",
+    "Practical session: review exercises of DC theory",
+    "Part 2 'AC' Alternating voltage and current",
+    "Chapter 6 - Capacitance and inductance",
+    "Capacitors",
+    "Coils or inductors",
+    "Combination of coils and capacitors",
+    "Examples",
+    "Chapter 7 - First and second order circuits",
+    "First order circuits",
+    "Second order circuits",
+    "Examples",
+    "Chapter 8 - AC analysis in steady state",
+    "Sinusoids",
+    "Sinusoids and complex functions",
+    "Phasors",
+    "Phasors and the various circuit elements",
+    "Impedance and admittance",
+    "Circuit analysis with impedances",
+    "Examples",
+    "Chapter 9 - AC with variable frequency",
+    "Frequency response",
+    "Sinusoidal frequency analysis - Bode plot",
+    "Resonance",
+    "Filters",
+    "What's next",
+    "Practical session: review exercises of AC theory - variable frequency",
+    "Exercise 1: resistive networks + practical: measuring V/I/R",
+    "Exercise 2: nodal analysis + practical: measuring amplifier with VDI",
+    "Exercise 3: first and second order networks + practical: measuring step responses",
+    "Exercise 4: AM receiver + practical: testing AM receiver"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Work sessions",
+    "Practical assignments"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam with multiple-choice questions",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam is written and consists of 20 to 25 multiple-choice questions. Multiple-choice questions are corrected with a penalty for guessing. The total number of points is reduced to 20. The exam duration is 3 hours. No formula sheet is allowed, but a calculator conforming to faculty guidelines is permitted.",
+  "bibliography": [
+    "Irwin D., Nelms R., \"Basic engineering circuit analysis - tenth edition\", John Wiley and Sons."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H01Z2A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H01Z2AN",
+  "source_language": "nl",
+  "source_sha256": "bd08ce29b87467e758313295ba11743a43eefb00d2c2d308ed73c4ad4ae111ad",
+  "extracted_at": "2026-11-20T12:28:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

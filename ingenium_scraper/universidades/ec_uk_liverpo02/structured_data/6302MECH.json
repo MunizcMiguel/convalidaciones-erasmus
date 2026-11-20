@@ -1,0 +1,70 @@
+{
+  "course_name_original": "Finite Element Analysis (6302MECH)",
+  "course_name_en": "Finite Element Analysis",
+  "ects": 5.0,
+  "semester": "September (12 Weeks)",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Identify and apply boundary conditions to simulate a variety of single component static problems.",
+      "type": "unspecified",
+      "code": "MLO1"
+    },
+    {
+      "text": "Apply boundary conditions and define component interaction to simulate a variety of multi-component assembly problems.",
+      "type": "unspecified",
+      "code": "MLO2"
+    },
+    {
+      "text": "Apply boundary conditions to simulate steady-state and transient thermal phenomena.",
+      "type": "unspecified",
+      "code": "MLO3"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite Element Theory: Mathematical principles underpinning the Finite Element Method.",
+    "Arithmetic methods for solving one dimensional stress and displacement problems.",
+    "Different element geometries and how they are incorporated into a mesh.",
+    "Software Application: Loads, fixtures, and mesh density for single-part components.",
+    "Component interaction for multiple-part assemblies.",
+    "Boundary conditions for steady state and transient thermal problems.",
+    "2D simplification methods (planar and axi-symmetric).",
+    "Selecting edges and faces for local mesh control.",
+    "Symmetric boundary conditions for partial models."
+  ],
+  "teaching_methods": [
+    "Tutorial",
+    "Lecture"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 22.0,
+  "assessment_methods": [
+    {
+      "method": "Computer Exam (Invigilated FEA assessment)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Liverpool John Moores University",
+  "institution_slug": "ec_uk_liverpo02",
+  "degree": "Mechanical Engineering BEng (Hons)",
+  "course_code": "6302MECH",
+  "academic_year": "2025-26 (Programme Specification v03.01)",
+  "source_url": "https://coursecatalogue.ljmu.ac.uk/module/2025/6302MECH",
+  "source_language": "en",
+  "source_sha256": "e8e9711610c4d1d865e090c7cfae58e61be1272ed70eb2dd7bd98e2155d66f8b",
+  "extracted_at": "2026-11-20T08:17:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

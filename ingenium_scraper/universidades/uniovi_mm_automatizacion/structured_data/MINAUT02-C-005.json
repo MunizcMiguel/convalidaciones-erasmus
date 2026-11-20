@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Procesamiento Digital de Señal",
+  "course_name_en": "Digital Signal Processing",
+  "ects": 3.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic course in analysis of dynamic systems (continuous and discrete)",
+    "Basic knowledge of linear algebra",
+    "Basic knowledge of differential and integral calculus",
+    "Basic knowledge of system programming",
+    "Basic knowledge of numerical methods"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamentals of signal digitalization.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know the Discrete Fourier Transform and its properties.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to perform spectral analysis.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to design digital filters for specific applications.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Origins and applications of DSP. Basic concepts of signals and noise.",
+    "Analog-digital conversion: Shannon's Theorem. Analog filters. Antialiasing filtering.",
+    "Linear systems.",
+    "Discrete Fourier Transform",
+    "Spectral analysis of signals",
+    "Digital filtering. Design and application of filters."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Written exam (E)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Course assignments (T)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as (0.40 × E) + (0.6 × T), where E is the written exam and T represents course assignments. There is no minimum grade required for course assignments. The extraordinary call consists of a single written exam covering all course content, and the grade obtained in this exam will be the final grade. In case of doubt regarding the authorship of any assessable test or the use of unauthorized means, students may be asked for an in-person defense.",
+  "bibliography": [
+    "The Scientist and Engineer's Guide to Digital Signal Processing. By Steven W. Smith, Ph.D. Publication Date: 1997 | ISBN-10: 0966017633 | ISBN-13: 978-0966017632 | Edition: 1st",
+    "Digital Signal Processing Using MATLAB. Vinay K. Ingle & John G. Proakis. Publication Date: January 1, 2011 | ISBN-10: 1111427372 | ISBN-13: 978-1111427375 | Edition: 3"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Automatización e Informática Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mm_automatizacion",
+  "degree": "Máster Universitario en Ingeniería de Automatización e Informática Industrial",
+  "course_code": "MINAUT02-C-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/automatizacion/-/fof/asignatura/MINAUT02-C-005",
+  "source_language": "es",
+  "source_sha256": "d619c38735c996c616e842b77731c4b3a32587f21507a2ac8ec533d99c20ac71",
+  "extracted_at": "2026-11-20T06:00:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

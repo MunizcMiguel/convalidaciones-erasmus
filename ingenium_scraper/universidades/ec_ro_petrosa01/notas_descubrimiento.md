@@ -1,0 +1,7 @@
+# ec_ro_petrosa01 — Universitatea din Petroșani (UPET)
+
+- Sitio oficial: `www.upet.ro` (robots.txt veta solo /centdep/LLP/, /administrativ/, /resuniv/, /ums/). El hint (`upet.ro/en/information-for-foreign-students/`) es correcto.
+- Grado: no hay «Mechanical Engineering» como tal; en la Facultatea de Inginerie Mecanică și Electrică el más cercano es **Tehnologia construcțiilor de mașini** (Machine building technology, licență 4 años, 240 ECTS, domeniu Inginerie industrială). Alternativas descartadas: Mining machinery and equipment (IMA), Electromechanical.
+- Plan: `https://www.upet.ro/documente/planuri/ime/2025/TCM.pdf` (también hay planes 2026 de otros programas; TCM 2025 es el vigente publicado). Tablas por año con `pdfplumber.extract_tables` (códigos 2BB…, créditos por semestre). 66 disciplinas, 60 ECTS por año = 240 ✓. Las facultativas (28 créditos extra) no se catalogan.
+- **Fichas de disciplina («Discipline fiche»): carpetas SharePoint `upet-my.sharepoint.com/:f:/…`, cuyo robots.txt las veta (RobotsBlocked)** → todas las filas `sin_guia`, catálogo `parcial`, sin Fase 2. La página `/licenta/` también las enlaza a SharePoint.
+- Trampas: la fila 30 (año II) tiene la celda del nombre desbordada sobre la del código («e 2BB4OS30»); el nombre sale de la línea de texto («maş-une» truncado por el propio PDF). Disciplinas opcionales con nombre genérico («Disciplina opţională OP 21»); las alternativas reales están en la página 6 del plan. Un código del año I (Fizică) lleva «2BB3» por errata del plan. Idioma: rumano.

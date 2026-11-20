@@ -1,0 +1,169 @@
+{
+  "course_name_original": "Control y Simulación de Sistemas Dinámicos",
+  "course_name_en": "Control and Simulation of Dynamic Systems",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge (from a degree course) of Linear Algebra.",
+    "Calculus, Design and Simulation of Control Systems (recommended)",
+    "Computers and Programming (recommended)",
+    "General programming knowledge in a high-level language (e.g., Matlab, Simscape, C++, Gazebo or similar).",
+    "Basic concepts of SISO system theory.",
+    "English reading level for bibliography (recommended)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Prepare technical specifications that allow to pose a problem in mechatronic engineering maintaining a global and integrating vision and using prescriptive, procedural or performance specifications as appropriate.",
+      "type": "unspecified",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision making and selection from possible solutions to an engineering problem.",
+      "type": "unspecified",
+      "code": "CG2"
+    },
+    {
+      "text": "Develop skills for cooperative and multidisciplinary technical team work.",
+      "type": "skill",
+      "code": "CG7"
+    },
+    {
+      "text": "Possess and understand knowledge that provides a basis or opportunity to be original in the development and/or application of ideas, often in a research context.",
+      "type": "knowledge",
+      "code": "CB6"
+    },
+    {
+      "text": "Students should know how to apply the acquired knowledge and their problem-solving capacity in new or little-known environments within broader (or multidisciplinary) contexts related to their area of study.",
+      "type": "skill",
+      "code": "CB7"
+    },
+    {
+      "text": "Students should know how to communicate their conclusions and the knowledge and reasons supporting them to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "skill",
+      "code": "CB9"
+    },
+    {
+      "text": "Discriminate the most critical components in a mechatronic system and justify their possible redesign from the control system's point of view.",
+      "type": "skill",
+      "code": "CE10"
+    },
+    {
+      "text": "Justify, with solid arguments, the different options for the automation of a mechatronic type machine or technological process.",
+      "type": "skill",
+      "code": "CE11"
+    },
+    {
+      "text": "Acquire knowledge, techniques, and skills, which imply an increase in research and innovation potential and promote technology transfer to industry.",
+      "type": "unspecified",
+      "code": "CE13"
+    },
+    {
+      "text": "Select electronic devices for instrumentation and control that allow conditioning and processing analog and digital signals from sensors and sent to typical actuators of a mechatronic system.",
+      "type": "skill",
+      "code": "CE7"
+    },
+    {
+      "text": "Design control systems of different complexity, from simple loops to distributed systems.",
+      "type": "skill",
+      "code": "CE9"
+    },
+    {
+      "text": "Understand what model-based mechatronic system design consists of.",
+      "type": "knowledge",
+      "code": "RA7"
+    },
+    {
+      "text": "Understand the dynamic modeling of mechatronic systems from the control point of view.",
+      "type": "knowledge",
+      "code": "RA8"
+    },
+    {
+      "text": "Model mechatronic systems as multivariable systems.",
+      "type": "skill",
+      "code": "RA9"
+    },
+    {
+      "text": "Mathematically formulate a linear relationship, for example, between inputs and outputs of a static system, or between sensor readings and the magnitude to be measured.",
+      "type": "skill",
+      "code": "RA10"
+    },
+    {
+      "text": "Distinguish the multivariable description of a SISO from that of a generic MIMO system.",
+      "type": "skill",
+      "code": "RA12"
+    },
+    {
+      "text": "Analyze the characteristics of multivariable dynamic systems from their mathematical description.",
+      "type": "skill",
+      "code": "RA14"
+    },
+    {
+      "text": "Understand the controllability and observability properties of a MIMO.",
+      "type": "knowledge",
+      "code": "RA17"
+    },
+    {
+      "text": "Be able to model and describe a control/estimation problem in the form of a linear multivariable model.",
+      "type": "skill",
+      "code": "RA18"
+    },
+    {
+      "text": "Design the control algorithm of a mechatronic system modeled as a multivariable system.",
+      "type": "skill",
+      "code": "RA19"
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of position and orientation and trajectory generation.",
+    "Modeling of manipulator dynamics.",
+    "Control of mechatronic systems and trajectory tracking."
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures) with basic concept description and practical case discussion.",
+    "Use of online help and management tools (Virtual Campus) for didactic material.",
+    "Practical classes (classroom and laboratory) for problem-solving procedures.",
+    "Supervised student work on practical cases.",
+    "Use of classic methods and design tools, and laboratory resources for implementation, development, and experimental application of theoretical concepts.",
+    "Computer simulation tools (Matlab, Simscape, Gazebo).",
+    "Autonomous work.",
+    "Solving periodic exercises.",
+    "Encouragement of specialized and updated bibliography use."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Proposed assignments (T)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Objective test (P)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade (N) is calculated as N = 0.4*T + 0.6*P, where T represents proposed assignments and P represents the objective test. If minimums are not met, the qualification will be the minimum between the calculated grade and 4.0. In extraordinary calls, the same evaluation system applies, consisting of a practical work presentation/defense (TEX) and a written test (PEX), with N = 0.4*TEX + 0.6*PEX. Differentiated evaluation follows the extraordinary call system. In case of doubt regarding authorship or unauthorized means, a student's in-person defense may be requested.",
+  "bibliography": [
+    "\"Robotica\", 3ª ed, Craig, John J., Ed. Pearson Educación, 2009 ISBN: 978-607-442-602-1",
+    "\"Modern robotics mechanics, planning, and control\", Kevin M. Lynch and Frank C. Park, Ed. Cambridge University Press, 2017. ISBN: 978-1-107-15630-2",
+    "\"Linear Systems Theory and Design\", 3ª ed, Chi-Tsong Chen, Ed. Oxford-University Press.",
+    "\"Linear Systems\", de T. Kailath, Ed. Prentice Hall, 1980.",
+    "“Linear Estimation”, de T. Kailath, Sayed & Hassibi, Ed. Prentice Hall, 2000.",
+    "“State variables for Engineers”, de DeRusso-Roy-Close, Ed. Wiley and Sons, 1967."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-1-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-1-004",
+  "source_language": "es",
+  "source_sha256": "0cb40d43dff3d7e0b07937a8fee09d35a51d11c5c6a37600ba9d6347fef686bf",
+  "extracted_at": "2026-11-20T05:58:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

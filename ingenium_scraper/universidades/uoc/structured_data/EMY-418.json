@@ -1,0 +1,84 @@
+{
+  "course_name_original": "C++ Programming Language",
+  "course_name_en": "C++ Programming Language",
+  "ects": 5.0,
+  "semester": "7th",
+  "year_of_study": 4,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [
+    "Introduction to Computer Programming (EMY-113)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "have deepen their knowledge of the basic concepts of structured programming",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "be familiar with certain advanced programming concepts, as implemented in C++ (such as the Standard Library components and object-oriented programming).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "be able to develop complex, safe and fast code as well as understand or even plan code in programming languages with features similar to those of C++.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction - Fundamental types and operators of C++.",
+    "C++ syntax, reserved keywords, naming rules.",
+    "Fundamental types: boolean, character, integer, real, complex.",
+    "The \"void\" type. Enumerations.",
+    "Declarations and scope of variables and constants. Structures.",
+    "Arithmetic operators, priorities.",
+    "Namespaces, references, pointers.",
+    "Control structures, Loops.",
+    "If statement, (?:) operator, the switch statement, the assert function.",
+    "Loop structures: while, do while, for. continue, break statements.",
+    "Functions",
+    "Function definition, declaration and usage. the main function.",
+    "Overloading, function template. Math functions.",
+    "Exceptions.",
+    "Standard Library Containers: vector, deque, list, set/multiset, map/multimap. Iterators. Algorithms, function objects, lambda functions, adapters.",
+    "Object-Oriented Programming: Introduction to classes: encapsulation, inheritance, polymorphism.",
+    "Large program structure.",
+    "Interface to Fortran and C."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Programming exercises"
+  ],
+  "workload_hours_total": 130.0,
+  "workload_hours_contact": 39.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exams",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Notes: (https://raw.githubusercontent.com/sstamat/mybooks/main/cppbook.pdf)",
+    "Bjarne Stroustrup. Programming - Principles and Practice Using C++ (Second Edition), Addison Wesley, Reading, MA, USA, 2014.",
+    "Stanley B. Lippman, Josée Lajoie and Barbara E. Moo. C++ Primer. Addison Wesley, Reading, MA, USA, fifth edition, August 2012.",
+    "Nicolai M. Josuttis. The C++ Standard Library: A Tutorial and Reference. Addison Wesley, Reading, MA, USA, March 2012.",
+    "Bjarne Stroustrup. The C++ Programming Language. Addison Wesley, Reading, MA, USA, fourth edition, 2013."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "University of Crete",
+  "institution_slug": "uoc",
+  "degree": "Materials Science and Engineering — Πτυχίο Τμήματος Επιστήμης και Μηχανικής Υλικών (first cycle, 240 ECTS, curriculum ΕΜΥ)",
+  "course_code": "EMY-418",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.materials.uoc.gr/wp-content/uploads/2026/07/new_courses-outline_en_eng.pdf",
+  "source_language": "en",
+  "source_sha256": "b6ecee103d6ac511b63d470fb155c68e0300a7c579f46b256cc61e891f3b9d79",
+  "extracted_at": "2026-11-13T00:17:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

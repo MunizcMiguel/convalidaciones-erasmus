@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Álgebra (Ingenieros) (algebra-a)",
+  "course_name_en": "Algebra (Engineers)",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually found at a level that, while supported by advanced textbooks, also includes aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "R1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "R24"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "R2"
+    }
+  ],
+  "syllabus_topics": [
+    "MATRICES: Definitions. Matrix operations. Inverse of an invertible matrix. Block matrices. Special square matrices.",
+    "SYSTEMS OF LINEAR EQUATIONS. Definitions. Structure of the solution set. Gauss and Gauss-Jordan methods. Computation of the inverse of an invertible matrix. LU factorization. Cholesky factorization. Computational cost.",
+    "DETERMINANTS: Definitions. Properties. Practical computation of determinants.",
+    "VECTOR SPACES: Definitions. Vector subspaces. Generated subspaces. Linear dependence and independence. Bases and dimension. Implicit and parametric equations. Sum and intersection of subspaces. Change of basis.",
+    "LINEAR APPLICATIONS: Definitions. Properties. Linear transformations. Kernel and range of a linear application. Matrix of a linear application. Kernel and range of a matrix. Rank and nullity. Change of basis.",
+    "INNER PRODUCT: Definitions. Orthogonality and induced norm. Orthonormal bases. Expression of the inner product in an orthornormal basis. Components of a vector in an orthonormal basis. Induced metric. Orthogonal projection. Unitary and real orthogonal matrices. Gram-Schimidt method. QR factorization.",
+    "EIGENVALUES AND EIGENVECTORS: Definitions. Computation of eignevalues and eigenvectors. Diagonalization of square matrices. Diagonalization criteria. Characteristic polynomial and Vieta formulas. Cayley-Hamilton theorem. Power method. QR method.",
+    "DIAGONALIZATION OF NORMAL MATRICES: Diagonalization of hermitian matrices. Classification of hermitian matrices. Obtention of the Q and D matrices. QR method for hermitian matrices. Singular value decomposition (SVD). Real quadratic forms.",
+    "DIFFICULTIES WITH Ax=b: Spectral norm. Stability analysis on systems of linear equations. Partial pivoting. Least squares. Minimum norm solution. Pseudoinverse and orthogonal projection matrices."
+  ],
+  "teaching_methods": [
+    "In-person classes",
+    "Problem seminars",
+    "Personal study"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Ordinary final exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exams",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The ordinary final grade is obtained from the ordinary final exam and partial exams, which evaluate theoretical and practical content. The extraordinary final grade is obtained from the extraordinary final exam, which also evaluates theoretical and practical content.",
+  "bibliography": [
+    "Professors' lecture notes",
+    "Carl D. Meyer, “Matrix Analysis and Applied Linear Algebra” ISBN-13: 978-0898714548 , 2000",
+    "Flaquer, J., Olaizola, J., Olaizola, J. \"Curso de Álgebra Lineal (Contiene Libro electrónico de Álgebra Lineal en CD-ROM)\", EUNSA, 563 pp, 2004 (3ª Edición)",
+    "Strang, G. \"Linear Algebra and its Applications\", 2006",
+    "David C. Lay, “Linear Algebra and its Applications”, Pearson International Edition 2006 (3rd edition)"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "algebra-a",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/algebra-a/",
+  "source_language": "es",
+  "source_sha256": "7db337ea5a8925abfe608c5ca9ee1bd460d47ca95b8bff0a5de9c30182400fa8",
+  "extracted_at": "2026-11-18T02:49:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

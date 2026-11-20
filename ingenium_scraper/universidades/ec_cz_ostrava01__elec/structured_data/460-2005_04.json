@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Introduction to Theoretical Computer Science",
+  "course_name_en": "Introduction to Theoretical Computer Science",
+  "ects": 5.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "A student understands the basic terms of theoretical computer science, and can use them in programming. Moreover, the subject gives necessary background for further study of computer science at higher levels.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. Main topics of theoretical computer science (algorithms, algorithmic problems, formal languages, ...).",
+    "Formal languages - basic notions (alphabet, word, language). Operations on languages. Regular expressions.",
+    "Deterministic finite automata (DFA). Construction of DFA. Some language operations on DFA.",
+    "Nondeterministic finite automata (NFA). Transformation of NFA to DFA. Language operations on NFA. Relation between regular expressions and finite automata.",
+    "Context-free grammars and languages.",
+    "Pushdown automata and their relation to context-free grammars. Chomsky hierarchy.",
+    "Algorithmic problems. Models of computation (Turing machines and RAM machines). Church-Turing thesis.",
+    "Correctness of algorithms. Methods for proving correctness of algorithms.",
+    "Computational complexity of algorithms. Asymptotic notation. Analysis of computational complexity of algorithms (iterative and recursive).",
+    "General techniques used in design of algorithms - brute-force solution, divide-and-conquer, backtracking, greedy algorithms, dynamic programming.",
+    "Complexity of problems. Complexity classes (in particular classes P and NP). Reductions between problems. NP-complete problems.",
+    "Examples of NP-complete problems and reductions between problems.",
+    "Undecidable problems (e.g., halting problem).",
+    "Recalling basics of logic, set theory, relations, functions, and graph theory.",
+    "Operations on languages. Regular expressions.",
+    "Construction of deterministic finite automata (DFA). Operation on these automata.",
+    "Construction of nondeterministic finite automata (NFA). Transformation of NFA to DFA. Transformations between regular expressions and finite automata.",
+    "Construction of context-free grammars. Operations on these grammars.",
+    "Pushdown automata.",
+    "Algorithmic problems. Turing machines and RAM machines.",
+    "Proving correctness of algorithms.",
+    "Asymptotic notation. Analysis of computational complexity of algorithms.",
+    "Techniques of design of algorithms.",
+    "Complexity of problems. Complexity classes. Reductions between problems.",
+    "Proving NP-completeness of problems.",
+    "Proving undecidability of problems."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Sawa, Z.: Introduction to Theoretical Computer Science (available on http://www.cs.vsb.cz/sawa/uti/slides/uti-en.pdf)",
+    "Sipser, M.: Introduction to the Theory of Computation PWS Publishing Company, 1997.",
+    "Kozen, D.: Automata and Computability. Undergraduate Text in Computer Science, Springer Verlag, 1997.",
+    "Huth, M., Ryan, M.: Logic in Computer Science: Modelling and Reasoning about Systems, Cambridge University Press, 2004.",
+    "Papadimitriou, C.: Computational Complexity, Addison Wesley, 1993.",
+    "Hopcroft, J.E., Motwani, R., Ullman, J, D.: Introduction to Automata Theory, Languages, and Computation (3rd Edition), Addison Wesley, 2006.",
+    "Gruska, J.: Foundation of Computing. International Thomson Computer Press, 1997.",
+    "Suppes, P.: Introduction to Logic, Dover Publications, 1999.",
+    "Tarski, A.: Introduction to Logic and to the Methodology of Deductive Sciences, Dover Publications, 1995.",
+    "Devlin, K.: Introduction to Mathematical Thinking, Keith Devlin, 2012."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "460-2005/04",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=52620&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "20699d0377348e7c24812ba6fc33410e22fab29065df19789f487f44269dbdbc",
+  "extracted_at": "2026-11-20T12:51:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

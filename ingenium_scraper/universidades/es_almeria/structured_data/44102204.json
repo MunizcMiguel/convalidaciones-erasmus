@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Resistencia de Materiales",
+  "course_name_en": "Strength of Materials",
+  "ects": 6.0,
+  "semester": "2Q",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Theoretical mechanics and statics",
+    "Differential and integral calculus",
+    "It is recommended to have taken Mathematics and Physics I courses"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and possess knowledge.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Application of knowledge.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Basic knowledge of the profession.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Oral and written communication in the native language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to learn to work autonomously.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CT3"
+    },
+    {
+      "text": "Knowledge and use of the principles of strength of materials.",
+      "type": "knowledge",
+      "code": "CRI8"
+    },
+    {
+      "text": "Know the fundamentals of strength of materials.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the calculation methods for obtaining the stresses to which a mechanical prism can be subjected and the associated tensions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the resolution methods for isostatic and hyperstatic structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must acquire sufficient capacity for the analysis and dimensioning of basic structures.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Strength of Materials: Purpose of strength of materials, rigid solid, elastic solid, and true solid, theoretical solid model, mechanical prism, static and elastic equilibrium, principle of cutting, general principles, types of loads, reactions of constraints, types of supports.",
+    "Elasticity: Concept of stress, equilibrium of the elementary parallelepiped, stress tensor, principal stresses, Mohr's circles, yield criteria. Concept of deformation, deformation tensor, principal deformations, relations between stresses and deformations (Hooke's and Lamé's Laws).",
+    "Tension and compression: Concept of tension-compression, Bernoulli's hypothesis, deformations, stresses on inclined planes, axial force laws. Concept of hyperstaticity, degree of hyperstaticity, resolution of hyperstatic problems, energy methods (Castigliano's Theorem), compatibility of deformations, thermal loads, assembly defects.",
+    "Bending: Stresses: Types of bending, pure bending, Navier's Law, simple bending, tangential stresses, Colignon's Theorem, thin-walled sections, shear center, skewed bending and combined bending, relationship between bending moment, shear force, and load, shear force and bending moment diagrams.",
+    "Bending: Deformations: Elastic curve equation, Mohr's theorems, Mohr's method.",
+    "Hyperstatic Bending: Resolution of hyperstatic problems, single-span beams, continuous beams, frames and simple systems, symmetry and antisymmetry, untranslatable systems.",
+    "Buckling: Critical load, Euler's formula.",
+    "Torsion: Torsion in circular section prisms, torsion in non-circular sections, torsion in thin-walled sections."
+  ],
+  "teaching_methods": [
+    "Lectures/participative classes",
+    "Asynchronous video classes",
+    "Problem-based learning",
+    "Problem classes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written test 1 (NEx1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test 2 (NEx2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Submitted in-class exercises (NPr)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final single evaluation (for eligible students)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary call, minimum thresholds are NEx1 >= 4, NEx2 >= 4, and NPr >= 5. If all thresholds are met, NC = 40% NEx1 + 40% NEx2 + 20% NPr; otherwise, if NPr < 5 but NEx1/NEx2 thresholds are met, NC = 50% NEx1 + 50% NEx2. The course is passed if NEx1 >= 4, NEx2 >= 4, and NC >= 5; if NEx1 or NEx2 minimums are not met, the final grade is Fail. In the extraordinary call, exams below their threshold must be retaken, while those above threshold but below 5 are optional; NPr is not recoverable. All final exam grades replace previous ones and adhere to the same thresholds and passing conditions.",
+  "bibliography": [
+    "Ortiz Berrocal, Luis - (2007) - Resistencia de materiales - McGraw-Hill/Interamericana D.L",
+    "Vázquez Fernández, Manuel - (2000) - Resistencia de Materiales - NOELA"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "44102204",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/44102204/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "697209783da9941a4e198096b6df82abe83fc56ba95b381b600bc08079ffaa44",
+  "extracted_at": "2026-11-13T21:23:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Instrumentación Electrónica",
+  "course_name_en": "Electronic Instrumentation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge in circuit theory",
+    "Analog electronics",
+    "Digital electronics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Draft technical specifications that enable posing a mechatronic engineering problem while maintaining a global and integrating vision and using prescriptive, procedural, or performance specifications as appropriate.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision-making and selection among possible solutions to a mechatronic engineering problem.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Document the specification, implementation, and commissioning of mechatronic equipment and systems, taking into account technical aspects and relevant regulatory standards.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Students know how to apply acquired knowledge and problem-solving skills in new or unfamiliar environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "Students know how to communicate their conclusions and the knowledge and ultimate reasons that support them to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Students possess the learning skills that will allow them to continue studying in a largely self-directed or autonomous manner.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Plan the assembly, commissioning, and maintenance of a mechatronic equipment or system.",
+      "type": "competence",
+      "code": "CE4"
+    },
+    {
+      "text": "Incorporate the necessary electrical, hydraulic, and pneumatic sensors and actuators based on the characteristics of the mechatronic system, its specifications, and integration with it.",
+      "type": "competence",
+      "code": "CE6"
+    },
+    {
+      "text": "Select electronic devices for instrumentation and control that allow conditioning and processing analog and digital signals from sensors and sent to typical actuators of a mechatronic system.",
+      "type": "competence",
+      "code": "CE7"
+    },
+    {
+      "text": "Identify the subcomponents of a technologically complex system, the interactions between them, and the effects and consequences of their possible redesign.",
+      "type": "competence",
+      "code": "CE8"
+    },
+    {
+      "text": "Discriminate the most critical components in a mechatronic system and justify their possible redesign from the perspective of the control system.",
+      "type": "competence",
+      "code": "CE10"
+    },
+    {
+      "text": "Analyze and design basic amplification circuits with operational amplifiers as well as select the appropriate operational amplifier for a given application.",
+      "type": "skill",
+      "code": "RA10"
+    },
+    {
+      "text": "Analyze and design linear power supplies.",
+      "type": "skill",
+      "code": "RA11"
+    },
+    {
+      "text": "Understand the general principles of the most important sensor types and characteristics, and select an appropriate sensor for elementary applications.",
+      "type": "knowledge",
+      "code": "RA12"
+    },
+    {
+      "text": "Select, analyze, and, in some cases, design basic signal conditioning circuits.",
+      "type": "skill",
+      "code": "RA13"
+    },
+    {
+      "text": "Simulate analog electronic circuits using commonly used software tools.",
+      "type": "skill",
+      "code": "RA14"
+    },
+    {
+      "text": "Design printed circuit boards using Electronic CAD tools.",
+      "type": "skill",
+      "code": "RA15"
+    }
+  ],
+  "syllabus_topics": [
+    "General Instrumentation Concepts",
+    "Sensors",
+    "Signal Amplification",
+    "Signal Filtering",
+    "Printed Circuit Board Design"
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures)",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Individual assignments",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Work 1: Familiarization with sensors and Arduino connection (individual)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Work 2: Design of printed circuit boards using Proteus software (individual)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Work 3: Design and testing of a signal conditioning circuit (group of 2)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For ordinary calls, assessment is based on three assignments: Work 1 (20%), Work 2 (30%), and Work 3 (50%). For extraordinary calls, Work 2 and Work 3 are maintained, and Work 1 is replaced by a multiple-choice exam covering basic concepts learned throughout the course.",
+  "bibliography": [
+    "M. Á. PÉREZ, J. C. ÁLVAREZ, J. C. CAMPO, F. J. FERRERO y GJ. GRILLO. “Instrumentación Electrónica” Editorial Thomson",
+    "M. V. RIBADO y F. J. ALEXANDRE “Primeros Pasos con Proteus 8” Editorial Hubor http://www.hubor-proteus.com/recursos/guías-primeros-pasos.html",
+    "M. V. RIBADO y F. J. ALEXANDRE “Pack de Guías Primeros Pasos con Proteus 7” Editorial Hubor http://www.hubor-proteus.com/recursos/guías-primeros-pasos.html"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-C-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-C-002",
+  "source_language": "es",
+  "source_sha256": "a991cf846fec8ae14ce17883cbf2a85abd04639da07a683452305e5ab8925562",
+  "extracted_at": "2026-11-20T05:59:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

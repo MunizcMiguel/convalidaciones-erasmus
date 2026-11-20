@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Cálculo dinámico y análisis modal",
+  "course_name_en": "Dynamic Calculation and Modal Analysis",
+  "ects": 4.5,
+  "semester": "1S",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics I (Integration)",
+    "Mathematics II (Systems of linear equations, Regression and correlation in two variables)",
+    "Mathematics III (Differential equations)",
+    "Mechanics",
+    "Theory of Mechanisms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and apply the concepts of dynamic calculation and modal analysis, and design machines taking into account vibrational and acoustic aspects and design corrective measures for vibrations and noise.",
+      "type": "competence",
+      "code": "R4"
+    }
+  ],
+  "syllabus_topics": [
+    "Chapter I.- Balancing of Rotating and Reciprocating Machines.",
+    "1.- Concept of balancing.",
+    "2.- Balancing of rotors.",
+    "3.- Balancing of reciprocating masses: Crank-rod mechanism.",
+    "Chapter II.- Systems with One and Several Degrees of Freedom.",
+    "4.- Introduction and Concept.",
+    "5.- Vibrations in systems with one DOF.",
+    "6.- Free vibrations.",
+    "7.- Forced vibrations.",
+    "8.- Fourier analysis and frequency domain response.",
+    "Chapter III.- Theory of Modal Analysis.",
+    "9.- Concept of modal analysis.",
+    "10.- Natural frequencies and normal modes.",
+    "11.- Orthogonality of normal modes.",
+    "Chapter IV.- Dynamic Calculation by Computer.",
+    "12.- Solution of the problem by finite elements.",
+    "Chapter V.- Vibration Isolation.",
+    "13.- Support movement.",
+    "14.- Response of a building to seismic action."
+  ],
+  "teaching_methods": [
+    "Theoretical classes",
+    "Seminars and workshops",
+    "Practical classes",
+    "Tutoring sessions",
+    "Group study and work",
+    "Individual autonomous study and work",
+    "Expository method - Lecture",
+    "Case study",
+    "Problem-solving exercises"
+  ],
+  "workload_hours_total": 112.5,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Assignments and projects",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written exams",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Observation techniques",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Lab reports and practice reports",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "50% of the written exams must be passed. If this critical evaluation criterion is not met, the total grade for the course will be FAIL, with the sum of all evaluation scores truncated to a maximum of 4.5 points. Once the written exams are passed, the scores obtained will be weighted according to the established proportions. Written exams are recoverable.",
+  "bibliography": [
+    "Vibraciones en sistemas con un Grado De Libertad (Apuntes del profesor)",
+    "Teoría de Máquinas y Mecanismos; Shigley & Uicker",
+    "Structural Dinamics: An Introduction to computer Methods; Roy R. Craig Jr.",
+    "Dinámica estructural: Teoría y Cálculo / Mario Paz ;"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de La Rioja",
+  "institution_slug": "es_rioja",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "607",
+  "academic_year": "2026-27",
+  "source_url": "https://aps.unirioja.es/GuiasDocentes/servlet/agetguiahtml?2026-27,803G,607",
+  "source_language": "es",
+  "source_sha256": "b5f15721ca99151ba0b94b82676c6031250c90afe56d39c7c336239f869c5377",
+  "extracted_at": "2026-11-13T22:52:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Electrónica Analógica e Instrumentación Electrónica",
+  "course_name_en": "Analog Electronics and Electronic Instrumentation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid background in circuit analysis",
+    "Solid background in various electronic devices from \"Tecnología eléctrica\" and \"Tecnología electrónica\" courses"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze and design basic amplification circuits with operational amplifiers, as well as select the appropriate operational amplifier for a given application.",
+      "type": "unspecified",
+      "code": "REA.1"
+    },
+    {
+      "text": "Analyze and design linear power supplies.",
+      "type": "unspecified",
+      "code": "REA.2"
+    },
+    {
+      "text": "Understand the general principles of the most important types of sensors and their characteristics, and select an appropriate sensor for elementary applications.",
+      "type": "unspecified",
+      "code": "REA.3"
+    },
+    {
+      "text": "Select, analyze, and, in some cases, design basic signal conditioning circuits.",
+      "type": "unspecified",
+      "code": "REA.4"
+    },
+    {
+      "text": "Simulate analog electronic circuits using common software tools.",
+      "type": "unspecified",
+      "code": "REA.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic parameters of analog and instrumental systems",
+    "Static characterization",
+    "Dynamic characterization",
+    "Noise and uncertainty",
+    "Real operational amplifier",
+    "Power supply of operational amplifiers",
+    "Characteristics of the real operational amplifier: input, output, and transfer",
+    "Real operational amplifier as a circuit element: DC and AC effects",
+    "Internal noise in electronic systems",
+    "Specific signal amplifiers",
+    "Instrumentation amplifiers",
+    "Current-feedback, chopper, and other amplifiers",
+    "Filtering systems",
+    "Basic filter theory",
+    "Synthesis of active filters",
+    "Sensors and conditioning circuits for sensors",
+    "Non-signal generating sensors: resistive, capacitive, and inductive",
+    "Signal generating sensors: thermocouples, piezoelectrics, optoelectronics, Hall effect",
+    "Criteria for sensor selection"
+  ],
+  "teaching_methods": [
+    "Lectures (PowerPoint presentations and blackboard developments)",
+    "Problem-solving sessions (classroom practices)",
+    "Laboratory practices",
+    "Virtual Campus resources (PowerPoint presentations, solved problems, complementary material)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (Theoretical block)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final Exam (Theoretical block)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Continuous assessment (Practical block) based on attendance and performance in obtaining practical results",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, the theoretical block grade (Teoría) is calculated as (0.25 * Partial Exam) + (0.75 * Final Exam 1). The final course grade (Final) is calculated as ((5 * Teoría) + Practical Block Grade) / 6. No minimum grade is required for individual components. The practical block grade is retained for all calls within the same academic year. For extraordinary assessment, the final grade is calculated as ((5 * Final Exam 2) + Practical Block Grade) / 6. For differentiated assessment, the final grade is calculated as ((5 * Final Exam) + Practical Exam in laboratory) / 6.",
+  "bibliography": [
+    "Instrumentacíón electrónica. M.A. Pérez, 2014. Editorial Paraninfo",
+    "Instrumentación electrónica: 230 problemas resueltos. M.A. Pérez, 2012. Editorial Garceta.",
+    "Analysis and Design of Analog Integrated Circuits. P. R. Gray, P. J. Hurst S. H. Lewis y R. G. Meyer. Editorial John Wiley and Sons.",
+    "Operational Amplifier Circuits. Theory and Applications. E. J. Kennedy. Editorial Holt, Rinehart and Winston."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-004",
+  "source_language": "es",
+  "source_sha256": "46d356e8b819ae1e66dd3817f5bcb1ee8442e68975e6cb4b09a159c4c2b331b4",
+  "extracted_at": "2026-11-20T01:12:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

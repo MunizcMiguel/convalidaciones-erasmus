@@ -1,0 +1,149 @@
+{
+  "course_name_original": "Integración de Sistemas Robóticos",
+  "course_name_en": "Robotic Systems Integration",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "General requirements for the Master's Degree in Industrial Engineering.",
+    "It is recommended to take this course before or simultaneously with “Human-Robot Interaction – Semester Project”."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have adequate knowledge of the scientific and technological aspects of: mathematical, analytical and numerical methods in engineering, electrical engineering, energy engineering, chemical engineering, mechanical engineering, continuum mechanics, industrial electronics, automation, manufacturing, materials, quantitative management methods, industrial informatics, urban planning and infrastructures.",
+      "type": "knowledge",
+      "code": "CG1"
+    },
+    {
+      "text": "Project, calculate and design products, processes, facilities and plants.",
+      "type": "skill",
+      "code": "CG2"
+    },
+    {
+      "text": "Conduct research, development and innovation in products, processes and methods.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "That students are able to integrate knowledge and deal with the complexity of formulating judgments based on information that, being incomplete or limited, includes reflections on the social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "That students know how to communicate their conclusions and the knowledge and ultimate reasons that support them to specialized and non-specialized audiences in a clear and unambiguous way.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "That students possess the learning skills that will allow them to continue studying in a largely self-directed or autonomous way.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Know and apply programming fundamentals, data structures, algorithms, and interprocess communication to robotic systems software development.",
+      "type": "skill",
+      "code": "RA04"
+    },
+    {
+      "text": "Use software development tools (integrated development environment, version control) appropriate for robotic systems.",
+      "type": "skill",
+      "code": "RA05"
+    },
+    {
+      "text": "Use scientific software libraries for information processing.",
+      "type": "skill",
+      "code": "RA06"
+    },
+    {
+      "text": "Understand the ROS framework and be able to develop applications within it.",
+      "type": "knowledge",
+      "code": "RA07"
+    },
+    {
+      "text": "Know and use robotic environment simulation tools.",
+      "type": "skill",
+      "code": "RA08"
+    },
+    {
+      "text": "Apply the acquired knowledge in the design and implementation of a robotic system.",
+      "type": "skill",
+      "code": "RA14"
+    },
+    {
+      "text": "Be able to work in a group through effective communication.",
+      "type": "competence",
+      "code": "RA15"
+    },
+    {
+      "text": "Be able to define, re-focus, and meet system design specifications.",
+      "type": "skill",
+      "code": "RA16"
+    },
+    {
+      "text": "Be able to respond to problems or unforeseen events that arise during development.",
+      "type": "skill",
+      "code": "RA17"
+    },
+    {
+      "text": "Present and orally defend the completed project.",
+      "type": "skill",
+      "code": "RA18"
+    },
+    {
+      "text": "Analyze and understand the technologies involved in a robotic system.",
+      "type": "knowledge",
+      "code": "RA21"
+    }
+  ],
+  "syllabus_topics": [
+    "Development of robotic systems with specialized software (mainly ROS2)",
+    "Handling of the development environment",
+    "Communication and programming tools between environments (ROS topics, services, actions, etc.)",
+    "Visualization and simulation of robots and work environments (Gazebo, F1Tenth simulators, etc.)",
+    "Modeling of mechanical components: joints, links, transmissions, etc.",
+    "Modeling and control of actuators: DC motors",
+    "Modeling of sensor systems: IMUs, sonars, markers, infrared, etc.",
+    "Trajectory generation and tracking and state machines",
+    "Mobile robots: map reconstruction, navigation, localization, etc.",
+    "Industrial manipulator robots: kinematics, dynamics, control, trajectories."
+  ],
+  "teaching_methods": [
+    "Theoretical classes (lectures)",
+    "Practical classes (laboratory sessions)",
+    "Problem solving exercises",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Proposed assignments (T)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Objective test (P)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade for the ordinary and extraordinary calls is calculated as N = 0.4*T + 0.6*P (or N = 0.4*TEX + 0.6*PEX for extraordinary calls), where T/TEX are proposed assignments/practical work and P/PEX are objective/written tests. If all established minimums are not met, the qualification will be the minimum between the note obtained with the formula and 4.0. In case of doubt about authorship or unauthorized means, a face-to-face defense may be requested.",
+  "bibliography": [
+    "P.I. Corke, “Robotics, Vision & Control”, Springer 2017, ISBN 978-3-319-54413-7.",
+    "ROS official documentation (Rolling Ridley distribution): https://docs.ros.org/en/rolling/index.html"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-2-025",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-2-025",
+  "source_language": "es",
+  "source_sha256": "892a04c90570d21e4a06942f078d539d4c4f1abf76b78e4c74d3ce18fc14823e",
+  "extracted_at": "2026-11-20T06:02:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

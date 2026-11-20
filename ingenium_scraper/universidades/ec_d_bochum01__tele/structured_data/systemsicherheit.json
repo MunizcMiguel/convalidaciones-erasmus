@@ -1,0 +1,75 @@
+{
+  "course_name_original": "Systemsicherheit",
+  "course_name_en": "System Security",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Background in Cryptographic primitives (encryption methods, signatures, MACs, hash functions)",
+    "Principles of communication networks"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "classify and describe vulnerabilities and protection mechanisms of popular systems and protocols",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "analyze / reason about basic protection mechanisms for modern OSs, software, and hardware systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "reason about the security of a given protocol",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "independently develop appropriate security defenses and security models",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic attack strategies on modern systems and platforms",
+    "Side-channel attacks",
+    "Software-based attacks",
+    "Malware analysis",
+    "Software-based defenses (e.g., address space randomization and non-executable memory)",
+    "Hardware-based defenses (e.g., using TPMs and TEEs)",
+    "Analyzing the security of modern cryptocurrencies",
+    "Analyzing the security of ML platforms"
+  ],
+  "teaching_methods": [
+    "Lecture with exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Klausur)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The prerequisite for receiving credits is passing the written exam.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "systemsicherheit",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "291926b23728609cb22a050a8d1cfdc9a9cc22b073862f48302f647e69759c87",
+  "extracted_at": "2026-11-20T12:36:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

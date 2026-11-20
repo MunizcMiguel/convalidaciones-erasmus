@@ -1,0 +1,100 @@
+{
+  "course_name_original": "SISTEMI OPERATIVI T (28020)",
+  "course_name_en": "OPERATING SYSTEMS T (28020)",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the principles of modern operating systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "System programming and concurrent programming capabilities.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Process management in UNIX / Linux: states, representation, management (scheduling), operations and commands related to processes",
+    "CPU scheduling",
+    "General concepts: queues, preemption, dispatcher",
+    "Scheduling criteria",
+    "Scheduling algorithms: FCFS, SJF, with priority, round-robin, with multiple queues.",
+    "Scheduling in UNIX, Linux and WinXP",
+    "Process interaction through shared memory",
+    "critical section and mutual exclusion",
+    "semaphores",
+    "hardware tools for synchronization: test-and-set",
+    "Interaction between processes by message passing:",
+    "direct / indirect, symmetrical / asymmetrical communication, buffering",
+    "interaction between Unix processes: pipe and fifo, synchronization through signals",
+    "File System Management",
+    "file system and its implementation",
+    "the UNIX file system: logical and physical organization, commands and system calls for managing and accessing files / directories",
+    "Memory Management",
+    "address spaces and binding",
+    "contiguous memory allocation: single partition and multiple partitions; fragmentation;",
+    "non-contiguous allocation: pagination, segmentation virtual",
+    "memory memory management in UNIX / Linux",
+    "Shell programming",
+    "Introduction to the Linux bash",
+    "shell filter commands",
+    "Piping and redirection",
+    "Metacharacters expansion",
+    "Control structures",
+    "shell command files",
+    "Concurrent programming",
+    "The problem of mutual exclusion and its solutions.",
+    "synchronization tools in the shared memory model: the semaphore",
+    "constructs for synchronization: the monitor",
+    "synchronization between java threads",
+    "I / O management",
+    "I / O subsystem architecture",
+    "device driver",
+    "Management of devices: program control, interruption-based and DMA."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual concurrent programming practice in laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written theory test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical examination (in Lab) consisting in the development of concurrent programs in GNU/Linux and Java environments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final evaluation will take into account the results of a written theory test on the concepts taught, a practical examination in the lab, and an optional oral examination.",
+  "bibliography": [
+    "P. Ancilotti, M. Boari, A. Ciampolini, G. Lipari: Sistemi Operativi, seconda edizione, McGraw-Hill, 2008."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Ingegneria informatica",
+  "institution_slug": "ec_i_bologna01__info",
+  "degree": "Ingegneria informatica (Laurea, L-8, Bologna)",
+  "course_code": "28020",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/553325",
+  "source_language": "en",
+  "source_sha256": "914551e8bc3eefff24a9a2aa4e9cfb3b19ffe5588238677af7fa958cf63ddb4c",
+  "extracted_at": "2026-11-20T12:44:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

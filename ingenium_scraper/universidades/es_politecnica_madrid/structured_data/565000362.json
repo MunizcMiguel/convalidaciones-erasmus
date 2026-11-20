@@ -1,0 +1,127 @@
+{
+  "course_name_original": "AUTOMATICA (565000362)",
+  "course_name_en": "Automatic Control",
+  "ects": 3.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Boolean Algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Communicate knowledge and conclusions, both orally and in writing, to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Possess learning skills that allow continuous study throughout life for adequate professional development.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Incorporate ICT and Industrial Engineering technologies and tools into their professional activities.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Know and apply knowledge of basic sciences and technologies to the practice of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Knowledge about the fundamentals of automation and control methods.",
+      "type": "knowledge",
+      "code": "CE12"
+    },
+    {
+      "text": "Knowledge about the fundamentals of automation and control methods.",
+      "type": "knowledge",
+      "code": "RA1"
+    },
+    {
+      "text": "Basic PLC programming.",
+      "type": "skill",
+      "code": "RA214"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to automatic control",
+    "History. Basic concepts",
+    "Sensors and actuators",
+    "Types and classification of sensors and actuators",
+    "Introduction to pneumatics",
+    "Introduction to sequential control",
+    "Boolean Algebra. Combinational systems and their representation (KOP, FUP)",
+    "Mealy and Moore state machines. Representation systems: state diagrams, transition tables",
+    "Activation and retention equations. Programming using contacts (KOP)",
+    "Introduction to Grafcet modeling and basic programming",
+    "Grafcet: IEC 60848 and IEC 61131 standards",
+    "Programming using activation-retention / latching coils in instruction list language",
+    "Practical cases",
+    "PLC (Programmable Logic Controller) Architecture",
+    "Hardware architecture of a PLC",
+    "Software architecture of a PLC",
+    "Execution cycle",
+    "Programming logical operations in the PLC (STEP 7)",
+    "Memory areas",
+    "Fundamentals of programming logical operations",
+    "Programming flip-flops",
+    "Programming edges",
+    "Practical cases: implementation of the Grafcet model",
+    "Timers and Counters",
+    "Fundamental notions of timers",
+    "Memory and retriggering",
+    "Standardized types (TON, TOFF and TP)",
+    "Programming",
+    "Fundamental notions of counters",
+    "Programming",
+    "Practical cases"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory practices",
+    "Problem-solving classes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "First written exam (Theoretical Part)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second written exam (Ordinary Call Theory Test)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice evaluation (Compulsory qualifying block)",
+      "weight_percentage": 0.0
+    }
+  ],
+  "assessment_rules": "In the ordinary call, practices are a compulsory pass/fail block without weight on the final grade; a minimum of 3 on the second written test is required. The final grade is the better of (40% first test + 60% second test) or (100% second test). For the extraordinary call, passing the practice block and scoring above 5 on a 100% weighted written test are required. If the practice block is not passed, the final grade will be the minimum between the written test score and 4.",
+  "bibliography": [
+    "Programación de autómatas con STEP 7. Un enfoque práctico. San Segundo,P. Fundación General de la Universidad Politécnica de Madrid. 2011. ISBN: 978-84-15302-03-2",
+    "Autómatas Programables. Entorno y Aplicaciones, E. Mandado, J. Marcos et al., Thomson 2005.",
+    "Automatización de procesos industriales. Emilio García Moreno. UPV, 1999.",
+    "Libro Electrónico 2020. Alberto Brunete, Pablo San Segundo, Rebeca Herrero. Apuntes para los capítulos de sensórica, lógica combinacional y máquinas de estados, http://www.albertobrunete.es/automatica/"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "syllabus_topics"
+  ],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000362",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000362_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "b60f46a7f55b3afc6b812f9812dfa0352448478d44d337942edf2e11af491777",
+  "extracted_at": "2026-11-13T20:31:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

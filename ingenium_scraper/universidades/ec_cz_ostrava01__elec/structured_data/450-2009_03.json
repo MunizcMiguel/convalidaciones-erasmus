@@ -1,0 +1,93 @@
+{
+  "course_name_original": "Signals and Systems",
+  "course_name_en": "Signals and Systems",
+  "ects": 6.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide a common background for B.SC courses in control, communication, electronic circuits, filter design, digital signal processing.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to set out the basic correlation and spectral characteristics of different signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to perform the analysis of LTIL system and to use MATLAB/Simulink for signal and system analysis.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The Signal. Continuous time Signal w(t).",
+    "Basic Definitions. Time Averages. Sinusoidal Signal. Dirac's Impulse.",
+    "Signal Analysis in the Time Domain. Correlation Analysis of Continuous time Signal.",
+    "Signal Analysis in the Frequency Domain I. Fourier Series. Discrete Spectrum. Discrete Power Spectrum.",
+    "Signal Analysis in the Frequency Domain II. Fourier Transform. Spectrum. Energy Spectrum. Power Spectrum.",
+    "Random Signal. Correlation and Spectral Analysis of Random Signal. Random Process.",
+    "Amplitude modulation. Angle modulation.",
+    "The System. Basic Definitions. Continuous LTIL System.",
+    "System Analysis in the Time Domain. Impulse Response. Description of the LTIL System by the Differential Equation.",
+    "Convolution. Stability.",
+    "System Analysis in the Frequency Domain. Frequency Transfer Function of the System.",
+    "Laplace transform in signal and system analysis.",
+    "Distortion of the Sinusoidal Signal by the LTIL System. Ideal Filter, Causal Filter.",
+    "Introduction in Laboratory Work. Introduction to the Matlab.",
+    "Basic Characteristics of Signals.",
+    "Correlation Function.",
+    "Discrete Spectrum.",
+    "Spectrum.",
+    "Project No.1",
+    "Test No.1",
+    "System Analysis in the Time Domain -Simulink. Step response, Impulse response.",
+    "Stability of the System.",
+    "Frequency Transfer Function of the System.",
+    "Project No. 2",
+    "Amplitude modulation of the train of rect.impulses.",
+    "System analysis by Laplace Transform.",
+    "Distortion of the Sinusoidal Signal by the LTIL System. Filtration of the signals. Using of Signal Processing Toolbox.",
+    "Test No.2. Conclusion of the Course.",
+    "The Correlation and Spectral Analysis of Continuous-Time Signal.",
+    "The LTIL system analysis."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Tutorials",
+    "Experimental work in labs"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Kamen, E.W., Heck, B.S.: Fundamentals of signals and systems using the web and Matlab. Prentice Hall, New Jersey 2000.",
+    "Chen Chi-Tsong: System and Signal Analysis. Saunders College Publishing, New York 1994.",
+    "Couch L.W.II: Digital and Analog Communications Systems. Macmillan Publishing Comp., New York 1989"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "450-2009/03",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=45615&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "e508f27e00b0877f4257ad62361973fbd759793179a94c3bf9b163bec322f438",
+  "extracted_at": "2026-11-20T12:51:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

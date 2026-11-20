@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Servicio de Comunicaciones Básicos",
+  "course_name_en": "Basic Communication Services",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Foundations of Telematics",
+    "Network and Systems Architecture",
+    "Programming",
+    "General knowledge about the functioning of computer networks",
+    "Knowledge about the transport layer of the TCP/IP protocol stack",
+    "Knowledge about object-oriented programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and use the fundamentals of programming in telecommunication networks and services.",
+      "type": "skill",
+      "code": "RA-12.14"
+    },
+    {
+      "text": "Design prototypes of communication protocols.",
+      "type": "skill",
+      "code": "RA-12.15"
+    },
+    {
+      "text": "Develop communication service programs.",
+      "type": "skill",
+      "code": "RA-12.16"
+    },
+    {
+      "text": "Establish the appropriate network architecture for the correct functioning of communication services.",
+      "type": "skill",
+      "code": "RA-12.17"
+    },
+    {
+      "text": "Select the most suitable transport layer protocol for a given application.",
+      "type": "skill",
+      "code": "RA-12.18"
+    },
+    {
+      "text": "Identify communication problems at the application layer, as well as propose appropriate solutions to the problems encountered.",
+      "type": "skill",
+      "code": "RA-12.19"
+    },
+    {
+      "text": "Interpret, analyze and relate the characteristics of web services, email services, naming services and other application layer services.",
+      "type": "skill",
+      "code": "RA-12.20"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and refresh of the transport layer",
+    "The application layer in the TCP/IP protocol stack",
+    "Web services",
+    "Email services",
+    "Remote terminal services",
+    "File transfer services",
+    "Basic Services: Naming services",
+    "Basic Services: Autoconfiguration services",
+    "Basic Services: Synchronization services",
+    "Basic Services: Directory services",
+    "Fundamentals of programming in telecommunication networks and services.",
+    "Design and programming of communication protocol prototypes.",
+    "Development of connection-oriented and datagram-based communication service programs."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Group tutorials",
+    "Expositive classes",
+    "Individual activities",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (TE)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Continuous evaluation of laboratory practices (PL)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Group work (TG)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "To pass, the theory exam, laboratory practices, and group work must each receive a minimum score of 5 out of 10. If all minimums are met, the final grade is calculated as 0.2 * TG + 0.4 * PL + 0.4 * TE. If any part is not passed, the final grade will be the highest score of the parts not passed. Passed components' grades are saved between calls of the same academic year; students may be required to defend their work orally to determine the final grade.",
+  "bibliography": [
+    "Java Network Programming, 4th edition, Elliotte Rusty Harold, O´Reilly",
+    "An Introduction to Network Programming with Java - Java 7 Compatible, 3rd edition, Jan Graba, Springer",
+    "Learning Network Programming with Java, Richard Reese, Packt Publishing",
+    "Computer Networking: A Top-Down Approach, 7th edition, James F. Kurose y Keith W. Ross, Pearson",
+    "Internet references to different standards."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-C-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-C-002",
+  "source_language": "es",
+  "source_sha256": "e4fedff7442b8ea5c09d4d3d0724fe8c8005939c7caed3560fb053992c28c3f3",
+  "extracted_at": "2026-11-20T06:07:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

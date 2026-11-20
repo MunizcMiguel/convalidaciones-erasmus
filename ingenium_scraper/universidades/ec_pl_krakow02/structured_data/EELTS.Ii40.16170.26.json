@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Finite element for electrical engineering",
+  "course_name_en": "Finite element for electrical engineering",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of the theory of electric machines and principles of electromechanical energy conversion",
+    "Computer skills",
+    "Fundamentals of Computer Science",
+    "Electromechanical Energy Conversion",
+    "Electric Machines"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knows theoretical attitudes of the finite element method",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the principles of FEM modeling of electromechanical transducers",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Can create 2 and 3D geometry of the modeled object",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is able to perform calculations in the field of magnetostatics of objects 2 and 3D, as well as parametric analysis",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is able to carry out analysis of the transient state of the electromechanical transducer by the FEM method",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is able to design and analyze the operation of a rotating electric machine",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "The student is able to work in a group and cooperate with it in the realization of a research topic in a computer laboratory.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "The student is able to prepare a report and documentation of tests performed, properly develop the results and draw conclusions.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Theoretical fundamentals of the Finite Element Method (2h)",
+    "Model building principles in the Ansys Maxwell 2D package (1h)",
+    "Magnetostatic analysis in XY coordinates system, parametric analysis, interpretation of results (1h)",
+    "Magnetostatic analysis in a cylindrical coordinates system, 3D model generation (1h)",
+    "Transient type analysis, defining moving elements of the model, defining AC currents and voltages (2h)",
+    "Modeling of eddy current phenomenon (1h)",
+    "Modelling the external power supply circuit in the Maxwell Circuit module (1h)",
+    "Model building rules in Ansys Maxwell 3D package (2h)",
+    "Modelling of an extensive power supply system in Simplorer module (1h)",
+    "Modeling of rotating machines in the RMxprt module (2h)",
+    "Creating 2D object geometry in XY and axial-symmetric coordinates systems, boundary conditions defining, forcing defining, post-processing results",
+    "Choke operation simulation using magnetostatic analysis in the XY coordinates system, parametric simulation, analysis of results",
+    "Analysis of the operation of an electromagnetic actuator modeled in an axisymmetric system, parametric simulation, analysis of results, automatic 3D model generation",
+    "Modeling and transient analysis of the electromagnet, post-processing and presentation of the results of dynamic state analysis",
+    "Creating the geometry of 3D objects, defining the size and generating the mesh, creating animations of moving models",
+    "Model of a simple generator with permanent magnets, magnetostatic analysis, parametric simulation, results analysis",
+    "Simulation of dynamic states of the 3D model of the reluctance motor, creation of motor operation animations",
+    "Modeling of eddy currents in the transformer core, determination of core losses",
+    "Coupled analysis of the model with an external power supply circuit created in the Maxwell Circuit and Simplorer modules",
+    "Model of the PMSM machine in the RMxprt module",
+    "Optimization of the PMSM machine model in the RMxprt module",
+    "Project completion"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 104.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Computer laboratory grade (Ol)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Test from lecture content (Ot)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "To obtain a positive final grade, it is necessary to obtain a positive grade from the computer laboratory (Ol) and pass the test from the content presented in the lecture (Ot). The final grade (Ok) is determined on the basis of weighted average grades: Ok = 0,7• Ol + 0,3• Ot. The condition to pass the laboratory exercises is to be present at all exercises and to pass the final project evaluation. A failed project may be submitted on the date indicated by the teacher; absence from an exercise should be made up in an additional period organized by the teacher at the end of the semester.",
+  "bibliography": [
+    "Dybowski P., Lerch T., Milej W., Rams W. Skwarczyński J.: Układy elektromechaniczne i transformatory – obliczenia i zadania, Wydawnictwa AGH, Kraków 2010",
+    "Skwarczyński J., Tertil Z.: Elektromechaniczne przetwarzanie energii. AGH UWND, Kraków 2000.",
+    "Glinka T.: Maszyny elektryczne wzbudzane magnesami trwałymi Wydawnictwo Naukowe PWN Warszawa 2018"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.16170.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/a5d6df55-dc33-4843-8779-a50e2e497233.html",
+  "source_language": "pl",
+  "source_sha256": "c3e0f44665db215af0287f4b4b6edb84e72ae42b62c984e748cdb01c56ff89f1",
+  "extracted_at": "2026-11-20T09:04:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

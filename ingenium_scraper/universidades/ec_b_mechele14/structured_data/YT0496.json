@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Embedded Systems",
+  "course_name_en": "Embedded Systems",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Embedded Fundamentals",
+    "C Programming Fundamentals"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student can independently search for and understand documentation (schematics, datasheets, programming manuals, ...).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can develop a solution in the C programming language based on the available documentation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to troubleshoot errors in a mixed design (software and hardware).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can independently develop an embedded software project with LwIP and create a demonstrator.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Software and hardware development for 32bit systems",
+    "ARM Cortex-M Core",
+    "Start-Up/Boot code, Linker scripts, Stack usage",
+    "Assembler, Linker and the Compiler in detail",
+    "General Purpose IO",
+    "Serial communication",
+    "Interrupts (NVIC)",
+    "LCD + image formats",
+    "DMA",
+    "TCP/IP communication (LWIP)",
+    "RTOS (FreeRTOS)",
+    "Miscellaneous"
+  ],
+  "teaching_methods": [
+    "College",
+    "Practicum-assignment",
+    "Guided lab assignments",
+    "Individual project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written test (Embedded Systems theory)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Practical project with a 32bit microcontroller (Embedded Systems lab)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on two components: a written test for Embedded Systems theory (100%) and a practical project for Embedded Systems lab (100%). For the lab project, the student must demonstrate and orally defend their project, and the code will be assessed. Partial transfers for successful component results (Theory and Lab) are possible within the academic year. For a resit of the lab project, the student must contact the supervising lecturer after the first examination results to obtain a remediation assignment.",
+  "bibliography": [
+    "Course Embedded Systems + slides + own notes.",
+    "Datasheets and manuals regarding the used technologies",
+    "32 bit ARM (Cortex-M) platform"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Thomas More Mechelen-Antwerpen",
+  "institution_slug": "ec_b_mechele14",
+  "degree": "Bachelor Elektronica-ICT (Sint-Katelijne-Waver)",
+  "course_code": "YT0496",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.thomasmore.be/syllabi/n/YT0496N",
+  "source_language": "nl",
+  "source_sha256": "f200fbf0ae62394702a6633bdb78323bd40bdf42528212ccc2440526ec1ae097",
+  "extracted_at": "2026-11-20T09:16:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

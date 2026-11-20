@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Bildverstehen",
+  "course_name_en": "Image Understanding",
+  "ects": 5.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "KI-8 Programming 2",
+    "KI-9 Algorithms and Data Structures",
+    "KI-1 Mathematics 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the concepts of the most common approaches to image understanding.",
+      "type": "knowledge",
+      "code": "2 - Verstehen"
+    },
+    {
+      "text": "Students have the ability to create high-quality programs using image understanding technologies.",
+      "type": "skill",
+      "code": "3 - Anwenden"
+    },
+    {
+      "text": "Students can implement their own procedures and defend them against competing approaches.",
+      "type": "competence",
+      "code": "6 - Erschaffen"
+    },
+    {
+      "text": "As part of the course, programming exercises take place. Students are thus also able to understand, criticize, and complement programs from other students.",
+      "type": "competence",
+      "code": "5 - Beurteilen"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Applications, computational models for vision, perception and prior knowledge, levels of vision, how humans see",
+    "Pixels and filters: Digital cameras, image representations, noise, filters, edge detection",
+    "Image regions: Segmentation, perceptual grouping, Gestalt theory, segmentation approaches, image compression",
+    "Feature detection: RANSAC, Hough transformation, Harris corner detector",
+    "Object recognition: Challenges, template matching, histograms, machine learning",
+    "Convolutional Neural Networks: Neural networks, error functions and optimization, backpropagation, convolutions and pooling, hyperparameters, AutoML, efficient training, selected architectures",
+    "Image sequence processing: Motion, tracking of image sequences, Kalman filter, correspondence problem, optical flow",
+    "Fundamentals of mobile robotics: Robot movement, sensors, probabilistic robotics, particle filters, SLAM",
+    "Outlook: 3D vision, Generative Adversarial Networks, self-supervised learning"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Projects"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Standard Examination (StA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "R. C. Gonzalez and R. Woods, \"Digital Image Processing\", Pearson, 4th edition, 2018.",
+    "I. Goodfellow, Y. Bengio and A. Courville, \"Deep Learning\", MIT Press, 2016."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-22",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "080d31e5ad84738dbb2d4701d7dcd5d39b4cf7710c4856b97f4e10d449edf0dc",
+  "extracted_at": "2026-11-20T09:21:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Tecnologías de Servidores y Sistemas Operativos",
+  "course_name_en": "Server Technologies and Operating Systems",
+  "ects": 3.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Medium knowledge of computer hardware and operating systems.",
+    "Having completed the course \"Infraestructura Informática\" (Computer Infrastructure) taught in the Bachelor's Degree in Computer Engineering in Information Technologies is highly recommended.",
+    "Ability to read and understand texts written in English for bibliography and documentation."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design and evaluate operating systems and servers and applications and systems based on distributed computing.",
+      "type": "competence",
+      "code": "CE-TI6"
+    },
+    {
+      "text": "Ability to integrate technologies, applications, services, and systems typical of computer engineering, with a generalist character, and in broader and multidisciplinary contexts.",
+      "type": "competence",
+      "code": "CE-DG1"
+    },
+    {
+      "text": "Ability to select the necessary servers, storage systems, and operating systems to support the IT services required by an organization.",
+      "type": "skill",
+      "code": "RA6-11"
+    },
+    {
+      "text": "Ability to design, implement, and operate a network-based storage infrastructure.",
+      "type": "skill",
+      "code": "RA6-12"
+    },
+    {
+      "text": "Ability to implement and operate a high-availability cluster.",
+      "type": "skill",
+      "code": "RA1-13"
+    }
+  ],
+  "syllabus_topics": [
+    "Essential aspects of cloud computing",
+    "Virtual infrastructure",
+    "Servers for global scale service providers",
+    "Implementation, management, and operation of a virtual infrastructure (virtualization environment, network architecture, storage network, high-availability cluster, operational aspects of virtual machine migration)"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous student work",
+    "Group work"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Group work",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "On-site tests (theoretical content exam)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, it is essential to obtain a minimum of 5 out of 10 points in each part (laboratory practices, group work, and on-site tests). The final grade is calculated as 0.25 * Lab Grade + 0.35 * Group Work Grade + 0.4 * On-site Test Grade. If any part does not meet the minimum, the final grade is capped at 4.5 points. Lab practices and group work can only be done in the ordinary call. For the extraordinary call, approved group work and lab practices from the ordinary call are considered, and a new on-site knowledge test must be passed with at least 5 points. The final grade is 0.2 * Lab Grade + 0.2 * Group Work Grade + 0.6 * On-site Test Grade. If the on-site test is not passed, the final grade is capped at 4.5. If group work and lab practices were not approved in the ordinary call, the maximum possible grade in the extraordinary call is 6 points. For differentiated evaluation, an individual practical exam (25%), an individualized group work (35%), and a theory exam (40%) are assessed, with similar minimum grade requirements and capping rules.",
+  "bibliography": [
+    "Storage Networks Explained: Basics and Application of Fibre Channel SAN, NAS, iSCSI, InfiniBand and FCoE, Ulf Troppens, Wolfgang Müller-Friedt, Rainer Wolafka, Rainer Erkens, y Nils Haustein, Wiley, 2009",
+    "Cloud Computing Bible, Barrie Sosinsky, Wiley, 2011",
+    "The NIST Definition of Cloud Computing, Peter Mell, y Timothy Grance, National Institute of Standards and Technology, 2011",
+    "The NIST Cloud Computing Reference Architecture, Fang Liu, Jin Tong, Jian Mao, Robert Bohn, John Messina, Lee Badger, y Dawn Leaf, National Institute of Standards and Technology, 2011",
+    "Microsoft Private Cloud Fast Track Reference Architecture Guide, Adam Fazio, David Ziembicki, Joel Yoker, Mike Truitt, Bryon Surace, y Jim Dial, Microsoft Corporation, 2012"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Informática (Informática, Oviedo)",
+  "institution_slug": "uniovi_mm_inf",
+  "degree": "Máster Universitario en Ingeniería Informática",
+  "course_code": "MINFOR01-1-016",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/informatica/-/fof/asignatura/MINFOR01-1-016",
+  "source_language": "es",
+  "source_sha256": "d91d2d8aa94b1269e38cbec582e76e516785a0e33ffc7c7fab18d5ed6b3d1331",
+  "extracted_at": "2026-11-20T05:58:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

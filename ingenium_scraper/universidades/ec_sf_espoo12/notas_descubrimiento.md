@@ -1,0 +1,2 @@
+# ec_sf_espoo12 - Aalto BSc Electrical Engineering (ELEC1)
+API publica Sisu: sisu.aalto.fi/kori/api (sin robots.txt). Arbol: modules/by-group-id -> rule (ModuleRule/CourseUnitRule); course-units/by-group-id. Version valida en aalto-LV-75 (2025-26) o la mas reciente. Sin assessment publico en el course-unit (solo escala de notas); sin bibliografia en la mayoria. Suma ECTS > 180 (4 majors + optativas).

@@ -1,0 +1,110 @@
+{
+  "course_name_original": "ELECTRIC DRIVES M (91300)",
+  "course_name_en": "ELECTRIC DRIVES M",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know and understand the fundamentals of static and electromechanical conversion systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn the configuration of basic power electronic conversion systems, of main electrical machines, either direct current (DC) or alternate current (AC) and of electric drives used in automotive sector.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn topology, control principles, input and output characteristics of main DC and AC electric drives.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to model power electronic converters, control system, electrical machines, and full drive systems with reference to application for torque and speed control.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to represent an electric drive in terms of energetic conversion system, for the integration in a multiphisic model of a vehicle.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of electromechanical conversion systems and fundamentals of electrical machines.",
+    "Revision of electromagnetic fields and EM field equations.",
+    "Revision on ferromagnetic materials and permanent magnets.",
+    "Current transformer.",
+    "DC machines",
+    "Topology and types of DC machines.",
+    "Fundamental equations and output mechanical characteristic.",
+    "Steady state performance.",
+    "Drives on one, two, four quadrants.",
+    "Cooling of the machine.",
+    "Control schemes.",
+    "Brushless machines with trapezoidal back emf.",
+    "Drive topology.",
+    "Principle of operation and control.",
+    "Output mechanical characteristics.",
+    "Performance limitation.",
+    "Brushless machine with sinusoidal back emf.",
+    "Drive topology.",
+    "Structure of the machine with surface and internal mount magnets.",
+    "Introduction to Clarke and Park coordinate transformation.",
+    "Equation of sinusoidal brushless machine.",
+    "Reluctance torque.",
+    "Basic control scheme.",
+    "Flux-weakening principle.",
+    "Principle of static conversion.",
+    "Power electronic components.",
+    "DC/DC basic converter topology.",
+    "One, two and four quadrant configuration.",
+    "PWM modulation.",
+    "Current regulator.",
+    "Inverter.",
+    "Modelling of a Complete Electric Drive in Simulink",
+    "Development of a complete electric drive model, including the electrical machine, power electronic converter, PWM modulation, current and speed controllers, and mechanical load.",
+    "Analysis of four-quadrant operation in the torque\n–speed plane, electrical and mechanical operating characteristics, and basic sizing criteria for motion control, automation, and automotive applications."
+  ],
+  "teaching_methods": [
+    "Theoretical lectures",
+    "Training activities",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project report",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The assessment consists of a project and an oral examination. The project involves developing a computer model of an electric drive, to be presented at the examination. The oral examination includes a presentation and discussion of the project, and an assessment of theoretical knowledge through discussion and calculations. The final grade is weighted 50% for the project report and 50% for the oral examination.",
+  "bibliography": [
+    "The didactic material distributed by the teacher: copy of slides, files and description of the used numerical models.",
+    "Stefanos Manias “Power Electronics and Motor Drive System”. Academic Press ISBN: 0128117982"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Laurea Magistrale Ingegneria meccanica",
+  "institution_slug": "ec_i_bologna01__m_mec",
+  "degree": "Ingegneria meccanica (Laurea Magistrale, LM-33, Bologna)",
+  "course_code": "91300",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/516529",
+  "source_language": "en",
+  "source_sha256": "53bd2afd92d4137020b5181c88c45d567a58298586077ece00601dbc787213fc",
+  "extracted_at": "2026-11-20T13:01:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

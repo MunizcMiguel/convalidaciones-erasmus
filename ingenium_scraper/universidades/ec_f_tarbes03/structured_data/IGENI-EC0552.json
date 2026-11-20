@@ -1,0 +1,129 @@
+{
+  "course_name_original": "Introduction à l'automatique aspects temporels",
+  "course_name_en": "Introduction to Automatic Control: Temporal Aspects",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Linear differential equations with constant coefficients: recognize them; solve them; know properties of the derivation and the integration operators.",
+    "Perform operations in the algebra of polynomials.",
+    "Know how to manipulate complexes.",
+    "Have a very basic knowledge of programming and algorithms."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to identify a system and its associated physical quantities.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Have knowledge of modeling a dynamic system based on physical knowledge using the Laplace transform and simple models (1st and 2nd order).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Autonomous on the usage of block diagrams as a representation of system functioning.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to quantify characteristics of a temporal response of a system (stability, precision, speed, robustness).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the advantages and limitations of simple control laws (open/closed loop and basic correctors).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to perform basic calculations and usage of the MATLAB/Simulink software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to implement simple control laws to save energy and meet specific requirements.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Presentation of the lecturer",
+    "Introduction to automatic control and its tools",
+    "Definition of what automatic control is.",
+    "Where is it found - examples in the fields taught at ENIT.",
+    "The interest of automatic control in societal issues (ecology, accessibility and limiting inequalities).",
+    "Definition of what a system is and the assumptions of the course.",
+    "Introduction to the benefits of modelling a system.",
+    "Presentation of the Laplace transformation (hypothesis, advantages).",
+    "Definition of a transfer function.",
+    "Systems analysis - Systems of 1st order",
+    "Reminder of the assumptions made in the course about the systems and models studied.",
+    "Reminder of the Laplace transform and transfer functions.",
+    "Introduction to the different possible inputs for a system.",
+    "Introduction to the block diagram tool.",
+    "First-order model - The different types of response.",
+    "Initial and final value theorem",
+    "Identification of a first order system.",
+    "Systems analysis - Systems of 2nd order",
+    "Reminder of the Laplace transform, block diagrams and Theorems.",
+    "Reminder of the different types of inputs.",
+    "Reminder of systems modelled by a 1st order.",
+    "The different response types of systems modelled by a 2nd order.",
+    "Identifying the parameters of a second-order response.",
+    "Positioning the poles to predict stability.",
+    "Controlled system - Stability - Performance.",
+    "The concept of control - Open and Closed Loop.",
+    "Diagram of a controlled system.",
+    "Transfer function of a controlled system and classical responses.",
+    "Concept of stability.",
+    "Routh's criterion.",
+    "System performance.",
+    "Basic correctors (digital, proportional, etc.)",
+    "Opening up to corrective measures aimed at reducing consumption."
+  ],
+  "teaching_methods": [
+    "Classroom lectures with interactive parts (the correction of exercises).",
+    "Slides and different handouts with theoretical and applied exercises (with all levels of difficulty).",
+    "Practical work on physical setups with an oral assessment.",
+    "Autonomous work using the Moodle platform as well as the MATLAB software platform."
+  ],
+  "workload_hours_total": 20.0,
+  "workload_hours_contact": 17.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (Devoir Surveillé)",
+      "weight_percentage": null
+    },
+    {
+      "method": "CC1 (Contrôle Continu)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*CC1)/2. Assessment is done by a graded grid.",
+  "bibliography": [
+    "H.Garnier, Automatique continue - Correcteurs standards et leurs réglages. Univ. Lorraine, 2020.",
+    "Y. Granjon et al., Automatique. Dunod, 3ème ed.,2015.",
+    "C. Albea Sanchez, Automatique : Commande des systèmes Linéaires Pres. UPS.",
+    "M-K. Fellah, Automatique 1 et 2 (Asservissements Linéaires Continus) Cours univ. Djillali Liabès,2013.",
+    "J.Cano, Automatique des systèmes linéaires Cours Polytechnique Montréal, 2021.",
+    "B.Bayle, Automatique Univ. Strasbourg ENSPS, FIP1A, 2005-2006."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0552",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "0ee7d14e9153834641e5334111bccb5fc6c6daef7e6d10da6dbb6db4e230e452",
+  "extracted_at": "2026-11-18T09:52:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

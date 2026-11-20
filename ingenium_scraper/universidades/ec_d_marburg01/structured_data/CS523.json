@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Rechnergestützte Beweissysteme",
+  "course_name_en": "Computer-aided Proof Systems",
+  "ects": 9.0,
+  "semester": "one semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "No formal prerequisites. Competencies taught in the modules Theoretical Computer Science and Logic are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students master the specification of formal proof tasks as well as methods, calculi and algorithms of computer-aided proving.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can use practical proof systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can handle special logics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can apply scientific working methods (identifying, formulating, solving problems, training abstraction skills).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can speak and discuss scientific content orally in front of an audience.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Gentzen calculus for propositional logic and predicate logic",
+    "Resolution method for predicate logic",
+    "Specifying and proving in PVS",
+    "Typed logic and type correctness conditions",
+    "Equality, term rewriting systems",
+    "Decision procedures, Nelson-Oppen, Shostak algorithm",
+    "Induction and higher-order logic",
+    "Synthesis of programs and data types",
+    "Co-data types",
+    "Intuitionistic logic and intuitionistic calculi",
+    "Implementation of non-standard logics in Jape",
+    "Hardware synthesis: The Lambda system"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Achieving at least 50 percent of points from weekly exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of the solution of at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To receive credit points, students must achieve at least 50% of the points from weekly exercise assignments and orally present the solution to at least two assignments. The final grade is determined by an oral examination or a written exam, graded on a scale of 0 to 15 points according to the examination regulations for the M.Sc. Computer Science program.",
+  "bibliography": [
+    "N.Shankar: Specification and Proof with PVS (http://fm.csl.sri.com/SSFT15/PVScourse.pdf)",
+    "M. Hofmann: Vorlesungsskript Rechnergestütztes Beweisen, 2006",
+    "F.v.Henke, K.Pfeifer: PVS Einführung. 2006",
+    "S. Owre, J. Rushby, et al: A tutorial introduction to PVS, 1996",
+    "W. Schreiner: The RISC ProofNavigator, Tutorial and Manual, RISC, 2008."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS523",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Rechnergestuetzte_Beweissysteme.html",
+  "source_language": "de",
+  "source_sha256": "2b9abaa1e114a780280a69314ca95f13b1acb683990a00022dc2c4f7f90c7d6b",
+  "extracted_at": "2026-11-20T09:22:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

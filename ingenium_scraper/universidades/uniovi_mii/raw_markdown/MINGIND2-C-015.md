@@ -1,0 +1,263 @@
+---
+{
+ "course_code": "MINGIND2-C-015",
+ "course_name": "Teoría de Estructuras y Construcciones Industriales",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-015",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:01:04",
+ "content_sha256": "def23ad11ee36ee88a807c8ec0d2d660a13fe2500e02963ea1434268ae6d2a3b"
+}
+---
+
+# Teoría de Estructuras y Construcciones Industriales
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-C-015
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Complementos de Formación
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Tutorías Grupales (2 Horas); Clases Expositivas (28 Horas); Prácticas de Aula/Semina (14 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura Teoría de Estructuras y Construcciones Industriales tiene un carácter teórico/practico y engloba el conjunto de conocimientos científicos, técnicos y prácticos que permiten predecir, tanto el comportamiento estructural, como establecer las bases de una planta industrial eficiente y competitiva en el mercado.
+
+Respeto a las salidas profesionales, esta asginatura proporciona compentencias para realizar cálculos de estructuras y equipos industriales, siguiendo la normativa vigente.
+
+Por otra parte, respecto a la protección y defensa al medio ambiente, el temario incluye mejoras de sostenibildiad de los procesos constructivos, como el uso de materiales sostenibles, y la optimización de los procesos industriales.
+
+Dentro de la organización docente del Grado de Ingeniería Mecánica, esta asignatura presenta las siguientes referencias:
+
+Módulo: **TECNOLOGÍA ESPECÍFICA MECÁNICA.**
+
+Materia:**MECÁNICA Y MATERIALES**.
+
+Asignatura: **TEORÍA DE ESTRUCTURAS Y CONSTRUCCIONES INDUSTRIALES**
+
+## Requisitos
+
+Se recomienda haber cursado las asignaturas correspondientes a los módulos de FORMACIÓN BÁSICA y las correspondientes a segundo curso del módulo COMÚN A LA RAMA INDUSTRIAL.
+
+## Competencias y resultados del aprendizaje
+
+Las competencias de la asignatura son:  
+Competencias Generales:  
+CG1 Capacidad para la redacción, firma y desarrollo de proyectos en el ámbito de la  
+ingeniería industrial que tengan por objeto la construcción, reforma, reparación,  
+conservación, demolición, fabricación, instalación, montaje o explotación de:  
+estructuras, equipos mecánicos, instalaciones energéticas, instalaciones y plantas  
+industriales y procesos de fabricación.  
+CG2 Capacidad para la dirección de las actividades objeto de los proyectos de ingeniería  
+descritos en el epígrafe anterior.  
+CG3 Conocimiento en materias básicas y tecnológicas, que les capacite para el aprendizaje  
+de nuevos métodos y teorías, y les dote de versatilidad para adaptarse a nuevas  
+situaciones.  
+CG4 Capacidad de resolver problemas con iniciativa, toma de decisiones, creatividad y  
+razonamiento crítico.  
+  
+CG6 Conocimientos para la realización de mediciones, cálculos, valoraciones, tasaciones,  
+peritaciones, estudios, informes, planes de labores y otros trabajos análogos.  
+CG7 Capacidad para el manejo de especificaciones, reglamentos y normas de obligado  
+cumplimiento.  
+CG8 Capacidad de analizar y valorar el impacto social y medioambiental de las soluciones  
+técnicas.  
+  
+CG10 Capacidad de organización y planificación en el ámbito de la empresa, y otras  
+instituciones y organizaciones.  
+  
+CG12 Conocimiento, comprensión y capacidad para aplicar la legislación necesaria en el  
+ejercicio de la profesión de Ingeniero Técnico Industrial.  
+  
+CG14 Honradez, responsabilidad, compromiso ético y espíritu solidario  
+  
+Competencias comunes a la rama industrial  
+CC8 Conocimiento y utilización de los principios de la resistencia de materiales.  
+CC9 Conocimientos básicos de los sistemas de producción y fabricación.  
+CC10 Conocimientos básicos y aplicación de tecnologías medioambientales y sostenibilidad.  
+  
+Competencias de tecnología específica mecánica  
+CM4 Conocimientos y capacidades para aplicar los fundamentos de la elasticidad y  
+resistencia de materiales al comportamiento de sólidos reales.  
+CM5 Conocimientos y capacidad para el cálculo y diseño de estructuras y construcciones  
+industriales.  
+  
+Los resultados de aprendizaje:  
+REC-1 Elegir el emplazamiento idóneo de la planta industrial.  
+REC-2 Llevar a cabo estudios de implantación y organización de la planta industrial.  
+REC-3 Evaluar el impacto ambiental de las construcciones industriales.  
+REC-4 Calcular estáticamente estructuras de barras.  
+REC-5 Elegir las tipologías estructurales más utilizadas y la modelización más adecuada para su análisis.
+
+## Contenidos
+
+Los contenidos están distribuidos en once temas, distribuídos en las dos partes de la asignatura:
+
+**Teoría de Estructuras:**
+
+Tema 1. Introducción al cálculo de estructuras
+
+Tema 2. Principio de los Trabajos Virtuales (PTV)
+
+Tema 3. Cálculo de estructuras isostáticas de nudos rígidos y articulados (Celosías)
+
+Tema 4. Cálculo de estructuras hiperestáticas de nudos rígidos y articulados (Método de las fuerzas y Método de ángulos de giro)
+
+**Construcciones Industriales:**
+
+Tema 1. La nave industrial: diseño y comportamiento estructural
+
+Tema 2. Bases de cálculo y acciones en la nave industrial
+
+Tema 3. Cimentaciones superficiales
+
+## Metodología y plan de trabajo
+
+La metodología empleada para alcanzar los resultados del aprendizaje está planteada en función de los criterios propuestos en la memoria de verificación, que clasifica a esta asignatura del tipo 7:  
+•Clases expositivas: 28 horas  
+•Prácticas de laboratorio/campo/informática: 14 horas  
+•Prácticas de aula: 14 horas  
+•Tutorías grupales: 2 horas  
+•Sesiones de evaluación: 2 horas
+
+Correspondiendo a:  
+•Trabajo presencial de profesor y alumnos: 60 horas  
+•Trabajo personal del estudiante: 90 horas
+
+La metodología utilizada consistirá en:
+
+Clase expositiva de teoría y prácticas de tablero: una presentación expositiva de cada uno de los temas, por parte del profesor de la asignatura. Será impartida a todos los alumnos conjuntamente, no necesariamente comolección magistral, sino procurando una participación activa del alumnado en la dinámica de las mismas. Se desarrollarán los contenidos teóricos de la asignatura, combinados con la resolución de problemas y ejercicios, poniendo a disposición de los estudiantes los materiales necesarios para su comprensión.
+
+Las prácticas de aula serán impartidas al grupo de alumnos y van a permitir realizar actividades de discusión teórica o preferentemente prácticas realizadas en el aula que requieren una elevada participación del estudiante.
+
+Clases prácticas de laboratorio: Tienen lugar en los laboratorios docentes de la titulación y en las aulas de informática. Se propondrá la resolución de diferentes prácticas, que serán desarrolladas por los alumnos y posteriormente calificadas por el profesor.
+
+Tutorías grupales: Serán actividades programadas de seguimiento del aprendizaje en las que el profesor se reúne con un grupo de estudiantes para orientar sus labores de aprendizaje autónomo y de tutela de trabajos dirigidos o que requieren un grado de asesoramiento muy elevado por parte del profesor.
+
+En la tabla adjunta se recoge la planificación temporal en la que se contemplan el conjunto de actividades que deberán ser realizadas.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios/ Talleres* | *Prácticas de laboratorio /campo /aula de informática/ aula de idiomas* | *Prácticas clínicas hospitalarias* | *Tutorías grupales* | *Prácticas Externas* | *Sesiones de Evaluación* | ***Total*** | *Trabajo grupo* | *Trabajo autónomo* | **Total** |
+| ***Teoría de Estructuras*** |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1. Introducción al Cálculo de Estructuras |  | 1 | 0 | 1 |  |  |  |  | 2 | 0 | 4 | 4 |
+| 2. Principio de los Trabajos Virtuales, PTV |  | 2 | 2 | 2 |  |  |  |  | 6 | 6 | 7 | 13 |
+| 3. Diseño y cálculo de estructuras de nudos articulados |  | 5 | 2 | 2 |  |  |  |  | 9 | 7 | 7 | 14 |
+| 4. Diseño y cálculo de estructuras de nudos rígidos |  | 6 | 3 | 2 |  |  |  |  | 11 | 7 | 7 | 14 |
+| ***TOTAL TE*** |  | 14 | 7 | 7 |  | 1 |  | 1 | 30 | 20 | 25 | 45 |
+| ***Construcciones Industriales*** |  |  |  |  |  |  |  |  |  |  |  |  |
+| 1. La nave industrial: diseño y comportamiento estructural |  | 4 | 1 | 2 |  |  |  |  | 7 |  | 15 | 15 |
+| 2. Bases de cálculo y acciones en la nave industrial |  | 6 | 4 | 3 |  |  |  |  | 13 |  | 18 | 18 |
+| 3. Cimentaciones superficiales |  | 4 | 2 | 2 |  |  |  |  | 8 |  | 12 | 12 |
+| ***TOTAL CI*** |  | 14 | 7 | 7 |  | 1 |  | 1 | 30 |  |  | 45 |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18,67 | 60 <br> (40 %) |
+|  | Práctica de aula / Seminarios / Talleres | 14 | 9,33 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 14 | 9,33 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales | 2 | 1,33 |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 2 | 1,33 |  |
+| No presencial | Trabajo en Grupo | 11 | 7,33 | 90 <br> (60 %) |
+|  | Trabajo Individual | 79 | 52,67 |  |
+|  | Total | 150 |  |  |
+
+De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir actividades de docencia no presencial. En cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+## Evaluación del aprendizaje
+
+La calificación final de la asignatura será calculada como media de las calificaciones de sus dos partes (Teoría de Estructuras y Construcciones Industriales), siendo necesario un mínimo de 5 puntos sobre 10 en cada una de ellas.
+
+De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir métodos de evaluación no presencial. En cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+***TEORÍA DE ESTRUCTURAS:***
+
+En el caso de **Evaluación Diferenciada**, se realizará un examen final presencial con el contenido teórico y práctico de esta parte de la asignatura y se evaluará sobre el 90% de la nota total. El 10% restante se evaluará mediante una prueba práctica de conocimientos.
+
+En las **Convocatorias Extraordinarias** la evaluación se realizará mediante un examen final presencial sobre el 90% de la nota total. El 10% restante se evaluará mediante una prueba práctica de conocimientos.
+
+En la **Convocatoria Ordinaria**, antes del examen final el estudiante podrá elegir una de las siguientes opciones:
+
+**a) Evaluación Continua:** 80% Examen Final Presencial + 20% Pruebas Intermedias
+
+EXAMEN FINAL (Cuestiones conceptuales + Problemas)
+
+PRUEBAS INTERMEDIAS (Cuestiones conceptuales)
+
+**b) Sin Evaluación Continua:** 90% Examen Final Presencial + 10% Prueba Práctica de Conocimientos
+
+EXAMEN FINAL (Cuestiones conceptuales + Problemas)
+
+Para obtener el aprobado en Teoría de Estructuras es necesario alcanzar un mínimo de 2 puntos sobre 10 en cada uno de los temas importantes de la asignatura (PTV, Cálculo de estructuras isostáticas y Cálculo de estructuras hiperestáticas).
+
+***CONSTRUCCIONES INDUSTRIALES:***
+
+**Examen Final**: el examen escrito que se realiza como evaluación final tendrá un peso de un 75% sobre la nota final. En esta prueba será obligatorio obtener una calificación mínima de 4 sobre 10.
+
+**Tareas entregadas y prácticas de laboratorio:** las tareas y entregables durante el curso tendrán un peso del 25% en la evaluación continua de la nota final. La asistencia a las prácticas de laboratorio es obligatoria y será necesario superarlas con una puntuación mínima de 5 sobre 10 para poder aprobar la asignatura. .
+
+Se tendrá especialmente en cuenta a la hora de calificar, tanto los exámenes como las actividades en que proceda:
+
+- Orden, limpieza y presentación general.
+- Redacción adecuada y ausencia de faltas de ortografía.
+- Claridad, estructura lógica y nivel de detalle de la resolución.
+- Uso de unidades adecuadas. Se considerará especialmente grave el uso de unidades incorrectas que no mantengan la coherencia dimensional de las ecuaciones.
+- Validez de los resultados, sin que sean disparatados ni físicamente imposibles.
+
+Las Convocatorias Extraordinarias tendrán el mismo criterio de evaluación que la Convocatoria Ordinaria.
+
+En el caso de la Evaluación Diferenciada, se realizará un examen final presencial sobre el contenido de la asignatura, incluidas las prácticas de la misma, que representará el 100% de la nota total. La prueba de evaluación podrá dividirse en dos sesiones: una para el examen escrito y otra para la evaluación práctica aunque, alternativamente, la parte correspondiente a las prácticas, también podrá ser evaluada por escrito. Será necesario aprobar ambas partes de manera independiente para superar esta parte de la asignatura.
+
+## Bibliografía
+
+CONSTRUCCIONES INDUSTRIALES:
+
+- CTE. Código Técnico de la Edificación
+- Losada, R., Rojí, R. “Construcción y Arquitectura Industrial” ETSII. Bilbao, 1995
+- F.J.Suarez Domínguez, J.J. del Coz Diaz, A. Lozano Martinez-Luengas, A. Martín Rodríguez. Apuntes de Construcciones Industriales. Universidad de Oviedo. EPI Gijon, 2002.
+- Heredia, R. “Arquitectura y urbanismo industrial”. Servicio de Publicaciones de la ETSII., 1981
+- Henn, W. “Edificaciones Industriales” (2 tomos). Ed. Gustavo Gili, 1986.
+- Prontuario de Ensidesa. Diagramas de pórticos
+- EUROCODE: http://www.jrc.ec.europa.eu/
+
+TEORÍA DE ESTRUCTURAS:
+
+- bIBLIOGRAFÍA BÁSICA
+  - J.R. Glez de Cangas, A. Samartín Quiroga. *Cálculo de estructuras*. Colegio de Ing. Caminos, Canales y Puertos.
+  - S.P. Timoshenko, D.H. Young. *Teoría de las Estructuras*. Urmo, 1975, (Bilbao).
+  - J. Zurita Gabasa. *Teoría de Estructuras. Estructuras de barras y sólidos tridimensionales*. Universidad Pública de Navarra. 1998.
+
+*TEORIA*
+
+  - H. Engel. *Sistemas de Estructuras*. Gustavo Gili, 1997.
+  - J.E. Gordon. *Estructuras o porqué las cosas no se caen*. Celeste ediciones, Madrid.
+  - R. de Heredia.*Arquitectura y Urbanismo Industrial*. ETSII, UPM, Madrid, 1981.
+  - M. Millais.*Estructuras de Edificación*. Celeste Ediciones, 1997.
+  - E. Torroja.*Razón y Ser de las Formas Estructurales*. I.E.T., Madrid, 1960.
+
+*TEORIA Y PROBLEMAS*
+
+  - R. Argüelles Alvarez.*Cálculo de Estructuras*. E.T.S. de Ingenieros de Montes, Madrid.
+  - R. Argüelles Alvarez. *La**estructura metálica hoy*. E.T.S.I. de Montes, Madrid.
+  - J.T. Celigüeta.*Curso de Análisis Estructural.* Eunsa, Pamplona,1998.
+  - M. Vazquez. *Resistencia de Materiales*. Editorial Noela, 1994.
+  - H. H. West.*Fundamentals of Structural Analysis*. John Wiley & Sons, 2002.
+
+*PROBLEMAS*
+
+  - J.A. Corchero Rubio. *Cálculo de Estructuras. Resolución Práctica.* Colegio de ICCP, Madrid, 1986.
+  - A. Fernández Canteli. *Problemas de Teoría de Estructuras*. E.T.S.I.I, Gijón, 1985.

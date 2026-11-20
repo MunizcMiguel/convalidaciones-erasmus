@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Mecánica II (Ing.Gr.)",
+  "course_name_en": "Mechanics II (Eng.Gr.)",
+  "ects": 4.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mecánica (2º cuatrimestre de 2º curso, plan 2020)",
+    "familiarity with the Creo Parametric environment (Expresión Gráfica, 2º cuatrimestre de 2º curso)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To train the student in the fundamentals of analytical mechanics and prepare them for the study of the dynamics of machines and mechanisms.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To introduce the student to multibody simulations (MBS), by performing a set of practical exercises and a project in the Creo Parametric environment.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Unit 1. Dynamics of mechanical systems",
+    "Mechanics of rigid bodies: Newton's laws of motion.",
+    "Instantaneous and general problems.",
+    "Direct mechanics and inverse problems.",
+    "D'Alembert principle. Application to rigid bodies.",
+    "Application of the Principle of Virtual Work to solve instantaneous problems.",
+    "Unit 2. Analytical mechanics",
+    "Lagrange equations.",
+    "Principles of conservation. Ignorable coordinates and Conservation of the generalized momentum.",
+    "Jacobi's integral.",
+    "Unit 3. Multibody simulations (MBS)",
+    "Theoretical approach.",
+    "Guided application case in Creo Parametric.",
+    "Individual work: practical MBS case.",
+    "Unit 4. 3D kinematics and dynamics of rigid bodies",
+    "Introduction.",
+    "Motion about a fixed point: Euler's angles.",
+    "Euler's equations.",
+    "Rotation of systems about a fixed axis: time derivative of vectors, equations of motion, constraint reactions, obtention of applied torques."
+  ],
+  "teaching_methods": [
+    "Expository lectures",
+    "Computer lab classes",
+    "Individual work",
+    "Student study based on different sources of information",
+    "Personal interview with the course professor (addressing doubts)",
+    "Completion of evaluated tests"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 52.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Individual or team work",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "For the ordinary examination, the final grade is composed of a partial exam (15%), an individual project (15%), and a final exam (70%). The partial exam is liberatory if the student achieves 50% or more of its value; otherwise, it must be retaken on the day of the final exam. For the extraordinary examination, approved liberatory partial exam grades and individual project grades are retained. The final exam then accounts for 70%, plus the 15% for the partial exam if not previously passed.",
+  "bibliography": [
+    "Curso de Mecánica, J.M. Bastero, J. Casellas, C. Bastero, EUNSA, Pamplona, 5ª edición, 2011.",
+    "Précis de mécanique rationelle, Paul Appell, Gauthier-Villars editeurs, París, 6ª edición, 1952.",
+    "Classical Mechanics, H. Goldstein, Addison-Wesley, 3ª edición, 2002.",
+    "Advanced Dynamics, D.T. Greenwood, Cambridge University Press, 2003."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "mecanica2ing",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/mecanica2ing/",
+  "source_language": "es",
+  "source_sha256": "53ce45b9fdc7b7b41d566c50f9beed6a89075aa281b38d8cacdfa13db0caf0c8",
+  "extracted_at": "2026-11-18T02:51:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

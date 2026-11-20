@@ -1,0 +1,93 @@
+{
+  "course_name_original": "Ingeniería de Redes",
+  "course_name_en": "Network Engineering",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of protocol architectures",
+    "Knowledge of physical, data link, network, and transport layers of the OSI model",
+    "Fundamentals of Telematics",
+    "Network and Systems Architecture"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the methods of network routing and interconnection.",
+      "type": "unspecified",
+      "code": "RA-7.18"
+    },
+    {
+      "text": "Design and develop network interconnection applications, as well as analyze and interpret their results.",
+      "type": "unspecified",
+      "code": "RA-7.19"
+    },
+    {
+      "text": "Analyze and evaluate routing protocols using computer tools.",
+      "type": "unspecified",
+      "code": "RA-7.20"
+    },
+    {
+      "text": "Create and use models of real networks using network simulators.",
+      "type": "unspecified",
+      "code": "RA-7.21"
+    },
+    {
+      "text": "Use congestion control techniques to perform proper network planning and dimensioning.",
+      "type": "unspecified",
+      "code": "RA-7.22"
+    }
+  ],
+  "syllabus_topics": [
+    "Review of network interconnection",
+    "Interior routing protocols",
+    "RIP, EIGRP, OSPF",
+    "Exterior routing protocols",
+    "BGP",
+    "Multicast",
+    "IGMP, PIM",
+    "Congestion control",
+    "Classification of congestion control methods, implicit and explicit congestion control, traffic modeling",
+    "Quality of service",
+    "Introduction to QoS concepts, Integrated Services, Differentiated Services"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (TE)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Continuous evaluation of laboratory practices (PL)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "In the ordinary and extraordinary calls, if all established minimums are reached, the final grade is calculated as: Final Grade = 0.7 x TE + 0.3 x PL. Both the theory exam and the laboratory practices must be passed with a minimum of 5 out of 10 points. If any part is not passed, the final grade will be 4.5 points. Grades for passed blocks are carried over between calls within the same academic year.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, 7ª Ed., William Stallings, Prentice Hall.",
+    "Redes de ordenadores, 4ª Ed., Andrew S. Tanenbaum, Prentice Hall.",
+    "Redes de computadoras, un enfoque descendente, James F. Kurose, Addison Wesley",
+    "Redes e Internet de alta velocidad: rendimiento y calidad de servicio, 2ª Ed., William Stallings, Prentice Hall."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-3-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-3-001",
+  "source_language": "es",
+  "source_sha256": "cc5cf3ab8d90ea5f847d740aa9e3b61688ed90fb2e8597b1268eb8e1e8c36433",
+  "extracted_at": "2026-11-20T06:03:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

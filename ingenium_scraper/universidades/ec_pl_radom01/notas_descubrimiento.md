@@ -1,0 +1,12 @@
+# ec_pl_radom01 — Casimir Pulaski Radom University (UTH Rad), Mechanical Engineering
+
+- Hints de la ficha Erasmus: `erasmus.ujep.cz` (universidad checa, no sirve). `uthrad.pl` / `www.uthrad.pl` / `uthrad.edu.pl`: certificado TLS inválido (no se desactiva la verificación). Sitio real: `uniwersytetradom.pl`; facultad: `wm.uniwersytetradom.pl` (Wydział Mechaniczny; su robots.txt devuelve 403 pero las páginas de contenido y /wp-content/uploads sirven normal con PoliteClient).
+- Grado: Mechanical Engineering (1.er ciclo, inżynier, 7 semestres, 210 ECTS, docencia en inglés), plan 2025/26, full-time. Fuente: `https://wm.uniwersytetradom.pl/programy-studiow/` → plan PDF `…/2025/05/Plan-studiow-2025-2026-ME-I-st.pdf` + ZIP de syllabus `…/Syllabusy-2025-2026-ME-I.zip` (53 PDF full-time + 52 part-time; solo se usan los full-time).
+- Catálogo: nombres desde el plan (pdfplumber; fila = "n Nombre … horas … ECTS"); códigos = clave del fichero del ZIP (A1…A7, B1…B21, C{n}a/b, D1, D2, E1, E21, E22, H01, H02). Curso/semestre/ECTS/idioma: de cada syllabus (semestre mínimo); si el ECTS del syllabus falta o discrepa se usa el del plan (B15 trae 75 por error → 3; B21 sin dato → 4).
+- Trampas: grupo C = 9 pares "X / Y" (dos syllabus a/b), salvo C5 (Senior project, un solo fichero); el nombre de C9 sale corrupto en el plan (texto superpuesto) → se toma del syllabus; el grupo F (prácticas) tiene 0 ECTS y se omite; E21 (lengua extranjera) está en alemán; los nombres de coordinadores y correos están en la cabecera de cada syllabus.
+- ECTS: filas no-C 168 + una opción por cada par C (42) = 210 ✓.
+
+## Fase 2
+- `scraper_ec_pl_radom01.py`: lee el miembro del ZIP en memoria (ZIP descargado una vez con PoliteClient, cacheado). El PDF tiene maquetación a dos columnas: `extract_text` entrelaza etiqueta/valor, de modo que algunos encabezados («Curriculum Content:», «Learning Objective:») quedan en medio del párrafo; el contenido no se pierde. La tabla de resultados de aprendizaje se reconstruye con `extract_tables` (filas W/U/K) como tabla Markdown; en 4 syllabus (A2, B3, B12, H01) esa tabla no se detecta y queda en texto entrelazado.
+- Se eliminan Coordinator, correo/teléfono, web de la unidad, letras sueltas de la cabecera vertical, números de página y el párrafo estándar de necesidades especiales. La evaluación es texto («Course assessment type…» + tabla de verificación), sin porcentajes en la mayoría.
+- 52/52 Markdown. No verificado: fidelidad de tablas de carga de trabajo (queda como texto).

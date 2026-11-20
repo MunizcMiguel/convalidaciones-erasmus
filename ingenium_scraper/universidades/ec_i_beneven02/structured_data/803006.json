@@ -1,0 +1,63 @@
+{
+  "course_name_original": "COMPUTER PROGRAMMING PART II AND ARTIFICIAL INTELLIGENCE (803006)",
+  "course_name_en": "COMPUTER PROGRAMMING PART II AND ARTIFICIAL INTELLIGENCE",
+  "ects": 9.0,
+  "semester": "Second semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programmazione 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Study and analyze the object-oriented programming paradigm, its fundamentals and its use in software modelling of complex problems and systems, with particular focus on those relating to data processing via artificial intelligence techniques.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Object-oriented programming: concepts class, objects, methods and instance variables, message passing, encapsulation and information hiding, inheritance and polymorphism, interfaces and abstract classes, callbacks, static and dynamic binding, generic data types, abstract data types, quality criteria, UML class diagram",
+    "Python programming language: language characteristics (interpretation vs. compilation, strong vs. weak typing), variables and data types (basic and structured), scopes, expressions and operators, flow control structures, functions, core data structures, I/O operations on file, exception handling, lambda functions, decorators, debugging tools, concurrency",
+    "Programming for data processing and analysis: introduction to scientific and tensor computing, introduction to supervised and unsupervised machine learning, introduction to classification and regression models, introduction to training processes, pre-processing and cleaning of training data, Python libraries for data processing and analysis"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Practical test on the computer (writing a Python program using the object-oriented paradigm)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (discussion of the practical test exercise and questions on theoretical topics)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final exam consists of a practical test on the computer and an oral exam. The oral exam includes a discussion of the exercise covered in the practical test and questions on the theoretical topics covered in the course program.",
+  "bibliography": [
+    "Matt Weisfeld, Object-Oriented Thought Process, Addison Wesley, 5th edition, 2019",
+    "R. Sedgewick and K. Wayne, Algorithms, Addison Wesley Professional, 4th edition, 2011",
+    "Thomas H.Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, MIT Press, 3rd edition, 2009",
+    "Allen B. Downey, Think Python: How to Think Like a Computer Scientist, Oreilly & Associates Inc, 3rd edition, 2024",
+    "Steven F. Lott and Dusty Phillips, Python Object-Oriented Programming: Build Robust and Maintainable Object-Oriented Python Applications and Libraries, Packt Publishing, 4th edition, 2021",
+    "Andreas C. Müller and Sarah Guido (Author), Introduction to Machine Learning with Python: A Guide for Data Scientists, O'Reilly Media, 1st edition, 2016",
+    "Peter Norvig and Stuart Russell, Artificial Intelligence: A Modern Approach, Pearson, 4th edition, 2021"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "803006",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8647&ordinamento_aa=2026&af_percorso=1&corso_cod=10222&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "03998042a7b798827b2fffc0331767e0e41e1dee8b419978e1d32683527ac397",
+  "extracted_at": "2026-11-20T08:18:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

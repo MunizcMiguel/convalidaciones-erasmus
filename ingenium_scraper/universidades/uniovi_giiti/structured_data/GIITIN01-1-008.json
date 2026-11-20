@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Fundamentos de Computadores y Redes",
+  "course_name_en": "Fundamentals of Computers and Networks",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Fundamentos de Informática",
+    "Introducción a la programación",
+    "Metodología de la Programación"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the representation of information in computers",
+      "type": "unspecified",
+      "code": "PF1"
+    },
+    {
+      "text": "Know how the different subsystems of a computer (processor, memory and input/output) work",
+      "type": "unspecified",
+      "code": "PF2"
+    },
+    {
+      "text": "Write simple programs in assembly language",
+      "type": "unspecified",
+      "code": "PF3"
+    },
+    {
+      "text": "Understand at a basic level how computers are interconnected to form computer networks",
+      "type": "unspecified",
+      "code": "PF4"
+    },
+    {
+      "text": "Knowledge of the structure, organization, functioning of computer systems and their application for solving engineering problems.",
+      "type": "knowledge",
+      "code": "EFB5.1"
+    },
+    {
+      "text": "Knowledge of the interconnection of computer systems and their application for solving engineering problems.",
+      "type": "knowledge",
+      "code": "EFB5.2"
+    },
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "skill",
+      "code": "GTR1"
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations. Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    }
+  ],
+  "syllabus_topics": [
+    "Digital information",
+    "Digital systems",
+    "Computer organization",
+    "The machine language",
+    "The processor",
+    "The memory system",
+    "Input/Output",
+    "Networks and protocols",
+    "Local area networks",
+    "Internet",
+    "Digital information (Practical Block)",
+    "Digital systems (Practical Block)",
+    "The machine language (Practical Block)",
+    "The processor (Practical Block)",
+    "The input/output system (Practical Block)",
+    "Computer networks (Practical Block)"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment of theoretical part (NTeo)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment of practical part (NPrac)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual project assessment (NPro)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary call, if NTeo is >= 4.0, the final grade is 0.5 * NTeo + 0.4 * NPrac + 0.1 * NPro. Otherwise, the final grade is minimum(4.5, 0.5 * NTeo + 0.4 * NPrac + 0.1 * NPro). A minimum of 80% active attendance to laboratory practices and group tutorials is required for NPrac to be greater than 0. For extraordinary call, students must take a theoretical exam (NExTeo) and if NExTeo > 5.0, the final grade is 0.5 * NExTeo + 0.4 * NExPrac + 0.1 * NPro. NExPrac can be NPrac if NPrac >= 5 and NExTeo > 5. For the advanced extraordinary call, the rules are the same as extraordinary, but the practical exam is always mandatory.",
+  "bibliography": [
+    "J. Entrialgo, J.C. Granda, J.M. López, J. Molleda, J.R. Arias, R. Usamentiaga, M. García y J.L. Díaz. Computadores y Redes. Servicio de Publicaciones de la Universidad de Oviedo, 2016, ISBN: 978-84-16664-37-5. E-book, ISBN: 978-84-18482-13-7.",
+    "J. Entrialgo, J.C. Granda, J.M. López, J. Molleda, J.R. Arias, R. Usamentiaga, M. García y J.L. Díaz. Computers and Networks. Servicio de Publicaciones de la Universidad de Oviedo, 2018, ISBN: 978-84-16664-86-3. Ebook, ISBN: 978-84-16664-88-7.",
+    "R. Usamentiaga, J. Entrialgo y J. Molleda. Ejercicios de ensamblador para la arquitectura x86-32. Ediuno. Ediciones de la Universidad de Oviedo, 2008, págs. 1-166. ISBN: 84-8317-661-D",
+    "J. García, M. Garcia, J.L. Díaz, J.R. Arias, F.J. Suárez y D.F. García. Ejercicios de fundamentos de computadores y periféricos. Universidad de Oviedo, 2006. ISBN: 8483175614",
+    "V.C. Hamacher, Z.G. Vranesic, S.G. Zaky, M.L.F. García y G.Q. Vieyra. Organización de computadoras. McGraw-Hill, 1987. ISBN: 9684220588 [4]",
+    "D.A. Patterson y J.L. Hennessy. Estructura y diseño de computadores. Reverté, 2000. ISBN: 8429126163",
+    "W. Stallings. Comunicaciones y redes de computadores. Prentice Hall, 2004",
+    "Pedro De Miguel. Fundamentos de los Computadores. Paraninfo, 2004",
+    "J.M. Angulo. Introducción a los computadores. Paraninfo, 2001",
+    "W. Stallings y A.C. Vargas. Organización y arquitectura de computadores: diseño para optimizar prestaciones. Prentice Hall, 2001. ISBN: 978-8420529936",
+    "Intel. 80386 Guía del programador y Manual de referencia. Anaya, 1989. ISBN: 84-7614- 193-9"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-1-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-1-008",
+  "source_language": "es",
+  "source_sha256": "7e92ab3a7e12fe60a75833c79fca06c2ce340fa0f1d87ff5c87e6baa9ea19984",
+  "extracted_at": "2026-11-20T05:54:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

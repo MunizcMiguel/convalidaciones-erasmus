@@ -1,0 +1,62 @@
+{
+  "course_name_original": "UE Architectures Logicielles et Matérielles",
+  "course_name_en": "Software and Hardware Architectures",
+  "ects": 6.0,
+  "semester": "Fall",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Simple operations with integer arithmetic in base 2",
+    "Reasoning with elementary notions of Boolean algebra",
+    "Knowledge of ARM assembly language",
+    "Proficiency in C programming (pointers in particular)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Master the basic principles of digital design and microprocessor architecture, the notions underlying program execution (instruction interpretation, input/output management, interrupt management), and the interface between software and hardware.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Write simple C programs capable of interacting with hardware peripherals (sensors and actuators), as they can be further explored later in the design of embedded or robotic systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Design of simple dedicated circuits (ASIC): combinatorial circuit design and logical synthesis",
+    "Modeling of expected behavior of synchronous sequential circuits, and their logical synthesis",
+    "Basic concepts of microprocessor design (instruction decoding/execution) and software/hardware interface",
+    "Basic organization of a microprocessor (control, calculations, registers, communications)",
+    "Cooperation between hardware and software in a microprocessor at 3 interaction points: instruction set interpretation, very low-level input/output (data transfers and synchronization), interrupt mechanism management",
+    "Programming simple C applications on ARM processor and interactions with hardware peripherals"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 49.5,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Institut National Polytechnique De Grenoble — Licence Informatique (UGA)",
+  "institution_slug": "ec_f_grenobl22__info",
+  "degree": "Licence Informatique, parcours Informatique (Grenoble)",
+  "course_code": "GBIN5U01",
+  "academic_year": "2026-27",
+  "source_url": "https://formations.univ-grenoble-alpes.fr/fr/offre-de-formation/licence-XA/licence-informatique-IAI7UC15/parcours-informatique-grenoble-KI8WW05W/ue-architectures-logicielles-et-materielles-IF3VDXQP.html",
+  "source_language": "fr",
+  "source_sha256": "4923a71f35ed45802cb1fc9664f81102384fa8c052a0456abafd0cd7d53a9451",
+  "extracted_at": "2026-11-20T12:40:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

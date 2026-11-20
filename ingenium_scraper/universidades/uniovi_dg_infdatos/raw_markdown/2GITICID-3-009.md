@@ -1,0 +1,249 @@
+---
+{
+ "course_code": "2GITICID-3-009",
+ "course_name": "Búsqueda Inteligente y Metaheurísticas",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-3-009",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:12",
+ "content_sha256": "9a36700d555012ade019c036837b2c3c7bbc24ea26e2d956a2798d0d86116b58"
+}
+---
+
+# Búsqueda Inteligente y Metaheurísticas
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-3-009
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Clases Expositivas (16 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura de **Búsqueda Inteligente y Metaheurísticas** se encuadra en la materia de Análisis y visualización de datos. Se desarrolla en el segundo semestre del segundo curso del Grado, y tiene como objetivo introducir las técnicas de resolución de problemas complejos propias de la inteligencia artificial, como son la búsqueda heurística, las técnicas de razonamiento con restricciones y las metaheurísticas. Estas técnicas se utilizarán para resolver problemas de optimización con uno o varios objetivos. La asignatura de Búsqueda Inteligente y Metaheurísticas es básica para otras asignaturas del plan de estudios, en particular para la asignatura de Métodos Heurísticos de Planificación y Scheduling (optativa de tercer curso), y en general para las asignaturas de Aprendizaje Automático ya que muchos de los algoritmos de aprendizaje son en realidad variantes de los algoritmos de búsqueda heurística o metaheurísticas que se estudian en esta asignatura.
+
+## Requisitos
+
+Para abordar esta asignatura con posibilidades de éxito, los alumnos deberán haber cursado con aprovechamiento otras asignaturas previas del plan de estudios en las que se proporcionan los conocimientos básicos de programación, diseño de algoritmos, estructuras de datos y teoría de grafos, necesarios para el modelado y programación de sistemas inteligentes de resolución de problemas. Las más relevantes de estas asignaturas son Metodología de la Programación, Estructuras Discretas y Análisis de Algoritmos, Algoritmia y Programación Avanzada. También es aconsejable haber cursado la asignatura Inferencia Estadística, en la que se explican conceptos para poder evaluar de forma estadística los resultados obtenidos por los métodos que se verán en esta asignatura.
+
+## Competencias y resultados del aprendizaje
+
+Según la memoria de verificación, las competencias a alcanzar por los estudiantes en cuyo desarrollo colabora la asignatura de Búsqueda Inteligente y Metaheurísticas son las siguientes:
+
+**Competencias básicas**
+
+CB2: Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio
+
+CB3: Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética
+
+CB4: Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado
+
+**Competencias generales**
+
+CG1: Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+CG2: Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+CG3: Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+CG4: Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG6: Capacidad de acceso y gestión de la información en diferentes formatos para su posterior análisis con el fin de obtener conocimiento a partir de datos.
+
+CG8: Conocer y aplicar los aspectos éticos y legales relacionados con el tratamiento de los datos y la aplicación del conocimiento obtenido.
+
+CG9: Capacidad para expresar los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+**Competencias específicas**
+
+CE8: Conocer las técnicas de optimización discreta y continua que se aplican en la ciencia e ingeniería de datos.
+
+**Resultados de aprendizaje**
+
+Los resultados de aprendizaje esperados relacionados con la asignatura son los siguientes:
+
+RBUS1: Conocer el paradigma de búsqueda en espacios de estados y saber cómo utilizarlo para resolver problemas de optimización combinatoria. Saber cómo modelar espacios de búsqueda para problemas concretos y cómo incorporar conocimiento del dominio del problema en los algoritmos para mejorar su eficiencia.
+
+RBUS2: Conocer los problemas de satisfacción de restricciones y optimización (CSOP). Saber cómo formular este tipo de problemas y cómo resolverlos utilizando técnicas de búsqueda e inferencia (propagación de restricciones).
+
+RBUS3: Conocer las metaheurísticas y saber cómo utilizarlas para resolver problemas de optimización combinatoria y numérica, con una o varias funciones objetivo.
+
+RBUS4: Saber cómo aplicar los métodos anteriores a problemas propios de la ciencia e ingeniería de datos, como por ejemplo el cálculo de árboles de decisión, los métodos de agrupamiento, el entrenamiento de redes neuronales, etc.
+
+## Contenidos
+
+**Tema 1. Búsqueda en Espacios de Estados**
+
+1. Modelado de espacios de búsqueda
+2. Algoritmos de búsqueda no informada
+3. Algoritmos de búsqueda informada o heurística
+4. Técnicas de diseño de funciones heurísticas
+
+**Tema 2. Resolución de problemas de satisfacción de restricciones y optimización**
+
+1. Formalización de problemas CSOP
+2. Resolución de CSOPs mediante búsqueda
+3. Técnicas de Inferencia. Propagación de restricciones
+
+**Tema 3. Metaheurísticas**
+
+1. Introducción y clasificación de metaheurísticas
+2. Metaheurísticas bio-inspiradas basadas en poblaciones. Algoritmos Genéticos
+3. Metaheurísticas basadas en trayectorias. Búsqueda local y enfriamiento simulado
+
+**Tema 4. Optimización Multiobjetivo**
+
+1. Clasificación. Optimización lexicográfica y optimización de Pareto
+2. Algoritmos evolutivos multiobjetivo
+
+## Metodología y plan de trabajo
+
+La asignatura se desarrollará en modalidad semipresencial, combinando actividades presenciales, actividades de formación online asíncrona y trabajo autónomo del estudiante.
+
+Las **actividades presenciales** son aquellas en las que estará siempre presente el profesor. Se dividen en clases expositivas, prácticas de laboratorio y sesiones de evaluación.
+
+- ***Clases expositivas***: Impartidas al grupo completo, no necesariamente como lección magistral, sino procurando una participación activa del alumno en la dinámica de las mismas. En estas clases se desarrollarán contenidos teóricos de la asignatura, combinados con alguna resolución de pequeños ejercicios. Se utilizará la pizarra y los diferentes medios audiovisuales.
+- ***Prácticas de Laboratorio:*** Dedicadas a resolver ejercicios y problemas, poniendo en práctica lo impartido en las clases expositivas. Se desarrollarán en varios grupos, de manera eminentemente participativa.
+- ***Sesiones de evaluación:*** Se dedicarán a la realización de pruebas escritas o bien con un ordenador, con las que se pueda valorar de forma objetiva el nivel alcanzado por los estudiantes en la adquisición de algunas de las competencias previstas.
+
+Las **actividades de formación online asíncrona** son aquellas en las que el profesor impartirá los contenidos utilizando distintos medios audiovisuales tales como vídeos, y otros materiales docentes, que quedarán a disposición del estudiantado para su estudio. Se dividen en clases expositivas y prácticas de laboratorio.
+
+- ***Clases expositivas***: El contenido de cada hora lectiva se dividirá en el visionado de pequeños vídeos explicativos sobre conceptos de la materia, completados, en ocasiones, con lecturas recomendadas o el estudio de ejemplos resueltos. Se utilizarán distintos medios audiovisuales y repositorios institucionales de la Universidad de Oviedo.
+- ***Prácticas de Laboratorio:*** Se realizarán vídeos explicativos con la resolución de distintos problemas y se propondrán ejercicios y tareas para que los estudiantes los aborden por su cuenta en base a los contenidos de las clases expositivas presenciales y no presenciales.
+
+Por su parte, a fin de cumplir los principios referentes a ECTS, establecidos en el Real Decreto 1393/2007, el estudiante deberá desarrollar un trabajo autónomo paralelo (actividades no presenciales), dirigido por el profesor. Este trabajo incluye el visionado de las clases online, aunque no se limita únicamente a ello.
+
+La metodología docente que se empleará tratará de fomentar la participación activa del alumnado. Para ello se plantearán actividades y ejercicios que impliquen al alumno y propicien su participación, ya sea resolviendo tareas de manera autónoma o colaborativa en el aula. Se motivará al alumnado a preguntar las dudas que les surjan durante las clases online mediante e-mail, tutorías virtuales o durante el transcurso de las prácticas de laboratorio presenciales.
+
+Asimismo, se realizarán, si a juicio de los profesores se estima conveniente, controles con objeto de conocer el grado de adquisición de las competencias más relacionadas con los contenidos de la asignatura.
+
+Con respecto a las prácticas de laboratorio, tanto presenciales como online, podrían plantearse ejercicios para entregar al final de cada sesión de prácticas o bien al final de cada uno de los temas de la asignatura.
+
+Se utilizarán metodologías docentes acordes con el tamaño de cada grupo.
+
+A continuación, se presentan unas tablas que especifican la temporalidad de las actividades tanto presenciales como no presenciales:
+
+**Volumen de trabajo estimado para el estudiante**
+
+| MODALIDADES |  | Horas | % |
+| --- | --- | --- | --- |
+| Presencial | Clases expositivas presenciales | 14 | 9.3% |
+|  | Prácticas de Laboratorio presenciales | 14 | 9.3% |
+|  | Sesiones de evaluación | 2 | 1.3% |
+|  | Total | 30 | 20% |
+| No presencial | Clases expositivas online | 15 | 10.0% |
+|  | Prácticas de Laboratorio online | 15 | 10.0% |
+|  | Estudio autónomo de teoría | 30 | 20.0% |
+|  | Resolución de Ejercicios de Forma Autónoma | 20 | 13.3% |
+|  | Estudio y preparación de prácticas de Laboratorio | 40 | 26.6% |
+|  | Total | 120 | 80% |
+|  | Total | 150 | 100% |
+
+**Distribución del trabajo por temas**
+
+|  |  | ***Presencial*** |  |  |  | ***No presencial*** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de laboratorio /aula de informática* | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva* | *Prácticas de laboratorio* | *Trabajo autónomo* | **Total** |
+| Presentación y funcionamiento general del curso | **1** |  |  |  | **0** | 1 |  |  | **1** |
+| Búsqueda en espacios de estados | **38** | 4 | 3 |  | **7** | 4 | 4 | 23 | **31** |
+| Resolución de problemas de satisfacción de restricciones y optimización | **38** | 3 | 4 | 1 | **8** | 3 | 4 | 23 | **30** |
+| Metaheurísticas | **55** | 5 | 5 |  | **10** | 5 | 5 | 35 | **45** |
+| Optimización multiobjetivo | **18** | 2 | 2 | 1 | **5** | 2 | 2 | 9 | **13** |
+| **Total** | **150** | **14** | **14** | **2** | **30** | **15** | **15** | **90** | **120** |
+
+## Evaluación del aprendizaje
+
+**7.1** **Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria está dividida en teoría, prácticas, asistencia a clase, y participación activa. La evaluación de cada uno de estos cuatro bloques consta de los siguientes elementos:
+
+- Bloque teórico: para aprobar la asignatura en la convocatoria ordinaria es necesario obtener una calificación de al menos 4 puntos sobre 10 en este bloque.
+  - Examen parcial (T1): Consta de una prueba teórica a realizar tras la primera mitad del semestre. Se evaluarán los contenidos del Tema 1 y del Tema 2. En caso de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial. La calificación final correspondiente a los Temas 1 y 2 será el máximo entre la calificación obtenida en este examen parcial y la obtenida en la parte correspondiente a estos temas en el examen teórico de la convocatoria oficial. No es necesaria una nota mínima.
+  - Examen parcial (T2): Consta de una prueba teórica a realizar al final del semestre. Se evaluarán los contenidos del Tema 3 y del Tema 4. En caso de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial. La calificación final correspondiente a los Temas 3 y 4 será el máximo entre la calificación obtenida en este examen parcial y la obtenida en la parte correspondiente a estos temas en el examen teórico de la convocatoria oficial. No es necesaria una nota mínima.
+
+- Bloque práctico: para aprobar la asignatura en la convocatoria ordinaria es necesario obtener una calificación de al menos 4 puntos sobre 10 en este bloque.
+  - Práctica Tema 1 (P1): Esta prueba será de una de las dos siguientes modalidades: o bien mediante la entrega, y posterior defensa a requerimiento de los profesores, de un trabajo que deberán realizar en parte fuera de las horas de clase, o bien mediante la realización de una prueba presencial. No es necesaria una nota mínima.
+  - Práctica Tema 2 (P2): Esta prueba será de una de las dos siguientes modalidades: o bien mediante la entrega, y posterior defensa a requerimiento de los profesores, de un trabajo que deberán realizar en parte fuera de las horas de clase, o bien mediante la realización de una prueba presencial. No es necesaria una nota mínima.
+  - Práctica Temas 3 y 4 (P3): Esta prueba será de una de las dos siguientes modalidades: o bien mediante la entrega, y posterior defensa a requerimiento de los profesores, de un trabajo que deberán realizar en parte fuera de las horas de clase, o bien mediante la realización de una prueba presencial. No es necesaria una nota mínima.
+- Asistencia a clase (A): Se controlará la asistencia a las clases de teoría y de prácticas de laboratorio. La calificación será de 10 si se ha asistido al menos al 80% de las clases. En caso contrario, la calificación se calculará como (A1 x 10) / (AT x 0.8), siendo A1 el número de clases a las que se asistió y AT el número total de clases. No es necesaria una nota mínima.
+- Participación activa (PA): Se realizará un cuestionario online tras la primera mitad del semestre, que se podrá realizar fuera del horario lectivo, con los contenidos del Tema 1 y Tema 2. Se realizará otro cuestionario online al final del semestre, que se podrá realizar fuera del horario lectivo, con los contenidos del Tema 3 y Tema 4. La nota de este bloque será la media de ambos cuestionarios. No es necesaria una nota mínima.
+
+Calificación
+
+La nota final del bloque teórico se calcula como:
+
+Nota\_teoría = (T1 x 0.5) + (T2 x 0.5)
+
+La nota final del bloque práctico se calcula como:
+
+Nota\_prácticas = (P1 x 0.25) + (P2 x 0.25) + (P3 x 0.5)
+
+Si se ha alcanzado el mínimo establecido para los bloques teórico y práctico, la nota final de la convocatoria se calcula como:
+
+(Nota\_teoría x 0.45) + (Nota\_prácticas x 0.4) + (A x 0.05) + (PA x 0.1)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**7.2** **Convocatoria extraordinaria**
+
+La convocatoria extraordinaria consta de un examen teórico y una parte práctica.
+
+El examen teórico está dividido en dos partes, y para aprobar la asignatura en la convocatoria extraordinaria es necesario obtener una calificación de al menos 4 puntos sobre 10.
+
+- Parte 1 (TE1): Se evaluarán los contenidos del Tema 1 y del Tema 2. La calificación final correspondiente a los Temas 1 y 2 será el máximo entre la calificación obtenida en este elemento y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento T1). No es necesaria una nota mínima.
+- Parte 2 (TE2): Se evaluarán los contenidos del Tema 3 y del Tema 4. La calificación final correspondiente a los Temas 3 y 4 será el máximo entre la calificación obtenida en este elemento y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento T2). No es necesaria una nota mínima.
+
+La evaluación de la parte práctica está dividida en tres partes, y para aprobar la asignatura en la convocatoria extraordinaria es necesario obtener una calificación de al menos 4 puntos sobre 10.
+
+- Práctica Tema 1 (PE1): Esta prueba será de una de las dos siguientes modalidades: o bien mediante la entrega, y posterior defensa a requerimiento de los profesores, de un trabajo que deberán realizar en parte fuera de las horas de clase, o bien mediante la realización de una prueba presencial. La calificación final de este elemento será el máximo entre la obtenida en esta prueba y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento P1). No es necesaria una nota mínima.
+- Práctica Tema 2 (PE2): Esta prueba será de una de las dos siguientes modalidades: o bien mediante la entrega, y posterior defensa a requerimiento de los profesores, de un trabajo que deberán realizar en parte fuera de las horas de clase, o bien mediante la realización de una prueba presencial. La calificación final de este elemento será el máximo entre la obtenida en esta prueba y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento P2). No es necesaria una nota mínima.
+- Práctica Temas 3 y 4 (PE3): Esta prueba será de una de las dos siguientes modalidades: o bien mediante la entrega, y posterior defensa a requerimiento de los profesores, de un trabajo que deberán realizar en parte fuera de las horas de clase, o bien mediante la realización de una prueba presencial. La calificación final de este elemento será el máximo entre la obtenida en esta prueba y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento P3). No es necesaria una nota mínima.
+
+Si se ha alcanzado el mínimo establecido para los bloques teórico y práctico, la nota final de la convocatoria se calcula como:
+
+(TE1 x 0.5 + TE2 x 0.5) x 0.53 + (PE1 x 0.25 + PE2 x 0.25 + PE3 x 0.5) x 0.47
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**7.3 Evaluación diferenciada**
+
+Aquellos alumnos con derecho a evaluación diferenciada serán evaluados del mismo modo que en las convocatorias extraordinarias.
+
+## Bibliografía
+
+Las siguientes tablas incluyen las referencias bibliográficas básicas y complementarias que se utilizan en la asignatura. Sin embargo, los estudiantes dispondrán también de otros recursos en forma de apuntes, transparencias, boletines de problemas, exámenes tipo, etc. que tendrán a su disposición en el Campus Virtual.
+
+| **Bibliografía básica** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Artificial Intelligence: A Modern Approach* | Stuart Russell, Peter Norvig | Pearson, 2019 |
+| *Metaheuristics: From Design to Implementation* | El-Ghazali Talbi | Wiley, 2009 |
+
+| **Bibliografía complementaria** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Heuristics: Intelligent Search Strategies for Computer Problem Solving* | Judea Pearl | Addison Wesley, 1984 |
+| *Handbook of Constraint Programming* | Francesca Rossi, Peter van Beek, Toby Walsh | Elsevier, 2006 |

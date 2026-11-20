@@ -1,0 +1,161 @@
+{
+  "course_name_original": "DISEÑO DE MAQUINAS II",
+  "course_name_en": "MACHINE DESIGN II",
+  "ects": 4.5,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES (565000345)",
+    "TEORIA DE MAQUINAS Y MECANISMOS (565000353)",
+    "DISEÑO DE MAQUINAS I (565000354)",
+    "MECANICA (565000326)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of basic theories and concepts on the behavior of machines, their elements, and the materials used.",
+      "type": "knowledge",
+      "code": "RA219"
+    },
+    {
+      "text": "Application of learned basic theories and concepts to problems on the design and sizing of machine elements.",
+      "type": "skill",
+      "code": "RA220"
+    },
+    {
+      "text": "Ability to autonomously solve problems of design and sizing of machine elements.",
+      "type": "skill",
+      "code": "RA221"
+    },
+    {
+      "text": "Knowledge and abilities for the design of machine elements.",
+      "type": "knowledge",
+      "code": "RA3"
+    },
+    {
+      "text": "Handling of machine element sizing software.",
+      "type": "skill",
+      "code": "RA222"
+    }
+  ],
+  "syllabus_topics": [
+    "1. Shafts and axles",
+    "1.1. Generalities. Fundamental equations.",
+    "1.2. Design of shafts and axles.",
+    "1.2.1. Critical locations.",
+    "1.2.2. Stresses in shafts and axles.",
+    "1.2.3. Estimation of stress concentrators.",
+    "1.3. Calculation of deformations in shafts and critical speeds.",
+    "2. Surface Failure and Wear",
+    "2.1. Friction.",
+    "2.2. Surface parameters: Roughness.",
+    "2.3. Types of wear: abrasion, erosion, adhesion, corrosion, and surface fatigue.",
+    "2.4. Lubrication.",
+    "2.5. Modeling of surface fatigue failure. Hertzian pressure.",
+    "3. Bearings",
+    "3.1. Generalities. Types of bearings.",
+    "3.2. Bearing mounting.",
+    "3.3. Selection of bearing type and size.",
+    "3.4. Kinematic study of a bearing.",
+    "3.5. Dynamic study of a bearing.",
+    "3.5.1. Static and dynamic load capacity.",
+    "3.5.2. Equivalent load.",
+    "3.5.3. Axial loads on tapered roller bearings.",
+    "3.6. Bearing life.",
+    "4. Introduction to gears.",
+    "4.1. Types of gears.",
+    "4.2. Gear kinematics: transmission ratio.",
+    "4.3. Geometry of spur and helical cylindrical gears.",
+    "4.4. Gear dynamics: force transmission in spur and helical cylindrical gears.",
+    "4.5. Gear manufacturing and standardization.",
+    "5. Design of straight and helical parallel axis gears.",
+    "5.1. Bending failure at the tooth root. Bending stress.",
+    "5.2. Surface wear failure. Contact stress.",
+    "5.3. Geometric, elastic, and service factors.",
+    "5.4. Comparison strengths and safety factors.",
+    "6. Bevel gears",
+    "6.1. Introduction. Types of bevel gears.",
+    "6.2. Geometric and kinematic relationships.",
+    "6.3. Forces in bevel gears.",
+    "6.4. Bending strength.",
+    "6.5. Surface wear resistance.",
+    "7. Crossed-axis gears",
+    "7.1. Helical crossed-axis gears",
+    "7.1.1. Geometry of crossed-axis gears (non-parallel and non-coplanar).",
+    "7.1.2. Kinematic analysis",
+    "7.1.3. Dynamic analysis",
+    "7.2. Worm gears",
+    "7.2.1. Introduction",
+    "7.2.2. Geometric relationships",
+    "7.2.3. Dynamic analysis",
+    "7.2.4. Kinematic analysis",
+    "7.2.5. Wear resistance"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes",
+    "Laboratory practices",
+    "Company seminar"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Progressive Evaluation Test 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "Progressive Evaluation Test 2",
+      "weight_percentage": null
+    },
+    {
+      "method": "Lab Work (evaluation task)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Problem Exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final Theory Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Laboratory Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Extraordinary Final Exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "In the Ordinary Call, students can choose between Progressive Evaluation or a Global Test. For Progressive Evaluation, the final grade (C) is calculated as 0.30 * progressive_tests + 0.10 * lab_work + 0.60 * final_problem_exam, requiring a minimum of 4.0/10 in the problem exam and C >= 5.0/10. For the Global Test, C is 0.30 * final_theory_exam + 0.10 * final_lab_exam + 0.60 * final_problem_exam, with the same minimums. In the Extraordinary Call, the final grade is 100% from a single written exam, requiring a minimum of 5.0/10 to pass.",
+  "bibliography": [
+    "BUDYNAS & NISBETT. Diseño en ingeniería mecánica de Shigley (10ª ed.). McGraw-Hill Interamericana, 2015.",
+    "Schmid, Jacobson & Hamrock. Fundamentals of machine elements - SI versión (3rd ed.). CRC Press, 2014.",
+    "Juvinall & Marshek. Fundamentals of machine component design - SI version (6th ed.). Global ed. Singapore, 2017.",
+    "DUDLEY & RADZEVICH. Dudley's handbook of practical gear design and manufacture (4th ed.). CRC Press, 2022.",
+    "Decker. Elementos de máquinas. Ed. Urmo.",
+    "Decker. Maschinenelemente. Funktion, Gestaltung und Berechnung. Hanser.",
+    "Norton, R.L. Diseño de máquinas: un enfoque integrado (4ª ed.). Pearson Educación (2011).",
+    "Mott. Diseño de elementos de máquinas. Ed. Pearson.",
+    "Stachowiak & y Batchelor. Engineering Tribology. 4th ed. 2013.",
+    "Apuntes de clase."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000364",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000364_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "cf76c80f2227fe78e00a88599538e84338c60092c0dcb92449b2ee6da80b6932",
+  "extracted_at": "2026-11-13T20:32:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

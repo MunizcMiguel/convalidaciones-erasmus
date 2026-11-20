@@ -1,0 +1,192 @@
+{
+  "course_name_original": "Elasticidad y resistencia de materiales",
+  "course_name_en": "Elasticity and Strength of Materials",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Having passed the subjects of First Year. Especially: Mathematics I and II and Physics I and II, as well as those of Second Year, first semester of Machine Mechanics and Materials Science and Engineering."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "That students can transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "That students have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to apply new technologies, including information and communication technologies.",
+      "type": "skill",
+      "code": "135ACT4"
+    },
+    {
+      "text": "Ability to manage information, handle and apply technical specifications and necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "135ACT2"
+    },
+    {
+      "text": "Ability to transmit information orally and in writing adapted to the audience.",
+      "type": "skill",
+      "code": "135ACT6"
+    },
+    {
+      "text": "Basic knowledge of production and manufacturing systems.",
+      "type": "knowledge",
+      "code": "135ACC9"
+    },
+    {
+      "text": "Knowledge of the principles of machine and mechanism theory.",
+      "type": "knowledge",
+      "code": "135ACC7"
+    },
+    {
+      "text": "Knowledge and use of the principles of strength of materials.",
+      "type": "knowledge",
+      "code": "135ACC8"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Elasticity",
+    "Introduction to Continuum Mechanics",
+    "The Elastic Solid and its Properties",
+    "Hypotheses and Principles of Elasticity",
+    "Stresses",
+    "The Concept of Stress",
+    "Equilibrium Equations",
+    "Principal Stresses. Invariant Properties",
+    "Plane Stress",
+    "Graphical Representation of Stresses. Mohr's Circles",
+    "Deformations",
+    "Introduction. Volume Changes and Shape Changes",
+    "The Concept of Deformation",
+    "The Deformation Matrix. Properties",
+    "Compatibility Equations",
+    "Plane Strain",
+    "Stress - Strain Relationship",
+    "The Tensile Test",
+    "Transverse Deformation. Poisson's Ratio",
+    "Stress - Strain Relationship. Hooke's Law",
+    "Lamé's Equations",
+    "Formulation of the Elastic Problem",
+    "The Energetic Approach to Elasticity",
+    "Introduction. Strain Energy",
+    "Expressions of Strain Energy",
+    "Castigliano's Theorem",
+    "Yield Criteria. Tensión de von Mises",
+    "Calculation of Thin-Walled Vessels",
+    "Introduction. Thin-walled shells",
+    "Cylindrical and spherical vessels subjected to internal pressure",
+    "Open cylindrical tanks containing liquids",
+    "Cylindrical pipes subjected to a pressure",
+    "Basic Concepts of Strength of Materials",
+    "Introduction",
+    "The mechanical prism",
+    "Definition of internal forces in the section",
+    "General principles of Strength of Materials",
+    "External and sectional equilibrium",
+    "Types of supports. Reactions at supports",
+    "Isostatic and hyperstatic systems",
+    "Tension and Compression",
+    "Stresses due to uniaxial tension or compression",
+    "Laws and diagrams of axial forces",
+    "Deformations produced by axial force",
+    "Study of tension or compression produced by self-weight",
+    "Expression of internal potential associated with axial force",
+    "General Theory of Bending",
+    "Simple Bending. Navier's Law",
+    "Relationship between Shear Force and Bending Moment",
+    "Laws and diagrams of bending moments and shear forces",
+    "Analysis of the ten elementary beams",
+    "Stresses produced by Shear Force. Collignon's Theorem",
+    "Principal stresses and von Mises stress in Bending",
+    "Deformations Produced by Bending",
+    "Differential Equation of the Elastic Curve",
+    "Double Integration Method",
+    "Mohr's Theorems in Bending",
+    "Expression of Internal Potential in Simple Bending",
+    "Deformation produced by Shear Force",
+    "Skew and Compound Bending",
+    "Introduction",
+    "Skew Bending. Neutral Axis",
+    "Deformation produced in Skew Bending",
+    "Compound Bending or Eccentric Tension/Compression",
+    "Center of Pressure",
+    "Neutral Axis and Central Core in Compound Bending",
+    "Lateral Bending or Buckling",
+    "Introduction. Column Stability",
+    "Euler's Formula",
+    "Critical Load according to support conditions. Buckling Length",
+    "Torsion",
+    "Pure Torsion. Elementary theory in prisms of circular section",
+    "Determination of torsional moments in beams",
+    "Torsion in prisms of non-circular section",
+    "Internal potential of a prism subjected to torsion",
+    "Practical 1: Resolution of Elasticity problems with MATLAB - Programming a script to calculate principal stresses, directions, invariants, and Mohr's circle.",
+    "Practical 2: Analysis of stresses and strains in cylindrical shells subjected to pressure - Applying electrical extensometry to evaluate deformations, comparing experimental values with theoretical ones, and representing Mohr's circle and yield criteria.",
+    "Practical 3: Electrical Extensometry applied to Strength of Materials: Tension/Compression, Torsion, and Bending - Studying extensometry for measuring deformations in tension, simple bending, and torsion problems.",
+    "Practical 4: Numerical resolution of stress diagrams in beams using computational software. Introduction to BIM - Using Robot Structural Analysis Professional software to solve beam problems, obtain stress diagrams, analyze deformations, and check Serviceability Limit States.",
+    "Practical 5: Experimental measurement of the Elastic Curve in simple bending - Studying vertical deformation or deflection in bars under bending for different types of bars, load values, and support lengths, comparing experimental with theoretical values using Mohr's 2nd theorem.",
+    "Practical 6: Strength design of isostatic beams in compound bending using computational software - Using Robot Structural Analysis Professional to design an isostatic mechanical prism under compound bending, obtaining stress diagrams, analyzing normal and shear stresses, and checking resistance according to Ultimate Limit States criteria.",
+    "Practical 7: Skew and Compound Bending. Introduction to profile design - Reinforcing concepts of skew and compound bending, brief theoretical introduction, and design of prismatic bars and standardized section beams using Excel spreadsheets and MATLAB scripts.",
+    "Practical 8: Lateral Bending or Buckling. Buckling Length according to Support - Introduction to calculating Euler's critical load for different support conditions and comparing with experimental results."
+  ],
+  "teaching_methods": [
+    "Lectures (Expositive classes developing official syllabus, problem solving, previous exam problems, use of textbook, online notes, transparencies, proposed problem collections, previous exams, YouTube channel, flipped classroom experiences, optional additional theory in English)",
+    "Practical sessions (Laboratory or computer lab sessions, expository part by professor, group work, detailed guides with theoretical introduction and equipment description, autonomous work with supervision, spreadsheet/computational software scripts, report submission, focus on measurement and control, observation of physical phenomena, reasoned interpretation, report writing, optional additional practical content in English)",
+    "Collective tutorials/Seminars (Affirm and expand concepts, applied problems, clarification of doubts, forums, practical case seminars focused on real problems and applications, use of audiovisual material, autonomous activities)",
+    "Project-based learning (Group activity, supervised throughout the course with seminars/collective tutorials, analyzing new problems using different techniques, promoting association of ideas, source utilization, self-criteria, fostering CB2, CB3, CT2, CB4, covering complementary aspects of lab practices, optional project in English as COIL action)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and Participation",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical Concepts of the Subject",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Realization of assignments, cases or exercises (practices, reports, directed activity)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "In the theoretical exam, a score greater than zero is required for both theoretical (30%) and operative (70%) content. To pass the subject, both the exam and the practicals must be passed independently. Practical assessment involves reports and an evaluation test, and non-attendance to practices results in automatic failure. For the extraordinary call, a student with failed practicals must pass a practical exam, which then determines the final subject grade.",
+  "bibliography": [
+    "Jiménez González, José Ignacio, aut. - (2020) - Fundamentos de elasticidad y resistencia de materiales - Paraninfo",
+    "Gere, James M. - (2009) - Mecánica de materiales - Cengage Learning",
+    "Ortiz Berrocal, Luis - (1998) - Elasticidad - McGraw-Hill",
+    "Ortiz Berrocal, Luis - (2007) - Resistencia de materiales - McGraw-Hill",
+    "Vázquez, Manuel. - (1999) - Resistencia de materiales - Noela",
+    "Jiménez González, José Ignacio, aut. - (2020) - Fundamentos de elasticidad y resistencia de materiales - Paraninfo",
+    "Goodno, Barry J., Gere, James M. - () - Mechanics of Materials - CENGAGE LEARNING"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412006",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/135A/13512008/es/2026-27-13412006_es.html",
+  "source_language": "es",
+  "source_sha256": "ffbed4df52212ff7a020a855e4d294c2b82ea2419c65bd681a7b85bd2d9ef443",
+  "extracted_at": "2026-11-13T21:38:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

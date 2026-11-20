@@ -1,0 +1,141 @@
+{
+  "course_name_original": "Integración de Sistemas Electrónicos",
+  "course_name_en": "Integration of Electronic Systems",
+  "ects": 4.5,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Circuit theory with its main laws and theorems, both in direct and alternating current and in steady and transient regimes.",
+    "Basic electronics, both analog and digital and A/D conversion.",
+    "Basic instrumental concepts (noise, error, common mode, etc.)",
+    "Basic ideas of power electronics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the standards that electronic equipment must comply with to guarantee the safety of its users.",
+      "type": "knowledge",
+      "code": "CG1, CG2, CG5, CG7, CG12 y CG13"
+    },
+    {
+      "text": "Know the electromagnetic compatibility standards that equipment connected to the electrical network must comply with in relation to the injection of low-frequency harmonics into said network. Be able to measure said harmonics and propose solutions to ensure compliance with the standards.",
+      "type": "knowledge",
+      "code": "CG1, CG2, CG5, CG7, CG12 y CG13"
+    },
+    {
+      "text": "Know the standards that electronic equipment must comply with to guarantee its resistance against external physical actions, such as impacts, humidity, salinity, thermal cycles, etc.",
+      "type": "knowledge",
+      "code": "CG1, CG2, CG5, CG7 y CG13"
+    },
+    {
+      "text": "Plan the complete assembly of a simple electronic equipment.",
+      "type": "skill",
+      "code": "CG1 y CG7"
+    },
+    {
+      "text": "Design a ventilation system (natural and forced) in simple electronic equipment.",
+      "type": "skill",
+      "code": "CG1, CG2 y CG7"
+    },
+    {
+      "text": "Design printed circuit boards and plan their assembly.",
+      "type": "skill",
+      "code": "CG1 y CG7"
+    },
+    {
+      "text": "Define a test process for a simple electronic equipment.",
+      "type": "skill",
+      "code": "CG7, CG13 y CE15"
+    },
+    {
+      "text": "Document the circuitry used in electronic equipment.",
+      "type": "skill",
+      "code": "CG11"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic implementation of electronic systems on printed circuit boards (PCB)",
+    "Types of PCB, characteristics and applicable regulations",
+    "PCB design.",
+    "PCB manufacturing and assembly",
+    "Manual and automated manufacturing",
+    "Gerber, BOM and Pick & Place files",
+    "Printed circuit board assembly",
+    "Verification and testing of printed circuit boards",
+    "Thermal considerations in the design of electronic systems",
+    "Thermal models",
+    "Ventilation and cooling of electronic systems",
+    "Thermal stress",
+    "Electromagnetic interference (EMI) and electromagnetic compatibility (EMC) in LF",
+    "Sources of interference",
+    "Interference coupling mechanisms",
+    "Conducted interference",
+    "Near-field coupling",
+    "Far-field coupling",
+    "Reduction of emitted interference and immunity to interference",
+    "Testing of electronic systems. EMI/EMC regulations",
+    "Advanced PCB design and wiring of electronic systems",
+    "Reduction of shared impedance effects",
+    "PCB design for hostile EMI environments",
+    "System wiring",
+    "Other considerations",
+    "Safety in electronic equipment",
+    "Basic concepts: enclosures, damage and protections",
+    "Safety of people in handling electronic systems",
+    "Discharges",
+    "Protections",
+    "Safety of installations. Hazardous environments",
+    "Safety of electronic systems",
+    "Against discharges (in assembly and use)",
+    "Against environmental conditions. Regulations",
+    "Against vibrations and impacts. Regulations",
+    "Documentation of electronic systems",
+    "Contractual conditions and regulations",
+    "Test and verification",
+    "Report writing",
+    "Practical project to be carried out during the semester consisting of the development of an electronic system on which theoretical contents are developed: design and assembly of printed circuits, operational integration with the rest of the subsystems and verification of its operation. This work will be carried out in small groups."
+  ],
+  "teaching_methods": [
+    "Expositive classes (CEX)",
+    "Laboratory practices (PL)",
+    "Group tutorials (TG)",
+    "Collaborative and participatory learning model",
+    "Project-based learning"
+  ],
+  "workload_hours_total": 112.5,
+  "workload_hours_contact": 36.5,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practice monitoring (Planning, task assignment, milestone evaluation, partial reports)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final project evaluation (Requirement fulfillment, additional functionalities, final report, oral presentation)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Written theoretical exam",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For ordinary calls, the final grade is calculated as 25% for lab practice monitoring, 45% for the final project, and 30% for a written theoretical exam. For extraordinary calls, the theoretical part is 30% via written exam and the practical part is 70%. If the project was done, the same method as ordinary call is used for the practical part; otherwise, the practical grade is split equally between a practical exam and a design report. For differentiated evaluation, the theoretical part is 50% via written exam and the practical part is 50% via a comprehensive design report. To pass under differentiated evaluation, the average of both parts must be 5 points or higher, and the minimum score for each part must be 4 points. If the average is above 5 but either block is below 4 points, the final grade will be 4 points.",
+  "bibliography": [
+    "Pérez, Miguel A., Instrumentación electrónica. Ed. Paraninfo, 2014.",
+    "Henry W. Ott, Noise Reduction Techniques in Electronic Systems 2nd Edition Ed. John Wiley & Sons March 9, 1988.",
+    "Brooks, David. Desgin of PCB, UltraCAD Technologies (available online)."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-2-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-2-007",
+  "source_language": "es",
+  "source_sha256": "c9ac00624f26df0dbaff66b5ae0da184951ef128ae2d54435be5a1563c258ff1",
+  "extracted_at": "2026-11-20T06:07:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

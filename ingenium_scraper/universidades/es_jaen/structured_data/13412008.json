@@ -1,0 +1,187 @@
+{
+  "course_name_original": "Electrotecnia (13412008)",
+  "course_name_en": "Electrotechnics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "It is recommended to have completed the courses Physics I, Physics II, Calculus, and Algebra.",
+    "A review of trigonometry, geometry, vector calculus, and complex numbers is also useful."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to work, lead and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "skill",
+      "code": "135ACT1"
+    },
+    {
+      "text": "Ability to apply new technologies including information and communication technologies.",
+      "type": "skill",
+      "code": "135ACT4"
+    },
+    {
+      "text": "Ability to manage information, handle and apply technical specifications and the necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "135ACT2"
+    },
+    {
+      "text": "Ability for oral and written transmission of information adapted to the audience.",
+      "type": "skill",
+      "code": "135ACT6"
+    },
+    {
+      "text": "Knowledge and use of the principles of circuit theory and electrical machines.",
+      "type": "knowledge",
+      "code": "135ACC4"
+    },
+    {
+      "text": "Knowledge of the fundamentals of electronics.",
+      "type": "knowledge",
+      "code": "135ACC5"
+    },
+    {
+      "text": "Knowledge of the fundamentals of automatisms and control methods.",
+      "type": "knowledge",
+      "code": "135ACC6"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. FUNDAMENTALS OF ELECTRICAL CIRCUITS",
+    "Electric dipole.",
+    "Current of a dipole.",
+    "Potential difference between the terminals of a dipole.",
+    "Power of a dipole.",
+    "Short circuit and open circuit.",
+    "Definition of an electrical circuit.",
+    "Active elements.",
+    "Passive elements.",
+    "Topic 2. CIRCUIT ANALYSIS TECHNIQUES",
+    "Definition of node and mesh.",
+    "Node law or Kirchhoff's 1st Law.",
+    "Mesh law or Kirchhoff's 2nd Law.",
+    "Association of passive elements.",
+    "Association of active elements.",
+    "Conversion of voltage source to current sources and vice versa.",
+    "General method.",
+    "Analysis of electrical circuits using the mesh method.",
+    "Analysis of electrical circuits using the node method.",
+    "Topic 3. SINUSOIDAL MAGNITUDES",
+    "Introduction.",
+    "Fundamental magnitudes.",
+    "Complex notation.",
+    "Resistance.",
+    "Coil.",
+    "Capacitor.",
+    "Complex Impedance. Admittance.",
+    "Series impedance association: voltage divider.",
+    "Parallel impedance association: current divider.",
+    "Topic 4. CIRCUITS IN SINUSOIDAL STEADY STATE",
+    "Series RLC circuit.",
+    "Parallel RLC circuit.",
+    "Analysis of AC circuits.",
+    "Instantaneous power and active or consumed power.",
+    "Active, reactive, and apparent powers.",
+    "AC power in elements: resistance.",
+    "AC power in elements: coil.",
+    "AC power in elements: capacitor.",
+    "AC power in elements: impedance.",
+    "Power balance.",
+    "Power factor and its correction.",
+    "Topic 5. THREE-PHASE SYSTEMS",
+    "Definition.",
+    "Balanced three-phase circuits.",
+    "Phase or simple values and line or compound values.",
+    "Instantaneous power.",
+    "Three-phase power.",
+    "Power factor correction.",
+    "Topic 6. GENERAL PRINCIPLES OF ELECTRICAL MACHINES",
+    "Introduction.",
+    "Definitions.",
+    "General classification of electrical machines.",
+    "Basic constructive elements: Ferromagnetic core: stator, rotor. Windings.",
+    "Energy balance and efficiency. Copper, iron, and mechanical losses.",
+    "Rated values and nameplate.",
+    "Topic 7. TRANSFORMERS",
+    "Introduction.",
+    "Construction and constructive forms.",
+    "Ideal transformer.",
+    "Referred magnitudes.",
+    "Equivalent circuit of the real transformer.",
+    "No-load and short-circuit tests.",
+    "Operation under load: Internal voltage drop. Efficiency and regulation.",
+    "Three-phase transformers.",
+    "Topic 8. ASYNCHRONOUS OR INDUCTION MACHINES",
+    "Introduction.",
+    "Physical construction.",
+    "Simplified equivalent circuit.",
+    "Short-circuit test.",
+    "No-load test.",
+    "Characteristic curves.",
+    "Power balance.",
+    "Starting of the three-phase induction motor.",
+    "The single-phase induction motor.",
+    "Direct current circuits. Kirchhoff's laws.",
+    "Behavior of passive elements in alternating current.",
+    "Alternating current circuits: Analysis of series and parallel RLC circuits.",
+    "Three-phase systems.",
+    "Transformer tests."
+  ],
+  "teaching_methods": [
+    "Large group lectures (lectures, exposition of theory and general examples)",
+    "Small group classes (exercise solving, practical activities, laboratories)",
+    "Collective/individual tutorials (doubt clarification, comments on individual assignments)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and/or participation in face-to-face and/or virtual activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical concepts exam",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Individual assignments (10%) and group assignment (5%)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Laboratory practices (67% memory report, 33% attendance)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is a weighted average according to the established percentages. To pass the subject, a minimum score of 5 out of 10 must be obtained in the theoretical knowledge test. It is also mandatory to pass the practicals. A practical recovery session will be held for students who have a single unjustified missed practical.",
+  "bibliography": [
+    "Queijo García, Gumersindo. - (2018) - Fundamentos de tecnología eléctrica - Universidad Nacional de Educación a Distancia",
+    "Fraile Mora, Jesús - (2012) - Circuitos eléctricos - Pearson",
+    "Usaola García, Julio. - (2002) - Circuitos eléctricos: problemas y ejercicios resueltos - Prentice Hall",
+    "Edminister, Joseph A. - (1988) - Circuitos eléctricos - McGraw-Hill",
+    "Karris, Steven T. - (2009) - Circuit analysis I: with matlab computing and simulink - Orchard Publications",
+    "Karris, Steven T. - (2009) - Circuit analysis II: with MATLAB computing and Simulink/SimPowerSystems modeling - Orchard Publications",
+    "Fraile Mora, Jesús - (2015) - Problemas de máquinas eléctricas - Garceta"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412008",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/135A/13512009/es/2026-27-13412008_es.html",
+  "source_language": "es",
+  "source_sha256": "3590e9b3da4f53de0404a36c9c8f275c6ec838218ad4598973574ab53f397f87",
+  "extracted_at": "2026-11-13T21:38:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

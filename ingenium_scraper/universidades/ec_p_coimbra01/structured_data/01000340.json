@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Sistemas de Microprocessadores",
+  "course_name_en": "Microprocessor Systems",
+  "ects": 6.0,
+  "semester": "SEMESTRIAL",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Computer Programming (preferably in C language)",
+    "Laboratory of Digital Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Proficiency in C programming by fully understanding the interaction between software and hardware.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Programming using assembly languages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge about modern computer architectures and trade-offs that must be taken into account during design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understanding the principle of abstraction by layers that enables to build complex engineering systems.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Module 1: C language and Hardware",
+    "C Language (revision of basic concepts)",
+    "Pointers and memory addressing",
+    "Memory zones: code segment, static memory, stack, heap and dynamic allocation",
+    "Management of dynamic memory",
+    "I/O ports, interruption and hardware programming",
+    "Module 2: Assembly for MIPS",
+    "Basic arithmetic instructions",
+    "Reading and writing in the memory",
+    "Mechanisms for controlling the execution flow",
+    "Conventions for calling a function, registers and parameters",
+    "Instruction codification",
+    "make-ing an Executable",
+    "Module 3: Introduction to Computer Architecture",
+    "CPU organization (datapath and control unit)",
+    "Parallel execution using Pipelining",
+    "Memory Hierarchy",
+    "New trends in computer architecture."
+  ],
+  "teaching_methods": [
+    "Theoretical sessions with slides",
+    "Lab sessions with weekly assignments"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory work or Field work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Mini Tests",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Computer Organization and Design: The Hardware/Software Interface (5th Edition), by D. Patterson and J. Hennessy, 2013",
+    "The C Programming Language (2nd Edition) by Kernighan and Ritchie, ISBN 0131103628",
+    "The Datacenter as a Computer (2nd Edition) by Barroso and Holzle, 2013."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01000340",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/8579/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "8c57b882d4d9160e798bc049caa65a349408d29f14cb95cec14bf0520de12d50",
+  "extracted_at": "2026-11-20T08:20:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,92 @@
+{
+  "course_name_original": "System and network administration",
+  "course_name_en": "System and Network Administration",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the basic knowledge required to install, configure and maintain a server system on the Internet.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has adequate knowledge of the protocols by which the Internet works and has the necessary skills to design and test his/her own protocols.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to design and maintain a computer network of medium complexity",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary knowledge of Internet security and is able to apply this knowledge to validate and maintain a computer network that exposes common services that are securely accessible from the outside",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the knowledge to select and use appropriate instructional procedures to facilitate the process of knowledge assimilation",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Sysadmin and NetworkAdmin, Concepts, motivation, objectives, real life examples",
+    "Virtualization solutions: Oracle VirtualBox, WMware, HyperV",
+    "Installing an operating system: Linux, BSD, Microsoft Windows Server",
+    "Configure networking for an operating system Linux/BSD/Windows Server",
+    "DHCP configuration Linux/BSD/Windows Server: Static/dynamic bindings and lease times",
+    "DNS configuration Linux/BSD/Windows Server: DNS zones, delegation, master/slave, dynamic updates, recursion",
+    "HTTP configuration Linux/BSD/Windows Server: Name based Virtual Hosting",
+    "MAIL+MX configuration Linux/BSD/Windows Server: Mail retrieval POP3/IMAP/Webmail",
+    "Network Security (firewall) configuration Linux/BSD/Windows Server: intrusion prevention, intrusion detection, penetration testing, service isolation",
+    "Networking appliances configuration",
+    "Dedicated Internet services appliances: MX and AntiSpam, Firewalls, Network packet analyzers",
+    "Security Certificates"
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "A minimum grade of 5 is required for the project and practical exam.",
+  "bibliography": [
+    "Computer Networks, Andrew S. Tanenbaum & David J. Wetherall",
+    "Computer Networks: A Systems Approach, Larry L. Peterson & Bruce S. Davie",
+    "The Internet and Its Protocols: A Comparative Approach, Adrian Farrel"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5072",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE5072_en_radu.dragos_2025_9734.pdf",
+  "source_language": "en",
+  "source_sha256": "494ae652fb7996d091e87e8deaeb4b2fbe55d65c164ee94c7e25dca610228609",
+  "extracted_at": "2026-11-20T09:08:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

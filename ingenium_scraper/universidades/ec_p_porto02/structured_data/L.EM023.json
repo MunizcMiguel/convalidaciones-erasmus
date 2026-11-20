@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Mecânica dos Fluidos II",
+  "course_name_en": "Fluid Mechanics II",
+  "ects": 6.0,
+  "semester": "1S",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Mathematics",
+    "Mechanics I",
+    "Mechanics II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The fundamental differences between flows with negligible fluid density variation and compressible flows.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the mass conservation and energy equations to viscous flows in pipes, calculate pressure drop, energy needs and available flux, and dimensioning simple pipes and ducts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The fundamental principles of operation and the characteristic curves of centrifugal fans and pumps, and selecting and analysing the operation of such equipment.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The principles of operation and the domains of use of the most common types of speed meters, flow meters and pressure transducers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The general characteristics of open-channel flow and the use of a specific energy diagram.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the essential aspects of flows around immersed bodies and characterise the forces resulting from the interaction flow-body.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "VISCOUS FLOW IN PIPES General Characteristics of Pipe Flow. Laminar or Turbulent Flow. Entrance Region and Fully Developed Flow. Pressure and Shear Stress. Fully Developed Laminar Flow. From F = ma Applied Directly to a Fluid Element. From the Navier–Stokes Equations. From Dimensional Analysis. Energy Considerations. Fully Developed Turbulent Flow. Transition from Laminar to Turbulent Flow. Turbulent Shear Stress. Turbulent Velocity Profile. Turbulence Modeling. Chaos and Turbulence. Dimensional Analysis of Pipe Flow. Major Losses. Minor Losses. Noncircular Conduits. Pipe Flow Examples. Single Pipes. Multiple Pipe Systems. Pipe Flowrate Measurement. Pipe Flowrate Meters. Volume Flowmeters. Chapter Summary and Study Guide. References. Problems.",
+    "FLOW OVER IMMERSED BODIES. General External Flow Characteristics. Lift and Drag Concepts. Characteristics of Flow Past an Object. Boundary Layer Characteristics. Boundary Layer Structure and Thickness on a Flat. Prandtl/Blasius Boundary Layer Solution. Momentum Integral Boundary Layer Equation for a F. Transition from Laminar to Turbulent Flow. Turbulent Boundary Layer Flow. Effects of Pressure Gradient. Momentum Integral Boundary Layer Equation with No. Drag. Friction Drag. Pressure Drag. Drag Coefficient Data and Examples. Lift. Surface Pressure Distribution. Circulation. Chapter Summary and Study Guide. References. Problems.",
+    "OPEN CHANNEL FLOW General Characteristics of Open-Channel Flow. Surface Waves. Wave Speed. Froude Number Effects. Energy Considerations. Energy Balance. Specific Energy. Uniform Flow. Uniform Flow Approximations. The Chezy and Manning Equations. Uniform Flow Examples. Gradually Varied Flow. Rapidly Varied Flow. The Hydraulic Jump. Sharp-Crested Weirs. Broad-Crested Weirs. Underflow (Sluice) Gates.",
+    "COMPRESSIBLE FLOW Ideal Gas Thermodynamics. Stagnation Properties. Mach Number and Speed of Sound. Compressible Flow Regimes. Shock Waves. Normal Shock. entropic Flow. Steady Isentropic Flow of an Ideal Gas. Incompressible Flow and Bernoulli’s Equation. The Critical State. One-Dimensional Flow in a Variable Area Duct. General Considerations. Isentropic Flow of an Ideal Gas With Area Change. Operation of a Converging Nozzle. Operation of a Converging–Diverging Nozzle. Constant-Area Duct Flow With Friction. Preliminary Consideration: Comparison with Incompr. The Fanno Line. Adiabatic Frictional Flow (Fanno Flow) of an Ideal. Frictionless Flow in a Constant-Area Duct with Hea. The Rayleigh Line. Frictionless Flow of an Ideal Gas with Heating. Rayleigh Lines, Fanno Lines, and Normal Shocks. The analogy between Compressible and Open-Channel Flow. Two-Dimensional Supersonic Flow.",
+    "TURBOMACHINES Introduction. Basic Energy Considerations. Angular Momentum Considerations. The Centrifugal Pump. Theoretical Considerations. Pump Performance Characteristics. Net Positive Suction Head (NPSH). System Characteristics, Pump-System Matching, and . Dimensionless Parameters and Similarity Laws. Special Pump Scaling Laws. Specific Speed. Suction Specific Speed. Axial-Flow and Mixed-Flow Pumps. Fans. Turbines. Impulse Turbines. Reaction Turbines. Compressible Flow Turbomachines. Compressors. Compressible Flow Turbines.",
+    "INTRODUCTION TO COMPUTATIONAL FLUID DYNAMICS (CFD) Introduction. Discretisation and solution algorithms. Main stages and steps in computational modelling. Commercial software. Applications and advantages."
+  ],
+  "teaching_methods": [
+    "In-person",
+    "Theoretical class",
+    "Theoretical-practical class",
+    "Laboratory sessions"
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Theoretical quizzes (Moodle)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Laboratory work",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.6 * (Exam or Supplementary) + 0.3 * Moodle + 0.1 * Laboratory. A minimum mark of 7/20 is required in the Moodle theoretical tests and laboratory tests to access the written portion of the Exam or Appeal. A minimum mark of 7/20 is required in all assessment components (Exam or Appeal, Moodle, and Laboratory). Attendance of at least 70% of theoretical-practical and lab sessions is mandatory for exam eligibility, and participation in the 3 laboratory sessions is compulsory for first-time students.",
+  "bibliography": [
+    "Philip M. Gerhart, John I. Hochstein, Andrew L. Gerhart; Munson, Young and Okiishi's Fundamentals of Fluid Mechanics, 9th Edition , Wiley, 2021. ISBN: 978-1-119-59811-4",
+    "Russell C. Hibbeler; Fluid Mechanics (in SI Units) , 2nd GLOBAL Edition, 2020. ISBN: 9781292247304"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM023",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560367",
+  "source_language": "en",
+  "source_sha256": "c51ea2e62a7be573c4ef001cbb9ed2d4a1b6af7f4ec032fe40252b535051cee7",
+  "extracted_at": "2026-11-18T04:10:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

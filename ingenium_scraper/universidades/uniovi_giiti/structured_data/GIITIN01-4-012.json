@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Tecnologías Web",
+  "course_name_en": "Web Technologies",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming Technologies and Paradigms",
+    "Human-Computer Interaction",
+    "Databases",
+    "Software Engineering",
+    "Information Systems",
+    "Distributed Systems",
+    "Service Engineering (concurrently)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to conceive systems, applications and services based on network technologies, including Internet, web, e-commerce, multimedia, interactive services and mobile computing.",
+      "type": "unspecified",
+      "code": "ETI6.1"
+    },
+    {
+      "text": "Understand the different reference frameworks and frameworks to define the architecture of a web-based application.",
+      "type": "knowledge",
+      "code": "IS39"
+    },
+    {
+      "text": "Understand the technologies corresponding to service-oriented architectures and other emerging technologies.",
+      "type": "knowledge",
+      "code": "IS40"
+    },
+    {
+      "text": "Develop the client components of a web application using a technology and applicable tools.",
+      "type": "skill",
+      "code": "IS41"
+    },
+    {
+      "text": "Develop the business components of a web application using a technology, database, and applicable tools.",
+      "type": "skill",
+      "code": "IS42"
+    },
+    {
+      "text": "Integrate the different components of a web application.",
+      "type": "skill",
+      "code": "IS43"
+    },
+    {
+      "text": "Analyze and evaluate the implications and risks related to security in web applications.",
+      "type": "skill",
+      "code": "IS44"
+    },
+    {
+      "text": "Understand the different business models on the web and their typology, including e-commerce.",
+      "type": "knowledge",
+      "code": "IS45"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Review of technologies. Review of web application models.",
+    "Reference framework and frameworks.",
+    "Client-Server Technologies",
+    "Client-side technologies.",
+    "Server-side technologies.",
+    "Web services technologies.",
+    "Automated functional testing.",
+    "Security and legal aspects on the web",
+    "Business models on the web",
+    "Business typologies.",
+    "Involved technologies.",
+    "Use and applications of client technologies.",
+    "Use and applications of server technologies."
+  ],
+  "teaching_methods": [
+    "Participatory expository classes",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final written theory exam (NT)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical tests (group work or exam) (NP)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Active attendance to laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary calls, the theoretical block (NT) must be 5.0 or higher. For the practical block (NP), the weighted average of practical group tests must be 5.0 or higher, and the individual score of at least three tests must be 4.0 or higher. A minimum attendance of 80% and completion of 80% of proposed exercises in lab sessions is required for practical tests. If all minimums are met, the final grade is calculated as 0.2 * NT + 0.8 * NP. Otherwise, the grade will be the minimum of the calculated score and 4.0. In extraordinary calls, the final grade is 0.60 * NT + 0.40 * NP, where NP is 0.0 unless practices were passed in the ordinary call. For differentiated evaluation, the final grade is 0.2 * NT + 0.8 * NP, with NT and NP (0.5 * Practical_Test_Score + 0.5 * Case_Study_Score) requiring a minimum of 5.0.",
+  "bibliography": [
+    "Morrison, Michael. XML al descubierto. Ed. Pearson, 2000. ISBN 978-84-205-2964-6.",
+    "Flanagan, David. JavaScript: The Definitive Guide. Sixth Edition. O’Reilly Media. ISBN 978-0596805524.",
+    "Craig Walls. Spring in Action, Sixth Edition, Manning, 2022.",
+    "Krug, Steve. Don't make me think, revisited : a common sense approach to Web usability. [Berkeley, Calif.] :New Riders, 2014.",
+    "Betsy Beyer, Chris Jones, Jennifer Petoff, and Niall Richard Murphy. Site Reliability Engineering: How Google Runs Production Systems (1st. ed.). O'Reilly Media, Inc., 2016, Disponible gratuitamente en: https://sre.google/sre-book/table-of-contents/ (Accedido 09/03/2026).",
+    "Martin Fowler. Patterns of Enterprise Application Architecture. Addison-Wesley, 2003",
+    "Robert C. Martin. Clean Code: A Handbook of Agile Software Craftsmanship (1st. ed.). Prentice Hall PTR, USA, 2008.",
+    "ERICH GAMMA, RICHARD HELM, RALPH JOHNSON, AND JOHN VLISSIDES (The Gang of Four). 1994. Design Patterns. Addison Wesley Professional Computing Series. ISBN 0-201-63361-2.",
+    "Sitio web de la oficina española del World Wide Web Consortium (W3C): http://www.w3c.es/ (Accedido 09/03/2025)",
+    "Web/Documentación oficial Spring: https://spring.io/ (Accedido 09/03/2025)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-4-012",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-4-012",
+  "source_language": "es",
+  "source_sha256": "09bd86e27b455ef2d257bfcb15ca2b5b823f835f50971f6309537b5dae5400f4",
+  "extracted_at": "2026-11-20T05:55:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

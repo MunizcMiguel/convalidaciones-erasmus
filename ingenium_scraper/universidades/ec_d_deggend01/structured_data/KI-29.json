@@ -1,0 +1,86 @@
+{
+  "course_name_original": "De Ep Learning/Big Data",
+  "course_name_en": "Deep Learning/Big Data",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "AI Programming",
+    "Programming 2",
+    "Mathematics 1 and 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the concepts of the most common approaches in Big Data and Deep Learning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have the ability to create high-quality programs using Big Data and Deep Learning technologies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can implement their own procedures and defend them against competing approaches.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Programming exercises take place within the course. Students are therefore also able to understand, criticize, and complement programs written by other students.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Feed-forward neural networks",
+    "Tensorflow",
+    "Convolutional neural networks",
+    "Recurrent neural networks",
+    "Sequence-to-sequence learning",
+    "Deep reinforcement learning",
+    "Unsupervised neural network models",
+    "Introduction: 3 Vs, historical overview of Big Data, selected Big Data applications",
+    "Review of database fundamentals: ER diagrams, relational databases, database management systems, queries, indexes, normalization, transactions",
+    "Big Data architectures: distributed systems, MapReduce, CAP theorem, acceleration by GPUs and FPGAs",
+    "Big Data, Small Data, All Data: data quality, biases in Big Data, small sample size problems",
+    "Selected Big Data infrastructures, frameworks, libraries, and tools"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Seminars",
+    "Discussion of scientific articles and current news",
+    "Exercises and Case Studies, including computer exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final grade forming examination (PStA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "A. Petrov, \"Database Internals: A Deep Dive into How Distributed Data Systems Work\", O'Reilly Media, 2019.",
+    "E. Charniak, \"Introduction to Deep Learning\", MIT Press, 2018.",
+    "S. Sakr and A. Zomaya, \"Encyclopedia of Big Data Technologies\", Springer, 2019.",
+    "A. Tanenbaum and M. van Steen, \"Distributed Systems: Principles and Paradigms\", Pearson, 2nd edition, 2007."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-29",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "9611cf5f85d145f65e18072354a4d40ce9fd8afdd0a7255cd00640e7b82a53e8",
+  "extracted_at": "2026-11-20T09:21:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

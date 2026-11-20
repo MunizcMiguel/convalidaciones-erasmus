@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Construction métallique",
+  "course_name_en": "Steel Construction",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Civil Engineering (IGENI-EC0533)",
+    "Strength of Materials (IGENI-EC0222, IGENI-EC0321)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Argue for the choice of a steel construction for a given building, based on the properties of steel and the environmental impacts associated with the creation of metal structures (material production, construction phase impacts, and end-of-life treatment).",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Size an element subject to tension/compression or shear and/or bending according to Eurocode 3.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use numerical simulation tools for structural analysis and optimization of steel structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the properties of steel, have an awareness of its environmental impact, and argue for the choice of a steel construction for a given building.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyze the behavior of a simple steel structure.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Produce digital plans for metal constructions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and size a simple steel structure using ROBOT Structural Analysis Professional software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Verify the sizing according to Eurocode 3 for an element subjected to tension/compression, shear, and/or bending.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Size an element according to Eurocode 3 for tension/compression, shear, and/or bending.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Steel Construction",
+    "Economics of the sector",
+    "Examples of steel structures",
+    "Terminology of steel constructions",
+    "Advantages and limitations of this construction solution",
+    "Steels and Steel Profiles",
+    "Steel as a material",
+    "Steel industry products",
+    "Classification of Cross-Sections",
+    "Influence of local buckling on section strength",
+    "Definition of cross-sectional classes",
+    "Classification principles",
+    "Wall strength against local buckling",
+    "Classification of webs under combined bending",
+    "Eurocode 3 classification tables",
+    "Application exercises",
+    "Strength of Sections",
+    "General overview",
+    "Strength under normal tensile force",
+    "Strength under normal compressive force",
+    "Strength under shear force",
+    "Strength under bending moment",
+    "Verification flowchart for bending and shear",
+    "Strength under simple bending stress",
+    "Application exercises",
+    "Application exercises",
+    "Joints",
+    "Technology of common joints",
+    "Introduction to joint calculations",
+    "Introduction to Robot Structural Analysis Professional",
+    "Modeling, sizing, and optimization of simple frames",
+    "Application exercises on Robot Structural Analysis Professional",
+    "Application exercises on Robot Structural Analysis Professional"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 23.0,
+  "workload_hours_contact": 18.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Assessment (CC1)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practical work (TP)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (0.6 * CC1) + (0.4 * TP).",
+  "bibliography": [
+    "J.-P. Muzeau, La construction métallique avec les eurocodes : interprétation et exemples de calcul. in Eurocode. Paris La Plaine Saint Denis: Eyrolles AFNOR éd, 2013.",
+    "J.-P. Muzeau, Manuel de construction métallique : extraits des Eurocodes 0, 1 et 3, 2e éd. revue et Complétée. in Collection Eurocodes. Paris La Plaine-Saint-Denis : Eyrolles AFNOR éd, 2013."
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0773TP",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "b34357915e37cd4d521797993a464ff6cb9a3053603d43b4419de78539003586",
+  "extracted_at": "2026-11-18T09:52:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

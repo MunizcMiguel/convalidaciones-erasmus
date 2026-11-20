@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Métodos Estadísticos en Organización Industrial",
+  "course_name_en": "Statistical Methods in Industrial Organization",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "“Estadística” (Statistics) course from the first year, recommended to have passed it."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design experiments in a way that minimizes experimentation while maximizing the information obtained.",
+      "type": "skill",
+      "code": "RME-1"
+    },
+    {
+      "text": "Perform robust product design using statistical tools.",
+      "type": "skill",
+      "code": "RME-2"
+    },
+    {
+      "text": "Understand the main regression models, the advantages and limitations of linear models, and identify, pose, and solve real-world problems involving linear models and interpret their meaning.",
+      "type": "competence",
+      "code": "RME-3"
+    },
+    {
+      "text": "Clean, summarize, and describe large databases using a small number of variables.",
+      "type": "skill",
+      "code": "RME-4"
+    },
+    {
+      "text": "Detect the existence of groups in a dataset and characterize them to classify new individuals.",
+      "type": "skill",
+      "code": "RME-5"
+    },
+    {
+      "text": "Manage statistical packages for solving real-world problems.",
+      "type": "skill",
+      "code": "RME-6"
+    },
+    {
+      "text": "Utilize forecasting methods to predict future industrial demand.",
+      "type": "skill",
+      "code": "RMC-1"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Experimental Design",
+    "Analysis of Variance",
+    "Robust Design",
+    "Multiple linear regression",
+    "Non-linear regression",
+    "Generalized linear models (logistic and Poisson regression)",
+    "Classical partition methods: k-means algorithm, hierarchical methods",
+    "Regression trees",
+    "Introduction to RStudio. Multivariate descriptive statistics.",
+    "Experiments with one and two treatments.",
+    "Analysis of experiments with one factor.",
+    "Analysis of experiments with two factors.",
+    "Analysis of experiments with three or more factors.",
+    "Multiple linear regression.",
+    "Non-linear regression. Introduction to generalized linear models.",
+    "Logistic regression.",
+    "Classification: partition clustering.",
+    "Classification: hierarchical clustering.",
+    "Classification and regression trees."
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Autonomous student work",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final Theoretical Exam (Teo)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active Participation (PA) in forums, virtual campus activities, and classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 3 (P3)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary sitting, a minimum score of 4.5 out of 10 is required for the theoretical block. The theoretical block score is calculated as (5/6) * Teo + (1/6) * PA. The practical block score is the average of P1, P2, and P3. If the minimum for the theoretical block is met, the final grade is (0.6 * Theory) + (0.4 * Practices); otherwise, the final grade is the theoretical block score. For the extraordinary sitting, a theoretical exam and a practical exam are conducted, and a minimum of 4.5 out of 10 in the theoretical part is compulsory. If this minimum is achieved, the final grade is (0.6 * Theory) + (0.4 * Practices); otherwise, the final grade is the minimum between the score obtained with the formula and the theoretical score.",
+  "bibliography": [
+    "Humberto Gutiérrez Pulido y Román de la Vera Salazar, “Análisis y diseño de experimentos”, McGraw Hill, tercera edición.",
+    "Douglas C. Montgomery, “Diseño y análisis de experimentos“, Editorial Limusa Wiley.",
+    "Daniel Peña, “Análisis multivariante”, Editorial Alianza.",
+    "Daniel Zelterman, “Applied multivariate Statistics with R”, Editorial Springer.",
+    "Mardia, Kent, Bibby, “Multivariate Analysis”, Academic Press.",
+    "G. Seber, “Multivariate Observations”, Wiley.",
+    "Lebart, Morineau, Fenelon, “Tratamiento Estadístico de Datos”, Editorial Marcombo."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Organización Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_gioi",
+  "degree": "Grado en Ingeniería de Organización Industrial",
+  "course_code": "GIORGI01-3-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/organizacionindustrial/-/fof/asignatura/GIORGI01-3-007",
+  "source_language": "es",
+  "source_sha256": "e591474040d5738211cab79bd509d9fa0262b546120e9f564e94562562f0caec",
+  "extracted_at": "2026-11-20T01:15:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

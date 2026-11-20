@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Numerical calculus",
+  "course_name_en": "Numerical calculus",
+  "ects": 7.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Algebra",
+    "Logical thinking",
+    "Average logical programming skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire basic knowledge and concepts of Numerical Analysis, with main focus on applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to implement numerical algorithms in order to solve practical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Become familiar and be able to work with various numerical algorithms and models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Gain the ability to apply numerical algorithms to solve practical and real-life problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to use approximation and numerical features of various mathematical software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use of computer science and mathematical models and tools for solving specific problems in the application field.",
+      "type": "competence",
+      "code": "C3.3"
+    },
+    {
+      "text": "Data and model analysis.",
+      "type": "competence",
+      "code": "C3.4"
+    },
+    {
+      "text": "Defining basic concepts, theory and mathematical models.",
+      "type": "competence",
+      "code": "C4.1"
+    },
+    {
+      "text": "Interpretation of mathematical models.",
+      "type": "competence",
+      "code": "C4.2"
+    },
+    {
+      "text": "Identifying the appropriate models and methods for solving real-life problems.",
+      "type": "competence",
+      "code": "C4.3"
+    },
+    {
+      "text": "Embedding formal models in applications from various areas.",
+      "type": "competence",
+      "code": "C4.5"
+    },
+    {
+      "text": "Ability to conform to the requirements of organized and efficient work, to develop a responsible approach towards the academic and scientific fields, in order to make the most of one’s own creative potential, while obeying the rules and principles of professional ethic.",
+      "type": "competence",
+      "code": "CT1"
+    },
+    {
+      "text": "Using efficient methods and techniques for learning, information, research and developing capabilities for using knowledge, for adapting to a dynamic society and for communicating in Romanian and in a worldwide spoken language.",
+      "type": "competence",
+      "code": "CT3"
+    }
+  ],
+  "syllabus_topics": [
+    "Preliminaries. Taylor polynomials. Errors, sources, propagation. Stability and conditioning of a problem. Divided and finite differences.",
+    "Solution of systems of linear algebraic equations. Direct methods. Gaussian elimination. Backward and forward substitution. Factorization (LU, LUP, QR, Cholesky) methods. Examples.",
+    "Iterative methods. Jacobi and Gauss-Seidel methods. SOR method. Conditioning of a linear system. Ill-conditioned matrices.",
+    "Approximation of functions. Polynomial interpolation. Lagrange interpolation, Lagrange fundamental polynomials. Error in Lagrange interpolation. Optimal choice of nodes. Examples.",
+    "Efficient computation of interpolation polynomials. Barycentric formula. Newton’s divided and finite differences interpolation. Aitken’s algorithm. Examples.",
+    "Hermite interpolation. Interpolation with double nodes. General case. Error in Hermite interpolation. Special cases.",
+    "Birkhoff interpolation. Birkhoff fundamental polynomials. Peano’s theorem and the error in Birkhoff interpolation. Examples.",
+    "Spline interpolation. Linear and cubic splines. Properties. Least squares approximation. Orthogonal polynomials.",
+    "Numerical differentiation and integration. Numerical differentiation formulas. Examples. Interpolatory and Newton-Cotes quadratures. Composite rectangle, trapezoidal and Simpson’s rules. Examples. Adaptive quadratures.",
+    "Richardson extrapolation. Iterated quadratures. Romberg’s method. Gaussian quadratures. Families of orthogonal polynomials. Examples.",
+    "Rootfinding for nonlinear equations. Iterative methods. Order of convergence. Bisection, secant and Newton’s methods. Comparison between Newton’s and secant methods. Aitken extrapolation. One-point iteration methods, successive approximations. Examples.",
+    "Newton’s method for multiple roots. Newton’s method for nonlinear systems. Examples.",
+    "Review of Matlab.",
+    "Taylor polynomials. Errors.",
+    "Newton’s divided and finite differences.",
+    "Linear algebraic systems I. Gaussian elimination. Factorizations. Backward and forward substitution.",
+    "Linear algebraic systems II. Iterative methods. Jacobi, Gauss-Seidel, SOR methods.",
+    "Lagrange interpolation I. Lagrange fundamental polynomials. Barycentric formula.",
+    "Lagrange interpolation II. Newton’s form. Aitken’s algorithm.",
+    "Hermite interpolation with double nodes. Summary and review of polynomial interpolation.",
+    "Cubic spline interpolation. Least squares approximation.",
+    "Numerical Integration I. Newton-Cotes quadratures. Adaptive quadratures.",
+    "Numerical Integration II. Romberg’s method. Gaussian quadratures.",
+    "Numerical methods for nonlinear equations."
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Description",
+    "Explanation",
+    "Conversation",
+    "Didactical demonstration",
+    "Individual work",
+    "Group work"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Participation in discussing and solving problems throughout the semester",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "A grade of 5 or above (on a scale from 1 to 10) is required on each of the activities: written exam and lab evaluation.",
+  "bibliography": [
+    "K. E. Atkinson, An Introduction to Numerical Analysis, John Wiley and Sons Inc., 1988.",
+    "K. E. Atkinson, W. Han, Elementary Numerical Analysis, Third Edition, John Wiley and Sons Inc., 2004.",
+    "S. Micula, R. Sobolu, M. Micula, Numerical Analysis with Maple (rom.), Academic Press, Cluj-Napoca, 2008.",
+    "R. Trîmbitaş, Numerical Analysis in Matlab, Cluj University Press, 2008.",
+    "W. Gautschi, Numerical Analysis, An Introduction, Birkhaeuser, Boston, 1997.",
+    "Gh. Coman, I. Chiorean, T. Cătinaş, Numerical Analysis, An Advanced Course, Cluj University Press, 2007."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE0028",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE0028_en_smicula_2025_9606.pdf",
+  "source_language": "en",
+  "source_sha256": "4637d7a3cf226e9affa2b3567c282941ec09c5979863fc6d45ad0f3c13c30a23",
+  "extracted_at": "2026-11-20T09:07:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

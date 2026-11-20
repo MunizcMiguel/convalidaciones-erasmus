@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Automatisierungstechnik für Maschinenbau",
+  "course_name_en": "Automation Technology for Mechanical Engineering",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Successful completion of the Informatics and Electrical Engineering modules"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can classify the essential sub-fields of automation technology (control, regulation, measurement, communication) within the general technical context. They are able to distinguish between control and regulation and name application scenarios for both automation variants.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "In the area of \"Control Engineering\", students are able to identify control chains or control loops within a real system. They can also make and explain fundamental design decisions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "In the area of \"Control Technology\", students can recognize and apply selected labeling systems. They are able to read circuit diagrams and identify typical errors. Students know the spectrum of essential regulators in automation technology and understand the meaning and binding nature of the rules. Students can explain the function of selected hardware components of automation technology and select suitable products for an application. Students are able to develop simple control engineering programs and test them first virtually and then on a real system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Sub-topic \"Control Engineering\": Students can use the differential equations learned in mathematics to build control engineering mathematical models of real systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Sub-topic \"Measurement Technology\": Students have the knowledge to evaluate metrological equipment regarding its signaling to an automation station.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Sub-topic \"Control Technology\": Students know not only simple logical operations but also sequential circuits (flip-flops, counters). Students can now solve an engineering problem with a graphical programming language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through the accompanying practical course, students are introduced to the automation of a realistic industrial plant.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can analyze the automation task and justify their planned solution architecture. They are able to question their decisions and reflect on and verify the solution during final commissioning.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Through the accompanying practical course, students are introduced to solving an application-related problem, namely the automation of a realistic industrial plant. Students are therefore able to derive solution architectures from a problem statement and select or generate or program all necessary fragments and artifacts. They can check the results and transfer them to similar problems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Automation technology as a sub-discipline of engineering sciences",
+    "Demarcation of the sub-disciplines \"Measurement Technology\", \"Control Technology\", \"Regulation Technology\" and \"Information/Communication Technology\"",
+    "Relevance, tasks and goals",
+    "Exemplary examples in industry",
+    "Brief outline of practical control engineering",
+    "Feedback as a concept of a control loop",
+    "Operating point and linearization",
+    "Mathematical description of dynamic systems",
+    "Experimental methods for identifying common industrial controlled systems (P, PT1, PT-N)",
+    "Rule-of-thumb methods for controller design",
+    "Quality metrics in the closed control loop",
+    "Measurement technology",
+    "Activation of prior knowledge",
+    "Typical industrial signals",
+    "Control technology",
+    "Identification systems",
+    "Circuit diagrams",
+    "Basics of Digital Logic (signals, signal types, linking binary signals into functions and sequential circuits)",
+    "Regulators and rules of automation technology",
+    "Hardware of control technology (automation stations, sensors, actuators)",
+    "Software of control technology",
+    "Programming and project planning tools",
+    "Basic course: Programming according to IEC61131 - Function Block Language",
+    "Basic course: Visualization in a SCADA system",
+    "Management of automation",
+    "Investment calculation",
+    "Tasks and methods in the life cycle"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity",
+    "Course preparation and follow-up",
+    "Exam preparation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (practical course attendance, active participation, oral or written presentation of approach and results)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Graded assessment is by a written exam. Ungraded assessment is by experimental work: attendance at all five or six practical sessions, active participation, and oral or written presentation of the approach and results at the end of the practical.",
+  "bibliography": [
+    "Loose, Tobias (2022): Angewandte Regelungs- und Automatisierungstechnik, Springer eBooks, [online] doi:10.1007/978-3-662-64847-6.",
+    "Seitz, Matthias (2015): Speicherprogrammierbare Steuerungen für die Fabrik- und Prozessautomation, [online] doi:10.3139/9783446444188.",
+    "Wellenreuther, Günter/Dieter Zastrow (2015): Automatisieren mit SPS - Theorie und Praxis, Springer eBooks, [online] doi:10.1007/978-3-8348-2598-8."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück",
+  "institution_slug": "ec_d_osnabru02",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "11B2303",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BMB/StO2025_Stand2026-03-26_BSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "e0821f8f90010d6cce9baaaf35b7c6a466edf846c9d9b78dea48f441f9bcf690",
+  "extracted_at": "2026-11-18T09:50:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Modélisation d'entreprise",
+  "course_name_en": "Enterprise Modeling",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of information systems: Familiarity with the fundamental concepts of information systems and organizations.",
+    "Notions in data modeling: Understanding of conceptual and logical modeling principles.",
+    "Introduction to process analysis: Basic knowledge of how organizational processes work and how to optimize them."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Part 1: analyze the different levels of data generation and modeling of the different parts of an organization (operations, support, decision) by transforming text descriptions and interviews into modeled processes using the BPMN language. They will also be able to use the concepts of BPM (Business Process Management) and IDEF 0 to model the functions of an organization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Part 2: exploit subsymbolic artificial intelligence methods, notably process mining algorithms, to automatically extract BPMN models from existing data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "This training will enable them to demonstrate mastery of organizational modeling tools and techniques, supporting process optimization and strategic decision-making.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental concepts of organizational modeling, including BPMN, BPM, and IDEF 0 architectures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the principles of sub-symbolic artificial intelligence methods and their application to organizational process modeling.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Have a global vision of the different levels of data generated in an organization (operations, support, decision).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze textual descriptions and interview data to extract structured process models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Produce BPMN and IDEF 0 models to represent an organization's functions and processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement process mining algorithms to automatically extract BPMN models from operational data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluate and optimize organizational processes based on generated models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the importance of structured processes for improving an organization's performance and efficiency.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Adopt an analytical and methodical approach to modeling and solving organizational problems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Collaborate with stakeholders to understand and formalize their process modeling needs.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to modeling with BPMN",
+    "Understanding the fundamental concepts of BPM (Business Process Management).",
+    "Positioning the BPMN and IDEF 0 architectures within the overall BPM framework.",
+    "Hands-on learning of process modeling with BPMN (manual creation of process models).",
+    "Introduction to Process Mining",
+    "Understanding the general concepts of Process Mining and its role in the analysis of organizational processes.",
+    "Exploring process discovery algorithms:",
+    "Heuristic Miner.",
+    "Stable Heuristic Miner (developed by Sina Namaki Araghi)."
+  ],
+  "teaching_methods": [
+    "Integrated theoretical and practical approach",
+    "Active learning",
+    "Small-group work",
+    "Problem-based learning"
+  ],
+  "workload_hours_total": 17.5,
+  "workload_hours_contact": 11.5,
+  "assessment_methods": [
+    {
+      "method": "DS1 (written exam)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1, indicating that the grade is based entirely on a single written exam (DS1).",
+  "bibliography": [
+    "Stable Heuristic Miner 2: Evaluating the Statistical Stability in Event Logs to Discover Business Processes",
+    "Stable Heuristic Miner: applying statistical stability to discover the common patient pathways from location event logs",
+    "Process Mining: Data science in action",
+    "Fundamentals of Business Process Management"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0832",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "75e4007b93eb07c7d340d41c8d27a5b88c0fb857352b5717a417eeb87fa65733",
+  "extracted_at": "2026-11-18T10:00:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

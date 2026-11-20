@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Optimisation des procédés de coupe",
+  "course_name_en": "Optimization of Cutting Processes",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Manufacturing Methods (turning, milling, drilling...)",
+    "Cutting Tools",
+    "Cutting Parameters (speed, feed, depth)",
+    "Tooling Mechanics",
+    "Materials Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze and model manufacturing processes: Use numerical simulation tools (e.g., Abaqus, CAM/CAD software) to model thermomechanical phenomena and material cutting, and validate these models using analytical approaches.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Optimize cutting conditions: Select and adjust machining parameters (speed, feed, depth of cut, tool type) to enhance productivity, quality, and tool life, while considering machine constraints and the properties of the materials being machined.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement experimental approaches: Design and carry out experimental plans to test and optimize manufacturing processes, analyze the results, and derive practical recommendations for the workshop.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Control the quality and integrity of machined parts: Master measurement and inspection tools (CMM, profilometer, surface analysis) to verify part conformity, analyze tool wear and surface condition, and propose improvement strategies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrate new technologies and machining assistance systems: Understand and apply innovative techniques (assisted machining, cryogenic cooling, high-pressure lubrication, Industry 4.0) to optimize processes and adapt to industry developments.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Optimization in Manufacturing",
+    "Definition and challenges of optimization",
+    "Course objectives and targeted competencies",
+    "Overview of machining processes",
+    "Physics of Cutting",
+    "Shear zones (primary, secondary, tertiary)",
+    "Stresses, deformations, temperatures",
+    "Chip types and formation mechanisms",
+    "Theories on chip formation and segmentation",
+    "Tool Wear and Surface Integrity",
+    "Wear mechanisms (adhesion, abrasion, diffusion, creep, oxidation, fatigue)",
+    "Wear types (flank wear, crater wear, notch wear, plastic deformation, chipping)",
+    "Residual stresses and measurement methods",
+    "Thermomechanical effects on surface finish",
+    "Methods for Optimizing Cutting Conditions",
+    "Tool-Material Pair (TMP) method",
+    "Selection of cutting parameters (speed, feed, depth)",
+    "Design of experiments and analytical/numerical modeling",
+    "Parameter impact on performance and quality",
+    "Cutting Assistances and New Technologies",
+    "Heating-assisted machining (laser, plasma)",
+    "High-pressure lubrication",
+    "Cryogenic cooling",
+    "Impact of assistances on machinability, tool life, and surface integrity"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 24.0,
+  "workload_hours_contact": 24.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (Written Exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1 (Practical Work)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*TP1) / 2.",
+  "bibliography": [
+    "Manufacturing automation : metal cutting mechanics, machine tool vibrations and CNC design, Y. ALTINTAS, Cambridge University Press, Bibliothèque ENIT 621.9 ALT.",
+    "Fraisage à Grande Vitesse, H. SCHULZ, Technologie d'aujourd'hui, Bibliothèque ENIT 671.35 SCH. - Norme AFNOR NF E 66-520, Couple Outil-Matière, Vol. 1 à 6, 1999.",
+    "Matériaux pour outils de coupe, F. BAGUR, Techniques de l'Ingénieur, BM 7 080.",
+    "Fundamentals of machining and machine tools, Winston A. KINGHT & Geoffrey BOOTHROYD, Taylor and Francis, Bibliothéque ENIT 671.35 BOO",
+    "Cryogenic manufacturing processes, I.S. Jawahir, H. Attia, Biermann, J. Duflou, F. Klocke, D. Meyer. S.T. Newman, F. Pusavec, M. Putz, J. Rech, V. Schulze, D. Umbrello, CIRP Annals - Manufacturing Technology, Volume 65, Issue 2, 2016, Pages 713-736"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0975GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "09110cefcbff2c7c51a63723ebefe5fd22ea906f95766b11679069d55bbd750b",
+  "extracted_at": "2026-11-18T09:52:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

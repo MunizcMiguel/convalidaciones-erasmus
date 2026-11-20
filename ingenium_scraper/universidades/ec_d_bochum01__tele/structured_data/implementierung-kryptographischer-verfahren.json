@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Implementierung kryptographischer Verfahren",
+  "course_name_en": "Implementation of Cryptographic Procedures",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of C or C++ programming language",
+    "Lecture \"Introduction to Cryptography I\""
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students learn the fundamental algorithms for the efficient implementation of computationally intensive cryptographic procedures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have understood the handling of algorithms with very long operands.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have understood the interaction of implementation methods and cryptographic security.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to procedures for fast and secure implementation of cryptographic algorithms",
+    "Methods for efficient exponentiation",
+    "Special acceleration procedures for the RSA algorithm",
+    "Algorithms for efficient arbitrary-precision arithmetic",
+    "Basic methods for representing arbitrary-precision numbers in computers",
+    "Procedures for addition of arbitrary-precision numbers",
+    "Algorithms for efficient modular multiplication",
+    "Karatsuba algorithm",
+    "Montgomery multiplication",
+    "Secure implementations",
+    "Introduction to active and passive side-channel attacks",
+    "Active attacks against block ciphers and RSA",
+    "Fundamentals of SPA (simple power analysis)",
+    "Fundamentals of DPA (differential power analysis)"
+  ],
+  "teaching_methods": [
+    "Lecture with exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Programming assignments",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of 30% (+10% bonus) from semester-long programming assignments and 70% from a written exam (120 minutes). Credits are awarded for a passed module examination.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "implementierung-kryptographischer-verfahren",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "5c4bfddd04fed4f785331a1d0a39fc7b9713fbb12595e879642294e4d10f5e36",
+  "extracted_at": "2026-11-20T12:36:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

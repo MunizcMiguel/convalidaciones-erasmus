@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Texas Instruments DSP in automotive – advanced",
+  "course_name_en": "Texas Instruments DSP in automotive – advanced",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "competence to use and practical use of software"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Structure of a TI C2000 series floating-point microcontroller with two cores",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Methods of project preparation and control as well as the basics of programming in Matlab / SIMULINK environment, including automatic code generation in C for C2000 microcontrollers",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "The challenges of the automotive industry, in particular electric vehicles and the infrastructure necessary to charge them.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Motors used in electric cars - machines with permanent magnets",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Power electronics used in electric vehicles",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "plan and conduct a project; interpret the obtained results and draw conclusions using analytical, simulation and experimental methods",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "work with technical documentation prepared by the manufacturer of the microcontroller",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "use existing knowledge, formulate and solve unusual problems",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "practical implementation and development of control, control and security algorithms dedicated to electric drives and power electronic systems used in vehicles",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "evaluation of knowledge and received content, supplementing and improving acquired knowledge and skills, setting priorities for the implementation of assigned tasks",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to issues related to electric vehicles and their charging infrastructure - defining the main challenges for the development of e-mobility. Overview of drive systems with electric motors used in electric cars - development of a model of the drive system together with control, control and protection algorithms in the Matlab / SIMULINK simulation environment. Overview of the topology of power electronic systems with the control and control structure used in electric vehicles and chargers - developing a model of the converter system in the Matlab / SIMULINK environment that allows for the correct power supply of the electric motor and charging the car battery from an external charger (wired or wireless). Indication and discussion of external peripheral modules available in TI microcontrollers from the C2000 family, enabling the effective implementation of the developed control, control and protection algorithms into a digital system. Discussion of the advantages and basic differences resulting from the programming of microprocessor systems with a floating decimal point in relation to digital systems with fixed-point architecture - explaining the methods of data type conversion in the Matlab / SIMULINK environment and effective program code creation. Discussion in details of the signal microcontroller architecture with an explanation of how to configure individual peripheral modules and each of the two cores (using the libraries available in the Matlab / SIMULINK environment for this purpose) - presentation of the concept of project preparation with the option of automatic code generation in C from the Matlab simulation environment / SIMULINK.",
+    "Development of a model of a drive system with an improved engine and a standard of control, control and security in Matlab / SIMULINK licenses - learning effective model preparation, data conversion, defining permanent global tests in the program. Basic summary Development of bipolar and unipolar control for the BLDC motor Preparation of an algorithm to close the regulating loop for the BLDC motor - motor control Analyzing the operation of the engine with bipolar control and unipolarity - a change in the automation algorithm and speed regulation Preparation of the DC-DC system for voltage reduction as a power supply for a lamp with a light-emitting diode (LED) Preparation of an algorithm to check the voltage and the output voltage. Test the DC-DC circuit and the PI regulator settings for controlling the output voltage"
+  ],
+  "teaching_methods": [
+    "Group work",
+    "Design thinking",
+    "Project Based Learning"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Presentation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work done within the framework of a practical placement",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade will be calculated according to the AGH University of Science and Technology Study Regulations. Presence is compulsory. Make-up arrangements for justified absences are determined by the lecturer.",
+  "bibliography": [
+    "LAUNCHXL-F28379D C2000 Delfino MCU F28379D LaunchPad™ development kit - https://www.ti.com/tool/LAUNCHXL-F28379D",
+    "C2000™ real-time control MCUs Optimized for processing, sensing, and actuation to improve closed loop performance - https://www.ti.com/microcontrollers/c2000-real-time-control-mcus/overview.html?keyMatch=C2000&tisearch=Search-EN-everything"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.12290.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/1526aeb0-f87d-426c-bc93-b90396ded007.html",
+  "source_language": "pl",
+  "source_sha256": "475d4a7d7d6bf6941b8d9d50cbb281bdb94bc58af3ebd77c6f83aba234ca1e61",
+  "extracted_at": "2026-11-20T09:04:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

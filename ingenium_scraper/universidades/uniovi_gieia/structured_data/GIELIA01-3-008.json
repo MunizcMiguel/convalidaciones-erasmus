@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Electrónica de Potencia",
+  "course_name_en": "Power Electronics",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Having fully approved the basic training module, especially Linear Algebra, Calculus, Numerical Methods, Statistics, Waves and Electromagnetism, Graphic Expression and Fundamentals of Computer Science.",
+    "Having fully approved the common module to the industrial branch, especially the three subjects of Electricity, Electronics and Automation (Electronic Technology, Electrical Technology and Automation and Control).",
+    "Having approved the subject of Digital Electronic Systems."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic principles of electronic power conversion, basic configurations, and switching, conversion, and control elements.",
+      "type": "unspecified",
+      "code": "REP-1"
+    },
+    {
+      "text": "Properly use specific computer programs for electronic circuit simulation and specific laboratory equipment.",
+      "type": "unspecified",
+      "code": "REP-2"
+    },
+    {
+      "text": "Analyze and design power electronic circuits.",
+      "type": "unspecified",
+      "code": "REP-3"
+    },
+    {
+      "text": "Select the most suitable electronic components and basic configuration for a given application.",
+      "type": "unspecified",
+      "code": "REP-4"
+    },
+    {
+      "text": "Know and apply the regulations that power electronic equipment must comply with.",
+      "type": "unspecified",
+      "code": "REP-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Power Electronics: Scope and utility, specific problems, available tools (mathematical and software).",
+    "Basic power topologies for energy conversion: DC/DC, AC/DC, AC/AC and DC/AC.",
+    "Power electronic devices: Non-ideality of semiconductor switches, electrical and thermal protection of semiconductors, association of power semiconductors.",
+    "Passive power devices: Coils, transformers, capacitors and resistors.",
+    "Basic applications of power electronics: loads and sources.",
+    "Overview of the course and work methodology",
+    "Presentation of the WRE, WED and WNA workshops",
+    "Projects of the Renewable Energy Workshop (WRE)",
+    "Projects of the Electronic Drives Workshop (WED)",
+    "Projects of the Nautical Applications Workshop (WNA)",
+    "Learning to formulate and specify a Power Electronics system",
+    "Non-ideality of semiconductor switches",
+    "Electrical and thermal protection of power semiconductors",
+    "Association of power semiconductors",
+    "DC/DC conversions",
+    "AC/DC conversions",
+    "AC/AC conversions",
+    "DC/AC conversions",
+    "Coils",
+    "Transformers",
+    "Group activity TG1 - Resolution of doubts and presentation of works (if applicable).",
+    "Basic handling of the power simulator: Installation and familiarization with the simulation environment that will be used in successive practices.",
+    "Introduction to the Buck converter",
+    "PWM signal generation and basic module creation with the simulator",
+    "Basic Buck converter with PWM module",
+    "Introduction to digital control modules in power systems. Implementation of state machines in the simulator",
+    "Basic Buck converter with PWM module and basic digital control.",
+    "Switch branches. \"Bootstrap\" technique for branch control. Introduction to the use of commercial integrated circuits. Library management.",
+    "Complete Buck converter based on a switch branch. Use of the \"Bootstrap\" technique with a commercial integrated circuit.",
+    "DC-DC Buck-Boost and Flyback converter.",
+    "Transformers in LTSPice.",
+    "Evolution of the Buck-Boost converter towards the Flyback",
+    "Modeling of solar panels in the simulator.",
+    "Maximum Power Point Tracking (MPPT) system in a solar panel.",
+    "The Flyback converter as an equivalent voltage at the input of the solar panel.",
+    "Implementation of a quasi-MPPT control",
+    "Control in current mode (Imax-Min). Charging a 12 V battery from a 48 V Bus",
+    "Option 1: Buck in current mode.",
+    "Basic state machine of Imax-Imin control",
+    "Option 2: Evolution towards the Forward converter in current mode",
+    "Learning to generate control signals. Full-bridge DC-DC converter",
+    "Push-Pull control.",
+    "Push-Pull control and phase shift control.",
+    "Square wave inverters. Signal generation by phase shift for controlling two full bridges with variable frequency and duty cycle and controlled phase shift between them.",
+    "Single-phase voltage mode inverter (VMI) with SPWM modulation."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Classroom practices/seminars",
+    "Project-Based Learning (PBL)",
+    "Workrooms (Renewable Energy, Electronic Drives, Nautical Applications)",
+    "Exercises",
+    "Problem solving",
+    "Seminars",
+    "Use of Jupyter notebooks"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam with exercises and problems",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Practical simulation exam",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "A minimum grade of 4 out of 10 is required on the theoretical exam. A minimum grade of 4 out of 10 is required on the practical simulation exam. The practical exam can only be evaluated if the minimum grade on the theoretical exam has been obtained.",
+  "bibliography": [
+    "Páginas web: Campus Virtual de la Universidad de Oviedo",
+    "Revista Workrooms Journal [DOI: <http://dx.doi.org/10.15592/workrooms.0000.0000>]",
+    "Páginas web de fabricantes de semiconductores y equipos de potencia: International Rectifier (<http://www.irf.com/>), Power Integrations ( https://www.powerint.com/), Revista Bodo's Power Systems (<http://www.bodospower.com/>), RS AMIDATA ( <http://es.rs-online.com/web/>), DESIGNSPARK (http://www.rs-online.com/designspark/electronics/), Farnell (http://es.farnell.com/), DIGI-KEY (http://www.digikey.es/)",
+    "Power Electronics: Converters, Applications and Design (Second edition) Ned Mohan, Tore M. Undeland, Williams P. Robbins John Wiley & Sons inc 1995 [ISBN: 0-471-30576-6]",
+    "Power Electronics Handbook (Third edition) M.H. Rashid. Elsevier 2011 [ISBN: 0780323084]",
+    "Electrónica de Potencia: Componentes, topologías y equipos Salvador Martínez García, Juan Andrés Gualda Gil Thomson 2006 [ISBN: 8497323971]",
+    "Canal YouTube (Power Electronic Pills) del profesor Manuel Rico Secades Enlace: http://mrico.dieecs.com/teaching"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-008",
+  "source_language": "es",
+  "source_sha256": "f73da4c4b6bca6d5f7a269193e26882122f444bdd0b52408ff05179acba9de42",
+  "extracted_at": "2026-11-20T01:13:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Communication Systems I",
+  "course_name_en": "Communication Systems I",
+  "ects": 7.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Introduction to communication systems",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Amplitude and frequency modulations",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Effects of noise in amplitude and frequency modulations",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Introduction to communication systems",
+    "Fourier transform, properties of Fourier transform, Rayleigh's energy theorem, inverse relationship between time and frequency, Dirac delta function, Fourier transform of periodic signals",
+    "Transmission of signals from linear systems, Hilbert transform, pre-envelope, canonical representation of band-pass signals, band-geçirgen sistemler, phase and group delay",
+    "Introduction to random processes, probability theory, random variables, statistical averages, transformation of random variables",
+    "Random processes, stationarity, mean function, correlation and covariance functions, ergodicity, transmission of random processes through linear filters, power spectral density",
+    "Gaussian processes and noise, forms and properties of noise, signals in noise",
+    "Amplitude modulation, double sideband suppressed-carrier modulation, filtering of sidebands",
+    "Vestigial side-band modulation, single-sideband modulation, frequency modulation, frequency-division multiple-access",
+    "Angle modulation, frequency modulation",
+    "Phase-locked loop, nonlinear effects in FM, superheterodyne receiver",
+    "Introduction to noise in CW modulation systems, receiver model, noise analysis in DSB-SC systems, noise analysis in SSB systems",
+    "Noise analysis in SSB systems, noise in AM receivers",
+    "Receivers for CW communication systems"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 170.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Hwei. P. Hsu. Schaum's Outline on Analog and Digital Communications. Nobel Press.",
+    "B. P. Lathi. Modern Digital and Analog Communication Systems. Oxford Press.",
+    "Communication Systems. Simon Haykin. John Wiley and Sons Inc Press"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE441-s8",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857450&lang=en",
+  "source_language": "en",
+  "source_sha256": "c49364c1ed20ce09188a2b99b00c679fe8ec5cda4e4084216f26a3a84b226fa8",
+  "extracted_at": "2026-11-20T12:53:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

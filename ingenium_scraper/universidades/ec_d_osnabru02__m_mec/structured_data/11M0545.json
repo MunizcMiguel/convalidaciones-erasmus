@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Höhere Mechanik",
+  "course_name_en": "Advanced Mechanics",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of technical mechanics (statics, tension-compression stress, bending and torsion of straight beams, buckling, free and forced vibrations, basic knowledge of control engineering such as transfer functions, basic mathematical knowledge (vector and matrix calculus, differential and integral calculus, linear differential equations))"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the basics for detailed, accurate strength calculations of complex components and for the description of movements of dynamic systems, as well as the interactions between acting forces and moments and the resulting movements. They know the basics of elastostatics and elasticity theory as well as kinematics and kinetics of spatial movements, building upon the mechanics modules of the Bachelor's degree programs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have an in-depth theoretical background knowledge to calculate simple spatial mechanical systems and to understand, use sensibly, and potentially further develop current tools of FEM, fatigue strength analysis, and multibody simulation. They can analyze the vibration behavior of components and develop problem solutions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can describe, calculate, and evaluate arbitrary spatial stress and deformation states and interpret complex calculation results from modern software responsibly and with professional qualification. They are able to perform vibration analyses even on complex structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can prepare results of selected analyses and calculations, present and discuss them in groups, and conduct, document, and evaluate laboratory experiments in teams.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Strength of Materials",
+    "Introduction",
+    "Excursion: Tensor calculus",
+    "Stress state",
+    "Deformation and strain",
+    "Elasticity law",
+    "Variational and energy principles",
+    "Application examples",
+    "Vibration Analysis",
+    "Vibration-optimized design of components using FEM",
+    "Experimental vibration analysis using transfer functions",
+    "Experimental modal analysis"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Supervised small groups",
+    "Work in small groups",
+    "Literature study",
+    "Exam preparation",
+    "Preparation and follow-up for events",
+    "Self-study",
+    "Practical experiments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (3 experiments)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is a written exam; the duration is defined by the valid study regulations. An ungraded assessment is experimental work, consisting of 3 experiments. The prerequisites for earning ECTS credits are based on these performances.",
+  "bibliography": [
+    "Kienzler, Reinhold; Schröder, Roland: Einführung in die höhere Festigkeitslehre, Springer 2009",
+    "Läpple, Volker: Einführung in die Festigkeitslehre, Springer, Vieweg 2015",
+    "Kuypers, Friedhelm: Klassische Mechanik, Wiley-VCH 2010",
+    "Möser, Michael: Modalanalyse, Springer 2020"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_osnabru02__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "11M0545",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/MMB/StO2025_Stand2026-03-02_MSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "7a3592954f17202eba954c05fc3e4b3bf5685584671434f5fcf4779828097d63",
+  "extracted_at": "2026-11-20T12:34:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

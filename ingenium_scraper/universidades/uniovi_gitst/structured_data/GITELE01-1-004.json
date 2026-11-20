@@ -1,0 +1,231 @@
+{
+  "course_name_original": "Fundamentos de Informática",
+  "course_name_en": "Fundamentals of Computer Science",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Minimal familiarity as a common computer user"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases, and computer programs with engineering applications.",
+      "type": "knowledge",
+      "code": "CB2"
+    },
+    {
+      "text": "Knowledge and use of programming fundamentals in telecommunications networks, systems, and services.",
+      "type": "knowledge",
+      "code": "CR7"
+    },
+    {
+      "text": "Locate computer science within engineering disciplines.",
+      "type": "knowledge",
+      "code": "RA-4.1-"
+    },
+    {
+      "text": "Understand the fundamentals of the binary system to comprehend information representation in computers.",
+      "type": "knowledge",
+      "code": "RA-4.2-"
+    },
+    {
+      "text": "Identify the hardware components that constitute a computer system, as well as their interconnection in networks, and understand their basic operation.",
+      "type": "knowledge",
+      "code": "RA-4.3-"
+    },
+    {
+      "text": "Distinguish the main peripherals used in a computer system and specifically in the field of engineering.",
+      "type": "knowledge",
+      "code": "RA-4.4-"
+    },
+    {
+      "text": "Classify the different types of software used in a computer system.",
+      "type": "knowledge",
+      "code": "RA-4.5-"
+    },
+    {
+      "text": "Identify and classify different types of computer systems and their application areas.",
+      "type": "knowledge",
+      "code": "RA-4.6-"
+    },
+    {
+      "text": "Understand the main functions performed by an operating system.",
+      "type": "knowledge",
+      "code": "RA-4.7-"
+    },
+    {
+      "text": "Analyze what services the operating system provides to programs and end-users.",
+      "type": "skill",
+      "code": "RA-4.8-"
+    },
+    {
+      "text": "Identify the main operating systems used in professional engineering environments and utilize their main services at a user level.",
+      "type": "skill",
+      "code": "RA-4.9-"
+    },
+    {
+      "text": "Understand the main functions performed by a database management system.",
+      "type": "knowledge",
+      "code": "RA-4.10-"
+    },
+    {
+      "text": "Create data models for simple problems.",
+      "type": "skill",
+      "code": "RA-4.11-"
+    },
+    {
+      "text": "Use basic expressions to retrieve and modify information stored in a database.",
+      "type": "skill",
+      "code": "RA-4.12-"
+    },
+    {
+      "text": "Identify which database management systems are used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "RA-4.13-"
+    },
+    {
+      "text": "Identify the main application programs used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "RA-4.14-"
+    },
+    {
+      "text": "Understand the concept of an algorithm and the process of abstracting a problem in programming.",
+      "type": "knowledge",
+      "code": "RA-4.15-"
+    },
+    {
+      "text": "Identify the program development process and its location within the general Software Engineering process.",
+      "type": "knowledge",
+      "code": "RA-4.16-"
+    },
+    {
+      "text": "Recognize the elementary data structures provided by a structured programming language.",
+      "type": "knowledge",
+      "code": "RA-4.17-"
+    },
+    {
+      "text": "Manage the elementary control structures of a structured programming language.",
+      "type": "skill",
+      "code": "RA-4.18-"
+    },
+    {
+      "text": "Abstract operations.",
+      "type": "skill",
+      "code": "RA-4.21-"
+    },
+    {
+      "text": "Design small applications to solve elementary problems in collaborative work environments.",
+      "type": "skill",
+      "code": "RA-4.22-"
+    }
+  ],
+  "syllabus_topics": [
+    "INT - Introduction",
+    "Overview of computer science, in the context of other engineering disciplines",
+    "Structure and operation of a computer",
+    "Information representation in a computer",
+    "BD - Introduction to databases",
+    "Concept of database",
+    "Fundamentals of the relational data model",
+    "Performing queries and modifications",
+    "Database Management Systems in professional engineering environments",
+    "PRO - Introduction to programming",
+    "Problem abstraction for programming: fundamental concepts",
+    "Variables, expressions, assignment.",
+    "Using console input/output",
+    "Handling basic control flow structures: sequential, alternative, and repetitive",
+    "Definition and use of subprograms and functions. Scope of variables",
+    "File Input/Output",
+    "Basic data types and structures",
+    "Program development processes. From high-level to processor execution. Compiled languages and interpreted languages.",
+    "HSW - Hardware and software components of a computer system",
+    "Structure and operation of a computer: Von Neumann Architecture and machine language",
+    "Peripheral devices",
+    "System interconnection: types, mechanisms, and applications",
+    "Types of software: base software and application software",
+    "Types of computer systems and their application areas",
+    "SO - Introduction to operating systems",
+    "Concept and functions performed by an operating system",
+    "Interface and services offered to programs",
+    "Interface and services offered to users",
+    "Operating systems used in professional engineering environments",
+    "Introduction to tools in the practice laboratory. Spreadsheet as a tool (4h)",
+    "Design, implementation, and exploitation of a database (6h)",
+    "Programming with Python (18h)",
+    "Introduction to the development environment.",
+    "Variables, expressions, and console input-output.",
+    "Flow control: if-else, while, for.",
+    "Functions.",
+    "Structures: lists and strings.",
+    "Files."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Problem solving in small groups",
+    "Individual laboratory practice",
+    "Academic tutorials (individual)",
+    "Study of theoretical material",
+    "Completion of exercises and problems"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (Theme 1 - Introduction)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical exam (Theme 2 - Introduction to Databases)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Theoretical exam (Theme 3 - Introduction to Programming)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Theoretical exam (Theme 4 - Hardware and software components)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical exam (Theme 5 - Introduction to operating systems)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical exam (Theme 1 - Spreadsheet as a tool)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical exam (Theme 2 - Database design, implementation, and exploitation)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical exam (Theme 3 - Programming)",
+      "weight_percentage": 65.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, to pass the theoretical block, at least 40% of the total score must be achieved in Theme 3 (Introduction to Programming), and a grade greater than 4 out of 10 for the theoretical block is required to average with the practical block. The final theoretical block grade is 'T'. To pass the practical block, at least 40% of the total score must be achieved in Theme 3 (P3), and a grade greater than 4 out of 10 for the practical block is required to average with the theoretical block. The final practical block grade is calculated as (0.15 * P1) + (0.20 * P2) + (0.65 * P3). If both minimums are met, the final grade is (0.5 * Theory) + (0.5 * Practices); otherwise, the grade is the minimum of the calculated score and 4.0. For the extraordinary call, the same conditions apply, but a minimum grade of 5 out of 10 is required for both theoretical and practical blocks to average, and prior grades of 5.0 or higher can be carried over. In case of doubt regarding authorship or unauthorized means, an in-person defense may be requested.",
+  "bibliography": [
+    "Introducción a la Informática. 6ª Edición Autor: George Beekman Editorial: Pearson - Prentice Hall, 2004",
+    "Conceptos de Informática, Serie Schaum. Autores: Prieto, A., Prieto, B Editorial: McGraw Hill, 2005",
+    "Introducción a la Informática. 4ª Edición Autores: Alberto Prieto, Antonio Lloris, J.C.Torres Editorial: McGraw Hill, 2006",
+    "Fundamentos de Bases de Datos (5ª edición) Autores: A. Silberschatz, H.F; Korth, S. Sudarshan Editorial: McGraw Hill, 2006",
+    "Manuals and online resources about the programming language used in laboratory practices."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-1-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-1-004",
+  "source_language": "es",
+  "source_sha256": "dee7d7cd6228825cd57f73e412538be6a1c3a0f1e47d5561086867c0b58bfb73",
+  "extracted_at": "2026-11-20T06:03:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

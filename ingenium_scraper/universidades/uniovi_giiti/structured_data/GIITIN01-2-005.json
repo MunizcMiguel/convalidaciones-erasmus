@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Computación Numérica",
+  "course_name_en": "Numerical Computing",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Basic knowledge of Calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the different types of errors that can be made when using numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision, and the computational cost.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Evaluate and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Describe, analyze, and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Numerically solve problems of interpolation, one-dimensional data fitting, and function approximation.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use formulas to approximately obtain the definite integral of a function.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Describe, use, and evaluate basic numerical methods for solving optimization problems.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite arithmetic. Error analysis.",
+    "Concepts of error",
+    "Computer arithmetic",
+    "Error analysis",
+    "Numerical solution of non-linear equations.",
+    "Methods using intervals",
+    "Fixed-point methods",
+    "Newton's method",
+    "Algebraic equations",
+    "Numerical methods for solving linear and non-linear systems.",
+    "Direct methods",
+    "Iterative methods",
+    "Non-linear systems",
+    "Interpolation. Approximation. Data fitting.",
+    "Interpolation",
+    "Data fitting",
+    "Continuous approximation",
+    "Numerical integration.",
+    "Simple quadrature rules",
+    "Composite quadrature rules",
+    "Numerical optimization.",
+    "Optimization in one variable",
+    "Optimization in several variables"
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practices",
+    "Laboratory Practices",
+    "Expository Classes",
+    "Individual Work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Class Participation (TP)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Exam (P2)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Laboratory Participation (L)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 3.5 out of 10 is required for both the theoretical and practical blocks. The theoretical block score is calculated as (0.45 x T1) + (0.45 x T2) + (0.10 x TP), and the practical block score as (0.25 x P1) + (0.25 x P2) + (0.5 x L). If all minimums are met and laboratory attendance is 80% or higher, the final grade is (0.6 x Theory) + (0.4 x Practices). Otherwise, the grade is the minimum of the calculated score and 4.0. For the extraordinary call, a theoretical exam and a practical exam are given, each requiring a minimum of 3.5 out of 10. The final grade is calculated using the same formula as the ordinary call if minimums are met, otherwise it is the minimum of the calculated score and 4.0.",
+  "bibliography": [
+    "Burden, R. & Faires,J.D. \"Análisis Numérico\". International Thomson Publishing Company. (7ª Ed.). Madrid.2002.",
+    "A.Quarteroni-F. Saleri” CÁLCULO CIENTÍFICO con MATLAB y Octave”. Springer-Verlag (2006).",
+    "Chapra.S.C. & Canale,R.P. \"Metodos numericos para ingenieros (5ª Ed.)\" . McGraw Hill (2007) .",
+    "Conte, S. D. y Boor, C. \"Análisis Numérico\". Ed. McGraw-Hill.",
+    "J. M. Sanz-Serna. \"DIEZ LECCIONES DE CÁLCULO NUMÉRICO\". Universidad de Valladolid (1998)."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-2-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-2-005",
+  "source_language": "es",
+  "source_sha256": "5aafbec90419f6aaf82d7208420197c2835455a3036c285f9d314e08978a9a63",
+  "extracted_at": "2026-11-20T05:54:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

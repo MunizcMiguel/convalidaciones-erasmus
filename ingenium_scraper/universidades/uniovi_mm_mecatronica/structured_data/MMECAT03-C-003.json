@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Computadores y Programación",
+  "course_name_en": "Computers and Programming",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics, especially vector and matrix calculus.",
+    "Fluent computer skills.",
+    "Basic programming knowledge in a high-level language, preferably C or C++.",
+    "English, as much of the documentation will be in this language."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Develop technical specifications that allow a problem in mechatronic engineering to be approached while maintaining a global and integrated vision and using prescriptive, procedural, or performance specifications as appropriate.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision-making and selection among possible solutions to an engineering problem.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Acquire the necessary skills to act as administrators of mechatronic systems design, assuming planning (setting goals and strategies), organizing (assigning tasks and resources, coordinating), directing (leading and motivating) and controlling (monitoring) functions.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Document the specification, implementation, and commissioning of mechatronic equipment and systems, taking into account technical aspects and corresponding regulatory standards.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Students know how to apply the acquired knowledge and their problem-solving ability in new or unfamiliar environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "Students are able to integrate knowledge and face the complexity of formulating judgments based on incomplete or limited information, including reflections on the social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "Students know how to communicate their conclusions and the ultimate knowledge and reasons that support them to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Students possess the learning skills that will allow them to continue studying in a largely self-directed or autonomous way.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Select electronic devices for instrumentation and control that allow conditioning and processing of analog and digital signals from sensors and sent to typical actuators of a mechatronic system.",
+      "type": "competence",
+      "code": "CE7"
+    },
+    {
+      "text": "Identify the subcomponents of a technologically complex system, the interactions between them, and the effects and consequences of their possible redesign.",
+      "type": "competence",
+      "code": "CE8"
+    },
+    {
+      "text": "Design control systems of different complexity, from simple loops to distributed systems.",
+      "type": "competence",
+      "code": "CE9"
+    },
+    {
+      "text": "Discriminate the most critical components in a mechatronic system and justify their possible redesign from the point of view of the control system.",
+      "type": "competence",
+      "code": "CE10"
+    },
+    {
+      "text": "Justify in a reasoned manner the different options for the automation of a mechatronic machine or technological process.",
+      "type": "competence",
+      "code": "CE11"
+    },
+    {
+      "text": "Develop real-time data acquisition and processing systems.",
+      "type": "unspecified",
+      "code": "RA16"
+    },
+    {
+      "text": "Understand the most suitable computer systems for controlling mechatronic systems.",
+      "type": "unspecified",
+      "code": "RA17"
+    },
+    {
+      "text": "Create programs in C language for controlling mechatronic systems.",
+      "type": "unspecified",
+      "code": "RA18"
+    },
+    {
+      "text": "Use the most suitable computer platforms to implement the logic of mechatronic designs.",
+      "type": "unspecified",
+      "code": "RA19"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. The computer as a control element.",
+    "Operation of computers, information encoding, internal operation of a program.",
+    "C language: elements of a C program, steps for machine code generation, data types, operands (variables, constants, functions), operators and expressions, tables and pointers, use of local variables, parameters and global variables, structures and preprocessor.",
+    "Specific aspects of control programming: temporal sequences, analog input/output, digital input/output, control loop.",
+    "Event-oriented programming: Interrupt management.",
+    "Completion of a programming project coordinated with other subjects of the semester."
+  ],
+  "teaching_methods": [
+    "Expository classes with transparencies",
+    "Practical computer exercises",
+    "Independent study with proposed readings and exercises",
+    "Individual project work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical or practical exams",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Individual student project",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "To pass the course, students must achieve a minimum of 4/10 in the theoretical/practical exams (EV1) and a minimum of 5/10 in the individual project (EV2). The final grade is a weighted average: 60% from exams and 40% from the project. For extraordinary calls (July and January), the same evaluation criteria apply. A physical defense of the project may be required if it does not meet minimum quality and originality requirements.",
+  "bibliography": [
+    "Copy of transparencies projected in expository classes.",
+    "Links to various Internet documentation on the subject, with some basic links being mandatory readings.",
+    "Online help for Qt creator, C documentation from the Internet, and electronic documentation for PIC microcontrollers.",
+    "“Aprenda Ansi C como si estuviera en 1º”, electronic notes from the University of Navarra.",
+    "\"C. Manual de referencia\". H. Schildt. McGraw-Hill.",
+    "\"Organización de Computadoras\". Hamacher, Vranesic, Zaky. McGraw-Hill.",
+    "“C for Electronic Engineering”. W. Buchanan. Prentice-Hall."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-C-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-C-003",
+  "source_language": "es",
+  "source_sha256": "dc3bf92edf2882864f88e1f3dd486f06b5e05d9d72a5cf5602556230e2321dfe",
+  "extracted_at": "2026-11-20T05:59:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

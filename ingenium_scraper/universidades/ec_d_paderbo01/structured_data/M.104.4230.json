@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Regelungstechnik, Modellbildung und Simulation (M.104.4230)",
+  "course_name_en": "Control Engineering, Modeling and Simulation (M.104.4230)",
+  "ects": 8.0,
+  "semester": "SS",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Successful completion of the modules to be completed in the 1st and 2nd semesters according to the study plan.",
+    "Knowledge as taught in the lectures in Fundamentals of Mechatronics and Systems Engineering, Control Engineering, Machine and System Dynamics.",
+    "Principles of Mechatronics and System Theory",
+    "Automatic Control",
+    "Matlab/Simulink in mechatronics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the most important concepts and methods for describing and analyzing linear dynamic systems in state space and can apply them computationally to simple examples.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Participants know several methods for designing controllers (including observers) in state space and can apply them computationally and in a common design environment to simple tasks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students know principles and methods for creating physical and mathematical models for the dynamic behavior of mechatronic systems and can systematically apply them computationally to new systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Furthermore, they know different integration methods for numerical simulation including their advantages and disadvantages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "In a common simulation environment, they can systematically select and apply suitable methods for typical applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "State space description of dynamic systems",
+    "Methods of model simplification: linearization around reference trajectory, Padé approximation, spatial discretization",
+    "Controllability and observability, concept of zeros in multi-variable systems",
+    "Model order reduction",
+    "2-degree-of-freedom control with state feedback and feedforward control",
+    "Design of state control systems",
+    "State and disturbance observers",
+    "Overview of modelling tools",
+    "Differential equation formalisms for the dynamics of mechanical systems",
+    "Multiphysical modeling paradigms:",
+    "Signal flow oriented modeling",
+    "Lagrange for multidomain application",
+    "Multipolar systems: general Kirchhoff’s circuit laws",
+    "Bondgraphs",
+    "Model causality",
+    "Identification of model parameters",
+    "Nonlinear simulation"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written or oral exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The module examination is passed if the students can explain suitable methods for modeling and analysis as well as controller synthesis for exemplary problems, apply them specifically, and evaluate the results. Credit points are awarded when the module examination is passed.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites",
+    "bibliography"
+  ],
+  "institution": "Universitaet Paderborn",
+  "institution_slug": "ec_d_paderbo01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "M.104.4230",
+  "academic_year": "2025-26 (Modulhandbuch SoSe 2026)",
+  "source_url": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Modulhandbuecher/Modulhandbuecher_SoSe_26/Alte_POen/Ba_MB_SS26.pdf",
+  "source_language": "de",
+  "source_sha256": "f54b6b03d4a352e1244615d40e67700db8e71c467833e68c7ed06a98231e0356",
+  "extracted_at": "2026-11-18T09:51:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

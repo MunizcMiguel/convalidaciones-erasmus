@@ -1,0 +1,147 @@
+{
+  "course_name_original": "TELECOMMUNICATION SYSTEMS (504024)",
+  "course_name_en": "TELECOMMUNICATION SYSTEMS",
+  "ects": 9.0,
+  "semester": "2nd semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Signal theory",
+    "modulations",
+    "protocols",
+    "Comunicazioni elettriche",
+    "Reti di Calcolatori"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand problems and technical solutions to operate a communication system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the impact of the environment and the service type on the preferable solution.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe the main commercial systems with reference to the studied techniques.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know the physical principles that affect a transmission system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the transmission techniques and their effectiveness in the presence of physical phenomena.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the effects of the interaction between different users and services.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the reasons behind the choices of different techniques in different systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the performance that can be achieved and the factors influencing them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyze requirements and consequently adopt a conscious choice based on the requested service.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Characterization of wired systems",
+    "Propagation phenomena and how to design efficient transmission techniques to counteract transmission impairments",
+    "Transmission over radio channels",
+    "Attenuation",
+    "Multipath",
+    "Fading",
+    "Doppler effect",
+    "Crosstalk",
+    "Review of transmission techniques (analog and digital)",
+    "Analog to digital conversion",
+    "Transmission of baseband digital data: robustness to noise and bandwidth efficiency",
+    "Introduction to traffic theory for performance characterization and system planning",
+    "Kendall's notation",
+    "Little's result",
+    "Transition matrix and state probabilities for Markov systems",
+    "Birth death processes",
+    "Circuit switched networks: space, time and hybrid circuit switched nodes",
+    "Minimization of crosspoints",
+    "Blocking probability",
+    "Signaling, in-band, out-of band, common channel",
+    "Multiplexing in circuit switched networks frequency (FDM)",
+    "Time (TDM)",
+    "Code (CDM)",
+    "Duplexing",
+    "Sample systems: PDH (alignment, justification)",
+    "SDH (justification)",
+    "WDM",
+    "OVSF codes",
+    "Packet switched networks",
+    "The data Link Layer: line management, link configuration, packet extraction, error control (FEC and ARQ)",
+    "Sample protocols: HDLC, PPP",
+    "Distributed multiplexing in packet networks: Aloha, Slotted-Aloha, CSMA/*, Token passing",
+    "Local packet based systems",
+    "Wired and Wireless Local Area Networks (LAN) in the IEEE 802 set of standards",
+    "Short range and sensor networks",
+    "Wide area packet networks",
+    "Historical perspective, Frame relay and ATM networks",
+    "Quality of service concepts",
+    "Evolution and convergence to IP based networks",
+    "Mobile radio systems",
+    "Network architecture, sample operational procedures",
+    "Evolution (2G, 3G, 4G)",
+    "Coding and transmission of digital video",
+    "Fundamentals of compression techniques",
+    "Network architectures for video distribution (DVB, CDN)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises in class"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 76.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written and an oral part. The written part comprises 4 questions to be answered in 1 hour. Admission to the oral exam requires a grade of at least 8 in the written test. The oral exam must also achieve a grade of at least 8 to pass. The final grade is the sum of grades from the oral and written parts (max grade written 17, max grade oral 17).",
+  "bibliography": [
+    "A. Pattavina, \"Reti di Telecomunicazioni.\" McGrawHill",
+    "J. Kurose, K. Ross, \"Computer Networking: A Top-Down Approach.\" Pearson",
+    "O. Bertazioli, L. [docente], \"GSM-GPRS:\" Hoepli"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "504024",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=11702&ordinamento_aa=2021&af_percorso=1&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "4a38d218429caa4a61fc76221e68be4c48b94e31e6e111c939af10614959a759",
+  "extracted_at": "2026-11-20T08:18:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

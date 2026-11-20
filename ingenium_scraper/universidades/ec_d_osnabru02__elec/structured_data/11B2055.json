@@ -1,0 +1,129 @@
+{
+  "course_name_original": "Kommunikationstechnologien",
+  "course_name_en": "Communication Technologies",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of signal and system theory, e.g., from the \"Signals and Systems\" module"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the essential basics of information transmission, especially the concepts and fundamental components of digital information transmission systems, and expand their knowledge of signal and system theory to include the treatment of stochastic and time-discrete signals in the time and frequency domains.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can systematically apply the corresponding methods to describe and analyze processes in analog and digital information transmission systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can specifically apply the expanded methods of signal and system theory for the analysis of deterministic and stochastic signals and their transmission via systems in the low-pass and band-pass range.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have detailed knowledge of digital baseband transmission and can explain important modulation methods in detail.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can explain the components of a digital transmission system and the basic concepts of transmitting digital signals in detail and estimate important parameters, such as their bandwidth requirements and achievable data rates.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can describe the influence of interference signals (AWGN) and calculate resulting bit error rates.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students understand the influence of essential concepts of digital signal transmission, e.g., the influence of sampling and quantization on the achievable transmission quality.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can analyze the transmission of stochastic signals via digital transmission systems using signal and system theory and evaluate and compare essential concepts of digital systems for information transmission in terms of achievable transmission quality and frequency requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to specifically apply the methods of signal and system theory for the analysis of the transmission of deterministic and stochastic signals via digital systems for information transmission in the baseband and band-pass range.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can analyze such systems and are able to evaluate and appropriately select the different methods with regard to transmission rate, bandwidth requirement, error probability, and other signal properties.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can experimentally record signals and transmission properties in the time and frequency domains, and in particular, perform and evaluate spectral measurements using the Discrete Fourier Transform.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can precisely describe information transmission systems with specific technical vocabulary and systematically explain and mathematically describe complex relationships of digital information transmission.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of message transmission (e.g., transmission system, comparison of analog and digital transmission systems)",
+    "Review of system theory with regard to communication engineering systems (e.g., time domain, frequency domain, impulse response, transfer function, energy and power signals)",
+    "Low-pass and band-pass systems (e.g., ideal low-pass and ideal band-pass, equivalent low-pass systems)",
+    "Time-discrete signals (e.g., sampling and quantization, sampling theorem, discrete convolution, discrete Fourier transform)",
+    "Stochastic signals (e.g., description in time and frequency domain, correlation, power spectral density)",
+    "Digital baseband transmission (e.g., correlation reception, bit error rates, binary and multi-level transmission)",
+    "Modulation and demodulation methods (e.g., AM/FM, focus: digital methods ASK, PSK, QAM, FSK)",
+    "Digital transmission with band-pass signals (e.g., bit error rates, bandwidth requirement)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity",
+    "Preparation and follow-up of events",
+    "Exam preparation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "oral examination or written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination performance will be an oral examination or a written exam, chosen by the lecturer. The experimental work, consisting of approximately 4-6 experiments, is an ungraded examination performance. Specific durations for oral and written exams are detailed in the general part of the examination regulations and the applicable study regulations, respectively.",
+  "bibliography": [
+    "C. Roppel: Grundlagen der Nachrichtentechnik, Hanser, 2018",
+    "H.D. Lüke, J.R. Ohm: Signalübertragung, Springer, 12. Aufl., 2015",
+    "K.D. Kammeyer, A. Dekorsy: Nachrichtenübertragung, Teubner, 6. Aufl., 2018",
+    "M. Werner: Nachrichtentechnik. Eine Einführung für alle Studiengänge. 8.Auflage, Springer Vieweg, 2017",
+    "M. Meyer: Kommunikationstechnik – Konzepte der modernen Nachrichtenübertragung, 5. Aufl., Springer-Vieweg, 2014",
+    "J.G. Proakis, M. Salehi: Grundlagen der Kommunikationstechnik, 2. Aufl., Pearson, 2005",
+    "B. Girod, R. Rabenstein, A. Stenger: Einführung in die Systemtheorie, Teubner, 4. Aufl., 2007",
+    "I. Rennert, B. Bundschuh: Signale und Systeme - Einführung in die Systemtheorie, Fachbuchverlag Leipzig im Carl Hanser Verlag, 2013",
+    "O. Beucher: Signale und Systeme: Theorie, Simulation, Anwendung, 3. Aufl., Springer Vieweg, 2019"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B2055",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "aa8bb9be8d2f402d44de5eb75ae55d11f228b48d65e78c1e40ca3d5ba878e733",
+  "extracted_at": "2026-11-20T12:33:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

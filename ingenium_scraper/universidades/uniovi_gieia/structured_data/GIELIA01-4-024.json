@@ -1,0 +1,129 @@
+{
+  "course_name_original": "Electrónica para Energías Renovables y Regeneración",
+  "course_name_en": "Electronics for Renewable Energy and Regeneration",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Completed basic training module",
+    "Algebra lineal",
+    "Cálculo",
+    "Métodos numéricos",
+    "Estadística",
+    "Ondas y Electromagnetismo",
+    "Expresión Gráfica",
+    "Fundamentos de Informática",
+    "Completed common industrial branch module",
+    "Tecnología Electrónica",
+    "Tecnología Eléctrica",
+    "Automatización y Control",
+    "Sistemas Electrónicos Digitales",
+    "Electrónica de Potencia"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the main renewable energy sources; the typical loads of electronic renewable energy systems; as well as the optimal way to perform electronic energy conversion between the source and the load.",
+      "type": "unspecified",
+      "code": "REE-1"
+    },
+    {
+      "text": "Understand the principle of electric energy regeneration, the main methods of temporary energy storage, and the main electronic strategies for recovering said energy.",
+      "type": "unspecified",
+      "code": "REE-2"
+    },
+    {
+      "text": "Handle specific laboratory equipment and simulation software for electronic circuits and electronic design.",
+      "type": "unspecified",
+      "code": "REE-3"
+    },
+    {
+      "text": "Design simple electronic systems for energy generation from renewable sources and for electric energy regeneration systems.",
+      "type": "unspecified",
+      "code": "REE-4"
+    },
+    {
+      "text": "Know and apply the regulations that electronic equipment used in renewable energy generation and energy regeneration systems and installations must comply with.",
+      "type": "unspecified",
+      "code": "REE-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to renewable energies (solar, wind, hydraulic, tidal, geothermal, etc.)",
+    "Generators and specific loads in electronic renewable energy conversion systems",
+    "Generators (solar panels, wind turbines, etc.)",
+    "AC loads (electrical grid, motors, etc.)",
+    "DC loads (batteries, electronic loads, supercapacitors, etc.)",
+    "Main electronic topologies for renewable energy conversion",
+    "DC/DC Conversion",
+    "DC/AC Conversion",
+    "AC/DC Conversion",
+    "Static switches",
+    "Electronics for energy regeneration",
+    "Presentation of the subject. The work plan to follow. Proposal and assignment of tasks.",
+    "Electronic Systems for renewable energies",
+    "Electronic Systems for Energy Storage",
+    "Electronic Systems for electric vehicles",
+    "Electronic Systems for energy monitoring (Internet of Energy)",
+    "Electronic Systems for energy transmission",
+    "Electronic Systems for Lighting",
+    "Group activity TG1 - Presentation and defense of projects completed in ordinary call.",
+    "Solar panels. Effect of shadows and hot-spots",
+    "Regulation of the Flyback converter for use as equivalent input voltage to a solar panel",
+    "Solar MPPT. Perturb, Observe and Wait (PWO) Method",
+    "Modeling of a wind/hydro turbine in LTSpice",
+    "Modeling of the Permanent Magnet Generator",
+    "MPPT for wind turbines",
+    "Grid energy injection (grid-tied inverter - GTI)",
+    "Energy storage in batteries: DAB converter",
+    "Use of the DAB converter or the grid-tied inverter (GTI) to stabilize a DC microgrid (Droop strategies and master-slave strategies)",
+    "Simulation of an electronic power system with generation, consumption, and energy storage elements."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Project-Based Learning (PBL)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Practical exam",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The theoretical exam accounts for 75% of the grade and requires a minimum score of 4 out of 10. The practical exam accounts for 25% of the grade. To pass the practical exam, a minimum score must have been obtained previously in the theoretical exam (minimum 4 out of 10). These rules apply to all calls (ordinary, extraordinary, and differentiated).",
+  "bibliography": [
+    "Páginas web: Donde estará disponible toda la documentación de la asignatura.",
+    "Específica del profesor: <http://mrico.dieecs.com/>",
+    "Páginas web de fabricantes de equipamiento de energías renovables y temas de eficiencia energética",
+    "Energy for a sustainable world (Wiley-VCH)",
+    "Energy harvesting (CRC press)",
+    "Power Electronics Handbook (BH)",
+    "Renewable Energy in Power Systems (Wiley-VCH)",
+    "Wind Energy (CRC press)",
+    "Shipboard propulsion, power electronics and oceanic energy (CRC press)",
+    "Convertidores de potencia avanzados: El convertidor matricial. (Delta)",
+    "Wave Energy Converter Concepts (IEEE industrial electronics magazine)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-024",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-024",
+  "source_language": "es",
+  "source_sha256": "0d1e1d5b749c5867f0c621429e74e035959efe4b1011d72ac4eeeb2c5ba378cd",
+  "extracted_at": "2026-11-20T01:13:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

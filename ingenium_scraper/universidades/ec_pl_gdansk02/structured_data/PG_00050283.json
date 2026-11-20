@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Automation and robotics",
+  "course_name_en": "Automation and robotics",
+  "ects": 5.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [
+    "Mathematics",
+    "Physics",
+    "Mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "is able to identify, formulate and develop the documentation of a simple design or technological task, including the description of the results of this task in Polish or in a foreign language and to present the results using computer software or other aiding tools",
+      "type": "skill",
+      "code": "K6_U03"
+    },
+    {
+      "text": "He is able to build, design and analyze basic automatic control systems with the typical, universal industrial controllers.",
+      "type": "skill",
+      "code": "SU5"
+    },
+    {
+      "text": "The student knows the structure of a typical automation system and its components. He is able to build, design and analyze basic automatic control systems with the typical, universal industrial controllers.",
+      "type": "knowledge",
+      "code": "K6_W06"
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of basic terms",
+    "General structure of control system",
+    "Classification and examples of control system elements",
+    "Analog and digital control systems",
+    "Basic information about digital control systems",
+    "Boolean algebra",
+    "Combinational logic system",
+    "Sequential logic system",
+    "Design, synthesis and analysis of digital control systems",
+    "Basic information about analog control systems",
+    "A typical connections of components",
+    "Block diagrams and their transformations",
+    "Feedback",
+    "Description and classification of signals",
+    "Standard signals",
+    "Method of description control systems, elements and signals",
+    "Classification of robots and manipulators",
+    "Construction, modeling and analysis of robot motion",
+    "Introduction to robot control systems",
+    "The sensors used in industrial robots",
+    "Fundamentals of programming robots",
+    "Application of robots",
+    "Application of the Laplace transformation",
+    "Concept of transfer function",
+    "Static and dynamic characteristics of control systems",
+    "Time responses",
+    "Frequency characteristics",
+    "Nyquist and Bode plots",
+    "Controllers",
+    "Tuning of PID controller",
+    "Design of combinational and sequential logic circuits",
+    "Time and frequency characteristics of selected control system components",
+    "Programming of serial kinematics, industrial robot Nachi MZ04 and parallel, delta type kinematics robot ABB IRB 360",
+    "Programming of collaborative robot Hanwha HCR3a"
+  ],
+  "teaching_methods": [
+    "lecture",
+    "exercises",
+    "laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Midterm colloquium",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Laboratory (reports from laboratory exercises)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "A passing threshold of 56.0% is required for the midterm colloquium, written exam, and laboratory reports.",
+  "bibliography": [
+    "Craig J., J., Introduction to Robotics: Mechanics and Control",
+    "Vidyasagar M., Spong Mark W.: Robot Modeling and Control",
+    "Siciliano B., Khatib O.: Springer Handbook of Robotics. Berlin: Springer 2008",
+    "R.C. Dorf, R.H.Bishop, Modern Control Systems, Prentice Hall, 2008",
+    "N.S. Nise, Control Systems Engineering, Wiley, 2015",
+    "G.F. Franklin, J.D. Powell, A. Emami-Naeini, Feedback Control of Dynamic Systems, Addison-Wesley, 1994",
+    "K. Astrom, R. Murray [AM]. Feedback Systems. An Introduction for Scientists and Engineers, Princeton University Press, 2012",
+    "K. Ogata [O]. Modern Control Engineering, Pearson, 5th Edition, 2010"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gdańsk University of Technology (Politechnika Gdańska)",
+  "institution_slug": "ec_pl_gdansk02",
+  "degree": "Mechanical Engineering, first-cycle (engineer), specialization Design and Production Engineering",
+  "course_code": "PG_00050283",
+  "academic_year": "2023-2024 (cohorte de inicio; fichas 2023/24-2026/27)",
+  "source_url": "https://ects.pg.edu.pl/en/subjects/361861/card.pdf",
+  "source_language": "en",
+  "source_sha256": "4f4eae5b3d8d9e3616c9d54b882bf4dc2be0a2e13c77291f008ef059418f5599",
+  "extracted_at": "2026-11-20T09:06:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

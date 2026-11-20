@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Infraestructura Informática",
+  "course_name_en": "Computer Infrastructure",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Computadores y Redes",
+    "Arquitectura de Computadores",
+    "Sistemas operativos",
+    "Administración de sistemas",
+    "Redes de Computadores",
+    "Ability to read and understand texts written in English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to select, design, deploy, integrate, evaluate, build, manage, operate and maintain hardware technologies within appropriate cost and quality parameters.",
+      "type": "competence",
+      "code": "ETI2.1"
+    },
+    {
+      "text": "Ability to select, design, deploy, integrate, evaluate, build, manage, operate and maintain software technologies within appropriate cost and quality parameters.",
+      "type": "competence",
+      "code": "ETI2.2"
+    },
+    {
+      "text": "Be able to select, design, deploy, integrate and build the hardware infrastructure required by an organization to provide the computer services required by it, according to the stipulated quality parameters.",
+      "type": "skill",
+      "code": "PF21"
+    },
+    {
+      "text": "Be able to evaluate, manage, operate and maintain the hardware infrastructure required by an organization to provide the computer services required by it, according to the stipulated quality parameters.",
+      "type": "skill",
+      "code": "PF22"
+    },
+    {
+      "text": "Be able to select, deploy and integrate the system software and appropriate administration tools for the efficient management of an organization's hardware infrastructure.",
+      "type": "skill",
+      "code": "PF23"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to IT infrastructure",
+    "Virtualization Technologies",
+    "Storage system technology",
+    "Storage systems and networks",
+    "Server Technology",
+    "Data Processing Center (DPC)",
+    "Virtualization and planning of the infrastructure of an example organization",
+    "Centralized equipment management",
+    "Operating system virtualization: containers",
+    "Infrastructure configuration",
+    "Configuration and use of a storage network"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous student work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Group work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "In-person theory tests (two exams or one final exam)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "To pass the course, it is essential to obtain a minimum score of 5 out of 10 in each part (laboratory practices, group work, and theory tests). The final grade is calculated as: Final Grade = 0.4 * PL + 0.1 * TG + 0.5 * TE. If a minimum score is not reached in any part, the final grade will be capped at 4.5 points. Laboratory practices can only be completed in the ordinary call. For the extraordinary call, approved laboratory practices from the ordinary call are considered, and the group work must be submitted and approved; a final knowledge test must also be passed with at least 5 points. If lab practices were not done, a maximum grade of 6 points can be obtained.",
+  "bibliography": [
+    "Storage Networks Explained: Basics and Application of Fibre Channel SAN, NAS, iSCSI, InfiniBand and FCoE, Ulf Troppens, Wolfgang Müller-Friedt, Rainer Wolafka, Rainer Erkens, y Nils Haustein, Wiley, 2009",
+    "Documentación de Hyper-V, Microsoft, Disponible en: https://learn.microsoft.com/es-es/virtualization/hyper-v-on-windows/",
+    "Xen Project, The Linux Foundation Projects, Disponible en: https://xenproject.org/",
+    "Docker docs, Docker, Disponible en: https://docs.docker.com/",
+    "Broadcom: Fibre Channel Networking, Broadcom, Disponible en: https://www.broadcom.com/products/fibre-channel-networking",
+    "NetApp: Soluciones de almacenamiento, NetApp, Disponible en: https://www.netapp.com/es/data-storage/",
+    "Dell: Servidores, DellTechnologies, Disponible en: https://www.dell.com/es-es/shop/scc/sc/servers",
+    "42U: Solutions for the Next Generation Data Center, 42U, Disponible en: http://www.42u.com/",
+    "APC by Schneider Electric, APC, Disponible en: https://www.se.com/us/en/brands/apc/",
+    "Documentación técnica de Microsoft, Microsoft, Disponible en: https://learn.microsoft.com/es-es/",
+    "Introducción a Active Directory Domain Services, Microsoft, Disponible en: https://learn.microsoft.com/es-es/windows-server/identity/ad-ds/get-started/virtual-dc/active-directory-domain-services-overview"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-3-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-3-003",
+  "source_language": "es",
+  "source_sha256": "45eafa849575a579c00723dc6941a7a14e81dd81111563b777c6df95ac218fcc",
+  "extracted_at": "2026-11-20T05:54:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Sistemas Empotrados y Ubicuos",
+  "course_name_en": "Embedded and Ubiquitous Systems",
+  "ects": 3.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Competencies related to the design, organization, and architecture of computers, as well as computer networks.",
+    "Competencies in software design and development.",
+    "Knowledge of C/C++ programming language.",
+    "Reading and comprehension skills for technical documentation in English."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Integrate technologies.",
+      "type": "unspecified",
+      "code": "RA7-1, CE-DG1"
+    },
+    {
+      "text": "Understand the design guidelines in microcontroller-based systems.",
+      "type": "unspecified",
+      "code": "RA7-5, CE-TI8"
+    },
+    {
+      "text": "Design hardware based on module integration.",
+      "type": "unspecified",
+      "code": "RA7-6, CE-TI8"
+    },
+    {
+      "text": "Design and integrate embedded applications.",
+      "type": "unspecified",
+      "code": "RA7-7, CE-TI8"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to embedded and ubiquitous systems",
+    "Sensors and actuators",
+    "Microcontroller-based processing",
+    "Wired communication",
+    "Wireless communication",
+    "Internet of Things (IoT)",
+    "GPS positioning",
+    "Embedded and real-time operating systems",
+    "Practical case: Development of firmware for a real-time system module and its integration with modules developed by other peers to implement a real embedded system."
+  ],
+  "teaching_methods": [
+    "Expository classes (flipped classroom model)",
+    "Classroom practices (module integration and programming for simple embedded systems)",
+    "Individual laboratory practices (module-based embedded system design, mandatory delivery exercises)",
+    "Group laboratory practices (related to coordinated project, presentation required)",
+    "Group tutorials",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Theory evaluation (classroom activities and/or Virtual Campus)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Laboratory practice exercises",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Group work for coordinated project",
+      "weight_percentage": 35.0
+    }
+  ],
+  "assessment_rules": "To pass the course, the final grade must be 5 points or higher out of 10. In the ordinary call, it is essential to attend at least 80% of active laboratory practical classes. If this attendance requirement is met, the final grade is calculated as 0.3 * NTeo + 0.7 * (0.5 * NPracEjer + 0.5 * NPracProy). If the attendance requirement is not met, the final grade is 0.3 * NTeo. In the extraordinary call, theory is evaluated by an individual written exam (NExTeo) and practicals by NExPrac (same as ordinary if >= 5.0, else 0). If NExTeo is >= 5.0, the final grade is Maximum(NExTeo; 0.6 * NExTeo + 0.4 * NExPrac); otherwise, the final grade is NExTeo. For differentiated evaluation, students take a final theory exam (NDifTeo), a final practical exam (NDifPrac), and submit all laboratory practice exercises (NDifEjerPrac). To take the theory exam, NDifEjerPrac must be >= 5.0. To take the practical exam, NDifTeo must be >= 5.0. The final grade is 0.5 * NDifTeo + 0.5 * NDifPrac if NDifEjerPrac >= 5.0, otherwise it is NDifEjerPrac. New evaluations are conducted in each call, without considering previous exam grades.",
+  "bibliography": [
+    "Internet of Things, 2nd Edition. Elsevier, 2018. ISBN (paper): 978-0128144350. ISBN (ebook): 978-0128144367.",
+    "Embedded System Design. Springer, 2018. ISBN: 978-3319560458.",
+    "Internet of Things for Architects. Packt Publishing, 2018. ISBN: 978-1788470599.",
+    "Embedded Systems Architecture. Packt Publishing, 2018. ISBN: 978-1788832502.",
+    "Computers as Components: Principles of Embedded Computing System Design (4 Ed.) Morgan Kaufmann, 2016. ISBN: 97-80128053874.",
+    "IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things. Cisco Press, 2017. ISBN: 978-1587144561.",
+    "IoT Hackers Handbook: An Ultimate Guide to Hacking the Internet of Things and Learning IoT Security. CreateSpace Independent Publishing Platform, 2017. ISBN: 978-1974590124."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Informática (Informática, Oviedo)",
+  "institution_slug": "uniovi_mm_inf",
+  "degree": "Máster Universitario en Ingeniería Informática",
+  "course_code": "MINFOR01-1-024",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/informatica/-/fof/asignatura/MINFOR01-1-024",
+  "source_language": "es",
+  "source_sha256": "e3573d8e6b77933f7e6fc024ac69f92e7634fbbb6b0ed34f35c84fa084e8079d",
+  "extracted_at": "2026-11-20T05:58:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

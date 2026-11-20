@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Basi Di Dati",
+  "course_name_en": "Databases",
+  "ects": 9.0,
+  "semester": "I",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Acquire concepts related to data modeling in software systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire concepts related to the characteristics of an information system and computer system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire concepts related to the characteristics of a transactional system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire concepts related to the use of SQL (Structured Query Language) and embedded SQL in programming languages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire concepts related to the physical organization of a database system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the basic knowledge related to relational databases, as well as those related to database system technologies and architectures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be provided with methodological and technological tools to support the design of relational databases and their management using SQL and DBMS software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to implement and administer a database system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to configure a database system appropriately to support interacting applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply knowledge of relational databases and SQL for the creation and management of database systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design, create, populate, and query a relational database.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to manage the commissioning of a relational database using a DBMS.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer systems. Information and computer systems. Databases and management systems (DBMS).",
+    "The relational model. Relations and tables. Databases and integrity constraints. Data definition in SQL.",
+    "The Entity-Relationship model. Database design. Entities, associations, and attributes. Conceptual design and examples. From conceptual schema to relational schema. Schema revision. Translation into the logical model.",
+    "The Advanced Entity-Relationship model. Inheritance: superclasses and subclasses. Generalization and specialization hierarchies. Resolution of hierarchies.",
+    "Operations. Set operations. Modification of the database state. Relational operations in procedural and declarative form (SQL). Selection, Projection, Join. Renaming and use of variables. Aggregation and grouping functions. Set and nested queries. Views. SQL query syntax. Full syntax for Insert, Update, and Delete.",
+    "Normal Forms. Redundancies and anomalies in modifying a relation. Functional dependencies. Constraints and functional dependencies; complete dependencies. The three normal forms and decomposition techniques. Boyce-Codd normal form.",
+    "SQL and programming languages. ODBC, JDBC, triggers.",
+    "Physical design of a database. Physical organization and query management. Access structures.",
+    "Query manager.",
+    "Transactions. Reliability control and concurrency control.",
+    "Distributed database technology. Replicated databases.",
+    "Introduction to object-oriented databases. Directional databases."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Computer exercises (assisted and personal)",
+    "Seminars",
+    "Multimedia didactic material available online"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 90.0
+    },
+    {
+      "method": "Project work discussion",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and a discussion of project work. The written test includes both exercises and theoretical questions. The written test contributes approximately 90% to the final grade, while the project work discussion contributes 10%.",
+  "bibliography": [
+    "Chianese, Moscato, Picariello, Sansone. “Sistemi di basi di dati ed applicazioni”. Apogeo Education-Maggioli Editore. Settembre 2015.",
+    "Course slides and supplementary material"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "basi_di_dati",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "1cce1cf2946508fc1fc2fbc5d7a477cb1e794aecdae3d880bb93445d0f774137",
+  "extracted_at": "2026-11-20T08:19:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

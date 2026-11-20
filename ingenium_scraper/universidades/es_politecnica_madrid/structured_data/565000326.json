@@ -1,0 +1,147 @@
+{
+  "course_name_original": "MECANICA",
+  "course_name_en": "Mechanics",
+  "ects": 3.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Infinitesimal Calculus (565000311)",
+    "Handling of Vector Fields",
+    "Physics I (565000313)",
+    "Linear Algebra (565000312)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding and mastery of the basic concepts of the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism, and their application to solving problems typical of engineering.",
+      "type": "competence",
+      "code": "CE2"
+    },
+    {
+      "text": "Apply acquired knowledge to identify, formulate, and solve problems in broad contexts, being capable of integrating them by working in multidisciplinary teams.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Possess learning skills that allow continuous lifelong learning for adequate professional development.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Incorporate ICT and the technologies and tools of Industrial Engineering into their professional activities.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Know and apply the knowledge of basic sciences and technologies to the practice of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Creativity.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Knowledge and use of the principles of Mechanics in Mechanical Engineering problems.",
+      "type": "knowledge",
+      "code": "RA79"
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION. PARTICLE STATICS",
+    "General concepts and parts of mechanics",
+    "Systems of forces",
+    "Equivalent systems",
+    "Moment of a couple of forces",
+    "Central axis",
+    "STATICS OF THE RIGID BODY",
+    "Equilibrium of a rigid body in two dimensions",
+    "Equilibrium of a rigid body in three dimensions",
+    "Types of constraints: fixed supports, articulated joints, and fixed ends",
+    "Types of systems: Isostatic, Hyperstatic, partially constrained, and improperly constrained",
+    "CENTERS OF GRAVITY",
+    "Centers of gravity of a two-dimensional body",
+    "First order moments",
+    "Calculation of centers of gravity by integration",
+    "Pappus-Guldin Theorems",
+    "Beams with distributed loads",
+    "Centers of gravity of three-dimensional bodies",
+    "Calculation of centers of gravity of volumes by integration",
+    "STRUCTURE CALCULATION",
+    "Introduction to pin-jointed structures",
+    "Method of joints",
+    "Method of sections",
+    "Calculation of mixed structures",
+    "Calculation of machines",
+    "MOMENTS OF INERTIA",
+    "Second order moments. Radius of gyration",
+    "Product of inertia",
+    "Central ellipse of inertia. Principal axes and principal moments",
+    "Mohr's circles",
+    "Mass moments of inertia",
+    "Mass products of inertia",
+    "Ellipsoid of inertia. Principal axes",
+    "FRICTION",
+    "Dry or Coulomb friction",
+    "Study of wedges",
+    "Bearings. Axial friction",
+    "Thrust bearings. Disc friction",
+    "Wheel friction. Rolling resistance",
+    "Belt friction"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes",
+    "Laboratory practices",
+    "Other activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 38.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Assessment Test 1 and 2",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous Assessment Test 3",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous Assessment Test 4",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory Exam",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "June Ordinary Final Exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum weighted score of 5 out of 10 is required. Additionally, a minimum of 4 out of 10 must be obtained in the June ordinary exam. Continuous assessment scores are valid only for the ordinary call, while laboratory scores apply to both ordinary and extraordinary calls and are carried over to subsequent years. If a student achieves the maximum score in the global exam (either ordinary or extraordinary), their final course grade will be 10. For the extraordinary call, the final grade consists of 10% from the Laboratory and 90% from the July Extraordinary Exam, with a minimum of 4 points required in the July exam.",
+  "bibliography": [
+    "Beer, Ferdinand P; Johnston, E. Russell Jr: Mecánica Vectorial para Ingenieros Estatica y dinámica Mc. Graw Hill",
+    "Merian, JL; Kraige L G; \"Mecánica para Ingenieros\" Reverté, 1998",
+    "Perera Velamazan, R; Gomez Lera S: \"Estructuras Articuladas: Teoría y Ejercicios\" Sección de publicaciones de la ETSI Industriales. UPM. 1998",
+    "Riley, William F.; Sturges, Leroy D: Ingeniería Mecánica: Estática y Dinámica Reverté 1995 (Estática)-1996 (Dinámica)",
+    "Vázquez, M; López E.: ?Mecánica para Ingenieros; Estática y Dinámica? Noela 1995"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000326",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000326_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "4d38dd092d1962ec6700507dd78926e3d4e94cacee62027e6baeee7b478b21f2",
+  "extracted_at": "2026-11-13T20:29:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Grafikprogrammierung",
+  "course_name_en": "Graphics Programming",
+  "ects": 9.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Competencies taught in the modules Object-Oriented Programming and Algorithms and Data Structures are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know general concepts of computer graphics, independent of the programming environment used, such as the mathematical description of 2D and 3D objects, lights and cameras, the representation of the 3D scene in a hierarchical scene graph, or the mathematical description of materials and their reflectance properties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can apply all necessary techniques in a practice-relevant programming environment to independently realize specific computer graphics projects in the future.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students know the basics for creating graphical user interfaces.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply scientific working methods to independently solve problems and communicate the solution.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Graphical user interfaces",
+    "Representation and display of 2D objects",
+    "Rasterization methods",
+    "Polygon meshes",
+    "Object transformations",
+    "Cameras",
+    "Textures",
+    "Light and materials",
+    "Shadows and reflections"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercise assignments (at least 50% of points)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solutions for at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grading is done with 0 to 15 points according to the examination regulations for the B.Sc. Computer Science degree program. To acquire ECTS, students must achieve at least 50 percent of the points from weekly exercise assignments and orally present the solution to at least two of the exercise assignments. The final examination is either an oral examination or a written examination.",
+  "bibliography": [
+    "Dave Shreiner. OpenGL Programming Guide : The Official Guide to Learning OpenGL, 2010",
+    "Randi J. Rost, Bill Licea-Kane: OpenGL Shading Language, 2010",
+    "Alan Watt. 3D Computer Graphics, Third Edition, 1999",
+    "James D. Foley, Andries VanDam, Steven K. Feiner, John F. Hughes. Computer Graphics: Principles and Practice in C, Second Edition, 1995"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS581",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Grafikprogrammierung.html",
+  "source_language": "de",
+  "source_sha256": "63c0ad7dd0f8acb7572584885213f4667d6f758b3d77fa7cd0ac4a937a464c21",
+  "extracted_at": "2026-11-20T09:22:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

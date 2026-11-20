@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Mecânica dos Fluidos I",
+  "course_name_en": "Fluid Mechanics I",
+  "ects": 6.0,
+  "semester": "2S",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Analysis",
+    "Algebra",
+    "Statics, Kinematic and Dynamics",
+    "Thermodynamics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to characterize fluids by their properties and to solve simple problems involving Newton's law of viscosity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to apply the principles of fluid statics to manometry and to the characterization of pressure forces on immersed surfaces.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the fundamental aspects of kinematics and dynamics in the context of fluid mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to use the principle of mass conservation, Bernoulli's equation, linear and angular momentum equations, and the energy conservation equation (1st law of thermodynamics) in its integral formulation, in the study of ideal flows.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the principle of differential approach in the study of flows.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to use equations of mass conservation and linear momentum in its differential formulation for simple flow analysis for inviscid and viscous fluids.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the basic principles of dimensional analysis and the theory of similarity in the perspective of the experimental study in fluid mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the basic principles of dimensional analysis and the theory of similarity in the perspective of the experimental study in fluid mechanics.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Scope and relevance of fluid mechanics, concept of fluid, thermodynamic properties of fluids, hypothesis of continuous medium. Concept of pressure. Viscosity, Newton's law of viscosity. Couette flow, non-slip condition. Newtonian and non-Newtonian fluids. Surface tension. Vapor pressure and cavitation.",
+    "Statics of fluids: Pressure in fluids at rest, invariability of pressure with direction. Principle of Pascal. The hydrostatics fundamental law. Absolute and relative pressure. Manometers and barometers. Forces on surfaces immersed and its center of pressures. Buoyancy.",
+    "Flow kinematics: Velocity field properties, Lagrangian and Eulerian perspectives, convective and local acceleration. Systems and control volumes. Flow rate and mean velocity, law of mass conservation (continuity). Concepts of trajectory, streamline and streakline.",
+    "Introduction to fluid dynamics: Newton's 2nd law applied to a fluid particle, integration along a streamline. Ideal flow concept. Equations of Euler and Bernoulli. Interpretations of the Bernoulli equation. Dynamic pressure and stagnation pressure. Velocity and volume flux measurements. Integration of Newton's 2nd law in the direction normal to streamlines. Pressure in free jets.",
+    "Fundamental equations - integral formulation: Reynolds transport theorem. Law of mass conservation. Newton's law and linear momentum equation. Balance of forces acting on a control volume, contact forces and internal forces. Angular momentum. Principle of conservation of energy, 1st law of thermodynamics. Applications.",
+    "Fundamental equations - differential formulation: Movement and deformation of fluid elements. Acceleration field in a flow. Infinitesimal control volume. Mass conservation and simplifications. Incompressibility condition limit. Linear momentum. Forces acting on an infinitesimal control volume for any fluid. The stress tensor. Viscous flows of Newtonian fluids, Navier-Stokes equations. Applications of the Navier-Stokes equations.",
+    "Dimensional analysis, similarity and modeling: Dimensional homogeneity, dimensional versus non-dimensional representations. Variables and reference dimensions of a problem, dimensionlessness of a functional dependency, Buckingham's \"Pi\" theorem. Dimensional groups and their interpretation. Introduction to the theory of similarity, models. Fundamental equations of fluid mechanics in dimensionless form."
+  ],
+  "teaching_methods": [
+    "lectures",
+    "lecture-practical classes",
+    "laboratory sessions"
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 69.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Test",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Laboratory work",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The evaluation comprises two mini-tests (30% total), three laboratory questionnaires (10% total), and a final exam (60%). Eligibility for the final exam requires an average of at least 7/20 in both the mini-tests and the laboratory questionnaires, plus attendance at all three laboratory sessions and at least 75% of classes. To pass the subject, the student must achieve a weighted average of 9.5 points or higher, and a minimum score of 7 points in each of the three assessment elements (average of mini-tests, average of lab quizzes, and final exam). Resit exams and special assessments follow similar rules, including a resource mini-test (30%), the laboratory questionnaires (10%), and a written resit/special exam (60%), each requiring a minimum of 7 points.",
+  "bibliography": [
+    "Bruce R. Munson, ... [et al.]; Fluid Mechanics. ISBN: 978-1-118-31867-6",
+    "White, Frank M.; Fluid mechanics. ISBN: 978-0-07-128645-9",
+    "engel Yunus A.; Mecnica dos fluidos. ISBN: 978-85-86804-58-8",
+    "M. P. Escudier; Introduction to Engineering Fluid Mechanics, Oxford University Press, 2017. ISBN: 978-0-19-871988-5",
+    "Oliveira Luis Adriano, Lopes Antonio Gameiro; Mecnica de Fluidos 6 edio, Lidel, 2020. ISBN: 978-989-752-492-9",
+    "Bird, R. Byron; Transport Phenomena. ISBN: 0-471-07395-4",
+    "G. M. Homsy, H. Aref, K. S. Breuer, S. Hochgreb, J. R. Koseff, B. R. Munson, K. G. Powell, C. R. Robertson, S. T. Thoroddsen; Multimedia Fluid Mechanics - Multilingual Version CD-ROM, Cambridge University Press, 2003. ISBN: ISBN-10: 0521604761 | ISBN-13: 9780521604765",
+    "G.A. Tokaty; A History of the Philosophy of Fluid Mechanics, Dover Publications, 1994. ISBN: 0-486-68103-3"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM018",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560362",
+  "source_language": "en",
+  "source_sha256": "923216861b9d7cc53a01613f706ed1f35fa94845e405fb78ebf34a5ed9dd60fb",
+  "extracted_at": "2026-11-18T04:10:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

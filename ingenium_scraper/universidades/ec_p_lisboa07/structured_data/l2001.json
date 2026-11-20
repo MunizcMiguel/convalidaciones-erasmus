@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Circuit Theory",
+  "course_name_en": "Circuit Theory",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Be able to identify the basic electrical quantities as well as the essential electrical elements used to implement a resistive circuit.",
+      "type": "skill",
+      "code": "OA1"
+    },
+    {
+      "text": "Be able to apply the fundamental theorems and methods of circuit analysis to predict the behaviour of resistive circuits.",
+      "type": "skill",
+      "code": "OA2"
+    },
+    {
+      "text": "Be able to calculate the time behaviour as well as the frequency response of reactive circuits made up of resistors, capacitors, coils and transformers.",
+      "type": "skill",
+      "code": "OA3"
+    },
+    {
+      "text": "Be able to analyse and size circuits with AmpOps in view of the different types of functions required (circuits that implement mathematical operations, amplifiers, filters, etc.).",
+      "type": "skill",
+      "code": "OA4"
+    },
+    {
+      "text": "Be able to apply circuit analysis techniques and simulation tools to design and implement electrical circuits experimentally, using basic electrical instruments to measure and test their behaviour.",
+      "type": "skill",
+      "code": "OA5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to electrical networks",
+    "Electric Circuits Variables",
+    "Resistive Elements",
+    "Kirchhoff's Laws",
+    "Circuit Theorems (Superposition, theorem of Thévenin-Norton, Maximum-power transfer)",
+    "Reactive Elements (Capacitator, Inductor, series and parallel connections, transformer)",
+    "First order circuits",
+    "Second order circuits (parallel and serier RLC)",
+    "Sinusoidal Steady-state analysis (Impedance, complex representation, examples, AC power analysis, power factor compensation)",
+    "Network Functions (Laplace transform, frequency response, Bode diagrams)",
+    "Ideal OpAmp",
+    "Basic OpAmp circuits (Noninverting amplifier, inverting amplifier, summing amplifier, integrator)",
+    "Nonlinear OpAmp Circuits (comparators)",
+    "Non ideal OpAmp characteristics"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Work (laboratory assignments)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final Written Test",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Participation in theoretical-practical classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test (exam modality)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practical test (exam modality)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For assessment throughout the semester, the final grade is composed of three laboratory assignments (5%+10%+15%) and a Final Written Test (70% with a minimum mark of 8V). Participation in theoretical-practical classes can contribute up to 20% of the final grade, reducing the Final Written Test weight to 50%. The maximum final mark for students with a Written Test score below 9.5V is 10V. For assessment by exam, the final grade is 70% from a written test and 30% from a practical test. Attendance at laboratory sessions is compulsory for the semester-long assessment, otherwise the student scores 0V for work.",
+  "bibliography": [
+    "Manuel de Medeiros Silva, Introdução aos Circuitos Eléctricos e Electrónicos, 6ª Ed., Fundação Calouste Gulbenkian, 2014",
+    "Hayt, Kemmerly, Durbin, \"Engineering Circuit Analysis\", 9th Edition, McGraw Hill, 2018",
+    "J. David Irwin, Basic Engineering Circuit Analysis, 12th Ed., Wiley, 2020",
+    "Richard C. Dorf, James Svoboda, Introduction to Electric Circuits, 9th Ed., Wiley, 2013",
+    "James W. Nilsson, Susan A. Riedel, Introductory Circuits for Electrical and Computer Engineering, Prentice-Hall, 2002",
+    "Vítor Meireles, Circuitos Eléctricos, Lidel, 2009",
+    "John O'Malley, Análise de Circuitos, Colecção Schaum, McGraw-Hill, 1993",
+    "Jaime B. Santos, Análise de Circuitos Elétricos, Publindústria, 2016",
+    "Nuno Souto - Teoria dos Circuitos - Diapositivos, ISCTE/2024.",
+    "Nuno Souto - Conjunto de Exercicios de Exames com Resolução - ISCTE/2024."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites",
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "ISCTE - Instituto Universitário de Lisboa",
+  "institution_slug": "ec_p_lisboa07",
+  "degree": "Telecommunications and Computer Engineering (Licenciatura, LETI)",
+  "course_code": "l2001",
+  "academic_year": "2026/2027 (plan vigente en la web)",
+  "source_url": "https://www.iscte-iul.pt/programmes/degree/9098#CourseInfoModal-4661",
+  "source_language": "en",
+  "source_sha256": "fa9cbbb0476a639371da6804e03c401e1fc8561e8023a4af566579f3030a62a6",
+  "extracted_at": "2026-11-20T09:10:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

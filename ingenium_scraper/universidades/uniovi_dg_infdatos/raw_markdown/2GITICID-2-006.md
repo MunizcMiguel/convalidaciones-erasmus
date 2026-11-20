@@ -1,0 +1,240 @@
+---
+{
+ "course_code": "2GITICID-2-006",
+ "course_name": "Algoritmia",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-006",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:04",
+ "content_sha256": "7ef7c5f5d39e19182ef3f4598c04e8db5fe0017e0716c3e7ba77af661b4b1569"
+}
+---
+
+# Algoritmia
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-2-006
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Primer Semestre
+- **Materia:** Programación
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Laboratorio (21 Horas); Clases Expositivas (28 Horas); Tutorías Grupales (2 Horas); Prácticas de Aula/Semina (7 Horas)
+
+## Contextualización
+
+La asignatura de Algoritmia (ALG) forma parte de la materia de Programación (PR), del Módulo de Software de Aplicación (SA), junto con otras seis asignaturas: Fundamentos de Informática (FIN), Introducción a la Programación (INP), Metodología de la Programación (MTP), Estructuras de Datos (ESD), Tecnologías y Paradigmas de Programación (TPP) y Programación Concurrente y Paralela (PCP). Dentro de la materia PR, el principal contenido que cubre la asignatura ALG corresponde a Técnicas fundamentales para el diseño y verificación de algoritmos recursivos y Técnicas fundamentales para el diseño y análisis de algoritmos eficientes.
+
+La algoritmia es uno de los pilares de la programación y su relevancia se muestra en el desarrollo de cualquier aplicación, más allá de la mera construcción de programas. El objetivo de la asignatura es proporcionar al alumno las técnicas básicas para el diseño e implementación de algoritmos, así como suministrar unas herramientas que le permitan determinar su efectividad y eficiencia.
+
+## Requisitos
+
+Para abordar esta asignatura es recomendable que el alumno haya cursado las asignaturas: Fundamentos de Informática, Introducción a la Programación y Metodología de la Programación.
+
+## Competencias y resultados del aprendizaje
+
+**Competencias generales**
+
+**GTR1**.Capacidad para resolver problemas dentro de su área de estudio.
+
+**GTR2**. Capacidad de abstracción: capacidad para crear y utilizar modelos que reflejen situaciones reales.
+
+**GTR3**. Capacidad de actuar autónomamente.
+
+**GTR4**. Capacidad de planificación y organización personal.
+
+**GTR6**. Capacidad de comunicación efectiva (en expresión y comprensión) oral y escrita, con especial énfasis en la redacción de documentación técnica.
+
+**GTR7**. Poseer las habilidades de aprendizaje necesarias para emprender estudios posteriores o mejorar su formación con un cierto grado de autonomía
+
+**GTR8**. Tener motivación por la calidad y la mejora continua y actuar con rigor en el desarrollo profesional.
+
+| **Competencias específicas** | **Resultados de aprendizaje** |
+| --- | --- |
+| **ECR6.1** Conocimiento y aplicación de los procedimientos algorítmicos básicos de las tecnologías informáticas para diseñar soluciones a problemas | **PR32** Comprender los esquemas algorítmicos clásicos (Divide y Vencerás, Ramifica y poda, etc.) y aplicarlos eficazmente ante un problema que lo requiera. |
+| **ECR6.2** Análisis de la idoneidad y complejidad de los algoritmos propuestos. | **PR33** Calcular la eficiencia de un algoritmo a partir de la técnica del orden de complejidad (notación O). |
+|  | **PR34** Comprender el concepto de algoritmo recursivo. |
+|  | **PR35** Aplicar la técnica de diseño de algoritmos recursivos para resolver un problema. |
+|  | **PR36** Transformar un algoritmo recursivo en su versión iterativa equivalente. |
+|  | **PR37** Determinar la idoneidad del uso de un algoritmo recursivo frente al iterativo equivalente para resolver un problema |
+|  | **PR38** Seleccionar el esquema algoritmo idóneo para resolver un problema concreto. |
+
+## Contenidos
+
+**Unidad didáctica I: Conceptos fundamentales de algoritmia**
+
+**Tema 1. Análisis de algoritmos**
+
+Introducción. Complejidad temporal y espacial. Notaciones asintóticas: O, omega y orden exacto. Órdenes de complejidad. Análisis por casos: mejor, peor y promedio. Análisis del coste de algoritmos iterativos y recursivos. Casos de estudio: búsqueda, ordenación, etc.
+
+**Tema 2. Diseño de Algoritmos Recursivos**
+
+Introducción. Principio de inducción. Diseño y verificación de una función recursiva. Técnicas de inmersión. Tipos de recursión. Transformación de algoritmos recursivos en su versión iterativa.
+
+**Unidad didáctica II: Esquemas Algorítmicos**
+
+**Tema 3. Programación Dinámica**
+
+Introducción: características generales de programación dinámica. Problemas de optimización. Principio de optimalidad. Esquema general. Ejemplos: mochila, devolver el cambio, caminos mínimos, etc.
+
+**Tema 4. Divide y Vencerás**
+
+Introducción: características generales de divide y vencerás. Esquema general. Ejemplos:
+
+búsqueda binaria, ordenación por fusión, ordenación rápida, etc.
+
+**Tema 5. Vuelta atrás**
+
+Introducción: características generales de vuelta atrás. Árboles de exploración. Esquemas generales. Ejemplos: mochila, ocho reinas, etc.
+
+**Tema 6: Esquema Voraz**
+
+Introducción: características generales de los algoritmos voraces. Esquema general. Ejemplos: devolver el cambio, mochila, caminos mínimos (Dijkstra), árboles de expansión mínimos (Prim y Kruskal), planificación de tareas, etc.
+
+**Tema 7. Ramifica y poda**
+
+Introducción: características generales de ramifica y poda. Esquemas generales. Ejemplos: mochila, asignación de tareas, etc.
+
+## Metodología y plan de trabajo
+
+Las actividades presenciales del alumno consistirán en la asistencia a: clases expositivas, prácticas de aula, prácticas de laboratorio y tutorías grupales. En las clases expositivas el profesor alternará la exposición de los contenidos teóricos de la asignatura con la realización de ejemplos y ejercicios sobre los mismos. En las prácticas de aula se realizarán actividades de discusión teórica o preferentemente prácticas en las que se requerirá una elevada participación del alumnado. Las prácticas de laboratorio serán por el contrario individuales, para asegurar la adquisición de las habilidades prácticas básicas por cada alumno. Las tutorías grupales se dedicarán a la puesta en común por parte de los alumnos de las dudas y dificultades que se les hayan presentado durante el proceso de aprendizaje.
+
+La tutoría académica se realizará en el horario establecido a tal fin por cada profesor, pudiéndose contactar por medio del correo electrónico del profesor.
+
+Las actividades no presenciales consistirán en el estudio de la materia teórica y en la realización de los ejercicios y problemas que el profesor proponga o publique a través del Campus Virtual.
+
+La asignatura requiere un total 150 horas entre trabajo presencial y no presencial del alumno.
+
+El desglose estimado del trabajo por temas es el siguiente (dos horas de clase de teoría, media hora de práctica de aula y dos horas de práctica corresponden a una semana):
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula* | *Prácticas de laboratorio* | *Tutorías grupales* | *Sesiones de Evaluación* | ***Total*** | *Trabajo autónomo* |
+| Análisis de algoritmos | 35 | 7 | 2 | 5 |  | 1 | 15 | 20 |
+| Diseño de Algoritmos recursivos | 35 | 7 | 2 | 5 |  | 1 | 15 | 20 |
+| Programación Dinámica | 44 | 7 | 1 | 5 | 1 |  | 14 | 30 |
+| Divide y Vencerás | 7 | 2 |  | 2 |  |  | 4 | 3 |
+| Vuelta Atrás | 12 | 2 | 1 | 2 |  |  | 5 | 7 |
+| Esquema Voraz | 13 | 2 | 1 | 2 |  | 1 | 6 | 7 |
+| Ramifica y Poda | 4 | 1 |  |  |  |  | 1 | 3 |
+| **Total** | **150** | **28** | **7** | **21** | **1** | **3** | **60** | **90** |
+
+El resumen por modalidades de trabajo se muestra seguidamente:
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18,67 | 60 (40%) |
+|  | Práctica de aula / Seminarios / Talleres | 7 | 4,67 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 21 | 14,00 |  |
+|  | Tutorías grupales | 1 | 0,66 |  |
+|  | Sesiones de evaluación | 3 | 2,00 |  |
+| No presencial | Trabajo Autónomo | 90 | 60 | 90 (60%) |
+|  | **Total** | **150** |  |  |
+
+De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir actividades de docencia no presencial. En cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Bloque teórico: Es necesario obtener una nota mínima de 4,0 sobre 10.
+  - Examen Parcial (T1): Consta de una prueba escrita a realizar a principios de octubre. Se evaluarán los contenidos vistos en el tema 1. No es necesario alcanzar el mínimo en este examen.
+  - Examen Parcial (T2): Consta de una prueba escrita a realizar a principios de noviembre. Se evaluarán los contenidos vistos en el tema 2. No es necesario alcanzar el mínimo en este examen.
+  - Examen Parcial (T3): Consta de una prueba escrita a realizar en la fecha oficial establecida por el centro para el examen teórico. Se evaluarán los contenidos de teoría vistos hasta la fecha, excepto los evaluados en las pruebas T1 y T2. No es necesario alcanzar el mínimo en este examen.
+- Bloque práctico: Es necesario obtener una nota mínima de 4,0 sobre 10.
+  - Trabajo en prácticas (TP1): Consta de la entrega de ejercicios al final de algunas de las clases prácticas vinculadas al tema 1. No hay nota mínima.
+  - Examen Práctico (P1): Consta de una prueba a llevar a cabo con ordenadores a principios de octubre. Se evaluarán los contenidos vistos en el tema 1. No es necesario alcanzar el mínimo en este examen.
+  - Trabajo en prácticas (TP2): Consta de la entrega de ejercicios al final de algunas de las clases prácticas vinculadas al tema 2. No hay nota mínima.
+  - Examen Práctico (P2): Consta de una prueba escrita a realizar a principios de noviembre. Se evaluarán los contenidos vistos en el tema 2. No es necesario alcanzar el mínimo en este examen.
+  - Trabajo en prácticas (TP3): Consta de la entrega de ejercicios al final de algunas de las clases prácticas relativas a los temas 3, 4 y 5. No hay nota mínima.
+  - Examen Práctico (P3): Consta de una prueba a llevar a cabo con ordenadores a finales del semestre. Se evaluarán los contenidos vistos hasta la fecha, excepto los evaluados en las pruebas P1 y P2. No es necesario alcanzar el mínimo en este examen.
+- Trabajo Grupal (TG): En las dos últimas Prácticas de Aula del semestre se plantearán ejercicios para resolver por los estudiantes en grupos. No es necesario alcanzar una nota mínima.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos para superar el bloque teórico, la nota final de este bloque se calcula como:
+
+Teoría = (0,25 x T1) + (0,25 x T2) + (0,50 x T3)
+
+Si se han alcanzado todos los mínimos establecidos para superar el bloque práctico, la nota final de este bloque se calcula como:
+
+Prácticas = (0,20 x TP1 + 0,80 x P1) x 0,25 + (0,20 x TP2 + 0,80 x P2) x 0,25 + (0,20 x TP3 + 0,80 x P3) x 0,50
+
+Si se han alcanzado los mínimos establecidos para cada bloque, la nota final de la convocatoria se calcula como:
+
+(0,50 x Teoría) + (0,45 x Prácticas) + (0,05 x Trabajo Grupal)
+
+Para superar la convocatoria ordinaria la calificación final de la asignatura debe ser de al menos 5 puntos (sobre 10). En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,5.
+
+Consideraciones
+
+Las actividades evaluables no realizadas por el alumno se valorarán con un cero. No obstante, si el peso total de estas actividades supone más del 50% de la nota total, la calificación final del alumno será “No presentado”.
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.ej. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria extraordinaria**
+
+Los alumnos que hayan obtenido como mínimo el 50% de la calificación de la parte de Teoría o el 50% de la calificación de la parte de Práctica en la Convocatoria Ordinaria, no tendrán obligación de examinarse de la parte superada en las convocatorias extraordinarias del presente curso académico. Para aprobar la asignatura, deben obtener el 50% en la calificación final de la asignatura.
+
+La convocatoria extraordinaria consta de un examen teórico y un examen práctico. En el examen teórico se evalúa todo el contenido teórico de la asignatura. La nota obtenida en esta parte será aquella obtenida en dicho examen. Del mismo modo, en el examen práctico se evalúa todo el contenido práctico de la asignatura y la nota obtenida en esta parte será la obtenida en dicho examen.
+
+Para aprobar en esta convocatoria, es obligatorio obtener una calificación de al menos 5,0 puntos sobre 10 en la parte teórica y de al menos 5,0 puntos sobre 10 en la parte práctica. Si se han alcanzado estos mínimos, la nota final de la convocatoria se calcula como:
+
+(0,5 x Teoría) + (0,5 x Prácticas)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,5.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.ej. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación diferenciada**
+
+La evaluación será la misma en todas las convocatorias y consta de un examen teórico y un examen práctico. En el examen teórico se evalúa todo el contenido teórico de la asignatura. La nota obtenida en esta parte será aquella obtenida en dicho examen. Del mismo modo, en el examen práctico se evalúa todo el contenido práctico de la asignatura y la nota obtenida en esta parte será la obtenida en dicho examen.
+
+Para aprobar en esta convocatoria, es obligatorio obtener una calificación de al menos 5,0 puntos sobre 10 en la parte teórica y de al menos 5,0 puntos sobre 10 en la parte práctica. Si se han alcanzado estos mínimos, la nota final de la convocatoria se calcula como:
+
+(0,5 x Teoría) + (0,5 x Prácticas)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,5.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.ej. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+## Bibliografía
+
+**Bibliografía básica**
+
+- Brassard, G., Bratley, P., Fundamentos de Algoritmia, Prentice-Hall, 1997.
+- Cormen,T. H.; Leiserson, C. E.; Rivest, R. L.; Stein, C., Introduction to Algorithms, The MIT Press, 2009.
+- Peña, R., Diseño de Programas. Formalismo y Abstracción, Prentice-Hall, 2005.
+
+**Bibliografía complementaria**
+
+- Aho, A. V., Hopcroft, J. E., Ullman, J. D., Data Structures and Algorithms, Addison Wesley, 1987.
+- Baase, S., Computer Algorithms, Introduction to Design and Analysis, Addisson Wesley, 1988.
+- Horowitz, E., Sahni, S., Fundamentals of Computer Algorithms, Pitman, 1978.
+- Scholl, P. C., Algorítmica y Representación de Datos, Recursividad y Árboles, Masson, 1986.
+- Torres, C., Diseño y Análisis de algoritmos, Paraninfo, 1992.
+
+**Documentación complementaria**
+
+Además de esta guía docente, el equipo docente proporcionará material adicional a través del entorno de enseñanza virtual de la asignatura:
+
+<https://www.innova.uniovi.es/innova/campusvirtual/campusvirtual.php>

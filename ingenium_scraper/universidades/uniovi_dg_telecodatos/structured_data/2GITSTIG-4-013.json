@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Seguridad en Redes y Servicios",
+  "course_name_en": "Network and Service Security",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of Protocol Architectures",
+    "TCP/IP architecture",
+    "Network-level addressing",
+    "Transport layer services and protocols",
+    "Communication services",
+    "Network interconnection",
+    "Traffic routing",
+    "Ability to read and understand documentation written in English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the weaknesses of communication networks and telematic services, and the threats that can exploit them.",
+      "type": "knowledge",
+      "code": "RA-13.1"
+    },
+    {
+      "text": "Knowledge and application of methods for detecting attacks on communication networks and telematic services, and their elimination or mitigation.",
+      "type": "skill",
+      "code": "RA-13.2"
+    },
+    {
+      "text": "Knowledge and application of protection mechanisms for telematic networks and services.",
+      "type": "skill",
+      "code": "RA-13.3"
+    },
+    {
+      "text": "Design of telematic network and service architectures with a high degree of security (availability, reliability, and integrity).",
+      "type": "skill",
+      "code": "RA-13.4"
+    },
+    {
+      "text": "Design of protection policies for telecommunication networks and telematic services.",
+      "type": "skill",
+      "code": "RA-13.5"
+    }
+  ],
+  "syllabus_topics": [
+    "T1. Introduction to security (metrics, threats, vulnerabilities, types of attacks on services, cryptography basics).",
+    "T2. Organizational security: Frameworks, Security Policies, SGSI, etc.",
+    "T3. Perimeter security of a corporate network and technical measures to support security.",
+    "PA1. Social engineering.",
+    "PA2. Forensic analysis."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final theory evaluation (NT)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Individual work evaluation (NTI)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous evaluation of laboratory practices (NP)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Group work evaluation (NTG)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) in the ordinary call is calculated as NF = NT*0.4 + NP*0.3 + NTG*0.2 + NTI*0.1, provided all assessable activities have been completed and a minimum of 4.5 out of 10 is obtained in each. If the minimum in practical activities, individual work, or group work is not met, the student must take a practical exam on the official exam date. For extraordinary calls, the evaluation is based on an exam covering theory (50%) and practical parts (50%), where NF = NT*0.5 + NTP*0.5, with a practical exam requiring prior request and defense of an assigned work.",
+  "bibliography": [
+    "[1] Tecnologías de ciberseguridad V2. Rafael López. 2024.",
+    "[2] Seguridad en equipos informáticos. José Francisco Giménez Albecete. IC editorial. 2014.",
+    "[3] Cybersecurity-attack ande defense strategies. Yuri Diogenes, Erdal Ozkaya. Packt. 2018.",
+    "[4] Effective cibersecurity. William Strallings. Addison-Wesley. 2019."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-013",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-013",
+  "source_language": "es",
+  "source_sha256": "4f671cd7dbd66921a58916f6e88466071c754be0c860d029a0f0fd9e82234344",
+  "extracted_at": "2026-11-20T06:06:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

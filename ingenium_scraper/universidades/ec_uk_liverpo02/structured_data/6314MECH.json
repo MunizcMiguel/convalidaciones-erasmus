@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Computational Fluid Dynamics (6314MECH)",
+  "course_name_en": "Computational Fluid Dynamics",
+  "ects": 5.0,
+  "semester": "September (12 Weeks)",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand and apply the theory underpinning commercial CFD codes.",
+      "type": "unspecified",
+      "code": "MLO1"
+    },
+    {
+      "text": "Apply, analyse, verify and validate efficient and accurate CFD models.",
+      "type": "unspecified",
+      "code": "MLO2"
+    },
+    {
+      "text": "Critically analyse and evaluate the output from CFD analysis.",
+      "type": "unspecified",
+      "code": "MLO3"
+    },
+    {
+      "text": "Identify and evaluate the limitations of CFD as part of the design process.",
+      "type": "unspecified",
+      "code": "MLO4"
+    }
+  ],
+  "syllabus_topics": [
+    "Qualitative revision of real fluid flow and introduction to CFD with industrial examples of usage",
+    "Review of the governing equations of fluid flow including Navier-Stokes equations, energy equations and continuity equations",
+    "Discretisation of the computational domain and numerical solution of the resulting algebraic equations",
+    "Problems with direct matrix inversion and need for iterative solution methods",
+    "Basic iterative schemes, Gauss-Seidel and Jacobi, solution behaviour, convergence, stability, under and over relaxation",
+    "Meshing principles and strategies to improve meshing",
+    "Introduction to the modelling of boundary layer flow, law of the wall (wall function) and its use in CFD modelling",
+    "Turbulence - qualitative understanding",
+    "Brief introduction to time averaging and need for a turbulence model",
+    "Validation and verification of CFD simulations",
+    "Use of a commercial CFD code to solve engineering problems",
+    "Approach to setting up a CFD model",
+    "Identification of the underlying physics applicable for a given problem",
+    "Prediction of expected results based classical theory and rough hand calculations",
+    "Examination of the typical boundary conditions available within a commercial CFD code and the study of their validity",
+    "Selection of the boundary conditions required to capture the expected physical behaviour at the limits of the modelled region",
+    "Economic use of CFD, run time and computing resources required",
+    "Strategies to reduce the size of model required, use of symmetry in 2D and 3D models, transfer of boundary conditions from other models",
+    "Meshing quality, mesh construction and strategies for mesh refinement, mesh independence, adaptive mesh refinement",
+    "Selection of an appropriate computational domain for external flows, refinement and optimisation of computational domain dimensions",
+    "Monitoring the solution process, convergence control and relationships between convergence criteria and accuracy of solution, strategies for economic solution",
+    "Simultaneous solution of mass and heat transfers (conjugate heat transfer) including flow freezing and its effects on solution time",
+    "Use and control of solution adaptive mesh refinement techniques and implications for run time and storage requirements",
+    "Presentation and interpretation of CFD results",
+    "Extracting performance indicators, point values, surface integrals for loads and mean values of physical parameters",
+    "Strategies for validation of results including checking of conservation laws, mesh and computational domain independence, comparison with existing data/theory"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Tutorial"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 22.0,
+  "assessment_methods": [
+    {
+      "method": "Computer based CFD examination",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0712",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Liverpool John Moores University",
+  "institution_slug": "ec_uk_liverpo02",
+  "degree": "Mechanical Engineering BEng (Hons)",
+  "course_code": "6314MECH",
+  "academic_year": "2025-26 (Programme Specification v03.01)",
+  "source_url": "https://coursecatalogue.ljmu.ac.uk/module/2025/6314MECH",
+  "source_language": "en",
+  "source_sha256": "8bacac56e961dcf765a5dca7939c7b4c02143cfe556abd813d448253e646bb7a",
+  "extracted_at": "2026-11-20T08:18:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

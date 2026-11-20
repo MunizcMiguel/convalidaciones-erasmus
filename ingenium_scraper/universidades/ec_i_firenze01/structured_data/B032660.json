@@ -1,0 +1,174 @@
+{
+  "course_name_original": "ELETTROTECNICA-METODI E CAD PER I CIRCUITI (B032660)",
+  "course_name_en": "ELECTROTECHNICS-METHODS AND CAD FOR CIRCUITS (B032660)",
+  "ects": 12.0,
+  "semester": "Primo Semestre; Secondo Semestre",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Matrix calculus",
+    "Differential and integral calculus",
+    "Complex numbers"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire the methodological knowledge necessary to understand the operation and be able to derive the input/output relationships of resistive and dynamic electrical networks, even in the presence of active components.",
+      "type": "knowledge",
+      "code": "cc5, ca5"
+    },
+    {
+      "text": "Develop the ability to appropriately use the terminology of the discipline in order to understand the literature related to the functioning of electrical networks.",
+      "type": "skill",
+      "code": "ap2"
+    },
+    {
+      "text": "Develop the ability to appropriately use the terminology of the discipline in order to effectively present arguments inherent to the discipline.",
+      "type": "skill",
+      "code": "ac1, ac2"
+    },
+    {
+      "text": "Develop the ability to appropriately use the terminology of the discipline in order to critically discuss topics covered during the course.",
+      "type": "skill",
+      "code": "ac1"
+    },
+    {
+      "text": "Acquire the necessary skills to continue studies and autonomously update one's knowledge.",
+      "type": "competence",
+      "code": "ap1, ag5"
+    },
+    {
+      "text": "Understand techniques, methods, and their limits, being aware of the non-technical implications of engineering practice.",
+      "type": "competence",
+      "code": "ag2, ag5"
+    },
+    {
+      "text": "Develop the ability to combine theory and practice to solve multidisciplinary engineering problems, taking into account non-technical constraints, and working in collaboration with other engineers or other professionals typically present in manufacturing companies.",
+      "type": "competence",
+      "code": "ag1, ag4, ap3"
+    },
+    {
+      "text": "Knowledge of the principles of industrial electrical engineering, electrical machines, industrial robotics, and controls used in industrial plants.",
+      "type": "knowledge",
+      "code": "cc5"
+    },
+    {
+      "text": "Ability to solve problems related to resistive and dynamic electrical networks, even in the presence of active components, to select and use electrical machines within mechanical systems, analyzing their performance, to design automatic feedback control systems, also with the aid of IT tools, to understand the operation of manipulators and mobile robots most used in industrial and non-industrial applications, to choose the appropriate drives (electric, hydraulic, and pneumatic) for machines and plants.",
+      "type": "skill",
+      "code": "ca5"
+    },
+    {
+      "text": "Ability to analyze data and information using known methods and tools, interpret results and draw coherent conclusions, also with the support of provided indications.",
+      "type": "skill",
+      "code": "ag1"
+    },
+    {
+      "text": "Ability to compare different options or solutions to an engineering problem and contribute to motivated technical choices, referring to technical standards and standard sector procedures.",
+      "type": "skill",
+      "code": "ag2"
+    },
+    {
+      "text": "Ability to organize one's work in compliance with assigned commitments and deadlines, managing available time and resources, realistically evaluating one's abilities and contributing to the prioritization of activities.",
+      "type": "skill",
+      "code": "ag4"
+    },
+    {
+      "text": "Ability to recognize one's limits of knowledge and the need to acquire new skills, identifying adequate information sources and guided learning opportunities.",
+      "type": "skill",
+      "code": "ag5"
+    },
+    {
+      "text": "Ability to communicate and transfer information, ideas, problems and solutions in the engineering field to specialist and non-specialist interlocutors, using appropriate language and referring to known application contexts.",
+      "type": "skill",
+      "code": "ac1"
+    },
+    {
+      "text": "Ability to present problems, solutions, analyses, and results clearly and structured through written reports and oral presentations, according to standard modalities and formats.",
+      "type": "skill",
+      "code": "ac2"
+    },
+    {
+      "text": "Ability to graphically represent and communicate data, results, and technical solutions, by drafting diagrams, graphs, and tables, using consolidated tools and conventions.",
+      "type": "skill",
+      "code": "ac3"
+    },
+    {
+      "text": "Ability to learn and update one's knowledge in the reference engineering area, even autonomously but predominantly guided, using consolidated teaching tools and resources.",
+      "type": "skill",
+      "code": "ap1"
+    },
+    {
+      "text": "Ability to find and consult bibliographic sources and technical documentation through the main available resources (libraries, databases, manuals and digital sources), selecting relevant information with the support of provided indications.",
+      "type": "skill",
+      "code": "ap2"
+    },
+    {
+      "text": "Ability to learn through teaching methods based on projects and problem solving (Problem Based Learning – PBL), applying acquired knowledge and tools to case studies and real problems of adequate complexity.",
+      "type": "skill",
+      "code": "ap3"
+    }
+  ],
+  "syllabus_topics": [
+    "Circuit model",
+    "Circuit elements, Kirchhoff's laws, topologies, power and energy, series and parallels, theorems of linear networks.",
+    "Analysis of circuits in RPC (Resistive-Capacitive Circuits)",
+    "Node method, mesh method, generalization of methods and systematic writing, ideal transformers.",
+    "Analysis of circuits in RPS (Resistive-Inductive Circuits)",
+    "Elements with memory, phasor method, power in RPS, power factor correction.",
+    "Network functions",
+    "Filters, resonant circuits.",
+    "Three-phase systems",
+    "Properties, single-phase models, three-phase power, basics of distribution, three-phase power factor correction.",
+    "Mutually coupled inductors",
+    "Physical properties, equivalent models, simplifications.",
+    "Transient regime",
+    "Onset of transient, concatenation, initial conditions, first and second order circuits.",
+    "State variable method",
+    "Formalization, application to non-degenerate circuits, numerical integration.",
+    "Laplace transform",
+    "Formalization, application to circuits of arbitrary order, basics of stability.",
+    "Operational Amplifiers",
+    "Constitutive relations, ideality and non-ideality, elementary configurations.",
+    "Circuit simulation in MATLAB and CAD environment",
+    "Introduction to MATLAB language, programming structures, simulation of simple circuits in RPC/RPS/TRS. Simulation of circuits in CAD/CAE environments based on SPICE language. Application to non-linear circuits."
+  ],
+  "teaching_methods": [
+    "Laboratory",
+    "Lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exemption tests",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a prerequisite written test that allows access to a subsequent oral test. During the course, partial exemption tests for the exam will be held. All tests cover both theoretical topics and exercises. Grades range from 'Insufficient' to '29-30 e Lode', with 'Lode' (cum laude) attributed for brilliance and originality beyond curricular expectations.",
+  "bibliography": [
+    "R. Perfetti \"Circuiti elettrici\" Zanichelli"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze",
+  "institution_slug": "ec_i_firenze01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "B032660",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=52958_B309-25-25_108843_774914&ordinamento_aa=2025&af_percorso=52958&corso_cod=4280&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "080c0267625cd810e144338b4453540508cd4298b3c406e09b34c9706dbac80f",
+  "extracted_at": "2026-11-18T10:02:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

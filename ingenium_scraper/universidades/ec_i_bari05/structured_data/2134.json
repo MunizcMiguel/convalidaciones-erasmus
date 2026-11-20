@@ -1,0 +1,112 @@
+{
+  "course_name_original": "PRINCIPI DI INGEGNERIA ELETTRICA",
+  "course_name_en": "PRINCIPLES OF ELECTRICAL ENGINEERING",
+  "ects": 6.0,
+  "semester": "Primo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Physics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course aims to provide students with knowledge of: i) the theory of DC and AC steady-state electrical circuits, and first-order transients, ii) electromagnetism and its applications in electrical engineering, iii) the basic principles of electrical safety.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must be able to apply the acquired knowledge to solve problems of electrical circuit analysis in steady-state and alternating current regimes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must be able to identify solutions to fundamental problems in electrical engineering, including in the field of safety.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to choose the most appropriate method for solving proposed electrical circuits, based on the problem-solving tools acquired during the course.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to use correct technical-scientific language.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to learn the theoretical and practical aspects of electrical engineering, also using teaching materials or personal research on course topics and related topics.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and DC steady-state regime",
+    "Fundamental concepts: charge and current, voltage, power and energy",
+    "Two-port networks, generators, resistors, capacitors and inductors, constitutive relations, Ohm's law",
+    "Elements of network topology, Kirchhoff's current and voltage laws",
+    "Two-port networks in series, parallel, star and delta connections",
+    "Linearity and superposition principle",
+    "Thevenin's, Norton's, and Millman's theorems",
+    "Exercise on continuous regime",
+    "AC alternating current regime",
+    "Periodic, alternating, and sinusoidal quantities",
+    "Rotating vector and phasor",
+    "Ohm's law in AC, impedance, phase shift",
+    "Powers in AC, power factor",
+    "Impedance and power triangle",
+    "Boucherot's theorem",
+    "Power factor correction",
+    "Symmetric and balanced three-phase circuits",
+    "Star or delta connection, phase and line quantities",
+    "Power in symmetric and balanced three-phase systems",
+    "Exercise on alternating current regime",
+    "Magnetic circuits and basics of electrical machines",
+    "Magnetic circuits, mutual inductance",
+    "Ideal and real single-phase transformer",
+    "Three-phase rotating magnetic field",
+    "Rotating electrical machines",
+    "Electrical safety",
+    "Electrophysiology",
+    "Hazard limits of current and voltage",
+    "Overcurrents and overvoltages",
+    "Protection against overcurrents and overvoltages",
+    "Protection against direct and indirect contacts"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Class exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an optional oral interview. The written test involves solving two exercises related to electrical circuits in steady-state and alternating current regimes within one and a half hours, plus theoretical questions in an additional 30 minutes (or an optional oral interview). The minimum passing grade is 18/30. Students achieving 30/30 with excellent application skills in the oral exam will be awarded 'cum laude'.",
+  "bibliography": [
+    "C. Alexander, M. Sadiku, “Circuiti Elettrici” - McGraw-Hill.",
+    "G. Rizzoni, “Elettrotecnica” - McGraw-Hill."
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Politecnico Di Bari",
+  "institution_slug": "ec_i_bari05",
+  "degree": "Laurea in Ingegneria Meccanica (D.M. 270/04) (Bachelor'S Degree In Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "2134",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://poliba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=2062&ordinamento_aa=2025&af_percorso=9999&corso_cod=10261&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "7f6b8ae7215046d0469e9bc9d8b283a550e6491fb63304bc65a01bbe3f8d99cc",
+  "extracted_at": "2026-11-18T09:52:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

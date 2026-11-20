@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Fundamentos de Informática",
+  "course_name_en": "Fundamentals of Computer Science",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "eu"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, which enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "C3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "C4"
+    },
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases, and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "FB3"
+    },
+    {
+      "text": "Adopt a responsible, orderly attitude to work and be willing to learn, considering the challenge posed by the necessary continuous training.",
+      "type": "competence",
+      "code": "C12"
+    },
+    {
+      "text": "Work effectively in groups, integrating abilities and knowledge to make decisions in the field of industrial engineering.",
+      "type": "competence",
+      "code": "C14"
+    }
+  ],
+  "syllabus_topics": [
+    "Unit 1. GENERAL CONCEPTS.",
+    "Historical background.",
+    "Hardware: CPU, Peripherals and Storage.",
+    "Operating systems.",
+    "Data storage: Files and Databases.",
+    "Computer tools for engineering.",
+    "Unit 2. PROGRAMMING METHODOLOGY.",
+    "Natural, computer, and programming languages.",
+    "High-level languages.",
+    "Translators: assemblers, interpreters, and compilers.",
+    "Application design cycle.",
+    "Algorithms: abstraction, sequence, and specification.",
+    "Data: variables, constants, operators, expressions, and Data Structures.",
+    "Flowcharts and simulation.",
+    "Pseudocode.",
+    "Modular and structured programming.",
+    "Unit 3. C LANGUAGE.",
+    "Integrated Development Environments for C programming: Eclipse, Dev-C++, NetBeans...",
+    "Initial concepts: variables, constants, operators, expressions, data types, basic statements and I/O instructions.",
+    "Flow control statements.",
+    "Functions and procedures.",
+    "Arrays and character strings."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices",
+    "Computer practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "First laboratory test (basic C programming)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Second laboratory test (arrays with functions)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the written exam accounts for 60% and laboratory deliverables for 40% of the final grade. To incorporate the continuous assessment score, a minimum of 2 points (out of 6) must be obtained on the written exam. Students can renounce continuous assessment; in this case, 100% of the grade is determined by a single final exam (70% main part, 30% extra exercise). In the extraordinary call, students may choose to keep the 40% continuous assessment score from the ordinary call, provided they met the minimum written exam score. Otherwise, they can take a comprehensive exam covering 100% of the grade, structured similar to the renunciation option. Non-appearance for an exam results in a \"Not Presented\" grade.",
+  "bibliography": [
+    "Alcalde, E., y García, M. (1997). Informática Básica. España, Ed. McGraw-Hill.",
+    "Antonakos, J. L., y Mansfield, K. C. (1997). Programación Estructurada en C. Ed. Prentice Hall.",
+    "Joyanes Aguilar, L. (1990). Problemas de Metodología de la Programación. Ed. McGraw Hill.",
+    "Joyanes, L., Castillo, A., Sánchez, L., y Zahonero, I. (2002). Programación en C: Libro de Problemas. Ed. McGraw Hill.",
+    "Martínez Durá, R. J., Boluda Grau, J. A., y Pérez Solano, J. J. (2001). Estructura de Computadores y Periféricos. Ed. RaMa.",
+    "de Sola Martínez, J. F. G., y Hernández, V. G. (1992). Lenguaje C y Estructura de Datos: Aplicaciones Generales y de Gestión. Ed. McGraw-Hill Interamericana de España.",
+    "García, F., Pérez, J. M., Carretero, J., Fernández, J., y Calderón, A. (2002). Problemas Resueltos de Programación en Lenguaje C. Ed. Thomson Paraninfo.",
+    "García Molina, J., Montoya Dato, F. J., Fernández-Alemán, J. L., y Majado-Rosales, M. J. (2005). Una Introducción a la Programación: Un Enfoque Algorítmico. Ed. Thomson Paraninfo.",
+    "Joyanes Aguilar, L. (2003). Fundamentos de Programación. Algoritmos y Estructura de Datos. Ed. McGraw Hill.",
+    "Joyanes, L., y Zahonero, I. (2001). Programación en C: Metodología, Estructura de Datos y Objetos. Ed. McGraw Hill.",
+    "Kernighan, B. W., y Ritchie, D. M. (1991). El Lenguaje de Programación C. Ed. Pearson Educación.",
+    "Nutt, G. (2006). Sistemas Operativos. Ed. Pearson Education."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad del País Vasco/Euskal Herriko Unibertsitatea",
+  "institution_slug": "es_pais_vasco",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "27679",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ehu.eus/es/web/graduak/grado-ingenieria-mecanica-bizkaia/creditos-y-asignaturas?redirect=consultaAsignatura&anyo-academico=20260&ciclo=X&curso=1&asignatura=27679",
+  "source_language": "es",
+  "source_sha256": "d2c204c77858b6039255855565672eb27b99481df69b16c0a35f6b2f45de7893",
+  "extracted_at": "2026-11-13T20:21:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

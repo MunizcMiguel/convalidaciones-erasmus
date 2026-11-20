@@ -1,0 +1,178 @@
+{
+  "course_name_original": "Energieeffizienz in der Wärme- und Kältetechnik",
+  "course_name_en": "Energy Efficiency in Heating and Cooling Technology",
+  "ects": 6.0,
+  "semester": "2. Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Thermodynamics",
+    "Fundamentals of Heat Transfer",
+    "Fundamentals of Fluid Mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the structure of equations of state for calculating thermal and caloric substance properties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine the relevant parameters for cubic equations of state and use them to calculate new substances with known chemical structure.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the relevant influencing factors on cooling and heating loads and be able to determine these loads.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Based on these results, design components (especially compressors and heat exchangers).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the interaction of relevant operating parameters (e.g., temperatures, volume flow, mass flow, rotational speed, heat capacity, powers, energetic key figures), graphically represent and explain this effect.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the basics of energetic evaluation of refrigeration and air conditioning systems (mass, energy, entropy, exergy balances, efficiencies, coefficients of performance, utilization factors) and be able to analyze (calculate, evaluate) individual components, assemblies, and entire systems using the mentioned methods and identify potential for improvement.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know current standards, regulations, and understand the significance of the methods and key figures defined therein for evaluating components and systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know practically implementable possibilities to increase the efficiency of the examined systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Numerically determine/estimate their influence on energetic efficiency.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to name criteria for selecting suitable tools for computer-aided calculation of thermophysical properties of fluid substances using Coolprop, REFPROP, EES as examples (accuracy of substance data, calculation speed, ease of use, reliability).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate substance properties and display them in diagrams using Coolpack and EES (Engineering Equation Solver) software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Model complex refrigerant cycles with single-component refrigerants and zeotropic refrigerant mixtures and, for example, calculate all relevant substance properties and key figures for energetic evaluation with EES (see above).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate, represent, and explain the influence of operating parameters on the operation of the designed components (compressors, heat exchangers).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate subcritical, transcritical processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After successful completion of the course, students can model thermal systems and independently describe, simulate, analyze, present results, and explain them in detail using current, selected software tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Recognize the economic and ecological importance of refrigeration, air conditioning, and heat pump technology within the framework of the national climate protection initiative of the federal government and be able to identify possibilities for energy saving.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "During the laboratory (in the computer pool room), students work independently and in small groups.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students practice creating models, setting up balances, programming equations and algorithms, analyzing and evaluating simulation results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Subsequently or concurrently, there is a discussion of individual actions and sub-steps with other group members. This may be followed by troubleshooting and an attempt to ascertain the causes of differences. In small groups, students get to know group dynamic processes in solving technical processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Responsible, thorough, error-free processing is also practiced, as constant elaborate comparison with others is very time-consuming and does not directly/immediately lead to the possible error.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The systematic creation of source code for the analysis of thermal systems based on theoretical relationships.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Energetic and ecological importance of refrigeration, air conditioning and heat pump technology",
+    "Comparison processes",
+    "Exergy balances",
+    "Key figures for evaluating energy efficiency: Coefficient of performance, working coefficient, utilization factor, efficiency, exergetic efficiency, exergetic utilization factor, cooling load, heating load",
+    "Design of individual components and entire systems",
+    "Operating characteristics of components and systems",
+    "Comparison of standardized methods for energetic evaluation of refrigeration, air conditioning and heat pump systems for full and partial load with exergetic evaluation",
+    "Representation of energy and exergy in state diagrams and flow charts",
+    "Concrete possibilities for increasing efficiency through load reduction, working fluid, component selection, process optimization",
+    "Calculation and representation of substance properties",
+    "Mathematical structures of equations of state for calculating thermophysical properties of pure substances and mixtures; solution methods for these equations",
+    "Programming of components and systems based on mathematical models",
+    "Calculation of relevant state and process variables for heat pumps and refrigeration systems, e.g. compression refrigeration systems, absorption refrigeration systems: single-stage, two-stage, cascade systems with different fluids, sub- and transcritical"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory",
+    "Exercise"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written examination (90 minutes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (20 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Student knowledge is assessed by a graded written examination of 90 minutes or an oral examination of 20 minutes. Examination prerequisites will be announced by lecturers during the course.",
+  "bibliography": [
+    "Aktuelle Normen: z. B. VDMA Einheitsblatt 24247, DIN V 18599, DIN EN 14825, DIN 12831, VDI 4645.",
+    "Fratzscher, Wolfgang; Brodjanskij, Viktor M (Mitarb.); Michalek, Klaus (Mitarb.) : Exergie : Theorie und Anwendung; Springer; Dt. Verlag für Grundstoffindustrie, 1986.",
+    "Korn, Dieter: Effizienter Betrieb von Kälteanlagen. Energieeinsparung, Wärmerückgewinnung, Abwärmenutzung. Berlin. VDE-Verl., 2011.",
+    "Pearson, Forbes Stephen: Saving energy in refrigeration, air-conditioning and heat-pump technology. 2. Aufl. Paris, IIR, 2008.",
+    "Begleitmaterial zur Vorlesung, gedruckt und in elektronischer Form.",
+    "Benutzerhandbücher der Software in elektronischer Form."
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_karlsru05__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "MABM240B",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABM.pdf",
+  "source_language": "de",
+  "source_sha256": "efc143b45eb48aa5267893b0ca9add9cd2df2f34a2cfbd4cf727a8e44bc7ed9c",
+  "extracted_at": "2026-11-20T12:35:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

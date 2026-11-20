@@ -1,0 +1,168 @@
+{
+  "course_name_original": "ELEMENTOS FINITOS Y VIBRACIONES MECANICAS",
+  "course_name_en": "Finite Elements and Mechanical Vibrations",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "DISEÑO DE MAQUINAS I (565000354)",
+    "RESISTENCIA DE MATERIALES (565000335)",
+    "ALGEBRA LINEAL (565000312)",
+    "INFORMATICA (565000324)",
+    "DISEÑO DE MAQUINAS II (565000364)",
+    "Programming knowledge in MATLAB, Python or similar language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess the capacity to design, develop, implement, manage and improve products, systems and processes in the different industrial fields, using appropriate analytical, computational or experimental techniques.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Apply the acquired knowledge to identify, formulate and solve problems in broad contexts, being able to integrate them while working in multidisciplinary teams.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Understand the impact of engineering on the environment, the sustainable development of society and the importance of working in a professional and responsible environment.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Communicate knowledge and conclusions, both orally and in writing, to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Possess the learning skills that allow continuous study throughout life for adequate professional development.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Incorporate ICT and Industrial Engineering technologies and tools into their professional activities.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Know and apply basic science and technology knowledge to the practice of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Knowledge and capacities for the calculation, design and testing of machines.",
+      "type": "competence",
+      "code": "CE20"
+    },
+    {
+      "text": "Creativity.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Basic knowledge of the finite element method and mechanical vibrations in engineering.",
+      "type": "knowledge",
+      "code": "RA112"
+    },
+    {
+      "text": "Use Matlab as a calculation tool.",
+      "type": "skill",
+      "code": "RA270"
+    }
+  ],
+  "syllabus_topics": [
+    "Chapter I: Mechanical Vibrations",
+    "Topic 1 - Introduction to mechanical vibrations",
+    "Mechanical vibrations in engineering",
+    "Basic concepts of vibration",
+    "Topic 2 - Vibrations in 1-degree-of-freedom systems",
+    "Free vibration",
+    "Damped vibration",
+    "Forced vibration",
+    "Forced damped vibration",
+    "Topic 3 - Vibrations in multiple-degree-of-freedom systems",
+    "Natural frequencies and vibration modes",
+    "Modal analysis",
+    "Forced vibration. Frequency response",
+    "Dynamic absorber",
+    "Springs and dampers",
+    "Simple harmonic motion",
+    "Topic 4 - Vibrations in rotating systems",
+    "Critical speed of a rotating shaft",
+    "Balancing of a rotating system",
+    "Torsional vibration",
+    "Topic 5 - Measurement of vibrations",
+    "Definition of vibration level",
+    "Vibration sensors and analyzers",
+    "Application of vibration measurement to machine maintenance",
+    "Chapter II: Finite Elements",
+    "Topic 6 - Introduction to the Finite Element Method",
+    "Stresses and Equilibrium",
+    "Stress-strain relationships",
+    "Topic 7 - One-dimensional Elements",
+    "Topic 8 - Two-dimensional Elements",
+    "Introduction. Constant strain triangle",
+    "Introduction. Coordinates and shape functions. Potential energy approach. Element assembly. Properties of stiffness matrices. Temperature change effects. Articulated Systems. Beams and Frames",
+    "Topic 9 - Simulation of heat conduction",
+    "Topic 10 - Introduction to simulation using ANSYS"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes",
+    "Cooperative actions",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 53.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam - Mechanical Vibrations",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Partial Exam - Finite Elements",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final Exam - Exercises",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Voluntary Laboratory Practice",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam - Theory",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Extraordinary Final Exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The final grade is the maximum between the progressive evaluation system (C_PROG) and the global final test system (C_GLOBAL). The course is passed if the final grade is 5.0 or higher. In the extraordinary call, a single written exam determines the final grade, requiring a minimum of 5 points out of 10. Progressive Evaluation (C_PROG) consists of two partial tests (PROG1, PROG2, each 2 points) and a final exercises test (EJER, 6 points, with a minimum of 2.4 points). A voluntary laboratory practice (VOL) can add up to 1 additional point. Global Evaluation (C_GLOBAL) consists of an exercises exam (EJER, 6 points, minimum 2.4 points) and a theoretical exam (TEOR, 4 points, no minimum).",
+  "bibliography": [
+    "CHANDRUPATLA, T.R. y BELEGUNDU, A.D., 2012. Introduction to finite elements in engineering. 4th ed. Upper Saddle River [etc: Pearson Education. ISBN 978-0-273-76368-0.",
+    "ZIENKIEWICZ, O.C. y TAYLOR, R.L., 2004. El método de los elementos finitos. 5a ed. Barcelona: CIMNE. ISBN 84-95999-51-X.",
+    "RAO, S.S., 2018. Mechanical vibrations. 6th ed. in SI units. Harlow: Pearson Education Limited. ISBN 978-1-292-17860-8.",
+    "STEIDEL, R.F., 1981. Introducción al estudio de las vibraciones mecánicas. México: Compañía Editorial Continental. ISBN 968-26-0244-0.",
+    "LOGAN, D.L., 2023. A first course in the finite element method. 6th. enhanced ed. Australia: Cengage Learning. ISBN 9780357676431.",
+    "ANDERSON, R.J., 2020. Introduction to mechanical vibrations. Hoboken, NJ, USA: John Wiley & Sons Ltd. ISBN 9781119053651."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000376",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000376_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "8dc121f6c5361c0c95b73c0622949fdf4d9a1c4018e75edca7c0587e8e678e75",
+  "extracted_at": "2026-11-13T20:33:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

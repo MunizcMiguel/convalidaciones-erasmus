@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Digitale en analoge communicatie",
+  "course_name_en": "Digital and Analog Communication",
+  "ects": 3.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "complex numbers and complex exponentials",
+    "Fourier series and Fourier transform",
+    "time domain versus frequency domain",
+    "linear systems: impulse response and transfer function",
+    "probability, probability distribution, conditional probability"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Study the fundamental techniques of digital and analog communication, including baseband communication and carrier-based communication, covering both digital and analog systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Promote qualitative understanding of communication techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Teach quantitative basic techniques for modeling modern communication means.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Signals for telecommunication: Deterministic signals and stochastic processes. Fundamental properties of signals and their mathematical representation in both time and frequency domains: Fourier spectra, autocorrelation, ESD, PSD, sampling theorem, Wiener-Khintchine theorem, stationarity, description of Gaussian and white noise.",
+    "Analog and digital transmission in baseband: Conversion of analog to digital signals: PAM, PCM, PPM, mu- and A-law, DPCM, DM and MP3.",
+    "Signal forms used in the time and frequency domains: line codes and their spectra (unipolar, polar, bipolar, Manchester, etc.).",
+    "Required bandwidth, intersymbol interference (ISI, Nyquist criterion, raised-cosine roll-off).",
+    "Error probability in digital transmission and minimization of error probability (matched filter, BER).",
+    "Analog and digital transmission in a bandpass system: Baseband representation of a bandpass signal (complex envelope), for both deterministic and stochastic signals.",
+    "Building blocks for transmitters and receivers: limiters, mixers, envelope detector, frequency and phase detector.",
+    "Analog and digital modulation systems: Analog modulation types: signals, spectra, and block diagrams of transmitters/receivers (AM, PM, FM).",
+    "Binary, digital modulation types: signals, spectra, and block diagrams (OOK, BPSK, FSK).",
+    "Applications mentioned for each topic: analog and digital telephony, radio and television broadcasting, wireless communication, computer communication, etc.",
+    "Stochastic processes",
+    "Analog-to-digital conversion",
+    "Line codes",
+    "Intersymbol interference, matched filter, bit error rate"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam during the examination period",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "This is an open-book exam. Allowed materials are: course material (printout of powerpoint slides from VTK), textbook by Couch ('Digital and analog communication systems'), and a calculator. No other documents or electronic devices are permitted.",
+  "bibliography": [
+    "Leon W. Couch II, 'Digital and analog communication systems', Prentice-Hall (current 8th edition)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H01L4A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H01L4AN",
+  "source_language": "nl",
+  "source_sha256": "6cd2de56f6f162cf9e6520ed8d59f60842dc47c3954c4057945e5a6ebe0e1296",
+  "extracted_at": "2026-11-20T09:18:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

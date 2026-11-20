@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Digitale elektronica en processoren",
+  "course_name_en": "Digital electronics and processors",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "The student has acquired basic knowledge regarding electricity (capacitance, inductance, impedance), electronic components (transistor), digital logic gates and basic circuits (NOT, NAND, NOR, Flipflop), arithmetic operations (fixed and floating point) and programming languages, as covered in courses such as \"Electrical networks\" (H01Z2A), \"Information transfer and processing\" (H01D2A) and \"Methodology of computer science\" (H01B6B)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student can design combinational and sequential digital circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can design single-cycle and pipelined digital processors and analyze their performance for given code.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can use hardware description languages such as Verilog in the design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can take into account real boundary conditions in the design, such as cost, speed, power, and the technology used.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student has gained experience with software tools for designing digital circuits.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The basis of digital design",
+    "Design of combinational circuits",
+    "Design of sequential circuits",
+    "Design of non-programmable processors (FSMD)",
+    "Design of programmable processors",
+    "Design of pipelined processors",
+    "Performance improvements and analysis of processors",
+    "Designing combinational circuits",
+    "Designing sequential circuits",
+    "Designing non-programmable and programmable processors",
+    "Applying design principles to hardware implementation in Verilog"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Recorded lessons",
+    "Practical exercises",
+    "Lab sessions",
+    "PC session"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam with open questions and multiple-choice questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Submission of lab session results",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment consists of a written exam during the regular examination period with open and multiple-choice questions. Guess correction is used for multiple-choice questions. Submission of the results of the lab sessions, with a required number of tests passed, is a prerequisite for participating in the exam.",
+  "bibliography": [
+    "Digital Design and Computer Architecture: RISC-V Edition by Sarah Harris & David Harris"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H01L1A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H01L1AN",
+  "source_language": "nl",
+  "source_sha256": "544ab5879795c2b049f96f6f0e5dd99868b5e56538904783273454a103b2ed85",
+  "extracted_at": "2026-11-20T09:18:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

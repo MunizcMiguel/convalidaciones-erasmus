@@ -1,0 +1,100 @@
+{
+  "course_name_original": "MABB250 – Elektrotechnik",
+  "course_name_en": "MABB250 – Electrical Engineering",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Higher Mathematics 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Calculate linear networks by applying Kirchhoff's equations and the superposition principle to evaluate which components can be used in a circuit based on the calculated currents and voltages in all circuit paths.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Synthesize equivalent circuits for verbally described situations by applying acquired knowledge of linear sources, resistors, capacitors, coils, diodes, transistors, and operational amplifiers, as well as electrical machines, to make statements about the transfer behavior of circuits in the time and frequency domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate AC and three-phase systems by applying complex AC calculation to analyze the behavior of a circuit.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze switching operations in RLC networks by setting up and solving differential equations for said networks to evaluate statements about charges and currents in energy storage devices.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand filters and their transfer functions by analyzing Bode diagrams and transfer functions to select suitable filters for noisy analog signals in applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply fundamental properties and uses of semiconductor devices such as diodes, transistors, and operational amplifiers by reading datasheets to build circuits according to datasheets.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Examine the suitability of electrical machines for use in mechanical engineering by applying knowledge of DC, AC, and three-phase machines, understanding type plates, to correctly install the machines into a construction and critically review it.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Electric current, current density, voltage, resistance, temperature behavior, effects of current, Ohm's law, conductor materials",
+    "Circuits, real and ideal voltage and current sources, series connection, parallel connection, potentiometers, networks, voltage dividers, bridge circuit",
+    "Electrical work and power, efficiencies",
+    "Electric field, capacitance, capacitor, step response during capacitor charging, discharge, energy, parallel and series connection of capacitors",
+    "Magnetic field, magnetic flux density, permeability, magnetic flux and magnetic equivalent circuits, hysteresis, electromagnetic induction, law of induction, forces in magnetic field, current-carrying conductors",
+    "Alternating current, AC quantities, RMS value, phasor representation, complex AC calculation, active, reactive and apparent power, reactive power compensation, system transfer functions, filter circuits, Bode diagram",
+    "Three-phase networks, star connection, delta connection, generator, load, three-phase network voltage, phase shift, power transfer, compensation",
+    "Diodes, Zener diodes, transistors, field-effect transistors, IGBT, thyristors, operational amplifiers, comparator, current-voltage converter, inverting amplifier, integrator, differentiator, electrometer amplifier, OP as subtractor, OP as summing amplifier, OP as switch",
+    "Electrical machines, types of construction, protection classes, performance data, losses, operating modes, DC motor, three-phase asynchronous motor, rotating field, speed control, converter circuits, multi-quadrant operation, frequency converter, three-phase synchronous motors, AC motors"
+  ],
+  "teaching_methods": [
+    "Lecture with embedded calculation exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (90 minutes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment will be a written exam (90 minutes) or an oral exam, to be announced at the beginning of the semester.",
+  "bibliography": [
+    "E. Hering, K. Bressler und J. Gutekunst, Elektronik für Ingenieure und Naturwissenschaftler, Springer, 2017",
+    "W. Weißgerber, Elektrotechnik für Ingenieure 1: Gleichstromtechnik, Springer Vieweg, 2018",
+    "W. Weißgerber, Elektrotechnik für Ingenieure 2: Wechselstromtechnik, Springer Vieweg, 2018",
+    "M. Felleisen, Elektrotechnik für Dummies, Wiley-VCH, 2019",
+    "T. Harriehausen, D. Schwarzenau, Moeller Grundlagen der Elektrotechnik, Springer Vieweg, 2019",
+    "R. Fischer, E. Nolle, Elektrische Maschinen: Aufbau, Wirkungsweise und Betriebsverhalten, Hanser, 2021",
+    "Lecture script"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft",
+  "institution_slug": "ec_d_karlsru05",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB250",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "62e91fccb350c9745c6dd13a2a29a6125fa483fe60b7665e08b3bca83a16093d",
+  "extracted_at": "2026-11-18T09:49:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

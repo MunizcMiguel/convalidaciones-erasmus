@@ -1,0 +1,89 @@
+{
+  "course_name_original": "Computer Aided Manufacturing I",
+  "course_name_en": "Computer Aided Manufacturing I",
+  "ects": 6.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows NC, CNC and CAD/CAM functions, application areas, CNC machine tool types and working principles in computer-aided manufacturing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "By obtaining detailed information about the structure and parts of CNC machines, the student will have preliminary information about the design and production of a new CNC machine.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "At the end of this course, students will be able to control the production process with an analytical program for the production of workpieces of any geometry and to prepare the machine for production.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Computer Aided Manufacturing: NC and CNC systems, functions and application areas of the CAD/CAM system.",
+    "Application Areas of CNC in Industry, CNC lathe, CNC milling machine, Other CNC machine tools.",
+    "Structure and Parts of CNC Controlled Machine Tools 1: Main shaft and nut system, Registration and slide systems.",
+    "Structure and Parts of CNC Controlled Machine Tools 2: Automatic tool changing systems (ATC), Hydraulic and Pneumatic systems, Lubrication and cooling systems.",
+    "Drive and Control Systems in CNC machines: Open circuit control systems, Closed circuit control systems, Controlling angular position, Controlling slide position, Servo motors, Stepper motors, Feedback.",
+    "Control Panels and Functions in CNC Machines: Fanuc control panel, Simens control panel, Other control panels.",
+    "Machine coordinates and coordinate systems: Absolute control, incremental control.",
+    "Midterm exam",
+    "Programming of Lathes 1: Determination of dimensioning systems, Tool selection, Speed determination, G Preparation function commands and M auxiliary function commands, Cylindrical and conical turning.",
+    "Programming Lathes 2: Circular interpolation, Screw cutting, Drilling, Reaming, Cycles: Longitudinal rough turning cycle, Face turning cycle.",
+    "Programming Lathes 3: Cycles: Profile repetition cycle, Finishing (last pass) cycle, Grooving cycle, Screw cutting cycle, Stepped drilling cycle, Subprogramming.",
+    "Programming of Milling Machines 1: Determining the machine zero point and work coordinate system, Determining dimensioning systems, G Preparation function commands and M auxiliary function commands, Plane surface milling, Channel milling, Step milling.",
+    "Programming of Milling Machines 2: Circumferential milling, Pocket milling, drilling and reaming, Cycles: Rectangular pocket milling cycle, Circular pocket milling cycle, Return at the end of the cycle.",
+    "Programming of Milling Machines 3: Left tapping cycle, Normal drilling cycle, Wait drilling cycle, Step drilling cycle, Thin and normal hole enlargement cycles."
+  ],
+  "teaching_methods": [
+    "Oral lecture and written (Visualization with the help of a classroom board and digital presentation.)",
+    "Applying what has been learned on the computer",
+    "Applying the lessons on the CNC machine"
+  ],
+  "workload_hours_total": 160.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Assignment",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Gülesin M., Güllü A., Avcı Ö., Akdoğan G., Programming of CNC Turning and Milling Machines, Asil Yayın Dağıtım Ltd. Sti., Ankara, 2005.",
+    "Çakır, C., “Modern Machining Methods” Dora Publishing, Bursa, 2009.",
+    "Lecture Notes, CNC Milling Machines, MEGEP, 2013.",
+    "Assoc. [docente], CNC Machine Tools and CNC Programming Lecture Notes, Balıkesir, 2012.",
+    "Çakır Şencan A., Computer Aided Manufacturing-1 Lecture Notes, Zonguldak Bülent Ecevit University, 2018."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Zonguldak Bülent Ecevit Üniversitesi",
+  "institution_slug": "ec_tr_zonguld01",
+  "degree": "Mechanical Engineering / Makine Mühendisliği (Normal Öğretim)",
+  "course_code": "MM461",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.beun.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=416225&lang=en",
+  "source_language": "en",
+  "source_sha256": "8efb440a548ac18829d1a30d3303d7becae55e65588c15b85e9c86749c1914b8",
+  "extracted_at": "2026-11-18T10:09:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

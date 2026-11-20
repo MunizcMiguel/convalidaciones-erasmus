@@ -1,0 +1,144 @@
+{
+  "course_name_original": "Commande Basée-Vision",
+  "course_name_en": "Vision-Based Control",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Introduction to robotics",
+    "Concepts of kinematic model",
+    "Principle of planning and control in robotic spaces (Joint, operational)",
+    "Knowledge of automatic control principles (PID,…)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Implement visual servoing techniques based on 2D and 3D approaches in robotics, using camera data to control the movements of robotic manipulators, demonstrating their ability to ensure precision and stability in dynamic environments.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental principles of visual servoing in robotics, including 2D and 3D approaches.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify the differences between position visual servoing (PBVS) and image visual servoing (IBVS) techniques, and understand their impact on robotic performance.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire notions of interaction model (Jacobian interaction) between image space and real space (3D): case study of a point.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to implement visual servoing algorithms, from existing libraries, in simulation environments.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Carry out tests to validate visual servoing algorithms and evaluate their effectiveness in tracking trajectories or manipulating objects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrate vision sensors into a robotic system and use them for dynamic robot control applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the issues related to the use of visual servoing in industrial environments, particularly in terms of precision, safety and robustness.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop a critical attitude and reflection on the methodological and technological choices in the design of vision-based control systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be aware of the practical implications of technical decisions for the stability and performance of robotic systems in dynamic environments.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "General introduction course",
+    "Overview of the learning and course objectives",
+    "Presentation of Problem-Based Learning (PBL)",
+    "Introduction to the principles of vision-based control and its applications in robotics",
+    "PBL 1: Introduction to visual servoing",
+    "Fundamental principles of visual servoing: definitions and key concepts",
+    "Differences between image servoing (IBVS) and position servoing (PBVS)",
+    "Possible configurations of vision systems for visual servoing",
+    "PBL 2: 3D visual servoing techniques",
+    "3D visual servoing approaches: principles and integration of spatial coordinates",
+    "Trajectory tracking based on 3D visual servoing: design and implementation",
+    "Example of formalization of an interaction matrix (image-3D relationship) of a point",
+    "PBL 3: 2D visual servoing techniques",
+    "Visual servoing based on 2D features: principles and algorithms",
+    "Implementation of 2D visual servoing for trajectory tracking",
+    "Analysis of the limits and performances of 2D approaches",
+    "Comparison of the performances of 3D techniques compared to 2D approaches: precision, robustness and applications",
+    "Restructuration course",
+    "Overall synthesis of APPs and concepts covered",
+    "Discussions and answers to questions raised during the APPs feedback phases",
+    "Assessment of targeted learning outcomes (AAVs) and prospects for professional applications",
+    "PT n°1: Implementation of 3D visual servoing",
+    "Use of Matlab/Simulink to program a 3D visual servoing (Toolbox by P. Corke)",
+    "4-point tracking test (square as a feature)",
+    "Tests of different starting points, different feature sizes,",
+    "PT n°2: Implementation of 2D visual servoing",
+    "Using Matlab/Simulink to program a 2D visual servoing (Toolbox by P. Corke)",
+    "Testing a program in the form of a block diagram (Simulink)",
+    "Testing different configurations of the 2D visual servoing (different starts, feature size, etc.)",
+    "Testing the robustness of the 2D visual servoing: Bad initialization of depth, loss of vision, etc."
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Practical work (TP)",
+    "Problem-Based Learning (PBL)",
+    "Small group sessions tutored by a teacher",
+    "Individual personal work",
+    "Use of learning notebooks"
+  ],
+  "workload_hours_total": 16.0,
+  "workload_hours_contact": 16.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1+1*TP1)/2.",
+  "bibliography": [
+    "Peter I. Corke. 1997. Visual Control of Robots: High-Performance Visual Serving. John Wiley & Sons, Inc., USA.",
+    "Online resources given during the PBL sessions:",
+    "Cours de Alessandro De Luca : http://www.diag.uniroma1.it/deluca/rob2_en/17_VisualServoing.pdf",
+    "Cours de François Chaumette (GdR Robotique) : https://www.gdr-robotique.org/cours_de_robotique/online/Chaumette_Visual-Servoing/Chaumette_Visual-Servoing.pdf",
+    "Cours de Philippe Martinet (GdR Robotique) : https://www.gdr-robotique.org/cours_de_robotique/online/Martinet_Visual-Servoings/Martinet_Visual-Servoings_slides.pdf",
+    "Cours de Jaques Gangloff (GdR Robotique) : https://www.gdr-robotique.org/cours_de_robotique/?id=42d45e5762b80afd925329f86b992718"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0973SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "0b76372b6b42c4689d9de39d1c2176cd4c5dc2fac6f25ca150c9c74123bbb25e",
+  "extracted_at": "2026-11-18T10:00:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

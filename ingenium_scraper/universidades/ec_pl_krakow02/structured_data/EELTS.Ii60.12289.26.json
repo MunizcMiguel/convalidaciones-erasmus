@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Texas Instruments C2000 MCU in Automotive and Industrial Application",
+  "course_name_en": "Texas Instruments C2000 MCU in Automotive and Industrial Application",
+  "ects": 4.0,
+  "semester": "Semester 6, Semester 7",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will learn how to program and configure built-in Texas Instruments C2000 series floating-point microcontroller peripherals (TMS320F28379D - dual-core version) using Matlab / SIMULINK environment and the option of creating code in C language. Students learn the main rules of programming in the dedicated programming software Code Composer Studio (CCS) and the method of implementing the code in Matlab/SIMULINK with an extension to the C2000 chip. Students will learn how to prepare and correctly configure a project and learn debugging methods.",
+      "type": "unspecified",
+      "code": "C1"
+    },
+    {
+      "text": "Students will gain practical knowledge and useful skills in the use of interrupt systems available in the TMS320F28379D microcontroller and the proper configuration of built-in peripherals based on the Texas Instruments evaluation kit extended with external signal interface systems, i.e .: I) GPIO digital inputs / outputs, II) counters, III) ePWM generators, IV) eQEP modules dedicated to the encoder, V) eCAP modules allowing for measuring the duration of external events, VI) analog / digital converters (ADC) and VII) digital / analog converters (DAC).",
+      "type": "unspecified",
+      "code": "C2"
+    },
+    {
+      "text": "Students will gain practical knowledge and skills in the operation of drive systems and power electronic systems dedicated to electric vehicles and the infrastructure necessary for their charging in the Matlab/SIMULINK environment and transfer of the developed measurement, control or protection structure to a floating-point microcontroller using the option of automatic code generation in C.",
+      "type": "unspecified",
+      "code": "C3"
+    },
+    {
+      "text": "Structure of a TI C2000 series floating-point microcontroller with two cores.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Methods of project preparation and control as well as the basics of Matlab / SIMULINK orientation from the evaluation of C code generation for C2000 microcontrollers",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "The challenges of the automotive industry, in particular electric vehicles and the infrastructure necessary to charge them.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "working with technical documentation prepared by the manufacturer of the microcontroller",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Assess the challenges of the automotive industry and industry where the use of a control system is necessary",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "planning and carrying out the project; interpret the obtained results and draw conclusions using analytical, simulation and experimental methods",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "The practical implementation and development of control, control and security algorithms dedicated to electric drives and power electronic systems used in electric vehicles and infrastructure for their charging.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Assessment of knowledge and received content, supplementing and improving the acquired knowledge and skills, prioritizing the implementation of assigned tasks",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to issues related to signal processors.",
+    "Overview of power electronic and drive systems together with the needs of their control and control.",
+    "Indication and discussion of external peripheral modules available in TI microcontrollers from the C2000 family, enabling the effective implementation of the developed control, control and protection algorithms into a digital system.",
+    "Discussion of the advantages and basic differences resulting from the programming of microprocessor systems with floating decimal point in relation to digital systems with fixed-point architecture - explaining the methods of data type conversion in the Matlab/SIMULINK environment and the effective creation of program code.",
+    "Discussion of the details of the signal microcontroller architecture with an explanation of how to configure individual peripheral modules and each of the two cores (using the libraries available in the Matlab / SIMULINK environment for this purpose) - presentation of the concept of project preparation with the option of automatic code generation in C from the simulation environment Matlab/SIMULINK.",
+    "Overview of available systems for controlling converters and electric drive - comparison of DSP with CPLD and FPGA systems in industrial issues.",
+    "Development of a model of a drive system with an electric motor and control, control and protection algorithms in the Matlab / SIMULINK simulation environment - learning how to effectively prepare models, convert data types, and define global constants in the program.",
+    "Expansion of the drive system model with a system of converters with dedicated control and control enabling charging the car battery from an external charger - learning to create effective models and defining electrical signals necessary for measurement by a microcontroller to implement the developed control structure.",
+    "Preparation and setting of a programming environment (Matlab / SIMULINK) allowing for the proper configuration of microcontroller cores, used peripheral modules or an interrupt system - mastering the technique of creating projects and conscious control over them and the method of generating code in C language.",
+    "Preparation of an algorithm to get to know the methods of configuring inputs/outputs (GPIO) of the microcontroller.",
+    "Preparation of an algorithm to familiarize with the methods of configuring ADC analog-to-digital converters.",
+    "Preparation of an algorithm that allows getting acquainted with the ways of configuring digital-to-analog DAC converters.",
+    "Preparation of an algorithm that allows getting acquainted with the ways of configuring the ePWM modules of the microcontroller.",
+    "Preparation of an algorithm enabling to get acquainted with the methods of configuring the eQEP modules of the microcontroller.",
+    "Preparation of an algorithm that allows getting acquainted with the ways of configuring the eCAP modules of the microcontroller."
+  ],
+  "teaching_methods": [
+    "Discussion seminars",
+    "Laboratory classes",
+    "Discussion",
+    "Group work"
+  ],
+  "workload_hours_total": 105.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Presentation (Discussion seminars)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of exercises, Execution of a project, Execution of laboratory classes, Completion of laboratory classes (Lab. classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade consists of passing the laboratory classes. Student involvement in the seminar and laboratory, and carrying out tasks are credit conditions for discussion seminars and laboratory classes respectively. The method and mode of making up for backlog caused by justified absence will be designated by the teacher. Rules of participation in given classes, including obligatory student presence, will be designated by the teacher.",
+  "bibliography": [
+    "C2000™ real time control MCUs (online): https://www.ti.com/microcontrollers/c2000-real-time-control-mcus/overview.html",
+    "TI C2000 Delfino Support from Embedded Coder (online): https://www.mathworks.com/hardware-support/ti-c2000-delfino.html"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii60.12289.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/93d16c5e-7acb-483b-98d9-937d08ee53c5.html",
+  "source_language": "pl",
+  "source_sha256": "344050051d9217a00c278801f1ae7350ee0363b0bf3f3b927c235ab9e1746b42",
+  "extracted_at": "2026-11-20T09:04:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

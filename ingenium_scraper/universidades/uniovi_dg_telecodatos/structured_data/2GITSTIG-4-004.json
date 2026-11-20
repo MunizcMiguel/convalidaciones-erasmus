@@ -1,0 +1,164 @@
+{
+  "course_name_original": "Microprocesadores y Microcontroladores",
+  "course_name_en": "Microprocessors and Microcontrollers",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Digital Electronics",
+    "Circuit Theory",
+    "Fundamentals of Computer Science",
+    "Electronic and Photonic Devices",
+    "Fundamentals of Analog Electronics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Address the complete implementation of an “embedded system” based on microprocessors and/or microcontrollers in their professional life.",
+      "type": "unspecified",
+      "code": "RA-10.5"
+    },
+    {
+      "text": "Fluently handle the datasheets of typical electronic components of embedded systems: microprocessors, microcontrollers and peripheral integrated circuits.",
+      "type": "unspecified",
+      "code": "RA-10.6"
+    },
+    {
+      "text": "Connect various devices (memories, I/O controllers, etc.) with a microprocessor and/or microcontroller based on their needs and given specifications.",
+      "type": "unspecified",
+      "code": "RA-10.7"
+    },
+    {
+      "text": "Understand the characteristics of microcontrollers, establish their field of application and select the most suitable microcontroller for a given application, from technical and economic points of view.",
+      "type": "unspecified",
+      "code": "RA-10.8"
+    },
+    {
+      "text": "Know the programming language for a given microprocessor/microcontroller, and handle the most common development tools: assembler, compilers, simulators, emulators, etc., that facilitate development.",
+      "type": "unspecified",
+      "code": "RA-10.9"
+    },
+    {
+      "text": "Work in a group, reason critically to compare different solutions and discriminate the most optimal one.",
+      "type": "unspecified",
+      "code": "RA-10.10"
+    },
+    {
+      "text": "Acquire the ability to solve open problems and projects through analysis and information search. Defend their solution against other possibilities through oral communication.",
+      "type": "unspecified",
+      "code": "RA-10.11"
+    },
+    {
+      "text": "Use A/D and D/A conversion circuits, both discrete and integrated into microcontrollers or other devices.",
+      "type": "unspecified",
+      "code": "RA-10.12"
+    },
+    {
+      "text": "Design and implement digital systems using timer blocks, A/D and D/A converters integrated into microcontrollers, and select the optimal one for each application.",
+      "type": "unspecified",
+      "code": "RA-10.13"
+    },
+    {
+      "text": "Know and use the most common digital communication buses and standards between systems (RS-232, RS-485, etc.) and between integrated circuits (SPI, I2C, etc.).",
+      "type": "unspecified",
+      "code": "RA-10.14"
+    },
+    {
+      "text": "Manage and design complex I/O circuits and interfaces, such as LCDs and their associated circuits, both at a logical and electrical level.",
+      "type": "unspecified",
+      "code": "RA-10.15"
+    },
+    {
+      "text": "Use programmable logic devices as one more component within electronic design, distinguishing when their use is advantageous compared to other alternatives and handling their various debugging and development tools for a given family.",
+      "type": "unspecified",
+      "code": "RA-10.17"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to microprocessors",
+    "Operation of a minimum microprocessor system",
+    "The microprocessor as a CPU",
+    "Memories in microprocessor systems",
+    "Input/output interfaces",
+    "68000 microprocessor hardware",
+    "Internal organization and Exceptions of the 68000",
+    "Introduction to microcontrollers (MCUs)",
+    "Programming PIC microcontrollers in assembler",
+    "Organization of internal memory.",
+    "Special characteristics of microcontrollers",
+    "Input/Output Ports.",
+    "Input/output devices controlled by ports.",
+    "Timer Modules.",
+    "CCP modules: Capture. Comparison -PWM.",
+    "A/D conversion Modules",
+    "Introduction to programmable logic devices",
+    "Complex PLDs and FPGAs"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice sessions for problem solving",
+    "Handling of manufacturer datasheets",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Activities in Class (Laboratory block)",
+      "weight_percentage": 3.0
+    },
+    {
+      "method": "1st Partial Exam (Laboratory block)",
+      "weight_percentage": 9.0
+    },
+    {
+      "method": "2nd Partial Exam (Laboratory block)",
+      "weight_percentage": 18.0
+    },
+    {
+      "method": "1st Partial Exam of Theory (Theory block)",
+      "weight_percentage": 10.5
+    },
+    {
+      "method": "2nd Partial Exam of Theory (Theory block)",
+      "weight_percentage": 10.5
+    },
+    {
+      "method": "Final Exam (Theory block)",
+      "weight_percentage": 49.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4 out of 10 is required in both the Laboratory block (30% of final grade) and the Theory block (70% of final grade) to pass the course. If both minimums are met, the final grade is calculated as 0.3*LAB + 0.7*THEORY, with a minimum overall final score of 5. If either block score is below 4, the final grade will be the minimum of 4 or the weighted sum of both blocks. For extraordinary calls, if a laboratory block score above 4 was obtained in the ordinary call, it can be maintained, otherwise a personal work or exam will be assigned; the theory block combines partial exams (30%) and a final exam (70%) of the block. The same minimums and weighted average apply.",
+  "bibliography": [
+    "GARCIA GUERRA E.FENOLL COMES Sistemas Digitales. Ingeniería de los microprocesadores 68000. Editorial Centro de Estudios Ramón Areces.",
+    "G.KANE 68000 Microprocessor Handbook Editorial McGraw-Hill.",
+    "M.RAFIQUZZAMAN Microprocessor Theory an Applications with 68000/68020 and Pentium Editorial John Wiley.",
+    "J. CRISP Introduction to Microprocessors and Microcontrollers Editorial Newnes.",
+    "S. R. BALL Embedded Microprocessor Systems. Real World Design Editorial Newnes.",
+    "E.MANDADO, L.J.ALVAREZ Y MªD.VALDES Dispositivos Lógicos Programables y sus aplicaciones Editorial Thomsom.",
+    "J.I.ARTIGAS, L.A.BARRAGAN, C.ORRITE…. Electrónica Digital. Aplicaciones y problemas con VHDL. Editorial Prentice-Hall",
+    "S.A. PEREZ, E. SOTO y S. FERNANDEZ Diseño de Sistemas Digitales con VHDL Editorial Thomson.",
+    "E.GARCIA BREIJO Compilador C CCS y simulador PROTEUS para microcontroladores PIC. Editorial Marcombo.",
+    "E.MARTÍN, J.M.ANGULO & I.ANGULO Microcontroladores PIC. La clave del diseño Editorial Thomson.",
+    "J.M.ANGULO, E.MARTÍN & I.ANGULO Microcontroladores PIC.(La solución en un chip) Editorial Paraninfo.",
+    "JOHN B. PEATMAN Design with PIC Microcontrollers Ed. Prentice Hall Engineering, Science and Math.",
+    "J.M. ANGULO & I.ANGULO Microcontroladores PIC, Diseño Práctico de Aplicaciones Ed. McGraw-Hill",
+    "J.M. ANGULO, S. ROMERO & I.ANGULO Microcontroladores PIC, Diseño Práctico de Aplicaciones (2ªparte) PIC16F87x Ed. McGraw-Hill",
+    "F.E. VALDES PEREZ y R. PALLAS ARENY Microcontroladores. Fundamentos y aplicaciones con PIC. Ed. Marcombo"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-004",
+  "source_language": "es",
+  "source_sha256": "f127b4a3ba5e18881d67feb0c4cda5fdf0c5c2b72b1f6064854ef837663dfbd8",
+  "extracted_at": "2026-11-20T06:06:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

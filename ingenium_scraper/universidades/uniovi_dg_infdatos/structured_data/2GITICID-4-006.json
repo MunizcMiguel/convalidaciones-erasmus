@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Modelos Bayesianos",
+  "course_name_en": "Bayesian Models",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Good knowledge of Probability",
+    "Good knowledge of Statistical Inference",
+    "Good knowledge of Machine Learning I",
+    "Good knowledge of Statistical Prediction Models"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the main characteristics of Bayesian inference and its conceptual difference with classical inference.",
+      "type": "knowledge",
+      "code": "RMODB1"
+    },
+    {
+      "text": "Handle with ease the main Bayesian inference models based on conjugate distribution families.",
+      "type": "skill",
+      "code": "RMODB2"
+    },
+    {
+      "text": "Apply Bayesian models in networks and know the main elements of probabilistic graphical models.",
+      "type": "skill",
+      "code": "RMODB3"
+    },
+    {
+      "text": "Know and handle Bayesian regression and its main differences with the models seen in the Linear Models course.",
+      "type": "knowledge",
+      "code": "RMODB4"
+    },
+    {
+      "text": "Handle hierarchical Bayesian models.",
+      "type": "skill",
+      "code": "RMODB5"
+    },
+    {
+      "text": "Apply the above models in data science and engineering. Use MCMC models and Gibbs sampling.",
+      "type": "skill",
+      "code": "RMODB6"
+    },
+    {
+      "text": "Critically analyze the obtained results and predictions.",
+      "type": "skill",
+      "code": "RMODB7"
+    }
+  ],
+  "syllabus_topics": [
+    "Probability. Bayes' Theorem. Random variables.",
+    "Prior, posterior and conjugate distributions. Credibility intervals. Bayesian hypothesis testing.",
+    "Markov chain Monte Carlo methods. Metropolis, Gibbs and Hamilton methods.",
+    "Bayesian regression and multilevel models.",
+    "Bayesian networks. Bayesian filters. Probabilistic graphical models."
+  ],
+  "teaching_methods": [
+    "Flipped classroom",
+    "Online video tutorials",
+    "Reading bibliography",
+    "Expository classes",
+    "Classroom practices (problem solving)",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical-practical exam (ExT)",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Continuous assessment questionnaires (EvC)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Report elaboration (I)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "For the ordinary and extraordinary calls, if a minimum score of 4.5 is achieved on the theoretical-practical exam (ExT), the final grade is calculated as 0.55 × ExT + 0.20 × EvC + 0.25 x I. Otherwise, the final grade will be the minimum between the calculated score and 4.9 (fail). For differentiated evaluation, if a minimum score of 4.5 is achieved on the theoretical-practical exam (ExT), the final grade is calculated as 0.75 × ExT + 0.25 x I. Otherwise, the final grade will be the minimum between the calculated score and 4.9 (fail). In case of doubt about authorship or unauthorized means, students may be asked for an oral defense.",
+  "bibliography": [
+    "Torres Manzanera, E. (2023). El detective salazar y los modelos bayesianos. Universidad de Oviedo.",
+    "Ortiz, T., Garbuno, A., and González, F. (2020). Notas del curso fundamentos de estadística con remuestreo del programa de maestría en ciencia de datos del itam.",
+    "Hoff, P. D. (2009). A first course in Bayesian statistical methods, volume 580. Springer.",
+    "Korb, K. B. and Nicholson, A. E. (2010). Bayesian artificial intelligence. CRC press.",
+    "McElreath, Richard. Statistical Rethinking: A Bayesian Course with Examples in R and STAN, Chapman and Hall/CRC 2020, Libro. https://civil.colorado.edu/~balajir/CVEN6833/bayes-resources/RM-StatRethink-Bayes.pdf",
+    "Vídeos. https://www.youtube.com/watch?v=FdnMWdICdRs&list=PLDcUM9US4XdPz-KxHM4XHt7uUVGWWVSus",
+    "Jeffrey W. Miller. Bayesian Inference and Modern Statistical Methods, STA360/601. Duke University, 2015.",
+    "Gelman, A. and Carlin, J.B. and Stern, H.S. and Dunson, D.B. and Vehtari, A. and Rubin, D.B. Bayesian Data Analysis. Chapman & Hall/CRC Texts in Statistical Science, 2013.",
+    "Scutari, M. and Denis, J.B., Bayesian Networks: With Examples in R, Chapman and Hall/CRC texts in statistical science, 2021.",
+    "Gil Bellosta, Carlos. Vídeo tutorial a SamIam. https://www.youtube.com/watch?v=79q9cTPulLg 2021"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-4-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-006",
+  "source_language": "es",
+  "source_sha256": "54fcf22dd8f16f71ff31a57c9a5069ebb8f55c1a03602a8b8c19a022a8ff6643",
+  "extracted_at": "2026-11-20T05:57:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

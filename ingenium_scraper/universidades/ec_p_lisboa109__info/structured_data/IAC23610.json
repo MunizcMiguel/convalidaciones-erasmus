@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Introdução à Arquitetura de Computadores",
+  "course_name_en": "Introduction to Computer Architecture",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction and global vision: historical perspective; internal organization of a computer",
+    "Digital information representation: number bases; binary and hexadecimal arithmetic operations; numeric and alphanumeric codes",
+    "Combinational circuits: introduction to Boolean algebra; basic logic gates; decoders; multiplexers",
+    "Sequential circuits: registers and register banks; memories; separation between data path and control path",
+    "Instruction Set Architecture (ISA): typical instructions; addressing modes; stack and routines; interrupts",
+    "Processor architecture: basic instruction cycle, notion of program counter and address; internal structure of a processor; instruction encoding; status bits; special registers; data unit; register bank; arithmetic logic unit (ALU); control unit; analysis of instruction execution",
+    "Memory system: addressing; caches; basic notions of virtual memory; Input/output"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Continuous Assessment (MAP45 average)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project 3 (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion (including individual practical test, MAP15)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Normal Season Exam (overall)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Normal Season Laboratory component",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Special Season Exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Special Season Laboratory component",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Continuous assessment includes three MAP45 tests (20% each) with a minimum average of 8.0. The laboratory component (minimum 9.0) consists of 3 projects (P = 10% P1 + 15% P2 + 15% P3) and a discussion including an individual practical test (MAP15). The individual laboratory grade is 30% P + 70% (P * MAP15). The final grade in the normal season is the best score between each of the three exam parts (60% total) and its corresponding MAP, plus the laboratory component (40%), with a minimum average of 8.0 for the three exam parts. There is no assessment in the recourse season. For Special Season, assessment is 60% exam + 40% lab component (completed in normal season).",
+  "bibliography": [
+    "David A. Patterson, John L. Hennessy, Computer Organization and Design RISC-V Edition: The Hardware Software Interface 2nd Edition, Elsevier; Paperback ISBN: 9780128203316; eBook ISBN: 9780128245583, 2020 (main)",
+    "G. Arroz, J. Monteiro, A. Oliveira, Arquitectura de Computadores: dos Sistemas Digitais aos Microprocessadores, IST Press, 2ª Edição, ISBN: 978-972-8469-54-2, 2009 (secondary)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "prerequisites",
+    "prerequisites",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "IAC23610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192451",
+  "source_language": "pt",
+  "source_sha256": "492cfbb2805d43036060c823c9bae937fffbfbd4241191967668e071946d475d",
+  "extracted_at": "2026-11-20T12:41:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

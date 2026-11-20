@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Modelling and Rendering Techniques",
+  "course_name_en": "Modelling and Rendering Techniques",
+  "ects": 6.0,
+  "semester": "5.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [
+    "Antirequisites: FMFI.KAI/1-MAT-570/00"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "It acquaints students with the basic principles of geometric modeling, especially modeling of rigid bodies, with the possibilities of local modifications of bodies and global operations on bodies represented by common techniques.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will deepen their knowledge of rendering techniques.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The concept of geometric, quantitative and organizational model.",
+    "Hierarchy in geometric models.",
+    "Tools for defining objects, modifying them and storing them.",
+    "Primitive (basic) objects and their most well-known characteristics.",
+    "Local modifications and global operations with solids.",
+    "CSG representation of objects (standard CSG primitives, regularized Boolean operations, identity transformations).",
+    "Algorithm for construction of CSG - objects.",
+    "Boundary representations of bodies (B - rep).",
+    "Euler - Poincare formula and its meaning.",
+    "Platonic bodies.",
+    "Euler's operators.",
+    "Boolean operations at border representations.",
+    "Wall, edge and top representations of polyhedrons with non-variety surface.",
+    "Solid modeling with polygonal meshes.",
+    "Body modeling by sweeping methodology (extruded solids).",
+    "Rendering techniques for shaded and color images.",
+    "Object description-based rendering using implicit functions and CSG description.",
+    "Basic principles of voxel rendering, image - oriented rendering and photo - modeling.",
+    "Rendering of polygonal meshes.",
+    "Rendering based on object or image redistribution techniques."
+  ],
+  "teaching_methods": [
+    "lecture",
+    "practicals"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 52.0,
+  "assessment_methods": [
+    {
+      "method": "homework",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "individual work",
+      "weight_percentage": null
+    },
+    {
+      "method": "exercises",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "written exam",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "oral exam (voluntary)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the semester, the student can get 50% for exercises, 30% for homework, the final written exam has a weight of 20% and the oral exam is voluntary for 20%. The student must solve at least 30% of each homework in order to pass the final written exam. Grading scale: 92-100 A, 84-91 B, 76-83 C, 68-75 D, 60-67 E. Assessment is preliminary/final with a scale of 30/70.",
+  "bibliography": [],
+  "isced_f_code": null,
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-MAT-570/15",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "92a374d735653c39fdf30a0737a6f6f13ea01a9de1b7d05ad4203189fbf54924",
+  "extracted_at": "2026-11-20T09:27:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

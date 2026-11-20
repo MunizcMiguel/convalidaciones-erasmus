@@ -1,0 +1,152 @@
+{
+  "course_name_original": "Computer Architecture (ELE-010R)",
+  "course_name_en": "Computer Architecture",
+  "ects": 9.0,
+  "semester": "First Half-Year Cycle",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know the basics of the design of logical networks and the fundamental elements of the architecture of a digital computer.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn the basics of assembly programming languages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand binary representation of information, logic circuits, and computer architecture.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use binary representation and boolean logic.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and synthesize simple logic circuits, both combinational and sequential ones.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform Assembly programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to recognize and evaluate computer's features and performance.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to find the best solution to a given problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student should present and revise his knowledge, with a particular focus on the lexicon and technical jargon.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will learn a very low-level language, far to their usual abstraction level and intuitive developing schema. Moreover, they have to delve into collateral aspects of the discussed arguments.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Information Encoding",
+    "Binary coding",
+    "Binary arithmetic",
+    "Two's Complement",
+    "Fixed-point and floating point IEEE 754-1985",
+    "Encoding images, video and audio",
+    "Combinatory Logic circuits",
+    "Boolean Algebra. Boolean expression and function. Theorems",
+    "Combinatory Logic circuits synthesis. Truth Tables. Canonical Forms.",
+    "Karnaugh maps",
+    "Minimization",
+    "Decoder, multiplexer, Half and Full Adder, ALU",
+    "Sequential Logic",
+    "SR Bistable, latch SR and D, FlipFlops SR, D, JK and T",
+    "Sequential Logic Synthesis",
+    "Finite State Machines, Mealy and Moore models, state diagram",
+    "Counter, register, memory bank.",
+    "Computer Architecture",
+    "BUS, address space, bus dimension",
+    "Von Neumann and Harvard architectures",
+    "ISA definition",
+    "RISC vs CISC",
+    "Design of a Sample architecture",
+    "Main registers: ACC, IR, MDR and MAR.",
+    "ALU and FLAG register.",
+    "Instruction set: Load and Store.",
+    "Instruction encoding",
+    "Hardwired and micro programmed Control Unit",
+    "Program counter",
+    "Parallelization of Micro-operations",
+    "Jump instructions",
+    "Assembly programming and Intel IA32",
+    "How an Assembler work",
+    "Introduction to 8086",
+    "Registers, memory segmentation, instruction queue",
+    "Functions: stack frame, SP and BP.",
+    "Memory management on IA32",
+    "Memory subsystem",
+    "Hierarchical organization",
+    "Cache memory. Spatial and temporal locality",
+    "Memory devices",
+    "I/O subsystem",
+    "I/O devices",
+    "Polling, Interrupts",
+    "Memory mapped I/O and isolated I/O",
+    "Interrupt vector. Traps. Exceptions.",
+    "I/O with microcontrollers",
+    "Laboratory: assembly IA32 programming"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory exercise",
+    "Seminar"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory test (eligibility for the oral exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment consists of a laboratory test for eligibility and an oral exam that determines the final score. Both tests are conducted at the end of the course. The laboratory test involves developing an IA32 assembly function that interfaces with a C main program using the OLJAsm platform. The oral exam has about 3 questions concerning the theory of computers, with 10 points per question. No material is allowed during the oral exam.",
+  "bibliography": [
+    "A. Tanenbaum “Structured Computer Organization” (6th Edition)",
+    "A. Tanenbaum “Architettura dei Calcolatori un approccio strutturale” Prentice Hall (sesta edizione)",
+    "J.Hennessy D. Patterson “Computer Architecture a Quantitative Approach VI Ed.”",
+    "G.Bucci “Calcolatori Elettronici Architettura e Organizzazione” Mc Graw Hill",
+    "C.Hamacher et al. “Introduzione all’architettura dei calcolatori” III Ed. Mc Graw Hill (dall’edizione del 2012 in poi)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia",
+  "institution_slug": "ec_i_modena01",
+  "degree": "Laurea in Ingegneria Elettronica (Electronic Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "ELE-010R",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=29478&ordinamento_aa=2025&af_percorso=10001&corso_cod=10924&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "18c18efa476d8a30cde1b0dae0ef0cdceb9ad51eee7eaee77a6e1ebcb862a30e",
+  "extracted_at": "2026-11-20T08:18:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Ingeniería de Control",
+  "course_name_en": "Control Engineering",
+  "ects": 9.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Adequate foundations in: Linear Algebra",
+    "Calculus",
+    "Advanced Calculus",
+    "Circuit Theory",
+    "Mechanics",
+    "Signals and Systems",
+    "Programming",
+    "Fundamentals of Analog Electronics",
+    "Digital Electronics",
+    "Microprocessors and Microcontrollers",
+    "Technical reading level English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Model linear physical systems.",
+      "type": "skill",
+      "code": "RA-15.1"
+    },
+    {
+      "text": "Analyze the dynamic behavior of open-loop and closed-loop systems using analytical and graphical methods.",
+      "type": "skill",
+      "code": "RA-15.2"
+    },
+    {
+      "text": "Design control systems to adjust the operation of a linear system to given temporal/frequency domain specifications.",
+      "type": "skill",
+      "code": "RA-15.3"
+    },
+    {
+      "text": "Employ software simulation tools for modeling continuous and discrete systems.",
+      "type": "skill",
+      "code": "RA-15.4"
+    },
+    {
+      "text": "Utilize laboratory instrumentation for the identification of linear systems.",
+      "type": "skill",
+      "code": "RA-15.5"
+    },
+    {
+      "text": "Tune PID controllers.",
+      "type": "skill",
+      "code": "RA-15.6"
+    },
+    {
+      "text": "Design discrete controllers.",
+      "type": "skill",
+      "code": "RA-15.7"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to control engineering.",
+    "Analysis of open-loop systems.",
+    "Analysis of the dynamic response of feedback systems using the root locus.",
+    "Classic controller design, PID controller tuning.",
+    "Feedforward control.",
+    "Modeling and control of systems in state variables.",
+    "Introduction to discrete control.",
+    "Discretization of continuous controllers.",
+    "Design of discrete-time control systems.",
+    "Introduction to advanced control.",
+    "Discrete event control.",
+    "Sensors and actuators."
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (Theoretical Block)",
+      "weight_percentage": null
+    },
+    {
+      "method": "May Exam (Theoretical Block)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practices (Practical Block)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Specific Practical Exam (PLM) (Practical Block)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 5 out of 10 is required in both the theoretical and practical blocks. The theoretical block score is (0.65 * Partial Exam) + (0.35 * May Exam) if the partial exam minimum is met, otherwise it is the May Exam score. The practical block score is based on continuous assessment of laboratory practices (PL), provided a minimum of 5/10 and attendance requirement (max 2 justified absences) are met; otherwise, a specific practical exam (PLM) is taken. The final grade is (0.65 * Theoretical Block) + (0.35 * Practical Block) if all minimums are met, otherwise it's the minimum between the calculated score and 4.0. For the extraordinary call, a theoretical exam and a practical exam are required, each with a minimum score of 5 out of 10. The final grade calculation is the same as for the ordinary call if minimums are met; otherwise, it's the minimum between the calculated score and 4.0.",
+  "bibliography": [
+    "K. Ogata, “Ingeniería de Control Moderna”, Prentice-Hall, 1998",
+    "B.C. Kuo “Sistemas de Control Automático”, McGraw-Hill",
+    "Modern Control Systems, 12th Ed. Richard C. Dorf, Robert H. Bishop",
+    "Feedback Control of Dynamic Systems, 4th Ed., G. F. Franklin, J. D. Powell, A. Emami-Naeini",
+    "Control systems engineering, 6th Ed. Norman S. Nise",
+    "S. W. Smith, “The scientist and engineer’s guide to digital signal processing”, California Technical Publishers, 1998",
+    "J. Fraden, “Handbook of Modern Sensors”, AIP Press, 2001",
+    "Introduction to Discrete Event Systems, Cassandras, Christos G., Lafortune, Stephane, 2nd ed., 2008, XXIV, 776 p., ISBN 978-0-387-33332-8, Springer"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-012",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-012",
+  "source_language": "es",
+  "source_sha256": "735e98d22d100dde0be772bd89682c548c6c2bf1ff7be0a17036a201c41d52a9",
+  "extracted_at": "2026-11-20T06:06:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

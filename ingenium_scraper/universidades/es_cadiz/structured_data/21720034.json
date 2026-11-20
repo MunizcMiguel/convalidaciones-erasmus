@@ -1,0 +1,118 @@
+{
+  "course_name_original": "Mecánica de Robots",
+  "course_name_en": "Robotics Mechanics",
+  "ects": 6.0,
+  "semester": "7",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "It is highly recommended that the student has acquired the competencies corresponding to the subjects of previous semesters.",
+    "The student must have a B1 Spanish certificate in the case of international mobility.",
+    "To acquire the competencies of the subjects at a sustained pace, it is recommended that the student is familiar with and has knowledge of the following subjects taken in previous semesters: Rigid Solid Mechanics. Kinematics and Dynamics of Machines and Mechanisms. Engineering materials, their properties and applications. Material forming processes. In-service behavior of materials. Loads, stresses and elastic and plastic deformations. Stress state. Plane and spatial geometry. Trigonometry. Differential and integral calculus. Vector algebra. Basic programming concepts. Computer science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the mechanical functioning of a robot.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the criteria that will guide them to evaluate the convenience of using a robot in a given industrial environment and the most appropriate way to do so.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the main types of robots and their characteristics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know real-world applications of robots.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to identify the causes of mechanical failure or breakdown in robotic systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK A. INTRODUCTION TO ROBOTICS",
+    "A.1. Historical background of robotics.",
+    "A.2. Basic definitions in robotic technology.",
+    "A.3. Current applications of robotics. The future of robotics.",
+    "A.4. Basic market prospecting of current robotics.",
+    "A.5. Morphology of robots.",
+    "BLOCK B. ROBOTIC TECHNOLOGY",
+    "B.2. Electromechanical technology: Analysis, Design and Computational Simulation.",
+    "B.3. Fluid-mechanical technology: Analysis, Design and Computational Simulation.",
+    "BLOCK C. ROBOT SPATIAL LOCALIZATION",
+    "C.1. Position representation: Cartesian, cylindrical and spherical coordinates.",
+    "C.2. Orientation representation: rotation matrices.",
+    "C.3. Robot spatial localization: Homogeneous Transformation Matrices.",
+    "C.4. Euler angles and rotation pair.",
+    "C.5. Quaternion algebra.",
+    "C.6. Relationship between spatial localization methods.",
+    "C.7. Simulation of spatial localization in MATLAB.",
+    "BLOCK D. KINEMATIC ROBOTIC ANALYSIS",
+    "D.1. Introduction to robot kinematics.",
+    "D.2. Direct kinematic problem: geometric and analytical methods.",
+    "D.3. Denavit-Hartenberg algorithm.",
+    "D.4. Inverse kinematic problem: geometric and analytical methods.",
+    "D.5. Kinematic decoupling.",
+    "D.6. Differential model: analytical and geometric Jacobian.",
+    "D.7. Computational modeling in Matlab.",
+    "BLOCK E. DYNAMIC ROBOTIC ANALYSIS",
+    "E.1. The structural dynamic model of the robot. Euler's Law.",
+    "E.2. The dynamic model of the robot's actuators.",
+    "E.3. The dynamic model of the robot. Lagrange formulation."
+  ],
+  "teaching_methods": [
+    "Expository, explanatory and/or demonstrative sessions of content (Theory)",
+    "Resolution of exercises and problems (Practice, seminars and problems)",
+    "Voluntary activities related to the subject developed in industrial and business contexts (Field trip practices)",
+    "Individual and autonomous study and work (Non-presential formative activities)",
+    "Personalized assistance in the formative process between the teacher and students, including resolving doubts (Tutoring activities)",
+    "Resolution of exercises and problems using computer tools or software (Computer practices)",
+    "Practical sessions in the Mechanical Engineering laboratory (Workshop/laboratory practices)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Design and mechanical analysis of a robotized unit",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Activities on the historical introduction, robotic technology and spatial localization tools",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "José M. Angulo Usategui, \"Robótica práctica: tecnología y aplicacione\", 84-283-2239-2",
+    "Antonio Barrientos, Luís Felipe Peñin, Carlos Balaguer, Rafael Aracil, \"Fundamentos de robótica\", 978-84-481-5636-7",
+    "Carl D. Crane and Joseph Duffy, \"Kinematic Analysis of Robot Manipulators\", 9780521047937",
+    "Abhinandan Jain, \"Robot and multibody dynamics: analysis and algorithms\", 9781441972668; 9781489982308",
+    "Emilio Sánchez Muñoz, \"Introducción a la Automática y Mecánica de Robots\", 84-600-4255-3",
+    "Victor Etxebarria, \"Sistemas de Control No Lineal y Robótica\", 84-8373-192-4",
+    "José María Angulo Usategui, Susana Romero Yesa, Ignacio Angulo Martínez, \"Microbótica: tecnología, aplicaciones y montaje práctico\", 849732143X"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720034",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720034",
+  "source_language": "es",
+  "source_sha256": "8072a1c3a25e1285adef96a3714ff7f4569b29b6c09f21ca74e85ab05f56fe4d",
+  "extracted_at": "2026-11-13T21:31:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

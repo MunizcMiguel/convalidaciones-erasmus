@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Implementierung von Datenbanksystemen",
+  "course_name_en": "Implementation of Database Systems",
+  "ects": 9.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "It is recommended to have the competencies taught in the modules Algorithms and Data Structures and Database Systems."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can assess the performance of database systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can apply techniques for developing efficient data structures and algorithms in database systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can evaluate external data structures regarding runtime, memory space, and throughput.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can handle index structures in commercial database systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have knowledge of query optimization techniques and their availability in commercial systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can describe architectures of modern database systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Architecture of database systems",
+    "File organization and access structures",
+    "One-dimensional index structures: B-trees and hashing methods",
+    "Multidimensional index structures",
+    "Index structures in database systems",
+    "Lock protocols and recovery for index structures",
+    "Algorithms for database operators",
+    "Query optimization",
+    "Physical optimization of databases",
+    "New developments in database systems"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solutions to at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credit points, at least 50 percent of the points from the weekly exercise assignments must be achieved, along with an oral presentation of the solution to at least two exercise assignments. The final grade is awarded from 0 to 15 points according to the examination regulations for the M.Sc. Computer Science degree program, based on an oral examination or a written exam.",
+  "bibliography": [
+    "Kemper, Eickler: Datenbanksysteme, Oldenbourg.",
+    "Härder, Rahm: Datenbanksysteme. Konzepte und Techniken der Implementierung, Springer.",
+    "Saake, Heuer, Sattler: Datenbanken: Implementierungstechniken, Mitp.",
+    "Garcia-Molina, Ullman, Widom: Database System Implementation, Prentice Hall."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS672",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Implementierung_von_Datenbanksystemen.html",
+  "source_language": "de",
+  "source_sha256": "c7b5e49b76e4dbc55193f19ef2e9cfc0995a1c3b4c43fd69699da58d594c21f8",
+  "extracted_at": "2026-11-20T09:23:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

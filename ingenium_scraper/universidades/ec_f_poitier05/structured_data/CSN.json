@@ -1,0 +1,76 @@
+{
+  "course_name_original": "Calcul scientifique (numérique) / Scientific Computing (b)",
+  "course_name_en": "Scientific Computing (b)",
+  "ects": null,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Integral calculus",
+    "differential calculus",
+    "Taylor development",
+    "linear algebra",
+    "matrix calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To study and to know the fundamentals of discretization of methods applied to finite differences, finite volumes and finite elements.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To provide the ability to choose a numerical resolution strategy adapted to the problem.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Discretization of PDE (Partial Differential Equations)",
+    "Finite differences method",
+    "Finite volumes method",
+    "Finite elements method",
+    "Properties of methods and solving model problems",
+    "Numerical Methods Project",
+    "Numerical resolution of one or several PDEs using finite differences, finite volumes or finite elements methods"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "report",
+      "weight_percentage": null
+    },
+    {
+      "method": "oral presentation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "R. Petit L’outil mathématique pour la physique Dunod, 1998.",
+    "C. Hirsch, Numerical computation of internal and external flows. Vol. 1: Fundamentals of numerical discretization, Wiley. 1999",
+    "B. Mohammadi, J.H. Saia. Pratique de la simulation numérique. Dunod, 2003.",
+    "JP Nougier, Méthodes de calcul numérique, Masson"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "ISAE-ENSMA (École nationale supérieure de mécanique et d'aérotechnique)",
+  "institution_slug": "ec_f_poitier05",
+  "degree": "Diplôme d'ingénieur ISAE-ENSMA (FISE) - 2e année (syllabus A2)",
+  "course_code": "CSN",
+  "academic_year": "2025-26",
+  "source_url": "https://ensma.fr/wp-content/uploads/2025/02/Syllabus-FISE-ENSMA-A2-2025-2026-previsionnel.pdf",
+  "source_language": "fr",
+  "source_sha256": "4fb311bc3dabafb09e4bde3097d3f2aa530c27bf5632220c8c3c98866d29415f",
+  "extracted_at": "2026-11-20T09:15:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

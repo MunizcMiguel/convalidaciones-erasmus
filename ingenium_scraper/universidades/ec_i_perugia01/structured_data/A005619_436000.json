@@ -1,0 +1,100 @@
+{
+  "course_name_original": "MECCANICA DEI FLUIDI",
+  "course_name_en": "FLUID MECHANICS",
+  "ects": 6.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Solid foundations in Mathematical Analysis I and II: differential and integral calculus, ordinary differential equations, vector algebra, differential operators (gradient, divergence, curl) and divergence and curl theorems.",
+    "General Physics I (Mechanics): kinematics and dynamics of point and rigid bodies, concepts of force, moment, work, and energy."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply the principles of conservation of mass, momentum, and energy in both integral (macroscopic) and differential (microscopic) forms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve engineering problems related to the calculation of hydrostatic thrusts, head losses in industrial hydraulic circuits, and aerodynamic forces on submerged bodies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use dimensional analysis for the design and interpretation of experimental tests on scale models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand elementary thermofluidynamic phenomena related to compressible flows in nozzles and choked flows.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, basic concepts, fluid properties",
+    "Fluid statics",
+    "Fluid kinematics: Eulerian and Lagrangian description",
+    "Elementary equations of fluid dynamics - conservation of mass and energy (Bernoulli)",
+    "Integral formulation of conservation equations",
+    "Differential equations of fluid motion",
+    "Dimensional analysis and similitude",
+    "Internal viscous flows: flows in ducts",
+    "External viscous flows: flow around bodies, drag and lift, boundary layer",
+    "Approximate solutions of the Navier-Stokes equation",
+    "Laminar and turbulent flows",
+    "Compressible flows",
+    "Introduction and Fluid Properties: Adhesion condition. Vapor pressure and cavitation. Viscosity and Newtonian fluids. Surface tension. Calculation of shear stresses in viscometers and fluid gaps.",
+    "Fluid Statics: Hydrostatic pressure and manometers. Hydrostatic forces on submerged flat and curved surfaces. Archimedes' thrust, buoyancy and stability. Calculation of forces and moments on bulkheads and dams.",
+    "Fluid Kinematics: Lagrangian and Eulerian description. Streamlines, streaklines, and pathlines. Vorticity, rotationality, and strain-rate tensor. Reynolds Transport Theorem (RTT). Analytical determination of streamlines and material acceleration.",
+    "Bernoulli's Equation and Integral Energy Formulation: Bernoulli's equation: derivation, hypotheses and limitations. Piezometric and total head lines. General energy equation for open systems, alpha factor and head losses. Energy balances in hydraulic systems and Venturi meters.",
+    "Integral Momentum Formulation: Conservation of mass and linear/angular momentum for fixed and moving control volumes. Correction factor beta. Calculation of anchoring forces on flanged bends, nozzles and jets on blades.",
+    "Dimensional Analysis and Similitude: Buckingham's Pi theorem and method of repeated variables. Dimensionless groups (Reynolds, Froude, Mach). Similitude and scale models. Integrated exercise: Calculation of dimensionless groups and operating conditions for scale models.",
+    "Differential Equations of Fluid Motion: Differential continuity equation. Stream function. Derivation and physical meaning of the terms of the Navier-Stokes equations for incompressible fluids. Verification of admissible velocity fields and calculation of pressure gradients.",
+    "Approximate Solutions of Navier-Stokes Equations: Exact solutions for steady parallel flows (Couette and Poiseuille). Euler equations for inviscid flows. Irrotational flows and velocity potential. Analytical derivation of velocity profiles and flow rates between plates and ducts.",
+    "Internal Viscous Flows: Laminar and turbulent regimes in ducts. Entrance region and fully developed flow. Distributed head losses (Darcy-Weisbach, Moody chart, Colebrook) and concentrated losses. Energy balance and hydraulic design of an industrial circuit.",
+    "External Viscous Flows and Boundary Layer: Prandtl's boundary layer theory. Laminar (Blasius) and turbulent boundary layer on a flat plate. Characteristic thicknesses (nominal, displacement, momentum). Calculation of thicknesses and overall shear stress on a flat plate.",
+    "Flow around Bodies: Drag and Lift: Drag forces (friction and form drag) and lift. Boundary layer separation phenomenon. C_D and C_L coefficients for cylinders, spheres, and airfoils. Calculation of aerodynamic drag and lift forces.",
+    "Compressible Flows: Speed of sound and Mach number. Stagnation properties and state. Isentropic flows in convergent and de Laval nozzles. Choked flow. Introduction to normal shock waves. Calculation of thermodynamic properties in de Laval nozzles."
+  ],
+  "teaching_methods": [
+    "Theoretical frontal lessons (36 hours)",
+    "Practical exercises in classroom (18 hours)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment of acquired competences occurs through an exam divided into two phases: a written test and an oral test. The written test, lasting approximately 3 hours, involves solving 3 independent numerical problems. Passing the written test with a minimum grade of 18/30 is mandatory for access to the oral exam. The oral exam verifies critical learning of the subject, physical understanding of phenomena, and rigor in presenting fundamental mathematical derivations.",
+  "bibliography": [
+    "(ENG) Çengel, Cimbala – Fluid Mechanics – Fundamentals and Applications, McGraw-Hill",
+    "(ITA) Çengel, Cimbala – Meccanica dei Fluidi, McGraw-Hill",
+    "(ENG) Munson, Okiishi, Huebsch, Rothmayer – Fundamentals of Fluid Mechanics, Wiley",
+    "(ITA) Munson, Okiishi, Huebsch, Rothmayer – Meccanica dei fluidi, Città Studi Edizioni (De Agostini)",
+    "White F.M. – Fluid Mechanics –McGraw-Hill"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Perugia",
+  "institution_slug": "ec_i_perugia01",
+  "degree": "Corso di laurea in Ingegneria meccanica (L-9)",
+  "course_code": "A005619_436000",
+  "academic_year": "regolamento 2025/26 (coorte 2025)",
+  "source_url": "https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2025-26?view=elenco&ricerca=on&annoregolamento=2025&dipartimento=516600&lingua=&nomecorso=&tipocorso=&sede=4&classe=&cerca=&idcorso=8439&tab=INS&idins=436000",
+  "source_language": "it",
+  "source_sha256": "5b1110d03a0ad342803557cdfe446420d48093a310fe64f731c98115a91c6156",
+  "extracted_at": "2026-11-18T10:03:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

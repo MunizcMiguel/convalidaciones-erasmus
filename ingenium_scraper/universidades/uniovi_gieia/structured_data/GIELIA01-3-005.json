@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Sistemas Electrónicos Digitales",
+  "course_name_en": "Digital Electronic Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Prior knowledge in mathematics, programming, electrical circuits, analog electronics, and basic digital electronics is recommended.",
+    "It is highly unadvisable to take this course without having previously passed \"Tecnología Eléctrica\" (Electrical Technology) and \"Tecnología Electrónica\" (Electronic Technology) from the second year."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze the operation and design digital circuits using both fixed-function circuits and internally configurable digital circuits.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Assess the use of different resources and possibilities to carry out a digital design from a technical and economic point of view against determined initial specifications.",
+      "type": "competence",
+      "code": "R2"
+    },
+    {
+      "text": "Distinguish and select different microprocessor system architectures, with special emphasis on microcontrollers and their most common internal functional blocks (ports, timers, A/D and D/A converters, and CCP).",
+      "type": "knowledge",
+      "code": "R3"
+    },
+    {
+      "text": "Perform hardware design for interfacing digital input and output devices with microprocessor or microcontroller systems.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Perform software design for electronic systems based on microprocessors or microcontrollers using low-level language.",
+      "type": "skill",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "Sequential circuits: elementary functional blocks",
+    "Applications based on Sequential Circuits: counters, timers and registers",
+    "Synthesis of Sequential Circuits. Finite State Machines",
+    "Introduction to Configurable Digital Circuits: PLD and FPGA",
+    "Semiconductor memories",
+    "Microprocessor systems: internal blocks and architecture. Microcontrollers and Digital Signal Processors",
+    "Development tools and design procedure",
+    "Program development in low-level languages (assembler)",
+    "Basic modules in microcontrollers: ports, timers, A/D conversion, D/A conversion, analog comparator, voltage reference, temporal comparator, capture module, PWM generation.",
+    "Interconnection and signal adaptation for input and output devices"
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom practices (seminars)",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory Block: Partial Theory Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theory Block: Final Theory Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block: Tasks to complete in practice sessions (P1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Block: Active participation in practice sessions (P2)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the theory block, a minimum grade of 4 out of 10 is required. If T1 >= 5 and T2 >= 3, the Theory grade is (T1+T2)/2; otherwise, it is T2 (if T1 < 5) with a minimum of 4 overall and 1.5 in each of the two theory blocks. The final grade is calculated as 0.65 * Theory + 0.25 * P1 (Tasks in Practices) + 0.1 * P2 (Active Participation in Practice Sessions). A grade below 4 in the Theory block results in a fail for the course, with a maximum final grade of 4. Practical block grades are obtained during the teaching period and are retained for extraordinary calls within the same academic year, with a maximum of 3.5 points out of 10 applied in extraordinary calls.",
+  "bibliography": [
+    "T. L. Floyd: \"Fundamentos de sistemas digitales\" Prentice Hall.",
+    "R.J.Tocci, N.S.Widmer: \"Sistemas Digitales. Principios y Aplicaciones\" Ed. Prentice Hall",
+    "V. P. Nelson, H.T. Nagle, B. D. Carroll, J.D. Irwin: \"Análisis y Diseño de Circuitos Lógicos Digitales\" Thomson Paraninfo",
+    "F. Aldana, R. Esparza, P. M. Martinez: \"Electrónica Industrial: Técnicas Digitales\" Ed. Marcombo.",
+    "J. F. Wakerly: \"Diseño Digital: Principios y prácticas\" Ed. Prentice Hall",
+    "J. M. Angulo, I. Angulo, J. García: \"Sistemas digitales y tecnología de computadores\" Ed.Paraninfo",
+    "E. Palacios, F. Remiro, L. J. López, A. García: \"Microcontrolador PIC16F84. Desarrollo de proyectos\" Ed. Ra-Ma",
+    "J.M. Angulo e I.Angulo: \"Microcontroladores PIC, Diseño Práctico de Aplicaciones\" Ed. McGraw-Hill"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-005",
+  "source_language": "es",
+  "source_sha256": "6d3776811845b296f893a280775c9735142ae83015f33aa57495171d83051eed",
+  "extracted_at": "2026-11-20T01:13:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

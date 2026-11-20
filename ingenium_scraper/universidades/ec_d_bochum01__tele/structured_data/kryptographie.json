@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Kryptographie",
+  "course_name_en": "Cryptography",
+  "ects": 8.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Contents of the lectures Introduction to Cryptography 1 and 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have an understanding of the essential mathematical methods and procedures on which modern cryptographic methods are based.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The depth of treatment of the methods goes significantly beyond what was taught in previous courses.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Participants are able to analyze and design current and future cryptographic methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They also demonstrate an awareness of the methodology and power of various attack scenarios.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Secure encryption against KPA, CPA, and CCA attackers",
+    "Pseudorandom functions and permutations",
+    "Message Authentication Codes",
+    "Collision-resistant Hash Functions",
+    "Block ciphers",
+    "Construction of random number generators",
+    "Diffie-Hellman key exchange",
+    "Trapdoor one-way permutations",
+    "Public Key Encryption: RSA, ElGamal, Goldwasser-Micali, Rabin, Paillier",
+    "One-way signatures",
+    "Signatures from collision-resistant hash functions",
+    "Random-Oracle Model"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": 240.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon passing the written examination.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "kryptographie",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "35ec4b67301e3bc741cee5062e6200c5c8e939b292586fb13921d21be0759745",
+  "extracted_at": "2026-11-20T12:36:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,152 @@
+{
+  "course_name_original": "Diseño de Sistemas Electrónicos Analógicos",
+  "course_name_en": "Analog Electronic Systems Design",
+  "ects": 9.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Teoría de circuitos",
+    "Dispositivos electrónicos y fotónicos",
+    "Fundamentos de electrónica analógica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Perform the simulation of general-purpose electronic circuits with computer tools.",
+      "type": "skill",
+      "code": "RA-11.8"
+    },
+    {
+      "text": "Analyze the operation of a wide variety of electronic circuits that use idealized operational amplifiers.",
+      "type": "skill",
+      "code": "RA-11.9"
+    },
+    {
+      "text": "Synthesize filters with discrete elements, both passive and active (based on operational amplifiers).",
+      "type": "skill",
+      "code": "RA-11.10"
+    },
+    {
+      "text": "Understand the functions of the different electronic sub-circuits (current sources and mirrors, differential stages, coupling stages, output stages and protections) that configure the internal structure of an operational amplifier.",
+      "type": "knowledge",
+      "code": "RA-11.11"
+    },
+    {
+      "text": "Understand and quantify how the real internal structure of an operational amplifier modifies its idealized behavior.",
+      "type": "knowledge",
+      "code": "RA-11.12"
+    },
+    {
+      "text": "Quantify how the real characteristics of an operational amplifier modify its behavior in circuits and establish comparisons with calculations obtained assuming ideal behavior.",
+      "type": "skill",
+      "code": "RA-11.13"
+    },
+    {
+      "text": "Understand the operation of other general-purpose analog integrated circuits and their application in communications and power electronics.",
+      "type": "knowledge",
+      "code": "RA-11.14"
+    }
+  ],
+  "syllabus_topics": [
+    "Amplifiers in common emitter, common collector and common base configurations.",
+    "Amplifiers in common source and common drain configurations.",
+    "Comparison between different configurations.",
+    "Effect of frequency on the transistor model.",
+    "Frequency analysis.",
+    "CC-EC, CC-CC and Darlington configurations.",
+    "Cascode configuration.",
+    "Differential stage.",
+    "Current mirrors.",
+    "Active loads.",
+    "Current references.",
+    "Differential stages.",
+    "Coupling stages.",
+    "Output stages.",
+    "Protections.",
+    "Basic linear and non-linear circuits with ideal operational amplifiers.",
+    "Design of transfer functions.",
+    "Basic filter theory.",
+    "Synthesis of filters with passive elements.",
+    "Synthesis of active filters.",
+    "Input characteristics.",
+    "Transfer characteristics.",
+    "Output characteristics.",
+    "DC errors.",
+    "Stability.",
+    "Noise.",
+    "Comparators and Schmitt trigger.",
+    "Voltage regulators.",
+    "Adjustable voltage references.",
+    "Integrated timers.",
+    "Multifunction circuits.",
+    "Analog switches."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 91.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (EP1)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Partial Exam (EP2)",
+      "weight_percentage": 17.5
+    },
+    {
+      "method": "Final Exam (EF1)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Individual work (T)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Assistance to a Group Tutorial (TG)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous evaluation (PL1) - attendance and performance in practical results",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical Exam (PL2)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade for the theoretical block is calculated as: ((0.125 x EP1) + (0.175 x EP2) + (0.6 x EF1) + (0.1 x T)) x TG. The final grade for the practical block is calculated as: (0.5 x PL1) + (0.5 x PL2). The final grade for the ordinary call is calculated as: ((5 x Theory) + (Practices)) / 6. The practical block grade is retained for all calls within the same academic year and for the first extraordinary call of the following year. In case of doubt regarding authorship or unauthorized means, an in-person defense may be requested.",
+  "bibliography": [
+    "“Electrónica”, A. R. Hambley. Editorial: Prentice Hall.",
+    "“Circuitos Microelectrónicos”, Sedra/Smith. Editorial: Reverté.",
+    "\"Circuitos electrónicos discretos e integrados\", D.L. Schilling & C. Belove. Editorial: McGraw-Hill.",
+    "\"Electrónica integrada\", J. Millman & C.C. Halkias. Editorial: Hispano Europea.",
+    "\"Circuitos electrónicos. Análisis, simulación y diseño\", N. R. Malik. Editorial: Prentice Hall.",
+    "“Instrumentación Electrónica”, M. A. Pérez, J. C. Álvarez, J. C. Campo, F. J. Ferrero y G. Grillo. Editorial: Thomson.",
+    "\"Analysis and Design of Analog Integrated Circuits\", P. R. Gray, P. J. Hurst S. H. Lewis y R. G. Meyer. Editorial: John Wiley and Sons.",
+    "\"Operational Amplifier Circuits. Theory and Applications\", E. J. Kennedy. Editorial: Holt, Rinehart and Winston.",
+    "\"Handbook of electronics calculations for engineers and technicians\", M. Kaufman, y A. H. Seidman. Editorial: McGraw Hill.",
+    "“Analog Integrated Circuits Design”, D. Johns y K. W. Martin. Editorial: John Wiley and Sons.",
+    "“Electronic Communications”, D. Roddy y J. Coolen. Editorial: Reston"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-3-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-3-010",
+  "source_language": "es",
+  "source_sha256": "85c40f78e2435548dedc74e9f6ee2d055bd662d8791a134f494de45dcbb33df9",
+  "extracted_at": "2026-11-20T06:04:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

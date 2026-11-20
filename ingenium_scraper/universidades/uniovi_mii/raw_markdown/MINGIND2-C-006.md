@@ -1,0 +1,284 @@
+---
+{
+ "course_code": "MINGIND2-C-006",
+ "course_name": "Ingeniería Térmica",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-006",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T04:58:59",
+ "content_sha256": "f24228c1e8bb2982eb6bf07fa027b87fe8dd1f8aa563b7911b1c24105321c3a3"
+}
+---
+
+# Ingeniería Térmica
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-C-006
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Complementos de Formación
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Laboratorio (14 Horas); Prácticas de Aula/Semina (14 Horas); Tutorías Grupales (2 Horas); Clases Expositivas (28 Horas)
+
+## Contextualización
+
+Esta asignatura pertenece al módulo Común a la Rama Industrial, dentro de la materia Energía y Medio Ambiente, y se imparte en el primer semestre del segundo curso de la titulación. Su carácter es Obligatorio, ya que en ella se presentan conceptos y competencias imprescindibles para la formación de un graduado en ingeniería, tanto para el estudio de asignaturas posteriores, como para su ejercicio profesional como ingeniero.
+
+En este sentido, la asignatura resulta indispensable para la producción de graduados con una sólida base teórica y experimental, cuyas experiencias analíticas, de diseño y de laboratorio resulten atractivos para la industria. Los conocimientos adquiridos son fundamentales en materias tales como plantas de producción de potencia, automoción, calor y frío, ingeniería medioambiental, fuentes alternativas de energía, etc.
+
+La asignatura comprende 150 horas de trabajo personal del alumno, de las cuales aproximadamente un 40% se corresponden con sesiones presenciales (clases expositivas, prácticas, seminarios, uso del Campus Virtual y sesiones de evaluación) y un 60% con trabajo no presencial (uso del Campus Virtual y trabajo personal).
+
+Los contenidos de la asignatura se estructuran en dos bloques:
+
+**Bloque I:** **Termodinámica aplicada**
+
+Aplicación de los principios de la termodinámica a máquinas y motores térmicos.
+
+Ciclos de vapor. Ciclos de gas. Ciclos combinados. Ciclos frigoríficos.
+
+**Bloque II: Conceptos básicos de transmisión de calor**
+
+Análisis de la conducción en régimen permanente y régimen variable. Convección. Radiación.
+
+Mecanismos combinados de transmisión de calor.
+
+## Requisitos
+
+Para cursar esta asignatura es muy recomendable que el alumno haya superado la asignatura Mecánica y Termodinámica, y tenga asimilados los conocimientos básicos de Cálculo, Algebra Lineal y Métodos Matemáticos que se imparten en primer curso.
+
+En particular, deberá dominar los conceptos de termometría y calorimetría, así como la aplicación del primer y segundo principio a sistemas cerrados y ciclos termodinámicos simples.
+
+## Competencias y resultados del aprendizaje
+
+Con esta asignatura se pretende que los estudiantes adquieran las siguientes **competencias generales:**
+
+- Conocimiento en materias básicas y tecnológicas, que les capacite para el aprendizaje de nuevos métodos y teorías, y les dote de versatilidad para adaptarse a nuevas situaciones (CG3)
+- Capacidad de resolver problemas con iniciativa, toma de decisiones, creatividad y razonamiento crítico (CG4)
+- Capacidad de comunicar y transmitir conocimientos, habilidades y destrezas en el campo de la Ingeniería Mecánica, tanto en forma oral como escrita, y a todo tipo de públicos (CG5)
+- Conocimientos para la realización de mediciones, cálculos, valoraciones, tasaciones, peritaciones, estudios, informes, planes de labores y otros trabajos análogos (CG6)
+- Capacidad de analizar y valorar el impacto social y medioambiental de las soluciones técnicas (CG8)
+- Capacidad para la prevención de riesgos laborales y protección de la salud y la seguridad de los trabajadores y usuarios (CG13)
+- Honradez, responsabilidad, compromiso ético y espíritu solidario (CG14)
+- Capacidad de trabajar en equipo (CG15)
+
+Como **competencia específica** de esta asignatura se adquirirán conocimientos de *termodinámica aplicada y transmisión de calor: Principios básicos y su aplicación a la resolución de problemas de ingeniería* (CC1)
+
+Los **resultados de aprendizaje** que se obtendrán con esta asignatura son:
+
+- Relacionar el ámbito de estudio de la Termodinámica y la Transferencia de Calor y conocer las aplicaciones más importantes de ambas disciplinas en el campo de la Ingeniería Térmica (RIT-1)
+- Aplicar balances de masa, energía y entropía a diversos sistemas, entre los que se encuentran los principales equipos presentes en las plantas industriales (motores, turbinas, compresores, calderas, condensadores, etc.) (RIT-2)
+- Conocer los equipos que integran los ciclos de producción de potencia (vapor, gas y combinados) y frigoríficos utilizados comúnmente en la industria y ser capaz de realizar su análisis termodinámico al objeto de valorar su eficiencia energética (RIT-3)
+- Conocer las características principales y las leyes físicas fundamentales en las que se basan los tres mecanismos básicos de transferencia de calor (conducción, convección y radiación) (RIT-4)
+- Expresar matemáticamente las ecuaciones que describen la transferencia de calor en un problema físico a partir de balances fundamentales (masa, cantidad de movimiento y calor) y de las leyes en las que se basan los mecanismos básicos (RIT-5)
+
+## Contenidos
+
+**BLOQUE I. TERMODINÁMICA APLICADA**
+
+**Capítulo 1. Propiedades y Procesos en los Sistemas Termodinámicos**
+
+Lección 1: Conceptos básicos: Unidades de medida. Gases: ideal, real y de Van der Waals. Ecuaciones de estado. La sustancia pura: fases y diagramas. Propiedades de estado: determinación mediante el uso de tablas y/o ecuaciones de estado.
+
+**Capítulo 2. Principios básicos de la Termodinámica**
+
+Lección 2. Primer Principio de la Termodinámica. Criterio de signos. Aplicación a sistemas cerrados y abiertos en régimen permanente.
+
+Lección 3. Segundo Principio de la Termodinámica. Definición entropía y aplicaciones. Generación de entropía. Rendimiento isentrópico de un equipo.
+
+**Capítulo 3. Máquinas Térmicas**
+
+Lección 4. La máquina térmica: tipos y rendimiento. El ciclo de Carnot: rendimiento térmico. Ciclos de máquinas térmicas operando como motores: rendimiento térmico.
+
+Lección 5. Ciclos de potencia de gas: análisis del ciclo Brayton.
+
+Lección 6. Ciclos de potencia de vapor: análisis del ciclo Rankine. Ciclo combinado.
+
+Lección 7. La producción de frío en modo continuo mediante compresión de vapor de un refrigerante: análisis del ciclo Rankine inverso. La bomba de calor y su análisis.
+
+**BLOQUE II. CONCEPTOS BÁSICOS DE TRANSFERENCIA DE CALOR**
+
+**Capítulo 4. Fundamentos de la transferencia de calor**
+
+Lección 8: Conceptos fundamentales, características de los mecanismos básicos de transferencia de calor y leyes básicas.
+
+**Capítulo 5. Conducción**
+
+Lección 9. Geometrías sencillas: pared plana, cilíndrica y esférica. Radio crítico de aislamiento.
+
+Lección 10. Superficies adicionales: concepto, campo de temperaturas, eficiencia y coeficiente de disipación. Transferencia de calor a través de superficies aleteadas.
+
+Lección 11. Transferencia de calor en configuraciones comunes: factor de forma en conducción.
+
+**Capítulo 6. Convección**
+
+Lección 12. Métodos de análisis en convección forzada y natural.
+
+Lección 13. Utilización de correlaciones empíricas en convección forzada y natural.
+
+**Capítulo 7.** **Radiación**
+
+Lección 14. Fundamentos de radiación térmica. Propiedades radiativas. Cuerpo negro y cuerpo gris. Transferencia de calor por radiación entre dos superficies. Mecanismos combinados de transferencia de calor.
+
+## Metodología y plan de trabajo
+
+La metodología docente de la asignatura incluye un trabajo presencial y otro no presencial por parte del alumno.
+
+Las sesiones presenciales se desarrollan en:
+
+1. **Clases expositivas y prácticas de aula**, de 1 hora de duración cada una, en las que se presenta una visión general de los contenidos de cada tema, complementados con la resolución de problemas (28 horas de teoría y 14 horas de prácticas de aula).
+2. **Prácticas de laboratorio y seminarios**, de 2 horas de duración cada una. Cada alumno realizará un total de 7 sesiones de este tipo, formando parte de la evaluación continua. Para la realización de las mismas es imprescindible que cada alumno lleve en papel el guión de la práctica que corresponda y que estará disponible en el Campus Virtual.
+3. **Tutorías grupales**, de 2 horas de duración. Se impartirá una sesión al final del cuatrimestre, que también formará parte de la evaluación continua y se dedicará a la resolución de dudas y/o realización de actividades complementarias relacionadas con los temas tratados durante el curso.
+
+Por otro lado, los estudiantes deben dedicar un cierto número de horas de trabajo no presencial a mejorar su comprensión de los contenidos de cada tema. Este trabajo incluye tanto actividades en el Campus Virtual (lectura de fundamentos teóricos, resolución de cuestionarios, participación en foros de debate, visionado de material adicional, etc.) como actividades de trabajo autónomo.
+
+En las tablas adjuntas se recoge el número estimado de horas que los alumnos deben dedicar al estudio de cada parte de la asignatura, así como los porcentajes de presencialidad y no presencialidad sobre las horas totales. Al finalizar el curso, cada estudiante deberá haber dedicado un total de 150 horas a la preparación de la asignatura.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Lecciones*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios/ Talleres* | *Prácticas de laboratorio /campo /aula de informática/ aula de idiomas* | *Prácticas clínicas hospitalarias* | *Tutorías grupales* | *Prácticas Externas* | *Sesiones de Evaluación* | ***Total*** | *Trabajo en grupo* | *Trabajo autónomo* | **Total** |
+| 1 | **10** | 2 | 1 |  |  |  |  |  | **3** |  | 7 | **7** |
+| 2 | **8** | 2 | 1 |  |  |  |  |  | **3** |  | 5 | **5** |
+| 3 | **8** | 1 |  | 2 |  |  |  |  | **3** |  | 5 | **5** |
+| 4 | **9** | 2 | 1 |  |  |  |  |  | **3** |  | 6 | **6** |
+| 5 | **13** | 2 | 1 | 2 |  |  |  |  | **5** |  | 8 | **8** |
+| 6 | **14** | 2 | 2 | 2 |  |  |  |  | **6** |  | 8 | **8** |
+| 7 | **11** | 3 | 1 | 1 |  |  |  |  | **5** |  | 6 | **6** |
+| 1-7 | **1** |  |  |  |  | 1 |  |  | **1** |  |  |  |
+| 8 | **9** | 2 |  | 1 |  |  |  |  | **3** |  | 6 | **6** |
+| 9 | **12** | 2 | 2 | 2 |  |  |  |  | **6** |  | 6 | **6** |
+| 10 | **11** | 2 | 1 | 2 |  |  |  |  | **5** |  | 6 | **6** |
+| 11 | **9** | 2 | 1 |  |  |  |  |  | **3** |  | 6 | **6** |
+| 12 | **8** | 2 |  |  |  |  |  |  | **2** |  | 6 | **6** |
+| 13 | **13** | 2 | 2 | 2 |  |  |  |  | **6** |  | 7 | **7** |
+| 14 | **11** | 2 | 1 |  |  |  |  |  | **3** |  | 8 | **8** |
+| 8-14 | **1** |  |  |  |  | 1 |  |  | **1** |  |  |  |
+| 1-14 | **2** |  |  |  |  |  |  | 2 | **2** |  |  |  |
+| **Total** | **150** | **28** | **14** | **14** |  | **2** |  | **2** | **60** |  | **90** | **90** |
+
+| MODALIDADES |  | Horas | % | Horas <br> Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18,66 | 60 |
+|  | Práctica de aula / Seminarios / Talleres | 14 | 9,34 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 14 | 9,34 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales | 2 | 1,33 |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 2 | 1,33 |  |
+| No presencial | Trabajo en grupo |  |  | 90 |
+|  | Trabajo Individual | 90 | 60 |  |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+**1. CONVOCATORIA ORDINARIA**
+
+**1.1. Estudiantes con evaluación continua**
+
+*1.1.1. Elementos evaluables*
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Participación en el aula (**PA**): Durante las clases de teoría y prácticas de aula se evaluará la participación del alumnado. Se calificará con una nota entre 0 y 10.
+- Prácticas de laboratorio (**PL**): Durante las clases de prácticas de laboratorio los estudiantes realizarán un cuestionario evaluable. El conjunto de prácticas de laboratorio se calificará con una nota entre 0 y 10.
+- Tutoría Grupal (**TG**): En las sesiones de tutoría grupal se realizará un cuestionario similar a los resueltos durante las sesiones de prácticas de laboratorio y que abarcará el total de contenidos de la asignatura. Se calificará con una nota entre 0 y 10.
+- Examen escrito (**EX**): El examen escrito constará de preguntas y ejercicios relacionados con los contenidos vistos durante el curso. Se calificará con una nota entre 0 y 10.
+
+*1.1.2. Calificación*
+
+Siempre que la nota en el examen escrito sea igual o superior a 3.5, la nota del curso se calculará con la siguiente fórmula:
+
+NOTA = (0.1 x PA) + (0.1 x PL) + (0.1 x TG) + (0.7 x EX)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+*1.1.3. Consideraciones*
+
+- Para aprobar la asignatura es necesario que la nota del curso sea igual o superior a 5.0.
+- En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+**1.2. Estudiantes con evaluación diferenciada**
+
+*1.2.1. Elementos evaluables*
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen de prácticas (**EP**): Se trata de un cuestionario similar al que realizan los estudiantes en la tutoría grupal. Se calificará con una nota entre 0 y 10. Este examen se realizará el mismo día que el examen escrito. Si el examen escrito es en horario de mañana, el examen de prácticas será en horario de tarde, y viceversa.
+- Examen escrito (**EX**): El examen escrito constará de preguntas y ejercicios relacionados con los contenidos vistos durante el curso. Se calificará con una nota entre 0 y 10.
+
+*1.2.2. Calificación*
+
+Siempre que la nota en el examen escrito sea igual o superior a 3.5, la nota del curso se calculará con la siguiente fórmula:
+
+NOTA = (0.3 x EP) + (0.7 x EX)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+*1.2.3. Consideraciones*
+
+Para aprobar la asignatura es necesario que la nota del curso sea igual o superior a 5.0.
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+**2. CONVOCATORIAS EXTRAORDINARIAS**
+
+**2.1. Estudiantes con evaluación continua**
+
+La convocatoria extraordinaria consta de un único examen escrito (**EX**) en el que se evalúa todo el contenido teórico de la asignatura.
+
+Para aprobar en esta convocatoria, es obligatorio obtener una nota mínima de 3.5 puntos sobre 10 en dicho examen.
+
+Si se ha alcanzado ese mínimo, la nota final de la convocatoria se calcula como:
+
+NOTA = (0.1 x PA) + (0.1 x PL) + (0.1 x TG) + (0.7 x EX)
+
+Las notas de PA, PL y TG son las obtenidas durante la evaluación continua.
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+*Consideraciones*
+
+- Para aprobar la asignatura es necesario que la nota del curso sea igual o superior a 5.0.
+- En el examen escrito (**EX**) de las convocatorias extraordinarias, el estudiante podrá optar a examinarse de una sola de las partes de la asignatura: Bloque I (Termodinámica aplicada) o Bloque II (Conceptos básicos de transferencia de calor). En dicho caso, para la parte no examinada, se computará la nota obtenida en dicho bloque en la última convocatoria del mismo curso académico a la que se haya presentado, siempre que ésta haya sido como mínimo de 3.5 puntos sobre 10 en ese bloque.
+- En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+**2.2. Estudiantes con evaluación diferenciada**
+
+La convocatoria extraordinaria consta de un examen escrito (**EX**) en el que se evalúa todo el contenido teórico de la asignatura y un examen de prácticas (**EP**) que será similar a los cuestionarios realizados durante las sesiones de tutoría grupal.
+
+Siempre que la nota en el examen escrito sea igual o superior a 3.5, la nota del curso se calculará con la siguiente fórmula:
+
+NOTA = (0.3 x EP) + (0.7 x EX)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+*Consideraciones*
+
+- Para aprobar la asignatura es necesario que la nota del curso sea igual o superior a 5.0
+- En el examen escrito (**EX**) de las convocatorias extraordinarias, el estudiante podrá optar a examinarse de una sola de las partes de la asignatura: Bloque I (Termodinámica aplicada) o Bloque II (Conceptos básicos de transferencia de calor). En dicho caso, para la parte no examinada, se computará la nota obtenida en dicho bloque en la última convocatoria del mismo curso académico a la que se haya presentado, siempre que ésta haya sido como mínimo de 3.5 puntos sobre 10 en ese bloque.
+- En las convocatorias extraordinarias, el estudiante con evaluación diferenciada podrá optar a no realizar el examen de prácticas (**EP**), computándose la nota obtenida en dicha prueba en la última convocatoria del mismo curso académico a la que se haya presentado.
+- En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+## Bibliografía
+
+El alumno dispondrá en el Campus Virtual de material docente correspondiente a cada parte del temario y el necesario para la realización de las actividades propuestas. Además, deberá consultar la siguiente bibliografía:
+
+Bibliografía básica:
+
+- **Termodinámica**. Çengel & Boles. Editorial Mc Graw Hill.
+- **Transmisión de Calor. Apuntes**. Prieto M.M., Suárez I. Ediuno
+
+Bibliografía complementaria:
+
+- **Fundamentos de Termodinámica Técnica**. Moran y Shapiro. Vol. I y II. Editorial Reverté, S.A.
+- **Transferencia de Calor y Masa.** Çengel YA. McGraw-Hill. 3ª edición (2007)

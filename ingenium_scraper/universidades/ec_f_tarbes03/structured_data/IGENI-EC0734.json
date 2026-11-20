@@ -1,0 +1,83 @@
+{
+  "course_name_original": "Asservissement continu \", \" méthodes fréquentielles (Classical control \", \" [IGENI-EC0734]",
+  "course_name_en": "Continuous Control - Frequency Methods (Classical Control)",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "model linear and time-invariant systems using differential representation and transfer functions",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "identify parameters of some classical models",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "quickly recognize the responses of some classical systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "analyze the stability and the performances of some classical systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design controllers with PID structures using some usual analytical methods and some usual empirical methods",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modeling and frequency domain responses",
+    "Stability and performances analysis",
+    "PID structured controllers and classical design",
+    "Analytical methods to design controllers",
+    "Tutorial on computer",
+    "Practical labs on benchmarks",
+    "Defense of the practical labs works"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials (TD)",
+    "Practical labs (TP)",
+    "Project work"
+  ],
+  "workload_hours_total": 22.0,
+  "workload_hours_contact": 22.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*TP1) / 2. Each team presents its practical lab work during the last session instead of submitting reports.",
+  "bibliography": [
+    "Automatique : commande des systèmes linéaires, Philippe de Larminat, Hermès, ISBN : 2-86601-515-0, 2eme édition, 1996."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0734",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "519dc64cb52c241c15920cf7bcf0c6e2594308ef1523324463e154d9ff63b705",
+  "extracted_at": "2026-11-18T09:59:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

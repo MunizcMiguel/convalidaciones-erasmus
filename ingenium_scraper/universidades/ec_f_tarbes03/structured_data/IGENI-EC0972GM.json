@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Modélisation numérique non linéaire dynamique",
+  "course_name_en": "Non-linear Dynamic Numerical Modelling",
+  "ects": null,
+  "semester": null,
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "solid mechanics",
+    "basics of the finite element method",
+    "fundamental concepts such as conservation laws (mass, energy, momentum)",
+    "constitutive equations of materials",
+    "principles of variational formulation",
+    "knowledge of simulation software, such as Abaqus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Model and solve non-linear problems using advanced numerical tools, identifying sources of non-linearity (geometric, material and boundary conditions) and developing suitable models for analysing mechanical behaviour under large deformations or extreme conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate notions of incremental methods for solving non-linear problems and explicit and implicit time integration schemes for dealing with quasi-static and dynamic problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Carry out complex numerical analyses corresponding to elasto-plastic behaviour, post-critical buckling of a thin structure or perforation problems, and interpret the results of these simulations to assess structural reliability or optimise a design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop a critical understanding of numerical simulation tools, explaining the inner workings of FEM codes (such as Abaqus), demonstrating an in-depth mastery that goes beyond the basic use of software, enabling them to tackle with confidence industrial or academic problems requiring advanced numerical modelling in solid mechanics.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the non-linear finite element method",
+    "Origins, evolution and future trends of the finite element method.",
+    "Sources of non-linearity: geometric, material, boundary conditions.",
+    "Mathematical conventions and tensors in mechanics.",
+    "Numerical methods for non-linear problems",
+    "Incremental-iterative methods (Newton-Raphson).",
+    "Time integration: implicit and explicit schemes",
+    "Constitutive models in non-linear FEM",
+    "Constitutive laws in mechanics.",
+    "J2 plasticity for large deformations.",
+    "Elasto-viscoplastic models and radial return algorithms.",
+    "Numerical implementation for large deformations",
+    "Gauss integration techniques.",
+    "Hourglass modes and reduced integration.",
+    "Material properties, boundary conditions, mesh convergence",
+    "Material non-linearity and plasticity",
+    "Buckling and post-buckling analysis",
+    "High speed impact"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Supervised practical work",
+    "Scientific articles",
+    "Detailed bibliography"
+  ],
+  "workload_hours_total": 48.0,
+  "workload_hours_contact": 24.0,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "TP1",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1.2*DS1 + 0.8*TP1)/2. The weighting implies DS1 is 60% and TP1 is 40% of the final grade.",
+  "bibliography": [
+    "Belytschko, T., Liu, W. K., Moran, B., and Elkhodary, K. I. (2014). Nonlinear finite elements for continua and structures. Wiley, Chichester, West Sussex, United Kingdon",
+    "Bonet, J., Gil, A. J., and Wood, R. D. (2016). Nonlinear Solid Mechanics for Finite Element Analysis: Statics. Cambridge University Press",
+    "Dunne, F. and Petrinic, N. (2005). Introduction to computational plasticity. Oxford University Press, Oxford ; New York.",
+    "Holzapfel, G. A. (2010). Nonlinear solid mechanics: a continuum approach for engineering. Wiley, Chichester Weinheim",
+    "Simo, J. C. and Hughes, T. J. R. (1998). Computational inelasticity. Number v. 7 in Interdisciplinary applied mathematics. Springer, New York",
+    "Zienkiewicz, O. C., Taylor, R. L., and Fox, D. D. (2014). The finite element method for solid and structural mechanics. Elsevier/Butterworth-Heinemann, Amsterdam Boston"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0972GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "16a22dfa181fe252feebbbe365b88274dd84c5236101b4bf83d639abb134a292",
+  "extracted_at": "2026-11-18T10:00:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

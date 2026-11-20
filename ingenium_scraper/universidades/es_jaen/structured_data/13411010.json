@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Matemáticas II",
+  "course_name_en": "Mathematics II",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "A basic level in mathematics, including manipulation of algebraic expressions and elementary functions, solving equations, inequalities, and systems of equations, polynomial factorization, matrix operations, basic notions of linear algebra (subspaces, generators, dimension), calculus with single-variable functions (domain, limits, sign, asymptotes), calculation of derivatives, and elementary integral calculus (immediate, by parts, change of variables). These contents are covered in the prior course Mathematics I."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students must have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "134ACBB1"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to differential equations",
+    "First-order differential equations",
+    "Higher-order linear differential equations with constant coefficients",
+    "Introduction to the Laplace Transform",
+    "Systems of linear differential equations with constant coefficients",
+    "Introduction to Numerical Calculus",
+    "Resolution of non-linear equations",
+    "Interpolation and approximation of functions",
+    "Numerical differentiation and integration",
+    "Numerical resolution of initial value problems",
+    "Practical 1. Resolution of non-linear equations",
+    "Practical 2. Interpolation and approximation of functions",
+    "Practical 3. Numerical differentiation and Integration",
+    "Practical 4. Numerical resolution of initial value problems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Presentation of theory and general examples",
+    "Introductory activities",
+    "Computer labs",
+    "Exercise resolution",
+    "Practical activities",
+    "Lectures in large group",
+    "Small group classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam of the differential equations block",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Tests on Numerical Calculus content during class time using Mathematica",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Completion of problems throughout the semester on Numerical Calculus content",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Submission of correctly completed practical scripts (within the Numerical Calculus block)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "To pass the course, students must pass both the differential equations block and the numerical methods block separately. For the Numerical Methods block (40% of the final grade), 75% attendance is required and a minimum of 30% must be obtained on the class tests; otherwise, this 40% must be fully retaken. For the Differential Equations block (60% of the final grade), at least one equation on the exam must be solved correctly; otherwise, this 60% must be fully retaken. Scores obtained from assignments, activities, and tests are carried over across all official calls of the academic year.",
+  "bibliography": [
+    "Cárdenas Morales, Daniel, coaut - (2014) - Análisis numérico : primeros pasos : texto adaptado al EEES - Reverté",
+    "Nagle, R. Kent - (2005) - Ecuaciones diferenciales y problemas con valores en la frontera - Pearson Educación",
+    "Quesada Teruel, José María. - (2001) - Problemas resueltos de matemáticas II. Ecuaciones diferenciales - Jabalcuz",
+    "Chapra, Steven C. - (1999) - Métodos numéricos para ingenieros - McGraw-Hill",
+    "Burden, Richard L. - (2017) - Análisis númerico - Cengage Learning",
+    "Quesada Teruel, José María - (2010) - Matemáticas II para ingeniería técnica industrial - Joxman",
+    "Ramírez González, Victoriano, coaut. - (1996) - Matemáticas con Mathematica - Proyecto Sur",
+    "Gómez Moreno, Samuel. - (2007) - E.D.O. de primer orden con Mathematica: caracterizaciones y algoritmos de resolución - Universidad",
+    "Zill, Dennis G. - (1997) - Ecuaciones diferenciales con aplicaciones de modelado - International Thomson"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13411010",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13411010/es/2026-27-13411010_es.html",
+  "source_language": "es",
+  "source_sha256": "db0748616a56ea0911a24cdeff3d770d4946ca0a7626aeba3a7a5c8e3d951725",
+  "extracted_at": "2026-11-13T21:38:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

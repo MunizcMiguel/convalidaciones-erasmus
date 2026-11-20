@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Computational Logic",
+  "course_name_en": "Computational Logic",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Fundamentals of Mathematics and Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the importance of logic for intelligent problem-solving.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Logic is ubiquitous in understanding all aspects of daily experiences and interpersonal communication. A deepened understanding of these connections enables students to present comprehensible and logical arguments.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Artificial Intelligence programming systems use various types of logic with different expressive power. Students can create computer programs with logic suitable for solving specific application problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Logic connects fundamental theoretical concepts of epistemology with a ubiquitous use in human communication. Students deepen their abilities to deal with theoretical concepts and connect them with practical tasks.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to formal logic",
+    "Introduction to the family of logic languages",
+    "Important basic building blocks and concepts of logic",
+    "Names",
+    "Atomic statements",
+    "Predicates",
+    "Functions",
+    "Proofs",
+    "Propositional logic",
+    "Predicate logic",
+    "Formal proofs",
+    "Set theory",
+    "Classical semantics for PL-1",
+    "Herbrand semantics and minimal models",
+    "Stable models",
+    "Natural deduction",
+    "Type theory and program correctness",
+    "Lambda calculus and functional programming",
+    "Curry-Howard Isomorphism: propositions as types, proofs as programs",
+    "Programming in the language of logic",
+    "Prolog",
+    "Answer Set Programming (ASP)",
+    "What is ASP",
+    "Rules, their syntax in the language of ASP and their correspondence in logic",
+    "Basic building blocks of programs: constants, variables, operators, literals, predicates, functional terms",
+    "The Clingo system for processing ASP programs",
+    "Concepts for compact representation of ASP programs: intervals and pooling",
+    "Arithmetic and its use in ASP programs",
+    "Definitions",
+    "Choice Rules",
+    "Global and local variables",
+    "Constraints for eliminating false results",
+    "Anonymous variables",
+    "Exercises based on logic puzzles, classical Operations Research (OR) tasks and games (Sudoku)",
+    "Typical approaches to creating ASP programs",
+    "Programming patterns",
+    "Aggregates in ASP: counting elements of a set, summation, maximum and minimum",
+    "Optimization",
+    "Application example: timetable planning"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction",
+    "Practical exercises",
+    "Programming of application examples"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination is a 90-minute written exam.",
+  "bibliography": [
+    "Barwise, J und Etchemendy, J: Sprache, Beweis und Logik, 2 Bände, Mentis Verlag, 2005 und 2009",
+    "Lifschitz, V.: Answer Set Programming, Springer Verlage 2019",
+    "Gebser, M., Kaminski, R., Kaufmann, B., Schaub, T.: Answer Set Solving in Practice, Morgan & Claypool Publishers, 2013",
+    "Answer Set Programming, AI Magazine, Speical Issue, Volume 37, Number 3, 2016",
+    "Schaub, T., Woltran, S. (Hrsg): Special Issue on Anwser Set Programming, Künstliche Intelligenz, Band 32, Heft 2-3, Springer Verlag, 2018"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-11",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "7172913c01fb0b889463e07e5c1c079313e4370c4f11b43759a8105a5bcbf08f",
+  "extracted_at": "2026-11-20T09:21:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

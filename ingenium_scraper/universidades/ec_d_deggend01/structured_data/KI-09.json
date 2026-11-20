@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Al Gorithmen Und Datens Trukturen",
+  "course_name_en": "Algorithms and Data Structures",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Contents of the first semester, especially Programming 1",
+    "Mathematics fundamentals"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the concepts of the most common algorithms and data structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have the ability to create high-quality programs using algorithms and data structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can implement their own algorithms and data structures and defend them against competing approaches.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "As part of the course, programming exercises take place. Students are therefore also able to understand, criticize, and complement algorithms and data structures of other students.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Algorithm definition, classification of algorithms",
+    "Graphs: Graph definitions, applications in computer science, Shortest Path, Lowest Cost, A*",
+    "Complexity analysis: Time complexity, O-, Omega-, and Theta-calculus, Space complexity",
+    "Lists: Arrays, dynamic arrays/lists, amortization, basic operations, stacks, queues, linked lists",
+    "Recursion: Search, Divide and Conquer, recurrence relations, backtracking, dynamic programming",
+    "Sorting: Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quicksort, lower bounds",
+    "Trees: Binary trees, traversing, advanced types of trees, decision trees",
+    "Maps and Hash Tables: Key-value stores, hashing, collision resolution",
+    "Selected algorithms: Fast matrix multiplication, String matching, Prime numbers",
+    "Quantum computing: Qubits, quantum gates, quantum computers, quantum algorithms"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion of scientific articles and current news",
+    "Exercises, including computer exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module examination has a duration of 90 minutes. The weighting of the grade is 5/210.",
+  "bibliography": [
+    "M. Goodrich et al., \"Data Structures and Algorithms in Python\", John Wiley & Sons, 2013.",
+    "R. Sedgewick, \"Algorithms\", Addison Wesley, fourth edition, 2011.",
+    "M. Sipser, \"Introduction to the Theory of Computation\", Cengage Learning, third edition, 2012."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-09",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "e219ec8c70a75770fae104dd812b4bfa92daca0457cbe58863554e3dd71a1f9a",
+  "extracted_at": "2026-11-20T09:21:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

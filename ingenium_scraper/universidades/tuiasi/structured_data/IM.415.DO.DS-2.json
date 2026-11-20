@@ -1,0 +1,189 @@
+{
+  "course_name_original": "Controlul activ al sistemelor mecanice",
+  "course_name_en": "Active control of mechanical systems",
+  "ects": 5.0,
+  "semester": "8",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Theoretical Mechanics",
+    "Mechanisms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explain the fundamental principles of active control applied to mechanical systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe common types of dynamic models (mass-spring-damper, LTI models, common nonlinear models) and their role in control design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain active stabilization and vibration control methods, such as feedback, feedforward, robust or adaptive control.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the hardware and software structure of a system with integrated actuation and sensors.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain modern frequency-time analysis techniques used in evaluating the performance of controlled systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Model mechanical systems in state-space and use numerical tools (e.g., Matlab/Simulink) for dynamic response analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design PID, LQR, H-infinity, or adaptive controllers for simple and medium mechanical systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret frequency diagrams, stability criteria, and performance indices of controlled systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement active control schemes using sensors and actuators in simulated models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Validate control performance through simulations, experiments, and data analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply ethical principles and rigor in measurement, modeling, and experimental testing operations.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Work effectively in multidisciplinary teams, participating in solving control and optimization problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Demonstrate autonomy in using simulation software tools and in documenting modern control techniques.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop technical arguments for control solutions and critically analyze obtained results.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory notions in active control of mechanical systems",
+    "Introduction to active vs. passive control",
+    "Industrial examples",
+    "Basic dynamic models and fundamental concepts",
+    "Modeling mechanical systems in state-space",
+    "Differential equations and MAS models",
+    "Matrix representations",
+    "Stability of linear systems",
+    "Frequency analysis of mechanical systems",
+    "Transfer function",
+    "Bode, Nyquist, stability and robustness",
+    "Sensitivity and performance",
+    "Classic control applied to mechanical systems",
+    "PID controllers and advanced variants",
+    "Tuning and optimization methods",
+    "Feedforward control",
+    "Modern control: LQR, observers, state-space",
+    "Optimal theory",
+    "State observers",
+    "Applications in complex mechanical systems",
+    "Robust control and adaptive control",
+    "H-infinity principles",
+    "Adaptivity and uncertainty compensation",
+    "Applicability in nonlinear mechanical systems",
+    "Case studies and industrial applications",
+    "Vibration control",
+    "Stabilization of flexible structures",
+    "Intelligent mechanical systems",
+    "Laboratory 1: Modeling a simple mechanical system and parameter identification",
+    "Obtaining MAS models and verifying dynamic behavior",
+    "Laboratory 2: Time and frequency analysis of a controllable system",
+    "Step response, Bode, stability",
+    "Laboratory 3: Design and simulation of a PID controller",
+    "Manual, automatic tuning, performance comparisons",
+    "Laboratory 4: State-space control implementation",
+    "LQR, observers, simulations in Matlab/Simulink",
+    "Laboratory 5: Robust control applied to a mechanical system",
+    "Introduction to H-infinity and robustness analysis",
+    "Laboratory 6: Adaptive control and online identification",
+    "Systems with varying parameters, adaptive algorithms",
+    "Laboratory 7: Integration of active control in a mechatronic system",
+    "Interfacing with sensors and actuators, performance evaluation"
+  ],
+  "teaching_methods": [
+    "Interactive lectures introducing fundamental principles of active control",
+    "Visual support and numerical demonstrations",
+    "Theoretical exposition combined with discussions and applied examples",
+    "Problem-solving",
+    "Model analysis",
+    "Numerical simulations",
+    "Result interpretation",
+    "Guided exercises using digital simulation tools",
+    "Laboratory experiments and practical modeling"
+  ],
+  "workload_hours_total": 135.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Formative evaluation test (checks during semester S7)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Summative evaluation test (final check)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Completion of laboratory worksheets",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory evaluation test (laboratory colloquium)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final evaluation result for a discipline is determined by considering the scores and weights allocated to each activity within the discipline. Integer grades from 1 to 10 will be awarded, with a grade of 5 certifying the acquisition of the minimum learning outcomes for a discipline and the granting of corresponding study credits. A minimum score of 5 is required for both the 'Examen/Verificare' component and the 'Laborator' component, each contributing 50% to the final grade.",
+  "bibliography": [
+    "Åström, K. J. & Murray, R. M. (2010). Feedback systems: An introduction for scientists and engineers. Princeton University Press.",
+    "Dorf, R. C., & Bishop, R. H. (2020). Modern control systems (14th ed.). Pearson.",
+    "Isermann, R. (2021). Mechatronic systems: Fundamentals and applications. Springer.",
+    "Khalil, H. K. (2002). Nonlinear systems (3rd ed.). Prentice Hall.",
+    "Kuo, B. C. & Golnaraghi, F. (2017). Automatic control systems (10th ed.). Wiley.",
+    "Nise, N. S. (2020). Control systems engineering (8th ed.). Wiley.",
+    "Ogata, K. (2010). Modern control engineering (5th ed.). Prentice Hall.",
+    "Pota, H. R. (2024). Systems and control for mechanical engineers. Springer.",
+    "Preumont, A. (2018). Vibration control of active structures (4th ed.). Springer.",
+    "Slotine, J.-J. E., & Li, W. (1991). Applied nonlinear control. Prentice Hall."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "IM.415.DO.DS-2",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an4_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "f476acad6349240a143af2b03e0e4f986cfb12afe9de5562834546a0e898756e",
+  "extracted_at": "2026-11-13T01:06:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

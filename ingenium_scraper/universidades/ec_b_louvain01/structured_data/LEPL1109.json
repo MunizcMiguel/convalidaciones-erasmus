@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Statistics and data sciences",
+  "course_name_en": "Statistics and data sciences",
+  "ects": 5.0,
+  "semester": "Q1",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "LEPL1108",
+    "LBIR1212"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "explore datasets of small and big sizes with few or many dimensions;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "infer features of a population from a sample using techniques of inference, estimation, confidence intervals and statistical tests;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to connect the deductive approach from the probability theory to the statistical inductive approach, and to identify the probabilistic models used in statistical inference;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to translate the textual formulation of a problem of statistical inference into an accurate, statistical and mathematical formalism, while recognizing the adequate models and corresponding estimation methods;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to solve an applied problem by following a logical approach based on a correct use of models and statistical inference;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to use techniques of Monte-Carlo simulations, K-fold cross validation and bootstrapping in order to estimate models and validate results;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to analyse multivariate data with fundamental methods of linear regressions, of principal component analysis and of classification/clustering;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to use statistical tools to validate the conclusions from a model e.g. like the linear regression;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "to make the link between the mathematical objectives of a method of data mining and its practical purposes.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Exploratory analysis and sampling",
+    "Introduction to multivariate data analysis",
+    "Parametric estimate (methods of moments and log-likelihood maximization) and properties of estimators (bias, variance, mean-squared error).",
+    "Statistical inference (confidence intervals and significance tests): comparison of means of two or several normal populations, proportions, variance testing.",
+    "Linear regression, including the analysis of coefficients and significance tests.",
+    "Panorama of learning techniques, supervised and unsupervised learning methods",
+    "Links between objectives of data analysis methods and their mathematical representation.",
+    "Regression and classification methods (such as linear models and least square, k-nearest neighbors, logistic regression)",
+    "Training, test error and generalization error, the Bias-Variance tradeoff, and elements of statistical decision theory",
+    "Resampling techniques for model selection/evaluation (e.g., validation set, K-fold cross validation)",
+    "Unsupervised learning: reduction of dimension (principal component analysis) and methods of clustering (K-means)."
+  ],
+  "teaching_methods": [
+    "lectures",
+    "practical sessions (classical and numerical)",
+    "hackathons with small Python projects"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Hackathons",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Individual written exam (theory and exercises, multiple choice and open questions)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "The final mark is composed of 14 points from an individual written exam and 6 points from hackathons, totaling 20 points. The mark obtained for the hackathons is acquired for all sessions of the academic year. The teachers reserve the right to question students orally on both the exam and the hackathons. Failure to comply with methodological guidelines for hackathons, especially regarding online resources or collaboration, will result in an overall mark of 0 for the off-session assessment.",
+  "bibliography": [],
+  "isced_f_code": "0542",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Université catholique de Louvain (UCLouvain)",
+  "institution_slug": "ec_b_louvain01",
+  "degree": "Bachelor in Engineering (Bachelier en sciences de l'ingénieur, orientation ingénieur civil) - FSA1BA",
+  "course_code": "LEPL1109",
+  "academic_year": "2025-26",
+  "source_url": "https://uclouvain.be/en-cours-2025-lepl1109",
+  "source_language": "en",
+  "source_sha256": "ac8e5bb0984a1e10b3373862495ce271c39cb8bd9241a7679f103af61af9d254",
+  "extracted_at": "2026-11-20T09:16:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

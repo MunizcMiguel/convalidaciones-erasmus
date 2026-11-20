@@ -1,0 +1,182 @@
+{
+  "course_name_original": "COMPLEMENTI DI SISTEMI OPERATIVI Canale unico",
+  "course_name_en": "COMPLEMENTS OF OPERATING SYSTEMS Single channel",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of basic algorithms and data structures - lists/trees/associative maps",
+    "Knowledge of C language and CPU",
+    "Knowledge of the machine model (Von Neumann) and rudiments of assembly",
+    "Familiarity with the Linux operating system and its tools"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the structure of an operating system, and frame the historical perspective that led to current choices. The course alternates practice and theory. Each concept presented in class is supported by a 'practical' lesson that typically consists of developing one or more programs. The practical sessions involve intervals between problem presentation and solution presentation, during which students are invited to propose their own.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Structure of an operating system and mechanisms for managing its functionalities. Learn the functioning of basic mechanisms that implement critical operating system functionalities (context switch, system calls, memory management, file systems).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Experience the functioning of these mechanisms by developing them in 'sandboxed' environments and on bare-metal systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn basic concepts for interacting with the kernel of an operating system when opening devices (cameras, serials, joysticks).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Deepen aspects of low-level programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design bare metal applications that incorporate operating system functionalities. Be able to interact with an operating system at a low level. Be able to understand and configure various aspects of such a system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Characterization of the performance of various subsystems. Experience, through the proposed and developed programs, concrete effects that implementative and design choices have on the performance of these subsystems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The course includes numerous exercises to be carried out preferably in groups and shared on network version management platforms (git). The experience of interaction through these platforms aims to prepare future engineers for the use of tools and the understanding of communicative dynamics typical in a development team. In addition, the course includes, as an integral part of the exam, the presentation of a project consisting of the design and development of a program and the writing of its related documentation.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Presentation of an 'in-depth' vision of a computer system. Emphasis on 'open-box' observation, in which students are invited to think about how the tools they use work, rather than just using them.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "knowledge of the role of the operating system in modern computing systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "knowledge of the algorithms and data structures underlying the operating system kernel (with practical references). These include: context switch, memory allocation, virtual memory management (MMU management), knowledge of CPU and disk scheduling algorithms and systems, characterization of operating system subsystem performance.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The ultimate goal is to provide the student with the tools to understand what happens at the hardware level whenever high-level operations are requested from the machine.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Operating Systems",
+    "History",
+    "Services",
+    "Functionalities",
+    "Complements of C programming for Operating Systems",
+    "Implementation of OOP concepts",
+    "Polymorphic data structures",
+    "Memory allocators",
+    "Hardware architectures",
+    "CPU/memory/data and address bus",
+    "Example of bare metal programming on microcontroller",
+    "Interrupts",
+    "Motivations",
+    "Development of interrupt handler on microcontroller",
+    "Stack and context switch",
+    "Motivations",
+    "Context switch on microcontroller",
+    "Context switch in user space",
+    "Processes and Kernel Structures",
+    "Motivations",
+    "Dual mode, system call mechanism",
+    "Implementation of spawn, exec, wait",
+    "Creation of a preemptive scheduler in user space",
+    "Threads",
+    "Motivations",
+    "Concepts in pthread",
+    "Scheduling of threads",
+    "CPU Scheduling",
+    "Motivations",
+    "Metrics",
+    "FIFO, SJF, SRJF, Round Robin, Round Robin with Priority",
+    "Controlling the scheduler in PTHREAD",
+    "IPC",
+    "Motivations",
+    "Mutex",
+    "Semaphores",
+    "Queues",
+    "Shared memory",
+    "Memory",
+    "Motivations",
+    "Memory projection",
+    "Metrics",
+    "Segmentation",
+    "Paging",
+    "Address translation",
+    "Virtual Memory",
+    "Motivations",
+    "Metrics",
+    "Performance analysis",
+    "Page replacement algorithms",
+    "Copy on write",
+    "File System",
+    "Motivations",
+    "File system interface",
+    "Access control",
+    "File operations",
+    "File System Implementation",
+    "Motivations",
+    "Virtual file system",
+    "Examples: FAT, Inodes",
+    "SCAN (in i/o scheduling)",
+    "mmap types",
+    "brk in memory management"
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Streaming lectures",
+    "Practical lessons with programming development",
+    "Group exercises",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project presentation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test AND a project presentation. The written test involves 8 exercises to be completed in approximately one and a half hours. The project consists of creating a program agreed upon with the lecturer and must be done in C/C++. Group work is allowed for the project, and individual contributions will be tracked using versioning systems.",
+  "bibliography": [
+    "All material is available on the course website: https://sites.google.com/diag.uniroma1.it/sistemi-operativi-2023-24",
+    "Video lessons are available on the 2021/22 academic year website: https://sites.google.com/diag.uniroma1.it/sistemi-operativi-2020-21",
+    "Slides and example programs. TO BE EXECUTED ON YOUR OWN COMPUTER, provided on the lecturer's website via git repository.",
+    "Examples of past exams on the course webpage",
+    "Operating System Concepts, Ninth Edition, Avi Silberschatz, Peter Baer Galvin, Greg Gagne"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "10606850",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e3be2337-c826-4055-903f-7f6c3a072764/3/2/d7aad93c-97c0-47b6-936e-aadbf10f89e0/819c2bb7-d76e-4203-95b6-c2a4d35e8f9c",
+  "source_language": "it",
+  "source_sha256": "2fb89f6da3879cedf0f4f860a6e02606a616490e44fc4a0d14bcf424239fd299",
+  "extracted_at": "2026-11-20T09:24:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

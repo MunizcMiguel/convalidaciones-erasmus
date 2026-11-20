@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Softwaretechnik",
+  "course_name_en": "Software Engineering",
+  "ects": 14.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Successful completion of modules to be completed in the 1st and 2nd semesters according to the study plan.",
+    "Programming",
+    "Modelling",
+    "Basics of computer architecture",
+    "Fundamentals of programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should be able to develop a software solution step by step for a given problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students should be able to use a model-based approach, using different UML diagram types for the individual development steps.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To check the quality of the developed software solution, students should be able to use model-based testing techniques.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They understand the relationships and transitions between different development phases of a process model.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They master various UML diagram languages for modeling different aspects of a software solution and can evaluate the quality of intermediate results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They also have a basic understanding of techniques for developing and specializing modeling languages for specific situations and domains.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "By applying what they have learned to the continuous example of the internship task, students understand the importance of the different phases of software development and are able to apply them continuously to a concrete software system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can identify tasks in system software, name, classify, and distinguish different approaches to problem solving, evaluate their advantages and disadvantages, and select a suitable solution for a problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to specifically apply these methods in their own applications (e.g., semaphores for coordinating concurrent activities).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can construct new solutions (e.g., scheduling strategy) and systematically analyze their performance using suitable (mathematical or computer science) tools, evaluate their suitability, and contrast them with alternatives.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Process models (classical, agile)",
+    "UML (Unified Modelling Language): Class diagrams, Use-Case diagrams, Activity diagrams, Sequence diagrams, State diagrams",
+    "Model-based approach model",
+    "Continuous software development method from requirements specification via modeling to implementation and software testing",
+    "Model-based testing",
+    "Domain-specific languages (metamodeling, UML profiles, SysML, BPMN)",
+    "Process model, process change",
+    "Scheduling",
+    "Connection with basic aspects of the computer architecture (e.g. interrupt)",
+    "Process coordination (e.g. semaphores)",
+    "Resource management (e.g. deadlocks, banker algorithm)",
+    "Memory management (virtual memory, paging, . . . )",
+    "Interprocess communication, client/server",
+    "Basics computer networks, Internet",
+    "System-oriented programming (e.g. socket interface, thread libraries)",
+    "Technical implementation of object-oriented concepts and UML specifications (especially class diagrams) in executable software applications",
+    "Connection between design and implementation of software applications",
+    "Transferring known programming concepts (Python) to other programming languages and new application areas",
+    "Thread programming: Use of existing libraries; realization of a user-level thread library",
+    "Socket programming: Implementation of simple socket communication; especially performance evaluation of different variants",
+    "Implementation of scheduling algorithms",
+    "Automation through shell scripts"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Practical work",
+    "Small group tutorials",
+    "Team programming tasks"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 180.0,
+  "assessment_methods": [
+    {
+      "method": "Module sub-examination a)",
+      "weight_percentage": 35.71
+    },
+    {
+      "method": "Module sub-examination b)",
+      "weight_percentage": 64.29
+    }
+  ],
+  "assessment_rules": "The allocation of credit points takes place if the module sub-examinations have been passed. Students should explain fundamental methods of software engineering and assess the benefits and problems of using software products in technology and business.",
+  "bibliography": [
+    "Stallings, Betriebssysteme",
+    "Lecture slides",
+    "Blackboard notes",
+    "Exercise sheets",
+    "Task descriptions",
+    "man pages"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universitaet Paderborn",
+  "institution_slug": "ec_d_paderbo01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "M.079.05103",
+  "academic_year": "2025-26 (Modulhandbuch SoSe 2026)",
+  "source_url": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Modulhandbuecher/Modulhandbuecher_SoSe_26/Alte_POen/Ba_MB_SS26.pdf",
+  "source_language": "de",
+  "source_sha256": "314bedfea89bef6eee193401293615803809353cae36446aab6afdb6beb56e3a",
+  "extracted_at": "2026-11-18T09:50:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

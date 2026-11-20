@@ -1,0 +1,131 @@
+{
+  "course_name_original": "Métodos estadísticos de la ingeniería",
+  "course_name_en": "Statistical Methods for Engineering",
+  "ects": 6.0,
+  "semester": "1Q",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Applies correctly the mathematical principles that may arise in engineering, linear algebra, geometry, differential geometry, differential and integral calculus, differential and partial differential equations, numerical methods, numerical algorithms, statistics and optimization.",
+      "type": "knowledge",
+      "code": "A1.1"
+    },
+    {
+      "text": "Knows the techniques of experimental design and multivariate analysis.",
+      "type": "knowledge",
+      "code": "A1.2"
+    },
+    {
+      "text": "Acquires the ability to use basic mathematical tools in modeling and solving situations related to engineering. The techniques studied are those related to linear algebra and univariate and multivariate analysis. Knows the statistically correct mechanisms for efficient data analysis: interpretation and decision-making on the values of physical or chemical parameters. Knows the most frequent optimization methods and how to use them to solve problems in the field of engineering.",
+      "type": "competence",
+      "code": "A3.1"
+    },
+    {
+      "text": "Develops own strategies to solve problems and find solutions. Is able to integrate paradigms from other disciplines.",
+      "type": "skill",
+      "code": "B4.1"
+    },
+    {
+      "text": "Has an overall vision of the different theories or methodologies of a subject. Makes significant contributions or certain innovations. Transfers learning from classroom cases and exercises to real situations in other areas.",
+      "type": "competence",
+      "code": "B4.4"
+    }
+  ],
+  "syllabus_topics": [
+    "Concept of Statistics. Content of Statistics.",
+    "Concept of population, sample, individual and statistical variable.",
+    "Classification of statistical variables.",
+    "Frequency distribution. Graphical representations.",
+    "Grouping data into intervals.",
+    "Measures of position.",
+    "Measures of dispersion.",
+    "Random experiments. Sample space. Events.",
+    "Concept of probability.",
+    "Concept of random variable.",
+    "Discrete random variables: probability function and distribution function.",
+    "Continuous random variables: density function and distribution function.",
+    "Expected value.",
+    "Variance.",
+    "Discrete distributions: Bernoulli, binomial, Poisson, uniform.",
+    "Continuous distributions: uniform, exponential.",
+    "Normal distribution.",
+    "Distributions derived from the normal: chi-squared, Student's t, Snedecor's F.",
+    "Convergence to the normal law: central limit theorem.",
+    "Notions of sample and sampling.",
+    "Concept of statistic and parameter.",
+    "Point estimation and interval estimation.",
+    "Nocion of confidence interval. Confidence coefficient.",
+    "Determination of confidence intervals.",
+    "Statistical hypotheses. Types of hypotheses.",
+    "Concept of critical region and acceptance region.",
+    "Types of errors. Significance level.",
+    "Application of hypothesis tests to different parameters and conditions.",
+    "Generalities on analysis of variance.",
+    "One-factor ANOVA design.",
+    "Comparison of variances: Levene's test.",
+    "Two-factor ANOVA design without interaction. Randomized blocks.",
+    "Two-factor ANOVA design with interaction.",
+    "Test of independence.",
+    "Goodness-of-fit tests to a distribution.",
+    "Relationship between variables.",
+    "Simple sample regression model.",
+    "Simple linear regression: estimation of the regression line.",
+    "Simple linear regression: goodness-of-fit measures.",
+    "Simple linear regression: influential points and outliers.",
+    "Simple linear regression: construction of prediction intervals.",
+    "Simple non-linear regression.",
+    "Multiple linear regression.",
+    "Significance tests in multiple linear regression."
+  ],
+  "teaching_methods": [
+    "Introductory activities: Introduction to the subject where the contents to be worked on, the objectives to be evaluated, the methodology to be used, and the evaluation system are discussed.",
+    "Lectures: The professor explains the theoretical contents of each topic.",
+    "ICT practices in computer labs: Autonomous resolution of exercises related to the contents being worked on at each moment.",
+    "Problem/exercise solving in the ordinary classroom: Guided resolution of exercises related to the contents being worked on at each moment.",
+    "Personalized attention: Students can receive personalized attention in person or remotely during student office hours, and during practice hours in the classroom."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "ICT practices in computer labs",
+      "weight_percentage": null
+    },
+    {
+      "method": "Problem/exercise solving in the ordinary classroom",
+      "weight_percentage": null
+    },
+    {
+      "method": "Objective tests with short questions (1st part)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Objective tests with short questions (2nd part)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the grade for practices (P) and exercises solved in theory class (T) are considered if they are higher than the average grade of the two partial exams (E). The continuous assessment grade is calculated as 0.80 * E + 0.15 * max{E, P} + 0.05 * max{E, T}. For the second attempt, there will be a final exam (F) on the entire subject. The grades for practices (P) and exercises (T) are retained and considered if they are higher than the final exam grade. The second attempt grade is calculated as 0.80 * F + 0.15 * max{F, P} + 0.05 * max{F, T}.",
+  "bibliography": [
+    "Mateo, J.M., Estadística pràctica pas a pas, , URV"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224008",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224008&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "99f425b4dac44a31a9adf2529f01e58b7908d93d349b8d72a059641134c1ddbe",
+  "extracted_at": "2026-11-13T22:47:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

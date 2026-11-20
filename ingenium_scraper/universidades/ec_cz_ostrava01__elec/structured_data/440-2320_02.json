@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Fundamentals of the Security in Communications",
+  "course_name_en": "Fundamentals of the Security in Communications",
+  "ects": 4.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Course succeeds to compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate will understand security risks and measures in communication technologies and be able to apply basic security countermeasures.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students are able to identify, apply and solve problems in the field of safety in communications and understand the basic cryptographic methods.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to security, network security history, development and modern security trends.",
+    "Monitor, scan and analyze network traffic from a security point of view. Google hacking and traffic scans.",
+    "Key management and distribution, purpose of certificates, digital signature, one-way functions, types of ciphers.",
+    "Family of SSL / TLS security protocols, certificate and key generation tools, certification authority, certificate revocation.",
+    "Secure remote access management, remote access protocols, security mechanisms, secure file transfer.",
+    "Network and transport layer security, virtual private networks.",
+    "Communications security at local, national and international level, personal data protection - GDPR.",
+    "Security of mobile and radio networks, security of the internet concept of things.",
+    "Systems for autonomous monitoring in computer networks - deployment, rules, options, demilitarized zones, traffic monitoring.",
+    "Firewalls - distribution, functions, examples, configurations, options.",
+    "Systems for Penetration and Power Sieving Testing.",
+    "Multimedia Security - audio, image, IM monitoring, eavesdropping, steganography.",
+    "Honeypots and Honeynets - Description, Features and Usage, Configuration, Deployment Methods.",
+    "Prerequisites and co-requisites for the course content, history in the security in communication.",
+    "Basics applications with the certificates. Security suffixes, certificate containers, digital signature.",
+    "Options and applications for secure connection to remote servers, secure data transfer with SCP, generation of SSH certificates, Putty, Samba protocol.",
+    "Wireless security, traffic simulation, promiscuity mode analysis (Assigment of the essay).",
+    "Presentation of the essays.",
+    "Presentation of semestral projects and credit.",
+    "Scanning and monitoring the security threats, finding potential security vulnerabilities using specific tools.",
+    "Practical work with security libraries, creating a certification authority, generating a signing keys, revoking the certificate, realization of self-sign CA according to assignment.",
+    "Creating a virtual private network and connecting, designing and implementing a simple VPN.",
+    "Implementation of VPN tunnel according to assignment.",
+    "Introduction to intrusion detection and protection systems- installation, configuration, rules setting, logging, realization of IDS / IPS rules according to assignment.",
+    "Firewall Configuration Basics - Basic Rules, Advanced Configuration, Address Translation Options. (Tutorial Project Specification).",
+    "Configure simple firewall and watch-dog agent using rules and detection system."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Experimental work in labs",
+    "Project work",
+    "Teaching by an expert (lecture or tutorial)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Presentation of the essays",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Presentation of semestral projects and credit",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical work with security libraries, creating a certification authority, generating a signing keys, revoking the certificate, realization of self-sign CA according to assignment",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Implementation of VPN tunnel according to assignment",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Introduction to intrusion detection and protection systems- installation, configuration, rules setting, logging, realization of IDS / IPS rules according to assignment",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Configure simple firewall and watch-dog agent using rules and detection system",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "VIEGA, J., MESSIER M., CHANDRA P. - Network Security with OpenSSL, 2002, 978-0596002701.",
+    "COLLIER,M.,ENDLER,D. - Hacking Exposed Unified Communications & VoIP Security Secrets & Solutions, Second Edition, 2013, 978-0071798761.",
+    "RASH, M.- Linux Firewalls: Attack Detection and Response with iptables, 2007, 978-1593271411.",
+    "FEILNER,M. OpenVPN. Birmingham: Packt Publishing,Ltd., 258p. 2006. ISBN 1-904811-85-X",
+    "KONHEIM,A. Computer Security and cryptography. New Jersey: JWS, Inc. 521p. 2007. ISBN: 978-0-471-94783-7"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "440-2320/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=53252&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "40b9c3385f606301c86bc4be443069d1cee9fdc4a72d13135d76ec1b81630295",
+  "extracted_at": "2026-11-20T12:51:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

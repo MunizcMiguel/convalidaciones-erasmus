@@ -1,0 +1,186 @@
+{
+  "course_name_original": "Motion and Vibrations",
+  "course_name_en": "Motion and Vibrations",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Mechanics (kinetics, statics and dynamics) in the surface and in space",
+    "To solve regular linear differential comparisons with constant coefficients",
+    "Basis of strength study"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student is able to select an appropriate system for motion or force transmission (linkage mechanism or cam–follower mechanism) and design this system from both a kinematic and dynamic perspective.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can select and apply procedures for the analysis and synthesis of mechanisms in both 2D and 3D.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to select suitable motion profiles for cam–follower systems or servo-driven actuators, while taking into account the vibration phenomena caused by these motion profiles in flexible follower systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to formulate and solve the dynamic equations for linear vibration problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can assess vibration-related problems, and can propose and develop vibration suppression measures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to use numerical tools (MATLAB) for the kinematic and dynamic analysis of mechanisms and for analyzing simplified models of complex vibration problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can verify the obtained solutions and results through validation calculations and critically evaluate them based on physical insight and technological constraints.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can independently perform and report these numerical analyses in a clear and well-structured report.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The role of kinematic and dynamic analysis and synthesis in machine design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Procedures for mechanism analysis and synthesis.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Familiarity with commonly used elements and systems for motion or force transmission, with emphasis on linkage mechanisms and cam–follower mechanisms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design of motion profiles (for cam–follower systems or servo-driven actuators), with special attention to the dynamic phenomena caused by motion in flexible follower systems (i.e., the connection with vibration analysis).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Fundamental equations, common terminology, the effects of mechanical vibrations on humans and machines, procedures for analysis and synthesis, and principles of vibration suppression.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Applying techniques known from the Mechanics course for the kinematic and dynamic analysis of machine mechanisms (primarily planar mechanisms).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using computer-aided tools for kinematic and dynamic calculations and for dynamic simulation (Applied Motion, MATLAB), including time-domain simulation of a nonlinear system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulating a design problem as an optimization problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulating and solving the dynamic equilibrium equations for linear vibration problems; designing vibration-reduction measures; assessing vibration problems (disturbance and risk); using numerical tools (MATLAB); and employing simplified models for complex vibration problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "A critical and creative mindset, including during the analysis of existing mechanisms: Is this optimal? How could it be improved?",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Critical interpretation of computer-generated results based on physical insight.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Attention to physical interpretation and technological constraints.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Attention to units and dimensional consistency.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Attention to clear and effective reporting.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Study of rod and ridge mechanisms",
+    "Speed, acceleration and power analysis of machines",
+    "Introductions to computer-supported kinematic and dynamic analysis",
+    "Synthesis of mechanisms",
+    "Elementary study of friction",
+    "Design of motion trajectories (for ridge/follower systems or servo-controlled drives)",
+    "Dynamic phenomena caused by motion in flexible follower systems",
+    "Introduction – examples of vibrations in machines and vehicles",
+    "Single-degree-of-freedom systems (free response)",
+    "Single-degree-of-freedom systems (forced response under harmonic excitation)",
+    "Single-degree-of-freedom systems (forced response under random excitation)",
+    "Multi-degree-of-freedom systems (free response, forced response, modal transformation)",
+    "Continuous systems",
+    "Vibration isolation and vibration suppression: design aspects – effects of vibrations on humans",
+    "Vibrations in rotating machinery and internal combustion engines – imbalance and balancing techniques"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises",
+    "Practical sessions",
+    "Question hour",
+    "Computer laboratory sessions (MATLAB)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 20.0,
+  "assessment_methods": [
+    {
+      "method": "Assignments (kinematic and dynamic analysis of a mechanism)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignments (design of a ridge-follower system)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam with written preparation (Mechanical Vibrations)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The marks on both parts (Motion and Mechanical Vibrations) will be added together with equal weight. If the mark on one or both parts is less than 10/20, the total mark is rounded down. If the mark on one part is less than 8 on 20, the total mark will be limited to 9/20. For a resit, students will revise their work and have a second evaluating conversation.",
+  "bibliography": [
+    "R.L. Norton, Design of machinery. An introduction to the synthesis and analysis of mechanisms and machines, McGraw-Hill, 3rd edition, 2004",
+    "H.H. Mabie & C.F. Reinholtz, Mechanisms and dynamics of machinery"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H01N0A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H01N0AE",
+  "source_language": "en",
+  "source_sha256": "d5b2ce355c9c1d2de91cc919dfb9776ebab3ae2ea906c75b22d64b740eb53d78",
+  "extracted_at": "2026-11-20T09:18:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

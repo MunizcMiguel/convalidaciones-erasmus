@@ -1,0 +1,68 @@
+{
+  "course_name_original": "Einführung in die Kryptographie und ihre Anwendungen",
+  "course_name_en": "Introduction to Cryptography and its Applications",
+  "ects": 6.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "No prerequisites are required. Knowledge in programming, algorithms, networks, discrete mathematics, and algebra is useful. Prior knowledge in IT security is generally helpful but not required."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the most important basic principles and methods of cryptography, which are necessary for evaluating cryptographic security and its elementary application in other areas of computer science.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They understand these methods and are able to select suitable cryptographic procedures for specific application examples and implement them practically.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the most important concepts and methods of cryptography, especially encryption, authentication, network security protocols (e.g., TLS).",
+    "Discussion of these methods in both established and newer applications (e.g., data carrier encryption, VPNs, signature procedures, Cloud Security, Blockchains).",
+    "Practical application of concepts and methods through exercises and an integrated crypto practical, including security evaluation of cryptographic procedures and best practices for their use in various application scenarios."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise",
+    "Crypto practical"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credit points, students must achieve at least 50 percent of the points from the weekly exercise assignments. The grading is based on a scale of 0 to 15 points according to the examination regulations for the B.Sc. Computer Science degree program. The examination performance consists of either an oral examination or a written exam.",
+  "bibliography": [
+    "Douglas R. Stinson and Maura B. Paterson: Cryptography: Theory and Practice, CRC Press 2018",
+    "Johannes A. Buchmann: Introduction to Cryptography, Springer 2002",
+    "Johannes A. Buchmann: Einführung in die Kryptographie, 6. Auflage, Springer 2016",
+    "Menezes, van Oorschot, Vanstone: Handbook of Applied Cryptography, CRC Press 1996"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS550",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Einfuehrung_in_die_Kryptographie_und_ihre_Anwendungen.html",
+  "source_language": "de",
+  "source_sha256": "82c4c5176f8d22f222e01a91f1c402f434a0dae725371e6463dd190f64b63eae",
+  "extracted_at": "2026-11-20T09:22:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,216 @@
+{
+  "course_name_original": "Diseño de máquinas",
+  "course_name_en": "Machine Design",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "It is highly recommended that students have taken and passed the previous compulsory courses: Mechanics of Machines and Materials Science and Engineering (2nd year, 1st semester), Elasticity and Strength of Materials (2nd year, 2nd semester) and Elasticity and Strength of Materials II (3rd year, 1st semester).",
+    "It is also appropriate to have taken Kinematics and Dynamics of Machines, also from the first semester of the 3rd year."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "That students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "That students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated by the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "That students can transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Applied knowledge of manufacturing systems and processes, metrology and quality control.",
+      "type": "knowledge",
+      "code": "134ACEM8"
+    },
+    {
+      "text": "Knowledge and skills for the calculation, design and testing of machines.",
+      "type": "competence",
+      "code": "134ACEM2"
+    },
+    {
+      "text": "Knowledge and capacities to apply the fundamentals of elasticity and strength of materials to the behavior of real solids.",
+      "type": "knowledge",
+      "code": "134ACEM4"
+    },
+    {
+      "text": "Knowledge and capacities for the calculation and design of industrial structures and constructions.",
+      "type": "knowledge",
+      "code": "134ACEM5"
+    },
+    {
+      "text": "Knowledge and capacities for the design, analysis and calculation of mechanisms and mechanical systems.",
+      "type": "competence",
+      "code": "134ACEM9"
+    },
+    {
+      "text": "Ability for oral and written transmission of information adapted to the audience.",
+      "type": "skill",
+      "code": "134ACT6"
+    },
+    {
+      "text": "Ability to apply new technologies including information and communication technologies.",
+      "type": "skill",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability for information management, handling and application of technical specifications and necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "134ACT2"
+    }
+  ],
+  "syllabus_topics": [
+    "Block I. Fundamentals of machine design",
+    "Topic 1. Introduction to design",
+    "1.1 Engineering design",
+    "1.2 Stress, strength, and factor of safety considerations",
+    "1.3 Reliability. Safety and dependability",
+    "1.4 Economic factors in design",
+    "1.5 Unit systems",
+    "Topic 2. Materials for machine construction",
+    "2.1 Mechanical properties of materials",
+    "2.2 Most commonly used materials in machines",
+    "Topic 3. Stress and strain analysis",
+    "3.1 Stress and strain: uniaxial, shear, and multiaxial",
+    "3.2 Stress transformations. Mohr's circles",
+    "3.3 Bending and torsion",
+    "3.4 Stress in machine elements: Stress concentration, Pressure in thick-walled vessels, Interference fits, Curved beams, Rotating rings, Contact stresses",
+    "3.5 Strain in machine elements",
+    "3.6 Elements under compression: Buckling and Eccentric compression",
+    "Block II. Failure conditions in resistant elements",
+    "Topic 4. Static considerations in mechanical design",
+    "4.1 Design for static strength",
+    "4.1.1 Stress concentration under static loads",
+    "4.1.2 Static failure criteria",
+    "4.1.3 Failure in ductile and brittle materials. Notch sensitivity",
+    "4.2 Static fracture",
+    "4.2.1 Ductile and brittle fracture",
+    "4.2.2 Stress intensification factor. Fracture toughness",
+    "4.2.3 Modes of fracture",
+    "Topic 5. Dynamic considerations in mechanical design",
+    "5.1 Design for fatigue strength under alternating loads",
+    "5.1.1 S-N diagram. Fatigue strength and fatigue limit",
+    "5.1.2 Correction of fatigue limit. Marin factors",
+    "5.2 Design for fatigue strength by means of fluctuating loads",
+    "5.2.1 Influence of mean stress. Fatigue failure theories",
+    "5.2.2 Equivalent alternating stress",
+    "5.2.3 Load line. Safety factors",
+    "5.2.4 Combined fluctuating loads. Case of brittle materials",
+    "5.2.5 Surface fatigue",
+    "5.3 Accumulated fatigue damage",
+    "5.3.1 S-N diagram for damaged materials. Miner and Manson rules",
+    "5.3.2 Damage produced by load states with mean stress",
+    "5.3.3 Correction of the fatigue limit of damaged materials",
+    "5.3.4 Crack propagation under cyclic loads",
+    "Block III. Machine elements",
+    "Topic 6. Transmission shafts",
+    "6.1 Design of transmission shafts",
+    "6.1.1 Load states in transmission shafts",
+    "6.1.2 Static strength analysis",
+    "6.1.2 Fatigue strength analysis",
+    "6.2 Critical speeds in shafts",
+    "6.2.1 Concept of critical speed",
+    "6.2.2 Calculation of critical speeds",
+    "6.2.3 Influence of eccentricity on shaft strength",
+    "Topic 7. Joints",
+    "7.1 Bolted joints",
+    "7.1.1 Tightening torque",
+    "7.1.2 Bolt strength",
+    "7.1.3 External load distribution",
+    "7.1.4 Stiffness of the bolt and clamped elements",
+    "7.1.5 Safety factors for static loads",
+    "7.1.6 Joints with gaskets",
+    "7.1.7 Fatigue loads",
+    "7.2 Groups of bolts and rivets",
+    "Topic 8. Mechanical springs",
+    "8.1 Helical springs",
+    "8.1.1 Stresses and strains in helical springs",
+    "8.1.2 Helical tension springs",
+    "8.1.3 Helical compression springs",
+    "8.1.4 Buckling stability",
+    "8.1.5 Critical frequency",
+    "8.1.6 Fatigue loads",
+    "8.1.7 Helical torsion springs",
+    "8.2 Other types of springs",
+    "Topic 9. Gears",
+    "9.1 General description",
+    "9.1.1 Nomenclature",
+    "9.1.2 Force analysis in spur gears",
+    "9.1.3 Force analysis in bevel gears",
+    "9.2 Spur and helical gears",
+    "9.2.1 Lewis formula and surface durability",
+    "9.3 AGMA stress and strength formulas",
+    "Practice 1. Characterization of materials for machines. Experimental determination of mechanical properties.",
+    "Practice 2. Experimental measurement of stresses and strains. Analysis of a stress concentrator.",
+    "Practice 3. Numerical analysis of a stress concentrator.",
+    "Practice 4. Fatigue test of a specimen under rotating bending.",
+    "Practice 5. Measurement of axial deformation in bolts."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Explanation of theory and general examples",
+    "Introductory activities",
+    "Practical activities",
+    "Laboratories",
+    "Clarification of doubts",
+    "Explanatory classes in large groups",
+    "Small group classes",
+    "Collective tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Attendance and/or participation in face-to-face and/or virtual activities",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical concepts of the subject (Written exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of assignments, cases or exercises (Practice reports and submission of questionnaires and reports)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory/field/ICT tools use practices (Laboratory/computer practices)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the global evaluation procedure is used, where the fundamental element is a written exam (80% of the final grade). To pass the course, students must achieve a minimum score of 4.5 out of 10 on the exam. Only if this score is reached will other evaluation criteria such as attendance and participation, lab reports, and proposed activities be considered according to their specified weights. The overall minimum grade to pass is 5 out of 10. For extraordinary calls, if a student has not attended or participated in class, or has not submitted proposed activities, the written exam will constitute 100% of the evaluation, requiring a minimum score of 5 out of 10 to pass. The course is passed or failed in its entirety for each call.",
+  "bibliography": [
+    "Budynas, Richard G. - (2018) - Diseño en ingeniería mecánica de Shigley - McGraw Hill Interamericana editores",
+    "Beer, Ferdinand P. - (2020) - Mecánica de materiales - McGraw Hill",
+    "Norton, Robert L. - (2020) - Diseño de maquinaria : síntesis y análisis de máquinas y mecanismos - McGraw-Hill/Interamerica de España",
+    "Avilés, Rafael. - (2005) - Análisis de fatiga en máquinas - Thomson",
+    "Suresh, S. - (2001) - Fatigue of materials - Cambridge University Press"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412005",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13412005/es/2026-27-13412005_es.html",
+  "source_language": "es",
+  "source_sha256": "d29b7aeff6a3273b547d3bf24eea63f2d5a929a4bf6324889be8c7c820ce1b59",
+  "extracted_at": "2026-11-13T21:38:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

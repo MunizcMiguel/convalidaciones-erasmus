@@ -1,0 +1,11 @@
+# ec_tr_konya05 — Konya Teknik Üniversitesi (Makine Mühendisliği)
+
+- Hint `eurep.auth.gr/.../TR KONYA05_Factsheet…pdf` = fact sheet alojado por la Universidad Aristóteles de Tesalónica (otra universidad). Sitio oficial: `www.ktun.edu.tr` (robots.txt 404 → permite). `obs.ktun.edu.tr` es el OBS de estudiantes (el módulo Bologna `/oibs/bologna/` da 404; no hay catálogo accesible por GET).
+- Grado: Mühendislik ve Doğa Bilimleri Fakültesi → Makine Mühendisliği (Normal Öğretim), 8 semestres, 240 ECTS. Hay planes por curso en `https://www.ktun.edu.tr/Dosyalar/1027/files/…` (NÖ e İÖ).
+- Fuentes: (1) plan 2024-25 NÖ (PDF, 4 págs.): líneas `código nombre T U crédito AKTS` bajo `N. SINIF M. Yarıyıl (…)`; los huecos de optativas llevan cabeceras «Teknik Seçmeli», «MMU I/II», «MTG»…; las prácticas (Staj) solo traen AKTS. (2) «Ders İçerikleri» del departamento (`KTUN_Makine_Muh__Bolumu_Ders_icerikleri_26_06_2020.pdf`, 102 págs., **versión 2019/2020**): un bloque `Dersin Adı …` por asignatura con código `NÖ/İÖ`, objetivo y plan semanal con referencias; hay bloques duplicados «(2018 ve sonrası)» (se prefiere ese).
+- Catálogo: 87 filas del plan; 68 emparejadas por código NÖ con un bloque (`pdf_compartido`, rango de páginas de la zona del bloque); 19 `sin_guia` (optativas nuevas, prácticas y MMU sin bloque). AKTS obligatorios por semestre: 30,30,30,30,27,23,17,12 (el resto son cupos de optativas).
+- Trampas: el PDF de contenidos es anterior al plan 2024-25 (los contenidos pueden diferir; el AKTS del bloque difiere a veces del plan, se usa el del plan); los bloques cruzan páginas (por eso se concatena el texto de todo el PDF sin cabeceras de página y se parte en `Dersin Adı`); códigos de 8 dígitos (12107291, …) en prácticas de laboratorio sin bloque.
+
+## Fase 2
+- `scraper_ec_tr_konya05.py` importa `parse_blocks`/`best_block` del discover y escribe un Markdown por bloque: tabla de información, «Dersin Amacı» y plan semanal con la columna KAYNAK (referencias) conservada como texto. Estas fichas **no tienen** resultados de aprendizaje, evaluación ni prerrequisitos (hecho del origen: `learning_outcomes`, `assessment`, `prerequisites` = false). 68/68 escritos; los Markdown son cortos (1-3 KB).
+- Pendiente: cuando KTUN publique el Bologna Bilgi Paketi accesible por GET, sustituir esta fuente (más completa).

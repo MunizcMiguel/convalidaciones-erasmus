@@ -1,0 +1,149 @@
+{
+  "course_name_original": "Autonome Robot Ik",
+  "course_name_en": "Autonomous Robotics",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge of modules KI-1 to KI-12"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "explain the challenges of modern autonomous robotics",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "compile the prerequisites (e.g., sensor technology, actuators) for simple robotics problems",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "list basic locomotion procedures and compare them",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "present degrees of freedom of common mobile robot platforms and compare the advantages and disadvantages of these platforms",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "calculate direct and inverse kinematics of common robot platforms",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "describe basic path planning and task execution procedures",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "describe basic sensor types",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "compare the characteristics of different sensors and estimate their applicability for a simple scenario",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "calculate error propagation in noisy sensor data",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "explain localization and map creation fundamentally",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "present fundamental concepts of Robot Operating System (ROS)",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "develop a solution for a playful robotics task both in simulation and in the real world",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "actively search for and study their own solution methods with the help of practical robot tasks",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Intelligence in robots",
+    "Challenges of autonomous mobile robotics and manipulation",
+    "Locomotion and Manipulation",
+    "Examples",
+    "Static and dynamic stability",
+    "Degrees of freedom",
+    "Direct and inverse kinematics",
+    "Coordinate and reference systems",
+    "Direct kinematics of example structures",
+    "Calculation of direct kinematics with Denavit-Hartenberg transformation",
+    "Inverse kinematics of example structures",
+    "Calculation of inverse kinematics with Jacobi matrices",
+    "Path planning",
+    "Representation of maps",
+    "Graph-based planning algorithms",
+    "Sampling-based path planning",
+    "Path smoothing",
+    "Task execution",
+    "State machines",
+    "Behavior Tree",
+    "Mission planning",
+    "Sensor technology",
+    "Feature extraction",
+    "Uncertainty and error propagation",
+    "Localization",
+    "Map creation",
+    "Simultaneous localization and mapping (SLAM)",
+    "Introduction to Robot Operating System ROS",
+    "Concepts",
+    "Commands",
+    "Tools",
+    "Programming",
+    "SLAM and Navigation"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction with practical exercises/internship",
+    "Group work",
+    "Research with presentation of results"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module examination has a duration of 90 minutes. The weighting of the grade is 5/210.",
+  "bibliography": [
+    "Correll, Introduction to Autonomous Robots, 2016, ISBN 0692700870",
+    "Siegwart et al., Introduction to Autonomous Mobile Robots, 2011, ISBN 0262015358",
+    "Pyo et al., ROS Robot Programming, 2017, ISBN 979-11-962307-1-5"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-27",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "379106ce8756de9139b7ca934dc1392d8bb944b510362691756543bbd5d9e083",
+  "extracted_at": "2026-11-20T09:21:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

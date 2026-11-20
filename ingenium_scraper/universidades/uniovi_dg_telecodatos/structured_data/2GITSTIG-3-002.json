@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Aprendizaje Profundo",
+  "course_name_en": "Deep Learning",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Algebra",
+    "Calculus I",
+    "Programming Methodology",
+    "Advanced Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamentals of learning mechanisms specific to neural networks (optimizers, regularization, hyperparameters).",
+      "type": "unspecified",
+      "code": "RAP1"
+    },
+    {
+      "text": "Build neural networks capable of learning to solve classification and regression problems.",
+      "type": "skill",
+      "code": "RAP2"
+    },
+    {
+      "text": "Choose the appropriate neural network architecture and loss function in each case, depending on the problem addressed.",
+      "type": "skill",
+      "code": "RAP3"
+    },
+    {
+      "text": "Know the most common activation functions and understand their impact on the learning process.",
+      "type": "knowledge",
+      "code": "RAP4"
+    },
+    {
+      "text": "Understand the operation of convolutional networks and recurrent networks, as well as their applications.",
+      "type": "knowledge",
+      "code": "RAP5"
+    },
+    {
+      "text": "Solve learning tasks using deep neural networks.",
+      "type": "skill",
+      "code": "RAP6"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to deep learning",
+    "Basic concepts",
+    "Differences with traditional machine learning",
+    "Main applications",
+    "Main frameworks for deep learning",
+    "Fundamentals of deep neural networks",
+    "Perceptron concept. MLP",
+    "Gradient descent and backpropagation",
+    "Modeling nonlinear relationships. Nonlinear activation functions",
+    "Vanishing and exploding gradient",
+    "Training deep neural networks",
+    "Data preprocessing",
+    "Loss functions",
+    "Optimization algorithms",
+    "Regularization and overfitting",
+    "Weight initialization",
+    "Hyperparameter selection",
+    "Architectures and applications of deep neural networks",
+    "Feed-forward neural networks",
+    "Convolutional Neural Networks (CNN)",
+    "Recurrent Neural Networks (RNN)",
+    "Generative Adversarial Networks (GAN)",
+    "Attention and transformers",
+    "Autoencoders",
+    "Applications: computer vision, natural language processing, etc."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Laboratory practices",
+    "Expositive classes",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and participation in seminars",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Online activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practice exams (EP1)",
+      "weight_percentage": 13.5
+    },
+    {
+      "method": "Practice exams (EP2)",
+      "weight_percentage": 31.5
+    },
+    {
+      "method": "Theory exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, the final grade is calculated as (0.05 x S) + (0.10 x AO) + 0.45 x ((0.30 x EP1) + (0.70 x EP2)) + (0.40 x ET). It is mandatory to obtain a minimum of 4 out of 10 points in the practice block (EP) and in the theory exam (ET). If these minimums are not reached, the final grade will be the minimum of the calculated formula and 4. In the extraordinary assessment, students can re-evaluate the failed theoretical and/or practical parts, with each part weighted 50%. A minimum of 4 out of 10 points is required for both the theoretical and practical parts to pass.",
+  "bibliography": [
+    "González-González, Pablo., Pérez-Nuñez, Pablo. Aprendizaje Profundo (Deep Learning). https://pglez82.github.io/DeepLearningWeb/",
+    "Stevens, Eli, Luca Antiga, and Thomas Viehmann. Deep learning with PyTorch. Manning Publications, 2020.",
+    "Chollet, Francois. Deep learning with Python. Simon and Schuster, 2021."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-3-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-002",
+  "source_language": "es",
+  "source_sha256": "43a48b48dfdbab443b07d5af426f4115dd3cac439ff5ac2f58d9f5bf1c4cd725",
+  "extracted_at": "2026-11-20T06:05:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

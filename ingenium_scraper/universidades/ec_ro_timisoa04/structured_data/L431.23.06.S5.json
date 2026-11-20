@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Modelarea si simularea sistemelor mecanice",
+  "course_name_en": "Modeling and Simulation of Mechanical Systems",
+  "ects": 3.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Introduction to concepts of integrity and durability of structures with defects and cracks, definition of fracture mechanics parameters, and application of fracture mechanics criteria.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Analytical, numerical using specialized software, and experimental determination of fracture mechanics parameters, and familiarization with national and international standards for fracture toughness determination.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, specific elements of fracture mechanics",
+    "Linear-elastic fracture mechanics. Griffith's theory. Westergaard's solution. Irwin's approximation. Definition of the stress intensity factor",
+    "Stress intensity factor for bodies with different types of cracks",
+    "Aspects of finite element modeling of bodies with cracks. Realization of crack tip singularity. Methods for estimating fracture mechanics parameters",
+    "Experimental methods for determining the stress intensity factor",
+    "Experimental determination of fracture toughness. Factors influencing fracture toughness",
+    "Aspects of elasto-plastic fracture mechanics. Size of the plastic zone formed at the crack tip. Crack tip opening displacement. J-integral",
+    "Crack propagation under variable loads",
+    "Analytical calculation of fracture mechanics parameters in the linear-elastic domain",
+    "Analytical calculations and experimental tests",
+    "Calculation of crack propagation speed and durability of structural elements",
+    "Experimental determination of fracture toughness. KIC method",
+    "Determination of stress intensity factor at a crack tip by photoelasticity",
+    "Determination of crack propagation speed under variable loads",
+    "Determination of fracture mechanics parameters by the Finite Element Method",
+    "Use of specialized software",
+    "Estimation of durability of structural elements based on fracture mechanics principles",
+    "Use of specialized software"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Project work",
+    "Multimedia Power Point course",
+    "Analytical calculations",
+    "Experimental tests",
+    "Computer simulations",
+    "Photoelasticity",
+    "Finite Element Method using specialized software"
+  ],
+  "workload_hours_total": 49.0,
+  "workload_hours_contact": 49.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (2 theory subjects and 1 application)",
+      "weight_percentage": 67.0
+    },
+    {
+      "method": "Short project performed during laboratory hours (determination of stress intensity factors by Finite Element Method)",
+      "weight_percentage": 33.0
+    }
+  ],
+  "assessment_rules": "The minimum performance standard requires knowledge of linear elastic and elasto-plastic fracture mechanics parameters, assimilation and application of crack failure criteria for cracked parts, and performing numerical simulations for determining fracture mechanics parameters. Assessment criteria for lectures include knowledge of fracture mechanics terminology and assimilation of calculation methodology. Applied activities are evaluated based on presence, answers to applications, and scores from computer simulation works.",
+  "bibliography": [
+    "Dumitru I., Marsavina L., Introducere in Mecanica ruperii, Ed. Mirton Timisoara, 2001",
+    "Dumitru I., Marsavina L., Elemente de Mecanica ruperii, Lito UPT, Timisoara, 2000",
+    "Barsom J.M., Rolfe S.T., Fracture and Fatigue. Control in Structures. New Jersey, 1987, Second Edition.",
+    "T. L. Anderson - Fracture Mechanics. Fundamentals and Applications, CRC press, Boca Raton, 1991"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universitatea Politehnica Din Timisoara",
+  "institution_slug": "ec_ro_timisoa04",
+  "degree": "Inginerie Mecanică / Mechanical Engineering (licență)",
+  "course_code": "L431.23.06.S5",
+  "academic_year": "2025/26",
+  "source_url": "https://international.upt.ro/en/incoming-students/course-catalogue/",
+  "source_language": "ro",
+  "source_sha256": "954b51f1f9b911c2728b5d9855c90b47a2cf5c463f15e098236dc6b9dbe4933b",
+  "extracted_at": "2026-11-18T04:13:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,221 @@
+{
+  "course_name_original": "MECB310 – Höhere Mathematik 3",
+  "course_name_en": "Higher Mathematics 3",
+  "ects": 6.0,
+  "semester": "3. Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Higher Mathematics 1",
+    "Higher Mathematics 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "After successful completion of the module Higher Mathematics 3, students will have a solid knowledge of the theory and application of ordinary differential equations as well as probability theory, and will be able to systematically analyze, solve, and apply mathematical models of dynamic systems and random processes to engineering problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can solve certain types of first and higher-order ordinary differential equations, select appropriate solution approaches, and understand and apply the superposition of solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They master methods such as variation of constants and special solution approaches for inhomogeneous equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They use the Laplace transform to solve initial value problems and simplify complex differential equations, and apply the inverse Laplace transform confidently.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Furthermore, they are able to transform differential equations into first-order systems and analyze linear systems with constant coefficients.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They apply numerical methods such as Euler's polygonal method to find approximate solutions for differential equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "This enables them to mathematically model, analyze, and evaluate dynamic processes in technical and scientific applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can analyze combinatorial problems and calculate probabilities in discrete and continuous models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They master fundamental concepts such as stochastic independence, conditional probabilities, and multi-stage random experiments.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They know central discrete distributions such as the hypergeometric and binomial distributions, as well as the normal distribution for continuous random variables.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They apply limit theorems and use approximations (e.g., approximation of the binomial distribution by the normal distribution) for practical calculations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Additionally, they can perform hypothesis tests and determine random scatter ranges and quantiles.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "This enables them to mathematically model uncertainties, make statistical statements, and apply basic decision-making procedures under uncertainty.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "After successful completion of the Data Science and AI course, students will have basic knowledge of data analysis, machine learning, and AI-supported decision-making, and will be able to develop data-based models, recognize statistical correlations, and practically implement Data Science methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can distinguish between different data and file formats, evaluate the quality of datasets, and calculate and interpret metric and statistical key figures (e.g., similarity measures, correlation, autocorrelation, entropy).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They use fundamental procedures such as scatter plots and the one-dimensional Kalman filter for analyzing stochastic signals and signal transformations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "This enables them to analytically access structured and unstructured data sources and perform sound preprocessing steps for further data analysis.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can apply supervised learning methods (regression, regularization, classification with Nearest Neighbor, Random Forest, Support Vector Machine) and develop models for various tasks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They master unsupervised learning methods such as dimensionality reduction, feature extraction, and principal component analysis, and implement initial procedures for Reinforcement Learning and Deep Learning (Multilayer Perceptron, Autoencoder).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They apply optimization strategies such as gradient methods and understand the connection between classical methods and neural networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Thus, they can evaluate and interpret basic machine learning models.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can build simple data pipelines and practically implement data evaluations and model trainings in a programming language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They apply data analysis and machine learning content to specific programming projects, which enables them to directly transfer theoretical knowledge into applications.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Ordinary Differential Equations",
+    "Separable Differential Equations",
+    "First-Order Linear Differential Equations",
+    "N-th Order Linear Differential Equations with Constant Coefficients",
+    "Calculation of the Solution Set of Homogeneous Differential Equations",
+    "Calculation of a Particular Solution via Variation of Constants and Special Solution Approaches",
+    "Superposition Principle",
+    "Laplace Transformation",
+    "Transformation Rules and Table",
+    "Inverse Laplace Transformation",
+    "Application of Laplace Transformation to Initial Value Problems for N-th Order Linear Differential Equations with Constant Coefficients",
+    "Systems of Differential Equations",
+    "Transforming a Differential Equation into a First-Order Differential Equation System",
+    "First-Order Linear Differential Equation Systems with Constant Coefficients",
+    "Calculation of a Particular Solution (via Variation of Constants or Right-Hand Side Ansatz)",
+    "Numerical Solution Methods, e.g., Euler's Polygonal Method",
+    "Probability Theory",
+    "Combinatorics",
+    "Urn Model",
+    "Discrete Random Variables",
+    "Laplace Experiment",
+    "Laws of Set Algebra",
+    "Stochastic Independence",
+    "Conditional Probability",
+    "Multi-stage Random Experiments",
+    "Hypergeometric Distribution",
+    "Binomial Distribution",
+    "Continuous Random Variables",
+    "Normal Distribution (Sum of Random Variables with Normal Distribution)",
+    "Limit Theorem",
+    "Quantiles",
+    "Random Scatter Ranges",
+    "Approximation of Binomial and Hypergeometric Distribution using the Normal Distribution",
+    "Hypothesis Tests",
+    "Fundamental aspects of data analysis: identification and evaluation of data and file formats, quality of datasets",
+    "Metrics for quantifying similarity (e.g., Cosine Similarity) and distance",
+    "Stochastic signals, correlation measures (autocorrelation, covariance), scatter plots",
+    "Concepts like entropy and noise",
+    "Application of a one-dimensional Kalman filter for data cleansing and forecasting",
+    "Signal transformations to find structures in data and prepare data for subsequent analyses",
+    "Machine Learning methods: Supervised Learning (Regression, Regularization, Nearest Neighbor, Random Forest, Support Vector Machines (SVM))",
+    "Evaluation and optimization of supervised learning methods",
+    "Unsupervised Learning: Dimensionality reduction (e.g., Principal Component Analysis) and Feature Extraction",
+    "Introduction to Reinforcement Learning",
+    "Deep Learning: Feed-Forward Neural Networks, Multilayer Perceptrons, Autoencoders",
+    "Connection of Deep Learning with Principal Component Analysis and Gradient Methods for model optimization",
+    "Development and analysis of data pipelines",
+    "Implementation of data analysis and machine learning content in a programming language (e.g., Python)",
+    "Focus on robust code development, error analysis, and algorithm evaluation"
+  ],
+  "teaching_methods": [
+    "Lectures with integrated exercises",
+    "Lectures with integrated lab exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Klausur) for Higher Mathematics 3 (MECB311)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (Klausur) for Data Analysis and AI (MECB312) on computer",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The grade for the module MECB310 is calculated from the grades for MECB311 and MECB312, weighted by their respective ECTS credits. Due to different exam formats, there is no common module examination. The written exam for Higher Mathematics 3 (MECB311) lasts 90 minutes. The written exam for Data Analysis and AI (MECB312) on the computer lasts 60 minutes.",
+  "bibliography": [
+    "F. Olawsky, A. Helfrich-Schkarbanenko: Vorlesungsskript",
+    "J. Koch, M. Stämpfle: Mathematik für das Ingenieurstudium, 5. Auflage, 2025, HANSER",
+    "T. Arens et al.: Mathematik, 5. Auflage, 2022, Springer Spektrum",
+    "Th. A. Runkler: Data Analytics - Models and Algorithms for Intelligent Data Analysis - A Comprehensive Introduction, 4-th Edition, Springer Vieweg, 2025",
+    "Stefan Selle: Data Science Training – Supervised Learning, Springer Vieweg, 2024",
+    "Fabio Nelli: Python Data Analytics – With Pandas, NumPy and Matplotlib, 2-nd Edition, Apress, 2018"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB310",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "b3e7e489c70fbec5da14fdc08ceb42b6ec5e8ab60a401162af43e57e70150b43",
+  "extracted_at": "2026-11-20T12:39:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

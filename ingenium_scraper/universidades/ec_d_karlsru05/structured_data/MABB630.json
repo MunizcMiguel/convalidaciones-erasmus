@@ -1,0 +1,84 @@
+{
+  "course_name_original": "MABB630 \nRegelungs- und Automatisierungssysteme",
+  "course_name_en": "Control and Automation Systems",
+  "ects": 6.0,
+  "semester": "6. Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Higher Mathematics 1",
+    "Higher Mathematics 2",
+    "Machines",
+    "Electrical Engineering",
+    "Drive Technology",
+    "Technical Mechanics 1-3"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be familiar with the fundamentals of linear control engineering, modern simulation software, and automation technology.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "After successful completion, students can explain basic terms of control engineering, apply the Laplace transform to linear and time-invariant systems, create simple mathematical models, specify and transform the corresponding signal flow diagram, simulate and interpret the technical system on the computer, select a suitable control structure, design the controller continuously and time-discretely using a simple method, and evaluate the performance of a control loop.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can apply the fundamentals of Boolean algebra and thereby simplify digital circuits with the Karnaugh-Veitch diagram. For technical problems, they can conceive suitable automation systems and implement and simulate them based on PLC technology. For this, students can work with common SIMATIC development environments (LAD, STL, FBD, and SCL) to program combinatorial and sequential controls and to perform signal processing with the PLC.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modeling, linearity, linear differential equations, step function, transient function, Laplace transform, transfer function, signal flow diagram",
+    "Rules for transformation, standard transfer elements of system theory, simulation with MATLAB/SIMULINK, control, regulation with standard control loop, examples of control loops, basic equations of the control loop, requirements, stability, steady state, transient behavior, rules of thumb for controller tuning, controller tuning rules, root locus, root locus method with MATLAB/SIMULINK, frequency response, Bode diagram, Nyquist criterion, frequency characteristic method with MATLAB/SIMULINK, time-discrete control systems",
+    "Fundamentals of device technology and control types, signals and signal transmissions, information processing",
+    "Introduction to programming of Programmable Logic Controllers (PLCs)",
+    "Boolean algebra, KV optimization",
+    "Functionality of programming languages LAD, STL, FBD, SCL, and sequential controls state machines, as implementation using SR, Sequence, or SCL",
+    "Analog-to-Digital conversion",
+    "Digital implementation of control functions using Z-transform",
+    "Digital control engineering"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory",
+    "Virtual Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written module examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Two passed laboratory exercises (prerequisite for examination)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is based on a written module examination of 120 minutes duration. Two passed laboratory exercises are a prerequisite for taking the examination.",
+  "bibliography": [
+    "H.Lutz, W.Wendt: Taschenbuch der Regelungstechnik, Europa-Lehrmittel; 10. Auflage 2014 (ISBN- 10: 380855679X)",
+    "M.Reuter, S.Zacher: Regelungstechnik für Ingenieure, Springer Vieweg; 15. Auflage, 2017 (ISBN-10: 9783658176310)",
+    "O. Föllinger: Regelungstechnik (Hüthig Verlag) (ISBN-10: 978-3778529706)",
+    "Scripts Automation Systems 1 & 2 and the literature recommendations mentioned therein"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft",
+  "institution_slug": "ec_d_karlsru05",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB630",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "f248c423b7e20bdc3ca7dd5d97e09fc73662bfc02b01ff469427f5e9e5d59be7",
+  "extracted_at": "2026-11-18T09:50:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,142 @@
+{
+  "course_name_original": "Rechnernetze",
+  "course_name_en": "Computer Networks",
+  "ects": 7.0,
+  "semester": "Summer Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamentals of computer and data communication, their protocols and methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the service and layer concept of the TCP/IP architectural model and the basic distribution of functions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the essential functions of the data link layer (framing, error protection).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the principles and parameters for multiple access in Local Area Networks (Ethernet / WLAN) and perform performance estimations with them.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain the protocol mechanisms for securing data packet transmission (Sliding Window).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Structure IP address ranges and form subnets.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Name the basic functions of a router.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain classical routing protocols and apply the algorithms for creating routing tables.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the mechanisms of the TCP transport protocol in detail and can derive and evaluate the behavior of a TCP connection based on system parameters in an engineering manner.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently acquire in-depth specialized knowledge and attend advanced courses.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students have primarily tested and partly implemented the theoretical knowledge acquired in the lecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have implemented and tested modules for core functions of computer communication in C++ in a given simulation environment for training purposes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have worked on real, current computer communication systems (Fast Ethernet switches, routers, hubs) and have built and performed the functions of simple Local Area Networks themselves.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students master the basic functions in Ethernet and the typical components of these networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have learned about modern, complex Ethernet switches for large enterprise networks, administered them themselves, and set up larger networks with them. They have also intensively dealt with the protocols required for large Ethernet networks (e.g., Spanning Tree, Virtual LAN).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are familiar with and have tested the essential elements of data communication in the LAN. The configuration of simple networks should now be performable by the graduates.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental understanding of computer and data communication with emphasis on packet switching, architecture/layer model: Protocol / Service",
+    "Fundamentals of physical layer: Basics and relevant properties of a medium; Bit rate / Baud rate / Line coding / Modulation techniques",
+    "Fundamentals of the data link layer: Methods for delimiting a data packet (Framing); Error protection with Cyclic Codes (CRC); Multiple access in Local Area Networks; Elements for Ethernet networks (Hub / Switch / VLAN); Wireless LAN / Wi-Fi / Requirements and access procedures, Protocol variants of 802.11; Protocol mechanisms for securing and controlling data packet transmission (Sliding Window)",
+    "Fundamentals of the network layer (IP): IP addresses: Structure and composition, IP subnets, ARP (IPv4); Basic routing functions and structure of a router, Routing protocols, Algorithms for them; Structure of IPv6 addresses",
+    "Fundamentals of the transport layer (TCP / UDP): Multiplexing in the transport layer and NAT",
+    "UDP properties",
+    "TCP properties and behavior of a TCP connection (data transfer and error protection, flow control, TCP congestion control, estimating the throughput of a TCP connection)",
+    "Exercises in a simulation environment for protocols. This includes the implementation and testing of basic functions such as Framing / Bitstuffing, calculation of the Cyclic Redundancy Check for error detection (CRC)",
+    "Exercises on and with real, current computer communication systems (Fast Ethernet switches, routers, hubs): Building simple Local Area Networks (handling different network cables and connection types); Functions in Ethernet: (Address assignment (ARP), functions and performance of networking systems Hub and Switch); Administration of modern, complex Ethernet switches for large Enterprise networks; Protocols and functions for operating large Ethernet networks: Spanning Tree and Virtual LAN; Simple routing between VLANs and design and configuration of a routed network with full-fledged routers."
+  ],
+  "teaching_methods": [
+    "seminaristic teaching/exercise",
+    "internship (Pr)",
+    "lecture (SU/Ü)"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 117.0,
+  "assessment_methods": [
+    {
+      "method": "written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "successful participation in the integrated internship (at least 7 experiments, or 4 for online)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Successful completion of 11.2 (practical part) is a prerequisite for participation in 11.1 (lecture and exam). The practical part is passed by successfully completing at least 7 experiments; in online mode, 4 experiments are sufficient. The final grade is based on the 90-minute written examination.",
+  "bibliography": [
+    "SCHREINER, Rüdiger, 2019. Computernetzwerke: von den Grundlagen zur Funktion und Anwendung [online]. München: Hanser PDF e-Book. ISBN 978-3-446-46010-2. Verfügbar unter: https://doi.org/10.3139/9783446460102.",
+    "KUROSE, James F. und Keith W ROSS, 2014 . Computernetzwerke : der Top-Down-Ansatz . 6. Auflage. Hallbergmoos: Pearson Studium. ISBN 978-3-86894-237-8 ; 978-3-86326-686-8",
+    "TANENBAUM, Andrew S. und David WETHERALL, 2012. Computernetzwerke. 5. Auflage. München [u.a.] : Pearson Studium - IT. ISBN 978-3-86894-137-1 ; 3-86894-137-1",
+    "Ohne Autor. Empfehlungen der IETF (Spezifikationen zum Internet) [online]. [Zugriff am: 25.09.2023]. Verfügbar unter: https://www.ietf.org/rfc/"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_RN",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "aeeaacf28a4d9c697f47076150f85c31446d7182ac6f583eda2e4cbd5e571934",
+  "extracted_at": "2026-11-20T12:35:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

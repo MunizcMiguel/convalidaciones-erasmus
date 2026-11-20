@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Electric grids",
+  "course_name_en": "Electric grids",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the basic concepts, classification of power grids, grid structure, grid systems and their properties.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the principles of modeling elements and complex grid systems for the purpose of calculations in steady states (power flows).",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Has knowledge in the field of network design, selection of elements, reliability, power and energy losses, voltage regulation and reactive power compensation.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Can build network models for power flow calculations.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can perform calculations of power flows, voltage drops and power losses in open and double-fed networks.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can select network elements according to appropriate criteria, analyze unbalanced systems, and estimate MV network loads.",
+      "type": "skill",
+      "code": "U3"
+    }
+  ],
+  "syllabus_topics": [
+    "Two-part task covers the design of a medium voltage (MV) distribution grid in a selected area, selection of grid elements (cross-sections of wires/cables and transformer capacities), and analysis of its operating conditions (current flows, power losses, and voltage levels). The second part concerns the concept of connecting a new large consumer with high supply reliability to the grid.",
+    "1. Load estimation. Current flows in distribution networks. Voltage drop calculations. 2. Distributed sources in distribution networks - analysis of network voltage profile. 3. Calculation of current flows in any nodal network (transfiguration method and matrix method). 4. Calculation of unbalanced networks (methods: analytical, symmetrical components). 5. Selection of conductor cross-sections according to selected criteria. 6. Short-circuit calculations. Factors determining short-circuit conditions in a distribution network. 7. Mechanical calculations of overhead lines. 8. Power and energy losses in power grids. 9. Reactive power compensation. 10. Calculation of earth fault currents.",
+    "Basic concepts and definitions. Requirements and classification of power grids. KSE characteristics. Development trends. Structures and configurations of power grids. Overview of solutions found in transmission networks and distribution systems. Construction solutions and technologies. Overhead power lines. Low voltage (LV) insulated overhead lines. Medium voltage (MV) semi-insulated lines. Cables and cable lines. Special cables. DC systems. Documentation of network infrastructure facilities. GIS systems. Network management and ZMS systems. SCADA systems. Introduction to power grid analysis. Classification of states. Steady state of the power grid. Elements of network calculations. Simplified steady-state analysis. Calculation tools. Basics of network element modeling. Modern modeling and simulation tools. Calculation of power flows in multiply-closed networks. Problem formulation. Solution methods. Practical aspects of complex network system calculations. Modeling and analysis of active distribution networks. Criteria and rules for sizing network elements. Disturbances. Short circuits. Methodology and means of voltage regulation in power grids. Specificity of regulatory issues in transmission and distribution networks. Integration of sources with networks in light of network code requirements (NC RfG). Power and energy losses. Elements of mechanical calculations of overhead power lines. State equation. Impact of environmental factors on linear objects."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "E-learning",
+    "Case study",
+    "Group work",
+    "Laboratory classes",
+    "Project classes"
+  ],
+  "workload_hours_total": 158.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Project classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by an examination. Laboratory classes are verified by a test, requiring preparation and presentation of a solution to the problem, with all lab classes needing to be passed. Project classes are verified by a test, evaluating the execution and final outcome of the project.",
+  "bibliography": [
+    "Kahl T.: Sieci elektroenergetyczne, WNT, Warszawa 1984 .",
+    "Cegielski M.: Sieci i systemy elektroenerenergetyczne. PWN, Warszawa 1979.",
+    "Kacejko P.: Generacja rozproszona w systemie elektroenergetycznym. Lublin : Wydaw. Politechniki Lubelskiej, 2004.",
+    "Strojny J., Strzałka J.: Zbiór zadań z sieci elektrycznych. Cz. I i II, skrypt AGH, 2000.",
+    "Kujszczyk Sz., Brociek S., Flisowski Z. Gryko J., Nazarko J., Zdun Z.: Elektroenergetyczne układy przesyłowe. WNT, Warszawa 1997.",
+    "Kujszczyk Sz. pod red. Elektroenergetyczne sieci rozdzielcze. tom I i II, WPW, Warszawa 2004.",
+    "Parol M. (pod red.): Mikrosieci niskiego napięcia. Oficyna Wydawnicza Politechniki Warszawskiej, 2013.",
+    "Wasiak I., Pawełek R.: Jakość zasilania w sieciach z generacją rozproszoną. Wydawnictwa Naukowe PWN, Warszawa 2015",
+    "Kersting W.: Distribution System Modeling and Analysis, CRC Press, 2012",
+    "Grigsby L.: The Electric Power Engineering Handbook, CRC Press, 2012",
+    "De Sousa A., Castilla M.: Microgrids Design and Implementation, Springer, 2019",
+    "Thomas M., McDonald J.: Power System SCADA and Smart Grids, CRC Press, 2015"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.03216.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/a942e263-15cb-4c4c-9588-7e8365781477.html",
+  "source_language": "pl",
+  "source_sha256": "b20d152bf9a8049f8b9a6708a88a8ad6f9dd75f17018e62832e4e349ed087063",
+  "extracted_at": "2026-11-20T09:02:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

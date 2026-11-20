@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Electrical Motors and Drives",
+  "course_name_en": "Electrical Motors and Drives",
+  "ects": 7.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "EEE336"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know about the advantages of using electric drives.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the principles of speed control DC motors, induction motors and brushless AC motors",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the power electronic converter topologies used for speed control of DC motors, induction motors and brushless AC motors, and to be able to analyze these converters.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can perform modeling and simulation analysis of dc motors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Can design a simple controller for dc motors",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of electric drives. Definition of a drive system and its components. Motors, power converters, semiconductor devices, gears and controllers.",
+    "Review of DC motors. Steady state and dynamic analysis of separately excited and PM dc motors.",
+    "Modeling of dc motors with state variables. Transfer functions. Control through armature and field circuits.",
+    "Phase Controlled DC Motor Drives: Principles and topologies",
+    "Chopper Controlled DC Motor Drives: Principles and topologies.",
+    "Designing a controller for PM dc motors.",
+    "Review and speed control principles of induction motors.",
+    "IM drives (voltage control) principles.",
+    "IM drives (frequency control) principles.",
+    "Inverter topologies: 6-step and PWM inverter operation.",
+    "Review and speed control principles of synchronous motors",
+    "Brushless DC and PM AC motors and drive principles.",
+    "Single Phase Induction Motors.",
+    "Step Motors"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "N. Mohan, Electric Drives: An Integrative Approach, Univ. of Minnesota Pr.",
+    "T. Wildi, Electrical Machines, Drives and Power Systems, Prentice Hall",
+    "R. Krishnan, Electric Motor Drives, Prentice Hall,2002"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE434",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857452&lang=en",
+  "source_language": "en",
+  "source_sha256": "4bd8cf565015ab62ea6ff310ac660fee6778d874cbefd6eedabf5cebdad6100a",
+  "extracted_at": "2026-11-20T12:53:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,93 @@
+{
+  "course_name_original": "CONTROL SYSTEMS",
+  "course_name_en": "CONTROL SYSTEMS",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to obtain the mathematical model and the block diagram and transfer function of a control system (by using the dynamics of physical system, measuring device and controller) and how to analyze the functional quality of control system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to determine the control parameters for low-order systems under the time response requirements of accuracy, relative stability, and speed of response.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to determine the control parameters for low-order systems under the time response requirements of accuracy, relative stability, and speed of response.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to analyze and design of a control system by means of the root locus and frequency response methods.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to control systems and definitions. Open-loop and closed-loop systems. Transfer functions.",
+    "Mathematical modeling of mechanical, electrical, fluid and thermal systems.",
+    "Mathematical modeling of mechanical, electrical, fluid and thermal systems.",
+    "Transfer functions of multiple input and multiple output systems. Transfer functions of cascaded systems. Block diagrams. Drawing detailed block diagrams from basic equations. Obtaining transfer functions from block diagrams: Analytical method, block diagram algebra, Mason’s rule.",
+    "Structure of feedback control systems. Desired characteristics of control systems. Sensitivity of control systems to parameter variations.",
+    "Controller and control actions. Proportional (P), integral (I), derivative (D) control actions. P, I, P+D, P+I and P+I+D control.",
+    "Two-position control and its applications. Servo and regulator characteristics of control systems. Examples on applications of different control types. Examples on applications of different control actions. Ziegler-Nichols PID control parameter settings.",
+    "Review of transient responses of 1st and 2nd order systems. Transient response specifications and their use in analysis and design of 2nd order systems. Transient responses of higher order systems.",
+    "Stability of control systems. Stability and system poles. Routh-Hurwitz stability criterion. Special cases of Routh-Hurwitz stability criterion. Selection of parameter values for stability. Relative stability and stability margin.",
+    "Steady state response. Classification of control systems by type. Steady state error and error constants. Root locus method. Rules of drawing root locus diagrams. Examples of root locus diagrams method.",
+    "Frequency response method. Graphical representations of frequency response. Bode diagrams. Polar plots. Log magnitude versus phase plots.",
+    "Nyquist stability criterion. Relative stability criterion.",
+    "Control system design by root locus method. Lead compensation. Lag compensation. Lag-lead compensation. Parallel compensation.",
+    "Control system design by frequency response method. Lead compensation. Lag compensation. Lag-lead compensation.",
+    "Final Exam"
+  ],
+  "teaching_methods": [
+    "Face To Face"
+  ],
+  "workload_hours_total": 154.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Mid-Term",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Ogata, K., “Modern Control Engineering”, 5th Edition, Prentice-Hall, 2010.",
+    "Franklin, G. F., Powell, J. D., Emami-Naeini, A., “Feedback Control of Dynamic Systems”, 6th Edition, Prentice-Hall, 2010.",
+    "Nise, N. S., “Control Systems Engineering”, 6th Edition, Addison-Wesley, Menlo Park, CA, 2010.",
+    "Kuo, B. C., Golnaraghi, F., “Automatic Control Systems”, 8th Edition, Prentice-Hall, Englewood Cliffs, 2002",
+    "Dorf, R. C. and Bishop, R. H., “Modern Control Systems”, 12th Edition, Pearson Prentice-Hall, 2010.",
+    "Phillips, C. L., and Parr, J., “Feedback Control Systems”, 5th Edition, Prentice-Hall, 2010.",
+    "Raven, F. H., “Automatic Control Engineering”, 5th Edition, McGraw-Hill, 1995."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gazi University",
+  "institution_slug": "ec_tr_ankara02",
+  "degree": "Mechanical Engineering (Eng) / Makine Mühendisliği (İngilizce)",
+  "course_code": "ME308",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=862493&lang=en",
+  "source_language": "en",
+  "source_sha256": "9dc2a75639dfa597e45dd9c1cdb16a7cb49eea8e9c6f7d5b74e89498465d95a4",
+  "extracted_at": "2026-11-18T10:06:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

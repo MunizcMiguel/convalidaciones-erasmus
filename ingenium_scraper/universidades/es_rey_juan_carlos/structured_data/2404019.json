@@ -1,0 +1,138 @@
+{
+  "course_name_original": "Ingeniería de fluidos",
+  "course_name_en": "Fluid Engineering",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Interpret the physical meaning of the general properties of fluids.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and apply the conservation equations to fluid flow.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the characteristics of the main flows of interest in engineering (pressure flow, open channel flow, external flow).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the operating principles and operation of basic instruments for measuring pressure, flow rate, velocity, and viscosity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design fluid installations, applying efficiency criteria in the design of the installation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the principles of theory of machines and mechanisms.",
+      "type": "knowledge",
+      "code": "CON7"
+    },
+    {
+      "text": "Knowledge of the basic principles of fluid mechanics and their application to solving problems in the field of engineering. Calculation of pipes, channels and fluid systems.",
+      "type": "knowledge",
+      "code": "HAB5"
+    }
+  ],
+  "syllabus_topics": [
+    "Generalities.",
+    "Fluids: definition; compressible and incompressible fluids; viscosity and density.",
+    "Fluid flow: definition, types of flow.",
+    "Pressure: definition and measurement.",
+    "Velocity: definition and measurement.",
+    "Principles of fluid statics: General theorem of statics; Pascal's Principle; Buoyancy.",
+    "Flow domain. Lagrangian and Eulerian description.",
+    "Flow rate through an elemental surface.",
+    "Reynolds Transport Theorem: application to mass, momentum, and energy.",
+    "Differential equations of continuity and Navier-Stokes.",
+    "Exact and approximate solutions.",
+    "Introduction to CFD (Computational Fluid Dynamics).",
+    "Introduction.",
+    "General characteristics of Internal Flow. Flow regime. Fully developed flow and entrance length.",
+    "Velocity and pressure profile in laminar flow.",
+    "Velocity and pressure profile in turbulent flow.",
+    "Energy losses due to friction.",
+    "Energy conservation for incompressible flow.",
+    "Calculation of the required power for flow.",
+    "Complex piping systems.",
+    "Piping accessories.",
+    "Open channels",
+    "Types of flow. Uniform flow.",
+    "Bernoulli's equation for open channels",
+    "Subcritical and supercritical flow.",
+    "Specific energy. Hydraulic jump.",
+    "Measurement of flow rates in open channels.",
+    "Introduction.",
+    "Analysis of compressible flow.",
+    "Models of compressible flow of ideal gases. Adiabatic, Isentropic flow. Nozzles and Diffusers. Isothermal flow.",
+    "Flow of real gases.",
+    "Compression power.",
+    "Gas pumping equipment.",
+    "Introduction.",
+    "Resistance to flow of submerged bodies. Characteristic area. Friction drag and form drag.",
+    "Lift of submerged bodies."
+  ],
+  "teaching_methods": [
+    "Submission of exercises proposed by professors, to be solved by students",
+    "Written final test, performed individually in the classroom, containing theoretical and numerical questions",
+    "Two seminars for analysis and resolution of practical cases, performed individually in the classroom with the assistance of the two professors of the subject.",
+    "Fluid Engineering laboratory practices, performed in groups and consisting of experimental practices.",
+    "Attendance at master class sessions where concepts and contents of the different topics will be systematically developed.",
+    "Performing three laboratory practices and one CFD simulation in groups.",
+    "Resolution of exercises, problems, cases",
+    "Tests"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 108.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (SE1)",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Resolution of problems (SE4)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Laboratory practices (SE2)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Seminars (SE3)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The general evaluation model is continuous assessment. No single evaluation activity can individually exceed 60% of the global grade. The sum of non-re-evaluable activities cannot exceed 40% of the global grade. For the written exam (55% weight), a minimum grade of 5 is required, and it is re-evaluable; the exam has a theoretical part (40% of exam grade) and a problem part (60%), both requiring a minimum of 4 to be averaged. Attendance to laboratory practices is mandatory, and absence will result in failing the subject in both calls. The final course grade must be 5 or higher, calculated as the weighted average of all activities.",
+  "bibliography": [
+    "Mecánica de Fluidos. Autor: F. White. Ed. McGraw-Hill Interamericana de España, 2008.",
+    "Mecánica de fluidos con aplicaciones en ingeniería. Autor: J.B. Franzini, E.J. Finnemore. Editorial Mc-Graw Hill,1999.",
+    "Fundamentos de mecánica de fluidos. Autor: B.R. Munson, D.F. Young, T.H. Okiishi. Editorial John Willey&Sons, 2003",
+    "Introducción a la mecánica de fluidos. Autor: J.M. Gordillo, G. Riboux, J.M. Fernández. Editorial Paraninfo Universidad, 2017",
+    "Mecánica de Fluidos. Autor: W.L. Streeter, B.E. Wylie, K.W. Bedford. Editorial Mc-Graw-Hill, 2000"
+  ],
+  "isced_f_code": "0719",
+  "missing_sections": [],
+  "institution": "Universidad Rey Juan Carlos",
+  "institution_slug": "es_rey_juan_carlos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "2404019",
+  "academic_year": "2026-27",
+  "source_url": "https://servicios.urjc.es/guiasdocentes/pdfGuia.jsp?a=2404019",
+  "source_language": "es",
+  "source_sha256": "4137e6b065b121d93cd5be95a15616d53f8e7fe689d69ca21b041b96eaba9290",
+  "extracted_at": "2026-11-13T22:47:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

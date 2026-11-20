@@ -1,0 +1,187 @@
+{
+  "course_name_original": "SIGNALS AND SYSTEMS",
+  "course_name_en": "Signals and Systems",
+  "ects": 9.0,
+  "semester": "First semester",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Well-established knowledge of Mathematical Analysis, Linear Algebra and Geometry, particularly in complex numbers, differential and integral calculus, and vector spaces.",
+    "General programming skills.",
+    "Prior passing of the Mathematical Analysis and Linear Algebra and Geometry courses is strongly recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the terminology related to signals and systems (discrete-time and continuous-time).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the basic principles of generalized signals (Dirac delta or impulse).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the tools of Fourier analysis for signals and systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the tools for solving linear ordinary differential equations with constant coefficients.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply advanced mathematical tools to represent and analyze signals of various nature (continuous-time or discrete-time, periodic or aperiodic).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify and describe the properties of transformations and systems, particularly linear time-invariant systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use Fourier analysis to interpret signals and systems in the frequency domain and understand their spectral characteristics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Master the concepts of impulse response, frequency response, and transfer function of a linear time-invariant system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the consequences of sampling and design procedures for the reconstruction of continuous signals from discrete data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve differential and difference equations in the time domain and with Laplace and Z-transforms, interpreting the results in engineering contexts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use computational scripts for the analysis of signals and systems, with particular attention to graphical representation and spectral evaluation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluate the most appropriate tools for analyzing and designing linear time-invariant systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Explain theoretical concepts and problem-solving approaches using appropriate technical language and clear logical reasoning in written format.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Signals in the Time Domain",
+    "Review of complex arithmetic and analysis",
+    "Euler's formula",
+    "Definition of signals of interest",
+    "Summary parameters of signals",
+    "Review of vector spaces",
+    "Definition of signal spaces of interest: L-1, L-2, L-infinity (in continuous and discrete time)",
+    "Periodic signals: sinusoid and pure imaginary exponential",
+    "Dirac delta, generalized functions, generalized derivatives",
+    "Systems in the Time Domain",
+    "Definition of system and notable systems (affine time transformations)",
+    "Properties of systems",
+    "LTI systems",
+    "Impulse response theorem",
+    "Convolution in discrete and continuous time",
+    "Amplitude and phase response of an LTI",
+    "Response to sinusoidal input",
+    "Signals and Systems in the Frequency Domain",
+    "Fourier Series: pure imaginary exponentials in harmonic relation, fundamental theorems of Fourier series (Riesz-Fischer and Dirichlet)",
+    "Analysis and synthesis formulas",
+    "Calculation of Fourier coefficients for notable signals",
+    "Properties of Fourier coefficients",
+    "Periodic convolution",
+    "LTI systems in periodic regime",
+    "Discrete Fourier Transform (DFT)",
+    "Isomorphism between periodic signals in discrete time and Euclidean space C^N",
+    "DFT as matrix product",
+    "Inverse DFT",
+    "Circular convolution",
+    "Properties of DFT",
+    "Fourier Transform: definition and calculation examples",
+    "Inversion theorems in L-1 and L-2",
+    "Properties of FT",
+    "FT of periodic signals",
+    "Systems in the frequency domain: LTI as frequency product",
+    "Application to AM transmission",
+    "Discrete-time Fourier Transform (DTFT): definition, properties, relation with DFT (zero-padding)",
+    "Sampling of continuous-time signals: Poisson's formula, sampling theorem, ideal interpolation formula (sinc)",
+    "Sampling of non-bandlimited signals",
+    "A/D conversion",
+    "Sampling and aliasing",
+    "Laplace and Z Transforms",
+    "Linear Ordinary Differential Equations with Constant Coefficients",
+    "Definitions",
+    "Main theorems: existence and uniqueness of the solution of a Cauchy problem, structure of solutions of an LODECC",
+    "Modes",
+    "Free response and forced response",
+    "Example of mass-spring-damper (second-order system)",
+    "Solution of LODECC via FT",
+    "Laplace Transform",
+    "Region of convergence",
+    "Examples for notable signals",
+    "Properties",
+    "Inverse LT of simple fraction",
+    "Inverse LT of rational functions",
+    "One-sided LT and application to the causal Cauchy problem",
+    "Introduction to the Z-transform and difference equations",
+    "Practical works and demonstrations",
+    "Introduction to software environments for scientific computing (ex. Python, Matlab)",
+    "Guided experimentation on mathematical models of signals and systems",
+    "Computational applications for harmonic analysis and the study of frequency-domain behavior",
+    "Selected case studies within the field of signal theory and LTI systems"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Simulations",
+    "Problem based learning",
+    "Use of technological tools (moodle and/or other educational tools, software, videos, quizzes, wooclap)",
+    "Self-assessment activities during the course",
+    "In-depth lectures on mathematical aspects alternating with the solution of exercises",
+    "Computer-based applied activities through guided demonstrations and interactive sessions",
+    "Shared problem-solving, engaging students through guided analysis of case studies and in-class resolution of specific problems"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Closed-book written test (theoretical questions and exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a closed-book written test and an oral examination. The written test includes theoretical questions and exercises to assess mastery of techniques and application in engineering contexts. The oral examination completes the assessment of theoretical principles and their application. The use of generative artificial intelligence tools is not allowed during the exam or for assignments.",
+  "bibliography": [
+    "Finesso, Lorenzo. Segnali e sistemi. 4. ed, Libreria Progetto, 2022",
+    "Oppenheim, Alan V., and George C. Verghese. Signals, Systems & Inference. Pearson, 2016",
+    "Segnali e Sistemi, Authors: L. Finesso. Padova, 2021, Publisher: Edizioni Libreria Progetto.",
+    "Signals & systems, Authors: Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab. Upper Saddle River, 1997, Publisher: Prentice-Hall, 2nd or newer edition."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Padova",
+  "institution_slug": "ec_i_padova01",
+  "degree": "Laurea in Ingegneria Elettronica (Electronic Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "IN08111231",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipd.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=52278_551481_32353&ordinamento_aa=2025&af_percorso=52278&corso_cod=12370&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "492e4572745bd858a8acb239e1898f56d22c24c795d41ff400b832c06f8600c0",
+  "extracted_at": "2026-11-20T09:23:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

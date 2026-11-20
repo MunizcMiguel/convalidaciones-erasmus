@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Robotic Systems",
+  "course_name_en": "Robotic Systems",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge in linear algebra (matrices) and analysis (derivatives)",
+    "Basic programming skills (basic Python or similar)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the operation of all types of industrial robots",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to use and program industrial robots using teach pendants, programming languages, and open-source interfaces (ROS)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design and implement integration of industrial robots with other systems based on understanding robotic controllers",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design and implement custom robotic building blocks and systems",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to robotics, coordinate systems, homogeneous transformations",
+    "Direct kinematics of articulated robots, Denavit-Hartenberg notation, analytical and numerical inverse kinematics, velocity kinematics and manipulability, path planning, robot dynamics and control, industrial robot applications",
+    "Kinematics of mobile robots, path planning on maps, cameras and vision, Kalman filter, simultaneous localization and mapping, industrial applications of mobile robots"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Labs"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination on theoretical content",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Written examination on practical content",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Report on laboratory work with industrial robots",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Peter Corke: Robotics, Vision and Control, Springer-Verlag Berlin Heidelberg, 2011",
+    "Tadej Bajd, Matjaž Mihelj, Marko Munih: Introduction to Robotics, Springer Dordrecht Heidelberg New York London, 2013",
+    "Gregor Klančar, Andrej Zdešar, Sašo Blažič, Igor Škrjanc: Wheeled Mobile Robotics, Butterworth-Heinemann, 2017",
+    "Morgan Quigley, Brian Gerkey, William D. Smart: Programming Robots with ROS, O'Reilly Media, 2015"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Univerza v Ljubljani",
+  "institution_slug": "ec_si_ljublja01",
+  "degree": "Mechanical Engineering (2nd cycle, Erasmus+ subjects, Research and Development programme)",
+  "course_code": "6055-M",
+  "academic_year": "2026/27",
+  "source_url": "https://www.fs.uni-lj.si/wp-content/uploads/2026/06/ERASMUS-1.pdf",
+  "source_language": "en",
+  "source_sha256": "867b42bea575062b62a567e423c4aee0b217a42cb0bc15000ef96d8938f3aeb6",
+  "extracted_at": "2026-11-20T09:25:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

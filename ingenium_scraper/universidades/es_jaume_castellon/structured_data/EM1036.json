@@ -1,0 +1,183 @@
+{
+  "course_name_original": "Dinàmica de Màquines i Vibracions (EM1036)",
+  "course_name_en": "Dynamics of Machines and Vibrations",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra",
+    "EM1002 - Càlcul I",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica",
+    "EM1011 - Estadística i Optimització",
+    "EM1012 - Mecànica de Màquines i Estructures",
+    "EM1013 - Electrotècnia",
+    "EM1014 - Enginyeria Tèrmica",
+    "EM1015 - Ciència i Tecnologia de Materials",
+    "EM1016 - Mecànica de Fluids",
+    "EM1017 - Empresa",
+    "EM1018 - Electrònica",
+    "EM1019 - Elasticitat i Resistència de Materials",
+    "EM1020 - Teoria de Màquines i Mecanismes",
+    "EM1021 - Disseny de Màquines",
+    "EM1022 - Màquines i Instal·lacions Tèrmiques",
+    "EM1023 - Sistemes Automàtics",
+    "EM1024 - Sistemes de Producció Industrial",
+    "EM1025 - Enginyeria Gràfica",
+    "EM1026 - Teoria d'Estructures",
+    "EM1027 - Estructures i Construccions Industrials",
+    "EM1028 - Màquines i Instal·lacions de Fluids",
+    "EM1029 - Tecnologies de Fabricació"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to organize teamwork for vibration analysis in machines within a set timeframe.",
+      "type": "competence",
+      "code": "CG07"
+    },
+    {
+      "text": "Be able to solve simple problems of dynamic behavior of machines using simple mathematical models, CAE tools and/or experimental vibration measurement.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Know how to use CAE computer resources for dynamic analysis of machines.",
+      "type": "skill",
+      "code": "CG05"
+    },
+    {
+      "text": "Use basic technical terminology of vibrations correctly, in English.",
+      "type": "skill",
+      "code": "CG04"
+    },
+    {
+      "text": "Be able to analyze the dynamic behavior of other machines based on previously solved analyses.",
+      "type": "skill",
+      "code": "CG02"
+    },
+    {
+      "text": "Be able to analyze and design machines and machine elements from the point of view of their dynamic behavior.",
+      "type": "skill",
+      "code": "CG01"
+    },
+    {
+      "text": "Be able to obtain suitable models for solving dynamic problems of simple mechanical systems.",
+      "type": "skill",
+      "code": "CEM02"
+    },
+    {
+      "text": "Be able to explain vibration control techniques and be able to select and size the most appropriate passive dissipation elements.",
+      "type": "skill",
+      "code": "CEM02"
+    },
+    {
+      "text": "Be able to explain the main approximate methods for solving continuous system vibration problems.",
+      "type": "knowledge",
+      "code": "CEM02"
+    },
+    {
+      "text": "Be able to apply vibration measurement techniques in machines and users, and interpret said measurements.",
+      "type": "skill",
+      "code": "CEM02"
+    },
+    {
+      "text": "Be able to solve the equations governing the dynamic behavior of simple mechanical systems.",
+      "type": "skill",
+      "code": "CEM02"
+    },
+    {
+      "text": "Be able to describe the phenomenon of vibrations and explain its effect on machines and on humans.",
+      "type": "knowledge",
+      "code": "CEM02"
+    }
+  ],
+  "syllabus_topics": [
+    "1. Introduction to vibrations in machines",
+    "1.1. What are vibrations and what is their importance?",
+    "1.2. Models for the study of vibrations",
+    "1.3. Definitions",
+    "1.4. Transformation to the frequency domain",
+    "2. Vibration of single degree of freedom systems",
+    "2.1. Free vibration",
+    "2.2. Response to harmonic excitation",
+    "2.3. Response to general excitation",
+    "3. Vibration of N degree of freedom systems",
+    "3.1. Introduction",
+    "3.2. Undamped discrete systems",
+    "3.3. Damped discrete systems",
+    "4. Vibration of continuous systems. Approximate methods",
+    "4.1. Axial and torsional vibration in bars and shafts",
+    "4.2. Bending vibration in beams",
+    "4.3. Energy approximation methods",
+    "4.4. Approximation methods by discretization. The finite element technique",
+    "5. Experimental techniques in vibrations",
+    "5.1. Introduction",
+    "5.2. Transducers",
+    "5.3. Instrumentation for vibration measurement",
+    "5.4. Dynamic tests",
+    "6. Vibration control",
+    "6.1. Introduction",
+    "6.2. Suppression of vibration causes",
+    "6.3. Vibration transmission",
+    "6.4. Vibration control. Isolation",
+    "1. Introduction to vibration measurement: free vibration in 1-DOF systems.",
+    "2. Forced vibration in 1-DOF systems.",
+    "3. Vibration in N-DOF systems: free and forced vibration. FRF.",
+    "4. Vibration in continuous systems. The finite element technique. Temporal dynamic analysis.",
+    "5. Vibration in continuous systems. The finite element technique. Dynamic analysis in the frequency domain.",
+    "6. Sources of vibration in machines.",
+    "7. Isolation."
+  ],
+  "teaching_methods": [
+    "Master class: Exposing theoretical foundations, with multimedia presentations and blackboard support; emphasis on important aspects, doubt resolution, and interactive questioning.",
+    "Flipped classroom: Students access theoretical content (videos, presentations, books) outside the classroom and apply knowledge in practical activities in class with instructor assistance.",
+    "Exercise and problem solving: Instructor intercalates simple problem solving, emphasizing modeling and calculation. Students solve problems in groups in class, discussing results. Autonomous problem-solving with tutorials.",
+    "Laboratory work: Practical teachings using CAE tools for vibration analysis in computer labs and performing vibration measurements on mechanical systems in a laboratory setting.",
+    "Project-based learning: Group work assigned to foster self-learning and teamwork, contributing to continuous assessment. Individual tutorials are available throughout the course."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment: Laboratory practice assignments",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Continuous assessment: Written theoretical-practical knowledge tests",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final exam (First and Second call)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final exam (Extraordinary call for completion of studies)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a global score of at least 5 out of 10 is required. In the first call, a minimum of 4.5 points out of 10 is required for the exam component; if this is not met, the global average cannot exceed 4.5 points. For the second call, the exam represents 70% (40% exam + 30% from continuous assessment written tests) with a minimum of 4.5 points, while laboratory practices (30%) are non-recoverable. Fraud in any continuous assessment activity typically results in a 0 for that activity, and fraud in the final exam results in a 0 for that call.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1036",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1036",
+  "source_language": "ca",
+  "source_sha256": "e2f56f4b95cc30c41052a0d32e0c65065dcc6db1d32e460d37768fe8108c8553",
+  "extracted_at": "2026-11-13T22:37:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,127 @@
+{
+  "course_name_original": "TESTING AND CONTROL OF INTERNAL COMBUSTION ENGINES",
+  "course_name_en": "TESTING AND CONTROL OF INTERNAL COMBUSTION ENGINES",
+  "ects": 6.0,
+  "semester": "AUTUMN SEMESTER",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of Internal Combustion Engines"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course gives the students the proper education and expertise to deal with testing and control of automotive engines. Attention will be given to modeling and optimization techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The students get knowledge of methodologies for experimental data processing; instruments and equipments of engine test bench; measurement of engine parameters, performance and exhaust emissions; development and identification of simulation models oriented to engine control; engine control prototyping.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Implementation and usage of numerical tools for the experimental data analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Powertrain simulation in steady state and transient operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Development of simulation models to be used for engine control design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Skill to setup the most suitable experimental test for model identification/validation and control prototyping.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the most suitable instruments and experimental tests for engine control design depending on final application and requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Skill to apply the gained expertise to different contexts from those presented during the course, with particular reference to experimental and modeling techniques, and to deepen the topics using materials other than those proposed.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to work as part of a team and perform oral presentation on a topic dealing with testing and control of internal combustion engines.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Description of instruments and facilities of the engine test bench",
+    "Layout of engine test bench",
+    "Dynamometers",
+    "Rolling bench",
+    "Engine-dynamometer coupling",
+    "Indicating instruments",
+    "Measurement of pressure, O2, air and flow rate",
+    "HC, CO, NOx, CO2 gas analyzer",
+    "Experimental measurements at the engine test bench",
+    "Engine characteristic curves (torque, power, specific fuel consumption)",
+    "In-cylinder pressure",
+    "Heat release rate",
+    "Exhaust emissions",
+    "Engine control system",
+    "Basics of systems theory applied to ICE",
+    "Evolution of engine control",
+    "Control parameters vs. consumption and emissions",
+    "Control of air-fuel ratio (AFR) and spark advance in Spark Ignition (SI) engines",
+    "Model based control and control system prototyping",
+    "Mean value models for AFR control in SI engines",
+    "Phenomenological models for combustion control in Compression Ignition (CI) engines",
+    "Mean value models for turbocharger and EGR control",
+    "Modeling and control of gas after-treatment systems (TWC, DPF, SCR)",
+    "Simulation analyses in MATLAB/SIMULINK and control prototyping at the engine test bench"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom exercises with use of computers",
+    "Measurements at the engine test bench",
+    "Practical part including examples of calculations with MATLAB-SIMULINK implementation",
+    "Laboratory work for experimental methodologies"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Numerical exercise on PC",
+      "weight_percentage": null
+    },
+    {
+      "method": "Interview",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment will be a numerical exercise on PC followed by an interview. The numerical exercise requires solving an engineering problem based on experimental and simulated engine data. The interview requires defending the problem solution and proving knowledge of theoretical and analytical subjects. The minimum mark is 18 for poor knowledge of experimental tests and relationships between control variables and engine performance. The maximum mark is 30 for high confidence with experimental methodologies and modeling/experimental techniques for engine control system design, with excellence for full knowledge and clear exposition of topics and ability to solve new problems.",
+  "bibliography": [
+    "GUZZELLA. L., ONDER C.H., INTRODUCTION TO MODELING AND CONTROL OF INTERNAL COMBUSTION ENGINE SYSTEMS, SPRINGER-VERLAG BERLIN HEIDELBERG, FOR THE TOPICS RELATED TO ENGINE CONTROL.",
+    "PLINT M., MARTYR A., ENGINE TESTING THEORY AND PRACTICE, BUTTERWORTH-HEINEMANN, OXFORD, FOR THE TOPICS RELATED TO ENGINE TESTING.",
+    "FRANKLIN G.F., POWELL J.D., EMANI-NAEINI A., FEEDBACK CONTROL OF DYNAMIC SYSTEMS, ADDISON-WESLEY PUBLISHING COMPANY.",
+    "HEYWOOD J.B., INTERNAL COMBUSTION ENGINE FUNDAMENTALS, MCGRAW HILL, NEW YORK.",
+    "HANDOUTS AVAILABLE IN THE VIRTUAL CLASS ON MS TEAMS."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Laurea Magistrale en Ingegneria Meccanica (LM-33)",
+  "institution_slug": "ec_i_salerno01__m_mec",
+  "degree": "Laurea Magistrale in Ingegneria Meccanica (Mechanical Engineering), classe LM-33 Classe delle lauree magistrali in Ingegneria meccanica",
+  "course_code": "II22300021",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=521555&ordinamento_aa=2025&af_percorso=10001&corso_cod=500897&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "43055104b9b3b6517d055136c1adad2644f970effb6842e947f27c78dfc63a67",
+  "extracted_at": "2026-11-20T12:46:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

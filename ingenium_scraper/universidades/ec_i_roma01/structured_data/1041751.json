@@ -1,0 +1,116 @@
+{
+  "course_name_original": "ARCHITETTURE DEI CALCOLATORI Canale unico",
+  "course_name_en": "COMPUTER ARCHITECTURES Single channel",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of computer systems."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental principles of numerical representation in computers, including binary numbers, two's complement, and real number representation.",
+      "type": "knowledge",
+      "code": "1"
+    },
+    {
+      "text": "Apply Boolean logic operations to the design and minimization of combinational logic circuits, critically considering timing and glitch issues.",
+      "type": "skill",
+      "code": "1, 2"
+    },
+    {
+      "text": "Design and implement complex combinational circuits (Encoder, Decoder, Multiplexer, Demultiplexer, Adders, Comparators) and sequential networks (Latch, Flip-Flop, Registers), also using PLA and ROM.",
+      "type": "skill",
+      "code": "1, 2"
+    },
+    {
+      "text": "Model and simulate combinational and sequential circuits using Verilog HDL, adopting systematic hardware design methodologies.",
+      "type": "skill",
+      "code": "2, 4"
+    },
+    {
+      "text": "Analyze and design synchronous sequential networks based on finite state machines (Mealy and Moore), managing timing constraints and the clock skew phenomenon.",
+      "type": "skill",
+      "code": "1, 2, 3"
+    },
+    {
+      "text": "Understand the Von Neumann architectural model and distinguish between the main types of Instruction Set Architecture (ISA) such as RISC and CISC.",
+      "type": "knowledge",
+      "code": "1"
+    },
+    {
+      "text": "Interpret RISC-V RV32I and RV64I Assembly language programs, understanding the translation into machine language.",
+      "type": "skill",
+      "code": "1, 2"
+    },
+    {
+      "text": "Design single-cycle, multi-cycle, and pipelined microarchitectures for the RISC-V instruction set, analyzing and managing Data Hazards and Control Hazards.",
+      "type": "skill",
+      "code": "2, 3"
+    },
+    {
+      "text": "Apply branch prediction and speculative execution techniques, critically evaluating their advantages and problems in superscalar processors.",
+      "type": "skill",
+      "code": "1, 3"
+    },
+    {
+      "text": "Develop autonomous learning and continuous updating skills in the field of hardware design and the analysis of architectural vulnerabilities (examples: Meltdown, Spectre, RowHammer).",
+      "type": "competence",
+      "code": "3, 5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course; Meltdown/Spectre/Row-Hammer; binary numbers and IEEE-754; basic logic gates (pMOS/nMOS, CMOS, NAND, tri-state); delay, noise, Moore's Law.",
+    "Boolean logic and combinational circuits (axioms, De Morgan, SoP/PoS, Gray codes, Karnaugh map minimization, mux/decoder/encoder).",
+    "Timing in logic networks (propagation/contamination time), glitch/hazards; ROM/EPROM/EEPROM; comparators, adders (half/full, carry-ripple, carry lookahead), ALU.",
+    "Sequential networks and memory elements (latch, D-latch, D-ff master-slave); registers, shift registers, circular circuits; Moore and Mealy machines; exercises and reversing.",
+    "Timing of sequential circuits (setup/hold, metastability, clock skew); exercises; Verilog (procedural); introduction to ISA (definition, addressing, encoding).",
+    "Design of an ISA (relative/absolute jump, fixed/variable/hybrid encoding); Verilog exercises; introduction to RISC-V ISA (historical notes, extension model).",
+    "RISC-V ISA (calling convention, privileged instructions); single-cycle processor (ld, beq, sd, r-type), limits; high-level pipeline.",
+    "Self-study: videos on drive (indicated minutes); Verilog exercises on HDLbits: Basics, Vectors, Modules: Hierarchy, Procedures, More Verilog Features (first 3); flip-flop (Dff, Dff8, Dff8r, Dff8p, Dff16e); FSM (Lemmings4, Exams/ece241_2014_q5a).",
+    "RISC-V 5-stage pipeline; data hazards with forwarding/bypass; introduction to branch predictor.",
+    "Control hazards and branch prediction (1-bit, 2-bit, GSHARE, BTB); loop unrolling and predication; branch predictor in modern processors; introduction to superscalar/multiple-way.",
+    "Multiple issue, VLIW, dynamic scheduling, out-of-order; A53/i7-920 pipeline; ideal vs real CPI; introduction to memory hierarchies; cache (associativity, write policies, replacement, prefetching).",
+    "Cache (prefetching, performance equations); Virtual Memory; exercises; memory coherence (serializability, linearizability, sequential consistency); Belady's anomaly.",
+    "Exam simulation; guided exercise with solution."
+  ],
+  "teaching_methods": [
+    "Traditional lectures",
+    "Project activities",
+    "Exercises",
+    "Self-study"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (multiple choice questions, short answer questions, problem-solving exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Additional oral exam (for students achieving 30/30)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment consists of a written exam. The passing grade is 18/30, and the maximum possible grade is 30/30. A grade of 'Lode' (cum laude) is awarded in particular cases of complete mastery of the discipline, specifically for students who achieve 30 in the written exam and demonstrate complete and total mastery during an additional oral exam.",
+  "bibliography": [
+    "John L. Hennessy, David A. Patterson -Computer Organization and Design RISC-V Edition",
+    "D. Harris and S. Harris, \"Digital Design and Computer Architecture\". 2nd edition",
+    "John L. Hennessy, David A. Patterson, \"Computer architecture, a quantitative approach\" 6th edition, Morgan Kaufmann."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "1041751",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e3be2337-c826-4055-903f-7f6c3a072764/3/2/d7aad93c-97c0-47b6-936e-aadbf10f89e0/2d1e4ba7-6fb8-4656-adf2-28535f69b20a",
+  "source_language": "it",
+  "source_sha256": "b800ce552c39a19573ee897f457476cce2836b3f2a4b43eba61d2b7fe8601d5e",
+  "extracted_at": "2026-11-20T09:24:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

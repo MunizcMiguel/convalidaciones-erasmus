@@ -1,0 +1,118 @@
+{
+  "course_name_original": "Dynamique des solides",
+  "course_name_en": "Solid Dynamics",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Usual functions",
+    "Derivation, Integration",
+    "Differential equations",
+    "Vector analysis",
+    "Linear algebra",
+    "Dynamics of rigid solids",
+    "MECA1_DSOLI"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Study the movement of systems composed of rigid solids subjected to external loading.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Resolve equations of motion under the small movements hypothesis, including linearization to obtain exact solutions, describing vibrations of linear systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Address the eigenvalue problem in Solid Dynamics, the notion of modes, and modal decomposition of a material system's response under the small movements hypothesis.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Integrate equations of motion in the general case, using numerical time integration schemes (explicit and implicit Euler, Runge Kutta, Newmark) for linear differential equation systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand concepts of explicit and implicit schemes, consistency, stability, and precision.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Implement an iterative scheme at each time step for non-linear differential equation systems with implicit formulation, detailing the resolution algorithm based on rewriting the system incrementally.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be introduced to difficulties arising when differential equations form a constrained differential system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Develop tools to model mechanical systems to better size them, avoiding oversizing in terms of material and motorization.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Account for vibrations in mechanical system modeling to design systems with less impact on the environment and humans.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop modeling tools to foster innovation by facilitating numerical simulation, thus limiting physical experimentation.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Vibrations of linear systems",
+    "Vibrations of single degree of freedom systems",
+    "Vibrations of n degrees of freedom systems",
+    "Time integration of equations of motion",
+    "Time integration of linear systems",
+    "First-order schemes",
+    "Second-order schemes",
+    "Time integration of non-linear systems",
+    "Consideration of constraint equations"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Collective assessment",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Individual assessment",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "M. GERADIN et D. RIXEN. Théorie des Vibrations - Applications à la Dynamique des Structures. MASSON, 1992",
+    "T. GMÜR. Dynamique des Structures : AnalyseModale Numérique. Presses Polytechniques et Universitaires Romandes",
+    "C. SOIZE. Dynamique des Structures - éléments de base et concepts fondamentaux. ELLIPSES, 2001."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Ecole Centrale De Nantes",
+  "institution_slug": "ec_f_nantes07",
+  "degree": "Diplôme d'ingénieur Centrale Nantes, spécialité Mécanique (apprentissage)",
+  "course_code": "MECA2_DSOLI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.ec-nantes.fr/ingenieur-de-specialite/mecanique/syllabus-ei2-spe-meca",
+  "source_language": "fr",
+  "source_sha256": "b07e7b0ff6d4f067e58c6b605fc1ac3542ae6205379c3004964cdae3cffed0df",
+  "extracted_at": "2026-11-18T09:52:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

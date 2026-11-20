@@ -1,0 +1,118 @@
+{
+  "course_name_original": "Computer vision and deep learning",
+  "course_name_en": "Computer Vision and Deep Learning",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear Algebra",
+    "Python programming",
+    "Statistics",
+    "Data structures and algorithms",
+    "Average programming skills in a high-level programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students will learn how to analyse, design, implement, and evaluate any complex computer vision problem. The course covers both image and video processing, including image classification, object detection, object tracking, action recognition, image stylization and synthetic data generation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand various architectures of Convolutional Neural Networks for image classification, object detection, video analysis, and synthetic visual data generation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Solve and analyse a Computer Vision problem using a specific theoretical apparatus.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and develop efficient fine-tuning strategies for increasing the performance of Convolutional Neural Networks with applications in the Computer Vision field.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the metrics used to evaluate complex networks, as well as visualizing the features learned by the networks.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Computer Vision. Overview, history of computer vision and deep learning.",
+    "Image classification pipeline. Image classification pipeline, image features, filters, convolutions, linear classifiers.",
+    "Shallow neural networks. Optimization and loss functions.",
+    "Introduction to convolutional neural networks. Convolutional neural networks architectures. Elements of a convolutional convolutional neural network: convolutional layers, pooling layers, fully connected layer). Architectures: LeNet, AlexNet, VGG, Inception, Resnet.",
+    "Sequential Models, Attention Mechanisms, Transformer Architecture.",
+    "Training a Neural Network. Activation Functions, Weight Initialization, Hyperparameter Tuning, Transfer Learning, Adapters.",
+    "ML-OPS. Data management, monitoring, experiment tracking, deployment.",
+    "Image Segmentation. Transposed Convolutions, Fully Convolutional Networks, U-Net Architecture, SegFormer, DPT.",
+    "Object detection. Object Detection, Region Proposal, ROI Pooling. Convolutional and Transformer-Based Architectures for Object Detection.",
+    "Self-Supervised Learning, Foundation Models. CLIP, BLIP, DINO, SigLIP.",
+    "Video Data Analysis. C3D, I3D, R(2+1)D, SlowFast, TimeSformer, Video Swin Transformer, ViViT, MViT, ActionFormer.",
+    "Generative networks. Generative Adversarial Networks (GAN), Diffusion models. Graph convolutional neural networks. Graphs, Message Passing, Applications in Computer Vision.",
+    "Vision-Language models.",
+    "Exam",
+    "Strategies for solving computer vision problems. Introduction to python and torch.",
+    "Implementing a linear classifier from scratch. Evaluation metrics.",
+    "Optimization algorithms, unbalanced data, data pre-processing, data generators in torch. Convolutional neural networks for classification.",
+    "Transfer learning and fine tuning.",
+    "Semantic segmentation I. Data Processing, Architecture Definition.",
+    "Semantic segmentation II. Architecture Implementation, Training.",
+    "Experiment tracking, Deployment.",
+    "Project Phase 1",
+    "Project Phase 2",
+    "Project Phase 3"
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Didactical demonstration",
+    "Individual and group work",
+    "Dialogue, debate",
+    "Brainstorming"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination at the lecture",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practical project",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Students must prove that they acquired an acceptable level of knowledge and understanding of the core concepts taught in the class and are capable of using this knowledge in a coherent form, establishing connections and solving various computer vision problems. The final grade, which is the average between the written exam and the project, should be at least 5 (no rounding).",
+  "bibliography": [
+    "Goodfellow, Ian, Yoshua Bengio, and Aaron Courville. Deep learning. MIT press, 2016.",
+    "Trask, Andrew. Grokking deep learning. Manning Publications Co., 2019.",
+    "Leonid Berlyand, Pierre-Emmanuel Jabin, Mathematics of Deep Learning, De Gruyter, 2022/",
+    "Prince, Simon JD. Computer vision: models, learning, and inference. Cambridge University Press, 2012.",
+    "Shapiro, Linda G., and George C. Stockman. Computer vision. Prentice Hall, 2001.",
+    "Müller, Andreas C., and Sarah Guido. Introduction to machine learning with Python: a guide for data scientists. \" O'Reilly Media, Inc.\", 2016.",
+    "Richard Szeliski, Computer Vision: Algorithms and Applications, 2nd ed., Springer, 2022.",
+    "François Chollet, Deep Learning with Python. Manning, 2021, 2nd ed.",
+    "https://pytorch.org/docs/stable/index.html",
+    "Gulli, Antonio, and Sujit Pal. Deep learning with Keras. Packt Publishing Ltd, 2017.",
+    "Anderson, John. Hands On Machine Learning with Python. CreateSpace Independent Publishing Platform, 2018.",
+    "https://www.tensorflow.org/api_docs"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5152",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE5152_en_dianaborza_2025_9479.pdf",
+  "source_language": "en",
+  "source_sha256": "7ecde7574d27ec95a791e045e9152ee214594b2dd951ab29b95dbeb249529145",
+  "extracted_at": "2026-11-20T09:08:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

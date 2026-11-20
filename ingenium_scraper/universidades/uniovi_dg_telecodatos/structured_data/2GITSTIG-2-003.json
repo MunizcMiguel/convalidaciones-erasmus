@@ -1,0 +1,149 @@
+{
+  "course_name_original": "Fundamentos de Electrónica Analógica",
+  "course_name_en": "Fundamentals of Analog Electronics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Teoría de circuitos",
+    "Dispositivos electrónicos y fotónicos"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic operating principles of broadband, low-frequency amplifiers, introducing the basic parameters for amplifier evaluation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the basic principles of amplifier feedback and its influence on their characteristic parameters. Also, introduce the student to the analysis and design of low-frequency and radiofrequency oscillators.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the main broadband power amplifier stages.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge and ability to analyze and synthesize the main circuits based on the use of ideal operational amplifiers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the basic operating principles of mixers and phase-locked loops (PLLs).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Define the main characteristic parameters of a signal amplifier circuit.",
+      "type": "skill",
+      "code": "RA-5.14"
+    },
+    {
+      "text": "Quantify the main characteristic parameters of an amplifier stage based on the configuration and operating point of its transistor, the type of coupling chosen, and the design's bandwidth.",
+      "type": "skill",
+      "code": "RA-5.15"
+    },
+    {
+      "text": "Compare different types of broadband power amplifier stages based on their efficiency, gain, and linearity, and perform calculations to ensure proper cooling.",
+      "type": "skill",
+      "code": "RA-5.16"
+    },
+    {
+      "text": "Quantify the main characteristic parameters of an amplifier based on the characteristic parameters of its constituent amplifier stages.",
+      "type": "skill",
+      "code": "RA-5.17"
+    },
+    {
+      "text": "Analyze and quantify the modifications that feedback introduces in the characteristic parameters of an amplifier.",
+      "type": "skill",
+      "code": "RA-5.18"
+    },
+    {
+      "text": "Analyze and quantify the operation of simple circuits with idealized operational amplifiers.",
+      "type": "skill",
+      "code": "RA-5.19"
+    },
+    {
+      "text": "Analyze and quantify the operation of simple analog circuits used in communications electronics, especially three-element reactive sinusoidal oscillators, crystal oscillators, and some examples of passive and active mixers.",
+      "type": "skill",
+      "code": "RA-5.20"
+    },
+    {
+      "text": "Analyze the operation of simple analog-digital mixed circuits used in communications electronics, especially phase-locked loops (PLLs).",
+      "type": "skill",
+      "code": "RA-5.21"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of amplification",
+    "Biasing circuits",
+    "Analysis of amplifiers with transistors",
+    "Frequency analysis of amplifiers",
+    "Amplifier feedback",
+    "Power stages",
+    "Operational Amplifiers",
+    "Oscillators",
+    "Mixers",
+    "Phase Locked Loops (PLLs)"
+  ],
+  "teaching_methods": [
+    "Lectures (PowerPoint presentations and blackboard developments)",
+    "Classroom practices (problem solving)",
+    "Laboratory practices (circuit assembly)",
+    "Group tutorials",
+    "Simulations using LTSpice"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (T3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (T4)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation in practices",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4 out of 10 is required for both the theoretical and practical blocks. The theoretical grade is the maximum of two formulas: Teoría1 = (0.15 * T1) + (0.05 * T2) + (0.15 * T3) + (0.65 * T4) or Teoría2 = 1 * T4. The practical grade is calculated as Prácticas = (0.5 * P1) + (0.5 * PA). The final grade is (4/5 * Teoría) + (1/5 * Prácticas), otherwise it is the minimum of this formula and 4.0. For the extraordinary call, a theoretical exam and a practical exam are held; a minimum of 4 out of 10 is required for each part, and the final grade is calculated using the same 4/5 theoretical and 1/5 practical weighting, otherwise it is the minimum of this formula and 4.0.",
+  "bibliography": [
+    "“Electrónica”, Allan R. Hambley. Editorial: Prentice Hall.",
+    "“Circuitos Microelectrónicos”, Sedra/Smith. Editorial: Reverté.",
+    "\"Circuitos electrónicos discretos e integrados\", D.L. Schilling & C. Belove. Editorial: McGraw-Hill.",
+    "\"Electrónica integrada\", J. Millman & C.C. Halkias. Editorial: Hispano Europea.",
+    "\"Circuitos electrónicos. Análisis, simulación y diseño\", N. R. Malik. Editorial: Prentice Hall.",
+    "“Electrónica de Comunicaciones”, M. Sierra, B. Galocha y J. de la Calle. Editorial: Pearson Prentice Hall. ISBN: 84-205-3674-1. También, servicio de publicaciones de la ETSIT de la UPM"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-003",
+  "source_language": "es",
+  "source_sha256": "992b50d4f077df3b5229151c1b8c1dce89ab5c5f9c4742931576270d0595a1ad",
+  "extracted_at": "2026-11-20T06:05:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

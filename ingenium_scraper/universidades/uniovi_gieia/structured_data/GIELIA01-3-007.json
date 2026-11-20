@@ -1,0 +1,95 @@
+{
+  "course_name_original": "Informática Industrial y Comunicaciones",
+  "course_name_en": "Industrial Computing and Communications",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of Linear Algebra",
+    "Basic notions of Differential and Integral Calculus",
+    "Basic notions of Numerical Methods",
+    "Basic notions of Fundamentals of Computer Science",
+    "Basic notions of Automation and Control",
+    "Basic notions of Control Systems",
+    "Basic notions of Digital Electronic Systems",
+    "Basic notions of Industrial Automation",
+    "Technical reading level in English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Program discrete control systems on digital processors in C language.",
+      "type": "unspecified",
+      "code": "RII-1"
+    },
+    {
+      "text": "Apply the analysis and design of regulators for hybrid control systems in practical cases.",
+      "type": "unspecified",
+      "code": "RII-2"
+    },
+    {
+      "text": "Select the most appropriate control devices for each application.",
+      "type": "unspecified",
+      "code": "RII-3"
+    },
+    {
+      "text": "Make the connection between the digital processor and the other elements involved in control (sensors, actuators, ...).",
+      "type": "unspecified",
+      "code": "RII-4"
+    },
+    {
+      "text": "Perform communications in various formats between control devices.",
+      "type": "unspecified",
+      "code": "RII-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to programming digital control systems.",
+    "Introduction to computers and C language programming.",
+    "C language programming: basic concepts",
+    "C language programming: control structures",
+    "C language programming: arrays, pointers and structures",
+    "Representation of discrete signals and systems in C language",
+    "Event-oriented programming",
+    "Serial and network communications.",
+    "Development of an application example"
+  ],
+  "teaching_methods": [
+    "Expositive classes (Lectures)",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory practice",
+    "Group tutorials",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical or practical exams (written test)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Individual student work (practical work)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The final grade in the ordinary and extraordinary calls is calculated as 0.75 * EV1 + 0.25 * EV2, provided that minimums are met. A minimum of 4.0 out of 10 is required for EV1 (theory and practice exam), and a minimum of 5.0 out of 10 is required for EV2 (individual work). If any minimum is not reached, the final grade will be the minimum between the calculated score and 4.0. If the EV2 minimum is not reached, the course will be failed in the ordinary call.",
+  "bibliography": [
+    "“C. Manual de referencia\". H. Schildt. McGraw-Hill.",
+    "\"The C programming language. ANSI C\". B.W. Kernigham, D.M. Ritchie. Prentice-Hall."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-007",
+  "source_language": "es",
+  "source_sha256": "a085f7947e270c7149450e09428e48589f09e8014b67285c9e4d9f26b5b6bd26",
+  "extracted_at": "2026-11-20T01:13:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,63 @@
+{
+  "course_name_original": "Mécanique des Milieux Continus et Résistance des matériaux",
+  "course_name_en": "Continuum Mechanics and Strength of Materials",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Dimension simple structures (long beam theory) under elementary loads: normal force, bending, torsion.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, stresses, deformations. Stress/deformation relationships, Continuum Mechanics exercises.",
+    "Study of straight beams (tension/compression-bending, torsion).",
+    "Torsion center (flexural-torsional coupling of open sections).",
+    "Principle of Virtual Work.",
+    "Introduction to the Finite Element Method for beams (analytical exercises and ABAQUS simulations).",
+    "Comparison of profiles in bending - deviated bending.",
+    "Strain gauges, curved beam, beam buckling, cylindrical pressure vessel."
+  ],
+  "teaching_methods": [
+    "Course sessions",
+    "Tutorials (Travaux Dirigés)",
+    "Practical work (Essays and FEM simulations)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Collective evaluation (EVC 1)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Individual evaluation (EVI 1)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a collective evaluation (EVC 1) with a coefficient of 0.4 and an individual evaluation (EVI 1) with a coefficient of 0.6. The assessment also includes two written assignments, practical work, and digital practical work using ABAQUS.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Ecole Centrale De Nantes",
+  "institution_slug": "ec_f_nantes07",
+  "degree": "Diplôme d'ingénieur Centrale Nantes, spécialité Mécanique (apprentissage)",
+  "course_code": "MECA2_RDM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.ec-nantes.fr/ingenieur-de-specialite/mecanique/syllabus-ei2-spe-meca",
+  "source_language": "fr",
+  "source_sha256": "3f695e3045b1b0eeb1212dbee40b5a3d9036278bb62bcbf39826bb394e4804d2",
+  "extracted_at": "2026-11-18T09:52:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

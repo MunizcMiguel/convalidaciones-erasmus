@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Simulación Aplicada a Vehículos Híbridos/Eléctricos",
+  "course_name_en": "Applied Simulation to Hybrid/Electric Vehicles",
+  "ects": 3.0,
+  "semester": "First Semestre",
+  "year_of_study": 2,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Successfully completed 60 ECTS corresponding to the first year of the master.",
+    "Enrolment in the subjects corresponding to the scientific-technical research track is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowing the design processes and technologies involved in the practical realization of hybrid / electric.",
+      "type": "knowledge",
+      "code": "RA143"
+    },
+    {
+      "text": "Management of different simulation environments, modeling and analysis of a full or hybrid electric vehicle, taking into account the multidisciplinary nature of the knowledge involved in the system (electrical engineering, electronics, control systems, etc.).",
+      "type": "skill",
+      "code": "RA144"
+    },
+    {
+      "text": "Integrate the various modeling and simulation tools and their integration with other electronic CAD tools (control circuit manufacturing, rapid prototyping, etc.).",
+      "type": "skill",
+      "code": "RA145"
+    },
+    {
+      "text": "Understanding the problem of transients in hybrid / electric, and application of different techniques for their removal.",
+      "type": "knowledge",
+      "code": "RA146"
+    }
+  ],
+  "syllabus_topics": [
+    "Overview. HEV/EV needs and objectives for power conversion.",
+    "An overview on available simulation platforms and their interfaces.",
+    "Dynamic modelling and simulation of traction batteries.",
+    "Simulation of power stages for inductive charging: resonant converters",
+    "Simulation of DC/DC bidirectional power converters.",
+    "Simulation of DC/AC bidirectional power converters.",
+    "Simulation of mechanical subsystems: internal combustion engine (ICE) and vehicle dynamics.",
+    "Multi-domain simulations (electrical/mechanical).",
+    "Simulation of power sharing interfaces for HEV."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Class practice / Seminars",
+    "Laboratory practice / field / computer / languages",
+    "Group tutoring",
+    "Evaluation sessions",
+    "Group work",
+    "Autonomous work",
+    "Class discussions",
+    "Think-pair-share",
+    "Short exercises",
+    "Student debates"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Projects and reports (PR)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Oral presentation (OP)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Exams (EX)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as: Final grade = 0.40 * PR + 0.20 * OP + 0.40 * EX. A minimum mark of 5 out of 10 is required for Projects and reports (PR), Oral presentation (OP), and Exams (EX). If the minimum mark is not achieved in any of these elements, the final grade will be the minimum between 4.0 and the result of the formula. The extraordinary assessment consists of a final exam, a project, and an oral presentation, calculated with the same formula and conditions as the ordinary assessment.",
+  "bibliography": [
+    "P. Thounthong, S. Rael, \"The benefits of hybridization ,\"IEEE Ind. Electron. Maga.,vol. 3, no. 3, pp. , Sep 2009.",
+    "“Modern Electric, Hybrid Electric and Fuel Cell Vehicles; Fundamental, Theory and Design”, 2nd edition. M. Ehsani et Al., CRC Press, 2010",
+    "“Hybrid Vehicles and the future of personal transportation”, A.E. Fuhs, CRC Press, 2009"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (EPI Gijón)",
+  "institution_slug": "uniovi_mm_energia_elec",
+  "degree": "Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (Opción Pathway Ingenium)",
+  "course_code": "MCEESP03-2-013",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/conversionenergia/-/fof/asignatura/MCEESP03-2-013",
+  "source_language": "es",
+  "source_sha256": "c549dd4de2c86ce57406eae99c885612b47cb80fa1a1c5e2710a95c712345f18",
+  "extracted_at": "2026-11-20T05:59:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

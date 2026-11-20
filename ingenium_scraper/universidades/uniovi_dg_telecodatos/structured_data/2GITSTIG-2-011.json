@@ -1,0 +1,168 @@
+{
+  "course_name_original": "Propagación y Radiación",
+  "course_name_en": "Propagation and Radiation",
+  "ects": 9.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Ondas y Electromagnetismo",
+    "Teoría de Circuitos",
+    "Álgebra Lineal",
+    "Ampliación de Cálculo"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of basic subjects and technologies, enabling the learning of new methods and technologies, and providing great versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and to communicate and transmit knowledge, skills and abilities, understanding the ethical and professional responsibility of the Telecommunication Technical Engineer's activity.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, task planning and other similar works in their specific field of telecommunications.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Ability to work in a multidisciplinary group and in a multilingual environment and to communicate, both in writing and orally, knowledge, procedures, results and ideas related to telecommunications and electronics.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Ability to autonomously learn new knowledge and techniques.",
+      "type": "competence",
+      "code": "CR1"
+    },
+    {
+      "text": "Ability to use communication and computer applications to support the development and exploitation of telecommunication networks, services and applications.",
+      "type": "competence",
+      "code": "CR2"
+    },
+    {
+      "text": "Ability to use computer tools for searching bibliographical resources related to telecommunications and electronics.",
+      "type": "competence",
+      "code": "CR3"
+    },
+    {
+      "text": "Ability to understand the mechanisms of propagation and transmission of electromagnetic and acoustic waves, and their corresponding transmitting and receiving devices.",
+      "type": "competence",
+      "code": "CR8"
+    },
+    {
+      "text": "Establish the equations of electromagnetic theory for modeling wave propagation and radiation.",
+      "type": "unspecified",
+      "code": "RA9.1"
+    },
+    {
+      "text": "Obtain and manage the canonical solutions of propagation: plane, cylindrical and spherical wave.",
+      "type": "unspecified",
+      "code": "RA9.2"
+    },
+    {
+      "text": "Specify the characteristics and parameters of electromagnetic propagation as a function of the transmission medium.",
+      "type": "unspecified",
+      "code": "RA9.3"
+    },
+    {
+      "text": "Analyze the effects of reflection and transmission of electromagnetic waves and interpret their behavior.",
+      "type": "unspecified",
+      "code": "RA9.5"
+    },
+    {
+      "text": "Establish the equations for modeling the generation and propagation of acoustic waves.",
+      "type": "unspecified",
+      "code": "RA9.6"
+    },
+    {
+      "text": "Analyze the effects of reflection and transmission of acoustic waves and interpret their behavior.",
+      "type": "unspecified",
+      "code": "RA9.7"
+    },
+    {
+      "text": "Analyze the propagation modes in a guided system.",
+      "type": "unspecified",
+      "code": "RA9.14"
+    }
+  ],
+  "syllabus_topics": [
+    "MODULE 1: Propagation in Transmission Lines (LdTs)",
+    "Topic 1. LdT Modeling.",
+    "Topic 2. Analysis of LdTs in permanent sinusoidal regime.",
+    "Topic 3. LdTs with losses.",
+    "Topic 4. Smith Chart. Impedance matching.",
+    "PROJECT 1: Study and characterization of transmission lines.",
+    "Classroom Practices and Laboratory Practices working on Module 1 contents.",
+    "MODULE 2: Plane Wave Propagation (OPs)",
+    "Topic 5. OP solution to Maxwell's equations.",
+    "Topic 6. Incidence of OPs on flat obstacles.",
+    "Topic 7. Fundamentals of radiation.",
+    "Topic 8. Acoustic Waves.",
+    "PROJECT 2: Plane Wave Propagation.",
+    "Classroom Practices and Laboratory Practices working on Module 2 contents.",
+    "MODULE 3: Introduction to metallic Waveguides",
+    "Topic 9. Parallel plate waveguide.",
+    "PROJECT 3: Propagation in Waveguides.",
+    "Classroom Practices and Laboratory Practices working on Module 3 contents."
+  ],
+  "teaching_methods": [
+    "Expository Classes",
+    "Group Tutorials",
+    "Classroom Practices/Seminars",
+    "Laboratory Practices",
+    "Problem solving",
+    "Data analysis",
+    "Study of concepts"
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 87.0,
+  "assessment_methods": [
+    {
+      "method": "Project 1 evaluation test (P1)",
+      "weight_percentage": 13.0
+    },
+    {
+      "method": "Project 2 evaluation test (P2)",
+      "weight_percentage": 13.0
+    },
+    {
+      "method": "Project 3 task submission (P3)",
+      "weight_percentage": 4.0
+    },
+    {
+      "method": "Final Exam (EX)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "The final grade in the ordinary call is calculated as 0.13*P1 + 0.13*P2 + 0.04*P3 + 0.7*EX. The extraordinary call consists of a single exam evaluating all course content, and the grade will be that obtained in this exam. Students who cannot participate in the described evaluation process must request differentiated evaluation, adapting the procedure according to university regulations. The teaching staff may request a face-to-face defense of any assessable test if there are doubts about authorship or the use of unauthorized means.",
+  "bibliography": [
+    "U.S. Inan, A.S. Inan, “Engineering Electromagnetics”, Ed. Addison Wesley, 1998.",
+    "U.S. Inan, A.S. Inan, “Electromagnetic Waves”, Ed. Prentice Hall, 2000.",
+    "D.K. Cheng, \"Field and Wave Electromagnetics\", Addison-Wesley, 1989 (2ª ed.).",
+    "P. Otero Roth, “Fundamentos de propagación de ondas”, Universidad de Málaga-Servicio de Publicaciones, 2015.",
+    "R. Boloix Tortosa, E.M. Arias de Reyna, “Problemas de ondas planas y medios de transmisión”, Universidad de Sevilla-Secretariado de Publicaciones, 2014.",
+    "F. Dios, D. Artigas et al., “Campos Electromagnéticos”, Edicions UPC, 1998.",
+    "A. Cardama, L. Jofre, J.M. Rius, J. Romeu, S. Blanch, “Antenas”, Edicions UPC, 2002 (2ª ed.).",
+    "C.A. Balanis, “Antenna Theory: Analysis and Design”, Ed. Wiley-Blackwell, 2005 (3ª ed.).",
+    "L.E. Kinsler, A.R. Frey, A.B. Coppens, J.V. Sanders, “Fundamentos de Acústica”, Ed. Limusa, 1988.",
+    "P. Otero, J.F. Paris, “Elementos de Electromagnetismo y Acústica”, Universidad de Málaga-Servicio de Publicaciones, 2012.",
+    "R.E. Collin, “Foundations for microwave engineering”, Wiley-IEEE Press, 2000 (2ª ed)."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-011",
+  "source_language": "es",
+  "source_sha256": "e4a42c189d67ad328320b9aec54ea1a5fda0c5432b31280bbc09e2f053971b62",
+  "extracted_at": "2026-11-20T06:05:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

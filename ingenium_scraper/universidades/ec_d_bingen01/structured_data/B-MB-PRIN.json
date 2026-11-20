@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Programmieranwendungen für Ingenieure",
+  "course_name_en": "Programming Applications for Engineers",
+  "ects": 3.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Technische Mechanik",
+    "Mathematik"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Participants can implement simple programming applications and understand the steps from idea/question to model and then program-technical realization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can implement algorithms for mathematical-mechanical problems and have a feel for the effort of numerical solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are familiar with error estimations and the significance of the advantages and disadvantages as well as the limits of numerical methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They are familiar with data transfer to and from various program systems, including cloud solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through documentation and scientific presentation of results, participants are able to create and describe tables and graphs.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of programming languages, \"1x1 of implementation\"",
+    "Basics of data transfer to and from various programming systems: MATLAB, EXCEL, PYTHON, …",
+    "Discretization of space and time",
+    "Solving simple, ordinary ODEs: Temperature distribution, oscillation equation, bending beam using explicit/implicit integration, RUNGE-KUTTA method",
+    "Optimization / Minimization methods",
+    "Modal analysis, damper tuning (methods for eigenvalue calculation, collocation method)",
+    "Solving \"large equation systems\"",
+    "Optional: scientific documentation with LaTeX"
+  ],
+  "teaching_methods": [
+    "Lectures including computer exercises"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project assignments",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded based on elaborated and evaluated project assignments. The grade's contribution to the final grade is weighted by credit points.",
+  "bibliography": [
+    "Baaser: OLAT-online-Skript",
+    "Gross / Hauger / Schnell / Wriggers „Technische Mechanik 4“, Springer",
+    "Ferziger “Numerical Methods for Engineering Applications”"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-PRIN",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "0bef1fa086b15f8cdac7888cce898f41fc41fa2e4579a97b8dde40ec157047f8",
+  "extracted_at": "2026-11-20T09:21:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

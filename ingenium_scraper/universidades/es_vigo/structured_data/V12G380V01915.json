@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Diseño mecánico asistido",
+  "course_name_en": "Computer-Aided Mechanical Design",
+  "ects": 6.0,
+  "semester": "2c",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Teoría de máquinas y mecanismos/V12G380V01306",
+    "Diseño de máquinas I/V12G380V01304",
+    "Diseño de máquinas II/V12G380V01911",
+    "All subjects from lower years must be passed or currently enrolled in."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and apply computational 2D and 3D modeling techniques to mechanical design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and apply computational techniques for generating documentation for manufacturing, assembly, and operation of machines and industrial constructions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and apply computational techniques for classic machine design calculations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and apply computational numerical analysis techniques in machine design.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCCION AL DISEÑO ASISTIDO: CALCULO COMPUTACIONAL APLICADO AL DISEÑO MECANICO.",
+    "MODELADO COMPUTACIONAL DE UN SISTEMA MECANICO: COMPONENTES BASICOS DE UN SISTEMA.",
+    "MODELADO COMPUTACIONAL DE UN SISTEMA MECANICO: MODELADO DE SOLIDOS.",
+    "MODELADO COMPUTACIONAL DE UN SISTEMA MECANICO: MODELADO DE LIGADURAS GEOMETRICAS.",
+    "MODELADO COMPUTACIONAL DE UN SISTEMA MECANICO: MODELADO DE FUERZAS.",
+    "MODELADO COMPUTACIONAL DE UN SISTEMA MECANICO: FUERZAS DE LIGADURA. MULTIPLICADORES DE LAGRANGE.",
+    "CINEMATICA COMPUTACIONAL: ANALISIS DE LOS MECANISMOS POR ORDENADOR.",
+    "CINEMATICA COMPUTACIONAL: DETERMINACION DE LA POSICION, VELOCIDAD Y ACELERACION.",
+    "CINEMATICA COMPUTACIONAL: EL PROBLEMA DE LA CONDICION INICIAL.",
+    "CINEMATICA COMPUTACIONAL: METODOS NUMERICOS DE RESOLUCION.",
+    "DINAMICA COMPUTACIONAL: FUNDAMENTOS Y BASES PREVIAS.",
+    "DINAMICA COMPUTACIONAL: DINAMICA 2-D Y 3-D.",
+    "DINAMICA COMPUTACIONAL: SISTEMA ALGEBRAICO-DIDERENCIAL.",
+    "DINAMICA COMPUTACIONAL: MODELADO DE RESISTENCIAS PASIVAS.",
+    "DINAMICA COMPUTACIONAL: MOTOR DE INTAGRACION.METODOS DE PASO CTE. Y PASO VARIABLE.",
+    "DINAMICA COMPUTACIONAL: ANALISIS DINAMICO DEL MOVIMIENTO EN EL ENTORNO DEL EQUILIBRIO.",
+    "DINAMICA COMPUTACIONAL: DETERMINACION DE LA MATRIZ INERCIA, ELASTICA Y AMORTIGUACION.",
+    "DINAMICA COMPUTACIONAL: DINAMICA DEL IMPACTO.",
+    "DINAMICA COMPUTACIONAL: DINAMICA DEL CONTACTO.",
+    "METODO DE LOS ELEMENTOS FINITOS: COORDENADAS NODALES.",
+    "METODO DE LOS ELEMENTOS FINITOS: ECUACIONES Y DEFINICION DE ELEMENTOS.",
+    "METODO DE LOS ELEMENTOS FINITOS: CONECTIVIDAD ENTRE ELEMENTOS.",
+    "METODO DE LOS ELEMENTOS FINITOS: IMPOSICION DE LIGADURAS.",
+    "METODO DE LOS ELEMENTOS FINITOS: DETERMINACION DE LA MATRIZ INERCIA, ELASTICA Y AMOTIGUAMIENTO."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 155.0,
+  "workload_hours_contact": 51.0,
+  "assessment_methods": [
+    {
+      "method": "Development questions exam",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practice report, practicum and external practices report",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Problem and/or exercise solving",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The course is passed if a final grade equal to or greater than five is obtained, considering lab attendance, practice reports, and supervised work. Part of the exam may be replaced by additional activities and/or assignments. Students not following continuous assessment will take a different exam covering all course material. Unethical behavior (copying, plagiarism, unauthorized electronic devices, etc.) will result in a failing grade of 0.0 for the academic year.",
+  "bibliography": [
+    "AHMED A. SHABANA, DYNAMICS OF MULTIBODY SYSTEMS , 1998,",
+    "P.NIKRAVESH, PLANAR MULTIBODY DYNAMICS , 2008,"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01915",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01915&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "15549426002a923f4e643cc052a23d3ba0cccc39ca61e9b79291c65c66a71e69",
+  "extracted_at": "2026-11-18T02:56:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

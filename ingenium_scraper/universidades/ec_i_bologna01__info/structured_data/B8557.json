@@ -1,0 +1,117 @@
+{
+  "course_name_original": "BASI DI DATI T (B8557)",
+  "course_name_en": "DATABASE FUNDAMENTALS T (B8557)",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the key concepts related to relational databases and database management systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Have a thorough understanding of SQL and relational algebra and know how to use these languages to extract information of interest.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the principles underlying database design and the Entity-Relationship conceptual model, and how schemas expressed in this model can be represented in various relational forms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to recognize and enforce data constraints of arbitrary complexity and manage data access through authorization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the problems associated with concurrent transaction execution and how to avoid them.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Database Management Systems (DBMSs) Information Systems and the role of DBMSs",
+    "Basic functionalities of DBMSs: 3-tier architecture, languages, access and concurrency control, fault tolerance",
+    "The Relational Data Model Basic concepts: domains, attributes, tuples and relations, 1NF relations, null values",
+    "Data constraints: on domains, tuples, keys, referential integrity",
+    "The Relational Algebra Unary operators: selection, projection, and renaming",
+    "Binary operators: natural join, union, and difference",
+    "Derived operators: intersection, theta-join, and division",
+    "Algebra with null values: 3-valued logic, outer join",
+    "Expressions and basic equivalence rules",
+    "The SQL (Structured Query Language) Language Data definition language (DDL) and definition of constraints",
+    "The \"Select-From-Where\" block",
+    "Ordering the result",
+    "Insert, delete, and update data",
+    "Aggregate queries",
+    "Nested queries",
+    "Definition of views and recursive queries",
+    "Granting and revoking authorities and privileges",
+    "Triggers",
+    "Transactions",
+    "Data Base Design Data-oriented design",
+    "Design steps",
+    "Conceptual and logical data models",
+    "Basic abstraction primitives",
+    "The Entity-Relationship (E/R) Model Basic elements: entities, relationships, attributes",
+    "Internal and external identifiers",
+    "Hierarchies",
+    "Conceptual Design (hints) Collecting and analyzing requirements",
+    "Design strategies",
+    "Typical design patterns",
+    "Logical Design Mapping entities and relationships onto relational tables",
+    "Restructuring an E/R schema: dropping hierarchies, managing multi-valued attributes, choosing the principal identifiers",
+    "Optimization criteria: Workloads (data volumes and navigation schemas), redundancy analysis, partitioning and merging entities and relationships",
+    "Normalization of Relational Schemas Functional dependencies and data anomalies",
+    "Normal forms (3NF and BCNF)",
+    "Schema decompositions",
+    "Lossless and dependency preservation decompositions",
+    "Functional dependencies and E/R schemas"
+  ],
+  "teaching_methods": [
+    "Classroom lectures with slides",
+    "Classroom exercises led by the instructor",
+    "Practical laboratory exercises using specific software tools (DBMS client and a design tool)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory test (exercises with software tools)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Multiple-choice questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a laboratory test covering the entire course program, including several exercises with fixed scores and multiple-choice questions. The score is based on a 20-point scale, converted to a 33-point scale. A minimum score of 3 points on the first two exercises (out of 8 total points) and at least one correctly answered multiple-choice question are required to pass. The grade earned in a test is valid indefinitely, but taking a new test voids any previously earned grade. The use of personal laptops, tablets, smartphones, or AI tools is prohibited.",
+  "bibliography": [
+    "Copies of lectures' slides (available at http://www-db.disi.unibo.it/courses/BD-T/ and on the Virtuale platform)",
+    "P. Atzeni, S. Ceri, P. Fraternali, S. Paraboschi, R. Torlone: Basi di Dati [https://www.mheducation.it/basi-di-dati-6-ed-con-connect-9788838656545-italy], 6/ed McGraw-Hill, 2023"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Ingegneria informatica",
+  "institution_slug": "ec_i_bologna01__info",
+  "degree": "Ingegneria informatica (Laurea, L-8, Bologna)",
+  "course_code": "B8557",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/543019",
+  "source_language": "en",
+  "source_sha256": "14d4ac4929a58ebed74950a0b2cd25c6128f58d46ad212e9f3f0ac0c0a545579",
+  "extracted_at": "2026-11-20T12:44:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

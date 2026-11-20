@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Transferência de Calor",
+  "course_name_en": "Heat Transfer",
+  "ects": 6.0,
+  "semester": "2S",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Fundamental knowledge in Mathematics",
+    "Algebra",
+    "Numerical Analysis",
+    "Fluid Mechanics",
+    "Thermodynamics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To understand the mechanisms and modes of heat transfer and to identify the corresponding governing fundamental equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To comprehend the physical phenomena and their modelling through simplified mathematical models.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To provide a first contact with heat transfer experimental techniques.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to perform qualitative and quantitative analyses in cases where relatively simple analytical solutions or simplified correlations exist.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To use quantitative analysis tools in design situations, through the use of supporting calculation means.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to understand and interpret the phenomena involving heat transfer processes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to develop quantitative analysis of processes, though analytical methods involving experimental correlations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Being able to apply the knowledge in the analysis and design of equipment, regarding temperature distributions and heat fluxes.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Heat Transfer mechanisms and modes: difference between the Heat Transfer and the Thermodynamics approaches; simple cases of conduction, convection and radiation; notion of thermal resistance.",
+    "Conduction: Fourier equation; thermal conductivity and diffusivity; general conduction equation; steady unidimensional conduction (plane wall, cylinder and sphere, without and with internal generation, fins); brief introduction to numerical solutions for multidimensional steady conduction; transient conduction (global system, unidimensional analytical solutions for plane wall, cylinder and sphere).",
+    "Convection: energy equation for fluid flow; dimensionless numbers; convection coefficient; internal and external flows and their correlations; natural convection in simple geometries (plate, cylinder, rectangular cavity) and correlations.",
+    "Phase change: film condensation outside plane walls and tubes, and their correlations; pool boiling: regimes and correlations.",
+    "Radiation: electromagnetic and thermal radiation; fundamental concepts; black body and its properties; radiative properties of materials; radiation exchanges in a non-participating media (radiosity, view factor and balances); combined radiation and convection; radiation shields; electrical analogy and its limitations.",
+    "Heat exchangers: types and geometry; mean log temperature difference and efficiency; efficiency-NTU relationships for different geometries."
+  ],
+  "teaching_methods": [
+    "Theoretical-practical sessions to explain concepts and equations and analyze practical examples",
+    "Weekly session to assist in the solution of practical problems",
+    "Laboratory practice with 2 group works followed by a questionnaire"
+  ],
+  "workload_hours_total": 162.5,
+  "workload_hours_contact": 62.5,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Intermediate test",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Normal distributed evaluation consists of laboratory works (10%), an intermediate test (40%), and a final exam (50% or 90% if overrunning the intermediate test). Recurso/RUN-UP and special exams are 100% based on the final exam. All duly registered students with over 75% registered attendance are admitted to exams. Classification improvement is possible via a Recurso exam.",
+  "bibliography": [
+    "Bergman, T. L., Lavine, A. S., Incropera, F. P. and DEWitt, D. P.; Fundamentals of heat and mass transfer, John Wiley and Sons, 2011. ISBN: 978-0470-50197-9 (most recent edition of the recommended text)",
+    "Vrios; Enunciados dos Problemas para Aulas Prticas",
+    "Armando C. Oliveira; Transferncia de Calor: um Guia para a Resoluo de Problemas Prticos, Autor/FEUP, 2022. ISBN: 978-989-33-2674-9",
+    "engel, Yunus A.; Heat Transfer - A Practical Approach, McGraw Hill, 2002. ISBN: 0-07-011505-2"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM028",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560372",
+  "source_language": "en",
+  "source_sha256": "5eb9948ba76e69651294242537c9fc3b0b470d89c579d2574e585fd406a10d21",
+  "extracted_at": "2026-11-18T04:11:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

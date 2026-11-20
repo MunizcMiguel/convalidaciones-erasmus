@@ -1,0 +1,180 @@
+{
+  "course_name_original": "XG MOBILE NETWORKS (IA/0296)",
+  "course_name_en": "XG MOBILE NETWORKS",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Understanding and ability to use technical-scientific language, especially regarding physics and mathematics",
+    "Ability to use/learn basic tools and software for scientific calculation",
+    "Knowing how to present concepts and information in oral, written and graphic form",
+    "Knowing how to organize activities throughout the day and plan a medium-term work/study plan",
+    "Fourier Transform",
+    "Signal Theory",
+    "Probability Theory",
+    "Ability to define the connection between physical phenomena, their properties and their representation both mathematically and in graphic form."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and evaluate the main cellular communication systems, starting from first generation systems, up to providing some information on future 6G systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze the main simulation tools for mobile radio networks.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and understand the architecture (components and functionality) of mobile radio networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the operating mechanisms of the modulation systems used.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the main activities carried out for the design and management of a mobile radio network.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze the behavior of a mobile radio network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to identify the characteristics of a mobile radio network in order to design a part of it to meet the specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to use the methodologies to correctly configure a mobile radio network based on the characteristics of the channel.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to apply the tools and criteria for the analysis of the properties of mobile radio networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to define the parameters of a mobile radio network based on standard specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design advanced digital telecommunication systems and understand the project specifications required for the creation of mobile radio networks and provide adequate solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the main solutions currently existing for cellular networks in terms of network architecture, protocols, interfaces, procedures and management of radio resources.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to organically illustrate the interdependence of the different modules that make up a mobile radio network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently understand the technical documentation made available by the communities of telecommunication system manufacturers and by the main companies producing development software with particular reference to radio frequency systems for mobile radio networks.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Notes on radio propagation and fading",
+    "Multipath and Doppler effect",
+    "“Slow” and “Fast” fading",
+    "Selective fading in frequency and time",
+    "Rayleigh and Rice fading",
+    "Digital modulations: Single carrier ASK, PSK, FSK, QAM, APSK, OQPSK, p/4 QPSK, CPM, MSK, GMSK",
+    "Multiple carrier OFDM",
+    "Notes on radio access techniques, radio channel allocation, multiplexing and medium access techniques: TDM/TDMA",
+    "FDM/FDMA",
+    "CDM/CDMA",
+    "OFDM/OFDMA",
+    "The GSM system: Specifications, architecture",
+    "Protocol with particular attention to GSM level 2 and level 3",
+    "GSM Handover, Location Update, Connection set-up, Data transmission and Rate adaptation",
+    "GSM channels",
+    "GSM system services",
+    "GPRS system: System specifications and architecture",
+    "GPRS protocol",
+    "Quality of Service management in GPRS",
+    "GPRS channels",
+    "EGPRS",
+    "EDGE",
+    "UMTS system: Standardization",
+    "Architecture",
+    "UMTS UTRAN",
+    "UMTS Core Network",
+    "UMTS protocol: physical layer, data link layer, network layer",
+    "QoS management in UMTS",
+    "MBMS system",
+    "HSDPA",
+    "HSUPA",
+    "LTE system: LTE standardization",
+    "Architecture",
+    "Radio resources management",
+    "LTE-A system",
+    "eMBMS",
+    "Introduction to the concept of 5G systems: 5G for vertical industries",
+    "5G standardization in 3GPP",
+    "ITU-R IMT2020 and KPIs",
+    "Multicast/Broadcast on 5G networks",
+    "5G spectrum auctions and new use cases",
+    "Dense Networks (DenseNet)",
+    "Device to Device (D2D) communications",
+    "Machine Type Communications (MTC)",
+    "Introduction to the concept of 6G systems: Motivation",
+    "6G application scenarios",
+    "6G Verticals",
+    "6G Architecture",
+    "Intelligent Endogenous Networks (AI)"
+  ],
+  "teaching_methods": [
+    "Lectures with graphic presentations",
+    "Exercises based on LabVIEW simulation software",
+    "Practical exercises on hardware systems (spectrum analyzers, signal generators, SDR card antennas)"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Projects during the course",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (open-ended questions, numerical exercises)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is obtained as the sum of the scores obtained in each question of the oral exam (maximum 22/30) and the score assigned to the in-progress project (maximum 10/30). The maximum total score for the test is 32. Those who obtain an overall score of 32 will receive a grade of 30 cum laude. Errors due to distraction or misunderstandings will have a lower weight than conceptual errors.",
+  "bibliography": [
+    "S.Benedetto, E. Biglieri, Principles of Digital Transmission, Kluwer.",
+    "A.B.Carlson, Communication Systems, McGraw-Hill.",
+    "BERNHARD H. WALKE, Mobile Radio Networks, John Wiley and Sons.",
+    "S. HOLMA, A. TOSKALA, WCDMA for UMTS, John Wiley and Sons.",
+    "R. STEELE, L. HANZO, Mobile Radio Communications, John Wiley and Sons."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IA/0296",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=21677&ordinamento_aa=2022&af_percorso=3&corso_cod=11037&corso_aa=2023",
+  "source_language": "en",
+  "source_sha256": "da98459154b6d0df5d7cf54871d46138b3a1339ae066070eb230f51b1d4eff9c",
+  "extracted_at": "2026-11-20T12:43:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

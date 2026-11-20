@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Sterkteleer 2",
+  "course_name_en": "Strength of Materials 2",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Applied Mechanics Part 2",
+    "Strength of Materials 1: ability to calculate internal forces or sectional forces for statically determinate beam structures",
+    "Strength of Materials 1: knowledge of basic concepts of continuum mechanics, especially stress and deformation, and the general problem statement of continuum mechanics",
+    "Strength of Materials 1: ability to determine stresses and deformations for simple cross-sections for each type of elementary sectional force (normal force, shear force, bending moment, and torsional moment)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student knows the relationship between stresses at a point and can apply simple limit stress hypotheses for ductile (steel, ...) and brittle materials (concrete, soil, ...).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to determine the deformations and stresses across the cross-section for (a combination of) the four elementary sectional forces (normal force, bending, shear force, torsion) for heterogeneous or composite (steel-concrete composites), massive or thin-walled cross-sections.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student knows the principle of virtual work and can apply it to calculate displacements in isostatic structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to analyze the buckling of a column or the lateral torsional buckling of a beam.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can calculate the stresses in a structure due to impact loading.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Mohr's circle, principal stresses at a point",
+    "Yield criteria for ductile materials (Tresca-Guest, von Mises)",
+    "Fracture criteria for brittle materials (Rankine, Mohr-Coulomb)",
+    "(Partial) plastic deformation of cross-sections loaded in bending",
+    "Principle of virtual work and Maxwell-Betti reciprocity theorem",
+    "Calculation of displacements in structures",
+    "Stress distribution in arbitrary cross-sections for elementary sectional forces",
+    "Heterogeneous or composite cross-sections (e.g., reinforced concrete)",
+    "Skew bending analysis",
+    "Stresses in thin-walled cross-sections due to shear and torsion",
+    "Elastic instability of structural elements (buckling and lateral torsional buckling)",
+    "Analysis of cable structures",
+    "Impact loading",
+    "The circle of Mohr: relationships between stresses at a point",
+    "Limit stress hypotheses for ductile and brittle materials",
+    "Plastic deformations: plastic yielding of the cross-section in bending",
+    "Composite cross-sections: analysis of stresses and deformations for elementary sectional forces",
+    "Calculation of displacements in structures using energy conservation and virtual work",
+    "Composite bending - also of materials without tensile strength",
+    "Shear and torsion of arbitrary thin-walled cross-sections",
+    "Cables",
+    "Elastic instability",
+    "Impact loading"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 61.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam during the examination period (open questions, exercises, limited theory questions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam will consist of assignments (exercises, limited theory questions) to assess the insight into the stress distribution and deformation behavior of beam constructions. Allowed learning materials include a formula sheet and a calculator.",
+  "bibliography": [
+    "Course text",
+    "Slides",
+    "Exercise bundle"
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H0H06A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H0H06AN",
+  "source_language": "nl",
+  "source_sha256": "456179a6358828f71b00eb167bcffcb74f9050622380b877be87bb46931263e1",
+  "extracted_at": "2026-11-20T09:19:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

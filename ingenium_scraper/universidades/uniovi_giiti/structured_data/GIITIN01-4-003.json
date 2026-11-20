@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Informática Móvil",
+  "course_name_en": "Mobile Computing",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Computadores y Redes",
+    "Metodología de la Programación",
+    "Sistemas Operativos",
+    "Sistemas Distribuidos"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to state and solve the specific problems posed by mobile devices and environments.",
+      "type": "competence",
+      "code": "GTR1"
+    },
+    {
+      "text": "Be able to model the problems of mobile applications both in their internal complexity and in their mobility-related issues.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Be able to design services based on mobile devices and integrate them into the service hierarchy of an organization.",
+      "type": "competence",
+      "code": "PF24"
+    },
+    {
+      "text": "Understand mobile device technologies, as well as their limitations.",
+      "type": "competence",
+      "code": "PF25"
+    },
+    {
+      "text": "Be able to develop service clients on mobile devices.",
+      "type": "competence",
+      "code": "PF26"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to mobile devices: smartphones and tablets. The Android application development environment. Basic components of Android applications: Activities, Services, Broadcast Receivers, and content providers.",
+    "Activity lifecycle. Applications, processes, and Activities.",
+    "Adaptation to different platforms: languages, sizes, formats.",
+    "Basic navigation within an application. Navigation component.",
+    "Information storage: files and databases (ROOM). Internal and external storage. Permission management. Specific storage. Settings and preferences.",
+    "Adaptive design. Adaptive design patterns. Compatibility libraries.",
+    "Application architecture. MVC, MVP, MVVM models. UDF paradigm. Reactive programming.",
+    "Network access. Communications: WAN, LAN, and PAN (bluetooth).",
+    "Inter-process communication I: Intents and filters. Notifications.",
+    "Inter-process communication II: Broadcast Receivers. Pending intents.",
+    "Services. Background tasks.",
+    "Images and rescalable resources. Animations: frame-by-frame, Tween animations, and property animations. Transition and Layout animations.",
+    "Content Providers. Clients and servers. Unprivileged access.",
+    "Hardware and software sensors. Location services.",
+    "Platform services. Google Play Services. AOSP. Application distribution and commercialization: markets, statistics, encryption, and distribution and upload key management. Other development platforms.",
+    "Introduction to Kotlin language. Introduction to the development environment. Basic interface: composable functions.",
+    "Activities and Tasks. Basic interface. Interface state.",
+    "Adaptation to various platforms I: Language, appearance, and version.",
+    "Adaptation to various platforms II: Canonical Layouts.",
+    "Navigation between application elements. Navigation component.",
+    "Persistence. The DAO Room.",
+    "Application Architecture. MVVM Model.",
+    "Connectivity and the cloud. JSON and XML data processing.",
+    "Communication between applications.",
+    "Notifications.",
+    "Wear OS applications.",
+    "Widgets.",
+    "Services. Foreground services.",
+    "Graphics and animations.",
+    "Content Providers.",
+    "Sensors and GPS localization.",
+    "Platform Services. Application testing."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practices",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Individual work",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "To pass the course in the ordinary evaluation, the sum of the scores from the different sections must be equal to or greater than 5. The score for the theory part will be obtained throughout the course. Students requiring differentiated evaluation due to inability to complete the theory part will substitute it with an oral exam during the personal project presentation. In extraordinary calls, the weight of the different parts will remain the same. Fraudulent conduct in any evaluation test will result in a 0-Fail grade for that call.",
+  "bibliography": [
+    "Bill Phillips, Brian Hardy, Android Programming: The Big Nerd Ranch Guide (Big Nerd Ranch Guides, 2013) ISBN: 978-0321804334.",
+    "Reto Meier, Professional Android 4 Application Development (Wrox, 2012). ISBN: 978-1118102275.",
+    "Juhani Lehtimäki, Smashing Android UI: Responsive user interfaces and design patterns for android phones and tables (John Wiley & Sons, 2013) ISBN: 978-1-118-38728-3",
+    "Zigurd Mednieks, Laird Dornin, G. Blake Meike, and Masumi Nakamura, Programming Android, Second Edition (O’Reilly 2012) ISBN: 978-1-449-31664-8",
+    "http://developer.android.com/develop/index.html, Android application development guide. Google Inc."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-4-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-4-003",
+  "source_language": "es",
+  "source_sha256": "4facd04fc672412e31e7e514bae01cbc88ede62b87e2b4a9445c05f38b4b9318",
+  "extracted_at": "2026-11-20T08:21:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

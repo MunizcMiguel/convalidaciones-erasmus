@@ -1,0 +1,196 @@
+---
+{
+ "course_code": "2GITSTIG-3-004",
+ "course_name": "Servicios de Comunicaciones Básicos",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-004",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:04:36",
+ "content_sha256": "4e1dfd58bb87707593b47c57c4a71667f653ed916d2daf8a7e0a8d0d58839482"
+}
+---
+
+# Servicios de Comunicaciones Básicos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-3-004
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Primer Semestre
+- **Materia:** Sistemas y Servicios de Telecomunicación
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Laboratorio (21 Horas); Prácticas de Aula/Semina (7 Horas); Tutorías Grupales (2 Horas); Clases Expositivas (28 Horas)
+
+## Contextualización
+
+La asignatura de Servicios de Comunicaciones Básicos se imparte en el primer semestre del tercer curso del Grado en Tecnologías y Servicios de Telecomunicación. Se trata de una asignatura perteneciente a la materia de Sistemas y Servicios de Telecomunicación de esta titulación.
+
+La asignatura tiene un carácter eminentemente práctico y pretende desarrollar competencias relacionadas con el nivel de Aplicación de la pila de protocolos TCP/IP, prestando especial atención a los servicios de Internet más populares.
+
+De entre las asignaturas obligatorias de la titulación, es una continuación natural de la asignatura de Arquitectura de Redes y Sistemas de segundo curso, que llega hasta el nivel de transporte en la pila de protocolos TCP/IP. De igual modo, es predecesora natural de la asignatura de Servicios Multimedia e Interactivos que se imparte en el segundo semestre de tercer curso. Por otro lado, es fundamental para múltiples asignaturas del Itinerario de Telemática de esta titulación, como pueden ser Seguridad en Redes y Servicios o Aplicaciones Telemáticas.
+
+## Requisitos
+
+En principio no hay requisitos obligatorios para cursar la asignatura. No obstante, es recomendable haber superado las asignaturas de Fundamentos de Telemática, Arquitectura de Redes y Sistemas y de Programación. Se espera que los estudiantes tengan conocimientos generales sobre el funcionamiento de las redes de computadores, sobre el nivel de transporte de la pila de protocolos TCP/IP y sobre programación orientada a objetos.
+
+## Competencias y resultados del aprendizaje
+
+Se espera que, tras superar la asignatura los estudiantes desarrollen las siguientes competencias generales de forma total o en combinación con otras asignaturas de la titulación:
+
+- CG1. Capacidad para redactar, desarrollar y firmar proyectos en el ámbito de la ingeniería de telecomunicación que tengan por objeto la concepción y el desarrollo o la explotación de redes, servicios y aplicaciones de telecomunicación y electrónica.
+- CG9. Capacidad de trabajar en un grupo multidisciplinar y en un entorno multilingüe y de comunicar, tanto por escrito como de forma oral, conocimientos, procedimientos, resultados e ideas relacionadas con las telecomunicaciones y la electrónica.
+
+De igual modo, se espera que, tras superar la asignatura los estudiantes desarrollen las siguientes competencias de formación de la Rama de Telecomunicación de forma total o en combinación con otras asignaturas de la titulación:
+
+- CR2. Capacidad de utilizar aplicaciones de comunicación e informáticas (ofimáticas, bases de datos, cálculo avanzado, gestión de proyectos, visualización, etc.) para apoyar el desarrollo y explotación de redes, servicios y aplicaciones de telecomunicación y electrónica.
+- CR3. Capacidad para utilizar herramientas informáticas de búsqueda de recursos bibliográficos o de información relacionada con las telecomunicaciones y la electrónica.
+- CR6. Capacidad de concebir, desplegar, organizar y gestionar redes, sistemas, servicios e infraestructuras de telecomunicación en contextos residenciales (hogar, ciudad y comunidades digitales), empresariales o institucionales responsabilizándose de su puesta en marcha y mejora continua, así como conocer su impacto económico y social.
+- CR7. Conocimiento y utilización de los fundamentos de la programación en redes, sistemas y servicios de telecomunicación.
+- CR12. Conocimiento y utilización de los conceptos de arquitectura de red, protocolos e interfaces de comunicaciones
+- CR13. Capacidad de diferenciar los conceptos de redes de acceso y transporte, redes de conmutación de circuitos y de paquetes, redes fijas y móviles, así como los sistemas y aplicaciones de red distribuidos, servicios de voz, datos, audio, video y servicios interactivos y multimedia.
+- CR15. Conocimiento de la normativa y la regulación de las telecomunicaciones en los ámbitos nacional, europeo e internacional.
+
+Las competencias anteriores se desarrollan y particularizan en varios objetivos de aprendizaje que se desglosan a continuación:
+
+- RA-12.14. Conocer y utilizar los fundamentos de la programación en redes y servicios de telecomunicación (CR.7, CR.2, CR.3).
+- RA-12.15. Diseñar prototipos de protocolos de comunicaciones (CR.7, CR.2, CR.3).
+- RA-12.16. Desarrollar programas de servicios de comunicaciones (CR.7, CR.2, CR.3).
+- RA-12.17. Establecer la arquitectura de red apropiadas para el correcto funcionamiento de los servicios de comunicaciones (CR.2, CR.3, CR.6, CR.12).
+- RA-12.18. Seleccionar el protocolo de nivel de transporte más adecuado para una aplicación determinada (CR.3, CR.12).
+- RA-12.19. Identificar problemas de comunicación a nivel de aplicación, así como plantear soluciones adecuadas a los problemas encontrados (CR.2, CR.3, CR.12).
+- RA-12.20. Interpretar, analizar y relacionar las características de los servicios web, servicios de correo electrónico, servicios de nombrado y otros servicios del nivel de aplicación (CR.2, CR.3, CR.6, CR.13, CR.15).
+
+## Contenidos
+
+Los contenidos de la asignatura se estructuran en los 10 temas de contenido teórico y 3 prácticos indicados a continuación:
+
+- T1: Introducción y refresco del nivel de transporte
+- T2: El nivel de aplicación en la pila de protocolos TCP/IP
+- T3: Los servicios web
+- T4: Los servicios de correo electrónico
+- T5: Servicios de terminal remota
+- T6: Servicios de transferencia de ficheros
+- T7: Servicios Básicos: Servicios de nombrado
+- T8: Servicios Básicos: Servicios de autoconfiguración
+- T9: Servicios Básicos: Servicios de sincronización
+- T10: Servicios Básicos: Servicios de directorio
+
+- P1: Fundamentos de la programación en redes y servicios de telecomunicación.
+- P2: Diseño y programación de prototipos de protocolos de comunicaciones.
+- P3: Desarrollo de programas de servicios de comunicaciones orientados a conexión y basados en datagramas.
+
+## Metodología y plan de trabajo
+
+Las actividades docentes del curso son de tipo presencial y no presencial. Las horas presenciales corresponden a actividades tanto de tipo expositivo como prácticas de aula, prácticas de laboratorio y tutorías grupales. En la parte no presencial tendrán especial relevancia las actividades individuales planteadas al alumno y los trabajos en grupo.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula* | *Prácticas de laboratorio* | *Tutorías grupales* | ***Total*** | *Trabajo grupo* | *Trabajo autónomo* | **Total** |
+| T1 | 10 | 4 |  |  |  | 4 |  | 6 | 6 |
+| T2 | 11 | 4 | 1 |  |  | 5 |  | 6 | 6 |
+| T3 | 35 | 9 | 5 |  |  | 14 | 10 | 12 | 21 |
+| T4 | 10 | 4 |  |  |  | 4 |  | 6 | 6 |
+| T5 | 4 | 1 |  |  |  | 1 | 1 | 2 | 3 |
+| T6 | 4 | 1 |  |  |  | 1 | 1 | 2 | 3 |
+| T7 | 7 | 2 | 1 |  |  | 3 | 1 | 3 | 4 |
+| T8 | 3 | 1 |  |  |  | 1 |  | 2 | 2 |
+| T9 | 3 | 1 |  |  |  | 1 |  | 2 | 2 |
+| T10 | 3 | 1 |  |  |  | 1 |  | 2 | 2 |
+| P1 | 15 |  |  | 6 | 1 | 7 |  | 8 | 8 |
+| P2 | 8 |  |  | 4 |  | 4 |  | 4 | 4 |
+| P3 | 34 |  |  | 11 | 1 | 12 |  | 22 | 22 |
+| Evaluación | 2 |  |  |  |  | 2 |  |  |  |
+| **Total** | **150** | **28** | **7** | **21** | **2** | **60** | **13** | **77** | **90** |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18,7 | 40% |
+|  | Práctica de aula / Seminarios / Talleres | 7 | 4,7 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 21 | 14 |  |
+|  | Prácticas clínicas hospitalarias | 0 | 0 |  |
+|  | Tutorías grupales | 2 | 1,3 |  |
+|  | Prácticas Externas | 0 | 0 |  |
+|  | Sesiones de evaluación | 2 | 1,3 |  |
+| No presencial | Trabajo en Grupo | 13 | 8,7 | 60% |
+|  | Trabajo Individual | 77 | 51,3 |  |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación en la convocatoria ordinaria consta de los siguientes elementos evaluables:
+
+- Examen de teoría (TE) que consistirá en una prueba combinada de test y preguntas a desarrollar. Se realizará en las fechas de evaluación oficiales que publique el centro. Debe superarse con una calificación de al menos 5 puntos sobre 10.
+- Evaluación continua de las prácticas de laboratorio (PL). Durante el semestre los estudiantes realizarán varias tareas prácticas de laboratorio que darán lugar a una calificación que deberá ser de al menos 5 puntos sobre 10. En caso de no superar este mínimo exigido, se realizará un examen práctico que se celebrará el mismo día que el examen de teoría. La superación de este examen requerirá de la entrega de todas las prácticas propuestas durante el curso. Esta parte de la asignatura debe superarse con una calificación de al menos 5 puntos sobre 10.
+- Trabajo Grupo (TG): Consiste en la realización de un proyecto en un equipo de 2/3 personas que debe superarse con una calificación de al menos 5 puntos sobre 10. La calificación individual asignada a cada miembro del grupo dependerá de la realización de una serie de tareas previas que deberán realizarse de forma individual y que corresponden a la materia de las prácticas de aula. Estas tareas suponen un 20% de la calificación de esta parte, reservándose el 80% restante para el trabajo entregado. La entrega del trabajo deberá realizarse antes del último día lectivo del primer cuatrimestre. No obstante, podría indicarse otra fecha alternativa al inicio de las clases, como resultado de la coordinación entre asignaturas del mismo curso.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+Calificación Final = 0,2 x TG + 0,4 x PL + 0,4 x TE
+
+Si no se superase alguna de las partes de la asignatura, la calificación final de la convocatoria correspondiente sería la mayor de las partes no superadas.
+
+Consideraciones
+
+- Las calificaciones de los bloques superados se guardarán entre convocatorias del mismo curso académico.
+- En cualquiera de las pruebas de evaluación, si las circunstancias lo requieren a juicio del profesor calificador, este podrá requerir al alumno para la defensa de aquellas partes de la misma que considere necesario, con el fin de determinar la calificación final de las mismas. La no atención al citado requerimiento, hará que se califiquen con un cero las partes en cuestión.
+
+**Convocatoria extraordinaria**
+
+Elementos evaluables
+
+La evaluación extraordinaria consta de los siguientes elementos evaluables:
+
+- Examen de teoría (TE) que consistirá en una prueba combinada de test y preguntas a desarrollar. Se realizará en las fechas de evaluación oficiales que publique el centro. Debe superarse con una calificación de al menos 5 puntos sobre 10.
+- Examen práctico (PL) que se celebrará el mismo día que el examen de teoría. La superación de este examen requerirá de la entrega de todas las prácticas propuestas durante el curso. Esta parte de la asignatura debe superarse con una calificación de al menos 5 puntos sobre 10.
+- Trabajo Grupo (TG): Consiste en la realización de un proyecto en un equipo de 2/3 personas que debe superarse con una calificación de al menos 5 puntos sobre 10. La entrega del trabajo deberá realizarse antes del día del examen de teoría correspondiente a la convocatoria.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+Calificación Final = 0,2 x TG + 0,4 x PL + 0,4 x TE
+
+Si no se superase alguna de las partes de la asignatura, la calificación final de la convocatoria correspondiente sería la mayor de las partes no superadas.
+
+Consideraciones
+
+- Las calificaciones de los bloques superados se guardarán entre convocatorias del mismo curso académico.
+- En cualquiera de las pruebas de evaluación, si las circunstancias lo requieren a juicio del profesor calificador, este podrá requerir al alumno para la defensa de aquellas partes de la misma que considere necesario, con el fin de determinar la calificación final de las mismas. La no atención al citado requerimiento, hará que se califiquen con un cero las partes en cuestión.
+
+**Evaluación diferenciada**
+
+La evaluación diferenciada de la asignatura se realizará en los mismos términos expresados para la evaluación convencional en la convocatoria que corresponda.
+
+## Bibliografía
+
+Bibliografía básica:
+
+- “Java Network Programming” 4ª edición, Elliotte Rusty Harold, Ed. O´Reilly
+- “An Introduction to Network Programming with Java - Java 7 Compatible” 3ª edición, Jan Graba, Springer
+- “Learning Network Programming with Java”, Richard Reese, Packt Publishing
+- “Computer Networking: A Top-Down Approach” 7ª edición, James F. Kurose y Keith W. Ross, Pearson
+
+Bibliografía complementaria:
+
+- Referencias en Internet a diferentes estándares.
+
+Recursos necesarios:
+
+- Los principales recursos necesarios para cursar esta asignatura son un computador personal con conexión a Internet, que se utilizará para acceder al Campus Virtual (CV) y para la realización de las prácticas y trabajos en grupo. Las herramientas software necesarias están libremente disponibles para su descarga de Internet.

@@ -1,0 +1,192 @@
+{
+  "course_name_original": "Electrònica (EM1018)",
+  "course_name_en": "Electronics",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Matemàtiques)",
+    "EM1002 - Càlcul I (Matemàtiques)",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II (Matemàtiques)",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve problems of simple analog electronic circuits.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Ability to prepare a technical report on electronics work including a calculation part and an experimental part.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to explain the differences between the characteristics of different logic families and relate them to each other.",
+      "type": "knowledge",
+      "code": "CC05"
+    },
+    {
+      "text": "Ability to explain the physical principle of semiconductors and the operation of basic analog electronic components.",
+      "type": "knowledge",
+      "code": "CC05"
+    },
+    {
+      "text": "Ability to explain the operation of basic digital electronic components.",
+      "type": "knowledge",
+      "code": "CC05"
+    },
+    {
+      "text": "Ability to describe the most common analog application circuits.",
+      "type": "knowledge",
+      "code": "CC05"
+    },
+    {
+      "text": "Ability to calculate simple analog electronic circuits and analyze their behavior.",
+      "type": "skill",
+      "code": "CC05"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to electronic systems.",
+    "Introduction. Analog and digital systems.",
+    "Electronic systems in industry.",
+    "Basic concepts of electrical circuits.",
+    "Basic concepts in signal amplification.",
+    "Fundamentals of voltage and current amplifiers.",
+    "Semiconductor diode. Analysis and design of circuits with diodes.",
+    "Introduction.",
+    "PN junction biasing.",
+    "Characteristic curve.",
+    "Characteristic parameters. Equivalent models.",
+    "Temperature effect.",
+    "Admissible current and thermal calculation.",
+    "Manufacturer parameters.",
+    "Zener diode.",
+    "Other diodes.",
+    "Examples of diode circuit applications.",
+    "Proposed exercises.",
+    "The bipolar junction transistor. Analysis and design of BJT circuits.",
+    "Three-layer structure. Transistor effect.",
+    "Characteristic curves.",
+    "Operating regions.",
+    "PNP transistor.",
+    "Darlington transistor.",
+    "Power calculations.",
+    "Characteristic sheets.",
+    "BJT biasing.",
+    "Common configurations in amplifier circuits.",
+    "Examples of BJT circuits.",
+    "Proposed exercises.",
+    "The field-effect transistor. Analysis and design of FET circuits.",
+    "Principle of operation of field-effect transistors.",
+    "Characteristic curves. Operating regions.",
+    "Basic equation in the active region.",
+    "DC load line.",
+    "Biasing.",
+    "Other field-effect transistors.",
+    "BJT-FET comparison.",
+    "Application examples.",
+    "Proposed exercises.",
+    "Other devices.",
+    "Discrete 4-layer devices: thyristors, diacs, triacs, GTO.",
+    "Power transistors. IGBT.",
+    "Other devices.",
+    "Operational amplifiers. Analysis and design of operational amplifier circuits.",
+    "Introduction.",
+    "Characteristics.",
+    "Operating modes.",
+    "Linear applications. Examples.",
+    "Basic non-linear applications.",
+    "Real model. Implications.",
+    "Power output.",
+    "Commercial examples.",
+    "Proposed exercises.",
+    "Power amplifiers and power supplies. Analysis and design.",
+    "Classes of power amplifiers.",
+    "Class A amplifiers.",
+    "Class B and Class AB amplifiers.",
+    "Class D amplifiers.",
+    "Power supplies. Basic structure.",
+    "Full-wave rectification and filtering.",
+    "Stabilization using linear regulators.",
+    "Commercial stabilizers.",
+    "Switched regulators.",
+    "Summary of power supply characteristics.",
+    "Digital devices.",
+    "Introduction. Concept of digital circuit.",
+    "Digital-analog comparison.",
+    "TTL circuits.",
+    "CMOS circuits.",
+    "Connection to external circuits.",
+    "Combinational circuits. Analysis and design.",
+    "Simple digital circuits: logic gates.",
+    "Boolean algebra.",
+    "Combinational logic. Truth tables and logic functions.",
+    "Simplification of logic functions.",
+    "Binary number systems.",
+    "Combinational subsystems.",
+    "Sequential circuits.",
+    "Introduction.",
+    "Level-triggered flip-flops.",
+    "Edge-triggered flip-flops.",
+    "Synchronous and asynchronous sequential systems.",
+    "Sequential subsystems.",
+    "Introduction to microcontrollers.",
+    "LABORATORY PRACTICES.",
+    "Circuits with diodes.",
+    "Circuits with transistors.",
+    "Circuits with thyristors and triacs.",
+    "Circuits with operational amplifiers.",
+    "Power supplies.",
+    "Digital circuits."
+  ],
+  "teaching_methods": [
+    "Lectures: Expository method consisting of presenting a logically structured topic to provide organized information. Primarily focused on verbal exposition by the professor, supported by multimedia techniques.",
+    "Problem-solving by the professor: The professor develops and interprets solutions by applying routines, formulas, or procedures to transform initially proposed information. Used as a complement to the lecture.",
+    "Problem-solving by the student: Situations where the student must develop and interpret appropriate solutions by applying routines, formulas, or procedures to transform initially proposed information.",
+    "Laboratory work: Method consisting of students developing specific scientific-technological laboratory work under the professor's supervision. This methodology is characterized by the high autonomy with which students must work.",
+    "Learning through the Virtual Classroom: Teaching-learning situation using a computer with network connection as a communication system between professor-student, developing a plan of formative activities integrated into the curriculum."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Laboratory practice reports",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Written theoretical-practical knowledge tests",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The student will pass the course if they obtain a minimum of 5 out of 10 points in the global average grade. To pass, a minimum grade of 4 out of 10 is required in the final exam, in addition to a global grade of 5 or higher. If the minimum grade of 4 out of 10 is not achieved in the final exam, the course grade will be that of the final exam. Continuous assessment grades are valid only for the two calls of the current academic year, and laboratory practices cannot be recovered. For extraordinary calls, the final exam accounts for 100% of the grade.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1018",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1018",
+  "source_language": "ca",
+  "source_sha256": "4d859328492246aca46de49654a62babbfd68ed822a336abc89c742c8df9890e",
+  "extracted_at": "2026-11-13T22:35:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

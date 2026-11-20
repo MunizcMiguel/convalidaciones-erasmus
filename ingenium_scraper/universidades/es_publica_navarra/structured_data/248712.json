@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Fabricación integrada por ordenador",
+  "course_name_en": "Computer-Integrated Manufacturing",
+  "ects": 6.0,
+  "semester": "1st Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic principles of the different subjects that make up this applied and professional module.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Propose and solve questions raised in the different subjects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Conduct market prospecting on products related to the different subjects presented, detect the advantages and disadvantages of products, considering their economic and environmental cost.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Propose systems and perform simulations and real projects related to the different subjects.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Finite element simulation of deformation processes (with MSC Marc and MSC Superform): Introduction to FEM",
+    "Mesh generation methods (for deformation processes)",
+    "Introduction and determination of material behavior (for deformation processes)",
+    "Friction and contacts (for deformation processes)",
+    "Contact conditions (for deformation processes)",
+    "Load cases (for deformation processes)",
+    "Calculation (for deformation processes)",
+    "Post-processing and results analysis (for deformation processes)",
+    "Simulation of material removal processes (with Surfcam): Introduction to CAM systems",
+    "Generation of part geometry (for material removal)",
+    "Design of machining operations",
+    "Selection of process conditions (for material removal)",
+    "Calculation (for material removal processes)",
+    "Verification and post-processing (for material removal processes)",
+    "Resolution of exercises (for material removal processes)",
+    "Finite element simulation of plastic injection processes (with Moldex 3D): Introduction to plastic injection molding",
+    "Generation of part and mold geometries (for plastic injection)",
+    "Meshing of geometries (for plastic injection)",
+    "Design of gate points (for plastic injection)",
+    "Calculation (for plastic injection processes)",
+    "Post-processing and results analysis (for plastic injection processes)",
+    "Introduction to FEM, FVM and CAD-CAM-CAE systems",
+    "Methods of geometry and mesh generation in CAD-CAM-CAE systems",
+    "Introduction and determination of material behavior in CAE systems",
+    "Contact conditions, friction and contacts in CAE systems",
+    "Load Cases and Selection of process conditions in CAM-CAE systems",
+    "Calculation in CAM-CAE systems",
+    "Post-processing, verification and results analysis in CAM-CAE systems",
+    "CAE-CAD-CAM software",
+    "Practical cases of process and component design in Manufacturing Processes Engineering using CAM-CAE systems",
+    "Calculation of components in manufacturing equipment (brakes, clamps, fixtures, dies, punches, etc.)",
+    "Calculation of manufacturing processes"
+  ],
+  "teaching_methods": [
+    "Expositive/participative classes",
+    "Practices",
+    "Cooperative learning activities",
+    "Group project work",
+    "Student's autonomous study and work",
+    "Tutorials and evaluation tests"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral presentations (ME1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Works and reports (ME2)",
+      "weight_percentage": 75.0
+    }
+  ],
+  "assessment_rules": "Oral presentations (ME1) are recoverable by performing the presentation. Works and reports (ME2) are recoverable by performing the final course work. No minimum grade is required for individual activities.",
+  "bibliography": [
+    "O.C. Zienkiewicz, \"El Método de los Elementos Finitos\", Ed. McGraw Hill, 1995.",
+    "Altan T., Ngaile G., Shen G., \"Cold And Hot Forging: Fundamentals And Applications\" ASM International, First Edition, 2005.",
+    "Joseph Edward Shigley, Charles R. Mischke, Richard Gordon Budynas \"Mechanical Engineering Design\", McGraw-Hill Professional, 2004",
+    "Dieter G.E., Schmidt L.C, \"Engineering design\" McGraw-Hill, Fifth Edition, 2012.",
+    "Wagoner R.H., Chenot J.L., \"Fundamentals of metal forming\" John Wiley & Sons, First Edition, 1996.",
+    "Lemaitre J., Lippmann H., \"A Course on damage mechanics\" Springer, Second Edition, 1996.",
+    "Manual de Solidworks",
+    "Manual de MSC Marc",
+    "Manual de Simufact",
+    "Manual de Surfcam",
+    "www.sciencedirect.com"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Pública de Navarra",
+  "institution_slug": "es_publica_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "248712",
+  "academic_year": "2026-27",
+  "source_url": "https://www.unavarra.es/ficha-asignaturaDOA?idioma=es&codAsig=248712",
+  "source_language": "es",
+  "source_sha256": "987b000ecb2ba6beb57109488c3a66934d6bcf92cec28f913758b695361c83ed",
+  "extracted_at": "2026-11-13T22:44:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

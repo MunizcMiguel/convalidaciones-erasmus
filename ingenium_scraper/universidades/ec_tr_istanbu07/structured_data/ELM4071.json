@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Mühendislikte Sayısal Yöntemler ve Uygulamaları",
+  "course_name_en": "Numerical Methods and Applications in Engineering",
+  "ects": 5.0,
+  "semester": "Fall, Spring",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en",
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Modeling Competency: Analyze complex physical problems from different engineering disciplines (Structural, Bio, Signal, Data) and convert them into appropriate mathematical models.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Error Control: Analyze rounding and truncation errors originating from computer arithmetic and scientifically question the reliability and precision of numerical results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Algorithmic Application and Code Adaptation: Select pre-made MATLAB code snippets presented within the 'Numerical Methods Toolbox' according to the relevant engineering scenario; adapt these codes with correct parameters based on the physical limits of the problem to produce functional solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Process Management: Systematically manage an engineering problem according to a 5-stage solution flow consisting of the steps: \"Real Problem -> Mathematical Model -> Numerical Method -> Ready Code Adaptation -> Result/Analysis\".",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Scientific Interpretation: Interpret the outputs obtained through numerical methods within the context of the problem's area of expertise and produce scientific reports.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Adaptation to Future Tools: Grasp the basic logic of data-driven modeling and Artificial Intelligence-based numerical solutions, gaining a vision to integrate ready-made algorithms into modern engineering problems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Computational Thinking (CT) and Modeling",
+    "Tool 1: Error Analysis and Computer Arithmetic",
+    "Tool 2: Root-Finding Methods (Equilibrium Analysis)",
+    "Tool 3: Linear Algebraic Systems (Matrices)",
+    "Tool 4: Curve Fitting",
+    "Tool 5: Numerical Differentiation and Integration",
+    "Tool 6: Ordinary Differential Equations (ODE-1)",
+    "Midterm 1",
+    "Tool 6: Ordinary Differential Equations (ODE-2)",
+    "Tool 7: Engineering Optimization",
+    "Tool 8: Partial Differential Equations (PDE)",
+    "Tool 9: Monte Carlo Simulation",
+    "Tool 10: Introduction to Artificial Intelligence (AI)",
+    "Project Phase 1: Guided Problems",
+    "Project Phase 2: Open-Ended Problems",
+    "Final"
+  ],
+  "teaching_methods": [
+    "face-to-face instruction"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Projects",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Midterm Exams",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Chapra, S. C., & Canale, R. P. (2021). Numerical Methods for Engineers (8th Ed.). McGraw-Hill Education.",
+    "Chapra, S. C. (2018). Applied Numerical Methods with MATLAB for Engineers and Scientists. McGraw-Hill.",
+    "Özakın, M. B. (2026). ELM4071 Ders Notları: Mühendislikte Sayısal Yöntemler ve Uygulamaları"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Yıldız Teknik Üniversitesi (Yildiz Technical University)",
+  "institution_slug": "ec_tr_istanbu07",
+  "degree": "Kimya Mühendisliği (Chemical Engineering), lisans, %100 İngilizce",
+  "course_code": "ELM4071",
+  "academic_year": "vigente en el Bologna Bilgi Sistemi (Yeni)",
+  "source_url": "http://www.bologna.yildiz.edu.tr/index.php?r=course/view&id=12182&aid=23&pid=36",
+  "source_language": "tr",
+  "source_sha256": "1f9f0c66943087f50f48032e21f45f243237da03acb7123fb3f4883650b1bbf4",
+  "extracted_at": "2026-11-20T09:11:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

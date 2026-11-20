@@ -1,0 +1,69 @@
+{
+  "course_name_original": "Campi Elettromagnetici E Circuiti",
+  "course_name_en": "Electromagnetic Fields and Circuits",
+  "ects": 12.0,
+  "semester": "II",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematical Methods for Engineering",
+    "Fundamentals of Circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide methodological tools and basic knowledge necessary for the study of electromagnetic field properties, in relation to problems of free and guided propagation and irradiation. Provide methodological and operational tools for the study of guided electromagnetic propagation and for the characterization and use of transmission lines and waveguides, with reference to the most relevant application problems. Provide the fundamental concepts for describing the radiative and circuit characteristics of commonly used antennas.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students must demonstrate knowledge and understanding of the problems related to the fundamentals of applied electromagnetism, free and guided propagation, and irradiation. In this sense, the training path aims to provide students with the basic knowledge and essential methodological tools to understand the phenomenology and operation of elementary electromagnetic connection systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students must demonstrate the ability to use the acquired knowledge for the analysis of the simplest electromagnetic connection systems, applying them concretely to the solution of elementary problems of free propagation, guided propagation, irradiation, and reception.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Generalities and fundamental laws: Maxwell's equations in integral and differential form and boundary conditions. Constitutive relations. Maxwell's equations in the frequency domain. Sinusoidal regime. Sinusoidal vectors and their phasor representation. Polarization of a sinusoidal vector. Formulation of an electromagnetic problem. Fundamental theorems in electromagnetism. [3 CFU]",
+    "Propagation in free space: Plane Waves. Propagation speed. Propagation of a narrow-band signal. Plane wave expansion. Incidence of a plane wave on a planar discontinuity between dielectrics. Snell's law. Reflection and transmission coefficients: Fresnel's formulas. Incidence of a plane wave on a metallic half-space. Leontovic condition. [3 CFU]",
+    "Guided propagation: Metallic waveguides: definition and application contexts. The concept of mode: TEM, TE, and TM modes and their representation properties. TEM modes. Transmission lines: definition and application contexts. Line equations. Voltage and current propagation on a line. Wavelength, reflection coefficient, impedance. Impedance transport and Smith chart. Matching and main matching techniques. Analysis and characterization of transmission lines of greatest practical interest. TE and TM modes. Equivalent transmission line. Power and energy in the guide. Losses in guides. Attenuation constant. Dispersion in waveguide. The rectangular waveguide. [3 CFU]",
+    "Radiation and reception: Electrodynamic potentials. Field radiated by an elementary electric dipole. Elementary magnetic dipole. Field radiated by an arbitrary current distribution. Fraunhofer region. Antenna elements: Effective height, radiation pattern, directivity, gain, effective area, efficiency. Examples of antennas. Short dipole, wire antennas. Exercises on transmission lines, guides, and antennas. [3 CFU]"
+  ],
+  "teaching_methods": [
+    "Frontal lectures (75%)",
+    "Exercises (25%)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written and an oral test. The written test includes numerical exercises.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "campi_elettromagnetici_e_circuiti",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "8d314637836523652f8408b58d848052a80992c45a9eef841658909c926f5beb",
+  "extracted_at": "2026-11-20T08:19:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,118 @@
+{
+  "course_name_original": "Struktursimulation",
+  "course_name_en": "Structural Simulation",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Fundamentals of elasticity theory and structural mechanics",
+    "Successful completion of courses 'Mechanics 1' and 'Mechanics 2' are minimum requirements",
+    "Completion of modules 'Mechanics 3' and 'Numerical Methods in Engineering Sciences' is also highly recommended",
+    "Knowledge from the course 'Advanced Strength of Materials' would be beneficial",
+    "Successful completion of the StEOP"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply classical approximation methods to elastic structural problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Justify the choice between beam, plate, and 2D continuum models for a specific problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess the quality and suitability of finite element meshes for 2D and 3D structural analyses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze numerical problems such as locking, hourglassing, or insufficient approximation order.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform static strength verification of components by analyzing the stress state, including stress concentration.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Numerically model simple contact and pressure problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform simple simulations in ABAQUS and compare them with analytical results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess simulation results regarding accuracy and physical plausibility.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently analyze technical problems and select appropriate solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Clearly communicate simulation results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically question simulation results and make reasoned decisions for further analysis steps.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Independently use digital tools for simulation and efficiently organize the work process.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Finite differences for partial differential equations: Prandtl's stress function in torsion problems; bending of elastic plates; longitudinal and bending vibrations of a rod.",
+    "FEM in 1D: Longitudinal strain of a rod, statics and vibrations. Linear and quadratic approaches; degrees of freedom of nodes, elements and the entire model; consistent nodal loads; element stiffness matrix and global stiffness matrix; local coordinates and Gaussian integration, convergence behavior. Comparison with Ritz's method with a global approach.",
+    "Beam bending: Bernoulli-Euler and Timoshenko (shear flexible). Locking, reduced integration, hourglassing, spurious vibration modes.",
+    "2D elements: Triangles, quadrilaterals, linear and quadratic approaches; isoparametric concept, Jacobi matrix. Assembly of global stiffness matrix. Stress evaluation and stress analysis.",
+    "Mesh generation and mesh quality. Imported meshes.",
+    "Stress concentration: Kirsch's problem. Mesh refinement.",
+    "Simple contact modeling. Hertzian pressure in 2D and 3D.",
+    "Fundamentals of modal analysis and model order reduction.",
+    "Large deformations of beams. Transient dynamics and time integration.",
+    "Introduction to ABAQUS: Handling the software package. Graphical user interface, individual modules. Preparation of the simulation, start of the analysis, post-processing.",
+    "Simple example problems in ABAQUS. Illustration of theoretical findings."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0722",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Technische Universität Wien",
+  "institution_slug": "ec_a_wien02",
+  "degree": "Bachelorstudium Maschinenbau (E 033 245)",
+  "course_code": "MB-struktursimulation",
+  "academic_year": "Studienplan 2026 (rev1)",
+  "source_url": "https://www.tuwien.at/fileadmin/Assets/dienstleister/studienabteilung/BSc-Studienplaene_2026/Bachelorstudium_Maschinenbau_2026_rev1.pdf",
+  "source_language": "de",
+  "source_sha256": "2d6df683d36dfe6237710b5a5db78c5ffd545c0215963a0827705620cd4a6882",
+  "extracted_at": "2026-11-18T04:22:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

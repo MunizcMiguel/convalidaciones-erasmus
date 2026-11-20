@@ -1,0 +1,74 @@
+{
+  "course_name_original": "Electronics",
+  "course_name_en": "Electronics",
+  "ects": 2.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student possesses an elementary knowledge on electronics, including basic laws of circuit and signal theory, knows laws of electromagnetism, and knows operation mechanisms and properties of basic semiconductor devices.",
+      "type": "knowledge",
+      "code": "K6_W10"
+    },
+    {
+      "text": "Student is able to conduct basic measurements of electrical quantities. Is able to perform computer-aided simulations of analog electronic circuits. Is capable of experimental verification of the operation of analog electronic circuits.",
+      "type": "skill",
+      "code": "K6_U05"
+    }
+  ],
+  "syllabus_topics": [
+    "The phenomenon of the current in electrical circuits. Conductors, isolators, semiconductors and superconductors. Electric current and voltage (potential difference). Ohm's law and Kirchhoff's laws.",
+    "Resistors, voltage and current sources. Powers associated with resistors and sources. Thevenin and Norton equivalent circuits.",
+    "Current, voltage and power waveforms in time and frequency domains. Spectrum of time waveforms.",
+    "LC filters.",
+    "Magnetism.",
+    "DC and AC applications.",
+    "Basics of semiconductor devices."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory - reports from the laboratory tasks",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Lecture - test in the end of the semester",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Lecture - test in the middle of the semester",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The passing threshold for laboratory reports, the end-of-semester lecture test, and the mid-semester lecture test is 50.0%.",
+  "bibliography": [
+    "J.D. Irwin, R. M. Nelms, Basic Engineering Circuit Analysis, John Wiley & Sons Inc., 2011",
+    "E. Gates, L. Chartrand, Introduction to Electronics, Delmar Cenagage Learning, 2007",
+    "A. Agawal, J.H. Lang, Foundations of Analog and Digital Electronic Circuits, Elsevier, 2005",
+    "U. Tietze, C. Schenk, E. Gamm, Electronic Circuits Handbook for Design and Applications, Springer, 2008",
+    "A.S. Sedra, K.C. Smith, Microelectronic Circuits, Oxford University Press, 2007"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites",
+    "bibliography"
+  ],
+  "institution": "Gdańsk University of Technology (Politechnika Gdańska)",
+  "institution_slug": "ec_pl_gdansk02",
+  "degree": "Mechanical Engineering, first-cycle (engineer), specialization Design and Production Engineering",
+  "course_code": "PG_00040183",
+  "academic_year": "2023-2024 (cohorte de inicio; fichas 2023/24-2026/27)",
+  "source_url": "https://ects.pg.edu.pl/en/subjects/361849/card.pdf",
+  "source_language": "en",
+  "source_sha256": "a1105adafe4a86f4c79a01c50306f010a28cab3b1d359507bed81a5d6cc3646f",
+  "extracted_at": "2026-11-20T09:05:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

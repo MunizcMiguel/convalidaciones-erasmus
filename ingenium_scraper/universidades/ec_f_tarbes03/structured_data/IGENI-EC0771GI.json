@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Recherche et optimisation combinatoire : algorithmes avancés et ap-",
+  "course_name_en": "Combinatorial research and optimisation: advanced algorithms and ap-",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to solve different classes of combinatorial problems using a variety of methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the main classes and families of combinatorial (also called discrete/integer) optimisation problems and relate them to the most common industrial applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to translate a concrete problem into a mathematical model, by identifying the decision variables, the objective function and the constraints.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the notion of complexity and the characterisation of highly combinatorial problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to model a problem in the form of a CSP and use different resolution methods: generate-test, chronological backtrack, filtering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the main search algorithms (games) and exact tree optimisation algorithms (A*, Branch and Bound) in relation to the applications concerned.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the operating principles of local search approaches and population methods, and know how to assess their relevance in relation to the characteristics of a given problem (size, complexity, constraints).",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Characterisation of CSP (variables, domains, constraints)",
+    "Solving CSP using different methods",
+    "Application of the CSP approach to scheduling (TCSP)",
+    "Principles of tree-based exact optimisation (A*, Branch and Bound) and some algorithms dedicated to certain classes of problem (path finding, backpacking, travelling salesman)",
+    "Introduction to game theory (Min-Max, Alpha-Beta)",
+    "Discovery of a distinct method (Hungarian method for the assignment problem) and comparison with the methods studied",
+    "Fundamental concepts and overview of the main families of solution methods",
+    "General principles of local search approaches",
+    "Neighbourhood search algorithms (descent, simulated annealing, tabu search)",
+    "Population methods (genetic algorithms, ant colony optimisation)"
+  ],
+  "teaching_methods": [
+    "lectures",
+    "practical sessions",
+    "reversed teaching session"
+  ],
+  "workload_hours_total": 34.0,
+  "workload_hours_contact": 34.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "(1*DS1)/1",
+  "bibliography": [
+    "Constraint Processing, Dina Rechter, Morgan Kaufmann, Los Altos, CA, 2004",
+    "Métaheuristiques : Recuits simulé, recherche avec tabous, recherche à voisinages variables, méthodes GRASP, algorithmes évolutionnaires, fourmis artificielles, essaims particulaires et autres méthodes d'optimisation. Patrick Siarry, Eyrolles, 2014",
+    "Wikipedia et YouTube (A*, Path-finding, etc)",
+    "https://www.hungarianalgorithm.com"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0771GI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "fbc62fafe2e5425ef4f647192a85ff8f06fad356679acc09c45486b05b4c0dbe",
+  "extracted_at": "2026-11-18T09:59:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

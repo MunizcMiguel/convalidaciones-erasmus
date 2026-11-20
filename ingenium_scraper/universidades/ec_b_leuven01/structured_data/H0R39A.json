@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Machine learning voor signaalverwerking",
+  "course_name_en": "Machine learning for signal processing",
+  "ects": 3.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Basic mathematics from analysis, algebra, statistics, and data science courses."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply machine learning techniques to diverse sensor signals (e.g., image, audio, time series, …).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Collect data appropriately, prepare signals, select suitable models considering constraints such as available data, memory, and computational power, and train and use these models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the possibilities and limitations of machine learning.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Terminology, Artificial Intelligence vs. Machine Learning, needs in signal processing, model-based vs. data-driven methods, pattern recognition",
+    "Model-based methods; Bayesian inference: maximum likelihood estimation vs. maximum a posteriori estimator",
+    "Linear methods: recap linear regression; preprocessing and feature extraction",
+    "Neural networks: terminology, perceptron, multilayer perceptron",
+    "Training a neural network: loss functions, hyperparameters, stochastic gradient descent",
+    "Convolutional neural networks",
+    "Networks with dense outputs, Reinforcement learning",
+    "Hardware / computational aspects",
+    "Reflection: Trends and limitations of machine learning-based methods",
+    "Importance of data preparation",
+    "Phenomenon of overfitting / underfitting",
+    "Training a model, selection of hyperparameters",
+    "Required memory and computational power",
+    "(Lack of) Generalization",
+    "Misleading examples (adversarial examples)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical sessions on PC"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam during the examination period with open questions",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Course text",
+    "Slides",
+    "Assignments",
+    "Datasets"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H0R39A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H0R39AN",
+  "source_language": "nl",
+  "source_sha256": "876a00d3778e31941526c8eda546c3590eaf5ec3b0797e0e2eb4ca71438cc20e",
+  "extracted_at": "2026-11-20T09:19:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

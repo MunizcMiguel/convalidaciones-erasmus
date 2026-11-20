@@ -1,0 +1,182 @@
+{
+  "course_name_original": "Métodos Estadísticos de la Ingeniería",
+  "course_name_en": "Statistical Methods in Engineering",
+  "ects": 6.0,
+  "semester": "second",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "eu"
+  ],
+  "prerequisites": [
+    "Algebra",
+    "Calculus",
+    "Fundamentals of Computer Science (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "FB1"
+    },
+    {
+      "text": "Basic knowledge on the use and programming of computers, operating systems, databases and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "FB3"
+    },
+    {
+      "text": "Adopt a responsible, orderly attitude to work and willingness to learn, considering the challenge posed by the necessary continuous training.",
+      "type": "competence",
+      "code": "C12"
+    },
+    {
+      "text": "Apply the strategies of the scientific methodology: analyze the problematic situation qualitatively and quantitatively, propose hypotheses and solutions using models typical of industrial engineering, electrical, mechanical and industrial electronics and automatic specialties.",
+      "type": "competence",
+      "code": "C13"
+    },
+    {
+      "text": "Work effectively in a group, integrating capabilities and knowledge to make decisions in the field of industrial engineering, electrical specialty.",
+      "type": "competence",
+      "code": "C14"
+    },
+    {
+      "text": "Deduce and infer the value of population parameters with an established reliability level using various inductive statistics tools, through the use of commercial scientific software, from information obtained from a significant random sample (simple problems of interest in engineering and applied sciences) using descriptive statistics.",
+      "type": "skill",
+      "code": "RA1"
+    },
+    {
+      "text": "Develop oral and written presentations that critically argue valid conclusions (reasoned and justified), based on efficient management of acquired information, from the results produced.",
+      "type": "skill",
+      "code": "RA2"
+    },
+    {
+      "text": "Plan and develop a simple research project on an engineering problem coherently in a working group (through cooperation).",
+      "type": "skill",
+      "code": "RA3"
+    },
+    {
+      "text": "Defend learning evidence that demonstrates and justifies the acquisition of work strategies and mechanisms, fostering the continuous need for improvement, particularly through the use of computers and ICT.",
+      "type": "skill",
+      "code": "RA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Population and sample",
+    "Statistical variables",
+    "Frequency tables",
+    "Graphical representations",
+    "Parameters and statistics",
+    "Classification and calculation of descriptive statistics",
+    "Standardized variables",
+    "Empirical rule",
+    "Box plot and outliers",
+    "Basic combinatorics",
+    "Sample space and events",
+    "Definition and properties of probability",
+    "Conditional probability",
+    "Independence of events",
+    "Product rule",
+    "Total probability theorem",
+    "Bayes' theorem",
+    "Definition of discrete random variable",
+    "Probability function",
+    "Distribution function",
+    "Expected value",
+    "Variance and standard deviation",
+    "Tchebyshev's theorem",
+    "Main distributions for discrete random variables",
+    "Convergence between distributions",
+    "Definition of continuous random variable",
+    "Density function",
+    "Distribution function",
+    "Expected value",
+    "Variance and standard deviation",
+    "Tchebyshev's theorem",
+    "Standardization",
+    "Main distributions for continuous random variables",
+    "Convergence between distributions",
+    "Basic concepts of sampling",
+    "Types of random sampling",
+    "Generalities of simple random sampling",
+    "Main distributions of statistics in sampling",
+    "Concept of estimation",
+    "Point estimation of a population parameter",
+    "Interval estimation of confidence",
+    "Estimation error and sample size",
+    "Concept of a parametric hypothesis test",
+    "Stages of a parametric hypothesis test",
+    "Some parametric hypothesis tests",
+    "Types of errors in a hypothesis test",
+    "p-value",
+    "Goodness-of-fit tests",
+    "Independence test",
+    "Homogeneity test",
+    "Yates' correction factor"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices",
+    "Computer lab practices",
+    "Cooperative learning",
+    "Group work",
+    "Reflection and self-assessment"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Practice exercises (continuous assessment)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical applications with computer tools",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the final grade is a weighted sum of a written exam (55%), individual practices (25%), and practical computer applications (20%). A minimum score of 40% is required on the final exam, and the overall weighted average must be 50% or higher. If the final exam score is below 40%, the final grade will be 4.5, even if the weighted average exceeds 50%. For final assessment, evaluation consists of a theoretical-practical exam (80%) and a computer tool knowledge test (20%), with the same minimum score and overall average requirements. Students who do not take the final exam will receive a 'No Presented' grade. For the resit (extraordinary) exam, students can maintain their continuous assessment grade if it is 50% or higher; otherwise, they take a final exam with the same weights and minimum requirements as the final assessment.",
+  "bibliography": [
+    "E. Agirre (2006): \"Estatistikaren oinarriak. Ariketak\". Bilbao: Udako Euskal Unibertsitatea.",
+    "M. J. Crawley (2005): \"Statistics: An Introduction using R. Chichester, West Sussex, England: John Wiley & Sons.",
+    "J. L. Devore (2005): \"Probabilidad y Estadística para ingeniería y ciencias\". México: Thomson.",
+    "J. M. Eguzkitza (2014): \"Laboratorio de Estadística y Probabilidad con R\". Granada: Gami Editorial.",
+    "G.D. Eppen, C.P. Schimdt y F.J. Gould (2000): \"Investigación de operaciones en la ciencia administrativa\". México: Prentice Hall, Inc.",
+    "J. Etxebarria (2004): Estatistika eta SPSS. Usurbil: Elhuyar.",
+    "K. Fernandez (1996): \"Estatistikarako Sarrera\". Bilbao: Udako Euskal Unibertsitatea.",
+    "K. Fernandez, J. Orbe, M. Zubia (1997): \"Estatistika I eta Estatistika II. Ariketak\". Bilbo: UEU.",
+    "K. Fernandez, J. Orbe, M. Zubia (1997): \"Estatistikarako sarrera. Ariketak\". Bilbo: UEU.",
+    "J. E. Freund, I. Miller y M. Miller (2000): \"Estadística matemática con aplicaciones\". México: Pearson Educación (Prentice Hall).",
+    "L. Gocking y W. Smith (2002): \"La estadística en cómic\". Barcelona: Ed. Zendrera Zariquiey",
+    "M.T. González Manteiga y A. Pérez de Vargas Luque (2013): \"Estadística Aplicada: Una visión instrumental\". Madrid: Díaz de Santos, S.A.",
+    "M.T. González Manteiga (2021): \"400 problemas resueltos de Estadística multidisciplinar\". Madrid: Díaz de Santos, S.A.",
+    "W. Mendenhall y T. Sincich (1997): \"Probabilidad y Estadística para Ingeniería y Ciencias\". México: Prentice-Hall Hispano Americana, S.A.",
+    "D. C. Montgomery y G. C. Runger (1999): \"Applied Statistics and Probability for Engineers\". Nueva York: John Wiley & Sons, Inc.",
+    "D. Peña (2001): \"Fundamentos de Estadística\". Madrid: Alianza Editorial.",
+    "V. Quesada, A. Isidor, L.A López (1992): \"Curso y ejercicios de estadística\". Madrid: Alhambra.",
+    "S. M. Ross (2005): \"Introducción a la Estadística\". Barcelona: Ed. Reverté.",
+    "S. Zubelzu (2014): \"Estadística; Teoría y Problemas\". Madrid: García-Maroto Editores, S.L.",
+    "N. Dokuchaev (2015): \"Probability Theory\". New Jersey: World Scientific Pub. Co. Inc.",
+    "A. Gómez Mellado y L.M. Marín Trechera (2000): \"Estadística para ingenieros técnicos\". Cádiz: Servicio de Publicaciones, Universidad de Cádiz.",
+    "S. Lipschutz y J. Schiller (2000): \"Introducción a la probabilidad y estadistica\". Madrid: McGraw-Hill.",
+    "M. R. Spiegel (1997): \"Estadística\". Madrid: McGraw-Hill.",
+    "A. Urkaregi (1991): \"Bioestatistika\". Bilbo: UEU.",
+    "R. E. Walpole, R. H. Myers, S. L. Myers, K. Ye (2012): \"Probabilidad y estadística para ingeniería y Ciencias\". México: Pearson Educación."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad del País Vasco/Euskal Herriko Unibertsitatea",
+  "institution_slug": "es_pais_vasco",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "27672",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ehu.eus/es/web/graduak/grado-ingenieria-mecanica-bizkaia/creditos-y-asignaturas?redirect=consultaAsignatura&anyo-academico=20260&ciclo=X&curso=1&asignatura=27672",
+  "source_language": "es",
+  "source_sha256": "f6b81abaa03866f412e75ffca676179c28708ecf236ebff23e488ea216871178",
+  "extracted_at": "2026-11-13T20:20:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

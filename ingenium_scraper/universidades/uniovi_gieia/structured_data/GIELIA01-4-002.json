@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Instrumentación Industrial",
+  "course_name_en": "Industrial Instrumentation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic training modules (common to industrial branch and specific to Industrial Electronic and Automatic Engineering)",
+    "Analog Electronics and Electronic Instrumentation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Select an appropriate sensor for common industrial measurements: flow, pressure, etc., within the context of the control system (RII-1).",
+      "type": "unspecified",
+      "code": "RII-1"
+    },
+    {
+      "text": "Design the complete basic measurement system for the most common industrial measurements and integrate it into the control system (RII-2).",
+      "type": "unspecified",
+      "code": "RII-2"
+    },
+    {
+      "text": "Select and configure a specific data acquisition system (RII-3).",
+      "type": "unspecified",
+      "code": "RII-3"
+    },
+    {
+      "text": "Distinguish possible sources of interference and act on instrumentation systems to avoid their effect (RII-4).",
+      "type": "unspecified",
+      "code": "RII-4"
+    },
+    {
+      "text": "Connect different measurement instruments through an instrumentation bus (RII-5).",
+      "type": "unspecified",
+      "code": "RII-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Measurement of the main industrial magnitudes",
+    "Measurement of temperature",
+    "Presence and proximity detection. Measurement of position, speed, acceleration and vibration",
+    "Measurement of force, weight, pressure",
+    "Measurement of flow and rate",
+    "Level measurement",
+    "Measurement of electrical variables",
+    "Other measurements and future trends",
+    "Signal conditioning, acquisition, processing and transmission",
+    "General review of signal conditioning systems",
+    "Data acquisition and data validation",
+    "Instrumental data processing systems",
+    "Signal transmission systems via cable: voltage and current loops",
+    "Long-distance transmission systems",
+    "Telemetry",
+    "Introduction to transmission lines",
+    "Electromagnetic interference",
+    "EMI and EMC. General concepts",
+    "Sources of interference",
+    "Interference coupling mechanisms",
+    "Minimization of interference effects",
+    "Wiring techniques for interference prevention",
+    "Shielded enclosures for harsh industrial environments",
+    "Considerations in the design of PCBs for instrumentation",
+    "Data acquisition systems",
+    "Introduction to data acquisition systems (DAS)",
+    "Configuration of DASs",
+    "Types of DASs for monitoring and control",
+    "Instrumentation buses",
+    "Advantages of instrumentation buses",
+    "Standardized buses",
+    "Industrial buses and application-specific buses"
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Group tutorials",
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Active participation in the teaching process (questions and issues during classes, attendance at tutorials, follow-up of assignments)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical assignments on course subjects (group work on the general content of the course, consisting of the complete design of a data acquisition system from sensors and the visualization/storage of values in some type of computer support)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Theoretical exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For ordinary calls, the final grade is based on 20% active participation, 30% practical assignments, and 50% theoretical exam. For extraordinary calls, the assessment consists of a theoretical exam (75%) and a practical exam (25%). Differential evaluation uses a single exam covering the entire course.",
+  "bibliography": [
+    "\"Instrumentación electrónica\", M.A. Pérez. Ed. Paraninfo. 2014",
+    "\"Instrumentación electrónica. 230 problemas resueltos\", M.A. Pérez. Ed. Garceta. 2012",
+    "\"Electrónica\". M.A. Pérez. Ed. Garceta. 2017.",
+    "Web pages of manufacturers of analog and digital systems and devices for instrumentation: ti.com, analog.com, linear.com, onsemi.com, microchip.com",
+    "Portals for selecting industrial instrumentation systems such as globalspec.com",
+    "Standards related to instrumentation buses and electromagnetic compatibility",
+    "Pcb.com website with recommendations for PCB design for instrumental systems"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-002",
+  "source_language": "es",
+  "source_sha256": "93b665c489e8b520515b1e1b549a79edf60ac20b4bbc54467e61dcd0199e7e61",
+  "extracted_at": "2026-11-20T01:13:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

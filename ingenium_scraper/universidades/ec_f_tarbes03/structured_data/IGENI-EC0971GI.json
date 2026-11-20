@@ -1,0 +1,241 @@
+{
+  "course_name_original": "Sûreté de fonctionnement",
+  "course_name_en": "Dependability",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Cross-disciplinary skills in mathematics, modelling, programming, and analysis of industrial systems",
+    "Ability to manipulate software tools",
+    "Familiarity with basic reliability and maintenance concepts"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify and analyse potential failures in a complex technical system using methods such as FMECA, reliability diagrams or Bayesian networks",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Modelling systems and assessing their operational safety, taking into account uncertainties and interactions between components",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Suggesting measures to improve system reliability, such as redundancy, preventive maintenance or improvements to critical components",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Carry out sensitivity studies to assess the impact of parameter variations on system performance",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Summarise the results of safety analyses in the form of structured reports tailored to different technical or decision-making audiences.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Collect and process data from technical systems to assess their state of health, applying pre-processing techniques such as filtering, removal of outliers, or imputation of missing data ....",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify relevant degradation indicators from the data collected and build health indicators to monitor the condition of critical components....",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Diagnose faults in a system by interpreting signals from time, frequency and time-frequency analyses....",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Estimate the Remaining Useful Life of components to anticipate breakdowns and propose intervention plans....",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design appropriate decision-making models for proactive fault management, in particular using reconfiguration or fault-tolerant control methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental principles of dependability, including reliability, availability, maintainability and safety (RAMS).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the theoretical basis of analytical methods such as FMECA, fault trees, Petri nets and Markov chains",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the steps in the PHM (Prognostics and Health Management) workflow, from data collection to decision-making.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the theoretical bases of signal analysis techniques (time, frequency and time-frequency analysis) as well as diagnostic and prognostic methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the concepts of system reliability and robustness, and the approaches that can be used to improve their operational availability.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to model systems using numerical tools and interpret the results to identify weaknesses in a system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to apply quantitative approaches to analyse risks and propose appropriate solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have the ability to implement collaborative methodologies to evaluate systems in the design phase or in operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to pre-process data, removing duplicates, correcting outliers and filling in missing data to guarantee the quality of analyses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to extract relevant characteristics from signals to construct health indicators.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Master diagnostic techniques to isolate faults and assess their severity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply prognostic methods to estimate remaining lifespan and make decisions accordingly.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop a critical awareness of the importance of operational safety in industrial projects and its implications for society.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be made aware of the importance of clearly communicating analysis results to facilitate decision-making.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop a critical awareness of the importance of surveillance systems in modern industries.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be made aware of the ethical responsibility to anticipate failures in order to limit the human, environmental and economic impact",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to dependability",
+    "Definition and components (Reliability, Availability, Maintainability, Safety - RAMS).",
+    "The importance of dependability in complex systems.",
+    "Failure analysis methods",
+    "FMEA (Failure Modes, Effects and Criticality Analysis) : Methodology, stages and examples of application.",
+    "Fault trees: Construction and operation to identify the root causes of faults.",
+    "Probabilistic systems modelling",
+    "Markov chains: Modelling state transitions in a system.",
+    "Bayesian networks: Using them to take account of uncertainties.",
+    "Petri nets: Simulating the dynamics of technical systems.",
+    "Diagnostic and analysis tools",
+    "Reliability studies: MTBF (Mean Time Between Failures), MTTR (Mean Time To Repair).",
+    "Failure rate modelling.",
+    "Sensitivity analysis of parameters influencing operating safety.",
+    "Data acquisition and processing",
+    "Pre-processing of data from industrial systems: filtering, management of outliers, interpolation.",
+    "Extraction of health indicators from sensor data (temporal, frequency and time-frequency analysis).",
+    "Systems diagnostics",
+    "Techniques for locating and identifying faults based on physical signals.",
+    "Case studies : Analysis of vibrations and electrical currents to detect anomalies.",
+    "Prognostics and estimation of remaining useful life (RUL)",
+    "Statistical and model-based methods for anticipating breakdowns.",
+    "Implementation of machine learning techniques for prognosis.",
+    "Software tools and implementation",
+    "Use of specialised software (MATLAB, Python) for data processing.",
+    "Case studies using real data to assess the effectiveness of the models.",
+    "Decision-making and systems management",
+    "Proactive maintenance approaches and fault-tolerant controls.",
+    "Optimisation of resources and costs linked to preventive and corrective maintenance."
+  ],
+  "teaching_methods": [
+    "Interactive lectures",
+    "Practical exercises",
+    "Case studies",
+    "Use of specialised software",
+    "Learning by Doing",
+    "Group collaboration",
+    "Project-based approach",
+    "Gradual approach",
+    "Independent learning",
+    "Continuous feedback"
+  ],
+  "workload_hours_total": 34.0,
+  "workload_hours_contact": 34.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Control 1 (CC1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Continuous Control 2 (CC2)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Work 1 (TP1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Work 2 (TP2)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1 + 1*CC2 + 1*TP1 + 1*TP2) / 4.",
+  "bibliography": [
+    "Elsayed, A. E. Reliability Engineering. Wiley.",
+    "Laprie, J.-C. Dependability: Basic Concepts and Terminology. Springer.",
+    "Dhillon, B. S. Engineering Maintainability: How to Design for Reliability and Easy Maintenance. Gulf Professional Publishing.",
+    "Gagniuc, P. A. Markov Chains: From Theory to Implementation and Experimentation. Wiley.",
+    "Jensen, F. V. Bayesian Networks and Decision Graphs. Springer.",
+    "Murata, T. Petri Nets: Properties, Analysis and Applications. IEEE Proceedings.",
+    "Higgins, L. R., & Mobley, K. Maintenance Engineering Handbook. McGraw-Hill.",
+    "R. Gouriveau, K. Medjaher, N. Zerhouni. From Prognostics and Health Systems Management to Predictive Maintenance 1: Monitoring and Prognostics. ISTE - Wiley, 2016.",
+    "Pecht, M. Prognostics and Health Management of Electronics: Fundamentals, Machine Learning, and the Internet of Things. Wiley.",
+    "Abbott, D. Applied Predictive Analytics: Principles and Techniques for the Professional Data Analyst. Wiley.",
+    "Narayan, V., & Dhillon, B. S. Case Studies in Maintenance and Reliability: A Wealth of Best Practices. Industrial Press.",
+    "Faber, M. H. Diagnostic Techniques in Industrial Engineering. Springer.",
+    "Linge, S., & Langtangen, H. P. Programming for Computations – MATLAB/Octave. Springer.",
+    "Provost, F., & Fawcett, T. Data Science for Business: What You Need to Know About Data Mining and Data-Analytic Thinking. O'Reilly Media."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0971GI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "d27c7bd9d976e670f328232804598e6f2d83b20881b685e7f1393f3d03a60912",
+  "extracted_at": "2026-11-18T10:00:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Numerical systems design (IETI-0223)",
+  "course_name_en": "Numerical systems design",
+  "ects": 3.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Use of fundamental concepts of computer science and information technology.",
+      "type": "skill",
+      "code": "C2"
+    },
+    {
+      "text": "Design and coordination of experiments and tests.",
+      "type": "skill",
+      "code": "C5"
+    },
+    {
+      "text": "To use manual or automated tools, to analyze or predict the performance of digital systems in different operating conditions.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "To implement, simulate and test in Xilinx certain numerical systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "To identify, design and implement types of numerical systems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical systems or counting bases. Types of numerical systems. The conversion of numbers from one counting base to another. The binary numbering system. Codes.",
+    "Numerical systems. Operating Principles. Introduction. The digital world. Classification of numerical systems. Logical levels, waveforms. Classification of digital integrated circuits by complexity. General rules to represent the electrical scheme.",
+    "Logical gates. Introduction. Boolean constants and variables. The truth table. Binary numbers. Postulates and theorems of Boolean algebra. Elementary logical gates.",
+    "Combinational logic circuits. Decoder. Demultiplexer. Multiplexer. Encoder. Numeric comparator. Parity detector. Parity generator. Adder.",
+    "Sequential logic circuits. SR Flip Flop. JK Flip Flop. D Flip Flop. T Flip Flop. Applications",
+    "Shift Registers. Introduction. Serial-in to Serial-out (SISO) Shift Register. Serial-in to Parallel-out (SIPO) Shift Register. Parallel-in to Serial-out (PISO) Shift Register. Parallel-in to Parallel-out (PIPO) Shift Register. Universal shift registers. Applications of shift registers.",
+    "Counters. Introduction. Classification of counters. Asynchronous counters. Synchronous counters.",
+    "Semiconductors memories. Introduction. Classification of memories. Information measurement units. Memory parameters. Operating principle of a memory. ROM memories. RAM memories. Storage capacity expansion. Special memories. Memory applications",
+    "Gate implementation of logic functions.",
+    "Determining the optimal path.",
+    "Description of logical functions using Veich diagrams.",
+    "The summation circuit.",
+    "7-segment BCD decoder.",
+    "Multiplexer circuit and demultiplexer circuit.",
+    "Code decoder circuit."
+  ],
+  "teaching_methods": [
+    "Interactive lecture",
+    "Video projector",
+    "Online",
+    "Free presentation",
+    "Exemplification on the board",
+    "Personal Computers"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Exam (Oral examination practical computer applications / Online Assessment (Online questionnaire))",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Laboratory activity + final test (Knowledge assessment test)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For a grade of 5, all subjects must be treated to minimum standards. For a grade of 10, all subjects must be treated to maximum standards.",
+  "bibliography": [
+    "Mihaela Novac, Ovidiu Novac- Proiectarea sistemelor numerice, notite de curs, 2022, suport electronic.",
+    "Mihaela Novac, O.Novac-Introducere în proiectare sistemelor numerice. Serie de aplicații practice pentru orele de laborator,2023, suport electronic.",
+    "https://e.uoradea.ro/course/view.php?id=1960 (materiale didactice)",
+    "Patrascoiu, Nicolae -Analiza și sinteza dispozitivelor numerice. Proiectare logică,note de curs,.",
+    "John F. Wakerly- Digital Design Principles and Practices, , Prentice-Hall, 2000.",
+    "O. Creţ- Sisteme de calcul reconfigurabile, Ed. U.T. Press, Cluj-Napoca, 2005.",
+    "Mihaela Novac, Ovidiu Novac- Proiectarea sistemelor numerice, lucrari de laborator,2019, suport electronic",
+    "Mihaela Novac, O.Novac- Introducere în proiectare sistemelor numerice. Serie de aplicații practice pentru orele de laborator, 2023, suport electronic https://e.uoradea.ro/course/view.php?id=1960 (didactic materials)",
+    "Erica Mang, Ovidiu Novac, Mihaela Novac - Analiza şi sinteza dispozitivelor numerice. Circuite combinaţionale. Îndrumător de laborator - Editura Universităţii din Oradea,1998, 83 pag.",
+    "E. Mang, I. Mang, C. Popescu -Proiectarea logică a circuitelor combinaţionale. Aplicaţii.",
+    "Mihai Timiş -Analiza şi sinteza sistemelor numerice.Aplicaţii., 2003,Ed.Performantica, Iaşi",
+    "Digilent, Xilinx ISE Simulator (ISim) VHDL Test Bench Tutorial, 2010. https://learn.digilentinc.com/Classroom/Tutorials/Xilinx%20ISE%20Simulator%20(ISim)%20VHDL%20Test%20Bench%20Tutorial.pdf (accesat 23.03.2023"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universitatea din Oradea",
+  "institution_slug": "ec_ro_oradea01",
+  "degree": "Electromechanics (B.Eng., Electrical Engineering field, 4 years / 240 credits)",
+  "course_code": "IETI-0223",
+  "academic_year": "2026/27 (plan) / 2024/25 (fichas)",
+  "source_url": "https://ieti.uoradea.ro/images/zEN/Programmes/Bachelor_degree_programmes/2024_2025/FD_licenta_EM_EN_2024-2025.pdf",
+  "source_language": "en",
+  "source_sha256": "7257bca4c1bf9d2d2914fc7205e1c11fb81104504454fe6ebac5a1720280ce75",
+  "extracted_at": "2026-11-20T09:28:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

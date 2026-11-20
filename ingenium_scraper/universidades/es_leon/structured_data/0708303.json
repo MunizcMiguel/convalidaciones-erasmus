@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Fundamentos físicos",
+  "course_name_en": "Physical Fundamentals",
+  "ects": 6.0,
+  "semester": "S1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Having studied physics in high school",
+    "Simultaneously taking the calculus course",
+    "0708302: DIFFERENTIAL AND INTEGRAL CALCULUS"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Recognize and understand the general laws of applied physics (mechanics, thermodynamics, fields and waves, and electromagnetism) that apply to engineering.",
+      "type": "knowledge",
+      "code": "RAFB1"
+    },
+    {
+      "text": "Apply the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism to solve engineering problems.",
+      "type": "skill",
+      "code": "RAFB9"
+    },
+    {
+      "text": "Recognize and understand the training needs that will be useful to successfully resolve new situations related to industrial engineering.",
+      "type": "competence",
+      "code": "RAT1"
+    },
+    {
+      "text": "Ability to assemble and perform laboratory experiments.",
+      "type": "skill",
+      "code": "RAT12"
+    },
+    {
+      "text": "Adapt the organization of content and the use of language, verbal and non-verbal, to argue in various situations or before diverse audiences.",
+      "type": "skill",
+      "code": "RAT18"
+    },
+    {
+      "text": "Apply knowledge specific to industrial engineering in learning new methods and theories.",
+      "type": "skill",
+      "code": "RAT4"
+    },
+    {
+      "text": "Apply quality principles and methods.",
+      "type": "skill",
+      "code": "RAT8"
+    }
+  ],
+  "syllabus_topics": [
+    "Block I: Introduction",
+    "Topic 1. Magnitudes, units and dimensions. Systems of units. Dimensional analysis.",
+    "Block II: Statics",
+    "Topic 2. Statics and equilibrium of a particle.",
+    "Topic 3. Forces and moments. Moment of a force at a point, axial moment; moment of a couple of forces. Equivalent systems of forces. Reduction of a system of forces to a force and a couple. Reduction of a system of forces to the central axis.",
+    "Topic 4. Equilibrium of a rigid body. Reactions at supports. Particular cases: body subjected to 2 forces and to 3 forces.",
+    "Topic 5. Centers of gravity of areas and lines. Determination of centers of gravity by integration. Guldin's theorems. Distributed loads on beams.",
+    "Topic 6. Moments of inertia of plane areas. Steiner's theorem.",
+    "Topic 7. Introduction to the analysis of articulated structures. Method of joints. Method of sections.",
+    "Topic 8. Introduction to shear forces, axial forces and bending moments in beams with concentrated loads.",
+    "Block III: Kinematics and Dynamics of Particles and Rigid Bodies",
+    "Topic 9. Newton's Second Law.",
+    "Topic 10. Work-energy theorem (kinetic energy theorem).",
+    "Topic 11. Momentum theorem.",
+    "Topic 12. Angular velocity and acceleration. Rotational motion."
+  ],
+  "teaching_methods": [
+    "Laboratory practices (applying theory in a practical context, practical exercises through laboratories)",
+    "Lectures (presentation of course content, participatory)",
+    "Problem/exercise solving in the classroom (formulation, analysis, resolution, and discussion of problems or exercises)",
+    "Flipped classroom / Flipped Learning (maximizing in-class interaction and active knowledge application, basic content studied outside)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Practical cases (resolution of cases or applied activities, several written problem-solving tests)",
+      "weight_percentage": 90.0
+    },
+    {
+      "method": "Attendance at visits, tutorials, and various training sessions (attitude, participation, and submitted work, including the laboratory practice report)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "Several written problem-solving tests will be conducted throughout the semester for the practical cases component, with its total percentage divided among them. The report submitted during laboratory practices will be evaluated as part of attendance and participation. Attendance at laboratory practices is mandatory.",
+  "bibliography": [
+    "Beer, Ferdinand Pierre, Johnston, E. Russell; Mazurek, David F.; Muñoz Díaz, Enrique; Zamora Gallardo, Enrique; Murrieta Murrieta, Jesús Elmer Título: Mecánica vectorial para ingenieros : Estática Datos de publicación: México :: McGraw-Hill Education, 2021 ISBN: 1-4562-9328-1",
+    "Beer, Ferdinand P., Johnston Jr., E. Russell,; Cornwell, Phillip J,; Self, Brian P,; Nagore Cázares, Gabriel,; Murrieta Murrieta, Jesús Elmer, Título: Mecánica vectorial para ingenieros : Dinámica Datos de publicación: Madrid :: McGraw-Hill Interamericana, 2021 ISBN: 1-4562-6918-6; 1-4562-5574-6",
+    "Beer, Ferdinand P.;Johnston Jr., E. Russell; Cornwell, Phillip J.; Self, Brian P. Beer, Ferdinand P.,; Muñoz Díaz, Enrique,; Zamora Gallardo, Enrique,; Murrieta Murrieta, Jesús Elmer, Título: Mecánica vectorial para ingenieros. Dinámica Datos de publicación: México :: McGraw-Hill/Interamericana, cop. 2021 ISBN: 978-1-4562-8759-7",
+    "Beer, Ferdinand P., Johnston, E. Russell,; Mazurek, David F.,; Muñoz Díaz, Enrique,; Zamora Gallardo, Enrique; Murrieta Murrieta, Jesús Elmer Título: Mecánica vectorial para ingenieros. Estática Datos de publicación: Mexico :: McGraw-Hill/Interamericana, cop. 2021 ISBN: 978-1-45628760-3",
+    "Título: El Sistema Internacional de Unidades SI Editorial: Centro Español de Metrología Fecha de publicación: 2006"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de León",
+  "institution_slug": "es_leon",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "0708303",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocenteapi.unileon.es/snapshots/2026-2027/0708303",
+  "source_language": "es",
+  "source_sha256": "7ace50604b49453d736dd87ee0edaff6b48160d5b641dd6c5302e7c22d158bda",
+  "extracted_at": "2026-11-13T22:54:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

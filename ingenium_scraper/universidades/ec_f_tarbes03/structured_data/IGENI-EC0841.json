@@ -1,0 +1,65 @@
+{
+  "course_name_original": "Capteurs",
+  "course_name_en": "Sensors",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Electronics and electricity: operational amplifier, electrical circuits."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to select, size and implement a sensor or a set of sensors associated with a measurement or production system and meeting a set of specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the main sensors and associated conditioners",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental principles: definitions, active sensors, passive sensors, composite sensors, influence quantities, sensor components, transmitter and measurement chain.",
+    "Metrological characteristics: measurement errors, qualities of a measurement chain, measurement range, limits of use, calibration, sensitivity.",
+    "Passive sensor conditioners: characteristics, potentiometers, measurement bridges.",
+    "Signal conditioners: adaptation, differential amplifier, isolation amplifier.",
+    "Sensors for mechanical quantities: deformation, displacement, force, torque, acceleration and vibration sensors.",
+    "Sensors in production systems: contact and non-contact detection, current, position and speed sensors, contact and non-contact temperature sensors, pressure and flow sensors.",
+    "Sensor selection methodology."
+  ],
+  "teaching_methods": [
+    "Cours",
+    "TD"
+  ],
+  "workload_hours_total": 16.0,
+  "workload_hours_contact": 12.0,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0841",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "9562152c1f08dacca9dcf9b84c5187fb26e20bbd08d94260a45ecd7e5042edec",
+  "extracted_at": "2026-11-18T10:00:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,174 @@
+{
+  "course_name_original": "Teoría de la Comunicación",
+  "course_name_en": "Communication Theory",
+  "ects": 9.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Algebra lineal",
+    "Cálculo",
+    "Estadística, Ampliación de Cálculo y Teoría de Circuitos",
+    "Fundamentos de electrónica analógica",
+    "Señales y sistemas"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Correctly and fluently handle the logarithmic units of power, gain, and attenuation used in communication systems (CR.4, CG.3, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.1"
+    },
+    {
+      "text": "Apply the fundamentals of time and frequency domain analysis to solve problems in communication systems (CR.4, CR.5, CG.3, CG.4).",
+      "type": "skill",
+      "code": "RA-8.2"
+    },
+    {
+      "text": "Characterize information, both as a signal and as a stochastic process, to be transmitted by a communication system, as well as the disturbances that limit the performance of said system (CR.4, CR.5, CG.3, CG.4).",
+      "type": "skill",
+      "code": "RA-8.3"
+    },
+    {
+      "text": "Describe and distinguish the functional blocks of analog and digital communication systems (CR.1, CR.4, CR.5, CG.3, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.4"
+    },
+    {
+      "text": "Obtain the fundamental parameters of analog and digital communication systems (CR.4, CG.3, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.5"
+    },
+    {
+      "text": "Understand the limitations and performance of different analog and digital modulation systems (CR.5, CG.3, CG.5, CG.6).",
+      "type": "knowledge",
+      "code": "RA-8.6"
+    },
+    {
+      "text": "Conveniently evaluate the trade-off between bandwidth and power consumption to obtain a certain quality in a given configuration of an analog or digital communication system (CR.1, CR.5, CR.15, CG.4, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.7"
+    },
+    {
+      "text": "Understand the main analog and digital modulation techniques to identify the most appropriate technique in a given transmission configuration (CR.1, CR.5, CG.3, CG.5, CG.6).",
+      "type": "knowledge",
+      "code": "RA-8.9"
+    },
+    {
+      "text": "Discuss and evaluate in a group the most appropriate analog and/or digital modulation technique under given operating conditions and restrictions (CR.1, CR.5, CG.4, CG.9).",
+      "type": "skill",
+      "code": "RA-8.10"
+    },
+    {
+      "text": "Apply knowledge of the different technological alternatives for deploying communication systems to functionally design systems that meet certain pre-imposed requirements and performance (CR.1, CR.5, CR.6, CR.15, CG.2, CG.3, CG.4, CG.6).",
+      "type": "skill",
+      "code": "RA-8.11"
+    }
+  ],
+  "syllabus_topics": [
+    "Characterization of signals and information signaling in baseband",
+    "Physical signals and their mathematical models",
+    "Characteristic parameters of signals: voltage, power, energy and their logarithmic units",
+    "Energy Spectral Density (ESD) and Power Spectral Density (PSD)",
+    "Bandwidth",
+    "Correlation between signals",
+    "Autocorrelation",
+    "Uncorrelation, orthogonality and incoherence",
+    "Stochastic process: mathematical model and interpretation",
+    "Statistical averages: mathematical expectation, correlation function and covariance function",
+    "Independence, uncorrelation and orthogonality",
+    "Stationarity and ergodicity",
+    "Power and spectral characterization of processes",
+    "Gaussian random processes",
+    "Characterization of thermal noise as a random process",
+    "Characterization of filtered random processes",
+    "Information signaling in baseband",
+    "Analog voice, audio and video signals",
+    "Analog modulations using pulsed signals: PAM, PWM and PPM",
+    "Quantization of analog signals",
+    "Digital pulsed modulations: PCM",
+    "Symbol and bit energy, spectral density and efficiency",
+    "Communication systems with baseband transmission",
+    "Introduction",
+    "General model of a communication system",
+    "Introduction to the concepts of channel sharing and information multiplexing",
+    "Quality parameters",
+    "Resources of a communication system",
+    "Characterization of systems in time and frequency",
+    "Attenuation, gain and logarithmic units (decibel dB)",
+    "Characterization of filtered signals",
+    "Linear distortion: amplitude and phase distortion",
+    "Non-linear distortion: harmonic distortion and intermodulation distortion",
+    "Definition of noise: thermal noise",
+    "White noise",
+    "Representation of noise in a communication system: equivalent noise bandwidth, equivalent noise temperature and noise factor",
+    "Friis' Formula",
+    "Transmission of analog baseband signals and reception in the presence of noise",
+    "Signal-to-noise ratio",
+    "Transmission of pulsed baseband signals and receivers in the presence of noise",
+    "Intersymbol interference (ISI)",
+    "Bayesian decision",
+    "Optimal digital receiver implementation in Gaussian channel",
+    "Shannon's Theorem",
+    "Representation of noise in the signal space",
+    "Calculation of error probability and properties",
+    "Communication systems with passband transmission",
+    "Passband signals and passband stochastic processes: complex envelope and phasor diagram",
+    "Passband noise",
+    "Low-pass equivalent of a system",
+    "Modulation: modulation objectives, spectral and power efficiency",
+    "Analog modulations: amplitude, phase and frequency modulations",
+    "Definition, spectral and power analysis",
+    "Introduction to single-carrier digital amplitude, phase and frequency modulations for passband transmission",
+    "Passband communication system model",
+    "Transmission and Reception Schemes: Direct receiver, superheterodyne",
+    "Quality analysis in predetection and postdetection",
+    "Receiver sensitivity",
+    "Signal-to-noise ratio",
+    "Probability of error in digital systems"
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practices",
+    "Group Tutorials",
+    "Expository Classes",
+    "Laboratory Practices",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 87.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Lab practices evaluation",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade (Nf) is calculated as 0.7 * Ef + 0.3 * Ep, where Ef is the final written exam and Ep is the lab practices evaluation. The lab practices evaluation will be a written test on concepts handled with simulators, performed individually or in pairs during lab sessions. For extraordinary calls and differentiated evaluation, the final grade is calculated using the same formula; students can choose to replace the practical evaluation with the grade obtained during the semester. In case of doubt regarding authorship or unauthorized means, students may be asked for an in-person defense.",
+  "bibliography": [
+    "Bruce Carlson, Paul B. Crilly and Janet C. Rutledge “Communication systems”, 4th edition, Mc. Graw Hill. 2002.",
+    "B.P. Lathi, Z. Ding, “Modern digital and analog communication systems”, 4th ed. Oxford Univ. Press. 2010",
+    "J.G. Proakis, M. Salehi, “Communication systems engineering”, 2nd ed. Prentice Hall. 2002.",
+    "A. Grami, “Introduction to Digital Communications”, Academic Press – Elsevier. 2015.",
+    "M.P. Fitz, “Fundamentals of communication systems”, 1st ed. McGraw Hill. 2007",
+    "P. Z. Peebles, Jr, “Principios de probabilidad, variables aleatorias y señales aleatorias”, Cuarta edición, McGrawHill.",
+    "Transparencias de la asignatura de “Teoría de la Comunicación”.",
+    "Colecciones de cuestiones y problemas de la asignatura."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-010",
+  "source_language": "es",
+  "source_sha256": "c5ab704959c98241eca716574785ead50b1f0620ef2bb5ef4bc4b5d8f7f1203c",
+  "extracted_at": "2026-11-20T06:05:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

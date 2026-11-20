@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Matemática Computacional (MC2112)",
+  "course_name_en": "Computational Mathematics",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Numerical representation and introduction to MATLAB (or Python)",
+    "Errors and Conditioning",
+    "Data interpolation and extrapolation. Least Squares Method - Discrete L2 Projection",
+    "One-dimensional equations - Secant and Newton methods",
+    "Integration and Ordinary Differential Equations \n\t\t\t– Euler, Runge-Kutta and adaptive methods",
+    "Systems of Linear and Non-Linear Equations \n\t\t\t– Fixed Point, Newton methods",
+    "Numerical differentiation and integration - general and elementary case (several variables)",
+    "Partial Differential Equations – Finite Differences, Splines and Finite Elements"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "MAP45",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Computational work 1",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Computational work 2",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For normal evaluation, the grade is based on MAP45 (20%), two computational assignments (20% + 20% = 40%), and an exam (40%). For re-sit and special evaluations, the grade is based on an exam (60%) and two computational assignments (20% + 20% = 40%). A minimum grade of 8 is required on the exam. Grades for assignments and final grades equal to or greater than 18 may require an oral defense.",
+  "bibliography": [
+    "A. Quarteroni, F. Saleri, P. Gervasio, Scientific Computing with MATLAB and Octave., 4th ed, Springer, 2014 (main)",
+    "A. Quarteroni, F. Saleri, Cálculo Científico com o MatLab e o Octave, Springer, 2007 (main)",
+    "S. Chapra, R. Canale, Numerical Methods for Engineers,, 6th ed., MacGraw Hill, 2009 (main)",
+    "R. L. Burden, J. D. Faires, Numerical Analysis, 8th ed., Brooks Cole, 2004 (main)",
+    "C. Vuik, F.J. Vermolen et al., Numerical Methods for Ordinary Differential Equations, Delft Ac. Press, 2016 (secondary)",
+    "Ch. J. Zarowski, An Introduction to Numerical Analysis for Electrical and Computer Engineers, Wiley, 2004 (secondary)",
+    "C. J. S. Alves, Matemática Computacional, 2009 (secondary)"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa",
+  "institution_slug": "ec_p_lisboa109",
+  "degree": "Licenciatura Bolonha em Engenharia Mecânica (LEMec21)",
+  "course_code": "MC2112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185305",
+  "source_language": "pt",
+  "source_sha256": "7c12606420527daeb2851df9476bd3ef04d9a3fc1cf5b91e4443a31b8ec5a953",
+  "extracted_at": "2026-11-18T10:04:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

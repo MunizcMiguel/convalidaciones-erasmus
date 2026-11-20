@@ -1,0 +1,145 @@
+{
+  "course_name_original": "Càlcul d'Estructures Avançat",
+  "course_name_en": "Advanced Structural Calculation",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Matemàtiques)",
+    "EM1002 - Càlcul I (Matemàtiques)",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II (Matemàtiques)",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica",
+    "EM1011 - Estadística i Optimització",
+    "EM1012 - Mecànica de Màquines i Estructures",
+    "EM1013 - Electrotècnia",
+    "EM1014 - Enginyeria Tèrmica",
+    "EM1015 - Ciència i Tecnologia de Materials",
+    "EM1016 - Mecànica de Fluids",
+    "EM1017 - Empresa",
+    "EM1018 - Electrònica",
+    "EM1019 - Elasticitat i Resistència de Materials",
+    "EM1020 - Teoria de Màquines i Mecanismes",
+    "EM1021 - Disseny de Màquines",
+    "EM1022 - Màquines i Instal·lacions Tèrmiques",
+    "EM1023 - Sistemes Automàtics",
+    "EM1024 - Sistemes de Producció Industrial",
+    "EM1025 - Enginyeria Gràfica",
+    "EM1026 - Teoria d'Estructures",
+    "EM1027 - Estructures i Construccions Industrials",
+    "EM1028 - Màquines i Instal·lacions de Fluids",
+    "EM1029 - Tecnologies de Fabricació"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to apply the equations governing the mechanical behavior of a structural system discretized into finite elements in specific cases.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to implement finite element structural models and calculate their response to external actions using commercial finite element calculation software tools.",
+      "type": "skill",
+      "code": "CG05"
+    },
+    {
+      "text": "Be able to implement the formulation of a simple structural calculation problem using finite elements in a specific programming environment.",
+      "type": "skill",
+      "code": "CG05"
+    },
+    {
+      "text": "Be able to prepare technical reports and documents in the field of structural analysis.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Be able to apply fatigue verification methods in industrial rolled steel structures subjected to dynamic actions based on current regulations.",
+      "type": "skill",
+      "code": "CG01"
+    },
+    {
+      "text": "Be able to conceive and dimension the connections of an industrial rolled steel structure in a specific case.",
+      "type": "skill",
+      "code": "CG01"
+    },
+    {
+      "text": "Be able to assess the fire resistance of rolled steel elements based on current regulations.",
+      "type": "skill",
+      "code": "CEM05"
+    },
+    {
+      "text": "Be able to formulate the equations governing the mechanical behavior of a structural system discretized into finite elements in simple cases.",
+      "type": "skill",
+      "code": "CEM05"
+    },
+    {
+      "text": "Know the procedures for dimensioning and verifying connections in rolled steel structures present in industrial building according to current regulations.",
+      "type": "knowledge",
+      "code": "CEM05"
+    },
+    {
+      "text": "Know what current regulations prescribe regarding the execution, existence of tolerances, quality control and inspection procedures in rolled steel structures.",
+      "type": "knowledge",
+      "code": "CEM05"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the Finite Element Method",
+    "Development of equations for bar elements",
+    "Development of equations for beam elements",
+    "Development of equations for rigid frames",
+    "Development of elements for plane stress and strain applications",
+    "Introduction to plate and shell models",
+    "Three-dimensional analysis: Solid elements",
+    "Practical considerations in the modeling process. Interpretation of results",
+    "Advanced steel structures project (i). Joint design",
+    "Advanced steel structures project (ii). Fatigue and fire resistance",
+    "Advanced steel structures project (iii). Quality control and inspection",
+    "Session 1.- Introduction to the SAP2000 finite element calculation program",
+    "Session 2.- Provide technical instructions in an international context",
+    "Session 3.- Finite element analysis of bar structures using SAP2000",
+    "Session 4.- Finite element analysis of plane stress and strain problems using a spreadsheet",
+    "Session 5.- Solving plane stress and strain problems using SAP2000",
+    "Session 6.- Finite element analysis of plates and shells using SAP2000"
+  ],
+  "teaching_methods": [
+    "Theoretical sessions: Master class lectures",
+    "Practical sessions (problems): Problem-based learning",
+    "Practical sessions (laboratory): Laboratory work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment (Lab practice reports, potentially oral presentation)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final exam on theoretical content",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum of 5 out of 10 points is required for the global grade. For the first and second calls, the global grade is obtained by averaging the continuous assessment (50%) and the final theoretical exam (50%). A minimum score of 4 out of 10 is required for the final exam; if not met, the global grade cannot exceed 4.5. Continuous assessment (lab practice reports) has no minimum grade and is recoverable in the second call. In the extraordinary call for finalization of studies, assessment is 100% based on a final exam, comprising 50% theory and 50% lab content, with no minimum grades for parts.",
+  "bibliography": [],
+  "isced_f_code": "0732",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1041",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1041",
+  "source_language": "ca",
+  "source_sha256": "10d59012d93d321d5167c8c6570b119370bcb9d9a26dcdbbfe96c6a54a1d41f8",
+  "extracted_at": "2026-11-13T22:37:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

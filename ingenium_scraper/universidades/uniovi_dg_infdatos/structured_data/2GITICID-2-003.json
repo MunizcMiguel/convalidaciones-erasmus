@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Inferencia Estadística",
+  "course_name_en": "Statistical Inference",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Probability",
+    "Cálculo I",
+    "Cálculo II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Demonstrate possession and understanding of knowledge in a field of study that starts from the base of general secondary education, and is usually found at a level that, while supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "unspecified",
+      "code": "CB01"
+    },
+    {
+      "text": "Be able to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated by the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "unspecified",
+      "code": "CB02"
+    },
+    {
+      "text": "Have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "unspecified",
+      "code": "CB03"
+    },
+    {
+      "text": "Be able to transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "unspecified",
+      "code": "CB04"
+    },
+    {
+      "text": "Have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "unspecified",
+      "code": "CB05"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "unspecified",
+      "code": "CG01"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to pose experiments and to describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "unspecified",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "unspecified",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "unspecified",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "unspecified",
+      "code": "CG09"
+    },
+    {
+      "text": "Analyze data from complex phenomena by applying statistical techniques and probability calculus.",
+      "type": "unspecified",
+      "code": "CE03"
+    },
+    {
+      "text": "Understand and correctly apply exploratory data analysis and statistical modeling techniques, evaluating the quality of the models, validating them, and interpreting them.",
+      "type": "unspecified",
+      "code": "CE04"
+    },
+    {
+      "text": "Know and apply the main Descriptive Statistics techniques, determining the most appropriate ones for each data set based on its characteristics.",
+      "type": "unspecified",
+      "code": "RIE1"
+    },
+    {
+      "text": "Know the main data collection techniques and the most common errors in a sampling process.",
+      "type": "unspecified",
+      "code": "RIE2"
+    },
+    {
+      "text": "Apply point estimation techniques for unknown parameters from a sample, and determine the error associated with the estimation.",
+      "type": "unspecified",
+      "code": "RIE3"
+    },
+    {
+      "text": "Construct confidence intervals for the main parameters of interest in the context of data analysis, and determine the minimum sample size to bound the error committed with a level of confidence.",
+      "type": "unspecified",
+      "code": "RIE4"
+    },
+    {
+      "text": "Fluently handle the concepts of statistic, critical region, significance level, and p-value.",
+      "type": "unspecified",
+      "code": "RIE5"
+    },
+    {
+      "text": "Be able to test hypotheses about proportions and means, both with independent and paired samples, determining the ideal type of test for each situation.",
+      "type": "unspecified",
+      "code": "RIE6"
+    },
+    {
+      "text": "Properly interpret the results obtained.",
+      "type": "unspecified",
+      "code": "RIE7"
+    }
+  ],
+  "syllabus_topics": [
+    "Statistical summary of data: frequency tables, graphical representations, summary measures.",
+    "Data collection techniques. Introduction to statistical inference.",
+    "Point estimation. Sampling distributions.",
+    "Confidence intervals. Confidence level and error bounds. Sample sizes.",
+    "Introduction to hypothesis testing. Significance level, critical region and p-value.",
+    "Examples of hypothesis tests. Proportions: comparison of one or more proportions. Normal populations: comparison of one or more populations. Paired samples and independent samples. ANOVA and ANCOVA."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practicals",
+    "Evaluation sessions",
+    "Autonomous work",
+    "Academic tutoring"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance, participation in seminars and tutorials, includes online (PA)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Active participation in forums and/or Campus Virtual activities (AC)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Reports, memoirs and/or practical exams (PL)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final exam (EX)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade for the ordinary call is calculated as: 0.05 x PA + 0.15 x AC + 0.2 x PL + 0.6 x EX. For the extraordinary call, the formula is the same, but a lab practical test is taken. For differentiated evaluation, a theoretical-practical exam is 80% and a laboratory test is 20%. In all cases, the final grade must be at least 5 out of 10 to pass the course.",
+  "bibliography": [
+    "Ruiz-Maya, L., & Pliego, F. J. M. (2006). Estadística II: Inferencia. Colección Plan Nuevo, Editorial AC.",
+    "Almécija, A. M., Torreblanca, C. R., & Jaímez, R. G. (1993). Inferencia estadística: un enfoque clásico. Pirámide.",
+    "Rohatgi, V. K., & Saleh, A. M. E. (2015). An introduction to probability and statistics. John Wiley & Sons.",
+    "Montgomery, D. C., Runger, G. C., & Medal, E. G. U. (1996). Probabilidad y estadística aplicadas a la ingeniería. McGraw-Hill."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-2-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-003",
+  "source_language": "es",
+  "source_sha256": "20b9652f36ae65b261e29b5eae159c2bc26dad6bbb3bb9b74a4089d9246861c0",
+  "extracted_at": "2026-11-20T05:57:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

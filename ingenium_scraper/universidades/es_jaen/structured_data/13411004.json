@@ -1,0 +1,153 @@
+{
+  "course_name_original": "Expresión gráfica (13411004)",
+  "course_name_en": "Graphic Expression",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Technical Drawing in Secondary Education, Baccalaureate and/or Vocational Training Cycles",
+    "Basic knowledge of planar metric geometry and technical drawing in standardization",
+    "Knowledge of dihedral view representation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds upon general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects that imply knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Ability to work, lead, and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "competence",
+      "code": "134ACT1"
+    },
+    {
+      "text": "Ability to apply new technologies, including information and communication technologies.",
+      "type": "competence",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability for information management, handling, and application of technical specifications and necessary legislation for engineering practice.",
+      "type": "competence",
+      "code": "134ACT2"
+    },
+    {
+      "text": "Ability for spatial vision and knowledge of graphic representation techniques, both by traditional methods of metric geometry and descriptive geometry, and by computer-aided design applications.",
+      "type": "competence",
+      "code": "134ACBB5"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I. REPRESENTATION AND STANDARDIZATION TECHNIQUES",
+    "Topic 1: Introduction. Concept of standard. Paper formats and folding of drawings. Margins. Scales. Lettering. Standardized lines. (UNE-EN ISO 216:2008, UNE-EN ISO 128-2:2002, UNE-EN ISO 5455:1996, UNE-EN ISO 5457:2000).",
+    "Topic 2: Description and analysis of industrial forms. Standardized representations. Projection cube. View selection. Object position. Criteria for view selection and economy. Auxiliary projection planes. Other conventions (UNE-EN ISO 5456-1:2000, UNE-EN ISO 5456-2:2000, UNE-EN ISO 128-2:2020, UNE-EN ISO 128-3:2020). Introduction to dimensioning. (UNE-EN ISO 129-1:2019/A1:2021)",
+    "BLOCK II. DESCRIPTIVE GEOMETRY",
+    "Topic 3: Foundations of Representation Systems. Types of projection: conic and cylindrical. Reversibility of projection. Common representation systems in engineering: dihedral, coterminous, and axonometric.",
+    "SISTEMA DIÉDRICO",
+    "Topic 4: Introduction. Purpose. Fundamental concepts and nomenclature. Main views. Representation and determination of notable elements. Alphabets.",
+    "Topic 5: Relationships of belonging, incidence, and relative position between notable elements. Solution of metric problems. Intersections between planes and between lines and planes. Parallelism between lines, between planes, and between lines and planes. Perpendicularity between lines, between lines and planes, and between planes. Distances between points, between point and plane, from point to line, minimum distance between two skew lines. Angles between line and plane and between two planes. Angles of lines and planes with projection planes.",
+    "Topic 6: Methods for obtaining true forms and magnitudes. Abatement of a plane. Foundations. Planar affinity. Inverse process. Changes of plane. Justification. Rotations. Position of rotation axes. Rotation of point, line, and plane.",
+    "Topic 7: Surfaces. Concepts of curve and surface. Tangent plane to a surface at one of its points. Classification. Apparent contour. Ruled surfaces with polygonal and circular bases (prism, pyramid, cylinder, and cone). Representation, planar sections, intersection with lines, developments, and transformations. Spherical surface. Apparent contour. Location of points on the sphere and tangent plane at a point. Planar section and intersection with a line.",
+    "Topic 8: Intersection of surfaces. General method. Limiting planes and auxiliary planes. Penetration, tangential penetration, mutual or maximum penetration, and bite. Radial Planes Method.",
+    "COTTERMINOUS PLANE SYSTEM",
+    "Topic 9: Introduction. Foundations. Module or Interval. Representation and determination of notable elements. Alphabets.",
+    "Topic 10: Relationships of belonging, incidence, and relative position between notable elements. Solution of metric problems. Intersections between planes and between lines and planes. Parallelism between lines, between planes, and between lines and planes. Perpendicularity between lines, between lines and planes, and between planes. Distances between points, between point and plane, and from point to line. Angles between line and plane and between two planes.",
+    "Topic 11: Method for obtaining true forms and magnitudes. Abatement of a plane. Foundations. Inverse process.",
+    "Topic 12: Applications: Roofs and Pitches. Topographic applications: longitudinal profiles and earthworks.",
+    "AXONOMETRIC SYSTEM",
+    "Topic 13: Introduction. Representation of notable elements. Justification. Orthogonal and oblique axonometry. Reduction coefficient and axonometric scales. Trace triangle. Ordinary trace of a plane. Direct and inverse problems of axonometry. Schlömilch-Weisbach Theorem. Orthogonal axonometry: Representation of point, line, and plane. Alphabets.",
+    "Topic 14: Axonometric perspectives and their application. Orthogonal axonometric perspectives: isometric, dimetric, and trimetric. Standardized cavalier perspective. Axonometric projections starting from dihedral views. Planar sections. Abatements.",
+    "BLOCK III. COMPUTER-AIDED DRAWING",
+    "Practice 0: Getting started. Review of basic knowledge on standardization principles.",
+    "Practice 1: Standardization principles. Representation of standardized views. CAD (1/4) - 3D modeling of parts and obtaining their standardized views.",
+    "Practice 2: Standardization principles. Representation of standardized views. CAD (2/4) - Obtaining fully defined standardized views (cuts, sections, and dimensioning) from the 3D model.",
+    "Practice 3: Dihedral System. True magnitudes and planar sections. CAD (3/4) - Obtaining the planar section of a part's 3D model, its true magnitude, and the projection of said planar section in its standardized views.",
+    "Practice 4: Dihedral System. Representation of surfaces and bodies.",
+    "Practice 5: Dihedral System. Representation of surfaces and bodies.",
+    "Practice 6: Dihedral System. Intersection of surfaces. CAD (4/4) - Obtain the intersection of two surfaces from the 3D model and obtain the projection of the intersection curve(s) in its dihedral projections, defining the type of intersection (bite, penetration, tangential penetration, or maximum penetration).",
+    "Practice 7: Coterminous Plane System. Foundations, notable elements, and relative positions.",
+    "Practice 8: Coterminous Plane System. True forms and magnitudes. Representation of bodies.",
+    "Practice 9: Coterminous Plane System. Representation of roofs.",
+    "Practice 10: Coterminous Plane System. Topographic Surfaces. Intersections. Longitudinal profiles and earthworks.",
+    "Practice 11: Orthogonal Axonometric System. Representation of bodies.",
+    "Practice 12: Orthogonal Axonometric System. Planar sections. True magnitude of a planar section."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Presentation of theory with general examples",
+    "Practical activities",
+    "Computer labs / CAD labs",
+    "Exercise solving",
+    "Presentations/expositions",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Active attendance and participation in practical classes",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Delivery and presentation of group work",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Final exam on theoretical and practical concepts",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Evaluation of scheduled practical assignments",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "A minimum score of 4 out of 10 in the final exam is required to add the grades from complementary activities (attendance and active participation, scheduled practices, and group work). If this minimum score is not met, the final exam grade will be the final grade for the course. The course is generally passed if the weighted sum of all activities (complementary activities and final exam) is not less than 5. Grades from attendance and active participation, scheduled practices, and group work are only retained for the Ordinary 1 and Extraordinary 2 calls within the same academic year. For the Extraordinary 1 call, only the final exam grade will be considered as the final course grade.",
+  "bibliography": [
+    "Ramos Barbero, Basilio - (2006) - Dibujo técnico - AENOR",
+    "Izquierdo Asensi, Fernando - (1994) - Ejercicios de geometría descriptiva - el autor",
+    "Izquierdo Asensi, Fernando - (2002) - Geometría descriptiva superior y aplicada - El autor",
+    "Giesecke, Frederick - (2016) - Technical Drawing with Engineering Graphics, Fifteenth Edition - Peachpit Press",
+    "Brailov, Aleksandr Yurievich. - (2016) - Engineering Graphics : Theoretical Foundations of Engineering Geometry for Design - Springer International Publishing",
+    "Ferrer Muñoz, José Luis. - (1996) - Axonometrías - Paraninfo",
+    "Ferrer Muñoz, José Luis. - (1999) - Sistema diédrico - Paraninfo",
+    "Fernández San Elías, Gaspar - (1999) - Fundamentos del sistema diédrico - Instituto de Automática y Fabricación, Unidad de Imagen",
+    "Fernández San Elías, Gaspar - (2002) - Problemas y aplicaciones diédricas - Instituto de Automática y Fabricación, Unidad de Imagen, Campus de Vegazana",
+    "Fernández San Elías, Gaspar - (2004) - Sistema acotado: problemas y aplicaciones : geometría descriptiva - Asociación de Investigación, Instituto de Automática y Fabricación, Unidad de Imagen",
+    "Fernández San Elías, Gaspar - (2004) - Vistas y visualización de formas - Donostiarra",
+    "Rojas Sola, José Ignacio. - (1995) - Geometría descriptiva: problemas resueltos de sistema diédrico y siatema acotado - Universidad",
+    "Rojas Sola, José Ignacio, coaut. - (1999) - Prácticas de expresión gráfica - Universidad de Jaén, Servicio de Publicaciones e Intercambio Científico",
+    "Díaz Severiano, José Andrés - (2010) - Dibujo técnico, geometría plana, geometría descriptiva y normalización: Ejercicios resueltos - PubliCan Ediciones de la Universidad de Cantabria",
+    "Autor desconocido - (2021) - Ejercicios resueltos de geometría descriptiva - Universidad de Almería",
+    "Rodríguez de Abajo, F. Javier. - (2006) - Geometría descriptiva - Donostiarra",
+    "Bermejo Herrero, Miguel - (1996) - Geometría descriptiva aplicada - Tébar Flores",
+    "Bermejo Herrero, Miguel - (1980) - Geometría descriptiva aplicada II: axonométrico y cónico - Publicaciones de la Universidad",
+    "Pérez Carrión, Teresa. - (1998) - Ejercicios para el desarrollo de la percepción espacial - Club Universitario",
+    "Gutiérrez de Ravé Agüera, Eduardo. - (1993) - Ejercicios y problemas de geometría descriptiva - Universidad de Córdoba",
+    "Palao Morell, José Luis. - (1993) - Ejercicios de dibujo técnico - Universidad Politécnica, Servicio de publicaciones",
+    "Company, Pedro P. - (2008) - Dibujo técnico / Pedro P. Company, Margarita Vergara - Universidad Jaime I,",
+    "Company, Pedro P. - (1996) - Diseño geométrico básico: problemas de expresión gráfica en la ingeniería - Universidad",
+    "Gonzalo Gonzalo, Joaquín. - (1999) - Sólidos geométricos en sistema diédrico: proyecciones, secciones, desarrollo y transformadas - Editorial Donostiarra",
+    "Gomis Martí, José María. - (1996) - Curvas y superficies en diseño de ingeniería - Universidad Politécnica, Servicio de Publicaciones",
+    "Gomis Martí, José María. - (1993) - Ejercicios de dibujo técnico: \"curvas y superficies\" - Universidad Politécnica",
+    "Gomis Martí, José María. - (1989) - Problemas de geometría descriptiva resueltos y comentados en los sistemas, axonométrico, diédrico, acotado - Universidad Politécnica",
+    "Mira Llosá, José Ramón. - (1993) - Ejercicios de dibujo técnico: \"sistemas de representación\" - Universidad Politécnica",
+    "Villoria San Miguel, Víctor. - (1994) - Fundamentos geométricos - Dossat 2000",
+    "Azofra Márquez, Ángel. - (2013) - Ingeniería gráfica : dibujo técnico para escuelas técnicas superiores - Universidad de Granada"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13411004",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13411004/es/2026-27-13411004_es.html",
+  "source_language": "es",
+  "source_sha256": "a64ffd1dd9bb3e7f04f00c1a28a7e38e576e24a6795c12ec7d126c6049702db5",
+  "extracted_at": "2026-11-13T21:37:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

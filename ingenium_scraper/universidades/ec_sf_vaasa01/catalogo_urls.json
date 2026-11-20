@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "universidad": "University of Vaasa (Vaasan yliopisto)",
+    "slug": "ec_sf_vaasa01",
+    "nombre_grado": "Industrial Engineering and Management (BSc, Industrial Management), School of Technology and Innovations",
+    "nivel": "bachelor",
+    "curso_academico": "2025-2026",
+    "url_plan_estudios": "https://www.uwasa.fi/en/education/bachelors-programmes",
+    "ects_totales_plan": 180.0,
+    "estrategia_fuente": "Sin fuente estática/JSON localizada: guía de estudios en SPA Angular de Peppi",
+    "generado_por": "discover_ec_sf_vaasa01.py",
+    "generado_en": "2026-11-20T08:58:27",
+    "estado": "parcial",
+    "notas": "Titulación elegida: Industrial Engineering and Management / Industrial Management (grado en ingeniería de organización industrial del Excel, ISCED 0710; el máster de Vaasa en Industrial Management es de 2.º ciclo). Las guías de curso están en opas.peppi.uwasa.fi, una SPA Angular (index.html vacío, confirmado); su backend /api/ usa rutas no documentadas (educations, education/{id}, course…; las rutas probadas devolvieron 404) y www.uwasa.fi solo publica PDF de planes antiguos (2019-2020) sin fichas por asignatura. Presupuesto de exploración agotado sin una fuente fiable: catálogo vacío, sin Fase 2. Pendiente: reconstruir la API de Peppi con las rutas del bundle main.js (o usar el módulo de Peppi 'study-guide') si se quiere cubrir Vaasa."
+  },
+  "asignaturas": []
+}

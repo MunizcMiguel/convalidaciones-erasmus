@@ -1,0 +1,72 @@
+{
+  "course_name_original": "FONDAMENTI DI INFORMATICA T (93034)",
+  "course_name_en": "Fundamentals of Informatics T",
+  "ects": 12.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Acquisition of principles, methodologies and tools for designing algorithms that solve problems of a medium difficulty.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to apply such knowledge in the development of algorithms and computer programs, using a high-level programing language.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to modern elaboration systems: brief history of informatics, introduction to the von Neumann architecture and to the modern hardware devices, information representation, basic concepts of operating systems.",
+    "Introduction to the concept of algorithm, Turing's specific and universal machines, problems solutions and (non) computable functions, high- and low-level programming languages, syntax definition by means of EBNF grammars.",
+    "Introduction to the C language: values, types, constants, variables, operators and expressions, pointers, arrays and strings, structures.",
+    "Structural and procedural programming in C: control instructions, functions, procedures.",
+    "Input and output in C: I/O primitives, I/O based on the stream abstraction, access to files.",
+    "Principles and basic methodologies for designing and developing algorithms: solving small-scale problems, iteration and recursion, programs structured in many modules in the C language.",
+    "Runtime structure of C programs: runtime representation of programs, activation records and functions.",
+    "Dynamic allocation of memory for scalar types, structures and array; memory managing and memory leaking issues in C.",
+    "Ordering algorithms: Naive Sort, Bubble Sort, Insert Sort, Merge Sort, and Quick Sort.",
+    "Introduction to Abstract Data Types (ADT): type definition and operations (constructors, selectors, predicates, functions and transformators). Some fundamentals ADT: lists, queues, stacks."
+  ],
+  "teaching_methods": [
+    "Classroom lessons supported by slides (Module 1)",
+    "Laboratory lessons with exercises, case studies and problem-solving using PCs under teacher supervision (Module 2)",
+    "Interspersed classroom and lab sessions for practical application of concepts"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written test (classroom)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Lab test (programming in C)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final exam consists of two tests: a written test (max 12 points, min 7 points to pass) and a lab test (max 20 points, min 11 points to pass). Both tests must be successfully passed. The final mark is the sum of points from both tests, with a maximum of 30, potentially ",
+  "bibliography": [
+    "H. Deitel, P. Deitel. \"Il LinguaggiCo - Fondamentie Tecniche di Programmazione\", Pearson 2022 o edizioni precedenti.",
+    "A. Kelley, I. Pohl. \"C: Didattica e Programmazione\", Pearson Education, 2018, o edizioni precedenti.",
+    "A. Bellini, A. Guidi. \"Linguaggio C: Guida alla Programmazione\", Mc Graw-Hill, 2021, o edizioni precedenti."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Ingegneria informatica",
+  "institution_slug": "ec_i_bologna01__info",
+  "degree": "Ingegneria informatica (Laurea, L-8, Bologna)",
+  "course_code": "93034",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/543007",
+  "source_language": "en",
+  "source_sha256": "131b35855ff888b375499e971ffa62d72c639de152634bf68ad1f93dad2c0ef0",
+  "extracted_at": "2026-11-20T12:44:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

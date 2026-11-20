@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Análisis e Implementación de Sistemas de Automatización",
+  "course_name_en": "Analysis and Implementation of Automation Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Automation",
+    "Industrial Communications",
+    "Process Control",
+    "Programming Algorithms and Data Structures",
+    "Fundamentals of computer science, communications and computer networks",
+    "Identify main parts of automated systems, and application technologies: electrical, pneumatic and hydraulic",
+    "Basic knowledge of industrial programmable logic controllers and their application environment",
+    "Knowledge and handling of process control concepts and their implementation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the main analysis techniques used in the implementation of process automation and supervision systems, their main characteristics and fields of application.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Correctly apply the concepts for specifying the requirements for the operating, startup, and shutdown modes of a machine or production process.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know different modeling languages frequently used in industrial automation, their basic characteristics, solutions, and application field.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Implement programming modules: programs, functional blocks, and functions through coding according to the IEC 61131-3 standard.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire effective skills for the development and commissioning of real automation systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Techniques for analysis of automation and supervision systems.",
+    "Modeling languages for automation systems.",
+    "Control system design. Control architectures: centralized, decentralized, and distributed.",
+    "Design and implementation of programming modules. IEC 61131-3 coding.",
+    "Test and validation mechanisms."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practicals",
+    "Group work",
+    "Autonomous work",
+    "Company and installation visits"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Questionnaire 1 (C1)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Questionnaire 2 (C2)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final Project (TF)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum grade of 5 out of 10 is required for each of the evaluation elements (Cuestionario 1, Cuestionario 2, and Trabajo Final). If these minimums are met, the final grade is calculated as (1/10)*C1 + (2/10)*C2 + (7/10)*TF. Grades obtained in each test may be maintained between calls of the same academic year. In case of doubt regarding authorship or unauthorized means, students may be asked for an in-person defense, failure to attend will result in a 0 for the test.",
+  "bibliography": [
+    "Pere Ponsa Asensio y Ramon Vilanova Arbós, “Automatización de procesos mediante la guía GEMMA”, AULA POLITÈCNICA / ENGINYERIA CIVIL, Editions UPC, 2005",
+    "Karl-Heinz John · Michael Tiegelkamp, “IEC 61131-3: Programming Industrial Automation Systems (Second Edition)”, Ed. Springer, 2010",
+    "Peng Zhang, “Advanced Industrial Control Technology”, Elsevier, 2010",
+    "International Standard IEC 61131-3. “Programmable Controllers”, Edition 3.0, 2013",
+    "Manuales de Ayuda: “CoDeSys v3.5 y CoDeSys v2.3”"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Automatización e Informática Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mm_automatizacion",
+  "degree": "Máster Universitario en Ingeniería de Automatización e Informática Industrial",
+  "course_code": "MINAUT02-1-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/automatizacion/-/fof/asignatura/MINAUT02-1-008",
+  "source_language": "es",
+  "source_sha256": "3c4ea53726c4eb44c6244357b54705fe14daaa818e6765c9b0ce434560cede1a",
+  "extracted_at": "2026-11-20T06:00:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

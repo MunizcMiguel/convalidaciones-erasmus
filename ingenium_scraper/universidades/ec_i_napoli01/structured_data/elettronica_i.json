@@ -1,0 +1,129 @@
+{
+  "course_name_original": "Elettronica I",
+  "course_name_en": "Electronics I",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentals of Circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess essential notions on the physical principles underlying the operation of simple solid-state electronic devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the fundamental characteristics of the most used solid-state devices in electronics (diodes, MOSFET and BJT transistors), and be able to highlight their similarities and differences from the point of view of terminal characteristics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the classification of amplifiers from the point of view of input-output characteristics, and the main circuit configurations of BJT and MOSFET based amplifiers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know some fundamental applications of MOSFETs in the field of circuits for processing and storing logic signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the properties of Operational Amplifiers and some fundamental circuits based on them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to illustrate the theoretical and technical reasons underlying the properties of fundamental analog and digital circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze simple electronic circuits using diodes and MOSFET or BJT transistors, using the most appropriate models of these devices depending on the intended application for the circuit.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to predict the electrical behavior of simple circuit configurations known in the literature, whether for digital or analog applications, resorting, where necessary, to DC analysis, small-signal sinusoidal regime, or large signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze some fundamental circuits based on Operational Amplifiers, single-stage or multi-stage, or, starting from them, appropriately dimension the passive components to obtain assigned specifications in terms of amplification or input and output resistance.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analog signals and digital signals",
+    "Analog signal amplification",
+    "General amplifier models and characteristic parameters",
+    "The Operational Amplifier (OpAmp): simplified model and fundamental OpAmp circuits (inverting, non-inverting, summing, integrator, differentiator)",
+    "Semiconductor materials",
+    "Charge transport in semiconductors",
+    "Doping",
+    "The p-n junction: potential barrier, junction capacitance",
+    "Diode biasing",
+    "Rectifiers",
+    "Small-signal diode model",
+    "Diode switching",
+    "Circuit simulators: SPICE",
+    "MOSFET operating principles",
+    "Large-signal model",
+    "MOSFET as a controlled switch",
+    "Characteristic parameters of real logic circuits",
+    "Noise margins",
+    "Performance",
+    "Power dissipation",
+    "MOSFET-based logic circuits",
+    "CMOS technology",
+    "Synthesis of static CMOS logic networks",
+    "Semiconductor memories",
+    "Small-signal MOSFET models",
+    "MOSFET as an amplifier",
+    "MOSFET amplifier stages",
+    "BJT operating principle",
+    "Large-signal BJT model",
+    "Small-signal BJT models",
+    "BJT as an amplifier",
+    "Characteristics of BJT amplifiers",
+    "Introduction to signal acquisition and processing using simple programmable systems"
+  ],
+  "teaching_methods": [
+    "Frontal lessons (70% of total hours)",
+    "Practical exercises (numerical and using circuit simulators or simple programmable systems)",
+    "Short seminars by experts"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of an oral examination.",
+  "bibliography": [
+    "Sedra, K. Smith, Circuiti per la microelettronica",
+    "S. Daliento, A. Irace, Elettronica generale",
+    "Agarwal, J. H. Lang, Foundations of analog and digital electronic circuits",
+    "Slides used during lessons",
+    "Video recordings of lessons",
+    "Exercise solutions"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "elettronica_i",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "9a39a784d4ac515ace5e670f46f28ffc0b7e8a8f718cb813df458c2d8cc3e395",
+  "extracted_at": "2026-11-20T08:19:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

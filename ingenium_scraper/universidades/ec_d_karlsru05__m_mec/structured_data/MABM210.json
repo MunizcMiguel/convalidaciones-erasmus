@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Künstliche Intelligenz und Datenanalyse",
+  "course_name_en": "Artificial Intelligence and Data Analysis",
+  "ects": 6.0,
+  "semester": "2. Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basics of computer science with Python programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can analyze components and functionalities of cognitive systems by generating knowledge representations and applying pattern recognition and machine learning algorithms to develop suitable models for decision-making and classification tasks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can evaluate machine learning and classification methods by selecting learning strategies (e.g., supervised, unsupervised), analyzing training and test data, and training models to enable data-based decisions in a technical environment.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can apply basic data science methods by preparing, exploratively analyzing, visualizing structured and unstructured data, and selecting suitable algorithms for pattern recognition to extract usable information from production, sensor, or measurement data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can implement AI-based evaluations for engineering systems by training and evaluating classifiers and interpreting results to derive data-driven optimizations in engineering and production contexts.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Data preparation and handling, Data Frames, PCA, Data Augmentation",
+    "Typical classification methods: Bayes, Decision Tree, Random Forest, SVM, Perceptron, Neural Networks",
+    "Classifier design",
+    "Regression",
+    "Hidden Markov Models",
+    "Supervised and unsupervised learning, Analytical learning, Rule-based learning",
+    "Knowledge representation",
+    "Capture, clean, and analyze data from technical systems (e.g., sensor data, machine data)",
+    "Perform exploratory data analysis and visualization (e.g., with Python, Pandas, Matplotlib, Seaborn)",
+    "Specify and implement supervised and unsupervised machine learning methods for pattern recognition",
+    "Specify and implement analysis methods for time series problems",
+    "Apply Reinforcement Learning methods",
+    "Understand the development process for software and AI models and apply core components from it",
+    "Access data via common interface protocols (JSON-Rest with e.g., FastAPI, MQTT, OPC-UA) in Python",
+    "Technically interpret results of data-based analyses and use them for process optimization"
+  ],
+  "teaching_methods": [
+    "Lecture"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project work with presentation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (20 min)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Nilsson, N. J.: Introduction to Machine Learning, Stanford University, Stanford, 2005.",
+    "Russell S.J.; Norvig P.: Artificial Intelligence. A Modern Approach, 3. Aufl., Pearson, Boston; München, 2010.",
+    "Bishop C. M.: Pattern Recognition and Machine Learning, 5. Aufl, Springer, New York, 2007.",
+    "Witten I. H.; Frank E.; Hall M. A.: Data Mining: Practical Machine Learning Tools and Techniques, 3. Aufl., Morgan Kaufman, Amsterdam; Heidelberg, 2011.",
+    "Mitchell T.: Machine Learning, McGraw Hill, Boston, 1997.",
+    "Riolo R.; Vladislavleva E.; Ritchie M. D.; Moore J. H.: Genetic Programming Theory and Practice X, Springer, New York, 2013.",
+    "IEEE Transactions on Pattern Analysis and Machine Intelligence, Machine Learning, Springer, 2017.",
+    "Duda, R. O.; Hart, P. E.; Stork, D. G.: Pattern Classification, Wiley, New York; Weinheim, 2001.",
+    "VanderPlas, J.: Python Data Science Handbook, O’Reilly.",
+    "McKinney, W.: Python for Data Analysis.",
+    "Frochte, Jörg: Maschinelles Lernen, Hanser, Hanser Verlag.",
+    "Ralf Otte, Künstliche Intelligenz für Dummies, Wiley-VCH.",
+    "Rupp, Queins, Sophiten; UML 2 glasklar; HanserVerlag.",
+    "Aktuelle Jupyter-Notebooks und Online-Ressourcen."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_karlsru05__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "MABM210",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABM.pdf",
+  "source_language": "de",
+  "source_sha256": "8957ea1159aecd1e09795b7fceda1b747b8cf2ac448de80ceeef267fb55c9f64",
+  "extracted_at": "2026-11-20T12:35:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

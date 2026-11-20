@@ -1,0 +1,111 @@
+{
+  "course_name_original": "LAB ON ELECTRONIC MEASUREMENTS FOR MEDICAL APPLICATIONS (86620)",
+  "course_name_en": "LAB ON ELECTRONIC MEASUREMENTS FOR MEDICAL APPLICATIONS",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Electronics",
+    "Electronic measurements"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply measurement methods to characterize biomedical Data Acquisition Systems (DAQ), evaluating key performance metrics (e.g., SNR, PSSR, uncertainty).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform calibration of DAQ systems and medical instruments against gold standard references, understanding the importance of these measurements for validating accuracy and regulatory compliance.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and numerically model biomedical measurement circuits for medical applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply Digital Signal Processing (DSP) techniques (e.g., FIR/IIR, adaptive filters) and machine learning to analyze calibrated biomedical signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop practical skills in simulation, circuit design, and calibration of smart measurement systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze intelligent sensors and systems within the context of calibration and validation for medical applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Electronic Measurement Instrumentation for Biomedical Applications",
+    "Measurement methods and characterization techniques for DAQ systems: Measuring noise and distortion in biomedical DAQ",
+    "Evaluating bandwidth and sampling frequency",
+    "Calibration techniques to ensure accuracy (e.g., for ECG, EEG)",
+    "Transfer function: Experimental determination of the transfer function in an electronics lab (e.g., with a signal generator, oscilloscope, spectrum analyzer)",
+    "Theoretical modeling (e.g., frequency response of a sensor amplifier)",
+    "Applications: Characterization of DAQ systems for biomedical signals",
+    "Biocompatibility and safety (ISO 13485, IEC 60601, MDR standards)",
+    "Medical applications: Monitoring, telemedicine, diagnostics",
+    "Design of Data Acquisition Systems (DAQ) for Medical Applications",
+    "Low-power DAQ architecture: Design considerations for reduced power consumption: power management techniques (e.g., sleep mode, duty cycling)",
+    "Importance of low power supply noise: effects of noise on the accuracy of biomedical signals",
+    "Power supply figures of merit: Power Supply Rejection Ratio (PSSR): Definition, measurement, and impact on medical DAQ (e.g., reducing power supply interference)",
+    "Other parameters: ripple, voltage stability, energy efficiency",
+    "Characterization techniques: measuring PSSR with a spectrum analyzer, power supply noise testing",
+    "Measurements for communication protocols in medical DAQ systems: I2C: Low power, suitable for local sensors (e.g., temperature sensors)",
+    "SPI: High speed for multi-parameter DAQ (e.g., ECG, EEG)",
+    "Bluetooth Low Energy (BLE): Wireless connectivity for wearable devices",
+    "LoRa: Long-range communication for remote monitoring in telemedicine",
+    "Comparison: power consumption, latency, reliability",
+    "Measured data visualization interfaces: Designing dashboards (virtual instrumentation) for real-time monitoring",
+    "Tools: Python applications",
+    "Requirements: usability, real-time updates, compatibility with medical standards",
+    "Real-time monitoring and measurement systems: Requirements: low latency, high precision, safety",
+    "Examples: DAQ for multi-parameter monitoring, low-power wearable systems for telemedicine",
+    "Techniques: data buffering, edge processing to reduce transmission",
+    "Medical applications: Real-time monitoring",
+    "Low-power wearable devices for real-time monitoring",
+    "Remote systems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorial sessions",
+    "Hands-on laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory Activities (development of a simple application)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Oral Exam (theoretical questions and exercises)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "The final grade is determined by a combination of Laboratory Activities (30%) and an Oral Exam (70%).",
+  "bibliography": [
+    "Slides and lecture notes written by the instructor",
+    "Scientific articles and datasheets provided by the instructor"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86620",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8070&ordinamento_aa=2023&af_percorso=1&corso_cod=10186&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "63bd72966cfe00ff0bae27df0cd2096b695f9310f6280ff1e31be2545dd2e1be",
+  "extracted_at": "2026-11-20T08:19:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

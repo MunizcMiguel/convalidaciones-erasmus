@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Aprendizagem Computacional",
+  "course_name_en": "Computational Learning",
+  "ects": 6.0,
+  "semester": "SEMESTRAL",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Calculus",
+    "Linear Algebra",
+    "Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Introduce the core machine learning algorithms, the principles and the mathematics behind them.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to identify the best algorithm(s) for a particular task.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluate and validate choices both experimentally and formally.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the types of problems that machine learning algorithms can solve today.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how ML algorithms are different from traditional programming algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the role of humans in the development of effective ML solutions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Gain a broad view about other types of machine learning, together with a general idea about the most recent approaches in machine learning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire and deepen oral and written communication skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire and deepen arguing skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire and deepen critical reasoning skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire and deepen group work skills.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: types of learning, tasks and data",
+    "Supervised Learning: regression and classification",
+    "Unsupervised Learning: Clustering and Association",
+    "Performance Metrics",
+    "Complementary aspects: semi-supervised learning, reinforcement learning, concept learning, fuzzy learning, sets, deep learning.",
+    "Computational Learning for Big Data",
+    "Responsible Computational Learning"
+  ],
+  "teaching_methods": [
+    "TP classes: presentation and discussion of concepts, techniques and algorithms of computational learning.",
+    "PL classes: students practice using computational learning algorithms on the computer to solve problems of medium complexity, performing simulations potentially using tools. This work is done in groups, in the PL class, with the monitoring of the professor.",
+    "Out-of-class project with submission of a report and public defense."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Resolution Problems (practical work in PL classes)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Project",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of 10% from resolution problems (practical work in PL classes), 30% from a project (with report and public defense), and 60% from a written exam.",
+  "bibliography": [
+    "Jeff Prosise, Applied Machine Learning and AI for Engineers: Solve Business Problems That Can't Be Solved Algorithmically, O'Reilly, 2022.",
+    "Chip Huyen, Designing Machine Learning Systems: An Iterative Process for Production-Ready Applications, O'Reilly, 2022.",
+    "Aurélien Géron, Hands-On Machine Learning with Scikit-Learn, Keras, and Tensorflow, O'Reilly, 2022.",
+    "Serg Masís, Interpretable Machine Learning with Python, Packt, 2023.",
+    "Christopher M. Bishop, Pattern Recognition and Machine Learning, Springer-Verlag New York Inc., 2006.",
+    "Peter Flach, Machine Learning: the art and science of algorithms that maker sense of data, Cambridge University Press, 2012.",
+    "Trevor Hastie, Robert Tibsshirani and Jerome Friedman, The Elements of Statistical Learning (2nd Edition), Springer, 2008.",
+    "Andreas C. Muller and Sarah Guido, Introduction to Machine Learning with Python, O'Reilly, 2017.",
+    "João Gama et al., Extracção de Conhecimento de Dados, Edições Sílabo, 2012."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01016721",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/88882/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "40ee829440ad64e10620a5c517e2b50ec20ce7b37ccd57fdd7274153ec86f7bd",
+  "extracted_at": "2026-11-20T08:20:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

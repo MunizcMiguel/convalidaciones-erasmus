@@ -1,0 +1,90 @@
+{
+  "course_name_original": "FUNDAMENTALS OF COMPUTER SCIENCE (I1G041)",
+  "course_name_en": "FUNDAMENTALS OF COMPUTER SCIENCE",
+  "ects": 9.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "computer literacy, such as being able to use a personal computer to manage files and access the internet to download and install new software",
+    "basic notions of algebra and mathematical analysis"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire knowledge of the basics of computer science and programming languages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the acquired knowledge in the development of simple programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand programs of simple or intermediate size.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have autonomy and the ability to continue learning on more complex computing systems and programming environments.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computer systems. Processes and processors. Problems, algorithms and programs. Programming languages. Computer architecture. Von Neumann model.",
+    "Fixed-base positional number systems. Base conversions. Representation of negative numbers. Representation in floating point. ASCII code. Boolean algebra.",
+    "Design algorithms with flow charts. Concept of variable. Elementary operations. Pseudo-code. Control structure if-then-else. Cycles with pre-condition.",
+    "Python programming environments. Spyder. Console. Variable Explorer. Debugging. JupyterLab. Notebook. Kernel. Cell Types: Code, Markdown, Row.",
+    "Python programming language. Declaration of variables. Type classification. Numerical and conditional expressions. Assignment statement. Compound statement. Binary selection. Standard input / output functions. Cycle statements (WHILE, FOR).",
+    "Programming with compound types. Vectors and matrices. Lists. Strings.",
+    "Programming with functions. Declaration of functions. Local variables. Formal and actual parameters. Memory usage. Life cycle of variables. Visibility of variables. Masking of variables. Recursion.",
+    "Fundamental algorithms. Calculation of execution time. Best case, worst case, and average case. Computational complexity. Sequential search. Binary search. SelectionSort. InsertionSort. BubbleSort. Mergesort. Quicksort.",
+    "Text files. Tuples. Dictionaries. Sets.",
+    "Object-oriented programming. Definition of classes. Attributes and methods. Inheritance. Object-oriented design.",
+    "Vector graphics with Matplotlib library.",
+    "Image processing with PIL library."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom exercises",
+    "Home exercises corrected in class",
+    "Python programs performed on computer by students"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Computer-based exam (Python programs)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final assessment test consists of two phases: a computer-based exam in which the student must carry out a few Python programs (20 points); and an oral exam for a final evaluation of the entire course syllabus (10 points). The final grades reflect levels of preparation from sufficient to in-depth. Weight percentages are not explicitly stated for the combined final grade.",
+  "bibliography": [
+    "C. Horstmann, R.D. Necaise, Concetti di Informatica e fondamenti di Python. Maggioli Editore. 2019.",
+    "A. Downey, J. Elkner, C. Meyers. Pensare da informatico: Imparare con Python. Green Tea Press. 2003.",
+    "K.A. Lambert. Programmazione in Python. Apogeo. 2012.",
+    "E. [docente]. Fondamenti di Informatica: Programmazione strutturata in C++. Carocci Editore. 2006.",
+    "Lecture notes"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Dell'Aquila",
+  "institution_slug": "ec_i_l_aquil01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "I1G041",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univaq.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=26043&ordinamento_aa=2025&af_percorso=6&corso_cod=10493&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "8ab0a2da036ecc7c09df32d65647b188e08dd4347ee6a90619a21e9164ea8106",
+  "extracted_at": "2026-11-18T10:03:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

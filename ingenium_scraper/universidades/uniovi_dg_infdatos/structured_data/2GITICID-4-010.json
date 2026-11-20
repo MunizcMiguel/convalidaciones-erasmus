@@ -1,0 +1,172 @@
+{
+  "course_name_original": "Análisis y Recuperación de Información Textual",
+  "course_name_en": "Textual Information Analysis and Retrieval",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of machine learning (I and II)",
+    "Knowledge of deep learning"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical and signal processing methods.",
+      "type": "skill",
+      "code": "CG01"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to propose experiments and describe, analyze, evaluate and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "skill",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to access and manage information in different formats for subsequent analysis in order to obtain knowledge from data.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Identify opportunities for innovative data-oriented applications in continuously evolving technological environments.",
+      "type": "competence",
+      "code": "CG07"
+    },
+    {
+      "text": "Know and apply ethical and legal aspects related to data processing and the application of obtained knowledge.",
+      "type": "knowledge",
+      "code": "CG08"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "skill",
+      "code": "CG09"
+    },
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds upon general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects that imply knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their field of study.",
+      "type": "skill",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "skill",
+      "code": "CB4"
+    },
+    {
+      "text": "Students have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques, to build intelligent systems from data sets.",
+      "type": "skill",
+      "code": "CE09"
+    },
+    {
+      "text": "Build written language processing systems capable of making inferences from document content.",
+      "type": "skill",
+      "code": "CE15"
+    },
+    {
+      "text": "Know the main natural language processing techniques.",
+      "type": "knowledge",
+      "code": "RANA1"
+    },
+    {
+      "text": "Apply NLP techniques for text categorization and sentiment analysis.",
+      "type": "skill",
+      "code": "RANA2"
+    },
+    {
+      "text": "Know how to represent a social network in graph format.",
+      "type": "knowledge",
+      "code": "RANA3"
+    },
+    {
+      "text": "Know the main techniques and methods for the analysis of the structure and content of social networks.",
+      "type": "knowledge",
+      "code": "RANA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to text processing: Character encoding standards and fundamentals of working with digital texts and corpora.",
+    "Formal languages and regular expressions: Deterministic finite automata and use of regular expressions for identifying and extracting patterns in text.",
+    "Text extraction and processing from documents: Obtaining text from document formats such as PDF and designing software for scalable processing of heterogeneous corpora from variable sources.",
+    "Lexical analysis and classical preprocessing: Tokenization, normalization, lemmatization, stemming, and other techniques for preparing corpora for analysis.",
+    "Vector representation of texts: Classical representation models (bag-of-words, TF, TF-IDF) and introduction to embeddings.",
+    "Use cases of language models: Use of pre-trained language models for various natural language processing tasks. Application of vectorial representations to text classification tasks and automatic entity detection, among other token classification tasks.",
+    "Adaptation of language models and conversational systems: Fine-tuning of pre-trained models for specific tasks and development of conversational systems based on language models.",
+    "Information retrieval: Retrieval models based on indices and textual information, evaluation using standard metrics, and development of applications based on corpus search.",
+    "Retrieval-augmented generation (RAG): Integration of language models with information retrieval systems to build question-answering systems over document corpora.",
+    "Network and graph analysis: Construction of graphs from textual data, similarity measures, and community detection."
+  ],
+  "teaching_methods": [
+    "Expository classes (face-to-face)",
+    "Laboratory practices (face-to-face)",
+    "Evaluation sessions (face-to-face)",
+    "Asynchronous online expository classes (videos, virtual campus activities, recommended readings, solved examples)",
+    "Asynchronous online laboratory practices (explanatory videos, exercises and tasks for self-study)",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Participation in seminars and continuous evaluation activities (online or face-to-face)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Theory evaluation (EVT) for each of the three blocks of the subject",
+      "weight_percentage": 42.5
+    },
+    {
+      "method": "Practice evaluation 1 (EVP_1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice evaluation 2 (EVP_2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.15*PA + 0.425*EVT + 0.425*EVP. For the subject to be passed, the individual grade for each theory evaluation (EVT) and each practice evaluation (EVP) must be greater than or equal to 4 points out of 10. If any of these minimums are not met, the final grade will be min(4, 0.15*PA+0.425*EVT+0.425*EVP). The final practice grade (EVP) is obtained as 0.6*EVP_1 + 0.4*EVP_2. In extraordinary calls, the same weightings and minimums apply.",
+  "bibliography": [
+    "Manning, C. D., Raghavan, P, Schütze, H. (2008). Introduction to Information Retrieval. Cambridge, UK: Cambridge University Press. ISBN: 978-0-521-86571-5",
+    "Indurkhya, N., Damerau, F. J. (2010). Handbook of Natural Language Processing. Chapman & Hall/CRC. ISBN: 1420085921, 9781420085921.",
+    "Liu, B. (2015). Sentiment Analysis - Mining Opinions, Sentiments, and Emotions. Cambridge University Press. ISBN: 978-1-10-701789-4.",
+    "Vajjala, S., Majumder, B., Gupta, A., & Surana, H. (2020). Practical natural language processing: A comprehensive guide to building real-world NLP systems. O’Reilly Media.",
+    "Galety, M. G., Al Atroshi, C., Balabantaray, B., & Mohanty, S. N. (Eds.). (2022). Social network analysis: Theory and applications. Standards Information Network. Willey.",
+    "Sonawane, S. S., Mahalle, P. N., & Ghotkar, A. S. (2022). Information retrieval and natural language processing: A graph theory approach (1st ed.). Springer."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-4-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-010",
+  "source_language": "es",
+  "source_sha256": "6c0ffcdfbcb2a78a694282b7ebaa99ed5480bfa32da933120921d44d95f8bee8",
+  "extracted_at": "2026-11-20T05:58:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

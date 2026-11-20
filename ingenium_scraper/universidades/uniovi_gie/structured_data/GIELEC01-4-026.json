@@ -1,0 +1,158 @@
+{
+  "course_name_original": "Sistemas Fotovoltaicos y Eólicos de Producción de Energía Eléctrica",
+  "course_name_en": "Photovoltaic and Wind Power Generation Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Technology, electrical",
+    "Electronic Technology",
+    "Electrical Machines I",
+    "Electrical Installations"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Assess the importance of renewable energies in the current energy and environmental scenario.",
+      "type": "unspecified",
+      "code": "R1"
+    },
+    {
+      "text": "Design grid-connected photovoltaic systems and isolated photovoltaic systems.",
+      "type": "unspecified",
+      "code": "R2"
+    },
+    {
+      "text": "Identify the main elements that are part of a wind turbine and its control systems, relating them to the task they perform.",
+      "type": "unspecified",
+      "code": "R3"
+    },
+    {
+      "text": "Relate the constructive and technical characteristics of the electrical systems that are part of a wind turbine to the power provided for different wind speeds.",
+      "type": "unspecified",
+      "code": "R4"
+    },
+    {
+      "text": "Describe the structure and operation of wind power generation systems based on doubly fed induction generators.",
+      "type": "unspecified",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION TO PHOTOVOLTAIC SYSTEMS",
+    "Situation of PV generation in Spain and in the World.",
+    "Solar cell.",
+    "Characteristic curves.",
+    "Temperature, solar irradiation and irradiance.",
+    "Photovoltaic solar modules.",
+    "Selection criteria for a solar panel.",
+    "Calculation of peak sun hours for a location.",
+    "PVGIS database.",
+    "Shades.",
+    "Bypass and blocking diodes.",
+    "GRID-CONNECTED PHOTOVOLTAIC SYSTEMS",
+    "Grid-connected photovoltaic systems.",
+    "Maximum power point tracker.",
+    "The solar inverter.",
+    "Passive filtering systems.",
+    "Control schemes.",
+    "Control of active and reactive power flows.",
+    "Single-line diagrams.",
+    "Sizing of wiring for a solar installation.",
+    "Selection of protection and switching equipment in the DC circuit of the solar generator: fuses, switches, overvoltage protection and insulation monitors.",
+    "Selection of protection and switching equipment in the AC circuit of the solar plant: automatic switch for interconnection, automatic switch, differential protection and overvoltage protection.",
+    "Island operation.",
+    "Sizing of a grid-connected solar plant.",
+    "Simulation of a grid-connected solar plant.",
+    "Net metering and photovoltaic self-consumption.",
+    "Economic viability analysis.",
+    "Course project approach.",
+    "ISOLATED PHOTOVOLTAIC SYSTEMS",
+    "Isolated photovoltaic systems.",
+    "The battery charge controller.",
+    "The solar battery.",
+    "Sizing of an isolated photovoltaic system.",
+    "Autonomy time of an isolated photovoltaic system.",
+    "Examples of isolated photovoltaic systems.",
+    "WIND POWER GENERATION SYSTEMS",
+    "Introduction.",
+    "Current status of wind energy in Spain and in the World.",
+    "Wind turbines based on synchronous and asynchronous generators.",
+    "Induction generator versus synchronous generator.",
+    "Fixed speed versus variable speed.",
+    "Electrical installations of wind farms.",
+    "WIND TURBINES EQUIPPED WITH A DOUBLY FED INDUCTION GENERATOR",
+    "Control of a wind turbine equipped with a doubly fed induction generator.",
+    "Wind turbine load regime.",
+    "Maximum power point tracking.",
+    "Analysis of active and reactive power flows through the stator and through the back-to-back converter.",
+    "Operating procedures.",
+    "Management of reactive power flows in a wind farm.",
+    "Response to a voltage sag.",
+    "DIRECT-DRIVE WIND TURBINES",
+    "The synchronous generator in direct-drive wind turbines.",
+    "The multipolar synchronous generator in wind turbines.",
+    "Analysis of variable speed operation.",
+    "Practice Session 1- Calculation of solar production of a photovoltaic plant.",
+    "Practice Session 2- Analysis and simulation of a photovoltaic solar generator.",
+    "Practice Session 3- Simulation of the connection of a PV plant to the distribution grid.",
+    "Practice Session 4- Monitoring of the equipment that is part of a FV solar plant.",
+    "Practice Session 5- Monitoring of a grid-connected doubly fed wind turbine.",
+    "Practice Session 6- Active and reactive power control in a DFIG wind turbine.",
+    "Practice Session 7- Automatic operation of a doubly fed wind turbine."
+  ],
+  "teaching_methods": [
+    "Lectures (PowerPoint presentations and blackboard developments)",
+    "Classroom practices (solving complex problems)",
+    "Laboratory practices (simulation and real equipment)",
+    "Group tutorials",
+    "Guest lectures by industry professionals"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (EXF)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Partial Exam (Systems Fotovoltaicos)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical assignment (TRB) - Sizing and simulation of a Photovoltaic Solar Plant",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory Activities - Practice guides (GUILAB) questions",
+      "weight_percentage": 6.0
+    },
+    {
+      "method": "Laboratory Activities - Final Lab Test (FINLAB)",
+      "weight_percentage": 4.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment (January call), the final grade is calculated as 0.8*EXF + 0.1*TRB + 0.1*(0.6*GUILAB + 0.4*FINLAB), provided that EXF >= 5 and (0.6*GUILAB + 0.4*FINLAB) >= 5. Otherwise, the final grade is 'Fail'. The partial exam note is only considered for that block in the final exam, and neither the partial exam note nor the TRB grade are considered in extraordinary evaluations. For single evaluation (May and July calls), the final grade is 0.9*EXF + 0.1*(LAB), provided that EXF >= 5 and LAB >= 5, where LAB is evaluated in a complementary test. Otherwise, the final grade is 'Fail'. Students under differentiated evaluation will have a single test covering theory, classroom practices, and laboratory practices, without partial exams or assignments.",
+  "bibliography": [
+    "Apuntes propios del profesor (guías, resúmenes y material multimedia).",
+    "Bibliografía técnica disponible en los servicios online de la biblioteca universitaria (Revistas del IEEE, Revistas de la editorial Elsevier).",
+    "Catálogos de equipos.",
+    "Normativa española e internacional.",
+    "F. Antony, C. Dürschner, K. Remmers. Fotovoltaica para profesionales (Diseño, instalación y comercialización de plantas solares fotovoltaicas) 2006. Censolar. Ed Progensa",
+    "J.L. Rodríguez Amenedo, J.C. Burgos Díaz, S. Arnalte Gómez. Sistemas eólicos de producción de energía eléctrica. Editorial Rueda S.L. 2003."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-4-026",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-4-026",
+  "source_language": "es",
+  "source_sha256": "c1c3b18c07416339dd01f823d54044bcd91ea40c9d9de62d83d90658ebfddc77",
+  "extracted_at": "2026-11-20T01:14:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

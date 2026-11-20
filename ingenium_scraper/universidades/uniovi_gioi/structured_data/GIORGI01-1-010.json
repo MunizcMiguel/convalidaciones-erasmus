@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Métodos Numéricos",
+  "course_name_en": "Numerical Methods",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Calculus",
+    "Fundamentals of Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the different types of errors that can be made when using numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision, and the computational cost.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Evaluate and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Describe, analyze, and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Numerically solve problems of interpolation, one-dimensional data fitting, and function approximation.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use formulas to approximately obtain the derivative and the definite integral of a function.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Describe, use, and evaluate basic numerical methods for solving differential equations.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite arithmetic. Error analysis.",
+    "Concepts of error",
+    "Computer arithmetic",
+    "Error analysis",
+    "Numerical resolution of non-linear equations.",
+    "Fixed-point method",
+    "Interval methods",
+    "Newton's method",
+    "Numerical methods for solving linear and non-linear systems.",
+    "Direct methods",
+    "Iterative methods",
+    "Non-linear systems",
+    "Interpolation. Approximation. Data fitting.",
+    "Interpolation",
+    "Function approximation",
+    "Data fitting",
+    "Numerical differentiation and integration.",
+    "Numerical differentiation",
+    "Simple quadrature rules",
+    "Composite quadrature rules",
+    "Numerical resolution of differential equations.",
+    "Initial value problems: One-step methods."
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practices",
+    "Expository classes",
+    "Laboratory Practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Block: Two partial exams (T1 and T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block: Final Exam (Theory)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block: Laboratory practices evaluation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary assessment, a minimum grade of 3.5 out of 10 is required for both the theoretical and practical blocks. The theoretical block can be assessed by two partial exams (T1 and T2) or a final theory exam. If all minimums are achieved, the final grade is calculated as 0.7 x Theory + 0.3 x Practicals. In extraordinary assessment, a minimum of 3.5 points out of 10 is required for both the theoretical and practical parts, with the final grade calculated as 0.7 x Theory + 0.3 x Practicals. If a student does not achieve the minimum grade in any part, the final grade recorded will be the minimum between their weighted average grade and 4.5.",
+  "bibliography": [
+    "Mathews, J.H., Fink, K.D. Métodos Numéricos con Matlab. Prentice Hall (3ª Ed.), 2000.",
+    "Moler, C., Numerical Computing with Matlab. SIAM, 2004. https://es.mathworks.com/moler/chapters.html",
+    "Novak, K. Numerical Methods for Scientific Computing, Equal Share Press (2º Ed.), 2022 https://www.equalsharepress.com/media/NMFSC.pdf"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Organización Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_gioi",
+  "degree": "Grado en Ingeniería de Organización Industrial",
+  "course_code": "GIORGI01-1-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/organizacionindustrial/-/fof/asignatura/GIORGI01-1-010",
+  "source_language": "es",
+  "source_sha256": "ffd502084cf1d7690fdcd2d3d1175b50b9f5041772929da4023afd9583ff633a",
+  "extracted_at": "2026-11-20T01:14:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

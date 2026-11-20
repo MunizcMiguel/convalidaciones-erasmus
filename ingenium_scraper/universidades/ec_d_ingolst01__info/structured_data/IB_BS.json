@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Betriebssysteme",
+  "course_name_en": "Operating Systems",
+  "ects": 5.0,
+  "semester": "Summer Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "explain the fundamental tasks of an operating system",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "distinguish the basic architectures of common operating systems such as Linux, Unix, and Windows",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "use the system programming interface of POSIX-compliant systems (SUS)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "name different forms of parallel processing",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "name the essential components of the process models of Linux and Windows operating systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "describe the difference between processes and threads and explain their possible uses as well as their advantages and disadvantages",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "explain several scheduling strategies and apply them in an abstract model",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "explain the functioning of virtual memory management and apply different strategies and algorithms for memory management in abstract models",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "explain the problems that occur with concurrent access to shared resources and know how relevant synchronization mechanisms can be used to prevent these problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "use simple mechanisms by which processes can communicate",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "name the services of a file system and explain them using a simple file system",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Tasks of an operating system",
+    "Fundamentals: System programming",
+    "Processes and Threads: Parallel processing, process model, threads, scheduling (algorithms with time slices and priorities)",
+    "Memory management (*-Fit, Buddy algorithm, LRU, Clock algorithm)",
+    "Synchronization of processes and threads (Semaphores, Mutexes)",
+    "Communication of processes and threads (Pipes, Sockets)",
+    "File system (FAT)"
+  ],
+  "teaching_methods": [
+    "seminarist instruction",
+    "practice"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "written examination, 90 minutes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "GLATZ, Eduard, 2019. Betriebssysteme: Grundlagen, Konzepte, Systemprogrammierung. 4. Auflage. ISBN 978-3-86490-705-0",
+    "KERRISK, Michael, 2010. The Linux Programming Interface. ISBN 1-59327-220-0",
+    "TANNENBAUM, Andrew S., 2016. Moderne Betriebssysteme. 4. Auflage. ISBN 978-3-86894-270-5",
+    "BOVET, und CESATI, 2005. Understanding the Linux Kernel. 3. Auflage. ISBN 0-596-00565-2",
+    "ROCHKIND, Marc J., 2004. Advanced UNIX Programming. 2. Auflage. ISBN 0-13-141154-3"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_BS",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "e1f6b0cbc0d924b0451206a7a5fa652ac8c714beace35a54186b07c169d9ac8c",
+  "extracted_at": "2026-11-20T12:35:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

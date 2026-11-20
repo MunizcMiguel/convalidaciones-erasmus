@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Mecánica de Fluidos Computacional",
+  "course_name_en": "Computational Fluid Dynamics",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Fluid Mechanics",
+    "Basic knowledge of Numerical Methods"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know, understand and apply the concepts of computational fluid mechanics science and technology to adapt to new situations.",
+      "type": "competence",
+      "code": "C3"
+    },
+    {
+      "text": "Perform measurements, calculations, studies and reports on the operating parameters of different types of fluid installations.",
+      "type": "skill",
+      "code": "C5"
+    },
+    {
+      "text": "Ability to work in a multilingual environment.",
+      "type": "competence",
+      "code": "C10"
+    },
+    {
+      "text": "Adopt a responsible, orderly attitude to work and be willing to learn the concepts of numerical solution of fluid dynamic problems, considering the challenge that continuous training will pose.",
+      "type": "competence",
+      "code": "C12"
+    },
+    {
+      "text": "Apply strategies typical of the scientific methodology: analyze the problematic situation qualitatively and quantitatively, propose hypotheses and solutions to solve fluid mechanics problems.",
+      "type": "skill",
+      "code": "C13"
+    },
+    {
+      "text": "Knowledge and skills to apply computer-aided graphic engineering techniques.",
+      "type": "skill",
+      "code": "TEM 1"
+    },
+    {
+      "text": "Applied knowledge of thermal engineering.",
+      "type": "knowledge",
+      "code": "TEM3"
+    },
+    {
+      "text": "Applied knowledge of the fundamentals of fluid-mechanical systems and machines.",
+      "type": "knowledge",
+      "code": "TEM 6"
+    }
+  ],
+  "syllabus_topics": [
+    "Philosophy and field of application of computational fluid dynamics.",
+    "Equations governing the flow: Continuity, momentum, and energy.",
+    "Mathematical considerations of differential equations: Generalities. Hyperbolic, parabolic, and elliptic differential equations. Simplifications of the Navier-Stokes equation.",
+    "Preliminary discretization techniques: Discretization. Approximation of derivatives. Accuracy of the discretization process. Implicit and explicit approximation. Theoretical framework: convergence, stability, accuracy of the solution.",
+    "Brief notes on similarity theory: Physical meaning of dimensionless numbers.",
+    "Turbulent flow: Reynolds time-averaged equations. Turbulent kinetic energy equation models. Boundary layer.",
+    "Basic computational methods applied to incompressible flow: Solution of the transport equation. Methods for solving the stream function. Boundary conditions. Methods for solving the pressure-velocity equation.",
+    "Basic computational methods applied to compressible flow: Methods for the numerical treatment of shock waves.",
+    "Mesh generation and appropriate equation transformations.",
+    "Multiphase flow: Eulerian and Lagrangian approximation. VOF (Volume of Fluid) method.",
+    "User-level learning of a commercial computational fluid dynamics code.",
+    "Application of theoretical concepts in practical computer simulation exercises of real fluid mechanics problems. Comparison of laboratory testing vs. simulation."
+  ],
+  "teaching_methods": [
+    "Problem-solving",
+    "Individual work",
+    "Pair work",
+    "Use of computer resources",
+    "Use of bibliographic resources",
+    "Lectures",
+    "Classroom discussions",
+    "Practical problem-solving in class",
+    "Computer practicals",
+    "Report submissions",
+    "Evaluation feedback"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Practice completion (tutorials, exercises)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Individual assignments (questions and small problems deliverables)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Team assignments (projects, problems, directed tasks)",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment, 80% attendance to in-person hours is required to be graded; otherwise, the student will be marked as \"not presented\". Students who, at the beginning of the course, justify any of the reasons stated in Article 43.1.c of the EHU/UPV regulations may obtain 100% of the grade through a theoretical-practical exam. For extraordinary examination, students who participated in continuous assessment and did not pass will take a complementary final test. Students who did not participate in continuous assessment can obtain 100% of the grade through a theoretical-practical exam, requiring contact with the professor at least one month prior.",
+  "bibliography": [
+    "Apuntes de la asignatura",
+    "Tablas y diagramas de mecánica de fluidos",
+    "Star CCM+ User Guide",
+    "FERNANDEZ ORO, J.M., \"Técnicas Numéricas en Ingeniería de Fluidos\", Ed. Reverté, 2012",
+    "VERSTEEG, H.K. y MALALASEKERA, W.:\"An Introduction to Computational Fluid Dynamics\".Pearson, 1995, 2007.",
+    "ANDERSON, J.D.: \"Computational Fluid Dynamics. The Basics with Applications\". McGraw-Hill, 1995",
+    "CHUNG, T.J.: \"Computational Fluid Dynamics\". Cambridge University Press, 2002.",
+    "WILCOX, D.C: \"Turbulence Modeling for CFD\" ISBN 0-9636051-0-0. Library of Congress Cataloging in Publication Data, 1994."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad del País Vasco/Euskal Herriko Unibertsitatea",
+  "institution_slug": "es_pais_vasco",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "27728",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ehu.eus/es/web/graduak/grado-ingenieria-mecanica-bizkaia/creditos-y-asignaturas?redirect=consultaAsignatura&anyo-academico=20260&ciclo=X&curso=4&asignatura=27728",
+  "source_language": "es",
+  "source_sha256": "cf872e30abbac75fcd7a73fa25f95640f581553787f4134b3ebc0112958cd19d",
+  "extracted_at": "2026-11-13T20:22:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

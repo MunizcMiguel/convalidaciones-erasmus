@@ -1,0 +1,176 @@
+---
+{
+ "course_code": "2GITSTIG-4-013",
+ "course_name": "Seguridad en Redes y Servicios",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-013",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:06:27",
+ "content_sha256": "4f671cd7dbd66921a58916f6e88466071c754be0c860d029a0f0fd9e82234344"
+}
+---
+
+# Seguridad en Redes y Servicios
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-4-013
+
+## Datos de la asignatura
+
+- **Curso:** Cuarto
+- **Temporalidad:** Segundo Semestre
+- **Materia:** Redes y Servicios Avanzados
+- **Carácter:** Optativa
+- **Créditos:** 6
+- **Itinerarios:** Telemática
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Prácticas de Aula/Semina (7 Horas); Clases Expositivas (28 Horas); Tutorías Grupales (2 Horas); Prácticas de Laboratorio (21 Horas); No Presenciales (0 Horas)
+
+## Contextualización
+
+Seguridad en Redes y Servicios es una asignatura de formación específica de carácter optativo enmarcada dentro de la materia Redes y servicios avanzados. Se imparte durante el segundo semestre del tercer curso. Cuenta con 2 horas semanales de clases expositivas, 2 horas semanales de prácticas de laboratorio, 7 horas semestrales de prácticas de aula y 2 horas semestrales de tutorías grupales.
+
+Se pretende que el alumno adquiera unos conocimientos básicos de Seguridad en Redes informáticas, conociendo los posibles ataques a la vulnerabilidad de los sistemas y los mecanismos que existen para mantener un red con un buen nivel de seguridad.
+
+## Requisitos
+
+El diseño y la impartición de la asignatura se fundamentan en las competencias y los resultados de aprendizaje que se indican en la memoria de verificación del grado.
+
+Para cursar esta asignatura el alumno deberá poseer conocimientos básicos sobre Arquitecturas de protocolos, arquitectura TCP/IP, direccionamiento a nivel de red, servicios y protocolos del nivel de transporte, servicios de comunicaciones, interconexión de redes, encaminamiento de tráfico.
+
+Además, es común que parte de bibliografía y documentación manejada en la asignatura esté en inglés, por lo cual, el alumno deberá ser capaz de leer y comprender documentación escrita en inglés.
+
+## Competencias y resultados del aprendizaje
+
+Una vez cursada y asimilada la asignatura el alumno adquirirá las siguientes competencias, extraídas de la memoria de verificación del grado:
+
+**CG. 3.** Conocimiento de materias básicas y tecnologías, que le capacite para el aprendizaje de  
+nuevos métodos y tecnologías, así como que le dote de una gran versatilidad para  
+adaptarse a nuevas situaciones.
+
+**CG. 4.** Capacidad de resolver problemas con iniciativa, toma de decisiones, creatividad, y de comunicar y transmitir conocimientos, habilidades y destrezas, comprendiendo la responsabilidad ética y profesional de la actividad del Ingeniero Técnico de Telecomunicación.
+
+**CG. 7.** Capacidad de analizar y valorar el impacto social y medioambiental de las soluciones  
+técnicas.
+
+**CT. 1.** Capacidad de construir, explotar y gestionar las redes, servicios, procesos y aplicaciones de  
+telecomunicaciones, entendidas éstas como sistemas de captación, transporte, representación,  
+procesado, almacenamiento, gestión y presentación de información multimedia, desde el punto de  
+vista de los servicios telemáticos.
+
+**CT. 2.** Capacidad para aplicar las técnicas en que se basan las redes, servicios y aplicaciones telemáticas, tales como sistemas de gestión, señalización y conmutación, encaminamiento y enrutamiento, seguridad (protocolos criptográficos, tunelado, cortafuegos, mecanismos de cobro, de autenticación y de protección de contenidos), ingeniería de tráfico (teoría de grafos, teoría de colas y teletráfico) tarificación y fiabilidad y calidad de servicio, tanto en entornos fijos, móviles, personales, locales o a gran distancia, con diferentes anchos de banda, incluyendo telefonía y datos.
+
+**CT. 6.** Capacidad de diseñar arquitecturas de redes y servicios telemáticos
+
+Las competencias anteriores se desarrollan y particularizan en varios objetivos de aprendizaje que se desglosan a continuación:
+
+RA-13.1. Conocer las debilidades de las redes de comunicaciones y los servicios telemáticos, y las  
+amenazas que pueden explotarlas. (CT.1, CT.2, CT.6, CG.3, CG.4)  
+  
+RA-13.2. Conocer y aplicar los métodos de detección de ataques sobre las redes de comunicaciones y los  
+servicios telemáticos y su eliminación o atenuación. (CT.2, CT.6, CG.4)  
+  
+RA-13.3. Conocer y aplicar los mecanismos de protección de las redes y servicios telemáticos. (CT.2, CT.6)  
+  
+RA-13.4. Diseñar arquitecturas de redes y servicios telemáticos con un alto grado de seguridad  
+(disponibilidad, fiabilidad e integridad). (CT.1, CT.2, CT.6, CG.7)  
+  
+RA-13.5. Diseñar políticas de protección de las redes de telecomunicaciones y servicios telemáticos.  
+(CT.2, CG.3)
+
+## Contenidos
+
+T1. Introducción a la seguridad (métricas, amenazas, vulnerabilidades, tipología de ataques sobre los servicios, bases de criptografía).
+
+T2. Seguridad organizativa: Frameworks, Políticas de seguridad, SGSIs, etc.
+
+T3. Seguridad perimetral de una red corporativa y medidas técnicas de soporte a la seguridad.
+
+PA1. Ingeniería social.
+
+PA2. Análisis forense.
+
+## Metodología y plan de trabajo
+
+Las actividades docentes del curso son de tipo presencial y no presencial. Las horas presenciales corresponden a actividades tanto de tipo expositivo como prácticas de aula, prácticas de laboratorio y tutorías grupales. En la parte no presencial tendrán especial relevancia las actividades individuales planteadas al alumno y los trabajos en grupo.
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18,7 | 40% |
+|  | Práctica de aula / Seminarios / Talleres | 7 | 4,7 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 21 | 14 |  |
+|  | Prácticas clínicas hospitalarias | 0 | 0 |  |
+|  | Tutorías grupales | 2 | 1,3 |  |
+|  | Prácticas Externas | 0 | 0 |  |
+|  | Sesiones de evaluación | 2 | 1,3 |  |
+| No presencial | Trabajo en Grupo | 13 | 8,7 | 60% |
+|  | Trabajo Individual | 77 | 51,3 |  |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+**Evaluación del aprendizaje en las convocatorias ordinarias**
+
+Elementos evaluables
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- **Evaluación final de teoría:** se realizará una evaluación final sobre la parte teórica de la asignatura, que darán lugar a una calificación denominada NT.
+- **Evaluación de trabajo individual**: el estudiante realizará un trabajo individual, que dará lugar a una calificación denominada NTI.
+- **Evaluación continua de la prácticas:** durante el semestre el esudiante realizará varias tareas basadas en las prácticas de laboratorio, que darán lugar a una calificación denominada NP.
+- **Evaluación de los trabajos en grupo:** se evaluarán los trabajos en grupo solicitados por el profesor, que darán lugar a una calificación denominada NTG.
+
+Todas las actividades distintas de los exámenes tendrán una sesión de revisión con el profesor donde este realizará preguntas para determinar el grado de conocimiento del trabajo realizado.
+
+Calificación
+
+La calificación final de la asignatura (denominada NF) en la convocatoria ordinaria se calculará de la siguiente forma, siempre y cuando se hayan realizado **todas** las actividades evaluables:
+
+NF = NT\*0,4 + NP\*0,3 + NTG\*0,2 + NTI\*0,1
+
+Consideraciones
+
+Los requisitos a cumplir por el alumno para ser evaluado según este procedimiento son:
+
+- Realizar todos los trabajos, exámenes y actividades obteniendo un mínimo de 4,5 sobre 10 en cada uno de ellos.
+
+En el caso de no cumplir con en mínimo en la evaluación en las actividades de prácticas, trabajo individual y trabajo en grupo el estudiante deberá someterse a un examen práctico en la fecha oficial de examen.
+
+El examen práctico consistirá en la revisión y posterior defensa de un trabajo realizado por el alumno asignado por el profesor, mediante una solicitud previa. La calificación final se calculará siguiendo la fórmula de las convocatorias extraordinarias.
+
+**Evaluación del aprendizaje en las convocatorias extraordinarias**
+
+Elementos evaluables
+
+La evaluación en las convocatorias extraordinarias se realizará mediante un examen. En dicho examen se evaluarán la parte teórica (5 puntos de la nota final) y la parte práctica (5 puntos de la nota final) de la asignatura.
+
+Calificación
+
+La calificación final de la asignatura (denominada NF) en la convocatoria extraordinaria es:
+
+NF = NT\*0,5 + NTP\* 0,5
+
+Consideraciones
+
+El examen práctico consistirá en la revisión y posterior defensa de un trabajo realizado por el alumno asignado por el profesor, mediante una **solicitud previa**.
+
+La evaluación diferenciada se realizará siguiendo los criterios definidos para las convocatorias extraordinarias.
+
+***Nota***: la concreción de los formatos de las evaluaciones, periodos de entrega, etc. se indicarán por el profesorado a lo largo del curso lectivo a través del Campus Virtual de la Universidad de Oviedo.
+
+## Bibliografía
+
+[1] Tecnologías de ciberseguridad V2. Rafael López. 2024.
+
+[2] Seguridad en equipos informáticos. José Francisco Giménez Albecete. IC editorial. 2014.
+
+[3] Cybersecurity-attack ande defense strategies. Yuri Diogenes, Erdal Ozkaya. Packt. 2018.
+
+[4] Effective cibersecurity. William Strallings. Addison-Wesley. 2019.

@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Métodos numéricos y programación algorítmica",
+  "course_name_en": "Numerical Methods and Algorithmic Programming",
+  "ects": 6.0,
+  "semester": "2Q",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Applies the programming of computers, operating systems, databases, and computer programs to engineering.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Knows the basic aspects of hardware and software. Understands the elementary operation of different operating systems. Understands relational database environments. Is introduced to the world of computer networks. Analyzes a problem and designs an algorithm to solve it. Understands and applies different algorithmic control structures. Works with files capable of storing large amounts of data. Achieves a first step of abstraction through top-down design. Represents data graphically and manipulates it effectively. Designs processes for the numerical solution of problems with linear and non-linear equation systems.",
+      "type": "competence",
+      "code": "A3.3"
+    },
+    {
+      "text": "Masters the tools for managing one's own identity and activities in a digital environment (being digital). Searches for and obtains information autonomously according to reliability and relevance criteria (searching). Organizes information with appropriate tools, whether online or in-person, that enable the development of academic activities (Organizing). Prepares information with the appropriate tools and formats for the communicative situation and does so honestly (creating). Uses ICT to share and exchange information (sharing).",
+      "type": "competence",
+      "code": "B1.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to a structured programming environment",
+    "Introduction to MATLAB",
+    "Variables, operations, and functions",
+    "Vectors and matrices",
+    "Control structures: loops and branches",
+    "Graphical representation of data",
+    "Two-dimensional graphics",
+    "Three-dimensional graphics",
+    "Errors and propagation",
+    "Resolution of linear equation systems",
+    "Matrix methods for solving linear equation systems",
+    "Iterative methods for solving linear equation systems",
+    "Numerical resolution of non-linear equations and systems of equations",
+    "Fixed-point methods and localization methods for solving non-linear equations",
+    "Newton's method and the secant method for solving non-linear equations",
+    "Newton-Raphson method for solving non-linear equation systems",
+    "Regression",
+    "Linear regression",
+    "Polynomial regression",
+    "Interpolation",
+    "Linear interpolation",
+    "Polynomial interpolation",
+    "Numerical differentiation and integration",
+    "Different types of numerical derivatives",
+    "Numerical integration methods"
+  ],
+  "teaching_methods": [
+    "Introductory activities",
+    "Lectures",
+    "ICT-based practicals",
+    "Seminars",
+    "Problem-solving/exercises",
+    "Personalized attention"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "ICT-based practicals",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Mixed tests (First partial exam)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Mixed tests (Second partial exam)",
+      "weight_percentage": 45.0
+    }
+  ],
+  "assessment_rules": "The minimum grade in each continuous assessment test (partial exams) must be above 3.5. It is mandatory to submit 90% of the laboratory activities within the specified deadlines. For the second call, the exam will cover all course content and account for 100% of the final grade.",
+  "bibliography": [
+    "Chapra, S. C., Canale, R. P., Métodos numéricos para ingenieros, McGraw Hill Education, 2015",
+    "García, J., Rodríguez, J.I., Vidal, J., Aprenda MATLAB 7.0 como si estuviera en primero, Universidad Politécnica de Madrid, 2005",
+    "Numerical Methods for Engineers and Scientists, Hoffman, J.D., , MacGraw Hill Inc.",
+    "Mathews, John H., Fink, Kurtis D., Métodos Numéricos con MATLAB, Prentica Hall, 20090"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224003",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224003&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "0fc254a67e172f7b8defe41a4088a1a5284d9334e2600cfe9decf88354231193",
+  "extracted_at": "2026-11-13T22:47:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

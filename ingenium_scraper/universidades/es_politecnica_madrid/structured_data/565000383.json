@@ -1,0 +1,159 @@
+{
+  "course_name_original": "AMPLIACION DE FISICA",
+  "course_name_en": "Advanced Physics",
+  "ects": 4.5,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "PHYSICS II (565000423)",
+    "Programming: MATLAB, Python",
+    "EXTENSION OF MATHEMATICS (565000422)",
+    "INFINITESIMAL CALCULUS (565000411)",
+    "STATISTICS (565000421)",
+    "PHYSICS I (565000413)",
+    "THERMODYNAMICS (565000436)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding and mastery of the basic concepts of the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism, and their application to solving typical engineering problems.",
+      "type": "competence",
+      "code": "CE2"
+    },
+    {
+      "text": "Apply the acquired knowledge to identify, formulate and solve problems in broad contexts, being capable of integrating them by working in multidisciplinary teams.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Communicate knowledge and conclusions, both orally and in writing, to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Possess the learning skills that allow for continuous lifelong study for adequate professional development.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Know and apply the knowledge of basic sciences and technologies to the practice of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Creativity.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Know and understand the physical phenomena generated in the last century that have significant technological implications in the field of Industrial Engineering and Design.",
+      "type": "knowledge",
+      "code": "RA35"
+    },
+    {
+      "text": "Be able to think in a different way to understand theories and models, different from those of classical Physics, that explain these physical phenomena.",
+      "type": "skill",
+      "code": "RA36"
+    },
+    {
+      "text": "Acquire the necessary skills to apply physical knowledge to research, development, and innovation in Engineering.",
+      "type": "skill",
+      "code": "RA11"
+    },
+    {
+      "text": "Knowledge and thinking and reasoning skills necessary for the analysis, approach, and resolution of specific problems.",
+      "type": "skill",
+      "code": "RA9"
+    },
+    {
+      "text": "Know how to apply the scientific method and scientific-technological language to solve specific engineering problems.",
+      "type": "skill",
+      "code": "RA10"
+    },
+    {
+      "text": "Acquire the necessary skills for the handling and use of equipment, devices, and measurement systems.",
+      "type": "skill",
+      "code": "RA12"
+    },
+    {
+      "text": "Attitudes of critical reasoning and creative actions to address and solve problems.",
+      "type": "competence",
+      "code": "RA38"
+    },
+    {
+      "text": "Be able to collect, process, critically analyze, and interpret experimental data.",
+      "type": "skill",
+      "code": "RA37"
+    }
+  ],
+  "syllabus_topics": [
+    "SPECIAL RELATIVITY",
+    "Fundamentals of Electromagnetism: Maxwell's equations and electromagnetic waves",
+    "The origin of Relativity: Coordinate transformations and principles of invariance. Galilean inertial frames in Mechanics.",
+    "Relativity and Electromagnetism: the ether hypothesis. The Michelson-Morley experiment",
+    "Principles of special relativity: Einstein's postulates and the concept of time. Relativity of simultaneity and its consequences. Clocks in relative motion.",
+    "Relativistic kinematics I: Deduction of Lorentz transformations. Law of velocity composition. Space-time diagrams, light cones, invariants, graphical interpretation of simultaneity and causality.",
+    "Relativistic kinematics II: Time dilation and proper time. Length contraction and proper length. Application to atmospheric muons. The twin paradox. Application to GPS.",
+    "Basic relativistic dynamics: Minkowski metric, four-vectors, four-velocity and four-momentum. Relationship between relativistic energy and momentum. Mass-energy equivalence, pair creation, nuclear energy.",
+    "Relativity and technology: GPS, Particle Colliders, Fission and Fusion Reactors.",
+    "FUNDAMENTALS OF QUANTUM PHYSICS",
+    "The origins of Quantum Physics",
+    "Quantification of EM radiation: Blackbody radiation, photoelectric effect and Compton effect",
+    "Quantification of energy states: spectra and the Bohr-Sommerfeld atom.",
+    "Matter waves. De Broglie hypothesis. Wave packets.",
+    "Postulates of Quantum Physics",
+    "Double-slit experiment. Heisenberg's Uncertainty Principle.",
+    "Schrödinger equation. Separable potentials. Time evolution and stationary states.",
+    "Formalism of Quantum Mechanics. Probabilistic interpretation. Calculation of observables.",
+    "ONE-DIMENSIONAL QUANTUM MODELS",
+    "The potential wells.",
+    "Potential barriers and tunnel effect. The Scanning Tunneling Microscope.",
+    "The harmonic oscillator.",
+    "APPLICATIONS OF QUANTUM PHYSICS",
+    "Solid State Physics: Types of solids. Fermi statistics. Electrons in metals. Periodic potentials. Band theory. Semiconductors. p-n junctions.",
+    "Bose-Einstein statistics. Stimulated emission. Lasers.",
+    "Introduction to Quantum Computation: qbit properties, quantum gates and circuits, Grover's algorithm, quantum computers and quantum computing applications."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "1st Progressive Control (or Block 1 of Global Test)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "2nd Progressive Control (or Block 2 of Global Test)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Block 3 of Global Test (Topic 3)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as the weighted average: 35% for Topic 1 (max of progressive control C1 or global test block B1), 35% for Topic 2 (max of progressive control C2 or global test block B2), and 30% for Topic 3 (global test block B3). Each component score must be 4 or higher to be counted, and the final weighted average must exceed 5 to pass. Partial exams C1 and C2 are liberating if passed with a minimum of 5/10. For the extraordinary call, a single global test covers all topics (B1, B2, B3) and previous partial exam grades are not considered.",
+  "bibliography": [
+    "\"Modern Physics for Scientists and Engineers\". S.T.Thornton & A. Rex.",
+    "\"Quantum Physics\", R. Eisberg & R.Resnick.",
+    "\"Fisica II\". Sears & Zemansky"
+  ],
+  "isced_f_code": "0531",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000383",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000383_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "8b459984d2e6e9633cdebaa1ccbe82f4cba0a0e41474c398a634ca237012c138",
+  "extracted_at": "2026-11-13T20:34:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

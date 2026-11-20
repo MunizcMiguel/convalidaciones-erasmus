@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Signale und Systeme",
+  "course_name_en": "Signals and Systems",
+  "ects": 4.0,
+  "semester": "one semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students learn fundamental types and description possibilities of signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know elementary mathematical methods for representing analog and discrete-time signals in the frequency domain as well as their properties and can apply them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Through understanding the methods, students are able to fundamentally analyze and interpret signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students understand the sampling process and can apply the corresponding theorems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students learn fundamental methods for describing analog and discrete-time linear time-invariant systems in the time, frequency, and image domains and can apply them.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can apply the skills acquired in the course in different areas such as control engineering or measurement technology, and are thus able to establish cross-connections between different areas.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Through the basic knowledge conveyed, students are capable of identifying and acquiring further methods and procedures of signal and system theory in the literature.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to signal transmission",
+    "Representation of analog and discrete-time signals in the time domain",
+    "(Classification of signals, elementary signals etc.)",
+    "Representation of analog and discrete-time signals in the frequency domain (Complex Fourier series, Fourier transformation, power density spectrum, DTFT, DFT, FFT, fast convolution, etc.)",
+    "Sampling theorems",
+    "Description of linear time-invariant systems",
+    "(Impulse response, frequency response, transfer function, Laplace transformation, Z-transformation etc.)",
+    "Theory of linear two-ports"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Blackboard",
+    "Slides",
+    "Beamer"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination or oral examination",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a written or oral examination.",
+  "bibliography": [
+    "Vorlesungsskript.",
+    "Fettweis, Alfred: Elemente nachrichtentechnischer Systeme, J. Schlembach Fachverlag: Wilburgstetten (Neudruck der 2. Überarb. Auflage) 2004.",
+    "Girod, Bernd/Rabenstein, Rudolf/Stenger, Alexander: Einführung in die Systemtheorie. Signale und Systeme in der Elektrotechnik und Informationstechnik, Teubner: Wiesbaden (4. durchgesehene und aktual. Auflage) 2007.",
+    "Ohm, Jens-Rainer/Lüke, Hans Dieter: Signalübertragung. Grundlagen der digitalen und analogen Nachrichtenübertragungssysteme, Berlin/Heidelberg: Springer Vieweg (12. aktual. Auflage) 2014."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "signale-und-systeme",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "880541cb7890a2abf79dafe1335164dfe96fa97671044ad73f841cee80580a46",
+  "extracted_at": "2026-11-18T09:49:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

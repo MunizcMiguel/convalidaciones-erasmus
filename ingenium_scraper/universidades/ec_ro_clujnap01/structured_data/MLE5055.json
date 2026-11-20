@@ -1,0 +1,159 @@
+{
+  "course_name_original": "Computational logic",
+  "course_name_en": "Computational Logic",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The graduate is familiar with international academic research databases and digital libraries (Web of Science, ACM Digital Library, IEEE Xplore, Springer, Elsevier, CiteSeerX, etc.).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary knowledge for literature review.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to define/identify/understand research problems in computer science.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to present and explain methods, algorithms, paradigms and techniques used in various branches of computer science.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills to use research support tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The graduate has the knowledge to select and use appropriate instructional procedures to facilitate the process of knowledge assimilation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use of theoretical foundations of computer science as well as of formal models.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use of artificial intelligence concepts and techniques to solve real-world problems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Application of organized and efficient work rules, of responsible attitudes towards the didactic-scientific field, to bring creative value to own potential, with respect for professional ethics principles and norms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use of efficient methods and techniques to learn, inform, research and develop the abilities to bring value to knowledge, to adapt at the requirements of a dynamical society and to communicate efficiently in Romanian language and in an international language.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numeration systems: Definitions, representation of numbers in a base b; Conversions between bases using the substitution method and the method of successive divisions/multiplications for integer and rational numbers; Rapid conversions (bases 2,4,8,16).",
+    "Internal representations of numbers: Representation of unsigned integers, operations; Representation of signed integers: direct code, inverse code, complementary code, operations; Fixed-point and floating-point representations of real numbers.",
+    "Propositional logic – syntax and semantics: Syntax: connectives, formulas; Semantics: interpretation, model, consistent formula, inconsistent formula, tautology, logical consequence, truth table for a formula; Laws (logical equivalences): DeMorgan, absorption, commutativity, associativity, distributivity, idempotency; Clauses and normal forms: conjunctive normal form (CNF) and disjunctive normal form (DNF), algorithm for transformation of a formula into DNF and CNF.",
+    "Propositional logic – formal system: Formal (axiomatic) system associated to propositional logic, deduction, theorem; Theorem of deduction and its consequences; Properties of propositional logic.",
+    "Predicate (first-order) logic: Syntax: connectives, quantifiers, terms, atoms, formula, clause, literal, closed formula, free formula, the formal (axiomatic) system; Semantics of predicate logic: interpretation, model, valid formula, consistent formula, inconsistent formula, logical consequence; Properties of predicate logic.",
+    "Semantic tableaux method – a refutation proof method for propositional/predicate logic: Classes of formulas, decomposition rules, branch (open, closed), construction of a semantic tableau; Build the models and anti-models of a propositional/predicate formula from its semantic tableau.",
+    "Resolution in propositional logic: Resolution as a formal system; Strategies of resolution: level saturation, set-of–support; Refinements of resolution: lock resolution, linear resolution.",
+    "Resolution in predicate logic: Normal forms: prenex, Skolem and clausal forms; Substitutions and unifications; Predicate resolution – formal system; Refinements of predicate resolution.",
+    "Modeling the common-sense human reasoning and mathematical reasoning using propositional and predicate logics.",
+    "Boolean algebras and Boolean functions: Boolean algebras: definitions, properties, principle of duality, examples; Boolean functions: definitions, maxterms, minterms, the canonical disjunctive/conjunctive forms, transformation; Maximal and central monoms, factorization.",
+    "Simplification of Boolean functions (I): Veitch-Karnaugh diagrams method for functions of 2-3-4 variables; The dual simplification algorithm for the canonical conjunctive form.",
+    "Simplification of Boolean functions (II): Quine’s analytical method; Moisil’s algebraic method.",
+    "Logic circuits: Definitions, representations for basic gates and derived gates; Logic circuit analysis and synthesis; Comparator, adder, subtractor, encoder, decoder.",
+    "Combinational logic circuits - examples.",
+    "Seminar 1: Exercises Operations (addition, subtraction, division, multiplication) in different numeration bases.",
+    "Seminar 2: Exercises Conversions between bases for integer and rational numbers using the methods: substitution, successive divisions/multiplications; Rapid conversions between bases: 2,4,8,16.",
+    "Seminar 3: Exercises Representation of signed integers: direct code, inverse code, complementary code, operations; Representations of real numbers: fixed-point and floating-point representations.",
+    "Seminar 4: Exercises: Using the truth table, decide whether a formula is consistent/ tautology/inconsistent or not,. Write all the models/anti-models of a propositional formula; Transform a formula into their normal equivalent forms (DNF, CNF) and using these forms decide the validity or inconsistency of a formula.",
+    "Seminar 5: Exercises Apply the theorem of deduction to prove the syllogism rule, separations of premises rule, reunion of premises rule; Using the axiomatic system prove that a propositional formula is a theorem.",
+    "Seminar 6: One hour – midterm exam: written paper with subjects from courses 1-2 and seminars 1-3. Exercises - predicate logic Transform natural language sentences into predicate formulas; Build models and anti-models for a predicate formula.",
+    "Seminar 7: Exercises – semantic tableaux method (I) Build the semantic tableau of a propositional formula, write all its models and anti-models; Solve the decision problems in propositional logic.",
+    "Seminar 8: Exercises – semantic tableaux method (II) Using the semantic tableaux method solve the decision problems in predicate logic; From a semantic tableau of a predicate formula build the models of that formula.",
+    "Seminar 9: Exercises – propositional resolution (I) Using resolution check the inconsistency of a set of propositional clauses; Check whether a propositional formula is a theorem/ deductible from a set of formulas using resolution or one of its strategies.",
+    "Seminar 10: Exercises – propositional resolution (II) Apply the refinements of resolution and combinations of strategies and refinements to solve the decisions problems in propositional logic; Details regarding the implementation of lock resolution and linear resolution.",
+    "Seminar 11: Exercises – predicate resolution Build the prenex, Skolem and clausal normal forms of a predicate formula; Compute the most general unifier of two or more atoms; Apply resolution and its refinements to solve the decision problems in predicate logic.",
+    "Seminar 12: Exercises – Boolean functions (I) Build the canonical forms for a Boolean function; Apply Veitch-Karnaugh diagrams method to simplify functions with 2, 3 and 4 variables.",
+    "Seminar 13: Exercises - Boolean functions (II) Apply Quine’s method and Moisil’s method to simplify Boolean functions; Implementation of the corresponding logic circuit.",
+    "Seminar 14: Exercises – logic circuits Implement a simplified combinational circuit for the 7-segments electronic display; Implement the simplified combinational circuits for the conversion between BCD and Gray codes."
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, discussion of case studies",
+    "debate",
+    "dialog",
+    "proofs",
+    "Dialogue, case studies, examples",
+    "Dialogue, debate, case studies, examples, students presentations"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written paper (regular session) with subjects from courses 3-13",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Midterm exam - written paper (seminar 6 - one hour) with subjects from courses 1-2 and seminars 1-3",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Seminars’ activity: responses and individual presentations of solved exercises",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Optional homework",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "A minimum grade of 5 (on a scale of 1 to 10) is required for both written papers and seminar activity. Attendance to seminars is mandatory for at least 75%. Attendance to the midterm exam is mandatory. Optional homework can increase the final grade.",
+  "bibliography": [
+    "M. Ben-Ari: Mathematical Logic for Computer Science, Ed. Springer, 2001.",
+    "F. Boian, Bazele Matematice ale Calculatoarelor, Editura Presa Universitara Clujeana, 2002 – library.",
+    "M. Cocan, B. Pop: Bazele matematice ale sistemelor de calcul, Editura Albastra, Cluj-Napoca, 2001 – UBB library.",
+    "M.Fitting: First-order logic and Automated Theorem Proving, Ed.Springer Verlag, 1996.",
+    "M.Huth, M. Ryan: Logic in Computer Science - Modelling and Reasoning about Systems, 2nd edition, Cambridge, 2004.",
+    "D.W. Loveland: Automated Theorem Proving: a Logical Basis, North Holland, 2014.",
+    "M. Lupea, A. Mihis: Logici clasice şi circuite logice. Teorie şi exemple, ediţia 3, Editura Albastra, Cluj-Napoca, 2011.",
+    "M. Lupea, A. Mihis: A Computational Approach to Classical Logics and Circuits, Editura Presa Universitara Clujeana , Cluj-Napoca, 2016.",
+    "Mihaela Malita, Mircea Malita, Bazele Inteligentei Artificiale, Vol. I, Logici propozitionale, Ed. Tehnica, Bucuresti, 1987.",
+    "L.C. Paulson: Logic and Proof, Univ. Cambridge, 2000, on-line course.",
+    "M. Possega: Deduction Systems, Inst. of Informatics, 2002, on-line course.",
+    "A.Wasilewska: Logics for Computer Science: Classical and Non-Classical, Springer, 2021, e-book.",
+    "W.Bibel: Automated theorem proving, View Verlag, 1987.",
+    "Cl.BENZAKEN: Systeme formels. Introduction a la logique, ed.Masson, 1991.",
+    "J. Harrison: Handbook of Practical Logic and Automated Reasoning, Cambridge University Press, 2009.",
+    "D.Tatar: Inteligenta artificiala: demonstrare automata de teoreme si NLP, Ed. Microinformatica, 2001.",
+    "(ed) A.Thayse: From standard logic to Logic Programming, Ed. J.Wiley, vol1(1989), vol2,vol3(1990).",
+    "A.B Marcovitz: Introduction to Logic Design, Mc.Graw-Hill Higher Education, 2005."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5055",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem1_MLE5055_en_lupea_2025_9382.pdf",
+  "source_language": "en",
+  "source_sha256": "5185d714d424099b8be55b8d9683228fb7560f6f58abc62d733d97c0abc6ea60",
+  "extracted_at": "2026-11-20T09:08:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,68 @@
+{
+  "course_name_original": "Programmierung von SPS",
+  "course_name_en": "PLC Programming",
+  "ects": 3.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Fundamentals of Automation Technology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explain the structure of an automation solution with PLC (Programmable Logic Controller) and plan a simple system based on a needs and cost analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify properties and limits of modern networked automation solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply selected methods of control engineering for own projects in the form of structured software development (PLC).",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Technology for data coupling between real and virtual world (sensor and actuator circuits)",
+    "Structure and design of PLCs and their networking (via bus and wireless systems)",
+    "Structured programming of PLCs (using the IEC-61131 ST/FUP language) considering the special real-time properties of PLCs",
+    "Use of mobile test cases with built-in PLC (or microcontroller boards), which are to be configured and programmed by the students according to instructions."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Supervised exercises",
+    "Project work in small groups"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Presentation of project work (configuration and programming of a PLC)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded upon successful completion of the project work. The grade is weighted according to credit points.",
+  "bibliography": [
+    "Lecture materials",
+    "Further literature will be announced in the lecture"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-PSPS",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "c0bb294a93880867788d3f915b8f84e49e323668f65c8f5d71b7297beb3a6871",
+  "extracted_at": "2026-11-20T09:21:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

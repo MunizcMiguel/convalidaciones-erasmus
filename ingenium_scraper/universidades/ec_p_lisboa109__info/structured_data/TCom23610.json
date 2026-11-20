@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Teoria da Computação (TCom23610)",
+  "course_name_en": "Theory of Computation",
+  "ects": 6.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Deterministic and non-deterministic finite automata",
+    "Regular languages and grammars, regular expressions",
+    "Pushdown automata",
+    "Context-free languages and grammars",
+    "Pumping lemmas",
+    "Chomsky hierarchy",
+    "Deterministic and non-deterministic Turing machines",
+    "Computable functions",
+    "Recognizable and decidable languages",
+    "Church-Turing postulate",
+    "Closure properties of decidable and recognizable languages",
+    "Sets and cardinality",
+    "Canonical representation of Turing machines",
+    "Existence of undecidable languages",
+    "Undecidability of the halting problem (introduction to diagonalization technique)",
+    "Computable reductions",
+    "Rice's theorem and applications",
+    "Recursion theorem and self-replicating viruses",
+    "Computational resources",
+    "Complexity classes: P, PSPACE, NP, EXPTIME",
+    "Structural relationships",
+    "Savitch's theorem",
+    "Polynomial reductions",
+    "P versus NP and NP-complete languages",
+    "Cook-Levin theorem",
+    "Hierarchy theorems",
+    "Separation of complexity classes"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Test 1",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Test 2",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Test 3",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Test 4",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as NOTA_FINAL = T1 + T2 + T3 + T4, where Ti is the best score obtained on test i during classes or the respective resit. The tests are graded for 4, 5, 5, and 6 points respectively. To pass the course, NOTA_FINAL must be greater than or equal to 10 points (after rounding to units). Each of the 4 tests can be retaken independently and optionally.",
+  "bibliography": [
+    "Michael Sipser, Introduction to the Theory of Computation, Second Edition, International Edition, Thomson Course Technology., 2006 (main)",
+    "C.Caleiro, F.M. Dionísio, P.Gouveia, J.Ramos, J. Rasga, Teoria da Computação, notas de apoio, DMIST, 2018 (main)",
+    "J. Hopcroft, R. Motwani, J. Ullman, Introduction to Automata Theory, Languages and Computability, 2nd edition, Addison-Wesley Longman, 2001 (main)",
+    "J. Hromkovič, Theoretical Computer Science: Introduction to Automata, Computability, Complexity, Algorithmics, Randomization, Communication, and Cryptography., Springer,, 2003 (main)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "assessment_methods",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "TCom23610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192469",
+  "source_language": "pt",
+  "source_sha256": "fc06e1837f838699b4fb58ce91b4c475c64b8326be7b1678431f23285f66ddf4",
+  "extracted_at": "2026-11-20T12:41:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

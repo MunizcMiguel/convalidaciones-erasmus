@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Bases de Dados",
+  "course_name_en": "Databases",
+  "ects": 6.0,
+  "semester": "SEMESTRAL",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Computer Programming",
+    "Data Structures and Algorithms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the foundations of relational databases, including the relational model, normalization, relational operations, the SQL language, transactions and concurrency control, and indexing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Practice database concepts through the analysis, modeling and implementation of relational databases in a client-server setting.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Promote the acquisition of competences in analysis and synthesis.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Apply theoretical knowledge practically.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop autonomous learning skills.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Improve oral and written communication.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Communicate effectively with experts and non-experts.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Engage in problem solving.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop critical thinking.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Improve decision making.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Overall View of the Database Systems: DBS, SQL, DB Applications, etc...",
+    "Relational Model: Basic aspects",
+    "Data integrity",
+    "Keys and relational integrity constraints",
+    "Complex relational integrity constraints: business rules",
+    "Examples and Case Studies",
+    "Relational Algebra and basic aspects of SQL",
+    "Database Modeling Conception:",
+    "Entity-Relationship Diagrams",
+    "Inheritance and other advanced modeling techniques",
+    "Translation of ER Diagrams to Relational models",
+    "Functional dependencies and normalization",
+    "Examples and Case Studies",
+    "Transactions and concurrency control",
+    "Indexes and Table indexes",
+    "Views: definition and different usages",
+    "Execution and optimization of queries: basic aspects",
+    "Architecture and implementation details of a Database Server",
+    "Basic aspects of PL/SQL"
+  ],
+  "teaching_methods": [
+    "Theoretical-practical classes with detailed exposition using audiovisual media",
+    "Practical examples",
+    "Problem-solving activities",
+    "Group project in Practical-Laboratorial (PL) classes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "A. Silberschatz, H. F. Korth, S. Sudarshan, “Database System Concepts”, 7th Edition, McGraw Hill Education, 2019, https://www.db-book.com/db7/",
+    "C. Coronel, S. Morris, “Database Systems: Design, Implementation, and Management”, 12th Edition, Cengage Learning, 2017."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01000213",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/9856/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "c3a2e5f773fdf5591472c1e9ca4d1034fa6f590e7cd6eb1ca94a37df8d02ac7d",
+  "extracted_at": "2026-11-20T08:20:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

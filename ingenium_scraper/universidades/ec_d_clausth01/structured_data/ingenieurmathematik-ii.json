@@ -1,0 +1,78 @@
+{
+  "course_name_original": "Ingenieurmathematik II",
+  "course_name_en": "Engineering Mathematics II",
+  "ects": 8.0,
+  "semester": "1 Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Ingenieurmathematik I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students master the basics of linear algebra and multi-dimensional analysis. They can confidently handle vectors, matrices, and functions of several variables. They understand central concepts such as vector space, invertibility, and partial differentiability, and are familiar with important statements regarding these. Students can comprehend the justifications for these statements presented in the lecture and independently justify simple statements building upon them. They can easily solve application-relevant problems where derivatives or integrals in multiple dimensions are relevant. In doing so, they are independently able to identify and apply the correct techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to work in teams and have deepened their knowledge of mathematics as a common language. They can review complex concepts, pinpoint open questions, and seek targeted help if necessary. In doing so, students have developed high perseverance and can work purposefully on difficult problems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Matrices and vectors, vector space, determinants",
+    "Linear equation systems, inverse matrices",
+    "Scalar product, norms, lengths and angles in Rn",
+    "Differential calculus for functions of several variables",
+    "Extrema, optimization with constraints",
+    "Curve, surface, and volume integrals",
+    "Divergence and curl, theorems of Stokes, Green and Gauss",
+    "Partial differential equations"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Blackboard",
+    "Examples as beamer presentation"
+  ],
+  "workload_hours_total": 240.0,
+  "workload_hours_contact": 84.0,
+  "assessment_methods": [
+    {
+      "method": "Homework exercises (Prüfungsvorleistung)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (120 minutes) if >= 10 participants",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Oral exam (30 minutes, individual exam) if < 10 participants",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "Homework exercises are required as a prerequisite for the exam. The exam is a 120-minute written exam if there are 10 or more participants. If there are fewer than 10 participants, the exam will be a 30-minute individual oral exam. Successful completion of practice assignments in homework and/or in-class exercises is required for the award of credit points.",
+  "bibliography": [
+    "Arens, Tilo u. a.: Mathematik, Springer Spektrum: Berlin (4. Auflage) 2018.",
+    "Merz, Wilhelm/Knabner, Peter: Mathematik für Ingenieure und Naturwissenschaftler. Band 2: Analysis in Rn und gewöhnliche Differentialgleichungen, Springer Spektrum: Berlin 2017.",
+    "Meyberg, Kurt/Vachenauer, Peter: Höhere Mathematik. Band 1: Differential- und Integralrechnung, Vektor- und Matrizenrechnung, Springer: Berlin u. a. (6. korr. Auflage) 2009.",
+    "Meyberg, Kurt/Vachenauer, Peter: Höhere Mathematik. Band 2: Differentialgleichungen, Funktionentheorie, Fourier-Analysis, Variationsrechnung, Springer: Berlin u. a. (4. korr. Auflage) 2003."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "ingenieurmathematik-ii",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "d7f273cf364ba274df62e7daf77c3be6f40ebbdcceff33b4215f3db568e9b8b6",
+  "extracted_at": "2026-11-18T09:49:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

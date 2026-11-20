@@ -1,0 +1,144 @@
+{
+  "course_name_original": "Sistemas Distribuidos",
+  "course_name_en": "Distributed Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have taken \"Computers\" and \"Computer and Network Infrastructure\" courses.",
+    "Practical knowledge of programming languages explained in \"Programming Methodology\".",
+    "Ability to read and understand documentation written in English."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation professionally and possess the competencies usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "unspecified",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have the ability to gather and interpret relevant data (normally within their area of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "unspecified",
+      "code": "CB3"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "unspecified",
+      "code": "CB4"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "unspecified",
+      "code": "CG01"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, capable of proposing experiments and describing, analyzing, evaluating, and interpreting the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "unspecified",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "unspecified",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "unspecified",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "unspecified",
+      "code": "CG09"
+    },
+    {
+      "text": "Understand computer architecture and identify and evaluate the performance and scalability of computer systems used for processing large volumes of data.",
+      "type": "unspecified",
+      "code": "CE05"
+    },
+    {
+      "text": "Know and understand the concept of a distributed system.",
+      "type": "knowledge",
+      "code": "RSIS1"
+    },
+    {
+      "text": "Understand communication between services and their aggregation.",
+      "type": "unspecified",
+      "code": "RSIS2"
+    },
+    {
+      "text": "Understand the different architectural models of distributed systems and select the most appropriate one for a given problem.",
+      "type": "unspecified",
+      "code": "RSIS3"
+    },
+    {
+      "text": "Design and deploy distributed systems using cloud services.",
+      "type": "skill",
+      "code": "RSIS4"
+    },
+    {
+      "text": "Know and apply techniques for increasing reliability, availability, and performance in distributed systems.",
+      "type": "skill",
+      "code": "RSIS5"
+    }
+  ],
+  "syllabus_topics": [
+    "Communication between services at the socket level",
+    "Middleware for service communication",
+    "Architecture of distributed systems",
+    "Consumption and development of APIs over HTTP",
+    "Consensus, replication, fault tolerance, discovery",
+    "Cloud services and deployment",
+    "Scalability and elasticity"
+  ],
+  "teaching_methods": [
+    "Expositive classes (in-person)",
+    "Laboratory practices (in-person)",
+    "Evaluation sessions (in-person)",
+    "Expositive classes (online)",
+    "Laboratory practices (online)",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exams (average of two controls)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Deliveries and defenses of laboratory work (two submissions/tests)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Attendance to practical sessions",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Virtual Campus activities (exercises and questionnaires)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For ordinary assessment, the final grade is calculated as 0.45 * TEO + 0.4 * PRAC + 0.05 * ASIST + 0.1 * CV, provided that all minimums are met: at least 4.5/10 in the average of theoretical controls, at least 4.5/10 in the average of practical deliveries, and a minimum of 4.5/10 (70% attendance) in practical attendance. If any minimum is not met, the final grade for the ordinary call will be the minimum between the calculated score and 4.0. For extraordinary assessment, students take a theoretical exam (ET) and a practical exam (EP); if a score of 5 or higher was obtained in TEO, or 5 or higher in PRAC with fulfilled ASIST minimum in the ordinary call, those scores can be kept. Minimums of 4.5 in ET and 4.5 in EP are required, and the final grade is 0.50 * ET + 0.50 * EP; otherwise, the grade is the minimum between the formula and 4.0. For differentiated evaluation, the assessment consists of a theoretical exam (50%) and a practical exam (50%).",
+  "bibliography": [
+    "Tanenbaum, A.S., & Van Steen, M. (2017). Distributed Systems: Principles and Paradigms (3rd ed.). Pearson.",
+    "Kurose, J.W., & Ross, K.W. (2021). Computer Networking: A Top-Down Approach (6th ed). Pearson.",
+    "M. L. Liu. (2004) Computación Distribuida. Fundamentos y Aplicaciones. Pearson-Addison Wesley.",
+    "Richardson, L. & Amundsen, M. (2013). RESTful Web APIs: Services for a Changing World. O'Reilly Media.",
+    "Grinberg, M. (2018). Flask Web Development: Developing Web Applications with Python (2nd Edition). O'Reilly Media."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-4-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-005",
+  "source_language": "es",
+  "source_sha256": "7fccce7a4cbe8af90cf8845dc7f3fdff96dfeb8378e1be4bc1719d8789e10b0c",
+  "extracted_at": "2026-11-20T05:57:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

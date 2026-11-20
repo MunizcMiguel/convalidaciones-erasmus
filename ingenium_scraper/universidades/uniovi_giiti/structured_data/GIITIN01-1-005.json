@@ -1,0 +1,177 @@
+{
+  "course_name_original": "Introducción a la Programación",
+  "course_name_en": "Introduction to Programming",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Familiarity with basic notions of logic and mathematics (technological baccalaureate level is sufficient)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "competence",
+      "code": "GTR1"
+    },
+    {
+      "text": "Ability of abstraction: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "competence",
+      "code": "GTR3"
+    },
+    {
+      "text": "Ability to plan and organize personal work.",
+      "type": "competence",
+      "code": "GTR4"
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "competence",
+      "code": "GTR7"
+    },
+    {
+      "text": "Have motivation for quality and continuous improvement and act with rigor in professional development.",
+      "type": "competence",
+      "code": "GTR8"
+    },
+    {
+      "text": "Understand in very basic terms software development using the OO paradigm.",
+      "type": "unspecified",
+      "code": "PR21"
+    },
+    {
+      "text": "Use objects and classes corresponding to a predefined library.",
+      "type": "unspecified",
+      "code": "PR22"
+    },
+    {
+      "text": "Define objects and classes that correctly respond to a given specification.",
+      "type": "unspecified",
+      "code": "PR23"
+    },
+    {
+      "text": "Select the appropriate control structure to solve a given problem.",
+      "type": "unspecified",
+      "code": "PR24"
+    },
+    {
+      "text": "Develop a simple application using the OO paradigm that complies with a given specification.",
+      "type": "unspecified",
+      "code": "PR25"
+    }
+  ],
+  "syllabus_topics": [
+    "The Programming",
+    "Programming Paradigms",
+    "Programming Languages: definition, syntax, semantics",
+    "First example of a JAVA program",
+    "Fundamental properties of programs",
+    "Program lifecycle: analysis and design",
+    "Formal specification of a program",
+    "Variables",
+    "Data types",
+    "Integer types",
+    "Characters",
+    "Identifiers",
+    "Formatted I/O",
+    "Real types",
+    "Constants",
+    "Assignment",
+    "Expressions: precedence and associativity",
+    "Conversions",
+    "Introduction to Structured Programming",
+    "If statement",
+    "Conditions: boolean type, logical, relational and comparison operators",
+    "If-else statement",
+    "Loops",
+    "While loop",
+    "For loop",
+    "Typical iterative schemes: sequence processing and searches",
+    "Scope and lifetime of a variable",
+    "Introduction to Vectors",
+    "Vectors: what are they?, declaration, creation and initialization",
+    "Memory representation",
+    "Using a vector: [] operator, length attribute",
+    "Vector properties",
+    "Simple algorithms with vectors",
+    "Vectors of objects",
+    "String class",
+    "Matrices and multidimensional vectors: representation and use",
+    "Introduction to Classes and Objects",
+    "Concepts of class and object",
+    "Attributes",
+    "Methods",
+    "Creating and using objects",
+    "Information encapsulation: public and private access",
+    "Memory representation of classes and objects",
+    "Static elements",
+    "Documentation: Javadoc"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Group work",
+    "Individual assignments",
+    "Individual study",
+    "Individual tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Practical Exam 1 (EP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 2 (EP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 3 (EP3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Group Project (TG)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Theoretical Exam (ET)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, if a minimum score of 4 out of 10 is achieved in the theoretical block, the final grade is calculated as: ((EP1+EP2+EP3)/3 * 0.35) + (TG * 0.15) + (ET * 0.5). Otherwise, the qualification will be the minimum between the calculated score and 4. For extraordinary assessments, both the theoretical (ET) and practical (EP) exams require a minimum score of 4 out of 10. If these minimums are met, the final grade is calculated as: (ET * 0.5) + (EP * 0.5). Otherwise, the qualification will be the minimum between the calculated score and 4.",
+  "bibliography": [
+    "Harvey M. Deitel. Cómo programar en Java. Pearson, 5ª edición, 2004.",
+    "Bruce Eckel. Thinking in Java. Prentice Hall PTR, Upper Saddle River, NJ, USA, 4th edition, 2005.",
+    "Ken Arnold, James Gosling, and David Holmes. The Java programming language. Prentice-Hall, 4th edition, 2005.",
+    "David Arnow and Gerald Weiss. Introducción a la programación con Java. Addison-Wesley, 2000.",
+    "Judy M. Bishop. Java: fundamentos de programación. Addison-Wesley, 2ª edición, 1999.",
+    "James Cohoon and Jack Davidson. Programación en Java 5.0. McGraw-Hill, 2006.",
+    "James Gosling, Bill Joy, Guy Steele, and Gilad Bracha. The Java(TM) Language Specification. Addison-Wesley Professional, 3rd edition, 2005.",
+    "Bertrand Meyer. Object-oriented software construction (2nd ed.). Prentice-Hall, Inc., Upper Saddle River, NJ, USA, 1997.",
+    "http://java.sun.com/docs/books/tutorial/java/index.html."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-1-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-1-005",
+  "source_language": "es",
+  "source_sha256": "f512dca80c5db3082936a87980379c2e2b1b05981b42249ca466cf73d3e08d80",
+  "extracted_at": "2026-11-20T05:54:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

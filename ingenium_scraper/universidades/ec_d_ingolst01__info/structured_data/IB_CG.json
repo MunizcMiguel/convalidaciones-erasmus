@@ -1,0 +1,138 @@
+{
+  "course_name_original": "Computergrafik",
+  "course_name_en": "Computer Graphics",
+  "ects": 5.0,
+  "semester": "Summer Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Attainment of the second study section (at least 42 ECTS points from the first study section)",
+    "Proficient use of the Java programming language",
+    "Proficient use of matrices, determinants, and linear transformations"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the most important concepts, algorithms, and methods of computer graphics and apply fundamental computer graphics techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply 2D graphics and rasterization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain grayscale and color representation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the purpose of Bézier curves, B-Splines, NURBS, and use them in applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Name components of 3D modeling and use 3D modeling techniques.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply surface representation techniques depending on the problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use transformations and projections.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use 3D world to 2D device coordinates.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Name and use various algorithms for visibility decisions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply techniques for lighting, shading, and shadow effects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use different mappings for texture representation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Generate simple computer-simulated 3D worlds and render them with self-created software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the connection between the components of the rendering pipeline.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Execute application-oriented programming tasks in the field of computer graphics in Java.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "2D Graphics and Rasterization: Coordinate systems, Line representation, Aliasing, Polygon rasterization, Clipping, Transformations",
+    "Grayscale and Color Representation",
+    "Curves: Bézier curves, B-Splines, NURBS",
+    "3D Modeling: Scene graph, Volume modeling, Normal cells, Octrees, CSG, Edge and surface modeling, Wireframe model",
+    "Surface Representation: Topological structure, Euler operations, Surfaces, Polygons, Bilinear interpolation, Coon's Patch, Free-form surfaces",
+    "Transformations and Projections: Affine transformations, Perspective and projective mappings",
+    "3D World to 2D Device Coordinates: View transformation, Projection transformation, Clipping, Normalization, Screen transformation",
+    "Visibility Decision: 3D clipping, Back-face culling, Depth buffer algorithm, List-Priority method, Scan-Line method, Raycasting",
+    "Lighting and Shading: Ambient, diffuse, specular reflection, Distance dependence, Fog, Shading, Transparency",
+    "Shadow Calculation: Shadow volume, Shadow depth buffer",
+    "Global Illumination Models: Raytracing, Radiosity",
+    "Textures: Texture Mapping, Texture coordinate system, Two-Pass Mapping, Environment Mapping, Bump Mapping, Aliasing"
+  ],
+  "teaching_methods": [
+    "Seminaristic teaching/exercise (SU/Ü)",
+    "Practical lab (Pr)"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination, 90 minutes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Participation with/without success (practical lab)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Passing the practical lab (21.2) is a prerequisite for participation in the main computer graphics course (21.1). Successful submission of 5 practical assignments via the automatic test system is required for the practical lab.",
+  "bibliography": [
+    "BENDER, Michael und Manfred BRILL, 2006. Computergrafik: ein anwendungsorientiertes Lehrbuch. 2. Auflage. München [u.a.]: Hanser. ISBN 3-446-40434-1",
+    "HUGHES, John F., Andries VAN DAM und Morgan MCGUIRE, 2013. Computer Graphics. 3. Auflage. ISBN 978-0321-39952-6",
+    "AKENINE-MÖLLER, Tomas, Eric HAINES und Naty HOFFMAN, 2018. Real-time Rendering. F. Auflage. ISBN 978-1-138-62700-0",
+    "LENGYEL, Eric, 2019. Foundations of Game Engine Development, Volume 2: Rendering. ISBN 978- 0985811754"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_CG",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "001c7a82a3ace6428a087358609592809a5b119ccb9869829ee8632cb043a3da",
+  "extracted_at": "2026-11-20T12:35:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

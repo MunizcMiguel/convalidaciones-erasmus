@@ -1,0 +1,59 @@
+{
+  "course_name_original": "Bases de Dados",
+  "course_name_en": "Databases",
+  "ects": 6.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Main characteristics of database systems, their architecture and development process.",
+    "Information modeling. Entity-Relationship and Relational Models. Conversion of E-R models to relational ones.",
+    "Languages for querying databases. Relational Algebra and Calculus. SQL.",
+    "Integrity Constraints. Referential integrity. Integrity in SQL.",
+    "Triggers. Architecture of database applications and their programming. Stored Procedures.",
+    "Data Normalization. Dependency Theory. Normal Forms, Decomposition and normalization of relational schemas.",
+    "Indexing Structures: B+ Tree. Hash Indexes. Bitmap Indexes.",
+    "Transaction Processing and Recovery in SQL.",
+    "Security and Access Control in Databases. Complex data and XML.",
+    "Decision support systems. Data warehousing. OLAP. Data mining methods.",
+    "Text search and indexing models. Evaluation of information retrieval systems."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project (P)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final Exam (Ex)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is 0.5 * (0.5 * Project Delivery 1 + 0.5 * Project Delivery 2 + Oral Discussion) + 0.5 * Max(Exam 1, Exam 2, Special Exam). A minimum final project grade of 8.0 and a minimum exam grade of 8.0 are required. For the special period, the assessment is identical, requiring the project to be completed within the normal period deadlines. Student-workers with formalized status can opt for an individual project, with a single delivery (E1+E2) by the E2 deadline and an oral discussion.",
+  "bibliography": [
+    "Abraham Silberschatz, Henry Korth, S. Sudarshan, Database System Concepts 7th Edition, McGraw-Hill - ISBN-10: [phone], 2020 (main)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "syllabus_topics",
+    "bibliography"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "BD25610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192128",
+  "source_language": "pt",
+  "source_sha256": "9d04d1a0f11369cc608bdb8444937cbb78cd82dab6a28c1c8b81fa8e742de2c3",
+  "extracted_at": "2026-11-20T12:41:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

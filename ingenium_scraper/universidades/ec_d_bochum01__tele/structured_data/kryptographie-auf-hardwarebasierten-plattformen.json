@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Kryptographie auf hardwarebasierten Plattformen",
+  "course_name_en": "Cryptography on hardware-based platforms",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students know the concepts of practical hardware development with abstract hardware description languages (VHDL) and the simulation of hardware circuits on FPGAs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They master standard techniques of hardware-related processor development.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are capable of implementing symmetric and asymmetric cryptosystems on modern FPGA systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Implementation of current cryptographic methods on practical hardware systems",
+    "Block cipher AES",
+    "Hash functions SHA-1",
+    "Asymmetric systems RSA",
+    "Asymmetric systems ECC",
+    "Special hardware requirements like true random number generation (TRNG)",
+    "Use of Physically Unclonable Functions (PUF)",
+    "Efficient implementation of cryptosystems, especially regarding optimization for high speed, on modern FPGAs",
+    "Practical exercises using VHDL"
+  ],
+  "teaching_methods": [
+    "Lecture with exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Bonus points from successful participation in exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded for a passed exam. Up to 10 percent bonus points can be earned through successful participation in the exercises, which can be credited to the result of the module exam.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "kryptographie-auf-hardwarebasierten-plattformen",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "264d4c51389aab424e84a7ac77a25a3ed1959ce871ce969644aa5dfcc539c5c1",
+  "extracted_at": "2026-11-20T12:36:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

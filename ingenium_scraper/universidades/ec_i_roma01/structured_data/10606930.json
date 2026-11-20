@@ -1,0 +1,94 @@
+{
+  "course_name_original": "SISTEMI DINAMICI canale 1",
+  "course_name_en": "DYNAMIC SYSTEMS channel 1",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of Mathematical Analysis: Functions of one and more variables in the real and complex domain; their graphical representations; Knowledge of the basics of differential and integral calculus;",
+    "Knowledge of Geometry: Basics of Linear Algebra, linear operators, vector spaces.",
+    "Knowledge of Physics: Basic knowledge in different fields of physics, sufficient to understand the applied examples used."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The theory of systems proposes study methods for classes of mathematical representations of natural and artificial phenomena. The main objective of the teaching is to make students understand, and at the same time provide the main tools for quantitative analysis, the problems connected to the non-instantaneous dependence in the representation of cause-effect relationships characteristic in the description of engineering products and more generally of natural phenomena.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The course provides methodologies for understanding and studying the properties of continuous-time and discrete-time linear dynamic systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The understanding of the generality of the mathematical model in relation to the behavior of systems from different disciplinary fields (mechanical, electrical, demographic, ..), will allow the student to study, starting from the model, the physical properties of the particular system under study.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student will be able to associate a mathematical model with a discrete process or continuous process and study its properties.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student will be able to identify the best methodology to use based on the problem under examination.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student will be able to justify their design choices.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will develop autonomous study skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student must be able to produce a mathematical model of a dynamic system of different physical types: mechanical, electrical, electronic, biological, epidemiological, economic, sociological, population systems,... They must be able to evaluate whether and how to frame it in the studied cases and, if so, they must be able to analyze its characteristics and dynamic properties (type of evolutions, effect of inputs, quality of outputs, input-output relationships, stability, ...)",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Oriented dynamic systems and state representations. From phenomenon to model to abstract system. Concept of causal dynamic system. Finite-dimensional, linear, stationary systems; explicit and implicit representation; decomposition into free and forced response; the transition matrix and the impulse response matrix: their properties.",
+    "Time domain analysis: Natural modes in the free evolution of the state for regular representations; laws of motion and trajectories of natural modes; natural modes in forced regime and in output response.",
+    "Complex variable domain analysis: The Laplace transform for the analysis of continuous-time systems. The Z transform for the analysis of discrete-time systems. The permanent regime and the transient regime; the permanent response to canonical inputs.",
+    "Frequency behavior study: Harmonic response. Transfer function representation. Bode diagrams. Significant parameters of the harmonic response magnitude and the step response. Connection between time and frequency behavior.",
+    "Transfer function and realization problems. Calculation of state-space representations from input-output models. Interconnected systems. Main connections: series, parallel, feedback. Calculation of the transfer function and its properties.",
+    "Elements of stability theory: Definition of stability for linear systems: conditions and criteria. Internal stability: Routh and Jury criteria. External stability in linear representations: conditions; links between external and internal stability.",
+    "Elements of study of the internal properties of the state: reachability and observability; composition with respect to them; Kalman decomposition and the internal structure of the system; connection with excitability and observability of modes."
+  ],
+  "teaching_methods": [
+    "Lectures for theory",
+    "Exercises for practical tests"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Weighted average of test results",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is a weighted average of the results of the tests. The examination includes questions on definitions, demonstrations of expressions, relationships and formulas, and applications to numerical cases.",
+  "bibliography": [
+    "S. Monaco, C.Califano, P. Di Giamberardino, M. Mattioni, Teoria dei Sistemi. Lineari, stazionari a dimensione finita, Esculapio, 2021, 9788893852685"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "10606930",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/2/1/5ab1a732-17ef-4664-903f-e7c52ec7ee8f",
+  "source_language": "it",
+  "source_sha256": "e66fe368e5972867528c8e7449bdde60c52721d639dce024e98ee3b0cad9a670",
+  "extracted_at": "2026-11-20T09:24:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

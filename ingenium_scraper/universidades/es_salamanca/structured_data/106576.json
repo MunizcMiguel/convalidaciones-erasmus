@@ -1,0 +1,147 @@
+{
+  "course_name_original": "Electrónica de los sistemas mecánicos",
+  "course_name_en": "Electronics of Mechanical Systems",
+  "ects": 3.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "It is recommended to have passed the course “Fundamentals of Electronics”."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire basic knowledge in the field of mechatronics, understanding the integration of mechanical, electronic, and control components.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the fundamentals of acquisition, conditioning, and processing of analog and digital signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify the main functional characteristics of microcontrollers and develop practical skills in their programming and use.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply microcontrollers for data acquisition from sensors and control of actuators such as motors, servomotors, among others.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the basic aspects of wired and wireless communications in microcontroller-based systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify and use the fundamentals of electronics in general, explaining their applications",
+      "type": "knowledge",
+      "code": "CON11"
+    },
+    {
+      "text": "Know how to identify electronic devices and implement them within the framework of mechanical engineering",
+      "type": "skill",
+      "code": "HAB24"
+    },
+    {
+      "text": "Understand and interpret texts and data, developing skills for their concretization and clear and concise exposition.",
+      "type": "competence",
+      "code": "CMP01"
+    },
+    {
+      "text": "Be able to distribute resources and time and implement it in real situations.",
+      "type": "competence",
+      "code": "CMP02"
+    },
+    {
+      "text": "Transmit concepts, ideas, processes, etc., related to Industrial Engineering orally and in writing, clearly and correctly.",
+      "type": "competence",
+      "code": "CMP03"
+    },
+    {
+      "text": "Use scientific-technical tools for solving calculation and design problems in Industrial Engineering and aptitude for finding sustainable engineering solutions.",
+      "type": "competence",
+      "code": "CMP04"
+    },
+    {
+      "text": "Actively collaborate with a group of people to achieve a common goal and develop multidisciplinary projects.",
+      "type": "competence",
+      "code": "CMP05"
+    },
+    {
+      "text": "Establish relationships with other people with an open attitude.",
+      "type": "competence",
+      "code": "CMP06"
+    },
+    {
+      "text": "Use continuous learning and develop autonomous and flexible learning strategies to facilitate professional insertion in diverse environments and with varied functions in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CMP07"
+    },
+    {
+      "text": "Gather and incorporate new knowledge in the area of Industrial Engineering, based on the acquired training and necessary for the evolution of technology.",
+      "type": "competence",
+      "code": "CMP08"
+    },
+    {
+      "text": "Develop own initiatives and undertake new projects, showing autonomy and creativity.",
+      "type": "competence",
+      "code": "CMP09"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 0. Introduction. Presentation of the course and its role in the development of mechatronic systems. General review of key components: sensors, actuators, microcontrollers, and communication.",
+    "Topic 1. Capture and response: sensors, signals, and actuators. Fundamentals of sensors and actuators used in applied engineering. Types of signals, reading and conditioning processes, analog/digital conversion, and basic device control.",
+    "Topic 2. Communication between devices. Principles of connectivity in embedded systems. Basic protocols for data exchange between devices.",
+    "Topic 3. Development of applications with microcontrollers. Programming oriented to interaction with sensors and actuators. Configuration of inputs and outputs, use of libraries, device control, and development of functional applications.",
+    "Topic 4. Interrupts in control systems. Efficient event management using interrupts. Comparison with continuous polling. Practical applications in improving system response.",
+    "Introduction to instrumentation in the laboratory. Configuration of the work environment for microcontroller development. Basic connection and verification of sensors and actuators. Identification of digital and analog signals.",
+    "Microcontroller systems programming. Development of programs for reading sensors and controlling actuators. Configuration of inputs and outputs, use of libraries and control structures. Design of basic applications with physical interaction.",
+    "Electronic sensors and actuators. Data reading from analog and digital sensors. Control of actuators such as DC motors, servos, stepper motors, relays, etc. Interpretation of signals and system response. Practical applications aimed at the development of mechatronic measurement and actuation systems.",
+    "Connectivity. Implementation of communications between devices. Use of the I2C protocol to connect sensors and peripherals. Sending and receiving data via WiFi and LoRa modules.",
+    "Interrupts. Event management using internal and external interrupts. Performance improvement in mechatronic systems. Implementation of low-power operating modes."
+  ],
+  "teaching_methods": [
+    "Lectures (theory) and practical classes (laboratory)",
+    "Tutorials",
+    "Presentations and discussions of assignments",
+    "Online interaction"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Class participation and completion of individual or group activities related to theoretical and practical content, including short assignments, in-class exercises, and other tasks throughout the course.",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Development of an integrated system of sensors and actuators controlled by a microcontroller.",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The course evaluation is divided into two parts: 40% for class participation and individual/group activities, and 60% for the practical part (integrated sensor/actuator system). In case of not meeting a minimum attendance or failing to submit a certain number of activities, a final exam will be conducted to evaluate knowledge.",
+  "bibliography": [
+    "Alciatore, D. G. (2008). Introducción a la mecatrónica y a los sistemas de medición (3ª ed.). McGraw-Hill.",
+    "Bolton, W. (2017). Mecatrónica: Sistemas de control electrónico en la ingeniería mecánica y eléctrica (6ª ed.). Alfaomega.",
+    "Lobo Varela, I. (2025). Arduino: Proyectos prácticos. RA-Ma Editorial.",
+    "http://www.arduino.cc",
+    "Material proporcionado en la plataforma Studium."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Salamanca",
+  "institution_slug": "es_salamanca",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "106576",
+  "academic_year": "2026-27",
+  "source_url": "https://guias.usal.es/node/251672",
+  "source_language": "es",
+  "source_sha256": "6f7ac61a088145f5f67aeb6e31a22a0690894640e23a7308ffd1d7222ddad15f",
+  "extracted_at": "2026-11-13T23:03:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

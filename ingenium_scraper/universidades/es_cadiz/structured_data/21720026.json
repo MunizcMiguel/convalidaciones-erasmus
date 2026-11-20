@@ -1,0 +1,150 @@
+{
+  "course_name_original": "Cálculo, Construcción y Ensayo de Máquinas",
+  "course_name_en": "Calculation, Construction and Testing of Machines",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Passing previous subjects: Theory of Mechanisms and Machines, Physics I and II and Advanced Mathematics.",
+    "Prior knowledge: Kinematics and Dynamics of Machines and Mechanisms.",
+    "Engineering materials, their properties and applications.",
+    "Elasticity and strength of materials.",
+    "Materials (Micro and macro structure, testing).",
+    "Trigonometry.",
+    "Differential and integral calculus.",
+    "Matrix calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to calculate, design and lay the mechanical foundations for the construction of machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrate the basic concepts of machine design, including mechanical and materials engineering, and failure prevention under static and variable load in the design process itself.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the functional characteristics of the main types of mechanical elements.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Relate fundamental concepts to the practical specification of components.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I. Static failure and fatigue design and prevention",
+    "Topic 1.- Static design and dimensioning of Machine elements.",
+    "1.1 Stresses and fatigue strength in Shafts, bolts, bars.",
+    "1.2 Static failure theories. TENM, TECM, Von Mises, C-Mohor",
+    "1.3 Finite elements (FEM) in static failure",
+    "Topic 2.-Fatigue design and prevention in Machine elements.",
+    "2.1 Stresses and fatigue strength. SN curves",
+    "2.2 Fatigue failure theories. Goodman, Soderberg, Herber, Marin.",
+    "2.3. FEM applied to fatigue failure",
+    "2.4 Programming in Excel, Matlab and Python.",
+    "BLOCK II: Machine Element Design",
+    "Topic 3: Joining Elements",
+    "3.1 Screws, bolts, rivets and welding.",
+    "Topic 4: Transmission Elements",
+    "4.1 Design of Shafts and Transmission Shafts",
+    "4.2 Bearings and bushings",
+    "4.3 Gears (cylindrical, helical and conical)",
+    "4.4 Parallel and planetary gear trains",
+    "4.5 Differentials",
+    "4.6 Belts and Chains",
+    "4.7 Cams and synthesis",
+    "4.8 Clutches and Brakes",
+    "4.9 Lubrication and maintenance",
+    "4.10 Mechanical design software and tools",
+    "Topic 5: Topological Optimization",
+    "5.1 Fundamentals",
+    "5.2 Mathematical Methods and Algorithms",
+    "5.3 Modeling and Simulation",
+    "5.4 Design Constraints and Criteria",
+    "5.5 Practical Applications",
+    "BLOCK III. Mechanical vibrations of 1 and N degrees of freedom. Isolation of mechanical vibrations",
+    "Topic 6.- Mechanical Vibrations 1 degree of freedom.",
+    "6.1 Free vibrations",
+    "6.2 Damped vibrations",
+    "6.3 Forced vibrations",
+    "6.4 Vibrations in continuous systems",
+    "6.5 Programming in Matlab and Python symbolic and numerical calculation.",
+    "Topic 7.- Vibrations N degrees of freedom.",
+    "7.1 Free vibrations. Lagrange",
+    "7.2 Damped vibrations. Lagrange",
+    "7.3 Forced vibrations. Lagrange",
+    "7.4 Frequency matrix and Vibration Modes",
+    "7.5 FEM for modes and frequencies.",
+    "Topic 8.- Vibrations in Machines.",
+    "8.1 Vibration isolation",
+    "8.2 Measurement of vibrations in machines",
+    "8.3 Vibration report",
+    "Topic 9.-Vibrations in Mechanical Transmissions",
+    "9.1 Rotor balancing in one plane",
+    "9.2 Rotor balancing in two planes",
+    "9.3 Vibration modes in a shaft and critical speeds"
+  ],
+  "teaching_methods": [
+    "Practices, seminars and problem solving",
+    "Workshop/laboratory practices",
+    "Field trips",
+    "Lectures and project-oriented learning",
+    "Individual study and autonomous work",
+    "Tutorials",
+    "Assessment activities"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory Practices. Measurement in Machines",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Finite Element Simulation Practices (Ansys)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Machine Design and Construction",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theory Exam",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Problem Solving Exam",
+      "weight_percentage": 75.0
+    }
+  ],
+  "assessment_rules": "It is necessary to obtain 5 out of 10 points in each problem.",
+  "bibliography": [
+    "SHIGLEY J.E. and MISCHKE C.R, Diseño en Ingeniería Mecánica",
+    "NORTON R.L, Diseño de Máquinas, 9701702573",
+    "W.T Thomson, Vibration Theory and Applications",
+    "Avilés González, Rafael, Métodos de cálculo de fatiga para ingeniería: metales, 9788428335188"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720026",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720026",
+  "source_language": "es",
+  "source_sha256": "d3569ffd92c6b31e9171d6cc010ad183a15ca36447fd7b681822ed06d699e0d6",
+  "extracted_at": "2026-11-13T21:30:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

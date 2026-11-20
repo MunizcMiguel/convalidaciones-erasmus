@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Teoría de Estructuras",
+  "course_name_en": "Theory of Structures",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Mecánica",
+    "Cálculo",
+    "Álgebra",
+    "Resistencia de Materiales"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply the principle of virtual work to bar structures.",
+      "type": "skill",
+      "code": "RTE-1"
+    },
+    {
+      "text": "Understand the most common structural typologies in industrial construction and the most appropriate modeling for their analysis.",
+      "type": "knowledge",
+      "code": "RTE-2"
+    },
+    {
+      "text": "Statically calculate or check bar structures and planar elements using matrix calculation and finite elements.",
+      "type": "skill",
+      "code": "RTE-3"
+    },
+    {
+      "text": "Handle structural calculation software.",
+      "type": "skill",
+      "code": "RTE-4"
+    }
+  ],
+  "syllabus_topics": [
+    "Structural typology. Basic principles.",
+    "The principle of virtual work.",
+    "Planar bar structures with articulated nodes",
+    "Planar bar structures with rigid nodes",
+    "Matrix calculation of structures",
+    "Introduction to FEM in structural calculation"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam (T1)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Class participation (TP)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical exam (P1)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical exam (P2)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Laboratory class participation (P3)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "For ordinary and extraordinary evaluations, the final grade is calculated as (0.8 x T1) + (0.05 x TP) + (0.05 x P1) + (0.05 x P2) + (0.05 x P3). A minimum grade of 2 out of 10 is required for each exercise in the final exam (T1/T2), and a minimum of 4 out of 10 for the complete exam. For differentiated evaluation, the final grade is calculated as (0.9 x T1) + (0.1 x P1), with the same minimum grades for T1. In case of doubt regarding authorship or unauthorized means (e.g., AI tools), a face-to-face defense may be requested.",
+  "bibliography": [
+    "E. Torroja Miret, Razón y ser de los tipos estructurales. Consejo Superior de Investigaciones Científicas, 1996.",
+    "S.P. Timoshenko, D.H. Young. Teoría de las estructuras”. Urmo, 1981.",
+    "F. París, J. Cañas, A. Fernández Canteli y M.J. Lamela. Cálculo matricial de estructuras. Universidad de Oviedo, 2006.",
+    "P. Martí. Análisis de Estructuras: Métodos clásicos y matriciales. Horacio Escarabajal Editores. 2003",
+    "E. Oñate, Cálculo de estructuras por el Método de los Elementos Finitos. CIMNE 1996",
+    "M. Vázquez, E. López, El Método de los Elementos Finitos Aplicado al Análisis Estructural Ed. Noela, 2001",
+    "Apuntes de la asignatura. Campus Virtual Universidad de Oviedo"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-3-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-3-008",
+  "source_language": "es",
+  "source_sha256": "c8eaebf3617fc9d709a2cfb9564fe29a4bc6e0b0e0b2073d668add15ae58d3fd",
+  "extracted_at": "2026-11-20T01:12:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

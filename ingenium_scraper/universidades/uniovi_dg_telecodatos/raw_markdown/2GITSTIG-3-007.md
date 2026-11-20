@@ -1,0 +1,254 @@
+---
+{
+ "course_code": "2GITSTIG-3-007",
+ "course_name": "Modelos Estadísticos de Predicción",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-007",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:04:55",
+ "content_sha256": "c58b5181c26118a186ec9b1603a41575c56330d24e24c94f0a1b17d0c9f3cddc"
+}
+---
+
+# Modelos Estadísticos de Predicción
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-3-007
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Prácticas de Laboratorio (14 Horas); Clases Expositivas (16 Horas)
+
+## Contextualización
+
+Modelos Estadísticos de Predicción es una asignatura de 6 créditos ECTS que se imparte en el segundo año del grado en Ciencia e Ingeniería de Datos y es parte de la Materia “Análisis y Visualización de Datos”.
+
+Esta asignatura pretende mostrar los fundamentos en los que se basan y la aplicación práctica de las principales técnicas de predicción empleadas en la actualidad. Se estudiarán distintos modelos estadísticos (formulación matemática, hipótesis supuestas, etc.) haciendo hincapié en sus requisitos y limitaciones para identificar cuáles son los más indicados en función del tipo y la cantidad de información disponible.
+
+Los métodos y técnicas se introducen en base a ejemplos y se trabajan a partir de la resolución de los problemas propuestos y de prácticas de ordenador pensadas para ser ejecutadas con el lenguaje R.
+
+## Requisitos
+
+La asignatura se apoya en los contenidos impartidos en las asignaturas Probabilidad, Ampliación de Matemáticas e Inferencia Estadística.
+
+## Competencias y resultados del aprendizaje
+
+COMPETENCIAS BÁSICAS Y GENERALES:
+
+CB2: Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+
+CB3: Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+
+CB4: Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+
+CB5: Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía.
+
+CG1: Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+CG2: Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+CG3: Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+CG4: Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG9: Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+COMPETENCIAS ESPECÍFICAS:
+
+CE3: Analizar datos procedentes de fenómenos complejos mediante la aplicación de técnicas estadísticas y cálculo de probabilidades.
+
+CE4: Comprender y aplicar correctamente técnicas de análisis exploratorio de datos y modelización estadística, evaluando la calidad de los modelos, validándolos e interpretándolos.
+
+RESULTADOS DE APRENDIZAJE:
+
+RMODP1: Obtener un modelo de predicción basado en el modelo de regresión lineal simple.
+
+RMODP2: Realizar un análisis crítico de los supuestos en lo que se basa el modelo, y analizar estadísticamente si éstos se verifican mediante técnicas de inferencia estadística.
+
+RMODP3: Aplicar adecuadamente las técnicas de regresión lineal múltiple y realizar un análisis estadístico inferencial de los supuestos del modelo.
+
+RMODP4: Conocer los distintos tipos de series temporales, y las componentes de una serie temporal.
+
+RMODP5: Aplicar los modelos de alisado exponencial para realizar predicciones con una serie temporal.
+
+RMODP6: Utilizar los modelos ARIMA, estimando adecuadamente sus componentes y realizando predicciones.
+
+RMODP7: Analizar críticamente los modelos y aplicar el más adecuado en cada caso.
+
+RMODP8: Aplicar las técnicas de modelización predictiva en casos de datos reales.
+
+## Contenidos
+
+1. Modelos predictivos según el tipo de datos. Pasos básicos en la predicción. La estadística en los modelos predictivos.
+
+2. Regresión lineal simple. Modelo de formulación y estimación. Supuestos del modelo. Inferencia para los parámetros del modelo. Bondad del ajuste. Predicción.
+
+3. Regresión lineal múltiple. Modelo de formulación y estimación. Supuestos de los modelos. Inferencia para los parámetros del modelo. ANOVA y ajuste del modelo. Selección de modelo. Uso de predictores cualitativos. Modelo de diagnóstico y multicolinealidad.
+
+4. Predicciones para datos medidos en el tiempo. Descomposición de las series temporales: localización, tendencia y estacionalidad. Métodos de predicción simples. Modelos lineales en series temporales. Bondad del ajuste. Validación del modelo.
+
+5. Modelos de alisado exponencial: básico, doble, triple. Modelos basados en la verosimilitud.
+
+6. Estacionariedad. Operadores de retardo. Modelos autorregresivos. Modelos de medias móviles. Modelos ARIMA no estacionales y estacionales.
+
+## Metodología y plan de trabajo
+
+La asignatura se imparte en modalidad semipresencial. Consta de 150 horas entre trabajo presencial y no presencial, y organizadas como sigue:
+
+1. Presenciales (30 horas)
+   - Clases expositivas. Dedicadas a desarrollar los principales conceptos de cada uno de los temas de la asignatura y a la resolución de problemas.
+   - Prácticas de laboratorio. Se realizarán prácticas en un ordenador para complementar la formación de las clases expositivas.
+   - Sesiones de evaluación.
+2. Online (30 horas)
+   - Clases expositivas. En ellas se desarrollarán los principales conceptos de cada uno de los temas de la asignatura.
+   - Clases prácticas de laboratorio: se complementarán las sesiones de prácticas de laboratorios presenciales.
+3. No presenciales (90 horas)
+   - Trabajo autónomo realizado por el estudiantado para la correcta asimilación de los conceptos estudiados en las clases presenciales y online.
+
+Una parte esencial de la metodología es la tutoría académica. El profesorado de la asignatura estará disponible para resolver las dudas individuales de cualquier estudiante, tanto de forma presencial en las horas de tutorías oficiales, como a través del foro de la asignatura en el campus virtual o del correo electrónico.
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases expositivas | 14 | 9.3% | 30 horas <br> 20% |
+|  | Prácticas de laboratorio | 14 | 9.3% |  |
+|  | Sesiones de evaluación | 2 | 1.4% |  |
+| Online | Clases expositivas | 15 | 10% | 30 horas <br> 20 % |
+|  | Prácticas de laboratorio | 15 | 10% |  |
+| No presencial | Trabajo autónomo | 90 | 60 % | 90 horas <br> 60 % |
+|  | Total | 150 |  |  |
+
+|  |  | **PRESENCIAL** |  |  |  | **ONLINE Y NO PRESENCIAL** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de laboratorio* | *Sesiones de Evaluación* | ***Total*** | *Clase expositiva online* | *Prácticas de laboratorio (online)* | *Trabajo autónomo* | **Total** |
+| Tema 1 | 11 | 1 | 2 |  | 3 | 1 | 2 | 5 | 8 |
+| Tema 2 | 26 | 2 | 2 |  | 4 | 3 | 2 | 17 | 22 |
+| Tema 3 | 28 | 3 | 2 |  | 5 | 3 | 3 | 17 | 23 |
+| Tema 4 | 26 | 2 | 2 |  | 4 | 2 | 3 | 17 | 22 |
+| Tema 5 | 29 | 3 | 3 |  | 6 | 3 | 3 | 17 | 23 |
+| Tema 6 | 28 | 3 | 3 |  | 6 | 3 | 2 | 17 | 22 |
+| Evaluación | 2 |  |  | 2 | 2 |  |  |  |  |
+| **Total** | **150** | **14** | **14** | **2** | **30** | **15** | **15** | **90** | **120** |
+
+## Evaluación del aprendizaje
+
+**CONVOCATORIA ORDINARIA:**
+
+**Elementos evaluables**
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- **Examen final teórico-práctico (F)**: prueba escrita realizada al final del semestre en la que se evaluarán los contenidos teóricos y su aplicación práctica. Para aprobar la asignatura en la convocatoria ordinaria, es obligatorio obtener una calificación de al menos 3,5 puntos sobre 10 en esta prueba. Peso: **35 %.**
+- **Pruebas teóricas de evaluación continua (CT)**: controles teóricos realizados durante el semestre, uno al terminar cada bloque. No hay nota mínima. Peso: **10 %.**
+- **Actividades en el Campus Virtual (CV)**: ejercicios y cuestionarios realizados al terminar cada tema. No hay nota mínima. Peso: **10 %.**
+- **Asistencia y participación (AP)**: se valorará la participación del estudiantado durante las clases. No hay nota mínima. Peso: **5 %.**
+
+- **Informes, trabajos y ejercicios de prácticas (EP)**: entrega de ejercicios al terminar cada tema práctico. No hay nota mínima. Peso: **20 %**.
+- **Controles de prácticas (CP)**: pruebas realizadas durante las sesiones prácticas para evaluar la adquisición de competencias aplicadas, una al terminar cada bloque. No hay nota mínima. Peso: **20 %.**
+
+**Calificación**
+
+Si se alcanza el mínimo establecido en el examen final, la **nota final de la convocatoria** se calcula como:
+
+Nota final = 0,35F + 0,10CT + 0,10CV + 0,05AP + 0,20EP + 0,20CP
+
+En caso de no alcanzar el mínimo establecido en el examen final, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y **4,0**.
+
+**Consideraciones**
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**CONVOCATORIAS EXTRAORDINARIAS:**
+
+**Convocatoria extraordinaria**
+
+En esta convocatoria el estudiante podrá conservar las calificaciones obtenidas en la evaluación continua o recuperar las pruebas correspondientes a las pruebas de evaluación continua teóricas y prácticas.
+
+Opción 1: mantener la evaluación continua
+
+En este caso, el estudiante realizará un **examen final teórico-práctico (F)** en el que se evaluarán los contenidos teóricos y prácticos de la asignatura.
+
+Será necesario obtener **al menos 3,5 puntos sobre 10 en este examen**. Si se alcanza este mínimo, la nota final de la convocatoria se calcula como:
+
+Nota final = 0,35F + 0,10CT + 0,10CV + 0,05AP + 0,20EP + 0,20CP
+
+En caso contrario, la calificación de la convocatoria será el **mínimo entre la nota obtenida con la fórmula anterior y 4,0**.
+
+Opción 2: recuperar las pruebas de evaluación continua
+
+El estudiante podrá recuperar las pruebas correspondientes a la evaluación continua teórica (**CT**) y práctica (**CP**) mediante dos pruebas realizadas en la convocatoria extraordinaria:
+
+- **Examen final teórico (FT)**: prueba escrita en la que se evaluarán los contenidos teóricos de la asignatura. Será necesario obtener al menos 3,5 puntos sobre 10 en esta prueba.
+- **Examen final práctico (FP)**: prueba realizada en el aula de ordenadores en la que se evaluarán las competencias prácticas de la asignatura.
+
+Si se alcanza el mínimo establecido en el examen teórico, la nota final de la convocatoria se calcula como:
+
+Nota final = 0,45FT + 0,10CV + 0,05AP + 0,20EP + 0,20FP
+
+En caso de no alcanzar el mínimo establecido en el examen teórico, la calificación de la convocatoria será el **mínimo entre la nota obtenida con la fórmula anterior y 4,0.**
+
+**Convocatoria extraordinaria adelantada**
+
+La convocatoria extraordinaria adelantada consta de **un examen teórico y un examen práctico**.
+
+- **Examen teórico (FT):** prueba escrita en la que se evaluarán todos los contenidos teóricos de la asignatura. Será necesario obtener **al menos 3,5 puntos sobre 10** en esta prueba. Peso: **60 %.**
+- **Examen práctico (FP):** prueba realizada en el aula de ordenadores en la que se evaluarán las competencias prácticas de la asignatura. Peso: **40 %.**
+
+Si se alcanza el mínimo establecido en el examen teórico, la **nota final de la convocatoria** se calcula como:
+
+Nota final = 0,60FT + 0,40FP
+
+En caso de no alcanzar el mínimo establecido en el examen teórico, la calificación de la convocatoria será **el mínimo entre la nota obtenida con la fórmula anterior y 4,0**.
+
+**EVALUACIÓN DIFERENCIADA**
+
+Aquellos estudiantes que tengan concedida **evaluación diferenciada** realizarán una **prueba final compuesta por un examen teórico y un examen práctico** al final del semestre.
+
+- **Examen teórico (FT):** prueba escrita en la que se evaluarán todos los contenidos teóricos de la asignatura. Será necesario obtener **al menos 3,5 puntos sobre 10** en esta prueba. **Peso: 60 %.**
+- **Examen práctico (FP):** prueba realizada en el aula de ordenadores en la que se evaluarán las competencias prácticas de la asignatura. **Peso: 40 %.**
+
+Si se alcanza el mínimo establecido en el examen teórico, la **nota final** se calculará como:
+
+Nota final = 0,60FT + 0,40FP
+
+En caso contrario, la calificación será **el mínimo entre la nota obtenida con la fórmula anterior y 4,0**.
+
+## Bibliografía
+
+BIBLIOGRAFÍA:
+
+**Bibliografía general**
+
+Peña, D. (1994). *Estadística. Modelos y métodos. Volumen 2. Modelos lineales y series temporales*. Alianza Universidad Textos.
+
+**Modelos de Regresión**
+
+- Faraway, J. J. (2015). *Linear Models with R* (2nd ed.). Chapman and Hall/CRC.
+- Faraway, J. J. (2016). *Extending the Linear Model with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models*. Chapman and Hall/CRC.
+- Fernández-Avilés, G., & Montero, J. M. (2024). *Fundamentos de Ciencia de Datos con R*. McGraw Hill. Disponible en: https://cdr-book.github.io/index.html Se recomienda especialmente el Capítulo 15: Modelización lineal: https://cdr-book.github.io/cap-lm.html
+
+**Series Temporales**
+
+- Hyndman, R. J., & Athanasopoulos, G. (2021). *Forecasting: Principles and Practice* (3rd ed.). OTexts. Disponible en: https://otexts.com/fpp3/
+- Peña, D. (2005). *Análisis de series temporales*. Alianza Universidad Textos.
+- Cryer, J. D., & Chan, K.-S. (2008). *Time Series Analysis: With Applications in R* (2nd ed.). Springer.
+
+**Bibliografía complementaria**
+
+- Wickham, H., & Grolemund, G. (2023). *R for Data Science* (2nd ed.). O’Reilly. Disponible en: https://r4ds.hadley.nz/ Traducción al español disponible en: https://es.r4ds.hadley.nz/
+- James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning with Applications in R* (2nd ed.). Springer. Disponible en abierto en: https://www.statlearning.com
+
+**Software**
+
+Software libre con R en el entorno RStudio.

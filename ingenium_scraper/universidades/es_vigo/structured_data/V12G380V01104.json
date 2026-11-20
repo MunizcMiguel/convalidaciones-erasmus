@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Matemáticas: Cálculo I",
+  "course_name_en": "Mathematics: Calculus I",
+  "ects": 6.0,
+  "semester": "1c",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "gl"
+  ],
+  "prerequisites": [
+    "Matemática aplicada I",
+    "Matemática aplicada II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding of basic knowledge of differential calculus of one and several variables.",
+      "type": "knowledge",
+      "code": "B3 C1 D1"
+    },
+    {
+      "text": "Understanding of basic knowledge of integral calculus of single-variable functions.",
+      "type": "knowledge",
+      "code": "B3 C1 D1"
+    },
+    {
+      "text": "Handling of differential calculus techniques for locating extrema, local approximation of functions, and numerical resolution of systems of equations.",
+      "type": "skill",
+      "code": "B3 B4 C1 D2 D9 D14 D16"
+    },
+    {
+      "text": "Handling of integral calculus techniques for calculating areas, volumes, and surfaces.",
+      "type": "skill",
+      "code": "B3 B4 C1 D1 D2 D9 D14 D16"
+    },
+    {
+      "text": "Use of computational tools to solve problems in differential and integral calculus.",
+      "type": "skill",
+      "code": "B4 C1 D2 D6 D9 D16"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to real numbers. Absolute value. The Euclidean space R^n. Sequences. Series. Limits and continuity of single and multivariable functions. Bolzano's Theorem. Weierstrass's Theorem.",
+    "Differential calculus of single real variable functions: mean value theorem, L'Hôpital's rule, Taylor's theorem, study of extrema, convexity. Differential calculus of multivariable real functions: partial derivatives, directional derivatives, differentiability, Jacobian matrix, chain rule, Hessian matrix, relative extrema.",
+    "The Riemann integral. Fundamental theorem of calculus. Barrow's rule. Change of variable. Calculation of antiderivatives. Improper integrals. Applications of the integral."
+  ],
+  "teaching_methods": [
+    "Problem-solving: The professor will solve typical problems and exercises, and the student will have to solve similar exercises.",
+    "Laboratory practices: Computational tools will be used to solve exercises and apply the knowledge obtained in theory classes.",
+    "Lectures: The professor will present the subject's content in theoretical classes."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Problem-solving and/or exercises (written controls and/or assignments)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Development questions final exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Continuous assessment is based on problem-solving/exercises (60%) and a final exam (40%). Students not opting for continuous assessment will take a final exam covering all course content, accounting for 100% of the grade. The second call assessment will also be a final exam covering all course content, accounting for 100% of the grade. Unethical behavior (copying, plagiarism, unauthorized use of electronic devices, etc.) will result in a failing grade (0.0).",
+  "bibliography": [
+    "Burgos, J., Cálculo Infinitesimal de una variable, 2ª, McGraw-Hill, 2007",
+    "Burgos, J., Cálculo Infinitesimal de varias variables, 2ª, McGraw-Hill, 2008",
+    "Galindo Soto, F. y otros, Guía práctica de Cálculo Infinitesimal en una variable, 1ª, Thomson, 2003",
+    "Galindo Soto, F. y otros, Guía práctica de Cálculo Infinitesimal en varias variables, 1ª, Thomson, 2005",
+    "Larson, R. y otros, Cálculo 1, 9ª, McGraw-Hill, 2010",
+    "Larson, R. y otros, Cálculo 2, 9ª, McGraw-Hill, 2010",
+    "Stewart, J., Cálculo de una variable. Trascendentes tempranas, 7ª, Thomson Learning, 2014",
+    "García, A. y otros, Cálculo I, 3ª, CLAGSA, 2007",
+    "García, A. y otros, Cálculo II, 2ª, CLAGSA, 2006",
+    "Rogawski, J., Cálculo. Una variable, 2ª, Reverte, 2012",
+    "Rogawski, J., Cálculo. Varias variables, 2ª, Reverte, 2012",
+    "Tomeo Perucha, V. y otros, Cálculo en una variable, 1ª, Garceta, 2011",
+    "Tomeo Perucha, V. y otros, Cálculo en varias variables, 1ª, Garceta, 2011"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01104",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01104&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "8728ae504f2056fcf57a3be4549ef5148d64241fca0df1365b25e7d2ff4ba964",
+  "extracted_at": "2026-11-18T02:53:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

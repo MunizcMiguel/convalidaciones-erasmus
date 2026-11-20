@@ -1,0 +1,135 @@
+{
+  "course_name_original": "NUMERICAL COMPUTATION (442AA)",
+  "course_name_en": "Numerical Computation",
+  "ects": 6.0,
+  "semester": "Secondo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of linear algebra and calculus of one real variable.",
+    "Fondamenti di informatica course (recommended) in order to be familiar with the main programming constructs."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Present modern numerical approaches to classical problems in mathematics whose numerical solutions are essential, including linear systems, eigenvalue problems, nonlinear equations, polynomial approximation, and integration.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Explain when and how to use various numerical algorithms, as well as how and why they work.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze the computational facets of the presented methods, like the conditioning of a problem and the stability and complexity of a solution method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be introduced to the industry-standard programming environment MATLAB.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the basic concepts behind the various numerical methods studied.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Implement basic numerical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Utilize more sophisticated numerical methods provided as built-in MATLAB functions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and analyse all computational facets of numerical methods used for solving mathematical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement these methods by assessing the quality of numerical results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be introduced to the design of composite approaches incorporating tools from computational mathematics and computer science for the solution of applicative problems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Error analysis: roundoff errors and computer arithmetic.",
+    "Conditioning of mathematical problems.",
+    "Algorithms: iterative processes, convergence, stability, and complexity.",
+    "Numerical software.",
+    "Review of linear algebra and matrix computations.",
+    "Vector and matrix norms.",
+    "Eigenvalues and eigenvectors: orthogonal matrices and similarity transformations.",
+    "The Gershgorin theorem.",
+    "Numerical solution of linear systems.",
+    "Conditioning of the problem.",
+    "Triangular systems and substitution techniques.",
+    "Matrix factorizations and the Gaussian elimination method.",
+    "Pivoting strategies.",
+    "Special types of matrices.",
+    "Iterative methods for linear systems: the general theory of convergence.",
+    "The Jacobi and the Gauss-Seidel iterative techniques.",
+    "Specialized convergence criteria for diagonally dominant matrices.",
+    "Approximating eigenvalues of matrices: The power method and its generalizations.",
+    "Numerical solution of nonlinear equations.",
+    "The bisection method.",
+    "Fixed point iterative methods.",
+    "Newton's method.",
+    "Convergence conditions and comparisons.",
+    "Algebraic equations: the companion matrix and the eigenvalue connection.",
+    "Polynomial interpolation.",
+    "The Lagrange form of the interpolating polynomial.",
+    "Numerical quadrature.",
+    "Newton-Cotes formulae.",
+    "Composite numerical integration: the composite trapezoidal rule and its convergence.",
+    "Over determined linear systems, the least square problem, normal equations, QR factorization"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Lectures",
+    "laboratory",
+    "face to face",
+    "attending lectures",
+    "participation in discussions",
+    "individual study"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam is focused on computational and implementative issues of numerical methods while part of exam is concerned with the theoretical results around these methods. A final written exam concerning computational and implementative issues of numerical methods is optional at the instructor's discretion. A final oral exam concerns theoretical properties of numerical methods.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "442AA",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=53295_702854_64494&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "7407ada9f100610c71146bce25c8d18177c250d5626474696c532103fd16bd0d",
+  "extracted_at": "2026-11-20T09:25:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

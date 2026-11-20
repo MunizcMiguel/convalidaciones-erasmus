@@ -1,0 +1,102 @@
+{
+  "course_name_original": "MECB340 – Mikrocomputertechnik",
+  "course_name_en": "MECB340 – Microcomputer Technology",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Computer Science 1",
+    "Fundamentals of Electrical Engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the functionality of microcomputers / micromachines and comprehend and schematically realize commands in a microcomputer.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the use of memory (RAM, Flash) in a program and be able to represent the transfer from binary code to assembler and variables.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design simple algorithms in assembler and validate them to be executable, as well as translate C constructs (variables, loops, conditions, interrupts, …) into assembler and vice versa, and be able to read circuit diagrams of circuit boards and understand the functionality of hardware based on circuit diagrams.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Commission a microcontroller (μC) and peripheral units (timer, interrupt, bus system, AD converter, CAN bus, …) using common IDEs and understand their functionality, and based on this, develop applications so that a complete system including sensors and actuators operates functionally.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design a project with distributed source and header files such that the information exchange between the files is meaningfully and flawlessly represented according to the procedure in larger projects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Become familiar with typical applications in the embedded and automotive market.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of Computer Science (number systems, negative representation, bit manipulations, …)",
+    "Functionality of a microcomputer, especially the functionality of CPUs and their connection to memory units (Harvard, von Neumann architectures)",
+    "Assembler programming and its representation in memory",
+    "Translation of C constructs into assembler and vice versa",
+    "Commissioning of microcontrollers using IDEs (μVision - Keil)",
+    "Programming of embedded applications (stopwatches, bus communications, servomotors, …) based on μC components (timer, AD converter, bus systems, interrupt, ports, …)",
+    "Analysis of peripheral components based on functional diagrams and the user manual",
+    "Reading and understanding HW circuit diagrams",
+    "Development of programs via distributed source and header files",
+    "Practical laboratory exercises deepening the contents of MECB341"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated homework exercises",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written module examination (90 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory work (unweighted, pass/fail)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Prerequisite XP for admission to examination procedure (laboratory reports, oral exams, or written assignments)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Student knowledge is assessed by a graded written module examination lasting 90 minutes. The Microcomputer Technology laboratory is evaluated without a grade through laboratory work and certified throughout the semester. The prerequisite XP for admission to the examination procedure is defined at the beginning of the semester, and may include laboratory reports, oral examinations, or written assignments.",
+  "bibliography": [
+    "Lecture script",
+    "R. Kriesten: Embedded Programming: Basiswissen und Anwendungsbeispiele der Infineon XC800- Familie, München, Oldenbourg Verlag, 2012",
+    "Computer Science 1, 2 script",
+    "Steve Furber, VLSI Risc Architecture and Organization",
+    "User Manual of the Microcontroller XC800 Family",
+    "Klaus Wüst, Mikroprozessortechnik",
+    "Past exams"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB340",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "5e2040b502b7fcc80cba94b37e22423112559af3b0fed2b33e751771b0a256d5",
+  "extracted_at": "2026-11-20T12:39:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

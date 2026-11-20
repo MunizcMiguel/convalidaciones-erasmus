@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Computación Numérica en Ingeniería de Datos",
+  "course_name_en": "Numerical Computing in Data Engineering",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear Algebra",
+    "Calculus I",
+    "Calculus II",
+    "Advanced Mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the appropriate mathematical concepts and methods to obtain models capable of solving problems that may arise in the context of data science and engineering: linear algebra, differential and integral calculus.",
+      "type": "knowledge",
+      "code": "CE01"
+    },
+    {
+      "text": "Evaluate the computational complexity of a problem and identify, if any, appropriate algorithmic strategies for its resolution.",
+      "type": "skill",
+      "code": "CE11"
+    },
+    {
+      "text": "Identify the limitations of common algebraic methods when applied to large, sparse, or structured matrices.",
+      "type": "unspecified",
+      "code": "RCOM1"
+    },
+    {
+      "text": "Know efficient methods for solving linear systems and for calculating the singular value decomposition of problems with large matrices.",
+      "type": "knowledge",
+      "code": "RCOM2"
+    },
+    {
+      "text": "Solve systems of non-linear equations, using the most appropriate method.",
+      "type": "skill",
+      "code": "RCOM3"
+    },
+    {
+      "text": "Identify and solve the multivariable interpolation problem.",
+      "type": "skill",
+      "code": "RCOM4"
+    },
+    {
+      "text": "Interpret and apply various methods of multivariable numerical integration.",
+      "type": "skill",
+      "code": "RCOM5"
+    },
+    {
+      "text": "Understand the numerical and discretization formulations of Fourier transform and finite difference problems.",
+      "type": "knowledge",
+      "code": "RCOM6"
+    },
+    {
+      "text": "Use software tools based on some of the methods studied and also use them as support tools for self-developed programs.",
+      "type": "skill",
+      "code": "RCOM7"
+    }
+  ],
+  "syllabus_topics": [
+    "Linear Algebra Methods for massive data matrices. Methods for structured matrices.",
+    "Solutions of systems of non-linear equations. Multivariable interpolation.",
+    "Multivariable numerical integration.",
+    "Transforms. Fast and discrete transform.",
+    "Introduction to the finite difference method."
+  ],
+  "teaching_methods": [
+    "Online teaching (30 hours)",
+    "Expository classes (16 hours)",
+    "Laboratory practices (14 hours)",
+    "Virtual expository sessions (videos, presentations, instructional texts, self-assessment questionnaires)",
+    "In-person expository classes (doubt resolution, theoretical development, examples)",
+    "Virtual laboratory practices (solving exercises with Matlab)",
+    "In-person laboratory practices (solving exercises with Matlab)",
+    "Tutoring (chat, forums, individual/group via Teams, in-person/virtual)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Project report",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Exam on project content",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Attendance and participation in in-person activities",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Virtual Campus activities and forum participation",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade for the ordinary call is calculated as NF = 0.2 MP + 0.5 NEx + 0.15 NA + 0.15 NCv, where MP is the project report, NEx is the exam grade on the project, NA is the attendance and in-class work grade, and NCv is the grade for Virtual Campus tasks. For NA to be considered, attendance of at least 80% of in-person sessions is mandatory. For differentiated evaluation, NA is replaced by NT (grade for mandatory tutorials). For extraordinary calls, two exams will be taken, one on theoretical-practical content and one on programming methods with Matlab, each weighing 50% of the final grade.",
+  "bibliography": [
+    "Linear Algebra and Learning from Data. G. Strang. Wellesley-Cambridge Press, Year 2019",
+    "Numerical Analisys: mathematics of science computing. D. Kincay, W. Cheney . American Mathematical Society. 2000",
+    "Matrix Computation. G. H. Golub, Ch. F. Van Loan, The Johns Hopkins University Press. 2013",
+    "Linear Algebra and Optimitation for Machine Learning, Charu C. Aggarwal. Springer, 2020",
+    "Gilbert Strang. 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning. Spring 2018. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.",
+    "www.mathworks.com"
+  ],
+  "isced_f_code": "0610",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-4-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-4-011",
+  "source_language": "es",
+  "source_sha256": "c60a2ce08f0ca17dea0d222f2ed6d9979718b948c3ce2493ca87cfa8dcdb0a78",
+  "extracted_at": "2026-11-20T05:56:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

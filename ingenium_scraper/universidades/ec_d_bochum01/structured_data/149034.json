@@ -1,0 +1,65 @@
+{
+  "course_name_original": "Elektrotechnik 1",
+  "course_name_en": "Electrical Engineering 1",
+  "ects": 6.0,
+  "semester": "1. Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students master the fundamentals and laws for calculating currents and voltages in electrical DC and AC circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They are able to analyze, mathematically describe, and transform electrical networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They have understood the basics of complex AC calculation and can apply them to practical examples.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Linear DC circuits: reference directions; current and voltage sources; Kirchhoff's equations; simple resistance networks (voltage divider, current divider); real current and voltage sources; interactions between source and load (interconnection of voltage sources, power matching, efficiency); superposition principle; analysis of extensive networks.",
+    "Transition to time-dependent current and voltage forms: overview and introduction of various characteristic quantities (average value, rectified value, RMS value, maximum value, peak value, peak-to-peak value, amplitude).",
+    "Alternating current and alternating voltage: the phasor diagram; complex AC calculation; description of concentrated RLC components and ideal sources; introduction of locus curves; calculation of simple AC circuits via the complex plane; energy and power in AC voltage; power matching.",
+    "Analysis of networks: mesh current method; nodal potential method.",
+    "Introduction to two-ports: port condition; two-port equations in matrix form (impedance, admittance, hybrid, chain form); two-port properties (reciprocity, symmetry); matrices of elementary two-ports."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 75.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the module exam.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum",
+  "institution_slug": "ec_d_bochum01",
+  "degree": "Elektrotechnik und Informationstechnik (B.Sc., 1-Fach-Bachelor, PO 2020)",
+  "course_code": "149034",
+  "academic_year": "2025-2026",
+  "source_url": "https://ei.ruhr-uni-bochum.de/fileadmin/content/Fakultaet_fuer_Elektrotechnik_und_IT/ETIT_Pruefungsamt/Dokumente/Ba_ETIT_PO20/Modulhandbuch_BaET_PO20_SS_2026_Stand_30.03.2026.pdf",
+  "source_language": "de",
+  "source_sha256": "3ac34eaf293bcb8d24fc6608b66cc64523cb21a4a55b142a1db18658c2ea9617",
+  "extracted_at": "2026-11-20T08:21:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

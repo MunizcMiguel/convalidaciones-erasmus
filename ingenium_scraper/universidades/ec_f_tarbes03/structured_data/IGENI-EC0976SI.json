@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Real time computing",
+  "course_name_en": "Real time computing",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "C language",
+    "microcontroller programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the challenges and critical aspects specific to the development of \"real-time\" applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the fundamentals of real-time programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design a real-time embedded system while ensuring compliance with the requirements set forth in a specification document.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand the specific mechanisms of real-time systems (task scheduling, recovery time, latency, etc.).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to define a priority policy among different processes, and select a scheduling policy.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the limitations of the equipment used.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design a real-time system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement the system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to define and carry out performance validation tests.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of real-time computing",
+    "Definition of latency and recovery times",
+    "Task scheduling policies",
+    "Inter-process communication and synchronization mechanisms",
+    "Introduction to a real-time operating system on an Atmel microcontroller",
+    "Presentation of a specification document and design of a system to meet its requirements"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical work"
+  ],
+  "workload_hours_total": 20.0,
+  "workload_hours_contact": 15.0,
+  "assessment_methods": [
+    {
+      "method": "RAP1",
+      "weight_percentage": null
+    },
+    {
+      "method": "TP1",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*RAP1)+(1*TP1)/2.",
+  "bibliography": [
+    "Hands-On RTOS with Microcontrollers - Second Edition, Brian Amos, Jim Yuill, Penn Linder, February 2024, Packt Publishing ISBN: 9781803237725",
+    "Designing Embedded Systems with Arduino, Tianhong Pan, Yi Zhu, https://doi.org/10.1007/978-981-10-4418-2, ISBN978-981-10-4417-5Published: 24 May 2017, Springer Nature Singapore Pte Ltd. 2018",
+    "FreeRTOS: A Practical Approach with Arduino, Max Back, Amazon Digital Services LLC - KDP Print US, 2018 - 371 pages"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0976SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "8e2ea5251009ba67f73d1deccc7209cf1388f07fe31df7d153bb1af99b1c73b4",
+  "extracted_at": "2026-11-18T10:00:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

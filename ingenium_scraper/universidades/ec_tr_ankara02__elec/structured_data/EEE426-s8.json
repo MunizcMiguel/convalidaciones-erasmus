@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Nonlinear Control Systems",
+  "course_name_en": "Nonlinear Control Systems",
+  "ects": 6.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "EEE326"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students will learn how to analyze the stability and performance properties of nonlinear systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The students will learn how to design nonlinear feedback controllers.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to nonlinear and time-varying systems.",
+    "Mathematical background, including vector spaces and norms. Lp norms for signals, induced norms for systems, and the Lebesgue Lp spaces.",
+    "Existence and uniqueness of solutions to nonlinear differential equations.",
+    "Stability Analysis Techniques for the stability analysis of nonlinear and time-varying systems.",
+    "Internal stability of feedback systems. Phase plane portraits.",
+    "Lyapunov stability theorems.",
+    "Popov and circle criteria for nonlinear feedback systems. Passivity and small gain for nonlinear operators.",
+    "MIDTERM EXAM",
+    "Passivity and small gain for nonlinear operators.",
+    "Design Techniques Overview of design for nonlinear systems.",
+    "Jacobian linearization and gain scheduling.",
+    "Introduction to feedback linearization and developing of optimal control techniques.",
+    "Introduction to feedback linearization and developing of optimal control techniques.",
+    "Direct design methods."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 151.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Practice",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Mid-Term",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Nonlinear Control Systems, Isidori.",
+    "Nonlinear Systems, Khalil."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE426-s8",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857460&lang=en",
+  "source_language": "en",
+  "source_sha256": "5b03857b09d34bc126ec3f69a79bbe464f275afccd6c83435c1fd6a835114cf9",
+  "extracted_at": "2026-11-20T12:53:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

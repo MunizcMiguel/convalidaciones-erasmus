@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Méthode des éléments finis pour le calcul de structure / Finite Element Method for structural analysis",
+  "course_name_en": "Finite Element Method for structural analysis",
+  "ects": 3.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Mechanics of Rigid Body (S1)",
+    "Scientific computing (b) (S3)",
+    "Structural mechanics (S3)",
+    "Vibrations (S4)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know how to formulate a mechanical problem using Principle of Virtual Power",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Detailed knowledge of elements based on beam theory",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the various steps involved in setting up a structural calculation using the finite element method",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to interpret the results obtained by the finite element method, in particular for the calculation of truss and portal frame structures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use simple two-dimensional finite elements to solve 2D problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to solve 2D problems using the finite element technique",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Build linear models in ABAQUS",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the Finite Element Method for structural analysis",
+    "Formulating a mechanical problem with the Virtual Power Principle",
+    "Presentation of the method",
+    "Details of truss and beam elements",
+    "Presentation of the method for solving discrete structures: trusses and portals",
+    "Details of elements for solving 2D linear problems"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "J.F. Imbert, Analyse des structures par éléments finis, Cépaduès, 1991",
+    "J.N. Reddy, An introduction to the finite element method, Mac GrawHill, 1993",
+    "B. Drouin, J.M. Senicourt, F. Lavaste, G. Fezans, De la mécanique vibratoire classique à la méthode des éléments finis, Volumes 1 et 2, AFNOR, 1993",
+    "Zienkiewicz O.C., The Finite Element Method, 4th edition, 2 volumes, Mc Grow Hill, 1989",
+    "Batoz J.L., Dhatt G., Modélisation des structures par éléments finis, 3 volumes, Hermès, 1990",
+    "A.A. Shabana, Theory of Vibration, an introduction, Springer-Verlag, 1996"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "ISAE-ENSMA (École nationale supérieure de mécanique et d'aérotechnique)",
+  "institution_slug": "ec_f_poitier05",
+  "degree": "Diplôme d'ingénieur ISAE-ENSMA (FISE) - 2e année (syllabus A2)",
+  "course_code": "CSM-UE4-3b",
+  "academic_year": "2025-26",
+  "source_url": "https://ensma.fr/wp-content/uploads/2025/02/Syllabus-FISE-ENSMA-A2-2025-2026-previsionnel.pdf",
+  "source_language": "fr",
+  "source_sha256": "ee027de199f56ba729165baf118d93f3b59b158bca9ba5a6c32d66c12709cbe0",
+  "extracted_at": "2026-11-20T09:15:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

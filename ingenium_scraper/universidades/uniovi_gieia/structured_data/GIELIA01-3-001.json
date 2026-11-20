@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Desarrollo de Prototipos",
+  "course_name_en": "Prototype Development",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Prior knowledge in circuit theory, electrical machines and installations, analog electronics, digital electronics, programming, automatic regulation and control is recommended.",
+    "It is highly unadvisable to take this course without having previously completed \"Sistemas Electrónicos Digitales\" (Digital Electronic Systems) and \"Informática Industrial y Comunicaciones\" (Industrial Informatics and Communications)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Upon successful completion of the course, the student will be able to integrate the knowledge from specific Degree subjects taken in the Third Year and apply it to the development of a prototype in the laboratory.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Furthermore, they will be able to safely use the instrumentation and equipment typical of an electronics and automation laboratory in accordance with regulations.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "They will also be able to use design assistance software, simulation, programming, and debugging of prototypes.",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Additionally, they must be able to select among different possible alternatives for a given technical solution.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "The student will acquire the ability to describe the developed prototype in a public presentation.",
+      "type": "skill",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "Electric Machines",
+    "DC motor",
+    "Asynchronous motor review",
+    "Synchronous motor",
+    "Permanent magnet motors",
+    "Brushless DC motor",
+    "Permanent magnet synchronous motors",
+    "Introduction to variable speed drives",
+    "Drives for DC motors (Choppers)",
+    "Drives for AC motors (PWM inverters with sinusoidal modulation)",
+    "Motors for electric traction",
+    "Methodology for the conception of Electronic Systems",
+    "Computer-Aided Design and Electronic Engineering (CAD/CAE): work environments and tools",
+    "Hardware design specification: Schematic editing",
+    "Pre-hardware testing: Simulation and results analysis, software verification without prototypes",
+    "Internal modules in microcontrollers",
+    "Interfaces and input/output devices for embedded systems",
+    "Prototype testing and verification",
+    "Physical realization: Printed circuit board design",
+    "Software design methodologies",
+    "Software architectures for embedded systems",
+    "Software verification and debugging",
+    "Systems integration"
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures)",
+    "Classroom practices (tool and equipment handling, methodology explanation)",
+    "Laboratory practices (software and hardware tools, laboratory equipment for implementation, development, and experimental application)",
+    "Group tutorials (common discussion and follow-up on ongoing projects)",
+    "Evaluation sessions (report submission, public presentation, demonstration, Q&A)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final Theory Exam (T1)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Tasks associated with practical sessions (P1)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Semester Project (P2) - Individual report, public presentation, and demonstration",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade in the ordinary call is calculated as 0.3 * T1 (Exam) + 0.3 * P1 (Tasks in Practices) + 0.4 * P2 (Project), with each section scored from 0 to 10. There is no minimum grade required for either the Theory Block or the Practical Block to average with other assessable activities. For extraordinary calls, the theoretical exam and semester project can be repeated, or the ordinary call grades can be maintained. The grade for \"Tasks associated with practical sessions\" (P1) is obtained only during the teaching period and is maintained for extraordinary calls within the same academic year but not for subsequent years. In cases of plagiarism, a grade of 0 will be applied in the ordinary call.",
+  "bibliography": [
+    "Fiztgerald, Kingsley, Stephen y Umans. “Máquinas Eléctricas”. Mc Graw Hill.",
+    "José Luis Sanz Serrano y José Carlos Toledano Gasca. “Técnicas y procesos es las instalaciones eléctricas de baja tensión”. Thomson Paraninfo.",
+    "J.M. Angulo e I.Angulo. “Microcontroladores PIC, Diseño Práctico de Aplicaciones”. Ed. McGraw-Hill.",
+    "Eduardo García Breijo. “Compilador C CCS y Simulador PROTEUS para microcontroladores PIC”. Marcombo. Ediciones técnicas.",
+    "Miro Samek. \"Practical statecharts in C/C++: Quantum programming for embedded systems.\" CRC Press, 2002. (electronic copy available online at the author's website: http://www.state-machine.com/psicc2/)",
+    "T. Noergaard. “Embedded Systems Architecture: A Comprehensive Guide for Engineers and Programmers”. Newnes, 2005."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-001",
+  "source_language": "es",
+  "source_sha256": "2ce1042e53ac54bdd6d012d9f71d93e0a2866b5b276793590863b0e6ad2d8961",
+  "extracted_at": "2026-11-20T01:12:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

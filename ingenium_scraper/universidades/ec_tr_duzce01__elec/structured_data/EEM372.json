@@ -1,0 +1,131 @@
+{
+  "course_name_original": "Güç Sistemleri Analizi I",
+  "course_name_en": "Power System Analysis I",
+  "ects": 5.0,
+  "semester": "6. Yarıyıl",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Acquires basic knowledge about energy transmission systems. (Concepts of phasor, current, voltage, power, balanced three-phase systems)",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculates transmission line parameters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Creates equivalent circuits for short, medium, and long transmission lines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Derives current-voltage relationships for short, medium, and long transmission lines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Defines concepts such as voltage regulation, line efficiency, steady-state stability limit, and natural loading.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Lists types of reactive power compensation in transmission lines.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculates current, voltage, and power for different loading conditions of the transmission system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Performs per-unit modeling of transmission systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learns symmetrical components theory.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learns modeling of positive, negative, and zero sequence circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Performs mathematical analysis of the load flow problem.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to energy transmission systems, basic concepts related to transmission systems (phasor, current, voltage, power concepts, three-phase systems)",
+    "Transmission line parameters, calculation of line impedance and admittance elements (line resistance, inductance and capacitance)",
+    "Transmission line modeling, short line modeling, derivation of current and voltage relations, voltage regulation, line efficiency.",
+    "Modeling of medium-length lines, derivation of current-voltage relations for PI and T equivalent circuits, drawing of phasor diagrams",
+    "Modeling of long transmission lines, derivation of current-voltage relations, voltage regulation and efficiency.",
+    "A, B, C, D parameter determination and related example solutions",
+    "Maximum Power Transmission in Steady State",
+    "Per-unit concept, calculation of per-unit values of electrical quantities, per-unit conversion",
+    "Derivation of bus admittance matrix and related example solutions",
+    "Power Flow",
+    "Stability in power systems"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 128.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Midterm Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignment",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Application",
+      "weight_percentage": null
+    },
+    {
+      "method": "End of Application Period",
+      "weight_percentage": null
+    },
+    {
+      "method": "In-class Activity",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Glover J.D., Sarma M.S., Overbye T.J. Güç Sistemlerinin Analizi ve Tasarımı, Nobel Akademi,5.Basım,2017.",
+    "Saadat, H. Power System Analysis, Mc Graw Hill Series, Vol.2 1999",
+    "Gönen,T. Electric Power Transmission System Engineering Analysis and Design, Singapore:1988,",
+    "Arifoğlu, U. Enerji İletim Sistemleri Ders Notları.1995."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Düzce University — Elektrik-Elektronik Mühendisliği (Electrical-Electronics Engineering), Normal Öğretim",
+  "institution_slug": "ec_tr_duzce01__elec",
+  "degree": "Elektrik-Elektronik Mühendisliği (Electrical-Electronics Engineering), Normal Öğretim",
+  "course_code": "EEM372",
+  "academic_year": "2026 - 2027",
+  "source_url": "https://ebs.duzce.edu.tr/Ders/Index/343260?bno=15&bot=16&yilNo=34",
+  "source_language": "tr",
+  "source_sha256": "f50affc34dc8c60b71580da162d1dfa44cb4eb1f5a85ea2cbc41f0e504cf68b2",
+  "extracted_at": "2026-11-20T12:59:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

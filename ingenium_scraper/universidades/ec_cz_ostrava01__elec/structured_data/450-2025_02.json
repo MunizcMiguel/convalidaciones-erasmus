@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Programmable Controllers and HMI/SCADA Systems",
+  "course_name_en": "Programmable Controllers and HMI/SCADA Systems",
+  "ects": 4.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students learn how to use PLC's in control of industrial and other processes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Acquaint students with possibilities of PLC's and visualizations, with their characteristics and give them good knowledge of concrete types.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have the main knowledge of programmable logic controllers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students get practical skills with one type of commonly used PLC’s and two visualization systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to choose right PLC type for certain application and develop control program.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Logic control and technological process.",
+    "Methodology of control system design.",
+    "Programmable logic controllers Siemens Simatic S7, hardware, I/O signals.",
+    "Programmable logic controllers Siemens Simatic S7 300, Step 7 programming language, programming of logic functions.",
+    "Programmable logic controllers Siemens Simatic S7 300, functions, function blocks, analog signals processing.",
+    "Realizing control algorithms on PLC.",
+    "Creation of control system algorithm. Definition of control aims. Petri Nets.",
+    "IEC 61131 standard and its parts. Benefits of using this standard. Sequential processes programming tools. IEC 61131-3 programming, textual and graphical languages.",
+    "Communication possibilities of PLC's, industrial networks, distributed control systems.",
+    "Visualization systems for control applications. Relationship of programmable logic controllers with higher level control systems. User interface design fundamentals. Structure of user interface screens.",
+    "System Wonderware Intouch, development of applications.",
+    "Alarms and events, real-time and historical trending in Intouch system.",
+    "Communication of visualization applications with other applications, DDE, NetDDE, OLE, OPC. Communication between PC and PLC.",
+    "Operator panel Siemens Simatic OP7 and Bernecker Rainer PowerPanel.",
+    "Internet technology in visualization systems.",
+    "Combination logic. Programmable logic controllers overview. Connection PLC to PC.",
+    "Programming of PLC Simatic S7 300.",
+    "Programming of PLC Simatic S7 300. Working with DI/DO, timers, counters. Development of control application.",
+    "Programming of PLC Simatic S7 300. Working with AI/AO, arithmetics. Development of control application - continuation.",
+    "Development of control application. System design using Petri Nets.",
+    "Solving of term project with Simatic.",
+    "System Wonderware Intouch overview. Tagname dictionary in Intouch. Practical demonstration on PC.",
+    "Animation links and scripts in Intouch. Practical demonstration on PC.",
+    "Trends and user system in Intouch. Practical demonstration on PC.",
+    "Using DDE, NetDDE and OPC in Intouch applications.",
+    "Communication between Intouch system and PLC´s. Practical demonstration on PC.",
+    "Solving of term project with Intouch.",
+    "Development of visualization application for operator panel OP7.",
+    "Solving of term project with operator panel OP7."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Experimental work in labs",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Technical documentation Siemens k PLC Simatic ( http://www.siemens.com )",
+    "InTouch 10 - user manual. (http://www.wonderware.com )",
+    "Stenerson J.: Fundamentals of Programmable Logic Controllers, Sensors and Communications. Prentice Hall, 1999.",
+    "Lewis R. W.: Programming Industrial Control Systems Using IEC 1131-3. The Institution of Electrical Engineers, London, UK, 1998.",
+    "Standard IEC 61131-3.",
+    "Boyer S. A.: SCADA - Supervisory control and data acquisition. ISA, 1999. ISBN 1-55617-660-0."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "450-2025/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=45598&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "4a001c792b31681743e7a10fff47fb00c9bce4781863cb5aa0c5a40e0c4974d5",
+  "extracted_at": "2026-11-20T12:51:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

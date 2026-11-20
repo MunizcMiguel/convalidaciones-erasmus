@@ -1,0 +1,181 @@
+---
+{
+ "course_code": "2GITICID-0-007",
+ "course_name": "Aplicaciones y Tratamiento de Datos en Tecnología y Física",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-007",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:06",
+ "content_sha256": "cacb09fbc9ad990f10e5269642c9028cb2ffd2b5e9c802a9d50b06540aeaf0ef"
+}
+---
+
+# Aplicaciones y Tratamiento de Datos en Tecnología y Física
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-0-007
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Optativa
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (16 Horas); Docencia On Line (30 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+“Aplicaciones y Tratamiento de Datos en Tecnología y Física” es una asignatura Optativa de 6 créditos ECTS que se imparte en el Grado en Ciencia e Ingeniería de Datos y forma parte del módulo “Optativas de Titulación”. En ella se desarrollan algunas técnicas indispensables para el análisis de datos que incluyen técnicas avanzadas de aprendizaje.
+
+En cada tema se plantean los objetivos del método que se va a estudiar, se muestran los resultados teóricos más importantes, que justifican la solución obtenida y se explica la utilidad práctica de estos resultados. Con ello se pretende que los estudiantes se familiaricen con los conceptos abstractos, adquieran el hábito del razonamiento crítico y se puedan enfrentar de manera autónoma al estudio de nuevos métodos o modelos.
+
+Otro de los objetivos importantes de la asignatura es conseguir que los alumnos sepan plantear problemas reales y los resuelvan empleando los métodos estadísticos o de aprendizaje automático con la ayuda de alguna herramienta informática como, por ejemplo, Python.
+
+## Requisitos
+
+Se recomienda que el estudiante tenga aprobadas las asignaturas:
+
+- Aprendizaje automático I;
+- Aprendizaje automático II;
+- Aprendizaje profundo;
+- Procesamiento de datos masivo.
+
+## Competencias y resultados del aprendizaje
+
+Las competencias que el alumno adquiere con este módulo, de acuerdo con la memoria del grado, son las siguientes:
+
+CE9:Construcción de sistemas de aprendizaje automático utilizando técnicas básicas y avanzadas, para construir sistemas inteligentes a partir de conjuntos de datos.
+
+RATDTF1: Utilizar métodos avanzados basados en técnicas multivariantes para el análisis de datos complejos en Tecnología y Física.
+
+RATDTF2: Conocer y utilizar técnicas y herramientas computacionales para el análisis de datos en Tecnología y Física.
+
+RATDTF3: Ser capaz de definir la estrategia más idónea para el análisis de datos provenientes de un experimento físico o tecnológico complejo.
+
+RATDTF4: Conocer las aplicaciones principales actuales del tratamiento de datos en tecnologías físicas.
+
+## Contenidos
+
+La asignatura se desarrolla en tres temas:
+
+Tema 1. Técnicas de inteligencia artificial en modelización espacio-temporal en física de materiales.
+
+En este tema se describe el formalismo Hamiltoniano para la descripción de un material en un cilindro espacio-temporal. Métodos variacionales para estudiar la propagación de ondas elásticas en el medio, visco-elasticidad, y modelos de daño.
+
+Tema 2. Herramientas y aplicaciones para el análisis de datos atmosféricos y espaciales.
+
+En este tema se describen técnicas avanzadas para la análisis de datos atmosféricos: después de una introducción a métodos estándar, se enfocará la descripción en algoritmos de modelización del sistema océano-clima basados en redes neuronales convolucionales, graph networks, regresión Bayesiana, y programación genética.
+
+Tema 3. Estrategias de análisis de flujos de datos procedentes de grandes instalaciones: ejemplo del Big Data en el LHC del CERN.
+
+En este tema se plantea el flujo de análisis de datos procedentes de grandes instalaciones, con ejemplos del Large Hadron Collider (LHC) del CERN.
+
+Este tema está constituido por cuatro partes: en la primera parte se explica el flujo de análisis y procesamiento de datos del LHC, con enfoque en las técnicas de reducción dimensional de datos que caracterizan el proceso de toma de datos desde el acelerador hasta el ordenador del físico que los analiza. En la segunda parte se describen las técnicas de aprendizaje automatizado que se usan en el estado del arte del procesamiento de datos, en cada etapa del proceso descrito en el primer tema: entre otras, se describe detección de anomalías con *autoencoders*, registro de partículas con *graph networks*, proporcionando ejemplos prácticos en las PLs. En la tercera parte se describe el paradigma del differentiable programming, que lleva a la posibilidad de optimizar cualquier flujo de análisis de datos puesto que se haya parametrizado, y se introduce el concepto de sesgo inductivo (*inductive bias*) y su uso en física de partículas: se proporcionan en las Pas y PLs ejemplos de estado del arte en tomografía muonica y neutrónica, y de redes neuronales equivariantes.
+
+La cuarta parte se dedica a la computación avanzada: se enseñarán brevemente los elementos clave de los sistemas de computación avanzada en física moderna, como CPUs y GPUs y se mencionarán reciente avances en inferencia rápida con FPGA, ASIC, *neuromorphic chips* y *quantum computing*; del lado infraestructura se describirá la típica estructura de un centro de cálculo, proyectos de redes internacionales de computación como GRID y EXASCALE, y soluciones comerciales como *el cloud computing on-demand* proporcionado por empresas.
+
+## Metodología y plan de trabajo
+
+De acuerdo con las pautas que establece el Espacio Europeo de Educación Superior, la asignatura se desarrollará mediante actividades presenciales y trabajo autónomo del estudiante.
+
+Las actividades presenciales son aquellas asistidas por el profesor, incluyendo por tanto sesiones presenciales en aula y sesiones asíncronas de consumo del material proporcionado por el profesor. Se dividen en clases expositivas, prácticas de laboratorio, sesiones asíncronas y sesiones de evaluación.
+
+- Clases expositivas (CE): En estas clases se presentan los contenidos teóricos de la materia junto con algunos ejemplos y ejercicios que aclaren los aspectos más importantes. Se utiliza la pizarra y los diferentes medios audiovisuales.
+- Clases prácticas de laboratorio (PL): Se utilizará el lenguaje Python, para analizar datos, buscar modelos de predicción y simulación.
+- Sesiones asíncronas (SA): los estudiantes tendrán acceso a material de aprendizaje proporcionado por el profesor, incluyendo (pero no limitándose a) por ejemplo:
+  - Transparencias
+  - Artículos científicos
+  - Vídeos grabados por el profesor
+- Sesiones de evaluación (SE): Se dedicarán exclusivamente a la realización de pruebas con las que se pueda valorar de forma objetiva el nivel alcanzado por los estudiantes en la adquisición de las competencias previstas.
+
+Dado el carácter semipresencial de la asignatura, la metodología exige distinguir entre sesiones asíncronas y sesiones presenciales. A lo largo del curso, el profesorado tutorizará y guiará el trabajo personal de cada estudiante.
+
+Para las sesiones expositivas virtuales el alumnado tendrá a su disposición a través del Campus Virtual de la asignatura distintos materiales para cada una de las unidades didácticas. Entre ellos se encontrarán por ejemplo presentaciones y textos instructivos y/o cuestionarios de autoevaluación.
+
+En las clases expositivas presenciales el profesorado resolverá las dudas que hayan podido surgir y desarrollará los resultados teóricos que se deriven de dichos contenidos realizando diversos ejemplos.
+
+En las prácticas de laboratorio, tanto virtuales como presenciales, el alumnado aprenderá a resolver ejercicios de la asignatura con la ayuda del lenguaje de programación python y de software de aprendizaje automatizado como por ejemplo *pytorch*.
+
+El alumnado podrá consultar al profesorado las dudas que se le presenten a través del chat de Teams, los foros del Campus Virtual o en una tutoría, pudiendo esta última ser desarrollada de forma presencial o virtual a través de la plataforma Teams y pudiendo ser individual o grupal.
+
+|  |  | **Sesiones presenciales** |  |  | **Sesiones asincronas** |  | **Trabajo individual** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Materias*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas laboratorio* | *Sesiones de evaluación* | *Sesiones asíncronas* | ***Total*** | *Trabajo grupo* | *Trabajo autónomo* | **Total** |
+| Tema 1 | 20 | 2 | 1 | 0 | 2 | 5 | 4 | 11 | 15 |
+| Tema 2 | 20 | 2 | 1 | 0 | 2 | 5 | 4 | 11 | 15 |
+| Tema 3 | 108 | 12 | 12 | 0 | 24 | 48 | 10 | 50 | 60 |
+| Examen Final | 2 | 0 | 0 | 2 | 0 | 2 | 0 | 0 | 0 |
+| **Total** | **150** | **16** | **14** | **2** | **28** | **60** | **18** | **72** | **90** |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 16 | 10.7 | 60 |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 14 | 9.3 |  |
+|  | Sesiones de evaluación | 2 | 1.3 |  |
+| No presencial | Sesione asíncronas | 28 | 18.7 |  |
+|  | Trabajo en Grupo | 18 | 12.0 | 90 |
+|  | Trabajo Individual | 72 | 48.0 |  |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+Convocatoria ordinaria
+
+Las competencias se evalúan de la siguiente manera:
+
+| **Aspectos** | % | **Competencias** |
+| --- | --- | --- |
+| Examen teórico-práctico | 25% | CE9, RATDTF1, RATDTF2, RATDTF3, RATDTF4 |
+| Asistencia / Participación en Seminarios y Tutorías (incluye online) | 10% |  |
+| Participación Activa en Foros y Actividades del Campus Virtual | 10% | CE9, RATDTF1, RATDTF2, RATDTF3, RATDTF4 |
+| Informes / Memorias / Exámenes de Prácticas | 55% | CE9, RATDTF1, RATDTF2, RATDTF3, RATDTF4 |
+
+El sistema de evaluación se basará en los siguientes elementos:
+
+- La evaluación continua representa un 75% de la puntuación final. Para su calificación se tendrán en cuenta los siguientes elementos:
+  - Asistencia y participación en las clases (CE y PL) (10 % de la puntuación final). Para aprobar la asignatura es imprescindible asistir 14 horas de CE y a 12 horas de PL (con obligación de firma); se concederán excepciones en base a certificados firmados por terceros calificados (e.g. justificación ausencia por médico de familia, o por entrenador torneo universitario, etc);
+  - Participación activa en foros y actividades del campus virtual. Se propondrán mini-quiz en el campus virtual sobre temas relacionados con la asignatura (10% de la puntuación final);
+  - Informes de prácticas de laboratorio: realización de las prácticas y la presentación de los informes correspondientes (55% de la puntuación final)
+- El restante 25 % de la puntuación final se obtendrá en el examen final, que consistirá en una prueba, escrita u oral, de carácter teórico-práctico en la que se valorarán las competencias adquiridas por los estudiantes a través de la resolución de ejercicios. La nota mínima que se tendrá que obtener en el examen para aprobar la asignatura es de 3/10.
+
+La puntuación final de la asignatura se calculará de la siguiente manera:
+
+- Puntuación Final = 0.1 \* A + 0.1\* P + 0.55 \* I + 0.25 \* X si X>=3
+- Puntuación Final = min( 0.1 \* A + 0.1 \* P + 0.55 \* I + 0.25 \* X ; 4.5) si X<3
+
+donde A, P, I, y X se corresponden con las notas de (A)sistencia, (P)articipación, (I)nformes, y e(X)amen final. Todas ellas están calculadas sobre diez puntos.
+
+Convocatorias extraordinarias y evaluación (ordinaria y extraordinaria) de estudiantes a tiempo parcial
+
+Los alumnos con dedicación a tiempo parcial, semipresencial o no presencial, deberán decidir al inicio de curso si se acogen al sistema de evaluación continua descrito en el apartado “convocatoria ordinaria” o al sistema de evaluación diferenciada descrito en el próximo párrafo. En falta de comunicación oficial, se asumerá que se haya elegido el sistema de evaluación continua (que incluye el óbligo de presencia)
+
+Para aquellos alumnos que se hayan acogido al régimen de evaluación diferenciada, la calificación se obtendrá mediante un examen, escrito u oral, de carácter teórico-práctico (60% de la puntuación final) y un trabajo individual (40% de la puntuación final) elegido entre temas propuestos por los docentes. Las restricciones en cada parte serán las mismas que en la convocatoria ordinaria (es decir, se requiere una nota mínima de 3/10 en el examen teórico-práctico para aprobar la asignatura).
+
+Los alumnos que entreguen todos los informes en la convocatoria ordinaria pero no se presenten (u obtengan una puntuación menor que 3) al examen final, podrán acceder a la evaluación diferenciada presentándose al examen en la convocatoria extraordinaria (60% de la puntuación final): el 40% de la puntuación final dedicado a los informes se evaluará basado en los informes ya entregados en la sesión ordinaria.
+
+Los alumnos que hayan cumplido con la asistencia obligatoria pero no entreguen todos los informes en la convocatoria ordinaria tendrán que elegir si sospender la asignatura o acoger al régimen de evaluación diferenciada íntegro, es decir, la nota obtenida en los informes entregados o en el examen final de la convocatoria ordinaria no serán válidos para la convocatoria extraordinaria.
+
+## Bibliografía
+
+1. **Recursos, bibliografía y documentación complementaria.**
+
+| **Bibliografía básica** |  |  |  |
+| --- | --- | --- | --- |
+| **Título** | **Autor** | **Editorial** | **Edición** |
+| Bayesian and Frequentist Statistics for High Energy Physics: a Primer | Vischia, P. | Springer-Nature | **1ed. (Jan. 2025)** |
+| Understanding Machine Learning: From Theory to Algorithms | Shalev-Shwartz, S. and Ben-David, S. | Cambridge | **1ed.** |
+| Deep Learning: Foundations and Concepts | Bishop, C.M. and Bishop, H. | Springer-Nature | **1ed. (2024)** |
+| **Bibliografía complementaria** |  |  |  |
+| **Título** | **Autor** | **Editorial** | **Edición** |
+| The Elements of Statistical Learning (https://hastie.su.domains/ElemStatLearn/) | Hastie, T., Tibshirani, R., Friedman, J. | Springer-Nature | **2ed.** |
+| Artificial Intelligence for High Energy Physics | Calafiura P., Rousseau, D., Terao, K. | World Scientific | **1ed.** |
+
+1. Material docente adicional, que constituirá la basis del material de estudio, estará puesto a disposición de los alumnos en el campus virtual http://www.campusvirtual.uniovi.es/

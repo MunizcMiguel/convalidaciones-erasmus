@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Regelungstechnik für Maschinenbau",
+  "course_name_en": "Control Engineering for Mechanical Engineering",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Solid knowledge of engineering mathematics, in particular: complex numbers, differential equations.",
+    "Basic knowledge of measurement and electrical engineering, in particular: complex AC technology, frequency response."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the classical methods for designing single-input single-output control loops.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They master the basics of the Laplace transform and can use it for designing control loops.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Transfer functions for describing linear systems (differential equations with constant coefficients) are used by them as a matter of course for simple systems with and without compensation as an aid for controller programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students apply mathematical methods to describe technical systems and can gain deeper insights into dynamic behavior based on simulation results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "From this, they derive conclusions for the design of appropriate automation concepts.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Concepts of control engineering (graphical modeling, feedback)",
+    "Transfer elements",
+    "Mathematical modeling (incl. linearization)",
+    "Experimental modeling (incl. linearization)",
+    "The Laplace transform",
+    "Properties and characteristics of the closed control loop (quality criteria, stability)",
+    "Control loops with PID controllers (Graphical design of P-controllers, tuning rules for P(I)(D)-controllers, compensation controllers/pole-placement)",
+    "Control loops with discontinuous controllers",
+    "Bode diagram (construction, stability according to Nyquist, controller design with lead and lag elements)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (approx. 5 experiments)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Graded assessment is a written exam as per the valid study regulations. Ungraded assessment is experimental work consisting of approximately 5 experiments. Both must be successfully completed to be awarded ECTS credits.",
+  "bibliography": [
+    "Bode, Helmut (2013): Systeme der Regelungstechnik mit MATLAB und Simulink. Analyse und Simulation. 2., aktual. Aufl. München: Oldenbourg-Verl. (Matlab and simulink examples).",
+    "Föllinger, Otto; Dörrscheidt, Frank (2008): Regelungstechnik. Einführung in die Methoden und ihre Anwendung. 10. durchges. Aufl., Nachdr. der 8., überarb. Aufl. 1994. Heidelberg: Hüthig (Studium).",
+    "Tröster, Fritz (c 2011): Steuerungs- und Regelungstechnik für Ingenieure. 3., überarb. und erw. Aufl. München: Oldenbourg.",
+    "Wohlfarth, Ulrich; Rau, Martin; Beuschel, Michael; Angermann, Anne (2014): MATLAB - Simulink - Stateflow. Grundlagen, Toolboxen, Beispiele. München.",
+    "Zacher, Serge; Reuter, Manfred (2014): Regelungstechnik für Ingenieure. Analyse, Simulation und Entwurf von Regelkreisen ; mit 403 Abbildungen, 96 Beispielen und 32 Aufgaben. 14., korrigierte Auflage. Wiesbaden: Springer Vieweg (Lehrbuch)."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück",
+  "institution_slug": "ec_d_osnabru02",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "11B1800",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BMB/StO2025_Stand2026-03-26_BSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "7bc5edecb1e63e740c69a49920a2c8c6d6eb6f1bf1b21cff9b8731da5c7281ab",
+  "extracted_at": "2026-11-18T09:50:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

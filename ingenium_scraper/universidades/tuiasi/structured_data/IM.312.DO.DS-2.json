@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Tehnica reglării",
+  "course_name_en": "Regulation technique",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know the fundamental principles of automatic control systems used in Mechanical Engineering.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the structure and functionality of control elements: transducers, controllers, actuators.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the types of controllers (P, PI, PD, PID) and theoretical and experimental tuning methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how to model and simulate dynamic systems using differential equations and transfer functions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to model and simulate control systems using transfer functions and software tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply experimental methods for identifying and analyzing the response of controlled systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform the selection and sizing of equipment for implementing a control structure.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the behavior of control systems in open-loop and closed-loop.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate responsibility in using laboratory equipment and respecting testing procedures.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to elaborate clear technical reports regarding the analysis and control of automatic systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Demonstrate autonomy in investigating the dynamic behavior of automatic control systems used in Mechanical Engineering.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory problems. Subject of the discipline; connection with other disciplines; Definition of automatic systems in engineering systems (industrial, research, etc.)",
+    "Process modeling. First-order differential equation. Second-order differential equation. Transfer functions.",
+    "Automatic control structure (SRA). Description. Component elements: Transducers; Actuators; Controller.",
+    "Automatic control structure (SRA). Types of controllers - Proportional Controller; Integral Controller; Proportional-Derivative Controller; Proportional-Integral-Derivative Controller.",
+    "Tuning techniques for Proportional-Integral-Derivative (PID) controller parameters. Theoretical considerations; Experimental tuning methods in open-loop; Experimental tuning methods in closed-loop; Model-based tuning methods; Optimal criteria-based tuning methods.",
+    "Occupational safety. Laboratory presentation. Review of Basics of Automatic Systems: Systems; Models; Operational calculus; Transfer Function (TF); Step response h(t).",
+    "Transducers; Unified signal adapters; Converters.",
+    "Actuators (EE); Actuation organs (OA); Execution organs (OE).",
+    "Experimental identification of industrial processes.",
+    "Bi-positional and tri-positional controllers; Direct action controllers.",
+    "Continuous action PID controllers.",
+    "Automatic control procedures."
+  ],
+  "teaching_methods": [
+    "Interactive lectures",
+    "Practical demonstrations",
+    "Computer-assisted applications",
+    "Multimedia materials",
+    "Applied examples",
+    "Simulations of control systems",
+    "Permanent dialogue with students",
+    "References to practical situations"
+  ],
+  "workload_hours_total": 108.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Colloquium",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Laboratory/Project",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade results from considering the scores and weights allocated to each activity. A minimum grade of 5 is required for both the Colloquium and Laboratory activities. Grades are awarded as integers from 1 to 10, with a grade of 5 certifying the acquisition of minimal learning outcomes and the allocation of associated study credits.",
+  "bibliography": [
+    "Anca Maxim, Ingineria reglării, note de curs",
+    "Wolfgang Altmann, \"Practical Process Control for Engineers and Technicians\", Newnes, 2005.",
+    "William L. Lyuben, Michael L. Lyuben, \"Essentials of Process Control\", International Editions, 1997.",
+    "Cecil L. Smith, Practical Process Control Tuning and Troubleshooting \", Wiley, 2009"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "IM.312.DO.DS-2",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an3_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "1b9faf150ff9fb5c6292d255b86603ec29379b6cc5cc6b67b79cfbca3e9f48eb",
+  "extracted_at": "2026-11-13T01:04:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

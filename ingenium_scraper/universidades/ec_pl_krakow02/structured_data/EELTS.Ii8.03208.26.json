@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Control and regulation technique",
+  "course_name_en": "Control and regulation technique",
+  "ects": 5.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows ways to describe dynamic systems.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the description and characteristics of basic components.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows block diagram algebra.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows methods for evaluating system stability.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Can draw characteristics of basic objects.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can describe a linear object in state space and using transfer function.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can apply Routh, Hurwitz, and Nyquist stability criteria.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Can determine the equivalent transfer function of a system composed of several blocks.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Can clearly formulate and present in written form technical issues implemented in the laboratory.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts and definitions: Basic concepts and definitions in control and automation. Basic information on objects, signals, and models.",
+    "Laplace transform: Laplace transform and operator, concept of function convolution, basic transforms and their properties. Partial fraction decomposition. Determining the original function. Spectral and operational transfer function.",
+    "Basic components and their characteristics: Characteristics: unit step response, impulse response, Bode and Nyquist characteristics. Basic components: amplifying, integrating, integrating with inertia, differentiating, differentiating with inertia, inertial, and oscillatory.",
+    "Block diagram algebra: Basic principles of block diagram algebra.",
+    "System stability: Definition, root locus, Routh, Hurwitz, and Nyquist stability criteria, gain margin and phase margin.",
+    "Description of dynamic systems in state space: State of a dynamic system, differential equations, linear systems, state space, SISO and MIMO systems. Determining transfer function.",
+    "Controllability and observability: Concepts of controllability and observability of objects, computational methods.",
+    "Quality indicators and control: Quality indicators, static and astatic control, dynamic error, basic controllers and their properties and characteristics, methods for selecting control parameters, dynamic correction of linear one-dimensional systems.",
+    "Discrete systems: Discrete systems, discretization, discrete transfer function, state space description, characteristics.",
+    "Laplace transform: Laplace transform and operator, concept of function convolution, basic transforms and their properties. Partial fraction decomposition. Determining the original function. Spectral and operational transfer function.",
+    "Basic components and their characteristics: Characteristics: unit step response, impulse response, Bode and Nyquist characteristics. Basic components: amplifying, integrating, integrating with inertia, differentiating, differentiating with inertia, inertial, and oscillatory.",
+    "Block diagram algebra: Principles of block diagram algebra.",
+    "Stability criteria for linear dynamic systems.",
+    "Description of dynamic systems in state space: State of a dynamic system, differential equations, linear systems, state space, SISO and MIMO systems. Determining transfer function.",
+    "Discrete systems: Discrete systems, discretization, discrete transfer function, state space description, characteristics.",
+    "Solving differential equations, Laplace transform, signals and their transforms in Matlab.",
+    "Characteristics of basic components.",
+    "Modeling dynamic systems – transfer function and state space.",
+    "Approximation of a high-order object by a second-order object with delay.",
+    "Controllers – Ziegler-Nichols I and II method.",
+    "Temperature control: Laboratory stand for an electric furnace with temperature control.",
+    "Precision electric drive in a feedback control system.",
+    "Servomechanism operating in an automatic control system: Laboratory stands for a servomechanism with controllers and feedback.",
+    "Basic concepts and definitions: Basic concepts and definitions in control and automation. Basic information on objects, signals, and models."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Auditorium classes",
+    "Laboratory classes",
+    "Demonstration",
+    "Feedback"
+  ],
+  "workload_hours_total": 144.0,
+  "workload_hours_contact": 84.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Passing the exam is required after obtaining credit for auditorium and laboratory classes. Auditorium classes require passing colloquia and attendance. Laboratory classes require credit for individual laboratory exercises. Credit for the module is possible after passing all laboratory classes.",
+  "bibliography": [
+    "1. Kaczorek T. „Teoria sterowania i systemów”, Wydawnictwo naukowe PWN 1996r",
+    "2. Pełczewski W. „Teoria sterowania”, Wydawnictwa Naukowo-Techniczne 1980r",
+    "3. Potrawka S. i inni „Teoria sterowania i technika regulacji laboratorium” UWND AGH, Kraków 2001"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii8.03208.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/c7955886-4391-4a91-b2af-729171809a37.html",
+  "source_language": "pl",
+  "source_sha256": "86da3fd6cf4755eb6be9a5de92e15742fa572d6236880ff208b90338e680eae5",
+  "extracted_at": "2026-11-20T09:05:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

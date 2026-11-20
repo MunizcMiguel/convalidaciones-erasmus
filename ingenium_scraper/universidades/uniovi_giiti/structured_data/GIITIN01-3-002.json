@@ -1,0 +1,177 @@
+{
+  "course_name_original": "Configuración y Evaluación de Sistemas",
+  "course_name_en": "System Configuration and Evaluation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming (Programming Methodology, Programming Technologies and Paradigms)",
+    "Databases",
+    "Computer Functioning (Computer Architecture, Operating Systems)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design and develop applications, ensuring their reliability, security and quality, in accordance with ethical principles and current legislation and regulations",
+      "type": "competence",
+      "code": "ECR1.3"
+    },
+    {
+      "text": "Select and evaluate computer systems, ensuring their reliability, security and quality, in accordance with ethical principles and current legislation and regulations",
+      "type": "competence",
+      "code": "ECR1.4"
+    },
+    {
+      "text": "Plan, conceive, deploy and direct IT projects, services and systems in all areas, leading their implementation and continuous improvement",
+      "type": "competence",
+      "code": "ECR2.1"
+    },
+    {
+      "text": "Plan, conceive, deploy and direct IT projects, services and systems in all areas, assessing their economic and social impact",
+      "type": "competence",
+      "code": "ECR2.2"
+    },
+    {
+      "text": "Prepare the technical specifications for an IT installation that complies with current standards and regulations",
+      "type": "competence",
+      "code": "ECR4"
+    },
+    {
+      "text": "Knowledge, administration and maintenance of computer systems, services and applications",
+      "type": "competence",
+      "code": "ECR5"
+    },
+    {
+      "text": "Knowledge of IT regulations at national, European and international levels",
+      "type": "competence",
+      "code": "ECR18"
+    },
+    {
+      "text": "Size computer systems and installations",
+      "type": "skill",
+      "code": "TI1"
+    },
+    {
+      "text": "Apply redundancy in systems and installations",
+      "type": "skill",
+      "code": "TI2"
+    },
+    {
+      "text": "Integrate security mechanisms in systems",
+      "type": "skill",
+      "code": "TI3"
+    },
+    {
+      "text": "Understand system performance metrics",
+      "type": "knowledge",
+      "code": "TI4"
+    },
+    {
+      "text": "Measure and model system capacity and performance",
+      "type": "skill",
+      "code": "TI5"
+    },
+    {
+      "text": "Measure and model system reliability, availability, reparability, and security",
+      "type": "skill",
+      "code": "TI6"
+    },
+    {
+      "text": "Configure systems verifying multiple operating requirements",
+      "type": "skill",
+      "code": "TI7"
+    },
+    {
+      "text": "Assess the cost of capacity, redundancy and security when configuring systems",
+      "type": "skill",
+      "code": "TI10"
+    },
+    {
+      "text": "Document the technical-economic specifications of an installation in a statement of work",
+      "type": "skill",
+      "code": "TI13"
+    },
+    {
+      "text": "Design a maintenance strategy",
+      "type": "skill",
+      "code": "TI15"
+    },
+    {
+      "text": "Specify and apply service level agreements",
+      "type": "skill",
+      "code": "TI16"
+    }
+  ],
+  "syllabus_topics": [
+    "System evaluation",
+    "System capacity sizing",
+    "Reliability and availability prediction",
+    "Introduction: System evaluation methodology, Selection of techniques and metrics",
+    "Performance measurement: Workloads, Monitors, Visualization, Instrumentation",
+    "Performance evaluation: Comparison of alternatives, Empirical models",
+    "Performance modeling: Analytical modeling and Simulation",
+    "Reliability and availability modeling",
+    "System configuration and sizing",
+    "System planning"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 62.0,
+  "assessment_methods": [
+    {
+      "method": "Practice report (M1) (covers practices 1 and 2)",
+      "weight_percentage": 8.0
+    },
+    {
+      "method": "Practice report (M2) (covers practice 3)",
+      "weight_percentage": 12.0
+    },
+    {
+      "method": "Practice report (M3) (covers practices 5 and 6)",
+      "weight_percentage": 12.0
+    },
+    {
+      "method": "Practice report (M4) (covers practices 8a and 8b)",
+      "weight_percentage": 8.0
+    },
+    {
+      "method": "Final evaluation test (Exam)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the practical part is 40% of the final grade (NPrac) and the final exam is 60% (NExa). To pass the practical block, a minimum score of 50% on NPrac and 80% attendance to practical sessions is required, and all four practical reports must be submitted on time. The final exam can only be taken if the practical part is passed, and a minimum of 50% on NExa is required to pass the subject. The final grade is calculated as Note = NExa * 0.6 + NPrac * 0.4. For extraordinary calls, students who have not passed the continuous assessment or have not attended it are evaluated, following the same criteria: 40% for the practical part (NPrac), which requires all four practice reports to be submitted at least one week before the exam date and a minimum of 50% on NPrac; and 60% for the final exam (NExa), which requires a minimum of 50% to pass. Fraudulent activity in any assessable test will result in a 0-Fail grade for the corresponding call.",
+  "bibliography": [
+    "The Art of Computer Systems Performance Analysis. Raj Jain. Ed. Wiley Interscience.",
+    "Evaluación y Modelado del Rendimiento de los Sistemas Informáticos. Xavier Molero, Carlos Juiz y Miguel Rodeño. Ed. Prentice Hall",
+    "Fundamentals of Performance Evaluation of Computer and Telecommunication Systems. Mohammad S. Obaidat and Noureddine A. Boudriga. Ed Wiley, 2010.",
+    "Simulation Modeling and Analysis. Averill M. Law and W. David Kelton. Ed. McGraw-Hill.",
+    "Measuring Computer Performance. David J. Lilja. Cambridge University Press",
+    "The Practical Performance Analyst. Neil J. Gunther. McGraw-Hill.",
+    "Capacity Planning and Performance Modeling. D.A. Menascé, V.A.F. Almeida and L.W. Dowdy. Ed. Prentice Hall.",
+    "Reliability of Computer Systems and Networks. M. Shooman. Ed. Wiley.",
+    "Performance and Reliability Analysis of Computer Systems. R. A. Shaner, K. S. Trivedi and A. Puliafito. Ed. Kluwer Academic Publishers.",
+    "Safety-Critical Computer Systems N. Storey. Ed. Addison-Wesley.",
+    "Systems Performance: Enterprise and the Cloud. Brendan Gregg. Ed. Addison-Wesley."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-3-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-3-002",
+  "source_language": "es",
+  "source_sha256": "14b676f1cab3e02daba5f009a30f259cd83866594b2f9733ece9c54396dca46e",
+  "extracted_at": "2026-11-20T05:54:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

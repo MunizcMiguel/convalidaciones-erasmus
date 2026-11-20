@@ -1,0 +1,86 @@
+{
+  "course_name_original": "Maschinelles L Ernen",
+  "course_name_en": "Machine Learning",
+  "ects": 5.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Lecture \"Introduction to Artificial Intelligence\" from the 1st semester of the Bachelor's degree program \"Artificial Intelligence\" (especially basics in the R programming language, basic knowledge of data analysis and machine learning)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the broad spectrum of techniques, methods and applications of Machine Learning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have the ability to create AI systems using Machine Learning with suitable software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have the ability to evaluate the applicability of Machine Learning for specific problems in companies and select appropriate methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can implement their own methods and defend them against competing approaches.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can present results created in group work and discuss developed solutions with other students.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals: Forecasts and Causality",
+    "Statistical Key Figures and Exploratory Data Analysis",
+    "Supervised Learning: initial methods",
+    "Evaluation of Forecasts: Quality Measures in Supervised Learning",
+    "Tuning Machine Learning Methods (Leave-One-Out, Cross-Validation)",
+    "Regularized Kernel-based Methods (SVMs)",
+    "Universal Consistency and Model Selection (e.g.: Additive Models with L2-Boosting)",
+    "Dimensionality Reduction (Principal Component Analysis, LASSO)",
+    "Time Series and Online Learning",
+    "Unsupervised Learning: Cluster Analysis with the k-Means Algorithm"
+  ],
+  "teaching_methods": [
+    "Face-to-face events (seminar-style teaching)",
+    "Virtual learning offers (Blended Learning)",
+    "Practical tasks on real datasets at the computer"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final grade-forming examination (Endnotenbildende PStA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Trevor Hastie, Robert Tibshirani, Jerome Friedman (2009): The Elements of Statistical Learning. Springer, New York",
+    "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani (2017): An Introduction to Statistical Learning: with Applications in R. Springer, New York"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-21",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "2b47b5bcef175fea8f6c2b6fde3ac8b7a957aeb8467d832719891b5cc804f6a1",
+  "extracted_at": "2026-11-20T09:21:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

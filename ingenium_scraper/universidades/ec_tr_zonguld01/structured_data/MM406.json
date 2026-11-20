@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Computer Aided Manufacturing II",
+  "course_name_en": "Computer Aided Manufacturing II",
+  "ects": 6.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows NC, CNC and CAD/CAM functions and application areas in computer-aided manufacturing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knows CNC machine tool types and operating principles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Has detailed knowledge about the structure and parts of CNC machines. (Main spindle and nut systems; guideway and slide systems; automatic tool change systems (ATC); hydraulic and pneumatic systems; lubrication and cooling systems; open and closed loop control systems, angular position control, slide position control; servo motors, stepper motors and feedback; control panels and functions.)",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can program machine coordinate systems as absolute and incremental using analytical geometry knowledge. Learns and can apply all G and M codes, as well as all subprograms and cycles performed using them, during programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "At the end of this course, can control the production process for manufacturing a workpiece with any geometry through analytical programming and preparing the machine for production.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Additionally, with this course explaining all details of CNC machines, gains preliminary knowledge about the design and production of a new CNC machine.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Computer Aided Manufacturing: NC and CNC systems, CAD/CAM system functions and application areas.",
+    "Application Areas of CNC in Industry, CNC lathe, CNC milling machine, Other CNC machine tools.",
+    "Structure and Parts of CNC Controlled Machine Tools 1: Main spindle and nut system, Guideway and slide systems,",
+    "Structure and Parts of CNC Controlled Machine Tools 2: Automatic tool change systems (ATC), Hydraulic and Pneumatic systems, Lubrication and cooling systems.",
+    "Drive and Control Systems in CNC Machines: Open loop control systems, Closed loop control systems, Controlling angular position, Controlling slide position, Servo motors, Stepper motors, Feedback.",
+    "Control Panels and Functions in CNC Machines: Fanuc control panel, Siemens control panel, Other control panels",
+    "Machine coordinates and coordinate systems: Absolute control, Incremental control.",
+    "Midterm exam",
+    "Programming of Lathe Machines 1: Determination of dimensioning systems, Tool selection, Determination of rotational speed, G preparatory function commands and M auxiliary function commands, Cylindrical and conical turning.",
+    "Programming of Lathe Machines 2: Circular interpolation, Thread cutting, Drilling, Reaming, Cycles: Longitudinal rough turning cycle, Face turning cycle,",
+    "Programming of Lathe Machines 3: Cycles: Profile repetition cycle, Finishing (final pass) cycle, Grooving cycle, Thread cutting cycle, Stepped drilling cycle, Subprogramming",
+    "Programming of Milling Machines 1: Determining machine zero point and work coordinate system, Determining dimensioning systems, G preparatory function commands and M auxiliary function commands, Plane surface milling, Slot milling, Step milling.",
+    "Programming of Milling Machines 2: Peripheral milling, Pocket milling, drilling and reaming, Cycles: Rectangular pocket milling cycle, Circular pocket milling cycle, Return at the end of the cycle.",
+    "Programming of Milling Machines 3: Left-hand tapping cycle, Normal drilling cycle, Dwell drilling cycle, Stepped drilling cycle, Fine and normal hole enlarging cycles."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 168.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Assignment",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "[1] Gülesin M., Güllü A., Avcı Ö., Akdoğan G., CNC Torna Ve Freze Tezgahlarının Programlanması, Asil Yayın Dağıtım Ltd. Şti., Ankara, 2005.",
+    "[2] Çakır, C., “Modern Talaşlı İmalat Yöntemleri” Dora Yayıncılık, Bursa, 2009.",
+    "[3] Ders Notu, CNC Freze Tezgahları, MEGEP, 2013.",
+    "[4] Doç. [docente], CNC Takım Tezgahları ve CNC Programlama Ders Notları, Balıkesir, 2012.",
+    "Gülesin M., Güllü A., Avcı Ö., Akdoğan G., CNC Torna Ve Freze Tezgahlarının Programlanması, Asil Yayın Dağıtım Ltd. Şti., Ankara, 2005."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Zonguldak Bülent Ecevit Üniversitesi",
+  "institution_slug": "ec_tr_zonguld01",
+  "degree": "Mechanical Engineering / Makine Mühendisliği (Normal Öğretim)",
+  "course_code": "MM406",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.beun.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=416289&lang=en",
+  "source_language": "en",
+  "source_sha256": "65a27e5b446e92b7a82c9b233e2adb81c2ca80a27f4574a3a85163d6f7c5fac8",
+  "extracted_at": "2026-11-18T10:09:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

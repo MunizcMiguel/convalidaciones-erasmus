@@ -1,0 +1,136 @@
+{
+  "course_name_original": "Intelligent systems of supply and protection",
+  "course_name_en": "Intelligent systems of supply and protection",
+  "ects": 2.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the protection systems used in low voltage networks.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the structure, principle of operation and application of basic electrical apparatus and current and voltage transformers.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows methods for improving power quality in low voltage networks.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Has knowledge regarding the power supply of modern light sources.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows the issues of island operation of autonomous energy sources.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Has knowledge regarding modern DC power supplies.",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Can measure and assess the quality of electrical energy in single-phase systems.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can indicate ways to improve power quality in low voltage supply systems.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can select basic protections in low voltage networks.",
+      "type": "skill",
+      "code": "U3"
+    }
+  ],
+  "syllabus_topics": [
+    "Issues of power quality in low voltage networks (4 hours): Discussion of power quality issues in low voltage networks. Methods for improving power quality: power supplies with unity power factor, power electronic systems for improving power quality.",
+    "Single-phase photovoltaic system cooperating with the grid - laboratory exercise + knowledge test (5 hours): Demonstration and discussion of the operation of a single-phase grid-connected solar inverter powered by photovoltaic modules.",
+    "Single-phase power supply systems with increased power factor (PFC) - laboratory exercise + knowledge test (5 hours): Demonstration and discussion of the operation of a single-phase PFC power supply.",
+    "Advanced power supply and protection systems (4h).",
+    "Single-phase active rectifier-filter - laboratory exercise + knowledge test (5 hours): Demonstration and discussion of the operation of a single-phase parallel active rectifier-filter.",
+    "Modern DC power supplies (2 hours).",
+    "Problems related to the use of renewable energy sources (2 hours).",
+    "Powering and control of incandescent, discharge, and LED light sources (2 hours)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Case study",
+    "Demonstration",
+    "Lecture",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 50.0,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To obtain a positive final grade, a positive grade from the laboratory is essential. The average of laboratory grades obtained in all terms is calculated. The final grade is determined based on the following dependency: if average > 4.75 then final grade := 5.0 else if average > 4.25 then final grade := 4.5 else if average > 3.75 then final grade := 4.0 else if average > 3.25 then final grade := 3.5 else final grade := 3. Attendance at lectures is not explicitly stated as obligatory, but students participate in classes to learn the teaching content. For laboratory classes, students perform exercises according to provided materials, are obliged to prepare for the exercise (verified by an oral or written colloquium), and must present a solution to the problem to pass.",
+  "bibliography": [
+    "1. Stanisław Piróg “Energoelektronika. Układy o komutacji sieciowej i komutacji twardej” Wydawnictwa AGH Kraków 2006",
+    "2. Praca zbiorowa „Poradnik inżyniera elektryka” tom 1,2,3 WNT Warszawa 2009",
+    "3. Artykuły z czasopism specjalistycznych i publikacje konferencyjne udostępniane przez poszczególnych prowadzących.",
+    "1. R. Stala, Z. Waradzyn, A. Penczek, A. Mondzik and A. Skala, \"A Switched-Capacitor DC-DC Converter with Variable Number of Voltage Gains and Fault-tolerant Operation,\" in IEEE Transactions on Industrial Electronics. doi: 10.1109/TIE.2018.2851962",
+    "2. Stala, R., Piróg, S., Penczek, A., et al., “A family of high-power multilevel switched capacitor-based resonant DC-DC converters – operational parameters and novel concepts of topologies”, Bulletin of the Polish Academy of Sciences Technical Sciences, 65(5), pp. 639-651, Oct. 2017. doi: 10.1515/bpasts-2017-0069",
+    "3. A. Penczek, A. Mondzik, Z. Waradzyn, R. Stala, A. Skała and S. Pirog, \"Switching strategies of a resonant switched-capacitor voltage multiplier,\" 2017 19th European Conference on Power Electronics and Applications (EPE'17 ECCE Europe), Warsaw, Poland, 2017, pp. P.1-P.10.",
+    "4. Z. Waradzyn, R. Stala, A. Mondzik, A. Penczek, A. Skala and S. Pirog, \"Efficiency Analysis of MOSFET-Based Air-Choke Resonant DC–DC Step-Up Switched-Capacitor Voltage Multipliers,\" in IEEE Transactions on Industrial Electronics, vol. 64, no. 11, pp. 8728-8738, Nov. 2017. doi: 10.1109/TIE.2017.2698368",
+    "5. M. Szarek, A. Penczek, R. Stala, S. Piróg and A. Mondzik, \"NPC three level inverter with dual DC bus for independent distributed generators. Neutral-point voltage balancing under the input power imbalance,\" 2017 19th European Conference on Power Electronics and Applications (EPE'17 ECCE Europe), Warsaw, Poland, 2017, pp. P.1-P.10.",
+    "6. A. Mondzik, Z. Waradzyn, R. Stala and A. Penczek, \"High efficiency switched capacitor voltage doubler with planar core-based resonant choke,\" 10th International Conference on Compatibility, Power Electronics and Power Engineering (CPE-POWERENG), Bydgoszcz, 2016, pp. 402-409. doi: 10.1109/CPE.2016.7544222",
+    "7. A. Kawa, R. Stala, A. Mondzik, S. Pirog and A. Penczek, \"High-Power Thyristor-Based DC–DC Switched-Capacitor Voltage Multipliers: Basic Concept and Novel Derived Topology With Reduced Number of Switches,\" in IEEE Transactions on Power Electronics, vol. 31, no. 10, pp. 6797-6813, Oct. 2016.",
+    "8. R. Stala, \"A Natural DC-Link Voltage Balancing of Diode-Clamped Inverters in Parallel Systems,\" in IEEE Transactions on Industrial Electronics, vol. 60, no. 11, pp. 5008-5018, Nov. 2013.",
+    "9. A. Penczek, R. Stala, Ł. Stawiarski, “Modeling and practical realization of Hardware-in-the-Loop FPGA based photovoltaic system simulator”, Przegląd Elektrotechniczny, vol. 88, pp. 175-180, 2012.",
+    "10. R. Stala, \"Application of Balancing Circuit for DC-Link Voltages Balance in a Single-Phase Diode-Clamped Inverter With Two Three-Level Legs,\" in IEEE Transactions on Industrial Electronics, vol. 58, no. 9, pp. 4185-4195, Sept. 2011. doi: 10.1109/TIE.2010.2093477"
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03204.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/f5f22aaa-2cec-4ffd-a9f4-2dd78f5cf880.html",
+  "source_language": "pl",
+  "source_sha256": "6b5af9aa0281f90e057667e26b36870c46f27307c7d851ac9e65816a9c2af8c7",
+  "extracted_at": "2026-11-20T09:03:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

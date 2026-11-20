@@ -1,0 +1,160 @@
+{
+  "course_name_original": "Tecnología Eléctrica",
+  "course_name_en": "Electrical Technology",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of mathematics and physics from the first year of the degree."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify and analyze the different components of electrical circuits and manage the techniques for their analysis.",
+      "type": "unspecified",
+      "code": "R1"
+    },
+    {
+      "text": "Manage the techniques for analyzing electrical circuits supplied with sinusoidal sources.",
+      "type": "unspecified",
+      "code": "R2"
+    },
+    {
+      "text": "Identify, analyze and calculate balanced three-phase circuits and their application in industrial electrical installations.",
+      "type": "unspecified",
+      "code": "R3"
+    },
+    {
+      "text": "Manage the procedures and instruments for measuring electrical circuits.",
+      "type": "unspecified",
+      "code": "R4"
+    },
+    {
+      "text": "Describe and analyze the operating principle of electrical machines and their applications.",
+      "type": "unspecified",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "I. FUNDAMENTALS OF ELECTRICAL CIRCUITS: DC CIRCUITS",
+    "Fundamental electrical magnitudes and units",
+    "Electric charges, electric current intensity, electric charge, electric voltage between two points and electromotive force, electric power, electric energy. Multiples and submultiples.",
+    "Sign conventions and graphical references",
+    "Electric charge, electric current intensity, electric voltage between two points and electromotive force, power and electric energy (generator and receiver criteria)",
+    "Fundamental concepts of electrical circuits:",
+    "Definition of electrical circuit",
+    "Introduction to active and passive elements of electrical circuits",
+    "Fundamental topological entities of electrical circuits: branch, node, loop, graph, planar circuit, mesh",
+    "Kirchhoff's Laws",
+    "Series and parallel connection of elements",
+    "Characteristic waveforms of electrical circuits",
+    "Transient and steady regimes",
+    "Bidirectional and unidirectional waveforms",
+    "Periodic waveforms: period, cycle, frequency, phase shift between waves, peak values, peak-to-peak value, average value, RMS value",
+    "Components of electrical circuits",
+    "Ideal passive elements: resistance (Ohm's Law, resistance (R), conductance, short circuit, open circuit, ideal switch, resistance of a conductor, resistivity and conductivity, instantaneous dissipated power, dissipated energy and Joule effect, real resistances, color code)",
+    "Ideal passive elements: inductance (v-i behavior of inductance, self-inductance (L), charged inductance, instantaneous power absorbed by an inductance, energy stored by an inductance, real coils)",
+    "Ideal passive elements: magnetically coupled inductances",
+    "Ideal passive elements: capacitance (v-i behavior of capacitance, capacitance (C), charged inductance, instantaneous power absorbed by a capacitance, energy stored by a capacitance, real capacitors)",
+    "Associations and equivalences of ideal passive elements: operational impedance and admittance (generalization of Ohm's Law), series association, parallel association, Kennelly's Theorem",
+    "Ideal active elements: ideal voltage sources, ideal current sources, series and parallel association of ideal voltage and current sources, ideal dependent sources",
+    "Real active elements: real voltage sources, real current sources, Maximum Power Transfer Theorem, equivalence between real voltage and current sources",
+    "Measurement elements: ideal ammeters and voltmeters",
+    "II. CIRCUITS IN SINUSOIDAL STEADY STATE",
+    "Sinusoidal waveforms: relevance, amplitude, angular frequency, phase angle, initial phase angle, particularization of characteristic parameters of periodic waves",
+    "Complex representation of sinusoidal waves: phasors",
+    "Complex impedance and admittance: generalization of Ohm's Law in complex notation",
+    "Systematic analysis of circuits in sinusoidal steady state in the complex domain",
+    "Response of R, L, C, RL and RC series dipoles in sinusoidal steady state: phasor diagram",
+    "Power and energy in sinusoidal steady state",
+    "Concepts of active, reactive and apparent power",
+    "Instantaneous power and energy, and active, reactive and apparent power in R, L, C, RL and RC series dipoles",
+    "Complex power",
+    "Power triangle",
+    "Boucherot's Theorem",
+    "Power factor: concept, relevance and correction",
+    "Introduction to the frequency response of electrical circuits in sinusoidal steady state: series and parallel resonance",
+    "III. TOPOLOGICAL METHODS AND THEOREMS",
+    "Circuit resolution using the mesh method",
+    "Circuit resolution using the node method",
+    "Millman's Theorem",
+    "Superposition Theorem",
+    "Thévenin's Theorem",
+    "Generalization of the Maximum Power Transfer Theorem",
+    "Norton's Theorem",
+    "IV. THREE-PHASE CIRCUITS",
+    "Generalities",
+    "Balanced and unbalanced three-phase voltage systems",
+    "Phase sequence",
+    "Balanced and unbalanced three-phase current loads and systems",
+    "Topologies of three-phase circuits",
+    "Four-wire star-star",
+    "Phase conductors and neutral wire",
+    "Three-wire star-star",
+    "Three-phase circuits with delta connections",
+    "Line and phase magnitudes, and relationship between them",
+    "Star-delta and delta-star equivalences",
+    "Resolution of balanced three-phase circuits",
+    "Equivalent single-phase circuit",
+    "Power in three-phase circuits",
+    "Instantaneous power in three-phase elements",
+    "Active, reactive and apparent powers in three-phase elements",
+    "Power triangle, complex power, Boucherot's Theorem, power factor",
+    "Power factor correction in three-phase installations",
+    "Introduction to generation, transmission and distribution of electrical energy",
+    "V. ELECTRICAL MACHINES",
+    "Introduction to transformers",
+    "Introduction to asynchronous machines",
+    "Introduction to synchronous machines",
+    "LABORATORY PRACTICES PROGRAM:",
+    "P1: Description of equipment and assembly of DC circuits",
+    "P2: Assembly of circuits in sinusoidal steady state I",
+    "P3: Assembly of circuits in sinusoidal steady state II",
+    "P4: Exam"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory practices / field / computer lab / language lab",
+    "Group tutorials",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam (EP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory exam (EL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (EF)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if the conditions for the partial exam (EP) are met to eliminate content, the final grade is calculated as (0.4 x EP) + (0.15 x EL) + (0.45 x EF). Otherwise, or to improve the grade, it is (0.15 x EL) + (0.85 x EF). In all cases, a minimum final grade of 5 points is required to pass, and if any minimums are not met, the maximum final grade is 3.5 points. For extraordinary calls and differentiated evaluation, the final grade is (0.15 x EL) + (0.85 x EF), with a minimum of 5 points to pass and a maximum of 3.5 points if any minimums are not met. For the EF, a minimum of 20% of the maximum score for each exercise and 50% of the global score is required.",
+  "bibliography": [
+    "ALEXANDER, C y SADIKU, M. Fundamentos de Circuitos Eléctricos. Editorial Mc Graw Hill. Tercera Edición. 2004. ISBN: 970105606X",
+    "FRAILE MORA, JESÚS. Circuitos Eléctricos. Editorial Pearson. 2012. ISBN: 9788483227954",
+    "GÓMEZ EXPÓSITO, Antonio. Fundamentos de Teoría de Circuitos. Editorial Thomson. 207. ISBN:9788497324175"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Química Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_giqi",
+  "degree": "Grado en Ingeniería Química Industrial",
+  "course_code": "GIIQUI01-2-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/quimicaindustrial/-/fof/asignatura/GIIQUI01-2-006",
+  "source_language": "es",
+  "source_sha256": "947946046876d4d219fd48dd3b91fc228e3ecd077c7b53d1fe5753dcfeb0dfc0",
+  "extracted_at": "2026-11-20T01:14:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

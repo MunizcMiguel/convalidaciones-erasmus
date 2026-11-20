@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Mathematical Analysis 2",
+  "course_name_en": "Mathematical Analysis 2",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the civilizational importance of mathematics and its applications.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Able to define functions, including using limit transitions, and describe their properties.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Uses the concept of convergence and limit in various contexts; able to — at a simple and medium difficulty level — calculate limits of sequences and functions, examine absolute and conditional convergence of series.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Able to precisely formulate questions to deepen one's understanding of a given topic or to find missing elements of reasoning.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Riemann integral: Integrability of continuous functions and piecewise monotonic functions. Jordan measure. Applications.",
+    "Improper integral: Criteria: comparative, Cauchy's for convergence of improper integrals.",
+    "Numerical series: Basic numerical series (geometric, harmonic). Criteria for convergence of series: comparative, Cauchy's, d'Alembert's, integral.",
+    "Differential calculus of many variables: Partial derivatives, gradient. Vector norm, geometry of plane and space, double limits. Continuity of functions of many variables.",
+    "Differentiability: Total differential, differentiability. Directional derivatives, gradient. Examples.",
+    "Local extrema: Local extrema, stationary points. Taylor's formula with second differential. Positive definiteness of the Hessian and the existence of an extremum at a stationary point.",
+    "Functional series: Uniform convergence (Chebyshev norm). Region of convergence of power series. Term-by-term differentiation and integration. Abel's theorem and its applications.",
+    "Integrals with parameter: Operations on integrals dependent on a parameter: passing to the limit, differentiation, integration. Example applications.",
+    "Multiple integrals: Integration over a rectangle and a normal region, geometric methods of simplification in case of symmetry.",
+    "Fourier series: Scalar product (and mean square norm) of functions defined by integral. Orthonormal and complete systems. Trigonometric system.",
+    "Convergence of Fourier series: Dirichlet conditions. Theorem on the sum of the Fourier series of a function. Expansion in a series according to sines of a function on an interval half the period. Applications to calculating sums of certain series.",
+    "Properties of Fourier series: Bessel's inequalities and Parseval's identity for Fourier series.",
+    "Line and surface integrals: Definitions and physical interpretation. Green's, Gauss-Ostrogradsky's formulas.",
+    "Elements of field theory: Potential as the equivalent of an indefinite integral, source-free fields, curl, divergence, Stokes' theorem."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Auditorium classes"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Examination (lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral answer (lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during auditorium classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (auditorium classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Examination (auditorium classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral answer (auditorium classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "A written examination for lectures is required after obtaining credit for auditorium classes. For auditorium classes, obtaining a minimum of 50% of points from the sum of points for colloquia and activity in classes is required. Student presence at lectures is not explicitly stated as obligatory.",
+  "bibliography": [
+    "J. Banaś, S. Wędrychowicz, „Zbiór Zadań z Analizy Matematycznej”, WNT 5.wyd. W-wa 1997",
+    "W. Krysicki, L. Włodarski, „Analiza Matematyczna w Zadaniach”, Cz. II , PWN",
+    "R. Leitner, „Zarys Matematyki Wyższej dla Studentów” , Cz. II WNT",
+    "F. Leja, „Rachunek Różniczkowy i całkowy” PWN W-wa 1977",
+    "W. Żakowski, W. Kołodziej „Matematyka” , Cz.II WNT",
+    "materiały na stronie internetowej http://home.agh.edu.pl/~rudol/"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii2.02263.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/8f4ae886-ef0a-4d4a-ac73-218396ac0e30.html",
+  "source_language": "pl",
+  "source_sha256": "f8377d538792cb38cf00ae3b13dc861bcbe16250a7d910dde06d0590892b9b88",
+  "extracted_at": "2026-11-20T09:02:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

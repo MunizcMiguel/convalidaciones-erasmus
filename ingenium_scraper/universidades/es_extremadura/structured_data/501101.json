@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Electrónica Digital",
+  "course_name_en": "Digital Electronics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the design and structure of complex digital systems, interrelated with other disciplines, especially computer science and automation.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand and comprehend the different forms of representing quantities in binary.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand and comprehend asynchronous and synchronous sequential systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand and comprehend general application digital systems such as memories and PLDs (Programmable Logic Devices).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand and comprehend microprocessor systems, their applications, and interconnection with other devices.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numeric representation: Integers, Fixed-point, Floating-point.",
+    "Binary arithmetic: Adders, Subtractors, Arithmetic Logic Units (ALU), Multipliers, Dividers, Operations in BCD codes, Comparators.",
+    "Combinational logic blocks: Multiplexers and demultiplexers, Encoders and decoders, Shifters.",
+    "Temporal analysis of combinational circuits.",
+    "Methodology and basic tools for digital circuit design.",
+    "Hierarchical and modular design of an ALU.",
+    "Direct feedback circuits.",
+    "Asynchronous flip-flops.",
+    "Synchronous flip-flops.",
+    "Synchronous logic design.",
+    "Sequential logic blocks: Parallel input/output registers, Counters, Shift registers.",
+    "Finite State Machines (FSM).",
+    "Temporal analysis of sequential circuits.",
+    "Design and simulation of an FSM-based sequential system.",
+    "Design, simulation, and implementation of a serial communication controller.",
+    "Memory classification and hierarchy.",
+    "Random Access Memories.",
+    "Memory logic blocks: RAM and ROM memories, Multiport memories, Register banks, Look-Up Tables (LUT), FIFO structures, LIFO structures.",
+    "Programmable Logic Devices: Programmable Logic Array (PLA), Complex Programmable Logic Device (CPLD), Field Programmable Gate Array (FPGA).",
+    "Hardware platforms for emulation and rapid prototyping.",
+    "Design, simulation, and implementation of sequential systems with memory.",
+    "Wired systems and programmable systems.",
+    "Computer and processor organization.",
+    "Instruction set architecture.",
+    "RISC processor structure: Data path, Control unit.",
+    "Programming RISC-V processors.",
+    "Single-cycle RISC-V microarchitecture.",
+    "Pipelined RISC-V microarchitecture.",
+    "Performance analysis and improvements.",
+    "Design and simulation of a reduced single-cycle RISC-V processor.",
+    "Design and simulation of a reduced pipelined RISC-V processor.",
+    "Implementation and verification of a reduced RISC-V microcontroller."
+  ],
+  "teaching_methods": [
+    "Theory classes",
+    "Problem-solving sessions",
+    "Laboratory practices",
+    "Personal study, individual or group work, and bibliography reading"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.5,
+  "assessment_methods": [
+    {
+      "method": "Written exam (final or partials)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Lab practices and reports",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Design project",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the final written exam contributes 60%, lab practices 25%, and a design project 15%. A minimum score of 4 out of 10 is required for the written exam and lab practices to apply the weighted average. If the minimums are not met, the final grade is capped at 3; if minimums are met but the written exam is failed, the final grade is capped at 5. The written exam and lab practices are recoverable in the extraordinary call, but the design project is not. For global assessment, a single final exam accounts for 75% and a lab exam for 25%, with a minimum of 4 in each required.",
+  "bibliography": [
+    "Harris, S. & Harris, D., Digital Design and Computer Architecture, RISC-V Edition, ISBN: 978-0-12-820064-3, Elsevier Science, 2021.",
+    "Patterson, D., Waterman A., Guía Práctica de RISC-V: El Atlas de una Arquitectura Abierta, ISBN: 978-0-9992491-2-3, http://www.riscvbook.com",
+    "Wakerly, J.F., Digital Design Principles and Practices, 5th ed. with Verilog, ISBN: 978-0-13-446009-3, Pearson Education, 2017."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501101",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501101-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "e52cef0a3234cd58a57b0af294a0eabc67321ca957748b43b6064b5bb9e39198",
+  "extracted_at": "2026-11-13T21:36:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

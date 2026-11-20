@@ -1,0 +1,8 @@
+# es_leon — notas de descubrimiento
+- Título: Grado en Ingeniería Mecánica (ULE, Escuela de Ingenierías Industrial, Informática y Aeroespacial; RUCT 2501945, RD 822/2021). Curso 2026-27.
+- Planes: la página `https://www.unileon.es/estudiantes/oferta-academica/grados/grado-en-ingenieria-mecanica/plan-estudios` (HTML, tablas por curso) lista el Plan (2010) y el Plan (2025). Se usa el **Plan (2025)** (admite nuevo ingreso): 50 asignaturas (formación básica 66, obligatorias 126, optativas ofertadas 108). Básica+obligatoria = 192 = RUCT 60+132; el TFG (12 ECTS) no aparece en la tabla del Plan (2025). El Plan (2010) (52 asignaturas) sí tiene guías 2026-27 completas para los 4 cursos y no se ha usado: si se prefiere cubrir 3.º-4.º, basta cambiar `Plan (2025)` por `Plan (2010)` en el discover.
+- Guía: la página de cada asignatura (`...plan-estudios?id={codigo}&cursoa=2026&te=G`) enlaza al visor `visor-guiadocente.unileon.es/snapshots/2026-2027/{codigo}` (SPA Angular). Su API, descubierta con las peticiones del navegador, es `https://guiadocenteapi.unileon.es/snapshots/2026-2027/{codigo}` (JSON `{data: {...}}`); sin veto en robots.txt. Para 3.º-4.º del Plan (2025) la API no devuelve datos (aún no hay guía): 30 `sin_guia`.
+- JSON: listas con un elemento por idioma (`lang` es/en): contents (description = bloque, comments = temas), evaluations (name, value = peso %), learningAims (degree = código RA*), methodologies (horas), recommendations, sources (bibliografía HTML), i18n (descripción y recomendaciones). Se descartan professor/professorEmail/assistants y los campos de firma.
+
+## Fase 2
+`scraper_es_leon.py`: 20/20 Markdown (los 30 `sin_guia` omitidos).

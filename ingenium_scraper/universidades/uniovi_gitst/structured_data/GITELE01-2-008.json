@@ -1,0 +1,140 @@
+{
+  "course_name_original": "Métodos Numéricos",
+  "course_name_en": "Numerical Methods",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Basic knowledge of Calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra; geometry: differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "CB 1"
+    },
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "CB 2"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, which enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG 3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, make decisions, creativity, and to communicate and transmit knowledge, skills and abilities, understanding the ethical and professional responsibility of the activity of a Telecommunication Technical Engineer.",
+      "type": "competence",
+      "code": "CG 4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, task planning and other similar works in their specific field of telecommunication.",
+      "type": "knowledge",
+      "code": "CG 5"
+    },
+    {
+      "text": "Identify the different types of errors that can be made in the use of numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision and the computational cost.",
+      "type": "skill",
+      "code": "RA 2.20"
+    },
+    {
+      "text": "Evaluate and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "skill",
+      "code": "RA 2.21"
+    },
+    {
+      "text": "Describe, analyze and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "skill",
+      "code": "RA 2.22"
+    },
+    {
+      "text": "Numerically solve interpolation problems, one-dimensional data fitting and function approximation.",
+      "type": "skill",
+      "code": "RA 2.23"
+    },
+    {
+      "text": "Use formulas to approximately obtain the derivative and the definite integral of a function.",
+      "type": "skill",
+      "code": "RA 2.24"
+    },
+    {
+      "text": "Describe, use and evaluate basic numerical methods for solving differential equations.",
+      "type": "skill",
+      "code": "RA 2.25"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite arithmetic. Error analysis.",
+    "Error concepts",
+    "Computer arithmetic",
+    "Error analysis",
+    "Numerical solution of non-linear equations",
+    "Interval-based methods",
+    "Fixed-point methods",
+    "Newton's method",
+    "Polynomial equations",
+    "Numerical methods for solving linear and non-linear systems.",
+    "Direct methods",
+    "Iterative methods",
+    "Non-linear systems",
+    "Approximation. Data fitting.",
+    "Interpolation",
+    "Data fitting",
+    "Function approximation",
+    "Numerical differentiation and integration.",
+    "Simple quadrature rules",
+    "Composite quadrature rules",
+    "Numerical differentiation",
+    "Numerical solution of differential equations.",
+    "Initial value problems: One-step methods."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expository classes",
+    "Classroom/Seminar practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Block: Partial Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block: Partial Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block: Laboratory practices",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary evaluation, the theoretical block requires a minimum score of 3.5 out of 10, calculated as 0.5 * T1 + 0.5 * T2, where T1 and T2 are partial written exams, each requiring a minimum of 3 out of 10. The practical block also requires a minimum of 3.5 out of 10, assessed during laboratory practices. If all minimums are met, the final grade is calculated as 0.6 * Theory + 0.4 * Practices. In extraordinary calls, students can take a theoretical and/or practical exam, each requiring a minimum of 3.5 out of 10, and the final grade is calculated using the same formula. If a student does not meet the minimum in any part, the final grade recorded will be the minimum between their weighted average and 4.5.",
+  "bibliography": [
+    "Burden, R.; Faires,J.D. Análisis Numérico. Intern Thomson Publishing Company. (7ª Ed.), 2002.",
+    "Curtis,G. ; Wheatley,. Análisis Numérico con Aplicaciones. Prentice may (6º Ed), 2000.",
+    "Chapra.S.C. ; Canale,R.P., Métodosnumericos para ingenieros. McGraw Hill (5ª Ed.), 2007.",
+    "Conte, S. D. ; Boor, C. Análisis Numérico. McGraw-Hill, 1974.",
+    "Sanz-Serna, J. M. Diez lecciones de Cálculo Numérico. Universidad de Valladolid, 1998.",
+    "Moler, C. Numerical Computing with Matlab",
+    "Quarteroni, A., Saleri, F. Cálculo Científico con MATLAB y Octave",
+    "Mathews, Fink, Métodos Numéricos con Matlab."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-2-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-2-008",
+  "source_language": "es",
+  "source_sha256": "12e87f0abbd6c1a722aef64658a1855480db9d3af81cafd266cb58110efe8be5",
+  "extracted_at": "2026-11-20T06:03:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

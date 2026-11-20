@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Computer Systems Design",
+  "course_name_en": "Computer Systems Design",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of computer architecture, operating systems, and communication networks."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students must demonstrate knowledge and understanding of issues related to the design of processing systems, with particular reference to managing hazards arising from the use of internal and external parallelism techniques for performance enhancement, memory sizing, and the orchestration of different subsystems operating concurrently and communicating via different I/O interfaces.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students must demonstrate the ability to identify, among the different approaches presented in the course, those that best suit specific applications or operating conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students must demonstrate the ability to design and develop the basic software (assembly driver) necessary to enable communication between different subsystems using the I/O devices presented in the course, even in the presence of concurrent access to common data, as well as schedulers for concurrency management.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students must also be able to complete the development cycle of medium complexity applications, requiring the use of one or more processing nodes, different I/O devices, sensors/actuators, on the provided hardware devices.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review and in-depth study of processing systems: General purpose and embedded systems. RISC and CISC processors. Wired and microprogrammed control unit. Interrupt management mechanisms. Introduction to parallelism and pipelining. Review of the Motorola 68000 processor. The MIPS processor: programming model and pipeline. The ARM processor. Architectures and applications of DSPs.",
+    "Pipelining and hazards: Techniques for managing data conflicts, jumps, and interrupts in a pipelined architecture. Superscalar architectures.",
+    "Multiprocessor and multicomputer systems: Parallel architectures, speed up and efficiency. Algorithms for memory coherence.",
+    "I/O peripherals and drivers: Architecture and operation of parallel, serial, DMA and PIC peripherals, and development of drivers for their programming.",
+    "Memory hierarchy: Architecture, addressing, and sizing of a cache. Virtual memory. Static and dynamic memories.",
+    "Buses and interconnection networks: System buses. Communication protocols. Interconnection networks: multistage switches.",
+    "Design and development of microcontroller-based systems: Principles of designing processing systems for industrial applications based on microcontrollers. Architectures and use of System on a Chip (SoC). Commercial and industrial programmable devices. Design, simulation, and analysis environments for processing systems.",
+    "Virtualization and cloud computing. Virtualization techniques and hypervisors. Introduction to cloud systems: service models and applications.",
+    "IoT/Edge computing. Architectures and applications of IoT and edge computing systems. Development of commercial edge systems and integration of sensor networks."
+  ],
+  "teaching_methods": [
+    "Frontal lectures",
+    "Practical lessons",
+    "Exercises",
+    "Development of I/O drivers",
+    "Use of development environments",
+    "Project implementation using ARM microcontroller and I/O devices"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (free-response questions, numerical exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of project work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment includes a written exam consisting of system design exercises based on I/O devices and an oral exam aimed at verifying the understanding of theoretical concepts and discussing exercises implemented on development boards. The written exam includes free-response questions and numerical exercises. The oral exam also involves discussion of the project work.",
+  "bibliography": [
+    "Conte, Mazzeo, Mazzocca, Prinetto. Architettura dei calcolatori. Edizioni CittàStudi. 2014. ISBN: 9788825173642.",
+    "Lecture notes and presentations provided by the lecturers on theoretical and applied topics covered in the course.",
+    "Manuals and datasheets of the devices used for implementing applications."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "computer_systems_design",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "d11161bc067288417c2fddf2dacf514361bb27f4d6a9c4387a7f5665d5faf2f5",
+  "extracted_at": "2026-11-20T08:19:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

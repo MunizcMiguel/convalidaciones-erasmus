@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Programmierung und Simulation technischer Systeme",
+  "course_name_en": "Programming and Simulation of Technical Systems",
+  "ects": 5.0,
+  "semester": "Summer",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Determine which sensors and actuators are necessary for simple tasks and know their electrical and information technology interfaces.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and program simple systems with multiple actuators and sensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulate equations for describing dynamic systems in mechanical engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Realize a test-bed for simple systems using plug-in technology.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the data model and fundamental commands of Matlab.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Create small programs for design and simulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the idea of iterative simulation and apply this approach to solve differential equations in the time domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the programming language Simulink and implement differential equations in programs.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Systems Engineering methods for the design of technical systems",
+    "Introduction to programming embedded systems",
+    "Introduction to the construction of plug-in test environments (Breadboard, encased SoC, etc.)",
+    "Introduction to the Matlab/Simulink programming system",
+    "Principle of simulation as an iterative solution of differential equations",
+    "Modeling of simple dynamic systems using differential equations (Modeling)",
+    "Programming of simulations with the text-based Matlab programming system",
+    "Implementation of models in the graphical programming language Simulink"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction",
+    "Exercise/Practical session"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 59.0,
+  "assessment_methods": [
+    {
+      "method": "Written Open Book Exam (90 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "SCHERF, Helmut E., 2010. Modellbildung und Simulation dynamischer Systeme: eine Sammlung von Simulink-Beispielen [online]. München: Oldenbourg. PDF e-Book. ISBN 978-3-486- 71134-9. Verfügbar unter: https://doi.org/10.1524/9783486711349.",
+    "ANGERMANN, Anne, BEUSCHEL, Michael, RAU, Martin, WOHLFARTH, Ulrich, 2020. MAT-LAB - Simulink - Stateflow: Grundlagen, Toolboxen, Beispiele [online]. Berlin: De Gruyter. PDF e-Book. ISBN 978-3-11-063642-0, 978-3-11-063671-0. Verfügbar unter: https://doi.org/10.1515/9783110636420."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt",
+  "institution_slug": "ec_d_ingolst01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "ProSim_MB",
+  "academic_year": "WS 2026/27",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetM/Modulhandbuch/Bachelor_MB/MHBuch_MB_SPO_2023_24_Stand_2026-07-16.pdf",
+  "source_language": "de",
+  "source_sha256": "46eb0eb4c9a1edf2ecc6e6da902eee32cd3258e494fbbda8c5d87f3fe3b0e96a",
+  "extracted_at": "2026-11-18T04:05:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

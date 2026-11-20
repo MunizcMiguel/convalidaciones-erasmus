@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Búsqueda Inteligente y Metaheurísticas",
+  "course_name_en": "Intelligent Search and Metaheuristics",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Metodología de la Programación",
+    "Estructuras Discretas y Análisis de Algoritmos",
+    "Algoritmia y Programación Avanzada",
+    "Inferencia Estadística"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the state-space search paradigm and how to use it to solve combinatorial optimization problems. Know how to model search spaces for specific problems and how to incorporate problem domain knowledge into algorithms to improve their efficiency.",
+      "type": "knowledge",
+      "code": "RBUS1"
+    },
+    {
+      "text": "Understand constraint satisfaction and optimization problems (CSOPs). Know how to formulate these types of problems and how to solve them using search and inference techniques (constraint propagation).",
+      "type": "knowledge",
+      "code": "RBUS2"
+    },
+    {
+      "text": "Understand metaheuristics and know how to use them to solve combinatorial and numerical optimization problems, with one or multiple objective functions.",
+      "type": "knowledge",
+      "code": "RBUS3"
+    },
+    {
+      "text": "Know how to apply the above methods to problems specific to data science and engineering, such as decision tree calculation, clustering methods, neural network training, etc.",
+      "type": "skill",
+      "code": "RBUS4"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Search in State Spaces",
+    "Modeling search spaces",
+    "Uninformed search algorithms",
+    "Informed or heuristic search algorithms",
+    "Techniques for designing heuristic functions",
+    "Topic 2. Solving constraint satisfaction and optimization problems",
+    "Formalization of CSOP problems",
+    "Solving CSOPs through search",
+    "Inference Techniques. Constraint propagation",
+    "Topic 3. Metaheuristics",
+    "Introduction and classification of metaheuristics",
+    "Population-based bio-inspired metaheuristics. Genetic Algorithms",
+    "Trajectory-based metaheuristics. Local search and simulated annealing",
+    "Topic 4. Multi-objective Optimization",
+    "Classification. Lexicographical optimization and Pareto optimization",
+    "Multi-objective evolutionary algorithms"
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Asynchronous online training activities",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice Topic 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice Topic 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice Topics 3 and 4 (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class attendance (A)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation (PA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass in the ordinary call, a minimum of 4 out of 10 points is required in both the theoretical and practical blocks. The theoretical block grade is calculated as (T1 x 0.5) + (T2 x 0.5), and the practical block grade as (P1 x 0.25) + (P2 x 0.25) + (P3 x 0.5). If minimums are met, the final grade is (Theoretical grade x 0.45) + (Practical grade x 0.4) + (Attendance x 0.05) + (Active Participation x 0.1); otherwise, the grade is the minimum of this formula and 4.0. For the extraordinary call, students are evaluated on a theoretical exam (TE1, TE2) and practical components (PE1, PE2, PE3), with a minimum of 4 points out of 10 required for both theoretical and practical parts. The final grade is calculated as (TE1 x 0.5 + TE2 x 0.5) x 0.53 + (PE1 x 0.25 + PE2 x 0.25 + PE3 x 0.5) x 0.47, with a maximum of 4.0 if minimums are not met.",
+  "bibliography": [
+    "Stuart Russell, Peter Norvig. Artificial Intelligence: A Modern Approach. Pearson, 2019",
+    "El-Ghazali Talbi. Metaheuristics: From Design to Implementation. Wiley, 2009",
+    "Judea Pearl. Heuristics: Intelligent Search Strategies for Computer Problem Solving. Addison Wesley, 1984",
+    "Francesca Rossi, Peter van Beek, Toby Walsh. Handbook of Constraint Programming. Elsevier, 2006"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-2-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-2-009",
+  "source_language": "es",
+  "source_sha256": "7c58362170647642517d020669fdab0955f4b7fccb8d321e5a9ad695cc0a459e",
+  "extracted_at": "2026-11-20T05:55:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

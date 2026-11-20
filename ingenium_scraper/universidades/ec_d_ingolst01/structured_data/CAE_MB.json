@@ -1,0 +1,146 @@
+{
+  "course_name_original": "Computer Aided Engineering",
+  "course_name_en": "Computer Aided Engineering",
+  "ects": 5.0,
+  "semester": "Summer",
+  "year_of_study": 6,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of the Finite Element Method is recommended, but not mandatory"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have insight into various techniques of Computer Aided Engineering (CAE).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can apply CAE methods such as FEM, CFD, and MKS to engineering problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand CAE as an integral part of virtual product development.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Are able to create numerical models as a digital representation of real mechanical structures and components on the computer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental relationships of advanced strength of materials.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Possess in-depth knowledge of the Finite Element Method.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can competently apply FEM in the areas of structural mechanics and temperature field calculation and independently define appropriate boundary conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Possess knowledge of multi-body simulation and fluid flow simulation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the peculiarities and physical backgrounds of nonlinear calculations and can perform, evaluate, and discuss nonlinear structural mechanical calculations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Possess knowledge of crash simulation and can assess the peculiarities of this simulation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Possess knowledge of the numerical solution of systems of differential equations and can apply these methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Are able to solve technical calculation problems independently or in a team, also in the nonlinear domain, dynamics, and optimization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Possess the ability to evaluate, communicate, and discuss CAE results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the possibilities and limitations of numerical methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Possess abstraction ability, analytical thinking ability, and a structured approach to solving technical simulation tasks.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand CAE as an important method for digitalization in mechanical engineering, know the theoretical backgrounds, and can apply computer-aided methods in the development process.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to CAE",
+    "Basic knowledge of the FEM method – review and continuation, thermal and thermo-elastic analyses",
+    "Derivation of FEM in elastodynamics",
+    "Application of FEM in temperature field calculation, for calculating thermal stresses, and for solving static and dynamic structural mechanical problems",
+    "Nonlinear FEM analyses",
+    "Special methods of FEM modeling in structural mechanics",
+    "Numerical fluid simulation, CFD",
+    "Optimization",
+    "Multibody simulation",
+    "Numerical methods",
+    "Selected topics such as crash calculation",
+    "Integration of CAE into the development process",
+    "Computer lab",
+    "Independent processing and presentation of CAE tasks"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction",
+    "Exercises",
+    "Practical work/Lab"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is a 90-minute written exam. Students can earn bonus points, up to approximately 6% of the possible exam score, by independently working on and presenting a simulation task alone or in a team. These bonus points are added to the exam performance.",
+  "bibliography": [
+    "KLEIN, Bernd, 2015. FEM: Grundlagen und Anwendungen der Finite-Element-Methode im Maschinen- und Fahrzeugbau [online]. Wiesbaden: Springer Fachmedien. PDF e-Book. ISBN 978-3-658-06054-1. Verfügbar unter: http://dx.doi.org/10.1007/978-3-658-06054-1.",
+    "MEYWERK, Martin, 2007. CAE-Methoden in der Fahrzeugtechnik: mit 10 Tabellen [online]. Berlin: Springer. PDF e-Book. ISBN 978-3-540-49866-7, 3-540-49866-4. Verfügbar unter: http://dx.doi.org/10.1007/978-3-540-49867-4.",
+    "GEBHARDT, Christof, 2018. Praxisbuch FEM mit ANSYS Workbench: Einführung in die lineare und nichtlineare Mechanik [online]. München: Hanser. PDF e-Book. ISBN 978-3-446-45740-9. Verfügbar unter: https://doi.org/10.3139/9783446457409.",
+    "LEE, Huei-Huang, 2023. Finite element simulations with ANSYS Workbench 2023. Mission, KS: SDC Publications. ISBN 978-1-63057-615-8, 1-63057-615-8",
+    "BATHE, Klaus-Jürgen, 2002. Finite-Elemente-Methoden. Berlin <<[u.a.]>>: Springer. ISBN 3- 540-66806-3"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt",
+  "institution_slug": "ec_d_ingolst01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "CAE_MB",
+  "academic_year": "WS 2026/27",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetM/Modulhandbuch/Bachelor_MB/MHBuch_MB_SPO_2023_24_Stand_2026-07-16.pdf",
+  "source_language": "de",
+  "source_sha256": "d75b9cab89d80bfa9c393b2a354c450f78acc20270076937b068b87003208364",
+  "extracted_at": "2026-11-18T04:03:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

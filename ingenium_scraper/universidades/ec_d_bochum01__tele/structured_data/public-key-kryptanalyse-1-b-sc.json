@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Public Key Kryptanalyse 1 [B.Sc]",
+  "course_name_en": "Public Key Cryptanalysis 1 [B.Sc]",
+  "ects": 5.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Elementary knowledge of Linear Algebra (Mathematics 1 for Computer Scientists)",
+    "Interest in algorithmic techniques and cryptography, in theory and practice (implemented with the help of the computer algebra system Sage)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should acquire broad knowledge of algorithmic techniques of asymmetric cryptanalysis, especially for coding-based cryptography.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know basic key-finding algorithms such as Brute-Force and Meet-in-the-Middle and can apply them to new cryptographic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They master the basics of linear codes and their dual codes, especially the McEliece cryptosystem as a cryptographic application.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students know Time-Memory techniques like Pollard Rho and Parallel Collision Search and can apply them to new problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have an overview of all current decoding algorithms in the field of Information Set Decoding, which are relevant for the security evaluation of modern coding-based cryptosystems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to implement cryptanalysis techniques using the computer algebra system Sage.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Cryptanalysis for instantiating cryptographic systems to provide a predefined security level and optimize performance.",
+    "Algorithmic techniques for evaluating new cryptographic systems.",
+    "Classical algorithms for cryptanalysis.",
+    "Algorithms for quantum computers to ensure security in a quantum computing era."
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction (Vorlesung as seminaristischer Unterricht)",
+    "Practical exercises on the computer with Sage (praktische Übungen am Rechner mit der Computer-Algebra Sage)",
+    "Group work",
+    "Project work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Klausur)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded for a successfully passed written exam (Klausur). The exam duration is 120 minutes.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "public-key-kryptanalyse-1-b-sc",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "bce500115a0ec5c714b2121ef90389e0c0bdae100557ce118d3ee84b6a4c9f26",
+  "extracted_at": "2026-11-20T12:36:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

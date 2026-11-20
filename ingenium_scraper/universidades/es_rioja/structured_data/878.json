@@ -1,0 +1,107 @@
+{
+  "course_name_original": "Fundamentos de automatización industrial",
+  "course_name_en": "Fundamentals of Industrial Automation",
+  "ects": 4.5,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming and algorithm development: implementation of control structures.",
+    "Elements of electrical circuits. Circuit analysis methods. Fundamental theorems. Introduction to transient regime of electrical circuits: first and second order circuits. Introduction to electrical machines: electric motors and generators.",
+    "Number systems and codes. Boolean algebra. Binary functions; simplification methods. Combinational systems. Sequential systems; flip-flops. Introduction to the microprocessor. The transistor in switch mode."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Will know and be able to apply the technology (devices and software tools) typical of industrial control and automation systems.",
+      "type": "skill",
+      "code": "R14"
+    },
+    {
+      "text": "Will know and be able to obtain representative models of real systems to approach automatic control.",
+      "type": "skill",
+      "code": "R15"
+    },
+    {
+      "text": "Will know and be able to apply analysis and design techniques for feedback control systems.",
+      "type": "skill",
+      "code": "R16"
+    },
+    {
+      "text": "Will know and be able to apply PLC programming techniques.",
+      "type": "skill",
+      "code": "R17"
+    },
+    {
+      "text": "Will be able to implement industrial control and automation systems.",
+      "type": "skill",
+      "code": "R18"
+    }
+  ],
+  "syllabus_topics": [
+    "Block I. Introduction to industrial automation and control. Definitions. Automation and control techniques. Historical evolution of automatic control systems. Types of automatic controls and industrial processes.",
+    "Block II. Technologies applied to industrial automation. Pneumatic systems. Introduction and generalities. Technological elements of pneumatic systems: elements for generation, treatment, consumption, and control of pneumatic energy. Schematic representation of pneumatic installations and circuits. Design methods for pneumatic circuits. Application examples. Introduction to the dynamics of pneumatic elements. Application examples.",
+    "Hydraulic systems. Introduction and generalities. Technological elements of hydraulic systems: elements for generation, treatment, consumption, and control of hydraulic energy. Schematic representation of hydraulic circuits and installations. Design methods for hydraulic circuits. Application examples. Introduction to the dynamics of hydraulic elements. Application examples.",
+    "Electrical systems. Introduction and generalities. Technological elements: sensing elements (sensors), actuation elements (actuators), and control of electrical signals. Schematic representation of electro-technical power and control circuits. Design methods for electro-technical circuits. Application examples.",
+    "Hybrid systems. Schematic representation. Design methods for hybrid circuits. Application examples.",
+    "Block III. The programmable logic controller (PLC) as an industrial control element. Definition and description of a PLC. Internal structure. External structure: CPU card, connection cards and interfaces, power supply. Scan cycle.",
+    "PLC programming. Programming methods. Basic programming instructions using ladder diagrams. Application examples.",
+    "Programming methodologies. Heuristic programming using activation and deactivation conditions for outputs and internal variables. Programming examples. Grafcet programming. Elements: stages, basic and conditional actions, basic and complex transitions, receptivities. Simultaneity and selection structures. Macro-stages. Diagram coordination. Application examples.",
+    "Structured GRAFCET. Introduction. Structured design and programming of control systems. Hierarchical Grafcet diagrams. Application examples. Sensors and actuators. Introduction. Technical characteristics. Sensors. Actuators.",
+    "Practices aimed at simulating and assembling pneumatic, hydraulic, electro-technical, and mixed circuits.",
+    "Practices aimed at programming programmable logic controllers (PLCs)."
+  ],
+  "teaching_methods": [
+    "Expository method - Lecture",
+    "Case study",
+    "Problem and exercise solving",
+    "Cooperative learning"
+  ],
+  "workload_hours_total": 112.5,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous written assessment",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Main written test",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Lab reports and practical work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Oral tests (laboratory practice)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "Assessment tests will be conducted throughout the course, contributing 10% to the final grade. Laboratory practice will be evaluated through assessment tests, representing 40% of the final grade. To pass the course, students must obtain a minimum of 4.0 in both the written test and the laboratory practice test. If this critical assessment criterion is not met, the total course grade will be FAIL, with the resulting sum of grades from all assessment systems, capped at a maximum of 4.5 points.",
+  "bibliography": [
+    "Automatismos eléctricos, neumáticos e hidráulicos : instalaciones y mantenimiento electromecánico de maquinaria y conducción de líneas / Florencio Jesús Cembranos Nistal-- 2ª ed-- Madrid : Paraninfo, [2000]",
+    "Automatización : problemas resueltos con autómatas programables / Pedro J. Romera¿.: Paraninfo, 1994",
+    "Autómatas programables y sistemas de automatización / Enrique Mandado Pérez... [et al.]-- 2ª ed-- Barcelona : Marcombo, 2009",
+    "Circuitos básicos de neumática / Miquel Carulla, Vicent Lladonosa-- Barcelona : Marcombo, D.L. 1993",
+    "Autómatas programables / Josep Balcells, José Luis Romeral-- Barcelona : Marcombo, D.L. 1997",
+    "Neumática industrial : diseño, selección y estudio de elementos neumáticos / Jesús Peláez Vara, Esteban García Maté-- 1ª ed-- Madrid : Dossat 2000, 2002",
+    "Problemas de diseño de automatismos : electrónico-eléctricos y electrónico-neumáticos / Francisco Ojeda Cherta-- Madrid: Paraninfo, 1996",
+    "Problemas resueltos con autómatas programables mediante grafcet / Juan Martínez Cabeza de Vaca Alajarín, Luis.Manuel Tomás Balibrea-- Murcia : Servicio de Publicaciones, Universidad de Murcia",
+    "Prontuario de neumática industrial : electricidad aplicada / José Roldán Vilora-- Madrid : Paraninfo, cop. 2001",
+    "Autómatas programables : entorno y aplicaciones / Enrique Mandado Pérez ... [et al.]-- Madrid : Thomson-Paraninfo, [2006]",
+    "Hydraulics and pneumatics : a technician¿s and engineer¿s guide / Andrew Parr-- 3rd ed-- Oxford, U.K. : Butterworth-Heinemann"
+  ],
+  "isced_f_code": "0614",
+  "missing_sections": [],
+  "institution": "Universidad de La Rioja",
+  "institution_slug": "es_rioja",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "878",
+  "academic_year": "2026-27",
+  "source_url": "https://aps.unirioja.es/GuiasDocentes/servlet/agetguiahtml?2026-27,803G,878",
+  "source_language": "es",
+  "source_sha256": "6eb4ef56505c1422a87c236e477d3063cd07a56ebc6d534bcdbdeba4415eb840",
+  "extracted_at": "2026-11-13T22:53:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

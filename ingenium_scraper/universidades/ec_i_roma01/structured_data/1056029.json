@@ -1,0 +1,101 @@
+{
+  "course_name_original": "SISTEMI DI CALCOLO canale 1",
+  "course_name_en": "CALCULATION SYSTEMS channel 1",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of the Von Neumann machine model",
+    "Boolean algebra",
+    "Representation of signed and unsigned integers",
+    "Floating-point number representation",
+    "Knowledge of the C language (especially array types, pointers, */& operators, and pointer arithmetic)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course provides an overview from the programmer's perspective on how computing systems execute programs, store information, and communicate with each other, discussing aspects such as performance, portability, and robustness. Students are introduced to the basic operating principles of a modern computer, showing how compilers translate C code into assembly language and how programs interact with the operating system for managing computing resources.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student knows how computing systems execute programs, store information, and communicate with each other. They also know the basics of Assembly programming for 32-bit x86 platforms and understand how this is functional for program execution.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to apply appropriate system programming techniques to solve problems. They are also able to analyze program execution and identify errors and bottlenecks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to analyze and evaluate programs during their execution, verifying their correctness, identifying and correcting any errors.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student is able to describe and discuss how a program is executed and how it interacts with the operating system, illustrating its operation, properties, and efficiency.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student acquires methodological tools to identify, analyze, and solve problems related to the functioning of programs within complex computing systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computing systems: Von Neumann Architecture and overview of the development toolchain (GCC, differences between C, Assembly and machine code).",
+    "Analysis and debugging tools: Basic and advanced use of GDB, Valgrind and system utilities (objdump, file).",
+    "IA32 Assembly fundamentals: The Instruction Set Architecture (ISA), general-purpose registers, basic instructions (mov, arithmetic-logical), syntax and endianness.",
+    "Low-level memory management: Addressing modes, use of the stack frame (%esp) and management of pointers, arrays and strings.",
+    "Control flow and functions: Translation of C constructs (if, while, do), call/ret instructions, parameter passing and ABI rules (caller-save/callee-save registers).",
+    "Complex data structures: Alignment, padding, structures allocated on the stack and brief notes on 64-bit extension.",
+    "Performance optimization: Evaluation metrics (Amdahl, Moore) and code profiling (gprof).",
+    "Standard libraries and I/O: Introduction to Operating System design and intensive use of libc functions for memory and file system management (standard I/O).",
+    "Process Abstraction: Memory image, process states, and system calls for process management (fork, wait, exec, getpid).",
+    "Execution and Scheduling: Pipelining, concepts of preemption, time-sharing and introduction to threads.",
+    "Exceptional control flow: Interrupt handling, system call mechanisms (syscall with wrapper and INT 0x80) and signal handling (kill, sigaction).",
+    "Dynamic allocation: malloc and free mechanisms, fragmentation (internal and external) and evaluation of allocator efficiency.",
+    "Virtual and Physical Memory: Address translation via MMU, paging, validity bits and concepts of locality (spatial/temporal) and thrashing.",
+    "Memory hierarchy: Cache memory operation for optimizing access.",
+    "File System Architecture: Internal structure (inode and blocks), octal notation permissions and system operations (mount, umount, link, readdir).",
+    "Execution environment: Environment variables and passing parameters to main via the env argument."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Multiple-choice questions with justification",
+      "weight_percentage": null
+    },
+    {
+      "method": "Programming exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam, a grade not lower than 18/30 is required. The student must demonstrate sufficient knowledge of the topics related to the functioning of computing systems and how programs are executed, as well as how C programs can be translated into assembly and how a program interacts with the operating system. To achieve a score of 30/30 cum laude, the student must demonstrate excellent knowledge of all topics covered during the course, showing full mastery of the studied techniques and methodologies.",
+  "bibliography": [
+    "Dispensa del corso (liberamente disponibile sul sito del corso).",
+    "R. E. Bryant and D. R. O’Hallaron, \"Computer Systems - A Programmer’s Perspective\", Prentice Hall, ISBN: 978-0130340740",
+    "B. W. Kernighan and D. M. Ritchie, \"Il linguaggio C. Principi di programmazione e manuale di riferimento\", Pearson, ISBN: 978-8891908230"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "1056029",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/2/2/1c704824-19c4-4f30-a224-ec8c7f2fa8a8",
+  "source_language": "it",
+  "source_sha256": "d4d27249a2998041d6f31b1506050194a1e14218b90e524c8ca391c38523f27e",
+  "extracted_at": "2026-11-20T09:24:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

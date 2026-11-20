@@ -1,0 +1,73 @@
+{
+  "course_name_original": "Technische Informatik 3",
+  "course_name_en": "Technical Computer Science 3",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students know the connections and have detailed knowledge regarding the components and functionality of modern computer systems, including the processor, memory system, and interfaces to other system components.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Based on this knowledge, students are able to evaluate computer systems and their components regarding various metrics, such as energy consumption, computing power, memory performance, etc., for their suitability for a specific task.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Furthermore, participants of this module have understood the fundamental operation and principal structure of processors at the microarchitecture level and are able to analyze the influence of architectural features, such as pipelining or out-of-order execution, on instruction execution.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Structure and function of modern processors and computer systems",
+    "Basic computer structures (Von Neumann and Harvard architecture)",
+    "Structure, classification, and technical realization of computer systems",
+    "Programming at the assembly level",
+    "Processing of programs by a processor",
+    "Methods for performance evaluation of processors based on standardized benchmarks",
+    "Metrics for classifying benchmark results",
+    "In-depth analysis of the microarchitecture level of a processor",
+    "Development and explanation of the data path and control unit",
+    "Modern methods for performance enhancement and their application areas",
+    "Memory system of modern computers",
+    "Various interfaces to internal and external components of the computer system"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the module exam.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Ruhr-Universität Bochum",
+  "institution_slug": "ec_d_bochum01",
+  "degree": "Elektrotechnik und Informationstechnik (B.Sc., 1-Fach-Bachelor, PO 2020)",
+  "course_code": "149040",
+  "academic_year": "2025-2026",
+  "source_url": "https://ei.ruhr-uni-bochum.de/fileadmin/content/Fakultaet_fuer_Elektrotechnik_und_IT/ETIT_Pruefungsamt/Dokumente/Ba_ETIT_PO20/Modulhandbuch_BaET_PO20_SS_2026_Stand_30.03.2026.pdf",
+  "source_language": "de",
+  "source_sha256": "226197f3d207c059e7996760ae92933bdc28e65ccfbf47732242485392b43b15",
+  "extracted_at": "2026-11-20T08:21:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

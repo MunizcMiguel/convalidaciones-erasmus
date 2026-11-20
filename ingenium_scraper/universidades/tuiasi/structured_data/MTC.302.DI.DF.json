@@ -1,0 +1,174 @@
+{
+  "course_name_original": "Metoda Elementului Finit",
+  "course_name_en": "Finite Element Method",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Explains the fundamental principles of the finite element method (FEM) and the stages of numerical analysis applied to mechanical structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Compares linear and non-linear models, as well as types of analysis (static, dynamic, thermal, etc.).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Evaluates the accuracy of numerical results, interpreting discretization errors, boundary conditions, and solution convergence.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Defines types of finite elements (1D, 2D, 3D) and their areas of use in mechanical structure analysis.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describes the mechanical properties of materials used in FEM models (isotropic, orthotropic, elastic, plastic, etc.) and how they influence the response of the mechanical structure.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Uses ANSYS STUDENT 2025 R2 software for geometry generation, model discretization, and applying boundary conditions and loads.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Interprets the obtained results (stress state, deformations, displacements, safety factors, etc.) and compares them with experimentally obtained results or other calculation methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Defines the stages and completes all necessary steps of the FEM analysis process: pre-processing, solving, and post-processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Applies validation methods and critical analysis of results.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Uses modern digital tools for presenting and interpreting the results of numerical analyses performed using finite element analysis (FEA).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Plans and structures the stages of an FEM analysis, from generating the geometric model and choosing the element type, to applying boundary conditions/loads and interpreting the results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Operates with ANSYS Student 2025 R2 software, using it for modeling, discretization, and modeling the mechanical behavior of components and structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically evaluates the created models, modeling conditions, and obtained results, identifying possible errors and making improvements to increase the accuracy and efficiency of the analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Applies FEM methods for the analysis and optimization of mechanical structures, demonstrating the ability to use digital tools in computer-aided engineering (CAE).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Communicates technical analysis results effectively through reports, graphs, and visual interpretations, supporting engineering decisions based on numerical data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Respects professional ethical principles, norms, and values in the correct and timely execution of numerical analyses and engineering projects, adopting a rigorous, efficient, and responsible work strategy in making technical decisions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Integrates effectively into multidisciplinary project teams, collaborating with specialists from related fields (design, manufacturing, materials, automation) to solve complex structural analysis problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Continuously informs and improves in the field of numerical methods and computer-aided simulations, by using digital resources, technical documentation, and specialized software guides.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develops engineering projects involving the application of the finite element method (FEM) for the analysis, verification, and optimization of mechanical structures, demonstrating autonomous work capacity and an analytical spirit.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Shows professional responsibility in interpreting and communicating technical results, ensuring that these comply with safety, performance, and sustainability criteria imposed in mechanical engineering.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "I. Numerical methods used in computer modeling of mechanical engineering structures. A brief history. Finite difference method, boundary element method, finite element method, finite volume method. Technical applications of the finite element method. The role and place of finite element analysis in the design and modernization cycle of a product.",
+    "II. Elements of deformable body mechanics used in FEA. Elasticity: Stress state. Deformation state. Relations between stresses and deformations. Principle of virtual work. Plasticity-Nonlinearity: Characteristic material curves. Material types. Nonlinearities: material, support, geometric. Comparison of linear FEA - non-linear FEA.",
+    "III. Basic elements of finite element analysis. Terminology. Discretization with finite elements. Types of finite elements. Dimensions and number of finite elements. Node numbering scheme. Substructuring. Defining finite element properties. Finite element equation. Requirements for approximation functions. Classic interpolation functions. Equilibrium, mixed, and hybrid models. Numerical integration. Stiffness matrix. Assembly. Properties.",
+    "1. Occupational safety. Professional FEA software packages. Documentation accompanying a professional finite element analysis program.",
+    "2. Steps involved in solving a problem using a professional FEA package. Problem formulation: theoretical solution of problems using FEA.",
+    "3. Practical use of a professional software package. Preprocessing: Problem formulation, import CAD geometry, defining unit system, material characteristics, discretization, defining support conditions, loading. Processing: Processing parameters. Diagnosis-correction of modeling errors. Optimization of computer use. Post-processing: Verification of result plausibility. Facilities for obtaining and visualizing FEA analysis results.",
+    "4. Laboratory make-up sessions."
+  ],
+  "teaching_methods": [
+    "Interactive lectures",
+    "Visual demonstrations supported by PowerPoint presentations",
+    "Practical examples using ANSYS 2025 R2 software",
+    "Individual practical activities",
+    "Group practical activities",
+    "Learning through discovery and exploration",
+    "Numerical modeling",
+    "Case study analysis"
+  ],
+  "workload_hours_total": 108.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Colloquium (Exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory activity",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Participation in practical laboratory work and timely submission of laboratory reports are required. Application of Finite Element Analysis in Mechanical Engineering is assessed. A minimum grade of 5 must be obtained in the final exam for promotion.",
+  "bibliography": [
+    "Aignătoaie M. (2000) - Analiza cu elementefinite- Editura \"Gh.Asachi\" Iasi.",
+    "Hârdãu M. (1995) - Metoda elementelorfinite Curs - Transilvania Press, Cluj.",
+    "Pascariu I. (1985) - Elemente finite, Concepte-Aplicatii, Editura Militarã, Bucuresti.",
+    "Bathe K.J. (1996) Numerical procedures in finite element analysis, Prentice-Hall.",
+    "Mühlich U. (2023) Enhanced Introduction to Finite Elements for Engineers, Springer.",
+    "The Finite Element Method: From Theory to Practice (2023) Wiley.",
+    "Lee S. W. (2021) Finite Element Method for Solids and Structures, Cambridge University Press.",
+    "Ansys www.ansys.com (Electronic documentation)",
+    "Resurse electronice: Ansys: (download soft și documentatie) www.ansys.com",
+    "Pachetul CAELINUX (download soft și documentatie), www.caelinux.org, www.caelinux.com,",
+    "Ubuntu / Xubuntu: www.ubuntu.com, www.xubuntu.org,",
+    "Python: www.python.org",
+    "Biblioteci electronice:www.wikipedia.org, www.it-ebooks.info, www.bookboon.com"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "MTC.302.DI.DF",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an3_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "cb9eac95ce307de69e2af6270879dc6300ac55f5416830c68bc99eb011dd22db",
+  "extracted_at": "2026-11-13T01:12:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

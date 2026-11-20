@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Arquitectura de Computadores",
+  "course_name_en": "Computer Architecture",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Computadores y Redes (Fundamentals of Computers and Networks)",
+    "Introducción a la Programación (Introduction to Programming)",
+    "Basic English language skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design and develop applications, ensuring their reliability, security, and quality, in accordance with ethical principles and current legislation and regulations.",
+      "type": "unspecified",
+      "code": "ECR1.3"
+    },
+    {
+      "text": "Ability to select and evaluate computer systems, ensuring their reliability, security, and quality, in accordance with ethical principles and current legislation and regulations.",
+      "type": "unspecified",
+      "code": "ECR1.4"
+    },
+    {
+      "text": "Ability to know, understand and evaluate the structure and architecture of computers, as well as the basic components that make them up.",
+      "type": "unspecified",
+      "code": "ECR9"
+    },
+    {
+      "text": "Know the different types of computers, along with their characteristics and capabilities, that can be used as hardware support in the design and development of a computer system.",
+      "type": "knowledge",
+      "code": "PF5"
+    },
+    {
+      "text": "Be able to select and evaluate the most appropriate type of computer to provide a service ensuring the required quality characteristics.",
+      "type": "skill",
+      "code": "PF7"
+    },
+    {
+      "text": "Evaluate computer organization alternatives to improve their performance.",
+      "type": "skill",
+      "code": "PF14"
+    },
+    {
+      "text": "Understand the operation of the mechanisms provided by the architecture to support multitasking operating systems.",
+      "type": "knowledge",
+      "code": "PF15"
+    },
+    {
+      "text": "Know examples of the architecture and organization of real systems.",
+      "type": "knowledge",
+      "code": "PF16"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "The computer",
+    "Instruction set architecture",
+    "Microarchitecture",
+    "Support for multitasking OS",
+    "Performance",
+    "The CPU",
+    "The MIPS64 architecture",
+    "Single-cycle microarchitecture",
+    "Pipelined microarchitecture",
+    "Multiple instruction issue",
+    "Moore's Law",
+    "Multithreaded CPU",
+    "Virtualization support",
+    "The memory hierarchy",
+    "Introduction to memory hierarchy",
+    "Virtual memory",
+    "Concept of memory hierarchy",
+    "Cache memory",
+    "The TLB",
+    "The I/O system",
+    "I/O interfaces",
+    "Interconnection systems",
+    "Peripherals",
+    "Quantitative analysis of computer performance",
+    "The CPU (practical)",
+    "The memory hierarchy (practical)"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical part (Control parcial 1 and Control parcial 2)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical part (Control parcial 1 and Control parcial 2)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Group work",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical part counts 50% and requires a minimum of 40%. The practical part counts 40% and requires a minimum of 40%. The group work counts 10%. The final grade is calculated as: Note = NTeo x 0.5 + NPrac x 0.4 + TGrup x 0.1. If the minimum 40% in NTeo or NPrac is not reached, the final grade will be the lesser of 4.5 points and the result of the formula. For extraordinary calls, the theoretical part (50%) and practical part (40%) are assessed via single controls, and the group work grade (10%) is conserved from the ordinary call. For differentiated evaluation, the theoretical part counts 50% and the practical part 50%.",
+  "bibliography": [
+    "J.C. Granda, J.M. López, M. García, J. Molleda, R. Usamentiaga, J. Entrialgo, F.J. de la Calle. Arquitectura de Computadores. Ediuno. Ediciones de la Universidad de Oviedo, 2019, ISBN: 978-84-17445-49-2.",
+    "D.A. Patterson y J.L. Hennessy. Computer organization and design. The hardware/software interface, 5th edition. Morgan Kaufmann, 2014. ISBN: 9780124077263.",
+    "J.L. Hennessy y D.A. Patterson. Computer Architecture. A quantitative approach, 5th edition. Morgan Kaufmann, 2011. ISBN: 9780123838728.",
+    "W. Stallings y A.C. Vargas. Organización y arquitectura de computadores: diseño para optimizar prestaciones. Prentice Hall, 2001. ISBN: 9788420529936.",
+    "V.C. Hamacher, Z.G. Vranesic, S.G. Zaky, M.L.F. García y G.Q. Vieyra. Organización de computadoras. McGraw-Hill, 1987. ISBN: 9684220588."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-2-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-2-002",
+  "source_language": "es",
+  "source_sha256": "fef8d4f62810497a2fb1375be190b9b4e6b110c59261db3518ac17833a2ff09c",
+  "extracted_at": "2026-11-20T05:54:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,132 @@
+{
+  "course_name_original": "APPLIED MATHEMATICS",
+  "course_name_en": "Applied Mathematics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Good knowledge of the basic concepts of linear algebra and of real and complex analysis.",
+    "Ability to apply methods learned during first year exams: graphs of elementary functions, computation of derivatives and integrals, operations with complex numbers, matrix and vector arithmetic, computation of eigenvalues.",
+    "Attendance and passing of examinations for \"Analisi Matematica 1\", \"Fisica 1\", and \"Geometry and Algebra\" courses."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire a working knowledge of the fundamental methodologies of linear algebra and Fourier analysis, as well as the basic methods for the numerical solution of ordinary differential equations, with rigorous theoretical justification.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the treated methods for the solution of other mathematical problems, mainly differential ones, and for the resolution of applicative problems typical of engineering branches.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the methodologies described in the course to the solution of problems encountered in their own field of interest.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the most important theoretical properties for a particular problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose the most suitable algorithm for problem solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Communicate knowledge and understanding methodically and consistently, as evaluated in written and optional oral tests.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire a basic expertise sufficient to understand advanced mathematical texts for widening their knowledge autonomously.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical linear algebra: Review of linear algebra",
+    "Normed spaces and Hilbert spaces",
+    "Eigenvalues and eigenvectors",
+    "Structured matrices",
+    "Matrix norms",
+    "Condition number",
+    "Solution of linear systems by means of direct methods (Gaussian elimination)",
+    "Solution of linear systems by means of iterative methods (Jacobi and Gauss Seidel)",
+    "Applied Fourier analysis: Periodic functions and trigonometric polynomials",
+    "Norm approximation and Fourier coefficients",
+    "Orthogonality and optimality properties",
+    "Periodic extension of a function and Fourier series",
+    "Convergence properties",
+    "Complex Fourier series",
+    "The Fourier transform",
+    "Inverse Fourier transform",
+    "Properties of the Fourier transform",
+    "Convolution and Green's functions",
+    "Applications",
+    "Ordinary Differential Equations: Formulation of Cauchy problems",
+    "Existence and uniqueness of the solution",
+    "Systems of differential equations of the first order and equations of order larger than one",
+    "Finite differences methods",
+    "Implicit and explicit methods",
+    "Monostep and multistep methods",
+    "Explicit Runge-Kutta methods",
+    "Global and local discretization error",
+    "Convergence and stability",
+    "Consistency and order",
+    "General form for multistep methods",
+    "Zero-stability and roots condition",
+    "Dahlquist theorem",
+    "Local discretization error for multistep methods",
+    "Consistency and order"
+  ],
+  "teaching_methods": [
+    "Practise",
+    "Lesson",
+    "Tutorial activity",
+    "Personal interviews",
+    "E-mail messages",
+    "Teleconferencing systems"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (standard mode)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional oral interview",
+      "weight_percentage": null
+    },
+    {
+      "method": "First written test (alternative mode)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second written test (alternative mode)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grading consists of a written test, usually five exercises, completed in three hours. To pass, a grade of at least 18/30 is required. An optional oral interview can be requested by the student or the teacher to improve or correctly evaluate the final grade. An alternative grading mode involves two written tests, each requiring a minimum of 18/30, with a final oral interview also possible.",
+  "bibliography": [
+    "G. [docente] and S. Seatzu. Introduzione alla Matematica Applicata e Computazionale. Pitagora Editrice, Bologna, 2010. ISBN: 88-371-1817-1."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "70/0069-M",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=17256&ordinamento_aa=2022&af_percorso=9999&corso_cod=11037&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "e020cad69a813827e2c6bee14cfd40a6decd6cbdb5e001dc2a7297fe2ad02e9e",
+  "extracted_at": "2026-11-20T12:43:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

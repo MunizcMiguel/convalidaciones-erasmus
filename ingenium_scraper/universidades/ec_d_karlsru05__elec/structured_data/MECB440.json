@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Signale und Systeme",
+  "course_name_en": "Signals and Systems",
+  "ects": 6.0,
+  "semester": "4. Semester",
+  "year_of_study": 4,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Solid knowledge of the content of the courses Higher Mathematics 1 to Higher Mathematics 3",
+    "Basic programming skills in C++ and MATLAB®"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the concept of a signal in all its forms and know what a linear time-invariant system is. They can name practical examples.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know the different representation forms for Linear Time-Invariant Systems in both analog and digital form and are able to transform the representation forms into one another. They can differentiate the information resulting from the representation forms and explain the resulting benefit.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students master the most important signal transformations and can apply them both analytically and by simulation using MATLAB. They can explain the meaning of the transformations and illustrate them with examples.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to question, evaluate, and analyze corresponding graphical representations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have knowledge of the forms of description of the transfer behavior of Linear Time-Invariant Systems in the time, image, and frequency domain and can state the relationships and convert the description forms into one another. They can illustrate the differences to nonlinear systems with examples.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know the central result of Shannon's sampling theorem and can identify and assign the associated phenomena.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know how the concepts of deterministic signal theory can be transferred to stochastic signals and can explain the differences. They can apply the corresponding results in laboratory experiments from a digital signal processor and correctly interpret the experimental results.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Description and analysis of analog signals and systems",
+    "Linear time-invariant systems (LTI systems) in the time domain",
+    "The convolution integral",
+    "The Laplace transform, description of LTI systems in the image domain",
+    "Special system excitation signals, the Dirac impulse",
+    "The impulse response of an LTI system",
+    "Amplitude and phase response of an LTI system",
+    "The Fourier transform, LTI systems in the frequency domain",
+    "Concept of the spectrum",
+    "Properties and calculation rules of the Fourier transform",
+    "Sampling and digitization",
+    "The sampling process, approximation with sampling impulses",
+    "Impulse sampling and sampling spectrum",
+    "Relationship between Fourier spectrum and sampling spectrum",
+    "Problem of reconstructibility, spectral overlap",
+    "Description and analysis of digital signals and systems",
+    "Description of digital LTI systems",
+    "Digital LTI systems in the time domain",
+    "The discrete convolution",
+    "The Z-transform, description of LTI systems in the image domain",
+    "Pole-zero diagrams, stability of discrete-time systems",
+    "The impulse response of a digital LTI system",
+    "Digital LTI systems in the frequency domain",
+    "The Discrete Fourier Transform (DFT, FFT)",
+    "Aliasing and Leakage",
+    "Transmission properties of digital LTI systems",
+    "FIR and IIR filters, FIR approximation of the ideal low-pass filter",
+    "IIR filter design - Butterworth filter example",
+    "Application of the content taught in the lecture on a real Embedded System",
+    "Digitization of analog sensor data",
+    "Creation of a real-time system",
+    "UDP data transmission",
+    "Signal processing using FFT",
+    "Digital filters (FIR or IIR)",
+    "Signal processing in MATLAB®"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written, graded examination (Klausur) of 90 minutes or oral examination of 20 minutes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory with ungraded lab reports as study achievement",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Signale und Systeme – eine beispielorientierte Einführung [docente], Springer-Verlag Kienke, Signale und Systeme, Springer",
+    "Max-Lacoume, Méthodes et Techniques de Traitement du Signal, Masson",
+    "Oppenheim-Willsky, Signals & Systems, VHC"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB440",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "b35021b809b1763789f4b4163a7ae7a59498d64b19f5e26727f518d66bb9f37b",
+  "extracted_at": "2026-11-20T12:39:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

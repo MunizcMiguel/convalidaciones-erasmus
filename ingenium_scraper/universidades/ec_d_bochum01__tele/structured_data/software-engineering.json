@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Software Engineering",
+  "course_name_en": "Software Engineering",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Imperative and Object-Oriented Programming in a statically typed programming language",
+    "Theoretical Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explain in detail the core activities for engineering software, including requirements engineering, software architectures and design, implementation, quality assurance (esp. testing), software process",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explain underlying representation of programs (AST) and the compilation process",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explain programming paradigms, such as imperative programming, generic programming, object-oriented programming, AI engineering",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "elicit and define software requirements in different formalisms (e.g., textual requirements, state machine diagrams, or other behavior diagrams)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "define a software architecture upon quality requirements, using architectural patterns or styles",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "implement software architectures, frameworks, and software modules/components",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "define a software engineering process based on process models, including plan-based and agile models",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "perform quality assurance, including designing test cases according to test-case design methods for black-box and white-box testing",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "create behavioral and structural models in the context of software engineering",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "identify use-cases and the potential of different SE methods and technologies for a given domain/problem",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "select and justify SE methods and technologies for a given domain/problem",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to software engineering, motivated by software and project failures, laws of software engineering, and optionally a guest lecture from industry",
+    "Introduction into compiler construction and the underlying representation of programs (e.g., abstract syntax trees, control-flow diagrams)",
+    "Paradigms (e.g., imperative programming, generic programming, object-oriented programming, AI engineering) and software engineering principles (e.g., modularity, cohesion/coupling)",
+    "UML behavioral and structural diagrams for modeling software",
+    "Requirements engineering",
+    "Software architecture and architecture implementation",
+    "Quality assurance, including black-box and white-box testing, mutation testing, combinatorial interaction testing",
+    "Advanced topics, such as software product lines, model-driven software engineering or security engineering (e.g., threat modeling)"
+  ],
+  "teaching_methods": [
+    "lectures",
+    "interactive quizzes",
+    "group work",
+    "group supervision",
+    "practical assignments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon passing the final exam. The final exam is a written exam of 120 minutes.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "software-engineering",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "88f333a1a05caccd0b801f242565bc83f4486c3036c6652b8ac553ba1ad7802a",
+  "extracted_at": "2026-11-20T12:36:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Commande des machines et des convertisseurs",
+  "course_name_en": "Control of machines and converters",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Method and processing of electrical circuits.",
+    "TC M11 static converter course.",
+    "TC M11 modeling of mechatronic systems",
+    "Method of Control"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and implement, in whole or in part, a control/command scheme for an electromechanical actuator such as an asynchronous motor, associated with its Voltage Source Pulse Width Modulation inverter to increase the efficiency of the system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know the principle of Pulse Width Modulation for Static Converters",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to apply a PWM scheme to a given converter structure, namely: DC-DC, DC-AC",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Simulate a simple converter structure and its PWM scheme",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Present the simulation results obtained and relate them to the content of the course handout",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the principles of parameter identification of an asynchronous motor for its control",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the dynamic models of the asynchronous motor",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the design of linear controllers for vector control of asynchronous motors",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Identification and vector control of asynchronous motor",
+    "PWM control",
+    "TD n°1",
+    "TD n°2"
+  ],
+  "teaching_methods": [
+    "Transmissive lessons with integrated practical exercises",
+    "Practical work in the form of digital manipulation: simulation"
+  ],
+  "workload_hours_total": 23.0,
+  "workload_hours_contact": 15.0,
+  "assessment_methods": [
+    {
+      "method": "CC1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "RAP1",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1+1*RAP1)/2. This implies equal weighting for CC1 and RAP1.",
+  "bibliography": [
+    "https ://doi.org/10.51257/a-v1-e3968 P.-E. Vidal, B. Trajin, \"Le principe de la modulation pour les hacheurs et les onduleurs de tension en électronique de puissance\", Technique de l'Ingénieur, E3968, janvier 2023, PE. VIDAL Contrôle par modulation des convertisseurs statiques",
+    "R. H. Engelmann, W. H. Middendorf, \"Handbook of Electric Motors\", Marcel Dekker, New York, 1995.",
+    "P. Vas, \"Vector control of AC machines\", Oxford Science Publications, Oxford, 1990.",
+    "P. Vas, \"Electrical Machines and Drives - A space-vector theory approach\", Oxford Science Publications, Oxford, 1992."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0777SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "ad3943df65c86995a9416f04958c75355da24b552aa1df8c7b3c418966243f07",
+  "extracted_at": "2026-11-18T10:00:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

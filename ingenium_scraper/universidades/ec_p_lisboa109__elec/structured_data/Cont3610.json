@@ -1,0 +1,66 @@
+{
+  "course_name_original": "Controlo (Cont3610)",
+  "course_name_en": "Control (Cont3610)",
+  "ects": 6.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to Control: motivating examples and historical perspective.",
+    "Models of physical systems and linearization of dynamic systems.",
+    "Analysis of the response of linear dynamic systems in the time domain.",
+    "Analysis of the response of linear dynamic systems in the frequency domain; Bode plots.",
+    "Block diagrams: basic rules and successive block reduction.",
+    "Stability of linear time-invariant systems.",
+    "Effects of feedback: reference tracking, disturbance rejection and noise attenuation, steady-state errors.",
+    "Analysis and design of control systems using the root locus technique; PID controllers.",
+    "Analysis of control systems in the frequency domain using Bode and Nyquist diagrams. Gain and phase margins and effects of delay in the action chain.",
+    "Introduction to the design of control systems by shaping the loop gain."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory component",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam (normal period)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam (resit period)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam (special period)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The final grade in the normal and resit periods is calculated as Exam (50%) + Continuous assessment (50%). A minimum grade of 9.5 is required for the continuous assessment and a minimum of 8 for the exam. For student-workers, the same weighting applies. For the special period, the exam accounts for 100% of the final grade. Only explicitly indicated materials are allowed for consultation during exams.",
+  "bibliography": [
+    "G. Franklin, J. Powell, Abbas Emami-Naeini, Feedback Control of Dynamic Systems, Pearson, 8th Edition, 2019 (main)",
+    "Karl Astrom, Richard Murray, Feedback Systems: an Introduction for Engineers, Princeton University Press, 2008 (main)",
+    "Hassan K. Khalil, Control Systems: An Introduction, Michigan Publishing, 2023 (main)"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEEC21 Eng. Eletrotécnica e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__elec",
+  "degree": "Licenciatura Bolonha em Engenharia Eletrotécnica e de Computadores (LEEC21)",
+  "course_code": "Cont3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192292",
+  "source_language": "pt",
+  "source_sha256": "9830ed29ed44331d0e7f9b57c69d6b1a6384365604d2a686f81d71abb7472c3c",
+  "extracted_at": "2026-11-20T12:41:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

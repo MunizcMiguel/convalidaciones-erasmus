@@ -1,0 +1,84 @@
+{
+  "course_name_original": "architecture of computers (INF-35)",
+  "course_name_en": "Architecture of Computers",
+  "ects": 9.0,
+  "semester": "First Half-Year Cycle",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fondamenti di Informatica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowing and understanding the fundamentals of electronic computers, with particular reference to the RISC-V architecture and to contemporary parallel and heterogeneous architectures, from multicore systems to graphics processing units.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Being able to analyse the main computer architectures and to quantitatively evaluate their performance, to design simple combinational and sequential logic networks, and to write simple functions in RISC-V assembly language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquiring the methodological and operational tools needed to address, with independent and objective judgement, the typical problems of the design and development of software applications and of digital information processing, being able to assess the impact of architectural choices on the efficiency of the adopted solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The communication skills required of a future Computer Engineer concern in particular the ability to communicate information, ideas, problems and solutions to specialist and non-specialist audiences, in written and oral form, in Italian and in English, using the technical terminology of computer architecture appropriately.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "These skills are assessed by asking students to independently deepen the knowledge acquired in specific areas of interest, also through the consultation of technical documentation and reference literature.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction - Digital data and signals; information according to Shannon; binary encoding - Hamming redundant coding: error detection and correction - Functional description of the computer; the Von Neumann architecture - The components of the computer: memory, CPU, I/O and buses - History and evolution of computer and processor architecture",
+    "Logic networks - Combinational logic networks: Boolean algebra, truth tables and Karnaugh maps; analysis of logic networks; canonical synthesis; synthesis with the Quine-McCluskey method - RTL level: register-transfer description and programmable logic devices - Synchronous sequential logic networks: finite state machines; memory elements, D latches and flip-flops; synthesis examples; RAM memory",
+    "Instruction Set Architecture and assembly programming - Instructions and the fetch-decode-execute cycle - Instruction formats, instruction types and addressing modes - Introduction to the RISC-V architecture: programming model and register file - Elementary assembly constructs: arithmetic and logic operations, conditional branches, loops - Stack management, calling conventions and the C-assembly interface",
+    "Computer architecture - Performance: computers of the 21st century; performance computation and measurement; Amdahl's law; Moore's law; RISC and CISC architectures - The CPU: computer architecture and processor microarchitecture; buses and communication with peripherals; interrupts and interrupt service routines - Memories: the memory hierarchy; RAM, ROM and cache; technologies for main memory; memory access and performance computation - I/O peripherals: the hard disk, characterization and performance; disk organization and RAID controllers",
+    "Parallelism and modern architectures - Pipelining and hazard handling; branch prediction - Flynn's taxonomy - Multicore architectures and embedded systems - Introduction to GPUs: the SIMT execution model, memory organization, CPU-GPU comparison and an outline of heterogeneous computing"
+  ],
+  "teaching_methods": [
+    "Lectures with course notes provided by the instructor",
+    "Theoretical exercise sessions",
+    "Practical exercises on assembly language programming"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam, with multiple-choice questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination with questions on computer architecture theory",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "D. A. Patterson, J. L. Hennessy, \"Struttura e progetto dei calcolatori - Progettare con RISC-V\", Zanichelli, second Italian edition, 2023, also available in the original language under the title \"Computer Organization and Design: The Hardware/Software Interface - RISC-V Edition\".",
+    "A. Tanenbaum, \"Structured Computer Organization\", 6th edition, Pearson - also available in Italian under the title \"Architettura dei calcolatori: un approccio strutturale\", 6th edition.",
+    "J. L. Hennessy, D. A. Patterson, \"Computer Architecture: A Quantitative Approach\", 6th edition.",
+    "G. Bucci, \"Calcolatori elettronici: architettura e organizzazione\", McGraw-Hill.",
+    "C. Hamacher et al., \"Introduzione all'architettura dei calcolatori\", 3rd edition, McGraw-Hill (2012 edition onwards)."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia — Ingegneria Informatica (MO)",
+  "institution_slug": "ec_i_modena01__info",
+  "degree": "Laurea in Ingegneria Informatica (Mo) (Computer Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "INF-35",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=27350&ordinamento_aa=2022&af_percorso=10000&corso_cod=10296&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "781dd980046a4db494db2d954341234f74980805839ddcfe238bfd6ecd2f21ca",
+  "extracted_at": "2026-11-20T12:42:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

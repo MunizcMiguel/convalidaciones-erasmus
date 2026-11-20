@@ -1,0 +1,146 @@
+{
+  "course_name_original": "Mechanics II",
+  "course_name_en": "Mechanics II",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "mathematical analysis (differentiation, integration), linear algebra, trigonometry",
+    "differential equations (ordinary, linear) in the variables separation methods and the characteristic equation areas",
+    "mechanics in range of statics and kinematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "He is able to define key concepts in the dynamics of mechanical systems (momentum, angular momentum, force of inertia, work, kinetic and potential energy)",
+      "type": "knowledge",
+      "code": "PEK_W01"
+    },
+    {
+      "text": "He knows the basic concepts in the field of free and forced vibration of mechanical system with one degree of freedom (natural frequency, frequency characteristics, resonance)",
+      "type": "knowledge",
+      "code": "PEK_W02"
+    },
+    {
+      "text": "He knows the basic principles of dynamic (move of the center of mass, momentum, angular momentum, d'Alembert’s principle). He is familiar with the term of conservative system and with energy conservation law. He knows the dynamics equations of rotational motion and plane motion of a rigid body. Dynamics of the rigid body rotation about a fixed point",
+      "type": "knowledge",
+      "code": "PEK_W03"
+    },
+    {
+      "text": "He can calculate the velocity and acceleration in plane motion of a rigid body and in the relative motion and in the rotation about a fixed point. He can derive the equations of motion of a free and constrained material point for time-varying dynamic loads using the Newton's second principle.",
+      "type": "skill",
+      "code": "PEK_U01"
+    },
+    {
+      "text": "It can calculate the frequency of free vibration for systems with one degree of freedom of the linear viscous damping and without damping. He can derive the equations of motion and calculate its parameters (angular velocity and acceleration) for rigid body loaded by torque and moves rotation.",
+      "type": "skill",
+      "code": "PEK_U02"
+    },
+    {
+      "text": "He can determine the reaction force constraints under dynamic loads. It can calculate the kinetic and potential energy for complex mechanical systems. He is able to apply the energy conservation law to determine the differential equations of conservative system.",
+      "type": "skill",
+      "code": "PEK_U03"
+    },
+    {
+      "text": "He can search information and is able to review it critically.",
+      "type": "competence",
+      "code": "PEK_K01"
+    },
+    {
+      "text": "He can objectively evaluate the arguments as well as rationally explain and justify the own point of view.",
+      "type": "competence",
+      "code": "PEK_K02"
+    },
+    {
+      "text": "He can observe customs and rules of academic community.",
+      "type": "competence",
+      "code": "PEK_K03"
+    }
+  ],
+  "syllabus_topics": [
+    "Program, requirements, literature. The basic principles of classical mechanics. Kinematics and dynamics. Models of discrete and continuous dynamical systems in mechanics.",
+    "A brief reminder of the kinematics of the material from the previous semester. Addendum: Kinematics of the rigid body rotation about a fixed point.",
+    "The Newton's second law (applicable in the dynamics of the free and constrained point).",
+    "The vibrations of the one-mass single degree of freedom system with the linear viscous damping and without damping. Complex notation. Free vibrations.",
+    "Harmonically forced vibration, frequency characteristics, resonance. Dynamic and kinematic excitations.",
+    "The forces of inertia and d'Alembert’s principle. Momentum, and momentum principle. Angular momentum and angular momentum principle.",
+    "The definition of work. Elementary work. The kinetic and potential energy. The principle of work and kinetic energy equivalence.",
+    "The principle of conservation of energy. Conservative systems. Examples of applications.",
+    "Multi-mass systems. Constraints, degrees of freedom. The use of second Newton's laws in multi-mass constrained material systems.",
+    "The principle of the center of mass motion and the principle of momentum in multi-mass systems.",
+    "Total angular momentum and angular momentum principle in the multi-mass systems. Introduction to the dynamics of a rigid body. The equation of the dynamics of a rigid body rotation.",
+    "Using the principle of angular momentum and the equation of rotational dynamics in determining the frequency of free vibration of complex systems. Equivalent mass and stiffness.",
+    "Determination of the dynamic response in a rotating motion. The method of reduction of inertial forces.",
+    "Angular momentum in the plane motion of a rigid body and dynamics of plane motion. The kinetic energy of rigid body in a general motion. The König's theorem.",
+    "Determination of the differential equations of motion and natural frequency of the dynamical conservative systems based on the energy conservation law.",
+    "Practical problems of kinematics of particle, rotational motion and plane motion of rigid body.",
+    "Practical problems of kinematics of relative motion of particle.",
+    "Solving examples of tasks of Kinematics of rigid body rotation about a fixed point.",
+    "Solving examples of tasks with dynamic free massl particle using The Newton's second law (rectilinear and curvilinear motion)",
+    "The Newton's second law (applicable in the dynamics of the constrained massl particle).",
+    "Test 1: Kinematics of massl particle and rigid body. The Newton's second law application in the derivation of the equations of motion of massl particle.",
+    "Examples of tasks from free vibrations of simple mechanical systems with one degree of freedom (determination of free vibration frequencies and the motion equations)",
+    "Examples of tasks from forced vibration of simple mechanical systems with one degree of freedom.",
+    "Examples of the tasks of the dynamics of particle (momentum principle, the principle of conservation of energy)",
+    "Examples of the tasks of the dynamics and rotational motion of the rigid body using momentum principle, angular momentum principle and mass center movement rule.",
+    "Dynamic force responses in the supports of rotated body.",
+    "Equations of motion for rigid body in plane movement.",
+    "The kinetic energy of a rigid body in a general motion. The König's theorem. Determination of the differential equations of motion of the dynamical conservative systems based on the energy conservation law.",
+    "Test 2: Dynamics of the particles system and rigid body, vibrations of mechanical systems with one degree of freedom.",
+    "Passing talks, last chance tests."
+  ],
+  "teaching_methods": [
+    "Traditional lecture with the use of transparencies and slides.",
+    "Calculation exercises.",
+    "Tutorials.",
+    "Self study - self studies and preparation for examination."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "oral-writing exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "test 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "oral answers (F1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "test 2",
+      "weight_percentage": null
+    },
+    {
+      "method": "oral answers (F2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the lecture, the evaluation P is equal to F1 (oral-writing exam). For the classes, the evaluation P is calculated as (F1+F2):2, where F1 includes test 1 and oral answers for PEK_U01, PEK_U02, PEK_U03, and F2 includes test 2 and oral answers for PEK_K01, PEK_K02, PEK_K03.",
+  "bibliography": [
+    "J.L. Meriam, L.G. Kraige, Engineering Mechanics, volume 1, Statics, John Wiley & Sons, Inc., New York, 1998",
+    "J.L. Meriam, L.G. Kraige, Engineering Mechanics, volume 2, Dynamics, John Wiley & Sons, Inc., New York, 1998",
+    "Mary Lunn, A First Course in Mechanics, Oxford Science Publications, Oxford 1991",
+    "Philip Dyke, Roger Whiteworth, Guide to Mechanics, MacMillan Press, London 1992",
+    "Herbert Goldstein, Classical Mechanics, Addison-Wesley Publishing Company, London"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Politechnika Wroclawska",
+  "institution_slug": "ec_pl_wroclaw02",
+  "degree": "Mechanical Engineering and Machine Building (I level, full-time)",
+  "course_code": "MMM031018",
+  "academic_year": "2026/2027",
+  "source_url": "https://wm.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkFUBhQAykrCDILDWdbXxMbFmFBWxslAxt1FSVcVnRKCkI8VQIDJCUODBYAKg8TXAMIOAZK/_users/code_BAlkUKkpKNVI_VBV9XFNBFEZcFiw5Qx0O/w10/karty_kursow/mbm_en_st_i.pdf",
+  "source_language": "en",
+  "source_sha256": "a95c4b9c40bef79198d9b913005ebec6d79a3e024a95f4825cd7eef0a35c0bb3",
+  "extracted_at": "2026-11-18T10:05:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

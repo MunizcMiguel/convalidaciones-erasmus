@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Laboratorio Di Programmazione",
+  "course_name_en": "Programming Laboratory",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Provide the methodological, theoretical, and practical skills for object-oriented, generic, concurrent, and network programming necessary for the correct development of small and medium-sized software projects using C++ and Python programming languages.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students must demonstrate knowledge and understanding of programming problems in C++ and Python applications. The educational path aims to provide students with the knowledge and methodological, theoretical, and practical tools necessary to recognize, analyze, and solve problems related to the development and testing of complex applications. This allows students to master the development of advanced software projects in C++ and Python.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students must demonstrate the ability to solve problems concerning procedural and object-oriented programming, as well as data analysis, using the methodological, theoretical, and practical advanced programming skills presented in the course. Students must be able to develop object-oriented applications in C++, as well as concurrent, network, and data analysis applications in Python.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part I: Introduction to programming - Software lifecycle.",
+    "Analysis, design, programming, verification and validation, maintenance.",
+    "Design/programming paradigms (procedural, object-oriented, generic).",
+    "Recursion.",
+    "Advanced Procedural Programming: Variables and pointers, reference, and storage classes in C++; functions and parameter passing, Conditional statements and loops, User-defined types, Enumerations and Arrays.",
+    "Part II - Object-oriented programming in C++ - Introduction to abstract data types.",
+    "The OO paradigm.",
+    "Encapsulation and Information Hiding.",
+    "Classes and Objects.",
+    "Inheritance.",
+    "Polymorphism.",
+    "Operators and operator overloading.",
+    "Casting in C++.",
+    "Exception handling.",
+    "Exception handling in C++.",
+    "Generic programming in C++: Template Classes and Functions; Derivation and Templates.",
+    "The C++ standard library (STL): Containers; Iterators; Generic algorithms, the concept of streams for IO operations.",
+    "Part III - From C++ to Python. Introduction to Python; Variables, expressions and statements; Values and data types; Main constructs; Strings, Lists, Tuples, and Dictionaries; OOP in Python; Files; Debugging; Unit Testing.",
+    "Part IV - Advanced Aspects of Python Programming - Principles of concurrent programming.",
+    "Process and thread.",
+    "Concurrency and parallelism.",
+    "Race condition.",
+    "Creating a Python thread.",
+    "Mutual Exclusion and Python Synchronization Mechanisms.",
+    "Network programming.",
+    "The Client-Server model for distributed applications.",
+    "Further network communication libraries and techniques.",
+    "Data Science in Python (the pandas, matplotlib, numpy, scipy libraries)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Guided exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Computer-based project work in C++, Python",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The outcome of the written exam is binding for access to the oral exam. There is also the possibility of planning interim tests that may substitute the written exam.",
+  "bibliography": [
+    "C. Savy: Da C++ a UML: guida alla progettazione – McGraw-Hill, 2000.",
+    "Tony Gaddis. Introduzione a Python. 5° ed. – Pearson, 2021",
+    "Paul J. Deitel, Harvey M. Deitel. Introduzione a Python. Per l'informatica e la data science. Pearson, 2021",
+    "Python: How to Think Like a Computer Scientist interactive edition https://runestone.academy/runestone/books/published/thinkcspy/index.html",
+    "Allen Downey. Think Python - https://greenteapress.com/thinkpython2/thinkpython2.pdf"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "laboratorio_di_programmazione",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "bd093bf136aafeb94baef755c823a767baae4ee4ab6f7708fab1fc1eded320c1",
+  "extracted_at": "2026-11-20T08:19:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

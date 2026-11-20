@@ -1,0 +1,195 @@
+{
+  "course_name_original": "Programación",
+  "course_name_en": "Programming",
+  "ects": 6.0,
+  "semester": "2nd Quarter",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic computer literacy",
+    "Familiarity with graphic user interfaces of modern operating systems",
+    "Proficiency in office applications and communication services"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Basic knowledge on the use and programming of computers, operating systems, databases and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "ECB-3"
+    },
+    {
+      "text": "Understand and possess knowledge.",
+      "type": "knowledge",
+      "code": "CB-1"
+    },
+    {
+      "text": "Application of knowledge.",
+      "type": "skill",
+      "code": "CB-2"
+    },
+    {
+      "text": "Basic professional knowledge.",
+      "type": "knowledge",
+      "code": "UAL-1"
+    },
+    {
+      "text": "Problem-solving ability.",
+      "type": "skill",
+      "code": "UAL-3"
+    },
+    {
+      "text": "Teamwork.",
+      "type": "competence",
+      "code": "UAL-6"
+    },
+    {
+      "text": "Know and identify the main hardware and software components of a computer.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the syntax of a high-level programming language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know algorithms that solve classic problems (sorting, searching).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use a high-level programming language integrated development environment (IDE).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the capacity for abstraction and discipline as a basis for analyzing automatic information processing problems and decomposing them into manageable parts using modular design techniques and proposing a solution architecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design algorithms that solve the different parts of a problem using detailed design techniques (structured programming).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Represent complex information models by appropriate selection and combination of data structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Build programs (implement algorithms that solve different problems in a high-level programming language).",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of computer science",
+    "Computer and calculations. Structure",
+    "Information representation",
+    "Algorithms and programming languages",
+    "Fundamentals of structured programming",
+    "Program development workflow",
+    "Data types in programming",
+    "Data manipulation in C",
+    "Style guidelines for C language programming. Variables",
+    "Program control structures",
+    "Algorithm representations",
+    "Assignment instruction",
+    "Input and output instructions",
+    "Structured programming theorem - Control instructions",
+    "Sequential instruction",
+    "Program quality criteria",
+    "Selective or conditional instruction",
+    "Iterative or repetition instruction",
+    "Random numbers",
+    "Data collections",
+    "Classification of data structures",
+    "Indexed collections. Vectors and matrices/tables",
+    "Strings and string operations",
+    "Structured collections. Records",
+    "Beyond vectors. Additional data types in C.",
+    "Functions. Modular Design",
+    "Modular decomposition",
+    "Types of modules",
+    "Communication between modules",
+    "Recursion",
+    "Functions as parameters. Pointers to functions",
+    "Separate compilation",
+    "main function arguments",
+    "Solved cases",
+    "Data abstractions",
+    "Data persistence. Files",
+    "Concept of data persistence",
+    "File types and basic operations",
+    "Opening and closing files",
+    "Reading and writing to files",
+    "PR1 Fundamentals of working with GitHub",
+    "PR2-LAB Integrated programming environment / Programming with C in VS-Code",
+    "PR3 Sequential control instruction",
+    "PR4-LAB Conditional control instruction",
+    "PR5 Conditional control instruction",
+    "PR6-LAB Repetition control instruction",
+    "PR7-LAB Repetition control instruction",
+    "PR8 Control instructions",
+    "PR9-LAB Validation and closing of previous practices",
+    "PR10-LAB Data Structures",
+    "PR11-LAB Functions",
+    "PR12 Data Structures",
+    "PR13-LAB Functions",
+    "PR14 Functions",
+    "PR15-LAB Modular design",
+    "PR16 Data management",
+    "PR17-LAB Validation and closing of previous practices"
+  ],
+  "teaching_methods": [
+    "Lectures/participative classes: Transmission of knowledge, fostering critical thinking",
+    "Theoretical-practical classes: Problem solving, program design examples",
+    "Teamwork: Cooperative teamwork",
+    "Laboratory tasks: Program construction (design, coding, and testing)",
+    "Tutorials: Resolution of doubts on theoretical/practical aspects, debugging errors in student-built programs",
+    "Autonomous study: Study of theoretical content and presented examples",
+    "Autonomous work: Exercise completion",
+    "Autonomous work: Problem solving (algorithm design)",
+    "Autonomous work: Program implementation (coding and testing)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam",
+      "weight_percentage": 85.0
+    },
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Student self-assessment",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "The course grade (100 points) is based on a final exam (85 points), laboratory practices (10 points), and student self-assessment (5 points). The grading formula is: Course Grade = Exam + Practices + Self-assessment. To pass, the total score must exceed 50 points, with a minimum of 5 points in Practices ('Apto') and a minimum of 35 points in the Exam. If minimums are not met, the final grade will be the minimum of the practice and exam scores. For the single final evaluation and extraordinary calls, all laboratory practices must be completed 100% and defended, and an exam (potentially including practical exercises in the laboratory) must be taken.",
+  "bibliography": [
+    "Del Águila Cano, I. M. - (2024) - Lecciones de Programación en C para estudiantes de ingeniería - Editorial Universidad de Almería",
+    "García Lazaro, J. R., del Águila Cano, I. M., & Guirado Clavijo, R. - (2022) - Ejercicios de programación. Cuaderno 1. Programación estructurada - Editorial Universidad de Almería",
+    "Kernighan, B.; Ritchie, D. - (1991) - El Lenguaje de Programación C - Prentice Hall",
+    "Deitel, H.M.; Deitel, P.J. - (2012) - Como programar en C/C++ y Java - Prentice-Hall",
+    "Alvarado Aldea, I., Maestre Torreblanca, J. M., Vivas Venegas, C., & Zafra Cabeza, A. - (2017) - 100 Problemas resueltos de programación en lenguaje C para ingeniería - Paraninfo"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "44101107",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/44101107/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "c7e94c65405ae673010412755960fbfd1b855a9e80ba2dae6c38d733e017df00",
+  "extracted_at": "2026-11-13T21:22:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

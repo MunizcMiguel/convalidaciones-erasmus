@@ -1,0 +1,102 @@
+{
+  "course_name_original": "LINEAR ALGEBRA (625AA)",
+  "course_name_en": "LINEAR ALGEBRA",
+  "ects": 6.0,
+  "semester": "Primo Ciclo Semestrale",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic mathematics, in particular polynomials, analytic geometry and trigonometry."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have acquired the basic notions of linear algebra.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to perform the most important verifications and determine the most relevant quantities in linear algebra and its applications to geometry.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop critical thinking towards the basic notion of linear algebra and consequently be able to tackle and solve simple problems in linear algebra in an independent way.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fields and vector spaces.",
+    "Vector subspaces.",
+    "Linear dependence and linear independence. Generators. Bases and components of a vector with respect to a basis. Dimension of a vector space and a vector subspace. Span of a set of vectors.",
+    "Sum and intersection of vector subspaces. Grassmann formula. Direct sum of subspaces and components of a vector with respect to a direct sum.",
+    "Linear applications. Matrix associated with a linear application after choosing a basis in the domain and codomain.",
+    "Operations between matrices: sum, product by a scalar, product. Transpose and inverse of a matrix. Computing the inverse matrix through the Gauss-Jordan algorithm and the matrix of cofactors.",
+    "Change-of-basis matrix. Matrix similarity.",
+    "Kernel and image of a linear application. Rank-nullity theorem. Relations between injectivity, surjectivity, and dimensions of domain and codomain for linear applications.",
+    "Determinant of a matrix: definition, main properties, existence, uniqueness. Computation through the Gauss algorithm and Laplace expansion. Determinant of the transpose, the inverse, and the product of matrices.",
+    "Rank of a matrix. Computation of the rank through minors and the Gauss algorithm.",
+    "Eigenvalues, eigenvectors, eigenspaces. Algebraic and geometric multiplicity of an eigenvalue.",
+    "Minimal polynomial, characteristic polynomial. Relations between coefficients of the characteristic polynomial, trace, determinant, and eigenvalues.",
+    "Diagonalization over the field of real and complex numbers. Symmetric applications and symmetric matrices. Spectral theorem.",
+    "Canonical scalar product in R^n. Norm and distance.",
+    "Orthogonal and orthonormal bases. Gram-Schmidt orthogonalization process.",
+    "Orthogonal matrices.",
+    "Orthogonal of a subspace. Orthogonal projections onto subspaces.",
+    "Quadratic forms and corresponding symmetric matrices. Definition and signature.",
+    "Methods for determining the signature of a quadratic form: completing the square, sign of the eigenvalues, Sylvester's method (signs of minors), Descartes' method (sign of the coefficients of the characteristic polynomial).",
+    "Geometric vectors in the plane, in the space, and more generally in R^n.",
+    "Analytic geometry in the plane. Cartesian and parametric representation of lines. Angles and distance.",
+    "Analytic geometry in space. Cartesian and parametric representation of lines and planes. Angles and distance between lines and planes.",
+    "Cartesian and parametric representation of affine subspaces of R^n.",
+    "Affine transformations and isometries in R^n.",
+    "Writing a linear system in terms of matrices and vectors. Interpretation in terms of linear combinations, Span, and linear applications.",
+    "General structure of the set of solutions of a (homogeneous and non-homogeneous) linear system.",
+    "Matrices in reduced row echelon form. Solution of a linear system through the Gauss algorithm.",
+    "Solvability of a linear system and rank: Rouch\n00e9-Capelli theorem.",
+    "Cramer's method for linear systems."
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Problem-solving exercises and thorough analysis",
+    "Discussions of exercise solutions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written test - first part (simple questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test - second part (problems with detailed solutions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists primarily of a written test divided into two parts. The first part consists of some simple questions (1 hour), and the second part consists of two or three problems requiring detailed solutions (2 hours). In some cases, an oral exam is also planned, with more specific information to be provided by the course team.",
+  "bibliography": [
+    "M. Abate, \"Geometria analitica con elementi di algebra lineare\", III edizione, McGraw-Hill Italia, Milano, 2015",
+    "M. Abate, C. de Fabritiis, \"Esercizi di geometria\", II edizione, McGraw-Hill Italia, Milano, 2021",
+    "B. Martelli, Geometria e Algebra Lineare, (disponibile online)"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "625AA",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=53295_702875_74317&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "3b2bef28921eaf52a32cdd608024e27f7607ce27c6f5de32345e6b7703e51a18",
+  "extracted_at": "2026-11-20T09:25:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Communication des systèmes informatiques",
+  "course_name_en": "Communication of Computer Systems",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Know how to create a simple computer program (in C, Python, or other)",
+    "Know the basics of electronics: voltage, current, digital signals, serial/parallel links",
+    "Know how to use an oscilloscope is a plus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Describe the fundamental principles of communication between computer systems, based on the OSI model.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify the characteristics and functions of the different layers of the OSI model, particularly the physical, data link, and transport layers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the operation of common communication protocols (I2C, SPI, CAN, UART, TCP/IP…) and their application domains.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyze a digital data exchange by breaking down a binary frame according to its structure (control bits, data, address, etc.).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret electrical signals transmitted over a physical link using tools such as an oscilloscope or logic analyzer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement a simple communication between two electronic devices by correctly configuring hardware and software parameters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Diagnose communication issues related to the physical layer or the lower layers of the OSI model (synchronization errors, format issues, voltage problems, etc.).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Communicate orally or in writing about computer communication concepts, using appropriate technical vocabulary for a beginner or semi-technical audience.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Digital Communication and the OSI Model",
+    "Communication challenges in intelligent systems (embedded, IoT, network)",
+    "Presentation of the OSI model and its 7 layers",
+    "Focus on the lower layers: physical, data link",
+    "Introduction to the concept of data frames and encoding methods (NRZ, Manchester, etc.)",
+    "Communication Protocols and Physical Transmission",
+    "Study of hardware protocols: UART, I2C, SPI",
+    "Frame structure, synchronization, signal transmission on physical lines",
+    "Key issues: collisions, synchronization, errors, redundancy (CRC)",
+    "Upper Layers, Transport and Security",
+    "Overview of layers 3 to 7: routing (IP), transport (TCP/UDP), application (HTTP, MQTT)",
+    "Flow control, acknowledgments, packet numbering",
+    "Introduction to encryption, integrity, and authentication (SSL/TLS, certificates)",
+    "Serial Communication – UART and I2C",
+    "Implementation of a UART link between microcontrollers",
+    "Observation of data frames using an oscilloscope or logic analyzer",
+    "Transmission and reception of encoded data",
+    "Introduction to I2C: master/slave communication, analysis of an I2C frame",
+    "Embedded Networks – Introduction to the CAN Bus",
+    "Configuration of a simple CAN network between two devices",
+    "Observation of CAN frames (identifiers, data, control bits)",
+    "Detection and interpretation of transmission errors",
+    "Discussion on the relevance of CAN in industrial or automotive environment"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Practical work (TP)",
+    "Group Exploration (Acquisition)",
+    "Restitution and Teaching by Peers",
+    "Regulation and Refinement by the Teacher",
+    "Capitalisation of Knowledge"
+  ],
+  "workload_hours_total": 26.0,
+  "workload_hours_contact": 11.0,
+  "assessment_methods": [
+    {
+      "method": "RAP1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*RAP1)/1.",
+  "bibliography": [
+    "\"Réseaux – Notions fondamentales\" – Jean-Yves Migeon (Dunod)",
+    "\"Réseaux informatiques\" – Andrew S. Tanenbaum & David Wetherall (Pearson)",
+    "\"Les réseaux pour les nuls\" – Doug Lowe (First Interactive)",
+    "\"Systèmes embarqués et interfaces\" – Michel Gourgues (Dunod)",
+    "\"Protocoles de communication pour l’embarqué\" – Frédéric Pétrot, Alain Greiner (Éditions Ellipses)",
+    "\"Bus de terrain industriels\" – Jean-Philippe Gorce (Éditions Cépaduès)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0875SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "5a53aa22a0d165c18feecbffcf7249375352ba41b3cb75d1ff8a54b8c025c795",
+  "extracted_at": "2026-11-18T09:52:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Introduction to natural language processing",
+  "course_name_en": "Introduction to Natural Language Processing",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Formal languages",
+    "Data structures",
+    "Graphs Algorithms",
+    "Programming skills in a high level programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary knowledge for literature review.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to identify complex problems and examine related issues to develop solving options and implement solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to choose and use programming paradigms (procedural, object-oriented, functional) to develop software applications appropriate for the specific domain of the application being developed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to choose and use existing modules and environments for application development.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to write a scientific/technical report.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to define/identify/understand research problems in computer science.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills to use research support tools.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Natural Language Processing (NLP): stages, domains, applications.",
+    "Part of speech tagging",
+    "WordNet and RoWordNet - knowledge structure, semantic relations, lexical relations",
+    "Text representation and natural language models. Text classification.",
+    "Syntactic parsing - grammar rules for English - sentence level construction; - Cocke-Kasami-Yonger (CKY) algorithm;",
+    "Hidden Markov Model - Markov chains, Hidden Markov Model(HMM); - three canonical problems associated with HMM - the forward algorithm; Viterbi algorithm.",
+    "Keyword extraction - TextRank and RAKE algorithms",
+    "Document summarization - approaches based on clustering and graphs.",
+    "Evaluation - Students’ presentations of NLP tasks and tools.",
+    "Sentiment analysis - opinion mining in social media - emotion analysis in literature",
+    "Anaphora resolution - Lapin and Lease algorithm - Mitkov’s algorithm",
+    "Word Sense Disambiguation - dictionary and graph-based approaches.",
+    "Evaluation - Students’ presentations of the practical projects",
+    "Study of platforms and libraries from different programming languages that offer preprocessing functions for texts in Romanian and English languages.",
+    "Study of the LLMs (large language models) for English and Romanian languages. Work with WordNet, Romanian WordNet and WordNetSimilarity. Work with dedicated tools for keyword extraction, summarization, anaphora resolution, sentiment analysis.",
+    "Identify practical tasks in Romanian NLP. Choose the NLP task to be solved, study different approaches, choose the approach that will be implemented. Search for the input data specific to the chosen task.",
+    "Students’ presentations of a NLP task/ tool.",
+    "Discussions about the implementation of an NLP tool. Develop resources for Romanian NLP tasks",
+    "Students presentations of the practical projects."
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, debate, dialogue",
+    "Documentation on electronic platforms, explanation, dialogue, case studies"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical report – presentation of a NLP task.",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical project - implementation of a NLP tool.",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Develop resources for Romanian NLP tasks",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Activity during courses and seminars (Active attendance)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade must be at least 5 (from a scale of 1 to 10).",
+  "bibliography": [
+    "J.ALLEN : Natural language understanding, Benjamin/Cummings Publisher, 2nd ed., 1995.",
+    "E. CHARNIAK: Statistical language learning, MIT press, 1996.",
+    "L. DENG, Y. LIU: Deep learning in Natural Language Processing, Springer Verlag, Singapore, 2018",
+    "D.FEHRER et al: Description logics for natural language processing. In Proc. of the 1994 Description Logic Workshop (DL’94), 1994.",
+    "H. HELBIG: Knowledge Representation and the Semantics of Natural Language, Springer, 2006.",
+    "D.JURAFSKY, J.MARTIN: Speech and language processing, Prentice Hall, 2000.",
+    "C.MANNING, H.SCHUTZE: Foundation of statistical natural language processing, MIT, 1999.",
+    "R. MITKOV(ed): The Oxford Handbook of Computational Linguistics, Oxford University Press, 2003.",
+    "D. TATAR: Inteligenta artificiala. Aplicatii in prelucrarea limbajului natural, Editura Albastra, Microinformatica, 2003, ISBN 973-650-100-01.",
+    "S. VAJJALA, B. MAJUMDER, A. GUPTA, H. SURANA: Practical Natural Language Processing. A Comprehensive Guide to Building Real-World NLP Systems, O’REILLY. 2020.",
+    "Rada Mihalcea: www.cs.unt.edu/~rada/downloads.html",
+    "Resurse lingvistice in limba romana: www.racai.ro"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE8151",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE8151_en_lupea_2025_9372.pdf",
+  "source_language": "en",
+  "source_sha256": "5da3c05f4697bab153fc341bba68b119f195c59b4021ff2e14d8d1aade0767e7",
+  "extracted_at": "2026-11-20T09:08:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

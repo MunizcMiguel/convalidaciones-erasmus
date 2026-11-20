@@ -1,0 +1,112 @@
+{
+  "course_name_original": "OPERATING SYSTEMS (IN/0108)",
+  "course_name_en": "OPERATING SYSTEMS",
+  "ects": 5.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "deep knowledge of the organization of modern computer architectures",
+    "good programming capabilities using the C language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and understand the architecture of the different types of operating systems in terms of their components, and the related functionalities, related to the different devices where they are deployed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the main characteristics of the UNIX/Linux operating system families.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the main characteristics of mobile and embedded operating system, and, in particular, of the Android operating system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the basic concepts behind virtualization technologies and cloud computing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the main issues that need to be analyzed for designing and managing an operating system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use the basic operating system library functions used in application programming for managing processes and threads.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use the techniques to correctly configure an operating system according to the device and the application scenario at hand.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose the most apt operating system given the set of requirements related to the application scenario at hand.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Explain in an organic way the dependences among the different modules of an operating systems, and the dependences of these modules on the device where they have been deployed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the technical documentation that is published by developers and producers of operating systems, especially the one related to open source projects.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Main components of modern operating systems",
+    "The Linux OS: system structure, file system organization, basic commands, shell scripting basics",
+    "Processes and threads",
+    "Process Scheduling",
+    "Mutual exclusion, process synchronization and deadlock",
+    "Memory management",
+    "Input/Output systems, file system and disk management",
+    "Operating System security",
+    "Virtualization and cloud computing",
+    "Elements of mobile and embedded operating systems"
+  ],
+  "teaching_methods": [
+    "lectures with electronic presentations (PowerPoint or similar)",
+    "lab exercises using the Linux operating systems",
+    "lab exercises on various aspects of modern operating systems and virtualization platforms",
+    "a seminar or a site visit"
+  ],
+  "workload_hours_total": 50.0,
+  "workload_hours_contact": 50.0,
+  "assessment_methods": [
+    {
+      "method": "written test (open questions, numerical exercises, programming exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "short oral test (optional, to increase final mark)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The written test will be considered valid if an answer is provided to each question. For each exercise/question, a maximum score is assigned, and evaluated from 0 to the maximum based on correctness and severity of errors. The final mark is the sum of points assigned, with a total of 32 points for '30 cum laude'. It is possible to increase the final mark with a short oral test.",
+  "bibliography": [
+    "Andrew S. Tanenbaum - Herbert Bos Modern Operating Systems, 5th edition Pearson - ©2022 ISBN 9780137618873"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IN/0108",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=18651&ordinamento_aa=2022&af_percorso=2&corso_cod=11037&corso_aa=2023",
+  "source_language": "en",
+  "source_sha256": "2b14476530642569a17faed12603a3e34d52691ab7a2946c7e868749562f548c",
+  "extracted_at": "2026-11-20T12:43:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

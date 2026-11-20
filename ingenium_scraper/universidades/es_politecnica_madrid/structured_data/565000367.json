@@ -1,0 +1,174 @@
+{
+  "course_name_original": "FABRICACION ASISTIDA POR ORDENADOR",
+  "course_name_en": "Computer-Aided Manufacturing",
+  "ects": 3.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "INGENIERIA GRAFICA (565000344)",
+    "Basic knowledge of the theoretical fundamentals of chip removal manufacturing processes.",
+    "TECNOLOGIAS DE FABRICACION (565000342)",
+    "Basic knowledge of CAD and interpretation of technical documentation.",
+    "EXPRESION GRAFICA Y DISEÑO ASISTIDO POR ORDENADOR (565000315)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess the ability to design, develop, implement, manage and improve products, systems and processes in different industrial fields, using appropriate analytical, computational or experimental techniques.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Apply acquired knowledge to identify, formulate and solve problems in broad contexts, being able to integrate them while working in multidisciplinary teams.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Understand the impact of engineering on the environment, the sustainable development of society and the importance of working in a professional and responsible environment.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Possess learning skills that allow continuous lifelong learning for adequate professional development.",
+      "type": "skill",
+      "code": "CG6"
+    },
+    {
+      "text": "Incorporate ICT and Industrial Engineering technologies and tools into their professional activities.",
+      "type": "skill",
+      "code": "CG7"
+    },
+    {
+      "text": "Organization and planning of projects and human teams. Teamwork and leadership skills.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Applied knowledge of manufacturing systems and processes, metrology and quality control.",
+      "type": "knowledge",
+      "code": "CE26"
+    },
+    {
+      "text": "Creativity.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Knowledge and practical application of automated programming of machine tools equipped with numerical control systems in CAD/CAM environments.",
+      "type": "skill",
+      "code": "RA67"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to automatic manufacturing systems",
+    "Previous concepts",
+    "Historical evolution and advances",
+    "Characteristics of Numerical Control Machine Tools",
+    "Interpolation methods",
+    "Control, storage and transport devices",
+    "Machining centers",
+    "Introduction to automated quality control centers",
+    "Analysis of milling operations",
+    "Introduction to milling",
+    "Milling and drilling methods",
+    "Characteristics of milling and drilling tools",
+    "Machining strategy",
+    "Selection of machining parameters and tools",
+    "Tooling of NC machines",
+    "Manual programming of NC milling machine",
+    "Basic programming of milling machines with numerical control",
+    "Advanced programming of milling machines with numerical control",
+    "Parametric programming of milling machines with numerical control",
+    "Automatic programming of NC milling machine",
+    "Introduction",
+    "CAD/CAM systems",
+    "APT language",
+    "CAM software: preprocessing",
+    "CAM software: processing",
+    "Introduction to CIM systems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory practices",
+    "Individual CAD work",
+    "Individual CNC work",
+    "Individual CAM work",
+    "Written exams",
+    "Computer-based practical tests",
+    "Collaborative activities",
+    "Simulation software",
+    "Moodle platform",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Individual CAD Work (T1)",
+      "weight_percentage": 3.0
+    },
+    {
+      "method": "Individual CNC Work (T2)",
+      "weight_percentage": 13.5
+    },
+    {
+      "method": "Progressive Test 1",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Individual CAM Work (T3)",
+      "weight_percentage": 13.5
+    },
+    {
+      "method": "Progressive Test 2",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Global CNC Test",
+      "weight_percentage": 22.5
+    },
+    {
+      "method": "Global CAM Test",
+      "weight_percentage": 22.5
+    },
+    {
+      "method": "Attendance to CNC Practical Sessions",
+      "weight_percentage": 0.0
+    },
+    {
+      "method": "Attendance to CAM Practical Sessions",
+      "weight_percentage": 0.0
+    },
+    {
+      "method": "Extraordinary Call Exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, progressive evaluation leads to a final grade (NMC) calculated as 0.30·CPF + 0.25·CPP + 0.45·CPO. To pass this path, students must attend mandatory lab practices, complete the mandatory Fabrication Project, score at least 4/10 in each Progressive Test (PP1 & PP2), score at least 4/10 in the combined practical computer tests (CPO), and achieve an overall NMC of 5/10 or higher. If progressive evaluation requirements are not met, students enter a global evaluation path, where previously passed progressive test scores are retained, and remaining parts are recovered. The NMC for global evaluation is 0.30·CPF + 0.125·CPG1 + 0.125·CPG2 + 0.45·CPO, requiring mandatory lab attendance, completion of the Fabrication Project, a minimum of 4/10 in CPO, and an overall NMC of 5/10 or higher. For the extraordinary call, a single final written and computer-based exam accounts for 100% of the final grade, requiring mandatory lab attendance and a minimum of 5/10 on the exam to pass.",
+  "bibliography": [
+    "CHANG, T.C., WYSK, R. A., WANG, H. P,\"Computer-aided manufacturing\", 3rd ed., Pearson Prentice Hall, Upper Saddle River, 2006.",
+    "CRUZ TERUEL, F. Control numérico y programación II: sistemas de fabricación de máquinas automatizadas: curso práctico, 2ª ed. Barcelona: Marcombo, 2010.",
+    "FAGOR (Ed.), Manuales de programación de control numérico Fagor 8025/8050.",
+    "GARIJO GÓMEZ, E. Diseño y Fabricación con CATIA v5. Módulos CAM. Mecanizado por arranque de viruta, Madrid: VisionLibros, 2012.",
+    "GROOVER, M. P. Automation, Production System, and Computer-Integrated Manufacturing, 4th Edition, London: PEARSON, 2015.",
+    "KALPAKJIAN, S,\"Manufactura Ingeniería y Tecnología\", Prentice Hall International, México, 2002.",
+    "SANDVIK COROMANT, El Mecanizado Moderno - Manual práctico, Sandviken: Sandvik Coromant, Dpto. de Ediciones Técnicas, 1994.",
+    "SEBASTIÁN PÉREZ, M.A., LUIS PÉREZ, C.J., \"Programación de máquinas-herramienta con control numérico\", UNED, Madrid, 1999."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000367",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000367_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "a5ce7a1bec4e1b098b8cd38fc788686789fda3e772fa53976f34949987d82088",
+  "extracted_at": "2026-11-13T20:32:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

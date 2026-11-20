@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Métodos Numéricos",
+  "course_name_en": "Numerical Methods",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Basic knowledge of Calculus",
+    "Basic knowledge of Fundamentals of Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the different types of errors that can be made in the use of numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision, and the computational cost.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Assess and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Describe, analyze, and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Numerically solve problems of interpolation, one-dimensional data fitting, and function approximation.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use formulas to approximately obtain the derivative and the definite integral of a function.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Describe, use, and evaluate basic numerical methods for solving differential equations.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite arithmetic. Error analysis.",
+    "Concepts of error",
+    "Computer arithmetic",
+    "Error analysis",
+    "Numerical solution of non-linear equations.",
+    "Fixed-point method",
+    "Interval-based methods",
+    "Newton's method",
+    "Numerical methods for solving linear and non-linear systems.",
+    "Direct methods",
+    "Iterative methods",
+    "Non-linear systems",
+    "Interpolation. Approximation. Data fitting.",
+    "Interpolation",
+    "Function approximation",
+    "Data fitting",
+    "Numerical differentiation and integration.",
+    "Numerical differentiation",
+    "Simple quadrature rules",
+    "Composite quadrature rules",
+    "Numerical solution of differential equations.",
+    "Initial value problems: One-step methods."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Block - Partial Exam 1 (T1)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Theoretical Block - Partial Exam 2 (T2)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical Block - Laboratory practices",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Theoretical Block - Final Exam (Theory)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical block requires a minimum score of 3.5 out of 10. Students can choose between two partial exams (T1 and T2) or a single final theory exam. If using partial exams, T1 and T2 each weigh 50% of the theoretical block grade, and T2 can only be taken if T1's minimum score is met. The practical block also requires a minimum score of 3.5 out of 10, assessed during laboratory practices. The final grade is calculated as 0.7 * Theory + 0.3 * Practices, provided all minimums are met. In the extraordinary call, there is a theoretical exam and a practical exam, both requiring a minimum of 3.5 points out of 10. If a student fails to achieve the minimum score in any part, the final grade recorded will be the minimum between their weighted average and 4.5.",
+  "bibliography": [
+    "Mathews, J.H., Fink, K.D. Métodos Numéricos con Matlab. Prentice Hall (3ª Ed.), 2000.",
+    "Moler, C., Numerical Computing with Matlab. SIAM, 2004. https://es.mathworks.com/moler/chapters.html",
+    "Novak, K. Numerical Methods for Scientific Computing, Equal Share Press (2º Ed.), 2022 https://www.equalsharepress.com/media/NMFSC.pdf"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-1-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-1-002",
+  "source_language": "es",
+  "source_sha256": "77c7ec1924ea9292b4fd201b3bde6c39404f9ffa13cfa1395bf6f721ead4256b",
+  "extracted_at": "2026-11-20T01:12:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

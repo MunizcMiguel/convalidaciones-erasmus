@@ -1,0 +1,69 @@
+{
+  "course_name_original": "Information Technology",
+  "course_name_en": "Information Technology",
+  "ects": 3.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basics of computer science and programming",
+    "basics of using data files and applications of analytical methods."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student analyzes the obtained or provided data using appropriate software. Performs basic programming tasks for analytical tasks.",
+      "type": "skill",
+      "code": "K6_U01"
+    },
+    {
+      "text": "The student identifies elements of modern information technologies, analyzes the components of the information system: software, platforms, programming language languages, libraries, types of data sources, data types, method resources. Draws attention to the continuous development in the field of information technologies, which requires constant supplementation of knowledge.",
+      "type": "competence",
+      "code": "K6_K01"
+    }
+  ],
+  "syllabus_topics": [
+    "Methods of data integration, preparation and analysis using selected modern tools and platforms, including in the cloud.",
+    "Methods of developing analysis results and reports using selected modern tools and platforms.",
+    "Use of CSV files - integration and analysis of two-dimensional data structures.",
+    "Data modeling, data types in statistics and levels of measurement.",
+    "Data science fundamentals and empirical research.",
+    "Democratizing the use of data and data science in the enterprise.",
+    "Examples of applications of data analysis and machine learning."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Assessment of individual projects",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The passing threshold for the assessment of individual projects is 60.0%. This assessment constitutes 100.0% of the final grade.",
+  "bibliography": [
+    "Dany Log, \"Python for Data Analysis: A Complete Step By Step From Intermediate to Advanced Guide for Python Coding, NumPy, Pandas for Data Analysis\", Independently Published 2022.",
+    "Wes McKinney, \"Python for Data Analysis 3e: Data Wrangling with pandas, NumPy, and Jupyter\", O'Reilly Media 2022.",
+    "Simon Asplen-Taylor, \"Data and Analytics Strategy for Business: Unlock Data Assets and Increase Innovation with a Results\", Kogan 2022.",
+    "Nussbaumer Knaflic Cole, \"Storytelling with Data\", John Wiley & Sons 2020.",
+    "Richard Benjamins, \"A Data-Driven Company\", Almuzara 2022."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "syllabus_topics",
+    "bibliography"
+  ],
+  "institution": "Gdańsk University of Technology (Politechnika Gdańska)",
+  "institution_slug": "ec_pl_gdansk02",
+  "degree": "Mechanical Engineering, first-cycle (engineer), specialization Design and Production Engineering",
+  "course_code": "PG_00055196",
+  "academic_year": "2023-2024 (cohorte de inicio; fichas 2023/24-2026/27)",
+  "source_url": "https://ects.pg.edu.pl/en/subjects/361841/card.pdf",
+  "source_language": "en",
+  "source_sha256": "fb54fd339691131c2325244f11a2c59a60625f45153a8deab7069cbfe8b2690f",
+  "extracted_at": "2026-11-20T09:06:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

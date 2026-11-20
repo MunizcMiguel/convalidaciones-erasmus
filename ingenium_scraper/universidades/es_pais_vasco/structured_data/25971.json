@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Cálculo",
+  "course_name_en": "Calculus",
+  "ects": 12.0,
+  "semester": "Annual",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "eu"
+  ],
+  "prerequisites": [
+    "Basic mathematical operations",
+    "Ability to solve linear equations and inequalities using appropriate methods",
+    "Basic knowledge of differential and integral calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; ordinary and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "FB1"
+    },
+    {
+      "text": "Basic knowledge on the use and programming of computers, operating systems, databases and software applications in engineering.",
+      "type": "knowledge",
+      "code": "FB3"
+    },
+    {
+      "text": "Develop basic knowledge of differential and integral calculus, differential geometry, ordinary and partial differential equations, and numerical methods to apply it significantly in understanding problematic situations typical of engineering.",
+      "type": "knowledge",
+      "code": "RA1"
+    },
+    {
+      "text": "Coherently employ procedural knowledge associated with scientific methodology in solving infinitesimal calculus problems, whether numerical, simulation-based, or pen-and-paper.",
+      "type": "skill",
+      "code": "RA2"
+    },
+    {
+      "text": "Perform qualitative and quantitative analysis, formulate hypotheses, develop alternative strategies, and analyze results.",
+      "type": "skill",
+      "code": "RA3"
+    },
+    {
+      "text": "Work with information related to engineering processes concerning infinitesimal calculus, analyze and correctly communicate ideas using oral, written, graphic, and mathematical language.",
+      "type": "skill",
+      "code": "RA4"
+    },
+    {
+      "text": "Work efficiently in groups to make decisions in the development of proposed tasks.",
+      "type": "competence",
+      "code": "RA5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Infinitesimal Calculus: Review of real-valued functions of a real variable. Representation of elementary functions in various coordinate systems and algebra of complex numbers.",
+    "Real Functions of a Real Variable: Continuity, differentiability, and differentiability problems in real functions of a real variable, from both theoretical and geometric perspectives, considering the relationships between these concepts. Differential and integral calculus problems in one and several dimensions, with special emphasis on practical applications to engineering problems.",
+    "Ordinary Differential Equations: Resolution of linear ordinary differential equations, highlighting their importance in engineering problems, along with systems of equations. Initial value problems are considered.",
+    "The Laplace Transform: Definition of direct and inverse Laplace transforms with special emphasis on their properties, to obtain the transform of various functions, including those defined on intervals. Its adequate algebraic interpretation and frequency domain understanding are fundamental for comprehending its applications to engineering problems."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices (problem solving sessions)",
+    "Computer practices (using Mathematica software)"
+  ],
+  "workload_hours_total": 300.0,
+  "workload_hours_contact": 120.0,
+  "assessment_methods": [
+    {
+      "method": "Written tests",
+      "weight_percentage": 85.0
+    },
+    {
+      "method": "Computer practice tests",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The continuous evaluation consists of written tests (85%) across four modules and computer practice tests (15%). To pass, the weighted sum must be at least 5/10, with each module scoring at least 0.1/10 and Module IV at least 3/10. Students not meeting these conditions must take an ordinary exam covering failed or opted-for modules. For the extraordinary call, evaluation is a final written test (85%) and a computer practice test (15%), with exemption from the computer test if a score of 5/10 or higher was achieved in the ordinary call.",
+  "bibliography": [
+    "J. Burgos (1995): Cálculo infinitesimal de varias variables. Madrid: McGraw-Hill",
+    "Barragués, J., Cortajarena, I., y Zabala, M. (2010). Análisis matemático con soporte interactivo en Moodle. Madrid: Prentice-Hall.",
+    "Barragués, J., Cortajarena, I., eta Zabala, M. (2010). Analisi matematikoa. Madrid: Prentice-Hall.",
+    "C.H. Edwards, D.E. Penney and D. Calvis (2022): Differential Equations and Boundary Value Problems: Computing and Modeling, 6th edition. USA: Pearson Education",
+    "W. Kaplan (1996): Matemáticas avanzadas para estudiantes de ingeniería. México: Fondo Educativo Interamericano",
+    "R. Larson, R.P. Hostetler y B.H. Edwards (2006): Cálculo y Geometría Analítica. México: McGraw-Hill",
+    "R.K. Nagle y E.B. Saff (1998 Fundamentos de ecuaciones diferenciales. México: Addison Wesley Longman",
+    "N. Piskunov (1977): Cálculo diferencial e integral. Moscú: Mir",
+    "E. Martínez (1996): Ecuaciones diferenciales y cálculo integral. Aplicaciones y ejercicios. Bilbao: Servicio Editorial, Universidad del País Vasco.",
+    "S.L. Salas, EG.J. Etgen, E. Hille (2007): Calculus: one and several variables. Hoboken: John Wiley & Sons.",
+    "B.P. Demidovich (2001): 5000 problemas de análisis matemático. Madrid: Paraninfo",
+    "A. García, G. Rodríguez, S. Romero y A. de la Villa (2002): Cálculo II. Teoría y problemas de funciones de varias variables. Madrid: CLAGSA",
+    "E. Kreysig (1986): Matemáticas avanzadas para la ingeniería. México: Limusa",
+    "M.R. Spiegel (1970): Transformada de Laplace. Madrid: McGraw-Hill (Serie Schaum)",
+    "M.R. Spiegel (1976): Cálculo superior. McGraw-Hill, serie Schaum, 1976",
+    "G.B. Thomas, R.L. Finney, M.D. Weir y F.R. Giordano (2003): Cálculo con Geometría Analítica. Boston: Addison-Wesley",
+    "C.R Wylie (1982): Matemáticas superiores para ingeniería. Mexico: McGraw-Hill",
+    "D.G. Zill (2007): Ecuaciones diferenciales con aplicaciones de modelado. México: Thomson Learning"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad del País Vasco/Euskal Herriko Unibertsitatea",
+  "institution_slug": "es_pais_vasco",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "25971",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ehu.eus/es/web/graduak/grado-ingenieria-mecanica-bizkaia/creditos-y-asignaturas?redirect=consultaAsignatura&anyo-academico=20260&ciclo=X&curso=1&asignatura=25971",
+  "source_language": "es",
+  "source_sha256": "f28ceaabe9238f9881663281b2d0325a13699399ff65d34967adef8b74dfcf35",
+  "extracted_at": "2026-11-13T20:20:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

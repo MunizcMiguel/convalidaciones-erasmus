@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Weiterführende Internettechnologien",
+  "course_name_en": "Advanced Internet Technologies",
+  "ects": 5.0,
+  "semester": "unknown",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Successfully completed course Kommunikationsnetze"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students expand their knowledge of advanced aspects of TCP/IP-based networks and basic knowledge of wide area network technologies and the use of network management protocols. For example, they can classify and explain concepts for quality of service support in IP-based networks, basic aspects of network security, and current developments in network technology.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have in-depth knowledge of the use of switching technologies in local networks and current concepts of VLANs and the associated protocols for realizing redundant and scalable networks. They deepen their knowledge of dynamic routing protocols and can explain advanced routing concepts and the associated protocols, such as OSPF and EIGRP, in detail. In addition, they deepen their knowledge of selected security aspects, such as Access Control Lists, and can apply them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students understand more advanced concepts of TCP/IP-based networks and can apply their knowledge in practice for planning, implementing, and configuring such concepts. They are able to compare and evaluate various concepts, protocols, and network components regarding their suitability for different application areas (e.g., regarding redundancy, quality of service, and security requirements) and to select them appropriately.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to plan TCP/IP-based networks taking into account advanced concepts, protocols, and technologies, and to configure the associated network elements of IP-based networks accordingly. They can especially plan redundant and scalable local networks and select suitable wide area networks for their connection. They are also able to analyze corresponding communication processes in a structured manner and to recognize and remedy possible error states in networks.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students master the specific terminology of the considered areas and can present and discuss technical communication processes in a structured and precise manner.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Deepening of current concepts for local networks (advanced switching and VLAN concepts)",
+    "Redundancy concepts for local networks (Spanning Tree Protocol, HSRP, Etherchannel)",
+    "Deepening of dynamic routing protocols (scaling aspects, deepening OSPF and Multiarea-OSPF, EIGRP)",
+    "Network security and Layer 2 Security",
+    "Wireless LAN",
+    "Technologies for Wide Area Networks",
+    "Introduction to fundamental aspects of network management",
+    "Introduction to more advanced aspects of TCP/IP-based networks (e.g., Quality of Service (QoS) support, virtualization)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Lab activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (lab exercises)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination can be either a written or an oral exam, chosen by the instructor. The un-graded examination is experimental work, consisting of approximately 8 lab experiments. The duration of oral exams is specified in the general part of the examination regulations, and written exams in the valid study regulations.",
+  "bibliography": [
+    "CCNA Switching, Routing, and Wireless Essentials, v7.02 Cisco Networking Academy, 2021",
+    "CCNA Enterprise Networking, Security, and Automation, v7.02 Cisco Networking Academy, 2021",
+    "Badach, A., Hoffmann, E.: Technik der IP-Netze, 4. Aufl., Hanser, 2019",
+    "Tanenbaum, A. S.,Wetherall, D.J.: Computernetzwerke, 5. Aufl., Pearson Studium - IT, 2012",
+    "Tanenbaum, A. S.; Wetherall, D.J. : Computer Networks, 6th edition., Pearson, 2021"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Informatik – Technische Informatik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__info",
+  "degree": "Informatik – Technische Informatik (B.Sc.)",
+  "course_code": "11B0448",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BTI/StO2025_Stand2026-03-03_Informatik-TechnischeInformatik.pdf",
+  "source_language": "de",
+  "source_sha256": "8aabea27b557a76c723e8b12736fbb71d4a478e81a22ccb3d0ce93cef736e8d0",
+  "extracted_at": "2026-11-20T12:33:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

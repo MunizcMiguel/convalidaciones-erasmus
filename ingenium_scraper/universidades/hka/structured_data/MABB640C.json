@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Konstruktion",
+  "course_name_en": "Design",
+  "ects": 6.0,
+  "semester": "6th semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Advanced Mathematics 1 and 2",
+    "Fluid Mechanics",
+    "Applied Informatics",
+    "Technical Mechanics 1 and 2",
+    "Fundamentals of the Finite Element Method"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply fundamental calculation methods for flow and work processes in turbomachines to assess their energetic behavior and typical design features.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform simple balances based on conservation laws for mass, momentum, and energy to mathematically determine thermodynamic and mechanical quantities in rotating machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Model more complex components with modern Finite Element programs (e.g., ABAQUS/CAE) by selecting appropriate element types, boundary conditions, and load cases to numerically analyze realistic structural behavior.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess the quality of Finite Element meshes and adjust basic simulation parameters to improve the significance of their models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Numerically investigate linear and nonlinear structural problems as well as fundamental stability and dynamic phenomena to evaluate technical correlations in practical applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Complementary meshing techniques and evaluation of mesh quality",
+    "Material models for describing anisotropic and plastic material behavior",
+    "Determination of material properties and fitting a flow curve",
+    "Heat transfer (steady-state and transient) and thermomechanical calculations",
+    "Simulation of assemblies - Contact modeling",
+    "Linear Dynamics: Modal analysis and harmonic analysis (influence of damping)",
+    "Explicit Dynamics",
+    "Nonlinear FEM: Remeshing, time step control, process simulation and damage models, strain and stress components",
+    "Topology optimization",
+    "Fatigue life simulation",
+    "Submodeling technique and real-time simulation",
+    "Conservation equations and balancing in turbomachines",
+    "Energy conversion in the impeller",
+    "Operating behavior of different types of turbomachines",
+    "Design features and efficiency evaluation",
+    "Practical reinforcement in laboratory experiments"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory exercises",
+    "Practical exercises in the FEM laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (partial: Finite Element Applications)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Written exam (partial: Turbomachines)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "A 120-minute written exam with aids is conducted. A prerequisite for admission to the exam is successful participation in all laboratory experiments. The exam consists of two partial exams, whose individual grades are weighted according to the SWS (Semester-Wochenstunden) of the corresponding modules into the overall grade.",
+  "bibliography": [
+    "Eigenes Vorlesungsskript",
+    "Engineering Plasticity, Wang, Z.R., Hu Troy, W. L. et al, First Edition, Wiley VCH 2018",
+    "Moderne Methoden der Werkstoffprüfung, Biermann, H., Krüger, L., 1., Auflage, Wiley VCH 2015",
+    "Praxisbuch FEM mit ANSYS Workbench, Gebhardt, C., 3., aktualisierte Auflage, Hanser Verlag 2018",
+    "Finite Element Modeling and Simulation with Ansys Workbench, Chen, X., Liu, Y., Second Edition, CRC Press 2019",
+    "Practical Stress Analysis with Finite Elements, Mac Donald, B., Third Edition, Machdohnil Limited 2020",
+    "Introduction to Finite Element Analysis and Design, Kim, N.H., Kumar, A. V. et al., Second Edition, Wiley & Sons 2018",
+    "Sigloch, H. (2002). Strömungsmaschinen: Grundlagen und Anwendungen (2. Aufl.). Hanser Verlag",
+    "Menny, K. (1995). Strömungsmaschinen. Teubner Verlag",
+    "Gülich, J. F. (1999). Kreiselpumpen. Springer-Verlag",
+    "Sulzer Pumps (1997). Kreiselpumpen Handbuch. Vulkan-Verlag",
+    "Bohl, W. (1998). Strömungsmaschinen 1: Aufbau und Wirkungsweise. Vogel Fachbuch",
+    "Bohl, W. (1999). Strömungsmaschinen 2: Berechnung und Konstruktion. Vogel Fachbuch",
+    "Traupel, W. (1988). Thermische Turbomaschinen, Bd. I & II. Springer Verlag"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Karlsruhe University of Applied Sciences",
+  "institution_slug": "hka",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB640C",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "8055fedb663e726fdaeb14f0d02dca08346756cb4217e08b900af54011ebd289",
+  "extracted_at": "2026-11-12T23:56:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

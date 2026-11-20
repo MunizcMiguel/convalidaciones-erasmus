@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Traffic Flow Operations and Control",
+  "course_name_en": "Traffic Flow Operations and Control",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Can explain the fundamental traffic flow characteristics and traffic flow variables and their empirical distributions and correlations",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can process basic traffic flow data (Eulerian and Lagrangian data) and extract relevant traffic features",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Can explain traffic flow models at different aggregation levels (macro, meso, micro), can derive their properties and can solve these models analytically and numerically for simplified problem instances",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can explain the working principles of selected traffic control measures based on road-side control, vehicle-to-infrastructure control or in-vehicle control and automation",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Traffic variables, capacity, headway distributions, fundamental diagrams (FD)",
+    "Macro: traffic flow models (1st order, higher order), cell transmission model (CTM), basic nodes (merge/diverge)",
+    "Micro/meso: car-following, stability, lane-changing, gap acceptance, microsimulation, delay distributions",
+    "Traffic data: cumulative plots, Adaptive smoothing method (ASM), floating car data (FCD), trajectory data, estimation of FD and capacity, Level of Service",
+    "Pedestrians, cyclists, traffic without lane discipline, air traffic, bird swarms, drone formations, conveyor belt",
+    "Traffic signal control (basic)",
+    "Ramp metering, mainstream traffic flow control, variable speed limits, Specialist",
+    "Autonomous and cooperative vehicles: cooperative cruise control, lane-change management",
+    "Mobility demand-side modelling and other more advanced mobility modelling techniques",
+    "Pen-paper exercises (TFT)",
+    "Data handling (OTC, FCD, trajectories)",
+    "Microsimulation, CTM",
+    "Traffic control"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical",
+    "Exercise sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Hand-in exercises",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Active participation during lectures/exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final result is based on a written exam (60%) and hand-in exercises (40%). Active participation/attendance has a positive/negative impact on the final result. There is no retake for the exercises during the semester; the result of the first attempt is taken into account for the retake exam.",
+  "bibliography": [
+    "Knoop, V., 2021. Traffic flow theory: an introduction with exercises. https://doi.org/10.5074/T.2021.002",
+    "Lecture slides",
+    "Voice-over videos",
+    "Laptop"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H0R30A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H0R30AE",
+  "source_language": "en",
+  "source_sha256": "a8062f8421e86329e19e85907201546e1ddde121c524e7e6542f524ca9601e15",
+  "extracted_at": "2026-11-20T09:19:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

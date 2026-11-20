@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Teoría de mecanismos",
+  "course_name_en": "Theory of Mechanisms",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of Physics, Graphic Expression, Mathematics, and Computer Science is recommended.",
+    "Students are recommended to have a thorough understanding of basic mechanics concepts related to rigid body kinematics and dynamics.",
+    "Students should also be skilled in handling vectors in their graphical and algebraic expressions.",
+    "Prior courses: Mechanics and Mathematics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Will know the methods of analysis and synthesis of mechanisms.",
+      "type": "knowledge",
+      "code": "R18"
+    },
+    {
+      "text": "Will know the methods of dynamic analysis of machines as rigid bodies.",
+      "type": "knowledge",
+      "code": "R19"
+    },
+    {
+      "text": "Will be able to correctly represent the bodies that make up a machine or mechanism and the constraints that appear in their joints.",
+      "type": "skill",
+      "code": "R20"
+    },
+    {
+      "text": "Will be able to obtain the kinematic and dynamic resolution of mechanisms and machines by different methods: energetic and Newtonian.",
+      "type": "skill",
+      "code": "R21"
+    },
+    {
+      "text": "Will be able to use numerical simulation programs suitable for the synthesis and analysis of mechanisms and machines.",
+      "type": "skill",
+      "code": "R22"
+    }
+  ],
+  "syllabus_topics": [
+    "Analysis and Synthesis of mechanisms.",
+    "Kinematics and dynamics of mechanisms.",
+    "Higher pairs: Cams and Gears.",
+    "Cyclic machines. Flywheels and governors.",
+    "Topic 1. Introduction - Introduction to the theory of mechanisms. Links and kinematic pairs. Kinematic chains. Analysis and synthesis. Rigid bodies and undeformable systems. Elementary movements of the rigid body: translation and rotation. Degrees of freedom of the rigid body. Lower and higher kinematic pairs. Kinematic inversion. Mobility. Grübler-Kutzbach criterion. Grashof's Law. Coupler curves. Cognates. Straight-line mechanisms. Quick-return mechanisms. Intermittent motion mechanisms. Pantograph.",
+    "Topic 2. Position - Absolute position and apparent position. Position difference. Graphical method. Resolution of the position problem using complex algebra and vector algebra.",
+    "Topic 3. Velocity - Boure's rule. Rigid body velocity field. Kinematic group. Projected velocities theorem. Tangent helical motion and degenerate motion. Instantaneous axis of rotation and minimum slip. Contact kinematics: sliding, rolling, and pivoting. Planar motion kinematics. Instantaneous center of rotation. Aronhold-Kennedy theorem. Relative motion kinematics. Mechanical advantage. Velocity diagrams. Raven's method for velocity calculation.",
+    "Topic 4. Acceleration - Rigid body acceleration field. Succession velocity of the instantaneous center of rotation. Acceleration of the instantaneous center of rotation. Coriolis theorem. Geostrophic effect. Acceleration diagrams. Raven's method for acceleration calculation.",
+    "Topic 5. Statics - Forces. Moments and couples. Equilibrium conditions. Free body diagrams. Graphical and analytical methods for 2, 3, and 4-force links. Mechanical advantage. Principle of virtual work. Principle of virtual powers. Friction.",
+    "Topic 6. Dynamics - Centroids and centers of mass. Kinetic system. König's theorems. Dynamic system. Moments and products of inertia. Steiner's theorems. Newton-Euler equations. D'Alembert's principle. Center of percussion. Equivalent mass systems. Flywheels and governors. Balancing.",
+    "Topic 7. Cams and Gears - Higher pairs. Cam taxonomy. Follower motion derivatives. High-speed cams. Standard cam motions. Equalization of displacement diagram derivatives. Polynomial cam design. Gear taxonomy. Fundamental law of gearing. Involute profile properties. Gear kinematics. Gear trains. Epicyclic gears."
+  ],
+  "teaching_methods": [
+    "Lectures (Expository method)",
+    "Case studies",
+    "Problem solving exercises",
+    "Cooperative learning",
+    "Computer practical classes",
+    "Classroom practical classes",
+    "Laboratory practical classes",
+    "Seminars and workshops",
+    "Tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Observation techniques",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written tests",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practice reports and memoirs",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Works and projects",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The overall grade will be the weighted average of the grades obtained in the recoverable and non-recoverable assessment tests. A minimum score of 5 out of 10 in the written test is required to pass; otherwise, the course grade will be a fail, with the weighted average truncated to a maximum of 4.5 points. A minimum attendance of 90% in laboratory and computer practicals is required for the 'Practice reports and memoirs' and 'Works and projects' assessment components to be considered. Fraudulent completion of an assessment test will result in that test being graded 0, and the course being graded as a fail with a numerical grade of 0 in that particular call.",
+  "bibliography": [
+    "Shigley, J.E., Uicker. J.J., Teoría de máquinas y mecanismos, McGraw-Hill, 1988",
+    "Alba, J.A., Colección de Problemas de Cinemática y Dinámica, UR",
+    "Cardona, S., Clos, D., Teoría de máquinas, UPC, 2001",
+    "Arthur G. Erdman, George N. Sandor, Diseño de mecanismos: análisis y síntesis, Prentice Hall Iberoamericana, 1998",
+    "Lamadrid, A., Corral, A., Cinemática y Dinámica de Máquinas, Universidad Politécnica de Madrid, 1987"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de La Rioja",
+  "institution_slug": "es_rioja",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "493",
+  "academic_year": "2026-27",
+  "source_url": "https://aps.unirioja.es/GuiasDocentes/servlet/agetguiahtml?2026-27,803G,493",
+  "source_language": "es",
+  "source_sha256": "3606271c74ef128c07b0e64080d369a741692424277bc6b48aee1bcc674ce767",
+  "extracted_at": "2026-11-13T22:51:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

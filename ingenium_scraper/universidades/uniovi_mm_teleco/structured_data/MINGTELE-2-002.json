@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Integración de Sistemas Telemáticos",
+  "course_name_en": "Integration of Telematics Systems",
+  "ects": 4.5,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Plan and design systems and services with the capacity to transport multimedia traffic in the field of Telematic Engineering.",
+      "type": "skill",
+      "code": "R27"
+    },
+    {
+      "text": "Develop communication infrastructure deployment projects in corporate environments.",
+      "type": "skill",
+      "code": "R28"
+    },
+    {
+      "text": "Evaluate energy efficiency in telematics infrastructures and services.",
+      "type": "skill",
+      "code": "R29"
+    },
+    {
+      "text": "Develop smart home projects.",
+      "type": "skill",
+      "code": "R30"
+    },
+    {
+      "text": "Plan, implement, and deploy software products.",
+      "type": "skill",
+      "code": "R31"
+    },
+    {
+      "text": "Perform group work tasks for the design and development of projects related to Telematic Engineering.",
+      "type": "skill",
+      "code": "R32"
+    },
+    {
+      "text": "Plan and design massive multimedia services to support requests from a large number of users.",
+      "type": "skill",
+      "code": "R33"
+    }
+  ],
+  "syllabus_topics": [
+    "Evolution of telematics systems",
+    "Network infrastructure: physical elements",
+    "Network infrastructure: protocols",
+    "Cloud computing",
+    "Security in telematics systems",
+    "Software project management",
+    "The Internet of Things",
+    "Smart cities and digital home",
+    "Intelligent Transportation Systems",
+    "E-Health",
+    "Deployment of instances with AWS",
+    "Working with hardware devices",
+    "RDS services with AWS",
+    "ESP32/Node-RED/AppInventor Integration",
+    "MQTT for IoT integration",
+    "Azure IoT Hub/PowerBI",
+    "Smart Home"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Collaborative problem solving",
+    "Group work",
+    "Autonomous study",
+    "Task completion"
+  ],
+  "workload_hours_total": 112.5,
+  "workload_hours_contact": 33.75,
+  "assessment_methods": [
+    {
+      "method": "Main project",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Continuous assessment (tasks, questionnaires, practical/theoretical assignments)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Theoretical exam",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For ordinary evaluation, a minimum score of 5.0 out of 10 is required for the main project, continuous assessment, and theoretical exam. If all minimums are met and attendance is 50% for theoretical sessions and 70% for practical sessions, the final grade is calculated as (0.4 x Main Project) + (0.3 x Continuous Assessment) + (0.3 x Theoretical Exam). Otherwise, the grade will be the minimum of the calculated score and 4.0. For extraordinary evaluation, previous scores above the minimum are kept, otherwise new assignments must be submitted and a new theoretical exam taken. A minimum of 5.0 out of 10 is required in each part (theory, project, continuous assessment) to pass. If these minimums are met, the final grade is calculated using the same formula as the ordinary call; otherwise, the grade will be the minimum of the calculated score and 4.0. For differentiated evaluation, a minimum score of 5.0 out of 10 is required for continuous assessment and the theoretical exam, with the final grade calculated as (0.3 x Continuous Assessment) + (0.7 x Theoretical Exam); otherwise, the grade is the minimum of the calculated score and 4.0.",
+  "bibliography": [
+    "Kurose, J. F., & Ross, K. W. (2025). Computer Networking: A Top-Down Approach (9th ed.). Pearson.",
+    "Tanenbaum, A. S., & Wetherall, D. J. (2021). Computer Networks (6th ed.). Pearson.",
+    "Marinescu, D. C. (2022). Cloud Computing: Theory and Practice (3rd ed.). Morgan Kaufmann.",
+    "Gunjal, P. R., Jondhale, S. R., Lloret Mauri, J., & Agrawal, K. (2024). Internet of Things: Theory to Practice.. CRC Press.",
+    "Kleppmann, M. (2022). Designing Data-Intensive Applications. O’Reilly Media.",
+    "Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner’s Approach (9th ed.). McGraw-Hill.",
+    "Awad, A. I., Ahmad, A., Choo, K.-K. R., & Hakak, S. (2023). Internet of Things Security and Privacy. CRC Press.",
+    "Choudrie, J., Mahalle, P., Perumal, T., & Joshi, A. (Eds.). (2023). IoT with Smart Systems. Springer.",
+    "Mahmoud, Q. H. (Ed.). (2020). Smart Cities: Development and Governance Frameworks. Springer.",
+    "Vermesan, O., & Friess, P. (Eds.). (2022). Internet of Things – From Research and Innovation to Market Deployment. River Publishers.",
+    "Dargie, W., & Poellabauer, C. (2021). Fundamentals of Wireless Sensor Networks: Theory and Practice (2nd ed.). Wiley.",
+    "Amazon Web Services. (2024). Amazon Web Services Documentation: EC2, S3, RDS and AWS IoT Core. https://aws.amazon.com/documentation/",
+    "Arduino. (2024). Arduino IDE Documentation. https://docs.arduino.cc/",
+    "Oracle. (2024). MySQL Documentation. https://dev.mysql.com/doc/",
+    "OpenJS Foundation. (2024). Node-RED Documentation. https://nodered.org/docs/",
+    "Massachusetts Institute of Technology. (2024). MIT App Inventor Documentation. https://appinventor.mit.edu/explore/resources",
+    "Eclipse Foundation. (2024). Eclipse Mosquitto MQTT Broker Documentation. https://mosquitto.org/documentation/",
+    "Thinger.io. (2024). Thinger.io IoT Platform Documentation. https://docs.thinger.io/",
+    "Microsoft. (2024). Azure IoT Hub Documentation. https://learn.microsoft.com/azure/iot-hub/",
+    "Microsoft. (2024). Microsoft Power BI Documentation. https://learn.microsoft.com/power-bi/",
+    "Aimsun. (2024). Aimsun Next Traffic Simulation Software Documentation. https://docs.aimsun.com"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-2-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-2-002",
+  "source_language": "es",
+  "source_sha256": "b4e48f0dbb0d10e44e9880fb949d309c3ca92f81ee2c28b573d1a3b6c5b86ecf",
+  "extracted_at": "2026-11-20T06:07:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

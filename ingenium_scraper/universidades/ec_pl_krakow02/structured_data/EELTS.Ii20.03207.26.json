@@ -1,0 +1,120 @@
+{
+  "course_name_original": "Computer-based control circuits",
+  "course_name_en": "Computer-based control circuits",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "has basic knowledge of programming methodology and techniques and the application of computer techniques in engineering activities",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "has elementary knowledge of the basics of control and automation",
+      "type": "knowledge",
+      "code": "ELT1A_W07"
+    },
+    {
+      "text": "has basic knowledge of the possibilities of using microprocessor technology in power engineering and automation devices, knows basic concepts related to microprocessors and microcomputers",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "can apply learned physics principles, mathematical methods and models, and computer techniques to describe, analyze and evaluate the operation of electrical elements and systems",
+      "type": "skill",
+      "code": "ELT1A_U03"
+    },
+    {
+      "text": "can select, program, commission, and test a microprocessor system for industrial applications",
+      "type": "skill",
+      "code": "ELT1A_U09"
+    },
+    {
+      "text": "can design and perform analysis and simulation of simple automatic control systems to evaluate their operation in steady and dynamic states",
+      "type": "skill",
+      "code": "ELT1A_U09"
+    },
+    {
+      "text": "understands the need and knows the possibilities of continuous self-education and raising professional competences",
+      "type": "competence",
+      "code": "ELT1A_K01"
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory lecture on the cooperation of discrete-continuous systems. Discussion of closed-loop control system elements; types of signals and systems for their processing.",
+    "Comparison: discrete system – continuous system, including mathematical models of these systems in time and frequency domains. Differential equations versus difference equations; impulse responses and transfer function models; interpretation of 'z' and 's' variables, frequency characteristics of systems and spectral transfer functions.",
+    "Qualitative comparison of features of continuous and discrete systems and an attempt at a uniform description of interacting systems – continuous and discrete. Sampling and hold elements, i.e., A/D and D/A conversion models in engineering design – practical aspects: time and frequency characteristics, significance of sampling period.",
+    "Discrete representations of continuous system dynamics; exact representations and approximate discretization methods, examples of discretization in time and frequency domains. Properties of a continuous system after discretization, description accuracy, and choice of sampling period.",
+    "Fixed-point and floating-point signal processing – data formats, processor classification, rules for selecting control system elements for given criteria.",
+    "Digital control systems – a computational example leading to the emergence of limit cycles and static error in the control system. Describing function method in the analysis of limit cycles in a fixed-point signal processing system. Stability margin.",
+    "Overview of controllers and their applications – conventional PID controllers, state controllers. Control quality indicators.",
+    "Review of continuous system dynamics - exemplary time and frequency characteristics of automation elements.",
+    "Discretization of continuous systems – comparative studies of continuous and discrete system operation.",
+    "Discretization of an oscillatory element – influence of sampling time on system step responses, use of various discretization methods, comparative studies.",
+    "Digital PID1DOF and PID2DOF control system – modeling.",
+    "Practical implementation of PI2DOF controllers based on the Arduino platform programmed from Matlab-Simulink.",
+    "Computational-simulation project – Given a structure and control object. It is necessary to: determine the elements of the continuous control system (amplifiers and measurement systems), supplement with A/D and D/A converters, select a control processor. Parametric optimization of controllers, selection of sampling time, discretization of controllers, calculation of controller limits. Simulation comparison of continuous and discrete control. Supplement the structure with quantizers simulating fixed-point processing, and determine the level of signal quantization at which static error and limit cycle phenomena become apparent."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Group work",
+    "Laboratory classes",
+    "Project classes"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of a project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed by a positive grade from the exam. Laboratory classes are assessed based on the presentation of the solution to the problem and may include an oral or written colloquium. Completion of the module requires passing all laboratory classes. Project classes are assessed based on the execution of the project and the final outcome.",
+  "bibliography": [
+    "Byrski W. Obserwacja i sterowanie w systemach dynamicznych Uczelniane Wydaw. AGH, 2007.",
+    "Grabowski P. Ćwiczenia komputerowe z teorii sterowania. Kraków : Wydaw. AGH, 1996.",
+    "Szymkat M. Komputerowe wspomaganie w projektowaniu układów regulacji Warszawa: WNT, 1993.",
+    "Åström, K., Wittenmark, B. Computer-Controlled Systems, NJ, Prentice Hall, 1997",
+    "Sieklucki G. Automatyka napędu. Kraków : Wydaw. AGH, 2009.",
+    "Karl Johan Åström, Tore Hägglund PID Controllers: Theory, Design, and Tuning, Publisher ISA, 1995"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03207.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/59b902f4-bdfe-43b4-8e4e-b9e6b2f70a6d.html",
+  "source_language": "pl",
+  "source_sha256": "0e83a72b711059cc163c84bcdbc8f589c556140bd3f847f73074debf8e252cd7",
+  "extracted_at": "2026-11-20T09:03:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

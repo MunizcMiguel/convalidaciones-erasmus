@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Automatización y Control",
+  "course_name_en": "Automation and Control",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of Linear Algebra",
+    "Basic notions of Differential and Integral Calculus",
+    "Basic notions of Numerical Methods",
+    "Basic notions of Chemistry",
+    "Basic notions of Graphic Expression",
+    "Basic notions of Mechanics and Thermodynamics",
+    "Basic notions of Waves and Electromagnetism",
+    "Basic notions of Fundamentals of Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with basic knowledge about the usefulness of automatic system control and its applications in industry and consumer products.",
+      "type": "knowledge",
+      "code": "RAU-1"
+    },
+    {
+      "text": "Enable students to mathematically describe and analyze the behavior of a system in the time and frequency domains, using simulation tools.",
+      "type": "skill",
+      "code": "RAU-2"
+    },
+    {
+      "text": "Enable students to tune controllers in simple control structures.",
+      "type": "skill",
+      "code": "RAU-3"
+    },
+    {
+      "text": "Know and identify the elements involved in instrumentation for industrial process control and automation and their functions.",
+      "type": "knowledge",
+      "code": "RAU-4"
+    },
+    {
+      "text": "Configure and program simple applications in industrial control devices.",
+      "type": "skill",
+      "code": "RAU-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Introduction to process automation and control.",
+    "Topic 2. Automation: Introduction to automation. Elements of automation. Regulations. Grafcet diagrams. Programming using SFC and ST.",
+    "Topic 3. System modeling: Systems and signals. Functional diagrams. Transfer function. Block diagrams. State-space modeling. System linearization.",
+    "Topic 4. System analysis: Stability. Overdamped and underdamped natural modes. Temporal response.",
+    "Topic 5. System control: Introduction to control. Steady-state analysis in feedback systems. Transient analysis of feedback systems. Root locus. PID design in the time domain. Digital implementation of controllers.",
+    "Topic 6. Frequency domain: Concept of frequency response. Bode and polar diagrams. Time-frequency relationships. Frequency analysis of feedback systems. Controller design in frequency."
+  ],
+  "teaching_methods": [
+    "Group tutorials",
+    "Classroom/Seminar practices",
+    "Expository classes",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam (T1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final exam (T2)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Laboratory practices (P)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4 out of 10 points is required in the theoretical block. If this minimum is reached, the final theory grade is (0.25 × T1) + (0.75 × T2), and the final course grade is (0.2 × T1) + (0.6 × T2) + (0.2 × P). Otherwise, the qualification for the call will be the minimum between the calculated grade and 4.0. For the extraordinary call, an overall theoretical exam (TEX) and the laboratory practices (P) are evaluated; if the practical part was passed in the ordinary call, that grade is maintained. A minimum of 4 out of 10 points is required in the theoretical part. If this minimum is met, the final grade is (0.8 × TEX) + (0.2 × P); otherwise, the final grade is the minimum between the calculated grade and 4.0. Laboratory practice grades are saved until the January call of the following academic year.",
+  "bibliography": [
+    "Feedback Control of Dynamic Systems. Gene F. Franklin et al. Pearson Education Limited. ISBN: 978-1292068909",
+    "Control de sistemas dinámicos con retroalimentación. Gene F. Franklin et al. Addison-Wesley Publishing Company. ISBN: 978-0201644210",
+    "Sistemas de control moderno. Richard C. Dorf. Alhambra, Edición 10. ISBN: 978-8420544014",
+    "Ingeniería de Control Moderna. Katsuhiko Ogata. Pearson EducaciónSA. Prentice Hall. ISBN: 978-848322-660-5",
+    "Introducción a la Ingeniería de Control. Guillermo Ojea. Disponible en el campus virtual de la asignatura."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-2-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-2-006",
+  "source_language": "es",
+  "source_sha256": "f765e6daa64280585e1c751dbd838496e3e2bd3babb9976d5756644362d8b993",
+  "extracted_at": "2026-11-20T01:13:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

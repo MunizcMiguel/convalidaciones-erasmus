@@ -1,0 +1,156 @@
+{
+  "course_name_original": "Elasticitat i Resistència de Materials",
+  "course_name_en": "Elasticity and Strength of Materials",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Matemàtiques)",
+    "EM1002 - Càlcul I (Matemàtiques)",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II (Matemàtiques)",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to solve elasticity problems applying analytical and energetic methods.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to solve strength of materials problems applying analytical and energetic methods.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to explain, summarize and describe the experiments carried out in the laboratory and the conclusions and results derived from them.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Be able to pre-dimension structural and machinery elements from a mechanical point of view based on resistance, stiffness, and stability requirements.",
+      "type": "skill",
+      "code": "CC08"
+    },
+    {
+      "text": "Be able to calculate the stress and deformation state in systems composed of rod and beam elements subjected to axial, shear, bending, and torsional forces in isostatic and hyperstatic cases.",
+      "type": "skill",
+      "code": "CC08"
+    },
+    {
+      "text": "Know and understand the basic principles of plasticity in continuous media.",
+      "type": "knowledge",
+      "code": "CC08"
+    },
+    {
+      "text": "Understand and be able to apply the principles of elasticity in the analysis of the stress and deformation state of continuous media subjected to external actions.",
+      "type": "skill",
+      "code": "CC08"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Tension",
+    "Equilibrium and concept of tension",
+    "Stress tensor",
+    "Change of reference system",
+    "Principal stresses and directions",
+    "Mohr's circle",
+    "Introduction to Deformation",
+    "Concept of deformation",
+    "Deformation tensor",
+    "Principal deformations and directions",
+    "Tensile test. Hooke's Law",
+    "Generalized Hooke's Law",
+    "Plane stress and plane deformation",
+    "Temperature effects",
+    "Introduction to Energy methods",
+    "Concept of deformation energy",
+    "Expressions of deformation energy",
+    "Castigliano's Theorems",
+    "Superposition Principle",
+    "Virtual work principle",
+    "Introduction to Failure and plastification criteria",
+    "Concept of failure and safety factor",
+    "Equivalent stress",
+    "Maximum Normal Stress or Rankine's Criterion",
+    "Maximum Shear Stress or Tresca's Criterion",
+    "Maximum Distortion Energy or Von Mises' Criterion",
+    "Introduction to strength of materials",
+    "Concept of mechanical prism",
+    "Adopted hypotheses in strength of materials",
+    "Equivalence equations",
+    "Bonds and constraints",
+    "Isostatic and hyperstatic systems",
+    "Introduction to Axial force",
+    "Normal stresses",
+    "Longitudinal deformations",
+    "Uniaxial deformation energy",
+    "Hyperstatic elements",
+    "Introduction to Bending and shear",
+    "Types of bending",
+    "Relationship between forces and load distribution",
+    "Normal stresses. Navier's Law",
+    "Pure/simple symmetric bending",
+    "Non-symmetric or deviated bending",
+    "Compound bending",
+    "Tangential stresses",
+    "Deformation energy",
+    "General elastic equation",
+    "Maxwell-Mohr method for calculating deformations",
+    "Hyperstatic systems",
+    "Introduction to Torsion",
+    "Distribution of tangential stresses in solid circular section profiles",
+    "Distribution of tangential stresses in hollow circular section profiles",
+    "Deformation energy by torsion",
+    "Formulation and resolution of Elasticity problems using Matlab / Octave software",
+    "Calculations of force diagrams",
+    "Calculations of cross-sectional properties of beams",
+    "Extensometry",
+    "Hyperstatic bending"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving seminars",
+    "Laboratory practical sessions using computer tools (spreadsheets, finite element software, mathematical calculation tools)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment: Laboratory practical reports",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Continuous assessment: Average of written theoretical/practical knowledge tests",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "To pass the course, an overall grade of at least 5 out of 10 is required. In the first call, a minimum of 4.5 out of 10 must be obtained on the final exam to be able to average with continuous assessment; otherwise, the final grade will be solely the exam grade. In the second call, the final grade will be the maximum of Option A (Continuous Assessment 30% + Final Exam 70% with a minimum of 4.5) or Option B (Laboratory Reports 15% + Final Exam 85% with a minimum of 4.5). For the extraordinary end-of-studies call, the final exam accounts for 100% of the grade. Laboratory practical reports are not recoverable, but written theoretical/practical tests can be recovered in the second call's final exam.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1019",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1019",
+  "source_language": "ca",
+  "source_sha256": "6c4d3a76d7c98dfc7847002af53f294676d8f11c7a57981b781f1d0715d19631",
+  "extracted_at": "2026-11-13T22:35:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,164 @@
+{
+  "course_name_original": "FONDAMENTI DI ELETTROMAGNETISMO",
+  "course_name_en": "FUNDAMENTALS OF ELECTROMAGNETISM",
+  "ects": 6.0,
+  "semester": "First Semestral Cycle",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Vector quantity operations",
+    "Main reference systems",
+    "Differential operators",
+    "Kinematics",
+    "Electrostatics",
+    "Magnetostatics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Maxwell's equations in differential form in the time domain. Equation of continuity of electric current. Maxwell's equations in integral form: Faraday-Lentz law of electromagnetic induction, Ampere's circuital law generalized by introducing displacement current, Gauss's laws for electric and magnetic charges. Duality theorem.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Constitutive relations of a medium: linearity, homogeneity, isotropy/anisotropy, dispersivity, causality. Phenomena of conduction, polarization, magnetization. Analysis of dielectric, magnetic, and conductive media in the time domain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Plane waves: electromagnetic field distribution associated with a uniform plane wave in the time domain. Spherical waves and locally plane waves. Monochromatic plane waves and polarization. Poynting vector and Poynting's theorem in the time domain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analysis of electromagnetic fields in the frequency domain. Phasor fields, plane of polarization. Maxwell's equations in the frequency domain. Plane waves in the frequency domain: phase constant and wavelength. Constitutive relations in the frequency domain, models for the analysis of time dispersivity. Analysis of propagation in a plasma: characteristics of ionospheric plasma. Plane waves in dissipative media: equivalent dielectric constant, attenuation constant. Poynting's theorem in the frequency domain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analysis of propagation in dispersive media: dispersion or Brillouin diagram, phase velocity and group velocity.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Continuity conditions for fields and inductions at the interface between two different media. Plane waves at the interface between media with different electrical characteristics: reflection and refraction phenomena. Field penetration depth in a good conductor, skin effect. Surface impedance, PEC (Perfect Electric Conductor) model.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Plane waves obliquely incident on the interface between two different media. Laws of reflection and refraction. Fresnel reflection coefficients. Total reflection phenomenon, critical angle. Brewster's angle. Elements of Geometrical Optics (GO) and Geometrical Theory of Diffraction (GTD). Application example: ionospheric reflection communications.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to solve engineering problems in the field of applied electromagnetism.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course",
+    "Main reference systems: orthogonal Cartesian, cylindrical, spherical",
+    "Review of vector calculus",
+    "Differential operators on scalar and vector fields: gradient, conservative fields, curl, Stokes' Theorem, properties of curl, irrotational fields, divergence theorem or Gauss's theorem, properties of divergence, solenoidal fields, Helmholtz's theorem, scalar and vector Laplace operators",
+    "Introduction to Maxwell's equations in differential form in the time domain",
+    "Analysis of Maxwell's equations in differential form in the time domain",
+    "Equation of conservation of electric charge",
+    "Symmetrization of Maxwell's equations by introducing fictitious distributions of magnetic charges and currents",
+    "Lorentz force density",
+    "Maxwell's equations in integral form: Faraday-Lentz law of electromagnetic induction, Ampere's circuital law generalized by introducing displacement current, analysis of displacement current",
+    "Maxwell's equations in integral form: Gauss's law for electric charges, Gauss's law for magnetic charges, law of conservation of electric charge",
+    "Constitutive relations of a medium: dispersivity in space and time, causality",
+    "Explicit form of constitutive relations",
+    "Constitutive relations of a medium: phenomena of conduction, polarization, and magnetization",
+    "Solution of Maxwell's equations in the time domain, in vacuum and in the absence of sources: uniform plane wave solution, characteristics of the solution, progressive and regressive waves",
+    "Electromagnetic field distribution associated with a uniform plane wave",
+    "Characteristic impedance of free space",
+    "Constitutive relations of a medium: conductive media, phenomenon of electric current conduction, electrical conductivity of a conductive or semiconductive material",
+    "Dielectric media: polarization phenomenon, polarization vector, polarization current, dielectric susceptibility, dielectric permittivity, relative dielectric constant",
+    "Media with magnetic properties: magnetization phenomenon, magnetization vector, magnetic susceptibility, magnetic permeability, relative magnetic constant",
+    "Further analysis of the electromagnetic field distribution associated with a uniform plane wave",
+    "Spherical waves and locally plane waves",
+    "Sinusoidal plane waves: wavelength, phase constant, angular frequency",
+    "Analysis of plane wave polarization: linear, circular, and elliptical polarization",
+    "Introduction to frequency domain analysis, phasor fields",
+    "Calculation of operations between vector fields in the frequency domain",
+    "Frequency domain analysis: phasor fields, plane of polarization",
+    "Maxwell's equations in the frequency domain",
+    "Calculation of constitutive relations for a cold, collisionless plasma: introduction, characteristics of ionospheric plasma, differential equations characterizing the electromagnetic behavior of plasma, determination of the equivalent dielectric constant",
+    "Cold, collisionless plasma: physical interpretation of free plasma pulsation, physical interpretation of plasma behavior at various frequencies",
+    "Cold plasma with collisions: determination of the equivalent dielectric constant and description of plasma behavior as frequency varies with respect to angular pulsation",
+    "Poynting's theorem in the time domain: definition of the Poynting vector, discussion of the instantaneous power balance equation",
+    "Poynting's theorem in the time domain in integral form: discussion of the instantaneous power balance equation",
+    "Example of the importance of the Poynting vector: geometrical optics (GO)",
+    "Poynting's theorem in the frequency domain: derivation of equations for real and imaginary parts, integral form equations",
+    "Analysis of the equation for real parts: balance of active powers, Joule effect losses and losses due to dielectric and magnetic hysteresis",
+    "Poynting's theorem in the frequency domain: analysis of the equation for imaginary parts: balance of reactive powers, resonance phenomenon",
+    "Example: rectangular resonant cavity",
+    "Rectangular resonant cavity: quadrature of electric and magnetic fields in time and space",
+    "Review of plane waves in the frequency domain: wave equation in the frequency domain, progressive and regressive waves",
+    "Characteristic propagation parameters in the frequency domain: propagation constant, phase constant, attenuation constant",
+    "Introduction to electromagnetic wave reflection and transmission phenomena",
+    "Continuity conditions of electromagnetic fields at the interface between two media, even in the presence of surface charges and surface currents",
+    "Linearly polarized plane wave perpendicularly incident on an infinite planar interface",
+    "Characteristic propagation parameters in the frequency domain: propagation constant, phase constant, attenuation constant, phase velocity",
+    "Dispersion or Brillouin diagram",
+    "Propagation in a dispersive medium: beating between two sinusoidal plane waves with slightly different frequencies, definition of phase velocity and group velocity",
+    "Linearly polarized plane wave perpendicularly incident on an infinite planar interface: derivation of reflection and transmission coefficients",
+    "Extension to the case of elliptically polarized incident wave",
+    "Plane wave perpendicularly incident on a planar interface: study of the properties of the standing wave of electric and magnetic field in the medium where the incident wave propagates",
+    "Study of the properties of the standing wave of electric and magnetic field in the medium where the incident wave propagates",
+    "Examples: interface between air and non-dissipative dielectric",
+    "Propagation in a dispersive medium: wave packet",
+    "Analysis of the propagation of a narrow-band signal in a dispersive medium, phase velocity and group velocity, analysis of propagation in a cold, collisionless plasma",
+    "Definition of characteristic impedance and propagation constant of a plane wave propagating in a lossy medium",
+    "Case of insulating and good conductor media",
+    "Penetration depth and skin effect",
+    "Poynting vector for plane wave",
+    "Case of Poynting vector propagation in a lossless medium and in a lossy medium",
+    "Calculation of the Poynting vector for an interface between lossless media and between air and a lossy medium",
+    "Example of Poynting's theorem application",
+    "Comparison between wave packet propagation in a non-dispersive medium and in a dispersive medium",
+    "Plane wave obliquely incident on the planar interface between two different media: derivation of the law of reflection and refraction, Fresnel reflection coefficients, and transmission coefficients for parallel and perpendicular polarization to the plane of incidence",
+    "Orthogonal incidence on planar air-PEC interface: calculation of the reflection coefficient, properties of the standing wave",
+    "Propagation in stratified media",
+    "Derivation of reflection and transmission coefficients in the case of transmission through a dielectric slab, for a perpendicularly incident plane wave",
+    "Special cases: thin slab, thick slab, and half-wave dielectric window",
+    "Oblique incidence: critical angle and Brewster's angle",
+    "Exercise on a plane wave orthogonally incident on a planar interface with a lossless medium",
+    "Exercises on plane waves orthogonally incident on a single interface: lossless medium and lossy medium"
+  ],
+  "teaching_methods": [
+    "Lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Intermediate tests",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists only of an oral test, but intermediate tests may be held during the year. The final evaluation is based on the final grade.",
+  "bibliography": [
+    "Notes provided by the lecturer.",
+    "\"Appunti di Campi Elettromagnetici\" - G. Manara, A. Monorchio, P. Nepa. Edizioni \"Il Campano\""
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "907II",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=53295_702858_76229&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "3cb34580e31360acc55a47a92209b7986ce1d8378fab2097ecce4cc210858652",
+  "extracted_at": "2026-11-20T09:25:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

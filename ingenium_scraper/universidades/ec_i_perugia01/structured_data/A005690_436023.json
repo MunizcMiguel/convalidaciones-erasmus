@@ -1,0 +1,96 @@
+{
+  "course_name_original": "FONDAMENTI DI AUTOMATICA E CONTROLLI",
+  "course_name_en": "FUNDAMENTALS OF AUTOMATION AND CONTROLS",
+  "ects": 6.0,
+  "semester": "First Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Matematica I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with notions on the use of analysis and design tools for linear and stationary continuous-time control systems, with particular emphasis on mechatronic systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Basic knowledge for modeling mechanical, thermal, and electrical systems for the design of control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main methods for system analysis.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main methods for designing feedback control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to design control system architectures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to use software tools for analysis, design, and simulation of dynamic systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Models of real systems",
+    "Analysis of linear systems, in time and frequency domain",
+    "Controlled Systems",
+    "Analysis of feedback systems",
+    "Analysis with the Root Locus",
+    "Static and dynamic specifications in control systems",
+    "Controller design in the frequency domain",
+    "Examples of modeling real dynamic systems (mechanical, thermal, and electrical systems). Input-output models. Linear, stationary finite-dimensional models.",
+    "Representation and analysis of continuous-time linear systems with Laplace transform. Modes of a continuous-time linear system. Stability.",
+    "Analysis of the step response of first and second-order systems. Transient response; Steady-state response; Analysis of the response to sinusoidal inputs, Harmonic Response, Bode plots, Nyquist plot. Dominant pole models.",
+    "Open-loop, feedback, disturbance compensation, feedforward control. Properties of feedback systems: sensitivity and sensitivity to parametric variations, disturbance rejection, improvement of dynamic behavior, effects of process and measurement noise.",
+    "Stability of feedback systems and general conditions in the time domain and frequency domain. Routh criterion, Nyquist criterion in continuous-time systems. Stability margins, Conditional stability and in perturbed conditions. Error at region and system type.",
+    "Root locus for the analysis of continuous-time systems. Root locus plotting rules. Study of the effects of pole and zero movement. Use of the root locus for stabilization and synthesis.",
+    "Specifications and fidelity of static and dynamic response. Specification translation from time domain to frequency domain. General setting of the control system synthesis problem. Frequency domain controller design with graphical methods using Bode plots.",
+    "Elements of Matlab Programming in order to understand and replicate the various simulation examples presented in the course."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Class exercises with simulation tools (Matlab and Simulink)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral test, both mandatory. The written test lasts 3 hours and includes 2 exercises and one open question. The exercises cover the analysis and design of a continuous-time control system. The open question requires a schematic exposition of a topic covered during the course. The oral test is normally held a few days after the written exam and aims to evaluate the level of understanding of the topics and the ability to present them rigorously and clearly.",
+  "bibliography": [
+    "P. Bolzern, R. Scattolini, N. Schiavoni :Fondamenti di controlli automatici 3/ed Mc Graw-Hill, 2008 (o edizioni successive)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Perugia",
+  "institution_slug": "ec_i_perugia01",
+  "degree": "Corso di laurea in Ingegneria meccanica (L-9)",
+  "course_code": "A005690_436023",
+  "academic_year": "regolamento 2025/26 (coorte 2025)",
+  "source_url": "https://www.unipg.it/didattica/corsi-di-laurea-e-laurea-magistrale/archivio/offerta-formativa-2025-26?view=elenco&ricerca=on&annoregolamento=2025&dipartimento=516600&lingua=&nomecorso=&tipocorso=&sede=4&classe=&cerca=&idcorso=8439&tab=INS&idins=436023",
+  "source_language": "it",
+  "source_sha256": "3f488774bdd062bba6f418eaa3382c1a87ee2d6ab5483dbd805d445a6a7cc14f",
+  "extracted_at": "2026-11-18T10:03:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

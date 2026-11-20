@@ -1,0 +1,88 @@
+{
+  "course_name_original": "DATA BASE",
+  "course_name_en": "DATABASE",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic notions from mathematics and computer science: sets, operations on sets, basic first order logic, logic operators, quantifiers, notion of algorithm and basic programming skills."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will acquire the theoretical foundations underlying the relational model and the skills necessary to use pre-existing databases using the standard SQL language.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will also be able to design database schemas starting from high-level functional specifications, translate them into working implementations, and perform formal correctness checks.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part I. The Relational Model. Information systems, information, data.",
+    "Databases and database management systems (DBMS).",
+    "Algebraic foundations of the relational model.",
+    "Domains and relations.",
+    "Keys and superkeys.",
+    "Integrity constraints.",
+    "Relational algebra.",
+    "Set operators.",
+    "Projection, selection, and junction.",
+    "Construction of expressions that translate queries formulated in natural language.",
+    "Part II. The SQL language. The SQL standard.",
+    "Definition of table schemas and their population.",
+    "Comparison with relational algebra.",
+    "Elementary queries, joins, aggregations, and nested queries.",
+    "Lab exercises with a relational DBMS.",
+    "Part III. Database design. From requirements to logical schema: conceptual and logical design.",
+    "Conceptual design using the Entity, Relationship, and Attribute (ERA) model.",
+    "Restructuring the ERA schema.",
+    "Translation into the logical model according to the relational schema.",
+    "The concept of functional dependency as a tool for verifying the structure of relationships.",
+    "Boyce-Codd Normal Form and Third Normal Form.",
+    "Part IV. Database Technologies. Physical organization in databases.",
+    "Indexes and tree structures.",
+    "Query management and optimization.",
+    "Transactions and their management.",
+    "Control of concurrent transactions."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises",
+    "Lab"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Assessment consists of a written and oral exam. The written exam is administered on a computer and includes questions on all course topics as well as exercises in writing SQL queries. The oral exam is available after passing the written exam in the same exam session and includes theoretical questions and exercises on the blackboard.",
+  "bibliography": [
+    "P. Atzeni, S. Ceri, P. Fraternali, S. Paraboschi, R. Torlone. Basi di dati: Modelli e linguaggi di interrogazione. Mc Graw Hill, 6th edition."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "502479",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=9334&ordinamento_aa=2021&af_percorso=2&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "c40d35e865f00b684ad16eb116f3cd941d4ffa6fa778c1ec32162848a5ca8ea7",
+  "extracted_at": "2026-11-20T08:18:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

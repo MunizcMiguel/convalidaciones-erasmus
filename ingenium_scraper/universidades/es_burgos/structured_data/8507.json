@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Simulación numérica de componentes y estructuras",
+  "course_name_en": "Numerical Simulation of Components and Structures",
+  "ects": 6.0,
+  "semester": "2º",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and use of the principles of strength of materials",
+      "type": "knowledge",
+      "code": "ED14"
+    },
+    {
+      "text": "Knowledge and ability for the calculation and design of industrial structures and constructions",
+      "type": "skill",
+      "code": "ED23"
+    },
+    {
+      "text": "Knowledge and ability for the calculation and design of industrial installations",
+      "type": "skill",
+      "code": "ED27"
+    },
+    {
+      "text": "Applied knowledge of metallic and reinforced concrete structures",
+      "type": "knowledge",
+      "code": "ED30"
+    },
+    {
+      "text": "Ability to handle mandatory specifications, regulations, and standards",
+      "type": "skill",
+      "code": "EP4"
+    },
+    {
+      "text": "That students can transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Acquire skills related to the use of computer programs for calculation, data analysis, and processing within their field of application",
+      "type": "skill",
+      "code": "GI7"
+    },
+    {
+      "text": "Develop the ability to work in a team",
+      "type": "competence",
+      "code": "GP3"
+    },
+    {
+      "text": "Ability to apply knowledge to practice",
+      "type": "skill",
+      "code": "GS1"
+    },
+    {
+      "text": "Ability to work autonomously",
+      "type": "skill",
+      "code": "GS7"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to numerical simulation of materials, components, and structures. The finite element method. FE programs today. Stages for an FE analysis: Preprocessing, analysis, and postprocessing. Types of problems in FE.",
+    "Preprocessing stage-I. Geometry generation. Parts and assemblies. Types of contacts between parts. Importing geometry from other programs.",
+    "Preprocessing stage-II. Part meshing. Element types. Meshing strategies. Meshing examples.",
+    "Preprocessing stage-III. Material definition: elasticity and plasticity. Definition of boundary conditions: types of contacts and joints.",
+    "Numerical simulation of linear problems. Analysis and postprocessing stage. Result extraction. Application examples.",
+    "Numerical simulation of nonlinear problems. Plasticity. Friction contacts. Application examples.",
+    "Numerical simulation of coupled thermo-mechanical problems. Application examples.",
+    "Introduction to the simulation of dynamic problems. Implicit and explicit calculation. Impact simulation. Application examples.",
+    "Introduction to the simulation of large deformation problems. Simulation of a rolling process. Simulation of a bending process.",
+    "Simulation of industrial structures. Matrix calculation programs. Calculation of industrial building structures. Application examples."
+  ],
+  "teaching_methods": [
+    "Notes, tutorials and documentation included in the UBUVirtual platform",
+    "Finite element programs with educational license",
+    "Theoretical classes",
+    "Practical classes (small group)",
+    "Completion and presentation of assignments and evaluation tests"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Knowledge test",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Development and presentation of Assignment I",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Development and presentation of Assignment II",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The evaluation system for exchange students must consider the case where the academic calendars of the home and host universities do not coincide. The weights are 20% for knowledge tests, 40% for Assignment I, and 40% for Assignment II. Students with exceptional evaluation must attend the established tests but may be excused from attending theoretical and practical classes.",
+  "bibliography": [],
+  "isced_f_code": "0710",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad de Burgos",
+  "institution_slug": "es_burgos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "8507",
+  "academic_year": "2026-27",
+  "source_url": "https://ubuvirtual.ubu.es/mod/guiadocente/get_guiadocente.php?asignatura=8507&cursoacademico=2026",
+  "source_language": "es",
+  "source_sha256": "be92a5aa3e9e145a59bd8990d9dc95c339675fb2445f919c556b222834c66da5",
+  "extracted_at": "2026-11-13T21:27:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

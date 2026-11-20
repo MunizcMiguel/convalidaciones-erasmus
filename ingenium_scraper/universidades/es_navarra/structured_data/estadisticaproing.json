@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Estadística y Probabilidad (Ing.Gr.) (estadisticaproing)",
+  "course_name_en": "Statistics and Probability (Mechanical Eng.)",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "R1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "R24"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "R2"
+    }
+  ],
+  "syllabus_topics": [
+    "PROBABILITY CALCULUS: Introduction to Probability. Concept of Probability. Properties of Probability. Conditional Probability. Bayes' Theorem.",
+    "RANDOM VARIABLES: Concept of random variable. Discrete and continuous variables. Distribution functions. Moments of a random variable. Chebyshev's inequality. Introduction to multidimensional random variables.",
+    "MOST IMPORTANT DISCRETE DISTRIBUTIONS: Binomial D., Geometric D. Binomial Negative D., Hypergeometric D. , D. Poisson",
+    "MOST IMPORTANT CONTINUOUS DISTRIBUTIONS: D. Uniform. D. Gamma. D. Exponential. Normal D. Central Limit Theorem.",
+    "INTRODUCTION TO DATA ANALYSIS (Practical sessions in computer classroom). Currently using the free software R. Practices on: Data grouping methods. Graphs, tables and most common data summary values. Basic calculus of probability. Visualization and interpretation of data."
+  ],
+  "teaching_methods": [
+    "Theoretical lectures (using blackboard and PowerPoint)",
+    "Problem-solving sessions / Seminars for questions and problems",
+    "Computer lab practical sessions (using R software)",
+    "Individual tutoring",
+    "Personal study"
+  ],
+  "workload_hours_total": 163.5,
+  "workload_hours_contact": 62.5,
+  "assessment_methods": [
+    {
+      "method": "First Test (PP)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Computer Practical Test (PO)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Second Test (SP)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade for the course is the sum of the scores from each part (NPP + NPO + NSP). To pass the ordinary call, the final grade must be 5 points or higher. The first test (PP) may be repeated during the second test's date to improve the score or if the student missed it, in which case the score obtained on the second date will be used. For the extraordinary call (resit), a single exam evaluated out of 10 points is taken, and a minimum of 5 points is required to pass; partial scores are not retained, and the computer part is not re-evaluated.",
+  "bibliography": [
+    "Estadística Básica para Universitarios, Elisabeth Viles, EUNSA",
+    "Ejercicios de cálculo de probabilidades. H. Fernández-Abascal, M. Guijarro, JL. Rojo, JA. Sanz. Editorial Ariel Matemática."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "estadisticaproing",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/estadisticaproing/",
+  "source_language": "es",
+  "source_sha256": "340219c40a995cc3e1472994eb3ad575022f9a455885fb98a1ab872c09361e49",
+  "extracted_at": "2026-11-18T02:50:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

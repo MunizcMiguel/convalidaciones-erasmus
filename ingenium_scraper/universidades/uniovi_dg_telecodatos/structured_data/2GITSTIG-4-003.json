@@ -1,0 +1,201 @@
+{
+  "course_name_original": "Sistemas de Telecomunicación",
+  "course_name_en": "Telecommunication Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Basic knowledge of spectral analysis of signals",
+    "Basic concepts of transmission lines",
+    "Basic concepts of radio propagation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of basic subjects and technologies, enabling the learning of new methods and technologies, and providing great versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity.",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to handle specifications, regulations and mandatory standards.",
+      "type": "skill",
+      "code": "CG6"
+    },
+    {
+      "text": "Ability to autonomously learn new knowledge and techniques suitable for the conception, development, or exploitation of telecommunication systems and services.",
+      "type": "skill",
+      "code": "CR1"
+    },
+    {
+      "text": "Knowledge of telecommunication regulations and norms at national, European, and international levels.",
+      "type": "knowledge",
+      "code": "CR15"
+    },
+    {
+      "text": "Provide and/or evaluate alternative or novel solutions to problems, demonstrating flexibility and professionalism when considering different evaluation criteria.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve problems within their area of study.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze, synthesize and evaluate.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Act autonomously.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Communicate knowledge, procedures, ideas, results orally and in writing, with special emphasis on the preparation of technical documentation, as well as to logically argue and justify decisions made.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify and characterize the different types of disturbances that can affect the transmission process.",
+      "type": "skill",
+      "code": "RA-12.1"
+    },
+    {
+      "text": "Characterize different transmission media from the perspective of transmission parameters.",
+      "type": "skill",
+      "code": "RA-12.2"
+    },
+    {
+      "text": "Relate transmission media/systems to the disturbances that limit the design in each of them.",
+      "type": "skill",
+      "code": "RA-12.3"
+    },
+    {
+      "text": "Utilize basic legislation, regulations, standards, recommendations applicable to the design and planning of telecommunication systems, as well as recognize the main telecommunication standardization bodies.",
+      "type": "skill",
+      "code": "RA-12.4"
+    },
+    {
+      "text": "Manage specification sheets and commercial catalogs of elements used in different telecommunication systems.",
+      "type": "skill",
+      "code": "RA-12.5"
+    },
+    {
+      "text": "Design and evaluate a point-to-point fiber optic system.",
+      "type": "skill",
+      "code": "RA-12.6"
+    },
+    {
+      "text": "Calculate the design parameters of an ADSL/VDSL connection.",
+      "type": "skill",
+      "code": "RA-12.7"
+    },
+    {
+      "text": "Plan the distribution network of an HFC system, selecting the most appropriate elements to satisfy design conditions.",
+      "type": "skill",
+      "code": "RA-12.8"
+    },
+    {
+      "text": "Understand and manage the fundamentals of cellular mobile systems.",
+      "type": "skill",
+      "code": "RA-12.9"
+    },
+    {
+      "text": "Apply acquired basic knowledge to the study, analysis, and design of new communication systems.",
+      "type": "skill",
+      "code": "RA-12.11"
+    },
+    {
+      "text": "Evaluate possible technological solutions to provide a specific service, based on initial conditions and the search for applicable regulations, recommendations, etc., and select the most suitable one considering technical, economic, and/or other criteria.",
+      "type": "skill",
+      "code": "RA-12.12"
+    },
+    {
+      "text": "Present and document appropriately the resolution of a problem, work, or project related to telecommunication systems.",
+      "type": "skill",
+      "code": "RA-12.13"
+    }
+  ],
+  "syllabus_topics": [
+    "TEMA 1. Basic Concepts.",
+    "What is a telecommunication system? Telecommunication system model. Classification of telecommunication systems. Telecommunication standardization bodies. Magnitudes and units used in telecommunication systems.",
+    "TEMA 2. Disturbances in telecommunication systems.",
+    "Disturbances: definition and classification. Linear distortion and equalization. Non-linear distortion. Intermodulation. Noise and its sources. Minimum detectable signal. Dynamic range. 1 dB gain compression point.",
+    "Other types of disturbances, such as crosstalk and interference, will be studied in the corresponding units, associated with the transmission media to which they are characteristic, twisted pair cable and radioelectric propagation respectively.",
+    "Laboratory project 1: Analysis of distortion in a telecommunication system.",
+    "TEMA 3. Guided transmission media",
+    "Model of metallic transmission lines: primary parameters and secondary parameters. Twisted pair cable (specific disturbance: crosstalk). Coaxial cable.",
+    "Optical fiber: index profile, ray theory, modal theory, optical attenuation, modal dispersion, light sources and photodetectors. Link budget.",
+    "Laboratory project 2: Characterization of a guided transmission medium.",
+    "TEMA 4. Telecommunication systems based on guided transmission media",
+    "Digital Hierarchies: Plesiochronous Digital Hierarchy (PDH), Synchronous Digital Hierarchy (SDH).",
+    "HFC Systems: Network architecture. Optical subnetwork. Synchronous Optical Network (SONET). Coaxial subnetwork. Design examples.",
+    "Laboratory project 3: Evaluation of a coaxial distribution network.",
+    "TEMA 5. Radiopropagation",
+    "Review of radiopropagation concepts. Basic antenna parameters (directivity, gain, etc.). Free space propagation, multipath fading. Propagation in the presence of obstacles. Interference.",
+    "Laboratory project 4: Characterization of an unguided transmission medium.",
+    "TEMA 6. Cellular mobile systems",
+    "Propagation in mobile channels. Basic concepts of cellular theory. Access techniques: FDMA/TDMA, CDMA. Effect of interference on cellular planning. Link budget.",
+    "Laboratory project 5: Evaluation of a 5G mobile network.",
+    "TEMA 7. Satellite communication systems",
+    "Structure of a satellite communication system. Satellite link geometry. Multiple access. Link budget."
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom practices (problem-solving, exercises, practical questions)",
+    "Laboratory practices (simulation, programming tasks, measurement with equipment)",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Individual written tests (during classroom practice sessions) covering classroom practices and expository classes (problems, practical questions, or multiple choice)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "On-site written exam (official date) covering 100% of course content (theoretical, theoretical-practical questions, problems)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Laboratory practice evaluation (questions on content developed in previous sessions)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is a weighted average: (T1) x 0.4 + (T2) x 0.4 + (P1) x 0.2. A weighted score of 5 points or higher is required to pass. A student is considered 'Not Presented' if their participation in assessment activities is less than 50% of the total grade. In extraordinary examination, evaluation will consist solely of an on-site written exam covering both theoretical and laboratory content, with the grade calculated as (0.8 x Theoretical Content) + (0.2 x Laboratory Practice Content).",
+  "bibliography": [
+    "Roger L. Freeman, Telecommunication System Engineering, 4th Edition, July 2015. ISBN: 978-0-471-72620-3.",
+    "J. M. Hernando Rábanos, Transmisión por Radio, 7ª ed., Editorial Centro de Estudios Ramón Areces, S.A., 2013. ISBN 978-84-9961-106-8.",
+    "Leandro Juan Llácer, José María Molina García-Pardo, Juan Pascual García, José Víctor Rodríguez Rodríguez, Problemas Resueltos de Sistemas de Telecomunicación (Vol. I). 2017. https://repositorio.upct.es/server/api/core/bitstreams/c937fa31-a969-4a93-8bc7-7fe100f74ee3/content",
+    "José María Molina García-Pardo, Juan Pascual García, María Teresa Martínez Inglés, Problemas Resueltos de Sistemas de Telecomunicación (Vol. II). 2017. https://repositorio.upct.es/bitstreams/9a1dcf48-1f9a-4e5c-b9a1-4bce7301805b/download",
+    "José María Molina García-Pardo, Juan Pascual García, María Teresa Martínez Inglés, Problemas Resueltos de Sistemas de Telecomunicación (Vol. III). 2020. https://repositorio.upct.es/server/api/core/bitstreams/613b033a-cd45-43f8-bd70-e2888a502442/content",
+    "Sophocles J. Orfanidis, Electromagnetic Waves and Antennas, 2016. http://leipper.org/manuals/zip-fill/www.ece.rutgers.edu/~orfanidi/ewa/",
+    "Antoni J. Canós, Lorenzo Rubio, Juan Reig, Narcís Cardona, Planificación de Sistemas de Telecomunicación: Problemas, Editorial Universidad Politécnica de Valencia, 2002.",
+    "J. M. Senior, Optical Fiber Communications: Principles and Practice, Prentice Hall, 2ª ed., 1992.",
+    "Wei Jiang, Bin Han, Cellular Communication Networks and Standards: The Evolution from 1G to 6G, Springer, 2024.",
+    "G. Maral, M. Bousquet, Satellite Communications Systems: Systems, Techniques and Technology, 5th ed., Wiley, 2009."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-003",
+  "source_language": "es",
+  "source_sha256": "aab3b3c3d3b7429fdde2cf329f3038c01cdc143690b9106acd5f6e66eab8416d",
+  "extracted_at": "2026-11-20T06:06:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

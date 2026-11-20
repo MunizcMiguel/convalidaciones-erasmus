@@ -1,0 +1,86 @@
+{
+  "course_name_original": "SPS Praktikum (Grundlagen der SPS Programmierung)",
+  "course_name_en": "PLC Internship (Fundamentals of PLC Programming)",
+  "ects": 4.0,
+  "semester": "every semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "\"Data Processing for Engineers\" or \"Introduction to Programming (for Engineers)\"",
+    "Basic knowledge in programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the structure and functioning of programmable logic controllers (PLCs).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the graphical programming languages \"Ladder Diagram\" and \"Function Block Diagram\" according to the DIN EN 61131-3 standard for algorithms of simple complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Structure, develop, and test PLC programs for various model systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify implementation problems with regard to a program design and develop solutions.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and overview of the function and structure of PLC hardware",
+    "Software development (PLC programming languages)",
+    "Test bench overview",
+    "Familiarization with a PLC development environment",
+    "Use of the communication interface to the PLC",
+    "Programming of the PLC hardware",
+    "Understanding the connection of PLC and experiment board/model system via circuit diagrams"
+  ],
+  "teaching_methods": [
+    "Practical Exercises"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Experiment reports / program listings including commentary",
+      "weight_percentage": null
+    },
+    {
+      "method": "Explanation of programs in the testat",
+      "weight_percentage": null
+    },
+    {
+      "method": "Mandatory attendance",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Skript: Einführung und Versuchsanleitungen.",
+    "Braun, Werner: Speicherprogrammierbare Steuerungen. Praxisnahe Aufgaben und Lösungen mit STEP 7, Vieweg Studium Technik: Wiesbaden (3. verb. Auflage) 2005.",
+    "Seitz, Matthias: Speicherprogrammierbare Steuerungen für die Fabrik- und Prozessautomaten. Strukturierte und objektorientierte SPS-Programmierung, Motion Control, Sicherheit, vertikale Integration, Carl Hanser Verlag: München (4. überarb. und erweit. Auflage) 2015."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "sps-praktikum-grundlagen-der-sps-programmierung",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "443aecda67bdb8911780d6e78d1244177dd1c7f0e481e92c515dbe372037aa88",
+  "extracted_at": "2026-11-18T09:49:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

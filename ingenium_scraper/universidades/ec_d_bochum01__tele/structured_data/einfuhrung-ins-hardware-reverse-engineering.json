@@ -1,0 +1,89 @@
+{
+  "course_name_original": "Einführung ins Hardware Reverse Engineering",
+  "course_name_en": "Introduction to Hardware Reverse Engineering",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Contents of the lectures \"Technical Informatics 1 - Computer Architecture\" and \"Technical Informatics 2 - Digital Technology\"."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are familiar with the fundamental aspects of designing complex logical circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "This includes understanding ASIC and FPGA architectures and corresponding workflows, as well as applying associated tools using Hardware Description Languages (HDLs).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Furthermore, students have a deep theoretical understanding of the various steps of the Hardware Reverse Engineering process and are aware of its implications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "In addition, students gain a deep understanding of various Gate-level Netlist Reverse Engineering methods through several practical projects.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are ideally prepared for theses in this area.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part I: Basic Principles of VLSI Design (VLSI stands for Very-large-scale integration)",
+    "Introduction to logical (combinatorial) circuits",
+    "Sequential circuits",
+    "Hardware Description Languages (HDLs)",
+    "Introduction to ASIC and FPGA architectures",
+    "ASIC and FPGA workflows",
+    "Part II: Hardware Reverse Engineering",
+    "PCB Analysis, Delayering, and Image Processing",
+    "FPGA Bitstream Reverse Engineering",
+    "Reverse Engineering of Gate-Level Netlists"
+  ],
+  "teaching_methods": [
+    "Lecture with exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Project",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Bonus",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the combined module examination. The grade contributes 5/150 to the B.Sc. IT Security/Information Technology [PO 22] final grade and 5/149 to the B.Sc. IT Security/Information Technology [PO 20] final grade.",
+  "bibliography": [],
+  "isced_f_code": null,
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "einfuhrung-ins-hardware-reverse-engineering",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "c8d6533da65d87203446a690dac61df3412cf41a11791d7c59e07e6bb52c36c4",
+  "extracted_at": "2026-11-20T12:36:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

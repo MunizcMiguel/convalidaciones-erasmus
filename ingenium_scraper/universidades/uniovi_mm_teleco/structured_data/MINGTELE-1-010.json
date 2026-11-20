@@ -1,0 +1,189 @@
+{
+  "course_name_original": "Diseño de Subsistemas de Comunicaciones",
+  "course_name_en": "Design of Communication Subsystems",
+  "ects": 7.5,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Ability to develop radio communication systems: antenna design, equipment and subsystems, channel modeling, link calculation and planning.",
+      "type": "competence",
+      "code": "CE2"
+    },
+    {
+      "text": "Ability to design and manufacture integrated circuits.",
+      "type": "competence",
+      "code": "CE10"
+    },
+    {
+      "text": "Ability to design communication components such as routers, switches, concentrators, transmitters and receivers in different bands.",
+      "type": "competence",
+      "code": "CE13"
+    },
+    {
+      "text": "Ability to apply advanced knowledge of photonics and optoelectronics, as well as high-frequency electronics.",
+      "type": "competence",
+      "code": "CE14"
+    },
+    {
+      "text": "Possess and understand knowledge that provides a basis or opportunity to be original in the development and/or application of ideas, often in a research context.",
+      "type": "knowledge",
+      "code": "CB6"
+    },
+    {
+      "text": "That students know how to apply the acquired knowledge and their problem-solving ability in new or little-known environments within broader (or multidisciplinary) contexts related to their area of study.",
+      "type": "skill",
+      "code": "CB7"
+    },
+    {
+      "text": "That students possess the learning skills that allow them to continue studying in a way that will be largely self-directed or autonomous.",
+      "type": "skill",
+      "code": "CB10"
+    },
+    {
+      "text": "Ability for the commissioning, direction and management of electronic and telecommunications equipment manufacturing processes, guaranteeing safety for people and property, the final quality of products and their homologation.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Ability to apply acquired knowledge and solve problems in new or little-known environments within broader and multidisciplinary contexts, being able to integrate knowledge.",
+      "type": "skill",
+      "code": "CG8"
+    },
+    {
+      "text": "Possess skills for continuous, self-directed and autonomous learning.",
+      "type": "skill",
+      "code": "CG12"
+    },
+    {
+      "text": "Design antennas that meet the established requirements according to the frequency band using the appropriate technology and design methods.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Design and develop various passive subsystems for radiocommunications in different technologies and frequency bands.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "Design and develop various active subsystems for radiocommunications in different technologies and frequency bands.",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Use different topologies and design techniques to design and develop radiocommunication systems.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Design and integrate complex radiocommunication systems adapted to specific functionalities from passive and active subsystems in different technologies.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Adapt new design techniques and technologies to problems that require original and imaginative solutions by autonomously understanding them in a more global environment.",
+      "type": "skill",
+      "code": "R5"
+    },
+    {
+      "text": "Solve non-canonical problems related to active and passive radiocommunication antennas and subsystems autonomously and self-directed.",
+      "type": "skill",
+      "code": "R6"
+    }
+  ],
+  "syllabus_topics": [
+    "Parameters and design tools for communication subsystems.",
+    "Review of S-parameters.",
+    "Specification and design of radio communication transmission and reception subsystems.",
+    "Design of planar antennas: microstrip and PIFA.",
+    "Design of aperture antennas: horns and reflectors.",
+    "Array synthesis.",
+    "Matching and feeding networks.",
+    "Antennas based on periodic and quasi-periodic structures.",
+    "Filter synthesis.",
+    "Richard's transformations and Kuroda's identities.",
+    "Impedance inverters.",
+    "Implementation of filters in RF and microwave bands.",
+    "Spatial filters based on frequency selective surfaces.",
+    "Basic amplifier topology.",
+    "Transistor stability.",
+    "Power gain.",
+    "Available gain.",
+    "Constant gain circles.",
+    "Low noise amplifiers.",
+    "Broadband amplifiers.",
+    "Implementation of amplifiers in RF and microwave bands.",
+    "Basic operation of mixers.",
+    "Mixer topologies.",
+    "Diode mixers.",
+    "Transistor mixers.",
+    "Implementation of mixers in RF and microwave bands.",
+    "Negative resistance oscillators.",
+    "Oscillation conditions.",
+    "Design using S-parameters.",
+    "VCO.",
+    "DRO.",
+    "Implementation of oscillators in RF and microwave bands.",
+    "Phase shifters.",
+    "Attenuators.",
+    "Frequency multipliers.",
+    "Implementation in RF and microwave bands."
+  ],
+  "teaching_methods": [
+    "Laboratory Practices",
+    "Classroom/Seminar Practices",
+    "Expositive Lectures",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 187.5,
+  "workload_hours_contact": 56.25,
+  "assessment_methods": [
+    {
+      "method": "Individual assignments (T1-T8)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final report of laboratory work (M)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation in practical sessions (PA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the theoretical block, a minimum grade of 4 out of 10 is required. The theoretical grade is calculated as 0.1 x ( T1 + (2 x T2) + T3 + T4 + T5 + T6 + (2 x T7) + T8 ). For the practical block, a minimum grade of 4 out of 10 is required. The practical grade is calculated as 1/30 x ( (2 x M) + PA ). If both minimums are met, the final grade is (0.7 x Theory) + (0.3 x Practicals); otherwise, the final grade is the numerical grade of the failed part. In extraordinary calls, the evaluation elements are the same, and if laboratory practices were completed in the ordinary call, that grade is retained.",
+  "bibliography": [
+    "Orfanidis, S. J. (2002). Electromagnetic waves and antennas (pp. 227-250). New Brunswick, NJ: Rutgers University. <http://eceweb1.rutgers.edu/~orfanidi/ewa/> Full book available at: <http://eceweb1.rutgers.edu/~orfanidi/ewa/orfanidis-ewa-book.pdf>",
+    "Collin, R. E. (2007). Foundations for microwave engineering. John Wiley & Sons.",
+    "Pozar, D. M. (2009). Microwave engineering. John Wiley & Sons.",
+    "Balanis, C. A. (2012). {Advanced Engineering Electromagnetics. Wiley.",
+    "F. Giannini, G. Leuzzi, \"Nonlinear Microwave Circuit Design\", Wiley, ISBN: 978-0-470-84701-5, Abril 2004.",
+    "G.L. Matthaei, L. Young, E.M. Jones, “Microwave Filters, Impedance-Matching networks and coupling structures”, Ed. Artech House.",
+    "J. Anastassiades, D. Kaminsky, E. Perea, A. Poezevara, “Solid-state Microwave Generation”, Ed. Chapman & Hall.",
+    "Stephen A. Maas, “Microwave Mixers”, Ed. Artech House.",
+    "Jia-Shen G. Hong, M. J. Lancaster, “Microstrip Filters for RF/Microwave Applications”, Ed. Wiley Series in Microwave and Optical Engineering",
+    "Randy Bancroft, “Microstrip and Printed Antenna Design”, Scitech Pub Inc.",
+    "Bal S. Virdee,Avtar S. Virdee,Ben Y. Banyamin, “Broadband microwave amplifiers”, Artech House.",
+    "Guillermo Gonzalez, “Microwave transistor amplifiers. Analysis and Design”, Prentice Hall.",
+    "Course transparencies.",
+    "Advanced Design System by Agilent Technologies",
+    "High Frequency Structure Simulator by Ansys"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-1-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-1-010",
+  "source_language": "es",
+  "source_sha256": "702120674d1a848f9034e078a2de644dba97110341f8a68d03749ec39d0e2fa7",
+  "extracted_at": "2026-11-20T06:06:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

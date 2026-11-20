@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Computer Principles - System Programming",
+  "course_name_en": "Computer Principles - System Programming",
+  "ects": 4.0,
+  "semester": "3.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "(FMFI.KEF/1-AIN-140/22 - Computer Principles - Hardware or FMFI.KI/1-INF-130/00 - Computer Architecture)",
+    "(FMFI.KAI+KDMFI/1-AIN-130/22 - Programming (1) or FMFI.KAI/1-AIN-105/22 - Efficient Algorithms and Data Structures)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the principles of computer architecture at the level of machine code.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to write simple programs in assembly language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to use typical operating system services in C programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the concepts from the theory of operating systems: process management and scheduler.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand internal principles of how modern operating systems work.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to apply the acquired skills in administration of operating systems and while developing applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Layered computer model",
+    "Computer systems organization",
+    "Representations of numbers in computers",
+    "Bit operators",
+    "Machine code level - specific example Intel® Pentium®",
+    "Practical programming in assembly",
+    "Compilation and linking",
+    "Modules",
+    "Selected services of operating systems from the point of view of application developer and their practical usage",
+    "Process management and scheduler"
+  ],
+  "teaching_methods": [
+    "on-site learning"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 39.0,
+  "assessment_methods": [
+    {
+      "method": "Practical exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Quiz (theoretical material)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students need at least 70% to pass practical exercises and 70% on the quiz. Extra bonus points can be earned for extra work. Evaluation is the same in both parts of the course.",
+  "bibliography": [
+    "Mikroprocesory Intel Pentium a spol. / Michal Brandejs, available at http://www.fi.muni.cz/usr/brandejs/Brandejs_Mikroprocesory_Intel_Pentium_2010.pdf",
+    "Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dusseau: Operating Systems: Three Easy Pieces, CreateSpace Independent Publishing Platform, 2018.",
+    "Andrew S. Tanenbaum and Herbert Bos: Modern Operating Systems, Fourth Edition, Pearson"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-AIN-186/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "62c67332c5179623928c520df57da9a84a1b8a84c32881ccb4796390aabc89d1",
+  "extracted_at": "2026-11-20T09:27:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

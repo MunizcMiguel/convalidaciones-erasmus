@@ -1,0 +1,108 @@
+{
+  "course_name_original": "INTERNET ARCHITECTURE, TECHNOLOGY, AND APPLICATIONS (B026971)",
+  "course_name_en": "Internet Architecture, Technology, and Applications",
+  "ects": 6.0,
+  "semester": "Secondo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Fundamentals of Telecommunications Networks"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the main aspects of the Internet, in terms of architectures, protocols and applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and model protocol architectures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to design services and applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to critically discuss the specific technical literature and to apply it in the analysis and design phase.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to clearly and rigorously explain the technical characteristics and properties of network architectures and applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to independently find technical documentation (mainly standards) on network protocols and services.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Internet Architectures, Protocols, Technologies and Services",
+    "Introduction",
+    "Protocol stack: Standard ISO-OSI and TCP/IP",
+    "Internet evolution",
+    "Application Layer",
+    "Applications architectures: Client->Server and Peer-to-Peer Models",
+    "Socket programming",
+    "Domain Name System: architecture and protocols",
+    "World Wide Web",
+    "HTTP: resource, architecture and protocols",
+    "HTML 5 (CSS)",
+    "Javascript",
+    "Mobile Web",
+    "Search Engines",
+    "Web 2.0 and social networking",
+    "REST paradigm and SOAP architecture",
+    "Transport Layer",
+    "UDP: features, packet format",
+    "TCP: features; packet format; connection management; flow and congestion control; TCP evolution: Tahoe, Reno, New Reno, SACK, ECN flavor",
+    "Internet QoS management: RTP, RTPC e SIP",
+    "Network Layer",
+    "Routing and Forwarding",
+    "IPv4, ARP, DHCP, ICMP, Traceroute",
+    "IPv6, NAT",
+    "Autonomous Systems, ISP e Border Router: RIP, OSPF, BGP protocols"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises discussions",
+    "Practical usage of main network monitoring tools"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral discussion",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final examination consists of a written test and an oral discussion. The written test checks the learning level and the ability to apply knowledge to practical scenarios. Grading ranges from Fail (Insufficient) for serious conceptual errors to 29-30 and Honors (Lode) for excellent and in-depth knowledge, critical thinking, and originality. Honors is awarded for work exceeding standard expectations.",
+  "bibliography": [
+    "Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall, “Computer Networks”, Prentice Hall, 2021, 6th edition.",
+    "[docente], Internet: prospettive, architetture, applicazioni, Esculapio 2023, 3a Edizione."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B026971",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45510_B244-21-24_72817_731989&ordinamento_aa=2021&af_percorso=45510&corso_cod=1437&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "4af19a1951c68999652080f2238eeae56d507ffbab594acc13315dd1549864b2",
+  "extracted_at": "2026-11-20T12:45:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,93 @@
+{
+  "course_name_original": "Automation",
+  "course_name_en": "Automation",
+  "ects": 5.0,
+  "semester": "Summer",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Fundamental concepts in mathematics including the solution of the system of differential equations.",
+    "Fundamental concepts in physics (particularly dynamics), mechanics and electrical engineering."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Gain basic knowledge of automatic control theory and computer modelling.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze logical, linear continuous and discrete systems and design their control according to the required function with regard to stability, accuracy, and quality of regulation, in logical systems with the aim of minimizing the number of elements used.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to automation. Logic control, logical functions, Boolean algebra laws, formulation of Boolean functions, minimisation using Boolean algebra laws, Karnaugh's maps and the Quine-McCluskey method.",
+    "NAND, NOR, combinatorial logical circuits, sequential logical circuits, programmable logic controllers. Design of logic circuits based on verbal specifications (combinational, e.g., automatic lighting in the hallway and automatic ventilation in the bathroom; sequential, e.g., elevator, control of railroad crossing gates).",
+    "Examples of mechanical, electrical, and hydromechanical systems and their description by differential equations (mass, spring, damper, translational and rotational motion; R, L, C; tanks with inflow and outflow). Continuous linear regulation circuit, regulation principle, external and internal description, differential equation and its solution using the Laplace transform, Laplace transfer, poles and zeros.",
+    "Impulse response function and impulse characteristic, unit step response function and unit step characteristic, classification of regulation elements. Frequency transfer, frequency response in complex plane and logarithmic coordinates, transport delay. Block diagram algebra.",
+    "Controllers, regulation circuit, characteristic equation, stability of linear continuous system (necessary and sufficient condition of stability), algebraic stability criteria.",
+    "Frequency stability criteria, accuracy of regulation (steady-state analysis).",
+    "Cascade regulation.",
+    "Quality of regulation, Ziegler-Nichols method, Whiteley standard forms, tuning of controllers using unit step response characteristic of controlled system, synthesis of regulating circuit.",
+    "Discrete regulation circuit, sampling circuit (A-D converter), data-hold circuit (D-A converter), difference equation, Z-transform.",
+    "Z-transfer, discrete impulse response function and characteristic, discrete unit step response function and characteristic, frequency transfer, frequency characteristic in complex plane.",
+    "Block diagram algebra of discrete systems, digital controllers (positional and incremental algorithm), stability of discrete regulation circuit (general condition).",
+    "Controllers with two degrees of freedom.",
+    "Informative extension of automation – scheduling of manufacturing processes and robot motion planning in environments with obstacles.",
+    "Laboratory exercise (laboratory of programmable controllers, laboratory of electrical equipments).",
+    "Continuous-time linear control (Ziegler-Nichols method applied to a circuit with a DC motor).",
+    "Logic control (algebraic minimisation of logical functions, block diagrams, Siemens LOGO!Soft).",
+    "Logic control (formulation in words, truth table, minimisation using Karnaugh's map, combinatorial logical circuits – simulation).",
+    "Logic control (sequential logical circuits – simulation).",
+    "Continuous linear control (differential equation, transfer, impulse response and unit step response function, impulse and unit step characteristic, simulation in MATLAB.",
+    "Continuous linear control (frequency transfer, frequency characteristic in complex plane, frequency characteristics in logarithmic coordinates, simulation).",
+    "Continuous linear control (block diagram algebra, controllers, simulation).",
+    "Continuous linear control (regulation circuit, stability criteria of regulation circuit, Ziegler-Nichols method in simulation version).",
+    "Continuous linear control (Ziegler-Nichols method in numerical version, stability criteria, simulation).",
+    "Continuous linear control (accuracy of regulation (steady-state analysis), quality of regulation, simulation).",
+    "Test in written form.",
+    "Credit, reparation of test."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory exercise",
+    "Computer-assisted exercise"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Active participation in laboratory exercises and elaboration of a paper on presented themes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance and activity at seminars",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam covering all three theoretical areas from lectures",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To be awarded course-unit credit, students must prove 100% active participation in laboratory exercises and elaborate a paper on the presented themes. Attendance and activity at seminars are required; one absence can be compensated for by attending another seminar or by substitute tasks. Longer absence requires compensatory tasks. The exam is written and covers all three theoretical areas from the lectures.",
+  "bibliography": [
+    "Presentations of lectures (available in e-learning) and examples solved in exercises, including modelling in the LogoSoft and MATLAB/Simulink environment."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "WYSOKÉ UCENI TECHNICKÉ V BRNE - Brno University of Technology",
+  "institution_slug": "ec_cz_brno01",
+  "degree": "Fundamentals of Mechanical Engineering (B-STI-A)",
+  "course_code": "6AA-A",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.fme.vutbr.cz/en/studenti/predmety/300578",
+  "source_language": "en",
+  "source_sha256": "7c30b3eb11257c8432e6eac4f294c32938414386a5cdf38bf0c78ccb3da40854",
+  "extracted_at": "2026-11-18T09:47:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Métodos Computacionais para a Engenharia Eletrotécnica",
+  "course_name_en": "Computational Methods for Electrical Engineering",
+  "ects": 6.0,
+  "semester": "SEMESTRAL",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Linear Algebra",
+    "Computer Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify, analyze and solve a presented problem using the most appropriate computational tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use MATLAB software to solve problems, either through built-in tools, already available with MATLAB, or through the implementation of algorithms and / or scripts.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Computational Methods and its importance in Electrical Engineering.",
+    "Introduction to MATLAB. MATLAB fundamentals. Matrices and vectors. Matrix operations. Element-wise operations. Solving systems of linear equations.",
+    "Logical vector and logical indexing.",
+    "Scripts and user defined functions.. Anonymous functions.",
+    "Program flow control. Debugging.",
+    "MATLAB Graphics.",
+    "Symbolic toolbox. Solving of equations and systems of equations. Integration and differentiation.",
+    "Roots of algebraic and transcendental equations. fzero and root MATLAB functions.",
+    "Numerical integration. Integral, integral2 and integral3 MATLAB functions.",
+    "Numerical Integration of Ordinary Differential Equations (ODE). MATLAB functions for numerically solving ODE.",
+    "Curve fitting and interpolation.",
+    "Optimization problems."
+  ],
+  "teaching_methods": [
+    "Theoretical/practical master classes",
+    "Laboratory classes",
+    "Experimental and simulation works"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Resolution Problems",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Project",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Mini Tests",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Frequency",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Morais, V.; Vieira, C. (2006) - Matlab 7 & 6 Curso Completo, FCA",
+    "Quarteroni, Alfio (2007) - Cálculo científico com MATLAB e Octave, Springer",
+    "Bober, W.; Stevens, A (2013) - Numerical and Analytical Methods with MATLAB for Electrical Engineers, CRC Press.",
+    "Esfandiari, R. (2017) - Numerical Methods for Engineers and Scientists using MATLAB, 2ed, CRC Press."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01019261",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/90074/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "ae579133fc9e9bb3ee5bc85bea945c2591851470234edd4ad602b2a97579f35b",
+  "extracted_at": "2026-11-20T08:20:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

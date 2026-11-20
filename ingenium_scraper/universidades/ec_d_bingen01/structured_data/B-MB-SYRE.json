@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Systemdynamik und Regelungstechnik",
+  "course_name_en": "System Dynamics and Control Engineering",
+  "ects": 5.0,
+  "semester": "5th semester (winter start); 4th semester (summer start)",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge of automation technology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students master the basics for describing and analyzing systems in the time and frequency domain and for theoretical and experimental control system analysis and modeling.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to design and program simple and cascaded control loops.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Additionally, they have initial experience with practical commissioning and testing of digital control loops on real technical systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to set the parameters of PID controllers using the Ziegler and Nichols method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They master the use of filters to limit signal noise in digital systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to application areas and concepts of control engineering",
+    "Fundamentals of system dynamics",
+    "Stability criteria",
+    "Structure of control loops",
+    "Test methods for control loops",
+    "PID controllers",
+    "Ziegler and Nichols tuning rules",
+    "Cascaded control loops",
+    "Design, simulation and realization of control loops",
+    "Use of filters to reduce quantization errors and signal noise",
+    "Effects of filter delay times and dead times on control behavior",
+    "Modeling and programming with MATLAB-Simulink",
+    "Practical programming with hardware in the lab"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written seminar paper and presentation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exam (90 min)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The form of examination (written seminar paper and presentation or a 90-minute exam) will be determined at the beginning of the semester. Credit points are awarded upon successful completion of the examination and successful participation in exercises. Grading is weighted by credit points.",
+  "bibliography": [
+    "Unbehauen, Heinz: Regelungstechnik I: Klassische Verfahren zur Analyse und Synthese linearer kontinuierlicher Regelsysteme, Fuzzy-Regelsysteme, Vieweg Verlag 2008",
+    "Zacher / Reuter: Regelungstechnik für Ingenieure: Analyse, Simulation und Entwurf von Regelkreisen, Springer Verlag 2014 (e-book)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-SYRE",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "0cf01a51c809a11c0c3a165e21dce97070aa63bb3eb0909659d4c4fdc58877e6",
+  "extracted_at": "2026-11-20T09:21:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

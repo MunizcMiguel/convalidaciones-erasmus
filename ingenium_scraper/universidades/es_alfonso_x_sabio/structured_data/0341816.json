@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Regulación Automática",
+  "course_name_en": "Automatic Control",
+  "ects": 6.0,
+  "semester": "first semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the fundamentals of automatisms and control methods.",
+      "type": "knowledge",
+      "code": "CE14"
+    },
+    {
+      "text": "Understand the fundamentals of Control Systems and Automation.",
+      "type": "knowledge",
+      "code": "RA6"
+    },
+    {
+      "text": "Apply the principles of Automation and control to model and analyze dynamic systems.",
+      "type": "skill",
+      "code": "RA7"
+    },
+    {
+      "text": "Analyze the transient and steady-state response of systems and processes.",
+      "type": "skill",
+      "code": "RA8"
+    },
+    {
+      "text": "Able to design and simulate the dynamic behavior of systems and processes in the laboratory.",
+      "type": "skill",
+      "code": "RA9"
+    },
+    {
+      "text": "Able to work in a team, apply critical reasoning, make decisions, and communicate knowledge and conclusions in the field of industrial engineering.",
+      "type": "competence",
+      "code": "RA10"
+    }
+  ],
+  "syllabus_topics": [
+    "Principles of Automatic Control. Modeling and analysis of dynamic systems. Dynamic behavior of systems.",
+    "1. Introduction to control systems and automation.",
+    "2. Control systems. Laplace Transform.",
+    "2.1. Laplace Transform of typical signals.",
+    "2.2. Theorems and properties of the Laplace Transform.",
+    "2.3. Inverse Laplace Transform.",
+    "3. Automation and control. Mathematical modeling of dynamic systems.",
+    "3.1. Introduction.",
+    "3.2. Transfer Function.",
+    "3.3. Block Diagram.",
+    "3.4. Flow Diagram.",
+    "4. Automation and control. Dynamic Systems in State Space.",
+    "4.1. State Space Modeling.",
+    "4.2. Transfer Functions of Some Physical Elements and Systems.",
+    "5. Analysis of the transient response of systems and processes.",
+    "5.1. 1st order systems, Impulse response, Unit step response, Unit ramp response.",
+    "5.2. 2nd order systems, Types of damping, Impulse response, Unit step response, Specifications, Unit ramp response.",
+    "5.3. Routh-Hurwitz criterion. Stability of systems and processes.",
+    "6. Analysis of the steady-state response of systems and processes.",
+    "6.1. Steady-state error.",
+    "6.2. Error constants.",
+    "6.3. Errors in systems with non-unity feedback.",
+    "7. Root Locus.",
+    "7.1. Plotting the roots of the characteristic equation.",
+    "7.2. Basic equations of the root locus.",
+    "7.3. General rules for constructing the root locus.",
+    "7.4. Addition of poles and zeros to a second-order system.",
+    "8. Analysis of the frequency response of systems and processes.",
+    "8.1. Calculation of system gain and phase.",
+    "8.2. Bode Diagram.",
+    "8.3. Frequency domain specifications."
+  ],
+  "teaching_methods": [
+    "Classroom presentation of concepts related to the subjects that make up each topic and problem-solving sessions that allow the student to know how to approach them, as well as other group-based face-to-face sessions such as discussion classes, common sharing, etc.",
+    "Laboratory activities of increasing difficulty that allow the student to acquire the ability to achieve autonomy in problem-solving.",
+    "Completion of work in small groups.",
+    "Personal study, report writing, practical exercises, etc., as independent work by the student or group of students.",
+    "Evaluation tests.",
+    "Tutorials."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "First Partial Exam",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Second Partial Exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Project 1: Automation and control of machines, processes and systems",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Management of computerized systems",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practices",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical Exam",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "For the ordinary exam in June and the extraordinary exam in July: The student will be assessed on the material associated with the two partial exams, which will account for 75% of the final grade. The remaining 25% will correspond to practices, the proposed project, and the evaluation of computerized process management.",
+  "bibliography": [
+    "1.- Antonio Barrientos Control de sistemas continuos : problemas resueltos: Madrid [etc.] : McGraw-Hill, 1997 ISBN: 8448106059",
+    "2.- Mª Antonia Simón Rodríguez Regulación automática: Visionnet ISBN: 9788499838601",
+    "3.- Ogata, Katsuhiko Ingeniería de control moderna / Katsuhiko Ogata : Pearson-Prentice-Hall ISBN: 8420536784",
+    "4.- Lewis, Paul H. Sistemas de Control en Ingeniería: Madrid : Prentice Hall, 1999 ISBN: 8483221241"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Alfonso X El Sabio",
+  "institution_slug": "es_alfonso_x_sabio",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "0341816",
+  "academic_year": "2026-27",
+  "source_url": "https://www.uax.com/download/8642/file/GMC_Guias_Docentes_plan_2020.pdf",
+  "source_language": "es",
+  "source_sha256": "50a54022c7f19fd4c73eafb32e7fd820957f4c458479efe01dd3e3413f30d61e",
+  "extracted_at": "2026-11-14T01:13:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,142 @@
+{
+  "course_name_original": "Transmisión de Datos",
+  "course_name_en": "Data Transmission",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Ability to read and understand documentation written in English (recommended)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to apply methods of information theory, adaptive modulation, and channel coding, as well as advanced digital signal processing techniques to communication and audiovisual systems.",
+      "type": "skill",
+      "code": "CE1"
+    },
+    {
+      "text": "Interpret, analyze and apply methods of information theory in data transmission.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Interpret, analyze and apply error control methods through noisy transmission channels.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "Compare different error control codes and analyze their performance in communication systems.",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Apply interleaving techniques to improve performance against bursts.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Design coding and decoding systems based on convolutional codes, turbo codes and LDPC.",
+      "type": "skill",
+      "code": "R5"
+    },
+    {
+      "text": "Justify advanced error control techniques used in current wired and wireless telecommunication systems.",
+      "type": "skill",
+      "code": "R6"
+    },
+    {
+      "text": "Analyze multi-layer error control systems for multimedia communications in wireless networks.",
+      "type": "skill",
+      "code": "R7"
+    },
+    {
+      "text": "Analyze multi-layer error control systems in wireless sensor and ad-hoc networks.",
+      "type": "skill",
+      "code": "R8"
+    },
+    {
+      "text": "Design and compare signal discrimination systems using low cross-correlation sequences.",
+      "type": "skill",
+      "code": "R9"
+    },
+    {
+      "text": "Perform group work tasks to apply information theory and channel coding methods in telecommunication systems.",
+      "type": "skill",
+      "code": "R10"
+    }
+  ],
+  "syllabus_topics": [
+    "Information theory in digital communications",
+    "Coding of discrete information sources. Data compression algorithms",
+    "Transmission channels",
+    "Linear codes",
+    "Cyclic codes",
+    "Convolutional codes",
+    "Turbo codes",
+    "Applications of error control codes in current telecommunication systems",
+    "Optimal data compression algorithm based on Huffman",
+    "Barker codes and Golay codes in noisy environments",
+    "Coding systems for error control",
+    "Design of a complete data transmission system with error detection and correction"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Group tutorials",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Individual activities on Virtual Campus",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Group work, contribution tracking, report submission and oral defense",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Individual assignments on Virtual Campus",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final knowledge test",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "To pass the course in the ordinary call, all four parts (group work, individual work, lab practices, final test) must be satisfactorily passed. The final grade is calculated as: 0.2 * Group work + 0.1 * Individual work + 0.3 * Lab practices + 0.4 * Final test. Group and individual assignments can only be completed in the ordinary call. For the extraordinary call, approved group and individual work from the ordinary call will be considered, otherwise, the grade will be 0. Lab practices from the ordinary call, if approved, will keep their grade; otherwise, a lab exam with a minimum score of 5 out of 10 must be passed. A final knowledge test with a minimum score of 5 out of 10 must also be passed. The final grade for the extraordinary call is calculated as: 0.4 * Final test + 0.3 * Lab practices + 0.3 * Assignments grade. For differentiated evaluation, a final exam on theoretical and practical content will be conducted, with the final grade calculated as: 0.7 * Final theory test + 0.3 * Final practical test.",
+  "bibliography": [
+    "Error Control Coding. Shu Lin and Daniel Costello. Prentice Hall",
+    "Digital Modulation and Coding. Stephen G. Wilson. Prentice Hall",
+    "Comunicación Digital. J. Rifá, LL. Huguet. Masson",
+    "Error Control Systems. S. B. Wicker. Prentice Hall",
+    "Elements of Information Theory. Thomas Cover and Joy A. Thomas. John Willey and Sons",
+    "C. E. Shannon. A Mathematical Theory of Communication. The Bell System Technical Journal. 1948",
+    "R.G. Gallager. Information Theory and Reliable Communication. John Wiley. New York. 1968",
+    "R. Gray. Source Coding Theory. Kluwer Academic. Boston. Mass. 1990",
+    "J. G. Proakis. Digital Communications. 4th ed. McGraw-Hill. New York. 2000",
+    "R. W. Marsh. Table of Irreductible Polynomials over GF(2) through Degree 19. NSA. Washington, D.C. 1957",
+    "W.W. Peterson and E. J. Weldon, Jr. Error Correcting Codes. 2 ed. MIT Press. Cambridge. 1972",
+    "G. C. Clark Jr. and J. B. Cain. Error-Correction Coding for Digital Communications. Plenum. New York. 1981",
+    "Comunicaciones y Redes de Computadores. William Stallings. Prentice Hall"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-1-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-1-004",
+  "source_language": "es",
+  "source_sha256": "16e3bdfac637478627948dd1bc36e7fa31a3ed54b19bf3419ab6f89c67a2423a",
+  "extracted_at": "2026-11-20T06:06:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

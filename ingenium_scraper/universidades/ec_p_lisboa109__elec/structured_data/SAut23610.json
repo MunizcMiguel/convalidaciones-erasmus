@@ -1,0 +1,68 @@
+{
+  "course_name_original": "Sistemas Autónomos (SAut23610)",
+  "course_name_en": "Autonomous Systems (SAut23610)",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to autonomous systems: mobile robots, mobile and static sensor networks. Uncertainty in Robotics.",
+    "Probabilistic representation of uncertainty: probabilistic models of observation and action. Bayesian inference. Bayes filter and its particular cases.",
+    "Bayesian Localization.",
+    "Probabilistic mapping by occupancy grid.",
+    "Simultaneous Localization and Mapping (SLAM).",
+    "Task Planning: classical planning; planning under uncertainty: Markov decision processes (MDPs). Reinforcement learning in physical agents.",
+    "Representation of plans and coordination of their execution. Performance analysis.",
+    "Cooperative Systems: Cooperative localization and object tracking. Sensory integration: distributed sensory fusion methods. Assignment, planning and coordination of cooperative tasks.",
+    "Functional, software and hardware architectures."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Group project, including report and presentation+discussion",
+      "weight_percentage": 65.0
+    },
+    {
+      "method": "Soft-skills demonstrated in project presentation/discussion",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final written exam",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "A minimum grade of 9.5 is required for the group project. For the special period, students who did not obtain the minimum project grade can submit an improved version of the project, which will be worth 75%. This value will be complemented by 25% of the best grade from one of the normal or resit exams.",
+  "bibliography": [
+    "Sebastian Thrun, Wolfram Burgard and Dieter Fox, Probabilistic Robotics, MIT Press. http://www.probabilistic-robotics.org/, 2005 (main)",
+    "Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach (caps. 7, 8 e 10), Pearson, 2009 (main)",
+    "Richard S. Sutton and Andrew G. Barto, Reinforcement Learning: An Introduction (caps. 3 a 6), MIT Press, 2018 (main)",
+    "Bruno Siciliano and Khatib Oussama, Springer Handbook of Robotics (caps. 35 e 53), Springer, 2016 (main)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEEC21 Eng. Eletrotécnica e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__elec",
+  "degree": "Licenciatura Bolonha em Engenharia Eletrotécnica e de Computadores (LEEC21)",
+  "course_code": "SAut23610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192347",
+  "source_language": "pt",
+  "source_sha256": "7e5ca56e3cec9c1577572415794abc798bee91605a1d919157a586c7c466fc39",
+  "extracted_at": "2026-11-20T12:42:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

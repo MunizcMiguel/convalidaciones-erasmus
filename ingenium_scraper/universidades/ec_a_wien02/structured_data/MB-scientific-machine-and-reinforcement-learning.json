@@ -1,0 +1,148 @@
+{
+  "course_name_original": "Scientific Machine and Reinforcement Learning",
+  "course_name_en": "Scientific Machine and Reinforcement Learning",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic computer skills, including programming in Python, working with Jupyter Notebooks, and installing and using relevant software libraries.",
+    "Basic knowledge in mechanics, mathematics (linear algebra, analysis, differential equations), numerical methods, and probability and statistics are advantageous.",
+    "Successful completion of StEOP (Study Entry and Orientation Phase)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "After completing the course, students will be able to apply physics-based and hybrid methods of Machine Learning and Reinforcement Learning - which combine data and physical laws - to industrial problems, systematically structure and analyze engineering data, and integrate model- and data-based decision processes into technical systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Explain the principles of Scientific Machine Learning and Reinforcement Learning and demonstrate how they are applied with physics-based models to solve engineering problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Develop and implement physics-based and hybrid models that combine physics-based knowledge/first principles with data-driven Machine Learning and Reinforcement Learning to simulate, predict, and optimize the behavior of mechanical systems and processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and apply strategies of physics-based Machine Learning and Reinforcement Learning to achieve control, optimization, and performance improvement of mechanical systems under real-world conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the performance of physics-based and hybrid SciML/RL models by evaluating accuracy, generalization capability, robustness, and uncertainty, and implement improvements based on this analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess the potential applications and limitations of neuromorphic computing architectures for implementing SciML and RL models and communicate the results in written reports or presentations.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop engineering solutions by integrating SciML and Reinforcement Learning into system design, optimization, or process control.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Effectively communicate technical results through reports and presentations, critically evaluating model limitations, risks, and ethical aspects.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Work effectively in interdisciplinary teams.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Clearly communicate results to both expert and non-expert stakeholders.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Independently structure and solve complex engineering problems, selecting appropriate data- and model-based methods.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Reflect on one's own learning process.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Adapt one's own learning strategies for continuous improvement in applied projects.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Recognize and consider the ethical, societal, and sustainability-related impacts of data- and physics-based AI solutions, including fairness, trustworthiness, and responsible use of models.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to basic mechanical principles and formulation of mechanical systems as ML/RL problems.",
+    "Interpretation of ML models as simplified mechanical systems.",
+    "Development of physics-based ML models integrating physical data or constraints into model architectures.",
+    "Solving physics-based problems with ML techniques, even without large datasets.",
+    "Training machine learning algorithms with limited data or purely physical models.",
+    "Model-based Reinforcement Learning for complex design optimization and control problems.",
+    "Reinforcement Learning (RL) as a learning form where a system learns to influence its environment by taking actions or adjusting its design to achieve the best possible outcome.",
+    "Detailed case studies from robotics, aerospace, manufacturing, and energy systems where these techniques are actively used.",
+    "Applying model-based approaches to real-world problems.",
+    "Utilizing the power of machine learning to simulate, optimize, and control physical systems in various industrial applications.",
+    "Hybrid methods combining model-based and model-free approaches to bridge the gap between theoretical models and real-world applications.",
+    "Implementation of machine learning models on neuromorphic hardware (specialized chips and brain-like networks) for efficiency, adaptability, and real-time processing.",
+    "Leveraging neuromorphic systems for engineering tasks, especially in manufacturing automation and intelligent manufacturing systems.",
+    "Interdisciplinary character of Scientific Machine Learning and Reinforcement Learning, combining knowledge from Mechanical Engineering, Computer Science, Physics, and Electrical Engineering."
+  ],
+  "teaching_methods": [
+    "Lectures with advanced exercises",
+    "Interactive discussions",
+    "Practical programming exercises",
+    "Case studies",
+    "Project-based final project with real engineering problems and datasets"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Programming exercises in Jupyter Notebook",
+      "weight_percentage": null
+    },
+    {
+      "method": "Multiple-choice tests",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project-oriented final project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written final exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Assessment is continuous, including programming exercises in Jupyter Notebook, multiple-choice tests, a project-oriented final project, and a written final exam. The applied teaching and learning forms and examination modalities must be specified in the information system for studies and teaching before the start of each semester. Successful completion of the module is required.",
+  "bibliography": [],
+  "isced_f_code": "0719",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Technische Universität Wien",
+  "institution_slug": "ec_a_wien02",
+  "degree": "Bachelorstudium Maschinenbau (E 033 245)",
+  "course_code": "MB-scientific-machine-and-reinforcement-learning",
+  "academic_year": "Studienplan 2026 (rev1)",
+  "source_url": "https://www.tuwien.at/fileadmin/Assets/dienstleister/studienabteilung/BSc-Studienplaene_2026/Bachelorstudium_Maschinenbau_2026_rev1.pdf",
+  "source_language": "de",
+  "source_sha256": "628971e37bee37dbe1c1d5d29fc3f9b809acd4aae568b8214a40ce88b6dda431",
+  "extracted_at": "2026-11-18T04:21:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

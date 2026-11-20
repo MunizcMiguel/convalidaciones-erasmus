@@ -1,0 +1,289 @@
+---
+{
+ "course_code": "2GITICID-3-001",
+ "course_name": "Arquitectura de Computadores",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-3-001",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:08",
+ "content_sha256": "f7ed6c6a52ccaa83fa6faab59ce9bf90698ef646d74f4772e70ad927150356d4"
+}
+---
+
+# Arquitectura de Computadores
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-3-001
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Primer Semestre
+- **Materia:** Plataformas de Computación
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Aula/Semina (7 Horas); Tutorías Grupales (2 Horas); Clases Expositivas (21 Horas); Prácticas de Laboratorio (28 Horas)
+
+## Contextualización
+
+La asignatura de Arquitectura de Computadores se imparte por docentes del Departamento de Informática durante el primer semestre del segundo curso de la titulación del Grado en Ingeniería Informática en Tecnologías de la Información. La asignatura pertenece a la materia Plataformas de Computación y está encuadrada dentro del módulo Sistemas y Servicios. Asimismo, forma parte del grupo de asignaturas que desarrollan competencias específicas comunes a la rama de informática de formación obligatoria dentro de la titulación. Las competencias adquiridas le permitirán al alumno conocer cómo los computadores modernos dan soporte a los sistemas operativos multitarea, así como cuáles son las mejoras que incorporan para incrementar el rendimiento. Además, el alumno será capaz de seleccionar los dispositivos periféricos adecuados a utilizar en el computador.
+
+Arquitectura de Computadores requiere gran parte de las competencias adquiridas en las asignaturas Fundamentos de Computadores y Redes e Introducción a la Programación, impartidas en el primer curso de la titulación. De hecho, Arquitectura de Computadores es la continuación natural de Fundamentos de Computadores y Redes, ya que se profundiza en aspectos ya tratados en esta última.
+
+Dado que la asignatura Arquitectura de Computadores pertenece al grupo de asignaturas que desarrollan competencias específicas de formación obligatoria dentro de la titulación, muchas de las competencias adquiridas en la asignatura resultarán claves en el desarrollo de competencias de otras asignaturas, especialmente en el caso de Sistemas Operativos, que se imparte en el segundo semestre, donde se enlaza el hardware del computador con el software.
+
+De igual forma, las competencias adquiridas en Arquitectura de Computadores resultarán muy útiles al alumno que curse Configuración y Evaluación de Sistemas e Infraestructura Informática, ya que el conocimiento de arquitecturas de computadores reales le ayudará a planificar una correcta configuración de los sistemas informáticos, así como a lograr una mayor comprensión de las infraestructuras informáticas a escala global.
+
+## Requisitos
+
+Aunque la asignatura no impone unos requisitos previos, se recomienda que el alumno haya cursado la asignatura de Fundamentos de Computadores y Redes, impartida en el primer curso. Asimismo, se le recomienda al alumno haber cursado la asignatura de Introducción a la Programación.
+
+Es recomendable también que el alumno tenga unas habilidades básicas en el manejo del idioma inglés, pues en ocasiones se trabajará sobre documentación técnica escrita en ese idioma.
+
+## Competencias y resultados del aprendizaje
+
+Las competencias que cubre la asignatura son las siguientes:
+
+| ECR1.3 | Capacidad para diseñar y desarrollar aplicaciones, asegurando su fiabilidad, seguridad y calidad, conforme a principios éticos y a la legislación y normativa vigente |
+| --- | --- |
+| ECR1.4 | Capacidad para seleccionar y evaluar sistemas informáticos, asegurando su fiabilidad, seguridad y calidad, conforme a principios éticos y a la legislación y normativa vigente |
+| ECR9 | Capacidad de conocer, comprender y evaluar la estructura y arquitectura de los computadores, así como los componentes básicos que los conforman |
+
+Los resultados de aprendizaje que se derivan de las competencias anteriores están definidos en la memoria de verificación del título y son los siguientes:
+
+| ECR1.3 | PF5: Conocer los diferentes tipos de computadores, junto con sus características y capacidades, que pueden ser utilizados como el soporte hardware en el diseño y desarrollo de un sistema informático |
+| --- | --- |
+| ECR1.4 | PF7: Ser capaz de seleccionar y evaluar el tipo de computador más apropiado para proporcionar un servicio asegurando las características de calidad requeridas |
+| ECR9 | PF14: Evaluar alternativas de organización de los computadores para mejorar su rendimiento |
+| ECR9 | PF15: Comprender el funcionamiento de los mecanismos proporcionados por la arquitectura <br> para dar soporte a los sistemas operativos multitarea |
+| ECR9 | PF16: Conocer ejemplos de la arquitectura y organización de sistemas reales |
+
+## Contenidos
+
+Contenidos teóricos:
+
+Introducción
+
+- El computador
+- Arquitectura del juego de instrucciones
+- Microarquitectura
+- Soporte a los SSOO multitarea
+- Rendimiento
+
+La CPU
+
+- La arquitectura MIPS64
+- Microarquitectura monociclo
+- Microarquitectura segmentada
+- Emisión múltiple de instrucciones
+- La ley de Moore
+- CPU multihilo
+- Soporte a la virtualización
+
+La jerarquía de memoria
+
+- Introducción
+- La memoria virtual
+- Concepto de jerarquía de memoria
+- La memoria caché
+- El TLB
+
+El sistema de E/S
+
+- Interfaces de E/S
+- Sistemas de interconexión
+- Periféricos
+
+Contenidos prácticos:
+
+- Análisis cuantitativo del rendimiento del computador
+- La CPU
+- La jerarquía de memoria
+
+## Metodología y plan de trabajo
+
+La asignatura utilizará la siguiente tipología de modalidades organizativas:
+
+Presenciales
+
+- Clases expositivas: en ellas se desarrollarán los principales conceptos de cada uno de los temas.
+- Seminarios: en ellos se realizarán problemas y se aclararán dudas sobre teoría, problemas, ejercicios, programas u otras tareas.
+- Prácticas de laboratorio: se realizarán prácticas en un computador para ilustrar y consolidar los conocimientos sobre la materia y poner en práctica las habilidades y destrezas que se deben adquirir respecto al manejo de herramientas.
+- Tutorías grupales: actividades realizadas en grupos muy reducidos, en las que el profesor resolverá las dudas planteadas por los alumnos, indicándoles en qué aspectos de la asignatura deberán mejorar y la mejor forma para que lo hagan. Adicionalmente, durante las tutorías grupales se podrán realizar otro tipo de actividades si el profesor así lo considera.
+
+No presenciales
+
+- Trabajo autónomo: trabajo del alumno para realizar trabajos individuales, además del estudio de la materia. Se calcula que cada hora de clase expositiva o de prácticas lleve aparejada más horas de trabajo autónomo del alumno para adquirir las destrezas básicas relativas a esa materia.
+- Trabajo en grupo: es el trabajo que el alumno realiza junto con otros compañeros para la resolución de un problema planteado por el profesor.
+
+En la siguiente tabla se muestra la distribución de horas para cada una de las anteriores actividades.
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 21 | 14% | 60 |
+|  | Práctica de aula / Seminarios / Talleres | 7 | 4.67% |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 28 | 18.67% |  |
+|  | Prácticas clínicas hospitalarias | 0 | 0% |  |
+|  | Tutorías grupales | 2 | 1.33% |  |
+|  | Prácticas Externas | 0 | 0% |  |
+|  | Sesiones de evaluación | 2 | 1.33% |  |
+| No presencial | Trabajo en Grupo | 30 | 20% | 90 |
+|  | Trabajo Individual | 60 | 40% |  |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+La evaluación de la asignatura tendrá en cuenta tres apartados: la parte teórica, la parte práctica y el trabajo en grupo. La evaluación distingue entre la convocatoria ordinaria y las extraordinarias.
+
+**7.1. Convocatoria Ordinaria.**
+
+**Parte teórica de la asignatura**
+
+La parte teórica de la asignatura supone el 50% de la nota final de la asignatura (*NTeo*). Esta parte supone la realización de dos controles teóricos durante el transcurso de la asignatura.
+
+**Parte práctica de la asignatura**
+
+La parte práctica de la asignatura supone el 40% de la nota final de la asignatura (*NPrac*). Esta parte supone la realización de dos controles prácticos durante el transcurso de la asignatura.
+
+**Trabajo en grupo de la asignatura**
+
+El trabajo en grupo supone el 10% de la nota final de la asignatura (*TGrup*). Esta parte supone la realización de un trabajo en equipos de alumnos pertenecientes al mismo grupo de Tutorías Grupales. Este trabajo se evalúa con una única entrega asociada a una defensa.
+
+Elementos evaluables
+
+- Parte teórica
+
+La evaluación de la parte teórica se realiza mediante dos controles teóricos. Es necesario alcanzar una nota mínima de 40% de la *NTeo* para superar la asignatura.
+
+  - Control parcial 1 (*T1*): Este control evalúa los contenidos teóricos de los bloques 1 y 2 (Rendimiento y CPU). Este control tiene un peso (*PT1*) de un 50% de la nota de teoría (*NTeo*). Este control se realiza aproximadamente a mediados de semestre.
+  - Control parcial 2 (*T2*): Este control evalúa los contenidos teóricos de los bloques 3 y 4 (Memoria y E/S). Este control tiene un peso (*PT2*) de un 50% de la nota de teoría (*NTeo*). Este control se realiza en la convocatoria oficial de diciembre/enero.
+- Parte práctica
+
+La evaluación de la parte práctica se realiza mediante dos controles prácticos. Es necesario alcanzar una nota mínima de 40% de la *NPrac* para superar la asignatura.
+
+  - Control parcial 1 (*P1*): Este control evalúa los contenidos prácticos de los bloques 1 y 2 (Rendimiento y CPU). Este control tiene un peso (*PP1*) de un 60% de la nota de prácticas (*NPrac*). Este control se realiza aproximadamente a mediados de semestre.
+  - Control parcial 2 (*P2*): Este control evalúa los contenidos prácticos del bloque 3 (Memoria). Este control tiene un peso (*PP2*) de un 40% de la nota de prácticas (*NPrac*). Este control se realiza al final del semestre.
+- Trabajo en grupo
+
+Los alumnos se organizarán en grupos pertenecientes al mismo grupo de tutorías grupales, que realizarán un trabajo a lo largo del periodo lectivo. La temática del trabajo será propuesta por el profesor. En la etapa final del curso el grupo deberá entregar una memoria del trabajo realizado antes de una fecha límite, y realizar una presentación pública o, en su caso, un ejercicio individual de verificación. Es imprescindible que todos los miembros del grupo estén presentes. La no participación activa en el día de la presentación supondrá una calificación de 0. La calificación del trabajo podrá variar entre los diferentes miembros del grupo en función de la aportación de cada miembro del grupo.
+
+Calificación
+
+La calificación de teoría se obtiene de la fórmula *NTeo = T1 x PT1 + T2 x PT2*
+
+La calificación de prácticas se obtiene de la fórmula *NPrac = P1 x PP1 + P2 x PP2*
+
+La calificación final de la asignatura se obtiene de la fórmula
+
+*Nota = NTeo x 0.5 + NPrac x 0.4 + TGrup x 0.1*
+
+En caso de no alcanzar la nota mínima de 40% en NTeo o NPrac, la nota final será la menor entre 4.5 puntos y el resultado de la fórmula anterior.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+La realización fraudulenta de cualquier prueba evaluable implicará la calificación de 0−Suspenso en la convocatoria correspondiente, invalidando el resto de las calificaciones obtenidas. Todo ello con independencia de otras posibles sanciones que se pudieran determinar.
+
+Se considerarán pruebas evaluables, tanto los controles a realizar, como la entrega del trabajo en grupo.
+
+**7.2. Convocatoria Extraordinaria.**
+
+**Parte teórica de la asignatura**
+
+La parte teórica de la asignatura supone el 50% de la nota final de la asignatura (*NTeo*). Esta parte supone la realización de un control teórico en la fecha oficial de convocatoria.
+
+**Parte práctica de la asignatura**
+
+La parte práctica de la asignatura supone el 40% de la nota final de la asignatura (*NPrac*). Esta parte supone la realización un control práctico en la fecha oficial de convocatoria.
+
+Si se ha obtenido una calificación de *suspenso* en la convocatoria ordinaria y una calificación de prácticas (*NPrac*) igual o superior al 50%, podrá conservarse la calificación de *NPrac* durante la convocatoria extraordinaria.
+
+**Trabajo en grupo de la asignatura**
+
+Se conserva la calificación obtenida en la convocatoria ordinaria (*TGrup*).
+
+Elementos evaluables
+
+- Parte teórica
+
+La evaluación de la parte teórica se realiza mediante un único control teórico. Es necesario alcanzar una nota mínima de 40% de la *NTeo* para superar la asignatura.
+
+- Parte práctica
+
+La evaluación de la parte práctica se realiza mediante un único control práctico. Es necesario alcanzar una nota mínima de 40% de la *NPrac* para superar la asignatura. A esta prueba solo podrán presentarse aquellos alumnos que hayan obtenido una calificación superior al 50% de la parte teórica (*NTeo*).
+
+Calificación
+
+La calificación final de la asignatura se obtiene de la fórmula
+
+*Nota = NTeo x 0.5 + NPrac x 0.4 + TGrup x 0.1*
+
+En caso de no alcanzar la nota mínima de 40% en NTeo o NPrac, la nota final será la menor entre 4.5 puntos y el resultado de la fórmula anterior.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+La realización fraudulenta de cualquier prueba evaluable implicará la calificación de 0−Suspenso en la convocatoria correspondiente, invalidando el resto de calificaciones obtenidas. Todo ello con independencia de otras posibles sanciones que se pudieran determinar.
+
+Se considerarán pruebas evaluables los controles a realizar.
+
+**7.3. Evaluación diferenciada.**
+
+Aquellos alumnos a los que el órgano competente tenga concedida la evaluación podrán optar por esta evaluación.
+
+**Parte teórica de la asignatura**
+
+La parte teórica de la asignatura supone el 50% de la nota final de la asignatura (*NTeo*). Esta parte supone la realización de un control teórico en la fecha oficial de convocatoria.
+
+**Parte práctica de la asignatura**
+
+La parte práctica de la asignatura supone el 50% de la nota final de la asignatura (*NPrac*). Esta parte supone la realización un control práctico en la fecha oficial de convocatoria.
+
+Elementos evaluables
+
+- Parte teórica
+
+La evaluación de la parte teórica se realiza mediante un único control teórico. Es necesario alcanzar una nota mínima de 40% de la *NTeo* para superar la asignatura.
+
+- Parte práctica
+
+La evaluación de la parte práctica se realiza mediante un único control práctico. Es necesario alcanzar una nota mínima de 40% de la *NPrac* para superar la asignatura. A esta prueba solo podrán presentarse aquellos alumnos que hayan obtenido una calificación superior al 50% de la parte teórica (*NTeo*).
+
+Calificación
+
+La calificación final de la asignatura se obtiene de la fórmula
+
+*Nota = NTeo x 0.5 + NPrac x 0.5*
+
+En caso de no alcanzar la nota mínima de 40% en NTeo o NPrac, la nota final será la menor entre 4.5 puntos y el resultado de la fórmula anterior.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados, se podrá solicitar al estudiante su defensa presencial.
+
+La realización fraudulenta de cualquier prueba evaluable implicará la calificación de 0−Suspenso en la convocatoria correspondiente, invalidando el resto de calificaciones obtenidas. Todo ello con independencia de otras posibles sanciones que se pudieran determinar.
+
+Se considerarán pruebas evaluables los controles a realizar.
+
+## Bibliografía
+
+Bibliografía Básica:
+
+- J.C. Granda, J.M. López, M. García, J. Molleda, R. Usamentiaga, J. Entrialgo, F.J. de la Calle. *Arquitectura de Computadores*. Ediuno. Ediciones de la Universidad de Oviedo, 2019, ISBN: 978-84-17445-49-2.
+- D.A. Patterson y J.L. Hennessy. *Computer organization and design. The hardware/software interface, 5th edition*. Morgan Kaufmann, 2014. ISBN: 9780124077263.
+
+Bibliografía Complementaria:
+
+- J.L. Hennessy y D.A. Patterson. *Computer Architecture. A quantitative approach, 5th edition*. Morgan Kaufmann, 2011. ISBN: 9780123838728.
+- W. Stallings y A.C. Vargas. Organización y arquitectura de computadores: diseño para optimizar prestaciones. Prentice Hall, 2001. ISBN: 9788420529936.
+- V.C. Hamacher, Z.G. Vranesic, S.G. Zaky, M.L.F. García y G.Q. Vieyra. *Organización de computadoras*. McGraw-Hill, 1987. ISBN: 9684220588.

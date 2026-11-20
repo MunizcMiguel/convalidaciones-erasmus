@@ -1,0 +1,175 @@
+{
+  "course_name_original": "Microprocesadores y Microcontroladores",
+  "course_name_en": "Microprocessors and Microcontrollers",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Electrónica Digital",
+    "Teoría de Circuitos",
+    "Fundamentos de Informática",
+    "Dispositivos Electrónicos y Fotónicos",
+    "Fundamentos de Electrónica Analógica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Address the complete implementation of an “embedded system” based on microprocessors and/or microcontrollers in their professional life.",
+      "type": "skill",
+      "code": "RA-10.5"
+    },
+    {
+      "text": "Fluently handle the datasheets of typical electronic components of embedded systems: microprocessors, microcontrollers, and peripheral integrated circuits.",
+      "type": "skill",
+      "code": "RA-10.6"
+    },
+    {
+      "text": "Connect various devices (memories, I/O controllers, etc.) with a microprocessor and/or microcontroller according to their needs and given specifications.",
+      "type": "skill",
+      "code": "RA-10.7"
+    },
+    {
+      "text": "Understand the characteristics of microcontrollers, establish their field of application, and select the most suitable microcontroller for a given application, from technical and economic points of view.",
+      "type": "skill",
+      "code": "RA-10.8"
+    },
+    {
+      "text": "Know the programming language for a specific microprocessor/microcontroller, and use the most common development tools: assembler, compilers, simulators, emulators, etc., that facilitate development.",
+      "type": "skill",
+      "code": "RA-10.9"
+    },
+    {
+      "text": "Work in a group, reason critically to compare different solutions and discriminate the most optimal one.",
+      "type": "competence",
+      "code": "RA-10.10"
+    },
+    {
+      "text": "Acquire the ability to solve open problems and projects through analysis and information search. Defend their solution against other possible ones using oral communication.",
+      "type": "competence",
+      "code": "RA-10.11"
+    },
+    {
+      "text": "Use A/D and D/A conversion circuits, both discrete and integrated into microcontrollers or other devices.",
+      "type": "skill",
+      "code": "RA-10.12"
+    },
+    {
+      "text": "Design and implement digital systems using timer blocks, A/D and D/A converters integrated into microcontrollers, and select the optimal one for each application.",
+      "type": "skill",
+      "code": "RA-10.13"
+    },
+    {
+      "text": "Know and use the most common digital communication buses and standards between systems (RS-232, RS-485, etc.) and between integrated circuits (SPI, I2C, etc.).",
+      "type": "skill",
+      "code": "RA-10.14"
+    },
+    {
+      "text": "Manage and design complex I/O circuits and interfaces, such as LCDs and their associated circuits, both at a logical and electrical level.",
+      "type": "skill",
+      "code": "RA-10.15"
+    },
+    {
+      "text": "Use programmable logic devices as another component within electronic design, distinguishing when their use is advantageous over other alternatives and managing their various debugging and development tools for a given family.",
+      "type": "skill",
+      "code": "RA-10.17"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to microprocessors",
+    "Operation of a minimum microprocessor system",
+    "The microprocessor as CPU",
+    "Memories in microprocessor systems",
+    "Input/output interfaces",
+    "68000 microprocessor hardware",
+    "Internal organization and 68000 Exceptions",
+    "Introduction to microcontrollers (MCUs)",
+    "Assembly programming of PIC microcontrollers",
+    "Internal memory organization",
+    "Special features of microcontrollers",
+    "Input/Output ports",
+    "Input/output devices controlled by ports",
+    "Timer modules",
+    "CCP modules: Capture - Comparison - PWM",
+    "A/D conversion modules",
+    "Introduction to programmable logic devices",
+    "Complex PLDs and FPGAs"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practical sessions for exercise and problem solving",
+    "Use of manufacturer datasheets",
+    "Theoretical classes",
+    "Exercise and problem solving",
+    "Laboratory practical sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Activities in Class (ACE) for Laboratory Block",
+      "weight_percentage": null
+    },
+    {
+      "method": "1st Partial Exam (1PP) for Laboratory Block",
+      "weight_percentage": null
+    },
+    {
+      "method": "2nd Partial Exam (2PP) for Laboratory Block",
+      "weight_percentage": null
+    },
+    {
+      "method": "1st Partial Theory Exam (1PT)",
+      "weight_percentage": null
+    },
+    {
+      "method": "2nd Partial Theory Exam (2PT)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF) for Theory Block",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 30% Laboratory (LAB) and 70% Theory (TEORIA). A minimum score of 4 out of 10 is required in both the Laboratory and Theory blocks. If both minimums are met, the final grade is 0.3*LAB + 0.7*TEORIA, with a minimum of 5 to pass. If either block scores less than 4, the final grade will be the minimum of 4 or the weighted sum (0.3*LAB + 0.7*TEORIA). For extraordinary calls, the laboratory block grade can be maintained if it was above 4, or a personal work or final exam will be conducted. The theory block grade will include the partial exams (30%) and a final theory exam (70%).",
+  "bibliography": [
+    "GARCIA GUERRA E.FENOLL COMES Sistemas Digitales. Ingeniería de los microprocesadores 68000. Editorial Centro de Estudios Ramón Areces.",
+    "G.KANE 68000 Microprocessor Handbook Editorial McGraw-Hill.",
+    "M.RAFIQUZZAMAN Microprocessor Theory an Applications with 68000/68020 and Pentium Editorial John Wiley.",
+    "J. CRISP Introduction to Microprocessors and Microcontrollers Editorial Newnes.",
+    "S. R. BALL Embedded Microprocessor Systems. Real World Design Editorial Newnes.",
+    "E.MANDADO, L.J.ALVAREZ Y MªD.VALDES Dispositivos Lógicos Programables y sus aplicaciones Editorial Thomsom.",
+    "J.I.ARTIGAS, L.A.BARRAGAN, C.ORRITE…. Electrónica Digital. Aplicaciones y problemas con VHDL. Editorial Prentice-Hall",
+    "S.A. PEREZ, E. SOTO y S. FERNANDEZ Diseño de Sistemas Digitales con VHDL Editorial Thomson.",
+    "E.GARCIA BREIJO Compilador C CCS y simulador PROTEUS para microcontroladores PIC. Editorial Marcombo.",
+    "E.MARTÍN, J.M.ANGULO & I.ANGULO Microcontroladores PIC. La clave del diseño Editorial Thomson.",
+    "J.M.ANGULO, E.MARTÍN & I.ANGULO Microcontroladores PIC.(La solución en un chip) Editorial Paraninfo.",
+    "JOHN B. PEATMAN Design with PIC Microcontrollers Ed. Prentice Hall Engineering, Science and Math.",
+    "J.M. ANGULO & I.ANGULO Microcontroladores PIC, Diseño Práctico de Aplicaciones Ed. McGraw-Hill",
+    "J.M. ANGULO, S. ROMERO & I.ANGULO Microcontroladores PIC, Diseño Práctico de Aplicaciones (2ªparte) PIC16F87x Ed. McGraw-Hill",
+    "F.E. VALDES PEREZ y R. PALLAS ARENY Microcontroladores. Fundamentos y aplicaciones con PIC. Ed. Marcombo",
+    "www.ti.com (Texas Instruments)",
+    "www.national.com (National)",
+    "www.philips.com (Philips)",
+    "www.freescale.com (Microprocesador 68000)",
+    "www.microchip.com (Microcontrolador PIC)",
+    "https://www.intel.com/content/www/us/en/products/programmable/fpga.html (Fabricantes de PLD and FPGA)",
+    "http://www.xilinx.com/ (Fabricantes de PLD and FPGA)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-3-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-3-005",
+  "source_language": "es",
+  "source_sha256": "9c868bb8733b9ccbfcca0fc85cea7800afb1f44e1d100fb9c574ed68f2add2b3",
+  "extracted_at": "2026-11-20T06:04:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

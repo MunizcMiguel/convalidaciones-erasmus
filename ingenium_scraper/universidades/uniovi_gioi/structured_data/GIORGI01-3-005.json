@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Modelos y Métodos para la Organización de Empresas",
+  "course_name_en": "Models and Methods for Business Organization",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic programming knowledge",
+    "Basic modeling knowledge",
+    "“Métodos Cuantitativos en Organización Industrial” (highly recommended)",
+    "English knowledge for reading scientific articles and manuals",
+    "Interpersonal skills, communication, and teamwork"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand, model, analyze and solve organizational problems in industrial and service companies using quantitative methods, optimization, validation and simulation.",
+      "type": "competence",
+      "code": "CIO06"
+    },
+    {
+      "text": "Know and apply the fundamentals and techniques for business organization and the design and management of production and logistics systems.",
+      "type": "competence",
+      "code": "CIO07"
+    },
+    {
+      "text": "Know and develop skills for experimental design, data analysis and decision making.",
+      "type": "competence",
+      "code": "CIO-10"
+    },
+    {
+      "text": "Model and solve real-world non-linear optimization problems in the context of industrial organization.",
+      "type": "unspecified",
+      "code": "RMO-1"
+    },
+    {
+      "text": "Design and study queuing models in the business environment.",
+      "type": "unspecified",
+      "code": "RMO-2"
+    },
+    {
+      "text": "Model and solve network optimization problems.",
+      "type": "unspecified",
+      "code": "RMO-3"
+    },
+    {
+      "text": "Model and solve problems using metaheuristics.",
+      "type": "unspecified",
+      "code": "RMO-4"
+    }
+  ],
+  "syllabus_topics": [
+    "Algorithms and complexity",
+    "Metaheuristics",
+    "Basic graph concepts. Connected components",
+    "Complex Network Analysis (CNA)",
+    "Shortest path in graphs",
+    "Trees",
+    "TSP and VRP",
+    "Flow in graphs",
+    "Graph coloring",
+    "Mathematical foundations",
+    "Unconstrained models",
+    "Constrained models",
+    "Quadratic programming",
+    "Bellman's Optimality Principle",
+    "Deterministic models",
+    "Stochastic models",
+    "Queuing systems",
+    "Markovian stochastic processes",
+    "Modeling of various queuing systems"
+  ],
+  "teaching_methods": [
+    "Expository classes (theory)",
+    "Classroom practices/seminars (problem solving)",
+    "Laboratory practices (software use, Python)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 59.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical and practical problems exam",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Group work (presentation of scientific article or complex network analysis)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Individual work (Python optimization problem with metaheuristics, report, presentation, and defense)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as (0.10 * Group Work) + (0.15 * Lab Work) + (0.75 * Exam). To pass the course, a total of 5 points must be achieved, with at least 3.60 points out of 7.5 possible in the written exam. Both the individual and group assignments are compulsory; failure to submit either will result in only the exam score being considered for the final grade. Attendance to at least 5 out of 7 laboratory practices is mandatory to have the points from group and individual work considered. For extraordinary evaluations, the structure is the same, retaining the scores from proposed assignments and adding the exam score.",
+  "bibliography": [
+    "Bautista Valhondo, J. (2020) Metaheurísticas en Ingeniería. Dextra Editorial",
+    "Luke, S. (2016) Essential of Metaheuristics. Apuntes de la George Mason University. Disponible gratuitamente en: https://cs.gmu.edu/~sean/book/metaheuristics/Essentials.pdf",
+    "Taha, H.A. (2010) Operations Research: An Introduction. Pearson Prentice Hall, NJ.",
+    "Hillier, F.S.; Lieberman, G.J. (2005) Introduction to Operations Research. McGraw, NY.",
+    "Winston W.L. (2004): Investigación de Operaciones, Aplicaciones y Algoritmos, Thomson International."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Organización Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_gioi",
+  "degree": "Grado en Ingeniería de Organización Industrial",
+  "course_code": "GIORGI01-3-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/organizacionindustrial/-/fof/asignatura/GIORGI01-3-005",
+  "source_language": "es",
+  "source_sha256": "8d25aeb7cc66076c0a3b5e42f293b2cb6cf5fab31bccce606874dbcd6b7e76d5",
+  "extracted_at": "2026-11-20T01:15:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

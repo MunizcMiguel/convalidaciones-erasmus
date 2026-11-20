@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Cálculo I",
+  "course_name_en": "Calculus I",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics I (Bachillerato)",
+    "Mathematics II (Bachillerato)",
+    "Block 3. Analysis (Bachillerato)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Use the basic properties of numerical sets and perform fundamental operations with them.",
+      "type": "unspecified",
+      "code": "RCALI1"
+    },
+    {
+      "text": "Operate and represent real functions of a real variable, obtain their limits, determine their continuity, calculate derivatives, and formulate and solve optimization problems.",
+      "type": "unspecified",
+      "code": "RCALI2"
+    },
+    {
+      "text": "Use the concepts of sequence and series, and use power series to represent functions.",
+      "type": "unspecified",
+      "code": "RCALI3"
+    },
+    {
+      "text": "State and apply the basic properties of real functions of several real variables. Obtain their limits, analyze continuity and differentiability, and solve optimization problems.",
+      "type": "unspecified",
+      "code": "RCALI4"
+    },
+    {
+      "text": "Solve Calculus problems using computational tools.",
+      "type": "unspecified",
+      "code": "RCALI5"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1: Numerical Sets",
+    "Introduction and basic concepts",
+    "Peano Axioms. Induction method",
+    "Topic 2: Real Functions of a Real Variable",
+    "Introduction and basic concepts",
+    "Limits and continuity of functions",
+    "Differentiability of functions. Taylor Polynomial",
+    "Optimization of single-variable functions",
+    "Topic 3: Real Functions of Several Real Variables",
+    "Introduction to topology",
+    "Limits and continuity of real functions of two variables",
+    "Differentiability of real functions of several variables",
+    "Introduction to optimization of multi-variable functions",
+    "Topic 4: Sequences and Series of Real Numbers",
+    "Sequences of real numbers",
+    "Series of real numbers",
+    "Power Series. Convergence field of power series"
+  ],
+  "teaching_methods": [
+    "Virtual expository sessions (videos, presentations, instructional texts, self-assessment questionnaires)",
+    "In-person expository classes (doubt resolution, theoretical development, examples)",
+    "Virtual classroom practices (videos, questionnaires, forum participation)",
+    "In-person classroom practices (individual or group exercises and tasks)",
+    "Virtual laboratory practices (introduction to Matlab)",
+    "In-person laboratory practices (introduction to Matlab)",
+    "Tutoring (Teams chat, Campus Virtual forums, personal virtual or in-person tutorials)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "First Partial Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second Partial Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written Exam (NE)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Classroom Practices (NPA)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory Practices (NL)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Virtual Campus activities (NCV)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For ordinary call, the final grade (NF) is calculated as 0.5 * NE + 0.2 * NPA + 0.2 * NL + 0.1 * NCV, where NE is (P1+P2)/2 if both partials were taken, otherwise it's the Written Exam. A minimum grade of 3.5 out of 10 is required for the Written Exam (NE) if taken as a single comprehensive test, and for Laboratory Practices (NL). The subject is passed if NF is 5 or greater. If minimums are not met, the grade will be the minimum of NF and 4.5. For extraordinary call, NF = 0.7 * NE + 0.1 * NCV + 0.2 * NL. A minimum grade of 3.5 out of 10 is required for the Written Exam (NE) and Laboratory Practices (NL).",
+  "bibliography": [
+    "Burgos Román, J. Cálculo infinitesimal de una variable [online]. 2nd ed. Madrid: McGraw-Hill, 2007",
+    "Zill, D.G. Cálculo de una variable: trascendentes tempranas. 4th ed. México: McGraw Hill, 2011. ISBN 978607150501",
+    "Stewart, J. Cálculo de una variable y Cálculo multivariable. Paraninfo Thomson. (6th ed.), 2009"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-1-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-1-002",
+  "source_language": "es",
+  "source_sha256": "73317526901403a056b52f1a45b4e1c14bae18c354d322912dfa8fb3b7709826",
+  "extracted_at": "2026-11-20T05:55:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

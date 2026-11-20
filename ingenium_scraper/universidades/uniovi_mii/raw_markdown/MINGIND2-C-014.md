@@ -1,0 +1,260 @@
+---
+{
+ "course_code": "MINGIND2-C-014",
+ "course_name": "Dibujo Industrial",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-014",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T04:59:29",
+ "content_sha256": "4776ea8b86aaa588ae1e662ab8f6a4f558002efdbe182661289c0f6ca04a9e8e"
+}
+---
+
+# Dibujo Industrial
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-C-014
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Complementos de Formación
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Aula/Semina (14 Horas); Tutorías Grupales (2 Horas); Clases Expositivas (14 Horas); Prácticas de Laboratorio (28 Horas)
+
+## Contextualización
+
+Se trata de una asignatura obligatoria, de carácter teórico-práctico, que pertenece al módulo de “Tecnología específica Mecánica” y a la materia “Expresión Gráfica”, con la que se pretende:
+
+1. Conocer, comprender y aplicar los conceptos tecnológicos y gráficos adaptados a las nuevas situaciones para el desarrollo profesional.
+2. Desarrollar las estrategias y procedimientos en la resolución de los problemas gráficos como cauce para abordar los proyectos de ingeniería.
+3. Utilizar la comunicación gráfica entre técnicos, concretada en realizar e interpretar los planos normalizados de Dibujo Técnico de Ingeniería Industrial, implicando las nuevas tecnologías.
+4. Trabajar en equipo, donde desarrollar sus conocimientos con un intercambio técnico/cultural crítico y responsable.
+5. Planificar y gestionar proyectos en el ámbito de la ingeniería industrial de acuerdo a la legislación vigente.
+
+## Requisitos
+
+Se recomienda tener conocimientos previos de la asignatura Expresión Gráfica. Por otro lado es conveniente que los alumnos tengan nociones de croquización, un manejo fluido de software de dibujo y habilidad en la consulta bibliográfica.
+
+## Competencias y resultados del aprendizaje
+
+Las competencias generales que se trabajarán en esta asignatura son:
+
+CG2 Capacidad para la dirección de las actividades objeto de los proyectos de ingeniería descritos en CG1 (*CG1: Capacidad para la redacción, firma y desarrollo de proyectos en el ámbito de la ingeniería industrial que tengan por objeto la construcción, reforma, reparación, conservación, demolición, fabricación, instalación, montaje o explotación de: estructuras, equipos mecánicos, instalaciones energéticas, instalaciones y plantas industriales y procesos de fabricación*).
+
+CG3 Conocimiento en materias básicas y tecnológicas, que les capacite para el aprendizaje de nuevos métodos y teorías, y les dote de versatilidad para adaptarse a nuevas situaciones.
+
+CG4 Capacidad de resolver problemas con iniciativa, toma de decisiones, creatividad y razonamiento crítico.
+
+CG7 Capacidad para el manejo de especificaciones, reglamentos y normas de obligado cumplimiento.
+
+CG11 Capacidad de trabajar en un entorno multilingüe y multidisciplinar.
+
+CG14 Honradez, responsabilidad, compromiso ético y espíritu solidario.
+
+CG15 Capacidad de trabajar en equipo.
+
+La competencia básica que se trabajará en esta asignatura es:
+
+CB5 Capacidad de visión espacial y conocimiento de las técnicas de representación gráfica, tanto por métodos tradicionales de geometría métrica y geometría descriptiva, como mediante las aplicaciones de diseño asistido por ordenador.
+
+La competencia específica que se trabajará en esta asignatura es:
+
+CM1 Conocimientos y capacidades para aplicar las técnicas de ingeniería gráfica.
+
+Estas competencias se concretan en los siguientes resultados de aprendizaje:
+
+R1. Interpretar y representar planos de conjunto y despiece de mecanismos, estructuras e instalaciones.
+
+R2. Dominar y manejar con soltura programas de dibujo paramétrico.
+
+R3. Determinar condiciones de funcionamiento de piezas comunes en mecanismos y la relación entre ellas.
+
+R4. Utilizar correctamente especificaciones, reglamentos y normas de obligado cumplimiento de representación gráfica.
+
+R5. Conocer el método de diseño industrial y conocer sus herramientas de trabajo.
+
+## Contenidos
+
+Los contenidos que figuran en la Memoria de Verificación se desarrollan a continuación con más detalle, quedando estructurados en los siguientes temas:
+
+**Módulo 1: Modelado paramétrico de elementos mecánicos**
+
+Tema M01: Sistemas de modelado.
+
+Tema M02: Instalación, entorno y gestión de proyectos en Autodesk Inventor.
+
+Tema M03: Bocetos, restricciones y acotaciones.
+
+Tema M04: Operaciones de boceto.
+
+Tema M05: Operaciones de pieza.
+
+Tema M06: Planos de pieza.
+
+Tema M07: Ensamblajes.
+
+Tema M08: Librerías de piezas normalizadas.
+
+Tema M09: Presentaciones. Planos de conjunto.
+
+Tema M10: Asistentes de diseño I: ejes, chavetas, rodamientos, pasadores.
+
+Tema M11: Asistentes de diseño II: engranajes, resortes, correas y cadenas.
+
+Tema M12: Otros entornos: Soldadura, Piezas de chapa.
+
+Tema M13: Simulación mecánica.
+
+**Módulo 2: Dibujo de Taller**
+
+Tema T01: Dibujos de conjunto y despiece.
+
+Tema T02: Acabados superficiales.
+
+Tema T03: Tolerancias dimensionales y ajustes.
+
+Tema T04: Tolerancias geométricas.
+
+Tema T05: Acotación y análisis funcional.
+
+Tema T06: Uniones roscadas.
+
+Tema T07: Ejes y árboles, chavetas y pasadores.
+
+Tema T08: Rodamientos y resortes.
+
+Tema T09: Engranajes.
+
+Tema T10: Otros elementos de transmisión: correas y cadenas.
+
+Tema T11: Uniones fijas: remaches y soldadura.
+
+**Módulo 3: Diseño Industrial**
+
+Tema D01: Metodología de diseño industrial.
+
+## Metodología y plan de trabajo
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula* | *Prácticas de laboratorio* | *Tutorías grupales* | *Sesiones de Evaluación* | ***Total*** | *Trabajo grupo* | *Trabajo autónomo* | **Total** |
+| **Tema M01: Sistemas de modelado.** | **3** |  | 1 |  |  |  | **1** |  | 2 | **2** |
+| **Tema M02: Instalación, entorno y gestión de proyectos en Autodesk Inventor.** | **4** |  | 1 | 1 |  |  | **2** |  | 2 | **2** |
+| **Tema M03: Bocetos, restricciones y acotaciones.** | **5** |  | 1 | 1 |  |  | **2** |  | 3 | **3** |
+| **Tema M04: Operaciones de boceto.** | **6** |  | 1 | 2 |  |  | **3** |  | 3 | **3** |
+| **Tema M05: Operaciones de pieza.** | **6** |  | 1 | 2 |  |  | **3** |  | 3 | **3** |
+| **Tema T01: Dibujos de conjunto y despiece.** | **8** | 1 |  | 1 | 1 |  | **3** | 2 | 3 | **5** |
+| **Tema M06: Planos de pieza.** | **6** |  | 1 | 2 |  |  | **3** |  | 3 | **3** |
+| **Tema T02: Acabados superficiales.** | **7** | 1 |  | 1 |  |  | **2** | 2 | 3 | **5** |
+| **Tema T03: Tolerancias dimensionales y ajustes.** | **6** | 1 |  | 1 |  |  | **2** | 2 | 2 | **4** |
+| **Tema T04: Tolerancias geométricas.** | **6** | 1 |  | 1 |  |  | **2** | 2 | 2 | **4** |
+| **Tema M07: Ensamblajes.** | **8** |  | 1 | 2 |  |  | **3** | 2 | 3 | **5** |
+| **Tema T05: Acotación y análisis funcional.** | **7** | 1 |  | 1 |  |  | **2** | 2 | 3 | **5** |
+| **Tema T06: Uniones roscadas.** | **7** | 1 |  | 1 |  |  | **2** | 2 | 3 | **5** |
+| **Tema M08: Librerías de piezas normalizadas.** | **5** |  | 1 | 1 |  |  | **2** |  | 3 | **3** |
+| **Tema M09: Presentaciones. Planos de conjunto.** | **8** |  | 1 | 1 | 1 |  | **3** | 2 | 3 | **5** |
+| **Tema M10: Asistentes de diseño I: ejes, chavetas, pernos, rodamientos, pasadores.** | **5** |  | 1 | 1 |  |  | **2** |  | 3 | **3** |
+| **Tema T07: Ejes y árboles, chavetas y pasadores.** | **6** | 1 |  | 1 |  |  | **2** | 2 | 2 | **4** |
+| **Tema T08: Rodamientos y resortes.** | **6** | 1 |  | 1 |  |  | **2** | 2 | 2 | **4** |
+| **Tema T09: Engranajes.** | **4** | 1 |  | 1 |  |  | **2** |  | 2 | **2** |
+| **Tema M11: Asistentes de diseño II: engranajes, resortes, correas y cadenas.** | **9** |  | 2 | 2 |  |  | **4** | 2 | 3 | **5** |
+| **Tema T10: Otros elementos de transmisión: correas y cadenas.** | **7** | 1 |  | 1 |  |  | **2** | 2 | 3 | **5** |
+| **Tema T11: Uniones fijas: remaches y soldadura.** | **7** | 1 |  | 1 |  |  | **2** | 2 | 3 | **5** |
+| **Tema M12: Otros entornos: soldadura, piezas de chapa.** | **6** |  | 1 | 1 |  |  | **2** | 2 | 2 | **4** |
+| **Tema M13: Simulación mecánica.** | **5** |  | 1 | 1 |  |  | **2** |  | 3 | **3** |
+| **Tema D01: Metodología de Diseño Industrial.** | **4** |  | 1 | 1 |  |  | **2** |  | 2 | **2** |
+| **Total** | **150** | **11** | **14** | **28** | **2** | **3** | **58** | **28** | **64** | **92** |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 11 | 7,33 | 58 |
+|  | Práctica de aula | 14 | 9,33 |  |
+|  | Prácticas de laboratorio | 28 | 18,66 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales | 2 | 1,32 |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 3 | 2 |  |
+| No presencial | Trabajo en Grupo | 28 | 18,67 | 92 |
+|  | Trabajo Individual | 64 | 42,67 |  |
+|  | Total | 150 |  |  |
+
+Toda la programación anteriormente expuesta está sujeta a los cambios que por motivos de matrícula y calendario le puedan afectar.
+
+## Evaluación del aprendizaje
+
+**7.1. Evaluación ordinaria.**
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+1. **EV1**: En primer lugar, se realizará una prueba de carácter teórico en el que se evaluarán los conocimientos mediante un examen que los alumnos deberán realizar individualmente, cuya duración prevista será de 1 hora. Este examen se realizará en las últimas clases del periodo lectivo oficial.
+2. **EV2**: Por otra parte, se realizará un trabajo en grupo. La valoración de este trabajo consta de dos partes, siendo su valoración máxima de 2 puntos por el contenido del propio trabajo y 1 punto por la presentación del mismo.
+3. **EV3**: Se realizará una prueba de carácter práctico en el que se evaluarán los conocimientos de uso del programa de CAD, mediante un examen que los alumnos deberán realizar individualmente, cuya duración prevista será de 2 horas. Este examen se realizará en las últimas clases del periodo lectivo oficial.
+4. **EV4**: Finalmente, se valorará la participación activa del estudiante, que se dividirá en dos apartados, pudiendo obtener hasta 1 punto en las clases expositivas (teoría) y otro punto en las prácticas de laboratorio (PL).
+
+El porcentaje de peso de cada elemento evaluable será el siguiente:
+
+| **Sistemas de evaluación** |  | **Resultados de aprendizaje** | **Porcentaje** |
+| --- | --- | --- | --- |
+| EV1 | Exámenes de carácter teórico | R1, R2, R3, R5 | 20 |
+| EV2 | Trabajos y exposiciones desarrollados durante el curso | R1, R2, R3, R4, R5 | 30 |
+| EV3 | Exámenes de carácter práctico | R2 | 30 |
+| EV4 | Participación activa del alumno en el desarrollo de la asignatura | R4 | 20 |
+
+Como paso previo a la evaluación de la asignatura, los alumnos deben asistir al menos al 80% de las clases prácticas, tanto de PA como de PL. En caso contrario se considerarán como no presentados en Evaluación Ordinaria.
+
+Calificación:
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+0,2 x EV1 + 0,3 x EV2 + 0,3 x EV3 + 0,2 x EV4
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,0.
+
+Observaciones adicionales:
+
+- Los sistemas de evaluación EV1 y EV3 requieren de un mínimo del 50% de su nota máxima para darlos como superados y poder sumar así las calificaciones de todas las partes.
+- Las notas de cada sistema de evaluación superado se mantienen hasta la evaluación extraordinaria. En ningún caso se conservarán las notas para el curso siguiente.
+- El alumno que no realice el trabajo grupal, tendrá la oportunidad de defender un trabajo individual en evaluación extraordinaria.
+
+**7.2. Evaluación Extraordinaria.**
+
+Los alumnos que no superen la asignatura en Evaluación Ordinaria deberán repetir el examen teórico y/o el examen práctico (EV1 y EV3) en la fecha prevista como **Evaluación Extraordinaria** (convocatorias de mayo o junio) y con las mismas características del realizado al finalizar el curso.
+
+En el caso de que se presente un alumno a esta evaluación que no haya realizado y/o superado el trabajo en grupo (EV2), deberá desarrollar un trabajo proporcionado por los profesores, anterior a su presentación al examen extraordinario. Este trabajo tendrá una valoración similar a la descrita para el sistema de evaluación EV2.
+
+0,2 x EV1 + 0,3 x EV2 + 0,3 x EV3 + 0,2 x EV4
+
+**7.3. Evaluación Diferenciada.**
+
+Los alumnos que se acojan a esta modalidad de evaluación deberán superar los exámenes teórico y práctico descritos como EV1 y EV3, con un peso en la nota final del 40% y 60% respectivamente.
+
+0,4 x EV1 + 0,6 x EV3
+
+## Bibliografía
+
+**Recursos:**
+
+- El software de referencia para la realización de las prácticas será la última versión de Autodesk Inventor.
+
+**Bibliografía:**
+
+- **Ingeniería gráfica y diseño**. Félez; J.; Martínez, ML. ISBN: 978-84-9756-499-1. Octubre 2007. Editorial Síntesis.
+- **Dibujo Técnico**. Normas básicas. ISBN: 978-84-8143-626-6. Editorial AENOR.
+- **Dibujo Industrial**. Company, P.; Vergara, M.; Mondragón, S. ISBN: 978-84-8021-603-6. 2007 Universidad Jaume I.
+- **Technical Graphics Communication**. Bertoline et al., Ed Mc Graw Hill.
+- **Engineering Drawing Practice for Schools and Colleges**. Bureau of Indian Standards. 2003. (https://law.resource.org/pub/in/bis/S01/is.sp.46.2003.pdf)
+
+**Recursos en línea:**
+
+- **ISO - International Organization for Standardization**. (http://www.iso.ch)
+- **Autodesk Inventor Services & Support**. Disponible en http://www.autodesk.com

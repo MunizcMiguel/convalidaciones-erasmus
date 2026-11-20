@@ -1,0 +1,128 @@
+{
+  "course_name_original": "SISTEMI DI PRODUZIONE",
+  "course_name_en": "PRODUCTION SYSTEMS",
+  "ects": 6.0,
+  "semester": "First Semestre",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic mathematical knowledge from the first year."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the terminology and conceptual, logical, and physical models used to represent production systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the main production configurations and the characteristics of capacity, flow, flexibility, and integration.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the technical and economic criteria for selecting and sizing components and industrial projects.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the principles of production planning, inventory management, maintenance, simulation, and digital twin.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Configure and dimension a production system according to product and market characteristics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose and analyze a layout, dimensioning its fundamental elements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform capacity analyses and simple economic evaluations and comparisons between alternatives.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply product and machine grouping procedures and interpret simulation and flow monitoring models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compare configurations, layouts, and industrial projects based on technical and economic criteria.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Evaluate production constraints and resource performance.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Interpret data related to reliability, failures, and maintenance to guide decisions on production resources.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Describe production systems, models, and indicators with appropriate terminology and illustrate the criteria and evaluations used in the analysis of alternatives.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to integrate knowledge of design, planning, and maintenance of production systems and to independently deepen digital tools for simulation, monitoring, and decision support.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Models and data for production: Representation of products, work cycles, resources and orders; data necessary for planning and control of production activities.",
+    "Classification of production systems according to material and information flows; capacity, throughput, flexibility, and integration as system characteristics and indicators.",
+    "Economic evaluation of machines and industrial projects: Analysis of industrial costs and relationship between costs and production volumes; break-even point.",
+    "Determination of the economic value of an industrial machine; present value and main indices for comparative evaluation of industrial projects.",
+    "Analysis of production configurations. Layouts by department, in-line, and by cell; product and cycle data necessary for flow study; criteria for comparing configurations.",
+    "Group Technology and application of product and machine grouping procedures.",
+    "Production planning: Calculation of effective resource capacity, determination of the number of machines, and analysis of production constraints; batch production and comparison between inventory management models.",
+    "Role of ERP systems in data sharing and coordination of production, warehouse, and procurement.",
+    "Principles of lean production and Just in Time; operation of pull systems and electronic Kanban: consumption acquisition, replenishment signal generation, information update, and flow monitoring between production phases.",
+    "Work study and simulation of production flows: Organization of the workstation and association/scheduling between operators and machines.",
+    "Introduction to discrete event simulation to represent resource operation and evaluate capacity, waiting times, and utilization levels.",
+    "Monitoring and maintenance of resources. Failures, reliability, and operational life of machines; maintenance policies, intervention times, and availability.",
+    "Introduction to predictive maintenance with machine state detection techniques, evolution towards machine learning for anomaly recognition and support for maintenance decisions.",
+    "Digital twin of production systems: Principles of digital modeling of machines and production processes; connection between the model and data from the physical system.",
+    "Use of the digital twin to monitor performance and evaluate operational scenarios."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is conducted through an oral examination consisting of three questions, which may cover theoretical aspects or require calculations. Each answer is graded from 0 to 10 points based on correctness, clarity, and depth. The final score, expressed out of thirty, is the sum of the points obtained. A score of 18/30 or higher is required to pass the exam.",
+  "bibliography": [
+    "Mario [docente]: Fondamenti di Sistemi di Produzione, Aracne Editrice, 2007",
+    "A. Monte: Elementi di impianti industriali – Voll. I e II. Ed. Libreria Cortina (TO), 2003",
+    "R. Castagna, Roversi A.: Sistemi produttivi - ed. ISEDI (TO), 1990",
+    "L. Furlanetto: Manuale di manutenzione degli impianti industriali e servizi. Il Mulino, 2007"
+  ],
+  "isced_f_code": "0719",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica",
+  "institution_slug": "ec_i_beneven02__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86323",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=5093&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "fc5d4d1378cb5799a08834e9517d6cb2f3f28687d550938509a794af9150e478",
+  "extracted_at": "2026-11-20T12:43:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

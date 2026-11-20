@@ -1,0 +1,280 @@
+{
+  "course_name_original": "ELETTRONICA DIGITALE C.I. (B031328)",
+  "course_name_en": "DIGITAL ELECTRONICS I.C. (B031328)",
+  "ects": 12.0,
+  "semester": null,
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Electrical circuits and elementary electronic devices: General Electronics.",
+    "General Electronics, basics of combinatory logic",
+    "It is also strongly recommended to have attended the Digital Systems Electronics course"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of logic gates, Boolean algebra, and combinational and sequential logic circuits",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the issues underlying the timing of simple sequential circuits",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main digital electronic devices and their main operational and functional characteristics",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understanding of the methods for synthesizing and analyzing digital circuits",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understanding of the power consumption issues of digital circuits",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main A/D and D/A conversion methods",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to interpret datasheets of digital integrated circuits",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to evaluate the main factors contributing to the performance of a digital system",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to evaluate the speed limits of a digital system",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to design digital systems of moderate complexity",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to evaluate, also with an experimental approach, the performance of a digital system",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and evaluate the specifications of simple electronic devices",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to process and interpret experimental data obtained from laboratory measurements, in order to formulate well-reasoned judgments",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to integrate, collaborate and communicate in team work dynamics through experimental laboratory activities",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to clearly and logically express the considerations underlying the design of digital circuits to specialized and non-specialized personnel",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously find and understand technical documentation on electronic devices",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously draw up the list of specifications for a digital system of moderate complexity",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of combinational and sequential logic networks, state machines, and memories.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the architecture of programmable digital circuits like PLD and CPLD.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of embedded systems and microprocessors.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of VHDL language for hardware description.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge of using CAD for VHDL code synthesis and simulation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of microcontroller characteristics and programming methods.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and synthesize combinational digital networks and state machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to describe simple digital circuits in VHDL.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously use CAD for VHDL synthesis and simulation (Quartus Prime, Modelsim), and for writing microcontroller code in laboratory activities (STM32CubeIde).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to write microcontroller code for simple real-time applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to make simple design choices independently for the synthesis of digital circuits and microcontroller applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to correctly describe the design of a digital circuit on CPLD and/or microcontroller.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously find technical documentation on digital electronic devices.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Combinatorial and sequential logic networks.",
+    "Characteristics of bipolar integrated circuits; power consumption; interconnection problems; digital buses; typical malfunctions.",
+    "Timing of circuits based on buffers, bus-switch, registers, latches, counters, memories.",
+    "Fundamentals of Boolean Algebra, elementary logic networks (NOT, OR, AND, NOR, NAND), DeMorgan's Theorems and Karnaugh Maps.",
+    "Elementary sequential networks (Flip-flop, transparent latch, register).",
+    "Elementary circuits: TTL and CMOS inverter and their transfer characteristics.",
+    "BiCMOS circuits.",
+    "Generalities on digital integrated circuits.",
+    "Main characteristics of digital integrated circuits: Package, acronyms, available functionalities, significant parameters (data sheet).",
+    "State of the art, low voltage logic. Voltage and current levels (characteristics) of Input/output. Interconnection problems between logic ICs, noise margins.",
+    "Calculation of dynamic power consumption in CMOS ICs.",
+    "Typical problems of \"buses\": conflicts and \"floating\" bus.",
+    "Typical malfunctions of integrated logic circuits, electrostatic discharges.",
+    "Digital integrated circuits and their timing.",
+    "Functionality and timing of digital integrated circuits that implement logic gates, buffers and transmission gates (bus-switch) for bus management, latches, D flip-flops, registers, asynchronous and synchronous up/down binary counters (single or cascaded), programmable counters, read-only memories and RAM.",
+    "Evaluation of maximum operating frequencies.",
+    "Generalities on programmable logic circuits (PLD, FPGA, DSP, etc).",
+    "A/D and D/A converters. General concepts and definitions.",
+    "Ramp A/D converter, successive approximation, Flash.",
+    "D/A converters: Characteristic parameters. Weighted resistor and ladder converter.",
+    "Laboratory exercises: laboratory activities where students, using laboratory instrumentation, verify the operation of simple logic networks and perform measurements of the main electrical and temporal quantities.",
+    "Classroom exercises with educational software for simulation of combinational and sequential digital circuits.",
+    "Microprocessors and Embedded Systems.",
+    "EEPROM and FLASH Memories.",
+    "Dual-Port, FIFO, Dynamic Memories.",
+    "Elements of sequential logic networks.",
+    "State Machines.",
+    "Programmable Digital Circuits: CPLD and FPGA.",
+    "VHDL Language.",
+    "Quartus prime development environment.",
+    "Laboratory exercises on the use of CAD microcontrollers.",
+    "Elements of Embedded system design.",
+    "Electronic devices for Embedded systems.",
+    "Power consumption containment techniques.",
+    "Real-Time operation.",
+    "Embedded data processing.",
+    "The microcontroller as the heart of the Embedded system.",
+    "Programming techniques, addressing space, boot, interrupts.",
+    "Control and status registers.",
+    "Standard peripherals such as UART, SPI, Bidirectional parallel bus, ADC.",
+    "Timers and input capture peripherals, reset circuit and watch-dog.",
+    "ROM memories, decoding circuits and junction and MOS memory matrix.",
+    "Structure and operation of the FAMOS device.",
+    "EPROM programming and erasure.",
+    "Flash memories. Data Endurance and retention.",
+    "Static RAMs, elementary cells and organization. Read and write circuits.",
+    "Static RAMs, elementary cell and sensing amplifier circuit.",
+    "SDRAM and DDR memories, operating logic.",
+    "Dual-port memories, elementary cell, pin-out and operating logic.",
+    "FIFO memories, architecture, status flags and operating logic.",
+    "Access and timing for ROM and RAM memories, in read and write.",
+    "Notes on the latest technologies: Ferroelectric RAM (FeRAM), Hybrid Memory Cube (HMC), Phase Change Memory (PCM), Memristor memories.",
+    "Logic networks for programmable circuits: recalls of Boolean algebra and analysis and synthesis of combinational and sequential circuits.",
+    "Hazards and techniques to avoid them.",
+    "Mealy and Moore state machines.",
+    "Synthesis of a network on a given architecture.",
+    "PROM, PAL, PLD.",
+    "CPLD and FPGA: Detailed architecture of a commercial device from the Altera MAX3000 family. Structure of the macrocell and interconnection buses. Dedicated signals. I/O blocks. Timing model. FPGA architecture.",
+    "VHDL Language: Entity and Architecture. Hierarchical structure. Implementation of combinational circuits such as Multiplexer, Demultiplexer, Comparators, Encoders, Decoders. Implementation of sequential circuits and state machines. Examples. Rules to follow and typical errors.",
+    "CAD applied to programmable circuits: Top-Down design technique, Schematic Entry, Simulation, Constraints, Fitting, Configuration. Altera Quartus prime development environment.",
+    "Laboratory exercises: In the laboratory, students will have the opportunity to put into practice what they have learned in the course. Divided into small working groups, they will use the Quartus prime and STM32CubeIde CADs with a development board for microcontrollers and one for FPGAs. Students will develop small projects to decode signals, drive displays, read buttons, etc."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Frontal lessons through slide projection, with integration of topics on the blackboard",
+    "Solving examples and exercises on the blackboard",
+    "Seminars given by companies in the field of electronic device development",
+    "Laboratory activities (12 h) aimed at evaluating the behavior and performance of simple combinational/sequential circuits",
+    "Use of educational software for digital circuit simulation.",
+    "Use of interactive applications of the \"Student response system\" type",
+    "Frontal lessons in Italian using slides in English",
+    "Approximately 26 hours of frontal lessons in the classroom with slides in English.",
+    "Approximately 28 hours of electronics laboratory where explanations and student activities with CAD and on development boards for FPGAs and microcontrollers alternate.",
+    "Seminars by expert companies in the sector."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 108.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The first exam session after the end of the course includes a written test, while the remaining sessions include oral tests. In both cases, the test consists of open questions and exercises designed to verify knowledge, understanding, ability to apply knowledge, autonomy of judgment, communicative skills, and learning abilities. Evaluation criteria range from 'Insufficient' for severe conceptual errors to 'Excellent or outstanding' (29-30 cum laude) for complete, in-depth, and well-structured knowledge, critical thinking, originality, and rigor. Cum laude is awarded for brilliant and original work.",
+  "bibliography": [
+    "Tocci, Widmer, Moss, “Digital Systems: Principles and Applications”, 10-th 11-th Editions, Prentice-Hall, (principale testo di riferimento generale)",
+    "Horowitz, Hill, \"L'arte dell'elettronica\", Zanichelli ed., 2018 (testo di riferimento generale)",
+    "P.Spirito: Elettronica Digitale, 2nd-3rd ed, McGraw Hill, (support for digital circuits description)",
+    "Data sheets and application notes of logic integrated circuits",
+    "Paolo Spirito, ELETTRONICA DIGITALE , McGraw-Hill",
+    "M. M. Mano, C.R. Kime, RETI LOGICHE, Pearson, Prentice Hall",
+    "J. M. Rabaey, A. Chandrakasan, B. Nikolic, CIRCUITI INTEGRATI DIGITALI, Pearson, Prentice Hall.",
+    "Controlla la bibliografia su onesearch (https://onesearch.unifi.it/). Per aiuto contatta la tua biblioteca"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B031328",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45508_B244-21-24_85449_731977&ordinamento_aa=2021&af_percorso=45508&corso_cod=1437&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "5f2cd973cdd8ef1bb1ab7a0150c17f85c2dff9539e1338584f673d03a2f54f01",
+  "extracted_at": "2026-11-20T12:45:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

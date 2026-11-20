@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explorador de guías docentes</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--line:#dfe3e8;--ink:#1c2430;--mute:#667085;--accent:#1f5fbf;--accent-soft:#e6eefb;--good:#1a7f4b;--warn:#b26a00;--sel:#eaf1fd}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#12161c;--panel:#1a2029;--line:#2c3542;--ink:#e6eaf0;--mute:#97a3b4;--accent:#6ea0f2;--accent-soft:#1f2b40;--good:#4cc38a;--warn:#e0a03a;--sel:#1e2a3f}}
+:root[data-theme="dark"]{--bg:#12161c;--panel:#1a2029;--line:#2c3542;--ink:#e6eaf0;--mute:#97a3b4;--accent:#6ea0f2;--accent-soft:#1f2b40;--good:#4cc38a;--warn:#e0a03a;--sel:#1e2a3f}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0}
+body{background:var(--bg);color:var(--ink);font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+header.top{display:flex;align-items:center;gap:12px;padding:8px 16px;border-bottom:1px solid var(--line);background:var(--panel)}
+header.top h1{font-size:15px;margin:0;font-weight:650}
+header.top .meta{color:var(--mute);font-size:12px;margin-left:auto}
+.app{display:grid;grid-template-columns:1fr 1fr;height:calc(100% - 41px)}
+.pane{display:flex;flex-direction:column;min-width:0;min-height:0;border-right:1px solid var(--line)}
+.pane:last-child{border-right:0}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line);background:var(--panel)}
+.bar label{font-size:12px;color:var(--mute)}
+select,input[type=search]{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 8px;min-width:0}
+select{max-width:100%}
+button{font:inherit;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:5px 10px;cursor:pointer}
+button:hover{border-color:var(--accent)}
+button.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.list{overflow:auto;background:var(--panel);border-bottom:1px solid var(--line);flex:0 0 36%}
+.list.big{flex:1 1 auto}
+.row{display:flex;gap:10px;padding:7px 12px;border-bottom:1px solid var(--line);cursor:pointer;align-items:baseline}
+.row:hover{background:var(--accent-soft)}
+.row.sel{background:var(--sel);box-shadow:inset 3px 0 0 var(--accent)}
+.row .n{flex:1;min-width:0}
+.row .n b{font-weight:600}
+.row .n small{display:block;color:var(--mute);font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.row .e{color:var(--mute);font-size:12px;white-space:nowrap}
+.pct{font-weight:700;min-width:44px;text-align:right}
+.simzone{flex:0 0 38%;min-height:0;display:flex;flex-direction:column;border-bottom:1px solid var(--line);background:var(--panel)}
+.simzone.collapsed{flex:0 0 auto}
+#map{flex:1;min-height:0}
+.simzone .list{flex:1 1 auto;border:0}
+.card{flex:1 1 auto;overflow:auto;padding:14px 16px;background:var(--bg);min-height:0}
+.empty{padding:24px;color:var(--mute);text-align:center}
+.card h2{margin:0 0 2px;font-size:17px}
+.card .sub{color:var(--mute);margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 12px}
+.chip{background:var(--accent-soft);color:var(--ink);border-radius:999px;padding:2px 9px;font-size:12px}
+.card h3{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute);margin:14px 0 4px}
+.card ul{margin:0;padding-left:18px}
+.card li{margin:2px 0}
+table.as{border-collapse:collapse;width:100%;font-size:13px}
+table.as td{border-bottom:1px solid var(--line);padding:3px 4px}
+table.as td:last-child{text-align:right;white-space:nowrap}
+.rules{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:8px 10px;margin-top:6px;font-size:13px}
+.simbadge{display:inline-block;background:var(--good);color:#fff;border-radius:6px;padding:1px 8px;font-weight:700;margin-left:8px;font-size:13px}
+a{color:var(--accent)}
+details summary{cursor:pointer;color:var(--mute)}
+.slider{display:flex;align-items:center;gap:8px}
+.slider input{width:130px}
+.note{color:var(--mute);font-size:12px;padding:6px 12px}
+@media (max-width:900px){.app{grid-template-columns:1fr;grid-auto-rows:minmax(560px,1fr);height:auto}.pane{border-right:0;border-bottom:1px solid var(--line)}}
+.leaflet-container{background:var(--panel);font:inherit}
+button.ext{background:#1a9b50;border-color:#15803f;color:#fff;font-weight:700;margin-left:12px}
+button.ext:hover{background:#15803f;border-color:#15803f}
+#ext{position:fixed;inset:0;z-index:2000;background:var(--bg);display:flex;flex-direction:column}
+#ext[hidden]{display:none}
+.extTop{display:flex;flex-wrap:wrap;gap:10px;align-items:center;padding:8px 14px;border-bottom:1px solid var(--line);background:var(--panel)}
+.extTop h2{font-size:15px;margin:0}
+.extTop .f{color:var(--mute);font-size:12px;flex:1;min-width:240px}
+.lg{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--mute)}
+.lg i{display:inline-block;width:70px;height:10px;border-radius:5px;background:linear-gradient(90deg,hsl(0,75%,42%),hsl(60,75%,42%),hsl(120,75%,42%))}
+#extMap{flex:1 1 auto;min-height:160px}
+#extDetail{flex:0 0 52%;overflow:auto;background:var(--panel);border-top:3px solid var(--line);padding:12px 16px}
+#extDetail[hidden]{display:none}
+.mk{display:flex;align-items:center;justify-content:center;border-radius:50%;color:#fff;font:700 11px/1 system-ui,sans-serif;border:2px solid #fff;box-shadow:0 1px 4px rgba(0,0,0,.45)}
+.mk.sel{border-color:#000;box-shadow:0 0 0 3px #fff,0 0 0 5px #000}
+.extH{display:flex;flex-wrap:wrap;gap:8px;align-items:baseline;margin-bottom:8px}
+.extH h3{margin:0;font-size:17px}
+.extH .sub{color:var(--mute);font-size:12px}
+.extBox{border:2px solid var(--accent);border-radius:8px;background:var(--bg);padding:10px 14px;margin:6px 0 12px;font-size:13px}
+.extBox .lvl{display:inline-block;color:#fff;font-weight:700;border-radius:5px;padding:1px 9px;margin-right:6px}
+.extBox dl{display:grid;grid-template-columns:150px 1fr;gap:4px 12px;margin:8px 0 0}
+.extBox dt{font-weight:700;color:var(--mute);text-transform:uppercase;font-size:11px;letter-spacing:.04em;padding-top:2px}
+.extBox dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.extBox ul{margin:0;padding-left:16px}
+.extBox .cp{float:right}
+@media (max-width:700px){.extBox dl{grid-template-columns:1fr}}
+.cf{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 8px}
+.cf button.on{background:var(--accent);color:#fff}
+.cr{display:flex;gap:10px;align-items:baseline;padding:5px 10px;border-bottom:1px solid var(--line);border-left:6px solid;font-size:13px}
+.cr.ok{border-left-color:#1a9b50;background:rgba(26,155,80,.10)}
+.cr.parcial{border-left-color:#e8890c;background:rgba(232,137,12,.13)}
+.cr.sin_guia{border-left-color:#d33;background:rgba(221,51,51,.10)}
+.cr .t{flex:1;min-width:0}.cr .t small{color:var(--mute)}
+.cr .s{white-space:nowrap;font-size:12px;font-weight:600}
+.cr.ok .s{color:#1a9b50}.cr.parcial .s{color:#e8890c}.cr.sin_guia .s{color:#d33}
+
+</style>
+</head>
+<body>
+<header class="top">
+  <h1>Explorador de guías docentes · Ingeniería Mecánica</h1>
+  <span class="meta" id="meta"></span>
+  <button id="btnExt" class="ext" title="Estado global de la extracción">Extraction State [–]</button>
+</header>
+<div class="app">
+  <section class="pane" id="left">
+    <div class="bar">
+      <label>Universidad <select id="uniSel"></select></label>
+      <label>Área <select id="areaSel"></select></label>
+      <input id="q" type="search" placeholder="Buscar asignatura o tema…" style="flex:1;min-width:140px">
+    </div>
+    <div class="list" id="leftList"></div>
+    <div class="card" id="leftCard"><div class="empty">Elige una universidad y una asignatura.</div></div>
+  </section>
+  <section class="pane" id="right">
+    <div class="bar">
+      <div class="slider"><label for="thr" title="Índice relativo de similitud (0 % = par al azar, 100 % = mejor coincidencia típica). No es una probabilidad.">Índice de coincidencia mínimo</label><input id="thr" type="range" min="50" max="100" step="1" value="75"><b id="thrV">75 %</b></div>
+      <button id="btnMap" class="on">Mapa</button>
+      <button id="btnList">Lista</button>
+      <button id="btnHide">Ocultar</button>
+      <span class="meta" id="simCount" style="color:var(--mute);font-size:12px;margin-left:auto"></span>
+    </div>
+    <div class="simzone" id="simZone">
+      <div id="map"></div>
+      <div class="list" id="rightList" style="display:none"></div>
+    </div>
+    <div class="card" id="rightCard"><div class="empty">Selecciona una asignatura a la izquierda para ver las parecidas.</div></div>
+  </section>
+</div>
+<div id="ext" hidden>
+  <div class="extTop">
+    <h2>Extraction State</h2>
+    <span class="f" id="extFormula"></span>
+    <span class="lg">0 %<i></i>100 %</span>
+    <button id="extClose">Cerrar ✕</button>
+  </div>
+  <div id="extMap"></div>
+  <div id="extDetail" hidden></div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const insts = Object.fromEntries(DATA.insts.map(i => [i.slug, i]));
+const courses = DATA.courses;
+const byUni = {};
+courses.forEach((c, i) => { c._i = i; (byUni[c.u] ||= []).push(c); });
+let curLeft = null, curRight = null, mode = "map", map = null, layer = null;
+
+$("#meta").textContent = `${courses.length} asignaturas · ${Object.keys(byUni).length} universidades · datos del ${DATA.generated}`;
+
+// ---------- selectores ----------
+$("#uniSel").innerHTML = `<option value="">— universidad —</option>` +
+  DATA.insts.filter(i => byUni[i.slug]).map(i => `<option value="${i.slug}">${esc(i.name)} (${byUni[i.slug].length})</option>`).join("");
+$("#areaSel").innerHTML = `<option value="">Todas las áreas</option>` + DATA.areas.map(a => `<option>${esc(a)}</option>`).join("");
+const fold = s => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
+
+function leftFiltered() {
+  const u = $("#uniSel").value, a = $("#areaSel").value, q = fold($("#q").value);
+  return (byUni[u] || []).filter(c => (!a || c.area === a) &&
+    (!q || fold(c.name + " " + c.en + " " + c.topics.join(" ")).includes(q)));
+}
+function renderLeft() {
+  const u = $("#uniSel").value;
+  const L = $("#leftList");
+  if (!u) { L.innerHTML = `<div class="empty">Elige una universidad.</div>`; return; }
+  const items = leftFiltered();
+  L.innerHTML = items.length ? items.map(c => `<div class="row ${curLeft === c ? "sel" : ""}" data-i="${c._i}">
+      <div class="n"><b>${esc(c.name || c.en)}</b><small>${esc(c.en && c.en !== c.name ? c.en + " · " : "")}${esc(c.area)}</small></div>
+      <div class="e">${c.yr ? c.yr + "º" : ""} ${c.ects != null ? c.ects + " ECTS" : ""}</div></div>`).join("")
+    : `<div class="empty">Sin asignaturas con ese filtro.</div>`;
+  L.querySelectorAll(".row").forEach(r => r.onclick = () => selectLeft(courses[+r.dataset.i]));
+}
+["#uniSel", "#areaSel"].forEach(s => $(s).onchange = () => { curLeft = null; renderLeft(); clearRight(); $("#leftCard").innerHTML = `<div class="empty">Elige una asignatura.</div>`; });
+$("#q").oninput = renderLeft;
+
+// ---------- ficha ----------
+function card(c, sim) {
+  const u = insts[c.u];
+  const chips = [c.ects != null && c.ects + " ECTS", c.yr && c.yr + "º curso", c.sem, c.type, (c.lang || "").toUpperCase(), c.area, c.isced && "ISCED " + c.isced]
+    .filter(Boolean).map(x => `<span class="chip">${esc(x)}</span>`).join("");
+  const list = (t, a) => a && a.length ? `<h3>${t}</h3><ul>${a.map(x => `<li>${esc(x)}</li>`).join("")}</ul>` : "";
+  const lo = c.lo.length ? `<h3>Resultados de aprendizaje</h3><ul>${c.lo.map(o => `<li>${o[1] ? `<b>${esc(o[1])}</b> ` : ""}${esc(o[2])} <small style="color:var(--mute)">${esc(o[0])}</small></li>`).join("")}</ul>` : "";
+  const as = c.as.length ? `<h3>Evaluación</h3><table class="as">${c.as.map(a => `<tr><td>${esc(a[0])}</td><td>${a[1] != null ? a[1] + " %" : "—"}</td></tr>`).join("")}</table>` : "";
+  const rules = c.rules ? `<div class="rules">${esc(c.rules)}</div>` : "";
+  const wl = c.wl != null ? `<h3>Carga de trabajo</h3><div>${c.wl} h totales${c.wc != null ? ` · ${c.wc} h presenciales` : ""}</div>` : "";
+  const bib = c.bib.length ? `<details><summary>Bibliografía (${c.bib.length})</summary><ul>${c.bib.map(x => `<li>${esc(x)}</li>`).join("")}</ul></details>` : "";
+  return `<h2>${esc(c.name || c.en)}${sim ? `<span class="simbadge">${(sim / 10).toFixed(1)} %</span>` : ""}</h2>
+    <div class="sub">${esc(c.en && c.en !== c.name ? c.en + " · " : "")}${esc(u.name)} · ${esc(u.city)} · código ${esc(c.code)}</div>
+    <div class="chips">${chips}</div>${lo}${list("Temario", c.topics)}${as}${rules}${list("Metodología", c.methods)}${list("Requisitos previos", c.prereq)}${wl}${bib}
+    ${c.src ? `<h3>Fuente</h3><a href="${esc(c.src)}" target="_blank" rel="noopener">Guía docente original</a>` : ""}`;
+}
+
+function selectLeft(c) {
+  curLeft = c;
+  $("#leftCard").innerHTML = card(c);
+  $("#leftCard").scrollTop = 0;
+  renderLeft();
+  curRight = null;
+  $("#rightCard").innerHTML = `<div class="empty">Haz clic en una universidad del mapa o de la lista para ver su asignatura.</div>`;
+  renderRight();
+}
+
+// ---------- derecha ----------
+function similars() {
+  if (!curLeft) return [];
+  const t = +$("#thr").value * 10;
+  return curLeft.nb.filter(([j, s]) => s >= t).map(([j, s]) => ({ c: courses[j], s }));
+}
+function color(s) { const k = Math.max(0, Math.min(1, (s - 750) / 250)); return `hsl(${40 + 90 * k},75%,${46 - 6 * k}%)`; }
+function clearRight() { curRight = null; renderRight(); $("#rightCard").innerHTML = `<div class="empty">Selecciona una asignatura a la izquierda.</div>`; }
+
+function renderRight() {
+  $("#thrV").textContent = $("#thr").value + " %";
+  const S = similars();
+  $("#simCount").textContent = curLeft ? `${S.length} universidades` : "";
+  $("#map").style.display = mode === "map" ? "" : "none";
+  $("#rightList").style.display = mode === "list" ? "" : "none";
+  $("#simZone").style.display = mode === "hide" ? "none" : "";
+  $("#btnMap").classList.toggle("on", mode === "map");
+  $("#btnList").classList.toggle("on", mode === "list");
+  $("#btnHide").classList.toggle("on", mode === "hide");
+  // lista
+  $("#rightList").innerHTML = !curLeft ? `<div class="empty">Selecciona una asignatura.</div>` : S.length ? S.map(({ c, s }) => {
+    const u = insts[c.u];
+    return `<div class="row ${curRight === c ? "sel" : ""}" data-i="${c._i}"><div class="pct" style="color:${color(s)}">${(s / 10).toFixed(1)}%</div>
+      <div class="n"><b>${esc(c.name || c.en)}</b><small>${esc(u.name)} · ${esc(u.city)} (${esc(u.country)})</small></div><div class="e">${c.ects != null ? c.ects + " ECTS" : ""}</div></div>`;
+  }).join("") : `<div class="empty">Ninguna asignatura supera ese umbral. Baja la coincidencia mínima.</div>`;
+  $("#rightList").querySelectorAll(".row").forEach(r => r.onclick = () => selectRight(courses[+r.dataset.i]));
+  // mapa
+  if (mode === "map") drawMap(S);
+}
+function initMap() {
+  if (map || typeof L === "undefined") return;
+  map = L.map("map", { zoomControl: true, worldCopyJump: true }).setView([46, 8], 4);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 12, attribution: "© OpenStreetMap" }).addTo(map);
+  layer = L.layerGroup().addTo(map);
+}
+function drawMap(S) {
+  initMap();
+  if (!map) { $("#map").innerHTML = `<div class="empty">No se pudo cargar el mapa (sin conexión). Usa la vista Lista.</div>`; return; }
+  setTimeout(() => map.invalidateSize(), 0);
+  layer.clearLayers();
+  const pts = [];
+  if (curLeft) {
+    const u = insts[curLeft.u];
+    if (u.lat != null) { L.circleMarker([u.lat, u.lon], { radius: 9, color: "#fff", weight: 2, fillColor: "#1f5fbf", fillOpacity: 1 }).bindTooltip(`Origen: ${u.name}`).addTo(layer); pts.push([u.lat, u.lon]); }
+  }
+  S.forEach(({ c, s }) => {
+    const u = insts[c.u];
+    if (u.lat == null) return;
+    const m = L.circleMarker([u.lat, u.lon], { radius: curRight === c ? 11 : 8, color: curRight === c ? "#000" : "#fff", weight: 2, fillColor: color(s), fillOpacity: .95 });
+    m.bindTooltip(`${u.name} · ${(s / 10).toFixed(1)} %<br>${esc(c.name || c.en)}`);
+    m.on("click", () => selectRight(c));
+    m.addTo(layer); pts.push([u.lat, u.lon]);
+  });
+  if (pts.length > 1) map.fitBounds(pts, { padding: [30, 30], maxZoom: 6 });
+}
+function selectRight(c) {
+  curRight = c;
+  const s = (curLeft.nb.find(x => x[0] === c._i) || [])[1];
+  $("#rightCard").innerHTML = card(c, s);
+  $("#rightCard").scrollTop = 0;
+  renderRight();
+}
+$("#thr").oninput = () => { curRight = null; renderRight(); if (curLeft) $("#rightCard").innerHTML = `<div class="empty">Haz clic en una universidad.</div>`; };
+$("#btnMap").onclick = () => { mode = "map"; renderRight(); };
+$("#btnList").onclick = () => { mode = "list"; renderRight(); };
+$("#btnHide").onclick = () => { mode = "hide"; renderRight(); };
+renderLeft();
+renderRight();
+
+// ---------- Extraction State ----------
+const EXTRACTION = null;/*EXT*/
+(function(){
+  const btn = $("#btnExt");
+  if (!EXTRACTION) { btn.style.display = "none"; return; }
+  const G = EXTRACTION.global, U = EXTRACTION.unis;
+  btn.textContent = `Extraction State [${Math.round(G.coverage)}% (${Math.round(G.depth)}%)]`;
+  const col = p => `hsl(${Math.round(p * 1.2)},75%,42%)`;
+  const LV = {"EXITOSO":"#1a9b50","CASI COMPLETO":"#6aa31a","PARCIAL":"#e8890c","SIN DATOS":"#d33"};
+  $("#extFormula").innerHTML = `<b>[${Math.round(G.coverage)} % (${Math.round(G.depth)} %)]</b> = [cobertura (profundidad)]. Cobertura: ${G.covered} de ${G.total} universidades con datos. Profundidad: extracción media de esas universidades. `
+    + `Por universidad: (verdes + ½·naranjas) / asignaturas del catálogo. Datos del ${esc(EXTRACTION.generated)}.`;
+  let emap = null, elayer = null, cur = null, filt = "all";
+  function open() {
+    $("#ext").hidden = false;
+    if (!emap) {
+      emap = L.map("extMap", { worldCopyJump: true }).setView([46, 10], 4);
+      L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 12, attribution: "© OpenStreetMap" }).addTo(emap);
+      elayer = L.layerGroup().addTo(emap);
+      draw();
+    }
+    setTimeout(() => emap.invalidateSize(), 50);
+  }
+  function draw() {
+    elayer.clearLayers();
+    U.filter(u => u.lat != null).forEach(u => {
+      const sz = 34, sel = cur && cur.slug === u.slug;
+      const ic = L.divIcon({ className: "", iconSize: [sz, sz], iconAnchor: [sz / 2, sz / 2],
+        html: `<div class="mk${sel ? " sel" : ""}" style="width:${sz}px;height:${sz}px;background:${col(u.pct)}">${u.pct}%</div>` });
+      L.marker([u.lat, u.lon], { icon: ic, zIndexOffset: sel ? 1000 : 0 })
+        .bindTooltip(`${esc(u.name)} · ${esc(u.city)}<br>${u.ok} verdes · ${u.par} naranjas · ${u.red} rojas de ${u.n}`)
+        .on("click", () => pick(u)).addTo(elayer);
+    });
+  }
+  function pick(u) { cur = u; filt = "all"; draw(); detail(); }
+  const SL = {ok: "Guía extraída", parcial: "Parcial", sin_guia: "Sin guía"};
+  function plain(u) {
+    const d = u.dx, L2 = a => a.map(x => "  - " + x).join("\n");
+    return `[${u.slug}] ${u.name} (${u.city}, ${u.country}) — ${u.pct} % extraído\nESTADO: ${d.nivel} (catálogo: ${d.estado_catalogo})\nCOBERTURA: ${d.cobertura}\nFALLOS:\n${L2(d.fallos)}\nCAUSA PROBABLE:\n${L2(d.causas)}\nCÓMO MEJORAR:\n${L2(d.mejoras)}\nRECOMENDACIONES:\n${L2(d.recomendaciones)}\nNOTAS: ${d.notas || "—"}\nPLAN: ${d.plan || "—"}`;
+  }
+  function detail() {
+    const u = cur, d = u.dx, box = $("#extDetail");
+    box.hidden = false;
+    const li = a => `<ul>${a.map(x => `<li>${esc(x)}</li>`).join("")}</ul>`;
+    const fu = Object.entries(d.fuentes).map(([k, v]) => `${k}: ${v}`).join(", ") || "—";
+    const rows = u.courses.filter(c => filt === "all" || c.s === filt);
+    const fb = (f, t) => `<button data-f="${f}" class="${filt === f ? "on" : ""}">${t}</button>`;
+    box.innerHTML = `<div class="extH"><h3>${esc(u.name)}</h3><span class="sub">${esc(u.city)} · ${esc(u.country)} · ${esc(u.slug)}</span>
+      <span class="simbadge" style="background:${col(u.pct)}">${u.pct} %</span></div>
+      <div class="extBox"><button class="cp" id="extCopy">Copiar resumen</button>
+        <span class="lvl" style="background:${LV[d.nivel] || "#667085"}">${esc(d.nivel)}</span> <b>Resumen del estado de extracción</b>
+        <dl><dt>Estado</dt><dd>${esc(d.nivel)} · catálogo «${esc(d.estado_catalogo)}»</dd>
+        <dt>Cobertura</dt><dd>${esc(d.cobertura)}</dd>
+        <dt>Titulación</dt><dd>${esc(d.grado || "—")}${d.plan ? ` · <a href="${esc(d.plan)}" target="_blank" rel="noopener">plan</a>` : ""}</dd>
+        <dt>Tipo de fuente</dt><dd>${esc(fu)}</dd>
+        <dt>Fallos</dt><dd>${li(d.fallos)}</dd>
+        <dt>Causa probable</dt><dd>${li(d.causas)}</dd>
+        <dt>Cómo mejorarlo</dt><dd>${li(d.mejoras)}</dd>
+        <dt>Recomendaciones</dt><dd>${li(d.recomendaciones)}</dd>
+        <dt>Notas del extractor</dt><dd>${esc(d.notas || "—")}</dd></dl></div>
+      <div class="cf">${fb("all", `Todas (${u.n})`)}${fb("ok", `Verdes (${u.ok})`)}${fb("parcial", `Naranjas (${u.par})`)}${fb("sin_guia", `Rojas (${u.red})`)}</div>
+      <div>${rows.map(c => `<div class="cr ${c.s}"><div class="t"><b>${esc(c.n)}</b> <small>${esc(c.c)}${c.e ? " · " + c.e + " ECTS" : ""}${c.y ? " · curso " + c.y : ""}</small></div>
+        <span class="s">${SL[c.s]}${c.m.length ? " — falta: " + esc(c.m.join(", ")) : ""}</span>${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">guía</a>` : ""}</div>`).join("") || `<div class="empty">${u.n ? "Ninguna en este filtro." : "Esta universidad no tiene catálogo de asignaturas todavía."}</div>`}</div>`;
+    box.querySelectorAll(".cf button").forEach(b => b.onclick = () => { filt = b.dataset.f; detail(); });
+    $("#extCopy").onclick = e => { const t = plain(u); try { navigator.clipboard.writeText(t).then(() => e.target.textContent = "¡Copiado!", () => e.target.textContent = "No se pudo copiar"); } catch (_) { e.target.textContent = "No se pudo copiar"; } };
+    setTimeout(() => emap.invalidateSize(), 50);
+  }
+  btn.onclick = open;
+  $("#extClose").onclick = () => { $("#ext").hidden = true; };
+  document.addEventListener("keydown", e => { if (e.key === "Escape") $("#ext").hidden = true; });
+})();
+</script>
+</body>
+</html>

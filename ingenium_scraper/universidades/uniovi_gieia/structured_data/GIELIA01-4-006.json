@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Robótica Industrial",
+  "course_name_en": "Industrial Robotics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Matrix calculus (Linear Algebra from 1st year)",
+    "Kinematic and dynamic analysis of machines (Theory of Machines and Mechanisms from 2nd year)",
+    "Control theory (Control Systems from 3rd year)",
+    "High-level programming (Industrial Computing and Communications from 3rd year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Capacity for modeling and simulation of systems",
+      "type": "competence",
+      "code": "CEA7"
+    },
+    {
+      "text": "Knowledge of automatic regulation and control techniques and their application to industrial automation",
+      "type": "competence",
+      "code": "CEA8"
+    },
+    {
+      "text": "Application of knowledge of principles and applications of robotic systems",
+      "type": "competence",
+      "code": "CEA9"
+    },
+    {
+      "text": "Applied knowledge of industrial computing and communications",
+      "type": "competence",
+      "code": "CEA10"
+    },
+    {
+      "text": "Knowledge about the fundamentals of automatisms and control methods",
+      "type": "competence",
+      "code": "CC6"
+    },
+    {
+      "text": "understand the multidisciplinary nature of robotics and its implications in the design and implementation of robotic systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "represent and analytically describe the movement of a robot",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "analyze and model the different subsystems that make up a robot",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "solve computational robotics problems: localization, maps, motion planning, etc.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design a robotic system using the Model-Based Design (MBD) methodology",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "know and be able to apply robot programming tools",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "evaluate the convenience of a robotic solution to solve a given problem",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part 1: fundamentals. Introduction: history, characteristics and future of industrial robotics.",
+    "Part 2: orientations. Analytical representation of movement in 3D.",
+    "Part 3: robot kinematics. The manipulator robot: analytical description, dynamics and control.",
+    "Part 4: kinematic control. Trajectories.",
+    "Part 5: end-of-course project",
+    "Part 6: modern robotics."
+  ],
+  "teaching_methods": [
+    "Flipped classroom methodology",
+    "Expositive classes (lectures)",
+    "Classroom practices (problem solving)",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions (theoretical exams)",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Objective test (final exam)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Experimental work (individual presentation and active participation)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The objective test and the experimental work must both be passed individually to pass the course. If both are passed, their respective weights in the final grade will be 75% for the objective test and 25% for the experimental work, though this may vary by mutual agreement with the student depending on the complexity of the experimental work. In extraordinary calls and for differentiated evaluation, the grade will depend exclusively on the objective test.",
+  "bibliography": [
+    "Information, materials, and other resources will be provided and kept updated through the Virtual Campus."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-006",
+  "source_language": "es",
+  "source_sha256": "095ade5f61fbca1f884d85ac1bf930f41f3f1c20a9ead366c6a83f4557934c96",
+  "extracted_at": "2026-11-20T01:13:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

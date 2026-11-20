@@ -1,0 +1,214 @@
+{
+  "course_name_original": "Automatización Industrial (I.Mecánica / I.Tecnologías Industriales / I.Energía) (68902139)",
+  "course_name_en": "Industrial Automation (Mechanical Engineering / Industrial Technologies Engineering / Energy Engineering)",
+  "ects": 5.0,
+  "semester": "first semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematical and physical fundamentals acquired in basic subjects of the degree",
+    "Calculus",
+    "Differential Equations",
+    "Physics",
+    "Basic computer skills for user-level personal computer operation",
+    "Familiarity with simulation software like MATLAB"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the fundamentals of automation and control methods.",
+      "type": "knowledge",
+      "code": "CEC6"
+    },
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects involving knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated through the elaboration and defense of arguments and problem-solving within their field of study.",
+      "type": "skill",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include reflection on relevant social, scientific, or ethical issues.",
+      "type": "skill",
+      "code": "CB3"
+    },
+    {
+      "text": "Students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "competence",
+      "code": "CG.10"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG.3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG.4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks.",
+      "type": "knowledge",
+      "code": "CG.5"
+    },
+    {
+      "text": "Ability to manage specifications, regulations, and mandatory standards.",
+      "type": "competence",
+      "code": "CG.6"
+    }
+  ],
+  "syllabus_topics": [
+    "Unit 1: Continuous Control Systems",
+    "TEMA 1: Introduction to continuous control systems",
+    "General concepts",
+    "Types and classification of control systems",
+    "Characteristics and requirements of a control system",
+    "Laplace Transform",
+    "Inverse Laplace Transform",
+    "TEMA 2: Representation and modeling",
+    "Transfer function",
+    "Block diagram",
+    "Multivariable systems",
+    "Signal flow graphs",
+    "Analogy principles",
+    "Transfer functions of some real systems",
+    "TEMA 3: Analysis of temporal response. Introduction",
+    "Types of inputs and system definition",
+    "Temporal response of first-order systems",
+    "Temporal response of second-order systems",
+    "Temporal response of higher-order systems",
+    "Characteristics of transient response",
+    "Error calculation in feedback systems",
+    "TEMA 4: Study of pole influence",
+    "Introduction",
+    "Analysis tools",
+    "TEMA 5: Control actions",
+    "Introduction",
+    "On-off control",
+    "Proportional control",
+    "Integral control",
+    "Proportional-integral control",
+    "Derivative control",
+    "Proportional-derivative control",
+    "Proportional-integral-derivative control",
+    "Adaptive control",
+    "Controller tuning",
+    "TEMA 6: Analysis of frequency response. Introduction",
+    "Introduction",
+    "Graphical representation of frequency response",
+    "Bode logarithmic diagram",
+    "Polar or Nyquist diagram",
+    "Logarithmic diagram of amplitude as a function of phase or Nichols chart",
+    "Black's chart",
+    "TEMA 7: Compensation of control systems",
+    "Introduction",
+    "Compensating networks",
+    "Phase-lead compensation",
+    "Phase-lag compensation",
+    "Phase-lag-lead compensation",
+    "Unit 2: Discrete Control Systems",
+    "TEMA 8: General concepts of discrete control systems",
+    "Introduction",
+    "The computer as a control element",
+    "Structure of a SCD",
+    "Weighting sequences",
+    "Z-transform",
+    "Discrete transfer function",
+    "TEMA 9: Sampling and signal reconstruction",
+    "Introduction",
+    "Signal sampling",
+    "Signal reconstruction",
+    "Discrete equivalent",
+    "Modified z-transform",
+    "TEMA 10: Temporal analysis of discrete control systems",
+    "Introduction",
+    "Steady state",
+    "Transient regime",
+    "Temporal characteristics",
+    "TEMA 11: Temporal behavior in the Z-plane",
+    "Introduction",
+    "Stability domain",
+    "Root locus",
+    "TEMA 12: Direct design method for discrete controllers (TRUXAL)",
+    "Introduction",
+    "Model selection",
+    "Design conditions",
+    "Implementation of discrete controllers",
+    "Programming structures",
+    "TEMA 13: Discretization of continuous controllers",
+    "Introduction",
+    "Method of temporal response approximations",
+    "Operator substitution method",
+    "Discrete PID controller"
+  ],
+  "teaching_methods": [
+    "Distance learning using virtual classrooms",
+    "Participation of the Teaching Team, Tutor Professors, and enrolled students",
+    "Theoretical-practical content delivered via the virtual course using basic bibliography and complementary material",
+    "Autonomous work with exercises and self-assessment tests under tutor supervision",
+    "Practices involving a preliminary exercise and practical activities in departmental laboratories"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 31.25,
+  "assessment_methods": [
+    {
+      "method": "On-site exam (Prueba presencial)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment test 1 (PEC1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment test 2 (PEC2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Tutorial report (participation)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practices and remote lab practices",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as: [On-site exam score (if >= 4) + 6.6% * PEC1 score (if > 5) + 6.6% * PEC2 score (if > 5) + 6.6% * Tutorial Report score] * 0.9 + Practices score * 0.1, with a maximum final score of 10 points. The on-site exam has three parts: a 10-question multiple-choice section (3 points, +0.3 for correct, -0.15 for incorrect), which is eliminatory requiring at least 5 correct answers; four short questions (4 points); and one long development problem (3 points). A minimum of 4 points in the on-site exam is required for PEC scores to be considered. Practices are mandatory and must be passed to pass the course; failure to pass practices will result in a maximum final grade of 3. For in-person practices, students must complete and pass remote lab practices beforehand and either pass the multiple-choice section of the on-site exam (5 correct answers) in the current sitting or have passed the on-site exam (5 points or more) in a previous sitting. Grades from practices are saved for successive academic years if the course is not passed.",
+  "bibliography": [
+    "Valdivia Miranda, Carlos: SISTEMAS DE CONTROL CONTINUOS Y DISCRETOS. PARANINFO.",
+    "Arturo Gil Aparicio ; Oscar Reinoso García: PROBLEMAS RESUELTOS DE SISTEMAS DE CONTROL. UNIVERSIDAD MIGUEL HERNÁNDEZ.",
+    "Barrientos Cruz, Antonio ; Gambao, Ernesto ; Matía Espada, Fernando: CONTROL DE SISTEMAS CONTINUOS. PROBLEMAS RESUELTOS. MC GRAW HILL.",
+    "Aracil Santonja, Rafael ; Fernando Torres Median ; José María Sebastián Y Zúñiga ; Oscar Reinoso García: CONTROL DE SISTEMAS DISCRETOS. Mc Graw Hill.",
+    "Andrés Puente, E.: REGULACIÓN AUTOMÁTICA2ª. UNIVERSIDAD POLITÉCNICA DE MADRID. ESCUELA TÉCNICA SUPERIOR DE INGENIEROS INDUSTRIALES.",
+    "Aracil Santonja, Rafael: SISTEMAS DISCRETOS DE CONTROL. REPRESENTACIÓN EXTERNA3ª. UNIVERSIDAD POLITÉCNICA DE MADRID. ESCUELA TÉCNICA SUPERIOR DE INGENIEROS INDUSTRIALES.",
+    "Ogata, Katsuhiro: INGENIERÍA DE CONTROL MODERNA5ª Edición. PEARSON-PRENTICE HALL.",
+    "Barrientos, A.; Sanz, R.; Matía, F. y Gambao E.: Control de sistemas continuos. Problemas Resueltos. McGraw-Hill.",
+    "Aracil, R. y Albertos, P.: Problemas de Regulación Automática. Sección de Publicaciones ETSII. UPM, 1993.",
+    "Di Stefano; Stubbgeud y Williams: Retroalimentación y sistemas de control. Serie Schaum, McGraw-Hill, 1992.",
+    "Gil Aparicio, A.y Reinoso García, O.: Problemas Resueltos de Sistemas de Control. Editorial UNIVERSIDAD MIGUEL HERNÁNDEZ.",
+    "Reinoso García, O.; Sebastian y Zúñiga, J. M.; Torres Median, F. y Aracil SAntonja, R.: Control de Sistemas Discretos. McGraw-Hill, 2004."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Nacional de Educación a Distancia",
+  "institution_slug": "es_nacional_educacion_a_distanc",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "68902139",
+  "academic_year": "2026-27",
+  "source_url": "https://www.uned.es/universidad/pdf/GuiasAsignaturasGrados/PDFGuiaPublica?codigoAsignatura=68902139&curso=2027&codigoTitulacion=6803&language=es&esMaster=false",
+  "source_language": "es",
+  "source_sha256": "68287274c57db5c1289e5e3ec24a3a7b66386c79aa0227e0e450877dcb85799e",
+  "extracted_at": "2026-11-18T03:05:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

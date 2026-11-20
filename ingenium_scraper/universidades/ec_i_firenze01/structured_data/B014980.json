@@ -1,0 +1,198 @@
+{
+  "course_name_original": "FUNDAMENTALS OF CONTROL ENGINEERING (B014980)",
+  "course_name_en": "FUNDAMENTALS OF CONTROL ENGINEERING",
+  "ects": 9.0,
+  "semester": "Secondo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "basic knowledge of mathematical analysis: complex numbers, derivatives and integrals, and linear differential equations",
+    "basic knowledge of linear algebra: vectors, matrices, determinants, eigenvalues and systems of linear equations",
+    "basic knowledge of physics and electrical circuit analysis",
+    "elementary computer skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "describe the main mathematical representations of continuous-time dynamical systems",
+      "type": "knowledge",
+      "code": "CC18, CC19, CC5, CC01, CC02, CC03, CC16, CC3"
+    },
+    {
+      "text": "describe the models and fundamental properties of sampled-data systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explain the dynamic behaviour, stability and performance of linear time-invariant systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explain the operation of feedback control systems and the main criteria for the design of basic automatic control systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "derive state-space and input–output models of simple physical systems and analyse their response",
+      "type": "skill",
+      "code": "CA23, CA28, CA29, CA33, CA35, CA5, CA01, CA03, CA06, CA07, CA08, CA09, CA1, CA7"
+    },
+    {
+      "text": "apply the Laplace transform and time- and frequency-domain methods to LTI systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "assess stability and performance using the Routh–Hurwitz criterion and Bode plots",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "apply Nyquist plots and criterion and the root-locus method",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "simulate dynamical and control systems in MATLAB/Simulink and compare analytical and numerical results",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design basic PID controllers and compensator networks subject to steady-state and dynamic specifications",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "analyse and design basic discrete-time control systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "consult and use textbooks, lecture notes, manuals and technical documentation, and plan, complete and clearly document an analysis or design procedure",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "select the analysis or design method most appropriate to the assigned problem",
+      "type": "competence",
+      "code": "AG1, AG4, AG5, AG01, AG05"
+    },
+    {
+      "text": "critically interpret results, check their consistency, and discuss the assumptions and limitations of the adopted solution",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "present analysis and design solutions in written and oral form, using appropriate technical terminology",
+      "type": "competence",
+      "code": "AC1, AC2, AC3, AC01, AC02"
+    },
+    {
+      "text": "independently organise individual work and effectively discuss exercises and case studies in written and oral form",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "independently use learning resources and software documentation to consolidate or further explore course topics",
+      "type": "competence",
+      "code": "AP2, AP1, AP3, AP01"
+    },
+    {
+      "text": "relate the acquired knowledge to advanced courses in control, automation and robotics",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modelling and simulation",
+    "Time- and frequency-domain analysis of continuous-time LTI systems",
+    "Routh–Hurwitz stability analysis",
+    "Bode plots",
+    "Feedback systems",
+    "Design of PID controllers and lead/lag compensators",
+    "Nyquist plots and criterion",
+    "Root locus",
+    "Analysis and design of discrete-time systems",
+    "State-space and input–output representations",
+    "Lumped-parameter linear models of simple electrical, mechanical, hydraulic and thermal systems",
+    "Numerical simulation of dynamical systems using MATLAB and Simulink",
+    "Review of the Laplace transform and inverse transform",
+    "Transfer function and impulse response",
+    "Free and forced response",
+    "Stability and the Routh–Hurwitz criterion",
+    "Step response and time-domain performance indices",
+    "Harmonic analysis and frequency response",
+    "Bode plots",
+    "Nyquist plots",
+    "Structure and properties of feedback systems",
+    "Internal stability",
+    "Nyquist criterion",
+    "Stability margins",
+    "Steady-state specifications: steady-state error and system type",
+    "Time-domain dynamic specifications: overshoot, settling time and rise time",
+    "Frequency-domain dynamic specifications: resonance peak, bandwidth, phase margin and crossover frequency",
+    "Approximate relationships between time- and frequency-domain specifications",
+    "Root locus",
+    "Basic compensator networks: lag and lead compensators",
+    "Trial-and-error design in the frequency domain",
+    "PID controllers and basic tuning criteria",
+    "Models and analysis of discrete-time systems",
+    "Discretisation methods",
+    "Fundamentals of sampled-data control-system design"
+  ],
+  "teaching_methods": [
+    "Lectures introducing concepts, models, and analysis and design methods",
+    "Guided exercise sessions in which the methods are applied to problems of increasing difficulty",
+    "MATLAB/Simulink simulations aimed at comparing analytical and numerical results and assessing stability and performance",
+    "Individual problem-solving activities, with in-class discussion of solution strategies and design choices",
+    "Guided use of textbooks, manuals and technical documentation",
+    "Supporting materials and activities on Moodle, including examples, solved exercises and possible formative quizzes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written Test - Theoretical knowledge and conceptual understanding (multiple-choice questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written Test - Analysis skills (exercise on LTI feedback system)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written Test - Design and problem-solving skills (design of feedback control system)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral Examination (compulsory discussion of written test exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional full oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Learning is assessed through a compulsory written test and an oral examination. The written test has a maximum raw score of 31 points, capped at 30/30. The compulsory oral examination includes a discussion of the exercises completed in the written test. An optional full oral examination may be taken if the written-test mark is at least 14/30; it can change the written-test mark by between -5/30 and +5/30. The final mark is expressed out of 30, capped at 30/30; a result below 18/30 is a fail.",
+  "bibliography": [
+    "[docente], Chisci, Falugi: Fondamenti di automatica, CittàStudi, 2007. https://onesearch.unifi.it:443/39UFI_V1:AllResources:39sbart_almap7151292630003302",
+    "Bolzern, Scattolini e Schiavoni: Fondamenti di controlli automatici, 5a edizione, Mc Graw-Hill Italia, Milano, 2025. https://onesearch.unifi.it/primo-explore/fulldisplay?docid=39sbart_almap7157940290003302&context=L&vid=39UFI_V1",
+    "Course slides",
+    "Matlab/Simulink textbooks link: https://it.mathworks.com/academia/books/search.html?q=&fq%5B%5D=book-category%3Ausing-matlab-and-simulink&page=1"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze",
+  "institution_slug": "ec_i_firenze01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "B014980",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=52958_B309-25-25_37643_774917&ordinamento_aa=2025&af_percorso=52958&corso_cod=4280&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "99c0520ebfbf3912ca25c9559c531208452b11888b5f46e9b0e862b1f6ecc2b1",
+  "extracted_at": "2026-11-18T10:02:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

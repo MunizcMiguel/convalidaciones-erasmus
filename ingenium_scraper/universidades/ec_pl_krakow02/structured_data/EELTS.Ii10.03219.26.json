@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Measurements in energetics",
+  "course_name_en": "Measurements in Energetics",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Has basic knowledge of signal processing for the purpose of operational analysis and diagnostics in energetics. Has information about standardization documents in the area of measuring instruments and systems.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Has structured knowledge of measurements in electrical power systems.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Is able to design and knows the operation of a distributed measurement system, e.g., Smart metering.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Knows and understands the directions in which they will improve their qualifications.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Laboratory classes on lecture topics: measurements of electric and magnetic fields, application of PLC in measurements, digital processing of voltage signals, measurements of electric energy quality.",
+    "Introductory lecture: Course credit conditions, supplementary literature. Discussion of the specifics of conducting measurements for electrical power signals - safety problems, interference problems. Properties of electrical power signals.",
+    "Legal documents in electrical measurements: Laws and regulations related to measurements in electrical power engineering. Polish Committee for Standardization. Organization of measurement services, Central Office of Measures. Standardization in the World and in Poland.",
+    "Input circuits of measuring apparatus: Separation and scaling systems in measurements for the electrical power system. Metrological properties for the needs of apparatus with digital processing. Methods of voltage signal separation, inductive, capacitive, unconventional transformers.",
+    "Input circuits of measuring apparatus: Methods of current signal separation, classic transformers, Hall effect transformers. Power supply for sensors operating at \"high potential\".",
+    "Filters and their role in measurements: Analog filtration, properties of analog filters, sampling theorem.",
+    "A/D converters for measuring electrical power signals: Converters used in commercial measuring instruments working with voltage and current signals. Classification of A/D converter properties. Compensating converter, Sigma-Delta converter.",
+    "Measurement of RMS values, power, and energy: Measurement methods of RMS values, power, and energy, their implementation and problems with applying definitions.",
+    "Flickermeter: Construction and description of functional blocks used in instruments for measuring light flicker annoyance. Interpretation of voltage and phase fluctuations in voltage.",
+    "Measurement system with digital signal processing: Structure of a modern measurement system working with many input signals. User expectations versus computational and data storage capabilities. Processors and logical structures.",
+    "Fourier analysis - FFT for measurement purposes: Fourier analysis for digital signals - FFT. Relationship between analog and digital signals. Spectral analysis - logarithmic scale, spectral leakage.",
+    "THD measurements: Definition of THD and its changes in standardization documents. Implementation of THD and related voltage quality indicators measurement.",
+    "Phasors: Idea of phasors, basic measurement method in digital systems, implementation of measurement synchronization in distant locations.",
+    "Measurements - assessment of electric energy quality: Electric energy quality as a set of indicators measured by digital measuring apparatus. Problems of storing measurement results, searching and aggregation of measurement results.",
+    "Digital interfaces in measuring apparatus: Modern interfaces in measuring instruments. Possibilities of using interfaces in \"On line\" apparatus.",
+    "Modern measurements in energetics: World organizations dealing with standardization in measurements. Modern commercially available measuring instruments: quality analyzers, energy meters."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Peer assessment",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 104.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Verification of learning outcomes for lectures is done by a test, resulting in test results. Verification for laboratory classes is by execution of laboratory classes. Students are required to be prepared for laboratory exercises, which may be verified by an oral or written colloquium. Passing the module is possible after passing all laboratory classes.",
+  "bibliography": [
+    "1. Bilewicz K.: Smart metering, Inteligentny system pomiarowy. PWN 2011",
+    "2. Rosołowski E. Cyfrowe przetwarzanie sygnałów w automatyce elektroenergetycznej, AOW EXIT 2002",
+    "3. Winkler W. Wiszniewski A. Automatyka zabezpieczeniowa w systemach elektroenergetycznych, WNT 2004.",
+    "4. Wodziński J. Wysokonapięciowa technika prób i pomiarów, PWN 1997",
+    "5. Łastowiecki J. Układy pomiarowe prądu w energoelektronice, COSiW 2003",
+    "6. Phadke A.G. Thorp J.S. Synchronized Phasor Measurements and Their Applications, Springer 2008."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.03219.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/e242e043-b1f5-4b5d-9d45-a00927503c55.html",
+  "source_language": "pl",
+  "source_sha256": "c13b4e8e0311e7851e9497afc682e50795b3402c6398b37a8b00fafbeffe1bd4",
+  "extracted_at": "2026-11-20T09:02:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,99 @@
+{
+  "course_name_original": "Elektrotechnik 1",
+  "course_name_en": "Electrical Engineering 1",
+  "ects": 6.0,
+  "semester": "1. Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge of the basics of mathematics and physics, especially coupled equation systems, differentiation, extremum determination, integration, limit value considerations"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and deal with the basic concepts of electrical engineering (especially voltage, current, Ohm's law, Kirchhoff's rules).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Recognize components such as resistors, capacitors and coils as well as diodes, transistors and operational amplifiers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Independently create and evaluate models of electronic circuits in the DC range.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze, evaluate and design circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Virtually test and evaluate circuit functions using simulation tools like LTSPICE.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Translate theoretical knowledge into practical application to solve real circuit problems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "SI units, electrical charge, atomic model, conductors, semiconductors, non-conductors, charge and current strength, current density, electrical work, potential, voltage, electric field strength, power, efficiency",
+    "Reference arrows of currents and voltages, arrow systems, passive two-poles, current-voltage characteristic curve, Ohm's law, temperature dependence, active two-poles, open circuit and short circuit of sources, ideal sources",
+    "Node theorem, mesh theorem, potentials of circuit points, series connection and parallel connection of resistors, voltage divider rule, current divider rule, (un)loaded voltage divider, linear sources and their equivalent circuits, linear equivalent two-poles, calculation of meshed circuits, superposition principle, connection of two-poles, analytical and graphical determination of currents and voltages, power matching",
+    "Controlled sources, transistors, operational amplifiers",
+    "Inverting amplifier, inverting amplifier with finite open-loop gain, inverting summing amplifier, non-inverting amplifier, voltage follower, differential amplifier, ideal and real properties of the OP, supply voltage of the OPV",
+    "Principle of construction of real components, capacitor equation, parallel and series connection of capacitors, energy in the capacitor",
+    "Magnetic field around a current-carrying conductor, magnetic flux, force on a current-carrying conductor in a magnetic field, force between two current-carrying conductors (definition of current strength), force on a moving charge in a magnetic field (Lorentz force), induction law",
+    "Self-induction, principle of construction of real components, parallel and series connection of coils, energy in the coil",
+    "Introduction to the circuit simulation program LTSPICE",
+    "Simulation of various circuits with different components (Diode, R, L, C)",
+    "DC and transient analysis and their interpretation using selected examples",
+    "Parameter variation: Simple but fundamental circuits such as rectifiers and operational amplifier circuits",
+    "Equivalent sources and superposition principle"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises",
+    "Lecture with integrated laboratory exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Module examination (90 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ungraded test tasks during the lab as a lab report (MECB132)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module grade for MECB130 corresponds to the grade of MECB131 (lecture examination). MECB132 (lab) involves ungraded test tasks during the lab as a lab report.",
+  "bibliography": [
+    "Lernplattform H.ErT.Z, Vorlesungsskript, Vorlesungsfolien und Übungsaufgaben: Grundlagen Elektrotechnik - Gleichstromtechnik, Herausgeber: Manfred Strohrmann, siehe auch https://www.h-ka.de/lernzentren",
+    "Führer et.al.: „Grundgebiete der Elektrotechnik Band 1: Stationäre Vorgänge“, 10. Auflage, Hanser Verlag, 2019, http://www.elektrotechnik-buch.de/",
+    "Führer et.al.: „Grundgebiete der Elektrotechnik Band 2: Zeitabhängige Vorgänge“, 10. Auflage, Hanser Verlag, 2019, http://www.elektrotechnik-buch.de/",
+    "Bruce Carter and Thomas Brown, Handbook of Operational Amplifier Applications, Texas Instruments, Application Report, 2016, https://www.ti.com/lit/an/sboa092b/sboa092b.pdf",
+    "L. Stiny, M. Poppe: Grundwissen Elektrotechnik und Elektronik; Springer Vieweg Verlag, 2018, 8. Auflage; ISBN: 978-3-662-68458-0 oder e-Book: 978-3-662-68459-7",
+    "LTSPice Dokumentation und Tutorials, Analog Devices, https://www.analog.com/en/resources/design-tools-and-calculators/ltspice-simulator.html"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB130",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "08a354bd282e4f4502359bfe8b24a359f6c660b0e60a0b8cc898a6bc7a29b472",
+  "extracted_at": "2026-11-20T12:39:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

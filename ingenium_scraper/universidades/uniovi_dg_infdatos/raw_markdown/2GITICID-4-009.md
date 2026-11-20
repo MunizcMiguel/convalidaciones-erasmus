@@ -1,0 +1,216 @@
+---
+{
+ "course_code": "2GITICID-4-009",
+ "course_name": "Proyectos",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-009",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:14",
+ "content_sha256": "64c96f65e29a5cfe464e66e786b7339fca43dbd07fcc3f064d6618b3cb560f88"
+}
+---
+
+# Proyectos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-4-009
+
+## Datos de la asignatura
+
+- **Curso:** Cuarto
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Prácticas de Laboratorio (14 Horas); Docencia On Line (30 Horas); Clases Expositivas (16 Horas); No Presenciales (0 Horas)
+
+## Contextualización
+
+La asignatura, enmarcada dentro de la materia *Aspectos legales y de gestión de productos basados en datos*, tiene como objetivo presentar a los estudiantes los aspectos esenciales relativos a la gestión de los proyectos en las áreas de captación, almacenamiento, procesamiento y explotación de grandes volúmenes de datos, desde una perspectiva holística y multidisciplinar. Así, se familiarizará al alumno con la problemática de organización, planificación y gestión de proyectos, partiendo de los conocimientos técnicos que éste ya posee en el campo de la ciencia e ingeniería de datos. Se tratará el proyecto a lo largo de todo su ciclo de vida, desde su concepción inicial hasta la puesta en producción. Se estudiarán las metodologías de gestión de proyectos adaptadas al contexto de este campo, poniendo énfasis en los aspectos para la planificación, presupuestación y documentación de los proyectos, así como los procesos relativos a la oferta, contratación y gestión de riesgos. También se abordarán los aspectos relacionados con el enfoque innovador presente en estos proyectos.
+
+Dado tanto el carácter de la asignatura como la temporalidad (último semestre del curso en paralelo a la realización del trabajo fin de grado por el alumno), se abordan además diversos aspectos metodológicos relacionados con el trabajo fin de grado.
+
+Se podrán desarrollar actividades docentes en colaboración con universidades de la alianza Ingenium, como conferencias, seminarios y/o trabajos o proyectos conjuntos. Dicha colaboración podría suponer ajustes específicos en la metodología y/o en los sistemas de evaluación.
+
+## Requisitos
+
+Se asume que el alumno ha adquirido los conocimientos generales de las actividades técnicas dentro del campo de la ciencia e ingeniería de datos.
+
+## Competencias y resultados del aprendizaje
+
+Los objetivos principales de la asignatura son:
+
+1-Proporcionar al estudiante los conocimientos teóricos y prácticos para organizar, planificar y gestionar un proyecto, partiendo de los conocimientos técnicos que este posee.
+
+2-Capacitarle para elaborar los documentos asociados a un proyecto, analizar su viabilidad y realizar su tramitación, incluyendo la fase de contratación.
+
+3-Conocer los estándares más utilizados para la gestión de proyectos y ser capaz de aplicarlos en el contexto de la ciencia e ingeniería de datos.
+
+4-Identificar los riesgos asociados a los proyectos y desarrollar planes para su gestión.
+
+5-Capacitar al estudiante para trabajar en entornos multidisciplinares y dirigir equipos de trabajo en proyectos.
+
+6-Capacitar al estudiante para planificar y dirigir proyectos de innovación
+
+Esta asignatura contribuye a la adquisición de las siguientes Competencias Básicas:
+
+CB2 - Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+
+CB3 - Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+
+CB4 - Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+
+CB5 - Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía.
+
+Esta asignatura también contribuye a adquirir las siguientes Competencias Generales:
+
+CG01 - Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+CG02 - Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+CG03 - Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+CG04 - Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG05 - Desarrollar, gestionar y liderar proyectos que utilicen las técnicas, herramientas y metodologías propias de la ciencia de datos en distintos ámbitos de aplicación.
+
+CG09: Capacidad para expresar los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+Las Competencias Específicas son las siguientes:
+
+CE17: Aplicar las prácticas de gestión de proyectos para la dirección y organización de proyectos de ingeniería de explotación de datos, en las áreas de alcance, tiempo, económica y riesgos.
+
+Los resultados de aprendizaje que el alumnado alcanzará tras cursar la asignatura son los siguientes:
+
+RPROY1: Conocimientos de los tipos de proyectos, metodologías y estándares.
+
+RPROY2: Ser capaz de documentar, planificar y presupuestar proyectos.
+
+RPROY3: Identificar y valorar los riesgos relativos a los proyectos.
+
+RPROY4: Dirigir los recursos humanos de un proyecto.
+
+RPROY5: Contratar y ofertar proyectos cumpliendo las normativas.
+
+RPROY6: Conocer y aplicar los aspectos clave en costes, plazos y calidad del proyecto.
+
+## Contenidos
+
+La asignatura incluye los siguientes contenidos teóricos:
+
+1. El proyecto: concepto, tipos y características.
+
+2. Ciclo de vida del proyecto.
+
+3. Metodologías y estándares para la gestión de proyectos en entornos predictivos y adaptativos.
+
+4. Estudios previos y análisis de viabilidad de proyectos
+
+5. Documentación y tramitación de proyectos.
+
+6. Técnicas de planificación y control de proyectos.
+
+7. Presupuestación y gestión de costes y riesgos del proyecto.
+
+8. Formulación de proyectos de I+D+i.
+
+En cuanto a las prácticas, la asignatura incluirá una parte de práctica que los alumnos realizarán en grupos, con el objetivo de fomentar el trabajo en equipo y estimular su necesidad de realizar y valorar juicios técnicos, mediante la realización, a lo largo del semestre, de un proyecto, desde la concepción hasta la elaboración de la documentación para su contratación, así como el resto de documentación asociada. Se realizarán también prácticas individuales con herramientas de planificación (Microsoft Project).
+
+## Metodología y plan de trabajo
+
+Las actividades docentes del curso son de tipo presencial y no presencial. Las horas presenciales corresponden a actividades tanto de tipo expositivo como prácticas de laboratorio. En la parte no presencial tendrán especial relevancia las actividades individuales planteadas al alumno y los trabajos en grupo realizados por los alumnos.
+
+|  |  | Trabajo presencial |  |  | Trabajo no presencial |  |  | Trabajo personal |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Temas | Horas totales | Clase expositiva | Prácticas de laboratorio | Total | Clase expositiva | Prácticas de laboratorio | Total | Estudio individual | Total |
+| Tema 1 | 5 | 1 |  | 1 | 1 |  | 1 | 3 | 3 |
+| Tema 2 | 5 | 1 |  | 1 | 1 |  | 1 | 3 | 3 |
+| Tema 3 | 11 | 2 |  | 2 | 1 |  | 1 | 8 | 8 |
+| Tema 4 | 11 | 2 |  | 2 | 1 |  | 1 | 8 | 8 |
+| Tema 5 | 19 | 3 |  | 3 | 4 |  | 4 | 12 | 12 |
+| Tema 6 | 18 | 3 |  | 3 | 3 |  | 3 | 12 | 12 |
+| Tema 7 | 13 | 2 |  | 2 | 3 |  | 3 | 8 | 8 |
+| Tema 8 | 10 | 2 |  | 2 | 2 |  | 2 | 6 | 6 |
+| Prácticas | 58 |  | 14 | 14 |  | 14 | 14 | 30 | 30 |
+| Total | 150 | 16 | 14 | 30 | 16 | 14 | 30 | 90 | 90 |
+
+| Modalidades |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases expositivas | 16 | 10,5 |  |
+|  | Prácticas de laboratorio | 14 | 9,5 |  |
+| No presencial | Clases expositivas | 16 | 10,5 |  |
+|  | Prácticas de laboratorio | 14 | 9,5 |  |
+| Personal | Estudio individual | 90 | 60 | 90 |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+Convocatoria ordinaria:
+
+La evaluación constará de las tres partes indicadas a continuación:
+
+1. Realización de un trabajo grupal durante el desarrollo de la asignatura (35%). En el trabajo grupal se valorará la memoria y los informes generados, así como la exposición y defensa final del trabajo de forma oral por parte de todos los miembros. La calificación será adaptada individualmente de acuerdo con el seguimiento de la contribución de cada miembro del grupo. Para aprobar el trabajo en grupo será imprescindible acudir a las sesiones de exposición y defensa oral de los trabajos en grupo, así como a un mínimo del 80% de las sesiones prácticas.
+
+2. Evaluación continua: Asistencia y participación en Seminarios y Tutorías (5%) y participación activa en foros y actividades del campus virtual (10%).
+
+3. Realización de una prueba final de conocimientos de forma presencial (50%):
+- Test y/o preguntas cortas
+- Casos de aplicación
+- Resolución de problemas
+
+Para superar la asignatura es necesario obtener una nota igual o superior a 5 puntos sobre 10 tanto en la prueba presencial final como en la parte práctica de la asignatura. Las actividades de evaluación no realizadas o no entregadas se contabilizarán como cero. En caso de no alcanzar la puntuación mínima en alguna de las pruebas, la nota numérica final será la nota mínima de las pruebas.
+
+Convocatoria extraordinaria:
+
+-En esta convocatoria se tendrán en cuenta los trabajos aprobados durante la convocatoria ordinaria. Aquellos alumnos que no lo hubieran realizado o aprobado, les será sustituido por un trabajo equivalente que deberán realizar de forma individual.
+
+-Se realizará además una prueba presencial de conocimientos
+
+-La calificación final en la convocatoria extraordinaria se calculará con la siguiente fórmula, siendo necesario obtener al menos un 5 en cada una de las partes:
+
+*Calificación Final = 0,65 x Prueba presencial + 0,35 x Calificación Trabajos*
+
+Evaluación diferenciada:
+
+Los alumnos con evaluación diferenciada quedan eximidos de la asistencia obligatoria a las prácticas. Se valorará su dominio de los conceptos de la asignatura mediante un examen en las mismas convocatorias que el resto de estudiantes, lo que constituirá el 65% de la nota final de la asignatura.
+
+El trabajo en grupo será sustituido por un trabajo individual, similar a los que se han desarrollado durante el curso. Se deberá generar la documentación exigida y deberá ser defendido ante un tribunal formado por profesores de la asignatura constituyendo el 35% de su nota.
+
+La calificación final será la suma ponderada de las calificaciones parciales:
+
+Calificación Final = 0,35 x Trabajo Individual Sustitutorio + 0,65 x Evaluación del contenido teórico
+
+Para superar la asignatura deberá aprobarse cada una de las partes antes mencionada con una calificación de al menos 5 puntos sobre 10. En caso de no alcanzar la puntuación mínima en alguna de las pruebas, la nota numérica final será la nota mínima de las pruebas.
+
+## Bibliografía
+
+Bibliografía básica:
+
+Metodología de Gestión de Proyectos PM2 Guía 3.0, European Comission
+
+AENOR, UNE 157801:2007 - Criterios Generales Para La Elaboración de Proyectos de Sistemas de Información.
+
+PMI, A Guide to the Project Management Body of Knowledge: (PMBOK® Guide) 6ª edición, Project management institute, Newtown Square, Pa., 2018.
+
+Guía práctica en gestión de proyectos: Aprende a aplicar las técnicas de gestión de proyectos a proyectos reales, Albert Garriga Rodríguez, 2019.
+
+Bibliografía complementaria:
+
+Kezner, H. (WILEY), 2013; Project Management: A Systems Approach to Planning, Scheduling, and Controlling
+
+The project management question and answer book, NEWELL, Michael; GRASHINA, Marina. Amacom, 2003.
+
+Romero, C., 1997; Técnicas de Programación y Control de Proyectos. Pirámide, Madrid.
+
+R. Burke, Project Management: Planning and Control Techniques, Wiley, 1999.
+
+J.R. Rodríguez, Gestión de proyectos informáticos: métodos, herramientas y casos, Editorial UOC, 2005.
+
+S. McConnell, Desarrollo Y Gestión de Proyectos Informáticos, McGraw-Hill Interamericana de España, 1997.

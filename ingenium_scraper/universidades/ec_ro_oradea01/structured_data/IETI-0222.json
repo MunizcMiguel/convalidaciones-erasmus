@@ -1,0 +1,121 @@
+{
+  "course_name_original": "The design of electrical systems",
+  "course_name_en": "The design of electrical systems",
+  "ects": 2.0,
+  "semester": "VII",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Electrical installations",
+    "Electrical equipments",
+    "Computer operation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design of electrical systems and their components",
+      "type": "competence",
+      "code": "C4"
+    },
+    {
+      "text": "Applying of design methods in representative electrical systems",
+      "type": "competence",
+      "code": "C4.3"
+    },
+    {
+      "text": "Diagnosis, troubleshooting and maintenance of electrical systems and components",
+      "type": "competence",
+      "code": "C6"
+    },
+    {
+      "text": "Evaluation of electrical systems quality",
+      "type": "competence",
+      "code": "C6.4"
+    },
+    {
+      "text": "Elaboration and testing of an analysis program for specific electrical systems",
+      "type": "competence",
+      "code": "C6.5"
+    },
+    {
+      "text": "Design of electrical installations",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Explanation and interpretation of software packages for design and optimization of representative electrical systems",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Interpretation of results obtained with CAD software packages",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Design stages. The architecture of low voltage systems.",
+    "Computation methods in low voltage electrical installation",
+    "CAD of lighting systems. DIALux software",
+    "CAD of low voltage installations. Ecodial software",
+    "Ladder language",
+    "Ladder programming",
+    "Implementation of intelligent relays",
+    "Computation of shortcircuit currents",
+    "Exemplification of shortcircuit currents.",
+    "The overcurrent protection Thermal and electrodinamic stability.",
+    "CAD for conductors dimensioning Third harmonic",
+    "Comutation equipments – protection characteristics, Protection selectivity.",
+    "Electrical shock protection – computation methods in TT, TN, IT earthing systems",
+    "Electrical efficiency in low voltage distribution systems",
+    "Project tasks. Elaboration steps",
+    "Establishing of distribution network. The layout of electrical installation",
+    "Interior lighting design – DIALux",
+    "Low voltage installation design - Ecodial software",
+    "Interpreting results in Ecodial.",
+    "Intelligent relays. Ladder diagram",
+    "Simulation of operation"
+  ],
+  "teaching_methods": [
+    "notes on blackboard",
+    "Power Point presentation",
+    "assisting the students in solving applications on computer"
+  ],
+  "workload_hours_total": 50.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Ability to solve a CAD application (Oral examination, Application on computer)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Solving the project tasks (Testing the project. Results interpretation)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Passing the subject requires a grade of 5 or higher.",
+  "bibliography": [
+    "Monica Popa – Note proiect, https://e.uoradea.ro/course/",
+    "Colectii de STAS si Normative – SR EN 60364, NP/I7/2011 …",
+    "Ismail Kasicki – Short Circuit in Power Systems , Wiley – VCH Verlag GmbH, Weinheim, Germany 2002",
+    "Ghidul pentru instalatii electrice 2018 – editat de Schneider Electric",
+    "ECODIAL User’s Manual",
+    "DIALUX User’s Manual",
+    "CADDY ELECTRICAL User’s Manual",
+    "Diagrame Ladder – Documentatie firme producatoare AP",
+    "I7-2011"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universitatea din Oradea",
+  "institution_slug": "ec_ro_oradea01",
+  "degree": "Electromechanics (B.Eng., Electrical Engineering field, 4 years / 240 credits)",
+  "course_code": "IETI-0222",
+  "academic_year": "2026/27 (plan) / 2024/25 (fichas)",
+  "source_url": "https://ieti.uoradea.ro/images/zEN/Programmes/Bachelor_degree_programmes/2024_2025/FD_licenta_EM_EN_2024-2025.pdf",
+  "source_language": "en",
+  "source_sha256": "5a4bdfa5c732115f65720e4f61f652aa16a3ea4f07c76acaed147cc391230e34",
+  "extracted_at": "2026-11-20T09:28:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

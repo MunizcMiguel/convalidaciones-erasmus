@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Basics of digital technique",
+  "course_name_en": "Basics of digital technique",
+  "ects": 5.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands the basics of construction and synthesis of sequential automata.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the principles of number encoding in different systems and performing basic arithmetic operations in these systems.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands the basics of Boolean algebra.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows and understands the basic principles of logic circuit construction, considering hazard and race phenomena.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Has general knowledge about current trends in the construction and programming of programmable logic circuits.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Knows and understands the principles of minimizing logic functions using the analytical method, Karnaugh maps, and Quine-McCluskey method.",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Has basic knowledge about available series of digital logic circuits.",
+      "type": "knowledge",
+      "code": "W7"
+    },
+    {
+      "text": "Can encode numbers in different systems and perform basic arithmetic operations in the binary system.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can synthesize a sequential circuit with a given operation, simulate it on a computer, and design it using available elements.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can minimize any logic function using Karnaugh maps, simulate its operation on a computer, and design a logic circuit implementing this function using available functons.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Can transform logic functions and bring them to their simplest form.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Is aware of the possibilities and limitations of digital control technology.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Is aware of current trends in the construction and programming of programmable logic circuits.",
+      "type": "competence",
+      "code": "K2"
+    },
+    {
+      "text": "Is aware of the available series of digital logic circuits.",
+      "type": "competence",
+      "code": "K3"
+    }
+  ],
+  "syllabus_topics": [
+    "Number systems. Basic concepts of encoding (mappings and their types, alphabet, binary words). Number systems and their types (positional, non-positional, weighted, non-weighted, reflexive). Number conversion from decimal to another number system and vice versa. Number complement and encoding negative numbers. Performing operations in the binary system on integers. Gray code. BCD code and performing operations on numbers in BCD code. Floating-point number encoding. Examples of other non-weighted, non-positional codes.",
+    "Basics of Boolean algebra. Definition of Boolean algebra as an algebraic system, definition of operations. Axioms of Boolean algebra. Basic theorems of Boolean algebra. Examples of theorem proofs.",
+    "Logic (Boolean) functions. Definition of Boolean functions. Concept of sum, product, and negation of Boolean functions. Ways of representing Boolean functions. Canonical forms (disjunctive and conjunctive) of Boolean functions. Concept of implicant and prime implicant of a function. Concept and conditions of functional completeness of a set of functions. Polynomial form of a function.",
+    "Minimization of logic functions using Karnaugh maps and the Quine-McCluskey method. Principle of creating Karnaugh maps. Grouping implicants in a function in Karnaugh maps. Minimization algorithm using Karnaugh maps. Principle of minimization using the Quine-McCluskey method. Example of function minimization using both methods. Hazard phenomenon.",
+    "Overview of combinational logic circuits. Overview of available logic functons. 1-of-n decoders. Multiplexers and demultiplexers. Basic arithmetic circuits (half-adder, adder, half-subtractor, subtractor). Comparators. Use of multiplexers to implement logic functions.",
+    "Basics of sequential circuits. Definition of a sequential circuit and a finite automaton. Classification of sequential circuits: Moore and Mealy circuits, asynchronous and synchronous. Characteristic features of individual types of circuits. Flip-flops and latches as basic sequential circuits. Overview of basic types of flip-flops. Truth tables of flip-flops.",
+    "Synthesis of sequential circuits. Algorithm for the synthesis of synchronous sequential circuits. State graph of the circuit. Flip-flop control conditions. Examples of synthesis of circuits with a given operation. Race phenomenon.",
+    "Overview of sequential circuits. Registers. Types of registers (PIPO, SIPO, PISO, and SISO). Shift registers. Circuits based on shift registers. Maximum sequence generators. Counters. Classifications of counters based on counting code, counting direction, cycle length. Asynchronous and synchronous counters. Examples of synthesis of synchronous and asynchronous counters with specified parameters. Counters based on shift registers. Frequency dividers.",
+    "Overview of available digital series and circuits. Historical overview of digital circuit development. Bipolar and CMOS technology circuits. Basic families of TTL digital circuits and its variants (standard, H, S, LS, ALS, F) and CMOS (4000, HC, HCT, AHC). Series with reduced supply voltage. Overview and comparison of basic parameters. Principles of coupling circuits from different families.",
+    "Programmable logic circuits. Introduction to programmable logic circuits, the idea of programming using anti-fuses and switches. Classification of programmable circuits (SPLD, CPLD, FPGA, ASIC). Structure of SPLD circuits: PAL and GAL circuits. CPLD and FPGA circuits. Examples of CPLD and FPGA circuit architecture. Comparison of the complexity of individual circuits.",
+    "Introduction to programming logic circuits. The idea of a circuit description language. Difference between a processor programming language (algorithm coding language) and a circuit description language. Examples of hardware description languages: ABEL, VHDL, VERILOG. Basic information about VHDL language."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 130.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by an exam. Laboratory classes are verified by the execution of laboratory exercises and a report. Passing the module requires passing all laboratory classes. Students are obliged to prepare for laboratory exercises, which may be verified by an oral or written colloquium.",
+  "bibliography": [
+    "Kalisz J., Podstawy elektroniki cyfrowej, WKŁ, Warszawa 2007.",
+    "Zwoliński M., Projektowanie układów cyfrowych z wykorzystaniem języka VHDL, WKiŁ, Warszawa 2008.",
+    "Materiały katalogowe firm Texas Instruments, NXP, Nexperia, Lattice, Altera.",
+    "Kamionka-Mikuła H., Małysiak H., Pochopień B., Synteza i analiza układów cyfrowych, Wyd. Pracowni Komputerowej, Gliwice 2006.",
+    "Słupecki J., Hałkowska K., Piróg-Rzepecka K., Logika matematyczna, WNT, Warszawa 1999."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.03185.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/201fa5ea-6e69-4297-9690-b5aa214a961a.html",
+  "source_language": "pl",
+  "source_sha256": "422b839f6d801d466d28e4dc55c38b5468f50356a0132d29c02159d4ff5615cf",
+  "extracted_at": "2026-11-20T09:02:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

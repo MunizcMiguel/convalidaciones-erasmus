@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Signals and systems",
+  "course_name_en": "Signals and systems",
+  "ects": 5.0,
+  "semester": "Q2",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "LEPL1101",
+    "LEPL1102",
+    "LEPL1105",
+    "LEPL1201"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Master the basic mathematical concepts in order to handle practical signal processing and system theory applications, in particular the Fourier transform, the Laplace transform, and the Z transform.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compute, including with specialized software tools, the different transformations for signals, be they continuous time or discrete time; understand the results obtained; be familiar with the time domain and the frequency domain properties of signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use the different representations for linear time invariant systems; choose the most appropriate one according to the problem or the situation; be able to switch from one representation to another; analyze, including by means of specialized software tools, linear time invariant systems (internal or BIBO stability, controlability, observability).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Further investigate the concepts, by means of an English textbook.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Write a short report for a small size project conducted in a group.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Signal and system representations, in the time domain and in the frequency domain, for both continuous time and discrete time signals",
+    "Representations of systems: Impulse response",
+    "Representations of systems: State representation",
+    "Representations of systems: Transfer function",
+    "Fourier, Laplace and Z transforms and their properties",
+    "Filtering",
+    "Stability"
+  ],
+  "teaching_methods": [
+    "Courses",
+    "Practical training sessions",
+    "Sessions with Python",
+    "Distance learning (for some activities)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written and individual examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students will be evaluated by means of a written and individual examination, based on the learning outcomes. Tables containing transformations are the only permitted material.",
+  "bibliography": [
+    "Copies of course transparencies and exercise session statements are available on the course's MOODLE site.",
+    "Simon Haykin and Barry Van Veen, \"Signals and Systems\" (2nd edition), Editions Wiley."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Université catholique de Louvain (UCLouvain)",
+  "institution_slug": "ec_b_louvain01",
+  "degree": "Bachelor in Engineering (Bachelier en sciences de l'ingénieur, orientation ingénieur civil) - FSA1BA",
+  "course_code": "LEPL1106",
+  "academic_year": "2025-26",
+  "source_url": "https://uclouvain.be/en-cours-2025-lepl1106",
+  "source_language": "en",
+  "source_sha256": "feb474048e130d5b98c1bb443f9d099bcd4eda8e26df12b642f65e24deafccbb",
+  "extracted_at": "2026-11-20T09:15:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

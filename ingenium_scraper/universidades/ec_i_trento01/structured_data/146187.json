@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Laboratory of 3D modeling and design (146187)",
+  "course_name_en": "Laboratory of 3D modeling and design",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of industrial design for the representation of mechanical components",
+    "Knowledge of the main elements of machines",
+    "Notions of mechanical elements (forces, stresses)",
+    "Basics of materials mechanics (elastic modulus, yield strength, Poisson's ratio)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire a solid understanding of the fundamental principles and parametric modeling techniques necessary for the creation, verification, and management of industrial products.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire knowledge related to digital product management using 3D geometric modeling software (Autodesk Inventor) and finite element analysis (Ansys Workbench).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the skills necessary to work with Autodesk Inventor and Ansys Workbench programs, create 3D models, and understand how to modify them parametrically to improve their mechanical behavior.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Digitally model mechanical components and assemblies, verifying their mechanical performance through Ansys Workbench.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Parametrically model mechanical components.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and verify the mechanical performance of modeled components.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Communicate the results obtained to various company stakeholders (e.g., R&D, Marketing) through the production of technical and product documentation (e.g., bill of materials, reports).",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to CAD modeling",
+    "Part modeling (sketching, feature-based design, etc.)",
+    "Assembly creation (constraints and kinematics)",
+    "Technical documentation (drawings, animations, rendering)",
+    "Introduction to finite element analysis (theoretical overview)",
+    "Introduction to Ansys Workbench: analysis workflow (e.g., modeling, element selection, mechanical properties, loads, constraints)",
+    "Structural analysis of mechanical parts",
+    "Technical documentation: interpreting results and generating reports"
+  ],
+  "teaching_methods": [
+    "Classroom exercises in the computer lab",
+    "Theoretical introductions",
+    "Project-based learning",
+    "Face-to-face lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "CAD modeling of a “mobile” mechanism and related assembly (project)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Finite element analysis of one or more components of the modeled assembly (project)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Project report and related technical documentation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a project with two equally weighted parts: CAD modeling (15/30) and finite element analysis (15/30). Students are evaluated based on the project report and technical documentation. It is possible to integrate the project evaluation with an oral exam or submit a new project involving a new mechanism and component.",
+  "bibliography": [
+    "R. Shih, Parametric Modeling with Autodesk Inventor. Editor SDC Publications.",
+    "T. Kishre, Learn Autodesk Inventor Basics, Editor Apress.",
+    "S. Tornincasa, Technical Drawing for Product Design: Mastering ISO GPS and ASME GD&T. ‎ Springer Tracts in Mechanical Engineering (2021)",
+    "Workbench user guide (available online)",
+    "Shih, R. H. (2023). Parametric modeling with autodesk inventor 2024. Schroff Development Corporation.",
+    "Kishore, T. (2017). Learn Autodesk Inventor 2018 Basics : 3D modeling, 2D graphics, and assembly design. Apress.",
+    "Chirone, E., & Tornincasa, S. (2022). Disegno tecnico industriale (3. ed.). Il capitello.",
+    "Carfagni, M. (2020). Esercizi di disegno meccanico (2. ed.). Zanichelli."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146187",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50429_646282_96050&ordinamento_aa=2020&af_percorso=50429&corso_cod=10131&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "dbab1e0ef6811e56b74fc85bf55a9994fd2069a0554279e7e34ab0d928f6f637",
+  "extracted_at": "2026-11-18T10:04:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

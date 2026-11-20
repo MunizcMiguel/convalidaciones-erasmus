@@ -1,0 +1,86 @@
+{
+  "course_name_original": "LINEAR ELECTRIC CIRCUITS (508293)",
+  "course_name_en": "LINEAR ELECTRIC CIRCUITS",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic knowledge of mathematical elements such as methods for solving systems of linear equations, complex numbers, ordinary derivatives, integrals, first and second order linear differential equations with constant coefficients."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the fundamental electrical quantities of interest in the analysis of electric circuits and the corresponding units of measurement.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the electrical behavior of linear two-terminal electrical components and their energy and power properties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main methods for the analysis of linear circuits and ability to solve electrical problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to understand and describe qualitatively the operation of simple circuits in steady state (DC), transient, and sinusoidal steady state (AC).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the basic laws of electromagnetism required to understand the physical mechanisms responsible for the operation of basic electric components and elements.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental concepts and laws: systems of units of measurement; electric charge; electric current; electrostatic potential; power and energy in electrical systems; elementary circuit elements: two-terminal components, node, branch, loop and mesh; Kirchhoff's laws.",
+    "Resistors: electrical resistance and Ohm's law; current-voltage characteristic of resistors; electric power in resistors; series resistors and voltage divider; resistors in parallel and current divider.",
+    "Methods of analysis and fundamental theorems of linear networks: nodal analysis; loop and mesh analysis; linearity; superposition theorem; transformation of generators; Thevenin's theorem; Norton's theorem; maximum power transfer theorem; equivalent models of real generators.",
+    "Capacitors and inductors: physical operating principle of capacitors and inductors; constitutive relationship of capacitors and inductors; series and parallel connection of capacitors; series and parallel connection of inductors; energy and electrical power in capacitors and inductors.",
+    "First-order and second-order circuits: autonomous RC circuits; autonomous RL circuits; step response of an RC circuit; step response of an RL circuit; analysis of initial and final conditions; autonomous series RLC circuits; autonomous parallel RLC circuits; step response of series RLC circuits; step response of parallel RLC circuits; general solution of first- and second- order circuits.",
+    "Sinusoidal steady-state analysis and phasors: sinusoidal signals; sinusoidal steady-state analysis; voltage and current phasors; phasor relations for linear two-terminal components; impedance and admittance; Kirchhoff's laws in sinusoidal steady-state analysis; composition of impedances; nodal analysis; mesh and loop analyses; superposition theorem; transformation of generators; Thevenin and Norton equivalent circuits; instant power; average power; maximum mean power transfer theorem; effective or RMS values of sinusoidal quantities; apparent power; power factor; complex power; power conservation; power factor. Two-port network and their representation through impedance, admittance, transmission, and hybrid matrix.",
+    "Circuits with magnetic coupling: mutual inductance; energy in a magnetically coupled circuit; linear transformers; ideal transformers; transformer as isolation device; transformer as an adaptation device; electrical power distribution."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The exam consists of a written (mandatory) part and an oral (optional) part. Only candidates who passed the written part with at least 18/30 are admitted to the oral part. If the candidate decides not to take the oral exam, the final grade will correspond to the written exam score, reduced by 0 to 4 points proportionally to the score. For a full exam (written and oral parts), the final score is the weighted average (50-50) of the written and oral exam scores.",
+  "bibliography": [
+    "Lecture notes provided by the Professor.",
+    "C. K. Alexander and M. N. O. Sadiku, \"Fundamentals of Electric Circuits,\" McGraw-Hill, New York, 2000.",
+    "L. O. Chua, C. A. Desoer, and E. S. Kuh, \"Linear and Nonlinear Circuits,\" McGraw Hill Book Company, New York, 1987.",
+    "L. Perregrini, M. Pasian. Circuiti Elettrici. Collana \"Gli eserciziari\", McGraw-Hill."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "508293",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=17754&ordinamento_aa=2026&af_percorso=1&corso_cod=10866&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "63865eee1d652aa51d5b07f7b0aa250108d0cc13d7746fea29da47ff74656575",
+  "extracted_at": "2026-11-20T08:18:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,153 @@
+{
+  "course_name_original": "Fundamentals of Automatic Control",
+  "course_name_en": "Fundamentals of Automatic Control",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of the complex functions and differential equations."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Getting knowledge about the basic description methods of automatic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Getting knowledge about the basic analysis methods of automatic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Getting knowledge about the basic synthesis methods of automatic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learning to design control systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The practical skills to build and run basic automation systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Skills to evaluate the performance of control systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge of basic methods for describing automation systems.",
+      "type": "knowledge",
+      "code": "PEK_W01"
+    },
+    {
+      "text": "Knowledge of basic methods to analyze automation systems.",
+      "type": "knowledge",
+      "code": "PEK_W02"
+    },
+    {
+      "text": "Knowledge of methods to synthesize automation systems.",
+      "type": "knowledge",
+      "code": "PEK_W03"
+    },
+    {
+      "text": "Can define the mathematical description of the automation system.",
+      "type": "skill",
+      "code": "PEK_U01"
+    },
+    {
+      "text": "Able to analyze the function of the automation system.",
+      "type": "skill",
+      "code": "PEK_U02"
+    },
+    {
+      "text": "Can design automation system.",
+      "type": "skill",
+      "code": "PEK_U03"
+    },
+    {
+      "text": "Can broaden their knowledge by using additional aids.",
+      "type": "competence",
+      "code": "PEK_K01"
+    },
+    {
+      "text": "Can think and act in a creative way.",
+      "type": "competence",
+      "code": "PEK_K02"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, basic terms, the structure of control systems and their classification.",
+    "Description of linear automation systems: differential equations, transfer function, time characteristics.",
+    "Description of linear automation systems: the frequency response, the frequency characteristics.",
+    "Dynamic objects: proportional, inertial, differential.",
+    "Dynamic objects: Integral, oscillating, delay.",
+    "Stability. Theorem of stability, properties of stable and unstable systems.",
+    "Description of discrete systems. The differential equation, transfer function, frequency responce, time characteristics.",
+    "Automatic control. Requirements. Static control. astatic control.",
+    "Controllers: PI, PD, PID",
+    "Nonlinear systems. Methods of description and analysis.",
+    "Discrete automatic control.",
+    "Boolean algebra.",
+    "Logic combinational systems.",
+    "Logic sequential systems.",
+    "Test. Credit.",
+    "Static characteristics of automatic objects.",
+    "Dynamic characteristics of automatic objects.",
+    "Frequency characteristics of automatic objects.",
+    "Examination of automatic control systems.",
+    "Simulation tests of automatic objects in Matlab-Simulink system.",
+    "On-off control.",
+    "Programming languages of PLC controllers.",
+    "Mathematical fundamentals of digital automation systems.",
+    "Elements and contactor-relay systems.",
+    "Logic combinational systems.",
+    "Synthesis of logic sequential systems.",
+    "Modeling and programming of sequential processes.",
+    "Modeling and programming of concurrent processes.",
+    "Modeling and programming of complex processes.",
+    "Industrial communication networks."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory",
+    "Self study - self studies and preparation for examination",
+    "Self study - preparation for laboratory class"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Average grade (Laboratory)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation for the lecture component is based on an exam (F1). The evaluation for the laboratory component is based on the average grade (F1) for skills PEK_U01, PEK_U02, PEK_U03 and social competences PEK_K01, PEK_K02. Both are graded with credit.",
+  "bibliography": [
+    "Greblicki W., Podstawy automatyki. Oficyna Wydawnicza Politechniki Wrocławskiej, Wrocław 2006.",
+    "Praca zbiorowa, tytuł: Laboratorium podstaw automatyki i automatyzacji,wydawnictwo: Oficyna Wydawnicza Politechniki Wrocławskiej, rok: 2005",
+    "Kaczorek T., Dzieliński A., Dąbrowski W., Łopatka R., Podstawy teorii sterowania., WNT Warszawa 2009."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Politechnika Wroclawska",
+  "institution_slug": "ec_pl_wroclaw02",
+  "degree": "Mechanical Engineering and Machine Building (I level, full-time)",
+  "course_code": "MMM031024",
+  "academic_year": "2026/2027",
+  "source_url": "https://wm.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkFUBhQAykrCDILDWdbXxMbFmFBWxslAxt1FSVcVnRKCkI8VQIDJCUODBYAKg8TXAMIOAZK/_users/code_BAlkUKkpKNVI_VBV9XFNBFEZcFiw5Qx0O/w10/karty_kursow/mbm_en_st_i.pdf",
+  "source_language": "en",
+  "source_sha256": "fd991e1936759b641daba4de5d2a5fdfd0b916f2ce35326be9a189a42ca6ce27",
+  "extracted_at": "2026-11-18T10:05:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

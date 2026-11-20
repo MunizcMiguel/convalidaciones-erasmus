@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Computer Principles - Operating Systems (FMFI.KDMFI/1-AIN-180/22)",
+  "course_name_en": "Computer Principles - Operating Systems",
+  "ects": 4.0,
+  "semester": "4.",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [
+    "Antirequisites: FMFI.KDMFI/1-AIN-180/15"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to use typical services of operating systems in their C programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will understand concepts from the theory and practice of operating systems: memory management, process and thread synchronization, input/output devices and file systems, user maintenance, and internal principles of modern operating systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They will be able to apply the knowledge in operating systems administration and application development.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Address spaces",
+    "segmentation and paging",
+    "swapping",
+    "multithreaded and parallel programs",
+    "synchronization mechanisms: mutexes",
+    "semaphores",
+    "condition variables",
+    "input/output devices",
+    "organization of hard drives and ssd",
+    "file systems",
+    "journaling",
+    "data integrity and security",
+    "user maintenance"
+  ],
+  "teaching_methods": [
+    "on-site learning"
+  ],
+  "workload_hours_total": 39.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Quizzes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical tasks",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To qualify for a final credit, students need to correctly answer 70% of quiz questions, and solve 70% of practical tasks. The grade is calculated proportionally to the score achieved. Assessment is 100% during the semester, with the possibility of an exam in case of a lack of points.",
+  "bibliography": [
+    "Remzi H. Arpaci-Dusseau, Andrea C. Arpaci-Dusseau and Peter Reiher: Operating Systems: Three Easy Pieces, Arpaci-Dusseau Books, August, 2018.",
+    "Andrew S. Tanenbaum and Herbert Bos: Modern Operating Systems, Fourth Edition, Pearson, 2014."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KDMFI/1-AIN-180/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "4ee19bb4329445808362b9b28558a4441fdc372329312769d06053dae415e175",
+  "extracted_at": "2026-11-20T09:27:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

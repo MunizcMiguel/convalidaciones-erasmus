@@ -1,0 +1,53 @@
+{
+  "course_name_original": "Introdução às Redes de Computadores",
+  "course_name_en": "Introduction to Computer Networks",
+  "ects": 6.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction - constituent elements; access networks, physical media and information digitalization; core networks, switching and Internet structure; Degradation factors and performance metrics; layered organization and TCPI/IP architecture; historical evolution",
+    "Application layer – network applications, client-server and peer-to-peer architectures; notion of API and socket programming; Web and HTTP; E-mail; name management and DNS; file distribution; streaming; network management and SNMP",
+    "Transport layer: connectionless transport and UDP; reliability and TCP; congestion control and TCP",
+    "Network layer – data and control; IPv4 and IPv6 (addressing, fragmentation, configuration, resolution and address translation); routing algorithms, intra-AS routing and OSPF; inter-AS routing and BGP; ICMP; SDN",
+    "Link layer: error detection and correction; multiple access; local networks; layer 2 switching and addressing; virtualization and data center networks"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Theoretical component grade",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory component grade",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is 50% theoretical component grade + 50% laboratory component grade. The theoretical component grade is the minimum of the Oral defense of grade and the Exam. Students whose difference between theoretical and laboratory performance is greater than 3 points may be selected for a final oral defense, which replaces the theoretical component grade to rule out fraud. A minimum grade of 8/20 is required for the theoretical component and 9.5/20 for the laboratory component. The laboratory component grade is the average of the classifications of the 5 laboratory assignments.",
+  "bibliography": [
+    "J. Kurose and K. Ross, Computer Networking: A Top-Down Approach, 7th edition., Pearson (main)"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "bibliography",
+    "assessment_methods"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "IRC3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192288",
+  "source_language": "pt",
+  "source_sha256": "29ca322c713d57204b905cf43930848addd18bdfc09938c429508e78054fd6d9",
+  "extracted_at": "2026-11-20T12:41:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

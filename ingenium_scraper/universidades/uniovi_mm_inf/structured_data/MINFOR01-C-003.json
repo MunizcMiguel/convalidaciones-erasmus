@@ -1,0 +1,166 @@
+{
+  "course_name_original": "Ingeniería de Servicios",
+  "course_name_en": "Services Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Computer Networks",
+    "Operating Systems",
+    "Distributed Systems",
+    "Network Engineering",
+    "practical knowledge of programming languages explained in \"Fundamentals of Informatics\", \"Introduction to Programming\" and \"Programming Methodology\"",
+    "theoretical knowledge of computer operation and binary information representation (as acquired in \"Fundamentals of Computers and Networks\")",
+    "ability to read and understand documentation written in English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design systems, applications and services based on network technologies, including the Internet, web and e-commerce.",
+      "type": "competence",
+      "code": "ETI6.1"
+    },
+    {
+      "text": "Ability to design systems, applications and services based on network technologies, including multimedia.",
+      "type": "competence",
+      "code": "ETI6.2"
+    },
+    {
+      "text": "Ability to design systems, applications and services based on network technologies, including interactive services.",
+      "type": "competence",
+      "code": "ETI6.3"
+    },
+    {
+      "text": "Ability to design systems, applications and services based on network technologies, including mobile computing.",
+      "type": "competence",
+      "code": "ETI6.4"
+    },
+    {
+      "text": "Know the general principles of user-oriented Internet services, their protocols, data formats and configuration.",
+      "type": "knowledge",
+      "code": "RS9"
+    },
+    {
+      "text": "Know the operation, architecture, protocols and formats of email services.",
+      "type": "knowledge",
+      "code": "RS10"
+    },
+    {
+      "text": "Know the operation, architecture, protocols and formats of web services.",
+      "type": "knowledge",
+      "code": "RS11"
+    },
+    {
+      "text": "Know the operation, architecture, protocols and formats of naming, remote access and transfer services.",
+      "type": "knowledge",
+      "code": "RS12"
+    },
+    {
+      "text": "Know the architecture and distribution methods of multimedia services for the Internet.",
+      "type": "knowledge",
+      "code": "RS13"
+    },
+    {
+      "text": "Know the communication and session establishment protocols of multimedia services for the Internet.",
+      "type": "knowledge",
+      "code": "RS14"
+    },
+    {
+      "text": "Know the architectures, operating modes and content distribution of interactive and synchronous bidirectional communication systems.",
+      "type": "knowledge",
+      "code": "RS19"
+    },
+    {
+      "text": "Know the fundamentals of mobile communication systems.",
+      "type": "knowledge",
+      "code": "RS20"
+    },
+    {
+      "text": "Know the problems of designing services for mobile devices.",
+      "type": "knowledge",
+      "code": "RS21"
+    }
+  ],
+  "syllabus_topics": [
+    "T1 - Introduction. Basic services",
+    "T2 - Web Services",
+    "T3 - Naming, remote access and transfer services",
+    "T4 - Email services",
+    "T5 - Audio and video services",
+    "T6 - Interactive services",
+    "T7 - Services for mobile devices",
+    "P1 - Introduction to the practice environment and basic services",
+    "P2 - Practice on web services",
+    "P3 - Practice on naming, remote access and transfer",
+    "P4 - Practice on email",
+    "P5 - Practice on multimedia services",
+    "P6 - Practice on interactive services",
+    "P7 - Practice on mobile devices"
+  ],
+  "teaching_methods": [
+    "Laboratory Practices",
+    "Group Tutorials",
+    "Expository Classes",
+    "Classroom/Seminar Practices",
+    "Individual Work",
+    "Group Work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Control 1 (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Control 2 (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Control 3 (T3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Group Work (TG) memory delivery and group defense",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Test 1 (PP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Test 2 (PP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual Practical Tasks (TPI) (average of 2 tasks)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance to laboratory sessions",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary examination, the theoretical block (TEO = (T1+T2+T3)/3) requires an average of 5. The practical block (PRAC = 0.75 * (PP1+PP2+TPI)/3 + 0.25 * TG) requires a minimum grade of 5 for PRAC, TPI, and TG. Additionally, a minimum of 75% attendance to laboratory sessions is required. If all minimums are met, the final grade is calculated as 0.60 * TEO + 0.40 * PRAC; otherwise, it is the minimum between the calculated grade and 4.0. For extraordinary examination, parts with a grade >=5 from the ordinary examination are retained. Theoretical part (ET) is a written exam on all theoretical content (minimum 5.0). Practical part includes improved group work memory and individual defense (TG, minimum 5.0), improved individual tasks (TPI, minimum 5.0), and a practical exam on all practices (EP, minimum 5.0). If all minimums are met, the final grade is 0.60 * ET + 0.40 * (0.25 * TG + 0.25 * TPI + 0.50 * EP); otherwise, it is the minimum between the calculated grade and 4.0. Differentiated evaluation replaces in-course theoretical controls and group tutorial lab follow-up with global tests (ET, TPI, EP), with a final grade of 0.60*ET + 0.20*TPI + 0.20*EP if all minimums are met, or the minimum between 4.0 and the formula otherwise.",
+  "bibliography": [
+    "\"Redes Globales de Información con Internet y TCP/IP. Principios básicos, protocolos y arquitectura”, Douglas E. Comer, Tercera Edición. Pearson. 1996.",
+    "Kurose, J.W., & Ross, K.W. (2021). Computer Networking: A Top-Down Approach (6th ed). Pearson.",
+    "“HTTP. The definitive guide”, David Gourley and Brian Totty, O'Reilly. 2002.",
+    "\"Programming Internet Email”, David Wood, O’Reilly. 1999.",
+    "“DNS and Bind”, Paul Albitz and Cricket Liu, O'Reilly. 2001."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Informática (Informática, Oviedo)",
+  "institution_slug": "uniovi_mm_inf",
+  "degree": "Máster Universitario en Ingeniería Informática",
+  "course_code": "MINFOR01-C-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/informatica/-/fof/asignatura/MINFOR01-C-003",
+  "source_language": "es",
+  "source_sha256": "cd3a3ea256bfc947acef753749a2a10f9256204cf2409e0a86d3672d126497f0",
+  "extracted_at": "2026-11-20T05:58:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

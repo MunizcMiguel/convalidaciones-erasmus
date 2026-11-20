@@ -1,0 +1,70 @@
+{
+  "course_name_original": "Controlo de Sistemas (CSis112)",
+  "course_name_en": "Control of Systems (CSis112)",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Open-loop, closed-loop, cascade control",
+    "Closed-loop stability analysis: root locus method, and Nyquist criterion",
+    "Time and frequency domain performance criteria (bandwidth, stability margins)",
+    "PID control, and empirical design methods (Ziegler-Nichols)",
+    "Design of PID and lead-lag controllers in continuous time and frequency",
+    "Practical aspects in the implementation of PID controllers",
+    "Digital, sampled, quantized signals",
+    "Choice of sampling time",
+    "Discretization methods",
+    "The Z-transform and the discrete transfer function",
+    "Stability of discrete systems",
+    "Time and frequency response of discrete systems",
+    "Design of digital controllers by emulation",
+    "Design of digital controllers by direct method",
+    "Performance criteria in the Z-plane",
+    "Root locus method in the Z-plane",
+    "Stability in the frequency domain of discrete systems and bilinear transformation"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "MAP45(1)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "MAP45(2)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Laboratory",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 35% MAP45(1) + 35% MAP45(2) + 30% Laboratory. The average of MAP45(1) and MAP45(2) must be greater than 8.0 values. The Laboratory component must be greater than 9.5 values. Students can repeat the first MAP, second MAP, or both, or take them for the first time during the Normal Exam Period; there will be no evaluation in the Recourse Period. An oral exam may be conducted to confirm grades, especially for scores above 17 (final grade will be 17 if student fails to attend the oral exam).",
+  "bibliography": [
+    "Ayala Botto, Miguel, \"Controlo de Sistemas\", AEIST Press, 2017 (main)",
+    "Gene F. Franklin, J. David Powell, Abbas Emami-Naeini, \"Feedback Control of Dynamic Systems\", 8th Edition, 2019, Pearson Education Limited., 2019 (main)",
+    "N. Nise, Control Systems Engineering, 8th Edition, Wiley, 2020 (main)",
+    "R. C. Dorf, R. H. Bishop, Modern Control Systems”, 14th Edition, Pearson Education Limited, 2022 (main)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa",
+  "institution_slug": "ec_p_lisboa109",
+  "degree": "Licenciatura Bolonha em Engenharia Mecânica (LEMec21)",
+  "course_code": "CSis112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185307",
+  "source_language": "pt",
+  "source_sha256": "99de3be2f5131a6db2949e5ecd0ce6baa7e766d016553e29868322452adadceb",
+  "extracted_at": "2026-11-18T10:04:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

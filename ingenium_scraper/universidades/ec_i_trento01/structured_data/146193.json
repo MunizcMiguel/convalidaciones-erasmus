@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Introduction to robotics (146193)",
+  "course_name_en": "Introduction to robotics",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basics of linear algebra (matrices, vectors, matrix calculus, matrix inversions)",
+    "analysis (derivatives)",
+    "mechanics (linear and angular velocity, reference systems)",
+    "procedural programming (variables, functions, loops)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "model the geometry of an open kinematic chain",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "implement algorithms for calculating the position of the robot's end effector and its velocity",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "control the robot in joint space",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "control the Cartesian position and orientation of the robot's end effector",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "plan different types of trajectories using polynomials",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "solve the inverse geometry problem using Newton's method",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "use ROS middleware to write modular software for controlling and planning the motion of a manipulator robot",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "A Brief History of Robotics",
+    "Overview of a robot’s functional units: sensors, actuators, mechanics",
+    "Overview of the main topics in robotics: control, perception, estimation, planning",
+    "Introduction to Python/ROS",
+    "Geometry: homogeneous matrix (review), direct kinematics via composition of homogeneous matrices, end-effector orientation (rotation matrix, Euler angles, angle-axis, quaternion)",
+    "URDF files: reading a URDF file, visualizing the robot in a simulation environment, calculating the end-effector pose",
+    "Differential kinematics: Jacobian (analytic and geometric), mapping RPY’s time derivatives to angular velocity",
+    "Velocity/acceleration control in joint space with proportional-derivative feedback",
+    "Planning reference trajectories using polynomials: constant-velocity trajectories, trajectories with zero initial and final velocities, trajectories with zero initial and final accelerations, minimum-time trajectories, curvilinear trajectories",
+    "Inverse kinematics: uniqueness and existence of the solution, Newton’s method",
+    "Cartesian velocity control using the pseudo-inverse Jacobian",
+    "Velocity control in null space, analysis of redundancy and singularities via the Jacobian matrix, singular value decomposition, damped least squares",
+    "Velocity-level orientation control of the end-effector using the geometric Jacobian",
+    "Partial pose control of the end-effector, control of a tool attached to the end-effector, pose error weighting, orientation interpolation"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Classroom lessons using blackboard, slides and Python notebooks",
+    "Laboratory lessons focusing on programming in Python to control small manipulator arms"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam, students must take a written exam that tests both their understanding of the theory and their ability to apply the theory to solve practical robotics problems.",
+  "bibliography": [
+    "Siciliano, B., Villani, L., Oriolo, G., & De Luca, A. (2025). Foundations of Robotics. Advanced Textbooks in Control and Signal Processing (available in English only).",
+    "Siciliano, B., Sciavicco, L., Villani, L., & Oriolo, G. (2009). Robotics: modeling, planning, and control. London: Springer London (also available in Italian).",
+    "Siciliano, B., Villani, L., Oriolo, G., & De Luca, A. (2025). Foundations of robotics (1st ed.). Springer Nature.",
+    "Siciliano, B. (2009). Robotics : modelling, planning and control. Springer."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146193",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50428_646291_96082&ordinamento_aa=2020&af_percorso=50428&corso_cod=10131&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "b477d80897e8ca9afc26b91e44643979474df7d77cd0e05a5bd3c9289a39c1f3",
+  "extracted_at": "2026-11-18T10:04:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

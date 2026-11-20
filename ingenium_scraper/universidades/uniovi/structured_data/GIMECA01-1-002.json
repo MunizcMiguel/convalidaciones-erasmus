@@ -1,0 +1,141 @@
+{
+  "course_name_original": "Métodos Numéricos",
+  "course_name_en": "Numerical Methods",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Basic knowledge of Calculus",
+    "Basic knowledge of Fundamentals of Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra; geometry: differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithmics; statistics and optimization.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Honesty, responsibility, ethical commitment, and solidarity spirit.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "competence",
+      "code": "CG15"
+    },
+    {
+      "text": "Identify the different types of errors that can be made when using numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision, and the computational cost.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Assess and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Describe, analyze, and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Numerically solve problems of interpolation, one-dimensional data fitting, and function approximation.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use formulas that allow obtaining the derivative and definite integral of a function approximately.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Describe, use, and assess basic numerical methods for solving differential equations.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Concepts of error",
+    "Computer arithmetic",
+    "Error analysis",
+    "Fixed-point method",
+    "Interval-based methods",
+    "Newton's method",
+    "Direct methods",
+    "Iterative methods",
+    "Non-linear systems",
+    "Interpolation",
+    "Function approximation",
+    "Data fitting",
+    "Numerical differentiation",
+    "Simple quadrature rules",
+    "Compound quadrature rules",
+    "Initial value problems: One-step methods"
+  ],
+  "teaching_methods": [
+    "Expository Classes",
+    "Classroom / Seminar / Workshop Practices",
+    "Laboratory / Field / Computer Lab / Language Lab Practices",
+    "Evaluation Sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (Theory)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practice Assessment",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Ordinary Call: The ordinary assessment consists of a theoretical block and a practical block. For the theoretical block, a minimum grade of 3.5 out of 10 is required. Students can choose between two mutually exclusive options: either two partial exams (T1 and T2, each requiring a minimum of 3.5/10, with T1 being a prerequisite for T2) or a single final theory exam (requiring a minimum of 3.5/10). The practical block is assessed during laboratory sessions and requires a minimum grade of 3.5 out of 10. If all minimums are met, the final grade is calculated as 0.7 * Theory + 0.3 * Practice. A student is considered 'presented' if they take the Final Exam or if they take Partial Exam (T1) and at least 50% of the laboratory assessment activities. If the minimum grade in any part is not reached, the final grade in the transcript will be the minimum of the weighted average and 4.5 (fail). Extraordinary Call: Consists of a theoretical exam and a practical exam, both covering all content and requiring a minimum of 3.5 out of 10. The final grade is calculated as 0.7 * Theory + 0.3 * Practice. In the July call, students can choose to retake only the theory part if their ordinary practice grade was >= 3.5, or only the practical part if their ordinary theory grade was >= 3.5. The use of AI tools in any assessable test is strictly prohibited.",
+  "bibliography": [
+    "Mathews, J.H., Fink, K.D. Métodos Numéricos con Matlab. Prentice Hall (3ª Ed.), 2000.",
+    "Moler, C., Numerical Computing with Matlab. SIAM, 2004. https://es.mathworks.com/moler/chapters.html",
+    "Novak, K. Numerical Methods for Scientific Computing, Equal Share Press (2º Ed.), 2022 https://www.equalsharepress.com/media/NMFSC.pdf"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo",
+  "institution_slug": "uniovi",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "GIMECA01-1-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/mecanica/-/fof/asignatura/GIMECA01-1-002",
+  "source_language": "es",
+  "source_sha256": "6b1ef68246be8d06d4487935c29ff9338efecf154c7dc22411b5dc99e0a46d4e",
+  "extracted_at": "2026-11-12T23:49:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

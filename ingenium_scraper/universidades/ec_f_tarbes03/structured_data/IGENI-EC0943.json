@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Conversion statique de l'énergie électrique 2",
+  "course_name_en": "Static Electric Energy Conversion 2",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Method for processing and modelling electrical circuits.",
+    "Static converters"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to propose a ‘complex’ cascaded structure of static converters to enable specific electrical energy conversion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will have knowledge of the electrical phenomena that penalise conversion efficiency but which are inherent in real structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to approach both with confidence and caution, the proposal of an architecture, its simulation, and the rules of recommendation for the choice of the inner elements.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to propose an elementary or complex conversion structure.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the internal components and how they are controlled.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and be able to describe the influence of a non-perfect switch in a conversion diagram.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to represent signal waveforms in advance.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Dimension the passive elements associated with the structure with a view to filtering the waveforms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use simulation tools to validate these dimensions.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Concepts related to converter control",
+    "Passive elements around a converter",
+    "Switching assistance",
+    "Design of a power conversion chain (mini-project)",
+    "Connection of several converters",
+    "Sizing of filter elements for waveform quality improvement",
+    "Controlling one of the converters",
+    "Introductory section linking to environmental challenges, energy transition, greenhouse gas reduction, and industrial decarbonation",
+    "PSIM-type simulation tools",
+    "Experimental model"
+  ],
+  "teaching_methods": [
+    "Lessons",
+    "Practical sessions (TD, TP)",
+    "Mini-project work",
+    "Simulations",
+    "Confrontation of results with practical cases",
+    "Individual work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 10.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Control 1 (CC1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Work 1 (TP1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Oral Defense (SOUT)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (0.25*CC1 + 0.25*TP1 + 0.5*SOUT)/1.",
+  "bibliography": [
+    "Henri FOCH et al, ”Eléments constitutifs et synthèse des convertisseurs statiques”, Technique de l’ingénieur , D3 152",
+    "Henri FOCH et al, ”Commutation dans les convertisseurs statiques”, Technique de l’ingénieur , D3 153",
+    "J.L. DALMASSO, ”Electronique de puissance commutation”, DIA Technique Supérieur, ´editions BELIN, ISBN 2-7011-1043-2, 1986",
+    "H. BUHLER, ”Electronique de réglage et de commande”, Traité d’électricité et d’électronique et d’électrotechnique, DUNOD, ISBN 2-88074-056-8, 1987",
+    "P. BARRADE, ”Electronique de puissance, méthodologie et convertisseurs élémentaires”, Presses Polytechniques et Universitaires Romandes, ISBN 2-88074-566-7, 2006"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0943",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "b457e470c36160ce7c1a215d76f666d1bad51b4b8f703cda344d5bbfe2858f28",
+  "extracted_at": "2026-11-18T10:00:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

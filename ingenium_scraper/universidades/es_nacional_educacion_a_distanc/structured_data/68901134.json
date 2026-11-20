@@ -1,0 +1,104 @@
+{
+  "course_name_original": "Álgebra",
+  "course_name_en": "Algebra",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "High school level mathematics",
+    "Review of Algebra and Geometry topics",
+    "Review of Applications, Functions, and Graphs topics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, although supported by advanced textbooks, also includes some aspects that imply knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competencies usually demonstrated by elaborating and defending arguments and solving problems within their field of study.",
+      "type": "skill",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "CBE.1"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "competence",
+      "code": "CG.10"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG.3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG.4"
+    },
+    {
+      "text": "Ability to manage specifications, regulations, and mandatory standards.",
+      "type": "competence",
+      "code": "CG.6"
+    }
+  ],
+  "syllabus_topics": [
+    "TOOLS: Review of prior knowledge, introduction to MAXIMA, matricial algebra concepts (matrices, determinants, systems of linear equations).",
+    "VECTOR SPACES AND MATRICES: Fundamental structure of linear algebra (vector space), conditions for a subset to be a vector subspace, characterization, generation and size of subspaces, concepts of subspaces, sum of subspaces, dimension of a vector space and its main properties.",
+    "LINEAR APPLICATIONS: Linear applications, analytical representation using matrices, conservation of vector space structure, kernel and image of a linear application, matricial representation of a linear application, basis changes.",
+    "MATRIX DIAGONALIZATION: Spectral theory, calculation of eigenvalues and eigenvectors, iterative techniques of numerical linear algebra for finding eigenvalues and eigenvectors.",
+    "ORTHOGONALITY: Euclidean space, concept of scalar product, definition of orthogonality, distance, and angle, orthogonal matrices and their advantages, least squares problem and its application to non-linear models.",
+    "BILINEAR AND QUADRATIC FORMS: Importance of conics and quadrics in engineering problems, application of previous results to study their analytical expression and classification, characterization and classification of conics and quadrics."
+  ],
+  "teaching_methods": [
+    "Distance learning methodology",
+    "Study with didactic materials",
+    "Participation in virtual course forums",
+    "Associated center tutorials",
+    "Autonomous work (study of theoretical content, problem-solving)",
+    "Interaction with teaching staff, tutors, and students",
+    "Completion of assessment activities (self-assessment, continuous assessment, face-to-face tests)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Development exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment tests (PEC)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as the sum of the face-to-face exam score plus the scores from PEC1 and PEC2, provided the face-to-face exam score is 4 or higher. If the face-to-face exam score is less than 4, the final grade is solely the face-to-face exam score. The face-to-face exam has a maximum score of 10 points. Each continuous assessment test (PEC) contributes a maximum of 0.5 points, for a total of 1 point if both are completed, provided the exam score is 4 or higher. No material is allowed during the exam; errors lead to penalties, with conceptual errors penalized more severely.",
+  "bibliography": [
+    "Ana María Díaz Hernández, Elvira Hernández García, Luis Tejero Escribano. Álgebra para Ingenieros.",
+    "Ana María Díaz Hernández, Elvira Hernández García, Luis Tejero Escribano. Ejercicios de Álgebra para Ingenieros.",
+    "Varios Autores. EJERCICIOS DE ÁLGEBRA PARA INGENIEROS. SANZ Y TORRES. ISBN: 9788415550181.",
+    "Díaz, A.; Tejero, L.; Hernández, E. ÁLGEBRA PARA INGENIEROS. SANZ Y TORRES/UNED, 2010. ISBN: 9788492948246.",
+    "Lay, David C. ÁLGEBRA LINEAL Y SUS APLICACIONES. PEARSON-PRENTICE HALL. ISBN: 9789702609063.",
+    "Gilbert Strang. Introduction to Linear Algebra. Wellesley-Cambridge Press, 2016. ISBN-13: 978-0980232776."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad Nacional de Educación a Distancia",
+  "institution_slug": "es_nacional_educacion_a_distanc",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "68901134",
+  "academic_year": "2026-27",
+  "source_url": "https://www.uned.es/universidad/pdf/GuiasAsignaturasGrados/PDFGuiaPublica?codigoAsignatura=68901134&curso=2027&codigoTitulacion=6803&language=es&esMaster=false",
+  "source_language": "es",
+  "source_sha256": "28db47a0e230ec4dfab93555f99cfb9658921a3794ccbb194de42dd7ccb07253",
+  "extracted_at": "2026-11-18T03:04:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

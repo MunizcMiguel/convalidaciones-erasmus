@@ -1,0 +1,81 @@
+{
+  "course_name_original": "LABORATORIO DI SISTEMI OPERATIVI (IA/0291)",
+  "course_name_en": "OPERATING SYSTEMS LABORATORY (IA/0291)",
+  "ects": 2.0,
+  "semester": "First Semestre",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of electronic computer architectures",
+    "Ability to write medium-complexity programs using the C programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and understand the operating mechanisms of the Linux/Unix operating system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the methods for process management and inter-process communication in the Linux operating system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to program an application using correctly the basic tools provided by operating systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to program complex applications, for example with modular or client-server architectures, by exploiting Linux operating system's inter-process communication techniques.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to autonomously understand technical documentation made available by operating system developer communities and major software companies, with particular reference to open source systems based on Linux.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Process creation in Linux (8 hours)",
+    "Inter-process communication in Linux: unnamed pipes (6 hours)",
+    "Inter-process communication in Linux: named pipes (6 hours)"
+  ],
+  "teaching_methods": [
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 20.0,
+  "assessment_methods": [
+    {
+      "method": "Practical exercise 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exercise 2",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exercise 3",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Learning is assessed through practical tests distributed during the Operating Systems Laboratory. These practical tests consist of three graded exercises, which will propose the use of UNIX/Linux system calls for process creation and communication in C language. Students must submit a modified version that meets all requirements within a specified time limit; versions submitted after the deadline or not meeting all requirements will be considered invalid. Each test is evaluated with a maximum of 11 points. The final grade is the sum of the scores obtained in each evaluated laboratory, with a maximum total of 33 points. If the final grade is not sufficient, students can take a practical exam on all laboratory topics during the exam periods; a score of 32 or higher results in 30 cum laude.",
+  "bibliography": [
+    "Andrew S. Tanenbaum - Herbert Bos I Moderni Sistemi Operativi – 5/ED. Pearson - ©2023 ISBN 9788891936646"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IA/0291",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=21672&ordinamento_aa=2022&af_percorso=2&corso_cod=11037&corso_aa=2023",
+  "source_language": "it",
+  "source_sha256": "882fbd669295c8878f7b56a812fcac57dd0fc9c5dcd0b66240de3a32190029f3",
+  "extracted_at": "2026-11-20T12:43:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

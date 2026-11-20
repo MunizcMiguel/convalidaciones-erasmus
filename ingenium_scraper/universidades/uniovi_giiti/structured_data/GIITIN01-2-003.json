@@ -1,0 +1,184 @@
+{
+  "course_name_original": "Bases de Datos",
+  "course_name_en": "Databases",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Introduction to Programming",
+    "Programming Methodology",
+    "Data Structures"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "unspecified",
+      "code": "GTR1"
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "unspecified",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "unspecified",
+      "code": "GTR3"
+    },
+    {
+      "text": "Capacity for planning and organizing personal work.",
+      "type": "unspecified",
+      "code": "GTR4"
+    },
+    {
+      "text": "Ability to integrate quickly and work efficiently in unidisciplinary teams and to collaborate in a multidisciplinary environment.",
+      "type": "unspecified",
+      "code": "GTR5"
+    },
+    {
+      "text": "Capacity for effective oral and written communication (expression and comprehension), with special emphasis on the drafting of technical documentation.",
+      "type": "unspecified",
+      "code": "GTR6"
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "unspecified",
+      "code": "GTR7"
+    },
+    {
+      "text": "Be motivated by quality and continuous improvement and act with rigor in professional development.",
+      "type": "unspecified",
+      "code": "GTR8"
+    },
+    {
+      "text": "Knowledge and application of the characteristics, functionalities, and structure of databases, allowing their proper use, and the design, analysis, and implementation of applications based on them.",
+      "type": "knowledge",
+      "code": "ECR12"
+    },
+    {
+      "text": "Knowledge and application of the necessary tools for storing, processing, and accessing information systems, including web-based ones.",
+      "type": "knowledge",
+      "code": "ECR13"
+    },
+    {
+      "text": "Know the architecture and functionality of Database Management Systems.",
+      "type": "knowledge",
+      "code": "IS9"
+    },
+    {
+      "text": "Understand the basic concepts and theories corresponding to data modeling.",
+      "type": "knowledge",
+      "code": "IS10"
+    },
+    {
+      "text": "Define the structure of a database using SQL.",
+      "type": "skill",
+      "code": "IS11"
+    },
+    {
+      "text": "Update the information in the database using SQL.",
+      "type": "skill",
+      "code": "IS12"
+    },
+    {
+      "text": "Perform simple and complex queries on the information contained in the database using SQL.",
+      "type": "skill",
+      "code": "IS13"
+    },
+    {
+      "text": "Conceive a data schema with the corresponding integrity constraints from a previously defined specification.",
+      "type": "skill",
+      "code": "IS14"
+    },
+    {
+      "text": "Implement small programs and triggers using the database manager's language.",
+      "type": "skill",
+      "code": "IS15"
+    },
+    {
+      "text": "Implement transactions and recovery mechanisms.",
+      "type": "skill",
+      "code": "IS16"
+    },
+    {
+      "text": "Execute queries and updates to the database from an external programming language.",
+      "type": "skill",
+      "code": "IS17"
+    },
+    {
+      "text": "Know and use a development environment for database access.",
+      "type": "skill",
+      "code": "IS18"
+    }
+  ],
+  "syllabus_topics": [
+    "Architecture and functionality of Database Management Systems.",
+    "Relational databases. Entity/Relationship Model.",
+    "Relational databases. Relational Model. Relational Algebra and Calculus.",
+    "Design and optimization of relational databases. Normalization and query optimization.",
+    "Advanced databases. Data warehouses and multidimensional modeling.",
+    "Introduction to PostgreSQL DBMS.",
+    "Data definition.",
+    "Basic data manipulation.",
+    "Complex SQL queries.",
+    "PL/SQL.",
+    "Transactions.",
+    "External access."
+  ],
+  "teaching_methods": [
+    "Group tutorials",
+    "Laboratory practices",
+    "Expositive classes",
+    "Classroom/Seminar practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory Block - First partial exam (ET1) - Exercise 1 (ET11)",
+      "weight_percentage": 17.5
+    },
+    {
+      "method": "Theory Block - First partial exam (ET1) - Exercise 2 (ET12)",
+      "weight_percentage": 7.5
+    },
+    {
+      "method": "Theory Block - Second partial exam (ET2)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Block - Practical exam (EP1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical Block - Practical exam (EP2)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the evaluation is divided into theory (50%) and practical (50%). The theory block consists of two exams: a first partial (ET1) with two exercises (ET11: 35%, ET12: 15% of the theory grade) and a second partial (ET2: 50% of the theory grade). Each theoretical exam part requires a minimum of 5 out of 10. The practical block consists of two practical exams (EP1 and EP2), each weighted 50% of the practical grade, also requiring a minimum of 5 out of 10. An 80% attendance to practical sessions is mandatory. The final grade is calculated as (0.5 * Theory Grade) + (0.5 * Practical Grade), provided all minimums are met; otherwise, the grade will be the minimum between the calculated grade and 4.0. For the extraordinary call, a single theoretical exam (ET11: 35%, ET12: 15%, ET2: 50% of the theory grade) and a single practical exam (50% of the final grade) cover all content, each part requiring a minimum of 5 out of 10. The final grade is calculated as [(ET11 * 0.35 + ET12 * 0.15) + (ET2 * 0.5)] * 0.5 + (0.5 * EP), otherwise, the grade will be the minimum between the calculated grade and 4.0. Unattempted assessable activities count as zero, but if their total weight exceeds 50% of the total grade, the final grade will be \"not presented\".",
+  "bibliography": [
+    "Fundamentos de Diseño de Bases de Datos. Quinta Edición. A. Silberschatz, H.F. Korth, S. Sudarshan. McGraw-Hill, 2006",
+    "Fundamentos de Bases de Datos. Quinta Edición. A. Silberschatz, H.F. Korth, S. Sudarshan. McGraw-Hill, 2006",
+    "Fundamentos de Sistemas de Bases de Datos. Quinta Edición. R. Elmasri, S.B. Navathe. Addison-Wesley, 2007",
+    "The Practical SQL Handbook. Using SQL Variants. J.S. Bowman, S.L. Emerson, M. Darnovsky. Addison-Wesley, 2001",
+    "A Guide to the SQL Standard (Fourth Edition). C.J. Date, H. Darwen. Addison-Wesley, 1997",
+    "SQL: El lenguaje de consulta estructurado. C. Hursch, J. Hursch. Ra-ma, 1998",
+    "Tutorial de SQL: http://www.abcdatos.com/tutorial/tutorial-sql.html",
+    "JDBC ™ Database Access http://docs.oracle.com/javase/tutorial/jdbc/"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-2-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-2-003",
+  "source_language": "es",
+  "source_sha256": "47335649763797950f6aca5da37ff8aa4b0797a961b3962a5a7ea19e2a05949e",
+  "extracted_at": "2026-11-20T05:54:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

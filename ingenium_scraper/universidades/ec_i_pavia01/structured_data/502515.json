@@ -1,0 +1,118 @@
+{
+  "course_name_original": "ELECTRONICS FOR DIGITAL SYSTEMS",
+  "course_name_en": "ELECTRONICS FOR DIGITAL SYSTEMS",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Boole’s Algebra",
+    "Analysis and synthesis of digital combinatorial systems",
+    "unsigned and two’s complement representation",
+    "MOSFET",
+    "Inverter CMOS",
+    "latch",
+    "Knowledge of the basic laws governing electrical circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide the basic knowledge for the design of microelectronic CMOS digital systems, from the elementary devices (complementary CMOS and transmission gate based logic structures) to functional blocks of medium complexity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Discuss different approaches to integrate a digital system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze the main issues and problems related to the different phases of the design and to the development of a digital circuit.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Discuss reasons for testing a logic circuit and techniques for design for testability.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be familiar with electrical aspects of digital electronics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design, from the functional description, the schematic of simple complementary gates and synchronous circuits.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Digital Integrated Circuits",
+    "CMOS fabrication process, passive components, masks and design rules",
+    "CMOS circuits and basic sequential systems",
+    "CMOS gates",
+    "Static and dynamic parameters",
+    "Transmission gates",
+    "Open drain and tri-state outputs",
+    "Schmitt trigger inputs",
+    "Digital buffers",
+    "Layout of a CMOS gate",
+    "Level sensitive latch",
+    "Edge triggered register",
+    "Timing",
+    "Registers, binary counters, shift counters",
+    "Adders",
+    "Addition, change of sign and subtraction of positive integers and signed integers",
+    "Range extension and arithmetic shifts",
+    "Full adder, Ripple carry adder",
+    "Digital systems: technology choice",
+    "ASIC Standard Cell and Full Custom, FPGA",
+    "Testing a digital system",
+    "Stuck at, short and open fault, Design For Testability, Built In Self Test, Boundary Scan",
+    "Exercises and Laboratory",
+    "Exercises on the course topics",
+    "Experimental laboratories consist in the realization of simple combinatorial and sequential circuits"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical class",
+    "Practicals / Workshops",
+    "Slides and power point presentations with explanations and practice at the backboard",
+    "Laboratory experiences with electronic circuits and instruments",
+    "Student reception"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 61.0,
+  "assessment_methods": [
+    {
+      "method": "Exercises related to the analysis and/or design of digital systems (written exam)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Written theoretical section (multiple choice, problems, theory questions)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The exam consists of two parts taken on the same day: exercises (weight 0.6, 2.5 hours) where books and notes are allowed, and a brief theoretical section (weight 0.4, 30 minutes) with no texts allowed. In case of doubt about solution originality, an oral interview may be scheduled. For remote exams (if authorized), the theoretical section is replaced by an oral exam, with admission only if the written evaluation is higher than 18/30.",
+  "bibliography": [
+    "Copies of the slides used during the lectures, exercises, examples of written tests, instruction manuals and notes provided by the professor for the lab are available from the course website (in italian).",
+    "Additional material available on Kiro platform.",
+    "Solved exercises and recordings of lessons are available (in Italian)."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "502515",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=10317&ordinamento_aa=2021&af_percorso=1&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "953a8ed97c2d38d016b2079e047badb8d87ca3c46e6e67f3e7531d9b15dc7a29",
+  "extracted_at": "2026-11-20T08:18:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

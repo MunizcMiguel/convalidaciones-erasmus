@@ -1,0 +1,161 @@
+{
+  "course_name_original": "Sûreté de fonctionnement et Pronostic / RAMS & PHM",
+  "course_name_en": "Dependability and Prognostics / RAMS & PHM",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "A solid grounding in applied mathematics, systems physics and modelling.",
+    "A general understanding of industrial maintenance concepts.",
+    "A first experience with computer tools and simulation software would also be an asset."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Integrate dependability concepts into the design and optimisation of industrial systems to guarantee their availability and reliability.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Assess the effectiveness of maintenance strategies and suggest improvements based on operational data.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply statistical and probabilistic methodologies for managing failures and predicting system performance.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify and assess the risks and failures of industrial systems by applying advanced operational safety methods such as FMECA, Preliminary Risk Analysis, fault trees and Reliability Diagrams.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use specific tools and software to diagnose faults and simulate corrective and predictive maintenance scenarios.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental principles of dependability, including the concepts of reliability, availability, maintainability and safety (RAMS).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Applying analytical and probabilistic methodologies such as Preliminary Risk Analysis, FMEA, Fault Trees and Reliability Diagrams.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the theoretical bases required for diagnosing and prognosticating industrial systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Optimising maintenance strategies by integrating economic and environmental constraints.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Carrying out risk analyses and failure assessments using specialised tools and software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply data pre-processing, fault diagnosis and remaining useful life (RUL) prediction techniques.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Modelling complex systems by integrating operational data and probabilistic models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Synthesise technical results and present them in the form of reports or visualisations tailored to stakeholders.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the challenges associated with operational safety in industrial sectors, particularly in terms of human and environmental safety.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop a critical approach to maintenance choices and operational decisions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Working effectively in multidisciplinary teams to solve complex problems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Maintenance and logistics support strategies",
+    "Typology of maintenance strategies: corrective, preventive, predictive and enhancement.",
+    "Presentation of the concepts associated with Integrated Logistics Support (ILS): Anticipating resource requirements and managing the infrastructures needed for maintenance.",
+    "Characterisation of dependability measures (SDF)",
+    "Key elements of risk management",
+    "Definition of SDF measures: Reliability, Availability, Maintainability and Safety (RAMS) as well as key indicators: MTBF, MTTR, failure rate.",
+    "Presentation of the laws of probability used in operational safety",
+    "Methods and tools for the dependability engineer",
+    "Qualitative methods: Preliminary Risk Analysis, FMEA (Failure Modes, Effects and Criticality Analysis)",
+    "Quantitative approaches: Fault trees, Reliability diagrams.",
+    "Introduction to PHM",
+    "Motivation",
+    "Prognostics and Health Management (PHM)",
+    "Fault prognostics",
+    "Prognostics metrics",
+    "Condition monitoring, fault detection and diagnostics",
+    "Introduction",
+    "Quantitative analysis"
+  ],
+  "teaching_methods": [
+    "Interactive lectures",
+    "Practical exercises and case studies"
+  ],
+  "workload_hours_total": 11.5,
+  "workload_hours_contact": 11.5,
+  "assessment_methods": [
+    {
+      "method": "CC1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "CC2",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1+1*CC2)/2.",
+  "bibliography": [
+    "G. Zwingelstein, Diagnostic des défaillances : théorie et pratique pour les systèmes industriels. Hermès 1995.",
+    "R. Toscano, Commande et diagnostic des systèmes dynamiques : modélisation, analyse, commande par PID et par retour d’état, diagnostic. Ellipses 2005.",
+    "M. Blanke, M. Kinnaert, J. Lunze, and M. Staroswiecki. Diagnosis and Fault Tolerant Control. Springer-Verlag, 2003.",
+    "U.B. Kjaerulff, A.L. Madsen. Bayesian networks and influence diagrams. A guide to construction and analysis. Springer 2008.",
+    "P. Naïm, P.H. Wuillemin, Ph. Leray, O. Pourret, A. Becker. Réseaux bayésiens. Eyrolles 2004.",
+    "R. lsermann, Supervision, fault detection and fault diagnosis. Control Engineering Practice, Vol. 5, No. 5, pp. 639-652, 1997.",
+    "A. Mathur, K. Cavanaugh, K. Pattipati, P. Willet and T. Galie, Reasoning and Modeling Systems in Diagnosis and Prognosis. In: SPIE Aerospace Conference, Orlando, USA, 2001.",
+    "NF E90-372, NF ISO 13372. Condition monitoring and diagnostics of machines — Vocabulary",
+    "R. Gouriveau, K. Medjaher, N. Zerhouni. From Prognostics and Health Systems Management to Predictive Maintenance 1: Monitoring and Prognostics. ISTE - Wiley, 2016.",
+    "Andrew. K.S. Jardine, Daming Lin, and Dragan Banjevic. A review on machinery diagnostics and prognostics implementing condition-based maintenance. Mechanical Systems and Signal Processing, 20(7) :1483 – 1510, 2006.",
+    "V. Venkatasubramanian 2005. Prognostic and diagnostic monitoring of complex systems for product lifecycle management : Challenges and opportunities. Computers&Chemical Engineering, 29(6) :1253 – 1263, 2005."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0931",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "1760644e4f23ca8a27a642ee380cd70b8b3d6d497808c3af526f2c0f5ba91398",
+  "extracted_at": "2026-11-18T10:00:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

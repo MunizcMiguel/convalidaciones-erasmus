@@ -1,0 +1,182 @@
+{
+  "course_name_original": "TRANSMISION DE CALOR",
+  "course_name_en": "Heat Transfer",
+  "ects": 4.5,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "AMPLIACION DE MATEMATICAS (565000322)",
+    "FISICA I (565000313)",
+    "FISICA II (565000323)",
+    "TERMODINAMICA (565000336)",
+    "CALCULO INFINITESIMAL (565000311)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply acquired knowledge to identify, formulate and solve problems in broad contexts, being capable of integrating them by working in multidisciplinary teams.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Understand the impact of engineering on the environment, the sustainable development of society, and the importance of working in a professional and responsible environment.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Communicate knowledge and conclusions, both orally and in writing, to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Knowledge of applied thermodynamics and heat transfer. Basic principles and their application to solving engineering problems.",
+      "type": "knowledge",
+      "code": "CE7"
+    },
+    {
+      "text": "Possess learning skills that allow continuous lifelong study for adequate professional development.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Incorporate ICT and industrial engineering technologies and tools into their professional activities.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Know and apply knowledge of basic sciences and technologies to the practice of Industrial Engineering.",
+      "type": "knowledge",
+      "code": "CG1"
+    },
+    {
+      "text": "Creativity.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Perform assemblies, simulations, and laboratory experiments to verify theoretical results and acquire appropriate practical skills.",
+      "type": "skill",
+      "code": "RA102"
+    },
+    {
+      "text": "Acquire the fundamental knowledge of heat transfer necessary to address other more technological subjects.",
+      "type": "knowledge",
+      "code": "RA101"
+    },
+    {
+      "text": "Know how to use numerical methods to solve complex heat transfer problems.",
+      "type": "skill",
+      "code": "RA100"
+    },
+    {
+      "text": "Know how to apply heat transfer laws to the analytical resolution of simple cases.",
+      "type": "skill",
+      "code": "RA99"
+    },
+    {
+      "text": "Understand the three basic mechanisms of heat transfer and the laws that govern them.",
+      "type": "knowledge",
+      "code": "RA98"
+    }
+  ],
+  "syllabus_topics": [
+    "1. INTRODUCTION TO HEAT TRANSFER",
+    "1.1. Thermodynamics and Heat Transfer",
+    "1.2. Physical mechanisms of heat transfer. Basic equations",
+    "1.3. Simultaneous mechanisms of heat transfer: Qualitative energy balance",
+    "1.4. Heat transfer applications",
+    "2. STEADY-STATE HEAT CONDUCTION",
+    "2.1. General heat conduction equation or diffusion equation",
+    "2.2. Steady-state 1D conduction with heat sources",
+    "2.3. Steady-state 1D conduction with heat sources",
+    "2.4. Steady-state 2D conduction. Numerical solutions",
+    "3. TRANSIENT HEAT CONDUCTION",
+    "3.1. Transient 1D conduction equation",
+    "3.2. Lumped capacitance analysis",
+    "3.3. Biot and Fourier numbers",
+    "4. NATURAL AND FORCED CONVECTION",
+    "4.1. Physical properties and fluid flow",
+    "4.2. Velocity boundary layer and thermal boundary layer. Reynolds and Prandtl numbers",
+    "4.3. Convective heat transfer coefficient. Nusselt number",
+    "4.4. Forced internal and external convection",
+    "4.5. Forces involved in natural convection processes. Grashof number",
+    "4.6. Experimental relationships between dimensionless numbers",
+    "4.7. Methodology for convection problems",
+    "5. COMBINED HEAT TRANSFER: CONDUCTION AND CONVECTION",
+    "5.1. Flat, cylindrical and spherical walls with internal and external convection",
+    "5.2. Critical radius of insulation for pipes",
+    "5.3. Heat exchangers",
+    "5.4. Fin heat transfer",
+    "6. RADIATION FUNDAMENTALS",
+    "6.1. Thermal radiation. Electromagnetic spectrum",
+    "6.2. Quantities for the study of radiation",
+    "6.3. Directional effects. Lambert's Law",
+    "6.4. Blackbody radiation laws",
+    "7. RADIATION EXCHANGE BETWEEN SURFACES",
+    "7.1. Gray and real surfaces",
+    "7.2. View factor",
+    "7.3. Complex heat transfer: conduction, convection and radiation"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes",
+    "Laboratory practices",
+    "Individual work",
+    "Group work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 50.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory Practices (Progressive Assessment)",
+      "weight_percentage": 16.0
+    },
+    {
+      "method": "Partial Exam: Topics 1, 2, 3 and 4 (Progressive Assessment)",
+      "weight_percentage": 33.6
+    },
+    {
+      "method": "Global Exam (Progressive Assessment Option)",
+      "weight_percentage": 50.4
+    },
+    {
+      "method": "Global Exam (Non-Progressive Assessment Option)",
+      "weight_percentage": 84.0
+    },
+    {
+      "method": "Laboratory Exam (Global/Extraordinary Assessment Option)",
+      "weight_percentage": 16.0
+    },
+    {
+      "method": "Extraordinary Global Exam",
+      "weight_percentage": 84.0
+    },
+    {
+      "method": "Extraordinary Laboratory Exam",
+      "weight_percentage": 16.0
+    }
+  ],
+  "assessment_rules": "The evaluation is divided into two independent parts: laboratory (LAB) and theory & problems (TyP). The final grade (NF) is calculated as NF = 84% × TyP + 16% × LAB. To pass the course, a minimum grade of 5 (out of 10) is required for LAB, 4 for TyP, and 5 for NF. In the ordinary call, the highest grade between the progressive and global assessment options for each part will be considered. Any parts not passed with a minimum grade of 5 must be retaken in the extraordinary session, though only approved laboratory parts (LAB ≥ 5) can be carried over to subsequent academic years. All grades are out of 10, and if conditions are not met, a grade may be capped at 4.5.",
+  "bibliography": [
+    "Yunus A. Cengel, Afshin J. Ghajar, Transferencia de calor y masa. Fundamentos y Aplicaciones, McGraw-Hill, 4ª Ed. (2011)",
+    "F.P. Incropera, D.P. DeWitt, Fundamentos de Transferencia de calor, Prentice Hall, 4ª Ed. (1996)",
+    "A.J. Chapman, Transmisión del Calor, Bellisco, 3ª Ed. (1990)",
+    "J.P. Holman, Transferencia de Calor, McGraw-Hill (1998)"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000343",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000343_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "8395143f635b24c61ec49d2af28decf35202e58a9a2415f95083e3a0a5c1bb45",
+  "extracted_at": "2026-11-13T20:30:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

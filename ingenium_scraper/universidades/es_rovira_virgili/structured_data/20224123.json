@@ -1,0 +1,107 @@
+{
+  "course_name_original": "Dinámica de sistemas mecánicos",
+  "course_name_en": "Dynamics of Mechanical Systems",
+  "ects": 6.0,
+  "semester": "1Q",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II/20224005",
+    "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA I/20224006",
+    "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA I/20224004",
+    "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA II/20224007",
+    "MECÁNICA Y TEORÍA DE MECANISMOS I/20224103",
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES I/20224106",
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES II/20224107",
+    "MECÁNICA Y TEORÍA DE MECANISMOS II/20224104"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Calculates, designs, and tests machines.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Designs experimental systems for machine testing.",
+      "type": "skill",
+      "code": "A1.7"
+    },
+    {
+      "text": "Models vibrational phenomena in structural elements and machines using numerical methods and specific software.",
+      "type": "skill",
+      "code": "A2.5"
+    },
+    {
+      "text": "Analyzes a problem and designs an algorithm that solves it. Understands and applies different algorithmic control structures. Works with files capable of storing large amounts of data. Represents data graphically and manipulates it effectively. Designs processes for the numerical solution of problems with linear and non-linear equation systems.",
+      "type": "skill",
+      "code": "A3.3"
+    },
+    {
+      "text": "Knows the characteristics and applications of sensors and control elements.",
+      "type": "knowledge",
+      "code": "A4.6"
+    },
+    {
+      "text": "Analyzes the dynamics of mechanical assemblies considering drives and their regulation.",
+      "type": "skill",
+      "code": "A5.2"
+    }
+  ],
+  "syllabus_topics": [
+    "Presentation of the subject",
+    "Introduction to vibrations",
+    "Single degree of freedom systems",
+    "Vibration isolation / passive control",
+    "Multi-degree of freedom systems",
+    "Continuous systems and computational modal analysis",
+    "Stability and control of single degree of freedom systems"
+  ],
+  "teaching_methods": [
+    "Introductory activities (General description of the subject)",
+    "Lectures (Classes for the development of theoretical concepts)",
+    "Problem/exercise solving in the ordinary classroom (Classes for the development of practical and application problems)",
+    "PBL (Problem Based Learning) / (ABP) Problem-Based Learning (Student resolution of problems in class, applying fundamental theoretical and practical concepts)",
+    "Personalized attention (Professor's office hours)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Practical tests (Practical application work using computational tools)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "First partial exam (Development tests)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Second partial exam (Development tests)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The minimum grade in each continuous assessment test must be higher than 3.5. For the second call, the exam will cover the entire subject material and will have a weight of 100%.",
+  "bibliography": [
+    "F.J Huera-Huarte, Apunts de Dinàmica de Sistemes",
+    "Craig, R. R. & Kurdila, A.J., Fundamentals of Structural Dynamics., 2006",
+    "de Silva, C., Vibration, Fundamentals and Practice, 2006",
+    "Den Hartog, J.P., Mechanical Vibrations, 2008",
+    "S. Rao, Mechanical vibrations, 5a, 2011",
+    "Paz, M, Dinámica estructural: Teoría y cálculo, Editorial Reverté, 1992"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224123",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224123&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "b6f8d66c6721011da34557f8f90c50a41507ba33e5a9902c24313b0eb217b9ff",
+  "extracted_at": "2026-11-13T22:49:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

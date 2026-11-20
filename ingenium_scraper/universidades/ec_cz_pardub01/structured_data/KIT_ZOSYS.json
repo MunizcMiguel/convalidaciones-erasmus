@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Operating Systems",
+  "course_name_en": "Operating Systems",
+  "ects": 5.0,
+  "semester": "Winter + Summer",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "User knowledge of operating system",
+    "knowledge of algorithmization and the C programming language",
+    "basic and secondary school mathematics (like percents, powers, equations) and logic thinking"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will acquaint themselves with basic theory of operating systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will practice using the theory in the most common UNIX operating systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will gain basic practical experience with the Linux operating system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Overview about operating system functions and its resources which are offered to programmers.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to use these resources while programming.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of the OS, history and trends, OS categories, system calls, OS concepts, OS structure",
+    "HW and OS, hardware resources for an OS",
+    "Processes and threads",
+    "Process scheduling",
+    "Process competition, race conditions and IPC",
+    "Deadlock and prevention",
+    "Memory management",
+    "Files and file systems",
+    "Multiprocessor systems, RT and embeded systems",
+    "OS design and security",
+    "Basic concepts, OS Linux installation, disk partitioning, swap, MBR, boot-manager, administrator role",
+    "OS Linux, files, directories, shell, ssh, GUI",
+    "Processes, ps, /proc, pstree, PID, PPID, terminal, signals, kill, top, nice, renice, jobs, fg, bg",
+    "Job planning, daemons, atd, at, cron, crontab",
+    "Program compiling in Unix, gcc, make, Makefile, GNU (./configure, make, make install)",
+    "Process creation, communication between processes, fork(), pipes, |, pipe(), named pipes, mknod file p",
+    "Handling signals, kill(), signal(), sigprocmask(), alarm()",
+    "Threads, mutex, libpthread, critical section",
+    "Condition, libpthread, thread synchronization",
+    "Sockets, client/server over TCP/IP"
+  ],
+  "teaching_methods": [
+    "Monologic (reading, lecture, briefing)",
+    "Demonstration",
+    "Work-related activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Home assignment evaluation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Gaining the course credit depends on submitting solutions to practical problems. Evaluation of submitted solutions is part of the exam grading. The course completion form is an examination.",
+  "bibliography": [
+    "Intel 64 and IA-32 Architectures: Software Developer's Manual: Volume 3A: System Programming Guide, Part 1. [online]. Intel: 2016-09 [cit. 2021-04-27].",
+    "TANENBAUM, Andrew Stuart. Modern Operating Systems. 4. vydání. Pearson, 2014. ISBN 978-0133591620.",
+    "Standard for Information Technology---Portable Operating System Interface (POSIX): Base Specifications, Issue 7. [online]. New York: IEEE Computer Society and The Open Group, 2016-09-30 [cit. 2021-04-27]. ISBN 978-1-5044-2337-3. ( DOI: 10.1109/IEEESTD.2016.7582338 )",
+    "STONES, Richard – MATTHEW, Neil. Beginning Linux Programming. 4th Edition. USA: Wiley Publishing, 2008. ISBN 978-0-470-14762-7.",
+    "LOVE, Robert. Linux kernel development. 3. vydání. Upper Saddle River: Addison-Wesley, 2010. ISBN 978-0-672-32946-3.",
+    "TANENBAUM, Andrew Stuart – WOODHULL, Albert. Operating Systems Design and Implementation. 3. vydání. USA: Prentice Hall, 2006. ISBN 978-0-13-142938-3.",
+    "STALLINGS, William. Operating Systems: Internals and Design Principles. 9. vydání. Pearson, 2018. ISBN 978-0-13-467095-9.",
+    "MAUERER, Wolfgang. Professional Linux Kernel Architecture. Wrox, 2008. ISBN 978-0470343432.",
+    "TANENBAUM, Andrew Stuart – AUSTIN, Todd. Structured Computer Organization. 6. vydání. Pearson, 2012. ISBN 978-0132916523.",
+    "BOVET, Daniel Pierre – CESATI, Marco. Understanding the Linux Kernel. 2. vydání. USA: O'Reilly, 2005. ISBN 978-0596005658."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "University of Pardubice (Univerzita Pardubice)",
+  "institution_slug": "ec_cz_pardub01",
+  "degree": "Bachelor's programme, Faculty of Electrical Engineering and Informatics - courses in English",
+  "course_code": "KIT/ZOSYS",
+  "academic_year": "2026-2027",
+  "source_url": "https://portal.upce.cz/StagPortletsJSR168/CleanUrl?urlid=prohlizeni-predmet-sylabus&predmetZkrPrac=KIT&predmetZkrPred=ZOSYS&predmetRok=2026&formRozvrhZobrazeni=0&plang=en",
+  "source_language": "en",
+  "source_sha256": "f5ec7ffc5d6a745f994744da4ee4c8073e55e556f42d344423ea9bb17cb57ca6",
+  "extracted_at": "2026-11-20T09:07:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

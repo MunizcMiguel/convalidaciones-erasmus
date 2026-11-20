@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Interfaces Multimodales",
+  "course_name_en": "Multimodal Interfaces",
+  "ects": 4.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of object-oriented programming",
+    "Basic knowledge of interface programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Develop skills to design interactive systems in virtual worlds",
+      "type": "skill",
+      "code": "RA7-11"
+    },
+    {
+      "text": "Analyze and manage multimodal interfaces with natural language interaction",
+      "type": "skill",
+      "code": "RA7-12"
+    },
+    {
+      "text": "Know how to use virtual reality devices",
+      "type": "skill",
+      "code": "RA7-13"
+    }
+  ],
+  "syllabus_topics": [
+    "T1. Introduction to natural language processing.",
+    "T2. Natural language interaction: conversational agents.",
+    "T3. Artificial Vision for non-verbal information extraction: emotions and gestures.",
+    "T4. Introduction to virtual and augmented reality: visualization, interaction and devices.",
+    "P1. Design and development of lightweight conversational agents.",
+    "P2. Integration of artificial vision into a conversational agent.",
+    "P3. Representation of information through virtual or augmented reality."
+  ],
+  "teaching_methods": [
+    "Laboratory Practices",
+    "Classroom Practices/Seminars",
+    "Group Tutorials",
+    "Expository Classes",
+    "Individual activities in the Virtual Campus",
+    "Student project work"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (B1ExaTeo)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Individual practice: Introduction to natural language processing (B1PracPLN)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Group practice: Conversational Agents (B1PracAC)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Theoretical work on the Artificial Vision block (B2Teo)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Group practice: Artificial Vision (B2PracVA)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Theoretical work on the Introduction to Virtual and Augmented Reality block (B3Teo)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Virtual and Augmented Reality practice (B3PracRVA)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "For each block (B1, B2, B3), a minimum grade of 5 is required for all elements. If all minimums for block B1 are met, its grade is 0.3*B1ExaTeo + 0.35*B1PracPLN + 0.35*B1PracAC. If all minimums for block B2 are met, its grade is 0.3*B2Teo + 0.7*B2PracVA. If all minimums for block B3 are met, its grade is 0.3*B3Teo + 0.7*B3PracRVA. If all block minimums are met, the final grade is (B1+B2+B3)/3; otherwise, the final grade is the minimum of the calculated grade and 4.0. In case of doubt about authorship or unauthorized means, a presential defense may be requested.",
+  "bibliography": [
+    "Kochmar, E. (2022). Getting Started with Natural Language Processing. Packt Publishing.",
+    "Visión Artificial. Componentes de los sistemas de visión y nuevas tendencias en Deep Learning. Jaime Duque, Jaime Gómez. Ra-Ma S.A. Editorial y Publicaciones. 2024",
+    "Philippe Fuchs, Judith Guez, Olivier Hugues, Jean-François Jégo, Andras Kemeny & Daniel Mestre. Virtual Reality Headsets – A Theoretical and Pragmatic Approach. 2017.",
+    "Steven M. LaValle. Virtual Reality. 2019.",
+    "Geroimenko, Vladimir, ed. Augmented and virtual reality in the Metaverse. Springer International Publishing AG, 2024."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Informática (Informática, Oviedo)",
+  "institution_slug": "uniovi_mm_inf",
+  "degree": "Máster Universitario en Ingeniería Informática",
+  "course_code": "MINFOR01-1-025",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/informatica/-/fof/asignatura/MINFOR01-1-025",
+  "source_language": "es",
+  "source_sha256": "345f7f8aab339f64c3684607a96e518bc7cd2f151567bcb0926117efd5f6a42d",
+  "extracted_at": "2026-11-20T05:58:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

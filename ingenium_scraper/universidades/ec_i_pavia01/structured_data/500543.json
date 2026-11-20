@@ -1,0 +1,76 @@
+{
+  "course_name_original": "IDENTIFICATION OF MODELS AND DATA ANALYSIS",
+  "course_name_en": "IDENTIFICATION OF MODELS AND DATA ANALYSIS",
+  "ects": 12.0,
+  "semester": "Annual",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic notions of set theory, logic, calculus, function maximization."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of basic notions of: estimation theory (maximum likelihood estimation, a-posteriori estimation); neural-based model identification; stochastic processes (mean, autocovariance, spectral density, optimal prediction); identification of ARMAX models.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to solve identification and prediction problems ranging from model formulation to the use of computer tools (Matlab) for parameter estimation and model simulation.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "System Identification methodologies for constructing mathematical models from experimental data.",
+    "Probability: basic notions, independence, conditional probability, total probability and Bayes theorems; Bernoulli trials, Poisson events; notion of random variable (R.V.), cumulative distribution function, probability density function, functions on one R.V.; mode, median, moments of a R.V.; joint random variables: distribution, density, moments, independence, incorrelation, functions of random variables; Law of Large Numbers, Gaussian R.V., Central Limit Theorem.",
+    "Statistics: basic notions of estimator; properties of estimators; sample moments and their main properties; confidence interval for the sample mean, Student's t.",
+    "Identification of linear-in-parameter models: the least squares method, normal equations, identifiability; Best Linear Unbiased Estimator: estimator, variance of parameters; validation and choice of complexity: chi-square test, F-test, FPE, AIC, and MDL criteria.",
+    "Estimation theory: maximum likelihood estimation: properties and examples; a-posteriori estimation, Bayes estimator; cross-validation, model complexity and the bias-variance dilemma; identification of nonlinear-in-parameter models.",
+    "Neural identification: Radial basis function neural networks; Multi-layer perceptron networks; generalization, overfitting, selection of network size.",
+    "Stochastic processes and optimal prediction: mean, autocorrelation, autocovariance, independence, incorrelation; white noise, random walk, MA, AR, and ARMA processes, Yule-Walker equations; stationarity, power spectral density, nonparametric spectral estimatiom; spectral factorization, optimal prediction.",
+    "Identification of dynamic systems: classes of dynamic models: output error, ARX, ARMAX; prediction-error methods for system identification; least-squares identification of ARX models: probabilistic analysis and persistent excitation."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical class"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 112.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination (theory-based questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written examination (practical questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Data analysis project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The written examination for IDENTIFICATION OF MODELS AND DATA ANALYSIS A consists of two theoretical and two practical questions. The assessment, in thirtieths, is the average of the marks for the individual answers weighted according to their difficulty. The written examination for IDENTIFICATION OF MODELS AND DATA ANALYSIS B consists of two theoretical and two practical questions. The assessment, in thirtieths, is the average of the marks for the individual answers weighted according to their difficulty. An optional data analysis project, carried out in small groups, can add 0 to 3 points to the written test mark.",
+  "bibliography": [
+    "Lecture notes (http://sisdin.unipv.it/labsisdin/teaching/teaching.php)",
+    "M. Bramanti. Calcolo delle probabilità e statistica. Esculapio.",
+    "A. Papoulis. Probability, Random Variables, and Stochastic Processes. McGraw-Hill.",
+    "L. Ljung. System Identification: Theory for the User. Prentice-Hall."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "500543",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8231&ordinamento_aa=2021&af_percorso=2&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "d6a4153743cd80824d5cb8e07187260ef4509063f0bb3ef956a27f1bda483bf3",
+  "extracted_at": "2026-11-20T08:18:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

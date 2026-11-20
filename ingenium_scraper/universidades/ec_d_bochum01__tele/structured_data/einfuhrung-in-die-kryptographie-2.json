@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Einführung in die Kryptographie 2",
+  "course_name_en": "Introduction to Cryptography 2",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Content of the lecture \"Introduction to Cryptography 1\""
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have knowledge of the basic applications of asymmetric and hybrid methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They can decide when and which cryptographic solutions can be used to achieve certain security goals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will gain an algorithmic and technical understanding for practical use through descriptions of selected practically relevant algorithms, e.g., based on elliptic curves, hash functions, digital signature methods, and Post-Quantum Cryptography.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They know how to choose security parameters for cryptographic solutions and are able to argumentatively defend a specific solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The lecture also prepares for courses where cryptography is used, for example in network and software security, as well as for lectures where cryptography is treated with formal methods.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Through the bilingual e-learning offering, students can acquire language skills in the academic language English.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Advanced introduction to modern applied cryptography and basics of IT security",
+    "Asymmetric cryptographic methods",
+    "Hash functions",
+    "Construction of schemes such as digital signatures and key agreement protocols",
+    "Methods based on elliptic curves",
+    "Fundamentals of Post-Quantum Cryptography",
+    "Hash-based methods",
+    "SHA-3 algorithm",
+    "Security services (including authentication, integrity, and non-repudiation)",
+    "Schemes for digital signatures",
+    "Message Authentication Codes (MACs)",
+    "Fundamentals of key agreement",
+    "Digital certificates",
+    "PKI"
+  ],
+  "teaching_methods": [
+    "Lecture with exercises",
+    "Online course"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Klausurarbeit)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the written exam. The exam duration is 120 minutes.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "einfuhrung-in-die-kryptographie-2",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "b9678a24c0caef6cc0b4dcb7d2fd99dd58151d24e68dea65817de22caf453f5c",
+  "extracted_at": "2026-11-20T12:36:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

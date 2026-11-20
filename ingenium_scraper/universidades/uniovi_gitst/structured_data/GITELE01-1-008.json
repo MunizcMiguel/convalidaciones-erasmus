@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics I (Bachillerato)",
+    "Mathematics II (Bachillerato)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of Linear Algebra.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Basic knowledge on the use and programming of computers, operating systems, databases and computer programs with application in Engineering.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and technologies, as well as providing them with great versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and to communicate and transmit knowledge, skills and abilities, understanding the ethical and professional responsibility of the activity of the Telecommunication Technical Engineer.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, task planning and other similar works in their specific field of telecommunications.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Use the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "skill",
+      "code": "RA-2.1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces and linear applications and use matrices to simplify their study.",
+      "type": "skill",
+      "code": "RA-2.2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces, through the scalar product, norm, or distance.",
+      "type": "skill",
+      "code": "RA-2.3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "skill",
+      "code": "RA-2.4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and in space.",
+      "type": "skill",
+      "code": "RA-2.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Real and complex numbers.",
+    "Systems of linear equations and matrices.",
+    "Vector spaces.",
+    "Linear applications.",
+    "Diagonalization.",
+    "Euclidean vector spaces.",
+    "Basic elements of analytical geometry.",
+    "Introduction to differential equations and systems of linear differential equations."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices (seminars)",
+    "Laboratory practices",
+    "Virtual campus"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Written exams (two exams, first on first three topics, second on remaining topics, second exam also allows for resit of first exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices continuous assessment",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practices continuous assessment",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (CF) is calculated using the formula: CF = 0.15*PL + maximum ( 0.15*PA+0.7*PE , 0.85*PE ). PE is the final grade for written tests, PA for classroom practices, and PL for laboratory practices. A minimum score of 2.5 out of 10 is required on each written test; if not achieved, the final grade will be the minimum of CF and 4.5. Non-attendance at the official ordinary exam results in a 'NO PRESENTADO' (No Show) grade.",
+  "bibliography": [
+    "Burgos, J. de. Álgebra Lineal. McGraw-Hill (3ª ed.), 2007.",
+    "Lay, D.C. Álgebra Lineal y sus aplicaciones (3ª ed.). Addison Wesley, 2007.",
+    "Nakos, G., Joyner, D. Álgebra Lineal con aplicaciones. Thomson, 1999.",
+    "Hernández, E., Vázquez, M. J., Zurro, M. A. Álgebra y Geometría. Pearson Educación, 2012.",
+    "Poole, D. Álgebra Lineal, una introducción moderna. Thomson, 2004.",
+    "Villa, A. de la. Problemas de Álgebra con esquemas teóricos. Clagsa, 1989."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-1-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-1-008",
+  "source_language": "es",
+  "source_sha256": "5ec5a48bd3fdd7add6811dbe2e014dbc9a2166124ea37e234f61eec9418aa9ef",
+  "extracted_at": "2026-11-20T06:03:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

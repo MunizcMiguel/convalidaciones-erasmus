@@ -1,0 +1,152 @@
+{
+  "course_name_original": "Instrumentacion y control (2286022)",
+  "course_name_en": "Instrumentation and Control",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics I and II",
+    "Physics",
+    "Physics applied to Engineering",
+    "Electrical and Electronic Engineering",
+    "Mechanics",
+    "Theory of Mechanisms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert opinions, studies, reports, work plans, and other similar tasks.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Knowledge of the fundamentals of electronics.",
+      "type": "knowledge",
+      "code": "CE11"
+    },
+    {
+      "text": "Knowledge of the fundamentals of automation and control methods.",
+      "type": "knowledge",
+      "code": "CE12"
+    },
+    {
+      "text": "Analyze and design continuous-time control systems, from the classical theory of linear systems control approach.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Automate simple industrial processes using programmable logic controllers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamentals of industrial communications.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Block A: Control Engineering",
+    "Topic I. Fundamentals of automatic regulation",
+    "Applications of control systems.",
+    "Elements of control systems.",
+    "Closed Loop VS Open Loop.",
+    "Representation of control systems.",
+    "Signal flow graphs.",
+    "Topic II. System modeling.",
+    "Laplace Transform.",
+    "Transfer function.",
+    "Modeling of physical systems.",
+    "Linearization.",
+    "Topic III. Analysis of control systems in the time domain.",
+    "Transient response analysis.",
+    "First-order systems.",
+    "Second and higher-order systems.",
+    "Steady-state response analysis.",
+    "Steady-state error.",
+    "Disturbance analysis.",
+    "Analysis of systems using the Root Locus.",
+    "Topic IV. Design of regulation systems",
+    "Basic control actions: P-I-D controllers.",
+    "Design of regulators using the Root Locus.",
+    "Design of compensation networks.",
+    "Empirical methods for tuning regulators.",
+    "Topic V. Analysis of control systems in the frequency domain",
+    "Bode diagrams.",
+    "Stability, phase margin, and gain margin.",
+    "Block B: Industrial Instrumentation and Automation",
+    "Topic VI. Automation",
+    "Automatic control systems.",
+    "Programmable Logic Controller.",
+    "PLC programming.",
+    "Industry 4.0",
+    "Topic VII. Fieldbuses",
+    "Introduction to industrial communications.",
+    "Fieldbuses."
+  ],
+  "teaching_methods": [
+    "Theoretical lectures with active student participation",
+    "Problem-solving and practical case studies",
+    "Self-assessment tests through the Virtual Classroom",
+    "Experimental and/or technological laboratories (model and control of real systems, automation of digital twins with Matlab/Simulink)",
+    "Lectures and resolution of key representative problems",
+    "Flipped classroom, constructivist, and participatory methodology"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 78.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-term written test (SE1)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical work grade (SE3)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Self-assessment tests (SE1)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Final written test (SE1)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade is a weighted average of four components: a mid-term written test (20%), practical work grade (15%), self-assessment tests (5%), and a final written test (60%). A minimum grade of 5 out of 10 is required for the final written test to be included in the average. If the overall average is greater than 5 but the final written test is below 5, the final grade will be 4.5. For the extraordinary evaluation, only the final written test (60%) can be re-taken, maintaining the scores from the other components. A minimum of 5 out of 10 is also required for the re-taken final written test.",
+  "bibliography": [
+    "Control Systems Engineering. Norman S. Nise John Wiley & Sons Inc;",
+    "Sistemas de Control Moderno. Richard C. Dorf. Pearson -Prentice Hall. 10ª edición.",
+    "Ingeniería de Control Moderna. Katsuhiko Ogata. Prentice Hall.",
+    "Sistemas de Control Continuos y Discretos. John Dorsey. McGrawhill",
+    "Control de Sistemas Continuos. Problemas resueltos. Antonio Barrientos, Ricardo Sanza, Fernando Matías, Ernesto Gamboa. Mc.GrawHill",
+    "Teoria de Sistemas. F. Matia, A. Jimenez, R. Aracil, E. Pinto Editorial Seccion Publicaciones ETSIIM, 2006-4a Edicion",
+    "Programmable Logic Controllers. Sixth Edition. Bolton, W. Elsevier Academic Press. ISBN 9780128029299",
+    "Autómatas Programables. Balcells Sendra, Josep/Romeral Martínez, José Luis. MARCOMBO EDICIONES TECNICAS, 2019"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Rey Juan Carlos",
+  "institution_slug": "es_rey_juan_carlos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "2286022",
+  "academic_year": "2026-27",
+  "source_url": "https://servicios.urjc.es/guiasdocentes/pdfGuia.jsp?a=2286022",
+  "source_language": "es",
+  "source_sha256": "8442e89a54f9b758b8201dbd7e016ca170f048730973263ce877e03da3791364",
+  "extracted_at": "2026-11-13T22:44:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

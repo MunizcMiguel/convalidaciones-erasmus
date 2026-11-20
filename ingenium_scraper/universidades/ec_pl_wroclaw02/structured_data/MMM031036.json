@@ -1,0 +1,147 @@
+{
+  "course_name_original": "Technological CNC machines and robots",
+  "course_name_en": "Technological CNC machines and robots",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge about design & manufacturing process, structure and operation of machine components and assemblies, as well as principles of their selection and designing.",
+    "Well-grounded knowledge about basic manufacturing techniques and role of technological machines.",
+    "Ability to design a manufacturing process in the field of chipless forming and machining."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of engineering and operation principles of modern CNC manufacturing machines, in particular principles of their operation control.",
+      "type": "knowledge",
+      "code": "PEK_W01"
+    },
+    {
+      "text": "Knowledge of selection principles of CNC manufacturing machines intended for specific machining tasks.",
+      "type": "knowledge",
+      "code": "PEK_W02"
+    },
+    {
+      "text": "Knowledge of programming principles of CNC machines.",
+      "type": "knowledge",
+      "code": "PEK_W03"
+    },
+    {
+      "text": "Ability to evaluate CNC manufacturing machines with respect to their suitability for specific machining tasks.",
+      "type": "skill",
+      "code": "PEK_U01"
+    },
+    {
+      "text": "Ability to elaborate a program structure for basic CNC machines, as well as to use standard subprograms and cycles.",
+      "type": "skill",
+      "code": "PEK_U02"
+    },
+    {
+      "text": "Ability to select and preset machining parameters, select tools and verify correctness of the developed programs.",
+      "type": "skill",
+      "code": "PEK_U03"
+    },
+    {
+      "text": "Ability to search-out and use professional literature recommended for the course and to gain knowledge independently.",
+      "type": "competence",
+      "code": "PEK_K01"
+    },
+    {
+      "text": "Ability to make use of modern IT tools.",
+      "type": "competence",
+      "code": "PEK_K02"
+    },
+    {
+      "text": "Understanding of the necessity of systematic and individual work on mastering the course content.",
+      "type": "competence",
+      "code": "PEK_K03"
+    }
+  ],
+  "syllabus_topics": [
+    "General characteristics of manufacturing machines and their classification. Geometrical, kinematic and dynamic structures of the machines. Technical and operational parameters. Basic requirements.",
+    "Parts, mechanisms and components of CNC manufacturing machines: bodies, spindle and guiding assemblies, tooling and workpiece systems.",
+    "Main drive and feeding systems of modern manufacturing machines (basic requirements, exemplary solutions). Measurement, diagnostics and supervision systems.",
+    "Basics of automatic control of manufacturing machines. Classification of control systems (NC, CNC, DNC, AC and PLC systems).",
+    "Introduction to programming numerically controlled machines – geometrical basics of CNC control, coordinate systems, driver structure, interpolation. Ways of computer-aided programming – machining simulators.",
+    "Review of groups of CNC machines: lathes, milling machines, grinding machines (technical & usable features and purpose of the machines).",
+    "Review of groups of CNC machines: machining centres, autonomous machining stations (technical & usable features and purpose of the machines).",
+    "CNC machines for electrochemical and laser machining (technical & usable features and purpose of the machines).",
+    "Industrial robots and manipulators (structure, classification and application fields). Structure and purpose of coordinate measuring machines.",
+    "Multimachine, robotized manufacturing systems, production centres and lines (organizational structures and application fields). Computer-integrated manufacturing systems (CIM).",
+    "Machines and devices for additive manufacturing and reverse engineering techniques – exemplary applications.",
+    "Trends in development of CNC manufacturing machines (machines for HSC and HPC machining, hexapods, intelligent and hybrid machine tools).",
+    "Credit colloquium.",
+    "The use of the manipulator in processes of thermal spraying.",
+    "The use of robots in sheet and spot welding processes.",
+    "Control of machines in sheet metal forming processes.",
+    "The use of Coordinate Measuring Machine (CMM).",
+    "Automation of technological processes using PLC controllers (FESTO system).",
+    "Machines to implement additive technology (Rapid Prototyping).",
+    "Reverse Engineering equipment.",
+    "Crediting the course.",
+    "Selection of a machine tool, preparation of a workpiece, selection of tools and machining parameters.",
+    "Determination of characteristic points of a contour and location of a workpiece in the machine-tool workspace.",
+    "Elaboration of a driver software to control the manufacturing process on a CNC machine – linear and circular interpolation.",
+    "Elaboration of a driver software to control the manufacturing process on a CNC machine – establishing corrective functions; programming movements with correction of tool dimensions.",
+    "Elaboration of a driver software to control the manufacturing process on a CNC machine – subprograms technique, incremental programming, programming movements in a loop.",
+    "Elaboration of a driver software to control the manufacturing process on a CNC machine – use of machining cycles at programming.",
+    "Elaboration of a driver software to control the manufacturing process on a CNC machine – completion of the project and its verification.",
+    "Summary of the work – presentation of the project and its assessment."
+  ],
+  "teaching_methods": [
+    "traditional lecture with the use of transparencies and slides",
+    "own work – preparation for crediting the lecture",
+    "self study - preparation for project class and laboratory",
+    "presentation of the project, crediting the lab subjects",
+    "consultancies"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 36.9,
+  "assessment_methods": [
+    {
+      "method": "Credit colloquium (Lecture)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class admission test (Laboratory)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assessment of the project preparation (Project)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Defence of the project (Project)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lecture evaluation is based on a credit colloquium. Laboratory evaluation is based on a class admission test. Project evaluation is calculated as 0.5 * (Assessment of project preparation + Defence of the project).",
+  "bibliography": [
+    "Honczarenko J.: Flexible automation of manufacture. Machine tools and machining systems. WNT Warsaw, 2000 (in Polish)",
+    "Kosmol J.: Automation of machine tools and machining. WNT Warsaw, 2000 (in Polish)",
+    "Honczarenko J.: Numerically controlled machine tools. WNT Warsaw, 2009 (in Polish)",
+    "Programming of CNC machine tools. Editorial Office REA. Warsaw, 1999 (in Polish)",
+    "Nikiel G.: Programming of CNC machine tools on the example of control system Sinumerik 810D/840D. ATH Bielsko-Biała, 2004 (available in internet) (in Polish)",
+    "Habrat W.: Operation and programming of CNC machine tools. Operator's handbook. KaBe, Krosno, 2007 (in Polish)",
+    "Kosmol J., Słupik H.: Programming of numerically controlled machine tools. Silesian University of Technology, Gliwice, 2001 (in Polish).",
+    "Engineer's handbook. Machining. Vol. 1, 2, 3. WNT Warsaw, 1992 – 1994 (in Polish)",
+    "Instruction manual of Sinumerik control system programming (available in internet) (in Polish)",
+    "Dudik K., Górski E.: Lathe operator's handbook. WNT Warsaw, 2000 (in Polish)",
+    "Dudik K., Górski E.: Milling machine operator's handbook. WNT Warsaw, 2003 (in Polish)",
+    "Catalogues of tools used at CNC machine tools (in Polish)."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Politechnika Wroclawska",
+  "institution_slug": "ec_pl_wroclaw02",
+  "degree": "Mechanical Engineering and Machine Building (I level, full-time)",
+  "course_code": "MMM031036",
+  "academic_year": "2026/2027",
+  "source_url": "https://wm.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkFUBhQAykrCDILDWdbXxMbFmFBWxslAxt1FSVcVnRKCkI8VQIDJCUODBYAKg8TXAMIOAZK/_users/code_BAlkUKkpKNVI_VBV9XFNBFEZcFiw5Qx0O/w10/karty_kursow/mbm_en_st_i.pdf",
+  "source_language": "en",
+  "source_sha256": "e22b86fcac421bae0645c80190b1cb89444a72e45045a5e2515cc55d7945e1df",
+  "extracted_at": "2026-11-18T10:05:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Industrial Robotics I",
+  "course_name_en": "Industrial Robotics I",
+  "ects": 4.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with basic information in the field of mechanization and automation of production machines, industrial robotics and robot technology.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe basic principles of function, construction and operation of industrial robots, their subsystems and structural elements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design a robot / robot control system, program it and incorporate it into a robotic cell.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to industrial robotics.",
+    "Industrial robots, cobots, manipulators - introduction.",
+    "Industrial robot, types, design and applications.",
+    "PRaM functional groups, PRaM structure, coordinate systems, coordinate transformations, rotation and translation representation, homogeneous coordinates.",
+    "PRaM kinematic structures, object trajectory, trajectory correction, positioning accuracy/repeatability, PRaM statics, object orientation, direct/inverse kinematic problem, differential kinematics, singular robot states, kinematic description of a practical robotic workstation (example).",
+    "Effect of actuator on layout, design and technological constraints, examples of positioning mechanisms.",
+    "PRaM actuators - external/internal actuators, actuator transformation block, electrical actuators, hydraulic actuators, pneumatic actuators, combined actuators, determination of actuator parameters.",
+    "PRaM output heads, gripper/technological, mechanical, vacuum, magnetic, special.",
+    "Application of PRaM in manufacturing, structure of workplaces with PRaM, PRaM parameters, economic efficiency of PRaM deployment, perspectives and societal aspects of PRaM deployment.",
+    "Industrial robotics in the concept of Industry 4.0 initiative.",
+    "Interfacing industrial and mobile robotics with control systems.",
+    "Future trends in the development of industrial and mobile robotics, drones, 3D printing.",
+    "Summary of key information in the field of industrial and mobile robotics.",
+    "Safety training, organization of exercises.",
+    "Demonstration of industrial line, functions of industrial and mobile robots.",
+    "Kuka industrial robots, construction, basic control.",
+    "Kuka industrial robots, working with SmartPad, manual control (jogging).",
+    "Kuka industrial robot programming basics.",
+    "Creating a demonstration application with Kuka industrial robot.",
+    "Mobile robot design, control and navigation basics.",
+    "Controlling MiR mobile robot in manual mode.",
+    "Basics of programming mobile robots, creating a demonstration robot mission.",
+    "3D printing and its application in industrial robotics",
+    "Work on semester project.",
+    "Defence of semester project, credit."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Experimental work in labs",
+    "Project work",
+    "Other activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Jazar, R., N.: Theory of Applied Robotics: Kinematics, Dynamics, and Control, Springer 2010 ISBN 978-1441917492",
+    "Hunt, V.D.: Industrial robotics handbook. Industrial Press, NY 1981 ISBN 0-8311-1148-8"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "450-2093/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=53603&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "ab59681937703bc19f0468a2d3505d6c712af9e77c9b0d15c6adf0548a15d554",
+  "extracted_at": "2026-11-20T12:51:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

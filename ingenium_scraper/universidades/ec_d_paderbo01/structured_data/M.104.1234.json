@@ -1,0 +1,71 @@
+{
+  "course_name_original": "Rechnertools D",
+  "course_name_en": "Computational Tools D",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Successful completion of the modules to be completed in the 1st and 2nd semesters according to the study plan.",
+    "Recommended: knowledge in mathematics and technical mechanics, as taught in basic mechanical engineering lectures.",
+    "Recommended: knowledge from \"Fundamentals of Manufacturing Technology\" and materials science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have the methodological foundations for calculating and simulating technical systems in forming, joining, and component testing technology using the software tool \"LS-Dyna\".",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They know the relationships between experiment, characteristic value determination, and simulation, as well as relevant application examples.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They are able to independently implement simple tasks using LS-Dyna.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the basic functionality of LS-Dyna and the structure of the user interface (e.g., LS-PrePost)",
+    "In-depth treatment of different aspects of the software relevant to forming technology",
+    "Simulative application examples (forming production of a profile from sheet metal) validated by experiments",
+    "Transfer of know-how to joining technology and component testing",
+    "Experimental determination of characteristic values (e.g., tensile specimens, LWF-KS-2 specimens) in the laboratory",
+    "Creation of input parameters for the simulation part",
+    "Construction of a real component-like model (e.g., a profile/sill)",
+    "Definition of a load (e.g., crash)",
+    "Simulation of a corresponding test",
+    "Comparison of simulation results with reality using a sample crash test in a laboratory setting"
+  ],
+  "teaching_methods": [
+    "Übungen (Exercises)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination or oral examination",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The allocation of credit points is subject to passing the module examination. The examination can be a 120-minute written exam or a 30-45 minute oral exam.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universitaet Paderborn",
+  "institution_slug": "ec_d_paderbo01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "M.104.1234",
+  "academic_year": "2025-26 (Modulhandbuch SoSe 2026)",
+  "source_url": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Modulhandbuecher/Modulhandbuecher_SoSe_26/Alte_POen/Ba_MB_SS26.pdf",
+  "source_language": "de",
+  "source_sha256": "579625e1f60afdd610b45714017d7c62d00dd4500c5b104e4f982c6eb3fe5c02",
+  "extracted_at": "2026-11-18T09:51:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

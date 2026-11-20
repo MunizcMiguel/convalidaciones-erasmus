@@ -1,0 +1,67 @@
+{
+  "course_name_original": "Voice over IP I",
+  "course_name_en": "Voice over IP I",
+  "ects": 4.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to identify, apply and solve tasks in the field of configuration of VoIP services and analysis of IP telephone protocols.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "RTP protocol, RTCP, Voice encoding and decoding methods, bandwidth calculation for RTP.",
+    "H.323 protocol family.",
+    "SIP protocol - addressing, SIP URI, ENUM, description of elements User Agent, Registrar, Redirect, Proxy server, B2BUA, SIP methods and responses, transactions and dialogs.",
+    "SIP protocol - early media, fields and header parameters, (de) registration, routing, tags, SIP and NAT.",
+    "SIP protocol - advanced methods and answers - re-INVITE, UPDATE, redirection, click2dial, call acceptance, timers, SIP identity.",
+    "SDP protocol - fields and parameters, attributes to the stream media, offer / answer model, SDP XML and JSON.",
+    "SIPp - SIP session generator, SIP / SDP grammar, compilation of a practical scenario with authentication",
+    "WebRTC - description of APIs and modules, Websockets and encapsulation principle, signaling and media transmission protocols, Peer2peer vs. WebRTC / SIP gateway, practical examples.",
+    "Asterisk - description of SIP vs. PJSIP, applications, dial plan, extensions, regular expressions, contexts and prefixes.",
+    "Asterisk - SIP call, SIP trunk, voicemail, IVR, queues, CDR records, billing.",
+    "Kamailio - description, modules, synthesis, configuration structure, kamctl, usage.",
+    "Monitoring and management of SIP sessions - CDR, HEP protocol, HOMER.",
+    "Videoconferencing - MCU, media GW.",
+    "Introduction to VoIP security - SIP over TLS, S / MIME, SRTP, ZRTP."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Experimental work in labs",
+    "Project work",
+    "Teaching by an expert (lecture or tutorial)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "M. Voznak, Voice over IP, scripts, VSB-TUO, 252 p., 2014",
+    "Alan B Johnston, SIP: Understanding the Session Initiation Protocol, Fourth edition, 2015, ISBN: 978-1608078639"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "440-2326/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=63007&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "8fbd0e47b411bcf7de36f976e9eebfed4c4004f710ab8eea31bfe1e18445affa",
+  "extracted_at": "2026-11-20T12:51:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

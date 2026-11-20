@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Cálculo",
+  "course_name_en": "Calculus",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics I and II from Bachillerato",
+    "Satisfactory ESO mathematics education"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering.",
+      "type": "skill",
+      "code": "CB1"
+    },
+    {
+      "text": "Aptitude to apply knowledge about: differential and integral calculus.",
+      "type": "skill",
+      "code": "CB1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling learning new methods and theories, and providing versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning.",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "skill",
+      "code": "CG5"
+    },
+    {
+      "text": "Honesty, responsibility, ethical commitment, and a spirit of solidarity.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "skill",
+      "code": "CG15"
+    },
+    {
+      "text": "Operate and represent real functions of a real variable, obtain their limits, determine their continuity, calculate derivatives and formulate and solve optimization problems.",
+      "type": "skill",
+      "code": "RA1"
+    },
+    {
+      "text": "Manage the concepts of sequences and series and use power series to represent functions.",
+      "type": "skill",
+      "code": "RA2"
+    },
+    {
+      "text": "Formulate and calculate integrals of one-variable functions and apply them to solving engineering-related problems.",
+      "type": "skill",
+      "code": "RA3"
+    },
+    {
+      "text": "State and apply the basic properties of real functions of several real variables. Obtain their limits, analyze continuity and differentiability, and solve optimization problems.",
+      "type": "skill",
+      "code": "RA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical Sets and Functions",
+    "Limits and continuity",
+    "Differentiability. Properties of differentiable functions",
+    "Taylor Polynomial",
+    "Optimization (single variable)",
+    "Calculation of primitives",
+    "The definite integral",
+    "Improper integrals",
+    "Numerical sequences",
+    "Numerical series",
+    "Power Series. Power series expansion",
+    "The Euclidean space Rn",
+    "Limits and continuity (several variables)",
+    "Differentiability (several variables)",
+    "Differentiation (several variables)",
+    "Optimization (several variables)"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom/Seminar/Workshop practices",
+    "Laboratory/field/computer lab/language lab practices",
+    "Evaluation sessions",
+    "Group/individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Exam (TE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom Practices (PA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practices (PL)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary examination, the final grade is calculated as 0.15 x PL + maximum (0.15 x PA + 0.7 x TE, 0.85 x TE). All scores are out of 10 points. It is mandatory to obtain at least 3.5 points out of 10 in the Theoretical Exam (TE) to pass. If the minimums are not met, the grade will be a fail with the numerical score of TE. For extraordinary examinations, a single exam comprises a theoretical part (TE), where a minimum of 3.5 points is required, and Laboratory Practices (PL) can either keep the ordinary period score or be re-examined. Classroom Practices (PA) scores from the ordinary period are retained. The final grade calculation is the same as the ordinary exam if all minimums are reached, otherwise the grade will be a fail with the numerical score of TE.",
+  "bibliography": [
+    "Bradley G. L.; Smith, K. J. Cálculo de una variable y varias variables. (Vol. I y II). Prentice Hall ( 4ª ed.), 2001.",
+    "García López, A y otros. Cálculo I: teoría y problemas de análisis matemático en una variable, CLAGSA (3ª ed.), 2007.",
+    "García López, A y otros. Cálculo II: teoría y problemas de funciones de varias variables. CLAGSA (2ª ed.), 2002.",
+    "Stewart, J. Cálculo de una variable y Cálculo multivariable. Paraninfo Thomson. (6ª ed.), 2009.",
+    "Bayón L, Grau J. M., Suárez P.M. Cálculo. Grados en Ingeniería. Ediciones de la Universidad de Oviedo. EDIUNO, 2011",
+    "Burgos Román, J. Cálculo Infinitesimal de una variable y en varias variables. (Vol. I y II). McGraw-Hill. (2ª ed.), 2008.",
+    "Larson, R. E. y otros. Cálculo y geometría analítica. (Vol. I y II). McGraw-Hill (8ªed.), 2005.",
+    "Marsden, J. ; Tromba, A. Cálculo vectorial. Addison-Wesley Longman (5ªed.), 2004.",
+    "Neuhauser, Claudia. Matemáticas para ciencias. Pearson. Prentice Hall, 2004.",
+    "Tomeo Perucha, V. y otros. Problemas resueltos de Cálculo en una variable. Thomson, 2005.",
+    "Trench,W.F. Introduction to real analysis, Pearson Education, 2003 http://ramanujan.math.trinity.edu/wtrench/texts/TRENCH_REAL_ANALYSIS.PDF",
+    "Piskunov, N. Differential and Integral Calculus, MIR, 1969 http://es.scribd.com/doc/132055961/N-piskunov-DifferentialAndIntegralCalculus1969mir",
+    "Strang, G. Calculus, R.R.Donnelley & Sons 1992 http://ocw.mit.edu/ans7870/resources/Strang/Edited/Calculus/Calculus.pdf",
+    "Craw, I. Advanced Calculus and Analysis, University of Aberdeen, 2000 http://es.scribd.com/doc/57488172/Advanced-Calculus-and-Analysis-Ian-Craw"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-1-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-1-001",
+  "source_language": "es",
+  "source_sha256": "7090c32095a7479c84d6bbddacee39f09a1af11bf7d06304fe7e4cdf4dc40746",
+  "extracted_at": "2026-11-20T01:13:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

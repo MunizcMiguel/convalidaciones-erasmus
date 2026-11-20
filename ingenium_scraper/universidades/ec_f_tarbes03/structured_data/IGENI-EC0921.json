@@ -1,0 +1,74 @@
+{
+  "course_name_original": "Optimisation en mécanique",
+  "course_name_en": "Optimization in Mechanics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Identify a suitable method and implement a parametric or topological optimization method in Abaqus.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the different families of structural optimization in mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to implement parametric and topological optimization techniques in Abaqus.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts: objective function to be minimized, design parameters considered, technical constraints to be met, minimization algorithms that can be used, etc.",
+    "Details of parametric and shape optimization methods:",
+    "Gradient methods",
+    "Sensitivity analysis",
+    "Monte Carlo",
+    "Practical use of FE software incorporating these methods",
+    "Details of topological optimization methods (SIMP method)",
+    "Redefining specifications for topological optimization",
+    "Optimization using the SIMP method",
+    "Practical use of E.F. calculation software (Abaqus)",
+    "Exercises of increasing difficulty",
+    "Free choice for students on the subject of application of topological optimization"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 11.5,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "TP1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*TP1)/1.",
+  "bibliography": [
+    "Optimisation des structures mécaniques : méthodes numériques et éléments finis, JC Craveur et col., Dunod"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites",
+    "bibliography",
+    "assessment_methods"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0921",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "fe360eabc2a3019285ffc2c7785eaa60486ab7e3c36128c3d046f3eb32f8453b",
+  "extracted_at": "2026-11-18T10:00:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

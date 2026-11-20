@@ -1,0 +1,136 @@
+{
+  "course_name_original": "Probabilidad",
+  "course_name_en": "Probability",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Cálculo I",
+    "Cálculo II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Distinguish between the different interpretations of probability, and determine which is the most appropriate in each context.",
+      "type": "unspecified",
+      "code": "RPROB1"
+    },
+    {
+      "text": "Combine the probabilities of different events, and update them in view of new information.",
+      "type": "unspecified",
+      "code": "RPROB2"
+    },
+    {
+      "text": "Understand the concept of a random variable as a model of the outcome of an experiment under uncertainty, and the main characteristics of its probabilistic information.",
+      "type": "unspecified",
+      "code": "RPROB3"
+    },
+    {
+      "text": "Know the main models of probability distributions in the context of data analysis, distinguishing which is the most appropriate for each experiment.",
+      "type": "unspecified",
+      "code": "RPROB4"
+    },
+    {
+      "text": "Work with random vectors as a model of the simultaneous observation of several variables, handling with ease the main aspects of their probabilistic information.",
+      "type": "unspecified",
+      "code": "RPROB5"
+    },
+    {
+      "text": "Understand and manage the concept of reproducibility.",
+      "type": "unspecified",
+      "code": "RPROB6"
+    },
+    {
+      "text": "Know the main models of multivariate probability distributions.",
+      "type": "unspecified",
+      "code": "RPROB7"
+    },
+    {
+      "text": "Know the concept of stochastic process, and some of its applications in data analysis.",
+      "type": "unspecified",
+      "code": "RPROB8"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to probability. Interpretations: classical, frequentist, subjective.",
+    "Algebra of events.",
+    "Axiomatic definition of probability. Notable properties.",
+    "Conditional probability. Notions of independence.",
+    "Total probability.",
+    "Bayes' theorem.",
+    "Basic definitions of random variables.",
+    "Probability distributions: density function, probability mass function and distribution function.",
+    "Parameters of a probability distribution: expectation, variance and moments. Characteristic function.",
+    "Changes of variable.",
+    "Some inequalities in Probability.",
+    "Discrete distributions: binomial, Poisson, negative binomial and hypergeometric.",
+    "Continuous distributions: uniform, exponential.",
+    "Normal distribution. Central limit theorem.",
+    "Other continuous distributions: beta, gamma and other distributions derived from the normal.",
+    "Some relationships between distributions.",
+    "Basic definitions of random vectors.",
+    "Marginal and conditional distributions.",
+    "Parameters of a multivariate distribution. Correlation.",
+    "Functions of multivariate variables and changes of variable.",
+    "The multivariate normal distribution.",
+    "Basic definitions of stochastic processes.",
+    "Some prominent models of stochastic processes.",
+    "Introduction to RStudio and Probability",
+    "Prominent Distributions",
+    "Multivariate Distributions"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices/seminars",
+    "Online teaching",
+    "Laboratory practices",
+    "Autonomous work",
+    "Academic tutoring",
+    "Exercise resolution",
+    "Questionnaires"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam",
+      "weight_percentage": 65.0
+    },
+    {
+      "method": "Attendance and tutorials (in-person and online)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Active participation in forums and virtual campus activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices exam",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a final written exam (65%), attendance and tutorials (5%), active participation in forums and virtual campus activities (10%), and a laboratory practices exam (20%). There is no minimum score for any individual grading element. For extraordinary calls, the evaluation system is the same, and scores from each section can be retained. Students with differentiated evaluation can choose between continuous evaluation or a single final written exam.",
+  "bibliography": [
+    "Canavos, G. (1998). Probabilidad y Estadística. MacGraw-Hill.",
+    "Parzen, E (1960). Modern Probability Theory and Its Applications. John Wiley & Sons.",
+    "Kerns, G. Jay (2010). Introduction to Probability and Statistics Using R. Editorial: G. Jay Kerns, 2010.",
+    "Navidi, W. (2006). Estadística para ingenieros y científicos. MacGraw-Hill.",
+    "Vélez Ibarrola, R. (2003). Cálculo de probabilidades I. Editorial UNED.",
+    "Gutiérrez, R., Martínez, A., Rodríguez, C. (1993). Curso básico de probabilidad. Pirámide.",
+    "Vélez Ibarrola, R. (2003). Cálculo de probabilidades 2. Ediciones Académicas, S.A."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-1-012",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-012",
+  "source_language": "es",
+  "source_sha256": "4810166bb8b611d264ff1528af6f75dd35ec4427f31576be42f6c31cb52c46c8",
+  "extracted_at": "2026-11-20T06:05:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

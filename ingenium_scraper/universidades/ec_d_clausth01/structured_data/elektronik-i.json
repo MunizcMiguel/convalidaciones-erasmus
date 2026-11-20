@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Elektronik I",
+  "course_name_en": "Electronics I",
+  "ects": 4.0,
+  "semester": "1 Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Question the physical and mathematical foundations.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Assemble a toolbox for the analysis of electronic circuits.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand the functioning of selected electronic components including their representation by equivalent circuits.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Design and investigate example circuits.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students acquire a basic understanding of how electronic circuits are analyzed, calculated and designed.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Physics: Energy, potential, voltage, current, Ohm's law, power.",
+    "Mathematics: Node and mesh equations, linear two-ports, useful simplifications, controlled sources, components with nonlinear characteristics.",
+    "Tools: Resistor networks, voltage dividers, current dividers, decomposition into superpositions, two-port simplification.",
+    "Diodes: LED display for logic values, rectifiers, diode as voltage source, logic functions.",
+    "Circuits with bipolar transistors: Voltage amplifiers, differential amplifiers, current sources, transistor inverters, DT gates, voltage stabilization.",
+    "MOS transistors: Amplifiers, switching operation, CMOS gates, memory cells.",
+    "Operational amplifiers: Amplifiers, computing elements, comparator, analog-to-digital converter.",
+    "Capacitance, inductance, mutual inductance, dirt effects.",
+    "Time-discrete model: Principle, smoothing capacitor, switching power supply, H-bridge, CMOS inverter.",
+    "Switched systems: Step response, switched RC element, mapping to RC elements, switched RL element, mapping to RL elements, RC oscillator.",
+    "Frequency domain: Fourier transform, FFT/Matlab, complex U, I, R, mapping of circuits to equation systems, tools, transistor amplifiers, operational amplifiers.",
+    "Semiconductors: Movable electrons, conductors and non-conductors, doped semiconductors.",
+    "pn-junction: Voltage-free, depletion region, forward region.",
+    "Bipolar transistor: Transistor effect, overdrive.",
+    "MOS transistor: Field effect, active region, pinch-off region.",
+    "Lines: Wave equation, characteristic impedance, reflection, step response, measuring line parameters."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Laboratory work"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (90 minutes)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Oral examination (30 minutes)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Homework assignments for Electronics I",
+      "weight_percentage": 0.0
+    }
+  ],
+  "assessment_rules": "The assessment is a written exam (90 minutes) if there are more than 9 participants, otherwise an oral examination (30 minutes). Homework assignments for Electronics I are a mandatory prerequisite for the exam, but are ungraded and have 0% weight.",
+  "bibliography": [
+    "Kemnitz, Günter: Technische Informatik. Band 1: Elektronik, Springer: Berlin u. a. 2009.",
+    "Reisch, Michael: Elektronische Bauelemente. Funktion, Grundschaltungen, Modellierung mit SPICE, Springer: Berlin u. a. (2. vollst. neu bearb. Auflage) 2007.",
+    "Tietze, Ulrich/Schenk, Christoph/Gamm, Eberhard: Halbleiter-Schaltungstechnik, Springer Vieweg: Berlin/Heidelberg (15. überarb. und erweit. Auflage) 2016."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "elektronik-i",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "d7e737c0c59a38a91eb3ddf960ea24505f44d1c04aa2c2f9d05313c29b9b7c53",
+  "extracted_at": "2026-11-18T09:49:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

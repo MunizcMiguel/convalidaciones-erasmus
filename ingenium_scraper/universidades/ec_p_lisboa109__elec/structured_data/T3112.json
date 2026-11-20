@@ -1,0 +1,64 @@
+{
+  "course_name_original": "Telecomunicações (T3112)",
+  "course_name_en": "Telecommunications (T3112)",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction: Course context in current telecommunications systems, Model of a telecommunications system.",
+    "Analog modulation of sinusoidal carriers: AM, FM and PM modulation and demodulation. Bandpass signals and noise. Performance in the presence of noise.",
+    "Baseband Digital Systems: Digitization of analog sources - PCM. Sampling and Quantization. Quantization error and noise. Optimal receiver, matched filter and Inter-symbol Interference (ISI). Elementary pulse shaping (Nyquist criterion). Line codes. Eye diagram.",
+    "Bandpass Digital Systems: Motivation for digital modulation. Vector perspective. ASK, PSK and FSK systems. Multisymbol signaling (QPSK, BPSK, QAM). Detection.",
+    "Introduction to Information Theory: Quantity of information, entropy. Huffman codes, error control coding.",
+    "Introduction to optical and radio communications: Generic descriptions and performance parameters."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Seminars",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "MAP 30",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For continuous assessment, a minimum grade of 9.5 is required for the laboratory component and a minimum grade of 8 is required for the exam. For the \"recourse period\" (and other special periods like Worker-Students and Special Period), the final grade is calculated as 25% Laboratory (with a minimum of 9.5) and 75% Exam (with a minimum of 8). Fraudulent activities will result in the annulment of all involved assessments and will be reported to the Pedagogical Council.",
+  "bibliography": [
+    "Simon Haykin, Michael Moher, Communication Systems - 5th edition, International Student Version - Wiley,, 2017 (main)",
+    "-, Sebenta do Professor, -, - (main)",
+    "-, Slides do apoio visual utilizado nas aulas, -, - (main)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "prerequisites",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEEC21 Eng. Eletrotécnica e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__elec",
+  "degree": "Licenciatura Bolonha em Engenharia Eletrotécnica e de Computadores (LEEC21)",
+  "course_code": "T3112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185314",
+  "source_language": "pt",
+  "source_sha256": "5c41a397e182219c12a473a5f615a89a4f16c500e2e916db72a801e580f710bb",
+  "extracted_at": "2026-11-20T12:42:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

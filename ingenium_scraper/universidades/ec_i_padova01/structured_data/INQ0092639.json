@@ -1,0 +1,142 @@
+{
+  "course_name_original": "DIGITAL CIRCUITS (INQ0092639)",
+  "course_name_en": "Digital Circuits",
+  "ects": 9.0,
+  "semester": "Second semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Foundations of Computer Science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Represent information in a format that can be processed by a computer",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Manipulate logical expressions and functions to obtain the most suitable forms for implementation with electronic devices",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Translate high-level functional specifications into logical functions",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Translate an abstract, moderately complex problem into the formulation of a finite state machine",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Synthesize a finite state machine using a combination of basic logic gates and memory registers",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Estimate the dynamic performance of a moderately complex system, based on the specifications of its basic logic blocks",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and explore the concept of abstraction levels in digital design",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Represent moderately complex systems as combinations of simpler subsystems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and use some control and communication protocols between fundamental blocks, and recognize potential issues arising from the dynamic limitations of real components",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the basics of performance optimization through appropriate architectural choices",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and identify the potential and limitations of the main types of memory, depending on the application context",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply priority techniques and communication protocols in managing shared resources",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe digital systems using a dedicated language",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify a code formulation that can be synthesized",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Organize code for the description of complex systems in hierarchical levels",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Binary representation of numerical and non-numerical information",
+    "Boolean algebra and fundamental theorems",
+    "Concept of logic operator and logic gate; difference between ideal and real logic gates",
+    "Synthesis, transformation, and optimization of logic circuits and standard implementations",
+    "Concept of sequential system, state variables, and representation as a combination of a combinational system and memory elements",
+    "Knowledge of various latches and registers and their dynamic properties",
+    "Main dynamic limitations of a sequential system",
+    "Basic computer architecture and understanding of control flow",
+    "Fundamental blocks of an ALU and related architectural solutions",
+    "Main types of memory and their architectures.",
+    "Knowledge of key dynamic limitations and their consequences at the system level",
+    "Main techniques for bus access management and input/output protocols",
+    "Use of the VHDL language for the representation, logic simulation, and synthesis of digital systems, including complex ones"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Problem solving",
+    "Case study",
+    "Simulations",
+    "Use of technological tools (moodle and/or other educational tools, software, videos, quizzes, wooclap)",
+    "Practical exercises",
+    "Use of digital system logic simulation tools through the VHDL language"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (multiple-choice quizzes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test (exercises involving analysis or synthesis of digital circuits, possibly including hardware description languages)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final exam consists of a written test with an approximate duration of 3 hours. The assessment is based on the knowledge and understanding of concepts and methodologies, and the ability to apply them to solve specific problems. The evaluation criteria for the written exam will be accuracy and completeness of the answers. The use of any Artificial Intelligence tools during the exam is strictly prohibited.",
+  "bibliography": [
+    "M. Mano, C. R. Kime, T. Martin: Logic and Computer Design Fundamentals, Pearson, 2015."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Padova",
+  "institution_slug": "ec_i_padova01",
+  "degree": "Laurea in Ingegneria Elettronica (Electronic Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "INQ0092639",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipd.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=52278_469840_66603&ordinamento_aa=2025&af_percorso=52278&corso_cod=12370&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "1b197acd13db982f360ef0985a1a948facd6c977caad0c7f537681e626e754f0",
+  "extracted_at": "2026-11-20T09:23:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

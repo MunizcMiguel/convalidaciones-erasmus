@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Biotelemetry",
+  "course_name_en": "Biotelemetry",
+  "ects": 4.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Introduce students to the means, methods and technologies for the implementation of telemetric measurements of biological data and applications of telemetry in the fields of biomedical technology and remote home care system.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to telemetry, historical development, application of biotelemetry in practice.",
+    "Communications used in biotelemetry for data transmission.",
+    "Hardware solutions with the possibility of wired and wireless communication.",
+    "Preparation and processing of (bio)signals for subsequent data transmission.",
+    "Digital communication with (bio)sensors.",
+    "Data standards for data transmission, wired and wireless communication protocols.",
+    "Optimization of biotelemetry equipment for low power consumption.",
+    "HomeCare systems, eHealth",
+    "Data protection, GDPR, ethics.",
+    "Introduction to the biotelemetry learning platform and development environment.",
+    "Development of firmware for analogue (bio)signal processing.",
+    "Preparation and implementation of communication for the use of peripherals according to data sheets.",
+    "Use of the imaging interface on the development platform.",
+    "Serial line communication, communication protocol, checksum.",
+    "Wireless communication using Bluetooth and Bluetooth Low Energy.",
+    "Connecting the microcontroller to the Internet using WiFi. HTTP, MQTT.",
+    "Communication with digital and analog sensors using libraries.",
+    "Device power optimization, sleep modes, interrupts.",
+    "Implementation of peripherals into a complete device for telemetry transmission.",
+    "Design and implementation of test schemes to verify the benefits of telemetry facilities in a remote home care lab."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "HU, Fei. Telehealthcare computing and engineering: principles and design. xix, 726 pages. ISBN 15-780-8802-X.",
+    "GUANG-ZHONG YANG, Editor. Body sensor networks. Second edition. London: Springer London, 2014. ISBN 978-144-7163-749.",
+    "MAHEU, Marlene M., Pamela WHITTEN a Ace ALLEN. E-health, telehealth, and telemedicine: a guide to start-up and success. San Francisco: Jossey-Bass, c2001. ISBN 0-7879-4420-3."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "450-2017/04",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=53218&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "69a06cb2154694b0d4e29c4c521038bf82624219c15ed3bb4eba0caf41db28d1",
+  "extracted_at": "2026-11-20T12:51:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,110 @@
+{
+  "course_name_original": "DIGITAL CONTROL (IA/0141)",
+  "course_name_en": "DIGITAL CONTROL",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge related to linear algebra (matrices, determinants, eigenvalues)",
+    "Knowledge derived from the courses related to the analysis and control of continuous-time dynamical systems",
+    "Basic knowledge of the Matlab-Simulink environment"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Develop knowledge of the formalisms used to describe discrete-time dynamical systems and their structural properties, and of the methodologies for the analysis and design of discrete-time feedback control systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to solve original problems in modeling, analysis, and design of open-loop or feedback discrete-time dynamical systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to handle the complexity of a discrete-time or sampled-data dynamical system by abstracting its physical behavior using a mathematical model.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to critically and synergistically use various tools for analysis and design of open-loop or feedback discrete-time dynamical systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to produce a formal description of the dynamic behavior of a discrete-time system and any control specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to clearly express technical concepts inherent in discrete-time dynamical systems and related digital control systems both verbally and through slides and graphs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to integrate knowledge from various sources in order to gain a deeper understanding of the phenomena taking place in open-loop or controlled discrete-time dynamical systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Course presentation. Introduction to digital systems and their classification",
+    "Analysis of discrete-time linear time-invariant systems in the time domain",
+    "Z-transform",
+    "Analysis of discrete-time linear time-invariant systems in the Z domain",
+    "Specifications for digital control systems design",
+    "Digital control systems design",
+    "Sampled-data systems",
+    "Digital control systems in the presence of disturbances",
+    "Root-locus based design and discretization-based design",
+    "State observers and observer-based state-feedback control",
+    "Implementation of digital controllers on Arduino platform"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Computer exercises",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-term written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral interview",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Presentation of written report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam can be passed through three different ways: mid-term and final written tests, an oral interview, or a written report and its presentation. For written tests, students must attend at least 75% of classes; admission to the final test requires a score of at least 18/30 on the mid-term test, and the overall score is the average of both tests. For the written report option, students must have successfully passed a laboratory on Matlab-Simulink, and the final grade is the sum of the report's evaluation (up to 20) and its presentation (up to 10). For the oral interview, the final grade is the sum of scores for three questions, each ranging from 0 to 10.",
+  "bibliography": [
+    "K. Ogata, Discrete–Time Control Systems, Prentice-Hall, II ed., 1994."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IA/0141",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=20526&ordinamento_aa=2022&af_percorso=9999&corso_cod=11037&corso_aa=2023",
+  "source_language": "en",
+  "source_sha256": "f39366bba02d8f925f7389adaf6dd626a7a36f544e6c625a70da07de1d76266b",
+  "extracted_at": "2026-11-20T12:43:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

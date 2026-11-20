@@ -1,0 +1,118 @@
+{
+  "course_name_original": "Sistemas de Control",
+  "course_name_en": "Control Systems",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Automatización y Control (obligatoria de 2o curso del plan)",
+    "conocimientos previos equivalentes a la asignatura Automatización y Control",
+    "conocimiento de inglés a nivel de lectura (dado que algunos de los textos recomendados solo están en inglés)",
+    "conocimientos básicos de Matlab/Simulink (similares a los empleados en la asignatura Automatización y Control)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Propose control solutions for technological engineering problems",
+      "type": "unspecified",
+      "code": "R1"
+    },
+    {
+      "text": "Classify control systems based on their performance, limitations, and typology in industrial problems",
+      "type": "unspecified",
+      "code": "R2"
+    },
+    {
+      "text": "Design control systems using basic analysis and design techniques: root locus, frequency, and state space",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Evaluate designs performed in various aspects, such as reference tracking, control action, disturbance rejection, robustness, or relative stability",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Recognize the most important practical aspects and limitations derived from the implementation and use of technology in the control implementation phase",
+      "type": "knowledge",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "The control problem",
+    "Control systems",
+    "Feedback",
+    "Feedback loop analysis: sensitivity and stability",
+    "Feedback loop analysis: disturbances",
+    "Feedback loop analysis: references",
+    "Limitations of feedback control",
+    "Design specifications for control systems",
+    "Tuning of proportional controller by classic methods",
+    "Tuning of integral action by classic methods",
+    "Tuning of differential action by classic methods",
+    "Control architectures",
+    "State feedback. Advantages of state space.",
+    "System description in state space",
+    "Analysis of state equations",
+    "Full state feedback control law",
+    "Pole assignment",
+    "Reference input introduction",
+    "Observer design",
+    "Digital implementation of controllers: introduction",
+    "Digital implementation of controllers: discretization of controllers",
+    "Sensors",
+    "Actuators",
+    "Exercises with laboratory equipment and in simulation, covering system identification, sensitivity, controller design, digital control, and state space."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices",
+    "Group tutorials",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum grade of 4 out of 10 is required in the theoretical block. The practical part is calculated as P = 0.9 PL + 0.1 PA. The final grade is calculated as N = 0.7 T + 0.3 P. If the minimum theoretical grade is not met, the final grade will be the minimum of the calculated grade and 4.0. For the extraordinary call, there is a single theoretical exam; the practical grade from the teaching period is maintained, or P=0 if practices were not done. The final grade for the extraordinary call is N = 0.7 T + 0.3 P, with a minimum of 4 points in the theoretical exam required to pass. For differentiated evaluation, students can take an additional practical exam, where P = practical exam grade.",
+  "bibliography": [
+    "G. F. Franklin, J. D. Powell, and A. Emami-Naeini, Feedback Control of Dynamic Systems. Pearson Prentice Hall, 5th edition ed., 2006.",
+    "K. J. Aström and R. M. Murray, Feedback Systems: An Introduction for Scientists and Engineers. Prince- ton University Press, March 2010.",
+    "K. J. Aström, Control System Design. Lecture notes for ME 155A. Department of Mechanical and Environmental Engineering. University of California Santa Barbara., 2003.",
+    "K. Ogata, Ingeniería de Control Moderna (4a Edición). Prentice Hall, 2003.",
+    "B. C. Kuo and F. Golnaraghi, Automatic Control Systems. John Wiley Sons 8th edition (September 2002), 8 ed., 2002.",
+    "G. C. Goodwin, S. F. Graebe, and M. E. Salgado, Control System Design. Prentice Hall, 2001.",
+    "R. Dorf and R. Bishop, Modern Control Systems. Prentice-Hall, 9 ed., 2001.",
+    "A. Barrientos, R. Sanz, F. Matía, and E. Gambao, Control de Sistemas Continuos: Problemas Resueltos. McGraw Hill, 1996.",
+    "J. DiStefano, A. Stubberud, and I. Williams, Retroalimentaci ́on y Sistemas de Control. McGraw Hill, 1992.",
+    "E. A. Puente, Regulación Automática. Servicio de Publicaciones de la ETS Ingenieros Industriales, Universidad Politécnica de Madrid, 1991."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-002",
+  "source_language": "es",
+  "source_sha256": "c1d36cec8549cfe667e81949b9d6b9164ee9d6a0c465b1616a3decd3b7ab1c5e",
+  "extracted_at": "2026-11-20T01:12:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

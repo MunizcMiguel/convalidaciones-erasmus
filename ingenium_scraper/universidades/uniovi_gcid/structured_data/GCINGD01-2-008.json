@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Aprendizaje Automático II",
+  "course_name_en": "Machine Learning II",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Machine Learning I (basic knowledge)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply complex supervised learning techniques using an appropriate algorithm depending on the type of problem.",
+      "type": "skill",
+      "code": "RAPII1"
+    },
+    {
+      "text": "Be able to identify problems where data distribution changes and adapt models to improve their accuracy.",
+      "type": "skill",
+      "code": "RAPII2"
+    },
+    {
+      "text": "Understand the concepts of reinforcement learning and know how to use these types of algorithms to solve real applications.",
+      "type": "skill",
+      "code": "RAPII3"
+    },
+    {
+      "text": "Know how to apply unsupervised learning techniques for knowledge extraction.",
+      "type": "skill",
+      "code": "RAPII4"
+    },
+    {
+      "text": "Know the basic algorithms for anomaly detection.",
+      "type": "knowledge",
+      "code": "RAPII5"
+    },
+    {
+      "text": "Know semi-supervised learning techniques to address applications where unlabeled data is abundant.",
+      "type": "knowledge",
+      "code": "RAPII6"
+    }
+  ],
+  "syllabus_topics": [
+    "Complex supervised learning problems.",
+    "Problems with changes in data distribution.",
+    "Semi-supervised learning.",
+    "Unsupervised learning.",
+    "Anomaly detection.",
+    "Markov models.",
+    "Reinforcement learning."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Virtual Campus activities (online theoretical tests and practical exercises)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Attendance/participation in seminars and tutorials (including online activities and lab practices)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical final exam",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical final exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as: Note = ACV * 0.15 + PAR * 0.05 + TE * 0.40 + PR * 0.40. A minimum grade of 4 out of 10 is required for both the theoretical (TE) and practical (PR) exams. If a student scores less than 4 in either TE or PR, the final grade will be the minimum between 4 and the calculated grade. To pass, a final grade of 5 or higher is needed. For extraordinary calls, the grade is Note = TE * 0.50 + PR * 0.50, with similar minimums and passing conditions. Students who scored 4 or higher in TE or PR in a previous call can choose not to retake that specific exam.",
+  "bibliography": [
+    "Hastie, T., Tibshirani, R., Friedman, J. H., & Friedman, J. H. (2009). The elements of statistical learning: data mining, inference, and prediction. Springer.",
+    "Bishop, C. M., & Nasrabadi, N. M. (2006). Pattern recognition and machine learning. Springer.",
+    "Sugiyama, M. (2015). Introduction to statistical machine learning. Morgan Kaufmann.",
+    "Barber, D. (2012). Bayesian reasoning and machine learning. Cambridge University Press.",
+    "Han, J., Pei, J., & Kamber, M. (2011). Data mining: concepts and techniques. Elsevier.",
+    "Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT press."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-2-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-2-008",
+  "source_language": "es",
+  "source_sha256": "eb1e5196bd6f21b687b4964bbef3120dc80796abd8eb5be6a19f617d9d2b84ff",
+  "extracted_at": "2026-11-20T05:55:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

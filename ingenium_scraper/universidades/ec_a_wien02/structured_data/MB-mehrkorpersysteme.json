@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Mehrkörpersysteme",
+  "course_name_en": "Multibody Systems",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Solid basic mathematical knowledge",
+    "Solid basic knowledge of solid mechanics",
+    "Ability to present and communicate one's own solutions to given problems",
+    "Social skills, e.g., for possible collaboration in small teams",
+    "Mechanics 1 Module",
+    "Mechanics 2 Module",
+    "Successful completion of the Study Introductory and Orientation Phase (StEOP)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess basic knowledge of the theory of the topics mentioned below in the field of multibody system dynamics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to implement and apply the learned theoretical principles to practical problems (e.g., from mechatronics, vehicle dynamics, robotics).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analytical and synthetic thinking for model building and interpretation of numerical simulation results of (mechatronic) problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to critically question the correctness and interpretability of one's own numerical solutions to problems determined by computer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "General understanding of the theoretical background of multibody system programs and their use for effective modeling of technical systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the foundations of the theory of the mentioned topics in multibody system dynamics concisely.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Confidently apply the taught theoretical principles to practical problems in mechatronics, vehicle dynamics, and robotics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically analyze model building assumptions and numerical simulation results for mechatronic problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Methodically examine the correctness and interpretability of one's own numerical solutions determined by computer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Clearly explain the theoretical background of multibody system programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Purposefully apply the theoretical background of multibody system programs for effective modeling of technical systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Structure the kinematics of multibody systems with rigid and deformable bodies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Correctly formulate Newton-Euler equations, d’Alembert's, Jourdain's, and Gauss's principles, and the derived equations of motion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the mentioned equations and principles to typical examples with computational proficiency.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Professionally solve application examples from mechatronics, vehicle dynamics, and robotics using a selected multibody dynamics software package and interpret results with justification.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently structure complex problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Explain one's own solutions, assumptions, and limitations comprehensibly and discuss them with peers.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Constructively discuss peer feedback on drafts and results.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Present complex content, models, and results in an audience-appropriate manner.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Discuss alternatives for modeling and validation strategies, taking into account environmental and professional conditions.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Kinematics and dynamics of multibody systems with rigid and flexible bodies.",
+    "Representation and transformation of motion variables via generalized position coordinates/velocities. Absolute and relative coordinates.",
+    "Degrees of freedom of position and velocity.",
+    "Holonomic and non-holonomic, scleronomic and rheonomic systems. Ideal joints and constraints.",
+    "Fundamental principles of mechanics.",
+    "Systematic construction of equations of motion via d’Alembert's and Jourdain's principles with application examples. Gauss's principle. Derivation and application of Gibbs-Appell equations.",
+    "Topology in multibody systems. Procedure for kinematically closed loops.",
+    "Model building in multibody systems.",
+    "Application examples from mechatronics, vehicle dynamics, and robotics and their numerical treatment (simulation) using a selected multibody dynamics software package."
+  ],
+  "teaching_methods": [
+    "Lectures on theoretical principles",
+    "Guidance and assistance in practical implementation",
+    "Independent solving of engineering problems using a common multibody dynamics software package at a computer workstation"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written and/or oral examination on theoretical principles",
+      "weight_percentage": null
+    },
+    {
+      "method": "Review and documentation of independently developed exercise tasks at the computer workstation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0712",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Technische Universität Wien",
+  "institution_slug": "ec_a_wien02",
+  "degree": "Bachelorstudium Maschinenbau (E 033 245)",
+  "course_code": "MB-mehrkorpersysteme",
+  "academic_year": "Studienplan 2026 (rev1)",
+  "source_url": "https://www.tuwien.at/fileadmin/Assets/dienstleister/studienabteilung/BSc-Studienplaene_2026/Bachelorstudium_Maschinenbau_2026_rev1.pdf",
+  "source_language": "de",
+  "source_sha256": "fe7f647279d3a634dd912949961f18d33ec7a14b36478bcc627a715661231ebb",
+  "extracted_at": "2026-11-18T04:21:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

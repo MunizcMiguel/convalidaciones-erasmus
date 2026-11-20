@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Matemáticas: Cálculo II y ecuaciones diferenciales",
+  "course_name_en": "Mathematics: Calculus II and Differential Equations",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "gl",
+    "en"
+  ],
+  "prerequisites": [
+    "Applied Mathematics I",
+    "Applied Mathematics II",
+    "Mathematics: Algebra and Statistics/V12G320V01103",
+    "Mathematics: Calculus I/V12G320V01104"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding of basic concepts of integral calculus in several variables.",
+      "type": "knowledge",
+      "code": "B3 C1 D1"
+    },
+    {
+      "text": "Knowledge of the main integration techniques for functions of several variables.",
+      "type": "knowledge",
+      "code": "B3 B4 C1 D1 D2 D9"
+    },
+    {
+      "text": "Knowledge of the main results of vector calculus and applications.",
+      "type": "knowledge",
+      "code": "B3 B4 C1 D1 D2 D9"
+    },
+    {
+      "text": "Acquisition of basic knowledge for solving linear differential equations and systems.",
+      "type": "knowledge",
+      "code": "B3 B4 C1 D1 D2 D9"
+    },
+    {
+      "text": "Understanding the importance of integral calculus, vector calculus, and differential equations for the study of the physical world.",
+      "type": "knowledge",
+      "code": "C1 D9 D16"
+    },
+    {
+      "text": "Application of knowledge of integral calculus, vector calculus, and differential equations.",
+      "type": "skill",
+      "code": "C1 D2 D6 D9 D16"
+    },
+    {
+      "text": "Acquisition of the necessary capacity to use this knowledge in the manual and computer-based resolution of questions, exercises, and problems.",
+      "type": "skill",
+      "code": "C1 D1 D2 D3 D6 D9 D15 D16"
+    }
+  ],
+  "syllabus_topics": [
+    "Integration in several variables. Double integral over rectangles. Reduction to iterated integrals. Double integral over elementary regions. Properties. Fubini's Theorem. Change of variable theorem. Particular case of polar coordinates. Triple integral over a box and over elementary regions. Fubini's Theorem. Change of variable theorem. Particular cases: cylindrical and spherical coordinates. Geometric and physical applications of the multiple integral: calculation of volumes, centers of mass and moments of inertia.",
+    "Vector calculus. Curves in the plane and in space. Arc length. Parameter change. Line integral or path integral with respect to arc length of scalar fields. Line integral or circulation of vector fields. Properties. Fundamental theorem of line integrals. Green's Theorem in the plane. Regular surfaces. Tangent plane. Normal vector. Surface area. Surface integral of scalar fields. Flux or surface integral of vector fields. Divergence and curl operators. Characterization of conservative fields. Stokes' Theorem. Gauss' Theorem.",
+    "Differential equations. Ordinary differential equations. Concept of solution. Existence and uniqueness theorems for initial value problems. Methods for solving first-order ordinary differential equations: separable variables, reducible to separable variables, homogeneous, linear, and reducible to linear. Exact differential equations. Integrating factors. Differential equation of a one-parameter family of plane curves. Orthogonal trajectories. Second-order linear differential equations. Initial value problems. Fundamental sets. Method of variation of parameters. Method of undetermined coefficients. Reduction of order. Euler's equation. Systems of first-order linear differential equations.",
+    "Numerical methods for initial value problems. Introduction to numerical methods. Euler's and improved Euler's methods. Fourth-order Runge-Kutta method."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem solving",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 66.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exams (P1 and P2)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final exam (EF)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Assignments/Tasks (EJC)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The continuous assessment grade (NOTA EC) is calculated as 0.25 * P1 + 0.25 * P2 + 0.1 * EJC + 0.4 * EF, where P1, P2, EJC, and EF are graded out of 10. The final grade (NOTA FINAL) is the maximum between NOTA EC and the final exam grade (EF). Students not opting for continuous assessment will have their grade based solely on the final exam (100%). Not presenting for the final exam results in a \"Not Presented\" grade. The second opportunity assessment consists of a single exam covering all course content, worth 100% of the grade. Any fraudulent behavior in an assessment will result in a zero grade for that assessment opportunity.",
+  "bibliography": [
+    "Larson, R., Edwards, B.H., Cálculo 2 de varias variables , 9ª edición, McGraw-Hill, 2010",
+    "Marsden, E., Tromba, A.J., Cálculo Vectorial , 6ª edición, Pearson, 2018",
+    "Rogawski, J., Cálculo: varias variables , 2ª edición, Reverté, 2012",
+    "Thomas, G.B. Jr., Cálculo: varias variables , 12ª edición, Addison-Wesley-Pearson Education, 2010",
+    "García, A., López, A., Rodríguez, G., Romero, S., de la Villa, A., Cálculo II. Teoría y problemas de funciones de varias variables , 2ª edición, CLAGSA, 2002",
+    "Nagle, K., Saff, E.B., Snider, A.D., Ecuaciones diferenciales y problemas con valores en la frontera , 4ª edición, Pearson Educación, 2005",
+    "Zill, D.G., Ecuaciones Diferenciales con aplicaciones de modelado , 9ª edición, Cengage Learning, 2009",
+    "García, A., García, F., López, A., Rodríguez, G., de la Villa, A., Ecuaciones Diferenciales Ordinarias , CLAGSA, 2006",
+    "Kincaid, D., Cheney, W., Métodos numéricos y computación , 6ª edición, Cengage Learning, 2011"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01204",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01204&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "2a6ef266460ed1a2c45206f53933060edda7c619d31855440754670310868653",
+  "extracted_at": "2026-11-18T02:53:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

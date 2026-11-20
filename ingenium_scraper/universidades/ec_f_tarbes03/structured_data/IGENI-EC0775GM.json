@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Usinage haute performance",
+  "course_name_en": "High-Performance Machining",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Machining",
+    "Methods Office (Industrial Methods Department)",
+    "ISO code",
+    "CAM (Computer-Aided Manufacturing)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Choose machining strategies for high-performance machining.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Optimize machining processes in terms of cycle time, adhering to high-speed cutting constraints and quality requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand cutting phenomena in specific contexts.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Evaluate and implement machining strategies through digital manufacturing tools (CATIA software).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define optimization criteria appropriate to the industrial and technological context of the machining process.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design, evaluate, and implement optimal machining strategies that balance economic performance, compliance with technical constraints, and minimization of environmental footprint.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Objectives and Course Overview",
+    "Educational objectives",
+    "Overview of course activities (lectures, tutorials, lab work)",
+    "Machining Performance",
+    "Overall cycle time",
+    "Influential parameters",
+    "Manufacturing quality",
+    "Surface integrity",
+    "Machining and environmental considerations",
+    "Cutting Phenomena",
+    "Cutting forces, power, and temperature",
+    "Specific cutting pressure (as a function of Vc, f, etc.)",
+    "Specific energy",
+    "Surface integrity related to machining",
+    "Tool wear and degradation mechanisms",
+    "High-Speed Machining (HSM)",
+    "Comparison between HSM and conventional machining (CM)",
+    "Thermal and mechanical effects",
+    "Selection of tool materials",
+    "Tool and Parameter Selection",
+    "Tool materials",
+    "Coatings",
+    "Geometric forms",
+    "Lubrication and cutting assistance",
+    "Tool holders and balancing",
+    "High-speed spindles and bearing systems",
+    "Machine Tool Structure and Dynamics",
+    "Mechanical structures (serial, hexapod)",
+    "CNC systems and dynamic capabilities",
+    "HSM-Oriented CNC Programming",
+    "Limitations of standard ISO G-code",
+    "Trajectory anticipation (LOOK-AHEAD, FFWON, etc.)",
+    "Polynomial programming (Bézier, B-Spline, NURBS)",
+    "Machining Strategies",
+    "Cutting modes (climb vs conventional)",
+    "Thin-wall machining",
+    "Trajectory smoothing",
+    "Pocket and copy milling",
+    "Cutting parameters (Vc, ap, ae, fz)",
+    "Industrial Expert Session"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical work (TP)",
+    "Project-based learning",
+    "Industrial presentation"
+  ],
+  "workload_hours_total": 26.0,
+  "workload_hours_contact": 16.0,
+  "assessment_methods": [
+    {
+      "method": "Project (PJ1)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "Outcomes are validated via practical study on machined parts during lab sessions. The evaluation formula is (1*PJ1)/1.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0775GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "934e4eb523255d9e8ad2a46a1fb2e9ac6adfbf399c4b7d30d66c36950d29bd6b",
+  "extracted_at": "2026-11-18T10:00:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

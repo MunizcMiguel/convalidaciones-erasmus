@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Estadística",
+  "course_name_en": "Statistics",
+  "ects": 6.0,
+  "semester": "Either Semester 1 or Semester 2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering.",
+      "type": "competence",
+      "code": "HAB-1"
+    },
+    {
+      "text": "Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "HAB-1"
+    },
+    {
+      "text": "Applies data processing and analysis techniques.",
+      "type": "skill",
+      "code": "HA_01.7"
+    },
+    {
+      "text": "Knows the fundamental concepts, applications, and results of probability.",
+      "type": "knowledge",
+      "code": "HA_01.8"
+    },
+    {
+      "text": "Understands the concepts of one-dimensional and multi-dimensional random variables.",
+      "type": "knowledge",
+      "code": "HA_01.9"
+    },
+    {
+      "text": "Masters the modeling of engineering environments under stochastic nature using random variables and their applications in uncertainty situations.",
+      "type": "skill",
+      "code": "HA_01.10"
+    },
+    {
+      "text": "Knows sampling and estimation techniques.",
+      "type": "knowledge",
+      "code": "HA_01.11"
+    },
+    {
+      "text": "Knows how to use statistical hypothesis tests and their application in decision-making.",
+      "type": "skill",
+      "code": "HA_01.12"
+    },
+    {
+      "text": "Has the ability to prepare, understand, and critique reports based on statistical analyses.",
+      "type": "competence",
+      "code": "HA_01.13"
+    }
+  ],
+  "syllabus_topics": [
+    "Module 1: Exploratory data analysis in the computer lab.",
+    "Module 2: Probability distribution models.",
+    "Module 3: Sampling, estimation, and hypothesis testing.",
+    "One-dimensional descriptive statistics.",
+    "Two-dimensional descriptive statistics: Regression and correlation.",
+    "Probability distributions of discrete and continuous random variables.",
+    "Confidence intervals: means, variances, and proportions.",
+    "Tests for equality of means, variances, and proportions. ANOVA. p-value calculation.",
+    "Goodness-of-fit test. Contingency tables."
+  ],
+  "teaching_methods": [
+    "Lectures on theory and examples motivating its utility in engineering",
+    "Problem-solving sessions (real-world situations)",
+    "Computer lab sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Exam during Module 2",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Exam on Module 3",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Exam on Computer Lab practical content",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Statistical Report applying various statistical techniques",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of Exam 1 (40%), Exam 2 (20%), Computer Lab Exam (20%), and Statistical Report (20%). To pass the 60% component (Exams 1 and 2), students must score at least 4 out of 10 on each and have a weighted average of at least 4.5. To pass the 40% component (Computer Lab Exam and Statistical Report), students must score at least 4 out of 10 on each and have an average of at least 5. The overall final grade must be at least 5 out of 10 to pass. A global evaluation test equivalent to all four components is available for those who do not complete or pass the continuous assessment.",
+  "bibliography": [
+    "Montgomery, Douglas C.. Probabilidad y estadística aplicadas a la ingeniería / Douglas C. Montgomery, George C. Runger . - 2ª ed., [reimpr.] México, D. F. : Limusa Wiley, cop. 2007",
+    "Devore, Jay L.. Probabilidad y estadística para ingeniería y ciencias / Jay L. Devore . - Ed. en español. Mexico [etc.] : Cenange Learning, cop. 2008.",
+    "Walpole, Ronald E.. Probabilidad y estadística para ingenieros / Ronald E. Walpole, Raymond H. Myers, Sharon L. Myers . - 1a ed. en español (Prentice Hall Hispanoamericana) México [etc.] : Prentice Hall, 1999"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad de Zaragoza",
+  "institution_slug": "es_zaragoza",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "29708",
+  "academic_year": "2026-27",
+  "source_url": "https://sia.unizar.es/doa/consultaPublica/look[conpub]MostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=es.ES&_anoAcademico=2026&_codAsignatura=29708",
+  "source_language": "es",
+  "source_sha256": "c10f71d81f7a420c3edf903ca4da59f42d8f3586799780061f73af2edd860a30",
+  "extracted_at": "2026-11-13T20:24:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

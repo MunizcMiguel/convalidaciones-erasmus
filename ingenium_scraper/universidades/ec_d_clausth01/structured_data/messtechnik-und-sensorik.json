@@ -1,0 +1,140 @@
+{
+  "course_name_original": "Messtechnik und Sensorik",
+  "course_name_en": "Applied Metrology and Sensors",
+  "ects": 4.0,
+  "semester": "1 Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Ingenieurmathematik I",
+    "Ingenieurmathematik II",
+    "Fractions",
+    "Differential and Integral Calculus",
+    "Complex Numbers",
+    "Ordinary Linear Differential Equations with constant coefficients",
+    "Fourier Transform and spectral description of signals",
+    "Calculation and representation of system responses (impulse response, step response, frequency response)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the fundamentals of metrology and sensor technology.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know the scientifically correct evaluation, documentation, and interpretation of measurement results.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They know commonly used sensors, transducers, and flow sensors.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Furthermore, they know the basic principles of digital measurement technology and the objective of digital measurement signal processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They know important digital counting circuits and analog-to-digital converters.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Thus, students know the sampling theorem and can interpret a measurement signal as a time signal and as a spectrum.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can statistically evaluate measurement series and make a statement about the uncertainty of the measured value.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can also implement basic electrical measurement circuits (design of measurement bridges, dimensioning of amplifier, filter, and computing circuits).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can select and adjust measurement lines and probes and select a suitable analog-to-digital converter for a measurement task.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can also select suitable flow sensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can independently study the contents of the lecture using a textbook.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can independently work out the solutions to the exercise problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Furthermore, students know how metrological solutions and systems are to be evaluated and selected.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They understand what influences the transfer behavior of a sensor element has on the measurement result and how the transfer behavior can be determined.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They know how to correctly use a measurement system and how to evaluate the measurement data.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of Measurement Technology and Sensor Technology: General principles of Measurement Technology, SI unit system",
+    "Basic properties of sensors and measurement processes; Characteristic curves and transfer behavior of sensors and measurement systems",
+    "Fundamentals of Measurement Data Evaluation: Statistics, determination of statistical measurement uncertainties, sensitivity analysis for systematic influences",
+    "Fundamentals of Electrical Engineering: Calculation with impedances, introduction of electrical measurands",
+    "Classic electrical measuring devices: Moving coil and moving iron measuring instruments, oscilloscope",
+    "Sensors: Introduction of various sensor elements for a range of important physical measurands that respond with resistance, voltage, current, capacitance or inductance changes",
+    "Flow sensors",
+    "Analog electrical measurement technology: Design of measurement bridges for real and complex impedances, dimensioning of amplifier, filter, and computing circuits, selection of measurement lines",
+    "Digital Measurement Technology: Basic structures of digital systems, sampling theorem, digital filters, counting circuits, digital-analog / analog-digital converters, encoders, digital signals in time and frequency domain"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination (Klausur)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Lerch, Reinhard: Elektrische Messtechnik. Analoge, digitale und computergestützte Verfahren, Springer Vieweg: Berlin/Heidelberg (7. aktual. Auflage) 2016.",
+    "Schrüfer, Elmar/ Reindl, Leonhard M./Zargar, Bernhard: Elektrische Messtechnik. Messung elektrischer und nichtelektrischer Größen, Carl Hanser Verlag: München (12. aktual. Auflage) 2018.",
+    "Tränkler, Hans-Rolf/Fischerauer, Gerhard: Das Ingenieurwissen. Messtechnik, Springer Vieweg: Berlin u. a. 2014."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "messtechnik-und-sensorik",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "cb8af99d49d17d9a4478571c64fb8df37d1dd7689a729f8b23f5b4636d4b5f12",
+  "extracted_at": "2026-11-18T09:49:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

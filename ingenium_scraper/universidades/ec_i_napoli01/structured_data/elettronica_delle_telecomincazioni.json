@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Elettronica Delle Telecomincazioni",
+  "course_name_en": "Telecommunications Electronics",
+  "ects": 6.0,
+  "semester": "I",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The course aims to transfer the basic knowledge and nomenclature of the main electronic subsystems composing a modern radio telecommunication system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student should have acquired mastery of circuit diagrams and the operating principle of some main electronic subsystems to allow their design in terms of optimal sizing of the electronic components contained therein.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate knowledge of the main issues inherent and connected to the use of electronic subsystems used in radio frequency transceivers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to elaborate multidisciplinary connections, especially between the fields of information processing of signals and defined circuit systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the causal connections between the need to achieve a purpose function and the main exemplary circuit configurations that can be used to realize them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Illustrate the theoretical and practical motivations underlying the properties of circuits and electronic systems covered in the course program.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design and analyze electronic circuits used for Telecommunications, such as: Gilbert Cells, Sinusoidal Oscillators, Active Filters, circuits for A/D D/A signal conversion, etc.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate mastery of multidisciplinary connections that allow evaluating the electrical/electronic behavior of signal processing system configurations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define sizing criteria for some fundamental telecommunications circuits in terms of choosing appropriate passive and active components to obtain assigned behavioral specifications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Receiving section (low-noise amplifier with antenna adaptation and noise minimization issues)",
+    "Frequency translation section: signal mixers (describing and analyzing the operation of analog multipliers: Gilbert cell)",
+    "Signal filtering circuits: passive and active filters (design criteria for 1st and 2nd order active filters)",
+    "Reference signal generation systems: sinusoidal oscillators (concepts of amplitude stability and spectral purity, crystal oscillators and voltage-controlled oscillators VCO)",
+    "Demodulation systems for main modulation forms (AM, FM, PM, PSK, etc.): phase detector circuits and phase-locked loops (PLL) and applications",
+    "Subsystems for A/D and D/A signal conversion: sample and hold circuits (issues and sizing), ramp or weighted ladder converters"
+  ],
+  "teaching_methods": [
+    "Lectures (80% of total hours)",
+    "Exercises for application and deepening of theoretical aspects (numerical and based on circuit simulators or simple programmable systems)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Elettronica per telecomunicazioni, Dante Del Corso, McGraw-Hill",
+    "Lecture transparencies (on the professor's website after lectures)",
+    "Notes and supplementary handouts (on the professor's website)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "elettronica_delle_telecomincazioni",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "1af40a5c28050b4ca22cc43d3af4ef4c3b8a0d1d942e95dc37e23e91440aebb2",
+  "extracted_at": "2026-11-20T08:19:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Misure elettroniche",
+  "course_name_en": "Electronic Measurements",
+  "ects": 9.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of the topics covered in the courses of Electrotechnics, Analysis I, and Physics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course develops and deepens the principles of measurement science, both in its methodological and applicative aspects. In particular, it provides students with the necessary notions for the correct interpretation of measurement results, for understanding the functioning of a generic measurement chain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "With particular reference to the medical field, the operating principles and the methods of use of the main instruments for the measurement of electrical and electronic quantities are finally presented, in order to equip students with the skills of setting up the measurement set-up, performing the measurement operation and correctly evaluating the results obtained. Both the case studies in the lectures and the laboratory exercises will have as reference signals and components typical of the activity of the medical engineer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate in medical engineering must acquire the ability to understand topics of a post-secondary course of study that allow, with the help of specific textbooks in the field, to understand even complex topics in the field of electronic measurements and specific applications in the medical field.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate in medical engineering must, on the basis of the knowledge acquired, demonstrate the ability to apply the measurement methodologies studied in the professional field and furthermore this figure must be able to solve new problems in this field basing the solutions on the acquired skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate in medical engineering must be able to collect data and measurement campaigns and interpret them appropriately, proposing his own vision of the phenomenon under examination, connecting the knowledge acquired throughout the degree course with the measurement skills specifically developed in this course.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate in medical engineering will have the task of communicating to specialists and non-specialists the results obtained from their work, as well as transferring the information learned at various levels of detail, proposing ideas and new solutions to the interlocutor.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The course will also provide graduates with a study and learning methodology that will form the basis for an easy continuation of their career, both in the academic and professional fields, where it will certainly be necessary to learn notions with a greater level of autonomy.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Theory of Measurements. Measurement Chain. Direct and Indirect Measurements. The International System of Measurement Units.",
+    "Elements of statistics and probability for measurements. Gauss's theory. Normal and standardized curve. Small sampling. Student's theory. Linear regression and hypothesis testing. Measurement uncertainty. The UNI CEI 70098-3 standard.",
+    "Static and dynamic characteristics of measuring instruments. Influencing quantities. Metrological traceability. Calibration curve. The Italian Calibration System.",
+    "Introduction to the use of basic electrical and electronic instrumentation: multimeters, oscilloscopes, counters, impedance meters.",
+    "Measurements in the frequency domain. Frequency analysis of signals; general information on DFT and FFT; leakage and windowing problems. Digital spectrum analyzer, principle diagram. Specifications of a spectrum analyzer: frequency range, spectral resolution, harmonic distortion, dynamic range, uncertainty.",
+    "Numerical exercises in the classroom (Module 1)",
+    "Methods for the estimation of electrical quantities (measurement of impedance and resistance by means of AC and DC measuring bridges)",
+    "Main sensors and transducers for medical applications: operating principles and selection criteria",
+    "Applications of measurement systems in the medical field: inertial measurements, electromyographic measurements, electroencephalic measurements",
+    "Numerical exercises in the classroom (Module 2)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Numerical exercises",
+    "Laboratory exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam (Module 1)",
+      "weight_percentage": 66.67
+    },
+    {
+      "method": "Oral exam (Module 2)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Theoretical knowledge assessment (within each module)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Application of concepts through exercises and discussion of reports (within each module)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The assessment will be carried out through an oral exam. The final grade will be weighted on the evaluations of the two modules: 2/3 for Module 1 and 1/3 for Module 2. For each module, the assessment will be based on theoretical knowledge of the topics covered (70%) and the ability to apply the concepts studied through exercises and discussion of reports produced during the practical part of the course (30%).",
+  "bibliography": [
+    "Teaching material distributed by the teacher and available on the Moodle platform.",
+    "C. Svelto, R. Ottoboni, M. Norgia, A. Pesatori, “Misure. Dai fondamenti alla strumentazione”, Società Editrice Esculapio.",
+    "M. Norgia, A. Pesatori, C. Svelto, “Esercizi di misure”, Società Editrice Esculapio.",
+    "S. Tumanski, Principles of Electrical Measurement, Taylor & Francis.",
+    "D. De Rossi, A. Ahluwalia, A. Mazzoldi, D. Pede, E.P. Scilingo, “Sensori per misure biomediche”, Pàtron Editore.",
+    "T. Togawa, T. Tamura, P.Å. Öberg, “Biomedical Sensors and Instruments”, Taylor & Francis, 2011."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi del Molise",
+  "institution_slug": "ec_i_campoba01",
+  "degree": "Laurea in Ingegneria Medica classe L-9 R Ingegneria industriale",
+  "course_code": "421R018",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unimol.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2027&insegnamento=31313213&ordinamento_aa=2025&af_percorso=9999&corso_cod=10462&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "b6b18c24258f34fae175b0fccdc646adf081fc7dc8b2a532a45ab1bb27ba5387",
+  "extracted_at": "2026-11-20T09:25:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

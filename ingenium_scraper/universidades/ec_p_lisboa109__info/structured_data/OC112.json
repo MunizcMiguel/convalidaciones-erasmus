@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Organização de Computadores (OC112)",
+  "course_name_en": "Computer Organization (OC112)",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction and review of basic concepts: review of internal organization and operation of a computer; perspective on recent and future evolution.",
+    "Computer organization: CISC vs RISC processors; constraints of technological evolution of computers; code generation, role of compilers; data organization in memory; number representation, IEEE 754 format; performance metrics.",
+    "Operation of a RISC processor: organization; pipeline processing; data, control, and structural pipeline conflicts; code optimization.",
+    "Memory system: memory hierarchy; primary memory; cache memory architecture; program optimization; memory management, connection to the operating system; efficient address translation mechanisms; integrated operation of the memory system.",
+    "Input/output system: analog-digital interface; performance in communication with peripherals; characteristics of standard buses; peripheral interface."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "MAP45_1",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "MAP45_2",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Laboratory Work L1",
+      "weight_percentage": 7.5
+    },
+    {
+      "method": "Laboratory Work L2",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Laboratory Work L3",
+      "weight_percentage": 7.5
+    },
+    {
+      "method": "Discussion (including MAP15)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exam Part 1 (Ex_1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exam Part 2 (Ex_2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Special Exam (EE)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade N is calculated as: N = 60% × max{ [50% × max(MAP45_1, Ex_1) + 50% × max(MAP45_2, Ex_2)], EE } + 40% × L, where L is the individual laboratory component grade. Minimum grade for the average of the two MAPs (or corresponding exam parts) is 8 values. The minimum grade for the laboratory component (L) is 9 values. There is no evaluation during the resit period.",
+  "bibliography": [
+    "D. Patterson, J. Hennessy, Computer Organization and Design: The Hardware/Software Interface, Morgan Kaufmann, 5th Edition, 2014, ISBN: 978-0-12-407726-3, 2014 (main)",
+    "A. Tanenbaum, T. Austin, Structured Computer Organization, Prentice-Hall, 6ª Ediçao, ISBN: 978-0273769248, 2013 (secondary)",
+    "J. Fisher, P. Faraboschi, C. Young, Embedded Computing: A VLIW Approach to Architecture, Compilers and Tools, Morgan Kaufmann, 4ª Edição, ISBN: 978-1558607668, 2005 (secondary)",
+    "J. Hennessy, D. Patterson, Computer Architecture: A Quantitative Approach, Morgan Kaufmann, 4ª Edição, ISBN: 978-0123838728, 2011 (secondary)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "OC112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185356",
+  "source_language": "pt",
+  "source_sha256": "52b310c0e8465fa336766b2b8a278f3b7b4d3fb8bd2fdda22b11e864527804cf",
+  "extracted_at": "2026-11-20T12:41:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

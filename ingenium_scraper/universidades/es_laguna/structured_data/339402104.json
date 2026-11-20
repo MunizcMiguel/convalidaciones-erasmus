@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Fundamentos de Ingeniería Eléctrica",
+  "course_name_en": "Fundamentals of Electrical Engineering",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Having completed Physics II.",
+    "It is recommended to have completed Mathematical Fundamentals."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire the basic knowledge for the resolution and study of electrical circuits in different applications and technological environments.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the necessary skills to adapt to different environments and situations in the electrical field.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve problems, make decisions, and transmit knowledge, skills, and abilities in the field of Mechanical Industrial Engineering.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Use specifications, regulations, and mandatory standards necessary for the exercise of the Industrial Engineer profession.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "ELEMENTS AND SIGNALS IN ELECTRICAL CIRCUITS: Introduction. Passive elements. Voltage divider. Current divider. Active elements (voltage sources, current sources, dependent sources). Signals in circuit theory (DC signals, sinusoidal function, square function, triangular function).",
+    "METHODS FOR CIRCUIT ANALYSIS AND RESOLUTION: Concepts in circuit topology. Equations needed for circuit resolution. Node voltage method (node voltage method and dependent sources, node voltage method: some special cases). Introduction to mesh current method (mesh current method and dependent sources, mesh current method: some special cases). Node voltage method versus mesh current method. Source transformations. Thévenin and Norton equivalent circuits. Maximum power transfer, superposition, and Millman theorems.",
+    "ALTERNATING CURRENT (AC): Fundamentals. Sinusoidal alternating current: characterization and importance. The phasor. Passive circuit elements in the frequency domain (impedance and reactance, phasor diagrams). AC power, power factor, power factor correction. AC circuit theorems. RC, RL, RLC circuits.",
+    "THREE-PHASE SYSTEMS: Definition and usefulness of three-phase current. Basic concepts: Phase and line magnitudes, phase sequence, balanced system, star and delta connections. Delta-star conversion. Balanced three-phase systems. Resolution of three-phase systems. Power in three-phase systems.",
+    "LOW VOLTAGE ELECTRICAL INSTALLATIONS: Safety in electrical installations: Personal and equipment protection, Protection components. Earth electrode calculations. Indoor installations in homes: regulations, parts of an installation, single-line diagram, voltage drop calculations. Other low voltage installations.",
+    "PHYSICAL BASES OF ELECTROTECHNICS: The magnetic field. Magnetic circuits. Magnetic effects in matter (ferromagnetism, magnetic flux density, magnetic properties of iron). Faraday's Law: voltage induced by a variable magnetic field. Biot-Savart Law (Laplace's Law): production of induced force in a wire. Electro-mechanical energy conversion. Energy losses in ferromagnetic materials due to eddy or Foucault currents. Magnetically coupled circuits (mutual inductance, combined voltage of mutual and self-induction).",
+    "TRANSFORMERS: Operating principle of an ideal transformer. Operation of a real transformer. Equivalent circuit of a transformer. Transformer tests. Voltage drop in a transformer. Losses and efficiency of a transformer. Types of transformers.",
+    "PRELIMINARY CONSIDERATIONS FOR ROTATING ELECTRICAL MACHINES: Considerations (service, mechanical, thermal). Losses and efficiency. Description of a rotating electrical machine. M.M.F. and magnetic field in the air gap of an electrical machine. M.M.F. produced by a three-phase winding. Rotating field. Ferraris' Theorem, Leblanc's Theorem.",
+    "ALTERNATING CURRENT ELECTRICAL MACHINES: Asynchronous Machines: Construction aspects, operating principle: slip, speed and torque regulation, equivalent circuit of the asynchronous motor. Asynchronous generator. Single-phase induction motor. Synchronous Machines: Construction aspects, operating principle of the generator: Electromotive force generated per phase. The synchronous motor. Equivalent circuit of a synchronous machine.",
+    "DIRECT CURRENT MACHINES: Construction aspects. Operating principle: commutator operation, armature reaction. Equivalent circuits. Reversal of DC motor direction. Motor speed regulation. Universal motor (AC commutator motor).",
+    "Practice 1: Measuring devices and basic electrical measurements. Ohm's and Kirchhoff's laws in direct current.",
+    "Practice 2: Thévenin's theorem and maximum power transfer.",
+    "Practice 3. Characterization of electrical transients and first-order filters.",
+    "Practice 4. AC circuits. Impedance, power, power factor and its correction.",
+    "Practice 5. Electrical installations.",
+    "Practice 6. Transformer.",
+    "Practice 7: No-load and short-circuit experiments of a single-phase transformer."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving sessions in class",
+    "Laboratory practicals",
+    "Virtual classroom activities",
+    "Tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Development Test 1",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Development Test 2",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Lab evaluation activity or practical report",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical lab exam",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The continuous evaluation comprises two development tests, each contributing 35% to the final grade, and practicals, contributing 30%. Practicals are split into lab activities/reports (15%) and a practical lab exam (15%). To pass, a minimum of 5 out of 10 is required for each development test, and for practicals, a minimum average of 5 out of 10 for activities/reports (with 100% attendance) and 5 out of 10 for the lab exam. Students failing practical requirements or opting out of continuous evaluation will undergo a single evaluation: a 70% development test and a 30% laboratory test.",
+  "bibliography": [
+    "James W. Nilsson, Susan A. Riedel, Circuitos Eléctricos. Prentice Hall.",
+    "William H. Hayt, Jack E. Kemmerly, Steven M. Durbin. Análisis de circuitos en ingeniería. McGraw-Hill.",
+    "Jesús Fraile Mora. Máquinas Eléctricas. McGraw-Hill.",
+    "RBT : reglamento electroténico para baja tensión : actulizado según el Real Decreto 560-2010 de 7 de mayo.",
+    "Joseph A. Edminister, Mahmood Nahvi, Circuitos Eléctricos. Shchaum.",
+    "Agustín Castejón, Germán Santamaría. Tecnología Eléctrica. McGraw-Hill.",
+    "Jesús Fraile Mora, Jesús Fraile Ardanuy. Problemas de máquinas eléctricas. McGraw-Hill.",
+    "Tony R. Kuphaldt, Lessons in electric circuits, volumes I and II, 2023, available on-line at https://www.ibiblio.org/kuphaldt/electricCircuits/ under Creative Commons License."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de La Laguna",
+  "institution_slug": "es_laguna",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "339402104",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ull.es/apps/guias/guias/print_guide/45580/",
+  "source_language": "es",
+  "source_sha256": "d30eb553e13feebcc93cfff6fbe9fa6c8020f17e68e49e5cc8b657f1b8e5c20b",
+  "extracted_at": "2026-11-13T21:42:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,95 @@
+{
+  "course_name_original": "Mécanique de la rupture",
+  "course_name_en": "Fracture Mechanics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Solid Mechanics and Strength of Materials Course S5"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and analyze the mechanical behavior of parts or structures in the presence of macroscopic cracks, in the context of work in a design or engineering office.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify this class of problem and choose a method appropriate to the case of linear fracture mechanics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Model and dimension cracked mechanical pieces using analytical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the key parameters of fracture mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply linear fracture mechanics methods to meet the requirements of specific industrial applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have the basic knowledge needed to extend the application of fracture mechanics methods to numerical tools (finite element methods in particular).",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analysis of Cracks in Two-Dimensional Linear Elasticity",
+    "Stress and displacement fields",
+    "Concept of Stress Intensity Factor",
+    "Concept of Fracture Toughness",
+    "Plastic Analysis Near a Crack",
+    "Irwin’s Approach",
+    "Plastic zone correction and effective Stress Intensity Factor",
+    "Experimental determination of Fracture Toughness",
+    "Energy-Based Methods",
+    "Energy Release Rate (G)",
+    "Contour Integrals (J)",
+    "Crack Propagation",
+    "Bifurcation criteria and crack propagation laws"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorial sessions"
+  ],
+  "workload_hours_total": 24.0,
+  "workload_hours_contact": 12.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1.",
+  "bibliography": [
+    "N. Recho : \"Rupture par fissuration des structures\", Ed. Hermès, 1995.",
+    "D. Broek : \"Elementary engineering fracture mechanics\", Kluwer Academic Publishers, 1996.",
+    "J. Lemaitre et J.-L. Chaboche : \"Mécanique des matériaux solides\", Ed. Dunod, 2ième ed. 1996.",
+    "D. François, A. Pineau et A. Zaoui : \"Comportement mécanique des matériaux\", Ed. Hermès, 1983.",
+    "J. -B. Leblond : \"Mécanique de la rupture fragile et ductile\", Ed. Hermès, 2003."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0772GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "d721c14935e3d3e0d312d309297d7b655b28f81a84bb60f8fbf716956d7908d0",
+  "extracted_at": "2026-11-18T09:52:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

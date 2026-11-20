@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Regulación Automática",
+  "course_name_en": "Automatic Regulation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Learn what a dynamic control system is, its constituent subsystems, and the stages for its realization.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know the classical methods for modeling linear dynamic systems and understand the fundamentals for designing models of electrical systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyze systems based on their models in both temporal and frequency domains.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the concept of feedback.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the classical control techniques and calculate controller parameters to ensure systems meet specified operating conditions.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Feedback control",
+    "Basic concepts.",
+    "Effects of feedback.",
+    "Basic elements of a feedback control system.",
+    "Introduction to design.",
+    "Dynamic behavior of LIT systems",
+    "LIT systems.",
+    "Time response.",
+    "Frequency response.",
+    "Analysis in the complex plane: root locus.",
+    "Stability.",
+    "PID Control",
+    "The PID controller.",
+    "PID controller structures.",
+    "Tuning methods.",
+    "Practical modifications.",
+    "Compensator Design",
+    "Generalities on compensators.",
+    "Design using the root locus.",
+    "Design using the frequency response.",
+    "The PID as a limit of the lag-lead compensator.",
+    "Practical considerations in control systems",
+    "Introduction.",
+    "Limitations.",
+    "Controller realizations."
+  ],
+  "teaching_methods": [
+    "Large group activities",
+    "Laboratory activities",
+    "Seminar or problem-solving classes",
+    "Scheduled tutorials",
+    "Personal study, individual or group work, and bibliography reading"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 63.5,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam and/or cumulative/eliminatory partial exams",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical activities in classroom, laboratory, computer room, field, visits, etc.",
+      "weight_percentage": null
+    },
+    {
+      "method": "Resolution and submission of activities (cases, problems, reports, assignments, projects, etc.), individually and/or in group",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active class participation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance to face-to-face activities",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the final grade is calculated from a final theoretical/practical exam (or two partial exams) worth 50%, practical activities worth 30%, and resolution/submission of individual/group tasks worth 20%. All components require a minimum score of 5 out of 10 to be considered. For global assessment, the final grade is determined by a theoretical exam worth 70% and a practical exam worth 30%. Both components require a minimum score of 5 out of 10. In both assessment paths, a minimum score of 5 out of 10 in both theoretical and practical components is required to pass the subject. If any condition for passing is not met, the final grade will be the minimum between 4 and the grade obtained in the passed part, if any.",
+  "bibliography": [
+    "Presentations and class notes, as well as other documentation provided by the faculty.",
+    "Norman S. Nise, Control Systems Engineering. Wiley 2011 (6th edition).",
+    "Antonio Visioli. Practical PID Control. Springer 2006.",
+    "Reference documents cited by the professor during the development of teaching activities.",
+    "Karl J. Aström, Richard M. Murray. Feedback Systems. An Introduction for Scientist and Engineers. Princeton 2008.",
+    "José Luis Guzmán Sánchez, Ramón Costa Castelló, Manuel Berenguel Soria, Sebastián Dormido Bencomo, Control Automático con herramientas interactivas. Pearson – UNED, 2012.",
+    "G. F. Franklin, et al. Control de sistemas dinámicos con retroalimentación. Addison Wesley (varias ediciones).",
+    "K. Ogata. Ingeniería de control moderna. Prentice Hall (varias ediciones)."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501074",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501074-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "3253db42d00a646a172d15689260a32b1783a1f8e6f6121d801da6865314aed2",
+  "extracted_at": "2026-11-13T21:34:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,164 @@
+{
+  "course_name_original": "Infraestructura Informática y de Red",
+  "course_name_en": "Computer and Network Infrastructure",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Metodología de la programación",
+    "Bases de datos",
+    "Algoritmia",
+    "Computadores"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will know how to apply their knowledge to their work or vocation in a professional way and possess the competences that are usually demonstrated by the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students will be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Students will have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to propose experiments and to describe, analyze, evaluate and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to solve problems.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG09"
+    },
+    {
+      "text": "Understand computer architecture and identify and evaluate the performance and scalability of computer systems used for processing large volumes of data.",
+      "type": "competence",
+      "code": "CE05"
+    },
+    {
+      "text": "Understand the basic properties of an infrastructure for data processing, storage, and transmission.",
+      "type": "knowledge",
+      "code": "RINF1"
+    },
+    {
+      "text": "Understand the architecture of the Internet, its protocols, and the services it provides.",
+      "type": "knowledge",
+      "code": "RINF2"
+    },
+    {
+      "text": "Understand the connection of computers via local networks and their interconnection with other networks.",
+      "type": "knowledge",
+      "code": "RINF3"
+    },
+    {
+      "text": "Know the technologies and operation of peripherals for data storage and use systems for massive data storage.",
+      "type": "knowledge",
+      "code": "RINF4"
+    },
+    {
+      "text": "Know and use systems for massive data processing.",
+      "type": "knowledge",
+      "code": "RINF5"
+    },
+    {
+      "text": "Understand and apply virtualization technologies.",
+      "type": "skill",
+      "code": "RINF6"
+    },
+    {
+      "text": "Know, select, and use cloud components for data processing and storage.",
+      "type": "skill",
+      "code": "RINF7"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and historical evolution of networks",
+    "Protocol architectures",
+    "Physical layer",
+    "Data link layer",
+    "Network layer",
+    "TCP/IP architecture",
+    "Network interconnection",
+    "Processing technologies",
+    "Storage technologies",
+    "Virtualization technologies",
+    "Operational guarantee",
+    "Data processing centers",
+    "Energy efficiency",
+    "Cloud computing"
+  ],
+  "teaching_methods": [
+    "Expositive classes (in-person)",
+    "Laboratory practices (in-person)",
+    "Online expositive classes",
+    "Online laboratory practices",
+    "Autonomous study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical part final exam",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Practical part final exam",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Attendance to practical sessions",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in online activities (two questionnaires)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as: Note = NTeo x 0.45 + NPrac x 0.4 + NAsis x 0.05 + NAct x 0.1. A minimum score of 40% is required in both the theoretical (NTeo) and practical (NPrac) parts to pass the course. If the minimum is not reached, the final grade will be the lesser of 4.5 points and the calculated grade. For extraordinary calls, the final grade is: Note = NTeo x 0.5 + NPrac x 0.5; a minimum of 40% in NTeo and NPrac is also required, and if not met, the final grade will be the lesser of 4.5 points and the calculated grade. Fraudulent conduct in any evaluable test will result in a 0-Fail grade for the corresponding call.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, 7ª Ed., William Stallings, Prentice Hall.",
+    "Storage Networks Explained: Basics and Application of Fibre Channel SAN, NAS, iSCSI, InfiniBand and FCoE. Ulf Troppens, Wolfgang Müller-Friedt, Rainer Wolafka, Rainer Erkens, y Nils Haustein. Wiley, 2009",
+    "Redes de ordenadores, 4ª Ed., Andrew S. Tanenbaum, Prentice Hall.",
+    "Redes de comunicación. Conceptos fundamentales y arquitecturas básicas, Alberto León-García, McGraw-Hill.",
+    "Tutorial sobre cloud computing y virtualización. https://www.tutorialspoint.com/cloud_computing/index.htm",
+    "Documentación técnica de Microsoft.. http://docs.microsoft.com/es-es"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-006",
+  "source_language": "es",
+  "source_sha256": "a0af4fd654497e82c9c86790f5b4b49e24c321d92495122f4b8e1bc454ba1a4b",
+  "extracted_at": "2026-11-20T06:05:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,107 @@
+{
+  "course_name_original": "Ingenieurmathematik III",
+  "course_name_en": "Engineering Mathematics III",
+  "ects": 6.0,
+  "semester": "1 Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Ingenieurmathematik I and II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the problems that arise when calculating with floating-point numbers and have learned methods to examine algorithms for their stability.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know a number of different numerical methods for relevant application problems and can select the appropriate one based on the properties of the methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have gained initial experience with the practical implementation of numerical algorithms in computer programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to work independently and in teams, depending on the question, and to apply their knowledge of mathematics to new problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "They can partially solve emerging problems independently with the help of literature.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "In the event of greater difficulties, students can specifically seek help.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students work persistently even on more complex problems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Floating-point numbers, rounding errors and stability",
+    "Solution of linear equation systems: Conditioning, LR decomposition, Pivoting, Irregular systems",
+    "Polynomial interpolation, numerical differentiation, extrapolation",
+    "Trigonometric interpolation, Discrete Fourier Transform",
+    "Numerical integration",
+    "Iterative solution of linear and non-linear equation systems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Beamer presentations for examples",
+    "Demonstrations and exercises on the computer"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Oral exam (30 minutes, individual examination)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Homework exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Successful completion of exercise tasks in homework and/or in-class exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "If there are 10 or more participants, the assessment is a written exam (120 minutes). If there are fewer than 10 participants, the assessment is an oral exam (30 minutes, individual examination). Homework exercises are a mandatory prerequisite for the written/oral exam.",
+  "bibliography": [
+    "Bärwolff, Günter: Numerik für Ingenieure, Physiker und Informatiker, Springer Spektrum: Berlin/Heidelberg (2. Auflage) 2016.",
+    "Dahmen, Wolfgang/ Reusken, Arnold: Numerik für Ingenieure und Naturwissenschaftler, Springer: Berlin u. a. (2. korr. Aufl.) 2008.",
+    "Hanke-Bourgeois, Martin: Grundlagen der numerischen Mathematik und des wissenschaftlichen Rechnens, Vieweg + Teubner Verlag: Wiesbaden (3. akt. Aufl.) 2009.",
+    "Plato, Robert: Numerische Mathematik kompakt. Grundlagenwissen für Studium und Praxis, Vieweg + Teubner Verlag: Wiesbaden (4. aktual. Aufl.) 2010.",
+    "Rannacher, Rolf: Einführung in die numerische Mathematik, Heidelberg University Publishing: Heidelberg 2017.",
+    "Schwarz, Hans Rudolf/Köckler, Norbert.: Numerische Mathematik”, Vieweg + Teubner Verlag: Wiesbaden (8. akt. Aufl.) 2011."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "ingenieurmathematik-iii",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "819df2285815ef67418c1e92b29ee936937c4ce5d9e6138a6c12824ae1c5df61",
+  "extracted_at": "2026-11-18T09:49:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

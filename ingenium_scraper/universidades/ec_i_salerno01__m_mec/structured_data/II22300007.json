@@ -1,0 +1,87 @@
+{
+  "course_name_original": "MACHINE DESIGN AND FINITE ELEMENT METHOD",
+  "course_name_en": "Machine Design and Finite Element Method",
+  "ects": 9.0,
+  "semester": "SPRING SEMESTER",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Mathematical background (differential equations, integral calculus and matrix algebra)",
+    "Physics background",
+    "Material resistance",
+    "Graphical representation capabilities",
+    "Basic concepts of fatigue",
+    "Basic concepts of fracture mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Learn the design aspects of mechanical components, with particular reference to the metallic material resistance, in order to assess the component sizing and make a failure diagnosis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Gain knowledge on low cycle uniaxial fatigue, high cycle multiaxial fatigue, fracture mechanics, plasticity and creep.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn how to leverage numerical tools for stress analysis calculations with particular reference to the Finite Element Method (FEM).",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Multiaxial fatigue: critical plane and energetic approaches",
+    "Elastic fracture mechanics",
+    "Static and fatigue crack propagation models",
+    "Thermomechanical fatigue",
+    "Plasticity",
+    "Creep",
+    "Introduction to the Boundary Element Method (BEM) with reference to potential and elastostatic problems",
+    "FEM (analytical background, governing equations, type of elements, software development and validation) applications"
+  ],
+  "teaching_methods": [
+    "Theoretical lectures",
+    "Practical exercises",
+    "Test cases to be solved by groups of students"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam, students must recall fundamental concepts of linear elasticity and fatigue, successfully solve written problems, and present a well-structured FEM project. To achieve the highest marks, a deep comprehension of advanced concepts in machine design theory and FEM theory is required. Knowledge of seminar content is only needed to achieve the cum laude mark.",
+  "bibliography": [
+    "L. VERGANI, MECCANICA DEI MATERIALI, MCGRAW-HILL. (From this book the student can study: plasticity, fracture mechanics, low cycle uniaxial fatigue).",
+    "P. DAVOLI, A. BERNASCONI, M. FILIPPINI, S. FOLETTI, COMPORTAMENTO MECCANICO DEI MATERIALI, MCGRAW-HILL. (From this book the student can study: plasticity, in addition to what available in the book N.1, high cycle multiaxial fatigue).",
+    "G. BELLONI, A. LO CONTE, COSTRUZIONE DI MACCHINE (RESISTENZA DEI MATERIALI E SICUREZZA), HOEPLI. (From this book the student can study: fracture mechanics in addition to what available from book N.1, creep).",
+    "G. BELINGARDI, IL METODO DEGLI ELEMENTI FINITI NELLA PROGETTAZIONE MECCANICA, LIBRERIA EDITRICE UNIVERSITARIA, LEVROTTO E BELLA, TORINO."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Laurea Magistrale en Ingegneria Meccanica (LM-33)",
+  "institution_slug": "ec_i_salerno01__m_mec",
+  "degree": "Laurea Magistrale in Ingegneria Meccanica (Mechanical Engineering), classe LM-33 Classe delle lauree magistrali in Ingegneria meccanica",
+  "course_code": "II22300007",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=521508&ordinamento_aa=2026&af_percorso=10001&corso_cod=500897&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "44bb37268eca33d527e2bb4ff208c243e3ba51d2d90f09b598935b2843295e49",
+  "extracted_at": "2026-11-20T12:46:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

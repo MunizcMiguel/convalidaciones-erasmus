@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Controlli Automatici",
+  "course_name_en": "Automatic Control",
+  "ects": 9.0,
+  "semester": "Second Semester Cycle",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "English",
+    "Calculus II",
+    "Complex numbers",
+    "Differential equations (brief overview)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To describe and analyze, from both a temporal and frequency perspective, feedback dynamic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To design controllers, including discrete ones, capable of improving the dynamic performance of feedback systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through classroom lectures, the student learns the main methods of temporal and frequency analysis of linear dynamic systems and the synthesis of simple corrector networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to analyze the temporal and frequency dynamics of linear physical systems described by transfer functions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The analysis methods and control techniques studied provide the student with the possibility to analyze and control linear physical systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The theoretical lessons provide the student with the ability to express the learned concepts with appropriate language and to sustain a discussion about the topics covered.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The described activities allow the student to acquire methodological tools to continue their studies and to be able to autonomously update their knowledge.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental concepts: Systems and mathematical models. Block diagrams. Signal flow graphs. Mason's formula. Direct and feedback control. Mathematical models of some dynamic systems.",
+    "Methods for analyzing linear dynamic systems: Differential equations. Laplace transform. Properties of the Laplace transform. Partial fraction decomposition. Impulse response. Analysis of first and second order systems. Systems with dominant poles.",
+    "Harmonic analysis: The harmonic response function. Bode diagrams. Frequency response of dominant pole systems. Bode's formula. Nyquist diagrams. Qualitative plotting of Bode and Nyquist diagrams. Nichols diagrams.",
+    "Stability and feedback systems: Stability of linear dynamic systems. Routh criterion. General properties of feedback systems. Insensitivity to disturbances. Steady-state errors. Nyquist criterion. Phase margin. Gain margin. Systems with finite delays. Resonance frequency. Resonance peak. Bandwidth.",
+    "Root locus method: Definition and properties of the root locus. Rules for qualitative plotting of the root locus. Root contour.",
+    "Design of corrector networks: Specification data and their compatibility. Lag network. Lead network. Lag-lead network. Inversion formulas. Synthesis of corrector networks on the Nichols plane and on the Nyquist plane. Standard PID controllers.",
+    "Introduction to nonlinear feedback systems: Stability of nonlinear systems. Determination of operating points. Circle criterion. Introduction to the describing function method.",
+    "Digital control: Discrete systems. Difference equations. Z-transform. Inverse Z-transform. Correspondence between the s-plane and the z-plane. Discretization of continuous-time controllers.",
+    "Review exercises on course topics."
+  ],
+  "teaching_methods": [
+    "Lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written partial exam (Controls A)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Written partial exam (Controls B)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Optional point for Matlab Onramp course completion",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (alternative for those not taking partials)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of two written partial exams (Controls A and Controls B). The final grade is the average of the two best passing grades obtained in the two written exams. Students can add one point to the average if they complete the 'Matlab Onramp' course online. If the final average is between 17.5 and 29.5, the final grade is the rounded average; if it's between 29.5 and 31.5, the final grade is 30; if it's 31.5 or higher, the final grade is 30 cum laude. Students who do not wish to take the partial exams may opt for an oral exam.",
+  "bibliography": [
+    "G. Marro, \"Controlli Automatici\", Zanichelli, Bologna.",
+    "Video and lecture slides by the instructor.",
+    "Esercizi di Controlli Automatici\", Esculapio, Bologna, 2011.",
+    "P. Bolzern, R. Scattolini, N. Schiavoni, “Fondamenti di Controlli Automatici”, McGraw-Hill Libri Italia, Milano, 1998.",
+    "G.F. Franklin, J.D. Powell, A. Emami-Naeini, “Feedback Control of Dynamic Systems”, Third Edition, Addison-Wesley, 1994.",
+    "R.C. Dorf, R.H. Bishop, “Modern Control Systems”, Eighth Edition, Addison-Wesley, 1998.",
+    "B.C. Kuo, “Automatic Control Systems”, Seventh Edition, Prentice Hall, 1995.",
+    "C.L. Phillips, R.D. Harbor, “Feed Control Systems”, Fourth Edition, Prentice Hall International, 2000.",
+    "G.F. Franklin, J.D. Powell, M. Workman, “Digital Control of Dynamic Systems”, Third Edition, Addison-Wesley, 1998."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia",
+  "institution_slug": "ec_i_modena01",
+  "degree": "Laurea in Ingegneria Elettronica (Electronic Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "ELE-012R",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=29480&ordinamento_aa=2025&af_percorso=10001&corso_cod=10924&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "5bbe1057348e4bc35e2b3ff8cda105bd9474b9c5dd6b091f58b13738a8952959",
+  "extracted_at": "2026-11-20T08:18:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

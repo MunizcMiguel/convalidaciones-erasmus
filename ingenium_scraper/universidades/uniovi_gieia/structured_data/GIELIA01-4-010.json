@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Sistemas Electrónicos de Medida y Transmisión de Señales",
+  "course_name_en": "Electronic Measurement and Signal Transmission Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analog electronics",
+    "Digital electronics",
+    "Fundamentals of sensors and signal conditioners",
+    "Basic C language programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Upon passing the course, the student will be able to select the appropriate sensor for common electrical measurements: voltage, current, resistance, capacitance, charge, etc.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Upon passing the course, the student will be able to design a complete basic measurement system for the most common electrical measurements.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "Upon passing the course, the student will be able to select and use appropriate laboratory instrumentation for measuring electrical signals.",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Upon passing the course, the student will be able to select the transmission medium according to the characteristics of the signal to be transmitted and the specifications.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Upon passing the course, the student will be able to select and use suitable commercial circuits for magnitude conversion and signal modulation and demodulation.",
+      "type": "skill",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to embedded systems",
+    "Overview",
+    "Comparison with microcontrollers",
+    "Main peripherals",
+    "I/O ports",
+    "Basic time control",
+    "User block for configuration",
+    "FLASH memory for data storage",
+    "Serial communications",
+    "Asynchronous serial, RS232, RS485",
+    "Asynchronous serial to USB",
+    "SPI",
+    "I2C",
+    "CAN",
+    "Digital sensors",
+    "Temperature and humidity",
+    "Accelerometers",
+    "Measurement of electrical magnitudes",
+    "Proximity",
+    "Encoders",
+    "TCP/IP communications",
+    "Using TCP/IP sockets",
+    "Control via http",
+    "FTP",
+    "SMTP",
+    "Wireless communications",
+    "Basic concepts of wireless transmission",
+    "Zigbee",
+    "Wifi",
+    "Bluetooth"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 148.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active Participation (PA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 5 out of 10 in the Theoretical Exam (T1) is mandatory. The final grade is calculated as (0.95 x (0.5 x (P1 + T1))) + (0.05 x PA), provided all minimums are met. Otherwise, the final grade will be the minimum of the calculated score and 4.0. For the extraordinary call, the theoretical exam evaluates all theoretical content, and the grade obtained in this exam will be the final grade for this part. In case of doubt regarding authorship or unauthorized means, a face-to-face defense may be requested.",
+  "bibliography": [
+    "Desarrollo con procesadores y módulos Rabbit Sergio R. Caprile",
+    "Embedded Systems Design using the Rabbit 3000 Microprocessor - Interfacing, Networking, and Application Development Kamal Hyder & Bob Perrin",
+    "Embedded Ethernet and Internet Complete, Designing and programming small devices for networking Jan Axelson",
+    "Hojas de caracteristicas y manuales de componentes digitales programables."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-010",
+  "source_language": "es",
+  "source_sha256": "e4a8579f5896f683638a2ee79f98b150b27a4dac562721a761d0993843d76fd5",
+  "extracted_at": "2026-11-20T01:13:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

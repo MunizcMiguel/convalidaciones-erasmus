@@ -1,0 +1,105 @@
+{
+  "course_name_original": "FONDAMENTI DI TELECOMUNICAZIONI",
+  "course_name_en": "FUNDAMENTALS OF TELECOMMUNICATIONS",
+  "ects": 6.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Solid knowledge of the notions provided by the course of Signal Theory: Fourier theory of periodic and aperiodic deterministic signals, random variables, stochastic processes and their spectral analysis."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the basic principles of telecommunications, the characteristics of the signals used and their propagation modes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the different analog and digital signal modulation and demodulation systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the disturbances affecting the received signals and their statistical characterization.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to characterize, analyze and quantify signal disturbances and their effects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to comparatively and critically analyze the different transmission and reception, modulation and demodulation schemes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to make autonomous choices regarding the design of an analog or digital telecommunications system.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to logically present demonstrations related to the characterization of random signals and disturbances.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to logically present technical demonstrations on the characteristics of specific telecommunications systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously carry out the complete characterization of a telecommunications system.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Signals and telecommunication systems.",
+    "Principles of propagation.",
+    "Transmission via modulation of analog and digital signals.",
+    "Spectral efficiency.",
+    "Efficiency of modulation/demodulation schemes against noise.",
+    "Introduction to communication systems: information and disturbance, information sources, architecture of a communication system, wireless and wired communication systems, frequency allocation, notes on signal propagation mode, with particular reference to wireless systems.",
+    "Disturbances in communication systems: band-filtered white noise, thermal noise, noise figure, equivalent noise temperature, noise figure of cascaded systems.",
+    "Analog modulations. Classic AM modulation, AM-DSB modulation, AM-SSB modulation, angular modulations (PM and FM). Modulators and demodulators, noise performance, threshold effect. Signal multiplexing: FDM and TDM. Superheterodyne and homodyne receivers.",
+    "Numerical modulations. Baseband pulse modulations: \"flat top\" and \"natural gating\" PAM, PDM and PPM, quantized pulse modulations, PCM, differential PCM, line codes: unipolar and bipolar NRZ and RZ. Gray coding. Binary numerical modulations: OOK, BPSK, FSK and CPFSK. Transmission band. Relationship between total signal-to-noise ratio, signal-to-noise ratio per bit and spectral efficiency. Multilevel modulations: M-PAM, M-PSK (QPSK and OQPSK), QAM. Transmission band and spectral efficiency. Error probability in numerical modulations: decision regions and maximum likelihood receiver. Optimal receiver schemes. Error bound."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Frontal lessons with whiteboard only"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The oral exam verifies knowledge and understanding of basic principles, modulation/demodulation systems, and disturbances, as well as the ability to apply this knowledge through exercises. The assessment ranges from 'Insufficient' for severe conceptual errors to '29-30 e Lode' for complete, in-depth knowledge and critical thinking. 'Lode' (cum laude) is awarded for excellent and original performance.",
+  "bibliography": [
+    "Leon W. Couch II Fondamenti di Telecomunicazioni, Settima edizione, Pearson",
+    "S. Haykin: “Communication systems”, Ed. Wiley.",
+    "G. Benelli, V. Cappellini, E. Del Re: “Note di comunicazioni elettriche” Ed. Libreria Alfani.",
+    "V. Lottici “Esercizi di comunicazioni elettriche” Edizioni ETS Pisa",
+    "For reviews of probability theory and random processes, reading chapters 7 and 8 of M. Luise, G.M. Vitetta: “Teoria dei Segnali” Ed. Mc Graw – Hill Italia is strongly recommended."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B024396",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45510_B244-21-24_60701_732000&ordinamento_aa=2021&af_percorso=45510&corso_cod=1437&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "72c24b3125d3bbd8bb3774724f90d1be4adb036e1e6d270650bdbbb56f83b535",
+  "extracted_at": "2026-11-20T12:45:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

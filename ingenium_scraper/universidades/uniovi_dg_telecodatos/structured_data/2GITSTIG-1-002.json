@@ -1,0 +1,107 @@
+{
+  "course_name_original": "Estructuras Discretas y Análisis de Algoritmos",
+  "course_name_en": "Discrete Structures and Algorithm Analysis",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Notions of mathematical notation and language",
+    "Certain skill in using demonstrative methods"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the basic elements of directed and undirected graphs, accessibility and connection problems, Eulerian and Hamiltonian graphs, and planarity and coloring.",
+      "type": "knowledge",
+      "code": "REST1"
+    },
+    {
+      "text": "Know the classic algorithms that solve accessibility and connection problems.",
+      "type": "knowledge",
+      "code": "REST2"
+    },
+    {
+      "text": "Identify and distinguish directed and undirected trees, and the specific problems of each type of tree such as spanning trees or binary tree traversals, and some algorithms to solve these and other problems on trees.",
+      "type": "skill",
+      "code": "REST3"
+    },
+    {
+      "text": "Know the basic techniques for calculating cardinals.",
+      "type": "knowledge",
+      "code": "REST4"
+    },
+    {
+      "text": "Calculate the asymptotic behavior of the time used by an algorithm.",
+      "type": "skill",
+      "code": "REST5"
+    }
+  ],
+  "syllabus_topics": [
+    "Sets and relations",
+    "Graph representation: Directed graphs, Undirected graphs and Weighted graphs",
+    "Basic concepts in graphs",
+    "Paths: Accessibility and connection. Articulation points and bridges.",
+    "Graphs and relations",
+    "Matching, covering, and stability.",
+    "Eulerian and Hamiltonian paths.",
+    "Trees: undirected, directed, n-ary, and tree traversals",
+    "Planarity and coloring",
+    "Network and flow problems",
+    "Basic counting principles",
+    "Variations, permutations, and combinations",
+    "Combinatorial numbers",
+    "Recurrence",
+    "Asymptotic analysis of functions"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Online asynchronous training activities",
+    "Student autonomous work",
+    "Laboratory practices",
+    "Evaluation sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class attendance (A)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation (PA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, it is mandatory to obtain a minimum of 5 out of 10 points in both Partial Exam 1 (P1) and Partial Exam 2 (P2). If all minimums are met, the final grade is calculated as: (0.85 * (0.5 * (P1 + P2))) + (0.10 * PA) + (0.05 * A). Otherwise, the qualification will be the minimum between the calculated grade and 4.0. For extraordinary calls, a single theoretical exam covers P1 and P2, each requiring a minimum of 5 out of 10 points; the final grade is (0.5 * P1) + (0.5 * P2), or the minimum of this grade and 4.0 if minimums are not met.",
+  "bibliography": [
+    "Abellanas, M.; Lodares, D. *Análisis de Algoritmos y Teoría de Grafos*. Ra-ma",
+    "Berge, D. C. *Graphs and hypergraphs*. Elsevier",
+    "Kenneth H. Rosen. *Matemática discreta y sus aplicaciones*. Mc. Graw Hill",
+    "Félix García Merayo. *Matemática Discreta*. Paraninfo. Thomson Learning",
+    "Fred S. Roberts; Barry Tesman. *Applied Combinatorics (2nd edition)*. CRC Press. Taylor Francis Group",
+    "Preparata, Y. *Introduction to Discrete Structures*. Addison-Wesley",
+    "Caballero Roldan, R. y otros. *Matemática Discreta para Informáticos. Ejercicios resueltos*. Prentice-Hall"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-1-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-002",
+  "source_language": "es",
+  "source_sha256": "21d1316d7634b39e1920a70708988697438723ba864f08190ef67d5ad7921461",
+  "extracted_at": "2026-11-20T06:05:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

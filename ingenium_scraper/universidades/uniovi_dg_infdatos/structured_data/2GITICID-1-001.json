@@ -1,0 +1,136 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics I (Baccalaureate)",
+    "Mathematics II (Baccalaureate)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra.",
+      "type": "competence",
+      "code": "EFB1.1"
+    },
+    {
+      "text": "Ability to abstract: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "competence",
+      "code": "GTR3"
+    },
+    {
+      "text": "Use the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "unspecified",
+      "code": "FM1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces and linear applications and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "FM2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces, through the scalar product, norm, or distance.",
+      "type": "unspecified",
+      "code": "FM3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "FM4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and space.",
+      "type": "unspecified",
+      "code": "FM5"
+    },
+    {
+      "text": "Identify the basic elements of differential equations and systems of differential equations and use algebraic tools to solve elementary cases.",
+      "type": "unspecified",
+      "code": "FM6"
+    }
+  ],
+  "syllabus_topics": [
+    "Conjuntos",
+    "Relaciones binarias",
+    "Aplicaciones: inyectividad, suprayectividad y biyectividad",
+    "Números complejos",
+    "Matrices y propiedades básicas. Determinantes.",
+    "Resolución de sistemas a través del Método de Gauss.",
+    "Estructura de espacio vectorial.",
+    "Combinaciones lineales e independencia lineal. Bases y dimensión. Coordenadas.",
+    "Subespacios vectoriales.",
+    "Definición y propiedades.",
+    "Matriz asociada. Cambio de base.",
+    "Núcleo e imagen de una aplicación. Clasificación.",
+    "Producto escalar y cuadrado escalar",
+    "Longitudes y ángulos entre vectores",
+    "Ortogonalidad: bases ortogonales y ortonormales",
+    "Proyección ortogonal",
+    "Valores y vectores propios.",
+    "Diagonalización de endomorfismos y matrices y aplicaciones.",
+    "Diagnalización de endomorfismos en bases ortonormales.",
+    "Introduction to the tool (Matlab)",
+    "Sets and complex numbers (Matlab)",
+    "Matrices, systems and determinants (Matlab)",
+    "Vector spaces: changes of basis (Matlab)",
+    "Scalar products and orthogonal projections (Matlab)"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Individual work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment of laboratory practices",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory practices exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as NF = 0.15 NL + max(0.15 NA + 0.7 NC, 0.85 NC), where NL is the laboratory practices grade, NA is the classroom practices grade, and NC = (P1 + P2)/2 is the average grade of the partial exams. To pass, NF must be >= 5, NL >= 3, and NC >= 3; otherwise, the final grade will be min(NF, 4.5). For classroom practices, attendance to at least 80% of programmed sessions is required. In extraordinary calls, students can improve NC and/or NL through written exams or laboratory practice tests, retaining the other grade if only one part is repeated.",
+  "bibliography": [
+    "Poole, D. Álgebra Lineal: Una introducción moderna (3ª Ed.) 2011. Thomson.",
+    "Pelayo, I. y Rubio, F. Álgebra Lineal básica para ingeniería civil.(1ª ed.) 2008. UPC.",
+    "Nakos, G.; Joyner, D. Álgebra Lineal con Aplicaciones. Thomson, 1999."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-1-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-1-001",
+  "source_language": "es",
+  "source_sha256": "6dde43e84ff32b47734c21f13b3e6829512c0621bfd8265ac39cebd13f5d97db",
+  "extracted_at": "2026-11-20T05:56:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

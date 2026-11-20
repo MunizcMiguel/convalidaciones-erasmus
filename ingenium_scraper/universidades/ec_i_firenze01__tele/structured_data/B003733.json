@@ -1,0 +1,188 @@
+{
+  "course_name_original": "LABORATORIO DI ELETTRONICA DIGITALE (B003733)",
+  "course_name_en": "DIGITAL ELECTRONICS LABORATORY (B003733)",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it",
+    "en"
+  ],
+  "prerequisites": [
+    "General Electronics",
+    "basics of combinatorial logic",
+    "Digital Systems Electronics (strongly recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of combinational and sequential logic networks, state machines, and memories.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the architecture of programmable digital circuits like PLDs and CPLDs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of embedded systems and microprocessors.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the VHDL language for hardware description.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of using CAD for VHDL code synthesis and simulation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of microcontroller characteristics and programming methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and synthesize combinational digital networks and state machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to describe simple digital circuits in VHDL.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to independently use CAD for VHDL synthesis and simulation (Quartus Prime, Modelsim), and for writing microcontroller code in laboratory activities (STM32CubeIde).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to write microcontroller code for simple real-time applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to independently make simple design choices for the synthesis of digital circuits and microcontroller applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to correctly describe the design of a digital circuit on CPLD and/or microcontroller.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to independently find technical documentation on digital electronic devices.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Microprocessors and Embedded Systems",
+    "EEPROM and FLASH Memories",
+    "Dual-Port Memories",
+    "FIFO Memories",
+    "Dynamic Memories",
+    "Elements of sequential logic networks",
+    "State machines",
+    "Programmable Digital Circuits: CPLD and FPGA",
+    "VHDL Language",
+    "Quartus prime development environment",
+    "Laboratory exercises on CAD usage for microcontrollers",
+    "Embedded Systems and Microcontrollers",
+    "Elements of Embedded system design",
+    "Electronic devices for Embedded systems",
+    "Power consumption containment techniques",
+    "Real-Time operation",
+    "Embedded data processing",
+    "Microcontroller as the heart of the Embedded system",
+    "Programming techniques",
+    "Addressing space",
+    "Boot process",
+    "Interruptions",
+    "Control and status registers",
+    "Standard peripherals like UART, SPI, Bidirectional parallel bus, ADC",
+    "Timers and input capture peripherals",
+    "Reset circuit and watch-dog",
+    "Digital Memories",
+    "ROM memories",
+    "Decoding circuits and junction and MOS memory matrix",
+    "FAMOS device structure and operation",
+    "EPROM programming and erasing",
+    "Flash memories",
+    "Data Endurance and retention",
+    "Static RAMs, elementary cells and organization",
+    "Read and write circuits",
+    "Static RAMs, elementary cell and sensing amplifier circuit",
+    "SDRAM and DDR memories, operation logic",
+    "Dual-port memories, elementary cell, pin-out and operation logic",
+    "FIFO memories, architecture, status flags and operation logic",
+    "Access and timing for ROM and RAM memories, in read and write",
+    "Overview of latest technologies: Ferroelectric RAM (FeRAM), Hybrid Memory Cube (HMC), Phase Change Memory (PCM), Memristor memories",
+    "Programmable Digital Circuits",
+    "Logic networks for programmable circuits: review of Boolean algebra and analysis and synthesis of combinational and sequential circuits",
+    "Hazards and techniques to avoid them",
+    "Mealy and Moore state machines",
+    "Synthesis of a network on a given architecture",
+    "PROM, PAL, PLD",
+    "CPLD and FPGA: Detailed architecture of a commercial device from the Altera MAX3000 family",
+    "Macrocelle structure and interconnection buses",
+    "Dedicated signals",
+    "I/O blocks",
+    "Timing model",
+    "FPGA architecture",
+    "VHDL Language: Entity and Architecture",
+    "Hierarchical structure",
+    "Implementation of combinational circuits like Multiplexers, Demultiplexers, Comparators, Encoders, Decoders",
+    "Implementation of sequential circuits and state machines",
+    "Examples",
+    "Rules to follow and typical errors",
+    "CAD applied to programmable circuits: Top-Down design technique, Schematic Entry, Simulation, Constraints, Fitting, Configuration",
+    "Altera Quartus prime development environment",
+    "Laboratory Exercises",
+    "Students will apply what they have learned in the course",
+    "Working in small groups, they will use Quartus prime and STM32CubeIde CADs with a microcontroller development board and an FPGA board",
+    "Students will develop small projects to decode signals, drive displays, read buttons, etc."
+  ],
+  "teaching_methods": [
+    "Laboratory",
+    "Lecture",
+    "Seminars from industry experts"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (first available session after course end)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (remaining sessions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment verifies knowledge and understanding through open questions, ability to apply knowledge and understanding through exercises (logic network synthesis/analysis, VHDL code, CAD usage for projects, microcontroller solutions), autonomy of judgment through exercises on simple projects involving autonomous choices, communicative abilities through proper use of technical language, and learning ability through questions on laboratory activity. Grading is based on a scale from Insufficient to 30 e Lode. A minimum of 18 is required for a passing grade, indicating elementary knowledge and ability to handle simple tasks. Excellent grades (29-30 e Lode) signify complete, in-depth knowledge, autonomous and flexible operation, and critical abilities.",
+  "bibliography": [
+    "Paolo Spirito, ELETTRONICA DIGITALE , McGraw-Hill",
+    "M. M. Mano, C.R. Kime, RETI LOGICHE, Pearson, Prentice Hall",
+    "J. M. Rabaey, A. Chandrakasan, B. Nikolic, CIRCUITI INTEGRATI DIGITALI, Pearson, Prentice Hall.",
+    "Check the bibliography on onesearch (https://onesearch.unifi.it/). For help contact your library"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B003733",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45510_B244-21-24_21949_731998&ordinamento_aa=2021&af_percorso=45510&corso_cod=1437&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "b8ce9f51624aa0c448458ddc2c7b0ed9732f4cc7275730e60a3a785b1182e7a3",
+  "extracted_at": "2026-11-20T12:45:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

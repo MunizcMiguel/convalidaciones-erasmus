@@ -1,0 +1,169 @@
+{
+  "course_name_original": "Computación Numérica",
+  "course_name_en": "Numerical Computing",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Basic knowledge of Calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude for applying knowledge on numerical methods and numerical algorithms. Aptitude for applying knowledge on optimization.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to plan and organize personal work.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to integrate quickly and work efficiently in unidisciplinary teams and to collaborate in a multidisciplinary environment.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability for effective communication (in expression and comprehension), oral and written, with special emphasis on drafting technical documentation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be motivated by quality and continuous improvement and act rigorously in professional development.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify the different types of errors that can be made in the use of numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision, and the computational cost.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Evaluate and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Describe, analyze, and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Numerically solve problems of interpolation, one-dimensional data fitting, and function approximation.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use formulas to approximately obtain the definite integral of a function.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Describe, use, and evaluate basic numerical methods for solving optimization problems.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "1. Finite arithmetic. Error analysis.",
+    "1.1 Error concepts",
+    "1.2 Computer arithmetic",
+    "1.3 Error analysis",
+    "2. Numerical solution of non-linear equations.",
+    "2.1 Interval methods",
+    "2.2 Fixed-point methods",
+    "2.3 Newton's method",
+    "2.4 Algebraic equations",
+    "3. Numerical methods for solving linear and non-linear systems.",
+    "3.1 Direct methods",
+    "3.2 Iterative methods",
+    "3.3 Non-linear systems",
+    "4. Interpolation. Approximation. Data fitting.",
+    "4.1 Interpolation",
+    "4.2 Data fitting",
+    "4.3 Continuous approximation",
+    "5. Numerical integration.",
+    "5.1 Simple quadrature rules",
+    "5.2 Compound quadrature rules",
+    "6. Numerical optimization.",
+    "6.1 Optimization in one variable",
+    "6.2 Optimization in several variables"
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practices",
+    "Laboratory Practices",
+    "Expository Classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Block - Partial Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block - Partial Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block - Class participation (TP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block - Practical Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block - Practical Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block - Laboratory participation (L)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 3.5 out of 10 is required for both the theoretical and practical blocks. The theoretical block score is calculated as (0.45 x T1) + (0.45 x T2) + (0.10 x TP), and the practical block score as (0.25 x P1) + (0.25 x P2) + (0.5 x L), provided minimums are met and laboratory attendance is 80% or higher. The final grade is (0.6 x Theory) + (0.4 x Practices), otherwise, it will be the minimum of this formula and 4.0. For the extraordinary call, a theoretical exam and a practical exam evaluate all content; a minimum of 3.5 points in each part is required, and the final grade is calculated using the same 0.6/0.4 weighting or 4.0 if minimums are not met. For differentiated evaluation, theoretical and practical exams are the same, but the weight of T1 and T2 becomes 0.5 each if class participation (TP) is not possible, and minimums for approval are 4.5 in each part.",
+  "bibliography": [
+    "Burden, R. & Faires,J.D. \"Análisis Numérico\". International Thomson Publishing Company. (7ª Ed.). Madrid.2002.",
+    "A.Quarteroni-F. Saleri” CÁLCULO CIENTÍFICO con MATLAB y Octave”. Springer-Verlag (2006).",
+    "Chapra.S.C. & Canale,R.P. \"Metodos numericos para ingenieros (5ª Ed.)\" . McGraw Hill (2007) .",
+    "Conte, S. D. y Boor, C. \"Análisis Numérico\". Ed. McGraw-Hill.",
+    "J. M. Sanz-Serna. \"DIEZ LECCIONES DE CÁLCULO NUMÉRICO\". Universidad de Valladolid (1998)."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-2-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-008",
+  "source_language": "es",
+  "source_sha256": "97fcb83992a79ca3870fbe5a50fef8c221b9bff5108a04205af41674edb2426f",
+  "extracted_at": "2026-11-20T05:57:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

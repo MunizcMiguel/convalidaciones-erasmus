@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Ingeniería Asistida por Ordenador (0441814)",
+  "course_name_en": "Computer Aided Engineering",
+  "ects": 3.0,
+  "semester": "second semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "No prerequisites have been established."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Model mechanical parts or assemblies with Computer Aided Engineering tools and perform mechanical calculation using the finite element method.",
+      "type": "skill",
+      "code": "RA5"
+    },
+    {
+      "text": "Model mechanical parts or assemblies with Computer Aided Engineering tools and perform stationary and transient thermal simulations using the finite element method.",
+      "type": "skill",
+      "code": "RA6"
+    },
+    {
+      "text": "Model a mechanical assembly with Computer Aided Engineering tools and perform kinematic and dynamic simulation of the associated mechanism.",
+      "type": "skill",
+      "code": "RA7"
+    },
+    {
+      "text": "Model mechanical parts or assemblies with Computer Aided Engineering tools and simulate their manufacturing process.",
+      "type": "skill",
+      "code": "RA8"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Introduction to ANSYS (APDL environment)",
+    "Basic 2D modeling: Beams (APDL)",
+    "Basic 2D modeling: Truss structures (APDL)",
+    "Basic and intermediate 3D modeling: Workbench environment",
+    "Meshing Controls",
+    "Design Modeler",
+    "Plates and truss structures",
+    "Performing static simulations with concentrated and distributed loads, structural dynamic behavior analysis, calculation of resistance and stability",
+    "Performing stationary and transient thermal simulations (Heat transfer)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving sessions",
+    "Discussion classes",
+    "Laboratory activities",
+    "Group work",
+    "Personal study",
+    "Report writing",
+    "Practical exercises",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Partial Exam 2",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Two partial exams will be conducted throughout the semester, each contributing 50% to the final grade. To pass the course through continuous assessment, a mean score of 5 or more points is required, having obtained at least 3.5 points in each of the two partial exams. If these conditions are not met, the maximum continuous assessment grade will be four points. Students who do not pass by continuous assessment will take a comprehensive exam in the ordinary call, with no partials carried over. Students who fail both continuous assessment and the ordinary call will take a comprehensive exam in the extraordinary call, with no partials carried over.",
+  "bibliography": [
+    "Mary Kathryn Thompson y John Martin Thompson. ANSYS Mechanical APDL for Finite Element Analysis. Ed: Butterworth-Heinemann. ISBN: 978-0128129814",
+    "Najmuldeen Yousif Mahmood, Jabbar Hussein Mohmmed, Laith Jaafer Habeeb. ANSYS APDL for Mechanical Engineering: Part One: Mechanical Engineering Drawing. Ed: Noor Publishing (2016). ISBN: 978-3330800281",
+    "Tadeusz Stolarski, Y. Nakasone, S. Yoshimoto. Engineering Analysis with ANSYS Software. Ed. Butterworth-Heinemann (2018). ISBN: 978-0081021644"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Alfonso X El Sabio",
+  "institution_slug": "es_alfonso_x_sabio",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "0441814",
+  "academic_year": "2026-27",
+  "source_url": "https://www.uax.com/download/8642/file/GMC_Guias_Docentes_plan_2020.pdf",
+  "source_language": "es",
+  "source_sha256": "35f427d384ee945d0db62928f9ea967c504bcbeae29342e82f2ee330c831c3cf",
+  "extracted_at": "2026-11-14T01:15:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,187 @@
+{
+  "course_name_original": "Electrónica Industrial para Sistemas Mecatrónicos",
+  "course_name_en": "Industrial Electronics for Mechatronic Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic training in electronic circuit design: design tools like Proteus, Cadence, etc.",
+    "Basic training in digital electronics.",
+    "Knowledge of programming languages: C language, Java",
+    "Knowledge of microcontrollers"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know how to select the most suitable option for the control circuit, depending on the application, number of units, working environment.",
+      "type": "skill",
+      "code": "RA7"
+    },
+    {
+      "text": "Know the design phases of digital ASICs, as well as the basic concepts about Test.",
+      "type": "knowledge",
+      "code": "RA8"
+    },
+    {
+      "text": "Know the manufacturing processes of ASICs.",
+      "type": "knowledge",
+      "code": "RA9"
+    },
+    {
+      "text": "Know how to design digital circuits of medium complexity, using schematic entry.",
+      "type": "skill",
+      "code": "RA10"
+    },
+    {
+      "text": "Know how to design digital circuits of medium complexity, using hardware description languages.",
+      "type": "skill",
+      "code": "RA11"
+    },
+    {
+      "text": "Know the basic power circuits, which act as an intermediate between digital stages and power loads.",
+      "type": "knowledge",
+      "code": "RA12"
+    },
+    {
+      "text": "Select the necessary heat sinks for power devices.",
+      "type": "skill",
+      "code": "RA13"
+    },
+    {
+      "text": "Ability to evaluate and select commercial communication modules, according to the application.",
+      "type": "skill",
+      "code": "RA14"
+    },
+    {
+      "text": "Prepare technical specifications that allow problems in mechatronics engineering to be formulated, maintaining a global and integrative vision and using prescriptive, procedural or performance specifications as appropriate.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision-making and selection among possible solutions to an engineering problem.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Students know how to apply the acquired knowledge and their ability to solve problems in new or little-known environments within broader (or multidisciplinary) contexts related to their area of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "Students know how to communicate their conclusions and the knowledge and ultimate reasons that support them to specialized and non-specialized audiences in a clear and unambiguous way.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Students possess the learning skills that allow them to continue studying in a way that will largely be self-directed or autonomous.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Select the most suitable programmable logic devices in each case for the design of mechatronic systems, manage their development systems and design the interface stages that may be necessary.",
+      "type": "competence",
+      "code": "CE5"
+    },
+    {
+      "text": "Incorporate the necessary electrical, hydraulic and pneumatic sensors and actuators depending on the characteristics of the mechatronic system, its specifications and its integration.",
+      "type": "competence",
+      "code": "CE6"
+    },
+    {
+      "text": "Select electronic devices for instrumentation and control that allow conditioning and processing analog and digital signals from sensors and sent to typical actuators of a mechatronic system.",
+      "type": "competence",
+      "code": "CE7"
+    }
+  ],
+  "syllabus_topics": [
+    "Design of digital circuits with Programmable Logic Devices: FPGA, PLDs.",
+    "Commercial circuits",
+    "Introduction to Design and Testability of Application-Specific Integrated Circuits",
+    "Regulations",
+    "1.-Design of application-specific integrated circuits ASICs (fullcustom, semicustom)",
+    "1.1 Manufacturing technologies: NMOS, PMOS, Bipolar",
+    "1.2 Digital design",
+    "1.3 Analog design",
+    "1.4 Integrated Circuit Test",
+    "2.- ASIC Manufacturing Processes.",
+    "2 Introduction",
+    "2 Economic Aspects",
+    "3.- Programmable logic devices: PLDs, FPGAs.",
+    "3.1 Introduction",
+    "3.2 Quartus design environment",
+    "3.3 Schematic entry",
+    "3.4 Simulation",
+    "3.5 Simulation environments",
+    "4.- Hardware description languages (VHDL).",
+    "4.1 Introduction",
+    "4.2 Description of combinational circuits",
+    "4.3 Description of sequential circuits",
+    "4.4 Design examples",
+    "5.- Commercial circuits",
+    "5.1 Basic actuators",
+    "5.2 Specific circuits: power drivers, bluetooth modules",
+    "5.3 Heat sink calculation",
+    "6.- Regulations",
+    "6.1 Radiated and conducted EMI",
+    "6.2 Electromagnetic compatibility",
+    "6.3 Electronic regulations: RoHS, sustainability, PCBs",
+    "6.4 Electrical regulations: insulation.",
+    "Practice 1. Design of an adder/subtractor circuit (Quartus II)",
+    "Practice 2: Synchronous Counters",
+    "Practice 3: SPI Ports in VHDL",
+    "Practice 4: Connection of bluetooth module to SPI in PLD",
+    "Practice 5: Full-custom logic gates",
+    "Practice 6: EMI measurement"
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Expository classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written tests/deliverables: objective tests, short-answer tests and/or development tests (PE)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Oral tests (individual, group, presentation of individual topics-works, etc.) (PO)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practice reports/Memoirs and group work (IP)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Attitude Scales (AP)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For ordinary evaluation, a minimum score of four points is required in each evaluable section. If the minimum is not reached in the reports, students can complete the grade with a written test. The final grade is calculated as: 0.2*PE + 0.5*PO + 0.2*IP + 0.1*AP. For extraordinary evaluation, the 10% of the attitude scales is transferred to the practice reports section, resulting in a final grade of: 0.2*PE + 0.5*PO + 0.3*IP.",
+  "bibliography": [
+    "Professor's notes, accessible via the intranet",
+    "\"Fundamentals of Digital and Computer design with VHDL\". Richard S. Sandige, Michael L. Sandige. Mc-Graw Hill. ISBN 978-0-07-338069-8",
+    "\"Beginning FPGA: programming metal\". Aiken Pang, Peter Mebrey. Apress. ISBN-13 (pbk): 978-1-4302-6247-3",
+    "PLDs manuals: https://www.altera.com/",
+    "Microwind manuals and examples: http://www.microwind.org/",
+    "Manufacturer websites: RS, Farnell, Microchip, Texas",
+    "Articles provided by the professor",
+    "Laboratory equipment: Power supplies, oscilloscope, function generator, software and hardware for PLD design, simulation and programming.",
+    "Personal computers"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-2-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-2-002",
+  "source_language": "es",
+  "source_sha256": "2b53d96f47c1cc7d94e6b2babe55fd40bab315016a31a9a045665c2f2474adef",
+  "extracted_at": "2026-11-20T05:58:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

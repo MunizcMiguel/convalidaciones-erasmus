@@ -1,0 +1,93 @@
+{
+  "course_name_original": "RF Technology",
+  "course_name_en": "RF Technology",
+  "ects": 3.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Analog electronics 1",
+    "Analog electronics 2",
+    "Analog electronics 3"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide insight into the design of high-frequency systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn to use the Smithchart.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Provide insight into microstrip technology.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Design high-frequency filters and amplifiers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Utilize microstrip technology to design filters and amplifiers at high frequencies.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Transmission lines: equivalent circuit, reflections, open and short-circuited lines, VSWR, impedance",
+    "High-frequency filters: Butterworth, Chebyshev, conversion to normalized filters and denormalization, microstrip filters",
+    "Smithchart",
+    "S-parameters: concepts, HF amplifier design",
+    "Electro-Magnetic Compatibility (EMC): what it is, practical application",
+    "Calculation of a Butterworth and Chebyshev low-pass filter with a cutoff point at 500MHz. Simulation of this design",
+    "Conversion of this filter into microstrip technology and simulation. Measuring and analyzing existing designs using the spectrum analyzer",
+    "Calculation of an HF amplifier using S-parameters. This amplifier is built and measured with the spectrum analyzer"
+  ],
+  "teaching_methods": [
+    "College lectures",
+    "Practical assignment",
+    "Project-based work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Oral exam with written preparation for Theory",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Assignments for Lab (first attempt)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Oral exam with prior preparation of a workpiece for Lab (second attempt)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "If less than 5/20 is obtained on one of the course components, the maximum score for the course unit is 9/20, meaning failure. For RF Technology: Theory, the first and second exam chances are oral exams with written preparation. For RF Technology: Lab, the first exam chance is based on assignments, and the second exam chance is an oral exam with prior preparation of a workpiece. Partial transfers for successful results (YT5917 - RF Technology: Theory and YT5918 - RF Technology: Lab) are possible within and across academic years.",
+  "bibliography": [
+    "Boek: RF Circuit Design (theory and applications) Reinhold Ludwig/Pavel Bretchko ISBN 0-13-122475-1",
+    "Boek: RF Circuit Design Chris Bowick ISBN 0-672-21868-2",
+    "Labotekst"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Thomas More Mechelen-Antwerpen",
+  "institution_slug": "ec_b_mechele14",
+  "degree": "Bachelor Elektronica-ICT (Sint-Katelijne-Waver)",
+  "course_code": "YT0685",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.thomasmore.be/syllabi/n/YT0685N",
+  "source_language": "nl",
+  "source_sha256": "30925949dbed72857880153dd20e477c74c171756afdfaa1a4792de4be1150d8",
+  "extracted_at": "2026-11-20T09:17:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

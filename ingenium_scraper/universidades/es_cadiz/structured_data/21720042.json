@@ -1,0 +1,201 @@
+{
+  "course_name_original": "Aplicaciones Micro-Robóticas",
+  "course_name_en": "Micro-Robotic Applications",
+  "ects": 6.0,
+  "semester": "8",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "It is recommended to have acquired the competencies corresponding to the subjects of previous semesters.",
+    "Knowledge of digital and analog electronics, mechanical and electronic design, computer architecture, input/output systems, and C programming.",
+    "Knowledge of technical terminology used in the field of electronics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, which enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks.",
+      "type": "knowledge",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Aptitude for oral and written communication in the native language.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to interpret technical documentation.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to apply knowledge in practice.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Attitude of motivation for quality and continuous improvement.",
+      "type": "competence",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to draft, sign, and develop projects in the field of industrial engineering aimed at the construction, reform, repair, conservation, demolition, manufacturing, installation, assembly, or operation of: structures, mechanical equipment, energy installations, electrical and electronic installations, industrial installations and plants, and manufacturing and automation processes.",
+      "type": "skill",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Ability to direct the activities that are the subject of the engineering projects described in competence G01.",
+      "type": "skill",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Creativity and inventive spirit in solving scientific-technical problems.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "skill",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Ability to analyze and synthesize.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to adapt to new situations.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability for autonomous learning.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability for critical reasoning.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to make decisions.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to organize and plan.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability for autonomous and deep learning.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "To be able to have a deeper vision in micro-robotic applications and to be able to interrelate them with other subjects.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK ELECTRONICS Topic 1. Introduction",
+    "Platforms based on microcontrollers",
+    "Platforms based on microcomputers",
+    "Arduino",
+    "Introduction to the Arduino IDE",
+    "Topic 2. Basic components",
+    "Passive components",
+    "Active components",
+    "Topic 3. Introduction to sensors",
+    "Reflective optical sensor",
+    "Encoder",
+    "Light Dependent Resistor",
+    "Topic 4. Introduction to actuators",
+    "Servomotors",
+    "DC Motors",
+    "PWM",
+    "Stepper Motors",
+    "Drivers",
+    "ROBOTICS BLOCK Topic 1. Introduction to robotics",
+    "History of robotics",
+    "Robot classification",
+    "Elements of a robot",
+    "Topic 2. Mathematical tools",
+    "Rotation matrices",
+    "Translation matrices",
+    "Homogeneous transformation matrices",
+    "Topic 3. Kinematics of robotic manipulators",
+    "Forward kinematic problem",
+    "Inverse kinematic problem",
+    "Resolution using geometric methods",
+    "Denavit-Hartenberg convention",
+    "Resolution using transformation matrices",
+    "Topic 4. Trajectory generation",
+    "Cubic interpolation",
+    "Parabolic - linear - parabolic interpolation"
+  ],
+  "teaching_methods": [
+    "Workshop/laboratory practices: Laboratory sessions where the theoretical contents of the subject will be put into practice. Specifically, two blocks of sessions will be carried out: the first block will correspond to content related to electronics: sensors, actuators, and microcontroller programming. In the second block, practices with a manipulator robot will be developed: inverse and forward kinematics and trajectories using a microcontroller.",
+    "Non-contact learning activities: Individual study and autonomous work on the contents of the subject.",
+    "Evaluation activities: Course questionnaires (see Evaluation section)",
+    "Tutoring activities: Tutoring sessions",
+    "Theory: Development of the theoretical contents of the subject using the lecture technique."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 74.0,
+  "assessment_methods": [
+    {
+      "method": "Questionnaires/laboratory practices",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Completion of questionnaires and exams",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Expositions of exercises, topics, and works (development and presentation of a practical project)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Arduino : curso práctico de formación, Óscar Torrente Artero",
+    "Fundamentos de robótica, Antonio Barrientos ... [et al.]",
+    "Introducción a la robótica : principios teóricos, construcción y programación de un robot educativo, José María Angulo Usategui, Susana Romero Yesa, Ignacio Angulo Martínez",
+    "Introducción a la robótica, Subir Kumar Saha ; revisión técnica: Josege Eduardo Aguirre Aguilar, Francisco Javier Sandoval Palafox",
+    "Introducción a la robótica inteligente con ROS 2 y Python, Ignacio Díaz Cano",
+    "Robótica : control de robots manipuladores, Fernando Reyes Cortés",
+    "Robots y sistemas sensoriales, Fernando Torres... [et al.]"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720042",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720042",
+  "source_language": "es",
+  "source_sha256": "6f505e78a448ad100b5b766e60650ed3945f9c66cf9b54df7b5c2cf24c1b3196",
+  "extracted_at": "2026-11-13T21:32:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

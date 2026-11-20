@@ -1,0 +1,158 @@
+{
+  "course_name_original": "Ingeniería del Software",
+  "course_name_en": "Software Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Having partially met the learning objectives of the following second-year courses: Programming Technologies and Paradigms, Human-Computer Interaction, and Databases."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design, develop, select and evaluate applications, ensuring their reliability, security and quality, in accordance with ethical principles and current legislation and regulations.",
+      "type": "competence",
+      "code": "ECR1.1 y ECR1.2"
+    },
+    {
+      "text": "Ability to plan, conceive, deploy and manage IT projects, services and systems in all areas, leading their implementation and continuous improvement and assessing their economic and social impact.",
+      "type": "competence",
+      "code": "ECR2"
+    },
+    {
+      "text": "Ability to understand the importance of negotiation, effective work habits, leadership and communication skills in all software development environments.",
+      "type": "competence",
+      "code": "ECR3"
+    },
+    {
+      "text": "Knowledge and application of software engineering principles, methodologies and life cycles.",
+      "type": "knowledge",
+      "code": "ECR16"
+    },
+    {
+      "text": "Analyze and elaborate the different models that comprise the functional specification of a software system based on given requirements.",
+      "type": "unspecified",
+      "code": "IS1"
+    },
+    {
+      "text": "Prepare the technical design of a software system according to a specification.",
+      "type": "unspecified",
+      "code": "IS2"
+    },
+    {
+      "text": "Design and execute tests on the components of a software system.",
+      "type": "unspecified",
+      "code": "IS3"
+    },
+    {
+      "text": "Review and evaluate the specification and design of a software system.",
+      "type": "unspecified",
+      "code": "IS4"
+    },
+    {
+      "text": "Elaborate the development and implementation plan of an application.",
+      "type": "unspecified",
+      "code": "IS5"
+    },
+    {
+      "text": "Negotiate with the client the requirements and implementation deadlines of an application.",
+      "type": "unspecified",
+      "code": "IS6"
+    },
+    {
+      "text": "Make technical presentations of the different products elaborated during the development of a software system.",
+      "type": "unspecified",
+      "code": "IS7"
+    },
+    {
+      "text": "Participate in a team for the preparation of the specification and design of a software system.",
+      "type": "unspecified",
+      "code": "IS8"
+    },
+    {
+      "text": "Understand the specific problems of software projects in relation to other types of engineering projects.",
+      "type": "unspecified",
+      "code": "IS19"
+    },
+    {
+      "text": "Apply a methodology for defining a software system.",
+      "type": "unspecified",
+      "code": "IS20"
+    },
+    {
+      "text": "Know different approaches and methodologies for software development.",
+      "type": "unspecified",
+      "code": "IS21"
+    },
+    {
+      "text": "Know the main national and international standards for software development.",
+      "type": "unspecified",
+      "code": "IS23"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Software Engineering:",
+    "General problems and characteristics of software",
+    "Software processes, methodologies and techniques",
+    "Standards and tools.",
+    "Software development methodologies:",
+    "Standard methodologies in Public Administration.",
+    "Agile Methodologies.",
+    "Main life cycle processes and techniques:",
+    "Analysis process and techniques.",
+    "Use case analysis.",
+    "Domain class analysis.",
+    "Interface prototyping.",
+    "Design process.",
+    "V&V processes and testing techniques.",
+    "Other processes and standards."
+  ],
+  "teaching_methods": [
+    "Participatory expository classes",
+    "Active learning activities",
+    "Team-based learning activities",
+    "Laboratory practical work (team and individual)",
+    "Group tutorials",
+    "Individual academic tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (questions and/or exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (team and individual) during the course, considering student work (individual, team, and oral presentation) and delivered results.",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum of 4 points out of 10 is required in both the theory and practical parts. If this requirement is met, the final grade is the weighted average of theory and practice (50% each). If not met, the final grade will be the weighted average with a maximum of 4 points. For extraordinary calls, theory and practical grades from the ordinary call will be used if at least 5 points out of 10 were obtained; otherwise, these parts will be re-evaluated. A minimum of 5 points out of 10 is required in each part. If this is met, the final grade is the weighted average (50% each); otherwise, the grade will be the weighted average with a maximum of 4 points. For students with differentiated evaluation, both theory and practice will be assessed through specific tests, requiring a minimum of 5 points out of 10 in each part for a 50/50 weighted average, otherwise a maximum of 4 points.",
+  "bibliography": [
+    "Sommerville I (2011). Ingeniería de Software (9ª edición). Pearson Addison Wesley 2011.",
+    "Pressman RS (2010). Ingeniería del Software: Un enfoque práctico (7ª edición). Mc Graw Hill 2010.",
+    "Wiegers KE, Beatty J. Software Requirements (3rd Edition), Microsoft Press, 2013.",
+    "Piattini MG, Calvo-Manzano JA, Cervera J, Fernández-Sanz L (2003). Análisis y diseño de aplicaciones informáticas de gestión: Una perspectiva de la ingeniería del software. Ra-Ma 2003.",
+    "MAP (2001). Metodología de Planificación, Desarrollo y Mantenimiento de sistemas de información: Guía de Referencia. Ministerio para las Administraciones Públicas. http://administracionelectronica.gob.es (accedido Junio 2012).",
+    "Stumpf RV, Teague LC (2005). Object-Oriented Systems Analysis and Design with UML. Pearson-Prentice Hall 2005.",
+    "Stevens P, Using UML: Software Engineering with Objects and Components (2nd edition)\", Addison-Wesley, 2006.",
+    "Deemer P, Benefield G, Larman C, Vodde B (2009). The Scrum Primer (Version 1.1, Traducción de Leo Antoli). The Scrum Foundation, 2009. http://scrumfoundation.com/library (accedido Junio 2012).",
+    "Larman C (2003). UML y Patrones: Una introducción al análisis y diseño orientado a objetos y al proceso unificado (2ª edición). Prentice Hall 2003.",
+    "Cockburn A (2001). Writing Effective Use Cases. Addison-Wesley 2001.",
+    "Myers GJ, Sandler C, Badgett T (2011). The Art of Software Testing (3rd Edition). Wiley 2011."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-3-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-3-005",
+  "source_language": "es",
+  "source_sha256": "30bd01a75db745929fea6e827cb539d721d54303c4a7355c2f18c32592e6daf1",
+  "extracted_at": "2026-11-20T05:54:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

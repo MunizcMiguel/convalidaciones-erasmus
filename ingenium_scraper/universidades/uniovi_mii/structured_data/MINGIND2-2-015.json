@@ -1,0 +1,176 @@
+{
+  "course_name_original": "Técnicas de Modelado en Ingeniería Energética",
+  "course_name_en": "Modeling Techniques in Energy Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of differential equations",
+    "Mathematical methods in engineering",
+    "Programming",
+    "Fluid mechanics",
+    "Thermodynamics",
+    "Heat transfer",
+    "Thermal and fluid engineering",
+    "Familiarity with basic concepts from \"Measurement Techniques and Data Processing in Energy Engineering\""
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess and understand knowledge that provides a basis or opportunity to be original in the development and/or application of ideas, often in a research context.",
+      "type": "unspecified",
+      "code": "CB6"
+    },
+    {
+      "text": "Students should know how to apply acquired knowledge and problem-solving skills in new or unfamiliar environments within broader (or multidisciplinary) contexts related to their area of study.",
+      "type": "unspecified",
+      "code": "CB7"
+    },
+    {
+      "text": "Students should be able to integrate knowledge and deal with the complexity of formulating judgments based on information that, being incomplete or limited, includes reflections on the social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "unspecified",
+      "code": "CB8"
+    },
+    {
+      "text": "Students should know how to communicate their conclusions and the knowledge and ultimate reasons that support them to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "unspecified",
+      "code": "CB9"
+    },
+    {
+      "text": "Students should possess learning skills that allow them to continue studying in a largely self-directed or autonomous way.",
+      "type": "unspecified",
+      "code": "CB10"
+    },
+    {
+      "text": "Develop the ability to solve problems in new or unfamiliar environments within multidisciplinary contexts related to energy engineering.",
+      "type": "unspecified",
+      "code": "CG1"
+    },
+    {
+      "text": "Acquire the ability to integrate knowledge to formulate applications for the development of new energy technologies.",
+      "type": "unspecified",
+      "code": "CG2"
+    },
+    {
+      "text": "Acquire autonomous learning skills that allow continued study through the development of the ability to search for specialized documentation in cutting-edge scientific-technical literature and its assimilation.",
+      "type": "unspecified",
+      "code": "CG3"
+    },
+    {
+      "text": "Acquisition, processing, and analysis of signals in time and frequency domains.",
+      "type": "unspecified",
+      "code": "CE3"
+    },
+    {
+      "text": "Uncertainty analysis of numerical predictions and experimental measurements in thermal and fluid processes.",
+      "type": "unspecified",
+      "code": "CE4"
+    },
+    {
+      "text": "Ability to identify, analyze, and evaluate the dominant basic phenomena in fluid mechanical processes and energy transfer and utilization in engineering and industry.",
+      "type": "unspecified",
+      "code": "CE5"
+    },
+    {
+      "text": "Application of computational analysis methodologies for numerical modeling of flows and energy transfers of interest.",
+      "type": "unspecified",
+      "code": "CE6"
+    },
+    {
+      "text": "Fundamental analysis of fluid mechanical and thermal problems of interest in the energy industry, identifying strong and weak variables, and evaluating possible simplifying hypotheses.",
+      "type": "unspecified",
+      "code": "CE7"
+    },
+    {
+      "text": "Know the physical-mathematical models that can be posed in mass, momentum, and energy transfer processes, and the simplifications to be made to solve the governing equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Perform adequate discretizations of the geometric domains of interest.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Select and appropriately impose initial and boundary conditions, flow and turbulence models, iteration and convergence criteria, etc.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply numerical codes for the resolution and analysis of cases of practical interest.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess the uncertainty associated with numerical calculations by sensitivity analysis of predictions against calculation parameters and by comparison with experimental data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically analyze numerically obtained results, comparing them with solutions predicted by analytical methods and available experimental correlations.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Physical-mathematical models in mass, momentum, and energy transfer processes. Similarity in models.",
+    "Mathematical aspects of resolution processes.",
+    "Mesh generation and temporal discretization.",
+    "Modeling of diffusive phenomena and heat transfer applications.",
+    "Modeling of convective phenomena and applications with flows of industrial interest.",
+    "Modeling of turbulent flows.",
+    "Applications with reactive, multi-species, and multiphase flows."
+  ],
+  "teaching_methods": [
+    "Laboratory practicals",
+    "Expositive classes",
+    "Classroom/Seminar practicals",
+    "Individualized work",
+    "Programming work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (EF)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Attendance to practicals (AP)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practicals reports (IP)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For ordinary assessment, the final grade is calculated as 0.5*EF + 0.1*AP + 0.4*IP. A minimum score of 3.5 out of 10 is required on the final exam (EF); if lower, the final weighted grade is capped at 3.5. To obtain a score for practical attendance, a minimum of 50% attendance is required. For the extraordinary call, if no practical activities were done, the final exam is the only test, weighted at 75%, and a minimum of 6.7 out of 10 is required to pass. For differentiated assessment, the exam has a 70% weight, and code development and software utilization tasks have a 30% weight, with a minimum of 4.0 out of 10 on the exam to apply the weighting.",
+  "bibliography": [
+    "Moin, P., “Fundamentals of Engineering Numerical Analysis”, Cambridge University Press, 2012.",
+    "Pletcher, R.H., Tannehill, J.C., Anderson, D.A., “Computational Fluid Dynamics and Heat Transfer”. CRC Press, 2013.",
+    "Versteeg, H.K., Malalasekera, W., “An Introduction to Computational Fluid Dynamics: The Finite Volume Method”. Ed. Pearson, Prentice-Hall, 2007.",
+    "Hirsch, C., “Numerical Computation of Internal and External Flows”. Ed. John Wiley & Sons, 1990.",
+    "Bergmann, T.L., Lavine, A.S., Incropera, F.P., Dewitt, D.P. “Fundamentals of Heat and Mass Transfer”. Ed. John Wiley & Sons, 2011.",
+    "Fernández Oro, J.M., \"Técnicas Numéricas en Ingeniería de Fluidos\", Ed. Reverté, 2012.",
+    "ANSYS-FLUENT User’s Guide 2019 R2",
+    "ANSYS-FLUENT Theory Guide 2019 R2",
+    "Hunt, B.R., Lipsman, R.L., Rosenberg, J.M., Coombes, K.R., Osborn, J.E., Garrett, J.S., “A Guide to Matlab for Beginners and Experienced Users”. Ed. Cambridge Univ. Press, 2006.",
+    "Chung, T.J., “Computational Fluid Dynamics”. Ed. Cambridge Univ. Press, 2002.",
+    "Mills, A.F., “Transferencia de Calor”, Ed. Irwin,1995.",
+    "Patankar, S.V., “Numerical Heat Transfer and Fluid Flow”, Hemisphere Publishing Corporation, New York, 1980."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-2-015",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-2-015",
+  "source_language": "es",
+  "source_sha256": "8b8f49dfa8c2047d6a3e00863935e0579f85d76688f0ff1bb02bf8074f815f03",
+  "extracted_at": "2026-11-20T06:02:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,204 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics I and II from high school",
+    "Good command of matrix calculus at high school level"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Choose and apply the most suitable methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to design experiments and to describe, analyze, evaluate and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data combining acquired knowledge and being able to apply new ones to problem solving.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly both in writing and orally.",
+      "type": "competence",
+      "code": "CG09"
+    },
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually found at a level that, while supported by advanced textbooks, also includes some aspects that imply knowledge from the forefront of their field of study.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Know the appropriate mathematical concepts and methods to obtain models capable of solving problems that may arise in the context of data science and engineering: linear algebra, differential and integral calculus.",
+      "type": "competence",
+      "code": "CE01"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces and linear applications, and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "RALG1"
+    },
+    {
+      "text": "Analyze and apply numerical methods for solving systems of linear equations.",
+      "type": "unspecified",
+      "code": "RALG2"
+    },
+    {
+      "text": "Be able to calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "RALG3"
+    },
+    {
+      "text": "Apply diagonalization methods for solving discrete linear dynamic systems.",
+      "type": "unspecified",
+      "code": "RALG4"
+    },
+    {
+      "text": "Use numerical methods to calculate eigenvalues and eigenvectors.",
+      "type": "unspecified",
+      "code": "RALG5"
+    },
+    {
+      "text": "Use computer tools for solving Linear Algebra problems.",
+      "type": "unspecified",
+      "code": "RALG6"
+    }
+  ],
+  "syllabus_topics": [
+    "Matrices",
+    "Definition and operations with matrices",
+    "Types of matrices",
+    "Elementary transformations of matrices: matrix associated with a given one",
+    "LU factorization of a matrix",
+    "Linear systems, numerical methods of resolution",
+    "Matrix form of a system of equations",
+    "Gaussian elimination: discussion and resolution of systems of linear equations",
+    "Relative and absolute errors: matrix norms",
+    "Numerical methods for solving systems: Jacobi and Gauss-Seidel methods",
+    "Vector spaces",
+    "Notion of vector space",
+    "Vectors, linear combinations, dependence, generators, bases, coordinates",
+    "Vector subspaces, intersection and sum",
+    "Linear applications",
+    "Definition and properties of linear applications",
+    "Matrix associated with a linear application, kernel and image, rank",
+    "Change of basis. Similar matrices",
+    "Diagonalization",
+    "Definition of eigenvalues and eigenvectors associated with a matrix",
+    "Diagonalization of matrices: necessary and sufficient conditions for diagonalization",
+    "Equivalent matrices",
+    "Discrete linear dynamic systems",
+    "Recurrence relations",
+    "Different types of discrete linear dynamic systems",
+    "Matrix resolution",
+    "Numerical methods for calculating eigenvectors and eigenvalues",
+    "Power method",
+    "Inverse power method",
+    "Introduction to MATLAB: Numeric and symbolic variables, symbolic functions, vectors and matrices",
+    "Matrices and systems: operations. The rref, linspace, a:h:b etc commands",
+    "Numerical methods for solving systems: Jacobi and Gauss-Seidel algorithms: Creation of function files. Calculation of vector and matrix norms. Relative, absolute and percentage errors",
+    "Vector spaces and linear applications",
+    "Endomorphisms: diagonalization. eig, poly, roots, etc. instructions",
+    "Discrete dynamic systems",
+    "Numerical methods for calculating eigenvalues and eigenvectors: Power and inverse power methods"
+  ],
+  "teaching_methods": [
+    "Expository lectures",
+    "Classroom practices / Seminars",
+    "Online teaching (videos, presentations, instructional texts, self-assessment questionnaires)",
+    "Laboratory practices",
+    "Tutoring sessions",
+    "Problem-solving challenges",
+    "Use of MatLab software",
+    "Consultations via Teams chat, Virtual Campus forums, or individual/group virtual tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices (PA)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory practices (PL) (continuous work)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices (PL) (programming exam)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Virtual campus activities (NCv)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written controls (NE) average",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) for the course is calculated as NF = 0.5*NE + 0.2*NL + 0.2*PA + 0.1*NCv, where NE is the average of written controls (P1 and P2), NL is the lab practice grade, PA is the classroom work and tutoring grade, and NCv is the virtual campus activities grade. To pass, NF must be >= 5, and NL and NE must both be >= 3.5. If these minimums are not met, the final grade will be the minimum of NF and 4.5. Students who do not attend the ordinary exam will be marked as \"No presentado\". For extraordinary calls, students can retake written (NE) and lab practice (NL) exams; the final grade formula NF = 0.7*NE + 0.2*NL + 0.1*NCv (or NOL for differentiated evaluation) is used, with NL and NCv/NOL carried over from the ordinary call if not retaken. If cheating is detected, the grade for the corresponding assessment will be 0 points, and the School of Engineering will be informed.",
+  "bibliography": [
+    "Álgebra Lineal: una introducción moderna. Poole, D. Thomson, 2017",
+    "Linear Algebra and learning from data. Strang G. Wellesley-Cambridge Press, 2019",
+    "https://es.mathworks.com/",
+    "Mathematics for machine learning. Deisenroth, M. P., Faisal, A. A., Ong. C. S. Cambridge University Press, 2020",
+    "Matrix analysis and applied linear algebra. Meyer, C.D., SIAM, 2000",
+    "Linear Algebra and Optimization for Machine Learning. Charu C. Aggarwal. Springer Nature Switzerland, 2020",
+    "Gilbert Strang. 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning. Spring 2018. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018. License: Creative Commons BY-NC-SA.",
+    "Gilbert Strang. RES.18-010 A 2020 Vision of Linear Algebra. Spring 2020. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020. License: Creative Commons BY-NC-SA."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-1-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-001",
+  "source_language": "es",
+  "source_sha256": "7bbb4113ab099c0784bbdfd71802e4f67083b6927315211e3d169305fd63a2d3",
+  "extracted_at": "2026-11-20T06:05:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

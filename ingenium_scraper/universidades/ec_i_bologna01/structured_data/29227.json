@@ -1,0 +1,101 @@
+{
+  "course_name_original": "FONDAMENTI DI INFORMATICA T (29227)",
+  "course_name_en": "FUNDAMENTALS OF COMPUTER SCIENCE T",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Give the student a general overview about computers and scientific computing.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Focus on the C language and on numerical methods at an elementary level.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer architecture",
+    "Basic digital circuits for combinational circuits, arithmetics and memories",
+    "RISC computers, pipelining, superscalar and parallel architectures",
+    "Memory hierarchy: registers, cache, main memory (RAM) and secondary memory (HD and CD-ROM)",
+    "Addresses and buses",
+    "A brief mention of operating systems, Hard disk partitions and file system",
+    "The C language",
+    "The function main, local declarations of variables, variable types",
+    "Assignment, arithmetic, relational and logical operators",
+    "Program blocks",
+    "Logical expressions",
+    "Flow control constructs: if-else if-else, switch, for, while e do-while",
+    "Multidimensional arrays",
+    "Functions and recursive functions",
+    "A brief mention of data structures, pointers and dynamic memory allocation",
+    "I/O functions in C",
+    "Binary numbers: integers and floating-point numbers (IEEE Standard 754), ASCII/UNICODE systems, RGB color palette",
+    "Sources of errors: absolute, relative and percentage errors",
+    "Numerical cancellation and error propagation",
+    "Machine precision and significant digits",
+    "Introduction to numerical methods",
+    "Function approximation: Lagrangian interpolation, Taylor polynomial and series",
+    "Finite difference methods: approximation of the first, second and n-th derivative with backward and forward finite differences, with first and second order truncation error; approximation of the first, second and n-th derivative with centered finite differences",
+    "ODE of the second order with constant coefficients",
+    "Root-finding algorithms: solution of linear system with Gauss method",
+    "Non linear equations: bisection, Fixed point and Newton-Raphson's (tangent) method",
+    "The secant method and Regula Falsi method",
+    "Numerical integration: rectangle rule, trapezoidal rule, Simpson's formula",
+    "Richardson's extrapolation and Romberg's method",
+    "Gauss quadrature",
+    "Local and global truncation error and order of convergence"
+  ],
+  "teaching_methods": [
+    "Class lectures",
+    "Laboratory tutorials with Personal Computers",
+    "Tutor assistance"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Computer architecture multiple choice test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Programming written C language test in lab with linux operating system",
+      "weight_percentage": null
+    },
+    {
+      "method": "Programming written numerical analysis test in lab with linux operating system",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The computer architecture multiple choice test has a minimum score of 4 and a maximum of 8. The programming written C language test in the lab has a minimum score of 5 and a maximum of 12. The programming written numerical analysis test in the lab has a minimum score of 5 and a maximum of 12. The total sum of the scores, greater than the minimum, forms the final grade, which must be >= 18. Honors are given if the score is > 30.",
+  "bibliography": [
+    "Instructor lecture notes and lab tutorials (on the University platform: https://iol.unibo.it)",
+    "Brookshear, Kochan. Fondamenti di informatica e programmazione in C. Pearson",
+    "Kelley, Pohl. C-Didattica e programmazione. Pearson",
+    "Bellini, Guidi. Linguaggio C. McGraw-Hill",
+    "Ceri, Mandrioli, Sbattella. Informatica: arte e mestiere. McGraw-Hill",
+    "Monegato. Fondamenti di calcolo numerico. Levrotto & Bella",
+    "Epperson. Introduzione all'analisi numerica. McGraw-Hil"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum",
+  "institution_slug": "ec_i_bologna01",
+  "degree": "Ingegneria meccanica (Laurea, L-9, Bologna)",
+  "course_code": "29227",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2024/333853",
+  "source_language": "en",
+  "source_sha256": "eac73276c7bdfcb4fcbb4d3ce73a8d4fb09a60ff1f86c1ac5d47b4ef41828fd3",
+  "extracted_at": "2026-11-20T08:16:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

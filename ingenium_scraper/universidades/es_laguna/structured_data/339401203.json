@@ -1,0 +1,99 @@
+{
+  "course_name_original": "Cálculo",
+  "course_name_en": "Calculus",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Having completed the course Mathematical Foundations"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to solve mathematical problems that may arise in engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to apply the acquired knowledge of differential and integral calculus in several variables and vector calculus.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use numerical methods in solving some mathematical problems presented.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to use symbolic and numerical calculation tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Possess skills typical of scientific mathematical thinking, which allow asking and answering certain mathematical questions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have dexterity in handling mathematical language, particularly symbolic and formal language.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Differential calculus in several variables. Functions of 2 and 3 variables. Limits and notions of continuity. Level curves and surfaces. Partial derivatives. Total differential. Chain rule. Implicit differentiation. Directional derivatives, gradient, tangent planes and normal lines. Taylor polynomial. Extrema of functions of two variables. Constrained extrema. Lagrange multipliers.",
+    "Integral calculus in several variables. Double integral over rectangles and interpretation as volume under a surface. Properties of the double integral. Iterated integrals. Fubini's theorem. Double integral over more general regions (Type I and II regions). Changes of variables (linear and polar changes). Applications: Mean value, calculation of centers of gravity and moments of inertia, surface area. Triple integral over right prisms. Iterated integrals. Fubini's theorem. Triple integral in more general regions. Changes of variable in triple integral (cylindrical and spherical coordinates) and linear changes. Applications of the triple integral: Mean value, calculation of centers of gravity and moments of inertia.",
+    "Curvilinear and surface integrals. Curves and their parametrizations in the plane and in space. Line integral of the first kind. Applications to calculation of lengths, masses, centers of gravity, moments of inertia. Vector fields in the plane and in space. Conservative fields, characterizations. Line integral of the second kind and its interpretation as work done by a field. Fundamental theorem of line integrals. Principle of energy conservation. Green's theorem in the plane. Applications to area calculation. Surface integrals. Stokes' theorem.",
+    "Numerical solution of non-linear equations. Introduction. Bolzano's theorem. Bisection method and its convergence. Newton-Raphson method and its convergence.",
+    "Numerical solution of ordinary differential equations. Linear difference equations. Initial value problems. Euler's method. Introduction to Runge-Kutta and Multi-step methods."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical classes in the classroom",
+    "Work assignments (individual/group)",
+    "Tutorials",
+    "Laboratory or computer lab practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exams (continuous evaluation)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Global exam (single evaluation)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For continuous evaluation, two partial exams (NOTP1, NOTP2) are proposed, each contributing 50% to the final grade (NOTFIN = (NOTP1 + NOTP2) / 2). A minimum score of 3 out of 10 is required for each partial exam; if less, the score becomes 0. To pass, the final grade must be at least 5 out of 10. For unique evaluation, a single global exam, scored from 0 to 10 points, determines the final grade. The continuous evaluation scores are valid only until the official May call. Students in their fifth or later calls who wish to be evaluated by a Tribunal must submit a request at least ten business days before the exam period.",
+  "bibliography": [
+    "Marsden, J. E. y Tromba, A. J.; Cálculo Vectorial; Addison-Wesley, 1998.",
+    "Larson, R., Hostetler, R.P, Edwards, B.H; Cálculo, Ed. McGraw-Hill 2006.",
+    "Mathews, J.H., Fink, K.D.; Métodos Numéricos con MATLAB, Prentice Hall, 2000.",
+    "Piskunov, N.; Calculo diferencial e integral I y II; Mir, 1980.",
+    "Gerald L. Bradley, K.J. Smith; Calculo de varias variables, vol 2; Prentice-Hall, 1998.",
+    "Atkinson K. E., An Introduction to Numerical Analysis; John Wiley, 1989.",
+    "Faires, J. D. and Burden, R.; Metodos Numericos; Thomson, 2004.",
+    "Pita Ruiz, C.; Calculo Vectorial; Prentice-Hall, 1995.",
+    "Spiegel, M.R.; Calculo Superior, McGraw-Hill, 2000.",
+    "Vazquez, L., Jimenez, S., Aguirre, C., Pascual, P.J., Metodos Numericos para la Fisica y la Ingenieria, McGraw-Hill, 2009."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de La Laguna",
+  "institution_slug": "es_laguna",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "339401203",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ull.es/apps/guias/guias/print_guide/45574/",
+  "source_language": "es",
+  "source_sha256": "0a5d72f1e8758462123ff968c467a89b430e91bd5846a46016302f130f74e6c4",
+  "extracted_at": "2026-11-13T21:42:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

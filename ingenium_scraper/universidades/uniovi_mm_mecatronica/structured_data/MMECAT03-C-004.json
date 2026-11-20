@@ -1,0 +1,120 @@
+{
+  "course_name_original": "Dispositivos Electrónicos Programables",
+  "course_name_en": "Programmable Electronic Devices",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge in circuit theory",
+    "Analog electronics",
+    "Digital electronics",
+    "Fundamentals of programming",
+    "Previous knowledge of electrical machines (recommended)",
+    "Microprocessor systems (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Implement complete digital electronic systems by selecting the most suitable commercial components, from both technical and economic points of view, all based on given specifications.",
+      "type": "unspecified",
+      "code": "RA20"
+    },
+    {
+      "text": "Understand the internal architecture of microcontrollers, with the available internal modules, differentiating them for the selection of the most suitable one for a given mechatronic application, from both technical and economic points of view.",
+      "type": "unspecified",
+      "code": "RA21"
+    },
+    {
+      "text": "Develop low and high-level programs from algorithms designed for implementation in a microcontroller, with special attention to mechatronic systems.",
+      "type": "unspecified",
+      "code": "RA22"
+    },
+    {
+      "text": "Utilize possible interfaces of a microcontroller with peripheral input/output devices: electrical connection, level adaptation, selection of the most appropriate modules, and software handling from the microcontroller.",
+      "type": "unspecified",
+      "code": "RA23"
+    },
+    {
+      "text": "Document an electronic design in a structured way, following one of the normally used standards, which encompass all steps of the design process.",
+      "type": "unspecified",
+      "code": "RA24"
+    },
+    {
+      "text": "Implement finite state automata on electronic systems based on microcontroller devices.",
+      "type": "unspecified",
+      "code": "RA25"
+    },
+    {
+      "text": "Implement digital controllers on electronic systems based on microcontroller devices.",
+      "type": "unspecified",
+      "code": "RA26"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and internal architecture of PIC microcontrollers",
+    "Development tools. C programming for PIC microcontrollers",
+    "Input and Output Ports",
+    "Internal memory organization: program and data",
+    "Interrupts: activation and software handling",
+    "Special features of PIC microcontrollers",
+    "Timer modules",
+    "Analog/Digital converter module",
+    "CCP module: Capture/Compare/PWM (Pulse Width Modulation)",
+    "Asynchronous serial communication",
+    "Interface from PIC microcontroller with liquid crystal displays (LCD)",
+    "Motor control from microcontroller",
+    "User interfaces and input adaptation",
+    "Power output adaptation"
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom practices (seminars)",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Final Theory Exam (written test with exercises)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Tasks associated with practical sessions",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Semester project (team work, individual report, public presentation, prototype demonstration)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Attendance, interest, and active participation",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.25 * Theory Exam + 0.25 * Practice Tasks + 0.4 * Project Work + 0.1 * Active Participation. No minimum grade is required for the Theory Block or the Practice Block to be averaged. Grades for \"Tasks associated with practical sessions\" and \"Active participation\" are obtained only during the teaching period and are maintained for extraordinary calls within the same academic year but not for subsequent years. In case of plagiarism, a grade of 0 will be given for the ordinary call.",
+  "bibliography": [
+    "E.PALACIOS, REMIRO y LÓPEZ. “Microcontrolador PIC16F84. Desarrollo de Proyectos” Editorial Ra-Ma",
+    "J.M.ANGULO, E.MARTÍN E I.ANGULO “Microcontroladores PIC.(La solución en un chip)” Editorial Paraninfo",
+    "JOHN B. PEATMAN “Design with PIC Microcontrollers” Ed. Prentice Hall Engineering, Science and Math.",
+    "J.M. ANGULO e I.ANGULO “Microcontroladores PIC, Diseño Práctico de Aplicaciones” Ed. McGraw-Hill",
+    "J.M. ANGULO, S.ROMERO e I.ANGULO “Microcontroladores PIC, Diseño Práctico de Aplicaciones” (Segunda parte) PIC16F87x Ed. McGraw-Hill",
+    "EDUARDO GARCÍA BREIJO “Compilador C CCS y Simulador PROTEUS para microcontroladores PIC” Marcombo. Ediciones técnicas."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-C-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-C-004",
+  "source_language": "es",
+  "source_sha256": "e5c81a084f9c78ca776b182849c945fb124785469e167152d15920737b5a7ce0",
+  "extracted_at": "2026-11-20T05:59:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

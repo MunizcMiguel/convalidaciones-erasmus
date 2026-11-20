@@ -1,0 +1,60 @@
+{
+  "course_name_original": "Análise de Circuitos (AC112)",
+  "course_name_en": "Circuit Analysis (AC112)",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Fundamental Concepts: electrical quantities, components, sign conventions, voltage and current generators, energy conservation, linearity and superposition.",
+    "Analysis of Resistive Circuits in Steady State: Kirchhoff's laws, voltage and current dividers, duality, Thévenin's and Norton's theorems. Network Analysis: notions of topology, reduction of the number of network equations, node and mesh methods.",
+    "Dynamic Regime of Linear Circuits: first and second order circuits.",
+    "Frequency Domain Circuit Analysis: sinusoidal quantities, complex amplitudes, impedance and admittance, passive filters.",
+    "Circuits with Op-Amps: Op-Amp models, non-linear characteristic, inverting and non-inverting configurations, Op-Amp applications.",
+    "Steady-state power analysis: instantaneous power, average power, effective (rms) power and complex power."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratories (LAB)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "MAP45 tests",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Resit exam (EXAME DE RECURSO)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.3 * LABORATORY + 0.7 * max(MAP45, EXAME DE RECURSO). To pass the laboratory component, students must participate in LAB01 and LAB02 and LAB1 to LAB5, with a minimum average grade of 9.5 for LAB1-LAB5. The maximum number of justified absences for laboratory sessions is 2; unjustified absences result in a grade of 0 for the missed work. The MAP45 component requires a minimum average grade of 7.0 across the three MAP45 tests. The EXAME DE RECURSO (resit exam) has a minimum grade of 7.0.",
+  "bibliography": [
+    "J. A. Brandão Faria, Análise de Circuitos, IST Press (secondary)",
+    "M. Medeiros Silva, Introdução aos Circuitos Eléctricos e Electrónicos, Fundação Calouste Gulbenkian (secondary)",
+    "J. David Irwin and R. Mark Nelms, Basic Engineering Circuit Analysis, Wiley, 11th Edition, 2015 (main)"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEEC21 Eng. Eletrotécnica e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__elec",
+  "degree": "Licenciatura Bolonha em Engenharia Eletrotécnica e de Computadores (LEEC21)",
+  "course_code": "AC112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185312",
+  "source_language": "pt",
+  "source_sha256": "8448aa66ba2469761cbdef6fcdb22fdeb78de696d1c1b1cba3e8c221a2f3a8d7",
+  "extracted_at": "2026-11-20T12:41:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

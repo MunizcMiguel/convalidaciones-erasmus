@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Betriebssysteme",
+  "course_name_en": "Operating Systems",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge of C or C++ as acquired in the first two semesters of computer science programs (alternatively: Rust)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know and understand essential components of operating systems. They can explain and evaluate the functionality of these elements and apply them with regard to energy-efficient virtualized environments.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have more precise knowledge of system interfaces for processes and for accessing distributed system resources.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to reflect on operating system concepts in the realization of applications and services with regard to their use.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can select suitable system interfaces for applications and services and use these interfaces in a structured manner.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to create operating system-related software for special applications and to communicate and demonstrate its use.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Tasks, types and structure of operating systems",
+    "Concurrency: Processes, Threads",
+    "Processes",
+    "Scheduling",
+    "Process communication",
+    "Deadlocks",
+    "Memory management",
+    "File systems",
+    "Virtualization and energy efficiency",
+    "Security",
+    "Shell and system programming"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination is a written exam. The ungraded examination is an experimental work, consisting of approximately 8 experiments.",
+  "bibliography": [
+    "Tanenbaum, Andrew S. & Bos, Herbert (2016): Moderne Betriebssysteme. Pearson Studium, 4., aktualisierte Auflage.",
+    "Stallings, William (2014): Operating Systems - Internals and Design Principles, 8th Ed., Pearson.",
+    "Brause, Rüdiger (2017): Betriebssysteme: Grundlagen und Konzepte. Springer Vieweg.",
+    "Silberschatz, Abraham & Gagne, Greg & Galvin, Peter B. (2018): Operating System Concepts, 10th Ed., Wiley.",
+    "Stevens, W. Richard & Rago, Stephen A. (2013): Advanced Programming in the UNIX Environment. Third Edition, Addison-Wesley Professional.",
+    "Russinovich, Mark & Solomon, David A., Ionescu, Alex (2012): Windows Internals - Part 1, Microsoft Press Corp.; 6. Edition.",
+    "Molay, Bruce (2002): Understanding Unix/Linux Programming: A Guide to Theory and Practice, Prentice Hall."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Informatik – Technische Informatik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__info",
+  "degree": "Informatik – Technische Informatik (B.Sc.)",
+  "course_code": "11B0048",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BTI/StO2025_Stand2026-03-03_Informatik-TechnischeInformatik.pdf",
+  "source_language": "de",
+  "source_sha256": "6c2635c08ce280d25d279ddbbbc5308f7721eea9cc92ec8a9c283696600ee143",
+  "extracted_at": "2026-11-20T12:33:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

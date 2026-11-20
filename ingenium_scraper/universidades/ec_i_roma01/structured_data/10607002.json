@@ -1,0 +1,190 @@
+{
+  "course_name_original": "FONDAMENTI DI COMUNICAZIONI E INTERNET canale 1",
+  "course_name_en": "FUNDAMENTALS OF COMMUNICATIONS AND INTERNET channel 1",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Elementary algebra",
+    "Logical operators and functions",
+    "Basic programming skills and knowledge of at least one common programming language (e.g. Python)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the concepts underlying digital signal processing, their transmission in current telecommunication networks, access and error control protocols, and network and transport protocols based on the TPC/IP suite.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to understand how continuous and discrete time signal operations work, how a protocol works, what its characterizing functionalities are, and how performance can be evaluated. Be able to perform simple protocol dimensioning at various levels of a telecommunications architecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze the benefits and limits of signal operations and dimensioning of protocols or TPC/IP network configurations.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to present the signal processing functionality (correlation, sampling, time or frequency domain analysis) and the operation of a network protocol and discuss its performance.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Beyond the classic learning skills provided by the theoretical study of teaching material, the course delivery methods, particularly the practical exercises (also performed on simulators and with processing software), stimulate students to a procedural and quantitative analysis of network operation and related protocols, facilitating the concrete application of concepts and techniques learned during the course.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire fundamental knowledge related to the organization and operation of telecommunications systems. In particular, know the principles of digital information representation, the characteristics of continuous and discrete-time signals, and the main signal operations. Also acquire basic notions on network architectures, communication protocols, and error control and medium access mechanisms, with particular reference to TCP/IP suite network and transport protocols.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to apply acquired knowledge to analyze and understand the functioning of the main signal operations, both in the time and frequency domains. Be able to interpret the functioning of communication protocols, identify their main functionalities, and evaluate their performance. Also be able to address simple problems of dimensioning and configuration of protocols and components at different levels of a telecommunications architecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to critically analyze solutions adopted in telecommunications systems, evaluating the benefits and limits of different signal operations and design choices related to protocols and network configurations based on TCP/IP architectures.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to clearly describe and present the principles of signal processing, such as correlation, sampling, and time and frequency domain analysis, as well as the functioning of network protocols. Also be able to discuss the performance of protocols and communication systems using appropriate technical terminology.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to independently deepen topics related to telecommunications systems and communication networks. Practical exercises and activities, also through the use of simulators and software tools for signal processing and network analysis, will stimulate a procedural and quantitative approach to the study of protocol and network functioning, facilitating the concrete application of acquired knowledge.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to communication networks and the Internet",
+    "Evolution of network architectures and telecommunication services",
+    "Technology, Market, Standards, Regulation",
+    "Model and functions of a telecommunication network",
+    "Network services",
+    "Performance parameters",
+    "Multiplexing and resource allocation techniques",
+    "Circuit switching",
+    "Packet switching",
+    "Performance analysis models",
+    "Protocol layer and their service models (OSI Reference Model, TCP/IP Architecture)",
+    "Fundamentals of digital representations and communications (3 ECTS)",
+    "Introduction. Digital representation of information, concept of deterministic signal.",
+    "Classification of signals. Signal properties.",
+    "Definition of energy, power.",
+    "Operations on signals.",
+    "Frequency representation of signals: Fourier transform (continuous and discrete-time signals) and properties",
+    "Convolution and correlation between signals. Energy and power spectral density",
+    "Signal transit in systems. Properties. Impulse response",
+    "Sampling: sampling theorem, Nyquist condition. Analog-to-digital conversion. Quantization and Encoding.",
+    "Baseband transmission, multilevel transmission. Noise characterization. Shannon's limit capacity.",
+    "Digital modulation: amplitude, frequency, phase. Demodulation. Quadrature Amplitude Modulation.",
+    "Python laboratory for signal processing",
+    "Definition of signals, operations on signals, correlations",
+    "Signal transit in filters",
+    "Signal processing in the frequency domain",
+    "Digital modulations",
+    "Link layer and local networks",
+    "Error detection and correction techniques",
+    "Parity check",
+    "Checksum",
+    "Cyclic Redundancy Check (CRC)",
+    "Multiple Access Protocols (Medium Access Control – MAC)",
+    "Wired and Wireless multi-access media",
+    "Multiple access techniques",
+    "Perfect access model",
+    "Random and controlled access protocols",
+    "Access protocols in radio environment (Wireless)",
+    "Local Area Networks (LANs)",
+    "Standard 802.3 (Ethernet)",
+    "Network layer: data plane",
+    "The IP protocol",
+    "Addressing on the Internet",
+    "Classful and classless addressing",
+    "CIDR",
+    "Address resolution on the Internet",
+    "DHCP",
+    "NAT",
+    "Network layer: control plane",
+    "Routing functions",
+    "Routing on the Internet",
+    "Routing algorithms",
+    "IGP and EGP routing protocols",
+    "Routing tables",
+    "Network configuration laboratories with Kathara emulation software",
+    "Introduction to Linux and virtual machines, installation of Kathara and its configuration",
+    "Installation and use of VirtualBox",
+    "Use of basic Linux terminal commands",
+    "Installation of Kathara and testing with basic configuration",
+    "Laboratory with two hosts",
+    "Configuration and communication between two hosts",
+    "Use of tcpdump and wireshark",
+    "ARP protocol and ARP poisoning laboratory",
+    "Addressing and subnetting laboratory",
+    "IP Protocol",
+    "Static addressing",
+    "Routing laboratory",
+    "Advanced addressing schemes"
+  ],
+  "teaching_methods": [
+    "In-person lectures with instructor slides and other shared material during the lesson"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Intermediate quizzes on Moodle (e-learning)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Homework 1 (digital information representation and communications)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Homework 2 (network and protocol configuration using Katharà emulation software)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Written exam: 15 multiple-choice questions on theoretical part",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Written exam: numerical exercise on practical application of course topics",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Oral exam (for exams from March onwards)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "During the course, two intermediate quizzes will be held on Moodle, each contributing up to 2 bonus points, usable only in the January or February exam sessions, for a maximum of 4 bonus points. Two homework assignments contribute 5 points each to the final grade. The written exam consists of 15 multiple-choice questions (15 points) and one numerical exercise (5 points). From March onwards, an oral exam will follow the written test. To pass the exam, a minimum score of 18/30 is required. To achieve 30/30 cum laude, excellent knowledge of all topics, demonstrating logical, coherent, and in-depth connections, is required.",
+  "bibliography": [
+    "Course slides, video lessons, and texts and articles available on Moodle https://elearning.uniroma1.it/",
+    "J. Kurose, K. Ross: “Reti di Calcolatori e Internet” (6° Edizione o 8° Edizione). Pearson Addison Wesley, Maggio 2008 Capitoli: 1, 3, 4, 5 e 6",
+    "A. Leon-Garcia & I. Widjaja “Communication Networks: Fundamental Concepts and Key Architecture”, McGraw-Hill Capitolo: 3",
+    "Francesca Cuomo: Esercizi di reti di telecomunicazione; Ed. Ingegneria 2000, 2005",
+    "Marco Luise, Giorgio Matteo Vitetta: TEORIA DEI SEGNALI 3/ED https://www.mheducation.it/teoria-dei-segnali-3-ed-9788838665837-italy"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "10607002",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/2/1/cbc8089a-8157-41ee-befe-5676ef795be4",
+  "source_language": "it",
+  "source_sha256": "2ba770e87cda9f5e075468fbbd9ff407719c3f2d9819cfe63d9d7632dc8ae54e",
+  "extracted_at": "2026-11-20T09:24:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

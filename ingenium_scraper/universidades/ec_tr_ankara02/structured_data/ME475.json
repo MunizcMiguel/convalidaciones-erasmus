@@ -1,0 +1,92 @@
+{
+  "course_name_original": "COMPUTATIONAL FLUID DYNAMICS",
+  "course_name_en": "Computational Fluid Dynamics",
+  "ects": 5.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the importance of the computational fluid dynamics (CFD) method in engineering problem solving and new product design.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knows the basic principles of HAD.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Evaluate HAD application areas.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knows the location of commercial HAD programs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Defines the limitations of HAD applications.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION: Importance of computational fluid dynamics (CFD), General view on problem definition and problem solving in fluid dynamics and heat transfer",
+    "COMMERCIAL CFD CODES: How do CFD codes work, Finite volume method, Grid geometry.",
+    "EXAMPLE 1: 1-dimensional heat conduction, Solution file and solution procedure.",
+    "DISCRETIZATION PROCEDURE WITH THE FINITE VOLUME METHOD: 1-dimensional heat conduction, Boundary conditions and source term expressions.",
+    "Boundary source linearization, General rules for the discretization of equations.",
+    "NUMERICAL EXACT SOLUTION OF THE 1-DIMENSIONAL HEAT CONDUCTION PROBLEM: Formulation of governing equations, Formulation of the algebraic equations",
+    "NUMERICAL EXACT SOLUTION OF THE 1-DIMENSIONAL HEAT CONDUCTION PROBLEM: Formulation of governing equations, Formulation of the algebraic equations",
+    "Interior cells, boundary cells, Numeric solution using algebraic equations.",
+    "EXAMPLE 2: Laminar flow in a sudden expansion channel, Solution file and solution procedure.",
+    "OTHER CFD METHOD SUBJECTS: Variable cell distributions, Blocking inside the computational domain.",
+    "Relaxation, Convergence and restart, Control of accuracy and validity of CFD solutions.",
+    "EXAMPLE 3: Transient natural convection, Solution file and solution procedure.",
+    "Additional laboratory applications with PHOENICS.",
+    "Additional laboratory applications with FloEFD."
+  ],
+  "teaching_methods": [
+    "Face To Face"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Projects",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Patankar, S. V., \"Numerical Heat Transfer and Fluid Flow\", McGraw-Hill, 1980.",
+    "Versteeg, H. K. and Malalasekera, W., ?An Introduction to Computational Fluid Dynamics?, Longman, 2007."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gazi University",
+  "institution_slug": "ec_tr_ankara02",
+  "degree": "Mechanical Engineering (Eng) / Makine Mühendisliği (İngilizce)",
+  "course_code": "ME475",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=862521&lang=en",
+  "source_language": "en",
+  "source_sha256": "7dcabcc14ce7becb978127c495f6676387c5aa446a9bc4efd58a3351e6845605",
+  "extracted_at": "2026-11-18T10:06:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

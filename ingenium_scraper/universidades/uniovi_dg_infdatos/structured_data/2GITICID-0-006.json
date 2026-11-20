@@ -1,0 +1,158 @@
+{
+  "course_name_original": "Procesamiento de Datos en Arquitecturas de Altas Prestaciones",
+  "course_name_en": "Data Processing in High-Performance Architectures",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "solid programming foundation",
+    "solid computer foundation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should know how to apply their knowledge to their work or vocation in a professional manner and possess the competencies that are usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students should be able to gather and interpret relevant data (normally within their area of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students should be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to plan experiments and describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge for problem-solving.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Identify opportunities for innovative data-oriented applications in continuously evolving technological environments.",
+      "type": "competence",
+      "code": "CG07"
+    },
+    {
+      "text": "Know and apply the ethical and legal aspects related to data processing and the application of acquired knowledge.",
+      "type": "competence",
+      "code": "CG08"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG09"
+    },
+    {
+      "text": "Understand the architecture and operation of computer clusters.",
+      "type": "unspecified",
+      "code": "RPROA1"
+    },
+    {
+      "text": "Know specific processors for AI, GPUs, and FPGAs and estimate the additional performance they offer when processing AI workloads.",
+      "type": "unspecified",
+      "code": "RPROA2"
+    },
+    {
+      "text": "Know and use parallel file systems.",
+      "type": "unspecified",
+      "code": "RPROA3"
+    },
+    {
+      "text": "Configure and use task schedulers.",
+      "type": "unspecified",
+      "code": "RPROA4"
+    },
+    {
+      "text": "Develop parallel programs that use clusters, GPUs, etc.",
+      "type": "unspecified",
+      "code": "RPROA5"
+    },
+    {
+      "text": "Use performance measurement and visualization tools.",
+      "type": "unspecified",
+      "code": "RPROA6"
+    },
+    {
+      "text": "Understand and apply performance optimization techniques.",
+      "type": "unspecified",
+      "code": "RPROA7"
+    }
+  ],
+  "syllabus_topics": [
+    "Clusters and high-speed interconnection networks.",
+    "Processors for AI, GPUs, FPGAs.",
+    "Parallel file systems and task schedulers.",
+    "Parallel programming in shared and distributed memory architectures.",
+    "Performance measurement, optimization, and visualization."
+  ],
+  "teaching_methods": [
+    "Laboratory Practices",
+    "Expository Classes",
+    "Online Teaching"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (EX1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (EX2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work (TR1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work (TR2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Participation (PA)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Attendance (AS)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum average score of 4 out of 10 is required for both exams (EX1 and EX2) and for both assignments (TR1 and TR2). If these minimums are not met, the subject is considered failed, regardless of the overall final score. The final grade is calculated as 0.40 * [(EX1 + EX2)/2] + 0.45 * [(TR1 + TR2)/2] + 0.10 * PA + 0.05 * AS, or the minimum between this calculated score and 4 if the minimums are not reached. For extraordinary calls, an individual final exam (EX) and a final assignment (TR) are required, each with a minimum score of 4 out of 10. The final grade is 0.50 * EX + 0.50 * TR, or the minimum between this calculated score and 4 if the minimums are not reached. Grades do not carry over between calls.",
+  "bibliography": [
+    "Hennessy, David A. Patterson. \"Computer Architecture: A Quantitative Approach by John L.\" Hennessy, David A. Patterson (2017).",
+    "Hager, Georg, and Gerhard Wellein. Introduction to high performance computing for scientists and engineers. CRC Press, 2010."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-0-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-006",
+  "source_language": "es",
+  "source_sha256": "7039358f956bc130c570ef9811e5c67e4cf199b07a4be7ba6dfdf0a1dd36939f",
+  "extracted_at": "2026-11-20T08:21:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

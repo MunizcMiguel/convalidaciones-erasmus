@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Asservissement numérique (digital control)",
+  "course_name_en": "Digital Control",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en",
+    "fr"
+  ],
+  "prerequisites": [
+    "Systems modeling in the continuous time-domain using differential equations and transfer functions",
+    "Stability and performances in the continuous time-domain",
+    "PID controllers in the continuous time-domain"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the subsystems that compose a digital control system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Make choice in terms of bandwidth and discretization scheme regarding the implementation of a controller in a digital machine.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Model a physical process and discretize its continuous time-domain model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design a digital controller and implement it in a digital machine.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the utility of digital control and when to use it.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the interconnection of systems which encompass digital controller and continuous systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to fulfill the criteria before discretizing and how to discretize continuous time-domain systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to compute digital controllers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to implement digital controllers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to analyze the stability and the performances of a digital control system.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modeling and discretization of systems",
+    "Stability and performances analysis",
+    "Design of digital controllers",
+    "Tutorial exercise",
+    "Tutorial on computer",
+    "TP on benchmark",
+    "Introductory lecture with an exercise on \"continuous-time domain control systems\" so that the students realize the implementation difficulty and so that they understand the need of \"digital control\"",
+    "Tutorial on computer to anticipate knowledges on digital implementation"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorial exercises",
+    "Computer tutorials",
+    "Practical work on benchmark"
+  ],
+  "workload_hours_total": 29.0,
+  "workload_hours_contact": 21.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*TP1) / 2.",
+  "bibliography": [
+    "Digital Control Systems, Rolf Isermann, Springer, ISBN-10 : 9783642864193.",
+    "Automatique des systèmes échantillonnés, Pierre Borne – Christophe Sueur – Philippe Vanheeghe, Editions TECHNIP, ISBN : 9782710807902, 2000."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0776SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "897430fac14f8f1817cf37773016c0a48b5239fdd4e2602f8b21400167e1d66f",
+  "extracted_at": "2026-11-18T10:00:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

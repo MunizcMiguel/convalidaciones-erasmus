@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Programação de Computadores I",
+  "course_name_en": "Computer Programming I",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Knowledge of algebra and mathematical logic."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "By the end of the semester, students should be able to use other programming languages than the ones that have been taught during the semester, and develop programs within Mechanical Engineering.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Decompose an initial problem into simpler problems and create an algorithm to solve simple problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply concepts and techniques necessary for the design of algorithms to solve some types of problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design algorithms for solving basic numerical problems involving concepts of vector and matrix calculus",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop programs in Python language and Matlab environment using the basic instructions correctly",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Test a program, interpret and analyze the obtained results",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "FUNCTIONING OF A COMPUTER: Constituent units. Running a program. Interpreter",
+    "ALGORITHMS: Algorithmic language. General organization of an algorithm. Data types and operators. Data input, data output and attribution structure. Conditional and repeating instructions. Indexed variables",
+    "INTRODUCTION TO PYTHON PROGRAMMING LANGUAGE: Sequencing. Declaration of variables and data types: focus on numerical data. Arithmetic and relational operators. Assignment statement. Data input and output. Selection structures. Repetition structures. Data structures. Subprograms: functions and procedures. Predefined functions in Python. File Handling: files, methods on files and text files vs. Binaries. String manipulation",
+    "INTRODUCTION TO MATLAB: MATLAB Session. Basic data structures. Programming in MATLAB. Advanced data structures. Graphic representation. Development of MATLAB applications in order to solve basic engineering problems."
+  ],
+  "teaching_methods": [
+    "Lectures with Power Point presentation",
+    "Learning basic concepts for designing algorithms and implementation in Python and MATLAB language",
+    "Application of basic concepts to practical cases",
+    "Discussion of proposed exercises in laboratory (PL) classes",
+    "Solving exercises in PL classes to consolidate subjects",
+    "Development and testing of own programs by students",
+    "Development of programming projects in Python in groups"
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 78.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (T3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "In-person participation (T4 - classes classification)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Computer Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Algorithm Exam (T1)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students can choose between a distributed assessment path or a final exam worth 20 points. For the distributed assessment, the final classification (CF) is calculated as: CF = 0.10 * (Algorithm Exam T1) + 0.30 * (Computer Exam T2) + 0.50 * (Final Exam T3) + 0.10 * (Classes Classification T4). To pass, students must obtain frequency and a final classification CF >= 9.5. In the final exam (T3), students must achieve at least 50% in the Matlab content and 25% in other subjects. Students who failed but obtained attendance are admitted to an appeal examination covering all subject matter for 20 points. Classification can be improved by performing a written exam (20 points).",
+  "bibliography": [
+    "Cristina Faria M. Guedes; Apontamentos do Matlab disponibilizados nos contedos do SIFEUP, 2015",
+    "Peter Wentworth; Learning with Python 3 (RLE)",
+    "Charles R. Severance; Python for everybody",
+    "John V. Guttag ; Introduction to Computation and Programming Using Python , MIT, 2016",
+    "John Zelle; Python Programming: An introduction to Computer Science, 2017"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM009",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560353",
+  "source_language": "en",
+  "source_sha256": "da837278fa7dca769d96d328821a9316175acb0601ffb5dba814aa4e584c1b5d",
+  "extracted_at": "2026-11-18T04:09:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Analog and digital electronic systems (146178)",
+  "course_name_en": "Analog and digital electronic systems",
+  "ects": 9.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Math: basics of differential calculus",
+    "Electrical circuits: basic electrical bipoles, Kirchhoff\n\t\t\t\t’s laws, electrical circuits analysis, use of operational amplifiers in linear networks",
+    "Informatics: basics of programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "understand the operation of elementary electronic devices (diodes and MOSFETs)",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "analyze the operation of simple electronic circuits containing diodes, MOSFETs, and operational amplifiers",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understand the working principles of a digital electronic circuit",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "analyse the processing algorithm performed by a combinatorial network",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understand the processing algorithm performed by a sequential network",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understand the architecture of a microprocessor-based system",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "independently use the materials and instrumentation available in the laboratory to assemble simple analog and digital electronic circuits and perform measurements on them",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Diodes: characteristics and examples of circuit applications. Photodiodes, photovoltaic cells, and LEDs.",
+    "MOSFET transistors: characteristics and applications in analog and digital circuits.",
+    "Signal processing circuits with operational amplifiers.",
+    "Op Amp with positive feedback: waveform generators.",
+    "Combinatorial networks. Half adder and full adder. Decoder. Multiplexer. Asynchronous sequential networks. SR latch. Synchronous sequential networks. Flip-flops. Performance of digital electric circuits. Digital electronic technology evolution. Microprocessor-based systems. Von Neuman architecture and Harvard architecture. CPU, memory and I/O unit main features. Functional units communication: handshaking. System bus performance. CPU microarchitecture. Instruction cycle. CPU registers and data path. Instruction set architecture. CISC and RISC instructions. Memory hierarchy. I/O activities: programmed, interrupt, DMA. Hardware accelerators for machine learning.",
+    "Assembly and analysis of simple analog and digital circuits.",
+    "Use of basic electronic instrumentation: power supplies, function generators, multimeters, oscilloscopes."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Board/i-Pad explanations",
+    "Slides",
+    "Exercises",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written test - Part 1: two short exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test - Part 1: one open question",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test - Part 2: two open questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory activities and report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Additional question on laboratory material (for non-attendees)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (optional)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Mid-term written tests",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is through a single written test. To pass the written test, a score of at least 18/30 is required, with at least 6 points in each part of the course. If the written test score is below 18/30, the exam is not passed and must be repeated. Attending at least 75% of laboratory activities and submitting a short report can add up to 3 points to the final grade. Alternatively, students unable to attend labs will have an additional question on the material in the written exam, worth up to 3 points. A short oral exam, if requested, can contribute up to +/- 2 points to the final grade. Two mid-term written tests are scheduled, which can replace the final written exam if passed.",
+  "bibliography": [
+    "Teaching material (mostly slides and example/solved exercises) available on the Moodle course page.",
+    "Microelectronic Circuits, A.S. Sedra and K.C. Smith, Oxford Univ. Press.",
+    "Introduction to logic design, A. B. Marcovitz, Mc Graw Hill",
+    "G. Bucci, Architetture dei calcolatori elettronici, Mc Graw Hill.",
+    "A.Tanenbaum, Architettura dei computer - un approccio strutturato, 2000, p. 680, ed. UTET.",
+    "D. Patterson, J. Hennessy, Computer organization and design - the hardware software interface, M. Kaufmann Publisher, 1999.",
+    "Sedra, A. S., & Smith, K. C. (2011). Microelectronic circuits (International 6th ed.). Oxford university press.",
+    "Marcovitz, A. B. (2010). Introduction to logic design (3rd ed.-International student ed.). McGraw-Hill.",
+    "Bucci, G. (2001). Architetture dei calcolatori elettronici. McGraw-Hill.",
+    "Tanenbaum, A. S., D’Antona, O., & Legoprint, L. (2006). Architettura dei calcolatori : un approccio strutturale (5. ed.). Pearson education Italia.",
+    "Patterson, D. A., & Hennessy, J. L. (2018). Computer organization and design : the hardware/software interface (RISC-V edition). Morgan Kaufmann.",
+    "Hennessy, J. L., Patterson, D. A., & Arpaci-Dusseau, A. C. (2025). Computer architecture : a quantitative approach (7. ed.). Morgan Kaufmann.",
+    "Electronics a systems approach, N. Storey, Ed. Pearson, 2017."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146178",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50428_646293_96041&ordinamento_aa=2020&af_percorso=50428&corso_cod=10131&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "8541ee7f5c66034c2da369ad37e5d3f925c076f19d48e7515ae09c4ef4040c2d",
+  "extracted_at": "2026-11-18T10:03:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

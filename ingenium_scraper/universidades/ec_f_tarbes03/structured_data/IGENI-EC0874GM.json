@@ -1,0 +1,63 @@
+{
+  "course_name_original": "Simulation dynamique des systèmes",
+  "course_name_en": "Dynamic Systems Simulation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "System dynamics simulation (S5) with NX",
+    "Finite element theory, solid mechanics course"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "At the end of the course, students should be able to model and simulate the dynamic behavior of a mechanism with deformable parts, in order to check that it meets specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use dynamic simulation software to simulate a mechanism whose operation and/or performance depend on the deformability of certain parts.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Simulation of a first mechanism to check its mechanical strength",
+    "Justification of the settings to be made on NX to perform a modal analysis",
+    "Simulation of a mechanism where deformability is necessary for operation",
+    "Simulation of a mechanism where deformability may be detrimental to expected performance",
+    "Using NX software (Siemens)"
+  ],
+  "teaching_methods": [
+    "TD (tutorials)",
+    "practical work"
+  ],
+  "workload_hours_total": 14.0,
+  "workload_hours_contact": 11.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment (CC1)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1)/1.",
+  "bibliography": [],
+  "isced_f_code": "0712",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0874GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "60cdf8a71a3b26367bfb314141230c849e71924680cb4284994a4120f8d7529e",
+  "extracted_at": "2026-11-18T10:00:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

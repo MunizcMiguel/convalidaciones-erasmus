@@ -1,0 +1,114 @@
+{
+  "course_name_original": "ELETTROTECNICA APPLICATA",
+  "course_name_en": "APPLIED ELECTRICAL ENGINEERING",
+  "ects": 6.0,
+  "semester": "FIRST SEMESTER",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of stationary and quasi-stationary electromagnetism studied in physics courses.",
+    "Theory of electrical circuits from Electrical Engineering."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Development of competencies related to static and electromechanical conversion of electrical energy and non-linear circuits.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Basic elements for the analysis of static and rotating electrical machines and static converters of electrical energy.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Operating principles of static and rotating electrical machines and power electronic circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Steady-state analysis methods for transformers and main AC and DC motors and equivalent steady-state circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analysis methods for circuits for static conversion of electrical energy for motor control and for the exploitation of electrical energy production systems from renewable sources.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Selection methods for transformers, AC and DC motors, and conversion apparatus.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze a transformer in steady-state.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze the main AC and DC motors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to choose a transformer or a motor suitable for a given application.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to simulate the qualitative behavior of the electrical machine or static converter using computer software.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of stationary and quasi-stationary electromagnetism in material media, frequency analysis, complements of circuit theory",
+    "The transformer: operating principle, circuit model, efficiency, tests, parallel operation, three-phase transformers",
+    "The asynchronous motor: rotating field, characteristic equations and equivalent circuit, mechanical and electromechanical characteristics, starting and speed regulation, braking. Double-cage motor. Single-phase asynchronous motor.",
+    "The synchronous machine and the DC machine: operating principles, equivalent circuits, mechanical and electromechanical characteristics, starting and speed regulation, braking, excitation. Brushless, stepper, permanent magnet motors.",
+    "Static energy conversion and regulation circuits: main topologies for DC/DC, DC/AC, AC/DC conversion, PWM modulation, simulations.",
+    "Rechargeable batteries: operating principle, characteristics, circuit models, computer simulations.",
+    "Elements of electrical safety: distribution of electrical energy in low voltage, overvoltages, overcurrents, protection against direct and indirect contact.",
+    "Applications to systems based on renewable energy sources (photovoltaic, wind, fuel cells): modeling, analysis and solution of control and energy conversion problems."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Use of circuit simulation and calculation software",
+    "Guided visits to industries (if possible)",
+    "Group homework"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam (discussion of theoretical/applied topics and homework solutions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The oral exam, lasting 30 minutes, requires the student to present two theoretical or applied course topics chosen by the professor and discuss the solutions to group homework assignments. A minimum score of 18 is given for uncertainties in problem-solving methods and limited knowledge of main machines. A maximum score of 30 is given for complete and in-depth knowledge, efficient and accurate problem-solving, and strong ability to connect properties of different electrical machines and components. Honors (Lode) are awarded for significant mastery, excellent language, and independent elaboration in diverse contexts.",
+  "bibliography": [
+    "G. CHITARIN, F. GNESOTTO, M. GUARNIERI, A. MASCHIO, A. STELLA, ELETTROTECNICA 2 - APPLICAZIONI, SOCIETÀ EDITRICE ESCULAPIO, 2018.",
+    "M. GUARNIERI, ELEMENTI DI ELETTROMAGNETISMO PER L'ELETTROTECNICA, SOCIETÀ EDITRICE ESCULAPIO.",
+    "Didactic material available in the course's reserved area of the DIEM E-learning portal (ELEARNING.DIEM.UNISA.IT, access with university CAU).",
+    "G. FABRICATORE, ELETTROTECNICA E APPLICAZIONI. RETI, MACCHINE, MISURE, IMPIANTI, LIGUORI EDITORE, 1995 (II.1-2, IV.1-2, V.2 TRASFORMATORE).",
+    "G. RIZZONI, ELETTROTECNICA - PRINCIPI E APPLICAZIONI 3/ED, MCGRAW-HILL, 2013 (CAPP. 6, 8-11)",
+    "FITZGERALD, KINGSLEY, KUSKO, \"MACCHINE ELETTRICHE\", FRANCO ANGELI"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno",
+  "institution_slug": "ec_i_salerno01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "0612300043",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=510085&ordinamento_aa=2018&af_percorso=9999&corso_cod=500184&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "e7d285fa935322f03aff50cd376b2a977892dfe1c6ed7b0fb390fca7d62cef78",
+  "extracted_at": "2026-11-18T10:03:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

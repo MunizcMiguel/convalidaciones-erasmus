@@ -1,0 +1,168 @@
+{
+  "course_name_original": "Bazele roboticii",
+  "course_name_en": "Basics of robotics",
+  "ects": 5.0,
+  "semester": "8",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Theoretical Mechanics",
+    "Mechanisms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explains the architecture of a robotic system, its functional components, and their role in the overall system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describes the classification of industrial robots and their main application areas.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explains coordinate transformations, rotation and translation matrices, Denavit-Hartenberg parameters, and how these concepts are used in robot modeling.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describes the principles of forward and inverse kinematics for both serial and parallel manipulator robots.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explains the notions of robot statics and dynamics, including Newton-Euler and Lagrange formulations used in motion modeling.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explains fundamental trajectory planning algorithms for industrial robots.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Applies mathematical methods and digital tools for modeling the forward and inverse kinematics of a robot manipulator.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Uses specialized software (such as Matlab) for simulating robot positions, velocities, and trajectories.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interprets the Jacobian matrix, identifies possible singularities, and evaluates their consequences on motion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyzes and evaluates the static and dynamic behavior of a robot based on theoretical models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Uses experimental and simulation tools for controlling robot position and motion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Works effectively in multidisciplinary teams, taking responsibility for theoretical and laboratory activities.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Documents and argues technical solutions for problems in robotics kinematics or dynamics.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develops autonomy in using simulation software and interpreting the obtained results.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Respects ethical norms, laboratory working rules, and requirements regarding the accuracy and correctness of modeling and measurements.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction (Generalities, Definitions, History, Economic and social aspects of automation, Classification of robots, Applications of robots, Architecture of a robotic system, Importance of studying robotics, Course objective)",
+    "Structure of the mechanical system of a manipulator robot (Generalities, Structure of the guiding mechanism, Structure of the positioning mechanism (trajectory generator), Structure of orientation mechanisms, End effector)",
+    "Coordinate transformations (Generalities, Rotation matrix, Translation matrix, Homogeneous transformation matrix, Rodrigues' formula, Euler parameters, Composition of rotations. Quaternions, Euler angles)",
+    "Forward kinematics of positions for manipulator robots (Introduction, Denavit-Hartenberg parameters, Homogeneous transformation matrix corresponding to an element)",
+    "Inverse kinematics of positions for manipulator robots",
+    "Velocity distribution. Jacobian matrix (Introduction, Velocity distribution in a rigid body, Virtual configuration modification, Relationship between angular velocity and rotation parameters, Velocity Jacobian, Inverse Jacobian matrix, singularity)",
+    "Statics of manipulator robots (Static forces and moments in manipulator robots, Calculation of forces and moments for a 3-DOF serial manipulator)",
+    "Dynamics of manipulator robots (Rigid body dynamics, Lagrange formulation, Newton-Euler formulation, Dynamic models of simple serial manipulator robot structures)",
+    "Trajectory planning",
+    "Architecture of a robot and structural analysis of the mechanical system",
+    "Direct kinematic analysis of the positions of a serial manipulator robot",
+    "Computer simulation of the direct kinematics of positions of a serial manipulator",
+    "Position control of a serial robot using direct kinematics results",
+    "Inverse kinematic analysis of the positions of a serial manipulator robot",
+    "Computer simulation of the inverse kinematics of positions of a serial manipulator robot",
+    "Position control of a serial robot using inverse kinematics results",
+    "Direct kinematic analysis of the velocities of a serial manipulator robot; Calculation of the Jacobian matrix",
+    "Direct and inverse kinematics of positions of a parallel manipulator robot; Computer simulation",
+    "Motion control of an RRR-type parallel robot"
+  ],
+  "teaching_methods": [
+    "Interactive lectures with explanations and visual demonstrations, using multimedia presentations",
+    "Guided discussions, problem-solving, analysis of practical examples",
+    "Whiteboard demonstrations on coordinate transformations and kinematic models",
+    "Practical exercises",
+    "Computer simulations",
+    "Work with experimental models",
+    "Exposition",
+    "Lecture",
+    "Whiteboard presentation of the studied issues",
+    "Video projector use",
+    "Discussions with students",
+    "Experiment"
+  ],
+  "workload_hours_total": 135.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Formative evaluation test",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Summative evaluation test",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Laboratory activity",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final evaluation result for a discipline is obtained by considering the scores and weights allocated to each activity. Whole grades from 10 to 1 will be awarded, with a grade of 5 certifying the acquisition of the minimum learning outcomes and the granting of associated study credits. A minimum grade of 5 is required for the Examination/Verification components (formative and summative tests combined) and for the Laboratory activity.",
+  "bibliography": [
+    "Oprisan, C. Popovici, Gh., Doroftei, I. Moldovanu, G. Introducere in cinematica dinamica robotilor si manipulatoarelor, Ed. Cermi, Iasi, 1998.",
+    "Sciavicco, L. Siciliano, B. Modelling and Control of Robot Manipulators, Springer Verlag, London, 2000.",
+    "Doroftei, I. Arhitectura și cinematica robotilor, Ed. Tehnică, știintifică Pedagogică CERMI, Iaii, 2002.",
+    "Craig, J. J. Introduction to Robotics, Mechanics and Control, Third Edition, Pearson Prentice Hall, 2005.",
+    "Doroftei, I., Robotica Vol. 1, Ed. Tehnică, știintifică Pedagogică CERMI, laș, 2005.",
+    "Doroftei, I., Robotica Vol. 2, Ed. Tehnică, Stiintifică Pedagogică CERMI, laș, 2006.",
+    "Doroftei, I. Bazele roboticii - Curs Universitatea Tehnica \"Gheorghe Asachi\" din Iasi, 2016, http://www.mec.tuiasi.ro/ro/index.php/studenti/download-descarca2.",
+    "Doroftei, I. Bazele roboticii Indrumar lucrari practice Universitatea Tehnica \"Gheorghe Asachi\" din Iasi, 2016, http://www.mec.tuiasi.ro/ro/index.php/studenti/download-descarca2."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "IM.415.DO.DS-1",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an4_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "49881816f91e915d385ac66d83f6c6d274d2d77a02b333ca173604fbca77eafc",
+  "extracted_at": "2026-11-13T01:06:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

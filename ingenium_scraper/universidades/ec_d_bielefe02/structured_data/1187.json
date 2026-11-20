@@ -1,0 +1,75 @@
+{
+  "course_name_original": "Numerische Strömungsmechanik 1",
+  "course_name_en": "Numerical Fluid Mechanics 1",
+  "ects": 5.0,
+  "semester": "4. Semester oder 6. Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Contents of the Fluid Mechanics lecture (1252)",
+    "Mathematics 3",
+    "1159 Mathematik 3"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the basic concepts of Numerical Fluid Mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to analyze and solve simple fluid mechanics problems using commercial tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are also able to implement simple simulation programs in a high-level language.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals: Tensor calculus, stress tensor, Navier-Stokes equation, continuity equation, finite difference method, boundary conditions, grid types, stream function.",
+    "Commercial tools: Introduction to flow simulation with a commercial CFD program such as STAR CCM+ or ANSYS CFX.",
+    "Software development: Implementation of a CFD program in a higher programming language for simple flow problems such as the Lid-Driven-Cavity or the Backward-Facing-Step Problem."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Seminar-based instruction"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Study project work",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded upon successful completion of the module examination.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Fachhochschule Bielefeld",
+  "institution_slug": "ec_d_bielefe02",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "1187",
+  "academic_year": "2025-26 (Version 2025)",
+  "source_url": "https://www.hsbi.de/media/hochschulverwaltung/dezernat-ii/studserv/pruefungsangelegenheiten/studiengangs-downloads/maschinenbau-(vollzeit-_-kooperativ)-bcn/studiengangspruefungsordnung-und-modulhandbuch-bachelor-maschinenbau-version-2025.pdf?called_by=fh_neu&download=1&original_page=1116&original_site=fh_neu&view_image=1",
+  "source_language": "de",
+  "source_sha256": "e460dc2c4a95e06b52aeff63992c01c92f5b1f0a356915bfe538c20821d3e1d3",
+  "extracted_at": "2026-11-18T09:48:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

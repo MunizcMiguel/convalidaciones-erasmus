@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Redes de Computadores",
+  "course_name_en": "Computer Networks",
+  "ects": 6.0,
+  "semester": "SEMESTRIAL",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Computer Programming",
+    "Microprocessor Systems",
+    "Data Structures and Algorithms",
+    "Probabilities and Statistics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Wide scope knowledge about the structure and operation of computer networks and about Internet distributed applications, including security and management issues.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Basic knowledge about socket programming and development of client/server applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of software for protocol analysis and network simulation.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Foundations and structure of the Internet",
+    "Protocol architecture",
+    "Application layer and development of application interfaces",
+    "Services and protocols of the transport and network layers",
+    "Routing algorithms and protocols",
+    "Link layer and local area networks",
+    "Wireless local area networks",
+    "Security, quality of service and management issues"
+  ],
+  "teaching_methods": [
+    "Theoretical lectures",
+    "Practical laboratory sessions",
+    "Sockets programming",
+    "Development of simple distributed applications",
+    "Utilization of software for protocol analysis and simulation of computer networks"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Project",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory work or Field work",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "James F. Kurose and Keith W. Ross, “Computer Networking – A Top-Down Approach Featuring the Internet” (7th edition), Pearson Education Ltd., 2016.",
+    "Douglas Comer, “Computer Networks and Internets: Global Edition” (6th edition), Pearson Education Ltd., 2015."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01019351",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/90083/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "f2548a0a91c4fcf634a0390e6ed9d7067bdfa47a5175f1cb2b2a32e8e6aa1dd7",
+  "extracted_at": "2026-11-20T08:20:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

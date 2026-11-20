@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Eingebettete Systeme und Echtzeitsysteme",
+  "course_name_en": "Embedded Systems and Real-Time Systems",
+  "ects": 5.0,
+  "semester": "summer semester",
+  "year_of_study": 6,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Achieved the second study section (at least 42 ECTS points from the first study section)",
+    "Previous attendance of a module with content on operating systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and evaluate specific characteristics and requirements for embedded systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know, compare, and evaluate hardware for embedded systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know scheduling procedures for embedded real-time systems (Fixed-Priority, Earliest Deadline First, Time-Triggered, PFair) on single and multicore architectures for independent and dependent tasks, implement them as part of embedded software, and verify content.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and apply problems and solutions for accessing resources in embedded systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and evaluate real-time operating systems such as VxWorks, Embedded Linux, OSEK-OS/AUTOSAR-OS.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design, implement, and verify software as part of a system solution, considering specific requirements for embedded systems in airplanes and vehicles.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Definitions and examples, characteristics of embedded systems and cyber-physical systems (CPS)",
+    "Hardware of embedded systems: Overview, sensors and actuators, processors, memory, input/output and communication",
+    "Scheduling: Basic concepts, scheduling algorithms for real-time systems (EDF, RMS, DMS, TS), dependent tasks, resource access",
+    "Multicore systems: Architecture, Global-EDF, PFAIR",
+    "Real-time operating systems: Overview, OSEK-OS, AUTOSAR-OS, VxWorks, Embedded Linux",
+    "Programming embedded systems: Imperative languages, object-orientation"
+  ],
+  "teaching_methods": [
+    "Seminar-like instruction/Exercise"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Bonus points for practical work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is based on a 90-minute written examination. Bonus points, up to a maximum of 5% of the points awarded in the exam, can be given for practical work. The exact conditions for bonus points are detailed in the Moodle course room.",
+  "bibliography": [
+    "BUTTAZZO, Giorgio C., 2011. Hard real-time computing systems: predictable scheduling algorithms and applications [online]. New York, NY [u.a.]: Springer PDF e-Book. ISBN 978-1-4614-0676-1. Verfügbar unter: https://doi.org/10.1007/978-1-4614-0676-1.",
+    "MARWEDEL, Peter, 2021. Eingebettete Systeme: Grundlagen eingebetteter Systeme in cyber - physikalischen Systemen [online]. Wiesbaden, Germany: Springer Vieweg PDF e-Book. ISBN 978-3-658- 33437-6. Verfügbar unter: https://doi.org/10.1007/978-3-658-33437-6.",
+    "LEE, Edward Ashford und Sanjit Arunkumar SESHIA, 2015. Introduction to embedded systems: a cyberphysical systems approach. Second edition, printing 2.0. Auflage. Cambridge, Massachuetts: MIT Press. ISBN 978-0-262-53381-2",
+    "MARWEDEL, Peter, 2021. Embedded system design: embedded systems foundations of cyber-physical systems, and the Internet of Things [online]. Cham, Switzerland: Springer PDF e-Book. ISBN 978-3-030- 60909-2, 978-3-030-60910-8. Verfügbar unter: https://doi.org/10.1007/978-3-030-60910-8."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "FFI_ES",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "eb925ba0a8b7f09cc983dd6bd865fac1604b8ec121febd6537e132dea510d851",
+  "extracted_at": "2026-11-20T12:35:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

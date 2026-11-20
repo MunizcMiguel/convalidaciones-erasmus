@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Network Architectures",
+  "course_name_en": "Network Architectures",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Explain the operation of networks in an integrated manner, identifying and implementing different solutions to support applications and services.",
+      "type": "skill",
+      "code": "OA1"
+    },
+    {
+      "text": "Explain, distinguish and evaluate different protocols and services available for end-to-end communication and communication between applications over the network.",
+      "type": "skill",
+      "code": "OA2"
+    },
+    {
+      "text": "Explain the architecture of the transport network, software defined networks and mobility. Be able to distinguish and evaluate different architectures.",
+      "type": "skill",
+      "code": "OA3"
+    },
+    {
+      "text": "Be able to distinguish different approaches and solutions for multimedia networks and multicast. Be able to distinguish and evaluate different existing techniques for them.",
+      "type": "skill",
+      "code": "OA4"
+    },
+    {
+      "text": "Configure different network architectures, identifying and implementing different solutions in an integrated manner. Detect and correct errors in their configuration.",
+      "type": "skill",
+      "code": "OA5"
+    }
+  ],
+  "syllabus_topics": [
+    "Network interconnection.",
+    "Interconnection and routing in IP networks.",
+    "NAT.",
+    "Routing Protocols: OSPF and BGP.",
+    "Router architecture.",
+    "IPv6 networks.",
+    "Mobility: architectures.",
+    "End-to-end communication.",
+    "Addressing and multiplexing.",
+    "UDP and TCP protocols.",
+    "TCP connection management.",
+    "Flow control and congestion control.",
+    "Transport networks.",
+    "Software defined and configured networks: SDN architecture, OpenFlow, NFV.",
+    "Mobility: architectures and routing.",
+    "Network services and applications.",
+    "Communication models.",
+    "Protocols definition in ABNF and ASN1.",
+    "Name services: DNS, etc.; Electronic mail; WWW Architecture.",
+    "Server infrastructures.",
+    "Content distribution networks, GSLB.",
+    "Multimedia Networks.",
+    "Architectures and addressing.",
+    "IGMP and multicast.",
+    "Protocols DVMRP, PIM, MOSPF.",
+    "Multimedia applications.",
+    "Architectures for streaming.",
+    "VoIP.",
+    "Protocols RTSP, RTP, RTCP, SIP.",
+    "Scaling and policing.",
+    "Integrated services.",
+    "RSVP.",
+    "Differentiated services."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "1st written test on CP1 and CP2",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "2nd written test on CP3 to CP5",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Laboratories",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Written test on CP1 to CP5 (Season 1 Evaluation)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Written test on CP1 to CP5 (Season 2 Evaluation)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Written test on CP1 to CP5 (Special Season Evaluation)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "For evaluation during the semester, a minimum score of 8 out of 20 is required in the weighted rounded average of the written tests (30% + 35% of the final grade). A minimum score of 8 out of 20 is also required in the weighted rounded average of the laboratories (35% of the final grade). Evaluation for Season 1, Season 2, and Special Season is 100% based on a single written test covering all program contents.",
+  "bibliography": [
+    "Computer Networking: A Top-Down Approach Featuring the Internet, James F. Kurose, Keith W. Ross, Addison Wesley.",
+    "Acetatos e outro material de apoio na plataforma de e-Learning",
+    "TCP/IP Protocol Suite, Forouzan, McGrawHill",
+    "Data Communications and Networking, Forouzan, McGrawHill",
+    "Computer Networks and Internets with Internet Applications, Comer, Pearson",
+    "Computer Networks, A systems Approach, Peterson & Davie, Morgan Kaufmann",
+    "Network Systems Design using Network Processors, Comer, Prentice Hall",
+    "High-Speed Networks and Internets: Performance and Quality of Service, Stallings, Prentice Hall",
+    "Engenharia de Redes Informáticas, E. Monteiro e F Boavida, FCA",
+    "Tecnologia de Sistemas Distribuídos, J Marques e P Guedes, FCA Editora de Informática",
+    "TCP/IP Teoria e Prática, Fernando Boavida e MArio Bernardes, FCA Editora de Informática",
+    "Computer Networks, Andrew Tanenbaum, Prentice Hall"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "prerequisites",
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "ISCTE - Instituto Universitário de Lisboa",
+  "institution_slug": "ec_p_lisboa07",
+  "degree": "Telecommunications and Computer Engineering (Licenciatura, LETI)",
+  "course_code": "03708",
+  "academic_year": "2026/2027 (plan vigente en la web)",
+  "source_url": "https://www.iscte-iul.pt/programmes/degree/9098#CourseInfoModal-4968",
+  "source_language": "en",
+  "source_sha256": "de12d44fc084ce3fba6668f50916ae023313f2c026d29a01348d548373adf69d",
+  "extracted_at": "2026-11-20T09:10:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

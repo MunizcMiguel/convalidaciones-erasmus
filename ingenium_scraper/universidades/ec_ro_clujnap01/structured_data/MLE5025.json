@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Graph algorithms",
+  "course_name_en": "Graph algorithms",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Data Structures and Algorithms",
+    "Average skills in analysis and design of algorithms and data structures, including implementing them in a programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has knowledge related to programming, mathematics, engineering and technology and has the skills to use them to create complex information technology systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills for computer program design and software systems analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to identify complex problems and examine related issues to develop solving options and implement solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to combine diverse information to formulate solutions and generate ideas for developing new products and applications.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic graph theory definitions (graph, multigraph, directed graph/multigraph, walk, trail, path), basics on graph representations",
+    "In-deep study of possible graph representations",
+    "Connectivity and shortest path problems. Depth-first and breadth-first traversal of a graph. Connected and strongly-connected components.",
+    "Minimum-cost path in a graph. Dynamic programming approach. Bellman-Ford algorithm.",
+    "Dijkstra algorithm. A-star algorithm. Floyd-Warshall algorithm.",
+    "Dependency graphs, partial order and topological sorting. Topological sorting algorithms and strongly connected components algorithms.",
+    "Activity planning problem and algorithms.",
+    "Trees and forests. Minimum spanning trees. Kruskal and Prim algorithms.",
+    "NP-complete problems. Hamiltonian cycle, Traveling Salesman Problem.",
+    "Other hard problems: clique, vertex cover, coloring.",
+    "Eulerian cycle. Planar graphs: Euler's relation, K5 and K3,3 graphs, relations between number of edges and vertices.",
+    "Transport networks. Maximum flow. Ford-Fulkerson algorithm.",
+    "Maximum flow of minimum cost.",
+    "Matching problem",
+    "Modelling real world problems with graphs",
+    "Graph representation",
+    "Shortest path. Graph traversal",
+    "Minimum cost path, dynamic programming, Bellman-Ford algorithm",
+    "Minimum cost path, Dijkstra, A-star, Floyd-Warshall",
+    "Directed acyclic graphs; trees",
+    "Maximum flow and matching problems.",
+    "Graph representation (Lab)",
+    "Graph traversal, minimum length path, connected components (Lab)",
+    "Minimum cost paths (Lab)",
+    "Directed acyclic graphs (Lab).",
+    "Trees (Lab).",
+    "Hard (NP-complete) problems (Lab)",
+    "Finalizing assigned problems (Lab)."
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, debate",
+    "Dialogue, debate, examples, guided discovery"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Laboratory works",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Students must have at least 5 of 7 attendances to seminaries and 6 of 7 attendances to labs. A minimum grade of 5 (on a scale of 1 to 10) is required for both the written exam and the average of laboratory works.",
+  "bibliography": [
+    "CORMEN, LEISERSON, RIVEST: Introducere in algoritmi, Editura Computer Libris Agora, 2000.",
+    "T. TOADERE: Grafe. Teorie, algoritmi si aplicatii , Ed. Albastra, Cluj-N., 2002",
+    "KA SA ZOLTA N: Combinatiroca cu aplicatii, Presa Universitara Clujeana, 2003.",
+    "BERGE C., Graphes et hypergraphes, Dunod, Paris 1970.",
+    "BERGE C., Teoria grafurilor si aplicatiile ei, Ed. Tehnica, 1972",
+    "http://www.cs.ubbcluj.ro/~rlupsa/edu/grafe/",
+    "KA SA Z., TARTIA C., TAMBULEA L.: Culegere de probleme de teoria grafelor, Lito. Univ. Cluj-Napoca 1979.",
+    "CATARANCIUC S., IACOB M.E., TOADERE T., Probleme de teoria grafelor, Lito. Univ. Cluj-Napoca, 1994.",
+    "TOMESCU I., Probleme de combinatorica si teoria grafurilor. Ed. Did. si Pedag. Bucuresti 1981."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5025",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem2_MLE5025_en_rlupsa_2025_9874.pdf",
+  "source_language": "en",
+  "source_sha256": "1b862d3d24c4d63e2525a8a4b1e9b24f5855392c9d91fe5eff390fca60997b88",
+  "extracted_at": "2026-11-20T09:08:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

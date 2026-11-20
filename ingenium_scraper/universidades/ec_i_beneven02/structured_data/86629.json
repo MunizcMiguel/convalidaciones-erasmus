@@ -1,0 +1,91 @@
+{
+  "course_name_original": "WIRELESS APPLICATIONS FOR AUTOMATION (86629)",
+  "course_name_en": "WIRELESS APPLICATIONS FOR AUTOMATION",
+  "ects": 12.0,
+  "semester": "Annual Course",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analog Electronics",
+    "Electrical Measurements",
+    "Electromagnetic Fields",
+    "Digital Electronics (recommended)",
+    "Dynamic Systems (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze and design electronic circuits at high frequency and antennas, with an emphasis on integrated circuits for wireless communication transceiver and radar.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction (course outline)",
+    "RF Transceiver architecture",
+    "Power Transfer Problem",
+    "RLC Networks",
+    "Series/Parallel Transformation",
+    "Impedance matching networks",
+    "Passive components on integrated circuits",
+    "Transmission lines (basic concepts)",
+    "Review on MOSFET amplifiers",
+    "MOSFET at HF",
+    "Bandwidth estimation techniques (OCTC method)",
+    "Noise in passive circuits",
+    "MOSFET noise",
+    "Low noise amplifier",
+    "Mixers",
+    "Oscillators",
+    "Phase locked loop",
+    "Frequency Synthesizers (basics concepts)",
+    "Power Amplifiers (class A, B, C, AB)",
+    "LTSPICE Laboratory Exercise: The design of passive filters and multistage MOSFET amplifier.",
+    "Transmit/receive antennas and their characteristic parameters.",
+    "Link budget.",
+    "Radio-Frequency Identification (RFID) systems: basic operation, applications in LF, HF, and UHF bands, tag and reader types.",
+    "Overview of key IoT technologies: Bluetooth, WiFi, ZigBee, Z-Wave, UWB.",
+    "Wireless power transfer and energy harvesting.",
+    "Radar: operating principles, Frequency-Modulated Continuous-Wave mode.",
+    "On-chip radar architectures for automotive applications.",
+    "Antenna measurement and characterization.",
+    "MATLAB antenna simulations.",
+    "Measurement of millimeter-wave radar-on-chip (120 GHz) for automotive applications, using MATLAB."
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Lab Exercises concerning numerical simulations of RF electronic circuits with the aid of a PC",
+    "Measurements for 120 GHz radar (silicon radar) in an automotive environment and comparison with MATLAB-based numerical codes",
+    "Laboratory measurements of antennas (dipoles and Yagi-Uda antennas) and comparison with antenna toolbox codes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 96.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam on course topics, including tests on lab exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam, the student is required to demonstrate acquisition of fundamental concepts on analysis and design of main blocks of a RF transceiver system and related circuit components. Students may take the exam for both modules in a single session or in two separate sessions. The final grade will be calculated as the average of the grades earned on the individual modules.",
+  "bibliography": [
+    "The design of CMOS radio-frequency integrated circuits, 2nd Edition, Thomas H. Lee. Cambridge ; New York, NY, USA : Cambridge University Press, 2004.",
+    "RF microelectronics, 2nd Edition, Behzad Razavi. Pearson Education, Inc., 2012.",
+    "M. Jankiraman, “FMCW Radar Design ”, 2018 Artech House",
+    "Sophocles J. Orfanidis, \"Electromagnetic Waves and Antennas\", http://www.ece.rutgers.edu/~orfanidi/ewa/",
+    "Fawwaz T. Ulaby, Eric Michielssen, and Umberto Ravaioli,\" Fundamentals of Applied Electromagnetics 6e\".",
+    "Lecture notes files which will be shared regularly throughout the course."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86629",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8077&ordinamento_aa=2023&af_percorso=2&corso_cod=10186&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "1eaa8ae4f19cd29cb1dfb49c5aaaa3faa3afd162ea9811657d49769e6199268b",
+  "extracted_at": "2026-11-20T08:19:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

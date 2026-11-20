@@ -1,0 +1,62 @@
+{
+  "course_name_original": "Finite Element Method I.",
+  "course_name_en": "Finite Element Method I.",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "understanding variational principles particularly of deformation approach",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understandig FEM as particular case of Ritz's method",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Deformation and force approach in mechanics",
+    "Fundamental ideas of elastostatics - tensor, index and matrix notation, variational principles: statically amissible stress, kinematically admissible strain, principle of virtual displacements. Example for 1D.",
+    "Minimum of total potential energy principle. Example for 1D.",
+    "Variational principles in mechanics - extension for 3D-continuum.",
+    "Approximate solutions - Ritz's method. Example with Fourier base and with piecewise linear base on the tension-compression bar.",
+    "Basic concepts of FEM - node, element, shape functions, u-delta operator, stiffness matrix, equivalent nodal loads",
+    "Triangular plane element.",
+    "Choose of interpolation model.",
+    "Isoparametric element.",
+    "Theory of Kirchhoff plates. Plate elements, flat shell elements",
+    "Shells classification, stress.",
+    "Generalized linear constraint equation.",
+    "Numerical integration."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Lecturers's slides and other resources are placed in http://moodle.fs.cvut.cz.",
+    "Bathe, K.J.: Finite Element Procedures, Prentice Hall, 1996"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods",
+    "prerequisites"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E111057",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet3543206.html",
+  "source_language": "en",
+  "source_sha256": "95b1ee58ac150046836a3737ec62bbe33d5e48789303074c59611dba81977fbf",
+  "extracted_at": "2026-11-20T01:16:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

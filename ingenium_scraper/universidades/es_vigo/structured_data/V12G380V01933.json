@@ -1,0 +1,86 @@
+{
+  "course_name_original": "Sistema de análisis, simulación y validación de datos",
+  "course_name_en": "Data analysis, simulation, and validation system",
+  "ects": 6.0,
+  "semester": "1c",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es",
+    "gl"
+  ],
+  "prerequisites": [
+    "Basic knowledge of machine engineering reality",
+    "Graphical expression",
+    "Strength of materials",
+    "Theory of machines and mechanisms",
+    "Theory of structures and industrial constructions",
+    "Machine Design I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and apply computational simulation techniques to mechanical design.",
+      "type": "skill",
+      "code": "B1 B3 B4 C19 C20 D2 D9 D10 D17"
+    },
+    {
+      "text": "Know and apply computational techniques for classic machine design calculation.",
+      "type": "skill",
+      "code": "B1 B3 B4 C19 C20 D2 D9 D10 D17"
+    },
+    {
+      "text": "Know and apply computational numerical analysis techniques in machine design.",
+      "type": "skill",
+      "code": "B1 B3 B4 C19 C20 D2 D9 D10 D17"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the subject, planning and evaluation. Prior knowledge: machine design; theory of mechanisms; materials.",
+    "Static and dynamic calculation: Definition and contextualization, theoretical calculation, calculation software.",
+    "Gears: Definition and contextualization, theoretical calculation, calculation software, selection of commercial elements from catalog.",
+    "Gearmotors: Definition and contextualization, theoretical calculation and examples, selection of commercial elements from catalog.",
+    "Shafts: Definition and contextualization, theoretical calculation, detail design, calculation software, calculation of shaft-hub connections, axial fastening elements and selection according to standard.",
+    "Bearings: Definition and contextualization, theoretical calculation, calculation software, selection of commercial elements from catalog, manufacturer tolerances according to catalog.",
+    "Tolerances of machine elements: Dimensional and geometric tolerances, interpretation of manufacturing and assembly drawings.",
+    "Advanced design and integration in engineering: Design and import of machine elements according to manufacturer catalogs, parts and assemblies."
+  ],
+  "teaching_methods": [
+    "Presentations",
+    "Problem solving",
+    "Case study",
+    "Resolution of problems and/or exercises",
+    "Project work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Resolution of problems and/or exercises",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Project",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The course will be passed if a grade equal to or greater than 50% of the total is obtained. To pass the course, at least 35% of the partial mark for each work block must be obtained. In the case of official waiver of continuous assessment, the student will be evaluated according to the project presented and an exam with a value of up to 40% of the score. Unethical behavior (copying, plagiarism, unauthorized use of electronic devices) will result in a failing grade (0.0) for the academic year.",
+  "bibliography": [
+    "varios autores, Diseño en Ingeniería Mecánica de Shigley , 0, McGraw-Hill, 0",
+    "Norton, R., Diseño de Máquinas , Pearson, 2000",
+    "Mott, R.L., Diseño de elementos de máquinas , 0, Pearson, 2006",
+    "Larburu, N., Máquinas prontuario. Técnicas, máquinas, herramientas , Paraninfo, 1989"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01933",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01933&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "739ca2b84fcc2863c92bda1fe4fd857d75d88e7a27c06b79f0dbb3eb30c4efba",
+  "extracted_at": "2026-11-18T02:57:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

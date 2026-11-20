@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Evaluation des performances",
+  "course_name_en": "Performance Evaluation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Basic concepts of systems",
+    "Basic concepts of production management",
+    "Basic concepts of linear algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Distinguish between a discrete event system and a continuous system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Model a discrete event system using ordinary Petri nets.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Evaluate the performance of a discrete event system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze and propose improvements to optimize the system's performance.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify the difference between a discrete event system and a continuous system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Assimilate the principles of ordinary Petri nets, their definitions, and properties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand performance evaluation methods applied to discrete event systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to model a discrete event system using ordinary Petri nets.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the performance of the modeled system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Propose improvement strategies to optimize system performances.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop rigor in analyzing the performance of discrete event systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be aware of the challenges related to optimizing production systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Apply these skills in an industrial context while emphasizing process efficiency.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "General presentation of discrete event systems",
+    "Importance of performance evaluation",
+    "Introduction to Petri nets",
+    "Fundamentals of Petri Nets: Definitions and basic concepts",
+    "Marking graph and network dynamics",
+    "Specific structures of Petri nets",
+    "Fundamental properties (liveness, boundedness, blocking, reinitialization, etc.)",
+    "Fundamental properties (accessibility)",
+    "Network reduction techniques",
+    "State equation and structural analysis",
+    "TD 1: Modeling and marking graph of Petri nets",
+    "TD 2: Analysis of properties and network reduction",
+    "TD 3: Application of Petri nets to performance evaluation"
+  ],
+  "teaching_methods": [
+    "Interactive lectures",
+    "Tutorials (TD): Solving practical exercises and case studies"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 11.5,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1.",
+  "bibliography": [
+    "René David, Hassane Alla. Du Grafcet au réseaux de Petri. Editions HERMES, 2ème édition, 1997.",
+    "Annie Choquet-Geniet. Les réseaux de Petri : Un outil de modélisation Cours et exercices corrigés. Dunod, 2006.",
+    "Wolfgang Reisig. Understanding Petri Nets: Modeling Techniques, Analysis Methods, Case Studies. Springer, 2013"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0732",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "2efb5ff73dfe0bea16fff2256264f61a92907c290d964fc6fa628435e95fa5ff",
+  "extracted_at": "2026-11-18T09:59:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

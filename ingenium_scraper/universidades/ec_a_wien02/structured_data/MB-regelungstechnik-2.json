@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Regelungstechnik 2",
+  "course_name_en": "Feedback Control 2",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Solid basic mathematical knowledge (analysis, differential equations, linear algebra, basic knowledge in mechanical engineering fundamentals for understanding various applications (mechanics, electrical engineering, ...), ability to present and communicate one's own solutions to given tasks.",
+    "4.0/3.0 VU Fundamentals of Control Engineering",
+    "Successful completion of StEOP"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Draw and interpret the root locus of a single-input system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine simple single-input controllers using the root locus.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Write dynamic systems in state-space representation and analyze their properties.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply and parameterize different control concepts in state-space with or without state observers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze nonlinear single-input systems using the describing function.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design a nonlinear control using exact linearization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess the stability of a nonlinear system using Lyapunov theory.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the concept of 'backstepping control'.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Discuss designs and results constructively and critically.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Present complex content, models, and results appropriately for the audience.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Apply and adapt theoretical knowledge in practice.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Root Locus",
+    "Representation and analysis of single-input systems in state-space",
+    "Controller and observer design in state-space",
+    "Describing Function",
+    "Exact Linearization ('Feedback Linearisation')",
+    "Control Lyapunov functions",
+    "Backstepping control design"
+  ],
+  "teaching_methods": [
+    "Interactive design",
+    "Lectures: theoretical foundations are developed",
+    "Practical problem statements illustrated vividly",
+    "Numerous exercises: application of theoretically conveyed content through calculation and simulation examples",
+    "Extensive examples, available as complete MATLAB/Simulink packages for students",
+    "Collaboration in small teams"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Two written tests",
+      "weight_percentage": null
+    },
+    {
+      "method": "One laboratory exercise part",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Performance assessment is based on two written tests and one laboratory exercise part.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Technische Universität Wien",
+  "institution_slug": "ec_a_wien02",
+  "degree": "Bachelorstudium Maschinenbau (E 033 245)",
+  "course_code": "MB-regelungstechnik-2",
+  "academic_year": "Studienplan 2026 (rev1)",
+  "source_url": "https://www.tuwien.at/fileadmin/Assets/dienstleister/studienabteilung/BSc-Studienplaene_2026/Bachelorstudium_Maschinenbau_2026_rev1.pdf",
+  "source_language": "de",
+  "source_sha256": "f7ef0efad0c5fd5cfd4480ea0252d28e491a2e1d925603377a6f8faa0bcfae30",
+  "extracted_at": "2026-11-18T04:21:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

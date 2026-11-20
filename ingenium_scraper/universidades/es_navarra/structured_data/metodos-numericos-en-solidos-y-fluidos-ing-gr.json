@@ -1,0 +1,180 @@
+{
+  "course_name_original": "Métodos Numéricos en Sólidos y Fluidos (Ing. Gr.)",
+  "course_name_en": "Numerical Methods in Solids and Fluids (Eng. Gr.)",
+  "ects": 4.0,
+  "semester": "2nd semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the mathematical foundations of the Finite Volume Method (FVM) and the Finite Element Method (FEM).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to implement and program numerical methods to solve simple engineering problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to use commercial software that implements FVM and FEM.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Mathematical Modeling in Thermal and Fluid Engineering",
+    "Continuous Mathematical Model",
+    "Magnitudes and Types of Models",
+    "Spatial Domain",
+    "Differential Equations. Transport Equation",
+    "Initial and Boundary Conditions",
+    "Discrete Mathematical Model",
+    "Discretization",
+    "Temporal Domain",
+    "Spatial Domain. 2D and 3D Meshing",
+    "Mesh Components and Information",
+    "Stationary Heat Conduction in Solids I. Orthogonal Meshes",
+    "Statement (FVM diffusion)",
+    "Application of the Finite Volume Method (FVM)",
+    "Resolution of the Discrete Mathematical Model",
+    "Stationary Heat Conduction in Solids II. Non-Orthogonal Meshes",
+    "Statement (FVM diffusion)",
+    "Application of the FVM",
+    "Numerical Evaluation of the Gradient",
+    "Heat Transfer in an Incompressible and Stationary Flow Fluid",
+    "Statement (FVM convection)",
+    "Application of the FVM",
+    "First and Second Order Upwind Numerical Schemes",
+    "Incompressible and Stationary Flow of a Newtonian Fluid",
+    "Statement (Navier-Stokes)",
+    "Problem areas in the Numerical Resolution of the Navier-Stokes Equations",
+    "Numerical Scheme for Mass Flow Interpolation",
+    "Numerical Scheme for Pressure Interpolation",
+    "Resolution of the Discrete Mathematical Model (DMM)",
+    "Segregated and Coupled Strategies",
+    "Boundary Conditions",
+    "Introduction to the Finite Element Method (FEM)",
+    "General Equations",
+    "Stationary Potential Energy Principle",
+    "Stiffness Matrix and Interpolation Functions in 1D elements",
+    "Convergence criteria",
+    "2D Elasticity",
+    "Displacement field, unit deformations and stresses",
+    "Triangular and rectangular element",
+    "Isoparametric elements",
+    "Isoparametric formulation",
+    "3D Elasticity",
+    "Displacement field, unit deformations and stresses",
+    "Types of elements",
+    "Isoparametric formulation",
+    "Numerical integration",
+    "Newton-Cotes Method",
+    "Gauss Quadrature",
+    "Stress smoothing",
+    "Euler's Theory",
+    "Timoshenko's Theory",
+    "Resolution by the FEM",
+    "Plate Theory",
+    "Plate Bending",
+    "Classical Plate Theory (Kirchhoff)",
+    "Mindlin-Reissner Plate Theory",
+    "Resolution by the FEM",
+    "Shell Theory",
+    "Shell Elements",
+    "Resolution by the FEM"
+  ],
+  "teaching_methods": [
+    "Theoretical classes explaining the Finite Volume Method",
+    "Practical classes with guided exercises and time for assessed practices (for Fluid Dynamics)",
+    "Theoretical classes explaining the Finite Element Method",
+    "Practical classes with guided exercises and time for assessed practices (for Solids)"
+  ],
+  "workload_hours_total": 111.0,
+  "workload_hours_contact": 38.0,
+  "assessment_methods": [
+    {
+      "method": "Multiple-choice test 1 (CFD)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Multiple-choice test 2 (CFD)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Multiple-choice test 3 (CFD)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Guided practice 1 (CFD)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Guided practice 2 (CFD)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Assessed practice 1 (CFD)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Assessed practice 2 (CFD)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Assessed practice 3 (CFD)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Guided practices (Solids)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "2D Elasticity project (report)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "2D Elasticity project (presentation)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Assessed exercise (Solids)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final theoretical exam (Solids)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final practical exam (Solids)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "To pass the course, both the Fluids and Solids parts must be passed. For the CFD part, each of the three multiple-choice tests requires a score over 3/10. For the Solids part, all practices and the 2D Elasticity project must be submitted, and both the theoretical and practical sections of the final exam require a score over 3/10. In the extraordinary examination, only the failed parts are re-evaluated for CFD, while for Solids, it consists of a 100% final exam (submission of previous practices is required), and the grades for approved parts are carried over.",
+  "bibliography": [
+    "F. Moukalled. L. Mangani. M. Darwish. The Finite Volume Method in Computational Fluid Dynamics. An Advanced Introduction with OpenFOAM and Matlab. Springer 2016",
+    "Suhas Patankar. Numerical Heat Transfer and Fluid Flow. Hemisphere Series on Computational Methods in Mechanics and Thermal science. CRC Press 1980",
+    "H. K. Versteeg & W. Malalasekera. An Introduction to Computational Fluid Dynamics. The Finite Volume Methods. Ed. Longman. 2nd Edition 2007",
+    "J.H. Ferzinger & M. Peric. Computational Methods for Fluid Dynamics. Springer 2002.",
+    "J. T. Celigüeta. Método de los Elementos Finitos para Análisis Estructural. Escuela Superior de Ingenieros Industriales, Universidad de Navarra, San Sebastián. 2010",
+    "B. J. Mac Donald. Practical Stress Analysis with Finite Elements. Glasnevin Pub. 2008.",
+    "O. C. Zienkiewicz, R. L. Taylor. The Finite Element Method. Vol 1. The Basis. Fifth Edition, Butherworth-Heinemann, 2000"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "metodos-numericos-en-solidos-y-fluidos-ing-gr",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/metodos-numericos-en-solidos-y-fluidos-ing-gr/",
+  "source_language": "es",
+  "source_sha256": "db3cdedaa7f2e006e4e72e506f73edbb28af985c4dcf9d0457f4281d12f60d79",
+  "extracted_at": "2026-11-18T02:51:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

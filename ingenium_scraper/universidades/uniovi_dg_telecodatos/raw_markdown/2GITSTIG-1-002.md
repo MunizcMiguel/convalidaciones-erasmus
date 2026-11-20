@@ -1,0 +1,222 @@
+---
+{
+ "course_code": "2GITSTIG-1-002",
+ "course_name": "Estructuras Discretas y Análisis de Algoritmos",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-002",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:02:15",
+ "content_sha256": "21d1316d7634b39e1920a70708988697438723ba864f08190ef67d5ad7921461"
+}
+---
+
+# Estructuras Discretas y Análisis de Algoritmos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-1-002
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (16 Horas); Docencia On Line (30 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura de **Estructuras Discretas y Análisis de Algoritmos** forma parte de la Materia "Extracción, representación y procesamiento de datos". Se desarrolla en el primer semestre del primer curso del Grado, por lo que es una asignatura básica orientada a sentar las bases necesarias para el entendimiento y estudio de varias asignaturas posteriores del Grado, especialmente aquellas pertenecientes a la misma materia. La asignatura se enfoca en introducir los conceptos de teoría de grafos y combinatoria a los alumnos, orientándolos al campo de la optimización y el aprendizaje automático. También se dota al alumno de conocimientos básicos de complejidad algorítmica que le permitirán abordar las asignaturas más avanzadas del Grado en mejores condiciones. Estos conceptos sientan la base para varias asignaturas dentro del Grado, siendo quizá las siguientes, las más afectadas:
+
+**Algoritmia (Segundo Curso):** Algoritmia es la continuación natural de la presente asignatura. Es por tanto de vital importancia sentar correctamente las bases para que Algoritmia se pueda abordar en condiciones óptimas. El análisis asintótico de las funciones introducido en esta asignatura será posteriormente ampliado en Algoritmia, al igual que el estudio y análisis de del coste de algoritmos iterativos y recursivos.
+
+**Metodología de la Programación (Primer Curso):** Los conceptos de combinatoria y grafos impartidos en la presente asignatura son de gran utilidad para comprender los algoritmos de búsqueda impartidos en Metodología de la Programación. La introducción a funciones recursivas tiene también su continuación natural en Metodología de la programación, donde los alumnos aprenden a programarlas y usarlas en el contexto de la computación.
+
+**Búsqueda Inteligente y Metaheurísticas (Segundo curso):** Esta asignatura compone la principal aplicación de los conceptos vistos en la presente asignatura. La mayoría de algoritmos de búsqueda inteligente se basan en grafos, por lo que los conceptos de teoría de grafos introducidos serán indispensables. Del mismo modo, la exploración de espacios de búsqueda está siempre muy ligada a problemas de explosión combinatoria, cuyo entendimiento requiere de las nociones básicas de combinatoria aquí introducidos. Es el caso de la asignatura optativa **Métodos heurísticos para planificación y scheduling (tercer curso)**, ya que este es un problema de naturaleza combinatoria y cuya resolución se aborda típicamente desde la teoría de grafos.
+
+Aunque en menor grado, la asignatura está ligada también a **Aprendizaje Automático I (segundo curso)**, dado que varios algoritmos de aprendizaje se basan en representación mediante grafos e **Infraestructura informática y de red (segundo curso)**, dado que las redes informáticas son, al fin y al cabo, grafos, y por tanto los conceptos de conexión, caminos críticos o recorridos en árboles aplican en este campo.
+
+## Requisitos
+
+Teniendo en cuenta que esta es una asignatura básica impartida en el primer semestre del primer curso, no tiene ningún requisito previo. Más bien al contrario, esta asignatura constituye un requisito para asignaturas futuras. Es conveniente, no obstante, que el alumno tenga nociones de notación y lenguaje matemático y que posea cierta destreza en la utilización de métodos demostrativos.
+
+## Competencias y resultados del aprendizaje
+
+Según la memoria de verificación, las competencias a alcanzar por los estudiantes en cuyo desarrollo colabora la asignatura de Estructuras Discretas y Análisis de Algoritmos son las siguientes:
+
+**Competencias básicas**
+
+CB2: Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio
+
+**Competencias generales**
+
+CG1: Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+CG2: Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+CG3: Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+CG4: Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG9: Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+**Competencias específicas**
+
+CE1: Conocer los conceptos y métodos matemáticos adecuados para obtener modelos capaces de resolver los problemas que puedan plantearse en el contexto de la ciencia e ingeniería de datos: álgebra lineal, cálculo diferencial e integral.
+
+CE2: Conocer los conceptos básicos de matemática discreta.
+
+CE11: Evaluar la complejidad computacional de un problema e identificar, si existen, estrategias algorítmicas apropiadas para su resolución.
+
+**Resultados de aprendizaje**
+
+Los resultados de aprendizaje esperados, relacionados con la asignatura son los siguientes:
+
+1. Conocer los elementos básicos de grafos dirigidos y no dirigidos, los problemas de accesibilidad y conexión, grafos eulerianos y hamiltonianos, y planaridad y coloración. (REST1)
+2. Conocer los algoritmos clásicos que dan solución a los problemas de accesibilidad y conexión. (REST2)
+3. Identificar y distinguir árboles dirigidos y no dirigidos, y los problemas específicos de cada tipo de árbol como el árbol generador o los recorridos de árboles binarios, y algunos algoritmos para resolver estos y otros problemas sobre árboles. (REST3)
+4. Conocer las técnicas básicas de cálculo de cardinales. (REST4)
+5. Calcular el comportamiento asintótico del tiempo usado por un algoritmo. (REST5)
+
+## Contenidos
+
+**Tema 1. Grafos**
+
+1. Conjuntos y relaciones
+2. Representación de grafos: Grafos dirigidos, Grados no dirigidos y Grafos ponderados
+3. Conceptos básicos en grafos
+4. Caminos: Accesibilidad y conexión. Puntos de articulación y puentes.
+5. Grafos y relaciones
+6. Emparejamiento, recubrimiento y estabilidad.
+7. Caminos eulerianos y hamiltonianos.
+8. Árboles: no dirigidos, dirigidos, n-arios y recorridos en árboles
+9. Planaridad y coloreado
+10. Problemas de redes y flujos
+
+**Tema 2 Combinatoria y Análisis asintótico**
+
+1. Principios básicos del conteo
+2. Variaciones, permutaciones y combinaciones
+3. Números combinatorios
+4. Recurrencia
+5. Análisis asintótico de funciones
+
+## Metodología y plan de trabajo
+
+La asignatura se desarrollará en modalidad semi-presencial, combinando actividades presenciales, actividades de formación online asíncrona y trabajo autónomo del estudiante.
+
+Las **actividades presenciales** son aquellas en las que estará siempre presente el profesor. Se dividen en clases expositivas, prácticas de laboratorio y sesiones de evaluación.
+
+  - ***Clases expositivas***: Impartidas al grupo completo, no necesariamente como lección magistral, sino procurando una participación activa del alumno en la dinámica de las mismas. En estas clases se desarrollarán contenidos teóricos de la asignatura, combinados con alguna resolución de pequeños ejercicios. Se utilizará la pizarra y los diferentes medios audiovisuales.
+  - ***Prácticas de Laboratorio:*** Dedicadas a resolver ejercicios y problemas prácticos. Se desarrollarán en varios grupos, de manera eminentemente participativa.
+  - ***Sesiones de evaluación:*** Se dedicarán a la realización de pruebas escritas o bien con un PC, con las que se pueda valorar de forma objetiva el nivel alcanzado por los estudiantes en la adquisición de algunas de las competencias previstas.
+
+Las **actividades de formación online asíncrona** son aquellas en las que el profesor impartirá los contenidos utilizando distintos medios audiovisuales tales como vídeos, que quedarán a disposición del estudiantado para su estudio. Se dividen en clases expositivas y prácticas de laboratorio.
+
+  - ***Clases expositivas***: El contenido de cada hora lectiva se dividirá en el visionado de pequeños vídeos explicativos sobre conceptos de la materia, completados, en ocasiones, con lecturas recomendadas o el estudio de ejemplos resueltos. Se utilizarán distintos medios audiovisuales y repositorios institucionales de la Universidad de Oviedo.
+  - ***Prácticas de Laboratorio:*** Se realizarán vídeos explicativos con la resolución de distintos problemas y se propondrán ejercicios y tareas para que los estudiantes los aborden por su cuenta en base al contenido de los videos.
+
+Por su parte, a fin de cumplir los principios referentes a ECTS, establecidos en el Real Decreto 1393/2007, el estudiante deberá desarrollar un trabajo autónomo paralelo (actividades no presenciales), dirigido por el profesor. Este trabajo incluye el visionado de las clases online, aunque no se limita únicamente a ello.
+
+La metodología docente a emplear tratará de fomentar la participación activa del alumnado. Para ello se plantearán actividades y ejercicios que impliquen al alumno y propicien su participación, ya sea resolviendo tareas de manera autónoma o colaborativa en el aula. Se motivará al alumnado a preguntar las dudas que les surjan durante las clases online mediante e-mail, tutorías virtuales o durante el transcurso de las prácticas de laboratorio presenciales.
+
+Asimismo, al final de cada uno de los temas se realizará, si a juicio de los profesores se estima conveniente, un pequeño control con objeto de conocer el grado de adquisición de las competencias más relacionadas con los contenidos de la asignatura.
+
+Con respecto a las prácticas de laboratorio, tanto presenciales como online, podrían plantearse ejercicios para entregar al final de cada sesión de prácticas o bien en la siguiente sesión presencial, que el alumno deberá resolver.
+
+En caso de que el tamaño del grupo lo permita, se utilizarán metodologías docentes acordes con el tamaño de dicho grupo.
+
+A continuación, se presentan una serie de tablas que especifican la temporalidad de las actividades tanto presenciales como no presenciales:
+
+**Volumen de trabajo estimado para el estudiante**
+
+| MODALIDADES |  | Horas | % |
+| --- | --- | --- | --- |
+| Presencial | Clases expositivas presenciales | 14 | 9.3% |
+|  | Prácticas de Laboratorio presenciales | 14 | 9.3% |
+|  | Sesiones de evaluación | 2 | 1.3% |
+|  | Total | 30 | 20% |
+| No presencial | Clases expositivas online | 15 | 10.0% |
+|  | Prácticas de Laboratorio online | 15 | 10.0% |
+|  | Estudio autónomo de teoría | 30 | 20.0% |
+|  | Resolución de Ejercicios de Forma Autónoma | 20 | 13.3% |
+|  | Estudio y preparación de prácticas de Laboratorio | 40 | 26.6% |
+|  | Total | 120 | 80% |
+|  | Total | 150 | 100% |
+
+**Distribución del trabajo por temas**
+
+|  |  | ***Presencial*** |  |  |  | ***No presencial*** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de laboratorio /aula de informática* | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva* | *Prácticas de laboratorio* | *Trabajo autónomo* | **Total** |
+| Presentación y funcionamiento general del curso | **1** | 1 |  |  | **1** | 0 | 0 | 0 | **0** |
+| Teoría de Grafos | 99 | 9 | 12 |  | **21** | 11 | 12 | 55 | **78** |
+| Combinatoria y análisis asintótico | **48** | 4 | 2 |  | **6** | 4 | 3 | 35 | **42** |
+| Evaluación | **2** |  |  | 2 | **2** |  |  | 0 | **0** |
+| **Total** | **150** | **14** | **14** | **2** | **30** | **15** | **15** | **90** | **120** |
+
+## Evaluación del aprendizaje
+
+**7.1 Evaluación en la convocatoria ordinaria**
+
+Elementos evaluables  
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- **Examen parcial 1 (P1)**: Consta de una prueba escrita a realizar a mediados del semestre. Se evaluarán los apartados del 1 al 6 del Tema 1. Para aprobar la asignatura en la convocatoria ordinaria, es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta prueba. En caso no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial.
+- **Examen parcial 2 (P2)**: Consta de una prueba escrita a realizar al final del semestre. Se evaluarán los apartados del 7 al 10 del Tema 1, y el Tema 2. Para aprobar la asignatura en la convocatoria ordinaria, es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta prueba. En caso no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial.
+- **Asistencia a clase (A)**: Se controlará la asistencia a las clases de prácticas de laboratorio. La calificación será el número de clases asistidas dividido por el número total de clases de este tipo. No es necesaria una nota mínima.
+- **Participación activa (PA)**: Se valorará junto la participación activa del alumno en foros, actividades del campus virtual y transcurso de las clases. Durante las prácticas de laboratorio (tanto presenciales como online) se plantearán ejercicios cuyas soluciones podrán ser remitidas al profesorado a través del campus virtual, correo electrónico o el medio que se pueda establecer al efecto. La nota medirá el grado de participación medio en las clases. No es necesaria una nota mínima.
+
+Calificación  
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+(0,85 x (0,5 x (P1 + P2))) + (0,10 x PA) + (0,05 x A)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones  
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**7.2 Evaluación en las convocatorias extraordinarias**
+
+La convocatoria extraordinaria consta de un único examen teórico dividido en varias partes:
+
+- **Examen parcial 1 (P1)**: Se evaluarán los apartados del 1 al 6 del Tema 1. Para aprobar la asignatura es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta parte.
+- **Examen parcial 2 (P2)**: Se evaluarán los apartados del 7 al 10 del Tema 1, y el Tema 2. Para aprobar la asignatura es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta parte.
+
+Si se han alcanzado todos los mínimos, la nota final de la convocatoria se calcula como:  
+(0,5 x P1) + (0,5 x P2)  
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones  
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**7.3 Evaluación diferenciada**
+
+Aquellos alumnos con derecho a evaluación diferenciada serán evaluados del mismo modo que en las convocatorias extraordinarias.
+
+## Bibliografía
+
+Las tablas siguientes incluyen las referencias bibliográficas básicas y complementarias que se utilizan en la asignatura. Sin embargo, los estudiantes dispondrán también de otros recursos en forma de apuntes, transparencias, boletines de problemas, exámenes tipo, etc que tendrán a su disposición en el Campus Virtual.
+
+| **Bibliografía básica** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Análisis de Algoritmos y Teoría de Grafos* | Abellanas, M.; Lodares, D. | Ra-ma |
+| *Graphs and hypergraphs* | Berge, D. C. | Elsevier |
+| *Matemática discreta y sus aplicaciones* | Kenneth H. Rosen | Mc. Graw Hill |
+| *Matemática Discreta* | Félix García Merayo | Paraninfo. Thomson Learning |
+| *Applied Combinatorics (2nd edition)* | Fred S. Roberts; Barry Tesman | CRC Press. Taylor Francis Group |
+
+| **Bibliografía complementaria** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Introduction to Discrete Structures* | Preparata, Y. | Addison-Wesley |
+| *Matemática Discreta para Informáticos. Ejercicios resueltos* | Caballero Roldan, R. y otros | Prentice-Hall |

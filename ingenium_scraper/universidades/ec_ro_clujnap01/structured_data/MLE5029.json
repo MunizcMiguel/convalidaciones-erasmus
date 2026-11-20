@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Artificial intelligence",
+  "course_name_en": "Artificial Intelligence",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Data Structures",
+    "Algorithms Theory",
+    "Average programming skills in a high-level programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To use the knowledge related to programming, mathematics, engineering and technology and has the skills to use them to create complex information technology systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To use integrated development environments for creating large complex applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To present and explain methods, algorithms, paradigms and techniques used in various branches of computer science.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify complex problems and examine related issues to develop solving options and implement solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Combine diverse information to formulate solutions and generate ideas for developing new products and applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Present and explain methods, algorithms, paradigms and techniques used in various branches of computer science.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solutions and generate ideas for developing new products and applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "GUI applications using architectural templates suitable for specific user interaction applications.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to AI: History, Method, and Ethical Issues; Mathematical Prerequisites; Data Preprocessing.",
+    "Machine learning and decision trees.",
+    "Neural networks I: Perceptron model, feed-forward neural networks.",
+    "Neural networks II: Multi-layer neural networks, backpropagation algorithm.",
+    "Types of ANNs I: CNNs, RNNs, LSTMs, GRUs, Transformers, and BERT.",
+    "Problem solving as search: problem spaces, uninformed search, BFS, DFS, limited DFS, iterative deepening search, and UCS.",
+    "Problem solving as search: informed search, heuristic search, best-first search, Greedy, A* algorithm, and A* variants.",
+    "Local search: simulated annealing, hill climbing, and evolutionary computation.",
+    "Evolutionary strategies, evolutionary programming, and genetic programming.",
+    "Swarm intelligence: particle swarm optimization, ant colony optimization.",
+    "Adversarial Searching: Game playing, Minimax search, Alpha-beta pruning.",
+    "Intelligent Systems: Support Vector Machines, K-means.",
+    "Knowledge representation and reasoning in rule-based systems.",
+    "Uncertainty management in rule-based systems.",
+    "Get familiar with Scify, Matplotlib, and other packages. Perform data preprocessing.",
+    "Monte Carlo Methods: simulation, sampling, and biases.",
+    "Build a DT for a specific problem. Validate the results.",
+    "Get familiar with PyTorch. Build a perceptron for several problems.",
+    "Build and train a simple feedforward artificial network for a specific problem. Select, modify, and visualize specific network parameters.",
+    "Solve a classification problem using ANNs.",
+    "Build a CNN for image recognition.",
+    "Perform transfer learning on a neural network.",
+    "Modeling problems for the DFS approach.",
+    "Implement an evolutionary algorithm and apply it to a specific problem.",
+    "Implement a PSO for a mathematical problem.",
+    "Implement an RBS in an uncertain environment.",
+    "Hyperheuristics."
+  ],
+  "teaching_methods": [
+    "Exposure",
+    "Description",
+    "Explanation",
+    "Examples",
+    "Case studies",
+    "Discussion",
+    "Dialogue",
+    "Exercises",
+    "Small student projects"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written Examination",
+      "weight_percentage": 65.0
+    },
+    {
+      "method": "Evaluation of laboratory assignments and projects",
+      "weight_percentage": 45.0
+    }
+  ],
+  "assessment_rules": "All laboratory classes are mandatory, with a minimum attendance requirement of 90% in laboratories. To pass, students need a minimum final mark of 5 (on a scale of 1 to 10).",
+  "bibliography": [
+    "Goldberg, D.E., Genetic Algorithms, Addison-Wesley, Reading, 1989.",
+    "Russell, S. J., and Norvig, P., Artificial Intelligence: A Modern Approach, N. J., Prentice Hall/Pearson Education, 2003.",
+    "Zaki, Mohammed J., and Wagner Meira Jr., Data mining and machine learning: fundamental concepts and algorithms, Cambridge University Press, 2020.",
+    "Géron, Aurélien, Hands-on machine learning with Scikit-Learn, Keras, and Tensor Flow, O'Reilly Media, Inc., 2022."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5029",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem4_MLE5029_en_mihoct_2025_9701.pdf",
+  "source_language": "en",
+  "source_sha256": "abdf7b6ef1a6a3e4cd24a66098840fc67f313b4fdc4814b2b703869102f8cf25",
+  "extracted_at": "2026-11-20T09:08:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

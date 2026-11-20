@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Computernetze",
+  "course_name_en": "Computer Networks",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students know the most important standards used by today's internet.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know basic attack concepts on computer networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students understand the connection between the individual layers of a computer network and the protocols contained therein.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can apply the most important network tools for analysis purposes.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to fundamental protocols and applications of computer networks",
+    "Standard protocols and algorithms in modern computer networks (e.g., the Internet)",
+    "Layer model based on a Top-Down approach",
+    "DNS in the Application Layer",
+    "HTTPS in the Application Layer",
+    "TCP in the Transport Layer",
+    "UDP in the Transport Layer",
+    "IPv4/IPv6 in the Network Layer",
+    "Routing algorithms in the Network Layer",
+    "MAC in the Link Layer",
+    "ARP in the Link Layer",
+    "Security aspects across all layers",
+    "Network analysis tools (e.g., traceroute, nmap)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Moodle-supported homework with practical, computer-assisted exercises",
+    "Tool-of-the-Week: presentation, familiarization, and use of network-relevant computer analysis tools",
+    "Exercise sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the exam. The exam score contributes to the final grade with a weight of 5/158 for B.Sc. Computer Science, 5/168 for B.Sc. Applied Computer Science, and 5/150 for B.Sc. IT Security / Information Technology.",
+  "bibliography": [
+    "Computernetzwerke: Der Top-Down Ansatz by Kurose and Ross (Pearson Verlag)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "computernetze",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "0fc66958514eb437e7aa37f47437b9bd7565e7cc770ad3b97b48adf965bec198",
+  "extracted_at": "2026-11-20T12:36:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

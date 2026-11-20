@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Digital Signal Processing",
+  "course_name_en": "Digital Signal Processing",
+  "ects": 4.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Signals and Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide a basis for further study in the field of digital signal processing and signal processing by digital filters, analyze digital signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to work with discrete time signals, digital signals and determine their basic characteristics, correlation functions, frequency spectra, digital signal filtration analyses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to use MATLAB program environment for signal analysis and implement algorithms with selected microprocessor technologies usage.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course scope and review.",
+    "Discrete-time signal . Basic definitions, scope of study, digital signal.",
+    "Time-domain analysis of discrete-time signal focusing on basic signal parameters.",
+    "Correlation functions and time-domain analysis of discrete-time signal .",
+    "Frequency analysis of continuous-time signal .",
+    "Frequency analysis of discrete-time signal .",
+    "Transformation of analog signal to digital signal (Analog-to-Digital Conversion).",
+    "Transformation of digital signal to analog signal (Digital-to-Analog Conversion).",
+    "Converters for digital and analog signal transformation.",
+    "Basic system principles, methods, and techniques of digital signal processing.",
+    "Methods and techniques of digital signal filtering using FIR filters. Description of basic algorithms.",
+    "Methods and techniques of digital signal filtering using IIR filters. Description of basic algorithms.",
+    "Description and definition of signal noise.",
+    "Signals in the time domain – simulation and measurement using virtual instruments.",
+    "Signal measurement using instrumentation and virtual instrumentation.",
+    "Calculation of basic signal parameters – simulation and implementation in a microcontroller.",
+    "Calculation of signal correlation function – simulation and implementation in a microcontroller.",
+    "Frequency analysis using instrumentation and virtual instrumentation.",
+    "Discrete frequency analysis (DFT/FFT) – simulation and implementation in a microcontroller.",
+    "Analog-to-digital transformation (ADC) – simulation, implementation in a microcontroller, and measurement using instruments.",
+    "Digital-to-analog transformation (DAC) – simulation, implementation in a microcontroller, and measurement using instruments.",
+    "Simulation of converters for digital and analog signal transformation.",
+    "System application using simulation.",
+    "Implementation of FIR filters – simulation and microcontroller programming.",
+    "Implementation of IIR filters – simulation and microcontroller programming.",
+    "Test."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Experimental work in labs"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Macháček Z. Digital signal processing. Available at the teacher and on the web pages smak.vsb.cz.. Ostrava. 2017.",
+    "Stranneby D. Digital Signal Processing: DSP and Applications. Newnes. Great Britain. 2001",
+    "John G. Proakis,‎ Dimitris G. Manolakis: Digital Signal Processing: Principles, Algorithms, and Applications, Pearson Education. 2014."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "450-2094/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=53652&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "8c2464ca0314607a472159ace388bd571d7cdd867880274cefd91bf3c2a1afb4",
+  "extracted_at": "2026-11-20T12:51:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

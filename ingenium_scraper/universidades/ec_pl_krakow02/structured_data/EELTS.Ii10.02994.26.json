@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Power Electronics",
+  "course_name_en": "Power Electronics",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands the meaning of all concepts discussed within the \"Power Electronics\" module.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the most important properties and operating principles of basic semiconductor elements.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Has knowledge of the applicability range of power electronic devices.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Can design a simple power electronic circuit.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Can assess the positive and negative effects of power electronic circuits.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Understands the need for continuous monitoring of power electronics development and continuous self-improvement in this area.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Areas of application for power electronics",
+    "Basic problems of power electronics",
+    "Principle of operation and properties of basic power electronic components: power diodes, SCR thyristors, IGBT transistors, power MOSFET's",
+    "Basic power electronic circuits: AC/DC converters (rectifiers), DC/AC (inverters), DC/DC (choppers), AC/AC (power controllers)",
+    "Passive elements in power electronics (chokes, transformers, capacitors)",
+    "Familiarization with basic tools for designing and modeling power electronic circuits",
+    "Execution of a given power electronic circuit design and verification through simulation studies",
+    "Single-phase rectifiers",
+    "Three-phase star and bridge rectifiers",
+    "Commutation in rectifier circuits",
+    "Testing of MOSFET transistor parameters",
+    "Pulse-controlled DC/DC converters",
+    "Single-phase DC/AC converters (voltage inverter)",
+    "Modulation methods in voltage inverters"
+  ],
+  "teaching_methods": [
+    "Discussion",
+    "E-learning",
+    "Case study",
+    "Group work",
+    "Project Based Learning",
+    "Demonstration",
+    "Simulation (event scenarios, VR/AR)",
+    "Lecture"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project task completion",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "A positive final grade requires obtaining a positive grade from each laboratory exercise. The average of laboratory grades obtained in all terms will be calculated. The final grade (OK) is determined based on the following: if average > 4.75 then OK:=5.0, else if average > 4.25 then OK:=4.5, else if average > 3.75 then OK:=4.0, else if average > 3.25 then OK:=3.5, else if average > 3.0 then OK:=3.0, else OK:=2.0. If the student attended at least 80% of the lectures, the instructor has the right to raise the final grade by 0.5 degree. The project task must be completed with a positive grade.",
+  "bibliography": [
+    "1. N. Mohan, T. Undeland, W. Robbins, Power electronics, John Wiley & Sons",
+    "2. St.Piróg, Energoelektronika. Układy o komutacji sieciowej i o komutacji twardej. Uczelniane Wydawnictwa Naukowo-Dydaktyczne AGH, 2006",
+    "3. Barlik, Nowak, Poradnik inżyniera energoelektronika, WNT"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.02994.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/6bce67ac-aa5e-448a-97ac-a3f81a3ecdde.html",
+  "source_language": "pl",
+  "source_sha256": "37e56e8676ceec0c843b440d54f0e744f85bb4c6e943cd0998c5c982c2bf88f2",
+  "extracted_at": "2026-11-20T09:01:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

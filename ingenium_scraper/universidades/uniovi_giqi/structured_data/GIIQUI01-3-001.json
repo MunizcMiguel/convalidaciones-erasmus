@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Simulación, Control e Instrumentación de Procesos Químicos",
+  "course_name_en": "Simulation, Control and Instrumentation of Chemical Processes",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de los Procesos Químicos",
+    "Cinética y Reactores Químicos",
+    "Operaciones Básicas I",
+    "Operaciones Básicas II",
+    "Métodos numéricos (numerical resolution of differential equations)",
+    "Automatización y Control (control system tuning techniques)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the particularities of modeling, simulation, control, and instrumentation of chemical processes.",
+      "type": "unspecified",
+      "code": "RCI-1"
+    },
+    {
+      "text": "Utilize basic chemical engineering principles to model and simulate the dynamic and static behavior of chemical processes.",
+      "type": "unspecified",
+      "code": "RCI-2"
+    },
+    {
+      "text": "Formulate, design, and correctly specify advanced control strategies and optimization of chemical processes, as well as simulate their dynamic behavior.",
+      "type": "unspecified",
+      "code": "RCI-3"
+    },
+    {
+      "text": "Know and select the necessary instruments (sensors, transmitters, and actuators) to implement chemical process control and optimization techniques.",
+      "type": "unspecified",
+      "code": "RCI-4"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Simulation of Chemical Processes",
+    "Design of Chemical Processes",
+    "Control of Chemical Processes",
+    "Empirical models",
+    "Introduction to Empirical models",
+    "Open-loop methods",
+    "Closed-loop methods",
+    "Phenomenological models",
+    "Introduction to Phenomenological models",
+    "Model formulation",
+    "Basic contact models",
+    "Conservation equations",
+    "Operations with transport",
+    "Operations with reaction",
+    "Simulation algorithms and tools",
+    "Time domain",
+    "Laplace domain",
+    "Simulation tools",
+    "Resolution of practical cases",
+    "Control valves",
+    "Valve operation",
+    "Valve sizing",
+    "Installed behavior",
+    "Simulation of controlled Chemical Processes",
+    "Introduction to Simulation of controlled Chemical Processes",
+    "Variable pairing",
+    "Simulation of controlled operations",
+    "Simulation and control of complete plants",
+    "Control with single-variable loops",
+    "Single-variable control",
+    "Basic elements of the control loop",
+    "Design and optimization methods",
+    "Computer control – Sampled systems",
+    "Multivariable control",
+    "Models of multivariable systems",
+    "Identification of multivariable systems",
+    "Design of multivariable controllers",
+    "Adaptive control",
+    "Instrumentation",
+    "SCADA-OPC",
+    "Regulations and representation"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Group tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Global exam (G)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Group tutorials (TG)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For ordinary and extraordinary calls, the final grade is calculated as (0.8 x G + 0.2 x TG) if the global exam is passed. To pass the subject, a minimum of 5 out of 10 points must be obtained in this formula. If the minimums are not reached, the grade will be the minimum between the obtained formula score and 4.0. The global exam requires at least 4 out of 10 points and consists of a theoretical/practical part and a problem-solving part, each contributing 50% to the exam grade; at least 30% of the assigned score must be obtained in each part. For differentiated evaluation, group tutorials (TG) are replaced by a project (E), with the formula being (0.8 x G + 0.2 x E).",
+  "bibliography": [
+    "Seborg, D.E., Edgar, T.F., Mellichamp, D.A., Doyle, F.J. Process Dynamics and Control. 3rd ed. Wiley (2011)",
+    "Ollero, P., Fernández, E. Instrumentación y Control de plantas químicas. Síntesis (2012)",
+    "Ingham, J., Dunn, I.J., Heinzle, E., Prenolsil, J.E., Snape, J.B. Chemical Engineering Dynamics. 3rd ed. Wiley (2007)",
+    "Roffel, B., Betlem, B. Process Dynamics and Control: modeling for control and prediction. Wiley (2006)",
+    "Ogata, K. Ingeniería de Control Moderna. Prentice Hall. 5ª edición 2010.",
+    "Astrom, K. J., Wittenmark, B. Adaptive Control (2nd ED). Dover Books on Electrical Engineering (2008)"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Química Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_giqi",
+  "degree": "Grado en Ingeniería Química Industrial",
+  "course_code": "GIIQUI01-3-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/quimicaindustrial/-/fof/asignatura/GIIQUI01-3-001",
+  "source_language": "es",
+  "source_sha256": "395a001ad855efbd57c3fc6c323ece1c486b73638010025c3d4101f20812a131",
+  "extracted_at": "2026-11-20T01:14:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

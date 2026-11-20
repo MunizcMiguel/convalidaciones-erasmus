@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Bioinformática",
+  "course_name_en": "Bioinformatics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of Molecular Biology",
+    "Good command of scientific English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic concepts of molecular biology, as well as the properties and peculiarities of biomedical data from mass sequencing technologies.",
+      "type": "unspecified",
+      "code": "RBIO1"
+    },
+    {
+      "text": "Understand the principle of sequence alignment and the different algorithms that implement it.",
+      "type": "unspecified",
+      "code": "RBIO2"
+    },
+    {
+      "text": "Apply the most common tools and algorithms to process data in the context of molecular biology.",
+      "type": "skill",
+      "code": "RBIO3"
+    },
+    {
+      "text": "Use the most appropriate machine learning paradigms to extract the maximum amount of information from the data.",
+      "type": "skill",
+      "code": "RBIO4"
+    },
+    {
+      "text": "Build predictive or descriptive models to characterize samples of biomedical interest.",
+      "type": "skill",
+      "code": "RBIO5"
+    },
+    {
+      "text": "Interpret the results in the context from which the data originates.",
+      "type": "skill",
+      "code": "RBIO6"
+    },
+    {
+      "text": "Effectively communicate the results obtained through machine learning.",
+      "type": "skill",
+      "code": "RBIO7"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic Concepts of Molecular Biology. The flow of genetic information. Fundamentals of molecular evolution.",
+    "Biological Databases. Searches focused on genes, variants, mutations and biological information. Predictions from biological sequences.",
+    "Genomic Technologies. DNA and RNA sequencing. Detection of epigenetic modifications.",
+    "Sequence analysis and alignment. Sequence and alignment formats and tools.",
+    "Detection of mutations and SNP genotyping. Filtering of variants and mutations. Techniques for validating variants and mutations.",
+    "Arrays and genomic expression. Formats and tools.",
+    "Association studies. Population and statistical concepts. Mendelian randomization.",
+    "Practices: Obtaining biological information from public databases.",
+    "Practices: Processing genomic and transcriptomic data.",
+    "Practices: Integration of biological information and visualization of results."
+  ],
+  "teaching_methods": [
+    "Expository classes (face-to-face)",
+    "Practical sessions (face-to-face)",
+    "Online content and exercises",
+    "Individual work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and participation in class (APC)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Virtual Campus activities (CV)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical work report (TP)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Theoretical exam (ET)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as: 0.1 x APC + 0.1 x CV + 0.4 x TP + 0.4 x ET. No minimum grades are established for any section. For the extraordinary call, the evaluable elements are TP (with presentation and defense) and ET. Students who scored 5 or more in ET or TP during the ordinary call can retake only the failed part. The final grade for the extraordinary call is calculated as: 0.5 x TP + 0.5 x ET. Students with differentiated evaluation will be assessed in the same way as in extraordinary calls.",
+  "bibliography": [
+    "Dankedar, T., Kunz, M. BIOINFORMATICS. AN INTRODUCTORY TEXTBOOK. Springer Berlin, Heidelberg. 2023. ISBN 9783662650363",
+    "Pevsner J. BIOINFORMATICS AND FUNCTIONAL GENOMICS. Wiley-Blackwell. 2015. ISBN 9781118581780",
+    "Buffalo, V. BIOINFORMATICS DATA SKILLS. O'Reilly Media, Inc. 2015. ISBN 9781449367503",
+    "National Center for Biotechnology Information. https://www.ncbi.nlm.nih.gov/",
+    "Ensembl. https://www.ensembl.org/index.html",
+    "Swiss Institute of Bioinformatics. https://www.expasy.org/",
+    "Protein Data Bank. https://www.rcsb.org/",
+    "Bioportal. https://www.cbioportal.org/"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-4-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-4-005",
+  "source_language": "es",
+  "source_sha256": "258c5e6f2c4974dc687c2ba7953b06e33180ccef9b465d0248e6c5885c4fd730",
+  "extracted_at": "2026-11-20T05:56:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

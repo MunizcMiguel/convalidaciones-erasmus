@@ -1,0 +1,78 @@
+{
+  "course_name_original": "Machine practicum _ learning and artificial intelligence on the (FMFI.KAI/1-AIN-306/22)",
+  "course_name_en": "Machine Practicum _ Learning and Artificial Intelligence",
+  "ects": 5.0,
+  "semester": "5.",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [
+    "programming language Python"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will acquire basic skills in working with basic libraries for 2D and 3D data processing (images, scans): OpenCV and PCL.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will be able to use it in various programming projects using artificial intelligence methods, especially machine learning results.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Image representation and its processing, color models, conversions between them",
+    "Morphological operations with image and contour detector and structural analysis",
+    "Filters and kernels. Edge operators.",
+    "Blending, apparent cloning, morphing, inpainting",
+    "Image segmentation. MeanShift filter. GrabCut. Intrinsic image.",
+    "Image alignment and registration. Phase correlation. ECC. Image features: SIFT, SURF, BRIEF, ORB.",
+    "Camera and video. Optical flow. Stereovision. Camera calibration",
+    "Machine learning: PCA, eigen images, SVM, cascade regressor",
+    "Object detectors. Hough's transformation. Haarov detector. HOG detector. LBPH",
+    "Tracking the movement of objects. Kalman filter. CamShift. MIL tracker. Motion detector.",
+    "Use of deep learning models: Colorization, YOLO detectors, vectorization and recognition, EAST text detector, Tesseract OCR, GOTURN",
+    "Usage of deep learning models: background removal, 3D reconstruction from 2D, 2D pose estimation, semantic segmentation.",
+    "Representation of 3D data and method of their acquisition. Reconstruction of 3D models, 6 DoF position estimation for gripping parts",
+    "Virtual reality, augmented reality",
+    "Applications: tracking the movement of cars from traffic cameras, tracking eye movement, processing 3D scans of characters"
+  ],
+  "teaching_methods": [
+    "on-site learning"
+  ],
+  "workload_hours_total": 52.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "homeworks",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "exam (written test at computer)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a 50/50 split between preliminary assessment (homeworks) and final assessment (exam). The indicative evaluation scale is A for 90%, B for 80%, C for 70%, D for 60%, and E for 50%.",
+  "bibliography": [
+    "Learning OpenCV 3, Computer Vision in C++ with the OpenCV Library By Gary Bradski, Adrian Kaehler, O'Reilly Media, 2016",
+    "learnopencv.com",
+    "pointclouds.org"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-AIN-306/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "326322a3b01f52585d6fc8cff93d3bd7661e1741b91aefe4ee990e7556d1acde",
+  "extracted_at": "2026-11-20T09:27:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

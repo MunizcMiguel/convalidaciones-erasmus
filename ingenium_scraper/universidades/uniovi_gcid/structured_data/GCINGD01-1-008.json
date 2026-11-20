@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Bases de Datos",
+  "course_name_en": "Databases",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming Methodology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Handle databases to store and extract information: Relational databases and data modeling.",
+      "type": "unspecified",
+      "code": "RBAS1"
+    },
+    {
+      "text": "Understand multidimensional data models.",
+      "type": "unspecified",
+      "code": "RBAS2"
+    },
+    {
+      "text": "Understand the basic concepts of different non-relational database models and technologies (documental, column family, graph, etc.).",
+      "type": "unspecified",
+      "code": "RBAS3"
+    },
+    {
+      "text": "Use the corresponding languages (SQL, CQL, APIs, etc.) to update and extract information from databases from applications.",
+      "type": "unspecified",
+      "code": "RBAS4"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and structure of Database Management Systems.",
+    "Architecture and functionality of Database Management Systems.",
+    "Conceptual design with the Entity-Relationship model, integrity constraints.",
+    "Relational databases. Entity/Relationship Model.",
+    "Relational databases: relational model, transactions, security and concurrency control, data languages (definition, modification and query).",
+    "Relational databases. Relational Model. Relational Algebra and Calculus.",
+    "Design and optimization of relational databases. Normalization and query optimization.",
+    "Transactions, security and concurrency control.",
+    "Creation, manipulation and querying of databases. Procedures and functions. Packages. Exceptions. Implementation of semantic constraints.",
+    "Use of libraries for data access.",
+    "Non-relational databases: Basic characteristics, types of storage. Graph databases, documental, semantic (RDF, OWL). Technologies for handling non-relational databases.",
+    "Advanced databases. Data warehouses and multidimensional modeling.",
+    "Non-relational databases.",
+    "Creation, manipulation and querying of non-relational databases."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exams (ET)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical exams (EP)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Virtual Campus activities (ACV)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Attendance / participation in seminars and tutorials (AP)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "In the ordinary call, a minimum of 5 out of 10 points must be achieved in the theoretical exams (40%) and practical exams (45%). If these minimums are met, the final grade is calculated as 0.4 * Theoretical_Exams + 0.45 * Practical_Exams + 0.1 * Virtual_Campus_Activities + 0.05 * Attendance_Participation. If the minimums are not met in Theoretical Exams or Practical Exams, the score for that part will be the minimum between 4 out of 10 and the weighted average of its components. The final grade for the subject must be at least 5 out of 10 to pass. In the extraordinary call, only theoretical exams (50%) and practical exams (50%) are considered, with the same minimum score requirements. Grades of components with a minimum of 5 points from the ordinary call are carried over to the extraordinary call.",
+  "bibliography": [
+    "Connolly, T., Begg. C. Sistemas de bases de datos: un enfoque práctico para diseño, implementación y gestión. Pearson. 2005.",
+    "Dan Sullivan, NoSQL for Mere Mortals, Addison-Wesley, 2015.",
+    "Elmasri R., Navathe S.B. Fundamentos de sistemas de bases de datos. Addison Wesley. 2007.",
+    "Gabillaud J. Oracle 10g: SQL, PL/SQL, SQL Plus. 1a edición. Ediciones ENI. 2005.",
+    "Garcia-Molina, H., Ullman, J., Widom, J. Database systems: the complete book. Prentice Hall. 2009.",
+    "Juan Carlos Trujillo Mondejar, Norberto Mazón López y Jesús Pardillo Vela. Diseño y explotación de almacenes de datos. Conceptos básicos de modelado multidimensional. Editorial Club Universitario. ISBN 978-84-8454-902-4.",
+    "Piattini M., Marcos E., Calero C., Vela B. Tecnología y diseño de bases de datos. Rama. 2006.",
+    "Sadalage,P.; Fowler, M. NoSQL distilled: a brief guide to the emerging world of polyglot persistence. Addison-Wesley. 2009.",
+    "Silberschatz, Korth, Sudarshan. Fundamentos de bases de datos. McGraw Hill. 2006."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-1-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-1-008",
+  "source_language": "es",
+  "source_sha256": "b2a93ed12e3e339be297b907e5b883d310e1d88447ffb80f65b754ea2656c014",
+  "extracted_at": "2026-11-20T05:55:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Conversion électrique et intégration",
+  "course_name_en": "Electrical Conversion and Integration",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Analysis and processing methods for modelling and sizing electrical circuits",
+    "Static converters, basic concepts",
+    "Control commands for electrical machines and converters",
+    "Static converters, advanced concepts"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the technological issues involved in the design of power modules, through the choice of materials, their positioning within a module and the problems associated with assembly processes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Propose a cascaded architecture of static converters, with their controls, to meet a specification.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe compromises, make choices and apply them through practical implementation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "To know the materials and processes commonly used in the design of a power module",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "List and implement certain processes for making an assembly",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the effect of non-perfect switches and electrical circuits",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand why a switching aid circuit improves the energy dissipated",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the benefits of multi-level architectures",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Implement a modulation scheme",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use simulation tools to validate a conversion architecture for an application",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Materials, technologies and processes for power electronics integration",
+    "Specific work on speed variation: controlled inverters and choppers",
+    "Reminder of structures and operation, multilevel inverter structures, mli principle, definition of a mathematical approach for PWM",
+    "Real components and their characteristics"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical work (TP)",
+    "Project-based learning (using PRIMES platform, clean room facilities, simulation software like Matlab, Scilab, PSIM, and electrotech lab)"
+  ],
+  "workload_hours_total": 32.0,
+  "workload_hours_contact": 22.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Control (CC1)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Oral exam (SOUT)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1 + 1*SOUT) / 2. This implies an equal weighting of continuous control and the oral exam.",
+  "bibliography": [
+    "Henri FOCH et al, ”Eléments constitutifs et synthèse des convertisseurs statiques”, Technique de l’ingénieur , D3 152",
+    "Henri FOCH et al, ”Commutation dans les convertisseurs statiques”, Technique de l’ingénieur , D3 153",
+    "P. BARRADE, ”Electronique de puissance, méthodologie et convertisseurs élémentaires”, Presses Polytechniques et Universitaires Romandes, ISBN 2-88074-566-7, 2006",
+    "https ://doi.org/10.51257/a-v1-e3968 P.-E. Vidal, B. Trajin, \"Le principe de la modulation pour les hacheurs et les onduleurs de tension en électronique de puissance\", Technique de l'Ingénieur, E3968, PE. VIDAL Contrôle par modulation des convertisseurs statiques",
+    "« Stratégie et technique pour le pilotage en modulation des convertisseurs statiques », Paul-Etienne VIDAL, Baptiste TRAJIN, Frédéric ROTELLA. E3969, Editions Techniques de l’Ingénieurs, décembre 2029"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0971SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "27a6f65e5c97e4ad6d948368e55501ea444bd60fb0032ab5f1070bb1b9fc01ce",
+  "extracted_at": "2026-11-18T09:52:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

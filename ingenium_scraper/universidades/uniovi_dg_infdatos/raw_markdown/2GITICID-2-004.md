@@ -1,0 +1,263 @@
+---
+{
+ "course_code": "2GITICID-2-004",
+ "course_name": "Computabilidad",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-004",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:04",
+ "content_sha256": "81c0c1d00b4039d1c120d5aebbbb8d26691f7ef6d46628680d62701b888df5ca"
+}
+---
+
+# Computabilidad
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-2-004
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Primer Semestre
+- **Materia:** Fundamentos de Computación
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Clases Expositivas (28 Horas); Prácticas de Laboratorio (21 Horas); Prácticas de Aula/Semina (7 Horas); Tutorías Grupales (2 Horas)
+
+## Contextualización
+
+La asignatura de Computabilidad compone, junto con la de Autómatas y Matemáticas Discretas, la materia de Fundamentos de Computación (FC) que se integra en el Módulo de Fundamentos de Ingeniería (FI) junto con las materias de Fundamentos Físicos y Fundamentos Matemáticos. Su impartición se desarrolla en el primer semestre del segundo curso del Grado. Esta asignatura es una continuación natural de la asignatura de primer curso denominada Autómatas y Matemáticas Discretas, ya que mediante los diferentes modelos de computación se continúa con el estudio de Lenguajes Formales, concretamente los Lenguajes Recursivos y Recursivamente Enumerables. El conjunto de las dos asignaturas constituye la justificación teórica de aspectos importantes de la Informática y debería hacer reflexionar al alumno sobre cómo se produjo el origen y desarrollo de la misma. Asimismo, existen importantes relaciones entre la Computabilidad y las siguientes asignaturas:
+
+Metodología de la Programación (Primer Curso): La manera de presentar los modelos de computación estudiados supone una forma de introducir lenguajes de programación que podríamos denominar “teóricos”. Para el alumno esto constituye una forma diferente de ver distintos paradigmas de programación ya tratados en primer curso.
+
+Algoritmia (Segundo Curso): Buena parte de la Computabilidad está dedicada al estudio de lo que es y lo que no es computable. El diseño de algoritmos para las funciones computables y la demostración de la irresolubilidad algorítmica de problemas es algo que se encuentra muy presente en el ámbito de la Ingeniería Informática, y en particular de esta asignatura.
+
+Algebra Lineal (primer curso): La primera parte del temario de la asignatura de Computabilidad comprende gran parte de la Lógica que el alumno estudiará durante su permanencia en el Grado. No obstante, en el primer curso hay asignaturas de carácter matemático, como el Álgebra Lineal, en las que el proceso demostrativo y la notación que se utiliza están relacionados con aspectos sencillos de la Lógica.
+
+También tiene una relación muy estrecha con Sistemas Inteligentes (tercer curso), En concreto, se pueden distinguir tres usos de la lógica en Inteligencia Artificial: como herramienta de análisis, como base para representación del conocimiento y como lenguaje de programación. Por otro lado, los problemas cuya resolución se aborda con técnicas de IA han de ser problemas complejos que no sean fácilmente resolubles por métodos tradicionales, habitualmente se ha de establecer la NP-completitud de los mismos antes de proponerlos como adecuados para los métodos de IA.
+
+## Requisitos
+
+3. Requisitos (en el caso de asignaturas compartidas, si existen diferencias, se señalarán los mismos para cada una de las titulaciones donde se comparte).
+
+Teniendo en cuenta el apartado anterior, resulta fundamental para un correcto seguimiento de esta asignatura, que el alumno haya cursado previamente la materia de Autómatas y Matemáticas Discretas. También es aconsejable que esté familiarizado con los aspectos tratados en Metodología de la Programación, si bien esto no resulta crucial. Finalmente, es conveniente que el alumno tenga nociones de notación y lenguaje matemático y que posea cierta destreza en la utilización de métodos demostrativos.
+
+## Competencias y resultados del aprendizaje
+
+4. Competencias y resultados de aprendizaje (en el caso de asignaturas compartidas, si existen diferencias, se señalarán los mismos para cada una de las titulaciones donde se comparte).
+
+De forma general, esta asignatura tendrá como objetivos que los estudiantes sean capaces de:  
+1. Aplicar los conocimientos adquiridos para elaborar y defender argumentos que les permitan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+
+2. Resolver problemas con iniciativa, tomar decisiones fundamentadas y ser autónomo y creativo
+
+3. Hacer razonamientos críticos y lógicos
+
+4. Tener un conocimiento profundo de los principios fundamentales y modelos de la computación y saberlos aplicar para interpretar, seleccionar, valorar, modelar, y crear nuevos conceptos, teorías, usos y desarrollos tecnológicos La consecución de estos objetivos dotará a los alumnos de muchas de las competencias básicas y generales y algunas de las específicas que se mencionan en la Memoria de Verificación. De acuerdo con esta memoria, las competencias básicas y generales, de carácter transversal, se basan, entre otras, en las recomendaciones de la Conferencia de Directores y Decanos de Ingeniería Informática (CODDII), los currículums de ACM/IEEE. Aunque, como se menciona en la memoria, todas ellas sean de carácter transversal y, en consecuencia, todas las asignaturas contribuirán a alcanzarlas, los contenidos de esta asignatura tienen una aportación muy relevante a las siguientes:
+
+**Competencias Básicas (CB) y Generales (CGR):**  
+CB2. Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio
+
+CB3. Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética
+
+CB4. Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado
+
+GTR2 Capacidad de abstracción: capacidad de crear y utilizar modelos que reflejen situaciones reales.
+
+GTR3 Capacidad de actuar autónomamente.
+
+GTR4 Capacidad de planificación y organización del trabajo personal.
+
+GTR5 Capacidad de integrarse rápidamente y trabajar eficientemente en equipos unidisciplinares y de colaborar en un entorno multidisciplinar.
+
+GTR7 Poseer las habilidades de aprendizaje necesarias para emprender estudios posteriores o mejorar su formación con un cierto grado de autonomía.
+
+GTR8 Tener motivación por la calidad y la mejora continua y actuar con rigor en el desarrollo profesional.
+
+En cuanto a las competencias específicas, la memoria recoge (desglosadas en ocasiones) las establecidas como recomendaciones por parte del Consejo de Universidades (CU) en el ámbito de la profesión de Ingeniería Técnica Informática. Concretamente, está asignatura servirá para adquirir parcialmente las competencias específicas de formación básica siguientes:
+
+**Competencias Específicas de Formación Básica (EFB):**  
+**EFB3.2** Capacidad para comprender y dominar los conceptos básicos de lógica y su aplicación para la resolución de problemas propios de la ingeniería.  
+**EFB3.3** Capacidad para comprender y dominar los conceptos básicos de algorítmica y su aplicación para la resolución de problemas propios de la ingeniería.  
+**EFB3.4** Capacidad para comprender y dominar los conceptos básicos de complejidad computacional y su aplicación para la resolución de problemas propios de la ingeniería.
+
+También, aunque no sea relevante en el ámbito de Tecnologías de la Información, cubre la primera competencia del módulo de conocimientos específicos de Computación recogida en las recomendaciones del CU:  
+• Capacidad para tener un conocimiento profundo de los principios fundamentales y modelos de la computación y saberlos aplicar para interpretar, seleccionar, valorar, modelar, y crear nuevos conceptos, teorías, usos y desarrollos tecnológicos relacionados con la informática
+
+**Resultados de aprendizaje**  
+Los resultados de aprendizaje esperados, relacionados con la asignatura son los siguientes:
+
+1. Manejar, con fluidez, los lenguajes de la Lógica de Proposiciones y de la Lógica de Predicados. (FC15)
+
+2. Probar la validez de una fórmula sencilla en las dos lógicas mediante diferentes procedimientos. (FC16)
+
+3. Traducir frases sencillas del lenguaje natural al lenguaje de la Lógica que más convenga. (FC17)
+
+4. Comprobar la corrección de un razonamiento sencillo. (FC18)
+
+5. Comprender el concepto de sistema axiomático y su relación con la semántica de la Lógica. (FC19)
+
+6. Transformar una sentencia a su forma clausal. (FC20)
+
+7. Conocer y manejar el procedimiento de prueba mediante la resolución general. (FC21)
+
+8. Comprender el concepto de algoritmo y diferenciar lo que es y lo que no es algorítmico. (FC22)
+
+9. Conocer algún modelo de computación como marco para la construcción de códigos de funciones computables.
+
+10. Saber utilizar de forma adecuada los resultados fundamentales de la Computabilidad: Universalidad, Parametrización y Recursión. (FC23)
+
+11. Comprender el concepto de irresolubilidad y conocer técnicas para el estudio de la resolubilidad de problemas para diferenciar lo que es computable de lo que no lo es. (FC24)
+
+## Contenidos
+
+**Parte 1 Fundamentos de Lógica**
+
+**Tema 1. Lógica de Proposiciones**
+
+1. Sintaxis y Semántica
+2. Métodos semánticos de prueba
+3. Formas Normales Conjuntiva y Disyuntiva y Resolución Proposicional
+4. Deducción Natural
+
+**Tema 2. Lógica de Predicados**
+
+1. Sintaxis y Semántica
+2. Forma Clausal, Unificación y Resolución General
+3. Deducción Natural en Lógica de Predicados
+
+**Parte 2 Teoría de la Computabilidad**
+
+**Tema 3. Modelos de Computación y Funciones Computables**
+
+1. Introducción: Concepto intuitivo de algoritmo
+2. El modelo de los programas while
+3. El modelo de las máquinas de Turing
+4. La Tesis de Church-Turing
+
+**Tema 4. Resultados Fundamentales y Resolubilidad de Problemas**
+
+1. Enumeración de los algoritmos
+2. Teoremas fundamentales: Universalidad, Parametrización y Recursión
+3. Resolubilidad e irresolubilidad algorítmicas
+4. Introducción a la complejidad algorítmica
+
+## Metodología y plan de trabajo
+
+De acuerdo con las pautas que establece el EEES, la asignatura se desarrollará mediante actividades presenciales y trabajo autónomo del estudiante.
+
+Las actividades presenciales son aquellas en las que estará siempre presente el profesor. Se dividen en clases expositivas, seminarios, prácticas de laboratorio, tutorías grupales y sesiones de evaluación.
+
+- Clases expositivas: Impartidas al grupo completo, no necesariamente como lección magistral, sino procurando una participación activa del alumno en la dinámica de las mismas. En estas clases se desarrollarán contenidos teóricos de la asignatura, combinados con alguna resolución de pequeños ejercicios. Se utilizará la pizarra y los diferentes medios audiovisuales.
+- Prácticas de aula/ Seminarios: Impartidos a grupos más reducidos, aproximadamente la mitad de un grupo completo. En estas sesiones se tratarán de afianzar los conocimientos presentados en las clases expositivas, describiendo ejemplos y realizando ejercicios. La participación del alumno será de mayor intensidad.
+- Prácticas de Laboratorio: Dedicadas a resolver ejercicios y problemas prácticos utilizando siempre que sea posible el PC. Se desarrollarán en varios grupos, de manera eminentemente participativa.
+- Tutorías grupales: Dedicadas a la aclaración de dudas sobre teoría, problemas o trabajos en curso. Estas actividades podrán servir para ir comprobando el grado de adquisición de competencias y destrezas por parte del alumno. Se desarrollarán en varios grupos, disponiendo por tanto los estudiantes de una atención más personalizada por parte del profesor.
+- Sesiones de evaluación: Se dedicarán a la realización de pruebas escritas o bien con un PC, con las que se pueda valorar de forma objetiva el nivel alcanzado por los estudiantes en la adquisición de algunas de las competencias previstas.
+
+Por su parte, a fin de cumplir los principios referentes a ECTS, establecidos en el Real Decreto 1393/2007, el estudiante deberá desarrollar un trabajo autónomo paralelo (actividades no presenciales), dirigido por el profesor.
+
+La metodología docente a emplear estará basada en la participación activa del alumno, sobre todo en las sesiones de seminario, prácticas de laboratorio y tutorías grupales. Se plantearán actividades y ejercicios que impliquen al alumno y propicien su participación, ya sea resolviendo las tareas de manera privada o públicamente en el aula, de forma individual o en grupo.
+
+Asimismo, al final de cada uno de los temas se realizará, si a juicio de los profesores se estima conveniente, un pequeño control con objeto de conocer el grado de adquisición de las competencias cognitivas más relacionadas con los contenidos de la asignatura.
+
+Con respecto a las prácticas de laboratorio, al finalizar cada una de las prácticas programadas, el alumno podría tener que elaborar un informe para entregarlo posteriormente al profesor. También podrían plantearse ejercicios para entregar al final de cada sesión de prácticas o bien pequeños cuestionarios sobre los conceptos trabajados, que el alumno deberá resolver.
+
+En caso de que el tamaño del grupo lo permita, se utilizarán metodologías docentes acordes con el tamaño de dicho grupo.
+
+A continuación, se presentan una serie de tablas que especifican la temporalidad de las actividades tanto presenciales como no presenciales:
+
+**Volumen de trabajo estimado para el estudiante**
+
+| MODALIDADES |  | Horas | % |
+| --- | --- | --- | --- |
+| Presencial | Clases expositivas | 28 | 18.6% |
+|  | Seminarios | 7 | 4.6% |
+|  | Prácticas de Laboratorio | 21 | 14.0% |
+|  | Tutorías grupales | 2 | 1.33% |
+|  | Sesiones de evaluación | 2 | 1.33% |
+|  | Total | 60 | 40% |
+| No presencial | Estudio de teoría | 30 | 20% |
+|  | Resolución de problemas | 20 | 13.3% |
+|  | Preparación de prácticas de ordenador | 40 | 26.6% |
+|  | Total | 90 | 60% |
+|  | Total | 150 | 100% |
+
+**Distribución del trabajo por temas**
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios/ Talleres* | *Prácticas de laboratorio /campo /aula de informática/ aula de idiomas* | *Prácticas clínicas hospitalarias* | *Tutorías grupales* | *Prácticas Externas* | *Sesiones de Evaluación* | ***Total*** | *Trabajo grupo* | *Trabajo autónomo* | **Total** |
+| Lógica de Proposiciones | 38 | 8 | 2 | 7 |  |  |  |  | 17 |  | 21 | 38 |
+| Lógica de Predicados | 37 | 6 | 1 | 6 |  | 1 |  |  | 14 | 3 | 20 | 37 |
+| Modelos de computación y Funciones Computables | 37 | 6 | 1 | 4 |  |  |  |  | 11 | 6 | 20 | 37 |
+| Resultados Fundamentales y Resolubilidad de Problemas | 36 | 8 | 3 | 4 |  | 1 |  |  | 16 | 0 | 20 | 36 |
+| Evaluación | 2 |  |  |  |  |  |  | 2 | 2 |  |  | 2 |
+| Total | 150 | 28 | 7 | 21 |  | 2 |  | 2 | 60 | 9 | 81 | 150 |
+
+## Evaluación del aprendizaje
+
+**Evaluación en la convocatoria ordinaria**
+
+Elementos evaluables  
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- **Examen parcial 1 (P1)**: Consta de una prueba escrita a realizar a mediados del semestre. Se evaluarán los contenidos del bloque de Fundamentos de Lógica. Para aprobar la asignatura en la convocatoria ordinaria, es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta prueba. En caso no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial.
+- **Examen parcial 2 (P2)**: Consta de una prueba escrita a realizar a finales del semestre. Se evaluarán los contenidos del bloque de Teoría de la Computabilidad. Para aprobar la asignatura en la convocatoria ordinaria, es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta prueba. En caso no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial.
+- **Participación activa (PA)**: Consta de cuestionarios a realizar en el Campus Virtual al final de algunas clases práctica y la resolución de ejercicios y trabajos durante el desarrollo de las clases. La nota medirá el grado de participación medio en las clases. No es necesaria una nota mínima.
+
+Calificación  
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:  
+(0,45 x P1) + (0,45 x P2) + (0,10 x PA)  
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones  
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación en las convocatorias extraordinarias**
+
+La convocatoria extraordinaria consta de un único examen teórico dividido en dos partes:
+
+- **Examen parcial 1 (P1)**: Se evaluarán los contenidos del bloque de Fundamentos de Lógica. Para aprobar la asignatura es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta parte.
+- **Examen parcial 2 (P2)**: Se evaluarán los contenidos del bloque de Teoría de la Computabilidad. Para aprobar la asignatura es obligatorio obtener una calificación de al menos 5 puntos sobre 10 en esta parte.
+
+Si se han alcanzado todos los mínimos, la nota final de la convocatoria se calcula como:  
+(0,5 x P1) + (0,5 x P2)  
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones  
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación diferenciada**
+
+Aquellos alumnos con derecho a evaluación diferenciada serán evaluados del mismo modo que en las convocatorias extraordinarias.
+
+## Bibliografía
+
+Las tablas siguientes incluyen las referencias bibliográficas básicas y complementarias que se utilizan en la asignatura. Sin embargo, los estudiantes dispondrán también de otros recursos en forma de apuntes, transparencias, boletines de problemas, exámenes tipo, etc que tendrán a su disposición en el Campus Virtual en el que, además, se incluirán avisos, applets, otros enlaces interesantes, etc.
+
+| **Bibliografía básica** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Lógica Formal para Informáticos* | *Arenas, L.* | Díaz de Santos |
+| *Computability: An introduction to recursive function theory* | *Cutland, N.J.* | Cambridge University Press |
+| *A Programming Approach to Computability* | *Kfoury, A. J., Moll, R. N., Arbib, M. A.* | Springer-Verlag |
+| *Lógica Simbólica para Informáticos* | *Julián-Iranzo, P.* | Ra-Ma |
+| *Lógica Informática* | *Cuena, J.* | Alianza Editorial |
+| *Teoría de la Computación* | *Brookshear, J. G.,* | Addison- Wesley Iberoamericana |
+| *Computers and Intractability. A Guide to the Theory of NP-Completness* | *Garey, M.R.; Johnson, D.S.* | Freeman Company |
+
+| **Bibliografía complementaria** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Automata and Computability* | *Kozen, D. C.* | Springer |
+| *Elementary Computability, Formal Languages, and Automata* | *McNaughton, R.* | Prentice-Hall |
+| *Mathematical Logic for Computer Science* | *Ben-Ari, M.* | Prentice-Hall |
+| *Logic in Computer Science. Modelling and reasoning about systems* | *Huth, M.R.A; Ryan, M.D.* | Cambridge University Press |

@@ -1,0 +1,123 @@
+{
+  "course_name_original": "3D scaning",
+  "course_name_en": "3D Scanning",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Mastery of knowledge of the subject: Engineering Graphics",
+    "Computer Engineering",
+    "Metrology and Measurement Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knows the mathematical basis for generating objects based on the results of 3D scanning realized with laser scanners and visible light scanners.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knows and describes the basic computer tools used in 3D scanning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knows and describes the principles of photogrammetry.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knows and describes selected issues in the construction of 3D laser and visible light scanners.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "He knows and describes methods of reconstructing damaged objects and re-designing them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can scan objects with 3D visible light scanners and interpret the results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Able to record images when performing photogrammetry and evaluate their quality.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Able to use computer techniques used in 3D scanning.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Able to critically analyze how it works and evaluate existing technical solutions used in laser, visible light scanners. Can determine the type of 3D scanner for a specific project.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Able to identify deficiencies in 3D scanning competencies in themselves and others and plan the process of completing them based on available professional literature and scientific and technical journals.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "3D scanners, classification of 3D scanners, information gathering density, information gaps, information gathering methods, example scanner designs, scanner applications.",
+    "The process of generating a model of mechanical parts using 3D scanners.",
+    "Point cloud, methods for evaluating the correctness and editing of the point cloud of mechanical parts and devices.",
+    "The process of generating a 3D model based on a point cloud.",
+    "The process of scanning mechanical parts and equipment.",
+    "Reconstruction of damaged objects and their re-design.",
+    "Definitions of photogrammetry of machinery and mechanical equipment and industrial objects, methods of recording digital images, histograms of digital images, advantages and disadvantages of photogrammetry.",
+    "Center projection. Imperfections of photography, errors of radial and tangential distortion, spherical and comatose aberration.",
+    "Photogrammetry of machinery and mechanical equipment and industrial facilities, computational systems of photogrammetry, marker systems.",
+    "The course of photogrammetric scanning of machinery and mechanical equipment implemented under laboratory conditions.",
+    "Reverse engineering methods used in extracting information about mechanical parts and devices. Reproduction of their modes of operation and manufacturing costs. Secondary engineering of studied mechanical parts and devices. Reproduction of technical documentation of mechanical parts and devices.",
+    "Scanning of mechanical parts and devices with 3D visible light scanners.",
+    "Editing of received point clouds of scanned parts and mechanical devices.",
+    "Generating meshes of triangular elements spanning the received point clouds.",
+    "Applying textures to surface models.",
+    "Reverse engineering process on a selected part of a mechanical device.",
+    "3D model construction in Catia software, based on the point cloud.",
+    "Perform photogrammetry of a selected part of a mechanical device."
+  ],
+  "teaching_methods": [
+    "Lecture: multimedia presentation.",
+    "Lab: Practical tasks carried out in laboratory exercises."
+  ],
+  "workload_hours_total": 85.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory exercises",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Colloquium (test of closed questions) conducted during lectures",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Conditions for passing the laboratory: participation in all laboratory exercises provided in the syllabus, positive completion of the tasks performed during the exercises. Conditions for passing the course: passing the laboratory, a positive result of the colloquium conducted during the lectures. The evaluation of the pass mark for laboratory exercises constitutes 50% of the final grade. The evaluation of the colloquium conducted during the lectures accounts for 50% of the final grade.",
+  "bibliography": [
+    "Messler, Robert W., Jr. Reverse Engineering: Mechanisms, Structures, Systems & Materials McGraw-Hill Education - Europe, January 2014",
+    "Ruth Hinrichs Reverse Engineering CLANRYE INTERNATIONAL, March 2015",
+    "Confalone Gary C. 3D Scanning for Advanced Manufacturing, Design, and Construction"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Panstwowa Wyzsza Szkola Zawdowa W Elblagu",
+  "institution_slug": "ec_pl_elblag01",
+  "degree": "Mechanical Engineering (Mechanika i budowa maszyn)",
+  "course_code": "3d_scaning",
+  "academic_year": "2025/2026",
+  "source_url": "https://study.ans-elblag.pl/assets/courses/ip/2025/3D%20SCANING.doc",
+  "source_language": "en",
+  "source_sha256": "a857e3950bc89278b7f8b1db0b11c5f67f79fb2efb760613801561a024b85fa8",
+  "extracted_at": "2026-11-18T10:04:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

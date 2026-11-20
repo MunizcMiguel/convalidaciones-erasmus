@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Robots (IETI-0451)",
+  "course_name_en": "Robots",
+  "ects": 3.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Performing operating activities, maintenance, service, integration of industrial robot systems.",
+      "type": "skill",
+      "code": "CP6"
+    },
+    {
+      "text": "Identification of roles and responsibilities in a multi-specialized team, making decisions and assigning tasks, applying techniques of effective relationships and team working.",
+      "type": "skill",
+      "code": "TC2"
+    },
+    {
+      "text": "Familiarization with the basic theoretical and practical knowledge about the use of industrial robots. This knowledge can be a real help for graduates from the specialization Electromechanics, to their integration into industrial production systems with robots.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Present theoretical elements related to the structure, basic kinematic models, programming and integration of industrial robots into Cells/Manufacturing systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Familiarize students with practical aspects of programming industrial robots for automation parts handling operations in cells/manufacturing systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION TO INDUSTRIAL ROBOTS.",
+    "THE MECHANICAL SYSTEM OF AN INDUSTRIAL ROBOT.",
+    "THE DRIVE SYSTEM OF AN INDUSTRIAL ROBOT.",
+    "THE CONTROL SYSTEM OF AN INDUSTRIAL ROBOT.",
+    "THE GEOMETRIC MODEL OF AN INDUSTRIAL ROBOT.",
+    "PROGRAMMING OF INDUSTRIAL ROBOTS.",
+    "Definitions. Robot applications. The block scheme of an industrial robot.",
+    "The general structure of the mechanical system of a serial robot. The structure of the kinematic joints.",
+    "Block structure of the mechanical system. The structure of the trajectory generating mechanism (MGT). Structure of the orientation mechanism.",
+    "Characteristic point, characteristic line and auxiliary line. Tool Center Point (TCP). The structure of the mechanical system of a parallel robot.",
+    "The general block scheme of the drive system. Electric drive system.",
+    "Hydraulic drive system. Pneumatic drive system.",
+    "Control system. General structure of the control system, Case studies.",
+    "Control methods of an industrial robot. Sequential control. Point to Point control (PTP). Multipoint control (MTP). Control on continuous path CP (Continuous Path).",
+    "Defining the geometric model of an industrial robot. Settings the coordinate systems. Example for a robot type TRT.",
+    "Calculation of homogeneous transformation matrices. Calculation example for a TRT robot.",
+    "Getting of the direct geometric model and the inverse geometric model.",
+    "Programming of industrial robots. Online and offline programming methods.",
+    "Examples of programming languages for industrial robots. MRL programming language – Mitsubishi Robot Language. Apps.",
+    "Kuka KRL programming language. Positioning and motion control commands. Digital input/output controls. Commands for program control.",
+    "Presentation of the laboratory and the labor protection norms.",
+    "Programming the RV-M1 robot to perform a handling operation.",
+    "Programming the movement of the RV-M1 robot on Slide.",
+    "Programming the RV-M1 robot for the service of VISION 2000 station.",
+    "Programming the RV-M1 robot to perform an assembly operation.",
+    "Control a mobile robot equipped with Arduino Mega development system.",
+    "Closing the situation at the laboratory."
+  ],
+  "teaching_methods": [
+    "Free exposure",
+    "Presentation of the course with video projector",
+    "On the board",
+    "Online",
+    "Laboratory work within an educational CIM system"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Test + practical application (Laboratory)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For the course, a minimum mark of 5 is required, which implies knowledge of fundamental notions without presenting details. For a grade of 10, thorough knowledge of all subjects is required. For the laboratory, a minimum grade of 5 is required, necessitating recognition of the tools used in laboratory works. Students receive a test and grade at each laboratory, and also a grade for the laboratory work during the semester and for the laboratory work file, resulting in an average for the laboratory.",
+  "bibliography": [
+    "T., Barabas, T., Vesselenyi, Robotică – Conducerea şi programarea roboţilor industriali – Probleme şi metode de bază, Editura Universităţii din Oradea, 2004",
+    "T., Barabas, Robotică – Curs în format electronic, Universitatea din Oradea, 2021",
+    "T., Vesselenyi, T., Barabas, Comanda roboţilor. Aplicaţii, Editura Universităţii Oradea, 2006",
+    "I. Bogdanov, Conducerea roboţilor, Editura Orizonturi Universitare, Timișoara, 2009",
+    "Kovács, Fr., Varga, Şt., Pau, V.C., Introducere în robotică, Editura Printech, Bucureşti, 2000",
+    "M. Ivănescu, Sisteme de conducere a roboților, Ed. Scrisul Românesc, Craiova, 2007",
+    "T., Vesselenyi, T., Barabas, Robot and CNC programming, Editura Universităţii din Debrecen, Ungaria, 2012",
+    "T., Barabas, Robotică –Roboţi industriali, Îndrumător de laborator, Universitatea din Oradea, 2005",
+    "T., Barabas, Robotică , Fascicole de lucrări de laborator în format electronic, Universitatea din Oradea, 2021",
+    "Industrial Micro-Robot System RV-M1-Manual de operare, Mitsubishi Electric"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universitatea din Oradea",
+  "institution_slug": "ec_ro_oradea01",
+  "degree": "Electromechanics (B.Eng., Electrical Engineering field, 4 years / 240 credits)",
+  "course_code": "IETI-0451",
+  "academic_year": "2026/27 (plan) / 2024/25 (fichas)",
+  "source_url": "https://ieti.uoradea.ro/images/zEN/Programmes/Bachelor_degree_programmes/2024_2025/FD_licenta_EM_EN_2024-2025.pdf",
+  "source_language": "en",
+  "source_sha256": "80460ccd7798948378b88234327d557fe4175219d778830d46b802fe97e6929b",
+  "extracted_at": "2026-11-20T09:28:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Statistiques",
+  "course_name_en": "Statistics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Familiarity with the main laws of probability studied in S4 Probability CE."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "At the end of the “descriptive statistics” course, students will be able to analyze and summarize data clearly and precisely, using relevant graphs and numerical indicators.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "At the end of the “inferential statistics” course, students will have at their disposal statistical decision-making tools useful in a variety of fields: quality, reliability, project management: product development, process improvement, performance optimization, etc. (sampling, confidence interval estimation, test on one parameter, Chi-squared test, etc.).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "On completion of the “Data Analysis” course, students will be familiar with statistical tools for extracting relevant information from multivariate data sets. They will understand the relationships between variables and draw conclusions about observed phenomena (ANOVA test, linear regression).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Represent a data series using an appropriate diagram: bar charts, pie charts, histograms, box plots, etc.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate and use indicators of central tendency to summarize a series: mean, median and mode.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate and use indicators of dispersion to assess the variability or homogeneity of a series: standard deviation, variance, etc.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate and use shape indicators to describe the shape of a series: skewness and kurtosis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use Sampling theory to predict the behavior of a sample from the known behavior of the population.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use a confidence interval to estimate parameters (mean, variance, proportion) on a population from known data on a sample.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Test hypotheses about population parameters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Test the independence or conformity to a given distribution of qualitative variables using the Chi 2 test.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compare the means of several groups in order to determine whether a given factor (e.g. manufacturing method, type of material, etc.) has a significant impact on performance or measured results, using the ANOVA test.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Model the relationship between a dependent variable and one or more independent variables, and thus predict the value of the latter as a function of the others, using linear regression tools.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Descriptive statistics",
+    "Inferential statistics",
+    "Sampling and Confidence Interval Estimation",
+    "Test on one parameter and comparison of parameters",
+    "Chi 2 test",
+    "Data analysis",
+    "ANOVA and linear regression"
+  ],
+  "teaching_methods": [
+    "Lectures (description of main theories with examples and initial exercises)",
+    "Tutorials (correction of various exercises)"
+  ],
+  "workload_hours_total": 65.0,
+  "workload_hours_contact": 35.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (Devoir Surveillé 1)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "DS2 (Devoir Surveillé 2)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1+1*DS2)/2.",
+  "bibliography": [
+    "Statistiques – Les guides Mangas - SHIN TAKAHASHI, Iroha INOUE, Trend PRO",
+    "Les statistiques en BD - Larousse – Larry GONICK, Woollcott SMITH",
+    "Statistique, concepts et méthodes avec exercices corrigés, Masson, Sabin LESSARD MONGA",
+    "Techniques statistiques, Les editions SMG, Gerald BAILLARGEON"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0511",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "3d04e04db2eda948bf915e5ad29f9a28bd3deee8a0553a15d0eeef6fe036cd7f",
+  "extracted_at": "2026-11-18T09:59:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

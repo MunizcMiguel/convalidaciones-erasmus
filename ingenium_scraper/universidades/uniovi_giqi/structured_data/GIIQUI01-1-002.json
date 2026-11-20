@@ -1,0 +1,143 @@
+{
+  "course_name_original": "Métodos Numéricos",
+  "course_name_en": "Numerical Methods",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Linear Algebra",
+    "Calculus",
+    "Fundamentals of Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the different types of errors that can be made when using numerical methods and compare their efficiency according to the type of problem to be solved, the required degree of precision, and the computational cost.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Evaluate and use the most appropriate methods to detect the roots of a non-linear equation.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Describe, analyze, and use numerical methods for solving systems of linear and non-linear equations.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Numerically solve problems of interpolation, one-dimensional data fitting, and function approximation.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use formulas to approximately obtain the derivative and the definite integral of a function.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Describe, use, and evaluate basic numerical methods for solving differential equations.",
+      "type": "unspecified",
+      "code": "RA6"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry: differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithmics; statistics and optimization.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills, and aptitudes in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Honesty, responsibility, ethical commitment, and a spirit of solidarity.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "competence",
+      "code": "CG15"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite arithmetic. Error analysis.",
+    "Concepts of error",
+    "Computer arithmetic",
+    "Error analysis",
+    "Numerical solution of non-linear equations.",
+    "Fixed-point method",
+    "Interval-based methods",
+    "Newton's method",
+    "Numerical methods for solving linear and non-linear systems.",
+    "Direct methods",
+    "Iterative methods",
+    "Non-linear systems",
+    "Interpolation. Approximation. Data fitting.",
+    "Interpolation",
+    "Function approximation",
+    "Data fitting",
+    "Numerical differentiation and integration.",
+    "Numerical differentiation",
+    "Simple quadrature rules",
+    "Composite quadrature rules",
+    "Numerical solution of differential equations.",
+    "Initial value problems: One-step methods."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices / field / computer lab / language lab"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical block assessment (via two partial exams)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical block assessment (via a final exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical block assessment (during laboratory practices)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as 0.7 * Theory + 0.3 * Practices, provided a minimum of 3.5 out of 10 is achieved in both the theoretical and practical blocks. The theoretical block can be evaluated by two partial exams (T1 and T2, with a formula 0.5 * T1 + 0.5 * T2) or a single final theoretical exam; a minimum of 3.5 is required for each part. If a minimum is not reached in any part, the final grade will be the minimum between the weighted average and 4.5. For the extraordinary call, an overall theoretical exam and an overall practical exam are given, each requiring a minimum of 3.5 out of 10, and the final grade calculation remains 0.7 * Theory + 0.3 * Practices. In the July extraordinary call, students may opt to take only the theory exam if their lab practical score was >= 3.5 in the ordinary assessment, or only the practical exam if their theoretical scores were >= 3.5.",
+  "bibliography": [
+    "Mathews, J.H., Fink, K.D. Métodos Numéricos con Matlab. Prentice Hall (3ª Ed.), 2000.",
+    "Moler, C., Numerical Computing with Matlab. SIAM, 2004. https://es.mathworks.com/moler/chapters.html",
+    "Novak, K. Numerical Methods for Scientific Computing, Equal Share Press (2º Ed.), 2022 https://www.equalsharepress.com/media/NMFSC.pdf"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Química Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_giqi",
+  "degree": "Grado en Ingeniería Química Industrial",
+  "course_code": "GIIQUI01-1-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/quimicaindustrial/-/fof/asignatura/GIIQUI01-1-002",
+  "source_language": "es",
+  "source_sha256": "99dc8f580e476d1f1853cc105b8849762bc63555fb3ada6ee80146c516da16c1",
+  "extracted_at": "2026-11-20T01:14:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

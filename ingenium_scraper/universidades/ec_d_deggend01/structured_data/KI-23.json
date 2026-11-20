@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Software Engineering",
+  "course_name_en": "Software Engineering",
+  "ects": 5.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Programming I and II",
+    "Fundamentals of Computer Science",
+    "Computational Logic",
+    "AI Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the most important concepts and methods of software development.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the most important tools for collaborative and professional software development.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Professional competence to apply these in practice.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "UML Diagrams",
+    "Use case diagram",
+    "Class diagram",
+    "State diagram",
+    "Sequence diagram",
+    "Activity diagram",
+    "Tools for Software Engineering",
+    "make as Build-Process-Tool",
+    "Version control with Git",
+    "Virtual environments",
+    "Correctness of Software",
+    "Module tests",
+    "Property-based testing",
+    "Logic-based approaches"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction",
+    "Practical exercises",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "PStA",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Martina Seidl, Marion Scholz, Christian Huemer, Gerti Kappel: UML@Classroom, dpunkt.verlag, 2012.",
+    "Leslie Lamport: The TLA+ Video Course, online at https://lamport.azurewebsites.net/video/videos.html."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-23",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "3e24d1c67216bf13d3bc3c45f7bd180ac459c6d0db4f15070e126c7a0120ae81",
+  "extracted_at": "2026-11-20T09:21:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,89 @@
+{
+  "course_name_original": "SIGNAL AND COMMUNICATION THEORY",
+  "course_name_en": "Signal and Communication Theory",
+  "ects": 9.0,
+  "semester": "2nd semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge acquired in previous courses in mathematics and circuit theory."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the frequency representation of deterministic signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understanding of the concept of noise as a stochastic process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the simplest techniques for information transmission.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze deterministic and random signals and calculate their fundamental properties (spectrum, bandwidth, power, or energy).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to define the transmission parameters, design, and performance during the operation of analog and digital transmission systems in their simplest form.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition, classification, and properties of signals; signal energy and power.",
+    "Impulse response and properties of linear systems. Eigenfunctions and frequency response.",
+    "Frequency-domain analysis of deterministic signals. Fourier series representations and component orthogonality. Parseval's theorem.",
+    "Energy Spectral Density (ESD) and Power Spectral Density (PSD). Fourier transform and its properties. Transfer functions, causality conditions, and filtering.",
+    "Waveform correlation, autocorrelation, cross-correlation, and power correlation. Wiener\nKhinchin theorem. Autocorrelation of periodic functions.",
+    "Fundamentals of modulation: baseband signal, carrier signal, and modulated signal. Frequency translation and baseband equivalent representation of modulated signals. Overview of analog modulations: frequency (FM), phase (PM), and amplitude modulation (AM) with unsuppressed carrier.",
+    "Probability theory: random experiments, sample space, random events, random variables, and probability definitions. Cumulative Distribution Function (CDF) and Probability Density Function (PDF). Statistical characterization of random variables; Gaussian distribution. Independent and uncorrelated random variables. Central Limit Theorem and Bayes' Theorem. Random processes and characterization: stationary and ergodic processes. Noise modeling as a stochastic process.",
+    "Sampling theorem, quantization, and signal reconstruction. Nyquist criterion. Digital signals and digital modulation schemes. Baseband and passband representations, power spectrum. Matched filter.",
+    "Performance of telecommunication systems in noise; Signal-to-Noise Ratio (SNR). Performance of digital modulations and Bit Error Rate (BER).",
+    "The MATLAB environment and its applications in signal theory and communications. Practical implementation of telecommunication functions in MATLAB."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical classes",
+    "Workshops"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination consists of a mandatory written test and an optional oral exam. The written test includes at least two problems and an open-ended theoretical question, with a maximum score of 27/30. The oral exam is optional if the written test score is sufficient, but mandatory to pass if the written test score is between 16 and 17/30. If the student, with a sufficient grade in the written exam, decides not to take the oral exam, the final grade remains that of the written exam, limited to 22/30 if the written score is higher. In the case of an oral exam, the final grade will be determined starting from the written exam grade, applying a variation according to the preparation ascertained on the topics of the oral exam. The oral exam allows passing the exam even with a written test score between 16 and 17 if the final grade is at least 18. The maximum attainable score is 30 with honors.",
+  "bibliography": [
+    "S. Haykin, M. Moher. Introduzione alle Telecomunicazioni Analogiche e Digitali. Casa Editrice Ambrosiana. ISBN-13: \t 978-8840813875",
+    "Marco Luise, Giorgio M. Vitetta. Teoria dei segnali. McGraw-Hill Education, 2009 - EAN: 9788838665837",
+    "Ali Grami. Introduction to Digital Communications. Elsevier, Hardback ISBN: 9780124076822 eBook ISBN: 9780124076587"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "511451",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=21288&ordinamento_aa=2025&af_percorso=1&corso_cod=10866&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "c0927d94c0cdf7e58b7c0dd8f1042679e89b0f76b56631a80b1cad6c6ad75663",
+  "extracted_at": "2026-11-20T08:18:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

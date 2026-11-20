@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Sayısal Analiz",
+  "course_name_en": "Numerical Analysis",
+  "ects": 4.0,
+  "semester": "Fall",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Ability to model using mathematical knowledge.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to produce solutions to complex problems or problems difficult/impossible to solve analytically using simple arithmetic operations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze the accuracy of methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to use Matlab.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to develop and apply software programs for numerical solutions.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Functions of a Single Variable, Domain, Limit, Continuity, Derivative, Applications of Derivative, Integral, Sequences and Series, Applications of Taylor and Maclauren Series, Vectors.",
+    "IEEE Arithmetic and Sources of Computation Errors",
+    "Definitions: Bit, Byte, Word, Number Representation (decimal, binary and hexadecimal)",
+    "Sources of Errors Significant Figures, Accuracy and Precision, Error Definitions, Round-off Errors, Truncation Error.",
+    "Solutions of Non-linear Equations",
+    "Bracketing Methods: Graphical Methods, Bisection Method, False Position Method.",
+    "Open Methods: Simple Fixed-Point Iteration, Newton-Raphson Method, Secant Method.",
+    "System of Non-linear Equations",
+    "Solutions of Linear Equations",
+    "Elimination Methods: Gauss, Gauss-Jordan",
+    "LU Method, Matrix Inversion",
+    "Gauss-Seidel Method",
+    "Curve Fitting and Interpolation",
+    "Least Squares Methods: Linear Regression, Polynomial Regression, Non-linear Regression",
+    "Interpolation: Newton's Divided Difference Interpolation Polynomials, Lagrange Interpolation Polynomials",
+    "Numerical integration",
+    "Trapezoidal rule, Simpson's rules, Multiple segment Trapezoid and Simpson",
+    "Numerical Solutions of Ordinary Differential Equations",
+    "Single-Step Methods: Euler's Method, Heun's Method, 2nd Order Runge-Kutta Method, 4th Order Runge-Kutta Method.",
+    "Multi-Step Methods: Adams-Bashforth Method."
+  ],
+  "teaching_methods": [
+    "Face-to-face instruction"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Homework",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Midterm Exams",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Numerical Methods for Engineers, Steven C. Chapra, Raymond P. Canale, 7th Edition, McGraw-Hill. 2014.",
+    "Applied numerical methods with MATLAB for engineers and scientists, Steven C. Chapra, 3rd Edition, McGraw-Hill. 2011.",
+    "Numerical Analysis Using MATLAB® and Excel®, Third Edition, Steven T. Karris, Orchard Publications, 2007.",
+    "Calculus: A Complete Course, Robert Adams, Christopher Essex, 10th Edition, Toronto, Canada, 2010"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Yıldız Teknik Üniversitesi (Yildiz Technical University)",
+  "institution_slug": "ec_tr_istanbu07",
+  "degree": "Kimya Mühendisliği (Chemical Engineering), lisans, %100 İngilizce",
+  "course_code": "KMM3511",
+  "academic_year": "vigente en el Bologna Bilgi Sistemi (Yeni)",
+  "source_url": "http://www.bologna.yildiz.edu.tr/index.php?r=course/view&id=9946&aid=23&pid=36",
+  "source_language": "tr",
+  "source_sha256": "c82a53de35b14902d29127b2a6fe68970c174769b942485e67e6c684e014bc7d",
+  "extracted_at": "2026-11-20T09:13:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

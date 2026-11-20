@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Virtual instrumentation",
+  "course_name_en": "Virtual Instrumentation",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Applying rules for an organized and efficient work, responsible attitude towards the didactic-scientific field for creative capitalization of one’s own potential, complying to the principles and professional ethics norms.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Utilizing efficient methods and techniques for learning, knowing, research and development of knowledge capitalization capacities, adapting to the requirements of a dynamic society and the communication in Romanian or an international language.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate knows multiple programming languages and is able to write applications in compiled, interpreted or dynamic languages with the ability to choose the appropriate programming language for the specific application to be developed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to develop, design and create new applications, systems or products using best practices of the field.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and use design patterns for application development.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to observe and obtain information from various sources.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary knowledge to process and verify data and information.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Virtual Instrumentation. System graphical design. Industrial Internet of Things",
+    "Fundamentals of graphical programming in G 1/3: virtual instruments, VI – Front Panel, Block Diagram, Tool Palette, structures, clusters, debuggi error management",
+    "Fundamentals of graphical programming in G 2/3: implement VI, document graphical code, timing issues, developing modular apps",
+    "Fundamentals of graphical programming in G 3/3: sequential programming, state machines, parallelism, multiple loops architectures, global variables, event driven programming",
+    "Programming Real Time Systems: introduction, components, devices configuration",
+    "Architecture of Real Time Systems: Host/Target, multithreading, execution control, timing control, interprocess communication",
+    "Optimization of Real Time Applications: requirements analysis, Target constraints, communication in distributed systems, memory management and system monitoring, reliability, debugging, testing, deploying",
+    "PFGA Systems: components, compilation, timing issues, Single-Cycle Loop execution",
+    "Image processing using VI: Introduction to Machine Vision, image acquisition and display, calibration, measurements. Image identification, bar codes, optical recognition of graphical characters",
+    "Human Machine Interface, data output on mobile devices: graphical interfaces, G web server, LabView WebServices, SCADA elements with applications, Data Dashboard",
+    "Rapid Prototyping. MyRIO; embedded systems in education: MyRIO; Measurements applications; Simple control Applications; IIoT and Embedded Systems",
+    "Real Time Systems Modelling: Model-in-the-loop, SW-in-the-loop, HW-in-the-loop",
+    "Graphical programming in G 1/2",
+    "Graphical programming in G 2/2",
+    "Real Time Application development",
+    "Real Time Systems Architecture Evaluation",
+    "Image processing using VI",
+    "Rapid Prototyping",
+    "Final project turn-in"
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, discussion of case studies",
+    "Explanation, dialogue, case studies"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final project: architecture & design pattern application",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Lab Assignments - Mini-projects grading",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "A minimum passing grade is defined by attaining at least 50% (5/10) points for the final project and each of the three lab assignments respectively.",
+  "bibliography": [
+    "Horia Hedesiu, Radu Munteanu jr. –Introducere in Programare Grafica Instrumentala, ISBN 973-9357-48 Mediamira, Cluj-Napoca, 2003",
+    "Gabriel Chindris, Horia Hedesiu - Proiectarea Grafica a Sistemelor de Control Pentru Aplicatii Industriale, ISBN 978-973-713-242-0, Editura Mediamira Cluj-Napoca, 2009",
+    "National Instruments Corp – LabVIEW Core 1 Course Manual, 2013 Edition",
+    "National Instruments Corp – LabVIEW Core 2 Course Manual, 2013 Edition",
+    "National Instruments Corp – LabVIEW Core 3 Course Manual, 2013 Edition",
+    "Kye-Si Kwon, Steven Ready - Practical Guide to Machine Vision Software: An Introduction with LabVIEW, Jan. 2015",
+    "Blume, Peter A. - The LabVIEW Style book, ISBN 0-13-145835-3, Pearson Education, 2007"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5092",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE5092_en_forest_2025_9724.pdf",
+  "source_language": "en",
+  "source_sha256": "cce6f12bddeb691af3d6b99a1db68adaff38b12d3d1e0ea74625b050d2945df6",
+  "extracted_at": "2026-11-20T09:08:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

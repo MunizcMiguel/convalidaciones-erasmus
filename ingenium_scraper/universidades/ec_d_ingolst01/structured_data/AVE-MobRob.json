@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Mobile Robots and ROS",
+  "course_name_en": "Mobile Robots and ROS",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "None"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify different types of mobile robots and mathematically describe their motion",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain concepts for the perception and localization of mobile robots, as well as design and implement corresponding algorithms",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain concepts for motion planning and collision-free navigation of mobile robots, as well as design and implement corresponding algorithms",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain fundamental concepts of ROS2 (Robot Operating System)",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of mobile robotics: terminology, overview of types and applications",
+    "ROS (Robot Operating System): fundamentals and key concepts, nodes, topics, tools",
+    "Types of locomotion and their mathematical representation: various steering systems, differential drive, mecanum drive, other types of locomotion",
+    "Perception and localization: sensors in mobile robotics, data fusion and estimation, methods of robot localization, SLAM",
+    "Robot navigation: path planning, collision avoidance, common algorithms such as Dijkstra, A - Star, RRT, RRT*"
+  ],
+  "teaching_methods": [
+    "Seminaristic teaching/exercise"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "SICILIANO, Bruno, KHATIB, Oussama, 2016. Springer handbook of robotics [online]. Berlin ; Heidelberg: Springer. PDF e-Book. ISBN 978-3-319-32552-1, 978-3-319-32550-7. Verfügbar unter: https://doi.org/10.1007/978-3-319-32552-1.",
+    "JOSEPH, Lentin, JOHNY, Aleena, 2022. Robot Operating System (ROS) for Absolute Beginners: Robotics Programming Made Easy [online]. Berkeley, CA: Apress. PDF e-Book. ISBN 978-1-4842-7750-8. Verfügbar unter: https://doi.org/10.1007/978-1-4842-7750-8.",
+    "CORKE, Peter I., 2017. Robotics, vision and control: fundamental algorithms in MATLAB [online]. Cham: Springer. PDF e-Book. ISBN 978-3-319-54413-7. Verfügbar unter: https://doi.org/10.1007/978-3-319-54413-7.",
+    "KOUBÂA, Anis, 2021. Robot operating system (ROS): the complete reference (Volume 6) [online]. Cham: Springer. PDF e-Book. ISBN 978-3-030-75472-3. Verfügbar unter: https://doi.org/10.1007/978-3-030-75472-3."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt",
+  "institution_slug": "ec_d_ingolst01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "AVE-MobRob",
+  "academic_year": "WS 2026/27",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetM/Modulhandbuch/Bachelor_Fachwissenschaftliche_Wahlpflichtmodule/FW-Faecher_Modulhandbuch_WS26_27.pdf",
+  "source_language": "de",
+  "source_sha256": "6bee24f623187e129122522d1211aec1890fcaad052d2e85f1fdedf4cd6cdeda",
+  "extracted_at": "2026-11-18T04:03:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

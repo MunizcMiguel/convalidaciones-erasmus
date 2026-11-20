@@ -1,0 +1,115 @@
+{
+  "course_name_original": "COMPUTER SCIENCE FOUNDATIONS",
+  "course_name_en": "Computer Science Foundations",
+  "ects": 6.0,
+  "semester": "AUTUMN SEMESTER",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with the basics of problem solving, through the formulation of algorithms implemented by the Python language, the basic aspects concerning the representation of information, as well as their use within information processing systems, and the functioning of modern information processing systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Present the basic principles of the database.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Offer practical tutorials (class exercises), where students acquire problem solving techniques, along with the ability to implement their own solutions in a high-level language and simple queries in SQL language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Present concepts during lectures and realize solutions by implementing programs in the Python language during practice hours and by structuring simple queries.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to develop low complexity algorithms, by means of a decomposition into sub-problems, besides representing such algorithms through block diagrams.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to translate the algorithms in Python code, by adopting structured programming methodologies and taking care of the comprehensibility of the programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn how to interpret and understand Python code.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Information and data, information processing, hardware and software",
+    "Architecture of an information processing system. Components of the von Neumann machine and its operation. Fetch-decode-execute cycle. Machine code. Memory hierarchy.",
+    "Representation and coding of information. Concept of language. The aim of languages. Natural languages and related ambiguity issues. Concept of formal language. How to represent information in computers. Binary encoding of numbers and characters. Positional numbering system. Representing numbers in different bases. Techniques for converting between different bases (decimal-binary, binary-decimal). Signed number representations: sign-and-magnitude, two's complement.",
+    "Boolean algebra and logic circuits. Characteristics and uses of Boolean algebra. Relation between Boolean algebra and logic circuits. Principal operators (or functions) of Boolean algebra: AND operator (logic product), OR operator (logic sum), NOT operator (negation). Laws of Boolean algebra and Boolean algebra rules: identity, commutative law, distributive law, associate law, absorption laws, De Morgan’s theorem. Truth table. Logic functions. Minterms. Canonical normal form. How to transform a truth table into a logic function. Logic gates. How to transform a logic function into a logic circuit and vice versa.",
+    "Formal modeling of a problem. Steps needed to solve a problem by a computer. The concept of algorithm and the relative definitions. The role of algorithms in the information processing. Main features of algorithms. Representations of algorithms: pseudocode and flowcharts (block diagrams). The process for creating an algorithm. Algorithmic modeling of daily activities.",
+    "Structured programming. Control structures: sequence, selection, iteration. Representation of elementary algorithms by means of flowcharts.",
+    "Phases of the programming process. Programming languages. Building blocks of programming languages. Interpreter, compiler and assembler.",
+    "Characteristics of a software for learning structured programming. Implementation of control structures through such a software. How to create simple algorithms through such a software.",
+    "Introduction to Python environment and Python programming.",
+    "Elementary operations on numbers and strings. Lists, sets and dictionaries.",
+    "Relational operators and logical operators. Selection and iteration.",
+    "Incremental creation of programs through a top-down process. Functional decomposition. Functions, prototypes, call by value and call by reference, built-in and user-defined functions. Input/output in Python.",
+    "Creation and management of files in Python. Writing/reading files.",
+    "Object-oriented programming: classes and objects.",
+    "An overview on inheritance and polymorphism.",
+    "An overview on exceptions and recursion.",
+    "Design, development and testing of algorithms to solve problems in Python."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Three midterm exams (first part topics)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Three midterm exams (practical Python programming)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (midterm path)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test (Python programs and questions on first part)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (exam path)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The learning assessment can occur in two modes: during the course via three midterm exams and an oral examination, or via a final exam consisting of a written test and an oral examination. The essential condition to pass includes knowledge of basic mechanisms of electronic calculators, conversion skills between different number bases, ability to represent numbers in sign-and-magnitude and two's complement, ability to represent logical functions via truth tables and logic circuits, and ability to work with main Python data structures.",
+  "bibliography": [
+    "DONATELLA SCIUTO, GIACOMO BUONANNO, LUCA MARI: “INTRODUZIONE AI SISTEMI INFORMATICI”. MCGRAW-HILL (V EDIZIONE).",
+    "CAY HORSTMANN, RANCE D. NECAISE: “CONCETTI DI INFORMATICA E FONDAMENTI DI PYTHON”. APOGEO EDUCATION, MAGGIOLI EDITORE (SECONDA EDIZIONE).",
+    "LECTURE NOTES OF THE COURSE AND EXERCISES CAN BE DOWNLOADED FROM THE WEBSITE OF THE COURSE (ELEARNING.UNISA.IT)."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno",
+  "institution_slug": "ec_i_salerno01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "II12300006",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=521497&ordinamento_aa=2026&af_percorso=9999&corso_cod=500893&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "f918a2df1e7cc0225045fbbdc8efbfc85e0baf4f855b89d73d2cd70d64fa080d",
+  "extracted_at": "2026-11-18T10:03:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

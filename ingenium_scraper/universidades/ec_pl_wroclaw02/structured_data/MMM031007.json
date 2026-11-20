@@ -1,0 +1,134 @@
+{
+  "course_name_original": "Statistics for Engineers",
+  "course_name_en": "Statistics for Engineers",
+  "ects": 2.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It has a basic knowledge of mathematics confirmed positive marks on the upper secondary school leaving certificate"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "It has a basic knowledge of statistical methods for the analysis of databases of known basic descriptive statistics characterizing the engineering measurements, known principle groupings of data and compilation of the distribution.",
+      "type": "knowledge",
+      "code": "PEK_W01"
+    },
+    {
+      "text": "Knows the basic theoretical distributions of discrete and continuous attributes, has a basic knowledge of the principles of estimating confidence intervals for the average value and its dispersion characteristics, has knowledge of the methods for parametric statistical hypotheses about the average value, the equality of the two values of the average of the value of homogeneity of variance and multiple variance.",
+      "type": "knowledge",
+      "code": "PEK_W02"
+    },
+    {
+      "text": "Knows the basic method of verifying the non-parametric statistical hypotheses regarding the significance of differences in the structure of the data and categorical independent random variables, known methods of correlation and regression analysis for two or more continuous variables and methods for the analysis of time series.",
+      "type": "knowledge",
+      "code": "PEK_W03"
+    },
+    {
+      "text": "Able to properly perform a statistical analysis of test results, formulate hypotheses, and based on the tests carried out to draw the appropriate conclusions: data reduction can make the right choice before statistics describing the average value, the dispersion and the shape of the distribution, it can from raw data to create a frequency distribution, and illustrate collection of data using a histogram, the empirical distribution function and graph frameset.",
+      "type": "skill",
+      "code": "PEK_U01"
+    },
+    {
+      "text": "Able to fit the empirical data and theoretical distribution on the basis of estimated quantile values for selected probabilities, and estimate the probability for selected quantiles, can properly choose the type of statistical test and perform testing hypotheses about the average and distribution characteristics.",
+      "type": "skill",
+      "code": "PEK_U02"
+    },
+    {
+      "text": "It can analyze the correlation characteristics in multivariate categorical data table can perform a regression analysis and correlation of two and more variables, estimate the parameters characterizing the strength and shape of the relationship.",
+      "type": "skill",
+      "code": "PEK_U03"
+    },
+    {
+      "text": "The acquisition and consolidation of competence in the following areas: information retrieval and its critical analysis, team cooperation on improving methods for the selection of a strategy to optimally solve problems assigned to the group.",
+      "type": "competence",
+      "code": "PEK_K01"
+    },
+    {
+      "text": "capacity building self-esteem and self-control and responsibility for the results of actions taken.",
+      "type": "competence",
+      "code": "PEK_K02"
+    },
+    {
+      "text": "independent and creative thinking.",
+      "type": "competence",
+      "code": "PEK_K03"
+    }
+  ],
+  "syllabus_topics": [
+    "Statistical methods of data analysis - the essence of statistical modeling. The descriptive analysis of the data: the forms of representation of statistical data, measures of association, variability, asymmetry and concentration.",
+    "Development and presentation of statistical data. Grouping data - ranks simple and distribution. Histogram and empirical cumulative distribution.",
+    "Random variables and their distributions. Numerical characteristics of the distribution. Selected discrete and continuous distributions. Inequality Czybyszewa. Elements of the theory of estimation - point estimate. Interval estimation of the mean value and variance. The confidence intervals.",
+    "Parametric statistical hypotheses. Testing hypotheses about the average value, the equality of the two average values. Testing hypotheses about the rate structure and the structure of the equality of two ratios. Testing hypotheses about the variance and equality of two variances.",
+    "Nonparametric hypothesis testing. Conformance Test chi-square, Kolmogorov-Smirnov test. Test of independence Pearson chi-square. Based measures based on chi-square. The odds ratio. Nonparametric tests: test Wald-Wolfowitz runs test, Wilcoxon rank-Mann-Whitney test.",
+    "Correlation and regression analysis. The method of least squares. Pearson correlation coefficients and Spearman. Linear regression function. Multivariate regression analysis and correlation. The estimation of linear multiple regression function. The significance test for multiple regression coefficients. Estimation of the multiple correlation coefficient. The coefficient of determination.",
+    "Univariate analysis of variance and post-hoc test: Tukey, Duncan and least significant difference. Kruskal-Wallis test and post-hoc test of Dunn. Methods of analysis of the dynamics of the phenomena - time series. Time series smoothing methods. Analysis of periodic fluctuations. Presentation of selected computer programs supporting statistical analysis STATISTICA, R, Gretl.",
+    "Organizational matters. Introduction to using a spreadsheet. Math and statistics Excel. Generate a vector of continuous variables with normal distribution. Descriptive statistics - calculating measures of location, variability, asymmetry and concentration. Construction series distribution. A graphical representation of the data set - the histogram and the empirical distribution function.",
+    "Basic distributions encountered in mathematical statistics: a normal distribution, Student, chi-square, F Snedecor. Probability density function and cumulative distribution. Point and interval estimation of the expected value, the rate structure (fraction), variance and standard deviation.",
+    "Testing of statistical hypotheses. Parametric tests of significance for the expected value and the variance of the general population. The test for two variances for two medium and two indicators of the structure. Student's test for paired test, homogeneity of variance Bartlett's many, many medium homogeneity test (ANOVA).",
+    "Non-parametric tests of significance - compatibility test Pearson's chi-square test, Kolmogorov sensor compatibility,. Test of independence chi-kwadrat2 panels - kontyngencyjne. Mann-Whitney test. Median test and Wilcoxon signed-ranks test. Rank sum test Kruskal-Wallis test to assess the relationship between two variables. Two-dimensional regression and correlation analysis. A scatterplot. Strength of the association correlation - correlation coefficient estimation, test of significance for the correlation coefficient, parameter estimation of linear regression function, a test of significance for the regression coefficient (slope of the regression line), the confidence interval for the regression coefficient.",
+    "Multivariate analysis of correlation and regression. Estimation of the multiple regression function. The significance test for multiple regression coefficients. Estimation of the coefficient of determination and multiple correlation. Curvilinear regression. Logistic regression. Maximum likelihood estimation. Interpretation of the results of logistic regression.",
+    "Univariate analysis of variance (ANOVA). Table of analysis of variance in one variable for the jednoczynnikowego. Analysis of the dynamics. Time series without periodicity and duration. Prediction methods. Development trend - a trend.",
+    "Event History Analysis. Distribution function, the density function, survival function, hazard function. The life table. Kaplan-Meier curves. Cox proportional hazards model. Uncertainty evaluation of the overall result of the measurement. Disclosure of systematic errors. Disclosure of errors (gross errors). Uncertainty evaluation of the overall impact resulting from the effects of random and systematic. Methods of sampling. Drawing layered, collaborative, systematic. Non-random sample and load error."
+  ],
+  "teaching_methods": [
+    "informative lecture",
+    "case study",
+    "calculation exercises",
+    "self study - preparation for project class",
+    "project presentation"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 12.0,
+  "assessment_methods": [
+    {
+      "method": "test (lecture)",
+      "weight_percentage": null
+    },
+    {
+      "method": "small exam (project)",
+      "weight_percentage": null
+    },
+    {
+      "method": "evaluation of computing project",
+      "weight_percentage": null
+    },
+    {
+      "method": "evaluation of computational design",
+      "weight_percentage": null
+    },
+    {
+      "method": "project evaluation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The concluding grade for the lecture (P) is based on F1 (test). The concluding grade for the project (P) is calculated as the average of F1, F2, and F3, where F1 involves a small exam and evaluation of a computing project, F2 involves a small exam and evaluation of a computing project, and F3 involves evaluation of computational design and project evaluation.",
+  "bibliography": [
+    "Bobrowski D: Probability in technical applications. Warsaw 1986, WNT",
+    "R. Smith: Statistics for physicists. Warsaw 2002, PWN",
+    "Ostasiewicz W. (ed.): Statistical methods for data analysis. Wroclaw 1999, Publisher of Economics in Wroclaw",
+    "Zeliaś A., Pawelek, B., S. Wanat: Statistical Methods. The tasks and tests. Warsaw 2002, PWE",
+    "I. Bak, Markowicz I., Mojsiewicz M., K. Wawrzyniak: Statistics in tasks. Part I and II. Warsaw 2001. Publisher of Science and Technology",
+    "Cieciura M., Zacharski J.: Probabilistic methods in practical terms. Warsaw 2007, VIZJA PRESS & IT Sp. z oo",
+    "Dobosz M.: The computer-assisted statistical analysis of test results. Warsaw 2001, Academic Publishing House EXIT.",
+    "Frątczak E. Gach-Ciepiela Laws, Babiker H. event history analysis. Elements of the theory, some examples of applications. 2005 Warsaw School of Economics in Warsaw.",
+    "Puppet L: Fundamentals of engineering studies. Warsaw 2002, PWN.",
+    "Maliński M.: Computer-assisted mathematical statistics. Gliwice 2000, published by Silesian University of Technology",
+    "W. rods: Methods of data analysis examples. 2004 Częstochowa, Częstochowa University of Technology",
+    "Turzeniecka D.: Evaluation of uncertainties due to measurements. 1997 Poznan, Poznan University of Technology Publisher"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Politechnika Wroclawska",
+  "institution_slug": "ec_pl_wroclaw02",
+  "degree": "Mechanical Engineering and Machine Building (I level, full-time)",
+  "course_code": "MMM031007",
+  "academic_year": "2026/2027",
+  "source_url": "https://wm.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkFUBhQAykrCDILDWdbXxMbFmFBWxslAxt1FSVcVnRKCkI8VQIDJCUODBYAKg8TXAMIOAZK/_users/code_BAlkUKkpKNVI_VBV9XFNBFEZcFiw5Qx0O/w10/karty_kursow/mbm_en_st_i.pdf",
+  "source_language": "en",
+  "source_sha256": "3262cba3f150fce163c5f7a74bf4845f19f9515605623cdde772299b521b039d",
+  "extracted_at": "2026-11-18T10:05:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

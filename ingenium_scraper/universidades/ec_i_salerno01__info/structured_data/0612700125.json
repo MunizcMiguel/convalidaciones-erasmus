@@ -1,0 +1,175 @@
+{
+  "course_name_original": "5G NETWORKS",
+  "course_name_en": "5G NETWORKS",
+  "ects": 9.0,
+  "semester": "AUTUMN SEMESTER",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Fundamentals of probability",
+    "Signal analysis and transmission techniques",
+    "FONDAMENTI DI ANALISI DEI SEGNALI E TRASMISSIONE"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Basic notions about the physical layer and digital modulations involved in point-to-point communications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Planning and simulating a simple digital transmission system in view of bandwidth and power requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Basic notions about wireless communications and about link budget.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Planning a point-to-point system made of multiple paths, by selecting the appropriate transmission technologies, and by conveniently dimensioning the system in terms of link budget and allocation of analog and/or digital repeaters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Basic notions about cellular networks and about multiple access techniques in telecommunication networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Dimensioning a simple cellular system in view of capacity constraints.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Selecting appropriate access techniques in view of system requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Basic notions about telecommunication network architectures. New-generation networks. MIMO systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Planning simple solutions for access network management in 5G networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Planning simple solutions for core network management in 5G networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Planning simple new-generation telecommunication network architectures by selecting appropriate enabling technologies in view of the system requirements (i.e., bandwidth, power, and latency).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Basic notions about architectures and transmission technologies over communication networks: satellite communications, cellular networks, optical fibers, wireless technologies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "New generation networks. Main attributes of 5G networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "MIMO systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Designing and simulating new-generation network architectures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Selecting the enabling technologies more suited to a specific setting, optimizing the network configuration and resource allocation in view of bandwidth, power, and latency requirements.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic architecture of systems and telecommunication networks. Point-to-point communication model. Physical layer.",
+    "Transmission technologies. Optical fibers. Satellite communications. Wireless communications. Cellular networks.",
+    "Standard modulations: PSK and QAM. Geometric representation and performance evaluation. Bandwidth and power requirements.",
+    "Orthogonal modulations. Geometric representation and performance evaluation. Bandwidth and power requirements.",
+    "Exercises on digital modulations.",
+    "Computer-aided simulations on digital modulations.",
+    "Multipath and Doppler effects in wireless channels. Fading in mobile radiocommunications. Rayleigh model.",
+    "Evaluation of performance degradation in digital systems caused by fading. Countermeasures: Diversity techniques.",
+    "Analog and digital repeaters. The link budget problem.",
+    "Exercises on fading.",
+    "Exercises on link budget planning with analog repeaters.",
+    "Computer-aided simulations on digital systems affected by fading, with or without diversity techniques.",
+    "The “cellular” concept. Cell partitioning. Frequency reuse.",
+    "Cell allocation problems, dimensioning, and coverage. Near-far effect. Handover strategies.",
+    "Access techniques. Orthogonal techniques. TDMA. FDMA. Non-orthogonal access techniques.",
+    "Spread-spectrum techniques. CDMA. OFDM.",
+    "Dimensioning of a cellular system.",
+    "Computer-aided simulations on multiple access techniques.",
+    "Overview on different generation networks.",
+    "LTE networks and advanced LTE (LTE-A). Voice over LTE.",
+    "5G networks. Critical aspects of 5G networks and comparison with previous generations.",
+    "Access network. Radio aspects. Software Defined Radio.",
+    "Beamforming.",
+    "Multiple Input Multiple Output (MIMO) systems.",
+    "Massive MIMO in 5G.",
+    "Computer-aided simulations of a simple MIMO system",
+    "5G Core Network.",
+    "Network softwarization. Software Defined Networks, Network Function Virtualization. Network Slicing in 5G.",
+    "The Edge concept. Wireless Edge. Edge Computing and advantages in terms of resources, latency, QoS.",
+    "Security issues in 5G.",
+    "Delay problems. Latency requirements. Low-latency in 5G.",
+    "Delay models",
+    "Planning and simulating an application covering aspects pertaining to access and/or core and/or edge network, Part 1.",
+    "Planning and simulating an application covering aspects pertaining to access and/or core and/or edge network, Part 2.",
+    "Planning and simulating an application covering aspects pertaining to access and/or core and/or edge network, Part 3.",
+    "Planning and simulating an application covering aspects pertaining to access and/or core and/or edge network, Part 4."
+  ],
+  "teaching_methods": [
+    "LESSONS",
+    "EXERCISES",
+    "LAB",
+    "Theoretical lectures",
+    "Classroom exercises",
+    "Computer laboratory experiences focused on the simulation of communication systems"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination consisting of exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Implementation of a simple simulator to solve a problem of design and allocation in a communication system",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The successful achievement of the learning outcomes will be assessed through a written examination consisting of exercises pertaining to the topics illustrated during the course, and the implementation of a simple simulator to solve a problem of design and allocation in a communication system. The final grade is a combined written and oral exam.",
+  "bibliography": [
+    "PROAKIS-SALEHI, \"FUNDAMENTALS OF COMMUNICATION SYSTEMS\", 2ND EDITION, PEARSON, 2014",
+    "SESIA-TOUFIK-BAKER \"LTE, THE UMTS LONG TERM EVOLUTION: FROM THEORY TO PRACTICE\", 2ND EDITION, WILEY, 2011.",
+    "DAHMAN-PARKVALL-SKOLD \"5G NR – THE NEXT GENERATION WIRELESS ACCESS TECHNOLOGY\", 2ND EDITION, ACADEMIC PRESS, 2021."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Ingegneria Informatica",
+  "institution_slug": "ec_i_salerno01__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "0612700125",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=515196&ordinamento_aa=2022&af_percorso=10002&corso_cod=500189&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "ad64cfd195fd3b398dee31a1bfe2e13aef5f7024ab5ff955477fd5da632410e2",
+  "extracted_at": "2026-11-20T12:43:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

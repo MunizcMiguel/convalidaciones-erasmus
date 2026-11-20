@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Matemáticas I (836)",
+  "course_name_en": "Mathematics I",
+  "ects": 6.0,
+  "semester": "1S",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Will understand and be able to apply the basic concepts of calculus in one and several variables.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Will understand and be able to apply the basic concepts of numerical calculus.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Will understand the terminology, notation, and methods of Mathematics.",
+      "type": "knowledge",
+      "code": "R6"
+    },
+    {
+      "text": "Will know specific software for solving mathematical problems.",
+      "type": "knowledge",
+      "code": "R7"
+    },
+    {
+      "text": "Will be able to use abstraction mechanisms as a tool to help solve real-world problems.",
+      "type": "skill",
+      "code": "R12"
+    }
+  ],
+  "syllabus_topics": [
+    "Numbers and functions. - Real numbers: operations, properties and order relation. - Intervals. Absolute value and distance. - Rational exponent powers and radicals. - Functions of a real variable: previous definitions, classification and operations; elementary functions: polynomial, logarithm, exponential, trigonometric and hyperbolic.",
+    "Continuity and differentiation. - Limit at a point: lateral limits and existence. Limit at extremes. Operations with limits. Indeterminations. Equivalences. - Continuity at a point. Discontinuities. - Continuity in an interval. Bolzano's theorem and its consequences. - Differentiation at a point. Derivative function. Calculation of derivatives. - Lagrange's mean value theorem and its consequences. - Applications: study of functions. - L'Hopital's rule. Comparison of infinities.",
+    "Integration - Definition of integral. Geometric interpretation. Integrability and properties. - Definition of antiderivative. Barrow's rule. Fundamental theorem of calculus. - Calculation of integrals and antiderivatives: change of variable and integration by parts. Antiderivatives of rational, trigonometric and irrational functions. - Improper integrals: Euler's Gamma and Beta functions. - Applications of the integral: length, area and volume.",
+    "Complex numbers - Definition. The complex plane: modulus and principal argument. - Representations and operations. - Polynomials with complex coefficients. The fundamental theorem of algebra. - Roots of complex numbers.",
+    "Fourier Series - Numerical series. - Power series: Taylor and Laurent series. - Scalar product and oscillation. Trigonometric series. Fourier series: phase and harmonics.",
+    "Numerical methods - Absolute and relative errors. - Numerical solution of equations: Newton's method and secant method. - Numerical integration: Newton-Cotes formulas.",
+    "Computer Practices - Introduction to Sage. Differential and integral calculus. Programming of numerical methods."
+  ],
+  "teaching_methods": [
+    "Theoretical classes",
+    "Seminars and workshops",
+    "Practical classes",
+    "Group study and work",
+    "Individual autonomous study and work",
+    "Expository method - Lecture",
+    "Case study",
+    "Problem and exercise solving",
+    "Cooperative learning"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Observation techniques (partial written test)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Written exams (final exam)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practice reports and memoirs (computer practices)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 25% from a non-recoverable partial written test, 60% from written exams (recoverable), and 15% from practice reports. To pass, a minimum of 40% must be achieved in the written exams component and at least 25% in the practice reports component. If these minimums are not met, the final grade will be 'Fail', capped at 4.5.",
+  "bibliography": [
+    "Rey Pastor, J., Pi Calleja, P. y Trejo, C.A., Análisis matemático, vol. 1, Kapelusz, Buenos Aires, 1963. Absys",
+    "Pestana, D. y otros, Curso práctico de cálculo y precálculo, Ed. Ariel, Madrid, 2000. Absys",
+    "Piskunov, N., Cálculo diferencial e integral (5.ª ed.), Mir, Moscú, 1980. Absys",
+    "Bronshtein, I. y Semediaev, K., Manual de matemáticas para ingenieros y estudiantes, Mir, Moscú, 1971. Absys",
+    "Galindo F. y otros, Guía práctica de cálculo infinitesimal en una variable real, Thompson, Madrid, 2004. Absys",
+    "Martinez Salas, J., Elementos de matemáticas (6.ª ed), Valladolid, 1977. Absys",
+    "Larson, R. y Edwards, B. E., Cálculo 1 de una variable (9.ª ed.), McGraw-Hill, México, D.F., 2010 Absys",
+    "Tomeo, V. y otros, Problemas resueltos de cálculo en una variable, Thomson-Paraninfo, Madrid, 2005. Absys",
+    "de Burgos, J., Cálculo infinitesimal de una variable, McGraw-Hill, Madrid, 1996. Absys",
+    "Pastor, E. y Varela, V., Teoría y problemas de cálculo integral, Crisser, Madrid, 1974. Absys",
+    "Arregui, J. L. y otros, Teoría de funciones de una variable real, Prensas Universitarias de Zaragoza, Zaragoza, 2009 Absys",
+    "Bolton, W., Fourier Series, Longman Scientific & Technical, Essex, 1995. Absys",
+    "Burden, R. L. y Faires, J. D., Análisis numérico (6.ª ed.), Thomson, México D. F., 1998. Absys",
+    "Web oficial de la plataforma Sage, el software de uso en Prácticas. http://www.sagemath.org"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de La Rioja",
+  "institution_slug": "es_rioja",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "836",
+  "academic_year": "2026-27",
+  "source_url": "https://aps.unirioja.es/GuiasDocentes/servlet/agetguiahtml?2026-27,803G,836",
+  "source_language": "es",
+  "source_sha256": "9664e8489cd7aeb71da32ff3b01f92bebc226b03a2e2ed3a0ecb2141a828660a",
+  "extracted_at": "2026-11-13T22:52:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

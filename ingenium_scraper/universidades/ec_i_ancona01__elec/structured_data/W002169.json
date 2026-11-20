@@ -1,0 +1,102 @@
+{
+  "course_name_original": "INGEGNERIA DELLE MICROONDE",
+  "course_name_en": "MICROWAVE ENGINEERING",
+  "ects": 9.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analisi Matematica",
+    "Fisica",
+    "Geometria",
+    "Fondamenti di Elettromagnetismo",
+    "Campi Elettromagnetici",
+    "Elettrotecnica",
+    "Teoria dei Segnali"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student will acquire the ability to know and understand microwave circuit theory, applying methods and notions learned in basic and characteristic courses, in particular Physics, Fundamentals of Electromagnetism, Analysis and Geometry, as well as Electrical Engineering and Signal Theory. This is a synthetic and multidisciplinary activity, paradigmatic of the method by which an engineer approaches and solves real problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Selection of waveguides to achieve a certain connection, depending on costs, performance and power. Design of adapters, filters, diplexers, directional couplers. Ability to compare component performance. Ability to measure the scattering matrix of linear multiport networks with a Vector Network Analyzer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "In the study of Microwave Engineering, the student must apply methods and notions learned in basic and characteristic courses, in particular Physics, Electromagnetic Fields, Analysis and Geometry, as well as Electrical Engineering and Signal Theory. This is a synthetic and multidisciplinary activity, paradigmatic of the method by which an engineer approaches and solves real problems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Transmission of guided EM waves.",
+    "Correspondence between EM fields and circuits.",
+    "Scattering matrix.",
+    "Circuit matrices.",
+    "The matching problem.",
+    "Synthesis of the scattering matrix of an adapter.",
+    "Bandwidth of a multisection adapter.",
+    "Resonant cavities.",
+    "Coupling with cavities.",
+    "Design and experimental verification in the laboratory of a wavemeter.",
+    "Synthesis of microwave filters: LP-BP transformation.",
+    "Synthesis of microwave filters: lumped prototype distributed prototype transformation.",
+    "In-line coupled resonators.",
+    "Realization of the k-inverter.",
+    "Filter sizing: DB construction, identification.",
+    "Diplexer.",
+    "Directional couplers.",
+    "Network Analyzer.",
+    "Multiports: combiners/dividers.",
+    "Non-reciprocal circuits: Circulators, Isolators.",
+    "Electronically controlled non-reciprocal devices: Power switches.",
+    "Microwave generation: magnetron.",
+    "Design of high frequency amplifiers.",
+    "Impedance measurements with a slotted line.",
+    "Adapter measurements.",
+    "Measurements with network analyzer calibration.",
+    "Measurements of filters and diplexers.",
+    "Measurement of a coupled-line coupler.",
+    "Measurement of a combiner.",
+    "Design of a multisection impedance adapter.",
+    "Design of a coupled-line directional coupler.",
+    "Design of a microstrip filter.",
+    "Design of a diplexer."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The oral exam involves the discussion of two topics: the first concerns the scattering matrix, and the second is chosen from the topics covered in lectures. The evaluation assesses knowledge, comprehension, application, and expression. A basic level of competence corresponds to a grade between 18/30 and 23/30, an intermediate level between 24/30 and 27/30, and an advanced level between 28/30 and 30/30. The highest distinction (lode) is awarded for full autonomy, fluency in re-elaboration, and personal reflection.",
+  "bibliography": [
+    "Montgomery C.G. , Dicke R. H. and Purcell E., ‘Principles of Microwave Circuits’, Mc Graw Hill.",
+    "Pozar D., ‘Microwave Engineering’, John Wiley & Sons.",
+    "A. et al., ‘Appunti di Microonde’, https://learn.univpm.it ."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universita Politecnica Delle Marche — Ingegneria Elettronica e delle Tecnologie Digitali (L-8)",
+  "institution_slug": "ec_i_ancona01__elec",
+  "degree": "Laurea in Ingegneria Elettronica E Delle Tecnologie Digitali (Electronic And Digital Technologies Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "W002169",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univpm.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=36211_99003_33207&ordinamento_aa=2022&af_percorso=36211&corso_cod=1775&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "54c190dcfbde4b3106889fa082e96015d5b11763d8ae521650e6c98eb1ceba03",
+  "extracted_at": "2026-11-20T12:44:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

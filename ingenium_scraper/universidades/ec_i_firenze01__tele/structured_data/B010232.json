@@ -1,0 +1,136 @@
+{
+  "course_name_original": "THEORY AND TECHNIQUE OF ELECTROMAGNETIC WAVES",
+  "course_name_en": "THEORY AND TECHNIQUE OF ELECTROMAGNETIC WAVES",
+  "ects": 6.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basics in Electromagnetic Fields"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of advanced notions of guided propagation in homogeneous and non-homogeneous structures",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the main passive microwave devices, with particular attention to those in planar technology",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the various types of distributed constant microwave filters in planar technology",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of numerical methods for electromagnetism",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze indefinite guiding structures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and design devices consisting of interconnected sections of guiding structures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to design and characterize a low-pass filter with distributed constants in planar technology using analytical and numerical methods",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to choose passive devices and driving structures to meet specifications provided by third parties",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to choose order and implementation low-pass filters with distributed constants in planar technology using analytical and numerical methods",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to correctly present the physical-mathematical demonstrations of guided propagation",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to correctly expose the design characteristics of a passive microwave device",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to correctly expose the characteristics of the various numerical methods for applied electromagnetism and their limitations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to independently access technical documentation, books and articles relating to the engineering of high frequency passive devices.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Elements of High Frequency Circuit Theory",
+    "Advanced concepts of guided propagation, modes of propagation in tubular structures - waveguides - and printed - microstrip, coplanar waveguide.",
+    "Review of free space propagation and guided propagation, Transversalization of Maxwell's equations, TEM, TE and TM modes; Rectangular, circular and coaxial cable waveguides; Planar structures: Microstrip, Coplanar Guide; High frequency circuits: Y, Z, S and ABCD matrix representations of high frequency devices, examples of passive devices in liquid and microstrip (dividers, ladder networks, circulators etc.)",
+    "Elements of numerical techniques",
+    "Solution of Maxwell's equations in differential form using numerical techniques, with comparison between the various techniques and identification of the most suitable for a given problem.",
+    "Finite Differences; Finite Elements; Finite Volumes",
+    "Laboratory: Design, Realization and Characterization of a device",
+    "Design, numerical analysis realization and measurement of a microstrip filter or other device seen in part 1. The exercises are done by dividing the students into groups of 2, maximum 3 so that everyone actively participates in the project.",
+    "Device design given appropriate specifications; verification of the project, and possible tuning, through circuit simulation in Matlab; simulation through commercial full wave CAD of the device and related tuning; creation of print masks, device printing, connectorization; device measurement via network analyzer."
+  ],
+  "teaching_methods": [
+    "Lesson on the blackboard",
+    "laboratory",
+    "Matlab laboratory for the analysis of guiding structures",
+    "Matlab laboratory for the analysis using S matrices of the passive devices studied at the theoretical part",
+    "Matlab laboratory for the design of a low pass filter",
+    "CST laboratory for verification and tuning of the project using a full wave simulator",
+    "Creation and characterization of the designed filter"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Discussion during laboratory experiences",
+      "weight_percentage": null
+    },
+    {
+      "method": "Preparation and discussion of a written essay",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral verification of theoretical notions",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment includes oral verification of theoretical knowledge and application abilities, and verification during laboratory time. Students will be evaluated based on their understanding of topics, ability to apply knowledge, problem-solving skills, and independence in completing tasks. Grades range from Fail (Insufficient) to 29-30 and Honors (Lode), with specific criteria for each range.",
+  "bibliography": [
+    "Lecture Notes",
+    "R.E. Collins \"Foundations of Microwave Engineering\" John Wiley & Sons, 2007",
+    "G. Pelosi, R. Coccioli, S. [docente], \"Quick Finite Elements for Electromagnetic Waves\" Artech House, 2009."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B010232",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45509_B244-21-24_29950_732008&ordinamento_aa=2021&af_percorso=45509&corso_cod=1437&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "0c2f96046be9988550b36247bb6219f8bf49d15b42d96856a1a97416a2fb9580",
+  "extracted_at": "2026-11-20T12:45:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

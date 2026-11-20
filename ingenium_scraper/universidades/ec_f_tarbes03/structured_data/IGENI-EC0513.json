@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Propagation d'ondes",
+  "course_name_en": "Wave Propagation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Mathematics: resolution of differential equations, equation systems, integral calculus, Fourier series, basic notions of vector representation of complexes.",
+    "Physics: wave optics course (S2).",
+    "Electricity: knowledge of electrical circuits and the role of each of its components."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have a fundamental understanding of wave propagation in the research and development of advanced industrial technologies (e.g. high-speed data transmission in the case of fiber optics, analysis of geological soil structures in the case of the oil industry).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Highlight analogies between phenomena from very different areas of physics, but whose behavior is governed by the same partial differential equations.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use plane waves as the preferred tool for solving a linear wave equation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose between standing and traveling waves.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use Fourier analysis and superposition to relate a spatially and temporally limited real physical solution to non-realistic elementary mathematical solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use known initial and/or boundary conditions to determine the solution of a wave equation by superposition.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Linearize equations by manipulating relevant orders of magnitude associated with the phenomenon under study.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Mobilize mathematical concepts to tackle and solve highly abstract problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Mobilize fundamental concepts to model, analyze and solve simple physics problems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Study of periodic phenomena: complex, analytical and Fresnel methods",
+    "Composition of motions in the same direction: description of the beating phenomenon",
+    "Decomposition of a periodic motion in the same direction into sinusoidal motions: Fourier series, frequency spectrum, approximate methods",
+    "Composition of sinusoidal motions in perpendicular directions.",
+    "Study of a one-degree-of-freedom system in free, damped or forced oscillation.",
+    "Mechanical study using complexes, energy study",
+    "Analogy: mechanics, electricity, acoustics",
+    "Definitions of mechanical, electrical and acoustic impedance.",
+    "Oscillators with 2 degrees of freedom; eigenmodes",
+    "Oscillators with n degrees of freedom - propagation resonator",
+    "Equation of a one-dimensional wave propagation problem.",
+    "Transverse and longitudinal waves.",
+    "D'Alembert's wave equation, resolution of the equation using the separation of variables method, determination of fundamental and harmonic modes, impedance calculation."
+  ],
+  "teaching_methods": [
+    "Lectures to introduce theoretical concepts and analytical basics.",
+    "Tutorial sessions (TD) to deepen understanding of certain practical cases (simple pendulum, liquid pendulum, RLC circuit, spring, vibrating string, standing wave and resonance).",
+    "Practical work to visualize the properties of free and forced oscillations through RLC circuits in different modes."
+  ],
+  "workload_hours_total": 23.0,
+  "workload_hours_contact": 23.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Assessment 1 (DS1)",
+      "weight_percentage": 66.67
+    },
+    {
+      "method": "Practical Work 1 (TP1)",
+      "weight_percentage": 33.33
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (2*DS1 + 1*TP1) / 3.",
+  "bibliography": [
+    "“Physique des ondes : exercices et problèmes” de C. Botet, édition Ellipses, (1996).",
+    "“Propagation d’ondes : exercices et problèmes” de P. Denève, édition Ellipses, (1986).",
+    "“Physique des ondes et des vibrations : cours, exercices” de A. Lecerf, édition Lavoisier TECDOC, (1993).",
+    "“Mécanique, points matériels, solides, fluides” de J. P. Pérez, 3ème édition Masson, (1992).",
+    "“Ondes et vibrations: Fondamentaux et applications à l'acoustique et à la diffusion de la chaleur” de R. Lefort, 2ème édition DUNOD, ( 2023).",
+    "“Ondes mécaniques et sonores: 70 problèmes résolus” de H. Lumbroso, édition DUNOD, (1999).",
+    "“Propagation des ondes mécaniques” de O. THUAL, Cépaduès éditions, (2023).",
+    "“Dynamique des structures et vibrations” de J.-L. MIGEOT, Cépaduès éditions, (2023).",
+    "“Les ondes en physique: vibrations, ondes, impulsions” de G. Mourier, éditions ellipses, (2002).",
+    "“Ondes élastiques dans les solides” de D. Royer et E. Dieulesaint, édition MASSON, (1999).",
+    "“Vibration des structures” de G. VENIZELOS, éditions ellipses, (2011)."
+  ],
+  "isced_f_code": "0532",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0513",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "a736f4f13d0d44d25b0a51f2764495993b819efa87edd8752c057c8845413e1f",
+  "extracted_at": "2026-11-18T09:59:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

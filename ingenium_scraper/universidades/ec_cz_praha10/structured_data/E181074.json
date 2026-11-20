@@ -1,0 +1,65 @@
+{
+  "course_name_original": "Heat Processes",
+  "course_name_en": "Heat Processes",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentals of thermodynamics and hydromechanics",
+    "Elementary mathematics (derivatives, differential equations)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Practicing Engineering approach to heat transfer unit operations design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learning to read engineering journals.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and rules (form of lectures, presentations of papers by students, requirements for exam). Preacquaintance (photography). Schedule of student presentations. Working with databases and primary sources.",
+    "Thermodynamics fundamentals. State variables, internal energy (example: car driven by a compressed air). First law of thermodynamics, enthalpy (example: heating water at elevated pressure with phase changes). Entropy and the second law of thermodynamics (example: entropy change of heated water). Ts and hs diagrams (example: Ts diagrams for air). Thermodynamic cycles Clausius Rankine, Carnot factor (examples: nuclear power plants with light water moderator, another examples heat pump, thermal compressors, if there will be enough time).",
+    "Isobaric and isoenthalpic processes, choking and Joule Thomson effect in real gases (derivation of JT coefficient). Application of JT effect for liquefaction of gases in Linde process (kryogenics). Enthalpic balances (example: two stage compressor cooling, ph diagrams). Entropy and exergy balances. Exergetic losses: choking and heat exchangers. Heat processes design based upon entropy generation minimization EGM (derivation ds/dt).",
+    "Mechanisms of heat transfer. Conduction, convection (heat transfer coefficients), radiation (example: cooling cabinet). Fourier's law of conduction, thermal resistance (composed wall, cylinder). Unsteady heat transfer, penetration depth (derivation, small experiment with gas lighter and copper wire). Biot number (example: boiling potatoes). Convective heat transfer, heat transfer coefficient and thickness of thermal boundary layer. Heat transfer in a circular pipe at laminar flow (derivation Leveque). Criteria: Nu, Re, Pr, Pe, Gz.",
+    "Heat transfer in turbulent flow, Moody's diagram. Effects of variable properties (Sieder Tate correction for temperature dependent viscosity, mixed and natural convection). Noncircular profiles and equivalent diameter of pipe. Compact and plate heat exchangers. Hydraulic and thermal analysis of chevron type heat exchanger (H.Martin). Heat transfer enhancement (static mixers, centrifugal forces, Deans' vortices). Flow invertors. Performance criteria (PEC). Fouling (example: crude oil fouling - Polley model and diagrams).",
+    "Heat transfer at outer flows around sphere, cylinder and pipe bundle (derived asymptotic formula Nu=2 for sphere, paradox of cylinder). Experiment: hot air blown from hair drier to metallic cylinder with thermocouple; air flowrate calculated from temperature differences. Correlations VDI Warmeatlas. Heat exchangers: powerpoint presentation of HE design.",
+    "Shell and tube HE. Comparison 1-1 and 1-2 arrangements from point of view of pressure drops and heat transfer. Enthalpy balance of HE, temperature profiles, effectiveness, LMTD, sizing and rating design methods. NTU-epsilon method for parallel flows (eigenvalue problem, derived temperature profiles and eps), counter current and cross flow arrangement of streams (sheet of selected NTU-eps correlations from Rohsenow). Asymptotical properties. Zonal method. Graphical design (Roetzel Spang diagrams from VDI).",
+    "Heat transfer at phase changes (boiling and condensation). Evaporation and evaporators. Powerpoint presentation of evaporators (falling, climbing film, multiple effects, vapour recompression). Mass and enthalpy balances. Boiling point temperature and its elevation. Design of thermal vapour recompression (Laval nozzle and Ts diagram).",
+    "Drying and dryers. Powerpoint presentation (convective and contact dryers, lyofylization, fluidized bed and spray dryers). Properties of drying air (Mollier diagram, dew point, wet bulb temperatures) and dried material (moisture, sorption isotherms). Mass and enthalpy balance. Kinetics of drying. Drying experiments. First and second stage of drying. Moisture diffusion (example: coffee beans dying). Spray drying, evaporation of flying droplet.",
+    "Combustion and burners. Powerpoint presentation (pulverized coal, biofuels, oil and gas burners, NOx reduction, CFD analysis of gas burner). Properties of fuels, reaction enthalpy, combustion heat. Enthalpy balances, adiabatic flame temperature. Heat transfer by radiation, emissivity and absorptivity of flue gases. Hottel's diagram.",
+    "CFD analysis of combustion. Transport equations and modeling of chemical reactions. Non-premix combustion and mixture fraction methods. Lagrangian and Eulerian methods.",
+    "Electroheat. Direct ohmic heating, radiofrequency heating and microwave heating."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Student presentations"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "McCabe W.L., Smith J.C., Harriot P.: Unit Operations of Chemical Engineering. Fifth Edition, McGraw Hill, Inc., N.Y."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E181074",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1048606.html",
+  "source_language": "en",
+  "source_sha256": "298a78149712bcc8c321c7550ef53f2451bdb88669a0276da98f0e595663e2a1",
+  "extracted_at": "2026-11-20T01:16:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

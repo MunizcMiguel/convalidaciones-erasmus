@@ -1,0 +1,154 @@
+{
+  "course_name_original": "Fundamentos de automática",
+  "course_name_en": "Fundamentals of Automation",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Computer Science: Computer Science for Engineering (V12G380V01203)",
+    "Mathematics: Calculus II and Differential Equations (V12G380V01204)",
+    "Fundamentals of Electrotechnics (V12G380V01303)",
+    "To enroll in this course, it is necessary to have passed or be enrolled in all subjects from courses lower than the one in which this course is placed."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire a global and realistic vision of the current scope of industrial automation systems.",
+      "type": "unspecified",
+      "code": "B3"
+    },
+    {
+      "text": "Understand the constituent elements of an industrial automation system, how they work, and how they are sized.",
+      "type": "knowledge",
+      "code": "B3"
+    },
+    {
+      "text": "Applied knowledge of programmable logic controllers, their programming, and their application to industrial system automation.",
+      "type": "knowledge",
+      "code": "B3"
+    },
+    {
+      "text": "General knowledge of continuous control of dynamic systems, the main simulation tools for continuous systems, and the main process control devices of greatest industrial interest.",
+      "type": "knowledge",
+      "code": "B3"
+    },
+    {
+      "text": "General concepts of industrial controller tuning techniques.",
+      "type": "knowledge",
+      "code": "B3"
+    }
+  ],
+  "syllabus_topics": [
+    "1. Introduction to industrial automation and automation elements.",
+    "1.1 Introduction to task automation.",
+    "1.2 Types of control.",
+    "1.3 The industrial programmable logic controller.",
+    "1.4 Block diagram. Elements of the programmable controller.",
+    "1.5 Controller operation cycle. Cycle time.",
+    "1.6 Operation modes.",
+    "2. Languages and programming techniques for programmable logic controllers.",
+    "2.1 Binary, octal, hexadecimal, BCD system. Real numbers.",
+    "2.2 Addressing and periphery access.",
+    "2.3 Instructions, variables and operands.",
+    "2.4 Forms of program representation.",
+    "2.5 Types of program modules.",
+    "2.6 Linear and structured programming.",
+    "2.7 Binary variables. Inputs, outputs and memory.",
+    "2.8 Binary combinations.",
+    "2.9 Assignment operations.",
+    "2.10 Timers and counters.",
+    "2.11 Arithmetic operations.",
+    "3. Modeling tools for sequential systems.",
+    "3.1 Basic principles. Modeling techniques.",
+    "3.2 Modeling using Petri Nets.",
+    "3.2.1 Definition of stages and transitions. Evolution rules.",
+    "3.2.2 Conditional choice between several alternatives.",
+    "3.2.3 Simultaneous sequences. Concurrency. Shared resource.",
+    "3.3 Implementation of Petri Nets.",
+    "3.3.1 Direct implementation.",
+    "3.3.2 Standardized implementation (Grafcet).",
+    "3.4 Examples.",
+    "4. Introduction to control systems.",
+    "4.1 Open-loop and closed-loop control systems.",
+    "4.2 Typical control loop. Nomenclature and definitions.",
+    "5. Representation, modeling and simulation of continuous dynamic systems.",
+    "5.1 Physical systems and mathematical models.",
+    "5.1.1 Mechanical systems.",
+    "5.1.2 Electrical systems.",
+    "5.1.3 Others.",
+    "5.2 State-variable modeling.",
+    "5.3 Transfer function modeling. Laplace transform. Properties. Examples.",
+    "5.4 Block diagrams.",
+    "6. Analysis of continuous dynamic systems.",
+    "6.1 Stability.",
+    "6.2 Transient response. Transient modes.",
+    "6.2.1 First-order systems. Differential equation and transfer function. Examples.",
+    "6.2.2 Second-order systems. Differential equation and transfer function. Examples.",
+    "6.2.3 Effect of adding poles and zeros.",
+    "6.3 Reduction of higher-order systems.",
+    "6.4 Steady-state response.",
+    "6.4.1 Steady-state errors.",
+    "6.4.2 Input signals and system type.",
+    "6.4.3 Error constants.",
+    "7. PID controller. Tuning of industrial controller parameters.",
+    "7.1 Basic control actions. Proportional, integral, and derivative effects.",
+    "7.2 PID controller.",
+    "7.3 Empirical methods for tuning industrial controllers.",
+    "7.3.1 Open-loop tuning formulas: Ziegler-Nichols and others.",
+    "7.3.2 Closed-loop tuning formulas: Ziegler-Nichols and others.",
+    "7.4 Design of state-variable controllers. Pole assignment.",
+    "P1. Introduction to TIA Portal and STEP 7. Introduction to the TIA Portal program, which allows creating and modifying programs for Siemens S7-1200 and S7-1500 controllers.",
+    "P2. Programming in TIA Portal. Modeling of a simple automation example and implementation in STEP7 using binary operations.",
+    "P3. Implementation of RdP in TIA Portal. Modeling with RdP of a simple automation example and introduction to its implementation in TIA Portal.",
+    "P4. Modeling with RdP and implementation in TIA Portal. Modeling with RdP of a medium complexity automation example and its implementation in TIA Portal.",
+    "P5. Modeling with GRAFCET and implementation with Graph. Standardized modeling of an RdP and implementation of automation systems with Graph.",
+    "P6. Analysis of control systems with MATLAB. Introduction to specific control system instructions of the MATLAB program.",
+    "P7. Introduction to SIMULINK. Introduction to the SIMULINK program, a MATLAB extension for dynamic system simulation.",
+    "P8. Modeling and temporal response in SIMULINK. Modeling and simulation of control systems with SIMULINK.",
+    "P9. Empirical tuning of an industrial controller. Determination of PID controller parameters by the studied methods and implementation of the calculated control in an industrial controller."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Problem solving",
+    "Lectures"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 53.5,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Development questions exam",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "Continuous evaluation of laboratory work is mandatory. If not passed, a practical exam will be held in the second call, conditioned on passing the written test. For students who officially waive continuous evaluation, a practical exam will be held in both calls, conditioned on passing the written test. Both the written exam (80%) and the laboratory practices (20%) must be passed to approve the course; if either is not passed, the total grade may be scaled down to a maximum of 4.5. In the final exam, a minimum score may be required for certain questions. In the second call, students must take the written and/or practical exams not passed in the first call, using the same criteria. Unethical behavior will result in a failing grade (0.0) for the entire academic year.",
+  "bibliography": [
+    "E.MANDADO, J.MARCOS, C. FERNANDEZ, J.I.ARMESTO, Autómatas Programables y Sistemas de Automatización , 1ª, Marcombo, 2009",
+    "MANUEL SILVA, Las Redes de Petri en la Automática y la Informática , 1ª, AC, 1985",
+    "R. C. DORF, R. H. BISHOP, Sistemas de Control Moderno , 10ª, Prentice Hall, 2005",
+    "PORRAS A., MONTANERO A., Autómatas programables : fundamento, manejo, instalación y prácticas , McGraw-Hill, 2003",
+    "ROMERA J.P., LORITE J.A., MONTORO S., Automatización : problemas resueltos con autómatas programables , 4ª, Paraninfo, 2002",
+    "BARRIENTOS, ANTONIO, Control de sistemas continuos: Problemas resueltos , 1ª, McGraw-Hill, 1997",
+    "OGATA, KATSUIKO, Ingeniería de Control Moderna , 5ª, Pearson, 2010"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01403",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01403&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "a8933e3cfdab228de0c97beb36b70daf13688b4d4bf27cd2a260b3ae6d0bdd6a",
+  "extracted_at": "2026-11-18T02:54:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

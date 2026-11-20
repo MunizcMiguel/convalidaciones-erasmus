@@ -1,0 +1,151 @@
+---
+{
+ "course_code": "2GITICID-0-002",
+ "course_name": "Computación Numérica en Ingeniería de Datos",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-002",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:10",
+ "content_sha256": "afa022f6796782cae484f5ffb518d01b1a164db9e409c51380c2a31f53b2582d"
+}
+---
+
+# Computación Numérica en Ingeniería de Datos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-0-002
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Optativa
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Clases Expositivas (16 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura Computación Numérica en Ingeniería de Datos forma parte de la materia Optativas de titulación. Se desarrolla durante el octavo semestre del grado. La asignatura profundiza en los métodos numéricos de resolución de los problemas matemáticos que surgen en la Ingeniería de Datos.
+
+Se podrán desarrollar actividades docentes en colaboración con universidades de la alianza Ingenium, como conferencias, seminarios y/o trabajos o proyectos conjuntos. Dicha colaboración podría suponer ajustes específicos en la metodología y/o en los sistemas de evaluación.
+
+## Requisitos
+
+Para cursar esta asignatura se espera que se posea el conocimiento de las asignaturas Álgebra Lineal, Cálculo I, Cálculo II y Ampliación de Matemáticas.
+
+## Competencias y resultados del aprendizaje
+
+**Competencias específicas:**
+
+CE01 - Conocer los conceptos y métodos matemáticos adecuados para obtener modelos capaces de resolver los problemas que puedan plantearse en el contexto de la ciencia e ingeniería de datos: álgebra lineal, cálculo diferencial e integral.  
+CE11 - Evaluar la complejidad computacional de un problema e identificar, si existen, estrategias algorítmicas apropiadas para su  
+resolución.
+
+**Resultados de aprendizaje:**
+
+RCOM1: Identificar las limitaciones de los métodos algebraicos comunes cuando se aplican a grandes matrices dispersas o con estructura.  
+RCOM2: Conocer métodos eficientes para la resolución de sistemas lineales y para el cálculo de la descomposición en valores singulares de problemas con matrices de gran tamaño.  
+RCOM3: Resolver sistemas de ecuaciones no lineales, empleando el método más adecuado.  
+RCOM4: Identificar y resolver el problema de interpolación multivariable.  
+RCOM5: Interpretar y aplicar diversos métodos de integración numérica multivariable.  
+RCOM6: Comprender las formulaciones numéricas y de discretización de los problemas de transformada de Fourier y diferencias finitas.  
+RCOM7: Utilizar herramientas de software basados en algunos de los métodos estudiados y usarlos también como herramienta de apoyo para programas de elaboración propia.
+
+## Contenidos
+
+1. Métodos de Álgebra Lineal para matrices masivas de datos. Métodos para matrices estructuradas.  
+2. Soluciones de sistemas de ecuaciones no lineales. Interpolación multivariable.  
+3. Integración numérica multivariable.  
+4. Transformadas. Transformada rápida y discreta.  
+5. Introducción al método de diferencias finitas.
+
+## Metodología y plan de trabajo
+
+Dado el carácter semipresencial de la asignatura, la metodología exige distinguir entre sesiones virtuales y sesiones presenciales. A lo largo del curso, el profesorado tutorará y guiará el trabajo personal de cada estudiante facilitando antes de cada bloque temático un guion con todo el trabajo pautado que éste debe realizar. Estos guiones servirán para coordinar la evolución del trabajo virtual y presencial.
+
+Para las sesiones expositivas virtuales el alumnado tendrá a su disposición a través del Campus Virtual de la asignatura distintos materiales para cada una de las unidades didácticas. Entre ellos se encontrarán vídeos formativos, presentaciones y textos instructivos y/o cuestionarios de autoevaluación. En las clases expositivas presenciales el profesorado resolverá las dudas que hayan podido surgir y desarrollará los resultados teóricos que se deriven de dichos contenidos realizando diversos ejemplos. El alumnado tendrá detallado en los guiones señalados previamente la lista de actividades a realizar antes de asistir a cada una de las sesiones presenciales (visionado de vídeos, lectura de textos...).
+
+En las prácticas de laboratorio, tanto virtuales como presenciales, el alumnado aprenderá a resolver ejercicios de la asignatura con la ayuda del software de cálculo numérico MatLab.
+
+El alumnado podrá consultar al profesorado las dudas que se le presenten a través del chat de Teams, los foros del Campus Virtual o en una tutoría, pudiendo esta última ser desarrollada de forma presencial o virtual a través de la plataforma Teams y pudiendo ser individual o grupal.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  | **TRABAJO ONLINE** |  |  |  | **TRABAJO NO PRESENCIAL** |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula de informática* | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva* | *Prácticas de aula de Informática* | *Sesiones de evaluación* | ***Total*** | *Trabajo autónomo* |
+| Métodos de Álgebra Lineal para matrices masivas de datos | **30** | 3 | 3 | 0 | 6 | 2 | 4 | 0 | 6 | 18 |
+| Soluciones de sistemas de ecuaciones no lineales. Interpolación multivariable. | **29** | 3 | 2 | 0 | 5 | 3 | 3 | 0 | 6 | 18 |
+| Integración numérica multivariable. | **29** | 3 | 2 | 0 | 5 | 3 | 3 | 0 | 6 | 18 |
+| Transformadas. Transformada rápida y discreta. | **29** | 3 | 2 | 0 | 5 | 3 | 3 | 0 | 6 | 18 |
+| Introducción al método de diferencias finitas. | **33** | 3 | 2 | 4 | 9 | 3 | 3 | 0 | 6 | 18 |
+| Total | **150** | **15** | **11** | **4** | **30** | **14** | **16** | **0** | **30** | **90** |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria:**
+
+Elementos evaluables
+
+1. **Memoria del proyecto:** A lo largo del semestre, el alumnado deberá realizar un trabajo individual relacionado con los contenidos de la asignatura. Este trabajo consistirá en un estudio teórico de ampliación de los contenidos y la implementación con Matlab de algún método de resolución para un problema numérico que requiera de métodos no incluidos en el temario de la asignatura. La elaboración de la memoria de este trabajo supondrá un 20% de la calificación final de la asignatura.
+2. **Examen:** En la convocatoria oficial se realizará un examen escrito sobre los contenidos del trabajo realizado por el propio estudiante, cuyo peso será de un 50%.
+3. **Asistencia:** La asistencia y participación en las actividades presenciales de la asignatura tendrá un peso en la calificación de un 15%. Para que esta parte sea tenida en cuenta, será imprescindible haber asistido a, al menos, el 80% de las sesiones presenciales.
+4. **Campus Virtual:** Las actividades planteadas en el campus virtual, así como la participación en el foro y otras herramientas del campus tendrá un peso del 15% de la calificación final.
+
+Calificación
+
+La calificación final en la convocatoria ordinaria se calculará mediante
+
+NF=0.2 MP+0.5 NEx+0.15 NA+0.15 NCv,
+
+donde:
+
+- **MP**: memoria del proyecto
+- **NEx**: nota del examen sobre el contenido desarrollado en el proyecto
+- **NA**: nota de asistencia y trabajo en el aula
+- **NCv**: nota de las tareas desarrolladas a través del Campus Virtual
+
+Evaluación diferenciada
+
+Para el alumnado al que se le conceda la **evaluación diferenciada**, se aplicará el siguiente modelo de evaluación:
+
+a) Realizarán el trabajo y el examen de la convocatoria oficial de la misma forma que el resto, es decir, realizando las pruebas a las que se refieren los apartados 1 y 2.
+
+b) Para la Asistencia y Campus Virtual, desarrollarán el mismo plan de trabajo que el resto de sus compañeros. Eso sí, lo harán todo de forma no presencial y tendrán obligación de realizar, al menos, dos tutorías con el profesorado a lo largo del cuatrimestre para que observe su evolución. Estos encuentros podrán tener lugar a través de la plataforma MS Teams y en horario consensuado.
+
+La calificación final en la convocatoria ordinaria se calculará mediante
+
+NF=0.2 MP+0.5 NEx+0.15 NT+0.15 NCv,
+
+donde:
+
+- **MP**: memoria del proyecto
+- **NEx**: nota del examen sobre el contenido desarrollado en el proyecto
+- **NT**: nota de asistencia y trabajo en las tutorías obligatorias
+- **NCv**: nota de las tareas desarrolladas a través del Campus Virtual
+
+**Convocatorias extraordinarias:**
+
+Se realizarán dos exámenes, uno sobre el contenido teórico-práctico de la asignatura y otro sobre programación de los métodos estudiados en la asignatura, realizado con el programa Matlab. Cada uno de estos exámenes tendrá un peso de 50% en la calificación final de la asignatura. El alumnado de **evaluación diferenciada** estará en estas convocatorias en las mismas condiciones que el resto.
+
+## Bibliografía
+
+**Recursos:**
+
+Se utilizará Matlab, Campus virtual, MS Teams, OneDrive y OneNote. Es recomendable asistir a las clases presenciales con un dispositivo con conexión a internet (wifi). Es suficiente con un teléfono móvil, aunque se recomienda un ordenador portátil o una Tablet.
+
+**Bibliografía:**
+
+- Linear Algebra and Learning from Data. G. Strang. Wellesley-Cambridge Press, Year 2019
+  - Material complementario al texto https://math.mit.edu/~gs/learningfromdata/
+- Numerical Analisys: mathematics of science computing. D. Kincay, W. Cheney . American Mathematical Society. 2000
+- Matrix Computation. G. H. Golub, Ch. F. Van Loan, The Johns Hopkins University Press. 2013
+- Linear Algebra and Optimitation for Machine Learning, Charu C. Aggarwal. Springer, 2020
+- Gilbert Strang. *18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning.* Spring 2018. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.
+- www.mathworks.com

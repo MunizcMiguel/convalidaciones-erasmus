@@ -1,0 +1,83 @@
+{
+  "course_name_original": "Stochastic Phenomena in Communications",
+  "course_name_en": "Stochastic Phenomena in Communications",
+  "ects": 5.0,
+  "semester": "Autumn I",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fi"
+  ],
+  "prerequisites": [
+    "First year math courses",
+    "basics in probability theory"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "knows the principles of data traffic modelling in different timescales",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "can apply Markov processes to model the traffic process of simple communications and IT systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "can analyze these models to evaluate the performance",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "can define and apply the basic concepts in information theory (entropy, etc.)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "can distinguish between lossless and lossy data compression and can describe different compression methods",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "can calculate the capacity of a simple communications channel",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Recap of basic probability",
+    "Introduction to stochastic processes and the Poisson process",
+    "Discrete-state and continuous-time Markov processes and discrete-time Markov chains",
+    "Data traffic modeling in different time scales and different traffic types",
+    "Various queuing systems and their application to performance evaluation",
+    "Information theory and its significance in information technology",
+    "Forms of entropy and their relationship to channel and source coding",
+    "Basic compression methods",
+    "Capacities of discrete-time, continuous-time and multiuser channels"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography",
+    "learning_outcomes",
+    "syllabus_topics",
+    "prerequisites"
+  ],
+  "institution": "Aalto University",
+  "institution_slug": "ec_sf_espoo12",
+  "degree": "Bachelor's Programme in Electrical Engineering (ELEC1)",
+  "course_code": "ELEC-C7250",
+  "academic_year": "2025-2026",
+  "source_url": "https://sisu.aalto.fi/kori/api/course-units/by-group-id?groupId=aalto-CU-1150933190&universityId=aalto-yliopisto",
+  "source_language": "en",
+  "source_sha256": "6d0e7f05eb08dde8cb0358f7a7cf6910173a448f3cfafa4505007aa6ff8dad54",
+  "extracted_at": "2026-11-20T09:09:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

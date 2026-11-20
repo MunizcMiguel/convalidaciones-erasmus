@@ -1,0 +1,210 @@
+{
+  "course_name_original": "Simulación de flujos industriales",
+  "course_name_en": "Industrial Fluid Flow Simulation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of linear algebra and solving systems of linear equations.",
+    "Knowledge of vector and matrix calculus.",
+    "Ability to differentiate, apply the chain rule, integrate, and apply these techniques to solve ordinary differential equations and linear partial differential equations.",
+    "Successfully completed Fluid Mechanics and Fluid Machinery and Installations courses."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually at a level that, while supported by advanced textbooks, also includes some aspects that imply knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences typically demonstrated by developing and defending arguments and solving problems within their field of study.",
+      "type": "skill",
+      "code": "CB2"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "skill",
+      "code": "CB4"
+    },
+    {
+      "text": "Applied knowledge of the fundamentals of fluid-mechanical systems and machines.",
+      "type": "knowledge",
+      "code": "134ACEM6"
+    },
+    {
+      "text": "Applied knowledge of thermal engineering.",
+      "type": "knowledge",
+      "code": "134ACEM3"
+    },
+    {
+      "text": "Ability to work, lead and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "competence",
+      "code": "134ACT1"
+    },
+    {
+      "text": "Ability for oral and written transmission of information adapted to the audience.",
+      "type": "skill",
+      "code": "134ACT6"
+    },
+    {
+      "text": "Ability to apply new technologies, including information and communication technologies.",
+      "type": "skill",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability to understand and apply the basic principles of general chemistry, organic and inorganic chemistry and their applications in engineering.",
+      "type": "knowledge",
+      "code": "134ACBB4"
+    },
+    {
+      "text": "Knowledge of the basic principles of fluid mechanics and its application to solving problems in the field of engineering. Calculation of pipes, channels and fluid systems.",
+      "type": "knowledge",
+      "code": "134ACC2"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra; geometry; differential geometry; differential and integral calculus; ordinary and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "134ACBB1"
+    },
+    {
+      "text": "Understanding and mastery of the basic concepts about the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism and their application to solving engineering problems.",
+      "type": "knowledge",
+      "code": "134ACBB2"
+    },
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "134ACBB3"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I: INTRODUCTION",
+    "Description of the teaching guide, bibliography, evaluation system, syllabus and schedule.",
+    "Introduction and motivation. Visual examples of industrial flow simulations. Process of thermofluid-dynamic problem simulation (preprocessing, processing and postprocessing), families of numerical methods, examples of meshes and available software.",
+    "Matlab programming of various finite difference formulas for approximating the first derivative, given the function's value. Calculation of the numerical approximation error.",
+    "BLOCK II: DYNAMICS AND GENERAL EQUATIONS",
+    "Continuity equation: Deduction from integral conservation equation and Gauss and Reynolds theorems. Particular case of perfect liquid. Two-dimensional flow in Cartesian coordinates.",
+    "Momentum balance equation: Deduction from integral conservation equation and Gauss and Reynolds theorems. Particular case of perfect liquid. Two-dimensional flow in Cartesian coordinates.",
+    "Exact solutions (I): Derivation of exact solutions for steady, one-dimensional viscosity-dominated flows in Cartesian coordinates (e.g., Couette and Poiseuille flows). Use of cylindrical coordinates for analyzing flows in circular conduits.",
+    "Analytical calculation of the error of finite difference formulas using Taylor series.",
+    "Energy equation: Deduction of the total, internal and mechanical energy equation.",
+    "Synthesis of conservation equations. Closure laws: heat transport by conduction (Fourier's law) and Newtonian flows (Navier-Poisson law).",
+    "Exact solutions (II): Derivation of exact solutions for transient, one-dimensional viscosity-dominated flows in Cartesian coordinates (e.g., Stokes problem and Stokes flow). Use of cylindrical coordinates for analyzing flows in circular conduits (e.g., diffusion of a potential vortex).",
+    "Introduction to the finite difference method for solving a boundary problem.",
+    "BLOCK III: IDEAL FLOWS AND BOUNDARY LAYER THEORY",
+    "Introduction to ideal flows: Euler equations. Initial and boundary conditions. Euler-Bernoulli equation.",
+    "Irrotational and two-dimensional movement of an incompressible fluid. Elementary potential movements.",
+    "Superposition examples of elementary potential flows (e.g., Rankine semi-oval or oval and potential cylinder).",
+    "Boundary layer concept. Two-dimensional incompressible fluid boundary layer equations: boundary conditions. Boundary layer detachment.",
+    "Laminar boundary layer over a flat plate: Blasius solution. Displacement thickness, momentum thickness and stress on the plate.",
+    "Von Kármán integral equation.",
+    "Approximate solution of the laminar boundary layer over a flat plate using the Von Karman integral equation and different velocity profiles in the boundary layer. Verification with Blasius solution.",
+    "BLOCK IV: SECOND-ORDER PARTIAL DIFFERENTIAL EQUATIONS",
+    "Generalities about second-order equations: Classification of second-order linear PDEs. Initial and boundary conditions. Specific coordinate transformations in computational fluid mechanics.",
+    "Classification of some PDEs from blocks II and III, and analytical calculation of characteristic curves where possible.",
+    "BLOCK V: FINITE DIFFERENCE METHOD FOR ODE AND PDE",
+    "Finite difference approximation: Truncation error. Derivation of a finite difference formula by Vandermonde's method. Second and higher-order derivative. Fornberg's method.",
+    "Steady state and boundary problem: One-dimensional diffusive flow. Dirichlet, Neumann and Robin boundary conditions. Formulation of a simple finite difference method. Thomas algorithm for the resolution of tridiagonal linear systems. Local and global truncation error. Stability, convergence and consistency. Lax equivalence theorem.",
+    "Parabolic problems: Explicit Euler, Implicit Euler and Crank-Nicolson method. Calculation of local truncation error and consistency order for Explicit Euler, Implicit Euler and Crank-Nicolson methods.",
+    "Hyperbolic problems: First-order linear wave equation: analytical solution. Centered, Lax-Friedrichs and Lax-Wendroff method. Other numerical methods: upwind and Beam-Warming method. Von Neumann stability and consistency. Calculation of local truncation error for centered, Lax-Friedrichs and Lax-Wendroff methods.",
+    "Elliptic equations: Two-dimensional potential flow equation. 5 and 9-point computational stencil. Biharmonic operator. Application to solving elementary potential movements. Resolution of finite difference problems from past exam collections.",
+    "BLOCK VI: FINITE VOLUME METHOD",
+    "General formulation for conservation laws: Fundamentals of the Finite Volume Method. Conservative discretization of the convective scalar transport equation in vector format. Temporal discretization schemes and spatial interpolation. Convective flux evaluation. Diffusive flux evaluation in structured and unstructured meshes. Equivalence of the finite volume method and finite differences in structured meshes. Derivation of the algebraic equation for the unknown at the centroid of an unstructured computational cell.",
+    "Application to Navier-Stokes equations: Derivation of segregated schemes from Schur's complement: solving the saddle point problem for single-phase, incompressible flow (SIMPLE and PISO schemes). Analysis of convergence of coupled versus segregated methods using Ansys Fluent: simulation of laminar and steady cylinder wake.",
+    "BLOCK VII: OTHER NUMERICAL METHODS",
+    "Fundamentals of the finite element method and spectral method: Finite elements and spectral methods. Implementation and numerical convergence of the Chebyshev spectral method using fdcoeffV.",
+    "BLOCK VIII: TURBULENT FLOWS",
+    "Introduction to turbulence: Properties of turbulent flows. Scales of turbulence. Kolmogorov microscale. Mathematical description of turbulent flows. Mean motion and fluctuations. Reynolds equations. Turbulence in the presence of walls. Turbulent, two-dimensional and incompressible boundary layer over a flat plate. Turbulence models for RANS equations.",
+    "BLOCK IX: GENERALITIES OF MESHING TECHNIQUES",
+    "Mesh generation with commercial and free software: Classification and topology of meshes. Structured and unstructured, multiblock, overset and chimera meshes. Fixed and moving meshes. Mesh refinement modes. Commercial and open source programs for mesh generation. Evolution from manual meshers (Gambit) to automatic (polyhedral and hexahedral) meshers."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exposition of theory and general examples",
+    "Computer labs",
+    "Exercise solving",
+    "Presentations/expositions",
+    "Practical activities",
+    "Seminars",
+    "Laboratories",
+    "Clarification of doubts / Tutoring",
+    "Lectures in large groups",
+    "Small group classes",
+    "Collective tutoring sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and/or participation in in-person and/or virtual activities",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Written and/or computerized test on theoretical and practical concepts",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Completion of assignments, cases or exercises (report submission)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Attendance and evaluation of laboratory/field practices/use of ICT tools",
+      "weight_percentage": 12.5
+    }
+  ],
+  "assessment_rules": "To pass the course, it is essential to obtain a grade equal to or greater than 5 out of 10 in the written and/or computerized test. Attendance and evaluation of practical sessions will be carried out through attendance control and submission of a report with the solution to the problems posed. An individual assignment will be proposed, for which a detailed and well-presented solution must be submitted. The rest of the grade corresponds to student attendance and participation.",
+  "bibliography": [
+    "Tu, Jiyuan, coautor - (2024) - Computational fluid dynamics : a practical approach - Butterworth-Heinemann",
+    "Barrero Ripoll, Antonio - (2005) - Fundamentos y aplicaciones de la mecánica de fluidos - McGraw-Hill",
+    "Durbin, Paul A. - (2013) - Fluid dynamics with a computational perspective - Cambridge University Press",
+    "Burden, Richard L. - (2003) - Análisis númerico - International Thomson Editores",
+    "Kincaid, David - (1994) - Análisis numérico Las mátematicas del cálculo científico - Addison-Wesley Iberoamericana",
+    "Anderson, John D. - (1995) - Computational fluid dynamics: the basics with applications - McGraw-Hill",
+    "LeVeque, Randall J. - (2007) - Finite difference methods for ordinary and partial differential equations: steady-state and time-dependent problems - Society for Industrial and Applied Mathematics",
+    "Ferziger, Joel H. - (2002) - Computational methods for fluid dynamics - Springer",
+    "Versteeg, Henk Kaarle - (2007) - An introduction to computational fluid dynamics: the finite volume method - Pearson-Prentice Hall",
+    "Chung, T. J. - (2008) - Computational fluid dynamics - Cambridge University Press",
+    "Griebel, Michael - () - Numerical simulation in fluid dynamics: a prectical introduction - Society for Industrial and Applied Mathematics",
+    "Fernández Oro, Jesús Manuel. - (2012) - Técnicas numéricas en ingeniería de fluidos - Reverté",
+    "Crespo, Antonio - (2021) - Mecánica de fluidos - Thomson",
+    "Fernández Feria, Ramón. - (2005) - Mecánica de fluidos - Servicio de Publicaciones e Intercambio Científico de la Universidad de Málaga",
+    "Hirsch, Charles - (2001) - Numerical computation of internal and external flows - John Wiley & Sons",
+    "Turek, Stefan - (1999) - Efficient solvers for incompressible flow problems [ an algorithmic and computational approach - Springer",
+    "Zienkiewicz, O. C. - (2014) - The finite element method for fluid dynamics - Butterworth-Heinemann",
+    "LeVeque, Randall J. - (2002) - Finite volume methods for hyperbolic problems - Cambridge University Press",
+    "Trefethen, Lloyd N. - (2000) - Spectral methods in MATLAB - SIAM",
+    "Deville, M. O. - (2002) - High-order methods for incompressible fluid flow - Cambridge University Press",
+    "Canuto, C. - (2007) - Spectral methods : evolution to complex geometries and applications to fluid dynamics - Springer",
+    "Biringen, Sedat. - (2011) - An Introduction to Computational Fluid Mechanics by Example. - Wiley",
+    "Vázquez Cendón, María Elena. - (2008) - Introducción al método de volúmenes finitos - Universidade",
+    "Patankar, Suhas V. - (2009) - Numerical heat transfer and fluid flow - Taylor & Francis",
+    "Wesseling, P. - (2001) - Principles of computational fluid dynamics - Springer"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412018",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13412018/es/2026-27-13412018_es.html",
+  "source_language": "es",
+  "source_sha256": "980efc7a7faa47d2e5e69a4e8143431bb4c841f79952d8a33439f27ca2ea850a",
+  "extracted_at": "2026-11-13T21:40:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

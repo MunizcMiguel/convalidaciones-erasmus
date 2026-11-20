@@ -1,0 +1,162 @@
+{
+  "course_name_original": "MOBILE APP E CLOUD (903II)",
+  "course_name_en": "MOBILE APP AND CLOUD",
+  "ects": 6.0,
+  "semester": "Primo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of C/C++ programming and computer architecture is required.",
+    "Ability to use control structures, functions, pointers, arrays, strings, structs, and dynamic memory allocation.",
+    "Understanding of fundamental concepts related to CPUs, registers, memory, memory hierarchy, and input/output devices."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire knowledge of the main software and communication layers of modern computer systems, with particular attention to the relationship between operating systems, system programming, concurrency, and network communication.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the structure and functions of modern operating systems, with particular reference to Unix and Unix-like systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the use of the Unix shell and of the main abstractions provided by the operating system, such as processes, threads, files, directories, file descriptors, and system calls.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand concurrent programming in C using processes, POSIX threads, mutexes, condition variables, semaphores, and synchronization primitives.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand inter-process and distributed communication, with particular reference to shared-memory communication, message passing, and sockets.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand process and thread scheduling and criteria for evaluating scheduling algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamentals of computer networks, OSI and TCP/IP models, and data link, network, and transport layers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand network protocols and technologies relevant to distributed applications: Ethernet, Wi-Fi, IPv4, IPv6, UDP, and TCP.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamentals of network security, including cryptography principles, authentication, digital signatures, and TLS.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the acquired knowledge to the design, implementation, and analysis of system-level, concurrent, and distributed applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use the Unix shell and basic development tools to compile, execute, and test C programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement C programs that use Unix/POSIX system calls for managing processes, threads, signals, files, directories, and sockets.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify concurrency problems, shared-resource access issues, synchronization needs, and waiting conditions, selecting suitable primitives to address them.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design simple client-server application protocols and implement them using sockets.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the advantages, limitations, and application contexts of different communication and synchronization mechanisms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret the behavior of the main network protocols and evaluate the implications of protocol choices in terms of reliability, performance, and security.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to operating systems: abstraction, resource management, basic computer architecture, user/kernel mode, and system calls",
+    "Unix operating system: general architecture, POSIX standard, Unix shell, basic commands, permissions, users, and privileges",
+    "Processes and threads: creation, termination, states, signals, differences between processes and threads, and use of the POSIX pthread library",
+    "Concurrency and synchronization: race conditions, mutexes, condition variables, semaphores",
+    "Inter-process communication and sockets: shared-memory and message-passing models, client-server communication, and socket programming",
+    "Files and file systems: files, directories, metadata, file descriptors, file operations, physical organization of Unix file systems",
+    "Process and thread scheduling: goals, metrics, and main families of algorithms",
+    "Network communication problems and general Internet architecture",
+    "Protocol stack, layers, services, and interfaces; OSI and TCP/IP models",
+    "Physical and data link layers: transmission media, framing, error control, medium access, Ethernet, and Wi-Fi",
+    "Network layer: packet switching, forwarding, routing, IPv4, IPv6, and NAT",
+    "Transport layer: ports, UDP, TCP",
+    "Security properties",
+    "Basic concepts of symmetric and asymmetric cryptography",
+    "Authentication, digital signatures, digital certificates",
+    "The TLS protocol",
+    "Review of C programming and use of the Unix shell",
+    "Exercises on processes, threads, synchronization, IPC, sockets, file operations, and multithreaded servers",
+    "Individual project on a concurrent and distributed client-server application in C"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Workshop",
+    "Lectures",
+    "Practical sessions",
+    "Individual work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Completion of an individual project, including its discussion with the instructor",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam on the course topics",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam with a mark of at least 18/30, students must demonstrate at least sufficient knowledge of the main course topics, be able to describe the behavior of fundamental primitives and protocols, and submit a project that compiles, runs, and substantially complies with the specifications. Marks above 25/30 are awarded when students demonstrate good mastery of the connections between theory and practice, discuss the project confidently, and correctly justify their implementation choices. A mark of 30/30, with possible honors, requires excellent knowledge of the topics, the ability to critically connect the different thematic areas, a robust and well-argued project, autonomy of judgment, and particularly clear exposition. The project discussion assesses functional correctness, quality of implementation, and ability to justify design choices. The oral exam assesses knowledge and understanding, application to problems, and justification of technical choices.",
+  "bibliography": [
+    "“Modern operating systems (5th ed.)” - Andrew S. Tanenbaum, Herbert Bos. 2023. Pearson Ed.",
+    "“Computer Networks (6th ed.)” - Andrew S. Tanenbaum, Nick Feamster, David J. Wetherall. 2020. Pearson Ed.",
+    "“Advanced Programming in the UNIX environment”. W. R. Stevens, S. A. Rago. Addison-Wesley.",
+    "\"Computer Networks: a top-down approach\", J. F. Kurose, K. W. Ross, Pearson.",
+    "slides provided by the instructor",
+    "recordings of the lectures from past academic years",
+    "exercise sheets and solutions used during practical sessions",
+    "C code examples used during practical sessions",
+    "individual project specifications",
+    "virtual machine for practical sessions and project work"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "903II",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=53295_702855_76225&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "72b37894c2c856ed53845abe8ae1c696d7b6ed24bc53ffd3bb602bb87065e452",
+  "extracted_at": "2026-11-20T09:25:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

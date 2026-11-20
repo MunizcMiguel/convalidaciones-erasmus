@@ -1,0 +1,226 @@
+{
+  "course_name_original": "Tecnologías y Paradigmas de la Programación",
+  "course_name_en": "Programming Technologies and Paradigms",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Programming courses from the first year (Introduction to Programming, Programming Methodology) that allow students to design and develop correct programs in the object-oriented paradigm.",
+    "Computability from the first semester of the second year to understand the theoretical foundations of computation and especially computational logic."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze, design, build and maintain applications robustly, securely, and efficiently, choosing the most appropriate programming paradigm and languages.",
+      "type": "competence",
+      "code": "ECR8"
+    },
+    {
+      "text": "Know and be able to apply good software design and implementation practices in order to mitigate and prevent software errors.",
+      "type": "knowledge",
+      "code": "ECR8.1"
+    },
+    {
+      "text": "Know and be able to apply error control mechanisms at runtime.",
+      "type": "skill",
+      "code": "ECR8.1"
+    },
+    {
+      "text": "Know the security mechanisms in the studied programming paradigms.",
+      "type": "knowledge",
+      "code": "ECR8.2"
+    },
+    {
+      "text": "Develop an application according to given problem specifications, ensuring the security conditions of the process and environment.",
+      "type": "skill",
+      "code": "ECR8.2"
+    },
+    {
+      "text": "Know the mechanisms for evaluating software performance.",
+      "type": "knowledge",
+      "code": "ECR8.3"
+    },
+    {
+      "text": "Evaluate the performance of a software development based on the paradigm, language, and environment.",
+      "type": "skill",
+      "code": "ECR8.3"
+    },
+    {
+      "text": "Know the logic and functional programming paradigms.",
+      "type": "knowledge",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Know the formal bases of logic and functional programming.",
+      "type": "knowledge",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Develop a solution based on logic programming for a given problem specification.",
+      "type": "skill",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Develop a solution based on functional programming for a given problem specification.",
+      "type": "skill",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Know what a deductive database is.",
+      "type": "knowledge",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Know the concept of a design pattern.",
+      "type": "knowledge",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Know the basic design patterns.",
+      "type": "knowledge",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Apply pattern-based design to a given problem specification.",
+      "type": "skill",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Evaluate the programming paradigm as well as the appropriate language for a given program specification.",
+      "type": "skill",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Select the programming paradigm as well as the appropriate language for a given program specification.",
+      "type": "skill",
+      "code": "ECR8.4"
+    },
+    {
+      "text": "Understand and apply the fundamental principles and basic techniques of real-time programming, extending from OO paradigm concepts to concurrency and event-oriented programming.",
+      "type": "competence",
+      "code": "ECR14.3"
+    }
+  ],
+  "syllabus_topics": [
+    "About programming paradigms",
+    "Pattern-oriented design",
+    "Functional programming",
+    "Logic programming",
+    "Other technologies: concurrency and events"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous theoretical evaluation of Theme 1 (ExT1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous theoretical evaluation of Theme 2 (ExT2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous theoretical evaluation of Theme 3 (ExT3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous theoretical evaluation of Theme 4 (ExT4)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class participation in theory sessions (PartT)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final theoretical evaluation of Theme 1 (ExFT1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final theoretical evaluation of Theme 2 (ExFT2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final theoretical evaluation of Theme 3 (ExFT3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final theoretical evaluation of Theme 4 (ExFT4)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous practical evaluation of Theme 1 (ExP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous practical evaluation of Theme 2 (ExP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous practical evaluation of Theme 3 (ExP3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous practical evaluation of Theme 4 (ExP4)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class participation in practical sessions (PartP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final practical evaluation of Theme 1 (ExFP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final practical evaluation of Theme 2 (ExFP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final practical evaluation of Theme 3 (ExFP3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final practical evaluation of Theme 4 (ExFP4)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final theory grade (NotaT) is calculated as the maximum of each part's grades (partial and final exams), weighted proportionally: NotaT = max(10, max(ExT1, ExFT1) * 0.20 + max(ExT2, ExFT2) * 0.30 + max(ExT3, ExFT3) * 0.30 + max(ExT4, ExFT4) * 0.20 + PartT). Similarly for the final practical grade (NotaP). To pass, a minimum score of 4 in both theory and practical blocks is required; the final grade is NotaT * 0.4 + NotaP * 0.6. If minimums are not met, the final grade will be the minimum between the calculated score and 4.0. In extraordinary calls, a single theoretical exam (ExT) and a single practical exam (ExP) are conducted; previously approved blocks (grade >= 5) from the ordinary call are preserved, and a minimum of 4 in both parts is required.",
+  "bibliography": [
+    "Van Roy, P., & Haridi, S. (2004). Concepts, techniques, and models of computer programming. MIT Press.",
+    "Gamma, E., Helm, R., Johnson, R., & Vlissides, J. (1994). Design patterns: Elements of reusable object-oriented software. Addison-Wesley.",
+    "Thompson, S. (2011). Haskell: The craft of functional programming (3rd ed.). Addison-Wesley.",
+    "Lipovača, M. (2011). Learn you a Haskell for great good!: A beginner’s guide. No Starch Press.",
+    "Friedman, D. P., & Felleisen, M. (1996). The Little Schemer (4th ed.). MIT Press.",
+    "Armstrong, J. (2013). Programming Erlang: Software for a concurrent world (2nd ed.). Pragmatic Bookshelf.",
+    "Functional Programming in Java, Harnessing the Power of Java 8 Lambda Expressions. Venkat Subramaniam. The Pragmatic Programmers. 2014.",
+    "Lloyd, J. W. (1987). Foundations of logic programming (2nd ed.). Springer.",
+    "Clocksin, W. F., & Mellish, C. S. (2003). Programming in Prolog (5th ed.). Springer.",
+    "Bramer, M. (2013). Logic programming with Prolog. Springer.",
+    "Gelfond, M., & Kahl, Y. (2014). Knowledge representation, reasoning, and the design of intelligent agents: The answer-set programming approach. Cambridge University Press.",
+    "Ceri, S., Gottlob, G., & Tanca, L. (1990). Logic programming and databases. Springer",
+    "Java Concurrency in practice. Brian Goetz. Pearson Education, 2006.",
+    "Reactive Programming with RxJava. Tomasz Nurkiewicz, Ben Christensen. O'Really, 2017."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-2-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-2-010",
+  "source_language": "es",
+  "source_sha256": "88c7f6cc07f4c390d5f4a0bcbf370ccf6dcb45d6dd23e5aff9500c5ad436675c",
+  "extracted_at": "2026-11-20T05:54:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

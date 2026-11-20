@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Misure Per La Compatibilità Elettromagnetica",
+  "course_name_en": "Measurements for Electromagnetic Compatibility",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fondamenti di Misura",
+    "Basic knowledge of spectral analysis and free-space and waveguide propagation of electromagnetic fields."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course aims to provide the student with specialized knowledge of methodologies for the theoretical and experimental study of electromagnetic compatibility phenomena and human exposure to electromagnetic fields. The study of the operating principles of measuring instruments, test configurations, and technical standards used in the sector will be an integral part of the course.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be able to recognize the nature of the phenomenon of interest, identify the most suitable instrumentation and measurement method, describe which actions should be performed for measurement, interpret the results, and determine the existence of situations of potential criticality.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be able to connect the choices related to instrumentation and test configuration with the results obtained, for a more correct interpretation of the phenomenon.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The course aims to transmit the ability to apply the acquired methodological tools to appropriately design a measurement chain for verifying electromagnetic compatibility requirements or for determining human exposure levels to electromagnetic fields, execute tests, analyze acquired data, interpret the results of the analysis, and finally, produce a summary document of the activity performed.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic principles of Electromagnetic Compatibility: sources and victims of compatibility phenomena, radiated and conducted phenomena, immunity and emission.",
+    "The decibel and its use in electromagnetic compatibility.",
+    "Measurement instrumentation: interference receiver and peak, quasi-peak, average detector; line impedance stabilization network (LISN); coupling and decoupling networks (CDN); current and voltage probes.",
+    "Two-wire model for radiated disturbance emission: differential mode and common mode disturbances.",
+    "Environments for electromagnetic compatibility verification: open area test site, shielded chamber, semi-anechoic chamber and standards for performance verification (EN 55016-1-4).",
+    "Test configuration and execution methods for verifying immunity and emission, radiated and conducted: EN 55022, EN 61000-4-3, EN 61000-4-6.",
+    "Environmental electromagnetic field exposure regulations: DPCM 8/7/2003 and D.Lgs. 81/08; standards for measuring population and worker exposure.",
+    "Probes and antennas for measuring environmental electromagnetic fields.",
+    "Execution of conformity tests at the Electromagnetic Compatibility laboratory; execution of environmental electromagnetic field measurements."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory experimental activity",
+    "Seminars on specific topics"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of project work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "“Introduction to Electromagnetic Compatibility”, C. Paul, Ed. Wiley",
+    "Course handouts available from the lecturer.",
+    "European standards for performing compatibility verification tests."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "misure_per_la_compatibilita_elettromagnatica",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "a2791f7043d33d65eb0bf6c590187642792737ce33a71c3721980066ae6a7742",
+  "extracted_at": "2026-11-20T08:19:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

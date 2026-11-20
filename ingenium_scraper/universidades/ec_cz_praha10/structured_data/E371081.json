@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Mathematical and Simulation Modelling II.",
+  "course_name_en": "Mathematical and Simulation Modelling II.",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Acquire basic knowledge on formulation and computer implementation of dynamical system models.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand theoretical issues of Laplace and Z transform in their application to describing continuous and discrete linear systems, including systems with distributed parameters.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Develop skills in describing dynamic processes using the state space approach for both linear and non-linear systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand system parameter optimization methods.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The basic properties of the Laplace transforms",
+    "L transform solution of Cauchy problem in differential equations, inverse L transform",
+    "Convolution integral transform and transfer function models",
+    "Fourier transform, Bode diagram of the linear model",
+    "The basic properties of the Z transform",
+    "Sampled data linear system, discrete transfer function",
+    "Z transform solution of the difference equation, inverse Z transform",
+    "Conformal mapping of analytic function, argument increment rule",
+    "Discrete approximation of the continuous system by means of L and Z transform",
+    "The state space notion, state variables, state trajectory",
+    "Introduction methods of state variables, state equations",
+    "Steady state of the system, static characteristics, types of singular points",
+    "Characteristic function of the linear dynamic system, stability notion",
+    "Delay relations in the system model",
+    "Methods of numerical solution of the state space equation",
+    "Sampling time assessment, stability of the numerical method",
+    "Explicit and implicit methods, predictor-corrector",
+    "Typical model nonlinearities, saturation",
+    "Simulation in Matlab Simulink",
+    "Optimization of model parameters, optimality criteria, basic methods of extremum search"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Ogata K.: System Dynamics. Prentice-Hall, Inc. Englewood Cliffs,, N. Jersey, 1978.",
+    "Ogata K.: Modern Control Engineering. Prentice-Hall, Inc. Englewood Cliffs,, N. Jersey, 1990.",
+    "Zítek P.: Mathematical and Simulation Models 1 and 2, CTU Praha, 2001 and 2004, In Czech"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [
+    "assessment_methods",
+    "prerequisites"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371081",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1714006.html",
+  "source_language": "en",
+  "source_sha256": "f930cf6b9d02fce1707929cdb6b9323052a66b9fe9fb3444fc52ede8ee3665ab",
+  "extracted_at": "2026-11-20T01:17:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

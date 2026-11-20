@@ -1,0 +1,126 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics I and II of high school curriculum, including elementary algebra, trigonometry, and basic calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Utilize the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces, and linear applications, and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces, through scalar product, norm, or distance.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and in space.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Identify the basic elements of differential equations and systems of differential equations and use algebraic tools to solve elementary cases.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Tema 1. Números reales y complejos.",
+    "1.1. Propiedades básicas y operaciones fundamentales.",
+    "Tema 2. Sistemas de ecuaciones lineales y matrices.",
+    "2.1. Matrices y propiedades básicas. Determinante.",
+    "2.2. Resolución de sistemas mediante el Método de Gauss. Aplicación al cálculo de la matriz inversa.",
+    "Tema 3. Espacios vectoriales.",
+    "3.1. Estructura de espacio vectorial.",
+    "3.2. Combinaciones lineales e independencia lineal. Bases y dimensión. Coordenadas.",
+    "3.3. Subespacios vectoriales.",
+    "Tema 4. Aplicaciones lineales.",
+    "4.1. Definición y propiedades.",
+    "4.2. Matriz asociada. Cambio de base.",
+    "4.3. Núcleo e imagen de una aplicación. Clasificación de aplicaciones lineales.",
+    "Tema 5. Diagonalización.",
+    "5.1. Valores y vectores propios.",
+    "5.2. Diagonalización de endomorfismos y matrices.",
+    "5.3. Aplicaciones a la resolución de sistemas de ecuaciones diferenciales lineales.",
+    "Tema 6. Geometría euclídea.",
+    "6.1. Espacio vectorial euclídeo. Producto escalar y propiedades métricas.",
+    "6.2. Ortogonalidad. Diagonalización ortogonal.",
+    "6.3. Proyección ortogonal.",
+    "1. Introducción a MATLAB",
+    "2. Cálculo matricial y sistemas de ecuaciones",
+    "3. Espacios vectoriales y cambios de base",
+    "4. Aplicaciones lineales. Valores propios y diagonalización",
+    "5. Productos escalares y proyecciones ortogonales"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "First partial written control",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second partial written control",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as NF = 0.15*NL + maximum (0.15*NA + 0.7*NC, 0.85*NC), where NL is the laboratory practices grade, NA is the classroom practices grade, and NC is the average of written controls. To pass, a minimum of 2.5 points out of 10 is required in each of the two partial controls. Failure to achieve this minimum in any control results in a failing grade, with the numerical score being the minimum of NF and 4.5. For differentiated evaluation, NF = 0.15*NL + 0.85*NC if classroom practices are not attended, with NF >= 5 and NL >= 2.5 and NC >= 2.5 in each part of the written exam required. In extraordinary calls, a written exam with two parts and a laboratory practices test will be conducted, using the same grading formula as in the ordinary call. Grades for classroom practices are retained for all calls in the same academic year; laboratory practice grades can be retained or re-evaluated in a specific exam.",
+  "bibliography": [
+    "Lay, D.C. Álgebra Lineal y sus Aplicaciones. Addison Wesley (3ª ed.), 2007.",
+    "Versión en ingles: Linear Algebra and its Applications. Addison Wesley (4th ed.), 2011.",
+    "Nakos, G.; Joyner, D. Álgebra Lineal con Aplicaciones. Thomson, 1999.",
+    "Versión en inglés: Nakos, G.; Joyner, D. Linear Algebra with Applications. Brooks, 1998.",
+    "Poole, D. Álgebra Lineal, una introducción moderna. Thomson, 2004.",
+    "Versión en inglés: Linear Algebra: A modern introduction. Brooks, 2010 (3rd ed).",
+    "Burgos, J, de. Álgebra Lineal. McGraw-Hill (3ª ed.), 2006.",
+    "Golubitsky, M.; Dellnitz, M. Álgebra Lineal y ecuaciones diferenciales, con uso de MatLab. Thomson, 2001.",
+    "Versión en ingles: Linear Algebra and Differential Equations using MATLAB. Brooks, 1999.",
+    "Strang, G. Álgebra Lineal y sus aplicaciones. Thomson, 2007.",
+    "Versión en inglés: . Linear Algebra and Its Applications. Brooks, 2005 (4th ed.)."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-1-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-1-009",
+  "source_language": "es",
+  "source_sha256": "9ee612215582f7cc54439377e240d5ff40f063a8d1f9a0f0f8ed27b786a9de6e",
+  "extracted_at": "2026-11-20T01:12:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

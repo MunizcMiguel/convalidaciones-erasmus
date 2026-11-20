@@ -1,0 +1,96 @@
+{
+  "course_name_original": "SIGNALS AND SYSTEMS",
+  "course_name_en": "SIGNALS AND SYSTEMS",
+  "ects": 12.0,
+  "semester": "Primo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "A solid understanding of the basic principles of mathematical analysis and linear algebra is recommended for the student. Particularly important are the skills related to the calculation of derivatives and integrals, including in two-dimensional domains."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Representation of continuous-time signals in both the time and frequency domains;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analysis of deterministic and random signals in both the time and frequency domains;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Processing of continuous-time signals through specified systems, with particular emphasis on linear and time-invariant systems;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Statistical characterization of random phenomena, with specific reference to scalar or vector variables and continuous-time stochastic processes.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Complex numbers, Cartesian and polar form.",
+    "Definitions and elementary properties of signals.",
+    "Definition of energy and average power of continuous time signals.",
+    "Signals of particular interest: unit step, monolateral exponential and complex exponential.",
+    "Phasorial representation of a sinusoidal signal, and counter-rotating vectors.",
+    "Properties of the Fourier basis.",
+    "Expansion of a periodic signal in its Fourier series and related convergence criteria.",
+    "Fourier series of important signals (rectangular wave and triangular wave).",
+    "Properties of the Fourier series of a real-valued periodic signal.",
+    "Parseval theorem and power spectrum analysis.",
+    "Fourier transform of a continuous-time signal and its properties.",
+    "Band of a signal and definition of the decibel.",
+    "Convolution and cross-correlation between signals.",
+    "Introduction of the Dirac delta function.",
+    "Signal processing by means of systems: linear, time-invariant systems, systems with and without memory, causal or not, BIBO stability.",
+    "Impulse response and frequency response of a linear and time-invariant system (LTI), the response of an LTI system to an incoming sine wave.",
+    "Low pass, high pass and band pass filters.",
+    "Filtering of a signal through an LTI system.",
+    "Non-distorting systems and type of distortions.",
+    "Sampling of continuous time signals.",
+    "Sampling theorem, minimum Nyquist frequency of and cardinal interpolation.",
+    "Elements of probability theory: random experiments and sample space, concept of event, definition of probability and related axioms, joint probability and conditional probability, total probability theorem, Bayes theorem, independent events and their properties, repeated independent tests.",
+    "Random variables and random vectors: definition of random variable, discrete and continuous random variables, mixed random variables, distribution function and its properties, probability density and its properties, mean value and variance of a random variable, expectation theorem, moments of a random variable, transformation of a random variable, significant random variables (Gaussian, exponential, Rayleigh, Rice, Poisson, binomial).",
+    "Definition of aleatory vector, joint probability density of a pair of random variables, marginal probability density, correlation of a pair of random variables, transformation of a pair of random variables, Gaussian random variables, Gaussian random vectors and their properties.",
+    "Stochastic processes: definition of stochastic process, parametric processes, distribution function and probability density of order N, first and second order stationarity, wide-sense and strict-sense stationary processes, independent and uncorrelated processes, autocorrelation function and its properties, covariance function of a process, Gaussian processes, power spectral density and its properties, relationship between power spectral density and autocorrelation function, mutual power spectral density for two processes, linear filtering of a process, cross-correlation between the input and output processes from an LTI system, white processes."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Software applications (e.g., MATLAB/Python) for signal and system simulation"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 120.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral exam. The written test involves exercises and is passed only if the student scores at least 15/30. Once passed, it remains valid for the entire current exam session. The oral exam is divided into two parts, focusing on deterministic and random signals theory, respectively, and is passed only if the candidate demonstrates clear expression, correct terminology, and accurate answers. The final grade is based on a comprehensive assessment of both the written and oral exams.",
+  "bibliography": [
+    "Marco Luise e Giorgio M. Vitetta, \"Teoria dei Segnali\", Third Edition, Mc-Graw Hill Companies, 2009.",
+    "L. Verrazzani, M. Ciampi, G. Del Corso \"Teoria dei segnali - Segnali aleatori\" ISBN: 9788877412690"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "134II",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=53295_702861_64722&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "504453fc98e4152eaada5e09b4381998f56495110842f31fc8775a0db8b5fae7",
+  "extracted_at": "2026-11-20T09:25:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

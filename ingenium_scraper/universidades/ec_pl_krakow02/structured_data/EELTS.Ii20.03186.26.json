@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Methods of systems identification",
+  "course_name_en": "Methods of systems identification",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands basic concepts related to describing objects using mathematical models and experimentally determining the coefficients of these models.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the idea of parametric identification methods: Least Squares (LS), Maximum Likelihood (ML), Bayes.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands the concept of a nonparametric model and the idea of nonparametric identification methods (correlation and spectral density).",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Is able to design the identification process by choosing the model class, the exciting signal for the object, and the identification algorithm.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is able to implement various parametric model estimation algorithms (LS, ML, Bayes) in MATLAB.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is able to implement various nonparametric model estimation algorithms (correlation algorithm, spectral density algorithm) in MATLAB.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is aware of the importance of the identification process for understanding the surrounding reality.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Project activities are conducted in groups of two or three people. Each group can choose a project topic proposed by the instructor or propose their own topic related to individual interests in the field of identification methods. Project tasks are both simulation-based (Matlab, Adams/Car software) and measurement-based, where signals are acquired from objects undergoing identification. Each team is obliged to prepare a report on the work carried out, based on which a grade is issued.",
+    "Introduction to Matlab",
+    "Statistical analysis of measurement data - part 1",
+    "Statistical analysis of measurement data - part 2",
+    "Identification of Static Objects using the Least Squares estimator",
+    "Identification of Static Objects using the LS estimator - part 2",
+    "Identification of Static Objects using the LS estimator - part 3",
+    "Interval estimation - part 1",
+    "Interval estimation - part 2",
+    "Programming task no. 1",
+    "RLS and WRLS estimators - identification of non-stationary objects - part 1",
+    "RLS and WRLS estimators - identification of non-stationary objects - part 2",
+    "Identification of dynamic objects",
+    "Programming task no. 2",
+    "Introduction to object identification. Basic concepts in identification (4 hours): What is identification, mathematical model and model class, active and passive experiment, parametric and nonparametric model, identification of static and dynamic properties, various identification tasks. Structure of the identification process and sources of errors, stages of the identification process, pilot experiment as a source of a priori knowledge about the object, identification as an iterative cognitive process.",
+    "Fundamentals of the Least Squares (LS) method (3 hours): Identification algorithm for a linear object with one input and output, conditions for existence of a solution, statistically independent solutions, basic properties of models determined by the LS method. Matrix notation of the identification object and model, vector-matrix form of the LS algorithm, conditions for existence of a solution, example illustrating the use of this form of the algorithm.",
+    "Properties of LS estimators (4 hours): Statistical properties of LS estimators - bias error, covariance matrix and its interpretation, evaluation of the covariance matrix, design of LS estimators. Confidence intervals for parameters of the object identified by the LS method. Generalized LS estimator.",
+    "Applications of LS estimators (5 hours): Identification of dynamic properties, identification of non-stationary objects (algorithm with exponential forgetting, algorithm with limited memory, algorithm with variable memory length). Nonlinear LS estimator.",
+    "Identification of objects described by nonparametric models (6 hours): Correlation method: impulse response of the object as a nonparametric model of dynamic properties, Wiener-Hopf equation and its solution, examples of applications for identification of industrial objects. Spectral density method: derivation of the algorithm, statistical properties of the algorithm (bias error and random variability of estimates), examples of applications. Complementary topics, realized as time permits:",
+    "Maximum Likelihood (ML) estimators (6 hours): Idea of maximum likelihood, Fisher information matrix and examples of its use, Cramer-Rao inequality, form of the ML algorithm, properties of ML estimators, examples of object identification using the ML method.",
+    "Bayes' estimator (2 hours): Idea of Bayes' estimator, required a priori knowledge about the identified object, form of the algorithm, examples of applications of Bayes' estimator."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Remote mode with direct audio and video transmission"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test results (laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of a project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed based on activity during classes. Laboratory classes require preparation, which may be verified by an oral or written colloquium, and are passed by presenting a solution to the problem. The module is passed after all laboratory classes are completed. Project classes are assessed based on the method of project execution and the final outcome.",
+  "bibliography": [
+    "1. Bubnicki Z.; „Identyfikacja obiektów sterowania”, PWN, 1974.",
+    "2. Eykhoff. P.; „System Identification – Parameter and State Estimation”, John Wiley & Sons, 1974.",
+    "3. Ljung L.; „System Identification. Theory of the User”, Prentice-Hall, 1987.",
+    "4. Mańczak K., Nahorski Z.; „Komputerowa identyfikacja obiektów dynamicznych”, PWN, 1983.",
+    "5. Schoukens J., Pintelon R.; “Identification of Linear Systems”, Pergamon Press, 1991.",
+    "6. Soderstrom T., Stoica P.; „Identyfikacja systemów“, PWN, 1997.",
+    "7. Notatki z wykładu",
+    "Brandt S.; \"Analiza danych\", PWN, 1998."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03186.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/f7e9480a-ca9f-4f7b-89b9-1db35bbb161e.html",
+  "source_language": "pl",
+  "source_sha256": "7da0f7db335704540fd5f38742a969f2e7aa9689a17f243e1a86e16acaaf5ca4",
+  "extracted_at": "2026-11-20T09:03:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,71 @@
+{
+  "course_name_original": "Análise e Síntese de Algoritmos",
+  "course_name_en": "Algorithm Analysis and Synthesis",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to algorithm analysis and synthesis",
+    "Review of sorting algorithms",
+    "Review of data structures: lists; stacks; queues; priority queues; hash tables; binary search trees; balanced trees",
+    "Amortized analysis, and application examples",
+    "Graph algorithms: elementary algorithms, minimum spanning trees, shortest paths, maximum flows",
+    "Introduction to Linear Programming and the Simplex algorithm",
+    "Algorithm synthesis techniques: dynamic programming and greedy algorithms",
+    "String matching algorithms",
+    "Computational complexity and problem characterization",
+    "Problem classes P, NP, NP-complete, and NP-hard"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Theoretical assessment component (normal exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical assessment component (resit exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "First mini-project evaluation, including report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second mini-project evaluation, including report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Third mini-project evaluation, including report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as round( 0.5 * p + 0.5 * t ), where p is the practical component and t is the theoretical component. The theoretical component t is the maximum of the normal exam grade (en) or the resit exam grade (er). The practical component p is the average of three mini-project evaluations (p1, p2, p3). Students will be considered not evaluated if they do not submit at least 50% of the assessment components. The normal and resit exams have a minimum passing grade of 6 out of 20. For working students, the final grade is round( max( t, 0.5 * p + 0.5 * t ) ). For the special exam period, the final grade is round( max( ee, 0.5 * p + 0.5 * ee ) ).",
+  "bibliography": [
+    "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest and Clifford Stein, Introduction to Algorithms, Third Edition, ISBN-10: 0-262-53305-7; ISBN-13: 978-0-262-53305-8, September 2009 (main)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "assessment_methods",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "ASA112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185358",
+  "source_language": "pt",
+  "source_sha256": "6fffb9c825167dcf0deff6c0c9027161626c15615f74cdc35a0e20427fccf711",
+  "extracted_at": "2026-11-20T12:40:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

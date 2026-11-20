@@ -1,0 +1,95 @@
+{
+  "course_name_original": "Cálculo (Ingenieros) (calculo-a)",
+  "course_name_en": "Calculus (Engineers)",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "That students have demonstrated possession and understanding of knowledge in a field of study that starts from the base of general secondary education, and is usually found at a level that, although it relies on advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "R1"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, which enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "R24"
+    }
+  ],
+  "syllabus_topics": [
+    "The real line: Real numbers. Subsets of R. Bounded sets. Intervals and neighbourhoods. Distance and absolute value.",
+    "Limits and continuity: Real-valued functions of a real variable. Operations with functions. Transformation of function graphs. Limits of functions. Properties of limits. Operations with limits. Continuity of functions. Operations with continuous functions. Properties of continuous functions. Monotonic functions.",
+    "Elementary functions: Polynomial function. Rational function. Absolute value function. Trigonometric functions. Inverse functions of the trigonometric functions. Exponential function. Logarithmic function. Hyperbolic functions. Inverse functions of the hyperbolic functions. Power function. Infinitesimals and infinites.",
+    "Differentiability: Differentiability of real-valued functions of a real variable. Relationship between differentiability and continuity. Operations with differentiable functions. Differentials.",
+    "Local study of functions: Increasing and decreasing intervals. Local and absolute extrema. Theorems for the local study of functions (Rolle's theorem and mean value theorem). Curvature. Inflection points.",
+    "Taylor's formula: Taylor polynomial. Taylor's theorem. Theorems for the local study of functions with successive vanishing derivatives.",
+    "Indefinite integrals: Indefinite integral. Integration by substitution method. Integration by parts method. Integration of rational functions. Integration of functions reducible to rational functions.",
+    "Definite integrals: Riemann integral. Properties of the Riemann integral. Relationship between the Riemann integral and the primitives (first and second fundamental theorem of integral calculus). Integration by substitution method for definite integrals. Integration by parts method for definite integrals. Calculation of the area of plane regions.",
+    "Improper integrals: Integration of bounded functions on unbounded intervals. Integration of unbounded functions on bounded intervals. Integration of unbounded functions on unbounded intervals. Convergence tests for improper integrals of non-negative functions.",
+    "Numerical sequences: Numerical sequences. Classification of numerical sequences. Properties of convergent sequences. Properties of divergent sequences. Monotonic sequences. Asymptotically equivalent sequences. Tests for the calculation of the limit of sequences.",
+    "Numerical and functional series: Numerical series. Geometric series. General harmonic series. Properties of numerical series. Series of positive terms. Absolutely convergent series. Alternating series. Functional series. Power series."
+  ],
+  "teaching_methods": [
+    "Lectures (theory and problem-solving)",
+    "Tutorials",
+    "Personal study"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 69.0,
+  "assessment_methods": [
+    {
+      "method": "Test 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam Part 1 (F1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam Part 2 (F2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam Part 3 (F3)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade will be max (P1, F1) + max (P2, F2) + F3. To pass the course, a minimum of 5 points must be obtained. For the extraordinary exam session, a single exam covering all material will be taken, counting 100% of the grade. Grades obtained in the ordinary session partials will not be taken into account.",
+  "bibliography": [
+    "Professors' lecture notes.",
+    "G. B. Thomas y R. L. Finney, Cálculo con geometría analítica, Vol. I y II, 6ª edición, Addison-Wesley Iberoamericana, 1987.",
+    "A. García, F. García, A. Gutiérrez, A. López, G. Rodríguez y A. de la Villa, Cálculo I. Teoría y problemas de análisis matemático en una variable, 2ª edición, Clag, 1994.",
+    "T. M. Apostol, Calculus, Vol. I, 2ª edición, John Wiley & Sons, 1967.",
+    "T. M. Apostol, Mathematical analysis, 2ª edición, Addison-Wesley, 1974.",
+    "W. Rudin, Principles of mathematical analysis, 3ª edición, McGraw-Hill, 1976."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "calculo-a",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/calculo-a/",
+  "source_language": "es",
+  "source_sha256": "f566130056a5066cfdd2bb5e0aa85f42e9a440682102fcca6f4b0842a51a799f",
+  "extracted_at": "2026-11-18T02:50:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

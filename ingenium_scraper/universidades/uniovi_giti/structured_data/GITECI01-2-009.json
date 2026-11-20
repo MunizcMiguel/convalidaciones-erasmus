@@ -1,0 +1,168 @@
+{
+  "course_name_original": "Tecnología Eléctrica",
+  "course_name_en": "Electrical Technology",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of all mathematics and physics content taught in the first year of the degree."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify and analyze the different components of electrical circuits and master the techniques for their analysis.",
+      "type": "unspecified",
+      "code": "RTE1"
+    },
+    {
+      "text": "Master the analysis techniques for electrical circuits powered by sinusoidal sources.",
+      "type": "unspecified",
+      "code": "RTE2"
+    },
+    {
+      "text": "Identify, analyze and calculate balanced three-phase circuits and their application in industrial electrical installations.",
+      "type": "unspecified",
+      "code": "RTE3"
+    },
+    {
+      "text": "Master the procedures and instruments for measuring electrical circuits.",
+      "type": "unspecified",
+      "code": "RTE4"
+    },
+    {
+      "text": "Describe and analyze the operating principle of electrical machines and their applications.",
+      "type": "unspecified",
+      "code": "RTE5"
+    }
+  ],
+  "syllabus_topics": [
+    "I. FUNDAMENTALS OF ELECTRICAL CIRCUITS",
+    "Fundamental electrical magnitudes and units",
+    "Electric charges, electric current intensity, electric charge, electric voltage between two points and electromotive force, electric power, electric energy. Multiples and submultiples.",
+    "Sign conventions and graphical references",
+    "Fundamental concepts of electrical circuits:",
+    "Definition of an electrical circuit",
+    "Introduction to active and passive elements of electrical circuits",
+    "Fundamental topological entities of electrical circuits: branch, node, loop, graph, planar circuit, mesh",
+    "Kirchhoff's Laws",
+    "Series and parallel connection of elements",
+    "Characteristic waveforms of electrical circuits",
+    "Waveforms: definition and types",
+    "Periodic waveforms: period, cycle, frequency, phase shift between waves, peak values, peak-to-peak value, average value, RMS value",
+    "Components of electrical circuits",
+    "Ideal passive elements: resistance (Ohm's Law, resistance (R), conductance, short circuit, open circuit, ideal switch, resistance of a conductor, resistivity and conductivity, instantaneous power dissipated, dissipated energy and Joule effect, real resistances, color code)",
+    "Ideal active elements: ideal voltage sources, ideal current sources, series and parallel association of ideal voltage and current sources, ideal dependent sources",
+    "Ideal passive elements: inductance",
+    "Ideal passive elements: capacitance",
+    "Associations and equivalences of ideal passive elements: operational impedance and admittance (generalization of Ohm's Law), series association, parallel association, Kennelly's Theorem",
+    "Real active elements: real voltage sources, real current sources, Maximum Power Transfer Theorem, equivalence between real voltage and current sources",
+    "Circuits in permanent DC regime",
+    "Measurement elements: ideal ammeters and voltmeters",
+    "II. CIRCUITS IN SINUSOIDAL STEADY STATE",
+    "Sinusoidal waveforms: relevance, amplitude, angular frequency, phase angle, initial phase angle, specific characteristic parameters of periodic waves",
+    "Complex representation of sinusoidal waves: phasors",
+    "Complex impedance and admittance",
+    "Response of R, L, C, RL and RC series dipoles in sinusoidal steady state: phasor diagram",
+    "Systematic analysis of circuits in sinusoidal steady state in the complex domain",
+    "Power and energy in sinusoidal steady state",
+    "Concepts of active, reactive and apparent power",
+    "Instantaneous power and energy, and active, reactive and apparent power in R, L, C, RL and RC series dipoles",
+    "Complex power",
+    "Power triangle",
+    "Boucherot's Theorem",
+    "Power factor: concept, relevance and correction",
+    "III. TOPOLOGICAL METHODS AND THEOREMS",
+    "Circuit resolution using the loop method",
+    "Circuit resolution using the node method",
+    "Millman's Theorem",
+    "Superposition Theorem",
+    "Thévenin's Theorem",
+    "Norton's Theorem",
+    "IV. THREE-PHASE CIRCUITS",
+    "Generalities",
+    "Balanced and unbalanced three-phase voltage systems",
+    "Phase sequence",
+    "Topologies of three-phase circuits",
+    "Four-wire star-star",
+    "Phase conductors and neutral wire",
+    "Three-wire star-star",
+    "Three-phase circuits with delta connections",
+    "Line and phase magnitudes, and relationship between them",
+    "Star-delta and delta-star equivalences",
+    "Resolution of balanced three-phase circuits",
+    "Equivalent single-phase circuit",
+    "Resolution of unbalanced three-phase circuits",
+    "Power in three-phase circuits",
+    "Active, reactive and apparent power in three-phase elements",
+    "Complex power, Boucherot's Theorem, power factor",
+    "Power factor correction in three-phase installations",
+    "Introduction to the generation, transmission and distribution of electrical energy. Short-circuit powers",
+    "V. ELECTRICAL MACHINES",
+    "Introduction to transformers",
+    "Introduction to synchronous and asynchronous machines",
+    "LABORATORY PRACTICALS PROGRAM:",
+    "P1: Description of equipment and assembly of DC circuits",
+    "P2: Assembly of circuits in sinusoidal steady state I",
+    "P3: Assembly of circuits in sinusoidal steady state II",
+    "P4: Exam"
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practicals",
+    "Laboratory Practicals",
+    "Expository Classes",
+    "Group Tutorials",
+    "Study of theory and problem solving"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Assessment of Classroom Practicals (PA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory test (PL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (PF)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Previous grade (NP) (Extraordinary call)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (PF) (Extraordinary call)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory exam (PL) (Differentiated assessment)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (PF) (Differentiated assessment)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is the sum of points from Classroom Practicals (PA, max 1 point), Laboratory Test (PL, max 1 point), and Final Exam (PF, max 8 points). For the extraordinary call, the final grade is the sum of Previous Grade (NP, max 2 points, including PL and PA) and a Final Exam (PF, max 8 points). For differentiated assessment, the final grade is the sum of a Laboratory Exam (PL, max 1 point) and a Final Exam (PF, max 9 points). No minimum score is required for any component to present for the final exam in any assessment type.",
+  "bibliography": [
+    "FRAILE MORA, JESÚS. Circuitos Eléctricos. Editorial Pearson. 2012. ISBN: 9788483227954",
+    "ALEXANDER, C y SADIKU, M. Fundamentos de Circuitos Eléctricos. Editorial Mc Graw Hill. Tercera Edición. 2004. ISBN: 970105606",
+    "A. Gómez Exposito, “Fundamentos de teoría de circuitos”, Editorial Thomson."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-2-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-2-009",
+  "source_language": "es",
+  "source_sha256": "4728ecc1ad819f58953a02571440f29539a61dd3c19425ca0d5d97c6f67cfeb9",
+  "extracted_at": "2026-11-20T01:12:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

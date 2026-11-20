@@ -1,0 +1,155 @@
+{
+  "course_name_original": "Teoria i przetwarzanie sygnałów (C)",
+  "course_name_en": "Signal Theory and Processing (C)",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the methods of describing continuous and discrete systems and signals in the time and frequency domains.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the methods for designing analog and discrete filters.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows the methods for time and time-frequency analysis of signals.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows what adaptive filtering is and how it can be implemented.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows how lossy and lossless data compression methods work.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Knows the basic methods of digital image processing.",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Can design signal processing and analysis systems.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can implement signal processing and analysis algorithms.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can define a complex problem in the field of signal analysis and processing and solve it using available knowledge.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is able to independently improve knowledge and skills in signal analysis and processing.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Is able to present the results of literature studies (synthesis of knowledge) or their own work in the form of a technical report.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Solving a task in the broad field of signal analysis and processing within the project. The project is carried out individually or in groups of two, with a clear distinction of work performed by each person. The project requires: 1. Recognizing the state of knowledge regarding the task (literature review). 2. Depending on the complexity of the task, implementing the whole or a selected fragment of the solution. 3. Testing the implemented solution and evaluating the obtained results.",
+    "Generating discrete signals.",
+    "Discrete signals - sequences: Deterministic sequences; random sequences; basic operations on sequences.",
+    "Discrete systems: Linear system, shift-invariant system; causal system; stability; properties of LTI systems; frequency representation of discrete signals and systems; Fourier representation of sequences.",
+    "Discrete convolution and spectrum of a discrete signal.",
+    "Analog systems: Laplace transform; transfer function of an analog system; stability.",
+    "Designing analog filters.",
+    "Z-transform: Transfer function of a discrete system; analysis of LTI system properties; frequency characteristics of a discrete system; all-pass and inverse systems; minimum-phase all-pass decomposition.",
+    "Designing recursive IIR digital filters.",
+    "Signal sampling: Sampling theorem; reconstruction of a continuous signal from discrete representation; invariant impulse response method; sampling rate conversion; digital signal analysis and processing path.",
+    "Designing non-recursive FIR digital filters.",
+    "Methods for calculating DFT.",
+    "Designing analog filters: Butterworth, Chebyshev, and elliptic filters; frequency transformation - bandpass filters.",
+    "Designing digital filters: Bilinear transformation; FIR filters; LTI systems with linear phase characteristic; designing FIR filters using window method; optimal FIR filter - Parks-McClellan algorithm; Hilbert filter and discrete analytical signal; discrete differentiating systems.",
+    "Filtering digital signals.",
+    "Frequency analysis using DFT.",
+    "Discrete Fourier transform: Discrete Fourier Series; discrete Fourier transform; circular convolution; calculating linear convolution using circular convolution; sectioned convolution; Goertzel algorithm; Chirp-Z transform; FFT algorithms; DFT of real-valued signals.",
+    "Signal analysis using DFT: DFT analysis of sinusoidal signals; interpolated DFT; short-time Fourier transform, spectrogram; analysis of stationary random signals - periodogram.",
+    "Sampling rate conversion. Analytical signal.",
+    "Adaptive filters.",
+    "Signal approximation, optimal filters and adaptive filters: Signal approximation in multidimensional space; optimal filtering in the least squares sense; RLS adaptive filters; estimation in the minimum mean squares sense; LMS adaptive filters; applications of adaptive filters.",
+    "Wavelet transform: Continuous wavelet transform; discrete wavelet transform; predictive DWT.",
+    "Wavelet transform.",
+    "Entropy coding: Huffman coding; arithmetic coding; dictionary coding.",
+    "Signal compression.",
+    "Image filtering.",
+    "Digital images: 2D filtering; special filters; Fourier transform of images; designing 2D filters using window method; DFT and DWT of images; computed tomography issue.",
+    "DFT and DWT of images.",
+    "Improving the quality of digital images: Correction of geometric distortions of the camera; blur removal; super-resolution.",
+    "Radon transform.",
+    "Measurement of sinusoidal signals: PN-EN 61000-4-7 standard; software PLL loop; parametric frequency estimation methods."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Laboratory classes",
+    "Project classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project (Lab. classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project (Project classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by an examination. Laboratory and project classes are verified by projects. To pass the module, all laboratory classes must be passed. Student presence at lectures is not explicitly obligatory, but students should ask questions and clarify doubts. Audiovisual recording of lectures requires the lecturer's consent. For laboratory classes, students must prepare for exercises, which may be verified by an oral or written colloquium. The course is passed by presenting a solution to the problem posed in the laboratory classes. For project classes, the method of execution and the final effect of the project are assessed.",
+  "bibliography": [
+    "1. Zieliński T.P., Cyfrowe przetwarzanie sygnałów, od teorii do zastosowań, WKŁ, Warszawa, 2005",
+    "2. Oppenheim A. V., Schafer R. W., Cyfrowe przetwarzanie sygnałów, WKŁ, Warszawa 1979",
+    "3. Lyons R.G., Wprowadzenie do cyfrowego przetwarzania sygnałów, WKŁ, Warszawa 1999",
+    "4. Duda K., Analiza sygnałów biomedycznych, Wydawnictwa AGH 2010",
+    "1. Accurate, guaranteed stable, sliding discrete fourier transform / Krzysztof DUDA // IEEE Signal Processing Magazine ; ISSN 1053-5888. — 2010 vol. 27 iss. 6, s. 124–127. — Bibliogr. s. 127.",
+    "2. An induction motor speed measurement method based on supplying current analysis — Pomiar prędkości obrotowej silnika indukcyjnego w oparciu o analizę widmową prądu zasilania / Andrzej BIEŃ, Krzysztof DUDA // Przegląd Elektrotechniczny = Electrical Review / Stowarzyszenie Elektryków Polskich ; ISSN [phone]. — 2011 R. 87 nr 3, s. 201–203. — Bibliogr. s. 203.",
+    "3. Computational tasks in computer-assisted transbronchial biopsy / J. BUŁAT, K. DUDA, M. SOCHA, P. TURCZA, T. ZIELIŃSKI, M. Duplaga // Future Generation Computer Systems ; ISSN 0167-739X. — 2010 vol. 26 iss. 3, s. 455–461. — Bibliogr. s. 460–461.",
+    "4. DFT-based estimation of damped oscillation parameters in low-frequency mechanical spectroscopy / Krzysztof DUDA, Leszek B. MAGALAS, Mariusz MAJEWSKI, Tomasz P. ZIELIŃSKI // IEEE Transactions on Instrumentation and Measurement ; ISSN [phone]. — 2011 vol. 60 no. 11, s. 3608–3618. — Bibliogr. s. 3617–3618.",
+    "5. DFT interpolation algorithm for Kaiser-Bessel and Dolph-Chebyshev Windows / Krzysztof DUDA // IEEE Transactions on Instrumentation and Measurement ; ISSN [phone]. — 2011 vol. 60 no. 3, s. 784–790. — Bibliogr. s. 790.",
+    "6. Efficacy of the frequency and damping estimation of a real-value sinusoid / Krzysztof DUDA, Tomasz P. ZIELIŃSKI // IEEE Instrumentation & Measurement Magazine ; ISSN 1094-6969. — 2013 vol. 16 iss. 2, s. 48–58. — Bibliogr. s. 57–58.",
+    "7. Frequency and damping estimation methods – an overview / Tomasz Piotr ZIELIŃSKI, Krzysztof DUDA // Metrology and Measurement Systems : quarterly of Polish Academy of Sciences ; ISSN 2080-9050. — Tytuł poprz.: Metrologia i Systemy Pomiarowe ; ISSN 0860-8229. — 2011 vol. 18 no. 4, s. 505–528. — Bibliogr. s. 523–525.",
+    "8. Interpolated DFT for sin_(x) Windows / Krzysztof DUDA, Szymon BARCZENTEWICZ // IEEE Transactions on Instrumentation and Measurement ; ISSN [phone]. — 2014 vol. 63 Krzysztof Duda, Wydział Elektrotechniki, Automatyki, Informatyki i Inżynierii Biomedycznej no. 4, s. 754–760. — Bibliogr. s. 760.",
+    "9. New indicators of burnished surface evaluation – reasons of application / Daniel Toboła, Piotr Rusek, Kazimierz Czechowski, Tatiana Miller, Krzysztof DUDA // Metrology and Measurement Systems : quarterly of Polish Academy of Sciences ; ISSN 2080-9050. — Tytuł poprz.: Metrologia i Systemy Pomiarowe ; ISSN 0860-8229. — 2015 vol. 22 no. 2, s. 263–274. — Bibliogr. s. 273–274.",
+    "10. Śledzenie parametrów cyfrowych sygnałów sinusoidalnych z zastosowaniem filtrów adaptacyjnych — Tracking of parameters of discrete sinusoidal signals with an application of adaptive filters / Krzysztof DUDA // Przegląd Elektrotechniczny = Electrical Review / Stowarzyszenie Elektryków Polskich ; ISSN [phone]. — 2011 R. 87 nr 1, s. 140–143. — Bibliogr. s. 143.",
+    "11. Computation of the network harmonic impedance with Chirp-Z transform / Krzysztof DUDA,"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.19134.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/dbd5e66f-804b-4a44-a665-c6325a074fd0.html",
+  "source_language": "pl",
+  "source_sha256": "5a3c36b9864041d9af036f38f489ecbe4065bcf7a7edadd97a4dfec68bb41d6d",
+  "extracted_at": "2026-11-20T09:02:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

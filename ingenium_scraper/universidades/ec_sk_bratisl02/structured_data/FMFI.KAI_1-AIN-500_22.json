@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Linux for Users",
+  "course_name_en": "Linux for Users",
+  "ects": 2.0,
+  "semester": "2.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "knows the principle and function of the command line",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "knows the principles of operation of the GNU/Linux operating system",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "knows and understands the basic components of the GNU/Linux OS such as process, file system, user administration, access rights, ...",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "recognizes and applies a set of commands according to scenarios",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "creates a \"oneline compound command\" or a simple script to solve task assignment",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "History and philosophy of GNU / Linux. Text console. File system navigation. (pwd, ls, cd, less, cat, man, w, exit, ssh, mosh, ...)",
+    "Directories and files (mkdir, rmdir, rm, cp, mv, ...)",
+    "Users, groups, redirects and search. Regular expressions. (id, su, passwd, grep, ...)",
+    "File and directory attributes (chown, chgrp, chmod, ...)",
+    "Text editor vim",
+    "File content sorting and selection commands (sort, head, tail, nl, uniq, tac, shuf)",
+    "File system searching (find)",
+    "Processes (ps, top, kill)",
+    "sed - stream editor",
+    "Processing by awk",
+    "Basics of bash scripts"
+  ],
+  "teaching_methods": [
+    "talk",
+    "training"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 26.0,
+  "assessment_methods": [
+    {
+      "method": "practical computer exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "practical computer exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The grading scale is: A 92%, B 84%, C 76%, D 68%, E 60%.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-AIN-500/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "a7c25a49954a232b40b550fcebd348fc328cabb5c81c3d3f9508f91863129f2f",
+  "extracted_at": "2026-11-20T09:27:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

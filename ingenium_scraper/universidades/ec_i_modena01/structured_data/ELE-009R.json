@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Circuit Theory (ELE-009R)",
+  "course_name_en": "Circuit Theory",
+  "ects": 6.0,
+  "semester": "First Half-Year Cycle",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Elements of calculus",
+    "complex numbers",
+    "fundamentals of electromagnetics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Providing the ability of analysing electrical networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Providing the basic circuit-analysis techniques for linear resistive networks, for transient response analysis, and for sinusoidal steady-state analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Providing the relevant elements of electric power, power factor correction and three-phase circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Providing the ability to analyse magnetic circuits, transformers and electric machines and to determine the power loss in magnetic media.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through lectures, tutorials and collegial discussions the student learns the basic methods of circuit modeling and captures the ability to understand the specific literature on the modelling of electrical networks and machines.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Through the practical exercises made personally or within a group, the student is able to apply the knowledge acquired to the analysis of circuits and networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through written reports, the student is able to understand, critically discuss and expose the results obtained and the approximations introduced.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Written reports allow the student to develop the ability to present data effectively and concisely; to express the concepts learnt with appropriate language and to hold a discussion about covered topics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The described activities allow the students to acquire the methodological skills for pursuing studies and being able to provide their own update.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Steady-state linear circuits: Linear resistor - Voltage and current sources - Electric power - Kirchhoff's laws - Thèvenin's, Norton's and Millman's theorems - Two-port networks.",
+    "Basic circuit analysis techniques: Introduction to the Node-Voltage method and to the Mesh-Current method.",
+    "Transient analysis: Inductors and capacitors - Response of first-order and second-order circuits - Fundamentals on network stability.",
+    "Sinusoidal steady-state analysis: The phasor - Basic frequency analysis - Power calculations.",
+    "Introduction to Laplace transform: Circuit analysis in the Laplace domain - Forced and natural response calculations - Step function and impulse function responses - The transfer function - Inverse transforms.",
+    "Three-phase circuits: Balanced and umbalanced three-phase circuit analysis - Power calculations.",
+    "Two-port circuits: The two-port parameters - Reciprocal and symmetric two-port networks.",
+    "Magnetic circuits: Properties of magnetic materials -Magnetic circuits analysis techniques - Self- and mutual-inductance calculations - Power loss in magnetic materials calculations.",
+    "Electric machines: Fundamentals of electric machines - The transformer and its equivalent circuits."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Collegial discussions",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written solution of simple cases of network analysis",
+      "weight_percentage": null
+    },
+    {
+      "method": "Answers given on a group of questions in a multiple choice form",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral discussion (possible, invoked by students)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grading is based on a weighed combination of written solution of simple cases of network analysis and answers given on a group of questions in a multiple choice form. A possible oral discussion can be invoked by students.",
+  "bibliography": [
+    "Charles K. Alexander and Matthew N. O. Sadiku, Circuiti Elettrici, McGraw-Hill",
+    "Notes provided by the lecturer."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia",
+  "institution_slug": "ec_i_modena01",
+  "degree": "Laurea in Ingegneria Elettronica (Electronic Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "ELE-009R",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=29477&ordinamento_aa=2025&af_percorso=10001&corso_cod=10924&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "68d63f90989eb4d85734089acfb86c7c591a2318136014f3b861f4162c32b9b3",
+  "extracted_at": "2026-11-20T08:18:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

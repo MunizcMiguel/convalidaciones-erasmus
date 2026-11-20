@@ -1,0 +1,83 @@
+{
+  "course_name_original": "Methods and models for management engineering (146003)",
+  "course_name_en": "Methods and models for management engineering",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Calculus",
+    "Linear algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the main quantitative problems related to various industrial and production processes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe and model these problems from a mathematical perspective.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Solve them using the methods covered during the course.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to linear programming with examples and geometric interpretations",
+    "Study of the linear programming model and its mathematical properties",
+    "The simplex algorithm and duality",
+    "Analysis of minimum-cost network problems, minimum spanning tree, maximum flow, and shortest path problems",
+    "Integer and combinatorial optimization with practical applications",
+    "Techniques for linearizing optimization problems",
+    "Markov chains: Chapman-Kolmogorov equation, classification of state types, long-term properties, and absorbing states",
+    "Random walks and related applications",
+    "Decision-making problems based on Markov chains",
+    "Queueing Theory: Examples and basic structures, Little’s formula, properties of the exponential distribution",
+    "Analysis of single- and multi-server queues with exponential service times",
+    "Decisions on the optimal number of servers to use",
+    "Inventory Management: Determination of the optimal order quantity",
+    "Inventory theory under uncertainty, the “newsvendor problem,” and overbooking management",
+    "Optimal stopping problems",
+    "Introduction to simulation methods for analyzing complex systems"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical exercises",
+    "Classroom exercises (modeling and solving problems, including with computers)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Midterm exam (optional)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam will consist of theoretical and practical questions and will require the ability to interpret and formulate the models studied in class.",
+  "bibliography": [
+    "Hillier, F. S., & Lieberman, G. J.: Introduction to Operations Research. McGraw-Hill Science.",
+    "Hillier, F. S., & Lieberman, G. J. (2015). Introduction to operations research (10th ed.). McGraw-Hill Education."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146003",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50430_646277_95230&ordinamento_aa=2020&af_percorso=50430&corso_cod=10131&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "acdc3ea7cfd8787768d72cc1c4b67033c60aeb34bf211999eb17c466fb9b1eb1",
+  "extracted_at": "2026-11-18T10:03:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

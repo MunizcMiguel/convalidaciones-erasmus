@@ -1,0 +1,173 @@
+{
+  "course_name_original": "Aprendizaje Automático I",
+  "course_name_en": "Machine Learning I",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear Algebra",
+    "Calculus I",
+    "Programming Methodology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will know how to apply their knowledge to their work or vocation in a professional manner and possess the competencies usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "unspecified",
+      "code": "CB2"
+    },
+    {
+      "text": "Students will have the capacity to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "unspecified",
+      "code": "CB3"
+    },
+    {
+      "text": "Students will be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "unspecified",
+      "code": "CB4"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "unspecified",
+      "code": "CG1"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to propose experiments and to describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "unspecified",
+      "code": "CG2"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to solve problems.",
+      "type": "unspecified",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "unspecified",
+      "code": "CG4"
+    },
+    {
+      "text": "Know and apply the ethical and legal aspects related to data processing and the application of the knowledge obtained.",
+      "type": "unspecified",
+      "code": "CG8"
+    },
+    {
+      "text": "Ability to express the results of data processing clearly and convincingly, both in writing and orally.",
+      "type": "unspecified",
+      "code": "CG9"
+    },
+    {
+      "text": "Use the most appropriate techniques for data preprocessing and visualization, including dimensionality reduction techniques, to facilitate their analysis and communication.",
+      "type": "skill",
+      "code": "CE07"
+    },
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques to build intelligent systems from data sets.",
+      "type": "skill",
+      "code": "CE09"
+    },
+    {
+      "text": "Understand the inductive process, grasping the main concepts involved in it.",
+      "type": "knowledge",
+      "code": "RAPI1"
+    },
+    {
+      "text": "Know the main supervised learning algorithms for binary and multi-class classification, regression, and ordinal classification problems.",
+      "type": "knowledge",
+      "code": "RAPI2"
+    },
+    {
+      "text": "Solve supervised learning applications using an appropriate algorithm depending on the application to be solved and the objective loss function.",
+      "type": "skill",
+      "code": "RAPI3"
+    },
+    {
+      "text": "Correctly estimate the error committed by a model and know how to statistically compare different algorithms or models.",
+      "type": "skill",
+      "code": "RAPI4"
+    },
+    {
+      "text": "Understand the formulation and derivation techniques of optimization-based learning algorithms, comprehending the concept of regularization.",
+      "type": "knowledge",
+      "code": "RAPI5"
+    },
+    {
+      "text": "Use appropriate techniques to process data for a learning problem.",
+      "type": "skill",
+      "code": "RAPI6"
+    },
+    {
+      "text": "Know the basic aspects related to privacy, ethics, and equality that must be considered in data learning processes.",
+      "type": "knowledge",
+      "code": "RAPI7"
+    }
+  ],
+  "syllabus_topics": [
+    "Objectives of Machine Learning",
+    "Model evaluation and algorithm comparison",
+    "Basic algorithms",
+    "Types of models",
+    "Model induction process",
+    "Optimization-based algorithms",
+    "Other learning problems",
+    "Combination of models",
+    "Feature selection and extraction"
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Practical Exam 1 (EP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 2 (EP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Exam (ET)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Online Questionnaires (CO)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance (A)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary examination, a minimum grade of 4 out of 10 is required for both the practical and theoretical evaluations. If minimums are met, the final grade is calculated as: ((EP1+EP2)/2 x 0.45) + (ET x 0.4) + (CO x 0.1) + (A x 0.05). Otherwise, the qualification is the minimum between the calculated grade and 4. For extraordinary examinations, both a theoretical exam (ET) and a practical exam (EP) are required, each with a minimum grade of 4 out of 10. If minimums are met, the final grade is calculated as: (ET x 0.5) + (EP x 0.5); otherwise, it's the minimum between the calculated grade and 4. Students who achieved 5 or more in the theoretical or practical part in the ordinary call can take only the failed part in extraordinary calls.",
+  "bibliography": [
+    "Mitchell, T. M. (1997). Machine learning.",
+    "Russell, S., & Norvig, P. (2002). Artificial intelligence: a modern approach.",
+    "Witten, I. H., Frank, E., Hall, M. A., & Pal, C. J. (2017). Data mining: practical machine learning tools and techniques. Morgan Kaufmann.",
+    "Andrew Ng, Tengyu Ma. Notas del curso CS229, Stanford University, Master Lecture Notes. 2022. https://cs229.stanford.edu/lectures-spring2022/master.pdf",
+    "Albon, C. (2018). Python Machine Learning Cookbook, First Edit. O'Reilly Media, Inc.",
+    "Müller, A. C., & Guido, S. (2016). Introduction to machine learning with Python: a guide for data scientists. O'Reilly Media, Inc.",
+    "Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2022",
+    "https://scikit-learn.org/stable/",
+    "https://pandas.pydata.org",
+    "https://numpy.org"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-005",
+  "source_language": "es",
+  "source_sha256": "2aa1b2ee6b8609c3bb6daf3db24b427befcd94dc755ae9ffa0b969d4805482b2",
+  "extracted_at": "2026-11-20T06:05:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

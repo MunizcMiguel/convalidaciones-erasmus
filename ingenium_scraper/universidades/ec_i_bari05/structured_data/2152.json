@@ -1,0 +1,91 @@
+{
+  "course_name_original": "FLUIDODINAMICA",
+  "course_name_en": "FLUID DYNAMICS",
+  "ects": 6.0,
+  "semester": "Primo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of algebra",
+    "Basic knowledge of geometry",
+    "Basic knowledge of mathematical analysis (trigonometry, algebraic equations, study of functions, rudiments of differential and integral calculus)",
+    "Basic physics knowledge",
+    "Technical representation knowledge acquired in previous courses"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student will be able to know: the principles and mathematical models of fluid statics, kinematics, and dynamics; methods and criteria necessary to conduct experimental activity in fluid dynamics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be able to use physical-mathematical models to describe fluid dynamic systems and size simple piping systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be able, in the context of fluid dynamics, to critically evaluate and autonomously interpret available data, and formulate scientifically valid hypotheses regarding engineering problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student will be able to adequately describe, in written and oral form, a technical engineering problem in the field of fluid dynamics, and to present elaborated data and models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will have developed the ability to independently consult bibliographic material in order to continuously update their skills.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Preliminary considerations: Presentation of the course. Information on exam methods and teaching material; brief description of the course topics.",
+    "Generalities of fluids: Definition of fluid. Continuum hypothesis. Density and thermal expansion, compressibility. Viscosity and stresses. Vapor pressure. Surface tension. Capillarity.",
+    "Fluid statics: Equation of fluid statics. Evaluation of pressure forces on bodies immersed in a fluid.",
+    "Fluid kinematics: Lagrangian and Eulerian description. Velocity deformation tensor, rotational velocity tensor.",
+    "Fluid dynamics: Concept of stress. Constitutive relation for Newtonian fluids. Equations for conservation of mass, momentum, and energy. Navier-Stokes equations.",
+    "Bernoulli's equation: Second law of dynamics for an ideal fluid. Bernoulli's equation derived from the momentum conservation equation. Pitot tube. Venturi tube.",
+    "Exact solutions of Navier-Stokes equations: Flow between flat parallel plates. Couette flow. Hagen-Poiseuille flow.",
+    "Boundary layer: Definition and equations of the boundary layer. Blasius solution.",
+    "Turbulence: Phenomenology of turbulence. Notes on turbulent flows.",
+    "Fluid dynamic similitude: Buckingham's theorem and dimensional analysis. Dynamic similitude and distorted similitude. Study of flows around immersed bodies. Study of flows in closed circuits: Darcy-Weisbach law, distributed losses, concentrated losses."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Guided exercises",
+    "Tutoring activities"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Learning assessment involves a written test for admission to a subsequent oral test. The written test (3 hours duration) requires the student to correctly apply, including calculation, the laws governing fluid statics and dynamics, under both ideal and real steady flow conditions. The minimum requirement to pass the written test is to have correctly answered at least 30% of the total numerical questions. To access the oral test, a minimum score of 18/30 on the written test is required. The oral test (approximately 30 minutes duration) requires the student to know the governing equations of fluid dynamics and their application to engineering cases. A minimum score of 18/30 is required to pass the oral test. The final grade is obtained as the arithmetic mean of the written and oral tests (rounded up).",
+  "bibliography": [
+    "G.K. Batchelor. An introduction to fluid dynamics. Cambridge University Press.",
+    "Munson, B. R., Okiishi, T. H., Huebsch, W. W., & Rothmayer, A. P. Meccanica dei fluidi. Città Studi Edizioni.",
+    "L. Quartapelle, F. Auteri. Fluidodinamica incomprimibile. Casa Editrice Ambrosiana."
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Politecnico Di Bari",
+  "institution_slug": "ec_i_bari05",
+  "degree": "Laurea in Ingegneria Meccanica (D.M. 270/04) (Bachelor'S Degree In Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "2152",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://poliba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=2080&ordinamento_aa=2025&af_percorso=9999&corso_cod=10261&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "5581bb800404915e1574e935e2f7500aa21fe2c41fad5fdc90b5da73430765c7",
+  "extracted_at": "2026-11-18T10:01:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

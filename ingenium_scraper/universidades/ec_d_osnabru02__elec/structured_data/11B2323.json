@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Industrielle Robotik",
+  "course_name_en": "Industrial Robotics",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "In-depth knowledge of vector and matrix calculus.",
+    "Knowledge of electrical drive technology.",
+    "Basic programming skills."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can classify fundamental connections to industrial robotics. They can differentiate between types of industrial robots and explain their structure. They know the functioning of robot controls and their programming options, as well as the elementary transformation calculations for movements. Students can also identify necessary periphery for a functional industrial robot work cell and present the steps for planning such a work cell.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can assess and compare the application possibilities of industrial robots. They can describe kinematic relationships in industrial robots and clarify the processes for controlling robot movements. They can also explain different programming methods for industrial robots and compare their efficiency. Furthermore, they can differentiate between suitable robots and necessary periphery, select them for industrial robot work cells, and generally discuss the economic efficiency and sustainability of industrial robot use.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can plan, commission, and develop an economic and/or sustainability proof for industrial robot work cells. For this, they research, develop, and evaluate solution approaches for individual functions of the work cell and integrate them. Furthermore, students can perform the necessary transformation calculations and operate and program industrial robots using a programming and simulation program or directly via the handheld operating device.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and Connections: Historical development, robot designs and application areas, deployment figures for industrial robots and their development",
+    "Fundamentals of Robotics: Kinematic modeling, position and orientation changes, orientation descriptions in robotics",
+    "Transformations and Kinematic Chains: Homogeneous transformation matrix, Denavit-Hartenberg parameters, transformation calculations, configurations, singularities",
+    "Control of Industrial Robots: Operating modes, control types, path and trajectory planning, movement behavior",
+    "Simulation and Programming of Industrial Robots: Programming methods and programming languages, offline programming/simulation systems, realistic motion simulation, Virtual Robot Controller",
+    "Structure of Industrial Robots: Technical design, drive and gear technology, measurement systems, characteristic values, safety devices",
+    "Components of an Industrial Robot Cell: End effectors, sensors, image processing systems, PLC, safety devices (including human-robot collaboration)",
+    "Efficient and Sustainable Industrial Robot Use: Planning of industrial robot work cells, proof of economic efficiency, consideration of sustainable robot use"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam or portfolio examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination performance (Klausur or Portfolio-Prüfungsleistung) is determined by the lecturer. The portfolio examination consists of four elements, focusing on technical, computational, and methodical skills taught, with 2 oral project reports (PMU) and 2 written project reports (PSC). The total score is 100 points, with a maximum of 25 points achievable for each project report. The ungraded examination is an experimental work with approximately 4 to 6 experimental tasks.",
+  "bibliography": [
+    "Maier, Helmut: Grundlagen der Robotik, 3. Aufl., VDE Verlag Berlin, 2022",
+    "Weber, Wolfgang: Industrieroboter – Methoden der Steuerung und Regelung, 5. Aufl., Hanser München, 2022",
+    "Pott, Andreas; Dietz, Thomas: Industrielle Robotersysteme, Springer Vieweg Wiesbaden, 2019",
+    "Buxbaum, Hans-Jürgen: Mensch-Roboter-Kollaboration, Springer Gabler Wiesbaden, 2020",
+    "Wagner, Maximilian: Automatische Bahnplanung für die Aufteilung von Prozessbewegungen in synchrone Werkstück- und Werkzeugbewegungen mittels Multi-Roboter-Systemen, FAU-University Press, Erlangen, 2020",
+    "Georg Stark: Robotik mit MATLAB, 2. Aufl., Hanser München, 2022",
+    "Hesse, Stefan; Malisa, Viktorio: Taschenbuch Robotik – Montage – Handhabung, Hanser München, 2016",
+    "Warnecke, Hans-Jürgen: Industrieroboter, Handbuch für Industrie und Wissenschaft, Springer Berlin 2012",
+    "Lotter, Bruno; Wiendahl, Hans-Peter: Montage in der industriellen Produktion - Ein Handbuch für die Praxis, 2. Aufl., Springer Berlin 2013",
+    "Hesse, Stefan: Greifertechnik - Effektoren für Roboter und Automaten, Hanser München, 2011",
+    "Siciliano, Bruno; Khatib, Oussama: Springer handbook of robotics, Springer Berlin, 2016",
+    "Craig, John J.: Introduction to robotics – Global Edition, Pearson Prentice Hall, 2020"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B2323",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "5a25ae641709049cd388af6e939c01216df206d98d59a64a4a38944fa673d96e",
+  "extracted_at": "2026-11-20T12:33:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,86 @@
+{
+  "course_name_original": "Instrumentation and Control Engineering (5405ELE)",
+  "course_name_en": "Instrumentation and Control Engineering",
+  "ects": 10.0,
+  "semester": "January (12 Weeks)",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Analyse measurement devices for temperature, position and force.",
+      "type": "unspecified",
+      "code": "MLO1"
+    },
+    {
+      "text": "Demonstrate an understanding of the basic concepts of dynamic system response and closed loop control.",
+      "type": "unspecified",
+      "code": "MLO2"
+    },
+    {
+      "text": "Develop models for simple dynamic plant.",
+      "type": "unspecified",
+      "code": "MLO3"
+    },
+    {
+      "text": "Design controllers and analyse system performance.",
+      "type": "unspecified",
+      "code": "MLO4"
+    },
+    {
+      "text": "Simulate control systems with appropriate software and assess system performance.",
+      "type": "unspecified",
+      "code": "MLO5"
+    }
+  ],
+  "syllabus_topics": [
+    "Temperature measurement: thermometers, thermistors and thermo-couples",
+    "Force and weight measurement: strain gauges and bridge circuit",
+    "Displacement measurement: potentiometers, LVDT (linear variable difference transformer)",
+    "P&ID Diagrams Introduction: control system structure including sensors, controllers, actuators and plants.",
+    "Matlab/Simulink Modelling & Simulation: introduce transfer function models for different plants, how to simulate a control system with Matlab/Simulink for system analysis and performance assessment.",
+    "Block diagram analysis.",
+    "Stability analysis: pole location method and Routh method",
+    "Time response analysis: characteristics for first order and second order systems, response to step and ramp input.",
+    "Controller design: design specification in time domain, functions of P, I and D control, empirical controller parameter setting method.",
+    "State space representation"
+  ],
+  "teaching_methods": [
+    "Tutorial",
+    "Lecture",
+    "Practical"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 44.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Report",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites",
+    "bibliography"
+  ],
+  "institution": "Liverpool John Moores University — BEng (Hons) Electrical and Electronic Engineering",
+  "institution_slug": "ec_uk_liverpo02__elec",
+  "degree": "BEng (Hons) Electrical and Electronic Engineering",
+  "course_code": "5405ELE",
+  "academic_year": "2025-26 (Programme Specification 2022.01)",
+  "source_url": "https://coursecatalogue.ljmu.ac.uk/module/2025/5405ELE",
+  "source_language": "en",
+  "source_sha256": "7f4bd9e8adfb06022bde195d2aebcb0080d824ec7ce862082ddc1b56cc554460",
+  "extracted_at": "2026-11-20T13:00:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

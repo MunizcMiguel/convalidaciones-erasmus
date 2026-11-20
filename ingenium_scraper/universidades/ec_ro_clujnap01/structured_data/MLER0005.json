@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Optimization techniques",
+  "course_name_en": "Optimization techniques",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear Algebra",
+    "Calculus 1 and 2",
+    "Mathematical thinking",
+    "modelling",
+    "logical reasoning"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student has acquired the specific skills of mathematics-related disciplines necessary for completing assignments.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The student knows fundamental notions related to optimal solutions of problems, convex sets and functions, polyhedral sets and optimization algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to build clear and well-supported mathematical arguments to explain mathematical problems, topics and ideas in writing.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to prove theorems using mathematical language in theoretical courses and will be able to present these results both orally and in writing.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student has the ability to independently explore certain mathematical contents, based on the ideas and tools already acquired, in order to expand his knowledge.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student has the ability to independently extend the mathematical ideas and arguments already acquired, to a mathematical topic that has not been studied previously.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "General statement of an optimization problem. The objective function, constraint set and optimality notions.",
+    "Convex sets and extreme points",
+    "Convex functions. Local and global extreme points",
+    "Level sets. Optimality conditions for convex optimization problems.",
+    "Linear optimization problems.",
+    "Duality for linear optimization problems.",
+    "The primal simplex algorithm",
+    "The dual simplex algorithm",
+    "Nonlinear optimization",
+    "The Newton algorithm",
+    "Gradient Descent",
+    "Dual Gradient",
+    "Special classes of convex sets.",
+    "Convex functions.",
+    "Linear optimization problems. The graphical approach",
+    "Primal and dual simplex algorithm",
+    "Nonlinear optimization algorithms",
+    "Nonlinear optimization algorithms"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "discussion",
+    "didactic proofs",
+    "numerical simulations",
+    "Discussions",
+    "problematisation",
+    "self-tanking",
+    "team-work",
+    "self-thinking"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 36.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Homework including problems based on the theory presented at the lecture. Application of the theoretical results to practical problems",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a final written exam (60%) and homework/seminar activities (40%). The minimum standard of performance includes knowing definitions, statements of theoretical results, straightforward applications, and proper selection of solving methods for various practical problems.",
+  "bibliography": [
+    "BOYD, S., VANDENBERGHE, L., Convex Optimization, Cambridge University Press, 2004.",
+    "BRECKNER, B.E., POPOVICI, N., Convexity and Optimization. An Introduction, EFES, Cluj-Napoca, 2006.",
+    "BRECKNER, W.W., Cercetare operaţionala , Universitatea Babeş-Bolyai, Cluj-Napoca, 1981.",
+    "POPOVICI, N., Optimizare vectoriala , Casa Ca rţii de Ştiinţa , Cluj-Napoca, 2005.",
+    "MORDUKHOVICH, B.S., NAM, N.M., An easy path to convex analysis and applications, Morgan & Claypool Publishers, Milton Keynes, 2014.",
+    "VANDERBEI, R., Linear Programming. Foundations and Extensions, Springer, Bost"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLER0005",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLER0005_en_ancagrad_2025_10025.pdf",
+  "source_language": "en",
+  "source_sha256": "975dc9496a5fae673783bdc0101cd2ff554c218e5c110b1b903df18f2973dc2a",
+  "extracted_at": "2026-11-20T09:08:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

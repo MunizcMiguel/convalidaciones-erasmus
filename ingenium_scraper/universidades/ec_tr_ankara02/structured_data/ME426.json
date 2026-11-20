@@ -1,0 +1,91 @@
+{
+  "course_name_original": "SYSTEM DYNAMICS",
+  "course_name_en": "System Dynamics",
+  "ects": 5.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "None"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Can model physical system components and model physical systems via linear graphs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Can obtain state models of dynamics systems from system graph.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Can linearize nonlinear systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Can obtain transfer functions and time and frequency responses of systems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "System concept. Introduction to system dynamics, definitions. Modeling of physical systems. Global parameter models. Variable types.",
+    "Power and energy. Energy ports. One-port elements. Type-A, type-T, type-D and source elements.",
+    "One-port elements of physical systems.",
+    "Lineer graph representation of system elements. Oriented linear graphs of systems with one-port elements. Derivation of basic equations from system graph.",
+    "Obtaining dynamic equations of some example systems with one-port elements.",
+    "Incompatibilities in modeling and dependent elements. Impure elements.",
+    "Two-port elements. Oriented linear graphs and dynamic equations of systems with one-port and two-port elements.",
+    "Obtaining dynamic equations of some example systems with one-port and two-port elements.",
+    "State variables and state equations. Determination of state variables of systems with one-port elements from their linear graphics and derivation of state equations.",
+    "Determination of state variables of systems with one-port and two-port elements and derivation of state equations.",
+    "Linearization of nonlineer systems. Linearization around steady and non-steady operating points.",
+    "Laplace transforms. Transfer functions. Characteristic equation. Poles and zeros. Test input types and time response.",
+    "Response of systems to impulse, step and ramp inputs. Step and ramp responses of first order systems. Step responses of second order systems.",
+    "Responses of systems to sinusoidal inputs. Frequency response, amplitude ratio, phase shifting. Graphical representations of frequency response."
+  ],
+  "teaching_methods": [
+    "Face To Face"
+  ],
+  "workload_hours_total": 126.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Shearer, J.L., Murphy, A.T. and Richardson, H.H., \"Introduction to System Dynamics\", Addison-Wesley, 1972.",
+    "Platin, B.E., Çalışkan, M. and Özgüven H.N., \"Dynamics of Engineering Systems\", METU Mechanical Engineering Department, 1991.",
+    "Ercan, Y., \"Modeling and Dynamics of Engineering Systems\", 2nd Edition, Literatur Publishing House, Istanbul, 2003 (in Turkish).",
+    "Koenig, H.E. and Blackwell, W.A., \"Electromechanical System Theory\", McGraw-Hill Book Company, 1961.",
+    "Ogata, K., \"System Dynamics\", 4th Edition, Prentice-Hall, Englewood Cliffs, 2004.",
+    "Karnopp, D.C., Margolis, D.L. and Rosenberg, R.C., \"System Dynamics: A Unified Approach\", 2nd Edition, John Wiley and Sons, 1990.",
+    "Karnopp, D.C. and Rosenberg, R.C., \"Analysis and Simulation of Multiport Systems\", The MIT Press, 1968.",
+    "Ders Kitabı Rowel, D., Wormley, D.N., “Introduction to System Dynamics”, Prentice-Hall, 1997."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gazi University",
+  "institution_slug": "ec_tr_ankara02",
+  "degree": "Mechanical Engineering (Eng) / Makine Mühendisliği (İngilizce)",
+  "course_code": "ME426",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=862495&lang=en",
+  "source_language": "en",
+  "source_sha256": "06902fd657c1e7499a651f8a00cdfa254242aba822fc652dca5890a227099402",
+  "extracted_at": "2026-11-18T10:06:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

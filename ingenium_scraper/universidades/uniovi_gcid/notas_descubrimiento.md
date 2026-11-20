@@ -1,0 +1,2 @@
+# uniovi_gcid — notas de descubrimiento
+Grado en Ciencia e Ingeniería de Datos (Escuela de Ingeniería Informática, Oviedo; plan GCINGD01). Misma plataforma SIES que `uniovi`; ficha `https://www.uniovi.es/estudia/grados/ingenieria/datos`. 44 asignaturas, 270 ECTS ofertados: básica 60, obligatorias 120, TFG 12 (cuadran con el plan de 240) y 78 ECTS optativos ofertados frente a 48 exigidos. Curso 2026-2027. Scripts = copia parametrizada de uniovi_giti. Profesorado y coordinación excluidos. Asignaturas sin guía publicada se reportan como FALLO en logs/scrape_all.txt.

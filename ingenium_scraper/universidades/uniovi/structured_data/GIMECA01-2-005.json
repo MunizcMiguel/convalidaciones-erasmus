@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Automatización y Control",
+  "course_name_en": "Automation and Control",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Basic notions of Linear Algebra",
+    "Differential and Integral Calculus",
+    "Numerical Methods",
+    "Chemistry",
+    "Graphic Expression",
+    "Mechanics and Thermodynamics",
+    "Waves and Electromagnetism",
+    "Fundamentals of Computer Science"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with basic knowledge about the usefulness of automatic control of systems and their applications in industry and consumer products.",
+      "type": "knowledge",
+      "code": "RAU-1"
+    },
+    {
+      "text": "Enable students to mathematically describe and analyze the behavior of a system in the time and frequency domain, using simulation tools.",
+      "type": "skill",
+      "code": "RAU-2"
+    },
+    {
+      "text": "Enable students to tune controllers in simple control structures.",
+      "type": "skill",
+      "code": "RAU-3"
+    },
+    {
+      "text": "Know and identify the elements involved in instrumentation for industrial process control and automation and their functions.",
+      "type": "knowledge",
+      "code": "RAU-4"
+    },
+    {
+      "text": "Configure and program simple applications in industrial control devices.",
+      "type": "skill",
+      "code": "RAU-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to process automation and control.",
+    "Automation: Introduction to automation. Elements of automation. Regulations. Grafcet diagrams. Programming using SFC and ST.",
+    "System modeling: Systems and signals. Functional diagrams. Transfer function. Block diagrams. State-space modeling. System linearization.",
+    "System analysis: Stability. Overdamped and underdamped proper modes. Temporal response.",
+    "System control: Introduction to control. Steady-state analysis in feedback systems. Transient analysis of feedback systems. Root locus. PID design in the time domain. Digital implementation of controllers.",
+    "Frequency domain: Concept of frequency response. Bode and polar diagrams. Time-frequency relationships. Frequency analysis of feedback systems. Controller design in frequency."
+  ],
+  "teaching_methods": [
+    "Group tutorials",
+    "Classroom/Seminar practices",
+    "Expository classes",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam (Theory)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final exam (Theory)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4 out of 10 points is required for the theoretical block. If this minimum is reached, the final theory grade is calculated as (0.25 * Partial Exam) + (0.75 * Final Exam). The final grade for the course is (0.2 * Partial Exam) + (0.6 * Final Exam) + (0.2 * Laboratory Practices). If the minimum for the theoretical block is not reached, the final grade will be the minimum between the calculated grade and 4.0. For the extraordinary call, students take a theoretical exam (TEX) and may retain their laboratory practice grade (P) from the ordinary call. A minimum score of 4 out of 10 points is mandatory for the theoretical part. If this minimum is met, the final grade is (0.8 * TEX) + (0.2 * P); otherwise, the final grade is the minimum between the calculated grade and 4.0. Laboratory practice grades are retained until the January call of the next academic year.",
+  "bibliography": [
+    "Feedback Control of Dynamic Systems. Gene F. Franklin et al. Pearson Education Limited. ISBN: 978-1292068909",
+    "Control de sistemas dinámicos con retroalimentación. Gene F. Franklin et al. Addison-Wesley Publishing Company. ISBN: 978-0201644210",
+    "Sistemas de control moderno. Richard C. Dorf. Alhambra, Edición 10. ISBN: 978-8420544014",
+    "Ingeniería de Control Moderna. Katsuhiko Ogata. Pearson EducaciónSA. Prentice Hall. ISBN: 978-848322-660-5",
+    "Introducción a la Ingeniería de Control. Guillermo Ojea. Disponible en el campus virtual de la asignatura."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo",
+  "institution_slug": "uniovi",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "GIMECA01-2-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/mecanica/-/fof/asignatura/GIMECA01-2-005",
+  "source_language": "es",
+  "source_sha256": "aa3e735de05f4d1500ea1054a2830f8e666878e20f4ce0728813a97bf7db6ccf",
+  "extracted_at": "2026-11-12T23:51:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

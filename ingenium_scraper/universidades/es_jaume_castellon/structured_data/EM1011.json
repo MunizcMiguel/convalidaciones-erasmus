@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Estadística i Optimització (EM1011)",
+  "course_name_en": "Statistics and Optimization",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Mathematics)",
+    "EM1002 - Càlcul I (Mathematics)",
+    "EM1003 - Informàtica (Computer Science)",
+    "EM1004 - Física I (Physics I)",
+    "EM1006 - Química (Chemistry)",
+    "EM1007 - Càlcul II (Mathematics)",
+    "EM1008 - Física II (Physics II)",
+    "EM1009 - Expressió Gràfica (Graphic Expression)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to obtain confidence intervals for parameters of a normal population and to formulate and solve problems of statistical hypothesis testing, both parametric and non-parametric, in one or two populations.",
+      "type": "competence",
+      "code": "CB01, CG06"
+    },
+    {
+      "text": "Be able to synthesize and descriptively analyze a set of data.",
+      "type": "competence",
+      "code": "CB01, CG06"
+    },
+    {
+      "text": "Be able to formulate and solve simple and realistic linear programming problems. Synthesize the received information, formulate the relevant linear models, apply the Simplex method, and analyze and interpret the obtained solutions.",
+      "type": "competence",
+      "code": "CB01, CG06"
+    },
+    {
+      "text": "Be able to formalize and solve basic experimental design models.",
+      "type": "competence",
+      "code": "CB01, CG06"
+    },
+    {
+      "text": "Know how to calculate event probabilities from the definition and from the most common probability distributions, as well as from the probabilities of other events, using the properties of probability and conditional probabilities.",
+      "type": "skill",
+      "code": "CB01, CG06"
+    }
+  ],
+  "syllabus_topics": [
+    "Descriptive statistics",
+    "Univariate statistics",
+    "Bivariate statistics",
+    "Probability",
+    "Introduction to Probability",
+    "Discrete probability distributions",
+    "Continuous probability distributions",
+    "Inference",
+    "Point and interval estimation",
+    "Hypothesis tests in one and two populations",
+    "Design of experiments",
+    "Introduction to experimental design",
+    "One-way ANOVA",
+    "Linear programming",
+    "Introduction to linear programming",
+    "The Simplex method",
+    "Introduction to statistical software",
+    "Interval estimation",
+    "Hypothesis tests and one-factor ANOVA"
+  ],
+  "teaching_methods": [
+    "Lectures (face-to-face)",
+    "Student interaction and participation",
+    "Audiovisual support",
+    "Self-study with recommended bibliography and software",
+    "Problem-solving classes",
+    "Practical case resolution",
+    "Computer lab sessions",
+    "Specialized software handling (R-Commander)",
+    "Formulating and solving practical scenarios",
+    "Data introduction and manipulation",
+    "Individual practical exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Continuous assessment (controls in practical sessions)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "To pass the course, students must obtain at least 43% of the maximum score in each assessment component (continuous assessment and final exam) and a final weighted score of 5 or higher. If the minimum score is not reached in any part, the final grade will be the corresponding weighted average, with a maximum of 4.5 out of 10. Continuous assessment (30%) requires a minimum of 4.3/10 and is recoverable via a paper-based exam on the final exam day if not passed. The final written exam (70%) requires a minimum of 4.3/10. Passed parts from the first convocation are saved for the second convocation but not for subsequent academic years. For the extraordinary end-of-studies convocation, a single final written exam covering theory and problems will count for 100%.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1011",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1011",
+  "source_language": "ca",
+  "source_sha256": "e48f18ea6569f9871ccdd2366e7efbbcb8a1a2d59b6ef6be47551f5ffd384555",
+  "extracted_at": "2026-11-13T22:35:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Sistemas Tiempo Real",
+  "course_name_en": "Real-Time Systems",
+  "ects": 3.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Intermediate knowledge of C programming language.",
+    "Basic knowledge of computer architecture.",
+    "Basic knowledge of operating systems.",
+    "User-level computer skills.",
+    "Ability to search and handle information via the Internet.",
+    "Average oral and written expression skills for participation in debates, expressing points of view, and writing technical information."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the mechanisms for developing real-time applications and the available hardware platforms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Provide students with basic knowledge of programming real-time multitasking control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine if a system composed of multiple tasks and temporal requirements is schedulable.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students should know how to apply acquired knowledge and problem-solving ability in new or unfamiliar environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "Students should possess learning skills that allow them to continue studying in a largely self-directed or autonomous manner.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Develop the potential of information and communication technologies in industrial production.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Know the subjects and technologies that enable them to learn new methods and technologies, and provide them with enough versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG8"
+    },
+    {
+      "text": "Use acquired knowledge to maintain a critical and active attitude in automation project management.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Analyze, design, and build industrial computer applications.",
+      "type": "competence",
+      "code": "CE5"
+    },
+    {
+      "text": "Effectively use a systematic approach to the development of industrial process control logic, using standardized techniques for the analysis, design, implementation, and documentation of the adopted solution.",
+      "type": "competence",
+      "code": "CE6"
+    },
+    {
+      "text": "Know the basic principles of robustness and usability of industrial software.",
+      "type": "knowledge",
+      "code": "RA222"
+    },
+    {
+      "text": "Apply an appropriate methodology for the analysis and design of real-time systems.",
+      "type": "skill",
+      "code": "RA221"
+    },
+    {
+      "text": "Implement medium-complexity industrial software applications.",
+      "type": "skill",
+      "code": "RA223"
+    }
+  ],
+  "syllabus_topics": [
+    "Development of software for real-time and embedded systems.",
+    "Introduction. Host-target scheme. Execution supports: kernels and embedded real-time operating systems (QNX, Windows CE, Linux, ...). Firmware image generation (BSPs). Programming tools for embedded systems: Debuggers, emulators, assemblers, compilers, cross-compilers, ... Debugging techniques. Support offered by different programming languages for embedded application development.",
+    "Programming concurrent applications.",
+    "Creation of multithreaded applications. Synchronization through exclusive access and shared memory access. Synchronization by message passing.",
+    "Programming applications with temporal requirements.",
+    "System clock management. Periodic, aperiodic, and sporadic tasks. Programming delays and time-outs.",
+    "Study of schedulability",
+    "Schedulers based on RMA or EDF algorithms. Temporal analysis of tasks to determine deadline compliance."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Problem solving",
+    "Laboratory practices",
+    "Inquiry-Based Learning",
+    "Cooperative learning"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 25.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (E1)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Course project (T1)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "The final grade for the ordinary examination is calculated as: Grade = 0.3 * E1 + 0.7 * T1. To pass, a minimum of 5 points out of 10 is required on the theoretical exam (E1) and at least 4 points out of 10 on the course project (T1). If the minimums are not met, the final grade will be the minimum between the calculated formula grade and 4.0. The evaluation in extraordinary examinations follows the same criteria, with the maximum score of multiple attempts for E1 being considered. For differentiated evaluation, the course project content may be adapted.",
+  "bibliography": [
+    "Real-Time Systems and Programming Languages (Fourth Edition) Ada 2005, Real-Time Java and C/Real-Time POSIX. Alan Burns and Andy Wellings. April 2009. Addison Wesley Longmain.",
+    "Real-Time Systems Design and Analysis Third Edition. Phillip A. Laplante. A JOHN WILEY & SONS, INC., PUBLICATION.",
+    "Design and Implementation of Real Time Software for Control of Mechanical –Systems. D.M Auslander, J.R. Ridgely, J.D. Ringgenberg.",
+    "Doing Hard Time. Developing Real-Time Systems with UML, Objects, Frameworks, and Patterns. Douglass, B P. Addison Wesley: 1999."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Automatización e Informática Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mm_automatizacion",
+  "degree": "Máster Universitario en Ingeniería de Automatización e Informática Industrial",
+  "course_code": "MINAUT02-C-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/automatizacion/-/fof/asignatura/MINAUT02-C-001",
+  "source_language": "es",
+  "source_sha256": "ba7a2183a62e15a9ce62942c527ddfe1554c78a316fd9b25534d6318650d8d6c",
+  "extracted_at": "2026-11-20T06:00:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

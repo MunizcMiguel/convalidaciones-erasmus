@@ -1,0 +1,88 @@
+{
+  "course_name_original": "FUNDAMENTALS OF STRUCTURAL MECHANICS",
+  "course_name_en": "FUNDAMENTALS OF STRUCTURAL MECHANICS",
+  "ects": 9.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic knowledge of calculus",
+    "linear algebra",
+    "physics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire the basic knowledge of the mechanics of deformable elastic bodies, with particular reference to the technical theory of beams.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to perform the design and verification of some simple structural elements, with particular reference to the organs of machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have the tools to critically evaluate the output of a structural software.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Possess the ability to clearly present a technical report on the design of simple structural elements.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental principles of mechanics. Concept of force. Moment of a force. Condition for equilibrium. Engineering applications.",
+    "Introduction to the mechanics of deformable bodies. Analysis of deformable bodies. Uniaxial loading and deformation. Statically determinate situations. Statically indeterminate situations.",
+    "Forces and moments transmitted by slender members. Distributed loads. Resultant of distributed loads. Differential equilibrium relationships. Singularity functions. Three-dimensional problems.",
+    "Stress and strain. Stress. Plane stress. Equilibrium of a differential element in plane stress. Stress components associated with arbitrarily oriented faces in plane stress. Mohr’s circle representation of plane stress. Mohr’s circle representation of a general state of stress. Analysis of displacement. Definition of strain components. Relation between strain and displacement in plane strain. Strain components associated with arbitrary sets of axes. Mohr’s circle representation of plane strain. Mohr’s circle representation of a general state of strain. Measurement of strain.",
+    "Stress-strain-temperature relations. The tensile test. Idealization of stress-strain curves. Elastic stress-strain relations. The effect of temperature on strain. Complete equations of elasticity. Criteria for initial yielding. Behavior beyond yielding in the tensile test. Ductile fracture. Brittle fracture.",
+    "Torsion. Geometry of deformation of a twisted circular shaft. Stress obtained from stress-strain relations. Equilibrium requirements. Stress and deformation in a twisted circular shaft. Torsion of elastic hollow circular shafts. Stress analysis in torsion; combined stress. The onset of yielding in torsion. Torsion of rectangular shafts. Torsion of hollow, thin-walled shafts.",
+    "Stress due to bending. Geometry of deformation of symmetrical beam subjected to pure bending. Stress obtained from stress-strain relations. Equilibrium requirements. Stress and deformation in symmetrical elastic beams subjected to pure bending. Stress in symmetrical elastic beams transmitting both shear forces and bending moments. Bending of unsymmetrical beams. Shear flow in thin-walled open sections; shear center. Stress analysis in bending; combined stresses. The onset of yielding in bending.",
+    "Deflection due to bending. The moment-curvature relation. Integration of the moment-curvature relation. Superposition. The load-deflection differential equation.",
+    "Stability of equilibrium. Buckling. Elastic stability. Examples of instability. Elastic stability of flexible columns. Instability as a mode of failure."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises on the blackboard",
+    "Homework exercises",
+    "Office hours"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam is based on a written test and an oral test. The written test requires solving exercises of the same type as those done in class. The oral test aims to verify the learning of basic theoretical knowledge.",
+  "bibliography": [
+    "S. Crandall, N. Dahl, T. Lardner, An introduction to the mechanics of solids, McGraw-Hill, 1978 ISBN-13 :978-0-07-013441-6",
+    "O. Belluzzi, Building Science, Vol I, Freeman, 1973.",
+    "F.P. Beer, É.R. Johnston, Jr., J.T. Dewolf: Solid Mechanics. Elements of building science (second edition). McGraw-Hill, Milano, 2002.",
+    "L. Corradi Dell'Acqua, Structural Mechanics, Vol I, Mac-Graw Hill, 2010.",
+    "Additional material presented during the lectures."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Parma",
+  "institution_slug": "ec_i_parma01",
+  "degree": "Ingegneria Meccanica (Laurea, L-9)",
+  "course_code": "1011611",
+  "academic_year": "2025/26",
+  "source_url": "https://corsi.unipr.it/en/ugov/degreecourse/287829",
+  "source_language": "en",
+  "source_sha256": "5b62982d1d2f7f96fe6f1e3c93d625e46ce95585c79e2113e76b26b84435cc13",
+  "extracted_at": "2026-11-18T04:07:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

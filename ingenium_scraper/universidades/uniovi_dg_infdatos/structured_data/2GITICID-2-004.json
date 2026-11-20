@@ -1,0 +1,165 @@
+{
+  "course_name_original": "Computabilidad",
+  "course_name_en": "Computability",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Autómatas y Matemáticas Discretas"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply acquired knowledge to elaborate and defend arguments that allow them to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve problems with initiative, make informed decisions, and be autonomous and creative.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Engage in critical and logical reasoning.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have a deep knowledge of the fundamental principles and models of computation and know how to apply them to interpret, select, value, model, and create new concepts, theories, uses, and technological developments.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Handle, fluently, the languages of Propositional Logic and Predicate Logic.",
+      "type": "skill",
+      "code": "FC15"
+    },
+    {
+      "text": "Prove the validity of a simple formula in both logics using different procedures.",
+      "type": "skill",
+      "code": "FC16"
+    },
+    {
+      "text": "Translate simple sentences from natural language to the most appropriate Logic language.",
+      "type": "skill",
+      "code": "FC17"
+    },
+    {
+      "text": "Check the correctness of a simple reasoning.",
+      "type": "skill",
+      "code": "FC18"
+    },
+    {
+      "text": "Understand the concept of an axiomatic system and its relationship with the semantics of Logic.",
+      "type": "knowledge",
+      "code": "FC19"
+    },
+    {
+      "text": "Transform a sentence into its clausal form.",
+      "type": "skill",
+      "code": "FC20"
+    },
+    {
+      "text": "Know and manage the proof procedure using general resolution.",
+      "type": "skill",
+      "code": "FC21"
+    },
+    {
+      "text": "Understand the concept of an algorithm and differentiate what is and what is not algorithmic.",
+      "type": "knowledge",
+      "code": "FC22"
+    },
+    {
+      "text": "Know a model of computation as a framework for constructing codes of computable functions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to adequately use the fundamental results of Computability: Universality, Parametrization, and Recursion.",
+      "type": "skill",
+      "code": "FC23"
+    },
+    {
+      "text": "Understand the concept of unsolvability and know techniques for studying problem solvability to differentiate what is computable from what is not.",
+      "type": "knowledge",
+      "code": "FC24"
+    }
+  ],
+  "syllabus_topics": [
+    "Part 1 Fundamentals of Logic",
+    "Theme 1. Propositional Logic",
+    "Syntax and Semantics",
+    "Semantic proof methods",
+    "Conjunctive and Disjunctive Normal Forms and Propositional Resolution",
+    "Natural Deduction",
+    "Theme 2. Predicate Logic",
+    "Syntax and Semantics",
+    "Clausal Form, Unification, and General Resolution",
+    "Natural Deduction in Predicate Logic",
+    "Part 2 Theory of Computability",
+    "Theme 3. Models of Computation and Computable Functions",
+    "Introduction: Intuitive concept of algorithm",
+    "The model of while programs",
+    "The model of Turing machines",
+    "Church-Turing Thesis",
+    "Theme 4. Fundamental Results and Problem Solvability",
+    "Enumeration of algorithms",
+    "Fundamental theorems: Universality, Parametrization and Recursion",
+    "Algorithmic solvability and unsolvability",
+    "Introduction to algorithmic complexity"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Active participation (PA)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, students must obtain a minimum of 5 out of 10 points in both Partial Exam 1 (P1) and Partial Exam 2 (P2). If these minimums are met, the final grade is calculated as (0.45 x P1) + (0.45 x P2) + (0.10 x PA). If the minimums are not met, the final grade will be the minimum of the calculated score and 4.0. For extraordinary assessments, a single theoretical exam covers both parts (P1 and P2), each requiring a minimum of 5 points out of 10. The final grade is (0.5 x P1) + (0.5 x P2); otherwise, it is the minimum of the calculated score and 4.0. In case of doubt regarding authorship or unauthorized means (e.g., AI tools), students may be asked to defend their work in person.",
+  "bibliography": [
+    "Arenas, L. Lógica Formal para Informáticos. Díaz de Santos",
+    "Cutland, N.J. Computability: An introduction to recursive function theory. Cambridge University Press",
+    "Kfoury, A. J., Moll, R. N., Arbib, M. A. A Programming Approach to Computability. Springer-Verlag",
+    "Julián-Iranzo, P. Lógica Simbólica para Informáticos. Ra-Ma",
+    "Cuena, J. Lógica Informática. Alianza Editorial",
+    "Brookshear, J. G. Teoría de la Computación. Addison- Wesley Iberoamericana",
+    "Garey, M.R.; Johnson, D.S. Computers and Intractability. A Guide to the Theory of NP-Completness. Freeman Company",
+    "Kozen, D. C. Automata and Computability. Springer",
+    "McNaughton, R. Elementary Computability, Formal Languages, and Automata. Prentice-Hall",
+    "Ben-Ari, M. Mathematical Logic for Computer Science. Prentice-Hall",
+    "Huth, M.R.A; Ryan, M.D. Logic in Computer Science. Modelling and reasoning about systems. Cambridge University Press"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-2-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-004",
+  "source_language": "es",
+  "source_sha256": "81c0c1d00b4039d1c120d5aebbbb8d26691f7ef6d46628680d62701b888df5ca",
+  "extracted_at": "2026-11-20T05:57:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

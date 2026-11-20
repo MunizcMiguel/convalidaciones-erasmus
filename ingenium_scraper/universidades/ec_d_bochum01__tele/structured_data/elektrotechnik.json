@@ -1,0 +1,67 @@
+{
+  "course_name_original": "Elektrotechnik",
+  "course_name_en": "Electrical Engineering",
+  "ects": 6.0,
+  "semester": "1. Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematical prior knowledge of the fundamentals of differential and integral calculus and linear algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students master the basics and laws for calculating currents and voltages in electrical DC and AC circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They have the ability to analyze electrical networks, describe them mathematically correctly, and transform them.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They have understood the basics of complex AC circuit calculation and can apply them to practical examples.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Linear DC circuits: reference directions; current and voltage sources; Kirchhoff's equations; simple resistor networks (voltage divider, current divider); real current and voltage sources; interactions between source and load (interconnection of voltage sources, power matching, efficiency); superposition principle; analysis of extensive networks.",
+    "Transition to time-dependent current and voltage forms: overview and introduction of various characteristic quantities (mean value, rectified value, RMS value, maximum value, peak value, peak-to-peak value, oscillation amplitude).",
+    "Alternating current and alternating voltage: phasor diagram; complex AC circuit calculation; description of concentrated RLC components and ideal sources; introduction of locus curves; calculation of simple AC circuits via the complex plane; energy and power in AC voltage; power matching.",
+    "Analysis of networks: mesh current method; nodal potential method.",
+    "Introduction to two-ports: port condition; two-port equations in matrix form (impedance, admittance, hybrid, chain form); two-port properties (reciprocity, symmetry); matrices of elementary two-ports."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 75.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the module exam.",
+  "bibliography": [],
+  "isced_f_code": "0713",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "elektrotechnik",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "67cfca03fd76dbb826571214cf2234d5e41c5482799479089501b417dbc1c096",
+  "extracted_at": "2026-11-20T12:36:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

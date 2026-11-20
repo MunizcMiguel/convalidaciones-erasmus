@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Object oriented programming",
+  "course_name_en": "Object Oriented Programming",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentals of Programming",
+    "Average programming skills in a high level programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student knows to develop software programs and applications using object-oriented design and the C++ programming language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student has the ability to develop, design and create new applications using best practices of the field.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student has the necessary skills to understand and use object-oriented programming concepts to develop software applications of medium complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to demonstrate the differences between traditional imperative design and object-oriented design, to explain class structures as fundamental, modular building blocks, to understand the role of inheritance, polymorphism, dynamic binding and generic structures in building reusable code.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student has the ability to work independently to write small/medium scale C++ programs using GUIs and to use classes written by other programmers when constructing their systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student has the necessary skills to develop GUI applications using architectural templates suitable for specific user interaction applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic elements in C",
+    "Modular programming in C/C++",
+    "Object oriented programming in C++",
+    "Templates and the Standard Template Library",
+    "Inheritance",
+    "Polymorphism",
+    "Streams and exception handling",
+    "Resource management and RAII",
+    "Graphical User Interfaces (GUI)",
+    "Event driven programming elements (Callbacks, Events, Signals and slots in Qt, GUI design)",
+    "Event driven programming elements (Model View Controller pattern, Models and Views in Qt, Using predefined models, Implementing custom models, Case study: Gene manager application)",
+    "Design patterns (Creational, structural, behavioural patterns, Examples)",
+    "Design patterns (Adapter pattern, Observer pattern, Iterator pattern, Composite pattern, Strategy pattern, Case study application and examples)",
+    "Revision",
+    "Simple problems in C. Functions. Structures and vectors.",
+    "Modular programming.",
+    "Classes. Operator overloading. User defined objects as class data members. Templates (dynamic vector).",
+    "Inheritance, polymorphism.",
+    "Files, exceptions. STL containers, iterators, algorithms.",
+    "Graphical User Interfaces",
+    "Complex problems. Implementation based on UML diagrams. Design patterns.",
+    "Setting up a C++ compiler (MSVC/MinGW) and an IDE (Visual Studio). C/C++ general aspects.",
+    "Simple problems (in C).",
+    "Feature-driven software development process. Layered architecture. Test driven development. Modular programming. (I)",
+    "Feature-driven software development process. Layered architecture. Test driven development. Modular programming. (II)",
+    "Object oriented programming in C++. (I)",
+    "Object oriented programming in C++. (II)",
+    "Laboratory test.",
+    "Inheritance and polymorphism.",
+    "Text Files, exceptions. STL containers, iterators and algorithms.",
+    "Laboratory test.",
+    "Qt Graphical User Interfaces. (I)",
+    "Qt Graphical User Interfaces. (II)",
+    "Laboratory test.",
+    "Assignment delivery time."
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Examples",
+    "Didactical demonstration"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination (course)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Practical examination (seminar/laboratory)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Program and documentation portfolio, laboratory assignments and laboratory tests (seminar/laboratory)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Successfully passing the examination requires a minimum grade of 5 for each of the following: laboratory activity, practical test, and written examination. Attendance is compulsory for seminar activities (minimum 5) and laboratory activities (minimum 12) to participate in the examination.",
+  "bibliography": [
+    "B. Stroustrup. The C++ Programming Language, Addison Wesley, 1998.",
+    "Bruce Eckel. Thinking in C++, Prentice Hall, 1995.",
+    "A. Alexandrescu. Programarea moderna in C++: Programare generica si modele de proiectare aplicate, Editura Teora, 2002.",
+    "S. Meyers. Effective C++: 55 Specific Ways to Improve Your Programs and Designs (3rd Edition), Addison-Wesley, 2005.",
+    "S. Meyers. More effective C++: 35 New Ways to Improve Your Programs and Designs, Addison-Wesley, 1995.",
+    "B. Stroustrup. A Tour of C++, Addison Wesley, 2013.",
+    "C++ reference (http://en.cppreference.com/w/).",
+    "Qt Documentation (http://doc.qt.io/qt-6/).",
+    "E. Gamma, R. Helm, R. Johnson, J. Vlissides. Design Patterns: Elements of Reusable Object-Oriented Software, Addison-Wesley Longman Publishing, 1995."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5006",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem2_MLE5006_en_iuliana_2025_9576.pdf",
+  "source_language": "en",
+  "source_sha256": "d3aa66f6986341d1a9ab2daf2f4e5e1ffb84cd3e184ae96d1c686f26fc04d985",
+  "extracted_at": "2026-11-20T09:08:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

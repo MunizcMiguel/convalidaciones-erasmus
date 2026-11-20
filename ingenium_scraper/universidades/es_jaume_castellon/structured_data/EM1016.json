@@ -1,0 +1,131 @@
+{
+  "course_name_original": "Mecànica de Fluids",
+  "course_name_en": "Fluid Mechanics",
+  "ects": 6.0,
+  "semester": "Semester 2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Matemàtiques)",
+    "EM1002 - Càlcul I (Matemàtiques)",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II (Matemàtiques)",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to propose and solve design and analysis problems related to fluid transport.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to analyze physical phenomena related to fluid mechanics through experimentation and deduce empirical expressions for their description.",
+      "type": "skill",
+      "code": "CG01"
+    },
+    {
+      "text": "Be able to perform simple calculations using boundary layer theory and apply them to cases of drag and lift for aerodynamic profiles.",
+      "type": "skill",
+      "code": "CC02"
+    },
+    {
+      "text": "Be able to determine the force exerted by fluids on themselves and on the structures that contain them.",
+      "type": "skill",
+      "code": "CC02"
+    },
+    {
+      "text": "Be able to classify a fluid and its characteristics for different regimes and states.",
+      "type": "skill",
+      "code": "CC02"
+    },
+    {
+      "text": "Know the principles of conservation of mass, momentum, and energy applied to fluids and know how to make simplifications on the equations governing these principles to apply them to simple calculations.",
+      "type": "knowledge",
+      "code": "CC02"
+    },
+    {
+      "text": "Understand Bernoulli's equation and know how to make the necessary assumptions to apply it to engineering cases, as well as the concept of head loss in conduits.",
+      "type": "knowledge",
+      "code": "CC02"
+    }
+  ],
+  "syllabus_topics": [
+    "UD 1: FLUID PROPERTIES",
+    "Basic units",
+    "Extensive and intensive properties",
+    "Fluid properties",
+    "UD 2: FLUID STATICS",
+    "Pressure",
+    "Hydrostatic equation",
+    "Hydrostatic forces",
+    "Flotation",
+    "UD 3: FLUID KINEMATICS",
+    "Velocity fields",
+    "Acceleration fields",
+    "UD 4: INTEGRAL FLUID DYNAMICS",
+    "Basic definitions and Reynolds Transport Theorem",
+    "Integral and differential fluid dynamics",
+    "Integral fluid conservation equations",
+    "UD 5: DIFFERENTIAL FLUID DYNAMICS",
+    "Basic differential fluid equations",
+    "UD 6: INTRODUCTION TO PRESSURE AND OPEN CHANNEL FLOW CALCULATION",
+    "Basic definitions of pipe flow",
+    "Laminar and turbulent pipe flow",
+    "Friction losses",
+    "Simple examples of piping systems",
+    "UD 7: EXTERNAL FLOW AND LIFT",
+    "General characteristics of external flow",
+    "Drag",
+    "Lift",
+    "Simple examples of aerodynamics",
+    "LABORATORY PRACTICES",
+    "1) Study of hydrostatic force on a flat surface and impact of a jet on a surface",
+    "2) Study of Bernoulli's equation",
+    "3) Study of head losses in pipes and singular elements",
+    "4) Study of flow in open channels and fluid drag force on a solid"
+  ],
+  "teaching_methods": [
+    "Lectures (explanations on blackboard and transparencies)",
+    "Exercise and problem solving",
+    "Laboratory work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices and reports",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous assessment tests (partial exams/questionnaires)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "To pass the course, students must obtain at least 5 out of 10 points in the overall average grade. For the first call, the continuous assessment (10% lab reports and questionnaires, 20% partial exams) has no minimum grade, but the final exam (70%) requires a minimum of 4.5 out of 10. If the minimum grade for the final exam is not met, the overall average grade cannot exceed 4.5. In the second call, continuous assessment accounts for 10% (lab reports), and the final exam for 90% (70% original final exam + 20% partial exams recovery), with a minimum of 4.5 out of 10 required for the final exam. For the extraordinary call at the end of studies, the final exam accounts for 100% with no minimum grade.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1016",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1016",
+  "source_language": "ca",
+  "source_sha256": "a15ba11be28ec986bf922dc1a348245b5adfb2dbeee1ae9b4e5aadee908bc02c",
+  "extracted_at": "2026-11-13T22:35:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

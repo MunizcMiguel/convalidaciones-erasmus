@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Bases de Dados (BD25610)",
+  "course_name_en": "Databases",
+  "ects": 6.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Main characteristics of database systems, their architecture and development process",
+    "Information modeling",
+    "Entity-Relationship and Relational Models",
+    "Conversion of E-R models to relational models",
+    "Languages for database querying",
+    "Relational Algebra and Calculus",
+    "SQL",
+    "Integrity Constraints",
+    "Referential integrity",
+    "Integrity in SQL",
+    "Triggers",
+    "Architecture of database applications and their programming",
+    "Stored Procedures",
+    "Data normalization",
+    "Dependency Theory",
+    "Normal Forms, Decomposition and normalization of relational schemas",
+    "Indexing Structures: B+-Tree",
+    "Hash Indexes",
+    "Bitmap Indexes",
+    "Transaction Processing and Recovery in SQL",
+    "Security and Access Control in Databases",
+    "Complex data and XML",
+    "Decision support systems",
+    "Data warehousing",
+    "OLAP",
+    "Data mining methods",
+    "Text search and indexing models",
+    "Evaluation of information retrieval systems"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project (P)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final Exam (Ex)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.5 * (0.5 * E1 + 0.5 * E2 + D) + 0.5 * Max(Ex1, Ex2, ExS). A minimum grade of 8.0 is required for both the project (P) and the exam (Ex). For the special exam period, the assessment is identical to the normal period, but the project must be completed within the normal period deadlines. Worker-students with formal status can choose to do the project individually, with a single submission for E1+E2 by the E2 deadline, and must also complete the oral discussion.",
+  "bibliography": [
+    "Abraham Silberschatz, Henry Korth, S. Sudarshan, Database System Concepts 7th Edition, McGraw-Hill - ISBN-10: [phone], 2020 (main)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "bibliography",
+    "assessment_methods",
+    "syllabus_topics"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "BD25610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192128",
+  "source_language": "pt",
+  "source_sha256": "c9ee2ab1106867262f49ff2eac884b7dc2db3d06da9cdb3a89cc43b067c13841",
+  "extracted_at": "2026-11-20T12:40:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

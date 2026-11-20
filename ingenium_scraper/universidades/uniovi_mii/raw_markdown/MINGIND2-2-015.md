@@ -1,0 +1,188 @@
+---
+{
+ "course_code": "MINGIND2-2-015",
+ "course_name": "Técnicas de Modelado en Ingeniería Energética",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-2-015",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:02:12",
+ "content_sha256": "8b8f49dfa8c2047d6a3e00863935e0579f85d76688f0ff1bb02bf8074f815f03"
+}
+---
+
+# Técnicas de Modelado en Ingeniería Energética
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-2-015
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Optativa
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Prácticas de Laboratorio (21 Horas); Clases Expositivas (17 Horas); Prácticas de Aula/Semina (7 Horas)
+
+## Contextualización
+
+El estudio de los diversos procesos térmicos y de transporte de fluidos en la ingeniería es, muchas veces, complejo y de difícil resolución debido al acoplamiento simultáneo de diversos fenómenos físicos. En dichas ocasiones, un acercamiento analítico a la solución sólo proporciona una estimación de los parámetros relevantes, por lo que es necesario emplear metodologías alternativas para obtener una descripción más precisa del problema. En este contexto, las metodologías experimentales y numéricas encuentran su verdadero campo de aplicación, merced a su versatilidad y potencialidad. En particular, los métodos numéricos permiten el empleo de la potencia de cálculo suministrada por los computadores para resolver las ecuaciones de gobierno, tanto en procesos de transferencia de calor como en flujos de fluidos.
+
+La asignatura se sitúa en el primer semestre del segundo curso del Máster, dentro del Módulo de Intensificación en Energía del Plan de Estudios. El número de créditos ECTS es de 6, de carácter obligatorio dentro de la intensificación para todos los estudiantes.
+
+Esta asignatura pretende completar la formación integral del estudiante en las metodologías básicas empleadas en el estudio de la ingeniería industrial. El estudiante adquirirá los conocimientos necesarios para abordar el desarrollo y resolución de problemas relacionados con la transferencia de calor y el transporte de fluidos usando técnicas numéricas. El amplio abanico de aplicaciones, tanto industriales como fenomenológicas, que presentan las diversas técnicas numéricas, justifica su empleo y dota al estudiante de nuevas estrategias para la resolución de problemas en el ámbito ingenieril.
+
+Además, hoy en día son muchas las empresas de ingeniería que necesitan profesionales capaces de utilizar estos métodos de simulación como una herramienta básica para el diseño y análisis de aplicaciones en la ingeniería industrial. Con esa idea, la asignatura inicia a los estudiantes en el empleo de dichas técnicas con un enfoque práctico y aplicado a múltiples sectores de la industria, como pueden ser el de la automoción o la aeronáutica, la construcción y obra civil, la generación de energía, y el equipamiento y procesos industriales.
+
+El profesorado del Máster puede acreditar una amplia experiencia en el empleo de técnicas numéricas para el estudio y análisis de flujos en el ámbito de la industria y la ingeniería. Se ha llevado a cabo un buen número de proyectos de investigación, en colaboración con reconocidas empresas afincadas en Asturias, como ArcelorMittal, EDP o Saint-Gobain Cristalería. En muchas ocasiones, esas investigaciones han derivado en la publicación de los resultados más notables en relevantes y prestigiosas revistas de carácter internacional (*Internacional Journal for Numerical Methods in Fluids, International Journal of Numerical Methods for Heat & Fluid Flow, Computers & Fluids, Journal of Thermal Science, Journal of Fluids Engineering, International Journal of Thermal Sciences, Applied Thermal Engineering*). Así mismo, el Departamento dispone de importantes recursos computacionales, entre los que destacan varios clusters de ordenadores y equipamiento informático de envergadura para la ejecución de cálculo masivo en paralelo.
+
+## Requisitos
+
+Para cursar de forma adecuada la asignatura es recomendable que el estudiante disponga de conocimientos previos de ecuaciones diferenciales, métodos matemáticos en el ámbito de la ingeniería, programación, mecánica de fluidos, termodinámica, transferencia de calor e ingeniería térmica y de fluidos.
+
+Además, es conveniente que el estudiante esté familiarizado con conceptos básicos que se proporcionan en materias complementarias del Máster, como en la asignatura de “Técnicas de Medidas y Tratamiento de Datos en Ingeniería Energética”.
+
+## Competencias y resultados del aprendizaje
+
+Inicialmente, se trabajarán las competencias básicas (CB) y generales (CG) recogidas en el Módulo 1 de Formación Común, tal y como se especifica en la Planificación de las Enseñanzas de la Memoria de Verificación del Título. En particular, se trata de:
+
+- Poseer y comprender conocimientos que aporten una base u oportunidad de ser originales en el desarrollo y/o aplicación de ideas, a menudo en un contexto de investigación (CB6).
+- Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos más amplios (o multidisciplinares) relacionados con su área de estudio (CB7).
+- Que los estudiantes sean capaces de integrar conocimientos y enfrentarse a la complejidad de formular juicios a partir de una información que, siendo incompleta o limitada, incluya reflexiones sobre las responsabilidades sociales y éticas vinculadas a la aplicación de sus conocimientos y juicios (CB8).
+- Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades (CB9).
+- Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo (CB10).
+- Desarrollar la capacidad de resolución de problemas en entornos nuevos o poco conocidos dentro de contextos multidisciplinares relacionados con la ingeniería energética (CG1).
+- Conseguir la habilidad de integración de conocimientos para formular aplicaciones de desarrollo de nuevas tecnologías energéticas (CG2).
+- Adquirir la habilidad de aprendizaje autónomo que permita continuar estudiando mediante el desarrollo de la capacidad para la búsqueda de documentación especializada en la literatura científico-técnica de vanguardia y de su asimilación (CG3).
+
+Participando de estas competencias se pretende especialmente desarrollar la capacidad de análisis y de síntesis de los estudiantes, sus conocimientos de informática y su capacidad de organización y planificación, así como el aprendizaje autónomo y el razonamiento crítico.
+
+Adicionalmente, las competencias específicas (CE) que se abordarán en la asignatura comprenden:
+
+- Adquisición, procesado y análisis de señales en dominios temporal y frecuencial (CE3).
+- Análisis de incertidumbre de predicciones numéricas y medidas experimentales en procesos térmicos y de fluidos (CE4).
+- Capacidad de identificación, análisis y valoración de los fenómenos básicos dominantes en los procesos fluidomecánicos y de transferencia y aprovechamiento energético de la ingeniería y la industria (CE5).
+- Aplicación de metodologías de análisis computacional para el modelado numérico de flujos y transferencias energéticas de interés (CE6).
+- Análisis fundamental de problemas fluidomecánicos y térmicos de interés en la industria energética, identificando variables fuertes y débiles, y valorando las posibles hipótesis simplificadoras (CE7).
+
+Se pretende, por tanto, potenciar la capacidad para desarrollar modelos teóricos a partir de la observación física del problema y validarlos, que los estudiantes adquieran la destreza necesaria para modelar lo esencial de un proceso físico, comprendiendo y dominando el uso de métodos matemáticos, de forma que sean capaces de desarrollar con autonomía sus destrezas y acometer así investigación básica y aplicada en el ámbito de la Ingeniería Energética.
+
+Todas estas competencias están orientadas a cumplir con los objetivos generales de la asignatura, que se pueden resumir a partir de los siguientes Resultados de Aprendizaje:
+
+- Conocer los modelos físico-matemáticos planteables en procesos de transferencia de masa, cantidad de movimiento y energía, y las simplificaciones a efectuar para resolver las ecuaciones de gobierno.
+- Realizar discretizaciones adecuadas de los dominios geométricos de interés.
+- Seleccionar e imponer de forma adecuada las condiciones iniciales y de contorno, los modelos de flujo y de turbulencia, los criterios de iteración y convergencia, etc.
+- Aplicar códigos numéricos para la resolución y análisis de casos de interés práctico.
+- Valorar la incertidumbre asociada a los cálculos numéricos por análisis de sensibilidad de las predicciones frente a parámetros de cálculo y por comparación con datos experimentales.
+
+Como objetivo transversal, se espera que el estudiante sea capaz de analizar con espíritu crítico los resultados obtenidos numéricamente, comparándolos con las soluciones que predicen los métodos analíticos y las correlaciones experimentales disponibles.
+
+## Contenidos
+
+1.- Modelos físico-matemáticos en procesos de transferencia de masa, cantidad de movimiento y energía. Semejanza en modelos.
+
+2.- Aspectos matemáticos de los procesos de resolución.
+
+3.- Generación de mallas y discretizado temporal.
+
+4.- Modelado de fenómenos difusivos y aplicaciones de transferencia de calor.
+
+5.- Modelado de fenómenos convectivos y aplicaciones con flujos de interés industrial.
+
+6.- Modelado de flujos turbulentos.
+
+7.- Aplicaciones con flujos reactivos, multiespecie y multifásicos.
+
+## Metodología y plan de trabajo
+
+La distribución de la asignatura contempla 45 horas presenciales frente a 105 horas no presenciales. Dada la importancia que se le concede a la capacidad del estudiante para desarrollar sus propios códigos, así como para utilizar adecuadamente programas de resolución numérica, se les ha dado una gran relevancia a las horas de prácticas en el aula de informática (21 horas de PL). Estas prácticas serán, además, complementarias con prácticas de aula (7 horas de PA), en las que se trabajarán aspectos metodológicos relacionados con la implantación de modelos. Por último, se han planificado 14 horas de clases expositivas (CEX) que, junto con la evaluación final (3 h), completan la docencia presencial de la asignatura.
+
+Adicionalmente, se proporcionarán diversos contenidos on-line para el bloque de trabajo no presencial del estudiante. Esta parte de la planificación es muy importante porque permitirá proporcionar a los estudiantes de material de trabajo diseñado específicamente para alcanzar los objetivos de aprendizaje propuestos.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  | **TRABAJO NO PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva (CEX)* | *Prácticas de informática (PL)* | *Prácticas de aula (PA)* | *Sesiones de Evaluación (EVA)* | ***Total*** | *Trabajo individualizado* | *Trabajo de programación* | ***Total*** |
+| **1.- Modelos físico-matemáticos.** | **6.0** | **2** |  |  |  | **2.0** | **4** |  | **4.0** |
+| Transferencia de calor y masa | 3 | 1 |  |  |  | 1 | 2 |  | 2 |
+| Transferencia de cantidad de movimiento | 3 | 1 |  |  |  | 1 | 2 |  | 2 |
+| **2.- Aspectos matemáticos de los procesos de resolución.** | **21.5** | **2.5** | **6** | **3** |  | **11.5** | **10** |  | **10.0** |
+| Diferencias finitas | 14.5 | 0.5 | 3 | 1 |  | 4.5 | 5 |  | 5 |
+| Condiciones iniciales y de contorno | 0.5 | 0.5 |  |  |  | 0.5 |  |  |  |
+| Métodos iterativos | 1.0 | 0.5 |  | 0.5 |  | 1 |  |  |  |
+| Volúmenes finitos | 14.5 | 0.5 | 3 | 1 |  | 4.5 | 5 |  | 5 |
+| Convergencia y estabilidad | 1.0 | 0.5 |  | 0.5 |  | 1 |  |  |  |
+| **3.- Generación de mallas y discretizado temporal.** | **2.5** | **1.5** | **1** |  |  | **2.5** |  |  |  |
+| **4.- Modelado de fenómenos difusivos. Aplicaciones de transferencia de calor.** | **53.5** | **2** | **6** | **2** | **1.5** | **11.5** | **21** | **21** | **42.0** |
+| **5.- Modelado de fenómenos convectivos. Aplicaciones a flujos de interés industrial.** | **32.5** | **2** | **4** | **1** | **1.5** | **8.5** | **12** | **12** | **24.0** |
+| **6.- Modelado de flujos turbulentos.** | **15.0** | **2** | **2** | **1** |  | **5.0** | **10** |  | **10.0** |
+| **7.- Aplicaciones con flujos reactivos, multiespecie y multifásicos.** | **19.0** | **2** | **2** |  |  | **4.0** | **15** |  | **15.0** |
+| **Total** | **150.0** | **14** | **21** | **7** | **3** | **45.0** | **72** | **33** | **105.0** |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas (CEX) | 14 | 9.33 | **45.0** <br> **(30%)** |
+|  | Prácticas de Informática (PL) | 21 | 14.0 |  |
+|  | Prácticas de Aula (PA) | 7 | 4.66 |  |
+|  | Sesiones de Evaluación (EVA) | 3 | 2.0 |  |
+| No presencial | Estudio individualizado | 72 | 48.0 | **105.0** <br> **(70%)** |
+|  | Trabajo de programación | 33 | 22.0 |  |
+|  | Total | **150.0** | 100.0 |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen final (EF): Supone el 50% de la calificación final de la asignatura. Consta de una prueba escrita a realizar al final del semestre en la fecha establecida en el “Calendario de Exámenes” correspondiente a la convocatoria oficial. Se evalúan todos los contenidos de la asignatura. Para aprobar la asignatura en la convocatoria ordinaria es necesario obtener una nota mínima de 3.5 puntos sobre 10 en este examen. Si la calificación de este examen es inferior a 3.5 puntos, la calificación final obtenida al ponderar la nota del examen junto con el resto de las actividades se limitará a un valor máximo de 3.5 puntos.
+- Asistencia a prácticas (AP): Supone el 10% de la calificación final de la asignatura. Para poder obtener una puntuación en este apartado, es necesario haber asistido a un mínimo del 50% de las sesiones totales programadas en la asignatura. La calificación obtenida será válida para las convocatorias de mayo y junio del curso académico correspondiente, así como para la convocatoria de enero del curso académico siguiente.
+- Informes de prácticas (IP): Supone el 40% de la calificación final de la asignatura. Consta de dos partes (IP1 e IP2), ponderadas a partes iguales, es decir, tanto IP1 como IP2 suponen un 20% de la nota final. La parte 1 consiste en el desarrollo de pequeños códigos numéricos, incluyendo su implementación y ejecución, para resolver problemas tipo de transferencia de calor y movimiento de fluidos; mientras que la parte 2 se centra en la utilización de software comercial para resolución de problemas típicos de aplicación industrial. No se establece nota mínima específica para este elemento evaluable. La calificación obtenida será válida para las convocatorias de mayo y junio del curso académico correspondiente, así como para la convocatoria de enero del curso académico siguiente.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+0.5xEF + 0.1xAP + 0.4xIP
+
+Consideraciones
+
+- Los informes de prácticas podrán valorarse en el Aula, evaluando in situ el desempeño y progreso del alumnado en el aula de informática, o bien a partir de la entrega de informes de las actividades realizadas que serán calificados posteriormente para su aplicación en la fórmula de calificación.
+- En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA en su caso), se podrá solicitar al estudiante su defensa presencial.
+- De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir métodos de evaluación no presencial, en cuyo caso se informará a los estudiantes de los cambios efectuados
+
+**Convocatoria extraordinaria**
+
+Los criterios de evaluación son los mismos que en la convocatoria ordinaria. En caso de que el alumnado no hubiese realizado ninguna actividad ligada a prácticas (asistencia y/o informes), el examen final será la única prueba a realizar, ponderándose exclusivamente en un 75%. Por tanto, será necesario obtener una nota mínima de 6.7 puntos (sobre 10) en dicho examen final para aprobar la asignatura. La nota de acta en este caso será el 75% de la nota obtenida en el examen (sobre 10).
+
+**Evaluación diferenciada**
+
+Los estudiantes a los que el Centro conceda la evaluación diferenciada deberán realizar el examen, que tendrá un peso del 70% en la calificación final, así como tareas de desarrollo de códigos y utilización de software, que se deberán entregar dentro del plazo que fijen los profesores y tendrán un peso del 30% en la calificación final (15% desarrollo de códigos y 15% utilización de software). En este caso, es necesario alcanzar una nota mínima de 4.0 puntos sobre 10 en el examen para hacer la ponderación de todas las actividades.
+
+## Bibliografía
+
+**Bibliografía básica**
+
+- Moin, P., “Fundamentals of Engineering Numerical Analysis”, Cambridge University Press, 2012.
+- Pletcher, R.H., Tannehill, J.C., Anderson, D.A., “Computational Fluid Dynamics and Heat Transfer”. CRC Press, 2013.
+- Versteeg, H.K., Malalasekera, W., “An Introduction to Computational Fluid Dynamics: The Finite Volume Method”. Ed. Pearson, Prentice-Hall, 2007.
+- Hirsch, C., “Numerical Computation of Internal and External Flows”. Ed. John Wiley & Sons, 1990.
+- Bergmann, T.L., Lavine, A.S., Incropera, F.P., Dewitt, D.P. “Fundamentals of Heat and Mass Transfer”. Ed. John Wiley & Sons, 2011.
+- Fernández Oro, J.M., "Técnicas Numéricas en Ingeniería de Fluidos", Ed. Reverté, 2012.
+
+**Bibliografía complementaria**
+
+- ANSYS-FLUENT User’s Guide 2019 R2
+- ANSYS-FLUENT Theory Guide 2019 R2
+- Hunt, B.R., Lipsman, R.L., Rosenberg, J.M., Coombes, K.R., Osborn, J.E., Garrett, J.S., “A Guide to Matlab for Beginners and Experienced Users”. Ed. Cambridge Univ. Press, 2006.
+- Chung, T.J., “Computational Fluid Dynamics”. Ed. Cambridge Univ. Press, 2002.
+- Mills, A.F., “Transferencia de Calor”, Ed. Irwin,1995.
+- Patankar, S.V., “Numerical Heat Transfer and Fluid Flow”, Hemisphere Publishing Corporation, New York, 1980.

@@ -1,0 +1,95 @@
+{
+  "course_name_original": "Análisis y Recuperación de Información Textual",
+  "course_name_en": "Textual Information Analysis and Retrieval",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Machine Learning (I and II)",
+    "Deep Learning"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the main natural language processing techniques.",
+      "type": "knowledge",
+      "code": "RANA1"
+    },
+    {
+      "text": "Apply NLP techniques for text categorization and sentiment analysis.",
+      "type": "skill",
+      "code": "RANA2"
+    },
+    {
+      "text": "Know how to represent a social network in graph format.",
+      "type": "skill",
+      "code": "RANA3"
+    },
+    {
+      "text": "Know the main techniques and methods for analyzing the structure and content of social networks.",
+      "type": "knowledge",
+      "code": "RANA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to text processing: Character encoding standards and fundamentals of working with digital texts and corpora.",
+    "Formal languages and regular expressions: Deterministic finite automata and use of regular expressions for identifying and extracting patterns in text.",
+    "Text extraction and processing from documents: Obtaining text from document formats such as PDF and designing software for scalable processing of heterogeneous corpora from variable sources.",
+    "Lexical analysis and classical preprocessing: Tokenization, normalization, lemmatization, stemming and other techniques for preparing corpora for analysis.",
+    "Vector representation of texts: Classic representation models (bag-of-words, TF, TF-IDF) and introduction to embeddings.",
+    "Use cases of language models: Use of pre-trained language models for various natural language processing tasks. Application of vector representations to text classification tasks and automatic entity detection, among other token classification tasks.",
+    "Adaptation of language models and conversational systems: Fine-tuning pre-trained models for specific tasks and development of conversational systems based on language models.",
+    "Information retrieval: Retrieval models based on indices and textual information, evaluation using standard metrics and development of applications based on corpus search.",
+    "Retrieval Augmented Generation (RAG): Integration of language models with information retrieval systems to build question-answering systems over document corpora.",
+    "Network and graph analysis: Construction of graphs from textual data, similarity measures and community detection."
+  ],
+  "teaching_methods": [
+    "Lectures (face-to-face)",
+    "Online lectures (asynchronous)",
+    "Laboratory practices (face-to-face)",
+    "Online laboratory practices (asynchronous)",
+    "Evaluation sessions",
+    "Autonomous study of theory",
+    "Autonomous problem solving",
+    "Study and preparation of laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Participation in seminars and online or face-to-face continuous evaluation activities (PA)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Theory evaluation (EVT)",
+      "weight_percentage": 42.5
+    },
+    {
+      "method": "Practice evaluation (EVP)",
+      "weight_percentage": 42.5
+    }
+  ],
+  "assessment_rules": "The final grade is 0.15*PA + 0.425*EVT + 0.425*EVP, provided that the individual grades for each theory and practice evaluation are greater than 4 out of 10. Otherwise, the final grade will be min(4, 0.15*PA + 0.425*EVT + 0.425*EVP). For the practice part, EVP = 0.6*EVP_1 + 0.4*EVP_2, with each part needing a minimum score of 4 out of 10. For the theory part, EVT is the weighted average of the three blocks, provided each part is 4 or more out of 10. In extraordinary calls, the same weightings and minimums apply.",
+  "bibliography": [
+    "Manning, C. D., Raghavan, P, Schütze, H. (2008). Introduction to Information Retrieval. Cambridge, UK: Cambridge University Press. ISBN: 978-0-521-86571-5",
+    "Indurkhya, N., Damerau, F. J. (2010). Handbook of Natural Language Processing. Chapman & Hall/CRC. ISBN: 1420085921, 9781420085921.",
+    "Liu, B. (2015). Sentiment Analysis - Mining Opinions, Sentiments, and Emotions. Cambridge University Press. ISBN: 978-1-10-701789-4.",
+    "Vajjala, S., Majumder, B., Gupta, A., & Surana, H. (2020). Practical natural language processing: A comprehensive guide to building real-world NLP systems. O’Reilly Media.",
+    "Galety, M. G., Al Atroshi, C., Balabantaray, B., & Mohanty, S. N. (Eds.). (2022). Social network analysis: Theory and applications. Standards Information Network. Willey.",
+    "Sonawane, S. S., Mahalle, P. N., & Ghotkar, A. S. (2022). Information retrieval and natural language processing: A graph theory approach (1st ed.). Springer."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-015",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-015",
+  "source_language": "es",
+  "source_sha256": "560440f2a1b0fe21f1f27c721411af8b2a931ac49b85bac988bf67742844f35f",
+  "extracted_at": "2026-11-20T06:06:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,132 @@
+{
+  "course_name_original": "Sistemas de Radiodeterminación",
+  "course_name_en": "Radiodetermination Systems",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Prior knowledge of Television and Broadcasting, Radiofrequency and Microwave Technologies, Mobile Communications, Signal Processing, Terrestrial and Satellite Radiocommunications, Telecommunication Systems, Propagation and Radiation.",
+    "Solid foundation in signal processing, radiation, and radiopropagation.",
+    "For activities in English, B2 level certification (or equivalent) is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Read, draft, and prepare documentation in English on a scientific-technical topic within the field of study.",
+      "type": "skill",
+      "code": "RA-14.8"
+    },
+    {
+      "text": "Deliver a presentation in English on a scientific-technical work within the field of study.",
+      "type": "skill",
+      "code": "RA-14.9"
+    },
+    {
+      "text": "Associate technical specifications with transmission and reception topologies as well as their constituent subsystems.",
+      "type": "skill",
+      "code": "RA-14.10"
+    },
+    {
+      "text": "Understand and apply the fundamental principles of radiodetermination.",
+      "type": "knowledge",
+      "code": "RA-14.15"
+    },
+    {
+      "text": "Program applications for navigation and localization simulation.",
+      "type": "skill",
+      "code": "RA-14.16"
+    },
+    {
+      "text": "Identify and select circuits and subsystems for radiodetermination systems.",
+      "type": "skill",
+      "code": "RA-14.17"
+    },
+    {
+      "text": "Analyze navigation and localization systems.",
+      "type": "skill",
+      "code": "RA-14.18"
+    }
+  ],
+  "syllabus_topics": [
+    "Block 1. Radar systems",
+    "1.1. Radar fundamentals",
+    "1.2. Pulse radar.",
+    "1.3. Continuous wave radar (CW and FMCW).",
+    "1.4. Tracking radar.",
+    "Block 2. Radionavigation systems",
+    "2.1. Basic principles of radionavigation",
+    "2.1.1. Positioning based on Time of Arrival (ToA / ToF).",
+    "2.1.2. Positioning based on Angle of Arrival (AoA).",
+    "2.1.3. Positioning based on Doppler velocity measurement.",
+    "2.2. Air navigation and landing aids",
+    "2.2.1. Radiogoniometry",
+    "2.2.2. Radio beacons (NDB, VOR, DME).",
+    "2.2.3. Approach and landing aids (ILS, MLS, LAAS).",
+    "2.3. Satellite navigation systems (GNSS):",
+    "2.3.1. General characteristics",
+    "2.3.2. GNSS system operation",
+    "2.3.3. GPS, GLONASS, GALILEO, COMPASS",
+    "2.3.4. Enhanced precision GNSS: SBAS, RTK, PPP.",
+    "2.3.5. Error sources in GNSS.",
+    "2.4. Localization in indoor environments",
+    "2.4.1. Methods (RSS, Cell-ID, Fingerprinting).",
+    "2.4.2. Technologies (WiFi, RFID, ZigBee, Bluetooth).",
+    "2.5. Localization in cellular networks",
+    "2.5.1. Localization in 3G and 4G networks.",
+    "2.5.2. Localization in 5G networks.",
+    "Activities in English"
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom practices (exercises, seminars, conferences)",
+    "Laboratory practices (group work, simulations, measurements, critical analysis)",
+    "Group tutorials (feedback, discussion, doubt resolution)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exam (theoretical, theoretical-practical questions, exercises and problems)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Continuous assessment: Laboratory work (presential and non-presential, reports, questionnaires, public presentations)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Continuous assessment: Delivery of proposed exercises and assignments",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "In the ordinary sitting, a final written exam accounts for 60% of the grade, and continuous assessment accounts for 40%. Continuous assessment includes 30% for laboratory work and 10% for assignments, with 7.5% of the continuous assessment grade from English language activities. A minimum score of 4.5/10 on the final exam is required to pass the subject; if this minimum is not met, the final grade will be the lesser of 4.9 and the weighted average. In the extraordinary sitting, the exam accounts for 70% of the final grade, and the continuous assessment grade from the semester is retained for the remaining 30%. The same minimum exam score of 4.5/10 applies for passing in the extraordinary sitting.",
+  "bibliography": [
+    "Y. Álvarez, F. Las-Heras, “Colección de ejercicios de radar y radiolocalización”. (Segunda Edición, 2020). Servicio de Publicaciones. Universidad de Oviedo. <https://bit.ly/33g5Kg0>",
+    "C. Wolff. Radartutorial.eu. Disponible en: <https://www.radartutorial.eu/index.es.html>",
+    "Javier Ventura-Traveset, et al. Enciclopedia/glosario de términos Wiki “Navipedia”. Disponible en: <http://www.navipedia.net/index.php/Main_Page>",
+    "Adrián Cardalda, Stefan Maier, Abhay Phillips. “Location Based Service in Cellular Networks: from GSM to 5G NR”. 2020. <https://www.amazon.es/Location-Based-Service-Cellular-Netwo/dp/1630816345>",
+    "Stefania Bartoletti, Andrea Conti, Davide Dardari, and Andrea Giorgetti, “5G Localization and Context-Awareness”. <https://www.5gitaly.eu/2018/wp-content/uploads/2019/01/5G-Italy-White-eBook-5G-Localization.pdf>",
+    "J. Sanz Subirana, J.M. Juan Zornoza and M. Hernández-Pajares, “GNSS Data Processing. Volume I: fundamentals and algorithms” (May 2013). <https://gssc.esa.int/navipedia/GNSS_Book/ESA_GNSS-Book_TM-23_Vol_I.pdf>",
+    "J. Kayton and L. Fiend. “Avionics Navigation Systems”. 2nd edition (April 1997) John Wiley Sons ISBN: 0471547956",
+    "E. Kaplan. “Understanding GPS: Principles and Applications”. (March 1996) Artech House; ISBN: 0890067937.",
+    "Charles E. Cook, Marvin Bernfeld. “Radar Signals: An Introduction to Theory and Application”. (December 1993) Artech House Publishers; ISBN: 0890067333.",
+    "Gregory T. French, “Understanding the GPS: An Introduction to the Global Positioning System”. (April 1997) Baker GeoResearch, Inc.; ISBN: 1566902258",
+    "Adrian Wallwork (2013) English for Academic Research: Writing Exercises. New York: Springer.",
+    "Bailey, S. (2011) Academic Writing: A Handbook for International Students. Oxford: Routledge.",
+    "Glendinning, H. (2008) Oxford English for Careers: Technology 2. Oxford: Oxford University Press.",
+    "Lynch, T. and Kenneth Anderson (2016). Grammar for Academic Writing. English Language Teaching Centre: University of Edinburgh."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-003",
+  "source_language": "es",
+  "source_sha256": "82059da5a25c1b0c6c09eaa27ab5fd4b7932bf80613e98daf3fca43a5adbd033",
+  "extracted_at": "2026-11-20T06:04:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

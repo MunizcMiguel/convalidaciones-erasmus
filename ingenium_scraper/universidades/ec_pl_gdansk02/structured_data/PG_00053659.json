@@ -1,0 +1,91 @@
+{
+  "course_name_original": "CNC programming",
+  "course_name_en": "CNC Programming",
+  "ects": 2.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic engineering knowledge of machining",
+    "machine tool construction",
+    "cutting tools"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student is able to design a CNC machining programme including the selection of tools and cutting parameters.",
+      "type": "skill",
+      "code": "K6_U08"
+    },
+    {
+      "text": "The student is able to estimate costs of manufacturing with the use of CNC machine tools.",
+      "type": "skill",
+      "code": "K6_U09"
+    },
+    {
+      "text": "The student has knowledge of the basic programming languages for CNC machine tools. He/she has knowledge about the basics of creating machining programmes.",
+      "type": "knowledge",
+      "code": "K6_W11"
+    },
+    {
+      "text": "The student has knowledge of how to prepare a semi-finished product for the machining process on CNC machine tools. He/she has knowledge about the types of subcontracting services available to prepare a semi-finished product of sufficient quality.",
+      "type": "knowledge",
+      "code": "K6_W12"
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of CNC machine tools",
+    "Basic CNC controllers and their programming languages",
+    "Design of a CNC machining programme",
+    "Basic programming in ISO code (G code)",
+    "Basic programming in Heidenhain",
+    "Parametric programming",
+    "Use of logical functions in CNC programming",
+    "CNC programming on Heidenhain and ISO-God control for turning and milling processes",
+    "Execution of a machining programme for a mechanical component"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory",
+    "Project"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Laboratory",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Lecture",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "A passing threshold of 60.0% is required for the Project, Laboratory, and Lecture components.",
+  "bibliography": [
+    "Kaushik Kumar, Chikesh Ranjan, J. Paulo Davim. CNC Programming for Machining. Springer International Publishing, 1st Edition, 2020, p.136. DOI: 10.1007/978-3-030-41279-1",
+    "Fundamentals of CNC Machining. A Practical Guide for Beginners. Compliments of Autodesk, Inc. USA, 2014",
+    "Users Manual HEIDENHAIN Conversational TNC 640, 4, 2012",
+    "Lathe Operators Manual. December 2018, English, Original Instructions, Haas Automation Inc., U.S.A. HaasCNC.com",
+    "Graham T. Smith. CNC Machining Technology. Volume 3: Part Programming Techniques. Springer-Verlag London, 1993, p. 137. DOI: 10.1007/978-1-4471-1748-3"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gdańsk University of Technology (Politechnika Gdańska)",
+  "institution_slug": "ec_pl_gdansk02",
+  "degree": "Mechanical Engineering, first-cycle (engineer), specialization Design and Production Engineering",
+  "course_code": "PG_00053659",
+  "academic_year": "2023-2024 (cohorte de inicio; fichas 2023/24-2026/27)",
+  "source_url": "https://ects.pg.edu.pl/en/subjects/389425/card.pdf",
+  "source_language": "en",
+  "source_sha256": "1c3ca75365dc9b427962b08cb469f6a148f291eff8fe6d67a0dcfd2151a4ca55",
+  "extracted_at": "2026-11-20T09:06:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

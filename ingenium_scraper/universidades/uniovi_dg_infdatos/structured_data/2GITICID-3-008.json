@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Modelos Estadísticos de Predicción",
+  "course_name_en": "Statistical Prediction Models",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Probabilidad",
+    "Ampliación de Matemáticas",
+    "Inferencia Estadística"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Obtain a prediction model based on the simple linear regression model.",
+      "type": "unspecified",
+      "code": "RMODP1"
+    },
+    {
+      "text": "Perform a critical analysis of the assumptions on which the model is based, and statistically analyze if these are verified using statistical inference techniques.",
+      "type": "unspecified",
+      "code": "RMODP2"
+    },
+    {
+      "text": "Properly apply multiple linear regression techniques and perform an inferential statistical analysis of the model's assumptions.",
+      "type": "unspecified",
+      "code": "RMODP3"
+    },
+    {
+      "text": "Understand the different types of time series and the components of a time series.",
+      "type": "unspecified",
+      "code": "RMODP4"
+    },
+    {
+      "text": "Apply exponential smoothing models to make predictions with a time series.",
+      "type": "unspecified",
+      "code": "RMODP5"
+    },
+    {
+      "text": "Use ARIMA models, adequately estimating their components and making predictions.",
+      "type": "unspecified",
+      "code": "RMODP6"
+    },
+    {
+      "text": "Critically analyze models and apply the most appropriate one in each case.",
+      "type": "unspecified",
+      "code": "RMODP7"
+    },
+    {
+      "text": "Apply predictive modeling techniques to real data cases.",
+      "type": "unspecified",
+      "code": "RMODP8"
+    }
+  ],
+  "syllabus_topics": [
+    "Predictive models according to data type. Basic steps in prediction. Statistics in predictive models.",
+    "Simple linear regression. Model formulation and estimation. Model assumptions. Inference for model parameters. Goodness of fit. Prediction.",
+    "Multiple linear regression. Model formulation and estimation. Model assumptions. Inference for model parameters. ANOVA and model adjustment. Model selection. Use of qualitative predictors. Diagnostic model and multicollinearity.",
+    "Predictions for time-measured data. Time series decomposition: localization, trend, and seasonality. Simple prediction methods. Linear models in time series. Goodness of fit. Model validation.",
+    "Exponential smoothing models: basic, double, triple. Likelihood-based models.",
+    "Stationarity. Lag operators. Autoregressive models. Moving average models. Non-seasonal and seasonal ARIMA models."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Laboratory practices",
+    "Expository classes",
+    "Academic tutoring",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical-practical exam (F)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Theoretical continuous assessment tests (CT)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Activities on the Virtual Campus (CV)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Attendance and participation (AP)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Reports, assignments and practical exercises (EP)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical controls (CP)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 3.5 out of 10 is required on the final theoretical-practical exam. If this minimum is met, the final grade is calculated as 0.35F + 0.10CT + 0.10CV + 0.05AP + 0.20EP + 0.20CP. If the minimum is not met, the final grade will be the minimum between the calculated score and 4.0. For extraordinary calls, students can either maintain continuous assessment grades (Option 1) or retake theoretical and practical continuous assessment tests (Option 2). Option 1 requires a minimum of 3.5 on the final theoretical-practical exam (F), and the same formula as the ordinary call applies; otherwise, the grade is the minimum of the calculated score and 4.0. Option 2 requires a minimum of 3.5 on the final theoretical exam (FT), with the final grade calculated as 0.45FT + 0.10CV + 0.05AP + 0.20EP + 0.20FP; otherwise, the grade is the minimum of the calculated score and 4.0. For the advanced extraordinary call and differentiated assessment, the final grade is calculated as 0.60FT + 0.40FP, with a minimum of 3.5 required on the theoretical exam (FT); otherwise, the grade is the minimum of the calculated score and 4.0.",
+  "bibliography": [
+    "Peña, D. (1994). Estadística. Modelos y métodos. Volumen 2. Modelos lineales y series temporales. Alianza Universidad Textos.",
+    "Faraway, J. J. (2015). Linear Models with R (2nd ed.). Chapman and Hall/CRC.",
+    "Faraway, J. J. (2016). Extending the Linear Model with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models. Chapman and Hall/CRC.",
+    "Fernández-Avilés, G., & Montero, J. M. (2024). Fundamentos de Ciencia de Datos con R. McGraw Hill. Disponible en: https://cdr-book.github.io/index.html Se recomienda especialmente el Capítulo 15: Modelización lineal: https://cdr-book.github.io/cap-lm.html",
+    "Hyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and Practice (3rd ed.). OTexts. Disponible en: https://otexts.com/fpp3/",
+    "Peña, D. (2005). Análisis de series temporales. Alianza Universidad Textos.",
+    "Cryer, J. D., & Chan, K.-S. (2008). Time Series Analysis: With Applications in R (2nd ed.). Springer.",
+    "Wickham, H., & Grolemund, G. (2023). R for Data Science (2nd ed.). O’Reilly. Disponible en: https://r4ds.hadley.nz/ Traducción al español disponible en: https://es.r4ds.hadley.nz/",
+    "James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning with Applications in R (2nd ed.). Springer. Disponible en abierto en: https://www.statlearning.com"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-3-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-3-008",
+  "source_language": "es",
+  "source_sha256": "bbb77056c17829b9921ca91d14013eb75463d9d35584398096474b68bd655812",
+  "extracted_at": "2026-11-20T05:57:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

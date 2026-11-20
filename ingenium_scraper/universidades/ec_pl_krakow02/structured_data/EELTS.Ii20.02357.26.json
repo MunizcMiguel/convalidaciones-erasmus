@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Measurement Systems",
+  "course_name_en": "Measurement Systems",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [
+    "Basic knowledge of circuit theory",
+    "basic metrology",
+    "electronics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands basic concepts related to measurement systems, knows their structure and areas of application.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Has structured knowledge regarding the construction of selected sensors and their static and dynamic properties.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands the operating principles of basic analog and digital elements used in measurement systems.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows and understands the principles of A/D and D/A conversion, sources and effects of interference in measurement systems, and methods for their elimination.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Can select sensors and transducers with properties appropriate for the given measurement task.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can design a simple measurement system, build a model of a selected element of such a system, and conduct its simulation tests, as well as build and independently commission it and develop its documentation.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can perform measurements using a measurement card and efficiently and consciously use 'instrument' systems, such as a multimeter and digital oscilloscope, and communicate with them via an interface.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Can plan team work and work efficiently and safely within the team.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Is aware of the rapidly changing technical and technological possibilities in the field of modern measurement systems and understands the need for continuous self-improvement.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Is aware of the responsibility for their own work and the work of the team they work in and is ready to comply with the principles of teamwork.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and formal matters e.g. OHS (1 hour)",
+    "Basic concepts: Measurement system and arrangement, functions, division, areas of application and methods of designing measurement systems, structure and functional units of the system, exemplary solutions for measurement system structures (instrument systems, modular systems, measurement card, digital recorders, etc.).",
+    "Analysis of low-pass filter properties",
+    "Sensors and measurement transducers: Basic information about sensors and measurement transducers, static and dynamic properties of transducers, frequency characteristics, undistorted processing, errors of measurement transducers.",
+    "Analog elements of measurement systems: Operational amplifier, its properties and operating circuits, analog filters and methods of their design, modulation circuits, analog multiplexers.",
+    "Analysis of band-pass filter properties",
+    "Digital technique elements in measurement paths: Basics of Boolean algebra, combinatorial and sequential circuits, basic functors (gates) and their static and dynamic properties, flip-flops, counters and registers, transcoders and decoders, digital multiplexers, optical separation methods.",
+    "Testing the properties of an analog multiplexer",
+    "Parallel interference and methods of their minimization",
+    "Basics of A/D and D/A conversion: Stages of A/D conversion: sampling, quantization, coding; sampling theorem, its assumptions and limitations; aliasing phenomenon and methods of preventing it; construction and operating principles of D/A and A/D converters and their basic properties.",
+    "Measurement system with a universal multimeter (RS232 interface)",
+    "Digital measurements of electrical quantities: Methods of digital measurement of voltages, currents, power, energy, time, frequency and phase shift angle. Errors and limitations of digital measurements.",
+    "Testing the properties of a measurement path with amplitude modulation",
+    "Interfaces used in measurements: Interface, interface system, serial and parallel interfaces, protocols and hardware layer; RS232, RS485, USB, IEEE488 (IEC625), bus systems VME (VXI), PXI.",
+    "Programmable digital circuits",
+    "Measurement cards, digital oscilloscope, digital recorders: Construction and basic properties of measurement cards and digital recorders, method of their selection for a specific measurement task, digital oscilloscope, construction, properties, parameters, methods of triggering and sampling used in digital oscilloscopes, the problem of proper and perceptual distortion.",
+    "Programmable analog circuits",
+    "Interference in measurement systems: Sources of interference, series and parallel interference, measures of interference, methods of protection against interference (shielding, twisting wires, filtration, circuit symmetrization, galvanic isolation), construction and properties of galvanic isolators.",
+    "Integration of a simple measurement system",
+    "Software for integration of measurement systems: Examples of integration software: LabView, Dasylab etc.; possibilities of use, drivers, basic functions etc.",
+    "Knowledge check"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 118.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by an examination. Laboratory classes are verified by the execution and completion of laboratory classes. Students are required to prepare for laboratory exercises, which may be verified by an oral or written colloquium. Passing the module is possible after passing all laboratory classes.",
+  "bibliography": [
+    "Stabrowski M.: Miernictwo elektryczne - cyfrowa technik pomiarowa. PWN, Warszawa 2002",
+    "Gajda J., Szyper M.: Modelowanie i badania symulacyjne systemów pomiarowych. Wyd. Jartek, Kraków 1998",
+    "Nawrocki W.: Komputerowe systemy pomiarowe. WKŁ, Warszawa 2002",
+    "Nawrocki W.: Rozproszone systemy pomiarowe. WKŁ, Warszawa 2006",
+    "Kulka z., Libura A., Nadachowski M.: Przetworniki A/C i C/A. WKŁ, Warszawa 1987",
+    "Nowakowski W.: Systemy interfejsu w miernictwie. WKŁ, Warszawa 1987"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.02357.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/b8fff5a4-901f-419d-bedc-ccc460269903.html",
+  "source_language": "pl",
+  "source_sha256": "b5a7805569cad1c558563e44e840918718cfe11e28fb6d528d25c38c6c29fea5",
+  "extracted_at": "2026-11-20T09:03:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

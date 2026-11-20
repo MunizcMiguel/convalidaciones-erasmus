@@ -1,0 +1,183 @@
+{
+  "course_name_original": "Campos Y Ondas",
+  "course_name_en": "Fields and Waves",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Successful completion of Physics I and Physics II (or similar) from the first year of an Engineering degree or Science program.",
+    "Successful completion of differential calculus of one or several variables, linear algebra, vector analysis, and basic knowledge of ordinary and partial differential equations.",
+    "Review of secondary education knowledge in trigonometry, geometry, vector calculus, and proficient handling of elementary operations with complex numbers."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, although supported by advanced textbooks, also includes some aspects involving knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Understanding and mastery of basic concepts about the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism, and their application to solve engineering problems.",
+      "type": "knowledge",
+      "code": "CEB2"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG.3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "skill",
+      "code": "CG.4"
+    },
+    {
+      "text": "Ability to handle specifications, regulations, and mandatory standards.",
+      "type": "skill",
+      "code": "CG.6"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "skill",
+      "code": "CG.10"
+    }
+  ],
+  "syllabus_topics": [
+    "Theory of general fields",
+    "Gravitational field",
+    "Electromagnetic field",
+    "Vector algebra",
+    "Orthogonal coordinate systems",
+    "Gradient of a scalar field",
+    "Divergence and curl of a vector field",
+    "Divergence theorem",
+    "Stokes' theorem",
+    "Null identities",
+    "Classification of fields and Helmholtz's theorem",
+    "Electrostatics",
+    "Static electric field in vacuum",
+    "Fundamental postulates of electrostatics in free space",
+    "Coulomb's Law",
+    "Gauss's Law and applications",
+    "Electric potential",
+    "Analogy with the gravitational field",
+    "Static electric field in material media",
+    "Electrostatic force and energy",
+    "Material media in a static electric field",
+    "Electric flux density and dielectric constant",
+    "Boundary conditions for electrostatic fields",
+    "Capacitances and capacitors",
+    "Electrostatic energy and forces",
+    "Solving electrostatic problems with boundary values",
+    "Poisson and Laplace equations",
+    "Method of images",
+    "Analogy with the gravitational field",
+    "Steady electric currents",
+    "Current density and Ohm's Law",
+    "Continuity equation and Kirchhoff's current law",
+    "Power dissipation and Joule's Law",
+    "Equations for steady current density",
+    "Resistance calculations",
+    "Magnetostatics",
+    "Static magnetic field in vacuum",
+    "Fundamental postulates of magnetostatics in free space",
+    "Magnetic vector potential",
+    "Biot-Savart Law and applications",
+    "Static magnetic field in material media",
+    "The magnetic dipole",
+    "Magnetization and equivalent current densities",
+    "Magnetic field intensity and relative permeability",
+    "Behavior of magnetic materials",
+    "Boundary conditions for magnetostatic fields",
+    "Magnetic induction",
+    "Magnetostatic forces, torques, and energy",
+    "Inductances and inductors",
+    "Magnetic energy",
+    "Magnetic forces and torques",
+    "Time-varying fields",
+    "Time-varying fields: Faraday's Law",
+    "Maxwell's equations",
+    "Faraday's Law of electromagnetic induction",
+    "Maxwell's equations",
+    "Potential functions",
+    "Time-harmonic fields",
+    "Potential functions",
+    "Fields with harmonic time dependence",
+    "Waves",
+    "Plane waves in lossless and lossy media",
+    "Electromagnetic power",
+    "General description of waves",
+    "Plane waves in lossless media",
+    "Plane waves in lossy media",
+    "Group velocity",
+    "Electromagnetic power flow and Poynting vector",
+    "Incidence of plane waves on discontinuity planes",
+    "Normal incidence of plane waves on discontinuity planes",
+    "Oblique incidence of plane waves on discontinuity planes",
+    "Gravitation",
+    "Gravitational field",
+    "Universal gravitation",
+    "Force field",
+    "Conservative force fields",
+    "Central force fields",
+    "Differential form of the law of gravitation",
+    "Gravitational field of a mass distribution",
+    "Motion of a particle in a central field",
+    "Motion in a gravitational field",
+    "Reduced mass"
+  ],
+  "teaching_methods": [
+    "Self-learning through virtual course resources with theoretical content and practical exercises",
+    "Tutorial support (remote consultations via Agora, phone, videoconference at central office; in-person or online tutorials at associated centers)",
+    "Autonomous work",
+    "Practical exercises and problem-solving",
+    "Laboratory experiments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (Presential Test)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Continuous Assessment Test (PEC)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Tutor's report and Laboratory practice report",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "A minimum score of 3 out of 10 on the final exam (NE) is required for the continuous assessment (PEC) to be considered; if not met, the final grade is NE (Fail). Passing mandatory laboratory practices (NPRACT >= 5) is also essential to pass the course; failure in practices results in a Fail. If NE < 5 or NPRACT < 5, the final grade is a Fail. The final grade (NotaFinal) is calculated based on NE, PEC, and NPRACT; if PEC is submitted and its score is considered (NE >= 3 and NE <= PEC), the formula is 0.8 * NPP + 0.15 * NPEC + 0.05 * NPRACT, where NPP is 0.8 * NE + 0.2 * NPEC. If PEC is not submitted or its score is lower than NE, the formula is 0.95 * NE + 0.05 * NPRACT.",
+  "bibliography": [
+    "Cheng, David K.; FUNDAMENTOS DE ELECTROMAGNETISMO PARA INGENIERÍA1ª; PEARSON ADDISON-WESLEY",
+    "Matthew N. O. Sadiku; ELEMENTS OF ELECTROMAGNETICSSeventh edition; OXFORD UNIVERSITY PRESS",
+    "Victoriano López Rodríguez; ELECTROMAGNETISMO IUNED; U N E D",
+    "Español Garrigós, Pep; Serrano Maestro, María Del Mar; Zúñiga López, Ignacio; MECÁNICA CLÁSICA2015; UNED",
+    "Victoriano López Rodríguez; Manuel Pancorbo Castro; María Del Mar Montoya Lirola; ELECTROMAGNETISMO IIoctubre de 2021; UNED",
+    "Scala Estalella, Juan José; ANÁLISIS VECTORIAL. VOL. I: VECTORESnull; Editorial Sintesis S.A.",
+    "Scala Estalella, Juan José; ANÁLISIS VECTORIAL. VOL. II: FUNCIONES VECTORIALES Y TEORÍA DE CAMPOSnull; Editorial Sintesis S.A."
+  ],
+  "isced_f_code": "0531",
+  "missing_sections": [],
+  "institution": "Universidad Nacional de Educación a Distancia",
+  "institution_slug": "es_nacional_educacion_a_distanc",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "68902027",
+  "academic_year": "2026-27",
+  "source_url": "https://www.uned.es/universidad/pdf/GuiasAsignaturasGrados/PDFGuiaPublica?codigoAsignatura=68902027&curso=2027&codigoTitulacion=6803&language=es&esMaster=false",
+  "source_language": "es",
+  "source_sha256": "3cd93445b82489a49e07ae89f05afdcdeb1798fbe1b32fa3aa08613705fa8a2f",
+  "extracted_at": "2026-11-18T03:04:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

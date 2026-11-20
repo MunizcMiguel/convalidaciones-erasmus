@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Instrumentación Electrónica",
+  "course_name_en": "Electronic instrumentation",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Handle the basic equipment of an electronics laboratory.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn the operating principles and constitution of the main electronic measurement equipment and systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the design and development of instrumentation systems.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Systems of instrumentation",
+    "Definitions",
+    "Static characterization of instruments",
+    "Dynamic characterization of instruments",
+    "Uncertainty and noise in instrumental systems",
+    "Simulated characterization of an RC network",
+    "Measurement instruments",
+    "Digital meters",
+    "Analog meters",
+    "Oscilloscopes",
+    "Signal generators",
+    "Basic measurements with multimeter and digital oscilloscope",
+    "Digital oscilloscope I: characterization of an RC circuit",
+    "Digital oscilloscope II: passive RC filter",
+    "Virtual instrumentation",
+    "LabVIEW environment",
+    "Basic programming elements",
+    "Data acquisition and representation",
+    "Programming with LabVIEW",
+    "Data acquisition with LabVIEW",
+    "Amplifiers",
+    "Introduction",
+    "The ideal operational amplifier",
+    "Non-idealities",
+    "Differential amplifier",
+    "Instrumentation amplifier",
+    "Instrumentation amplifier (Practical)",
+    "Active filters and A/D converters",
+    "Active filters",
+    "A/D converters",
+    "Problems",
+    "Sensors",
+    "Basic resistance measurements",
+    "Wheatstone bridge",
+    "Resistive sensors",
+    "AC measurements",
+    "Capacitive and inductive sensors",
+    "Signal-generating sensors",
+    "Calibration of Pt100 sensor",
+    "Thermometer based on Pt100 sensor",
+    "Weighing system based on strain gauge",
+    "Instrument interconnections",
+    "Computerized instrumentation",
+    "Instrument interconnection",
+    "Communication buses",
+    "Digital instrument programming",
+    "SCPI commands",
+    "Programming instruments for experimental characterization of a diode"
+  ],
+  "teaching_methods": [
+    "Lectures (Large Group)",
+    "Laboratory practicals",
+    "Computer room activities",
+    "Seminars or problem-solving sessions",
+    "Programmed tutorials",
+    "Personal study",
+    "Individual or group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.5,
+  "assessment_methods": [
+    {
+      "method": "Written theoretical/practical exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Laboratory practicals assessment (tests, report, and presentation)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Monitoring questionnaires",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum grade of 4.5 out of 10 is required in the written theoretical/practical exam (AE1). If this minimum is not achieved, the final grade will be 4.9 if the total score is 4.9 or higher, otherwise it will be the actual score. Attendance to laboratory practicals (AE2) is mandatory to pass; this activity is non-recoverable, but the grade obtained is carried over to the extraordinary call. Monitoring questionnaires (AE3) are also non-recoverable, but their grade is carried over. For the global evaluation, there is a single test comprising a written part (80%), a laboratory part (15%), and a CAD design part (5%).",
+  "bibliography": [
+    "Miguel Á. Pérez García, Instrumentación electrónica, Paraninfo, 2014.",
+    "Alan S. Morris y Reza Langari, Measurement and instrumentation, theory and application, Academic Press – Elsevier, 2021.",
+    "Miguel Á. Pérez García, Instrumentación electrónica: 230 problemas resueltos, Garceta, 2012.",
+    "Ramón Pallás Areny, Sensores y acondicionadores de señal, Marcombo, 2007.",
+    "Antonio Creus Solé, Instrumentación industrial, Marcombo, 2011."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501091",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501091-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "3105ed0a440c6282138c2a81d00c40bbbe13f00a9af97844bbd3f86b65da89ae",
+  "extracted_at": "2026-11-13T21:35:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,126 @@
+{
+  "course_name_original": "Calcolatori Elettronici",
+  "course_name_en": "Electronic Computers",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fondamenti di Informatica",
+    "Basic knowledge of programming languages and fundamental algorithms for managing elementary data structures"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student must demonstrate knowledge and understanding of the issues related to the design of elementary machines, with particular reference to elementary machines for basic and arithmetic applications, and sequential machines (registers, counters, flip-flops).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must also demonstrate knowledge of computer architectures and their subsystems, including processor operation, communication methods with memory, memory sizing, and connection with various input and output devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate the ability to design and develop elementary combinational networks, arithmetic combinational networks, and sequential networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must also be able to develop simple programs in assembly language for managing elementary data structures (vectors, stacks,…).",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analysis and synthesis of combinational networks",
+    "Minimization of completely and incompletely specified Boolean functions",
+    "Karnaugh maps",
+    "Quine-McCluskey method",
+    "Synthesis of combinational networks in NAND and NOR logic",
+    "Delays and hazard problems in combinational networks",
+    "Elementary combinational networks",
+    "Multiplexers and de-multiplexers",
+    "Encoders and decoders",
+    "Parity controllers",
+    "Elementary arithmetic machines: adders, subtractors, comparators",
+    "Analysis and synthesis of sequential networks",
+    "Models for timing and structure of synchronous and asynchronous sequential networks",
+    "Flip-flops: generalities, RS NOR gate flip-flops",
+    "Latch and edge-triggered flip-flops",
+    "D flip-flops",
+    "Switching flip-flops",
+    "T and JK flip-flops",
+    "Registers",
+    "Serial and parallel loading",
+    "Shift registers",
+    "Design methodology for synchronous networks",
+    "Synchronous and asynchronous counters",
+    "Counter connection",
+    "Sequence recognizers",
+    "Buses and transfers between registers",
+    "The electronic computer: subsystems and architecture",
+    "The processor",
+    "Processor algorithm",
+    "The role of the control unit",
+    "Accumulator processors and general-purpose register processors",
+    "Addressing techniques",
+    "Instruction encoding",
+    "The central memory",
+    "Processor-memory interfacing",
+    "Memory system organization",
+    "Connecting memory modules",
+    "Static and dynamic RAM memories",
+    "Interconnection and bus systems",
+    "Interrupt mechanism",
+    "Processor protections and controls",
+    "I/O management via polling and interrupts",
+    "The I/O subsystem",
+    "Machine language and assembly language",
+    "Correspondence between high-level languages and machine language",
+    "Motorola 68000 processor assembly language",
+    "Assembly directives",
+    "Program memory allocation",
+    "MC68000 processor simulator",
+    "Assembly and execution of programs in assembly language",
+    "Subroutines in assembly language",
+    "Parameter passing techniques to machine language procedures"
+  ],
+  "teaching_methods": [
+    "Lectures (70% theoretical topics)",
+    "Practical lessons (30% combinational machines, synchronous machines, assembly language programming)",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (preliminary)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a preliminary written test which includes exercises on the analysis and design of combinational networks, sequential networks, and the development of an assembler program. The exam is structured into a written and an oral test. Written questions can be free-response and numerical exercises.",
+  "bibliography": [
+    "G. Conte, A. Mazzeo, N. Mazzocca, P. Prinetto. Architettura dei calcolatori. Citt Studi Edizioni, 2015.",
+    "C. Bolchini, C. Brandolese, F. Salice, D. Sciuto, Reti logiche, Apogeo Ed., 2008.",
+    "B. Fadini, N. Mazzocca. Reti logiche: complementi ed esercizi. Liguori Editore, 1995.",
+    "Lecture notes and presentations provided by the lecturers related to theoretical and applied topics covered in the course."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "calcolatori_elettronici",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "184c6fed13f64e780358f8e2fe0d150f1fa1f22906d32dc0d2d994af17809c8d",
+  "extracted_at": "2026-11-20T08:19:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

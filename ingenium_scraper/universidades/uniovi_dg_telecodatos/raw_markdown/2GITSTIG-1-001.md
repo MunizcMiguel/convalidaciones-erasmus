@@ -1,0 +1,250 @@
+---
+{
+ "course_code": "2GITSTIG-1-001",
+ "course_name": "Álgebra Lineal",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-001",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:02:15",
+ "content_sha256": "7bbb4113ab099c0784bbdfd71802e4f67083b6927315211e3d169305fd63a2d3"
+}
+---
+
+# Álgebra Lineal
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-1-001
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (16 Horas); Prácticas de Aula/Semina (7 Horas); Docencia On Line (30 Horas); Prácticas de Laboratorio (7 Horas)
+
+## Contextualización
+
+Esta asignatura está incluida en la materia: "Formación transversal" en el grado de Ciencia e Ingeniería de Datos. Por su naturaleza básica, sus conocimientos son imprescindibles para el desarrollo del resto de los módulos y materias del Grado. Se estudiarán los conceptos algebraicos desde el punto de vista del álgebra matricial haciendo hincapié en la resolución numérica de los problemas, mostrando algoritmos de resolución aproximada..
+
+## Requisitos
+
+Se espera que se posea el conocimiento de los contenidos propios de Matemáticas I y II de bachillerato para poder seguir la asignatura. En especial se espera que se tenga un buen manejo de cálculo matricial a nivel de bachillerato.
+
+## Competencias y resultados del aprendizaje
+
+*Competencias básicas y generales:*
+
+CG01 - Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+CG02 - Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+CG03 - Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+CG04 - Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG09 - Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito comooralmente.
+
+CB1 - Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio.
+
+CB2 - Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean lascompetencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro desu área de estudio.
+
+CB3 - Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio)para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+
+CB4 - Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+
+CB5 - Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriorescon un alto grado de autonomía
+
+*Competencias especificas:*
+
+CE01 - Conocer los conceptos y métodos matemáticos adecuados para obtener modelos capaces de resolver los problemas que puedan plantearse en el contexto de la ciencia e ingeniería de datos: álgebra lineal, cálculo diferencial e integral.
+
+*Resultados de aprendizaje:*
+
+RALG1: Usar los elementos básicos del Álgebra Lineal: sistemas de ecuaciones lineales, espacios vectoriales y aplicaciones lineales, y utilizar las matrices para simplificar su estudio.
+
+RALG2: Analizar y aplicar métodos numéricos para la resolución de sistemas de ecuaciones lineales.
+
+RALG3: Ser capaz de calcular valores y vectores propios y diagonalizar endomorfismos y matrices.
+
+RALG4: Aplicar los métodos de diagonalización para la resolución de sistemas dinámicos lineales discretos.
+
+RALG5: Utilizar métodos numéricos para calcular valores y vectores propios.
+
+RALG6: Utilizar herramientas informáticas para la resolución de los problemas de Álgebra Lineal.
+
+## Contenidos
+
+1. Matrices.
+   1. Definición y operaciones con matrices
+   2. Tipos de matrices
+   3. Transformaciones elementales de matrices: matriz asociada a una dada
+   4. Factorización LU de una matriz
+2. Sistemas lineales, métodos numéricos de resolución.
+   1. Forma matricial de un sistema de ecuaciones
+   2. Eliminación Gaussiana: discusión y resolución de sistemas de ecuaciones lineales.
+   3. Errores relativo y absoluto: normas matriciales.
+   4. Métodos numéricos de resolución de sistemas: métodos de Jacobi y Gauss-Seidel
+3. Espacios vectoriales.
+   1. Noción de espacio vectorial.
+   2. Vectores, combinaciones lineales, dependencia, generadores, bases, coordenadas.
+   3. Subespacios vectoriales, intersección y suma.
+4. Aplicaciones lineales.
+   1. Definición y propiedades de aplicaciones lineales.
+   2. Matriz asociada a una aplicación lineal núcleo e imagen, rango
+   3. Cambio de base. Matrices semejantes
+5. Diagonalización.
+   1. Definición de valores y vectores propios asociados a una matriz
+   2. Diagonalización de matrices: condiciones necesarias y suficientes de diagonalización
+   3. Matrices equivalentes
+6. Sistemas dinámicos lineales discretos.
+   1. Recurrencias
+   2. Distintos tipos de sistemas dinámicos lineales discretos
+   3. Resolución matricial
+7. Métodos numéricos para el cálculo de vectores y valores propios.
+   1. Método de la potencia
+   2. Método de la potencia inversa
+
+**Contenidos de las prácticas de laboratorio:**
+
+1. Introducción a MATLAB: Variables numéricas y simbólicas, funciones simbólicas, vectores y matrices
+2. Matrices y sistemas: operaciones. Las órdenes rref, linspace, a:h:b etc
+3. Métodos numéricos de resolución de sistemas: algoritmos de Jacobi y Gauss-Seidel: Creación ficheros function. Cáclculo de normas de vectores y matrices. Errores relativo, absoluto y porcentual
+4. Espacios vectoriales y aplicaciones lineales
+5. Endomorfismos: diagonalización. Instrucciones eig, poly, roots, etc
+6. Sistemas dinámicos discretos.
+7. Métodos numéricos de cálculo de valores y vectores propios: Métodos de la potencia y de la potencia inversa
+
+## Metodología y plan de trabajo
+
+Dado el carácter semipresencial de la asignatura, la metodología exige distinguir entre sesiones virtuales y sesiones presenciales. A lo largo del curso, la profesora tutorará y guiará el trabajo personal de cada estudiante facilitando antes de cada bloque temático un guion con todo el trabajo pautado que este debe realizar. Estos guiones servirán para coordinar la evolución del trabajo virtual y presencial.
+
+Para las sesiones expositivas virtuales el alumnado tendrá a su disposición a través del Campus Virtual de la asignatura distintos materiales para cada una de las unidades didácticas. Entre ellos se encontrarán vídeos formativos, presentaciones y textos instructivos y/o cuestionarios de autoevaluación. En las clases expositivas presenciales la profesora resolverá las dudas que hayan podido surgir y desarrollará los resultados teóricos que se deriven de dichos contenidos realizando diversos ejemplos. El alumnado tendrá detallado en los guiones señalados previamente la lista de actividades a realizar antes de asistir a cada una de las sesiones presenciales (visionado de vídeos, lectura de textos...).
+
+En las prácticas de aula, tanto virtuales como presenciales, se desarrollará una labor tutorial para evaluar el progreso continuo del alumnado. En las sesiones virtuales se visionarán vídeos, responderán cuestionarios y/o participará en foros del Campus Virtual. Para las sesiones presenciales la profesora propondrá ejercicios y tareas, individuales o en grupo, para poner en práctica los conocimientos adquiridos en las clases expositivas. Además, formará parte de la parte online de estas actividades la resolución de ciertos "retos" que se plantearán durante el curso. Estos retos consistirán en un problema con enunciado real, que deberá entregarse en formato oficial que se detallará en el campus virtual.
+
+Finalmente, en las prácticas de laboratorio, tanto virtuales como presenciales, el alumnado aprenderá a resolver ejercicios de la asignatura con la ayuda del software de cálculo numérico MatLab.
+
+El alumnado podrá consultar a la profesora las dudas que se le presenten a través del chat de Teams, los foros del Campus Virtual o en una tutoría, pudiendo esta última ser desarrollada de forma virtual a través de la plataforma Teams de forma individual o grupal
+
+|  |  | **TRABAJO** <br> **PRESENCIAL** |  |  |  |  | **TRABAJO** <br> **ONLINE** |  |  |  |  | **TRABAJO** <br> **PERSONAL** |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios* | *Prácticas de laboratorio* | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva* | *Prácticas de aula /Seminarios* | *Prácticas de laboratorio* | *Sesiones de Evaluación* | ***Total*** | *Trabajo autónomo* | **Total** |
+| *1.- Matrices* | 20 | 2 | 1 | 1 | 0 | 4 | 2 | 1 | 2 | 0 | 5 | 11 | 11 |
+| *2.- Sistemas Lineales* | 27 | 3 | 1 | 1 | 0 | 5 | 3 | 1 | 1 | 0 | 5 | 17 | 17 |
+| *3.- Espacios vectoriales.* | 15 | 1 | 1 | 1 | 1 | 4 | 2 | 1 | 1 | 0 | 4 | 7 | 7 |
+| 4.- Aplicaciones lineales | 13 | 1 | 1 | 1 | 0 | 3 | 1 | 1 | 1 | 0 | 3 | 7 | 7 |
+| *5.- Diagonalización* | 23 | 3 | 1 | 1 | 0 | 5 | 3 | 1 | 1 | 0 | 6 | 12 | 12 |
+| *6.- Sistemas dinámicos lineales discretos* | 28 | 2 | 1 | 1 | 0 | 4 | 2 | 1 | 1 | 0 | 4 | 20 | 20 |
+| *7.- Métodos numéricos para el cálculo de valores y vectores propios* | 24 | 2 | 1 | 1 | 1 | 5 | 2 | 1 | 1 | 0 | 4 | 15 | 15 |
+| **Total** | **150** | **14** | **7** | **7** | **2** | **30** | **15** | **7** | **8** | **0** | **30** | **90** | **90** |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 14 | 9.3% | 30 horas <br> (20%) |
+|  | Práctica de aula / Seminarios | 7 | 4.7% |  |
+|  | Prácticas de laboratorio | 7 | 4.7% |  |
+|  | Sesiones de evaluación | 2 | 1.3% |  |
+| Online | Clases Expositivas | 15 | 10% | 30 horas <br> (20%) |
+|  | Práctica de aula / Seminarios | 7 | 4.7% |  |
+|  | Prácticas de laboratorio | 8 | 5.3% |  |
+|  | Sesiones de evaluación |  |  |  |
+| Personal | Trabajo en Grupo/ Individual | 90 | 60% | 90 horas <br> (60%) |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria:**
+
+Elementos evaluables
+
+La evaluación en la convocatoria ordinaria consta de los siguientes elementos:
+
+1. **Examen parcial 1 (P1).** Prueba escrita correspondiente a los temas 1 a 3, que se realizará aproximadamente a mitad del semestre.
+2. **Examen parcial 2 (P2).** Prueba escrita correspondiente a los temas 4 a 7, que se realizará en la fecha oficial de examen de la asignatura. En esa misma fecha, el estudiantado podrá repetir el examen del primer parcial (P1). La realización de esta repetición implicará la renuncia automática a la calificación previamente obtenida en P1.
+3. **Prácticas de aula. (PA)** La evaluación de las prácticas de aula se realizará durante las sesiones programadas en el horario publicado en la web del centro. Durante estas sesiones se propondrán ejercicios que el estudiantado resolverá utilizando apuntes, bibliografía u otros materiales que considere oportunos, con la orientación del profesorado.
+   Las actividades podrán realizarse de forma individual o en grupo y se evaluarán teniendo en cuenta:
+   - la asistencia a las sesiones,
+   - la participación e interés mostrados,
+   - la presentación y corrección de los ejercicios entregados.
+   Las entregas se realizarán en formato electrónico a través de la plataforma MS Teams. Para que esta parte sea evaluada será necesario asistir al menos al **80 % de las sesiones programadas**.
+4. **Prácticas de laboratoiro (PL)** La evaluación de las prácticas de laboratorio se realizará de forma continua, observando los ficheros que el alumnado desarrolle con el programa Matlab. Tendrá lugar además un examen de programación en la última sesión de clase presencial. Este examen supondrá un 50% de la calificación de prácticas, mientras que el trabajo continuo durante el cuatrimestre supondrá el otro 50% de la calificación. Para le realización de las prácticas presenciales será imprescindible que, previamente, se haya realizado las actividades online propuestas en el campus virtual. En caso de no haberla realizado, deberán hacerla en la clase presencial antes de abordar los problemas de la sesión.
+5. **Campus virtual (NCv)** Dado el caracter semipresencial de esta asignatura, durante el curso se irán dejando distintas actividades en el campus virtual que el estudiantado tendrá que realizar.
+
+Calificación
+
+La calificación final (NF) de la asignatura será
+
+**NF** =0.5\***NE**+0.2\***NL**+0.2\***PA**+0.1\***NCv**,
+
+siendo **NL** la nota de prácticas de laboratorio, **PA** la nota de trabajo en el aula y tutorías, **NCv** la nota de la participación en las actividades planteadas con las herramientas del campus virtual y **NE** la media aritmética de los controles escritos (P1 y P2), o, en su caso, del P2 y el examen realizado a continuación del mismo, todas ellas determinadas sobre 10 puntos.
+
+Se considerará para cada estudiante que ha aprobado la asignatura si **NF** es mayor o igual que 5, siendo **NL** y **NE** mayor o igual que 3.5. En caso de no alcanzar estos mínimos, la calificación en el acta será le mínimo entre **NF** y 4.5.
+
+Si un estudiante **no asiste al examen de la convocatoria ordinaria**, constará en acta como **“No presentado”**.
+
+Evaluación diferenciada
+
+Al estudiantado que curse la asignatura en modalidad de **evaluación diferenciada** se le aplicará el siguiente modelo:
+
+1. Realizarán la parte de las pruebas escritas de la misma forma que el resto, es decir, realizando los exámenes parciales previstos durante el cuatrimestre.
+2. Para las prácticas de laboratorio, desarrollarán el mismo plan de trabajo que el resto de sus compañeros. Eso sí lo harán todo de forma no presencial y tendrán obligación de realizar, al menos, dos tutorías con la profesora a lo largo del cuatrimestre para que observe su evolución. Estos encuentros podrán tener lugar a través de la plataforma MS Teams y en horario consensuado entre el estudiante y la profesora.
+3. Además de las tutorías sobre las prácticas de laboratorio, el alumnado de esta modalidad tendrán obligación de asistir a, al menos, una tutoría en el cuatrimestre sobre los contenidos teórico-prácticos. En ellas la profesora estudiará la evolución de cada estudiante. La tutoría será online a través de la plataforma MS Teams.
+
+Para el cálculo de la calificación de este alumnado se usará la siguiente fórmula:
+
+**NF** =0.7\***NE**+0.2\***NL**+0.1\***NOL**
+
+siendo **NL** la nota de prácticas de laboratorio, **NOL** la nota de las actividades online que realicen y **NE** la nota media de los controles escritos, o, en su caso, del segundo control y el examen realizado a continuación del mismo, todas ellas determinadas sobre 10 puntos.
+
+Se considerará para cada estudiante que ha aprobado la asignatura si **NF** es mayor o igual que 5, siendo **NL** y **NE** mayor o igual que 3.5. En caso de no alcanzar estos mínimos, la calificación en el acta será le mínimo entre **NF** y 4.5.
+
+**Convocatorias extraordinarias:**
+
+1. El alumnado que no haya aprobado en la convocatoria ordinaria y tenga que mejorar su calificación **NE** o **NL** hará un examen escrito (para **NE**) y de prácticas de laboratorio (para **NL**). En caso de querer modificar sólo una de las dos, se conservará la nota de la otra parte obtenida en la convocatoria ordinaria. Todo estudiante que se presente a una de las dos partes de la convocatoria, renuncia a la calificación de la misma obtenida en la convocatoria ordinaria.
+
+2. La calificación final se obtendrá con la fórmula siguiente:
+
+**NF** =0.7\***NE**+0.2\***NL**+0.1\***NCv**
+
+tomando **NE** y **NL** según se describe en la convocattoria ordinaria y **NCv** la nota en la evaluación ordinaria descrita obtenida en la convocatoria ordinaria.
+
+Se considerará para cada estudiante que ha aprobado la asignatura si **NF** es mayor o igual que 5, siendo **NL** y **NC** mayor o igual que 3.5. En caso de no alcanzar estos mínimos, la calificación en el acta será le mínimo entre **NF** y 4.5.
+
+3. El alumnado de **evaluación diferenciada** estará en estas convocatorias en las mismas condiciones que el resto, realizando los exámenes referidos y calificándose como especifica el punto anterior. Aunque en su caso se sustituirá **NCv** por la nota **NOL** obtenida en la convocatoria ordinaria.
+
+Si un estudiante que no haya superado la asignatura en las convocatorias anteriores, **no asiste a al menos una de las partes (NL o NE) de la convocatoria extraordinaria**, constará en acta como **“No presentado”**.
+
+Consideraciones
+
+En caso de que el profesorado tenga dudas razonables sobre la **autoría de alguna prueba evaluable** o detecte el posible uso de **medios no autorizados** (incluidas herramientas de inteligencia artificial), podrá solicitar al estudiante una **defensa presencial de la prueba**.
+
+Si se comprobara la utilización de medios ilícitos, la calificación en la convocatoria correspondiente será **0 puntos** y se informará a la **Escuela Politécnica de Ingeniería** para la adopción de las medidas oportunas.
+
+## Bibliografía
+
+**Recursos:**
+
+Se utilizará Matlab, Campus virtual, MS Teams, OneDrive y OneNote. Es recomendable asistir a las clases presenciales con un dispositivo con conexión a internet (wifi). Es suficiente con un teléfono móvil, aunque se recomienda un ordenador portátil o una Tablet.
+
+**Bibliografía básica:**
+
+- Álgebra Lineal: una introducción moderna. Poole, D. Thomson, 2017
+- Linear Algebra and learning from data. Strang G. Wellesley-Cambridge Press, 2019
+- https://es.mathworks.com/
+
+**Bibliografía complementaria:**
+
+- Mathematics for machine learning. Deisenroth, M. P., Faisal, A. A., Ong. C. S. Cambridge University Press, 2020
+- Matrix analysis and applied linear algebra. Meyer, C.D., SIAM, 2000
+- Linear Algebra and Optimization for Machine Learning. Charu C. Aggarwal. Springer Nature Switzerland, 2020
+- Gilbert Strang. *18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning.* Spring 2018. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/courses/mathematics/18-065-matrix-methods-in-data-analysis-signal-processing-and-machine-learning-spring-2018). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+- Gilbert Strang. *RES.18-010 A 2020 Vision of Linear Algebra.* Spring 2020. Massachusetts Institute of Technology: MIT OpenCourseWare, [https://ocw.mit.edu](https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020). License: [Creative Commons BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/).

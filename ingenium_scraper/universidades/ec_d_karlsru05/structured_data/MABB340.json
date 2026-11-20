@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Digitale Zwillinge mit FEM",
+  "course_name_en": "Digital Twins with FEM",
+  "ects": 6.0,
+  "semester": "3. Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Höhere Mathematik 1",
+    "Höhere Mathematik 2",
+    "Technische Mechanik 1",
+    "Technische Mechanik 2",
+    "Informatik"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the basics of modeling and the concept of the Finite Element Method.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They can independently learn to use modern Finite Element programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can perform basic design calculations for digital twins using the programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to interpret and critically evaluate existing Finite Element calculation results.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modeling for digital twins (10%)",
+    "Fundamental equations of FEM and numerical procedures based on planar bar elements (40%)",
+    "Overview of different element types (10%)",
+    "Overview of solution methods (10%)",
+    "Continuum elements using the example of simple plate elements (20%)",
+    "Rules for creating good Finite Element models (10%)",
+    "Computer exercises with simple examples: Use of FEM programs in structural mechanics and generation of good FEM models (30%)",
+    "Bearing conditions and load assumptions in statics (30%)",
+    "Different model types and their associated finite elements (20%)",
+    "Interpretation and verification of calculation results (20%)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Self-study calculation exercises",
+    "Lab with computer exercises using an FEM program"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (MABB341 Klausur)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Lab report (MABB342 XS Laborbericht)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment consists of a graded written exam (MABB341 Klausur, 60 min) and an ungraded lab report (MABB342 XS Laborbericht, 1 semester).",
+  "bibliography": [
+    "Own script and the sources cited therein",
+    "Own script and exercise sheets"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft",
+  "institution_slug": "ec_d_karlsru05",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB340",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "d18a51c6e39a408c1f62eff2717ea20c35d58245221953e3a3c0df1601dd521b",
+  "extracted_at": "2026-11-18T09:49:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

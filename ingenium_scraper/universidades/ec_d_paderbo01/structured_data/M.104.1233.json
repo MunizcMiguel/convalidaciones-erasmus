@@ -1,0 +1,63 @@
+{
+  "course_name_original": "Rechnertools C (M.104.1233)",
+  "course_name_en": "Computational Tools C",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Successful completion of modules to be completed in the 1st and 2nd semesters according to the study plan.",
+    "Recommended for Numerische Methoden in der Festkörpermechanik: Mathematics 1-3, Engineering Mechanics 1-3, Thermodynamics 1 and 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know various numerical calculation methods and can apply them to mechanical engineering problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to handle the relevant mathematical relationships, such as solving linear and nonlinear equation systems and differential equations, as well as eigenvalue calculation, in MATLAB for specific calculation examples from the fields of solid mechanics and energy technology.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts: Initial-boundary value problems of thermo-elasticity and thermo-mechanics, Taylor series.",
+    "Balance equations: One- and two-dimensional heat balance equation, mass balance, force balance.",
+    "Linear equation systems: Coefficient representation, matrix representation, Gaussian elimination, pivoting, Gauss-Seidel, iterative methods.",
+    "Finite Difference Method: Lighthouse, one-dimensional heat conduction equation with FDM.",
+    "Ordinary Differential Equations: 1st order, Nth order, systems of ordinary differential equations.",
+    "Initial-boundary value problems: Boundary and initial conditions, constitutive laws, kinematic relations, Example: Uniaxially loaded bar and temperature problems.",
+    "Numerical solution of initial-boundary value problems: Explicit Euler method, implicit Euler method, Runge-Kutta method, S-stage Runge-Kutta, stability analysis and error estimation, global error, error propagation, L- and A-stability.",
+    "Adaptivity: Algorithms, exact solution, local error, Richardson Extrapolation, step size control, error estimators."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Written or oral examination",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The module examination must be passed for the credit points to be awarded. The examination involves explaining underlying methods for exemplary problems and finding detailed solutions for calculation examples.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites",
+    "assessment_methods"
+  ],
+  "institution": "Universitaet Paderborn",
+  "institution_slug": "ec_d_paderbo01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "M.104.1233",
+  "academic_year": "2025-26 (Modulhandbuch SoSe 2026)",
+  "source_url": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Modulhandbuecher/Modulhandbuecher_SoSe_26/Alte_POen/Ba_MB_SS26.pdf",
+  "source_language": "de",
+  "source_sha256": "95f644391cb236b8d48aaedc7862ccf0f9b52fa24e3f7f058a8cb2e004807b5c",
+  "extracted_at": "2026-11-18T09:51:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

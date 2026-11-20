@@ -1,0 +1,148 @@
+{
+  "course_name_original": "Industrial controllers",
+  "course_name_en": "Industrial controllers",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands the construction and operating principles of two-state, analog, and specialized input/output systems of industrial controllers.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the basics of connecting industrial controllers using computer networks and creating distributed control systems.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands the principles of designing control systems based on industrial controllers.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows an exemplary programming environment for industrial controllers and a basic programming language.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows and understands the genesis, history, and operating principles of industrial controllers.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Knows several examples of industrial controller applications.",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Knows and understands the principles of logical, sequential, and time-dependent control.",
+      "type": "knowledge",
+      "code": "W7"
+    },
+    {
+      "text": "Can write, load, and run a simple program implementing sequential control.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can write, load, and run a program implementing logical, sequential, and time-dependent control tasks for the presented control system.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can write, load, and run a simple program implementing time-dependent control.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Can write, load, and run a simple program implementing logical functions.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Understands the need and knows the possibilities of continuous self-education, expanding acquired knowledge, and improving professional qualifications.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Has the ability to work in a team and is aware of responsibility for their own work and joint activities during laboratory exercises.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Industrial programmable controller: Genesis and history of PLC controllers. Component elements of industrial PLC controllers. Operating principle of PLC - work cycle.",
+    "PLC controller structure: Central processing units. Input/output systems - two-state, analog, specialized. Distributed input/output systems. Connecting the controller to the object.",
+    "Two-state control. Logical, sequential, and time-dependent control.",
+    "Programming environment and languages: PLC programming environment. Methods and programming languages.",
+    "Control system based on industrial programmable controllers. PLC controller in a control system. Distributed control systems. Centralized and distributed control systems using PLC controllers. Industrial data transmission networks.",
+    "Examples of applications: Standardization of PLC controllers. Selected examples of applications.",
+    "Industrial controllers - operating principle.",
+    "Industrial controller programming environment, hardware and software configuration, program loading and execution.",
+    "Instruction list of the programming language, variables.",
+    "Programming, loading, and running programs implementing logical functions.",
+    "Programming, loading, and running programs implementing sequential control functions.",
+    "Programming, loading, and running programs implementing time-dependent control.",
+    "Programming, loading, and running programs implementing logical dependencies, sequential, and time-dependent control.",
+    "Final colloquium."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "E-learning",
+    "Group work",
+    "Flipped classroom",
+    "Project Based Learning",
+    "Lecture",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed by a test. Laboratory classes are assessed based on activity during classes, execution of laboratory classes, and a report. Students must participate in lectures and clarify any doubts. Audiovisual recording of lectures requires lecturer's consent. For laboratory classes, students must prepare for the exercise, which may be verified by an oral or written colloquium. Completion of the classes is based on presenting the solution to the problem. Completion of the module requires passing all laboratory classes.",
+  "bibliography": [
+    "Grega W.: Sterowanie cyfrowe w czasie rzeczywistym; WWEAIiE AGH, Karków 1999",
+    "Werewka J.: Systemy rozproszone sterowania i akwizycji danych, Sterowniki programowalne i magistrale miejscowe; CCATIE, Karków 1998",
+    "Legierski T., Kasprzyk J., Wyrwał J., Hajda J.: Programowanie sterowników PLC; WPK Jacka Skalmierskiego, Gliwice1998",
+    "Król A., Mroczko-Król J.: S5/S7 Windows. Programowanie i symulacja sterowników PLC firmy SIEMENS.",
+    "Materiały z wykładów",
+    "Materiały do ćwiczeń laboratoryjnych",
+    "H. Zygmunt, J. Seńkowski, P. Kwasnowski, G. Wróbel, M. Jachimski, M. Zygmunt, „Industrial Application of Programmable Control Systems, Developed in AGH Kraków”, Proceedings of International Conference ED&PE’92, Kosice, Vol. 1. pp. 25–31, 1992.",
+    "Programowalne systemy sterowania i automatycznej regulacji. Henryk ZYGMUNT, Jacek SEŃKOWSKI, Paweł KWASNOWSKI, Grzegorz WRÓBEL, Marcin JACHIMSKI, Zbigniew MIKOŚ, Grzegorz HAYDUK . W: materiały międzynarodowej konferencji zorganizowanej z okazji Jubileuszu 50-lecia Wydziału EAIiE : Kraków, 7–8 czerwca 2002 / kom. red. Tomasz Zieliński, Dariusz Borkowski ; AGH WEAIiE. — [Kraków : WEAIiE], 2002."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03187.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/0c17ea2d-bdbe-4d7f-aafe-047ceb657f2d.html",
+  "source_language": "pl",
+  "source_sha256": "8ec58a9bb69ef6650ac1f375995d6b12df0052e088b29edaf67408290af68738",
+  "extracted_at": "2026-11-20T09:03:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

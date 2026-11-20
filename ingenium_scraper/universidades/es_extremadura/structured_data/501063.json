@@ -1,0 +1,142 @@
+{
+  "course_name_original": "Resistencia de Materiales (501063)",
+  "course_name_en": "Strength of Materials",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will know the characteristics and behaviors of deformable solids.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will understand and apply the concepts of Elasticity and Strength of Materials to solve for displacements, deformations, and stresses in real solids.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will learn to size and calculate the mechanical resistance, stiffness, and stability of resistant elements.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Elasticity and Strength of Materials.",
+    "Purpose of Elasticity and Strength of Materials.",
+    "Concept of an elastic solid.",
+    "Theoretical model of solid used in Strength of Materials. Mechanical prism.",
+    "Static equilibrium and elastic equilibrium.",
+    "Forces derived from the action of a system of forces on a mechanical prism.",
+    "Stresses",
+    "Concept of stress.",
+    "Intrinsic components of the stress vector.",
+    "Study of stress vectors at a point. Stress matrix.",
+    "Necessary conditions between the elements of the stress matrix. Internal equilibrium and boundary equilibrium equations.",
+    "Change of reference system.",
+    "Principal stresses and directions. Properties.",
+    "Mohr's circles.",
+    "Deformations",
+    "Concept of deformation.",
+    "Deformation matrix and rotation matrix. Unit deformation vector.",
+    "Principal deformations and directions.",
+    "Compatibility equations of deformations.",
+    "Constitutive Laws",
+    "Experimental relationship between stress and deformation. Tensile-compression test.",
+    "Generalized Hooke's Law.",
+    "Lamé's equations.",
+    "Laboratory Practice 1: Extensometry, calculation of Elastic modulus and Poisson's ratio using the experimental technique of extensometry.",
+    "General formulation of the elastic problem.",
+    "Navier's equations.",
+    "Michel Beltrami's equations.",
+    "Limits of elasticity.",
+    "Equivalent stress.",
+    "Failure and plasticization criteria.",
+    "Computer Practice 1: General formulation of the elastic problem. Using specific software, the concepts of displacement, deformation, stress will be applied through their graphical representation and their interpretation will be explained.",
+    "The bar model. Fundamental concepts.",
+    "Introduction.",
+    "Definition of a prismatic bar.",
+    "Actions on the bar.",
+    "Boundary conditions in displacements.",
+    "Isostatic and hyperstatic systems.",
+    "Stress laws and diagrams.",
+    "Stress-force relationships.",
+    "Computer Practice 2: Calculation of forces using specific software.",
+    "Axial force.",
+    "Introduction.",
+    "State of stresses and deformations.",
+    "Displacements.",
+    "Particular case: straight bar subjected to its own weight.",
+    "Calculation of isostatic trusses.",
+    "Torsion.",
+    "Introduction.",
+    "Elementary theory of torsion in prisms of circular cross-section.",
+    "Determination of torsional moments. Calculation of power transmission shafts.",
+    "Computer Practice 3: Calculation of stresses and deformations in a bar subjected to tensile and torsional loads.",
+    "Bending.",
+    "Introduction. Types of Bending.",
+    "Pure Bending. Navier's Law.",
+    "Stresses produced in Simple Bending by Shear Force. Colignon's Theorem.",
+    "Compound bending.",
+    "Calculation of displacements.",
+    "Laboratory Practice 2: Determination of deflection and rotation in bending. A simply supported aluminum tubular bar is subjected to bending using weights. Students will calculate, using Strength of Materials, the value of rotation and vertical displacement of certain sections and compare them with experimental values.",
+    "Computer Practice 4: Calculation of forces, rotations, and displacements in isostatic simple bending.",
+    "Buckling",
+    "Introduction.",
+    "Stability of elastic equilibrium. Notion of critical load.",
+    "Euler's formula.",
+    "Value of the critical load according to the type of bar support. Buckling length.",
+    "Limits of application of Euler's Formula.",
+    "Laboratory Practice 3: Buckling of slender rectangular cross-section bars."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activities",
+    "Computer lab activities",
+    "Seminars or problem-solving sessions",
+    "Scheduled tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 63.0,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam and/or cumulative/eliminatory partial exams",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Evaluation of practical activities",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade (NA) is calculated as 0.80 times the exam grade (NE) plus 0.20 times the practical grade (NP). The exam grade (NE) is composed of Part I (30%) and Part II (70%). To pass the course, both Part I and Part II grades must be equal to or greater than 4.0 out of 10.0; otherwise, the final grade cannot exceed 4.0. A partial exam for Part I can waive that part in the final exam if the score is 5.0 or higher. Approved parts (P1 or P2) are retained for the extraordinary (July) resit of the same academic year, but not for subsequent years. The practical grade (NP) is not recoverable in the extraordinary call. For the global evaluation (resit), a final global theoretical/practical exam (EFG) and a global practical exam (EPG) are conducted; if EFG and EPG are both >=4, the final grade NF = 0.8 * EFG + 0.2 * EPG, otherwise NF = min(calculated NF, 4).",
+  "bibliography": [
+    "“Elasticidad” por Luis Ortiz Berrocal. 3ª edición. 1998. Editorial Mc. Graw Hill.",
+    "“Resistencia de Materiales” por Luis Ortiz Berrocal. 2ª Edición. 2002. Editorial Mc. Graw Hill.",
+    "\"Resistencia de Materiales I\" por Ignacio Herrera Navarro. 2ª Edición. 2012. Editorial Bellisco.",
+    "\"Resistencia de Materiales II\" por Ignacio Herrera Navarro. 2011. Editorial Bellisco.",
+    "\"Formulario y Tablas de Resistencia de Materiales”. Por Ignacio Herrera Navarro. 2ª Edición. 2013. Editorial Bellisco.",
+    "“Resistencia de Materiales. Timoshenko” James M. Gere. 5ª edición. Editorial Thomson.",
+    "“Fundamentos de Resistencia de Materiales” Mariano Rodríguez-Avial Llardent. Universidad Nacional de Educación a Distancia.",
+    "“Mecánica de Materiales” R. C. Hibbeler. 3ª edición. Editorial Pearson."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501063",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501063-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "6ec29c06fb95d04551a3b07f0a8ea920b87a6c3d8d3b144d7ed6b17be81806b8",
+  "extracted_at": "2026-11-13T21:34:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,12 @@
+# ec_tr_ankara02 — Gazi University (Ankara), Mechanical Engineering (Eng)
+
+- Hints (`erasmus.gazi.edu.tr`, `app.erasmus.gazi.edu.tr`) = web Erasmus de la universidad (correcta, pero no es el catálogo). El catálogo ECTS/Bologna está en el sistema OBS: `https://obs.gazi.edu.tr/oibs/bologna/` (enlazado desde la web Erasmus; robots.txt 404 → permite). `gazi.edu.tr/robots.txt` permite `/`.
+- Grado: Faculty of Engineering → **Mechanical Engineering (Eng)** = Makine Mühendisliği (İngilizce), curSunit=115252372 (240 ECTS, 8 semestres). Hay dos programas turcos del mismo nombre (115555361, 115050768) que no se usan (se prefiere el inglés).
+- Plataforma: OBS «Bilgi Paketi» de Proliz (ASP.NET WebForms). Listado de programas de grado: `unitSelection.aspx?type=lis&lang=en` (enlaces `index.aspx?…&curSunit=ID`). Plan: `progCourses.aspx?lang=en&curSunit=ID` → HTML con una tabla por semestre («N.Semester Course Plan») y, por fila, `onclick="prolizOpenCourseDetails(ID)"` → ficha `progCourseDetails.aspx?curCourse=ID&lang=en` (GET sin sesión; no hace falta postback).
+- El plan mostrado es el currículo 2027 (selector `cmbYillar`; hay currículos de 2015 a 2027 vía postback, no usados). 30 ECTS por semestre, 235 salvo S7=35, S8=23 (suma 240 ✓ en el plan). Se catalogan 99 asignaturas (206 ECTS obligatorios + 255 de electivas ofertadas; el alumno cursa solo parte). Los marcadores de grupo electivo («SOCIAL ELECTIVE COURSE», «DESIGN ELECTIVE I», «PROFESSIONAL ELECTIVE COURSE») no tienen ficha y no se catalogan.
+- Ficha: paneles (Course Information, Course Details, Recommended or Required Reading, Course Category, Assessment Methods and Criteria (con porcentajes), ECTS workload, Learning Outcomes, Weekly Detailed Course Contents; se omite la matriz de contribución a resultados del programa). Idioma: inglés (etiquetas y contenido; algunas referencias en turco).
+- Trampas: anidación de paneles dentro de `table#dlDers`; la casilla de bibliografía son «Resources» y «Course Notes».
+
+## Fase 2
+- `scraper_ec_tr_ankara02.py` (plantilla OBS/Proliz reutilizable para otras universidades turcas con el mismo sistema: cambiar SLUG, BASE, CUR_SUNIT, SAMPLE). Se eliminan Course Coordinator, Name of Lecturers y Assistants.
+- Muestra de 5 (MATH101, ME201, ME308, ME423, ME413) verificada contra la ficha: tablas de evaluación con porcentajes, resultados de aprendizaje, contenidos semanales y bibliografía íntegros.

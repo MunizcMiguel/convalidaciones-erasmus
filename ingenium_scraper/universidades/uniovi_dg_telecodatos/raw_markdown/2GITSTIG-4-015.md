@@ -1,0 +1,238 @@
+---
+{
+ "course_code": "2GITSTIG-4-015",
+ "course_name": "Análisis y Recuperación de Información Textual",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-015",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:06:39",
+ "content_sha256": "560440f2a1b0fe21f1f27c721411af8b2a931ac49b85bac988bf67742844f35f"
+}
+---
+
+# Análisis y Recuperación de Información Textual
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-4-015
+
+## Datos de la asignatura
+
+- **Curso:** Cuarto
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (16 Horas); Docencia On Line (30 Horas); Prácticas de Laboratorio (14 Horas); No Presenciales (0 Horas)
+
+## Contextualización
+
+La asignatura está integrada en el módulo *Análisis y Visualización de Datos* del grado por lo que abarca muchas de las competencias de este módulo. Tiene tanto un carácter teórico como práctico, repartidos aproximadamente al 50%. Esta asignatura se enfoca en el estudio de las técnicas y herramientas utilizadas para analizar y recuperar información relevante a partir de textos. Esto incluye el procesamiento de lenguaje natural, la extracción de características, la representación de documentos, la indexación y la búsqueda de información. También se abordan temas como la evaluación de sistemas de recuperación de información y la construcción de sistemas de recomendación y el análisis de redes sociales.
+
+## Requisitos
+
+La asignatura está planificada en tercero. Es recomendable tener conocimientos de aprendizaje automático (I y II) y de aprendizaje profundo para poder seguir la asignatura
+
+## Competencias y resultados del aprendizaje
+
+La asignatura abarca las siguientes competencias de las recogidas en la memoria de verificación del título.
+
+- Competencias generales:
+
+*CG01 - Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que*
+
+*representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos,*
+
+*estadísticos y de procesado de la señal.*
+
+*CG02 - Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y*
+
+*de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a*
+
+*problemas conocidos y/o emergentes.*
+
+*CG03 - Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo*
+
+*capaz de aplicar otros nuevos para la resolución de problemas.*
+
+*CG04 - Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.*
+
+*CG06 - Capacidad de acceso y gestión de la información en diferentes formatos para su posterior análisis con el fin de obtener*
+
+*conocimiento a partir de datos.*
+
+*CG07 - Identificar oportunidades para aplicaciones innovadoras orientadas a datos en entornos tecnológicos en continua evolución.*
+
+*CG08 - Conocer y aplicar los aspectos éticos y legales relacionados con el tratamiento de los datos y la aplicación del conocimiento*
+
+*obtenido.*
+
+*CG09 - Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como*
+
+*oralmente.*
+
+- Competencias básicas:
+
+*CB1 - Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la*
+
+*educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también*
+
+*algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio*
+
+*CB2 - Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las*
+
+*competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de*
+
+*su área de estudio*
+
+*CB3 - Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio)*
+
+*para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética*
+
+*CB4 - Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no*
+
+*especializado*
+
+*CB5 - Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores*
+
+*con un alto grado de autonomía*
+
+- Competencias específicas:
+
+*CE09 - Construcción de sistemas de aprendizaje automático utilizando técnicas básicas y avanzadas, para construir sistemas*
+
+*inteligentes a partir de conjuntos de datos.*
+
+*CE15 - Construir sistemas de procesado de lenguaje escrito capaces de hacer inferencias a partir del contenido de documentos.*
+
+Consecuentemente, los resultados del aprendizaje esperados serán:
+
+*RANA1: Conocer las principales técnicas de procesamiento de lenguaje natural.*
+
+*RANA2: Aplicar técnicas de NLP para la categorización de texto y análisis de sentimientos.*
+
+*RANA3: Saber representar una red social en formato de grafo.*
+
+*RANA4: Conocer las principales técnicas y métodos para el análisis de la estructura y contenido de las redes sociales.*
+
+## Contenidos
+
+- **Introducción al procesamiento de textos**: Estándares de codificación de caracteres y fundamentos del trabajo con textos digitales y corpus.
+- **Lenguajes formales y expresiones regulares**: Autómatas finitos deterministas y uso de expresiones regulares para la identificación y extracción de patrones en texto.
+- **Extracción y procesamiento de texto desde documentos**: Obtención de texto a partir de formatos documentales como PDF y diseño de software para el procesamiento escalable de corpus heterogéneos procedentes de fuentes variables.
+- **Análisis léxico y preprocesamiento clásico**: Tokenización, normalización, lematización, stemming y otras técnicas de preparación de corpus para su análisis.
+- **Representación vectorial de textos**: Modelos clásicos de representación (bolsa de palabras, TF, TF-IDF) e introducción a embeddings.
+- **Casos de uso de modelos de lenguaje**: Uso de modelos de lenguaje preentrenados para diversas tareas de procesamiento del lenguaje natural. Aplicación de representaciones vectoriales a tareas de clasificación de textos y detección automática de entidades, entre otras tareas de clasificación de tokens.
+- **Adaptación de modelos de lenguaje y sistemas conversacionales**: Fine-tuning de modelos preentrenados para tareas específicas y desarrollo de sistemas conversacionales basados en modelos de lenguaje.
+- **Recuperación de información**: Modelos de recuperación basados en índices e información textual, evaluación mediante métricas estándar y desarrollo de aplicaciones basadas en búsqueda en corpus.
+- **Generación aumentada por recuperación (RAG)**: Integración de modelos de lenguaje con sistemas de recuperación de información para construir sistemas de pregunta-respuesta sobre corpus documentales.
+- **Análisis de redes y grafos**: Construcción de grafos a partir de datos textuales, medidas de similitud y detección de comunidades.
+
+## Metodología y plan de trabajo
+
+Dadas las características de la asignatura, que se desarrolla en modalidad semi-presencia, para que el alumno alcance las competencias y los resultados del aprendizaje previstos, se han considerado las siguientes actividades formativas:
+
+**Actividades presenciales**
+
+Son aquellas en las que estará siempre presente el profesor. Se dividen en clases expositivas, prácticas de laboratorio y sesiones de evaluación.
+
+- ***Clases expositivas***: Impartidas al grupo completo, no necesariamente como lección magistral, sino procurando una participación activa del alumno en la dinámica de las mismas. En estas clases se desarrollarán contenidos teóricos de la asignatura, combinados con alguna resolución de pequeños ejercicios. Se utilizará la pizarra y los diferentes medios audiovisuales.
+- ***Prácticas de Laboratorio:*** Dedicadas a resolver ejercicios y problemas prácticos. Se desarrollarán en varios grupos, de manera eminentemente participativas.
+- ***Sesiones de evaluación:*** Se dedicarán a la realización de pruebas escritas o bien con un PC, con las que se pueda valorar de forma objetiva el nivel alcanzado por los estudiantes en la adquisición de algunas de las competencias previstas.
+
+**Actividades de formación online asíncrona**
+
+El profesor, utilizando distintas herramientas audiovisuales y de e-learning que quedarán a disposición de los estudiantes, guiará el aprendizaje online, de manera coordinada y complementaria con las actividades presenciales.
+
+- ***Clases expositivas***: El contenido de cada hora lectiva se dividirá en el visionado de pequeños vídeos explicativos sobre conceptos de la materia o de la realización de actividades en el campus virtual completados, en ocasiones, con lecturas recomendadas o el estudio de ejemplos resueltos. Se utilizarán distintos medios audiovisuales y repositorios institucionales de la Universidad de Oviedo.
+- ***Prácticas de Laboratorio:*** Se realizarán vídeos explicativos con la resolución de distintos problemas y se propondrán ejercicios y tareas para que los estudiantes los aborden por su cuenta en base al contenido de los videos.
+
+Por su parte, a fin de cumplir los principios referentes a ECTS, establecidos en el Real Decreto 1393/2007, el estudiante deberá desarrollar un trabajo autónomo paralelo (actividades no presenciales), dirigido por el profesor. Este trabajo incluye el visionado de las clases online, aunque no se limita únicamente a ello.
+
+La metodología docente por emplear tratará de fomentar la participación activa del alumnado. Para ello se plantearán actividades y ejercicios que impliquen al alumno y propicien su participación, ya sea resolviendo tareas de manera autónoma o colaborativa en el aula. Se motivará al alumnado a preguntar las dudas que les surjan durante las clases online mediante e-mail, tutorías virtuales o durante el transcurso de las prácticas de laboratorio presenciales.
+
+Asimismo, al final de cada uno de los temas se realizará, si a juicio de los profesores se estima conveniente, un pequeño control con objeto de conocer el grado de adquisición de las competencias más relacionadas con los contenidos de la asignatura.
+
+Con respecto a las prácticas de laboratorio, tanto presenciales como online, podrán plantearse ejercicios para entregar al final de cada sesión de prácticas o bien en la siguiente sesión presencial, que el alumno deberá resolver.
+
+En todo caso, se utilizarán metodologías docentes acordes con el tamaño de dicho grupo.
+
+A continuación, se presentan una serie de tablas que especifican la temporalidad de las actividades tanto presenciales como no presenciales.
+
+**Volumen de trabajo estimado para el estudiante**
+
+| MODALIDADES |  | Horas | % |
+| --- | --- | --- | --- |
+| Presencial | Clases expositivas presenciales | 14 | 9.3% |
+|  | Prácticas de Laboratorio presenciales | 14 | 9.3% |
+|  | Sesiones de evaluación | 2 | 1.3% |
+|  | Total | 30 | 20% |
+| No presencial | Clases expositivas online | 15 | 10.0% |
+|  | Prácticas de Laboratorio online | 15 | 10.0% |
+|  | Estudio autónomo de teoría | 30 | 20.0% |
+|  | Resolución de Ejercicios de Forma Autónoma | 20 | 13.3% |
+|  | Estudio y preparación de prácticas de Laboratorio | 40 | 26.6% |
+|  | Total | 120 | 80% |
+|  | Total | 150 | 100% |
+
+**Distribución del trabajo por temas**
+
+|  |  | ***Presencial*** |  |  |  | ***No presencial*** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de laboratorio /aula de informática* | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva* | *Prácticas de laboratorio* | *Trabajo autónomo* | **Total** |
+| *Procesamiento de lenguaje natural* | **50** | 5 | 5 |  | **10** | 5 | 5 | 30 | **40** |
+| *Recuperación de información* | **45** | 4 | 4 |  | **8** | 5 | 5 | 30 | **40** |
+| *Análisis de redes sociales* | **53** | 5 | 5 |  | **10** | 5 | 5 | 30 | **40** |
+| *E**valuación* | **2** |  |  | 2 | **2** |  |  | 0 | **0** |
+| **Total** | **150** | **14** | **14** | **2** | **30** | **15** | **15** | **90** | **120** |
+
+## Evaluación del aprendizaje
+
+En la evaluación ordinaria se utilizarán diversos procedimientos presenciales y no presenciales que permitirán realizar el seguimiento del proceso de aprendizaje del alumno, los cuales se listan a contianuación.  
+  
+**PA: Participación en seminarios y actividades de evaluación continua online o presenciales (15%)**  
+Durante las clases teóricas y prácticas (tanto presenciales como online) se plantearán cuestionarios y/o ejercicios cuyas soluciones en algunos casos podrán ser requeridas por el profesorado para su evaluación como actividad entregable dentro de este apartado.  
+  
+**EVT: Evaluación de teoría (42,5%)**  
+Durante la evaluación ordinaria se evaluarán de forma independiente cada uno de los tres bloques de la asignatura. La nota final de la parte teórica (EVT) se obtiene como la media ponderada de las calificaciones obtenidas en cada parte, siempre y cuando **la calificación de cada parte sea superior o igual a 4 puntos sobre 10**.  
+Esta evaluación se realizará de forma continua mediante distintas actividades, entre las que pueden figurar un control escrito, una entrega, una presentación o una combinación de los anteriores. En caso de no alcanzar el mínimo establecido en alguna de estas actividades, no es posible aprobar la asignatura en convocatoria ordinaria.  
+  
+**EVP: Evaluación de prácticas (42,5%)**  
+Durante el curso se realizarán dos evaluaciones.
+
+- EVP\_1
+- EVP\_2
+
+La nota final de la parte práctica (EVP) se obtiene como se muestra a continuación:  
+**EVP = 0.6\*EVP\_1 + 00.4\*EVP\_2**  
+Esta evaluación se realizará de forma continua mediante distintas actividades, entre las que pueden figurar un examen, una entrega, una presentación o una combinación de los anteriores. Para aprobar la asignatura es necesario que **la calificación de cada parte sea superior o igual a 4 puntos sobre 10**.  
+  
+**Calificación final:**  
+La calificación final será **0.15\*PA+0.425\*EVT+0.425\*EVP** siempre y cuando la calificación individual de cada evaluación de teoría y prácticas sea superior a 4. En otro caso la calificación final será **min(4, 0.15\*PA+0.425\*EVT+0.425\*EVP).**
+
+**Evaluación en las convocatorias extraordinarias:**
+
+En la convocatoria extraordinaria se mantendrán las ponderaciones y los mínimos asociados a cada una de las pruebas realizadas durante la evaluación ordinaria.
+
+**Evaluación diferenciada:**
+
+Se tratará de forma personalizada cada caso de evaluación diferenciada.
+
+## Bibliografía
+
+Las siguientes son referencias bibliográficas básicas y complementarias que se utilizan en la asignatura. Sin embargo, los estudiantes dispondrán también de otros recursos en forma de apuntes, transparencias, boletines de problemas, exámenes tipo, etc que tendrán a su disposición en el Campus Virtual.
+
+- Recursos bibliográficos de consulta:
+
+1. Manning, C. D., Raghavan, P, Schütze, H. (2008). *Introduction to Information Retrieval*. Cambridge, UK: Cambridge University Press. ISBN: 978-0-521-86571-5
+2. Indurkhya, N., Damerau, F. J. (2010). *Handbook of Natural Language Processing*. Chapman & Hall/CRC. ISBN: 1420085921, 9781420085921.
+3. Liu, B. (2015). *Sentiment Analysis - Mining Opinions, Sentiments, and Emotions.* Cambridge University Press. ISBN: 978-1-10-701789-4.
+4. Vajjala, S., Majumder, B., Gupta, A., & Surana, H. (2020). *Practical natural language processing: A comprehensive guide to building real-world NLP systems*. O’Reilly Media.
+5. Galety, M. G., Al Atroshi, C., Balabantaray, B., & Mohanty, S. N. (Eds.). (2022). *Social network analysis: Theory and applications*. Standards Information Network. Willey.
+6. Sonawane, S. S., Mahalle, P. N., & Ghotkar, A. S. (2022). *Information retrieval and natural language processing: A graph theory approach* (1st ed.). Springer.

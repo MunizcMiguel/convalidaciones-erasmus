@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Sistemas Operativos",
+  "course_name_en": "Operating Systems",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de computadores y redes (FCR)",
+    "Fundamentos de Informática (FIN)",
+    "Introducción a la Programación (INP)",
+    "Metodología de la Programación (MTP)",
+    "Estructuras de datos (ESD)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the different types of operating systems, along with their characteristics and capabilities, that can be used as system software in the design and development of a computer system.",
+      "type": "knowledge",
+      "code": "PF6"
+    },
+    {
+      "text": "Be able to select and evaluate the most appropriate type of operating system to provide a service ensuring the required quality characteristics.",
+      "type": "skill",
+      "code": "PF8"
+    },
+    {
+      "text": "Knowledge of the components and applications that integrate an operating system distribution.",
+      "type": "knowledge",
+      "code": "PF9"
+    },
+    {
+      "text": "Understand how data structures are used in the management of operating system components and functions.",
+      "type": "competence",
+      "code": "PF13"
+    },
+    {
+      "text": "Know the structure of an operating system.",
+      "type": "knowledge",
+      "code": "PF17"
+    },
+    {
+      "text": "Understand the basic operating mechanisms of the subsystems that integrate an operating system.",
+      "type": "competence",
+      "code": "PF18"
+    },
+    {
+      "text": "Design and implement applications based on operating system services.",
+      "type": "skill",
+      "code": "PF19"
+    },
+    {
+      "text": "Understand the use of basic parallel and concurrent programming techniques in the operating mechanisms of operating systems.",
+      "type": "competence",
+      "code": "PF20"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to operating systems",
+    "Process management",
+    "Process coordination and synchronization",
+    "Memory management",
+    "File management",
+    "UNIX Shell programming",
+    "Programming with system calls in UNIX. Implementation of a command interpreter"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Classroom/Seminar practices",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1) - Theoretical",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (T2) - Theoretical",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active Participation (PA1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active Participation (PA2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4.5 out of 10 is required for both the theoretical and practical blocks. The final theoretical grade is calculated as (0.5 * T1) + (0.5 * T2). The final practical grade is calculated as (0.4 * P1) + (0.1 * PA1) + (0.4 * P2) + (0.1 * PA2), provided 75% attendance to practical classes is met for each period; otherwise, P and PA grades for that period are zero. If all minimums are reached, the final grade is (0.65 * Theory) + (0.35 * Practices); otherwise, the final grade is the minimum of this formula and 4.0. For the extraordinary call, students may keep theoretical and practical grades of 5 or higher from the ordinary call. A minimum of 4.5 in both the theoretical and practical parts is required, and the final grade is calculated using the same weighted formula as the ordinary call; otherwise, the final grade is the minimum of this formula and 4.0.",
+  "bibliography": [
+    "Abraham Silberschatz, Peter B. Galvin, Greg Gagne \"FUNDAMENTOS DE SISTEMAS OPERATIVOS\", Ed. McGraw-Hill, 7ª edición, español, ISBN: 8448146417, ISBN\n\t\t\t\t\t\t‑13: 9788448146412.",
+    "William Stallings \"SISTEMAS OPERATIVOS: ASPECTOS INTERNOS Y PRINCIPIOS DE DISEÑO\" Ed. PEARSON, 5ª edición, español, ISBN-10: 8420544620, ISBN\n\t\t\t\t\t\t‑13: 9788420544625.",
+    "Jesús Carretero, Félix García, Pedro de Miguel y Fernando Pérez \"SISTEMAS OPERATIVOS, UNA VISIÓN APLICADA\" Ed. McGraw-Hill, 2ª edición, español, ISBN-10: 8448156439.",
+    "Jesús Carretero, Félix García y Fernando Pérez \"PROBLEMAS DE SISTEMAS OPERATIVOS: DE LA BASE AL DISEÑO\", Ed. McGraw-Hill, 2ª edición, español, ISBN-10: 8448139917, ISBN-13: 9788448139919."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-2-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-010",
+  "source_language": "es",
+  "source_sha256": "95f47d7c598525405ab5ff5e8522891dfd916ced5d27ee2515ad8b4b0016a76a",
+  "extracted_at": "2026-11-20T05:57:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

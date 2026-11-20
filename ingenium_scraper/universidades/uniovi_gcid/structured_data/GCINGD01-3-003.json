@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Aprendizaje Profundo",
+  "course_name_en": "Deep Learning",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Algebra",
+    "Calculus I",
+    "Programming Methodology",
+    "Advanced Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamentals of learning mechanisms specific to neural networks (optimizers, regularization, hyperparameters).",
+      "type": "unspecified",
+      "code": "RAP1"
+    },
+    {
+      "text": "Build neural networks capable of learning to solve classification and regression problems.",
+      "type": "unspecified",
+      "code": "RAP2"
+    },
+    {
+      "text": "Choose the appropriate neural network architecture and loss function in each case, depending on the problem addressed.",
+      "type": "unspecified",
+      "code": "RAP3"
+    },
+    {
+      "text": "Know the most common activation functions and understand their impact on the learning process.",
+      "type": "unspecified",
+      "code": "RAP4"
+    },
+    {
+      "text": "Understand the operation of convolutional networks and recurrent networks, as well as their applications.",
+      "type": "unspecified",
+      "code": "RAP5"
+    },
+    {
+      "text": "Solve learning tasks using deep neural networks.",
+      "type": "unspecified",
+      "code": "RAP6"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Deep Learning",
+    "Basic concepts",
+    "Differences with traditional machine learning",
+    "Main applications",
+    "Main frameworks for deep learning",
+    "Fundamentals of deep neural networks",
+    "Concept of perceptron. MLP",
+    "Gradient descent and backpropagation",
+    "Modeling nonlinear relationships. Nonlinear activation functions",
+    "Vanishing and exploding gradient",
+    "Training deep neural networks",
+    "Data preprocessing",
+    "Loss functions",
+    "Optimization algorithms",
+    "Regularization and overfitting",
+    "Weight initialization",
+    "Hyperparameter selection",
+    "Architectures and applications of deep neural networks",
+    "Feed-forward neural networks",
+    "Convolutional Neural Networks (CNN)",
+    "Recurrent Neural Networks (RNN)",
+    "Generative Adversarial Networks (GAN)",
+    "Attention and transformers",
+    "Autoencoders",
+    "Applications: computer vision, natural language processing, etc."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Online teaching",
+    "Expositive classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and participation in seminars (S)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Online activities (AO)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practice exams (EP): First exam (EP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice exams (EP): Second exam (EP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theory exam (ET)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as (0.05 x S) + (0.10 x AO) + 0.45 x ((0.30 x EP1) + (0.70 x EP2)) + (0.40 x ET). A minimum of 4 out of 10 points is required for the practical block (EP) and for the theory exam (ET). If these minimums are not met, the final grade will be the minimum between the calculated score and 4. Unperformed activities count as zero, but if their total weight exceeds 50%, the student will be marked as \"Not Presented\". For the extraordinary call, students take a theoretical exam and a practical exam. If a score of 5 or higher was obtained in either part during the ordinary call, that score is maintained, and only the failed part needs to be re-evaluated. A minimum of 4 out of 10 is required for both the theoretical and practical parts, and if met, the final grade is (0.50 x Theory) + (0.50 x Practices). Otherwise, the grade is the minimum between the calculated score and 4.",
+  "bibliography": [
+    "González-González, Pablo., Pérez-Nuñez, Pablo. Aprendizaje Profundo (Deep Learning). https://pglez82.github.io/DeepLearningWeb/",
+    "Stevens, Eli, Luca Antiga, and Thomas Viehmann. Deep learning with PyTorch. Manning Publications, 2020.",
+    "Chollet, Francois. Deep learning with Python. Simon and Schuster, 2021."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-3-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-3-003",
+  "source_language": "es",
+  "source_sha256": "bd68d2a7fd66dc2de1795c00a4af4f440cf9e3de9cd589be3c2cd4b05a880020",
+  "extracted_at": "2026-11-20T05:56:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

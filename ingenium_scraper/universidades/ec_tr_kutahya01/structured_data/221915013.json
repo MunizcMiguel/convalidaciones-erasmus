@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Computer Aided Manufacturing I",
+  "course_name_en": "Computer Aided Manufacturing I",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Explains the concepts of CAD and CAM, the data flow between them, and their use in CNC turning and milling manufacturing processes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Creates and edits two and three-dimensional part models using CAD software to suit CAM operations.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Plans and creates appropriate CAM operations for CNC turning operations (face turning, internal/external diameter machining, grooving, drilling, and threading).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Plans and execute s profile, pocket, groove, surface machining, and drilling operations using 2, 2.5, and 3-axis CAM operations for CNC milling.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Determines appropriate cutting tools, cutting parameters, and tool approach-plunge-retreat strategies in turning and milling CAM operations; evaluates the machinability of the created tool paths on CNC machines by verifying them with simulation.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to CAD/CAM concepts, structure of CAD/CAM systems and their place in the CNC manufacturing process",
+    "Creating 2D and 3D drawings using CAD programs for CAM operations",
+    "Preparing CAD models for turning operations, introduction to tool path logic and CAM interface",
+    "Turning operations: Face turning, external diameter turning and profile machining",
+    "Turning operations: Grooving, drilling, internal and external threading",
+    "Tool selection for turning, creation of tool position information, determination of cutting parameters and creation of NC codes",
+    "3D modeling techniques for milling (Extrude, Revolve, Extrude Cut, etc.)",
+    "Editing operations in 3D models (Copy, Array, Chamfer, Fillet, etc.)",
+    "Preparation of 2 and 2.5 axis milling CAM operations",
+    "Tool selection for milling, creation of tool library and definition of tool offsets",
+    "Determination of cutting parameters, tool approach, dive and retraction strategies",
+    "Profile machining, grooving, pocketing, surface machining for prismatic parts Machining and drilling operations",
+    "Advanced milling applications, 3-axis CAM operations and tool path optimization",
+    "Machining of parts on CNC machines with CAM operations, integrated CAD/CAM applications."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Question-Answer",
+    "Discussion",
+    "Problem Solving"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Solidworks, Solidcam & 3DQuickpress & 3DQuickmold, Kodlab,2014.",
+    "Instructor lecture notes."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Tc Dumlupinar Universitesi",
+  "institution_slug": "ec_tr_kutahya01",
+  "degree": "Makine Mühendisliği / Mechanical Engineering (Normal Öğretim)",
+  "course_code": "221915013",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.dpu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=124016613&lang=en",
+  "source_language": "en",
+  "source_sha256": "a64282f89a094659ed1ba2541c4170be03f89bc751f91a530442fac3b9c408e5",
+  "extracted_at": "2026-11-20T01:20:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

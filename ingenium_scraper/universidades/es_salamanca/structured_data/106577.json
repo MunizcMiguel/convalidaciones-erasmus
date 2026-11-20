@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Regulación y control",
+  "course_name_en": "Regulation and Control",
+  "ects": 3.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Fundamentals of Automation",
+    "Fundamentals of electronics",
+    "Industrial electricity",
+    "Informatics",
+    "Pneumatics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire knowledge oriented towards developing Flexible Manufacturing Systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Work with industrial elements, from basic sensors to complex ones like industrial robots, screens, and frequency converters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understanding and interpretation of texts and data, development of skills for their concretization and their clear and concise exposition.",
+      "type": "skill",
+      "code": "CT1"
+    },
+    {
+      "text": "Aptitude for the distribution of resources and time and their implementation in real situations.",
+      "type": "skill",
+      "code": "CT2"
+    },
+    {
+      "text": "Ability to transmit concepts, ideas, processes, etc., related to Industrial Engineering orally and in writing, clearly and correctly.",
+      "type": "skill",
+      "code": "CT3"
+    },
+    {
+      "text": "Ability to use scientific-technical tools for solving calculation and design problems in Industrial Engineering and aptitude for seeking sustainable engineering solutions.",
+      "type": "skill",
+      "code": "CT4"
+    },
+    {
+      "text": "Ability to relate to other people and an open aptitude towards creating new relationships.",
+      "type": "competence",
+      "code": "CT6"
+    }
+  ],
+  "syllabus_topics": [
+    "Block 0. Introduction.",
+    "Topic 1. Mechanical design: Integration of control elements.",
+    "Block I. Programmed logics.",
+    "Topic 2. Review of programmed logics. Sensors and actuators, technology and installation.",
+    "Topic 3. Motor regulation.",
+    "Topic 4. Analog signals.",
+    "Block II. Human-machine dialogue systems.",
+    "Topic 5. Local and remote monitoring. SCADA systems.",
+    "Topic 6. Screens, types and programming. Network connection.",
+    "Block III. Industrial communication systems.",
+    "Topic 7. Industrial networks and types of communication.",
+    "Topic 8. Serial networks and Ethernet networks.",
+    "Block IV Robotics",
+    "Topic 9. Introduction to industrial robots. Programming systems.",
+    "Topic 10. Robot Control. Local and remote, communications."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Instructor-led problem solving and exercise resolution",
+    "Problem solving sessions",
+    "Case studies",
+    "Computer lab practices with industrial software (CX-One, Server, NQ-Designer, Supervisor, Melpro)",
+    "Practical workshops",
+    "Circuit and network assembly",
+    "PLC and screen programming",
+    "Simulator work",
+    "Robot programming and connection",
+    "Seminars",
+    "Specialized conferences/presentations",
+    "Tutorials (individual or group)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Practical exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Guided practical assignments",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Written exam on general knowledge",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The overall grade is determined by a practical exam (50%), guided practical assignments (35%), and a written exam on general knowledge (15%). The practical assignments cover basic topics like analogics, SCADA, and serial networks, as well as advanced topics such as NQ screens, Ethernet networks, and robot control. Additional assessment components include online activities and questionnaires. Group work, leadership, and active involvement in group activities are also evaluated, and specific grading criteria will be announced for each component.",
+  "bibliography": [
+    "Tecnología industrial II (TEC62(07))",
+    "MANDADO PÉREZ, Enrique: “Controladores lógicos y autómatas programables” [Programmable Logic Controllers and PLCs], Ed. Marcombo, 681.5 MAN con.",
+    "OMRON, Mitsubishi Manuals. Cx-Supervisor, NQ-Designer: technical documentation"
+  ],
+  "isced_f_code": "0716",
+  "missing_sections": [],
+  "institution": "Universidad de Salamanca",
+  "institution_slug": "es_salamanca",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "106577",
+  "academic_year": "2026-27",
+  "source_url": "https://guias.usal.es/node/251781",
+  "source_language": "es",
+  "source_sha256": "262d9e597958d070ccc6a9d2ff70728622f65d228a8104809bf57fdebcc3ad00",
+  "extracted_at": "2026-11-13T23:03:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

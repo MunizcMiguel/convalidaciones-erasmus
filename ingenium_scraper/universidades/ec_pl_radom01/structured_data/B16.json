@@ -1,0 +1,137 @@
+{
+  "course_name_original": "Robotics",
+  "course_name_en": "Robotics",
+  "ects": 4.0,
+  "semester": "V",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "knowledge of mathematics and mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Familiarization with basic concepts and issues in robotics, the structure of robots, and their effectors.",
+      "type": "unspecified",
+      "code": "C1"
+    },
+    {
+      "text": "Acquisition of knowledge and skills in robot kinematics and dynamics, as well as motion planning, including the mathematical description of manipulators and robots.",
+      "type": "unspecified",
+      "code": "C2"
+    },
+    {
+      "text": "Acquisition of knowledge and skills in robot programming and control, as well as robot modeling and computer simulation.",
+      "type": "unspecified",
+      "code": "C3"
+    },
+    {
+      "text": "Knows the mathematical description of robots and manipulators, as well as kinematics and dynamics problems and methods for solving them.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Has knowledge of robot programming and control, as well as robot modeling and computer simulation.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Has knowledge of the structure and applications of robots, is familiar with the current state of technology and development trends, as well as health and safety regulations in robotics.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Is able to describe the kinematics of manipulator, as well as formulate and solve kinematics and dynamics problems, including the use of CAE techniques.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can program and control a robot based on given guidelines and prepare a report on the task execution.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is ready to complete and critically evaluate specialized knowledge and is able to select sources of knowledge and methods of learning appropriate for himself/herself and others.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Is willing to comprehensively analyze and effectively carry out assigned tasks, and in the event of difficulties in solving them, use expert opinion.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts in robotics",
+    "Laws of robotics",
+    "Common issues in robotics",
+    "Classification of robots and manipulators",
+    "Generations and development of robots",
+    "Overview of robot applications",
+    "Structure of robots and manipulators",
+    "Robot effectors – classification, characteristics, and functions",
+    "Kinematic pairs",
+    "Degrees of freedom",
+    "Mobility and maneuverability",
+    "Mathematical description of spatial robots and manipulators: coordinate systems, homogeneous coordinates, Denavit-Hartenberg notation",
+    "Kinematics of robots and manipulators – forward and inverse kinematics",
+    "Methods for solving forward and inverse kinematics problems",
+    "Statics and dynamics of robots and manipulators",
+    "Forward and inverse dynamics problems",
+    "Methods for determining velocities, accelerations, forces, and torques of a manipulator",
+    "Trajectory planning for robots and manipulators",
+    "Robot programming and control",
+    "Occupational health and safety in robotics",
+    "Health and safety rules during laboratory classes",
+    "Practical exercises with robots: structure and capabilities of selected types of robots",
+    "Operation and control of robots – working with technical documentation",
+    "Kinematics and dynamics of robots",
+    "Path and trajectory modeling",
+    "Robot modeling in MATLAB/SIMSCAPE MULTIBODY/ROBOTICS TOOLBOX environment – modeling of predefined motion and simulation based on given guidelines for a selected type of robot"
+  ],
+  "teaching_methods": [
+    "Conventional lecture using audiovisual means",
+    "Practical methods (demonstration, laboratory exercises)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Lecture attendance",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory attendance",
+      "weight_percentage": null
+    },
+    {
+      "method": "Verbal evaluation of K1 and K2",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The condition for passing the course is to achieve all the required learning outcomes specified for the course. Verbal evaluation is used for competencies K1 and K2.",
+  "bibliography": [
+    "Craig J.: Introduction to robotics: Mechanics and control, Pearson Education Limited",
+    "Lynch K.M., Park F.C.: Modern robotics: Mechanics, Planning, and Control, Cambrige",
+    "Spong M.V.: Robot modeling and control, Wiley",
+    "Siciliano B., Khatib O.: Handbook of robotics, Springer",
+    "Siciliano B., Sciavicco L., Villani L., Oriolo G.: Robotics: Modelling, Planning and Control",
+    "Russell K., Shen J.Q, Sodhi R.J.: Kinematics and Dynamics of Mechanical Systems: Implementation in Matlab and Simscape Multibody, CRC Press",
+    "Educational materials for laboratory sessions provided by the teacher"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "B16",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/B. Group of obligatory course core subject/B16_ME_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "8fc64de196d51bed3586f096655285c9029e83693c5e7071ca81a3e6c2e40ee5",
+  "extracted_at": "2026-11-18T10:04:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

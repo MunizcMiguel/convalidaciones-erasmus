@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Mecanica ruperii si deformarii plastice - PROIECT",
+  "course_name_en": "Fracture and Plastic Deformation Mechanics - PROJECT",
+  "ects": 1.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Introduction of notions of structural integrity and durability with defects and cracks, definition of fracture mechanics parameters, application of fracture mechanics criteria.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Analytical, numerical (using specialized software) and experimental determination of fracture mechanics parameters, familiarization with national and international standards for determining fracture toughness.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, specific elements of fracture mechanics",
+    "Linear-elastic fracture mechanics. Griffith theory. Westergaard solution. Irwin approximation. Definition of stress intensity factor",
+    "Stress intensity factor for bodies with different types of cracks",
+    "Aspects of finite element modeling of cracked bodies. Creating crack tip singularity. Methods for estimating fracture mechanics parameters",
+    "Experimental methods for determining the stress intensity factor",
+    "Experimental determination of fracture toughness. Influence factors of fracture toughness",
+    "Aspects of elasto-plastic fracture mechanics. Size of the plastic zone formed at the crack tip. Crack tip opening displacement. J-integral",
+    "Crack propagation under variable loading",
+    "Analytical calculation of fracture mechanics parameters in the linear-elastic domain",
+    "Calculation of crack propagation rate and durability of structural elements",
+    "Experimental determination of fracture toughness. KIC method",
+    "Determination of stress intensity factor at a crack tip by photoelasticity",
+    "Determination of crack propagation rate under variable loading",
+    "Determination of fracture mechanics parameters by Finite Element Method",
+    "Estimation of durability of structural elements based on fracture mechanics principles"
+  ],
+  "teaching_methods": [
+    "Project work",
+    "Multimedia lectures",
+    "Analytical calculations",
+    "Experimental trials",
+    "Computer simulations using specialized software"
+  ],
+  "workload_hours_total": 14.0,
+  "workload_hours_contact": 14.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (2 theory topics and 1 application)",
+      "weight_percentage": 67.0
+    },
+    {
+      "method": "Short project (Finite Element Method determination of stress intensity factors) completed during lab hours",
+      "weight_percentage": 33.0
+    }
+  ],
+  "assessment_rules": "Knowledge of linear-elastic and elasto-plastic fracture mechanics parameters; understanding and applying criteria for fracture of cracked parts; performing numerical simulations to determine fracture mechanics parameters are required for passing.",
+  "bibliography": [
+    "Dumitru I., Marsavina L., Introducere in Mecanica ruperii, Ed. Mirton Timisoara, 2001",
+    "Dumitru I., Marsavina L., Elemente de Mecanica ruperii, Lito UPT, Timisoara, 2000",
+    "Barsom J.M., Rolfe S.T., Fracture and Fatigue. Control in Structures. New Jersey, 1987, Second Edition.",
+    "T. L. Anderson - Fracture Mechanics. Fundamentals and Applications, CRC press, Boca Raton, 1991"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universitatea Politehnica Din Timisoara",
+  "institution_slug": "ec_ro_timisoa04",
+  "degree": "Inginerie Mecanică / Mechanical Engineering (licență)",
+  "course_code": "L431.23.06.D2-07",
+  "academic_year": "2025/26",
+  "source_url": "https://international.upt.ro/en/incoming-students/course-catalogue/",
+  "source_language": "ro",
+  "source_sha256": "1418954b4dcfbb90e636a7ddebc4bc341368b8a319bafd12eb5e59d48267ece1",
+  "extracted_at": "2026-11-18T04:13:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

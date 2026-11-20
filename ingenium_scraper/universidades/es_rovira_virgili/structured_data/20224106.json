@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Elasticidad y resistencia de materiales i (20224106)",
+  "course_name_en": "Elasticity and Strength of Materials I",
+  "ects": 6.0,
+  "semester": "Q1",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA II",
+    "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA I",
+    "FUNDAMENTOS FÍSICOS DE LA INGENIERÍA I",
+    "FUNDAMENTOS MATEMÁTICOS DE LA INGENIERÍA II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Applies the principles of strength of materials.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Performs the analysis of mechanical solids according to elasticity hypotheses. Determines stresses and deformations in the elastic field generated in a solid as a result of external solicitations.",
+      "type": "skill",
+      "code": "A4.8"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the scope of application of elasticity and strength of materials. Static and elastic equilibrium. Definition of prismatic element. Concept of stress and strain. The elastic problem. Hypothesis of elasticity.",
+    "Intrinsic components of the stress vector. The stress tensor. Reciprocity of tangential stresses. Cauchy's Lemma. Change of reference system. Principal stresses and directions. Mohr's circle. Maximum tangential stresses, octahedral stresses, spherical and deviatoric tensor. Plane stress.",
+    "Concept of displacement and strain. Strain at a point. Physical meaning of the strain tensor and the rotation matrix. Intrinsic components of the strain vector. Correlation between the stress tensor and the strain tensor. Spherical and deviatoric tensor. Compatibility equations. Plane strain.",
+    "Generalized Hooke's Law. Transverse modulus of elasticity. Constitutive law. The elastic problem. The thermal problem. Saint-Venant's Principle. Representation in the space of principal stresses. Yield and fracture surfaces. Failure criteria. Equivalent stress, safety factor and working stress. Composite materials.",
+    "Prismatic bar. General approach to bar model. Stresses in the section, concept of forces. Force diagrams. Isostatic and hyperstatic structures.",
+    "Definition of Normal Stress. Tensile and compressive stress state. Deformations. Self-weight. Hyperstatic systems. Initial and thermal stresses.",
+    "Equilibrium of a thin-walled sheet. Particular cases for stress calculation: rings, cylindrical tanks and spheres."
+  ],
+  "teaching_methods": [
+    "Introductory activities",
+    "Lecture session",
+    "Problem/exercise solving in ordinary classroom",
+    "PBL (Problem Based Learning)",
+    "ICT-based practicals",
+    "Personalized attention"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Problem Based Learning assignments",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Development tests (partial exams)",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "To pass the course, an average grade of 4 or higher is required between the two development tests, and a minimum number of PBL problems must have been submitted. A score greater than 3 is necessary in the second exam. For the second sitting, students will take a single exam covering the entire course content (100% of the grade). If a student actively participated in continuous assessment, and at the professor's discretion, their results from in-course evaluations may be considered if favorable for the final grade of the second sitting.",
+  "bibliography": [
+    "L.Ortiz Berrocal , Elasticidad, McGraw-Hill, 1998",
+    "L.Ortiz Berrocal , Resistencia de Materiales, McGraw-Hill, 2002",
+    "Timothy A. Philpot, Mechanics of Materials. An integrated learning system, Wiley, 2008",
+    "S. De la Flor López, Apunts docents d'ELAR I, Interna URV, 2012",
+    "S. De la Flor López, Problemes Docents d'ELAR I, Interna URV, 2012",
+    "S. De la Flor López, Col·lecció de Problemes d'exàmens d'ELAR I, Interna URV, 2012"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224106",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224106&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "611b05b5ab0dfadafc4d29ea5da859c143e846cb8303a7ad65fc851605022596",
+  "extracted_at": "2026-11-13T22:48:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

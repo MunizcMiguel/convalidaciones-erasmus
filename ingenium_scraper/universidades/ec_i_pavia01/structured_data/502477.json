@@ -1,0 +1,128 @@
+{
+  "course_name_original": "AUTOMATIC CONTROL (502477)",
+  "course_name_en": "AUTOMATIC CONTROL",
+  "ects": 12.0,
+  "semester": "1st semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge acquired in the courses of Mathematics",
+    "Geometry and Algebra",
+    "Mathematical Methods",
+    "Theory of circuits",
+    "Physics I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with the basic elements for the analysis and control of dynamic systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Highlight the fundamental problems of automatic control and the importance of mathematical models for the study of dynamical systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduce the main results concerning dynamic systems in continuous time, with particular attention to 'state concepts, stability, controllability, observability'.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Study linear time invariant dynamic systems in the domain of the Laplace transform, introducing the concepts of 'transfer function, block diagrams, frequency response'.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduce the problem of how to act on the input variables of a system, suitably described by a mathematical model, to achieve a particular behavior of the process.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduce the main criteria for analysis and control synthesis for linear systems with a single input and a single output.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Give special attention to stability, noise attenuation and reference tracking.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "At the end of the course the student will be able to formulate and solve a control problem for systems with one input and one output using the techniques developed in the frequency domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe various systems (electrical, mechanical, hydraulic, etc.) in precise mathematical terms and analyze them by applying methods learned in class.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Continuous time dynamic systems",
+    "Classification of dynamic systems, equilibrium, linear systems, linearization, stability",
+    "Continuous time invariant linear systems",
+    "Equilibrium, stability of nonlinear systems",
+    "Reachability, observability and canonical decomposition",
+    "Transfer Functions Definition and properties, representation and parameters, step response, realization",
+    "Block diagrams",
+    "Frequency response",
+    "Identification of the frequency response, Bode diagrams",
+    "Analysis of continuous-time control systems",
+    "Control in the neighbourhood of an equilibrium",
+    "General feedback control diagram",
+    "Control system nominal and robust stability",
+    "Bode criterion",
+    "Polar and Nyquist diagrams",
+    "Nyquist criterion, gain margin and margin phase, sensitivity analyzes",
+    "Summary of continuous-time control systems",
+    "Requirements and specifications, methods of synthesis, stabilizing networks",
+    "Root locus",
+    "Industrial controllers",
+    "Model and industrial implementation of PID controllers (Proportional-Integral-Derivatives)",
+    "Simulation and control with the help of Matlab / Simulink"
+  ],
+  "teaching_methods": [
+    "Theoretical face-to-face lectures",
+    "Blackboard exercises",
+    "Matlab exercises on the computer",
+    "Exercise conducted on a laboratory process"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 164.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (part 1: analysis of dynamic systems)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (part 2: analysis of closed-loop dynamic systems and controller synthesis)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Matlab exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The written exam consists of two parts, with 2 hours for each. It is necessary to obtain at least 18/30 on both parts. The overall evaluation is the average of the grades obtained in the two parts, which can be taken in different appeals. Up to 3 points can be added from Matlab exercises, although the maximum grade can be achieved solely through the written exam.",
+  "bibliography": [
+    "P. Bolzern, R. Scattolini, N. Schiavoni. Fondamenti di controlli automatici. McGraw Hill Italia."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "502477",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=9280&ordinamento_aa=2025&af_percorso=1&corso_cod=10866&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "f8883516441fa453c9ff34f621d5ed8c80b89dde80b33b58ee85a4cdbd055608",
+  "extracted_at": "2026-11-20T08:18:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

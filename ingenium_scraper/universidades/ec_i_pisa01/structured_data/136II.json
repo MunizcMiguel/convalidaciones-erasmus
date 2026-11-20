@@ -1,0 +1,117 @@
+{
+  "course_name_original": "ELECTRONICS (136II)",
+  "course_name_en": "ELECTRONICS",
+  "ects": 12.0,
+  "semester": "Secondo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "basic knowledge of physics",
+    "analysis of electrical networks",
+    "main theorems of electrical engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Develop knowledge of basic electronics, from semiconductor physics to well-known analog and digital circuits, with emphasis on their use.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Address traditional electronic devices such as diodes, bipolar transistors and field-effect transistors and analyze their use in multiple circuit topologies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn fundamental concepts such as the bias point, small-signal equivalent circuit and frequency behavior of electronic circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop circuit analysis skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Gain considerable theoretical knowledge through the study of reaction theory, enabling the analysis of both seen and new circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn about the figures of merit and tradeoffs present in the design of many types of circuits such as amplifiers, filters, oscillators, comparators and multi-vibrator circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Receive the fundamentals of Boolean algebra and elementary combinatorial and sequential blocks to build digital networks, along with an introduction to digital memories.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze basic analog and digital circuits, recognizing their figures of merit and evaluating their performance critically.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to size circuit components to achieve the required performance.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Physics of semiconductor devices",
+    "Analog electronics",
+    "Digital electronics",
+    "Fundamental physical concepts for diodes, bipolar transistors and field-effect transistors",
+    "Use and modeling of diodes, bipolar transistors and field-effect transistors in circuits",
+    "Diode-based circuits (e.g., peak detector, envelope detector)",
+    "Single-transistor amplifier stages (BJT/MOSFET)",
+    "Linear circuits based on operational amplifier (inverting and non-inverting amplifier, integrator, differentiator, filters, sinusoidal oscillators)",
+    "Op-amp non-idealities (finite gain, finite input resistance, nonzero output resistance, offset and bias currents, dominant pole response)",
+    "Study of network feedback by means of generalized theorem",
+    "Nonlinear circuits based on op-amp (comparator, multivibrator, triangle wave generator)",
+    "Boolean algebra",
+    "Fundamental theorems and synthesis of logic functions",
+    "Elementary logic gates and their fundamental parameters",
+    "Complex logic gates",
+    "Combinational circuits (multiplexers, demultiplexers, decoders, encoders)",
+    "Sequential circuits (latch and flip-flops)",
+    "Digital memory architectures (ROM and RAM)",
+    "555 timer",
+    "Demonstration of circuit operation by electrical simulation with LTSpice"
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Practical sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 120.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination consists of two tests: a written test lasting 3 hours, and an oral test approximately lasting 1 hour. Both tests cover the entire program taught in class. For the written test, the student must demonstrate an understanding of the basic knowledge and be able to apply it while solving exercises, and analyze and design circuits. During the oral test, the student must be able to describe in depth the circuits and concepts presented in class.",
+  "bibliography": [
+    "A. S. Sedra, K. C. Smith, “Microelectronic Circuits,” Oxford University Press, 7th edition (2014)",
+    "A. S. Sedra, K. C. Smith, “Circuiti per la Microelettronica,” Edizioni Edises (2019)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "136II",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=53295_702857_64720&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "d861f43d52d809d4b2671015b94badf65575e22723ed652556447a7701dae486",
+  "extracted_at": "2026-11-20T09:25:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

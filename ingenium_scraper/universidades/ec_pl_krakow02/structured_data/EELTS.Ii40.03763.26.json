@@ -1,0 +1,125 @@
+{
+  "course_name_original": "FPGAs and Analogue Signal Processors in Control Systems",
+  "course_name_en": "FPGAs and Analogue Signal Processors in Control Systems",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the basics of arithmetic used in digital signal processing",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Has basic knowledge of the structure, operation and use of CPLD and FPGA systems",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Has basic knowledge of the structure, operation and use of analog programmable systems",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows computer tools supporting the design processes of selected programmable systems",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows the basics of the VHDL hardware description language",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Has basic knowledge of the possibilities of using programmable systems in control systems of energy converters",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Has basic knowledge of implementing DSP functions in FPGA systems",
+      "type": "knowledge",
+      "code": "W7"
+    },
+    {
+      "text": "Is able to apply known methods, hardware description language and mathematical models, as well as computer techniques to implement algorithms in programmable systems",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is able to program and analyze the operation of an FPGA system algorithm using dedicated computer tools",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is able to program and analyze the operation of an FPGA system algorithm using dedicated computer tools",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Understands the need for continuous learning related to rapid changes in programmable system technology",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Computer design environment for FPGA systems",
+    "Basics of VHDL hardware description language",
+    "Techniques for implementing algorithms in FPGA systems",
+    "Debugging and control of FPGA projects",
+    "Implementation of control algorithms for power converters and their verification on numerical models of objects",
+    "SOFT CORE processor in FPGA system and use of C language",
+    "Concepts of programmable system construction",
+    "Dedicated software for CPLD and FPGA systems",
+    "Hardware description languages. Introduction to VHDL and design examples",
+    "Number formats, fixed-point and floating-point arithmetic",
+    "Implementation of DSP functions in FPGA systems",
+    "Implementation, in FPGA systems, of regulators and control with pulse width modulation for basic power electronic converters",
+    "Problems of debugging FPGA systems",
+    "Analog programmable systems FPAA and dpASP, concept, construction, dedicated software, switched capacitor technology",
+    "Concepts of implementing automatic control systems using FPGA and FPAA/dpASP",
+    "SOFT CORE processor in FPGA system and use of C language"
+  ],
+  "teaching_methods": [
+    "Project Based Learning",
+    "Lecture"
+  ],
+  "workload_hours_total": 108.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of lectures",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Completion of laboratory classes requires a positive assessment of the verification of learning outcomes. For lectures, students participate in classes and clarify doubts. Students are required to prepare for laboratory exercises, which may be verified by an oral or written colloquium.",
+  "bibliography": [
+    "R. Stala, M. Baszyński, „Sterowanie i modelowanie przekształtników energoelektronicznych w układach FPGA. Ćwiczenia laboratoryjne”, Wydawnictwo AGH, Kraków, 2011.",
+    "T. Łuba, B. Zbierzchowski, K. Jasiński, „Specjalizowane układy cyfrowe w strukturach PLD i FPGA”, WKŁ, Warszawa, 1997",
+    "Philip Andrew Simpson, “FPGA Design”, Springer Cham, eBook ISBN 978-3-319-17924-7, Published: 19 May 2015."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites",
+    "assessment_methods"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.03763.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/932bc4c1-cf50-4b9a-9d2c-39529a9fdc40.html",
+  "source_language": "pl",
+  "source_sha256": "234e69b6ddccd4eee3cba5155efdebbf5fe411bad2c2c199c8904b0f8acf2979",
+  "extracted_at": "2026-11-20T09:04:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

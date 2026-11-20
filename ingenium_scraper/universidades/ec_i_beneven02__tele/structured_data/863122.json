@@ -1,0 +1,97 @@
+{
+  "course_name_original": "NETWORK SECURITY (863122)",
+  "course_name_en": "NETWORK SECURITY",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "familiarity with the operation of modern PCs and the architecture of the Internet",
+    "theoretical principles of operating systems",
+    "the architecture and operation of computer networks",
+    "principles of network programming",
+    "Networked Systems Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "By the end of the course, the student will possess a basic understanding of cybersecurity principles, security models, and major cyber threats.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Furthermore, the student will be familiar with key techniques for protecting systems and networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be able to analyze vulnerabilities and assess the risks associated with cyber threats using fundamental cybersecurity methodologies and tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "By the end of the course, the student will be able to evaluate and devise simple security countermeasures for various application scenarios, balancing trade-offs between security requirements, performance, usability, and cost.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "By the end of the course, the student will be able to effectively communicate cybersecurity issues and solutions to both technical and non-technical audiences.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "By the end of the course, the student will have developed the ability to independently keep up to date with the evolution of major threats, technologies, and countermeasures in the field of cybersecurity.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Network-based attacks and techniques to protect data and resources",
+    "Symmetric encryption and block cipher modes",
+    "Public-key encryption",
+    "Digital signature",
+    "Key management",
+    "Authentication protocols",
+    "TLS/SSL",
+    "IPsec",
+    "VPN and tunnelling",
+    "DNSsec",
+    "Firewalls and NIDSs",
+    "Security in wireless networks based on 802.11 standard",
+    "Bluetooth security",
+    "Mobile code and security",
+    "Viruses and related threats",
+    "Virus countermeasures"
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Thesis",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students must develop a thesis of at least 30 pages on one of the course topics of their choice and submit it via email to the professor at least 10 days before the exam session. The thesis is evaluated and a grade out of 30 is proposed. The student may accept or reject the proposed grade; if accepted, the exam is passed without an oral exam. If rejected, the student must supplement the thesis or write another on a new topic and resubmit at the next exam session.",
+  "bibliography": [
+    "W. Stallings, “Cryptography and Network Security: Principles and Practice”, 8th edition, Pearson, 2020.",
+    "W. Stallings and L. Brown, “Computer Security: Principles and Practice”, 4th edition, Pearson, 2018.",
+    "A. S. Tanenbaum, N. Feamster, D. Wetherall, \"Computer Networks\", 6th edition, Pearson, 2020"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica (L-8)",
+  "institution_slug": "ec_i_beneven02__tele",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "863122",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7728&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "ecf987bf193e31d63400e715f5004b77b74ce02bb80e38da641bc2cfda6d36c1",
+  "extracted_at": "2026-11-20T12:46:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

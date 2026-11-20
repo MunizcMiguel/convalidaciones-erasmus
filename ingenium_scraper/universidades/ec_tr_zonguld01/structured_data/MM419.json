@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Control Systems and Design",
+  "course_name_en": "Control Systems and Design",
+  "ects": 6.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student learns the basic concepts of root locus (RL) and its interpretation",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Student gains the basic principles of feedback sensors, constructs models and integrates them with the control system block diagram.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Student observes the behavior of the control system designed by the use of a computer program.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Student learns the basic principles of Bode diagram technique and has knowledge of integrating into a control system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students gains the knowledge of designing P, PD, PD ve PID controllers.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Course Policy. Introduction. Basic concepts in the design of control systems",
+    "The use of time domain and frequency domain techniques in the control system design.",
+    "Basic definitions used for root locus. Rules of drawing root locus for a given open loop pole/zero configuration of an open loop transfer function",
+    "Root locus with respect to any parameter. Root contours. Root locus of systems with transportation lag.",
+    "Fundamental concepts in the design of feedforward controllers (compensators, filters) by using root locus technique.",
+    "P, PI and PID-controller design. Analytical design of P, PI, PD and PID controllers. Lag and lead compensators as controllers.",
+    "Basic definition and characteristics of frequency response.",
+    "Bode plots; constant gain, integral/derivative factors, first order factors, second order factors, resonance.",
+    "Polar plots. Closed loop frequency response from the polar plot of open loop frequency response.",
+    "Nyquist stability criterion.",
+    "Relative stability. Phase and gain crossover frequencies. Phase margin. Gain margin.",
+    "Constant N circles. Log-magnitude versus phase plots. Nichols diagram.",
+    "Lag compensation in frequency response.",
+    "Analytical design methods for lag, lead and PID controllers. PD controllers."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 169.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "D'Azzo, J.J., Houpis, C.H., and Sheldon, S.N., Linear Control System Analysis and Design, 5th Edition, Revised and Expanded, CRC, 2003.",
+    "Dorf, R.C. and Bishop, R.H., Modern Control Systems, 11th Edition, Pearson Prentice-Hall, 2008.",
+    "D'Souza, A.F., Design of Control Systems, Prentice-Hall, 1988.",
+    "Franklin, G.F., Powell, J.D., and Emami-Naeini, A., Feedback Control of Dynamic Systems, 6th Edition, Pearson Prentice-Hall, 2009.",
+    "Kuo, B.C. and Golnaraghi, F., Automatic Control Systems, 8th Edition, John Wiley & Sons, 2003.",
+    "Nise, N.S., Control Systems Engineering, 5th Edition, John Wiley & Sons, 2008.",
+    "Phillips, C.L. and Harbor, R.D., Feedback Control Systems, 4th Edition, Prentice-Hall, 2000.",
+    "Ogata, K., Modern Control Engineering, 5th Edition, Pearson Prentice Hall, 2009."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Zonguldak Bülent Ecevit Üniversitesi",
+  "institution_slug": "ec_tr_zonguld01",
+  "degree": "Mechanical Engineering / Makine Mühendisliği (Normal Öğretim)",
+  "course_code": "MM419",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.beun.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=416224&lang=en",
+  "source_language": "en",
+  "source_sha256": "bf5953ace46773c99940c7f2c220b237f2d6da0cda9df238b58fd04a0237a60a",
+  "extracted_at": "2026-11-18T10:09:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

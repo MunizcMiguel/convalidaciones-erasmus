@@ -1,0 +1,70 @@
+{
+  "course_name_original": "PROCESSI E METODI DI FABBRICAZIONE PER LO SVILUPPO DEL PRODOTTO M (33978)",
+  "course_name_en": "MANUFACTURING PROCESSES AND METHODS FOR PRODUCT DEVELOPMENT M",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Attending students will acquire the methodological approaches and application methods to improve the fundamentals skills addressed in the previous courses on manufacturing processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Some of the most important industrial tools and design methods for manufacturing are provided, dealing with economic aspects related to manufacturing processes, such as industrial cost estimations, and more strictly technical aspects related to mechanical tool design and optimization of process parameters using last CAE tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Mathematical models and solution methods for numerical simulation of some of metal forming manufacturing processes are dispensed, explaining the theoretical principles of the analysis on industrial cases. FEM code qform will be used for practical case studies.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Process costification criteria and models : analysis of the processing cycle, determination of material losses, process set-up, setup and processing times; budgeting, valorization and final accounting, direct and indirect costs, direct costing and full costing methods, examples and applications",
+    "Basic theory of numerical simulation : Introduction to the theoretical principles of FEM and FVM methods (Elements and finite volumes), a brief reference to the formulation of the finite element method and examples of applications to structural calculation (displacements, stresses, deformations), modeling control: verification, validation, test convergence and error verification, the non-linearity of the FEM method; approaches to the description of motion: Lagrangian and Eulerian formulation; integration over time: explicit and implicit formulations; thermo-structural problems: the coupled formulations",
+    "Examples of calculation procedures in structural analysis and coupled problems; examples of case studies; introduction to the numerical models governing the main multi-physics phenomena involved in the manufacturing processes (Navier-Stokes equations, Fourier, etc)",
+    "Bulck metal forming processes : Massive plastic deformation processes, definition and measurement of plastic flow laws, friction models, presses and hammers for the realization of processes, tool design (molds, dies and elements accessories); Applications to industrial cases",
+    "Numerical simulation of metal forming processes with the Qform code: The laws for plastic flow modelling: theory, experimental tests, data analysis, mathematical models; The models for friction and other simulation parameters; Definition of the behavior of presses and hammers; Interpretation of results and advanced process analysis tools; The stress of the tools: Die stress, elastic, elasto-plastic, creep; Applications to industrial cases and troubleshooting"
+  ],
+  "teaching_methods": [
+    "Lectures based on powerpoint slides with in-depth analysis at the blackboard",
+    "Analysis of industrial cases",
+    "Lectures and exercises with commercial finite element codes for process analysis"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Prelimnary written examination on theoretical aspects",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination on a FEM simulation problem to be prepared, run and discussed and connected questions on the whole course topics",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment includes a preliminary written examination on theoretical aspects, which lasts 30 minutes. An immediate correction of the written examination leads to the selection of candidates for an oral examination. The oral examination lasts around 20 minutes and covers a FEM simulation problem to be prepared, run, and discussed, along with connected questions on all course topics. Cheating, plagiarism, unauthorized use of online learning resources, AI tools, or unauthorized materials/equipment will result in immediate invalidation of work and notification to competent offices, potentially leading to disciplinary and criminal proceedings.",
+  "bibliography": [
+    "Ted Belytschko, Wing Kam Liu, Brian Moran, Khalil Elkhodary \"Nonlinear Finite Elements for Continua and Structures\", 2nd Edition, 2014, Wiley"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Laurea Magistrale Ingegneria meccanica",
+  "institution_slug": "ec_i_bologna01__m_mec",
+  "degree": "Ingegneria meccanica (Laurea Magistrale, LM-33, Bologna)",
+  "course_code": "33978",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/516514",
+  "source_language": "en",
+  "source_sha256": "8f3fb9487211d0aae135207e077bb15231501ccc80570d31c015a88cb710f182",
+  "extracted_at": "2026-11-20T13:01:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

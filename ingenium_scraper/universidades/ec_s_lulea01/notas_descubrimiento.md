@@ -1,0 +1,7 @@
+# ec_s_lulea01 — Luleå tekniska universitet (parcial, regla de parada)
+- Titulación: Högskoleingenjör maskinteknik (3 años, 180 hp) — `timeg` (intakes 2025-27); la civilingenjör (TCMAA) es de 5 años. Página: https://www.ltu.se/utbildning/program/timeg-hogskoleingenjor-maskinteknik (robots permite).
+- Catálogo: 18 enlaces `/utbildning/kurs/{grupo}/{id}-{slug}` con texto "Nombre N hp" (142,5 hp; el resto hasta 180 son bloques de optativas/otros no enlazados). Código = id de curso en mayúsculas (M0015T). Sin curso/semestre.
+- Guías: la ficha `https://www.ltu.se/edu/course/{GRUPO}/{ID}?l=en` (en inglés) solo trae matrícula/prerrequisitos; la kursplan (contenido, objetivos, evaluación) es PDF dinámico de `epok.ltu.se/epok/dynpdf/public/kursplan/…` y su robots.txt lo prohíbe → no se descarga (BLOQUEADO). Filas `sin_guia`, sin Fase 2.
+
+## Reintento Fase 2 (2026-11-20) — sigue parcial
+- Hallado `https://www.ltu.se/en/education/syllabuses/course-syllabus?id={CODE}` (robots de www.ltu.se permite): en el HTML estático solo hay acordeones vacíos («Course content and structure», «Course literature», «Examiner») y los enlaces a los PDF de `epok.ltu.se/epok/dynpdf/public/kursplan/…` y `…/downloadPublicLitteraturlista.pdf` (vetados por robots de epok). El contenido lo inyecta por JS la app Sitevision `Utbildningsplan` (sin JSON en la página). Sin vía estática permitida; sin navegador automatizado (regla del brief). Catálogo sin cambios, 18 filas `sin_guia`, 0 Markdown.

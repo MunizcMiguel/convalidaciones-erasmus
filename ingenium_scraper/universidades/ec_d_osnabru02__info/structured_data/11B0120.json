@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Embedded Systems",
+  "course_name_en": "Embedded Systems",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematics and programming skills corresponding to the mathematics and programming modules of the associated study programs.",
+    "Basic knowledge of operating systems, computer architectures, or microcomputer technology is helpful."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will gain broad knowledge about embedded systems, which are subject to the constraints of limited resources and hardware dependencies. In particular, they will know the processes of modern software development for these systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will possess the knowledge of how software for embedded systems is structured. They will know the design process and the tools for creating software for these systems. They will understand the concepts for testing embedded software.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to evaluate, select, and apply the tools that support the design process for embedded systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will understand how embedded systems integrate into an overall system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to design and develop embedded systems from specification to a finished product, considering economic and ecological constraints.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to specify suitable embedded systems for a given task, create an appropriate software concept for it, and select necessary tools and test environments. They will proceed methodically and structurally, using professional aids. They will be able to argue problem statements and proposed solutions to experts.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students will be able to develop solutions in a team, considering the different competencies and perspectives of other team members.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Architecture of Embedded Systems",
+    "Embedded Processors",
+    "Peripherals and their real-time relevance",
+    "Programming with limited resources",
+    "Program implementation: Booting, Cross-compiling, Linking, Loading, Remote-Debugging",
+    "Real-time operating system kernels: Process management, Scheduling, Process communication, Interrupt processing, Hardware abstraction",
+    "Real-time behavior",
+    "Programming of embedded systems using examples of simple applications with and without a real-time operating system."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity",
+    "Preparation and follow-up for lectures",
+    "Literature study",
+    "Exam preparation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project report (written)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination performance is chosen by the instructors (either written exam or project report). For a written project report, a workload of 40 hours is expected for its creation, as well as participation in the report presentations. The duration of the written exam is according to the valid study regulations. A written project report should be approximately 6666 words, with an associated explanation of approximately 20 minutes. Participation in the presentations by course participants is mandatory. The ungraded examination performance is experimental work, consisting of approximately 5 experiments in total, each potentially requiring multiple appointments.",
+  "bibliography": [
+    "Wörn, Brinkschulte: Echtzeitsysteme, Springer, 2005",
+    "Peter Marwedel: Embedded System Design, Springer, 2011",
+    "K. Berns, B. Schürmann, M. Trapp: Eingebettete Systeme, Vieweg+Teubner, 2010",
+    "Bruce Powel Douglass: Design Patterns for Embedded Systems in C, Newnes, 2011",
+    "Joseph Yiu, The Definitive Guide to The ARM CORTEX-M3, Newnes, 2010",
+    "Bollow, Homann, Köhn: C und C++ für Embedded Systeme, mitp, 2008",
+    "Richard Barry: Mastering the FreeRTOS™ Real Time Kernel, Real Time Engineers Ltd. 2016",
+    "Michael Barr, Anthony Massa: Programming Embedded Systems, O‘Reilly, 2007"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Informatik – Technische Informatik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__info",
+  "degree": "Informatik – Technische Informatik (B.Sc.)",
+  "course_code": "11B0120",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BTI/StO2025_Stand2026-03-03_Informatik-TechnischeInformatik.pdf",
+  "source_language": "de",
+  "source_sha256": "46c5a9bf989e3c880faede18c5efbdf785d0e1dbe0353b8ae0aa1ee2f290c13b",
+  "extracted_at": "2026-11-20T12:33:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

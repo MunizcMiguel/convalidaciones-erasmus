@@ -1,0 +1,120 @@
+{
+  "course_name_original": "Power Electronics II",
+  "course_name_en": "Power Electronics II",
+  "ects": 7.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "EEE431"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the concept of power control through switching",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the basic operation principles of power semiconductors used in high frequency power conversion circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can perform the basic calculations related to power semiconductors used in high frequency power conversion circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Can identify the basic DC-DC converter topologies operated at high switching frequencies and can analyze these converters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Have the knowledge about the magnetics components used in high frequency power electronics and can perform basic magnetic component designs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can identify basic protection and limitation circuits used in power electronics and can perform their basic calculations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the principles of DC-AC inversion and the concept of pulse width modulation, and can use this concept to solve problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can design dc-dc converter circuits to meet certain requirements and can select power devices considering realistic conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Can simulate power electronic converters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Can conduct experiments by following the instructions on a power electronic experiment document analyze and interpret data obtained in the experiment.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic principles of DC-DC conversion.",
+    "Buck type dc-dc converter: Operation principles and filter design.",
+    "Boost, Buck-Boost and Cuk DC-DC Converters",
+    "Pulse Width Modulation concept and its application",
+    "Continuous and Discontinuous operation limits of dc-dc converters.",
+    "A general look at the isolated dc-dc converter topologies.",
+    "Forward DC-DC Converters",
+    "Flyback dc-dc converters",
+    "Half and Full bridge dc-dc converters",
+    "Snubbers",
+    "Heat sinks",
+    "Operation principles of inverters and sinusoidal pulse width modulation",
+    "Single phase inverters",
+    "Three phase inverters"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Practice",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "1- Power Electronics: Converters, Applications, and Design; N. Mohan, Tore Undeland, William P. Robbins",
+    "2- Elements of Power Electronics, Philip T. Krein, Oxford University Press",
+    "1- Power Electronics: circuits, devices, and applications; M. Rashid, Prentice-Hall, 2013"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE432-s8",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857449&lang=en",
+  "source_language": "en",
+  "source_sha256": "2d81db7f6be3a1e6da3768bb20872449c9838211a8594d1bc935d6b9d3bb4ae9",
+  "extracted_at": "2026-11-20T12:53:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

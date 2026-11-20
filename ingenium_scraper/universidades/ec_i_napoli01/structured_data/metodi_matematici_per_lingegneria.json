@@ -1,0 +1,75 @@
+{
+  "course_name_original": "Metodi Matematici Per L’Ingegneria",
+  "course_name_en": "Mathematical Methods for Engineering",
+  "ects": 8.0,
+  "semester": "I",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analisi matematica II – Geometria e Algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide fundamental concepts and results, with a view to applications, relating to the theory of analytic functions, distributions, Fourier series, Fourier and Laplace transforms and their applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Demonstrate knowledge of the notions (definitions, statements, demonstrations if required by the program) relating to the theory of holomorphic functions and integration in the complex field, distributions, Fourier series, Fourier and Laplace transforms and the calculation tools developed, and be able to understand related topics by elaborating the acquired notions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Demonstrate the ability to apply what has been learned in solving verification exercises prepared by the Teacher, generally related to topics such as: calculation of integrals in the real and complex field with the theory of residues, linear difference equations, Fourier series and transforms of periodic signals, Laplace transforms of functions and applications to linear differential problems, distributional calculus.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Complex numbers. Algebraic, trigonometric, exponential form. Properties of modulus and argument. De Moivre's formulas and n-th roots. Elementary functions in the field of complex numbers: exponential, sine and cosine, hyperbolic sine and cosine, logarithm, power. Sequences and series in the field of complex numbers. Power series: radius of convergence and properties, term-by-term differentiation.",
+    "Analytic functions. Holomorphy and Cauchy-Riemann conditions. Line integrals of complex variable functions. Cauchy's theorem and formulas. Taylor series expansion. Laurent series expansion. Zeros of analytic functions and identity principles. Classification of isolated singularities. Liouville's theorem.",
+    "Integration. Introduction to Lebesgue measure and integral. Summable functions. Limit theorems under the integral sign. Integrals in the sense of Cauchy's principal value. Spaces of summable functions.",
+    "Residues. Residue theorem. Calculation of residues at poles. Calculation of integrals using the residue method. Jordan's lemmas. Partial fraction decomposition.",
+    "Difference equations. Z-transform: definition and properties. Inverse Z-transform. Recursively defined sequences.",
+    "Laplace Transform. Signals. Generalities on signals. Periodic signals. Convolution. Definition and domain of the bilateral Laplace transform. Analyticity and behavior at infinity. Notable examples of Laplace transform. Formal properties of the Laplace transform. Unilateral Laplace transform and properties. Initial and final value theorems. Inverse transform (s.d.). Use of Laplace transform in linear differential models.",
+    "Fourier Series. Introduction to Banach and Hilbert spaces. Energy of a periodic signal. Trigonometric polynomials. Exponential and trigonometric Fourier series. Convergence in the pointwise and energy sense.",
+    "Fourier Transform. Definition of Fourier transform. Formal properties of the Fourier transform. Inverse transform. The Fourier transform and the heat equation.",
+    "Distributions. Linear functionals. Limits in the sense of distributions. Derivative in the sense of distributions. Differentiation rules. Notable examples: Dirac delta, v.p. 1/t. Convolution of distributions. Space of rapidly decreasing functions and its topology. Tempered distributions and slowly growing functions. Fourier transform of tempered distributions. Laplace transform of distributions. Fourier transform of Dirac delta, of impulse train. Fourier transform of periodic signals.",
+    "Boundary problems. Self-adjoint equations. Green's function, the alternative theorem. Sturm-Liouville problem, orthogonality of eigenfunctions.",
+    "Partial differential equations. Generalities. Laplace and Poisson equations, harmonic functions, Dirichlet and Neumann problems. Solution of the Dirichlet problem for Laplace's equation in a circle. Heat equation, Cauchy problem in the half-plane. Wave equation, Cauchy problem in the half-plane, mixed problem in the half-strip."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written and an oral test. The written exam may include multiple-choice questions, free-response questions, and numerical exercises.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "metodi_matematici_per_lingegneria",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "cf08ee6bf96f22f82d390ec6aa75168700ab115dd2daf4a933dcfafaae0a6769",
+  "extracted_at": "2026-11-20T08:19:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

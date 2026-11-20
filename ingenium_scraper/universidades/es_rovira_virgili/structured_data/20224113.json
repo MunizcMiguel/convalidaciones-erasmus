@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Hidráulica",
+  "course_name_en": "Hydraulics",
+  "ects": 6.0,
+  "semester": "2Q",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Fluid Mechanics Engineering",
+    "It is essential to have completed the Fluid Mechanics Engineering course from the 1st semester of the 3rd year."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Applies the fundamentals of fluid-mechanical systems and machines.",
+      "type": "competence",
+      "code": "A1.1"
+    },
+    {
+      "text": "Knows the operation and parameters of a pneumatic and oleohydraulic installation.",
+      "type": "knowledge",
+      "code": "A1.8"
+    },
+    {
+      "text": "Poses and solves problems of piping systems. Performs the basic dimensioning and calculation of the fundamental parameters that characterize a fluid transport and distribution system.",
+      "type": "competence",
+      "code": "A4.2"
+    },
+    {
+      "text": "Knows the classification, operation, and basic theory of hydraulic machines. Dimensions the functional parts of hydraulic machines.",
+      "type": "competence",
+      "code": "A5.6"
+    }
+  ],
+  "syllabus_topics": [
+    "Flow measurement",
+    "Types of devices and selection factors for flow measurement devices",
+    "Average flow measurement",
+    "Venturi meter, orifice plate, and nozzle",
+    "Rotameter, vortex and turbine meters",
+    "Others: Magnetic and ultrasonic",
+    "Positive displacement meters",
+    "Mass flow measurement",
+    "Probes for velocity measurement: Pitot and Prandtl tube, anemometers",
+    "Fluid conveyance systems",
+    "Types of conveyance problems: series and parallel systems",
+    "Series systems",
+    "Class I systems. Calculation of unknown head. Practical cases",
+    "Class II systems. Flow rate calculation",
+    "Class III systems. Limiting value of losses and pipe diameter calculation",
+    "Parallel systems (2 or more branches)",
+    "Pump selection and application",
+    "Types of pumps. Positive displacement pumps and kinetic pumps",
+    "Fundamental equations for turbomachinery",
+    "Power and efficiency",
+    "Characteristic curve of a pump",
+    "Net Positive Suction Head (NPSH)",
+    "Available NPSH and required NPSH. Cavitation",
+    "Operating point of a pump",
+    "Affinity laws for centrifugal pumps",
+    "Centrifugal pump specification",
+    "Effect of fluid viscosity",
+    "Centrifugal pump selection criteria. Requirements for suction and discharge lines. Applications",
+    "Positive displacement pumps. Applications. Principles of oleohydraulics",
+    "Air flow",
+    "Characteristics of gas flow",
+    "Air flow in ducts. Energy losses",
+    "Fans, blowers, and compressors. Classification",
+    "Fan equations, affinity laws, and characteristic curves",
+    "System design. Examples",
+    "Open channel flow",
+    "Characteristics",
+    "Classification. Froude number",
+    "Uniform flow. Chezy's formulas. Manning's correlation",
+    "Determination of depth. Rectangular and circular channels. Concept of efficient channel"
+  ],
+  "teaching_methods": [
+    "Introduction to the subject and general planning: information sources, evaluation calendar, standards required for monitoring the subject and good use of the course.",
+    "Problem/exercise solving in the ordinary classroom from the list provided to prepare the subject.",
+    "Lectures on the specific contents of the subject (syllabus development). Practical aspects will be emphasized.",
+    "Personalized attention to facilitate monitoring of the course, feedback will be provided to each student through corrected exercises and doubt resolution."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Practical assignments (online exercises via Moodle)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "First partial exam",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Second partial exam",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The minimum average mark required between the two partial exams, which will be weighted along with the assignments, is 3.5. In the second sitting (resit), the exam will account for 100% of the mark. Fraudulent completion of any evaluated activity using any means will result in a failing mark for that activity.",
+  "bibliography": [
+    "Mott, R. L. , Applied Fluid Mechanics , Prentice Hall, New Jersey",
+    "White, F.M., Mecánica de Fluidos, McGraw-Hill, New York"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224113",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224113&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "93dbb7ead7c6bcddbcf8ec3807bdceb058494f40f2c4d8f24f59f18639490c09",
+  "extracted_at": "2026-11-13T22:48:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

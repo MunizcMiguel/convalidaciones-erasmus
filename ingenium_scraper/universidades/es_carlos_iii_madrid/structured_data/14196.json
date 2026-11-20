@@ -1,0 +1,240 @@
+{
+  "course_name_original": "Ingeniería Fluidomecánica",
+  "course_name_en": "Fluid Mechanics Engineering",
+  "ects": 6.0,
+  "semester": "2nd",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Calculus I, II",
+    "Physics I, II",
+    "Linear Algebra",
+    "Oral and Written Expression Techniques",
+    "Programming",
+    "Thermal Engineering",
+    "Mechanics of Machines"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the domain occupied by a fluid in a system and understand its interaction with other parts of it.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply conservation principles appropriately to obtain forces and moments globally exerted by the fluid on the system, as well as the exchange of mechanical power and heat transfer.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine the dominant terms and understand the relative importance of the different terms appearing in the conservation equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine the appropriate methodology to obtain variables of interest (direct calculation, experimentation, etc.).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Present results in a reduced form using the minimum number of relevant parameters.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand technical documentation and specific literature of the subject.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine the pressure field within a fluid at rest.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate forces and moments exerted by a fluid on systems of engineering interest.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the exchange of mechanical power between the fluid and the exterior.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the thermal exchange between a fluid and a system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate pressure losses that occur in conduits and, consequently, understand the basic sizing of hydraulic machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply Dimensional Analysis to reduce the number of parameters of a generic problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze based on basic scientific principles.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to jointly apply knowledge from various disciplines (Mechanics, Thermodynamics, Calculus, etc.).",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to analytically determine relevant information to solve a fluid problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to locate and understand basic literature in the field, as well as to precisely communicate the requirements and/or results a system should provide.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Analytical attitude towards problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Critical attitude towards the various options available to address a problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Collaborative attitude towards the exchange of information and knowledge.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "A systematic understanding of the key concepts and aspects of their branch of engineering.",
+      "type": "unspecified",
+      "code": "RA1.2"
+    },
+    {
+      "text": "The ability to apply their knowledge and understanding to identify, formulate and solve engineering problems using established methods.",
+      "type": "competence",
+      "code": "RA2.1"
+    },
+    {
+      "text": "The ability to design and conduct experiments, interpret data, and draw conclusions.",
+      "type": "competence",
+      "code": "RA4.2"
+    },
+    {
+      "text": "Technical and laboratory skills.",
+      "type": "skill",
+      "code": "RA4.3"
+    },
+    {
+      "text": "The ability to select and use appropriate equipment, tools, and methods.",
+      "type": "competence",
+      "code": "RA5.1"
+    },
+    {
+      "text": "The ability to combine theory and practice to solve engineering problems.",
+      "type": "competence",
+      "code": "RA5.2"
+    },
+    {
+      "text": "Understanding of applicable methods and techniques and their limitations.",
+      "type": "knowledge",
+      "code": "RA5.3"
+    },
+    {
+      "text": "That students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually found at a level that, while supported by advanced textbooks, also includes aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated by elaborating and defending arguments and solving problems within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning and to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Knowledge and ability to apply computational and experimental tools for the analysis and quantification of mechanical engineering problems.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Ability to design and conduct experiments and to analyze and interpret the data obtained.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Knowledge of the basic principles of fluid mechanics and its application to solving problems in the field of engineering. Calculation of pipes, channels and fluid systems.",
+      "type": "knowledge",
+      "code": "CG17"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to fluid mechanics: continuum hypothesis, local thermodynamic equilibrium, equations of state, and definition of fluid properties of interest.",
+    "Kinematics: Lagrangian and Eulerian descriptions, convective flow, and Reynolds transport theorem.",
+    "Conservation equations in integral and differential form: conservation of mass, momentum, and energy.",
+    "Dimensional analysis: Buckingham Pi theorem and physical similarity.",
+    "Unidirectional flow: Couette, Poiseuille, and other flows of interest.",
+    "Flow in conduits: primary and secondary losses in a hydraulic system.",
+    "Introduction to external flow."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "In-class problem solving",
+    "Student exercise solving",
+    "Laboratory practicals in small groups",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Final Exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Partial Exam 1 (Continuous Assessment)",
+      "weight_percentage": 18.0
+    },
+    {
+      "method": "Partial Exam 2 (Continuous Assessment)",
+      "weight_percentage": 16.0
+    },
+    {
+      "method": "Lab Reports (Continuous Assessment)",
+      "weight_percentage": 6.0
+    }
+  ],
+  "assessment_rules": "Continuous assessment includes two partial exams (45% and 40% of continuous assessment respectively) and lab reports (15% of continuous assessment). In the ordinary call, the final grade is calculated as 40% continuous assessment and 60% ordinary final exam. Students who do not pass the continuous assessment partial exams must take the final exam covering both parts. In the extraordinary call, the final grade is either 40% continuous assessment plus 60% extraordinary final exam, or 100% extraordinary final exam if the latter results in a higher score.",
+  "bibliography": [
+    "Antonio Crespo Martínez. Mecánica de Fluidos. Thomson.",
+    "Frank M. White. Mecánica de Fluidos, 5ª edición. McGraw Hill.",
+    "Gordillo, J.M., Ribaux, G., Fernández, J.F.. Introducción a la mecánica de fluidos. Paraninfo. 2017",
+    "MARCOS VERA COELLO, CARLOS MARTÍNEZ BAZÁN, ANTONIO L. SÁNCHEZ PÉREZ, IMMACULADA IGLESIAS ESTRADÉ. Ingenieria Fluidomecanica. Paraninfo. 2012",
+    "A. L. Sánchez. Apuntes de Procesos Fluidotérmicos. Publicaciones de la Universidad Carlos III de Madrid.. 2005",
+    "Amable Liñán Martínez. Apuntes de Mecánica de Fluidos. Publicaciones de la ETSI Aeronáuticos de Madrid. 2006"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Carlos III de Madrid",
+  "institution_slug": "es_carlos_iii_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "14196",
+  "academic_year": "2026-2027",
+  "source_url": "https://aplicaciones.uc3m.es/cpa/generaFicha?est=221&plan=446&asig=14196&idioma=1",
+  "source_language": "es",
+  "source_sha256": "0ddd208a3c08db4575e4d59b89bda4c67a3e88b3d17fcb8eba523cbddf7e2c8c",
+  "extracted_at": "2026-11-13T20:15:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,117 @@
+{
+  "course_name_original": "Mesurements, sensors and signal processing (146177)",
+  "course_name_en": "Measurements, sensors and signal processing",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Present the principles of metrology and the processing of time-varying quantities through the logical foundations of measurement operations such as the concepts of measurement process model, the estimation of the quantity to be measured through dynamic model identification and inversion, their modeling through generalized impedances and processing through Fourier transform.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the principles just stated to the measurement of the main basic quantities of possible industrial interest.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn the basic principles of metrology and signal processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to describe and model them mathematically.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use them to select the most appropriate measurement instruments.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design an industrial data acquisition and processing setup.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Present the results in the context of technical meetings or reports.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to measurement concepts: model, uncertainty, compatibility of measurements. Functional analysis of a measuring instrument.",
+    "Functional description of an instrument. Possible classifications of instruments. interfering and modifying disturbance effects and correction methods",
+    "Angular rotation measurement using optical encoders.",
+    "Speed and flow measurement in fluids: pitot tube, dynamic wind meter, hot wire anemometry.",
+    "Fourier transform. Fourier series development as a decomposition of a function on a basis of orthonormal functions (example of vectors in space). Transformed as a passage to the limit of the Fourier series expansion, meaning of the spectrum of a function. Properties of the transform. Transfer function as transform of the impulse response.",
+    "Dynamic calibration techniques in the frequency and time domain.",
+    "Classroom exercise in signal processing using Fourier transform, time and frequency filtering",
+    "Temperature measurement using PT 100 and thermocouples. Dynamic model of the probes, signal conversion and acquisition system, dynamic calibration using time domain techniques, dynamic compensation.",
+    "Generalized theory of measurement systems.",
+    "Representation of the various components using generalized impedances",
+    "equivalent networks to represent the measurement chain",
+    "ideal Effort and Flow generator. Generalized Thevenin theorem.",
+    "Dynamic load effect",
+    "Exercises on generalized impedances:",
+    "construction of equivalent scheme",
+    "determination of Bode diagrams",
+    "loading effect",
+    "Acceleration measurement:",
+    "Generalized impedance model",
+    "Piezoelectric effect.",
+    "Educational laboratory:",
+    "creation of an air conditioning circuit for a PT100, dynamic calibration and use for the measurement of the temperature regulation cycle of a thermostated plate through dynamic compensation"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Classroom exercises",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of a short essay during the oral exam (on a topic chosen from those proposed as classroom exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam on the topics covered in the course and in the laboratory",
+      "weight_percentage": null
+    },
+    {
+      "method": "Evaluation of the instrument built as a group at the Fab Lab",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exercises in R",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a mandatory written exam, a discussion of a short essay, and a mandatory oral exam on course and laboratory topics. The evaluation also includes the instrument built as a group at the Fab Lab and exercises in R.",
+  "bibliography": [
+    "Moodle"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146177",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50777_649044_96040&ordinamento_aa=2025&af_percorso=50777&corso_cod=10852&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "7e83132c27f99bbb26160e72481b984396fa6b7366d5aa0f481c21c2948c897d",
+  "extracted_at": "2026-11-18T10:03:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

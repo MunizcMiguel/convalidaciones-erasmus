@@ -1,0 +1,109 @@
+{
+  "course_name_original": "COMPUTER NETWORKS AND OPERATING SYSTEMS",
+  "course_name_en": "COMPUTER NETWORKS AND OPERATING SYSTEMS",
+  "ects": 12.0,
+  "semester": "Annual",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "basic knowledge of mathematical analysis and binary computing (for Computer Networks module)",
+    "Fondamenti di Informatica and Calcolatori Elettronici (for Operating Systems module)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Introduce key concepts and principles of computer networks.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Give the student familiarity with the behaviour of modern data transmission technologies.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability of analysing the performance of modern data transmission technologies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Verify theory as well as to gain skills in analysis and configuration of computer networks through lab activity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain the functions and the architectures of modern operating systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe the problems and the main solutions for memory management (especially virtual memory), CPU scheduling and processes, deadlock and semaphores.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand I/O management, the file system and some key aspect of security, cryptography.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computer networks: elements of a network, circuit switching and packet switching, access to the network and transmission media.",
+    "Performance: delay and losses in computer networks",
+    "Layered communication architectures, definition of protocol, Internet architecture",
+    "Basics on application layer.",
+    "Transport layer: services, UDP and TCP protocols. Flow control and congestion control. Performance problems: latency, throughput and utilization.",
+    "Network layer: switching and forwarding, data plane and control plane. Routing algorithms. Internet protocol, IP addressing and routing in Internet. IPv6",
+    "Data Link layer.",
+    "Network monitoring: techniques and tools.",
+    "Introduction to operating systems",
+    "History of the operating systems. Classification of operating systems.",
+    "CPU and memory management",
+    "CPU states. Definition of process and scheduling. Interprocess communication: semaphores and deadlock. Memory management. Virtual memory.",
+    "File system",
+    "Files, space allocation on disks. Filesystem management. I/O scheduling.",
+    "Security",
+    "The security of operating systems. Virus, logical bombs, trapdoor ... Introduction to cryptography."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical class",
+    "Practicals / Workshops",
+    "Lectures using presentations projected on screen",
+    "Insights using the chalkboard"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 105.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (Computer Networks module)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test (Operating Systems module)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final exam consists of a written test for each module. For the Computer Networks module, tests will be proposed whose results will be used as a bonus to be added to the exam vote. The Operating Systems module test consists of open-ended theoretical questions and practical exercises.",
+  "bibliography": [
+    "J. Kurose, K. Ross. Reti di calcolatori ed Internet - Un approccio top-down. 8 ed. Pearson. 2022 (english version J. Kurose, K. Ross. Computer Networking - A Top-Down Approach, 9th ed. Pearson, 2025).",
+    "Lecture slides available on the course Web site.",
+    "Silberschatz, Galvin, Gagne. Operating System Concepts, 7th . Edition. Wiley",
+    "Andrew S Tanenbaum Albert S Woodhull. Operating Systems Design and Implementation, 3/E .. Prentice Hall"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "509093",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=19443&ordinamento_aa=2021&af_percorso=2&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "60cd034425ad3299f253d6d5e9655f360849a27e2c6025c0500e7447614ac184",
+  "extracted_at": "2026-11-20T08:18:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

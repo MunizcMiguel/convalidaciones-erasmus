@@ -1,0 +1,149 @@
+{
+  "course_name_original": "Ingeniería del mecanizado",
+  "course_name_en": "Machining Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "It is recommended to have completed the subjects of Manufacturing Engineering (2nd year) and Manufacturing Technology (3rd year)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "That students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "That students have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated by the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Applied knowledge of manufacturing systems and processes, metrology and quality control.",
+      "type": "knowledge",
+      "code": "134ACEM8"
+    },
+    {
+      "text": "Ability to work, lead and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "skill",
+      "code": "134ACT1"
+    },
+    {
+      "text": "Ability to apply new technologies including information and communication technologies.",
+      "type": "skill",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability for information management, handling and application of technical specifications and necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "134ACT2"
+    }
+  ],
+  "syllabus_topics": [
+    "Block 1. Introduction and general aspects of machining",
+    "Topic 1.1. Introduction to machining.",
+    "Concept of machining. Basic elements of machining. Concepts of cutting, feed, and penetration movement. Cutting movements in machine tools. Workpiece-tool speeds. Machinability. Micromachining.",
+    "Topic 1.2. Geometric study of the cutting tool.",
+    "Characteristics of a basic blade. Main angles: rake, clearance and tool angles. The real single-edge tool. Other angles of technological interest. Connection between the main and secondary edges. Chip formation and types. Chip breakers. Chip section geometry.",
+    "Block 2. Theory and conditions of material cutting",
+    "Topic 2.1. Cutting theories.",
+    "Slip plane model. Kinematic study of the orthogonal cutting model. Dynamic analysis in orthogonal cutting. Cutting theories. Experimental models. Methods for obtaining cutting power.",
+    "Topic 2.2. Materials for cutting tools.",
+    "Requirements for tool materials. Types of tool materials.",
+    "Topic 2.3. Tribology and thermal phenomena in cutting.",
+    "Laws of dry friction. Thermal phenomena in cutting. Cutting fluids. Cooling and lubrication techniques. Built-up edge formation.",
+    "Topic 2.4. Wear and life of cutting tools.",
+    "Concept of wear. Wear zones. Wear mechanisms. Tool life. Measurement of tool wear. Wear or tool life criteria. Tool life equations. Conventional tests. Quick tests.",
+    "Topic 2.5. Technical-economic study of machining processes.",
+    "Production costs. Machining economics: Minimum cost speed. Maximum production or minimum production time speed. Maximum profit speed.",
+    "Topic 2.6. Monitoring and control of machining processes.",
+    "Concept of monitoring. Monitoring equipment. Direct and indirect monitoring methods. Expert systems. Adaptive control.",
+    "Block 3. Conventional machining procedures",
+    "Topic 3.1. Technological aspects of turning.",
+    "Movements in turning. Basic operations in turning. Workpiece clamping in turning. Cutting tool geometry. Cutting parameters. Influence on tool life. Forces in turning. Tool selection process.",
+    "Topic 3.2. Technological aspects of milling.",
+    "Concept of milling. Milling operations. Geometric and technological parameters. Selection of tools in milling operations.",
+    "Topic 3.3. Technological aspects of drilling.",
+    "Concept of drilling. Drilling operations. Geometric and technological parameters.",
+    "Topic 3.4. Other conventional machining processes.",
+    "Machining with linear main cutting motion. Grinding.",
+    "Block 4. Non-conventional machining procedures",
+    "Topic 4.1. Non-conventional machining processes.",
+    "Introduction to non-conventional machining processes. Processes based on the use of mechanical energy. Processes based on the use of electrical energy. Processes based on the use of thermal energy. Chemical processes. High-performance machining.",
+    "Block 5. Numerical control machine tools",
+    "Topic 5.1. Fundamentals of numerical control.",
+    "Concept of automation. Concept of computerized numerical control (CNC). CNC programming methods. Phases in CNC programming. Classification of CNCs. Basic elements in a CNC.",
+    "Topic 5.2. CNC machine tools.",
+    "Architecture of a CNC machine tool. Actuators and types of actuators. Sensors and guidance systems. Automatic tool change systems.",
+    "Block 6. Programming by numerical control",
+    "Topic 6.1. Introduction to ISO CNC programming.",
+    "Necessary information. Programming phases. Reference systems. Origins. Reference points. Tool radius compensation. Tool correctors. Structure of a part program. Functions. Speed programming. Tool programming. Coordinate programming.",
+    "Topic 6.2. ISO programming for CNC lathes.",
+    "Axes and coordinate systems in the lathe. Program name, header and format. Previous aspects and initialization functions. Interpolation functions. Transitions between blocks. Programming of coordinate origins. Tool programming. Fixed cycles in turning.",
+    "Topic 6.3. ISO programming for CNC milling machines.",
+    "Axes and coordinate systems in the milling machine. Work plane selection. Linear and circular motion functions. Scale factor. Mirror image. Coordinate system rotation. Tool compensation. Fixed cycles in milling.",
+    "Topic 6.4. Advanced CNC programming.",
+    "Standard subroutines. Operations with parameters. Parametric subroutines. Jumps within a program.",
+    "Practice 1. Machining on a conventional lathe.",
+    "Practice 2. ISO code programming for CNC lathe.",
+    "Practice 3. ISO code programming for CNC milling machine.",
+    "Practice 4. Generation of CNC code using CAD/CAM software.",
+    "Practice 5. Part manufacturing with CNC milling machine."
+  ],
+  "teaching_methods": [
+    "Lectures in large groups",
+    "Small group classes / Practical group classes (workshop, laboratory, or computer lab practices)",
+    "Collective/individual tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and/or participation in face-to-face and/or virtual activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical concepts of the subject (test, self-assessment, written theoretical exam or partial exams)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Completion of assignments, cases or exercises (resolved problem sets)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory/field practices/use of ICT tools (workshop practices and reports)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The grading system will be governed by RD 1125/2003 of September 5. To pass the subject, attendance to all practical sessions is mandatory, and a minimum average grade of 5 must be obtained in the theoretical exam. If partial exams (Option A) are chosen for the theoretical concepts, a grade higher than 4 must be obtained in each exam. The final grade is calculated as: 0.1 * S1 (Attendance and participation) + 0.5 * S2 (Theoretical concepts) + 0.2 * S3 (Assignments, cases, exercises) + 0.2 * S4 (Workshop practices and IT tools).",
+  "bibliography": [
+    "Micheletti, Gian Federico - (1980) - Mecanizado por arranque de viruta - Blume",
+    "Sebastián Pérez, Miguel A. - (2007) - Programación de máquinas-herramienta con control numérico / - Universidad Nacional de Educación a Distancia",
+    "López de Lacalle Marcaide, L. N. - (2004) - Mecanizado de alto rendimiento: procesos de arranque - Ediciones Técnicas Izaro",
+    "Davim, J. Paulo. - (2008) - Machining : fundamentals and recent advances - Springer",
+    "López de Lacalle, L. N. - (2009) - Machine tools for high performance machining - Springer",
+    "Overby, Alan - (2011) - Cnc machining handbook : building, programming, and implementation - McGraw-Hill/TAB Electronics"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13413006",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13413006/es/2026-27-13413006_es.html",
+  "source_language": "es",
+  "source_sha256": "f542efb26447ed4218f9f8ff37e5c7c467e78f22811944c09fea0e2c77809b7e",
+  "extracted_at": "2026-11-13T21:40:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,215 @@
+{
+  "course_name_original": "Fundamentos de Informática",
+  "course_name_en": "Fundamentals of Computer Science",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Basic familiarity as a common user with a computer."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Locate computer science within engineering disciplines.",
+      "type": "knowledge",
+      "code": "RFI-1"
+    },
+    {
+      "text": "Understand the fundamentals of the binary system to comprehend information representation in computers.",
+      "type": "knowledge",
+      "code": "RFI-2"
+    },
+    {
+      "text": "Identify hardware components that constitute a computer system, their interconnection in networks, and understand their basic operation.",
+      "type": "knowledge",
+      "code": "RFI-3"
+    },
+    {
+      "text": "Distinguish the main peripherals used in a computer system and specifically in the field of engineering.",
+      "type": "knowledge",
+      "code": "RFI-4"
+    },
+    {
+      "text": "Classify different types of software used in a computer system.",
+      "type": "knowledge",
+      "code": "RFI-5"
+    },
+    {
+      "text": "Identify and classify different types of computer systems and their application areas.",
+      "type": "knowledge",
+      "code": "RFI-6"
+    },
+    {
+      "text": "Know the main functions performed by an operating system.",
+      "type": "knowledge",
+      "code": "RFI-7"
+    },
+    {
+      "text": "Analyze what services the operating system provides to programs and end-users.",
+      "type": "skill",
+      "code": "RFI-8"
+    },
+    {
+      "text": "Identify the main operating systems used in professional engineering environments and use the main services at user level.",
+      "type": "skill",
+      "code": "RFI-9"
+    },
+    {
+      "text": "Know the main functions performed by a database management system.",
+      "type": "knowledge",
+      "code": "RFI-10"
+    },
+    {
+      "text": "Create data models for simple problems.",
+      "type": "skill",
+      "code": "RFI-11"
+    },
+    {
+      "text": "Use basic expressions to retrieve and modify information stored in a database.",
+      "type": "skill",
+      "code": "RFI-12"
+    },
+    {
+      "text": "Identify which database management systems are used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "RFI-13"
+    },
+    {
+      "text": "Identify the main application programs used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "RFI-14"
+    },
+    {
+      "text": "Understand the concept of algorithm and the process of problem abstraction in programming.",
+      "type": "knowledge",
+      "code": "RFI-15"
+    },
+    {
+      "text": "Identify the software development process and its location within the general Software Engineering process.",
+      "type": "knowledge",
+      "code": "RFI-16"
+    },
+    {
+      "text": "Recognize the elementary data structures provided by a structured programming language.",
+      "type": "knowledge",
+      "code": "RFI-17"
+    },
+    {
+      "text": "Manage the elementary control structures of a structured programming language.",
+      "type": "skill",
+      "code": "RFI-18"
+    },
+    {
+      "text": "Abstract operations.",
+      "type": "skill",
+      "code": "RFI-19"
+    },
+    {
+      "text": "Design small applications to solve elementary problems in collaborative work environments.",
+      "type": "skill",
+      "code": "RFI-20"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Overview of computer science in the context of other engineering disciplines",
+    "Introduction: Structure and operation of a computer",
+    "Introduction: Representation of information in a computer",
+    "Introduction to databases: Concept of database",
+    "Introduction to databases: Fundamentals of the relational data model",
+    "Introduction to databases: Performing queries and modifications",
+    "Introduction to databases: Database Management Systems in professional engineering environments",
+    "Introduction to programming: Problem abstraction for programming: fundamental concepts",
+    "Introduction to programming: Variables, expressions, assignment",
+    "Introduction to programming: Use of console input/output",
+    "Introduction to programming: Handling basic control flow structures: sequential, alternative, and repetitive",
+    "Introduction to programming: Definition and use of subprograms and functions. Scope of variables",
+    "Introduction to programming: File Input/Output",
+    "Introduction to programming: Basic data types and structures",
+    "Introduction to programming: Program development processes. From high level to execution on the processor. Compiled languages and interpreted languages.",
+    "Hardware and software components of a computer system: Structure and operation of a computer: Von Neumann Architecture and machine language",
+    "Hardware and software components of a computer system: Peripheral devices",
+    "Hardware and software components of a computer system: Interconnection of systems: types, mechanisms and applications",
+    "Hardware and software components of a computer system: Types of software: base software and application software",
+    "Hardware and software components of a computer system: Types of computer systems and their application areas",
+    "Introduction to operating systems: Concept and functions performed by an operating system",
+    "Introduction to operating systems: Interface and services offered to programs",
+    "Introduction to operating systems: Interface and services offered to users",
+    "Introduction to operating systems: Operating systems used in professional engineering environments",
+    "Laboratory practice: Introduction to lab tools. The spreadsheet as a tool (4h).",
+    "Laboratory practice: Database design, implementation, and exploitation (6h).",
+    "Laboratory practice: Programming with Python (18h): Introduction to the development environment.",
+    "Laboratory practice: Programming with Python (18h): Variables, expressions and console input-output.",
+    "Laboratory practice: Programming with Python (18h): Control flow: if-else, while, for.",
+    "Laboratory practice: Programming with Python (18h): Functions.",
+    "Laboratory practice: Programming with Python (18h): Structures: lists and strings.",
+    "Laboratory practice: Programming with Python (18h): Files."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual study",
+    "Problem-solving in small groups"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam on Introduction",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical exam on Introduction to Databases",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical exam on Introduction to Programming",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Theoretical exam on Hardware and Software Components",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical exam on Introduction to Operating Systems",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical exam on Spreadsheet as a tool",
+      "weight_percentage": 7.5
+    },
+    {
+      "method": "Practical exam on Database Design, Implementation, and Exploitation",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical exam on Programming",
+      "weight_percentage": 32.5
+    }
+  ],
+  "assessment_rules": "For the theoretical block, if 40% of the total score is not reached in Topic 3 (Introduction to Programming), this block cannot be passed. Additionally, a score greater than 4 out of 10 is required to average with the practical block score. For the practical block, if 40% of the total score is not reached in Topic 3 (P3), this block cannot be passed. Additionally, a score greater than 4 out of 10 is required to average with the theoretical block score. The final grade is calculated as (0.5 * Theory) + (0.5 * Practices) if all minimums are met. Otherwise, the grade will be the minimum between the calculated score and 4.0. For the extraordinary call, a minimum score of 5 out of 10 is required for each block to average, and scores of 5.0 or higher from the ordinary call may be saved for each block.",
+  "bibliography": [
+    "Introducción a la Informática. 6ª Edición Autor: George Beekman Editorial: Pearson - Prentice Hall, 2004",
+    "Conceptos de Informática, Serie Schaum. Autores: Prieto, A., Prieto, B Editorial: McGraw Hill, 2005",
+    "Introducción a la Informática. 4ª Edición Autores: Alberto Prieto, Antonio Lloris, J.C.Torres Editorial: McGraw Hill, 2006",
+    "Fundamentos de Bases de Datos (5ª edición) Autores: A. Silberschatz, H.F; Korth, S. Sudarshan Editorial: McGraw Hill, 2006",
+    "Manuals and online resources about the programming language used in laboratory practices."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-1-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-1-006",
+  "source_language": "es",
+  "source_sha256": "847b9baf5735cac6f53498db49cc7b46dd7ffa5bbd5b482fa67e37e814154789",
+  "extracted_at": "2026-11-20T01:13:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

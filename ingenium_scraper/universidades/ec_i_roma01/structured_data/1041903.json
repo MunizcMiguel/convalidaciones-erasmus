@@ -1,0 +1,137 @@
+{
+  "course_name_original": "MODELLISTICA E SIMULAZIONE Canale unico",
+  "course_name_en": "MODELING AND SIMULATION Single channel",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Foundations of differential calculus (especially the theory of linear differential equations)",
+    "Linear algebra (eigenvalues, eigenvectors, canonical forms of linear operators)",
+    "Physics",
+    "Laplace transform theory"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental principles of modeling.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn to build mathematical models of physical processes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn to analyze and numerically simulate the behavior of physical processes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the principles of modeling and its role for the analysis, simulation, and control design of systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the different types of mathematical models of physical systems and the methodologies for their determination.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the main techniques for discretizing continuous-time models.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know examples of models of mechanical, electrical, hydraulic, thermal, and environmental systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to determine mathematical models of physical processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to discretize continuous-time system models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to evaluate the approximations and the consequent operational validity limits of the models.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to identify the degree of approximation necessary for the correct modeling, analysis, and control design of the physical phenomenon of interest.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to extract non-trivial information from the mathematical model regarding the behavior of the respective physical process.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to explain the modeling process of a physical process using appropriate engineering language.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to identify a potential physical process of interest for their university career.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Role of modeling in the analysis of physical processes, their simulation and design of related control systems.",
+    "Classification and validity limits of models based on properties of linearity, stationarity, dynamic and spatial behavior, randomness.",
+    "Modeling of lumped parameter systems",
+    "Ordinary differential equations, fundamental laws of mechanics, electromagnetism and fluid dynamics, conservation laws.",
+    "Mechanical models: damped oscillator, inverted pendulum on a cart, coupled oscillators, double pendulum, multi-body systems.",
+    "Electrical examples: analog circuits, operational amplifiers, DC motor, brushless motor, AC electric drives, satellite communication system.",
+    "Fluid system examples: flow sensors, control valves, heat exchanger with imposed thermal flux.",
+    "Generalized coordinates and Lagrangian formalism, identification of first integrals of motion, examples.",
+    "Analogy method, duality of force-flow and across-through analogies, examples.",
+    "Modeling of distributed parameter systems",
+    "Partial differential equations, boundary conditions and characteristic varieties, vibrating string equation, rectangular and circular membrane equation, bar equation, air column pipe equation, stationary modes and natural frequencies, inharmonicity of natural frequencies in the presence of distributed rigidities, transmission line equation.",
+    "Simulative evidence of nonlinearities",
+    "Distortion harmonics due to saturations, threshold effect, periodic and subharmonic attractors due to bifurcations, toroidal attractors, chaotic behaviors.",
+    "Poincaré maps, fixed points and their stability.",
+    "An example of an environmental model: the logistic map, Feigenbaum bifurcation tree.",
+    "Modeling of complex systems in probabilistic terms",
+    "Review of probability theory, Bayes nets, reliability calculation, propagation of failure effects, diagnostics. Examples.",
+    "The discretization problem",
+    "Difference equations, signal sampling, Nyquist theorem, Z-transform, methods for numerical integration of differential equations, forward Euler, backward Euler, Tustin transform and pre-warping, preservation of stability property, methods based on zero-order and first-order hold, Fettweis wave filters, examples."
+  ],
+  "teaching_methods": [
+    "Traditional lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Didactic material available on the lecturer's personal page."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "1041903",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/3/1/262f0c97-7f02-4010-b30b-98ccff4b035f",
+  "source_language": "it",
+  "source_sha256": "56606ff27429a7dd66ad8eae3bde82e0bdf5fb3de42ac762e102a1de650c9706",
+  "extracted_at": "2026-11-20T09:24:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

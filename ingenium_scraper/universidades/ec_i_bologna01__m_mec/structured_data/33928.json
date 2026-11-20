@@ -1,0 +1,76 @@
+{
+  "course_name_original": "MECCANICA DELLE MACCHINE M (33928)",
+  "course_name_en": "MACHINE MECHANICS M",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student knows and understands the fundamentals of mechanical systems modelling and the main tools for analysing their dynamic behaviour, with particular reference to rigid multibody systems and simple flexible systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to apply this knowledge to the formulation of rigid-body kinematic and dynamic models, to the analysis of spatial multibody systems, and to the study of linear vibrating systems with one or more degrees of freedom.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is also able to use the Matlab computational software to formulate and solve problems in machine dynamics and to analyse the results of the corresponding simulations.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part I. Rigid-body kinematics.",
+    "Introductory concepts. Freedoms and constraints: systems, body models, freedoms, constraints, forms of constraints. Vectors, matrices and calculus: vector representation and operations, differentiation, eigenproblems, symmetric matrices. Linearization: linear functions, numerical solution of nonlinear equations, linear ordinary differential equations (ODE), linear ODE with constant coefficients, numerical integration of differential equations.",
+    "Kinematic fundamentals: finite motions. Coordinate transformations. Rotation matrices: definition, properties of the rotation matrix, elementary rotation matrices, composition of rotation matrices. Description of the orientation: three successive rotations about fixed axes, three successive rotations about body-fixed axes, non-commutativity of finite rotations. Homogeneous transformation matrices: homogeneous transformations, displacement analysis of a 3-dof serial robot, MATLAB implementation.",
+    "Kinematic fundamentals: infinitesimal motions. Particle kinematics: Cartesian coordinates, intrinsic coordinates. Rigid-body kinematics: angular velocity, vector derivatives with respect to different reference frames, angular acceleration, vector second derivatives with respect to different reference frames, instantaneous kinematics of rigid bodies, MATLAB implementation.",
+    "Kinematics applications. Rolling constraints: wheel on an axle, integrability of velocity constraint equations. Kinematics of a vehicle in planar motion: tricycle model, bicycle model, steering and instant centre of rotation, MATLAB model. Kinematics of the four-bar linkage: mechanism model, position analysis, differential kinematic analysis, algebraic kinematic analysis, MATLAB model.",
+    "Part II. Rigid-body dynamics.",
+    "Rigid-body dynamics fundamentals. Forces and moments: gravity forces, elastic forces, contact friction forces, aerodynamic and hydrodynamic forces, impulsive forces, resultant force and moment. Momentum and inertia forces: linear and angular momentum, inertia matrix, inertia forces. Laws of motion: dynamic equilibrium of a rigid body, dynamic equilibrium of a multi-body system by free-body diagrams. Power, work and energy: power of forces and moments, conservative forces and potential energy, kinetic energy of a rigid body, work of inertia forces, principle of conservation of energy. Principle of virtual work: virtual work of external forces, conservative and non-conservative forces, principle of virtual work. Lagrange equations: Lagrange equations for holonomic systems, dynamics of 1-d.o.f. systems.",
+    "Rigid-body dynamics applications. Dynamics of the four-bar linkage: model, kinetic and potential energy, D’Alembert equations, Lagrange equation, MATLAB model. Dynamics of a ground vehicle in planar motion: single-track model, vehicle kinematics, D’Alembert equations, energy equation, motor torque, MATLAB model. Dynamics of a 3-d.o.f. serial robot: model, kinematic analysis, external and internal forces, inverse dynamics, energetic balance, MATLAB model. Dynamics of a quadcopter: parametrization of the pose, rotor aerodynamics, actuation forces and torques, inverse and forward dynamics, MATLAB model.",
+    "Part III. Mechanical vibrations.",
+    "Mechanical vibrations: 1-dof systems. Second-order 1-dof systems: model, free response of undamped systems, free response of underdamped systems, damping estimation by logarithmic decrement, response to an impulsive force, step response, response to a general excitation – convolution integral, response to harmonic excitation, response to periodic excitation, harmonic excitation due to imbalances, whirling of rotating shafts – Jeffcott rotor, transmitted force, base excitation, numerical examples.",
+    "Mechanical vibrations: multi-dof systems. Modeling of multi-d.o.f. systems: elastic and kinetic energy, dissipation function, equations of motion, coupling. Undamped multi-d.o.f. systems: free motion, natural frequencies, modal vectors, general form of the free response, rigid-body modes, orthogonality of the modal vectors, modal equation of motion and modal response. Damped multi-d.o.f. systems: exact solution, state-form formulation, approximate solution. Response to harmonic excitation: multi-d.o.f. systems, 2-d.o.f. systems, modal analysis. Vibration reducing devices: principle of operation, model, dynamic vibration absorber.",
+    "Mechanical vibrations application: bounce, pitch and roll dynamics of a vehicle ( chapter not covered in the current academic year ). Suspension models: ride properties of a vehicle, classification of suspension models. Quarter-car model: single-dof quarter-car model, wheel hop, two-dof quarter-car model. Half-car model for pitch and bounce: two-dof half-car model for pitch and bounce, natural frequencies and modal vectors, Olley criteria. Half-car model for roll and bounce: two-dof half-car model for roll and bounce, anti-roll bar."
+  ],
+  "teaching_methods": [
+    "Theoretical lectures with application examples",
+    "Problem solving using Matlab numerical-computing software"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Computer lab test (theoretical questions and numerical problems using Matlab)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination determines a positive or negative evaluation. A positive assessment means a numeric grade equal to or greater than 18/30. A negative assessment does not result in a numeric grade. If a positive grade does not meet the student's expectations, they may request its cancellation and a repetition of the examination, but only once and within a specified date.",
+  "bibliography": [
+    "H. Baruh, APPLIED DYNAMICS, 2015, CRC Press ( required main text, in English ).",
+    "U. Meneghetti, A. Maggiore, E. Funaioli, LEZIONI DI MECCANICA APPLICATA ALLE MACHINE - TERZA PARTE: DINAMICA E VIBRAZIONI DELLE MACCHINE, 2011, Pàtron Editore ( supplementary reading in Italian, mainly for Part III of the Course, \"Mechanical vibrations\") .",
+    "Slides of the lectures and supplementary teaching material, distributed through the course webpage on the Virtual Learning Environment ."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Laurea Magistrale Ingegneria meccanica",
+  "institution_slug": "ec_i_bologna01__m_mec",
+  "degree": "Ingegneria meccanica (Laurea Magistrale, LM-33, Bologna)",
+  "course_code": "33928",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/516466",
+  "source_language": "en",
+  "source_sha256": "b77858d7249bba68dd448e94737a1d7d7550ebd1941f94d5fffb23749ea50e90",
+  "extracted_at": "2026-11-20T13:01:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,179 @@
+{
+  "course_name_original": "Parallel and distributed programming",
+  "course_name_en": "Parallel and Distributed Programming",
+  "ects": 5.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming Fundamentals",
+    "Object Oriented Programming",
+    "Data Structures and Algorithms",
+    "Operating Systems",
+    "Programming abilities"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has knowledge related to programming, mathematics, engineering and technology and has the skills to use them to create complex information technology systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills for computer program design and software systems analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to identify complex problems and examine related issues to develop solving options and implement solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to combine diverse information to formulate solutions and generate ideas for developing new products and applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquiring the main concepts of concurrent, parallel and distributed programming.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Basics of communication between processes and threads, on the same machine or on distinct machines.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowing basic techniques of parallel programming.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowing and using parallel application design patterns.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowing and using the existing frameworks for developing parallel and distributed applications.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Parallel architectures and parallel programming systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know how to use parallel programming techniques in problem solving.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to evaluate the performance increase obtained by parallelization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to work independent or in a team in order to solve problems in a parallel and/or distributed context.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "General introduction. Necessity to use parallelism. Concurrent vs parallel vs distributed computing",
+    "Parallel architectures: pipeline, vectorial machines, grid and cluster computing",
+    "Threads. Race conditions, mutual exclusion, deadlocks. Synchronization primitives",
+    "Producer-consumer parallelism. Low-level primitives (condition variables) and high-level mechanisms (futures, producer-consumer queues)",
+    "Asynchronous programming. Futures with continuations. Coroutines",
+    "Basic parallel algorithms",
+    "Recursive decomposition and parallel explore algorithms",
+    "Distributed programming using MPI",
+    "Distributed recursive decomposition and parallel explore",
+    "Distributed protocols. Lamport clocks",
+    "Distributed shared memory",
+    "GPGPU programming. OpenCL",
+    "Fault tolerance",
+    "Introduction (Lab)",
+    "Synchronization primitives (Lab)",
+    "Producer-consumer parallelism (Lab)",
+    "Asynchronous programming (Lab)",
+    "Basic parallel algorithms (Lab)",
+    "Recursive decomposition (Lab)",
+    "Parallel explore (Lab)",
+    "Basic distributed algorithms with MPI (Lab)",
+    "Recursive decomposition and parallel explore with MPI (Lab)",
+    "Distributed shared memory (Lab)",
+    "OpenCL (Lab)",
+    "Finalizing lab activities (Lab)"
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, debate (Course)",
+    "Dialogue, debate, examples, guided discovery (Seminar/Laboratory)"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (knowing basic concepts)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Semester project (applying theoretical knowledge in problem solving)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Evaluation of lab assignments (applying theoretical knowledge in problem solving)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "Students must have at least 12 out of 14 attendances at the labs. A minimum grade of 5 (out of 10) is required for the written exam. The final average grade must be at least 5 (out of 10).",
+  "bibliography": [
+    "http://www.cs.ubbcluj.ro/~rlupsa/edu/pdp/",
+    "Ian Foster. Designing and Building Parallel Programs, Addison-Wesley 1995.",
+    "Michael McCool, Arch Robinson, James Reinders, Structured Parallel Programming: Patterns for Efficient Computation,” Morgan Kaufmann,, 2012 .",
+    "Berna L. Massingill, Timothy G. Mattson, and Beverly A. Sanders,Addison A Pattern Language for Parallel Programming. Wesley Software Patterns Series, 2004.",
+    "Grama, A. Gupta, G. Karypis, V. Kumar. Introduction to Parallel Computing, Addison Wesley, 2003.",
+    "D. Grigoras. Calculul Paralel. De la sisteme la programarea aplicatiilor. Computer Libris Agora, 2000.",
+    "V. Niculescu. Calcul Paralel. Proiectare si dezvoltare formala a programelor paralele. Presa Univ. Clujana, 2006.",
+    "D.B. Skillicorn, D. Talia. Models and Languages for Parallel Computation. ACM Computer Surveys, 30(2) pg.123-136, June 1998.",
+    "B. Wilkinson, M. Allen, Parallel Programming Techniques and Applications Using Networked Workstations and Parallel Computers, Prentice Hall, 2002",
+    "E.F. Van de Velde. Concurrent Scientific Computing. Spring-Verlag, New-York Inc. 1994.",
+    "Boian F.M. Ferdean C.M., Boian R.F., Dragos R.C. Programare concurenta pe platforme Unix, Windows, Java. Ed. Albastra, grupul Microinformatica, Cluj, 2002 .",
+    "OpenMP Tutorials",
+    "MPI Tutorials",
+    "OpenCL Tutorials",
+    "Eckel, B., Thinking in Java, 4th Edition, New York: Prentice Hall, 2006.",
+    "Larman, C.: Applying UML and Design Patterns: An Introduction to OO Analysis and Design, Berlin: Prentice Hall, 2004.",
+    "Fowler, M., Patterns of Enterprise Application Architecture, Addison-Wesley, 2002.",
+    "E. Gamma, R. Helm, R. Johnson, J. Vlissides, Design Patterns – Elements of Reusable Object Oriented Software, Ed. Addison Wesley, 1994.",
+    "Walls, Craig, Spring in Action, Third Edition, Ed. O’Reilley, 2011.",
+    "Kent Beck, Test Driven Development: By Example, Ed. Addison-Wesley Professional, 2002.",
+    "http://download.oracle.com/javase/tutorial/",
+    "http://msdn.microsoft.com/en-us/library/aa288436%28v=vs.71%29.aspx",
+    "http://www.cs.ubbcluj.ro/~rlupsa/edu/pdp/"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5077",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem5_MLE5077_en_rlupsa_2025_9875.pdf",
+  "source_language": "en",
+  "source_sha256": "81e96dcfcaf629e905fdf5217722951c007c30388e919d722c4c8f5cd4f77c3f",
+  "extracted_at": "2026-11-20T09:08:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Mechanics of Structural Elements (6036-M)",
+  "course_name_en": "Mechanics of Structural Elements",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "In-depth theoretical knowledge of analysing different structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of advance numerical techniques such as finite element method for solving 1-d and 2-d structural problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analytical knowledge to understand and perform mechanical analysis independently.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Performing complex mechanical analysis of 1-d and plane structures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The ability to synthesize acquired knowledge to examples of real structures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The ability to critically analyse results and evaluate their validity",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basics of continuum mechanics (displacements, strains, stresses)",
+    "Definition of the boundary value problem in elastostatics (a problem domain, basic equations and boundary conditions)",
+    "Definition of structural elements according to their geometric dimension (frame, plane and three-dimensional structures)",
+    "Definition of structural elements according to their curvature (straight/curved beams, plate/wall/ shell)",
+    "Theoretical background of frame elements",
+    "Theoretical background of shafts",
+    "Theoretical background of membranes",
+    "Theoretical background of plates",
+    "Theoretical background of shells",
+    "Mechanical response provided by different theories (e.g. Bernoulli/Timoshenko, Kirchhoff/Mindlin-Reissner)",
+    "Computation of the response of structural elements using analytical methods",
+    "Computation of the response of structural elements using numerical methods (the finite difference method, the finite element method) in Wolfram Mathematica",
+    "Concept of geometrical symmetry and structure periodicity (axial and planar symmetry, planar and cyclic periodicity)",
+    "Referential subdomain concept",
+    "Division of external loads to the symmetric and the antisymmetric part",
+    "Properties of vector and tensor response fields for the symmetric/asymmetric and periodic load case"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Labs",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical work",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Coursework",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Hartmann: The Mathematical Foundation of Structural Mechanics, Springer-Verlag, 1985.",
+    "Armenakas: Clasical Structural Analysis – A Modern Approach, McGraw-Hill, 1988.",
+    "Young, Budynas: Roark's Formulas for Stress and Strain, McGraw-Hill, 2012"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Univerza v Ljubljani",
+  "institution_slug": "ec_si_ljublja01",
+  "degree": "Mechanical Engineering (2nd cycle, Erasmus+ subjects, Research and Development programme)",
+  "course_code": "6036-M",
+  "academic_year": "2026/27",
+  "source_url": "https://www.fs.uni-lj.si/wp-content/uploads/2026/06/ERASMUS-1.pdf",
+  "source_language": "en",
+  "source_sha256": "79c33d3b0bdb800aab5b116bb5a9148ef35a0e7cae8931e46ee7e978c6465099",
+  "extracted_at": "2026-11-20T09:25:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

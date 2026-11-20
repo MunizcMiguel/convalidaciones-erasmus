@@ -1,0 +1,78 @@
+{
+  "course_name_original": "Strumentazione Elettronica Di Misura",
+  "course_name_en": "Electronic Measurement Instrumentation",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fondamenti di misure elettroniche",
+    "Fundamentals of circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student must demonstrate knowledge and understanding of the problems related to the main architectures of instruments and acquisition systems operating in the time and frequency domains, grasping the main relationships between the correct implementation of a measurement system and the final uncertainty guaranteed by it.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must also fully understand the practical-operative implications of measurement techniques for fundamental electrical quantities and input-output characterization of active and passive systems and devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be able to put into practice the operational methods by which one moves from a theoretical concept or model to a practical-real case with methodological rigor and an engineering approach.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will apply the basic knowledge of various methods and fundamental measurement techniques, of the main architectures of instruments and apparatus for the acquisition and measurement of signals operating in both time and frequency domains, to implement measurement systems (including automatic ones) that take into account the main non-ideality effects that vitiate the knowledge of a measurable quantity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student, knowing the typical problems of measurement, of transforming information or a quantity from the real world into a quantitatively correct and qualitatively adequate numerical data, will be able to independently apply the knowledge and methods learned both with a view to a possible continuation of studies at a higher level, and in anticipation of professional placement at the end of the course.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "MEASUREMENT INSTRUMENTATION. General concepts: Architecture of a numerical instrument, quantization error, frequency resolution; errors related to sampling: (i) insufficient sampling frequency, aliasing in the time domain and \"frequency folding\" in the frequency domain, Shannon's theorem; (i) incoherent sampling, truncation error in the time domain and spectral leakage in the frequency domain, notes on windowing.",
+    "Insertion of electronic instrumentation into measurement circuits: mass and ground, balanced and unbalanced signals, differential inputs. Shielding and grounding techniques. Exercises: Sampling errors in the time and frequency domains, Assemblies and connections of measurement setups based on single-ended and differential data acquisition systems.",
+    "VIRTUAL INSTRUMENTATION. Data acquisition systems. Generalities, architectures. Data acquisition cards. logical and physical components: terminal block; (i) analog input: connections, configurations, programmable gain instrumentation amplifier (PGIA), S/H, Analog-to-Digital Converter (ADC); (ii) analog output; (iii) timer and counter.",
+    "Manual, market overview, specification analysis, example NI USB-6009, NI PCI6221 and National Instruments production. Programming: LabVIEW recalls, G language, development of measurement applications based on virtual instrumentation. Visual programming and National Instruments LabView environment. Development of a virtual instrument (VI): front panel, block diagram, input/output variables, data types, clusters and arrays, flow control instructions, data saving, diagrams, sub-VI procedure. Exercises: Data acquisition of a signal, LabVIEW programming patterns: producer-consumer, state machines.",
+    "Event-driven programming in LabVIEW.",
+    "INSTRUMENT EXAMPLES. Signal generators: classification, architecture, direct digital synthesis (DDS) generators: principle, applications, high-performance DAC architectures, arbitrary waveform generators, Agilent 33220A manual example, specification analysis and Tektronix AWG family. Exercises: Signal generator in LabVIEW: generation of various waveforms. Numerical counters: classification, architecture, timers and counters, specification analysis (Agilent 53131A example and Keysight family). Exercises: Use of timers and counters in LabVIEW. Numerical multimeters: classification, architecture, operating principle for measuring continuous and alternating voltages, resistances and currents, specification analysis (Keithley 2000 example and Keithley family), development of a virtual multimeter. Exercises: Virtual multimeter: AC and DC voltage measurement (truerms), current, resistance, and panel creation."
+  ],
+  "teaching_methods": [
+    "Frontal lessons",
+    "Laboratory exercises",
+    "Seminars"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "strumentazione_elettronica_di_misura",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "5ccc8ed8f711c3c86b808614b86b7d74c5787f4c5b04a198ade2dbdfee92a00a",
+  "extracted_at": "2026-11-20T08:20:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

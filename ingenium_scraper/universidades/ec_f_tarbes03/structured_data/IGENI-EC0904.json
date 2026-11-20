@@ -1,0 +1,76 @@
+{
+  "course_name_original": "Electronique de commande",
+  "course_name_en": "Control Electronics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "IGENI-EC0144 Génie électrique",
+    "IGENI-EC0244 Structures électriques en courant continu",
+    "IGENI-EC0445 Circuits électriques en régime alternatif",
+    "IGENI-EC0742 Electronique de mesure"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "At the end of the TD sessions, the student engineer must be able to analyse the operation of a structure involving one or more operational amplifiers by adopting a ‘bottom-up’ type method aimed sequentially at: Break down a given electrical diagram into functional blocks; Establish the input/output relationship of the functional blocks corresponding to a second-level functional analysis; Assign each functional block a role within the electronic chain corresponding to a first-level functional analysis; Deduce the information processing strategy throughout the chain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "At the end of the practical sessions, the student engineer must be able to: Build a simple assembly using analogue integrated circuits (AOP, 555 clock); Make rational use of the classic electronics test bench (power supply, GBF, oscilloscope, multimeter) in order to carry out tests on the assemblies to understand their operation from a qualitative point of view; Establish the behavioural laws describing the expected idealised theoretical behaviour, enabling the structure to be sized; Experimentally verify the validity of the theoretical model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student engineer must be able to propose a general methodology for analysing non-linear switching structures based on the identification and study of the different time sequences.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Functional and material study of bistable, astable and monostable structures."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Practical work",
+    "Project-based approach in tutorials in an active teaching room"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 14.0,
+  "assessment_methods": [
+    {
+      "method": "Supervised Assignment (DS1)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Project Activity (PJ1)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Analysis Report from Practical Session (TP1)",
+      "weight_percentage": 33.33
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*TP1 + 1*PJ1) / 3. DS1 assesses theoretical skills acquired during the course. PJ1 is a summative assessment of the project activity. TP1 is a summative assessment of the analysis report at the end of the practical session with student feedback.",
+  "bibliography": [
+    "Albert Paul Malvino, David J. Bates « Principes d'électronique - 9e édition», Dunod 2021"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0904",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "98b45cb941417e3ffeff66396aa6a65696c267d275ec016d13e42bc860e0f109",
+  "extracted_at": "2026-11-18T10:00:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

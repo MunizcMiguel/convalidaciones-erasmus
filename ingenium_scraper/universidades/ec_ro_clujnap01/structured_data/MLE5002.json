@@ -1,0 +1,134 @@
+{
+  "course_name_original": "Computer networks",
+  "course_name_en": "Computer networks",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Operating Systems",
+    "Computer System Architecture",
+    "Basic knowledge on C/C++ and Python programming",
+    "basic network knowledge",
+    "data encryption algorithms",
+    "basic skills on using virtualization technologies"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has adequate knowledge of the protocols by which the Internet works and has the necessary skills to design and test his/her own protocols.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the basic knowledge required to install, configure and maintain a server system on the Internet.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate possesses the basic knowledge of operating system specific programming and is familiar with scripting languages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to design and maintain a computer network of medium complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to present and explain methods, algorithms, paradigms and techniques used in various branches of computer science.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to observe and obtain information from various sources.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer Networks Introduction. Definition. Examples. Network Topologies.",
+    "The socket programming API. Network programming using TCP and UDP.",
+    "Protocols: definition. Protocol layers. The OSI reference model. The TCP/IP layered model.",
+    "The functions and services of the IP layer. Structure of an IP datagram. IP addressing (classfull). Datagram check summing. The ARP protocol.",
+    "The concept of Subnetworks and Supernetworks. CIDR. Network masks.",
+    "The UDP protocol and services. The structure of an UDP datagram UDP ports and processes.",
+    "The TCP protocol. Structure of a TCP segment. Principles of TCP data transmission.",
+    "The TCP Sliding Window mechanism. Flow Control. Congestion avoidance.",
+    "Broadcast and multicast communication. The ICMP protocol. Error and network state signaling.",
+    "The application layer. HTTP, SMTP, FTP",
+    "The Internet Domain Name System. The DNS protocol.",
+    "Network routing. Distance based and link state based routing algorithms. Routing protocols: RIP, BGP, OSPF.",
+    "The physical layer. Transmission media. Characteristics, fiber networks, wireless networks. Error detection and correction.",
+    "Network Security; Netiquette and computer network behavior norms.",
+    "Laboratory Configuration. Necessary tools, Virtual machines and build systems;",
+    "A simple client-server TCP application;",
+    "Concurrent TCP client-server applications;",
+    "Concurrent Multiplexed TCP- Servers. The select call. Network debugging – wireshark",
+    "Simple UDP client-server; Security Handling;",
+    "Complex/Concurrent UDP applications. Ping. Traceroute. Ipconfig/ifconfig.",
+    "TCP/IP programming -Mid term evaluation;",
+    "Packet Tracer - simple network simulation",
+    "Packet Tracer - Physical/logical network design",
+    "Packet Tracer - Static Routing, NAT",
+    "Packet Tracer – RIP Routing",
+    "Packet Tracer – Packet filtering and VLANs",
+    "Packet Tracer – Complex design",
+    "Lab Evaluation."
+  ],
+  "teaching_methods": [
+    "Exposure",
+    "conversation",
+    "explanation",
+    "didactical demonstration",
+    "dialogue",
+    "case studies",
+    "examples",
+    "proofs",
+    "Practical tests"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam-Moodle Test",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Mid-term and final term lab tests or overall lab grade",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "At least a grading of 5 (from a scale of 1 to 10) is required at both the theoretical exam and laboratory assessments.",
+  "bibliography": [
+    "J. Kurose, K. Ross, Computer Networking: A Top Down Approach, Addison-Wesley, rev2,3,4 2002-2007.",
+    "Douglas E. Comer, Internetworking with TCP/IP Vol 1- Principles, Protocols, and Architecture",
+    "Douglas E. Comer, Internetworking with TCP/IP Vol 3- Client-Server Programming and Applications",
+    "G.R.Wright, R. Stevens, TCP/IP Illustrated – vol 1,2, Addison Wesley.",
+    "Matt Naugle, Illustrated TCP/IP – A Graphic Guide to protocol suite, John Willey & Sons, 1999.",
+    "W. Richard Stevens, Bill Fenner, Andrew M. Rudoff, UNIX® Network Programming Volume 1, Third Edition: The Sockets Networking API",
+    "Peterson, Larry - Davie, Bruce: Computer Networks: A Systems Approach. Morgan Kaufman, (3rd ed.), 2003.",
+    "Stallings, William: Data and Computer Communications. Prentice Hall, (6th ed.), 2000.",
+    "Tanenbaum, Andrew S.: Computer Networks. Prentice Hall, (4th ed.), 2003.",
+    "Netiquette: Modern Manners For A Modern World: The Ultimate Guide To Online Etiquette, ISBN 1523817569, 2016",
+    "Cisco Networking Academy Classes, http://cisco.netacad.net"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5002",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem3_MLE5002_en_dadi_2025_9745.pdf",
+  "source_language": "en",
+  "source_sha256": "ed3110896f7529369fe9250963ac44581b062afb48c4fed0df92e27f1593815e",
+  "extracted_at": "2026-11-20T09:07:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

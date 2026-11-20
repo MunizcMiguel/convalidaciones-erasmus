@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Signals and Systems",
+  "course_name_en": "Signals and Systems",
+  "ects": 5.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "EEE222"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the concept of signals and systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know the basic system properties and meaning of linear time-invariant systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Can use the Fourier Series representations for periodic signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and can use the Fourier transform methods for the analysis of continuous-time and discrete-time signals and systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and can use the z-transform methods for the analysis discrete-time signals and systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the differences and uses of different transform methods and know when to apply which.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION: Definitions of signals and systems, classification, importance in engineering, applications examples.",
+    "BASIC CONCEPTS: Transformations, basic continuous and discrete-time signals",
+    "BASIC CONCEPTS: Continuous and discrete-time systems and their properties",
+    "LTI SYSTEMS: Modeling, impulse response and concepts of convolution.",
+    "CONVOLUTION: Determination of systems responses by convolution summation or integral.",
+    "DIFFERENTIAL EQUATIONS: Classical or transform techniques for the analysis of continuous time LTI systems defined by differential equations.",
+    "Midterm Exam 1",
+    "FARK DENKLEMLERİ: Ayrık-zamanlı sistemlerinin fark denklermleri ile modellenmesi ve bu tür sistemler için kullanılan analiz yöntemleri.",
+    "FOURIER SERIES: Importance of Fourier series expansions and its use in system analysis.",
+    "FOURIER TRANSFORM: Application of Fourier transform technique in system analysis.",
+    "FREQUENCY DOMAIN: Analysis of LTI systems in the frequency domain, modulation, sampling.",
+    "Z TRANSFORM: Introduction to the method of Z transform in the analysis and synthesis of discrete-time systems",
+    "Midterm Exam 2",
+    "TRANSFER FUNCTION: Representation of systems by transfer functions and their properties."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Signal and Systems : A. V. Oppenheim, A.S. Willsky, Prentice Hall, 1997",
+    "Signal and Systems : D. K. Lindner, Mc Graw Hill, 1999",
+    "Signals and Systems: Anaylsis Using Transform Methods and MATLAB, 3rd ed., M. J. Roberts, Mc Graw Hill, 2018."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE321",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857477&lang=en",
+  "source_language": "en",
+  "source_sha256": "6152c8adca7de1f14c18c9bcc5364e7be703e8cd591ec597850052010ec71e7b",
+  "extracted_at": "2026-11-20T13:00:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

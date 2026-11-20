@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Mathematical Analysis 1",
+  "course_name_en": "Mathematical Analysis 1",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student understands the civilizational importance of mathematics and its applications. Can precisely formulate the mathematical meaning of physical phenomena descriptions. Can verify the correctness of mathematical inferences and related calculations.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "can define functions, also using limit transitions, and describe their properties",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "uses the concept of convergence and limit in various contexts; can - at a simple and medium level of difficulty - calculate limits of sequences and functions, examine the continuity of functions and understands its consequences. Can calculate derivatives of functions and apply them to study their behavior. Has basic methods of function integration.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "can precisely formulate questions to deepen their understanding of a given topic or to find missing elements of reasoning",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of logic and set theory: Basic methods of mathematical reasoning, proving theorems. Description of sets and operations on sets. Verification of example logical sentences using 0-1 value tables.",
+    "Relations, mappings: Order relations, equivalence, mappings, bounds on the number line. Outline of the definition of real numbers. Composition, inverse functions.",
+    "Overview of elementary functions (1): power, exponential, logarithmic functions (definitions and basic properties, graphs)",
+    "Overview of elementary functions (2): Trigonometric, cyclometric, hyperbolic and area functions (geometric motivation and analytical formulas)",
+    "Sequences and their limits: Sequences as mappings, recursive definitions, limit of a sequence, methods of calculation and theorems about existence. Improper limits.",
+    "Arithmetic of limits, most important limits not covered by such arithmetic (indeterminate forms). Convergent subsequences. Cauchy sequences.",
+    "Limit of a function: Accumulation points. Limit of a function at a point. Arithmetic operations on limits, limit of composition. Heine's condition. Improper limits and limits at infinity.",
+    "Limit of a function (2): Indeterminate forms - important examples of limits. One-sided limits, classification of discontinuity points. Case of monotonic functions.",
+    "Continuous functions: Lipschitz condition, continuity of inverse functions. Basic properties of continuous functions on an interval.",
+    "Derivatives: Definition and interpretations: geometric and physical. Derivatives of sum, product and quotient, compositions and inverse functions. One-sided derivatives.",
+    "Applications of derivatives: Mean value theorems, monotonicity, local extrema. L'Hôpital's rule. Higher-order derivatives - Taylor's formula, studying function behavior.",
+    "Indefinite integrals: Integration by parts and by substitution, most important elementary integrals",
+    "Selected types of integrals: Integration of rational functions, trigonometric and irrational functions",
+    "Definite integral: Geometric and physical interpretation of the integral, Basic properties of the definite integral, Newton-Leibniz formula"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem Based Learning",
+    "Auditorium classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral answer",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass, a positive grade must be obtained from both the auditorium classes and the exam. For auditorium classes, a minimum of 50% of points from colloquia and activity during classes is required.",
+  "bibliography": [
+    "J. Banaś, S. Wędrychowicz, „Zbiór Zadań z Analizy Matematycznej”, WNT",
+    "W. Krysicki, L. Włodarski, „Analiza Matematyczna w Zadaniach”, Cz. I , PWN",
+    "R. Leitner, „Zarys Matematyki Wyższej dla Studentów” , Cz. I WNT",
+    "F. Leja, „Rachunek Różniczkowy i całkowy” PWN",
+    "W. Żakowski, W. Kołodziej „Matematyka” , Cz.I WNT",
+    "Materiały umieszczane na stronie internetowej http://home.agh.edu.pl/~rudol/"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii1.02250.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/996380c2-f03f-49ce-9037-baca91748b56.html",
+  "source_language": "pl",
+  "source_sha256": "7722a5847509aed1e6931219b5d624117aad04030a41591fc35ce1ef5f32ff7b",
+  "extracted_at": "2026-11-20T09:01:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,150 @@
+{
+  "course_name_original": "Diseño y comunicación de producto y automatización de elementos en planta",
+  "course_name_en": "Product Design and Communication and Automation of Plant Elements",
+  "ects": 9.0,
+  "semester": "1c",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es",
+    "gl"
+  ],
+  "prerequisites": [
+    "Graphic expression: Graphic expression/V12G380V01101",
+    "Graphic engineering/V12G380V01602",
+    "Fundamentals of automatics/V12G380V01403",
+    "To enroll in this course, it is necessary to have passed or be enrolled in all subjects from courses prior to the one in which this course is placed."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the methodology for product design and the factors and aspects involved in controlling its life cycle.",
+      "type": "knowledge",
+      "code": "B3 D8 D14 D17"
+    },
+    {
+      "text": "Immerse oneself in design culture, opening the mind to new possibilities, fostering innovation and competitiveness.",
+      "type": "unspecified",
+      "code": "D3 D8 D14 D16 D17"
+    },
+    {
+      "text": "Understanding and handling various aspects of product design such as: model, function, form, aesthetics, ergonomics, quality, ease of manufacturing, environmental context, etc.",
+      "type": "knowledge",
+      "code": "B3 D8 D9 D14"
+    },
+    {
+      "text": "Understanding the fundamentals to consider for achieving an ergonomic design for the user.",
+      "type": "knowledge",
+      "code": "B3 D9 D16"
+    },
+    {
+      "text": "Knowledge of the techniques to follow to effectively communicate and deliver a new design to users.",
+      "type": "knowledge",
+      "code": "B3 D3 D6 D17"
+    },
+    {
+      "text": "Ability to conceive and develop automatic systems.",
+      "type": "skill",
+      "code": "C12 D8 D14"
+    },
+    {
+      "text": "Ability to select and configure an industrial programmable logic controller for a specific automation application, as well as determine the type and characteristics of necessary sensors and actuators.",
+      "type": "competence",
+      "code": "C12 D8 D9 D16"
+    },
+    {
+      "text": "Skill to conceive, evaluate, plan, develop and implement automatic projects using engineering principles and methodologies.",
+      "type": "skill",
+      "code": "C12 D6 D20"
+    },
+    {
+      "text": "Ability to translate an operating model into a PLC program.",
+      "type": "competence",
+      "code": "C12 D6"
+    }
+  ],
+  "syllabus_topics": [
+    "FIRST BLOCK - PRODUCT DESIGN AND COMMUNICATION",
+    "1. Design: Concept, Industrial design, Types of design, Product design, Historical evolution, Current trends, Design in its geographical scope, Theories on design, Comparative analysis.",
+    "2. Design Methodologies and Techniques for Design by Factors (DfX): The design process, Main design approaches (Methodologies, Analogies and differences), Decision management in design (Multicriteria decision techniques, Hierarchy processes), Intelligent Decision Support Systems (Symbolic reasoning and knowledge representation, Statistical reasoning and learning models, Generative models in product design), Design for Manufacture and Assembly (DfMA) (Characteristics, Methodology, Guides).",
+    "3. Reverse Engineering: Concept, Techniques and methods for data acquisition, Tools for data manipulation, Applications.",
+    "4. Aesthetics in Design: Fundamentals of aesthetics, Factors influencing aesthetics (Color in design, Form and proportion), Aspects in design to make it more aesthetic.",
+    "5. Biomechanical Fundamentals of Ergonomic Design: Introduction to Biomechanical Engineering, Biomechanics of bone and lumbar spine, Ergonomics, Biomechanical factors influencing design, Ergonomic factors to consider in design.",
+    "6. Ergonomic Design of Products and Processes: Product ergonomics, Workplace ergonomics, Design for the prevention of ergonomic injuries in the workplace, Design for the prevention of injuries in load handling.",
+    "7. Product Presentation, Communication and Promotion: Communication of industrial product, Communication in the company (Corporate Identity), Technologies for product communication and promotion, Product presentation (Labeling and packaging), Distribution (Packaging).",
+    "8. Industrial Design Protection: Patents, Utility models, Trademarks, National, European and international patent, Procedure for obtaining patents (Steps and requirements), The Spanish Patent and Trademark Office, The Official Bulletin of Industrial Property.",
+    "FIRST BLOCK PRACTICES:",
+    "Design and communication of an industrial product, to be carried out during practice sessions. The design process must be documented by selecting an appropriate guiding methodology. It will begin with the process of generating and selecting design alternatives, continuing with the creation of virtual models and prototypes, technical manufacturing documentation, elaboration of physical prototypes, and design of the communication of the final industrial product. Sequence of activities: 1. Definition of objectives and choice of work to be done. Selection of the design methodology to be used. 2. Definition of user needs and technical requirements. 3. Identification of functions to be developed and product requirements. Functional analysis. 4. Elaboration of virtual models (Components and assembly). 5. Elaboration of the physical prototype. 6. Design of a communication campaign appropriate to the product. 7. Delivery of documentation and presentation.",
+    "SECOND BLOCK - AUTOMATION OF PLANT ELEMENTS",
+    "1. Design and implementation of automatic systems. (3 hours): Machine safety regulations, Overview of regulations, Operating modes (Characteristic organizations: 3 and 4 states, Safety in manual modes, Other modes, Other relevant aspects in mode management).",
+    "2. Transducers and Actuators. (6 hours): Transducers (Basic characteristics, Classification according to the physical magnitude to be measured), Actuation devices (Electric actuators and pre-actuators (Frequency converters), Pneumatic actuators and pre-actuators), Basic wired automatisms (Pneumatic and hydraulic automatisms, Electromechanical automatisms), Industrial regulators.",
+    "3. Automation Modeling. (4 hours): State graphs, Extension of Petri Nets (Modeling of complex systems, Concurrency, Task synchronization, Modularity).",
+    "4. Automation using Industrial Programmable Logic Controllers. (3 hours): Types of automation, Necessary elements for automation, Reasons for automation, Automation strategies, Wiring systems.",
+    "5. PLC Programming. Standardized Languages. (4 hours): Standardized languages, Sequential Function Chart (SFC) (Stages, Transitions, Alternative branches, Jumps, Simultaneous branches), Advanced SFC concepts (Naming stages, Actions associated with stages, Conditional actions, Events and associated actions, Timers and counters).",
+    "6. Technology Integration. (6 hours): Integration, Industrial communications, Process hierarchy, Industrial network hierarchy: Fieldbuses, Human-Machine Interface systems (Operator terminals).",
+    "SECOND BLOCK PRACTICES:",
+    "P1. Implementation of an automatic system (2 hours): Application of regulations and operating modes.",
+    "P2. Frequency converters (2 hours): Commissioning of a drive based on a frequency converter.",
+    "P3. Automation modeling (2 hours): Implementation of a system modeled using a Petri net with a programmable logic controller.",
+    "P4. Wiring (2 hours): Wiring of an automatic system based on a programmable logic controller.",
+    "P5. Standardized modeling (2 hours): Implementation of a programmable controller using standardized PLC programming tools.",
+    "P6. Fieldbuses (2 hours): Parameterization of a drive via a fieldbus."
+  ],
+  "teaching_methods": [
+    "Lecture: 1st BLOCK Magistral session with active student participation. Each thematic unit will be presented by the professor using appropriate audiovisual resources and complemented with student comments based on recommended bibliography or new ideas that may arise. During lectures, exercises will be posed for partial or total resolution, individually or in groups, aimed at facilitating a better understanding of the contents and methods for their practical application in design.",
+    "Lecture: 2nd BLOCK Professor's exposition of the course contents.",
+    "Laboratory practices: 1st BLOCK A design project or work is proposed, to be carried out by a group of students throughout the semester, during the face-to-face sessions corresponding to the practical classes of the subject. These hours must also be complemented by non-face-to-face hours and those that, at the group's request, may correspond to face-to-face support hours for group creative sessions and group/individual tutorials. The project will consist of the design and communication of an existing and known industrial product. For this, each group of students must identify, detail and document the precise steps to implement a complete design process. Thus, once the most appropriate design methodology has been selected, students must define the target audience and their needs related to the product to be designed. After this, they must address the definition of the product's technical requirements, identifying its functions and performing a complete functional analysis. Once this part is completed, they must create a suitable virtual prototype with the objective of subsequently addressing the creation of a functional physical prototype. Likewise, they must document the entire process and prepare the definition and manufacturing plans for the product. Finally, they must design a communication campaign adjusted to the designed product, developing its aesthetic component, which will be reflected in the definition and design not only of the product but also of a distinctive brand for it, which must be reflected in all communicative aspects of the project. Similarly, they will prepare a brief advertising spot for the product, which will involve multimedia content editing. The process will be coordinated by the professor at all times, from the initial choice of work to be done to the product presentation, passing through successive intermediate phases in which each group will have to make partial deliveries. Finally, each practice group will present the designed product and deliver the relevant documentation.",
+    "Laboratory practices: 2nd BLOCK Activities applying the knowledge acquired in theory classes to specific situations that can be developed in the course laboratory.",
+    "Seminar: 1st BLOCK Learning reinforcement activities through the development of sessions aimed at finding novel ideas of interest for the respective works or explaining theoretical contents, analyzing and evaluating proposals, choosing aesthetic components, etc.",
+    "Project-based learning: 1st BLOCK Execution of activities that necessarily require creative effort, attention, active participation, and collaboration among students and with the professor, as happens in the creative stages of the design process.",
+    "Presentation: 1st BLOCK Each group of students must present the designed industrial product in a mandatory joint presentation session. In this session, whose main objective is to evaluate the product's advertising and communication campaign, all students must participate, and interaction activities may be proposed."
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 87.0,
+  "assessment_methods": [
+    {
+      "method": "Exam on contents corresponding to the First Block (Product Design and Communication)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Exam on contents corresponding to the Second Block (Automation of Plant Elements)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical work of the First Block (Product Design and Communication)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical work of the Second Block (Automation of Plant Elements)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "To pass the course, an overall grade of 5.0 out of 10.0 is required, and each of the two content blocks must be passed individually with a minimum grade of 5.0 out of 10.0. For the First Block, students can choose between continuous evaluation (minimum 5.0 in each part) or a non-continuous global evaluation (a single final exam covering all theoretical and practical content plus a project, requiring a minimum of 5.0 in both the global and each part). For the Second Block, evaluation consists of a written/oral exam (40%) and continuous evaluation of practical work (10%), both of which must be passed. In the second call, students will retake only the parts not passed in the first call. Any unethical behavior, such as copying or plagiarism, or the unauthorized use of electronic devices during assessment, will result in a global failing grade of 0.0 for the academic year.",
+  "bibliography": [
+    "Boothroyd, G., et. al., Product Design for Manufacture and Assembly , 3ª, CRC Press, 2011",
+    "Lidwell, William; Holden, Kritina ; Butler, Jill, Principios Universales de Diseño , Blume (Naturart), 2011",
+    "Ulrich, K.T. y Eppinger, S.D., Diseño y Desarrollo de Productos , McGraw-Hill Interamericana, 2009",
+    "Lidwell, William; Holden, Kritina ; Butler, Jill, Universal Principles of Design , Rockport Publishers, 2010",
+    "Mandado, E.; Marcos, J.; et al., Autómatas Programables y Sistemas de Automatización , 2ª, Marcombo, 2009",
+    "Nordin, Margareta; Frankel, Victor, Biomecánica Básica del Sistema Musculoesquelético , 3ª, McGraw Hill Interamericana, 2004",
+    "Bayley, S., Guía Conran del diseño , Alianza, 1992",
+    "Galán, J.; et al., El Diseño Industrial en España , Cátedra, 2010",
+    "García Melón, M.; et al., Fundamentos del diseño en la ingeniería , Editorial de UPV, 2009",
+    "Gomez Senent, E, Teoría y metodología del proyecto , Editorial de UPV, 2008",
+    "Nordin, Margareta; Frankel, Victor, Basic Biomechanics of the Musculoskeletal System , 4ª, Wolters Kluwer, 2012",
+    "Porras, A. y Montero, A.P, Autómatas Programables. Fundamento. Manejo. Instalación y Práctica , McGraw-Hill, 1990",
+    "Romera, J.P; Lorite, J.A; Montoro, S., Automatización. Problemas resueltos con autómatas programables , Paraninfo, 2002"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01931",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01931&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "ce7f0729a911f878d9bdc4cab9e18608e783dbcccafb84f23c70fed60bccceff",
+  "extracted_at": "2026-11-18T02:57:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

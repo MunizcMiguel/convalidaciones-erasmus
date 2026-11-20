@@ -1,0 +1,184 @@
+{
+  "course_name_original": "PROGRAMAREA CALCULATOARELOR SI LIMBAJE DE PROGRAMARE",
+  "course_name_en": "COMPUTERS PROGRAMMING",
+  "ects": 5.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Explain the fundamental concepts of programming in Matlab and the data structures used in an engineering context.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Compare numerical methods for solving equations and optimization applicable in mechanical problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Evaluate the advantages of using Matlab compared to other programming environments in technical data analysis.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Define control structures, functions, and specific elements of the Matlab language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the necessary steps for processing, analyzing, and visualizing experimental data.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use applied mathematics notions (linear algebra, differential equations) for modeling mechanical phenomena.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the learned concepts for simulating processes and systems in the field of mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Efficiently use Matlab to develop applications for processing numerical simulation data in mechanical engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Plan the structure of a Matlab program for solving a technical problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Operate with Matlab's graphical tools and toolboxes to represent and interpret technical-engineering results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically evaluate results obtained through Matlab simulations and propose improvements to the models or methods used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Respect ethical principles, norms, and values in carrying out IT tasks, ensuring calculation accuracy and data integrity.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Assume responsibilities in realizing Matlab projects, actively contributing to team performance and optimizing technical solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Continuously inform and document oneself regarding new Matlab functionalities, toolboxes, and good programming practices.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Adopt a rigorous and efficient work strategy for the autonomous resolution of engineering problems through programming.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer organization. Information representation. Programming languages and interpreter languages.",
+    "Programming in MATLAB. Elements of matrix algebra. Creating vectors and matrices; creating arrays.",
+    "Mathematical operations with matrices. Solving systems of linear equations. Eigenvalues and eigenvectors.",
+    "Matlab commands and navigation keys. Data input and representation.",
+    "Matlab programming environment. Script files. Function files.",
+    "Logical operators. Logical control statements. Using \"if\", \"else\", and \"elseif\" statements. Repetitive statements (\"for\", \"while\").",
+    "Symbolic calculus and numerical calculus. Special functions.",
+    "Numerical differentiation (left, right, central, Richardson and Gauss methods).",
+    "Numerical integration (Newton-Cotes, trapezoidal rule, Simpson, Romberg, Gauss). Multiple integrals.",
+    "Solving linear systems of equations by direct methods (Gauss, Gauss-Jordan).",
+    "Solving linear systems of equations by approximate methods (Jacobi, Gauss-Seidel, Cholesky, gradient methods).",
+    "Solving nonlinear equations and systems of equations.",
+    "Polynomial interpolation or approximation. Spline functions (linear, quadratic, and cubic).",
+    "Elements of graphics in Matlab. 2D graphics. 3D graphics.",
+    "Work safety. Matlab - general presentation. Expressions and calculations.",
+    "Matrices and vectors. Operations with matrices and vectors. Matrix functions.",
+    "Matrix equations and linear systems. Eigenvalues and eigenvectors.",
+    "Polynomials; determining polynomial roots. Polynomial interpolation.",
+    "Symbolic calculations with polynomial expressions.",
+    "Symbolic calculations in linear algebra.",
+    "Knowledge verification test.",
+    "Symbolic calculations with functions.",
+    "Relational and logical operators.",
+    "Commands for controlling program execution.",
+    "M-file programs. Input/output commands.",
+    "Elements of graphics in MatLab. 2D graphics. Revolution bodies.",
+    "Debugging and optimizing MatLab programs.",
+    "Colloquium."
+  ],
+  "teaching_methods": [
+    "Writing parts of code on the board",
+    "Exemplification of complex methods using the projector via PowerPoint presentations with code sequences (variables, control structures)",
+    "Using resolution methods involving vectors and matrices, various numerical methods",
+    "Using flowcharts, algorithmic flows, and pseudocode",
+    "Step-by-step analysis of concrete code examples with emphasis on logic and syntax",
+    "Encouraging active student intervention for analogies with real-life examples",
+    "Comparison with results obtainable using other programming languages (Fortran, Pascal, C or C++)",
+    "Highlighting Matlab's specificities compared to classic programming languages (e.g., lack of headers/units, direct data storage with concurrent RAM allocation without prior type/dimension definition)",
+    "Traditional teaching",
+    "Computer exercises"
+  ],
+  "workload_hours_total": 135.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Formative evaluation test (during semester)",
+      "weight_percentage": 28.0
+    },
+    {
+      "method": "Summative evaluation test (final verification)",
+      "weight_percentage": 42.0
+    },
+    {
+      "method": "Seminar activities",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The student must achieve at least a grade of 5 for each evaluated component. All laboratory assignments must be completed, with recovery allowed for only one missed assignment. The final grade is determined by considering the scores and assigned weights for each activity. Grades are awarded from 1 to 10, with 5 being the minimum to pass and earn credits.",
+  "bibliography": [
+    "www.mathworks.com site-ul oficial al firmei The MathWorks Inc.",
+    "Popescu, G. (2009) - Programarea calculatoarelor in MATLAB, Editura Tehnopress, Iasi",
+    "Ghinea, M. and Fireteanu, V. (1997), MATLAB Calcul numeric-grafică-aplicatii, Editura Teora, Bucuresti",
+    "Iorga, V. s. a. (1 996), Programare numerică, Editura Teora, Bucureși",
+    "Cristea, V. s. a. (1997), Tehnici de programare, Editura Teora, Bucuresti",
+    "Etter, D. M. (1993), Engineering Problem Solving with MATLAB, Prentice Hall, New Jersey",
+    "Marcus, M. (1993), Matrices and MATLAB: a Tutorial, Prentice Hall, New Jersey",
+    "Press, W. H. s. a. (2002), Numerical Recipes in C - The Art of Scientific Computation, 2nd edition, Cambridge University Pres, Cambridge",
+    "Velea, M. N. (2020), Matlab. Instrument de calcul in inginerie, ditura Universitatii Transilvania, Brasov",
+    "Campean, C. (2021),Programare in limbajul Matlab cu aplicatii in ingineria mecanica, UT Press, Cluj -Napoca",
+    "Neghina, C. Neghina, M. (2024), Matlab un limbaj pentru viitorii ingineri, Editura Matrix Rom, Bucuresti",
+    "Popescu, G. (2009) - Rezolvări numerice in MATLAB indrumar pentru studenti, TehnoPress, Iasi",
+    "Postolache M. (1994), Metode numerice, Editura Sirius, Bucuresti",
+    "Dodescu Gh. (1979), Metode numerice in algebră, Editura Tehnică, Bucureși",
+    "Mărușer $. (1981), Metode numerice in rezolvarea ecuatiilor neliniare, Editura Tehnică, Bucureși",
+    "Demidovich, B.P., Maron I.A. (1976), Computational Mathematics, Mir Publishers, Moscova",
+    "Abramovitz MN. , Stegun I. (1972), Handbook of mathematical functions, Dover Publications, New York",
+    "Zahariea, D. (2017), Limbaje de programare structurata. Aplicatii Matlab, Editura PIM, Iasi",
+    "Serdean, F. M. , Moholea, I. F. , Morariu-Gligor, R. M. (2021), Programare in Matlab cu aplicatii in ingineria mecanica, vol. I, UT Press, Cluj-Napoca",
+    "Panea, I. (2021), Indrumar de laborator pentru programare in Matlab, Editura Universitatii Bucuresti",
+    "Stanescu, R. C. , Girbacia, F. , Postelnicu, C. C. (2023), Programarea calculatoarelor si limbaje de programare indrumar de laborator, Editura Universitatii Transilvania, Brasov"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "MTC.106.DI.DF",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an1_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "0284d48936eec4ab17bb72ea79808f7ae4afa1d9bb9869772f82d424d5b9b1e1",
+  "extracted_at": "2026-11-13T01:08:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

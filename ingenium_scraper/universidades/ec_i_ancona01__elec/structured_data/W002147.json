@@ -1,0 +1,100 @@
+{
+  "course_name_original": "ADVANCED DIGITAL SYSTEMS (W002147)",
+  "course_name_en": "Advanced Digital Systems",
+  "ects": 9.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analyzing linear and non-linear electronic circuits",
+    "Behavior of semiconductor devices",
+    "Boolean algebra",
+    "Mathematical analysis"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students will deepen their knowledge and understanding of the behaviour and usage of digital electronic circuits and systems (memories, microcontrollers, reconfigurable platforms), as well as the basis of their design and programming techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students must be able to design digital electronic circuits, both by choosing discrete components from available commercial offerings, and using software or hardware programmable components, using languages such as C and VHDL.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must also be able to apply the acquired knowledge to understand the workings of the buses most commonly used to interconnect electronic systems and devices.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The solution of real-world design problems, that include the detailed analysis of the digital portions of a \"case study\" (whose analog part is dealt with in the \"Analog Electronic Circuits and Systems\" course) stimulates the student's ability to integrate knowledge acquired in this and in preceding courses, so as to reach a complete and rational design solution, based on the available scientific literature and device data sheets.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Electrical characteristics of logic gates: Propagation delay times, power consumption, buffers, transmission gates, clock feedthrough.",
+    "Tri-state and open-drain gates.",
+    "Combinatorial logic: Decoders, multiplexers, demultiplexers.",
+    "Arithmetic circuits: adders, subtracters, multipliers, comparators, shifters.",
+    "Sequential circuits: Latches and flip-flops.",
+    "Registers and counters.",
+    "Memories: Organization, decoders, basic memory cell, sense amplifiers.",
+    "Non-volatile memories: FLASH and EEPROM.",
+    "Static RAM: 6 transistor cell.",
+    "Dynamic RAM: 1 transistor cell.",
+    "Memory interfaces: parallel (SRAM, DRAM, NAND) and serial (SPI, I2C) buses.",
+    "Programmable devices: FPGA architecture and design methods.",
+    "Designing with VHDL: Language fundamentals.",
+    "Examples of combinatorial networks (adders).",
+    "Implementation of peripherals (SPI and I2C transceivers).",
+    "Interfacing to microcontrollers.",
+    "Design guidelines: Synchronous circuits, clock buffering, synchronizers, reset.",
+    "Test circuits and interfaces.",
+    "Case study: Design of the digital part of an ECG signal acquisition system.",
+    "Design of buffers and simple digital circuits.",
+    "Serial bus data analysis.",
+    "Experimental characterization of logic levels.",
+    "HW/SW cosimulation of an I2C bus and EEPROM memories.",
+    "Simulation of the case study."
+  ],
+  "teaching_methods": [
+    "Theoretical and practical lectures",
+    "Exercises",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written paper (VHDL-based design project or exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral test (discussion of written paper and course topics)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation method comprises two tests: a written paper and an oral test. The written paper can be a VHDL-based design project or written exercises. The oral test includes the discussion of the written paper and other course topics, and must be undertaken during the same exam session as the written test. The final mark will be the mark obtained in the oral test. Honors will be granted to students who achieve the maximum mark in the oral test and demonstrate excellent mastery of the subject.",
+  "bibliography": [
+    "Franco Fummi, Michele Lora, Mariagiovanna Sami, Cristina Silvano, \"Progettazione Digitale\", 3rd edition, McGraw-Hill, 2023.",
+    "Richard C. Jaeger, Travis Blalock, Benjamin J. Blalock, “Microelectronic Circuit Design”, 6th edition, McGraw-Hill, 2023. (Chapter S6,S7,S8, only present in the eBook version, print version does not contain the digital electronics part)",
+    "Frank Bruno, Guy Eschemann, \"The FPGA Programming Handbook\", 2nd edition, Packt Publishing Ltd, 2024.",
+    "Lecture notes by the teacher, available through the university's moodle platform at https://learn.univpm.it/"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universita Politecnica Delle Marche — Ingegneria Elettronica e delle Tecnologie Digitali (L-8)",
+  "institution_slug": "ec_i_ancona01__elec",
+  "degree": "Laurea in Ingegneria Elettronica E Delle Tecnologie Digitali (Electronic And Digital Technologies Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "W002147",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univpm.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=36209_98999_32239&ordinamento_aa=2022&af_percorso=36209&corso_cod=1775&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "c44bae1203c7b163c0a78ff1709951a8c2eb7e082a7059703e9bd115f5b5d61d",
+  "extracted_at": "2026-11-20T12:44:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

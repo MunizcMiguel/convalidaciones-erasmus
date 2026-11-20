@@ -1,0 +1,118 @@
+{
+  "course_name_original": "FONDAMENTI DI TELECOMUNICAZIONI T",
+  "course_name_en": "FUNDAMENTALS OF TELECOMMUNICATIONS T",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Basic knowledge on Fourier analysis (continuous- and discrete-time signals) and linear systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Introduction to communication networks.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduction to ISO-OSI model and TCP/IP protocols.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fourier Analysis (time-continuous signals)",
+    "Analysis in the frequency domain of deterministic time-continuous signals",
+    "Fourier Series",
+    "Fourier Transforms",
+    "Dirac's Delta",
+    "Fourier transform of distributions (generalized functions), step signals and periodic signals",
+    "Fourier Analysis (time-discrete signals)",
+    "Analysis in the frequency domain of deterministic time-discrete signals",
+    "Discrete-Time Fourier Transform (DTFT)",
+    "Nyquist-Shannon's sampling theorem",
+    "Shannon's series",
+    "Discrete Fourier Transform (DFT)",
+    "FFT",
+    "Linear systems",
+    "Definition of linearity",
+    "Impulse response and transfer function of time-invarying linear systems",
+    "Non distortion conditions",
+    "Ideal, real and FIR filters",
+    "Analog to digital conversion (PCM)",
+    "Generalized Fourier Analysis",
+    "Cross and auto correlation functions of deterministic signals",
+    "Energy and power spectra",
+    "Modulation Theory",
+    "Introduction; analogue modulations (AM, PM, FM, DSB-SC, QAM)",
+    "Digital signals",
+    "Digital PAM signals",
+    "Power spectra of deterministic PAM signals",
+    "Extension to ergodic random signals",
+    "Bipolar and multi-level encoding, power spectra of multi-level PAM signals",
+    "Basic elements of digital modulations, including OFDM",
+    "General description of phisical layer of WiFi (IEEE 802.11n, ac, ax and be)",
+    "ISO-OSI model and TCP-IP protocols",
+    "Network architectures: layers, protocols and services",
+    "ISO-OSI and TCP-IP models",
+    "Layer 2 (link)",
+    "Link layer services",
+    "Basics of Ethernet (10, 100 e 1000 Mbit/s)",
+    "CSMA/CD protocol",
+    "Basics of IEEE 802.11 (WiFi)",
+    "CSMA-CA protocol, MAC addresses, hubs e switches",
+    "The ARP protocol",
+    "Layer 3 (Network)",
+    "Network layer services",
+    "Connection oriented and connectionless protocols (datagram)",
+    "Logical addresses, routing tables, IPv4, basics of IPv6",
+    "IP forwarding, NATs",
+    "Layer 4 (Transport)",
+    "Transport services",
+    "UDP and TCP protocols (ACK, retransmission mechanisms, flow control, congestion control)",
+    "Ports",
+    "DTN",
+    "Basics of “challenged networks” and of DTN (Delay-/Disruption-Tolerant Networking) architecture"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Lab activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The access to the oral examination is reserved to students that have passed the written part. The final score is determined by the level of understanding of the subject and by the capacity of solving elementary exercises shown during the exam.",
+  "bibliography": [
+    "Lecture notes (in Italian only) provided via web (IOL) on the first part of the course.",
+    "Slides provided via web (IOL) on the second part of the course.",
+    "A.S. Tanenbaum, N. Feamster, D.J. Weterhall, “Computer Networks”, Pearsons, 6th edition, 2021"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Ingegneria informatica",
+  "institution_slug": "ec_i_bologna01__info",
+  "degree": "Ingegneria informatica (Laurea, L-8, Bologna)",
+  "course_code": "28014",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/535288",
+  "source_language": "en",
+  "source_sha256": "bcce7f2af1937a62f4d6771d07fa56d9e34406179a4bd20857ad0b0c3659430e",
+  "extracted_at": "2026-11-20T12:44:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,238 @@
+{
+  "course_name_original": "Teoría de Máquinas y Mecanismos",
+  "course_name_en": "Theory of Machines and Mechanisms",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "It is highly recommended that students have taken and passed the courses \"Mechanics and Thermodynamics\", \"Linear Algebra\", and \"Calculus\" from the 1st semester of the 1st year.",
+    "Elementary vector calculus. Concept of derivative and integral, with application to elementary functions.",
+    "System of linear equations and matrices.",
+    "Elementary concepts of particle kinematics and dynamics. Concept of force and Newton's principles. Work, kinetic and potential energy and conservation of energy.",
+    "Kinematics and dynamics of rigid bodies. Mass geometry. Moments of inertia.",
+    "User-level computer program handling."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing versatility to adapt to new situations.",
+      "type": "unspecified",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning.",
+      "type": "unspecified",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills, and aptitudes in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "unspecified",
+      "code": "CG5"
+    },
+    {
+      "text": "Ability to handle specifications, regulations, and mandatory standards.",
+      "type": "unspecified",
+      "code": "CG7"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "unspecified",
+      "code": "CG15"
+    },
+    {
+      "text": "Understanding and mastery of basic concepts on the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism, and their application to solving problems typical of engineering.",
+      "type": "unspecified",
+      "code": "CB-2"
+    },
+    {
+      "text": "Knowledge of the principles of theory of machines and mechanisms.",
+      "type": "unspecified",
+      "code": "CC7"
+    },
+    {
+      "text": "Analyze and kinematically synthesize mechanisms.",
+      "type": "unspecified",
+      "code": "RMM-1"
+    },
+    {
+      "text": "Formulate and solve the direct and inverse dynamic problem of a planar mechanism.",
+      "type": "unspecified",
+      "code": "RMM-2"
+    },
+    {
+      "text": "Analyze and design rigid and flexible transmissions.",
+      "type": "unspecified",
+      "code": "RMM-3"
+    },
+    {
+      "text": "Know widely used mechanisms and understand that many apparently very different mechanisms respond to the same kinematic principles.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Create kinematic diagrams of real mechanisms as a form of representation and understand the mechanism's operation from said diagram.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Structurally analyze articulated mechanisms by criteria of nature and number of links or pairs, and by dimensional criteria, describing, as a result, the degrees of freedom or mobility of the mechanism and the existence or not of dead centers or return points and their singularities.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and develop the concepts, fundamentals, and methods applied for the kinematic and dynamic analysis of planar mechanisms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Calculate velocities, accelerations, and forces in any planar mechanism, for specific positions of the mechanism and for complete cycles of motion.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Determine the type and dimensions of a bar mechanism to perform a specific function (problem known as mechanism synthesis).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Assimilate the relationships between the actions and the movement they produce in machines and be able to recognize the type of dynamic problem associated with each case.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Determine the inertia effects supported by the links or bars that make up the mechanisms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Correctly include friction forces in sliding, rotating pairs, and rolling, and analyze and understand the operation of friction-based mechanisms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and define the key dimensions and characteristics of motion transmissions between rotating shafts (gears, belts, ...).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Determine transmission ratios in ordinary and epicyclic gear trains and know the preferred design criteria used to define the number of teeth.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Describe the role of cam mechanisms, highlighting their advantages and disadvantages in relation to other mechanisms that achieve the same results.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use software for the analysis, simulation, and design of machines and mechanisms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze and select information from various sources.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to understand and interpret the results obtained through kinematic and dynamic analysis of mechanisms and machines.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Block I. INTRODUCTION TO THEORY OF MACHINES AND MECHANISMS",
+    "Topic 0. Introduction to the course.",
+    "Topic 1. Mechanisms and machines. Basic concepts and schematization.",
+    "Definition, general structure, and components of a machine",
+    "Classification of kinematic elements and pairs",
+    "Schematization of mechanisms",
+    "Topic 2. Planar articulated mechanisms.",
+    "Mobility of mechanisms: Grübler and Kutzbach criteria",
+    "Articulated quadrilateral and kinematic inversion. Grashof's Law",
+    "Quality of mechanisms: mechanical advantage",
+    "Mechanism synthesis",
+    "Block II. KINEMATIC ANALYSIS OF PLANAR MECHANISMS",
+    "Topic 3. Analysis of velocities and accelerations.",
+    "Introduction to kinematics",
+    "General approach. Analysis methods.",
+    "Method of relative velocities and accelerations.",
+    "Other methods of kinematic analysis.",
+    "Topic 4. Instantaneous centers of velocity (ICV).",
+    "Graphical location of centers.",
+    "Aronhold-Kennedy Theorem.",
+    "Determination of velocity using ICV",
+    "Block III. DYNAMIC ANALYSIS OF PLANAR MECHANISMS",
+    "Topic 5. Inverse dynamic problem.",
+    "Free body diagrams",
+    "D’Alembert’s Principle.",
+    "Virtual powers",
+    "Topic 6. Direct dynamic problem.",
+    "Dynamic reduction of 1 DOF mechanisms.",
+    "Direct dynamic analysis on reduced mechanisms",
+    "Flywheels: Steady state, degree of irregularity, concept of GD2",
+    "Topic 7. Friction.",
+    "Sliding friction, in rotating pairs and rolling friction.",
+    "Topic 8. Balancing.",
+    "Concept of balancing. Balancing of mechanisms.",
+    "Block IV. RIGID MOTION TRANSMISSIONS",
+    "Topic 9. Introduction to rigid motion transmissions.",
+    "Topic 10. Cylindrical spur gears.",
+    "Fundamentals, terminology, and classification. Forces. Variation of center distance. Interference",
+    "Topic 11. Cylindrical helical gears, bevel gears, and worm gears.",
+    "Fundamentals, terminology, and classification. Forces. Variation of center distance. Interference",
+    "Topic 12. Gear trains.",
+    "Ordinary and epicyclic trains. Willis' formula.",
+    "Topic 13. Cam-follower mechanisms.",
+    "Fundamental design law and kinematics of cams."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory / field / computer lab / language lab practices",
+    "Group tutorials",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Assessment (EC): Problems solved in classroom practices and/or tasks proposed by the professors.",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory Practices (PL): Preparation, attitude, and submission of a report sheet; knowledge assessment via multiple-choice tests.",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Final Exam (EF): Conceptual questions or quick-resolution problems and problems similar to classroom practices.",
+      "weight_percentage": 75.0
+    }
+  ],
+  "assessment_rules": "For the ordinary and June extraordinary calls, the final grade is calculated as EC + PL + EF. A minimum score of 3 out of 7.5 points is required in the Final Exam to pass the course. If this minimum is not reached, the final grade recorded will be 4.9. For the January extraordinary and differentiated evaluation calls, a single written exam is given, which requires a minimum of 5 out of 10 points to pass. This exam includes 9 points for theoretical and classroom practice content and 1 point for laboratory practice content.",
+  "bibliography": [
+    "Diseño de Maquinaria. R.L. Norton. McGraw-Hill. 3ª ed. 2005.",
+    "Máquinas y Mecanismos. David H. Myszka. Editorial Pearson. 4ª ed. 2012.",
+    "Problemas resueltos de Teoría de Máquinas y Mecanismos. J.C. García Prada, Cristina Castejón Sisamón, Higinio Rubio Alonso y Jesús Menezes Alonso. Editorial Paraninfo. 2ª ed. 2014.",
+    "Teoría de Máquinas y Mecanismos. Shigley, J. E.; Uicker, J. J. McGraw-Hill, 1996.",
+    "Problemas resueltos de Teoría de Máquinas y Mecanismos. Suñer Martínez, Josep Lluis; et al. Editorial Universidad Politécnica de Valencia. 2001."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Organización Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_gioi",
+  "degree": "Grado en Ingeniería de Organización Industrial",
+  "course_code": "GIORGI01-2-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/organizacionindustrial/-/fof/asignatura/GIORGI01-2-007",
+  "source_language": "es",
+  "source_sha256": "97019a3602e4e0c64c7b46852a27f96d80e6e2dd67e8a4f57b43fc73f32e41c3",
+  "extracted_at": "2026-11-20T01:15:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

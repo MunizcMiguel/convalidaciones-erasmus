@@ -1,0 +1,195 @@
+{
+  "course_name_original": "INFORMATICA PER L'INGEGNERIA",
+  "course_name_en": "COMPUTER SCIENCE FOR ENGINEERING",
+  "ects": 6.0,
+  "semester": "First Cycle Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic mathematical knowledge (elementary algebra, propositional logic) acquired in high school.",
+    "Basic computer usage (managing files and folders, installing and using simple programs).",
+    "Basic technical English (reading terms and error messages from development tools)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the basic elements for encoding and representing information.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the basic elements for designing algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of algorithm encoding techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main architectures and functionalities of a basic computer system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main functions of an operating system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main data structures and their characteristics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to represent information with the main encoding standards.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to design structured algorithms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to represent structured algorithms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to apply structured programming techniques for algorithm encoding.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to choose and use data structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to compare different solutions and determine the most suitable one.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Autonomous study for the application of studied models to new case studies.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The course provides the basic computer science knowledge necessary for an engineer: representation of information in digital systems, computer architecture, operating system functions, and elements of Boolean algebra. It also develops the ability to analyze a problem, break it down into a sequence of elementary steps (algorithm), represent it using a flowchart, and translate it into a working program in C language, following the procedural/structured programming paradigm, laying the foundation for object-oriented approach developed in subsequent courses. At the end of the course, the student is able to: understand and correctly use the fundamental concepts of computer science; design algorithms for the solution of elementary problems; implement, test, and debug programs in C language that use control structures, functions, and arrays.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student will have acquired fundamental knowledge related to information representation, organization of processing systems, programming principles, and algorithm construction. They will know the main control structures, elementary data structures, and the fundamentals of the C language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be able to analyze simple scientific and engineering problems, identifying input data, expected results, and the solution process. They will know how to design algorithms, represent them using pseudocode and flowcharts, and translate them into C language programs, using selection and iteration structures, arrays, matrices, subroutines, and functions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be able to evaluate different solution strategies for a problem, choose the most appropriate algorithmic structures and data types, and verify the correctness of the results obtained. They will also be able to identify logical and programming errors and intervene on the code to correct them.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The student will be able to describe with appropriate technical language the process followed in solving a problem, illustrating the algorithm structure and motivating the main design and implementation choices. They will be able to read, interpret, and discuss simple algorithms and programs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The student will acquire a working method based on analysis, problem decomposition, and progressive construction of the solution. The developed skills will form the basis for independently approaching computer tools, programming languages, and more advanced computational methodologies in subsequent studies.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Information Representation: Definition of message and measure of information. Non-positional number systems. Positional number systems. Numeric and alphanumeric codes. Computer arithmetic. Analog to digital. Boolean algebra basics: Boolean algebra, Venn diagrams, Boolean functions.",
+    "Algorithms: Definition, characteristics. Planning and design. Representation. Fundamental operations. Jacopini-Böhm theorem. Flowcharts. Structured analysis. TOP-DOWN and BOTTOM-UP development. AlgoBuild/Flowgorithm: introduction and use of Flowgorithm.",
+    "Computer Architecture: Historical overview. Schema and operation of architectures: Von Neumann, Bus. Types of computers. Main components of a PC. System software and operating systems: What is an operating system (extended machine or resource manager). History of operating systems. OS concepts.",
+    "Introduction to C language, Design and coding in C of simple algorithms: Examples of design and coding of simple algorithms. Introduction to arrays and operations with arrays. Design and coding in C of a modular program, scripts, and functions.",
+    "Exercises: Design and coding of modular programs. Exam simulations.",
+    "Information Representation: Number systems, binary arithmetic, two's complement, floating-point representation. Codes: ASCII, Unicode, BCD. Digitalization: sampling and quantization.",
+    "Boolean algebra.",
+    "Algorithms: definition, pseudocode, flowcharts, Böhm-Jacopini theorem, top-down and bottom-up approaches.",
+    "Computer architecture: Von Neumann model, CPU, memory, bus, peripherals.",
+    "Operating systems: kernel, processes, virtual memory, file system.",
+    "C language programming: variables and data types, input/output, control structures (sequence, selection, iteration with while, do-while, for), functions (definition, parameters, pass by value, return value), one-dimensional arrays and their use as function parameters, classic array scanning algorithms (conditional counting, filtered sum and average, search for maximum and minimum, search for an element).",
+    "Information Representation: bits and bytes, number systems (bases 2, 8, 10, 16), two's complement, overflow, floating point, analog-digital conversion.",
+    "Boolean Algebra: AND, OR, and NOT, truth tables, De Morgan's laws, Karnaugh maps.",
+    "Algorithms: pseudocode and flowcharts, Böhm–Jacopini theorem, top-down and bottom-up development, tracing and test cases.",
+    "Flowgorithm: sequential algorithms, with selection and with loops, simulation and error correction.",
+    "C Programming: variables, types and I/O, if, switch and loops, one-dimensional arrays, functions and parameter passing, modular programming and debugging.",
+    "Computer Architecture: Von Neumann model, CPU, memory and bus, registers, ALU, fetch–decode–execute cycle.",
+    "Operating Systems: the operating system as an extended machine and resource manager, processes, memory, file system, peripherals.",
+    "The representation of information: Problems and their solution. Data and Information. The representation of Information. The representation of data. The binary system. The representation of numerical data. The numbering system. The decimal, binary, octal, hexadecimal system. Conversions from one numerical base to another. General characteristics of fixed-point numbering systems. Binary arithmetic operations. Representation of relative numbers. Representation of real numbers in fixed-point and floating-point. Boolean Algebra: AND-OR-NOT, Truth Tables, Theorems and Properties, De Morgan's Laws.",
+    "Algorithms: Properties of algorithms. Pseudocoding. Algorithms. The development environment for designing flowcharts: Flowgorithm or others. Assignment. Propositions and predicates. Block diagrams. Simple exercises on assignment. The if or conditional statement and iterations with head and tail control. Simple exercises on selection and iteration. Analysis and design. From problem to flowchart. Simple exercises. Vectors and Matrices. Simple exercises on vectors and matrices. Vectors and matrices: iterative algorithms.",
+    "Programming Languages: Natural languages. Backus Naur formalism. Programming languages. Compilers and interpreters. Programming paradigms. Exercises.",
+    "C with Visual Studio: Development environment interface. The language. The transformation of algorithms designed in Flowgorithm into C. Vectors and matrices. Pointers. Algorithms. Procedures and Functions: Subprograms. Top-Down analysis and programming. Concept of procedure. Concept of Function. Parameter passing. Procedures and functions in Flowgorithm and in C. Exercises with Flowgorithm and C. Algorithms with procedures and functions.",
+    "Sorting Algorithms: Search algorithms. Sorting algorithms.",
+    "Computer Architecture: The Von Neumann model. The microprocessor. The machine cycle. Memory dumping. The internal architecture of the CPU. The motherboard. The instruction cycle. The internal bus. CPU read and write in memory. Data and address buses. Peripheral interfaces. Memories: RAM, ROM. Memory management. Cache. Flash memories. EEPROM. How to install a memory bank. System buses: data and address buses.",
+    "Software infrastructures: Activity description. The Operating System. Functions of the operating system. Application software and basic software. Elements of an operating system. Monoprogramming and Multiprogramming. Processes and programs. Layered organization of an operating system. Process management. Parallel processing. TimeSharing Operating System. Process states and state transitions. State diagram. State transitions. Process concurrency. Client Server organization. Hybrid models. Memory management. Peripheral management. The File System. Interface manager. Network manager. Exercises and complete development of a series of exam traces."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Frontal lessons",
+    "Guided practical exercises",
+    "Classroom exercises",
+    "Laboratory work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Computer-based test (algorithm design and representation, C coding, open/multiple-choice questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Closed-response test on theoretical topics",
+      "weight_percentage": 16.67
+    },
+    {
+      "method": "Practical programming test in C language (algorithm design with flowchart, C implementation with modularization)",
+      "weight_percentage": 83.33
+    },
+    {
+      "method": "Exercises on algorithm analysis and design (flowcharts and C implementation)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Multiple-choice test (10 questions on theoretical part)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a computer-based test including algorithm design and representation, C coding of the designed algorithm, and a set of open or multiple-choice questions. Minimum requirements for passing the exam are the ability to set up and solve simple exercises and knowledge of fundamental computer science concepts. For Class D, the assessment is via a written exam in two parts: a closed-response test on theoretical topics (5/30 weight) and a practical C programming test (25/30 weight). The final grade is the sum of the two components. For Class L, the assessment involves exercises on algorithm analysis and design using flowcharts and C implementation, plus a multiple-choice test of 10 questions on the theoretical part. Evaluation considers the correctness of the procedure, problem analysis, algorithmic solution appropriateness, code correctness, and mastery of fundamental concepts.",
+  "bibliography": [
+    "Slides of each course lecture - Sciuto, Buonanno, Mari. Introduzione ai sistemi informatici 5/ed. McGraw Hill (2014)",
+    "D. Sciuto, G. Buonanno, L. Mari, \"Introduzione ai sistemi informatici\", 5a edizione, McGraw-Hill, 2014.",
+    "Supplementary didactic material (notes, solved examples and exercises) available on Google Classroom.",
+    "Luis Joyanes Aguilar, Fondamenti di programmazione in C++ Algoritmi, strutture dati e oggetti (ISBN 9788838699375)",
+    "Sciuto, Buonanno, Mari: \"INTRODUZIONE AI SISTEMI INFORMATICI\" McGraw-Hill ISBN: 9788838668326",
+    "Lecture notes by prof. [docente]",
+    "Any updated C++ manual",
+    "Donatella Sciuto, Giacomo Buonanno, Luca Mari, Introduzione ai sistemi informatici, McGraw Hill",
+    "Slides of the course lectures",
+    "Paul J. Deitel (Author), Harvey M. Deitel (Author), G. Maselli (Translator), Il linguaggio C. Fondamenti e tecniche di programmazione. Ediz. Mylab. Con espansione online. Con espansione online"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Politecnico Di Bari",
+  "institution_slug": "ec_i_bari05",
+  "degree": "Laurea in Ingegneria Meccanica (D.M. 270/04) (Bachelor'S Degree In Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "4000INFBA",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://poliba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=906694&ordinamento_aa=2025&af_percorso=9999&corso_cod=10261&corso_aa=2026",
+  "source_language": "it",
+  "source_sha256": "d3e536c214077bd719aa09a526f813ed858f048d5b6b6bf45497cfa5d8d8fdc6",
+  "extracted_at": "2026-11-18T10:01:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

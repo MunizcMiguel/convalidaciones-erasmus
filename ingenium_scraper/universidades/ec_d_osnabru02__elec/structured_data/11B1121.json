@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Computer Vision",
+  "course_name_en": "Computer Vision",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Linear algebra",
+    "Vector calculus",
+    "Systems of linear equations",
+    "Object-oriented programming",
+    "Functional programming",
+    "Fundamentals of artificial intelligence"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand complex concepts of classical and AI-based image processing, including image representation, image segmentation, and object recognition, and apply these techniques effectively in various application areas.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Deepen the fundamentals of image processing and AI architectures, understanding complex concepts such as image representation, classification, and object recognition. Analyze and apply these techniques to practical use cases, effectively applying knowledge in various real-world scenarios.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Transfer CV concepts into practical applications. Analyze and apply algorithms to various scenarios, determining when classical CV and AI-based approaches are best suited and implementing them in real environments.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "From pixels to semantic symbols",
+    "Image representation and storage / AI datasets for CV",
+    "Image classification",
+    "Image segmentation",
+    "Object detection and recognition",
+    "Real-time CV - vectorized algorithms & GPU applications",
+    "Privacy and data protection vs. CV - using CV correctly"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Preparation and follow-up for events",
+    "Literature study",
+    "Small group work",
+    "Preparation of examination assignments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Project report (written)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project report (oral)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (ungraded)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is either a written project report (10 pages plus a 15-minute presentation) or an oral project report (30-minute presentation). An ungraded experimental work consisting of 6 worksheets is also required.",
+  "bibliography": [
+    "Dawson-Howe, Kenneth. A practical introduction to computer vision with opencv. John Wiley & Sons, 2014.",
+    "Kaehler, Adrian, and Gary Bradski. Learning OpenCV 3: computer vision in C++ with the OpenCV library. \" O'Reilly Media, Inc.\", 2016.",
+    "Dadhich, Abhinav. Practical Computer Vision: Extract Insightful Information from Images Using TensorFlow, Keras, and OpenCV. Packt Publishing Ltd, 2018.",
+    "Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O'Reilly Media, 2019."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B1121",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "b6d1402e1e40e7643fd949a4b8ff89104b325e01bdbeeab054a7eff2a0855889",
+  "extracted_at": "2026-11-20T12:32:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Automação Industrial (AInd3610)",
+  "course_name_en": "Industrial Automation",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to Industrial Automation: industrial automation pyramid",
+    "Elements of combinatorial and sequential logic",
+    "Grafcet standard for representing sequential system models",
+    "Architecture and programming languages of programmable logic controllers",
+    "Applications of Grafcet models to industrial controller programming",
+    "Pneumatic and hydraulic actuation systems",
+    "Dynamic models of discrete events",
+    "Finite state machines",
+    "Relationship between Grafcet models and finite state machines",
+    "Composition of finite state machines",
+    "Petri nets",
+    "Analysis of Petri nets",
+    "Applications of Petri nets",
+    "Fundamentals of digital communication and digital networks",
+    "Synchronous and asynchronous communication between elements: same hierarchical level and different levels",
+    "Isochronous communication between sensors, actuators and controllers",
+    "Industrial communication protocols",
+    "Automatically guided vehicles",
+    "Communication between programmable logic controllers and industrial devices",
+    "Safety standards and analysis"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory work (Lab1)",
+      "weight_percentage": 17.5
+    },
+    {
+      "method": "Laboratory work (Lab2)",
+      "weight_percentage": 17.5
+    },
+    {
+      "method": "Laboratory work (Lab3)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.5 * Exam Grade + 0.5 * Laboratory Grade. The Laboratory Grade is 0.30 * Lab1 + 0.35 * Lab2 + 0.35 * Lab3. A minimum of 8.0 out of 20 is required for the Exam Grade and 9.5 out of 20 for the Laboratory Grade. Students with a Final Grade > 18 may be required to take an oral confirmation exam or accept a final grade of 18. Student workers can opt to perform laboratory work individually by prior arrangement; their absence from a lab work implies a score of 0, and laboratory assessments are not subject to appeal. Special examination period rules are the same as regular and resit periods, with the lab component fulfilled by an individual project.",
+  "bibliography": [
+    "Pinto, J. R. Caldas, Técnicas de Automação, Lidel, 2004., 2004 (main)",
+    "Cassandras, Christos G., and Stephane Lafortune, “Introduction to discrete event systems”, Springer Science & Business Media, 2009 (main)",
+    "Lee, Edward Ashford, and Sanjit A. Seshia, “Introduction to embedded systems: A cyber-physical systems approach”, MIT Press, 2016 (main)",
+    "Dick Caro, “Automation network selection: A reference manual”, International Society of Automation,, 2009 (main)",
+    "Edward A. Lee, Pravin Varaiya, “Structure and interpretation of signals and systems”, 2nd Edition, LeeVaraiya.org, 2011 (main)",
+    "James L. Peterson, “Petri nets”, ACM Computing Surveys (CSUR), Volume 9(3), pp. 223-252, 1997 (main)"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa",
+  "institution_slug": "ec_p_lisboa109",
+  "degree": "Licenciatura Bolonha em Engenharia Mecânica (LEMec21)",
+  "course_code": "AInd3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192230",
+  "source_language": "pt",
+  "source_sha256": "3f7183f726d90de1decf0a28f81efc6ea18569b5a224319915b049ef52d1cb89",
+  "extracted_at": "2026-11-18T10:04:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

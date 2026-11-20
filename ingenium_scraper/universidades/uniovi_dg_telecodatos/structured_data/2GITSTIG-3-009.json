@@ -1,0 +1,131 @@
+{
+  "course_name_original": "Electrónica Digital",
+  "course_name_en": "Digital Electronics",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Teoria de Circuitos",
+    "Dispositivos Electrónicos y Fotónicos",
+    "Fundamentos de Electrónica Analógica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand, evaluate and analyze the different forms of representation and simplification of logical functions, as well as the mastery of the most usual numbering systems used in digital.",
+      "type": "unspecified",
+      "code": "RA-10.1"
+    },
+    {
+      "text": "Analyze, simulate and synthesize combinational circuits, and select the most appropriate technology according to the initial specifications.",
+      "type": "unspecified",
+      "code": "RA-10.2"
+    },
+    {
+      "text": "Simulate and design asynchronous and synchronous sequential circuits, based on given specifications, as well as detect faults in circuits and propose appropriate solutions in each case.",
+      "type": "unspecified",
+      "code": "RA-10.3"
+    },
+    {
+      "text": "Implement complete low-medium complexity systems, including sequential/combinational circuits and appropriate I/O stages; select the most suitable commercial components, from a technical and economic point of view, all based on a problem specified by a client.",
+      "type": "unspecified",
+      "code": "RA-10.4"
+    },
+    {
+      "text": "Work in a group, reason critically to compare various solutions and discriminate the most optimal one.",
+      "type": "unspecified",
+      "code": "RA-10.10"
+    },
+    {
+      "text": "Implement circuit designs in a structured way, dividing into simpler sub-circuits and their subsequent integration into a superior one, based on given specifications.",
+      "type": "unspecified",
+      "code": "RA-10.16"
+    }
+  ],
+  "syllabus_topics": [
+    "Representation of signed and unsigned binary numbers",
+    "Arithmetic operations with binary numbers",
+    "Binary coded decimal codes",
+    "Progressive codes",
+    "Error detection codes",
+    "Octal and hexadecimal numbers",
+    "Boolean algebra operations",
+    "Boolean algebra laws",
+    "Logic functions",
+    "Logic gates",
+    "Simplification of logic functions",
+    "Characteristics of a logic family",
+    "TTL family",
+    "CMOS family",
+    "Interface between TTL and CMOS families",
+    "Other logic families (NMOS, PMOS, ECL)",
+    "Synthesis of combinational circuits with logic gates",
+    "Decoders",
+    "Encoders",
+    "Multiplexers",
+    "Demultiplexers",
+    "Comparators",
+    "Arithmetic circuits",
+    "Code converters",
+    "Asynchronous and synchronous sequential circuits",
+    "Flip-flops",
+    "Registers",
+    "Asynchronous counters",
+    "Synchronous counters",
+    "Memories and PLDs",
+    "Introduction to Microprocessor System"
+  ],
+  "teaching_methods": [
+    "Expositive Classes",
+    "Laboratory Practices",
+    "Classroom Practices/Seminars",
+    "Group Tutorials"
+  ],
+  "workload_hours_total": 148.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (Theory)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practical Exam (Combinational Circuits)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical Exam (Sequential Circuits)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Assignments (5 works)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum grade of 4.0 out of 10 is required in the theoretical block. The final grade is calculated as 0.6*Theory_Exam + 0.1*(Practical_Exam_P1 + Practical_Exam_P2) + 0.04*(T1+T2+T3+T4+T5). If the minimum in theory is not met, the final grade will be the minimum of the calculated grade and 4.0. For the extraordinary June/July call, theoretical exam minimum 4.0; practical and assignment grades are kept. For the extraordinary December/January call, a minimum grade of 4.0 on the theoretical exam is required. The final grade is calculated as 0.6*Theory_Exam + 0.4*Practical_Exam (new practical exam).",
+  "bibliography": [
+    "Electrónica Digital. J. Marcos Alonso. Amazon KDP. Edición revisada en 2024.",
+    "Fundamentos de Sistemas Digitales. T. L. Floyd. Prentice Hall. 2006.",
+    "Fundamentos de Electrónica Digital. C. Blanco. Thomson. 2005.",
+    "Diseño Digital. M. Mano. Prentice-Hall. 2014.",
+    "Fundamentos de diseño lógico. C. H. Roth. Paraninfo, 2004.",
+    "Diseño Digital. J. F. Wakerly. Prentice Hall. 2006.",
+    "Sistemas Digitales. R. J. Tocci, N.S. Widmer. Prentice Hall. 2003.",
+    "Electrónica Industrial: Técnicas Digitales. F. Aldana, R. Esparza, P. M. Martinez. Marcombo. 1980."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-3-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-009",
+  "source_language": "es",
+  "source_sha256": "274fec9f38c3e9749ea08ad8f623ebcef8003390ab21c61429dce00bf0c923ce",
+  "extracted_at": "2026-11-20T06:06:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

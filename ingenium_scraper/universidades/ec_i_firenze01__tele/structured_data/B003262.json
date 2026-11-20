@@ -1,0 +1,180 @@
+{
+  "course_name_original": "FUNDAMENTALS OF COMPUTER PROGRAMMING",
+  "course_name_en": "FUNDAMENTALS OF COMPUTER PROGRAMMING",
+  "ects": 9.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Interest, capacity in logical reasoning, deductive knowledge, capacity in attention and application to real problems."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the low-level representation of information, the basic architecture of processors and the compilation process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the syntax and semantics of the C language for the development of structured programs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of basic data structures and iterative and recursive programming paradigms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the main elementary search and sorting algorithms and of methods for assessing computational complexity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have acquired a grounding in the fundamentals of computer architecture, programming techniques in the C language, and elementary search and sorting algorithms, and will be able to understand and apply these methods to solve real-world problems by writing correct and functional programs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the fundamentals of computer science and the algorithmic approach to problem solving.",
+      "type": "knowledge",
+      "code": "cc7"
+    },
+    {
+      "text": "Knowledge of the architecture of a computer and of an operating system.",
+      "type": "knowledge",
+      "code": "cc8"
+    },
+    {
+      "text": "Knowledge of methodologies and tools for procedural and object-oriented programming.",
+      "type": "knowledge",
+      "code": "cc9"
+    },
+    {
+      "text": "Ability to translate informational or numerical problems into simple computer code.",
+      "type": "skill",
+      "code": "ca7"
+    },
+    {
+      "text": "Develop the ability to independently analyze the field under study, applying the methods and knowledge acquired during the training program.",
+      "type": "competence",
+      "code": "ag1"
+    },
+    {
+      "text": "Critically evaluate the results obtained, applying autonomy of judgment in the preparation of written work and in passing examinations.",
+      "type": "competence",
+      "code": "ag4"
+    },
+    {
+      "text": "Develop the ability to communicate the results of one’s activities clearly and in a structured way, both in written and oral form, with a high level of technical rigor.",
+      "type": "skill",
+      "code": "ac1"
+    },
+    {
+      "text": "Learn in a guided way in preparing for oral exams, in drafting analytical or design reports, and in the reports of activities carried out.",
+      "type": "skill",
+      "code": "ap3"
+    },
+    {
+      "text": "Understanding of low-level data representation, basic processor architecture, and the compilation process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of C language syntax and semantics for developing structured programs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of elementary data structures and iterative and recursive programming paradigms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of key elementary search and sorting algorithms and methods for evaluating computational complexity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will understand the fundamentals of computer architecture, C programming techniques, and elementary search and sorting algorithms; they will be able to apply these methods to solve real-world problems by writing correct, functional programs.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical coding of data types",
+    "Low-level coding of symbolic instructions and numeric coding",
+    "Architecture of Risc processor",
+    "Compiling and assembling",
+    "Definition of the C programming language: syntax, grammar, syntactic tree, BNF, semantics",
+    "Data types, variables and constants, operators and expressions, pointers, arrays, instructions, functions, structured data",
+    "Lists: implementations and operations",
+    "Iterations and recursions",
+    "Searching and sorting algorithms",
+    "Execution costs and complexities",
+    "Introduction to the C programming language",
+    "Numerical coding of data type",
+    "Low level coding of instructions in symbolic form (assembler MIPS) and numeric form (machine language MIPS)",
+    "Computer architecture of a Risc processor (Risc4000)",
+    "Assembling and compiling",
+    "Definition of a programming language: syntax, grammar, syntactic tree, BNF, semantics",
+    "C programming language: types, variables, and constants, operators and expressions, pointers and arrays, instructions, functions, structured data, standard library, system calls",
+    "List: sequential representation, representation with arrays and indexes, linked representation with pointers",
+    "Iterative and recursive algorithms",
+    "Execution cost and complexity",
+    "Search algorithms: sequential search, binary search",
+    "Sorting algorithms: sequential sort, bubble sort, merge sort, quicksort",
+    "Complexity of a problem: the case of sorting",
+    "C programming language: types, variables, and constant",
+    "Operator and expressions",
+    "Pointers and Array",
+    "Instructions, functions, structured data",
+    "Introduction to the C libraries (string, input/output)",
+    "Search algorithms: sequential, binary, jump search",
+    "Sorting algorithms: sequential sort, bubble-sort, merge-sort, quicksort, heapsort"
+  ],
+  "teaching_methods": [
+    "Class teaching with some programming assignment in laboratory",
+    "Laboratorio",
+    "Lezione"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ongoing test 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ongoing test 2",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam comprises a written and oral examination. The written test includes programming exercises and grammar/syntax questions. To access the oral examination, a positive evaluation on the written test is required, plus a running C program of one written test exercise. Two ongoing tests during the course can replace the written test if passed. The final grade is based on the theoretical and practical knowledge demonstrated in the tests and covers topics such as C language, computer systems, data structures, and algorithms.",
+  "bibliography": [
+    "[docente], [docente], Enrico Vicario, \"Fondamenti di Programmazione, linguaggio c, strutture dati e algoritmi elementari, c++,\" Editrice Esculapio, Bologna, June 2018."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B003262",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=66628_B307-26-26_21467_837771&ordinamento_aa=2026&af_percorso=66628&corso_cod=4277&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "cea9e43d59814e4f89e97f07d0db722e8094e517f85b81b5e89d41542e4473dc",
+  "extracted_at": "2026-11-20T12:45:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,155 @@
+{
+  "course_name_original": "Understanding and developing large language models (llms)",
+  "course_name_en": "Understanding and Developing Large Language Models (LLMs)",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Python programming",
+    "Linear Algebra",
+    "Statistics",
+    "Data Structures and Algorithms",
+    "Average programming skills in a high-level programming language and very good knowledge on data structures and algorithms."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate knows, understands and applies the basic concepts and the fundamental algorithms of Artificial Intelligence and is able to evaluate them based on metrics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate knows and understands the concepts and the techniques of knowledge representation and is able to apply them for problem solving.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to identify complex issues and examine related issues in order to design several solutions and implement these solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to apply fundamental algorithms of Artificial Intelligence in order to solve real-world problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to evaluate, both quantitatively and qualitatively, the performance of intelligent systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to apply architectural templates, design templates and best practices in the field to design highly complex software applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills to apply various methods and tools for analysis and visualizing the results of the used Artificial Intelligence algorithms and techniques.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary knowledge to review the literature and use international databases and international digital research libraries.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand various architectures of Large Language Models (LLMs) with a focus on transformer architectures for tasks such as text classification, entity extraction, text summarization, text generation, and many others.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Solve and analyze a natural language processing problem using specific theoretical frameworks and methodologies inherent to LLMs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand and develop effective strategies for prompt engineering, including techniques for eliciting desired responses from LLMs through well-crafted prompts.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn techniques for fine-tuning and retraining Large Language Models to enhance performance and adaptability to specific NLP tasks.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the metrics used to evaluate the performance of LLMs and the principles behind deploying these models in real-world applications, including bot creation.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to LLMs and the Landscape of Generative AI. Overview of the history of Natural Language Processing with a focus on Large Language Models (LLMs) and their significance in the field of generative artificial intelligence. Examination of various applications and tasks LLMs are employed for, highlighting their versatility.",
+    "The Evolution of Text Generation Technologies. Tracing the development of text generation from pre-transformer models to current methodologies.",
+    "Deep Dive into Transformer Architecture. Techniques and strategies for utilizing transformers in text generation tasks. Exploration of transformer architecture, the backbone of modern LLMs.",
+    "The Principle of Attention in Transformers. Understanding the \"Attention is all you need\" concept and its revolutionary impact on LLMs.",
+    "Mastering Prompt Engineering. Learning how to effectively design prompts to guide LLMs in generating desired outputs.",
+    "Pre-Training Large Language Models and Scaling Laws. Insights into the pre-training process, computational challenges, and the principles of scaling laws for LLMs.",
+    "Fine-Tuning LLMs for Specific Tasks. Strategies for instruction-based fine-tuning, including single and multi-task adaptations.",
+    "Advanced Fine-Tuning Techniques. Introduction to Parameter Efficient Fine-Tuning (PEFT) methods such as LoRA and Soft Prompts.",
+    "Reinforcement Learning from Human Feedback (RLHF). Fundamentals of aligning LLMs with human values through RLHF, including feedback collection and reward models.",
+    "Enhancing LLM output using Reasoning and Act. Explore the landscape of advanced fine-tuning and prompting strategies through method like Chain-of-thought (CoT, Reason Only), Act-only and ReAct across different domains, highlighting their task-solving trajectories and the distinct advantages of the ReAct approach.",
+    "Implementing LLMs in Real-World Applications & Introduction to LangChain. Combining the exploration of deploying LLMs in real-world applications with an introduction to LangChain, covering document loading, vector stores, embeddings, and the fundamentals of Retrieval Augmented Generation (RAG).",
+    "Ethics of AI. Discover the evolving field of generative AI, emphasizing the need for responsible use and continuous innovation in LLM-powered applications.",
+    "Presentation of the student projects.",
+    "Presentation of the student projects.",
+    "Introduction to LLMs and Text Generation. Get hands-on experience with basic LLM operations, focusing on generating text using pre-trained models.",
+    "Exploring Transformer Architectures. Dive into transformer models, understanding attention mechanisms and their implementation in text generation tasks.",
+    "Advanced Text Generation and Prompt Engineering. Experiment with advanced text generation techniques and learn the art of prompt engineering to guide LLM outputs.",
+    "Pre-Training and Fine-Tuning Strategies. Hands-on session on the basics of pre-training LLMs and strategies for fine-tuning them on specific tasks.",
+    "Reinforcement Learning from Human Feedback (RLHF). Implement RLHF techniques, setting up feedback loops and understanding reward models to align LLM outputs with human values.",
+    "Introduction to LangChain and Retrieval Augmented Generation (RAG). Begin working with LangChain, focusing on document loading, vector stores, and embeddings. Explore the implementation of RAG for enhancing LLM applications.",
+    "Building a Chatbot. Students will apply the knowledge gained in LangChain and RAG to build a functional chatbot.",
+    "PROJECT Phase 1 (Weeks 1 and 2): Introduction and Topic Selection. Presentation of a list of project topics that incorporate LLMs, focusing on the requirements from the standpoint of real-world clients. Students choose or propose their own project topics, working in groups. Discussion about the chosen projects to ensure feasibility and relevance by using the methodology of Generative AI project lifecycle. Initial state-of-the-art analysis, focusing on how similar challenges are approached using LLMs.",
+    "Phase 2 (Weeks 3 and 4): Preparation and Planning. Following their selected topic, each team is tasked with identifying and defining a list of NLP applications, then conducting a literature review to determine the highest performing pretrained models for those specified use cases.",
+    "Phase 3 (Weeks 5 and 6): Adapt and Align model I. Apply prompt engineering techniques to refine the model's output without undergoing retraining, followed by an evaluation of the model's performance.",
+    "Phase 4 (Weeks 7 and 8): Adapt and Align model II. Implement fine-tuning methods to retrain the models, enhancing their performance for the particularities of the selected topic, then proceed to evaluate the model.",
+    "Phase 5 (Weeks 9 and 10): Adapt and Align model III. Incorporate Reinforcement Learning from Human Feedback (RLHF) and reward models to tailor the LLM output more closely with human values.",
+    "Phase 6 (Weeks 11 and 12): LangChain and Retrieval Augmented Generation (RAG). Utilizing LangChain and RAG, students are required to integrate the LLM they developed into an actual application workflow. This integration should ensure the LLM's output is in harmony with topic-specific requirements, accomplished through the employment of document loading, vector stores, and embeddings.",
+    "Phase 7 (Weeks 13 and 14): Oral presentations."
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Didactical demonstration",
+    "Dialogue, debate",
+    "Individual and group work"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination (project)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practical Examination under continuous observation (solving lab tasks)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Students must prove an acceptable level of knowledge and understanding of the core concepts, capable of using this knowledge coherently and solving various computer vision problems. The final grade (weighted average between the two evaluation methods) should be at least 5 (no rounding, from a scale of 1 to 10).",
+  "bibliography": [
+    "Chung, H. W., Hou, L., Longpre, S., Zoph, B., Tay, Y., Fedus, W., Li, Y., Wang, X., Dehghani, M., Brahma, S., Webson, A., Gu, S. S., Dai, Z., Suzgun, M., Chen, X., Chowdhery, A., Pellat, M., Robinson, K., Valter, D., . . . Wei, J. (2022). Scaling Instruction-Finetuned Language Models.",
+    "Yao, S., Zhao, J., Yu, D., Du, N., Shafran, I., Narasimhan, K., & Cao, Y. (2022). ReAct: Synergizing Reasoning and Acting in Language Models.",
+    "Wu, S., Irsoy, O., Lu, S., Dabravolski, V., Dredze, M., Gehrmann, S., Kambadur, P., Rosenberg, D., & Mann, G. (2023). BloombergGPT: A Large Language Model for Finance.",
+    "Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, L., & Polosukhin, I. (2017). Attention Is All You Need",
+    "Alammar, J,m Grootendorst, M. (2024). Hands-On Large Language Models.",
+    "Auffarth, B. (2023). Generative AI with LangChain: Build large language model (LLM) apps with Python, ChatGPT and other LLMs"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5247",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE5247_en_bmursa_2025_9519.pdf",
+  "source_language": "en",
+  "source_sha256": "8c4af28979fa386dd7ca06f821cd0898a89bd48dede87c27ea9a5d283bd5ca0b",
+  "extracted_at": "2026-11-20T09:08:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

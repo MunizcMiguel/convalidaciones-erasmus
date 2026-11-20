@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Mecánica de Fluidos",
+  "course_name_en": "Fluid Mechanics",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will learn to predict the behavior of a fluid system based on the conservation laws for mechanical properties.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To determine the dominant factors in fluid dynamics to predict its behavior in complex situations.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To apply acquired knowledge and skills for the theoretical resolution of problems in both hydrostatics and hydrodynamics.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To understand the essential aspects of the interaction between a machine and the fluid it processes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To predict the behavior of a fluid-mechanical machine based on the conservation laws for mechanical properties.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To design, dimension, and calculate various types of hydraulic installations (distribution networks, tanks, pumping systems, channels, etc.).",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Course Presentation",
+    "Introduction (General comments. Concept of fluid. Continuum hypothesis.)",
+    "Fluid Kinematics (Lagrangian and Eulerian descriptions. Streamline and pathline. Types of flows. Flow rate and mass flow.)",
+    "Equations for a Fluid System (Introduction. Surface forces on a fluid system. Heat transfer by conduction. Mechanical equations for a fluid system.)",
+    "Equations for a Control Volume (Systems and control volumes. Reynolds transport theorem. Uniform approximations in the flow term. Continuity equation for a control volume. Momentum equation for a control volume. Bernoulli's equation. Energy equation for a control volume. Energy equation for a fluid-mechanical machine.)",
+    "Dimensional Analysis (Introduction. Principle of dimensional homogeneity. Buckingham's theorem. Physical similarity.)",
+    "Hydrostatics (Introduction. Reduction of a system of forces in hydrostatics. Forces and moments on a flat surface. Forces and moments on a submerged body.)",
+    "General Notions of Fluid Dynamics (Turbulence. Boundary layer concept. Boundary layer separation. Form drag.)",
+    "Hydraulics (Hagen-Poiseuille Law. Moody Diagram. Local losses. Distribution networks. Pipe networks with pumps or turbines.)",
+    "Flow in Channels and Weirs (Uniform Flow in Channels. Weirs and Gates.)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory practices",
+    "Problem classes",
+    "Seminars",
+    "Case studies",
+    "Programmed tutorials",
+    "Project work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam and/or cumulative/eliminatory partial exams (CAE2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report on practical activities (CAE3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practical exam (CAE4)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated either by C = 0.8 * CAE2 + 0.1 * CAE3 + 0.1 * CAE4 for the ordinary path, or C = 0.8 * CAE2 + 0.2 * CAE4 for the global evaluation path. Partial exams (AE1) can be eliminatory if a grade of 6 or higher is obtained, allowing students to skip that part of the final exam; otherwise, they are recoverable in the final exam. For AE1 and AE2, individual components must be 2.5 or higher to be averaged normally; otherwise, the overall grade is 2.5 (or the actual average if lower). The final exam (AE2) is recoverable in the extraordinary call, but practical activities (AE3 report) and the laboratory practical exam (AE4) are not recoverable in the same academic year.",
+  "bibliography": [
+    "Apuntes editados por el profesor",
+    "White, F. M. (1983 o posteriores). Mecánica de Fluidos: Madrid: McGraw-Hill.",
+    "Fox, R. y McDonald, A. T. (1995 o posteriores). Introducción a la Mecánica de Fluidos: México: McGraw-Hill."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501073",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501073-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "ec2688df7da28d7321a1cf3157cb76f55f9b1930cc80899af5e644feea5acdb0",
+  "extracted_at": "2026-11-13T21:35:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

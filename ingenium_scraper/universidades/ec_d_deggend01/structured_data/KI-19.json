@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Sprachverarbei Tung",
+  "course_name_en": "Language Processing",
+  "ects": 5.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "KI-8 Programming 2",
+    "KI-9 Algorithms and Data Structures",
+    "KI-1 Mathematics 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students understand the concepts of the most common approaches in language processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The students have the ability to create high-quality programs using language understanding technologies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students can implement their own methods and defend them against competing approaches.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Programming exercises take place within the course. Students are also able to understand, critique, and complement programs from other students.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basics: Stemming, Stopwords, n-grams",
+    "Text Classification: naive Bayes, Spam filtering, Speech recognition, logistic regression",
+    "Spell checking",
+    "Search engines: Ranking, Vector space model, PageRank",
+    "Basics of formal languages",
+    "Regular expressions and finite automata",
+    "Context-free grammars",
+    "Analysis of the speech signal",
+    "Outlook: Embeddings, current advances in NLP"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion of scientific articles and current news",
+    "Exercises, including computer exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination type is a written exam of 90 minutes. The weighting of the grade is 5/210.",
+  "bibliography": [
+    "S. Bird, E. Klein and E. Loper, \"Natural Language Processing with Python – Analyzing Text with the Natural Language Toolkit\", Online at [NLTK website](https://www.nltk.org/book), visited 20/03/31.",
+    "C. Bishop, \"Pattern Recognition and Machine Learning\", Springer, 2006.",
+    "D. Jurafsky, \"Speech and Language Processing, An Introduction to Natural Language Processing\", Computational Linguistics, and Speech Recognition, Third Edition draft, available online at [Jurafsky:Homepage] (https://web.stanford.edu/~jurafsky ), visited 20/03/31.",
+    "C. Manning, P. Raghavan and H. Sch ütze, \"Introduction to Information Retrieval\", Cambridge University Press, 2008.",
+    "B. Pfister und T. Kaufmann, \"Sprachverarbeitung, Grundlagen und Methoden der Sprachsynthese und Spracherkennung\", 2., aktualisierte und erweiterte Auflage, Springer-Verlag GmbH Deutschland 2017, ISBN 978-3-662-52837-2.",
+    "S. Russel and P. Norvig, \"Artificial Intelligence: A Modern Approach\", Prentice Hall, third edition, 2009."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-19",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "01414678d577ae8ba01f71da27716b1ae4a0273e1c3a91b59434eb4a895618e1",
+  "extracted_at": "2026-11-20T09:21:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

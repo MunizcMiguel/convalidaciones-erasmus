@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Automatización y Control",
+  "course_name_en": "Automation and Control",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of Linear Algebra",
+    "Basic notions of Differential and Integral Calculus",
+    "Basic notions of Numerical Methods",
+    "Basic notions of Chemistry",
+    "Basic notions of Graphic Expression",
+    "Basic notions of Mechanics and Thermodynamics",
+    "Basic notions of Waves and Electromagnetism",
+    "Basic notions of Computer Fundamentals"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the usefulness of automatic system control and its applications in industry and consumer products.",
+      "type": "unspecified",
+      "code": "RAU-1"
+    },
+    {
+      "text": "Mathematically describe and analyze the behavior of a system in the time and frequency domains using simulation tools.",
+      "type": "unspecified",
+      "code": "RAU-2"
+    },
+    {
+      "text": "Perform controller tuning in simple control structures.",
+      "type": "unspecified",
+      "code": "RAU-3"
+    },
+    {
+      "text": "Identify the elements involved in instrumentation for industrial process control and automation and their functions.",
+      "type": "unspecified",
+      "code": "RAU-4"
+    },
+    {
+      "text": "Configure and program simple applications in industrial control devices.",
+      "type": "unspecified",
+      "code": "RAU-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to process automation and control.",
+    "Automation: Introduction to automation. Elements of automation. Regulations. Grafcet diagrams. Programming with SFC and ST.",
+    "System modeling: Systems and signals. Functional diagrams. Transfer function. Block diagrams. State-space modeling. System linearization.",
+    "System analysis: Stability. Overdamped and underdamped proper modes. Temporal response. Concept of frequency response. Bode and polar diagrams. Time-frequency relationships.",
+    "System control: Introduction to control. Steady-state analysis in feedback systems. Transient analysis of feedback systems. Root locus. PID design in the time domain. Frequency analysis of feedback systems. Controller design in frequency. Digital implementation of controllers."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Group tutorials",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Automation exam (EA)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Partial exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (EF)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary calls, if all minimums in partial exams (P1, P2, P3) are met and their average is >= 4, the final grade is (0.8 * (0.33 * (P1 + P2 + P3))) + (0.2 * EA). If the Final Exam (EF) is taken and passed (minimum 4), the final grade is (0.8 * EF) + (0.2 * EA). If minimums are not met, the qualification will be the minimum between the calculated grade and 4.0. For extraordinary calls, the theoretical part is evaluated by a single Final Exam (EF), keeping the practical grade (EA) from the ordinary call. The maximum grade for students who have not done the practicals is 8.0.",
+  "bibliography": [
+    "Introducción a la Ingeniería de Control. Guillermo Ojea.",
+    "Ingeniería de Control Moderna. Katsuhiko Ogata. Pearson EducaciónSA. Prentice Hall. ISBN: 978-84-8322-660-5",
+    "Sistemas de Control Moderno. Richard C. Dorf et al. 10ª Edición. Prentice Hall.",
+    "Fundamentos de Control con MATLAB. Enrique Pinto Bermúdez, Fernando Matía Espada. Prentice Hall."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Química Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_giqi",
+  "degree": "Grado en Ingeniería Química Industrial",
+  "course_code": "GIIQUI01-3-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/quimicaindustrial/-/fof/asignatura/GIIQUI01-3-010",
+  "source_language": "es",
+  "source_sha256": "c748502d5f6b0f5f3f472013d4991ba12a30ae815b08ffc47e7a63b3ec11f5d8",
+  "extracted_at": "2026-11-20T01:14:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Technische Informatik 2",
+  "course_name_en": "Computer Engineering 2 - Digital Technologies",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Contents of Mathematics 1 – Fundamentals",
+    "General interest in technical systems",
+    "Ability to structure",
+    "Algorithmic thinking",
+    "Ability to grasp complex dependencies and interaction patterns"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have acquired comprehensive knowledge in Boolean algebra, structure and functioning of basic digital circuits, cost optimization of digital function groups, techniques for clock-synchronous data processing, coding and processing of data, structure and functioning of basic functionalities that are central components especially in microprocessor architectures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to understand basic circuit concepts of digital logic and function blocks, analyze their interaction, evaluate their functionality, and develop simple blocks themselves.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluation and development of multi-stage combinatorial logic blocks and Finite State Machines (FSMs) will be covered.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will learn the hardware description language Verilog, and Verilog examples will be given for each topic of the lecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The lecture deals exclusively with (clock-)synchronous circuits.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Boolean Algebra",
+    "Realization of Boolean functions",
+    "Minimization of Boolean functions",
+    "Multiplexers",
+    "Encoders",
+    "Decoders",
+    "Error-detecting and error-correcting codes",
+    "Adders",
+    "Subtractors",
+    "Multipliers",
+    "Hardware description language Verilog",
+    "Memory elements (Flip-flops)",
+    "Sequential circuits",
+    "Counters",
+    "Shift registers",
+    "RAM",
+    "Finite State Machines (FSMs)",
+    "Timing analysis of sequential circuits",
+    "Brief overview of FPGAs"
+  ],
+  "teaching_methods": [
+    "Lectures (seminar-style teaching)",
+    "Exercises (on computer or with pen and paper)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the exam. The exam grade contributes 5/150 to the final grade for B.Sc. IT-Security/Information Technology [PO 22].",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "technische-informatik-2",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "b0c014fbe5cd8fc2ffd5c819b2f6e80fa71eb42e8619fa18ae299fdc2e1d11e5",
+  "extracted_at": "2026-11-20T12:36:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

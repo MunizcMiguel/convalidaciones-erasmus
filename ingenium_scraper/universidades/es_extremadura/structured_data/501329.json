@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Diseño de Máquinas",
+  "course_name_en": "Machine Design",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know and understand the phenomenon of fatigue that occurs in machine elements.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and learn to calculate the main parameters used in fatigue measurement and to create S-N Diagrams.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn to apply, as appropriate, the main failure criteria for machine constituent parts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn to obtain safety coefficients in the design of machine elements subjected to different load systems based on different design criteria and applying the necessary correction factors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn to design and dimension the main elements that are part of machines (shafts, couplings, bolts, springs, clutches and brakes, belts, chains, gears, and bearings).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Enable the student to evaluate possible design alternatives considering the advantages and disadvantages of each, taking various factors into account.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Know the process of wear and surface contact that originates in machine elements.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyze, reason, and develop individually and as a team different design solutions for machine constituent elements that satisfy specific needs.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. Stress and strain. Safety factors and design codes. Principal stresses and directions. Components. Pure bending. Shear stress. Torsion. Buckling. Stresses in cylinders. Materials used in machine construction.",
+    "Introduction. Strain Energy Theory (Von Mises). Maximum Shear Stress Theory (Tresca). Comparison of both theories. Failure of brittle materials (Modified Coulomb-Mohr). Stress Concentration. Practices: Introduction to SolidWorks Simulation. Fatigue analysis of parts subjected to static loads.",
+    "Introduction. Stress duration. Fatigue measurement. Fatigue Limit. Fatigue Resistance. Factors influencing Fatigue Limit. S-N Diagrams. Effect of Stress Concentrators. Design for fluctuating uniaxial stresses. Variable amplitude stresses. Rainflow method. Combination of stresses. Design for multiaxial stresses. Fracture mechanics. Computer practices: Introduction to SolidWorks Simulation. Laboratory practices: Design of machine elements subjected to fatigue. Seminar 1: Problem solving related to the topic and previous contents.",
+    "Introduction. Types of wear. Adhesion wear. Abrasion wear. Erosion and corrosion wear. Surface fatigue. Dynamic contact stresses. Laboratory practices: Surface contact and wear.",
+    "Introduction. Thread manufacturing and standard thread designation. Power screw calculation. Stresses in threads. Types of fasteners. Bolts for static and dynamic loading. Preload in bolted joints. Tightening torque. Shear fasteners. Laboratory practices: Calculation and design of screws and bolted joints.",
+    "Introduction. Spring materials. Spring parameters. Helical compression springs. Helical extension springs. Helical torsion springs. Leaf springs. Belleville washers. Laboratory practices: Calculation and design of springs.",
+    "Introduction. Forces in spur gears. Lewis formula. AGMA Design Method. Bending and surface fatigue strength. Material selection. Design of a Gear Transmission. Laboratory practices: Calculation and design of gears using the AGMA method.",
+    "Introduction. Fasteners and stress concentrators. Shaft materials. Static, simple alternating, and combined stresses. Shaft deflection. Critical speeds. Laboratory practices: Calculation and design of shafts and couplings. Seminar 2: Problem solving related to the topic and previous contents.",
+    "Introduction. Keys and keyways. Grooves. Screws. Interference fits. Rigid couplings. Flexible couplings. Joint couplings. Fastening elements. Joints. Computer practices: Design and analysis of different machine elements (shafts, gears, couplings,...).",
+    "Introduction. Types of bearings. Bearing failure. Bearing selection. Combined radial and thrust loads. Friction in unlubricated bearings. Lubricants. Types of lubrication. Design of marginally lubricated bearings. Hydrodynamic lubrication theory. Types of bearings. Pressure lubricated bearings. Non-conforming contacts."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory practices",
+    "Computer lab activities",
+    "Seminars",
+    "Scheduled tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.5,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam (EF)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Computer and laboratory practices (PLO)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Seminars (SEM)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For continuous evaluation, the final grade is calculated as (0.7 * EF score) + (0.2 * PLO score) + (0.1 * SEM score). A minimum score of 5 out of 10 in the Final Theoretical/Practical Exam (EF) is required to pass the subject. If this condition is not met, the final grade will be the minimum between 4 and the calculated final score. PLO and SEM activities are not recoverable in the extraordinary call, but their grades from the ordinary call are retained. For global evaluation, the final grade is calculated as (0.7 * EFG score) + (0.3 * EPG score). A minimum score of 5 out of 10 in the Global Final Exam (EFG) is required to pass; otherwise, the final grade will be the minimum between 4 and the obtained score.",
+  "bibliography": [
+    "Apuntes de la asignatura: “Apuntes de Diseño de Máquinas”. Francisco Romero Sánchez. EII. UEX.",
+    "Diseño en Ingeniería Mecánica de Shigley, R.G. Budynas y J. Keith Nisbett. 11ª Ed., McGraw-Hill, 2021.",
+    "Diseño de Maquinaria, Robert. L. Norton. 6ª Ed. Adaptada. Ed. McGraw Hill 2020.",
+    "Métodos de Cálculo de fatiga para Ingeniería. Metales”, Rafael Avilés González. Paraninfo. 2015.",
+    "Machine Elements in Mechanical Design, R.L. Mott, Pearson Ed., 2018.",
+    "Fundamentos de Mecanismos y Máquinas para Ingenieros, Calero R. y Carta J.A., McGraw-Hill, 1999 (consultar biblioteca EII)",
+    "Análisis de Fatiga en Máquinas, Aviles R. Thomson, 2005.",
+    "Elementos de Máquinas\", Hamrock B.J., Jacobson B. and Schmid S.R. McGraw-Hill, 2001."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501329",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501329-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "9df3dd593e842360ec2bff3d459ba7ddd1f8fd00ec64c47a3b54176fed0b664e",
+  "extracted_at": "2026-11-13T21:36:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

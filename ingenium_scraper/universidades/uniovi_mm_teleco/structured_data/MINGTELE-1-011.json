@@ -1,0 +1,157 @@
+{
+  "course_name_original": "Planificación y Despliegue de Sistemas de Telecomunicación",
+  "course_name_en": "Planning and Deployment of Telecommunication Systems",
+  "ects": 4.5,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "No specific requirements beyond those for accessing the Master's program."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students possess learning skills that allow them to continue studying in a largely self-directed or autonomous manner.",
+      "type": "skill",
+      "code": "CB10"
+    },
+    {
+      "text": "Ability to project, calculate and design products, processes and facilities in all areas of telecommunication engineering.",
+      "type": "skill",
+      "code": "CG1"
+    },
+    {
+      "text": "Ability to manage works and installations of telecommunication systems, complying with current regulations, ensuring service quality.",
+      "type": "skill",
+      "code": "CG2"
+    },
+    {
+      "text": "Ability to elaborate, strategic plan, direct, coordinate and technically and economically manage projects in all areas of Telecommunication Engineering following quality and environmental criteria.",
+      "type": "skill",
+      "code": "CG5"
+    },
+    {
+      "text": "Ability to apply the principles of economics and human resources and project management, as well as telecommunications legislation, regulation and standardization.",
+      "type": "skill",
+      "code": "CG10"
+    },
+    {
+      "text": "Ability to communicate (orally and in writing) conclusions - and the knowledge and underlying reasons - to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "skill",
+      "code": "CG11"
+    },
+    {
+      "text": "Possess skills for continuous, self-directed and autonomous learning.",
+      "type": "skill",
+      "code": "CG12"
+    },
+    {
+      "text": "Ability to develop radiocommunication systems: antenna design, equipment and subsystems, channel modeling, link calculation and planning.",
+      "type": "skill",
+      "code": "CE2"
+    },
+    {
+      "text": "Ability to implement wired, line, satellite systems in fixed and mobile communication environments.",
+      "type": "skill",
+      "code": "CE3"
+    },
+    {
+      "text": "Ability to design and dimension transport, broadcasting and distribution networks for multimedia signals.",
+      "type": "skill",
+      "code": "CE4"
+    },
+    {
+      "text": "Plan terrestrial and satellite communication systems at a single frequency, both point-to-point, point-to-multipoint and cellular in real environments (profiles and three-dimensional coverage) using geographic information systems.",
+      "type": "skill",
+      "code": "R7"
+    },
+    {
+      "text": "Manage standards, regulations and recommendations on quality and availability criteria depending on the type of signals transmitted (audio, video, data and multimedia), required in the planning and deployment of a communication system both by radio and by cable/fiber.",
+      "type": "skill",
+      "code": "R8"
+    },
+    {
+      "text": "Design and dimension communication networks through frequency and channelization plans, capacity objectives based on the type of signal transmitted (audio, video, data and multimedia), number of subscribers, optimization of spectral efficiency and quality of service, different types of interference (multichannel interference and delays), as well as error/quality objectives, and the establishment of availability parameters.",
+      "type": "skill",
+      "code": "R9"
+    },
+    {
+      "text": "Design and dimension communication systems and networks according to the characteristics of devices and subsystems based on their technology and the transmitted signals (voice, video, data and multimedia).",
+      "type": "skill",
+      "code": "R10"
+    }
+  ],
+  "syllabus_topics": [
+    "Tools for the design, dimensioning, planning and deployment of telecommunication networks. Standards, regulations and recommendations in system planning.",
+    "Transport networks via radio link, fiber or hybrid. Topology, capacity, frequency plans, channelization, spectral efficiency, availability and quality of service.",
+    "Distribution and broadcasting networks. Last-mile distribution alternatives using wireless and cable/fiber systems. Range, coverage, number of subscribers, quality of service, interference.",
+    "Cellular networks with audio, video, data and multimedia signals. Design and dimensioning considering quality of service, frequency plan, radio coverage and interference.",
+    "Introduction. Presentation and scope of the subject. Concept of planning and deployment. Classifications of Telecommunication Systems. General and specific elements. Planning chart for a communication link/network. Planning phases. Dimensioning. Fictitious reference paths depending on the link and network type.",
+    "GIS for Telecommunications. Terrain modeling. Coordinates. Projections. Ellipsoid and Datum. UTM coordinates. Geographic Information System. Vector and raster data. GIS tools.",
+    "Capacity and frequency planning. Introduction. Dimensioning and capacity. Voice capacity and traffic. Capacity in digital systems. Bandwidth and bit rate. Transport technology and standardized rates. Spectral efficiency. Spectrum optimization resources. Frequency plans according to ITU-R. Frequency plans according to FCC, CEPT. CNAF. Description of a channelization plan. Channelization options. Alternating channelization. Co-channel band reuse channelization. Interleaved band reuse channelization. Example. Radio channel assignment: plan with 2 sub-bands; plan with 2 frequencies; plan with 4 or more frequencies. Example of DTT broadcasting planning in Spain.",
+    "Initial link budget. System balance. Free space radio link. Loss factors. Polarization reuse. Reflection-multipath. Fresnel ellipsoids. Diffraction in obstacles. Calculation methods. Tropospheric refraction. Gas and hydrometeor attenuation. Fading. Fading margin and reception threshold values. Noise and modeling in a receiver system. Signal and noise power, bit energy, noise spectral density, data rate, error rate and threshold. Description in ITU recommendations.",
+    "Quality objectives and parameters. ITU-T and ITU-R recommendations on quality (error characteristic objectives) and availability. Definitions. Quality events and parameters. Reference transmission models for quality objectives. Availability criteria and parameters.",
+    "Link engineering according to error and availability criteria. Terminology. Availability, quality criteria and error rate. Design considering quality and availability objectives. Link budget and thresholds. Impact of propagation. Fading. Reliability and availability. Effect of rain, refraction, multipath and polarization coupling. Spatial and frequency diversity techniques. Adaptive channel equalization. Interference. Planning sequence. ITU recommendations as tools.",
+    "Specific planning elements for particular systems of interest. Case studies. Planning of radio links for cellular network access systems. Satellite link. Cellular networks. Fiber optic links. Broadcasting systems."
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures)",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group work",
+    "Individual work",
+    "Project methodology",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 112.0,
+  "workload_hours_contact": 34.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exam (Theoretical block)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work 1 (Planning of wired communication systems, including presentation)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work 2 (Planning of wireless communication systems, including presentation)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical block (BT) requires a minimum score of 4.0 on the final exam (EX). The practical block (BP) requires a minimum score of 4.0, calculated as 0.5 * Work 1 (T1) + 0.5 * Work 2 (T2). If both minimums are met, the final grade is 0.6 * BT + 0.4 * BP. Otherwise, the final grade is the minimum of the calculated score and 4.0. For the extraordinary call, the theoretical block is a new written exam (minimum 4.0), and the practical block grade is carried over from the ordinary call unless it was below the minimum, in which case new assignments must be submitted. The final grade calculation is the same as for the ordinary call.",
+  "bibliography": [
+    "Documentation of the course (slides, notes, exercise collections, etc).",
+    "Documentation for practicals: scripts, templates, etc.",
+    "Laboratory equipment: PCs, simulation software, radio planning tools.",
+    "Environmental Satellite Tracking Station of the University of Oviedo (ESSUO).",
+    "Course website integrated into the Virtual Campus.",
+    "ITU-T Recommendations.",
+    "ITU-R Recommendations.",
+    "Helmut Brodhage and Wilhelm Hormuth, “Planing and Engineering of Radio Relay Links”, Siemens, Aktiengesellschaft, Heyden Son LTD, 1977.",
+    "J. M. Hernando Rábanos. Transmisión por radio. Ed. Centro de Estudios Ramón Areces, 5ª ed.",
+    "P. Angueira, J.A. Romo “Microwave Line of Sight Link Engineering”; Ed Wiley, 2012",
+    "Radio Network Planning and Optimization for UMTS”; Ed. Jaana Laiho, Achim Wacker, Tomas Novosad. John Wiley and Sons. 2006.",
+    "Simon R. Saunders. Antennas and Propagation for Wireless Communication Systems. Wiley, 1999.",
+    "J. Griffiths. Radio Wave Propagation. Prentice Hall Int, 1987.",
+    "W. L. Morgan, G. D. Gordon, “Communications Satellite Handbook”, Wiley-Interscience, 1989.",
+    "Fernando Las-Heras, Yuri Álvarez. “Ejercicios de Radiación y Radiopropagación”, 1ª Edición, Ed. Ediuno, 2011.",
+    "C.T.A. Balanis. Antenna Theory, Analysis and Design.2nd Ed. John Wiley and Sons, Inc., New York, 1996.",
+    "C. Lin, Ed. Wiley, “Broadband Optical Access Networks and Fiber-to-the-Home: Systems, Technologies and Deployment Strategies”, 2006.",
+    "FTTH Handbook, Edition 7, D&O Committee, Revision date: 16/02/2016, FTTH Council Europe 2014, Wettelijk Depot: D/2016/12.345/1.",
+    "Regulations published in BOE on professional competencies and attributions and on the evaluation and measurement of electromagnetic emissions in particular."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-1-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-1-011",
+  "source_language": "es",
+  "source_sha256": "23a8d98e27b6a95f373a93e55578d6a649243a00ee4ef26024a3251512d8cb02",
+  "extracted_at": "2026-11-20T06:07:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

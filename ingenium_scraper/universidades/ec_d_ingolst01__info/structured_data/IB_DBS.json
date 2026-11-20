@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Datenbanksysteme",
+  "course_name_en": "Database Systems",
+  "ects": 7.0,
+  "semester": "Summer semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Attainment of the second study section, requiring a minimum of 42 ECTS points from the first study section.",
+    "Knowledge of at least one high-level programming language that offers interfaces for using SQL"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Name the basic principles and concepts of (relational) database systems and contextualize them as central technical and technological infrastructure components for data storage within enterprise-specific information systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the basics of database architecture, database design, and database queries, and describe the most important associated concepts and abstraction mechanisms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Assess whether and how these can be used to implement concrete technical requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Create (database) schemas.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulate query and modification operations in relational algebra and SQL.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the evolution of database systems from relational to NoSQL.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the fundamental principles and concepts of conceptual and system-level database design to implement concrete technical requirements, create a suitable database schema for the requirements, and implement it in a relational database system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulate corresponding SQL queries for technically formulated data queries and modifications and submit them to a database system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Name the effects of different degrees of freedom in the design, modeling, and querying of databases and consider them when creating schemas or queries.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of database systems: History, concepts and architecture; 3-schema model and data independence",
+    "Conceptual (business) database design and Entity-Relationship model",
+    "Data integrity and integrity constraints",
+    "Relational data model and relational algebra",
+    "Relational database design and normal forms",
+    "SQL",
+    "Transactions and transaction management",
+    "Physical data organization",
+    "Advanced database concepts and thematic outlook",
+    "Conceptual modeling and design of database schemas",
+    "Schema implementation",
+    "SQL: Data Definition Language (DDL)",
+    "SQL: Data Manipulation Language (DML) and database queries",
+    "Handling incomplete information and null values",
+    "Advanced concepts"
+  ],
+  "teaching_methods": [
+    "Seminaristic teaching/exercise",
+    "Practical course"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Successful participation in practical course (four attestations)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Passing the practical course (17.2) is a prerequisite for participating in the written exam (17.1). To pass the practical course, a total of four attestations must be acquired. This involves completing four assignments during the semester, with each successful completion earning an attestation. Solutions must be submitted on time or presented in a presence session, answering questions about the solution concept.",
+  "bibliography": [
+    "ELMASRI, Ramez A. und Shamkant B. NAVATHE, 2009. Grundlagen von Datenbanksystemen. 3. Auflage.",
+    "UNTERSTEIN, Michael und Günter MATTHIESSEN, 2012. Relationale Datenbanken und SQL in Theorie und Praxis. 5. Auflage.",
+    "KEMPER, Alfons und André EICKLER, 2013. Datenbanksysteme: Eine Einführung. 9. Auflage.",
+    "VOSSEN, Gottfried, 2008. Datenmodelle, Datenbanksprachen und Datenbankmanagementsysteme . 5. Auflage."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_DBS",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "e37dac945206aa26dcab100cb0a7827369075fca6c754b0bc080c45c42107eb5",
+  "extracted_at": "2026-11-20T12:35:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

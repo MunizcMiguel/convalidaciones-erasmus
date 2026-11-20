@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Programación Avanzada",
+  "course_name_en": "Advanced Programming",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Estructuras Discretas y Análisis de Algoritmos",
+    "Metodología de la Programación"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the fundamentals of programming and basic algorithmic techniques and apply them using the most relevant programming languages in the field of data science and engineering.",
+      "type": "unspecified",
+      "code": "CE10"
+    },
+    {
+      "text": "Students evaluate the computational complexity of a problem and identify, if they exist, appropriate algorithmic strategies for its resolution.",
+      "type": "unspecified",
+      "code": "CE11"
+    },
+    {
+      "text": "Understand the object-oriented programming paradigm (inheritance, polymorphism, exceptions).",
+      "type": "unspecified",
+      "code": "RPRO1"
+    },
+    {
+      "text": "Understand linear and non-linear data structures.",
+      "type": "unspecified",
+      "code": "RPRO2"
+    },
+    {
+      "text": "Manage class libraries for the representation of object containers (sets, files, etc.).",
+      "type": "unspecified",
+      "code": "RPRO3"
+    },
+    {
+      "text": "Understand and manage the basic concepts of multi-threading.",
+      "type": "unspecified",
+      "code": "RPRO4"
+    }
+  ],
+  "syllabus_topics": [
+    "Object-Oriented Programming: Inheritance (simple and multiple, visibility of data and methods) and Polymorphism (dynamic binding, method overriding).",
+    "Data structures: Linear structures (lists, stacks, and queues) and non-linear structures (graphs and trees). Traversal and search algorithms. Other structures (sets, dictionaries, hash tables, etc.).",
+    "Basic concepts of multi-threading."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practices",
+    "Online teaching",
+    "Individual study",
+    "Tutorials",
+    "Forums and Virtual Campus activities"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance / Participation in Seminars and Tutorials (includes online)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Active Participation in Forums and Virtual Campus Activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Reports/memories/practical exams (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Reports/memories/practical exams (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Reports/memorias/practical exams (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exams total",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Theoretical final exam",
+      "weight_percentage": 45.0
+    }
+  ],
+  "assessment_rules": "To pass the course, it is necessary to obtain a grade equal to or greater than 4.5 points out of 10 in both the final theoretical exam and the total practical part. Any grade lower than 4.5 in either of these two parts will result in failing the course in its ordinary call. If a student does not meet the minimum requirements in the specified evaluation sections, their final grade will be calculated as the minimum between 4.5 and the grade obtained by applying the weights. In extraordinary calls, the final theoretical exam has a weight of 60% and the final practical exam has a weight of 40%, with a minimum of 4.5 required in both exams to pass.",
+  "bibliography": [
+    "Hands-On Data Structures And Algorithms With Python_Second Edition: Write complex and powerful code using the latest features of Python 3.7, 2nd Edition.",
+    "Python 3 Object-Oriented Programming: Build robust and maintainable software with object-oriented design patterns in Python 3.8, 3rd Edition.",
+    "Easy Learning Data Structures & Algorithms Python (2 Edition): Explain Data Structures & Algorithms in Python through Full-Color Diagrams: 3 (Python ... Patterns & Data Structures & Algorithms)",
+    "Advanced Python Programming: Build high performance, concurrent, and multi-threaded apps with Python using proven design patterns"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-2-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-2-003",
+  "source_language": "es",
+  "source_sha256": "76aafbf504b3f592e4530a8fad6ca486d620b0da172773a5ceccbae7998caf64",
+  "extracted_at": "2026-11-20T05:55:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "universidad": "Università degli Studi di Palermo",
+    "slug": "ec_i_palermo01",
+    "nombre_grado": "Laurea in Ingegneria Meccanica (L-9, corso 2055) — elegida, sin fichas obtenidas",
+    "nivel": "bachelor",
+    "curso_academico": "2025/26",
+    "url_plan_estudios": "https://www.unipa.it/dipartimenti/ingegneria/cds/ingegneriameccanica2055/",
+    "ects_totales_plan": null,
+    "estrategia_fuente": "No resuelta: páginas del CdS en www.unipa.it (503 persistente a las 2.ª-3.ª peticiones) y fichas en offertaformativa.unipa.it (aplicación JSF/Seam con estado de sesión).",
+    "generado_por": "discover_ec_i_palermo01.py",
+    "generado_en": "2026-11-20T08:43:48",
+    "estado": "parcial",
+    "notas": "PARCIAL. Filas Erasmus de Palermo: Ing. Química Industrial (2 plazas), Org. Industrial y Tecnologías Industriales -> titulación elegida: Laurea in Ingegneria Meccanica (L-9, CdS 2055, Scuola Politecnica), la más afín a Tecnologías Industriales (la rama Mecánica/Industrial tiene prioridad). No se obtuvo plan ni fichas: (1) www.unipa.it/robots.txt permite todo, la portada del CdS cargó una vez (enlaces ?pagina=pianodistudi y ?pagina=insegnamenti) pero esas subpáginas devuelven HTTP 503 de forma persistente a PoliteClient; (2) offertaformativa.unipa.it (donde residen las schede insegnamento) es una app JSF con estado de sesión y su robots.txt contiene un grupo 'User-agent: * / Allow: /' y otro final 'User-agent: * / Disallow: /' (ambiguo), por lo que se aplica la regla de parada y no se rastrea. Siguiente paso posible: obtener el plan del CdS 2055 desde un PDF oficial (manifesto/SUA) o pedir permiso/endpoint a Unipa. 0 asignaturas, 0 Markdown."
+  },
+  "asignaturas": []
+}

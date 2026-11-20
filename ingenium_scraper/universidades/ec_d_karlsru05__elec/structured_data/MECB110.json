@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Höhere Mathematik 1",
+  "course_name_en": "Higher Mathematics 1",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "School mathematics knowledge"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "After successful completion of the Higher Mathematics 1 module, students will have a solid knowledge of the fundamental areas of mathematics and be able to systematically model, analyze, and solve mathematical problems from geometry, linear algebra, analysis, and complex numbers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students can convert complex numbers between different representations, interpret them geometrically, and process them algebraically. They use argument, modulus, roots, and the fundamental theorem of algebra. This enables them to solve complex tasks in technical and scientific applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students perform arithmetic operations with vectors in ℝ², ℝ³, and ℝⁿ, determine bases and orthonormal bases, and apply scalar, vector, and scalar triple products. This allows them to mathematically precisely describe spatial relationships and solve technical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students describe lines and planes parametrically and by coordinates, calculate intersection angles and distances, and analyze spatial relationships. They use methods such as the Hessian normal form to process geometric problems in technology and science.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students solve linear equation systems with and without parameters using the Gaussian algorithm and determine the rank of matrices. This enables them to analyze linear relationships in technical and mathematical models safely and efficiently.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students analyze properties of functions, determine limits, and investigate continuity. They use elementary functions and their inverses to describe and evaluate the behavior of mathematical models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students apply differential calculus to functions of one variable, use differentiation rules, and solve extreme value problems. With methods such as L'Hôpital's rule, they analyze limits and optimize technical and scientific problems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Complex Numbers: forms of representation, conversion of representations, argument and modulus of a complex number, Gaussian number plane, geometric interpretation of addition and multiplication in the Gaussian number plane, complex polynomials, fundamental theorem of algebra, n-th root of a complex number, modulus equations and inequalities",
+    "Vector Calculus in R², R³ and Rn, arithmetic operations for vectors, laws of calculation, scalar product, vector product, scalar triple product, linear independence, basis, orthonormal basis, orthogonal projection of a vector",
+    "Analytic Geometry: lines and planes in R² and R³, parametric representation, coordinate representation, Hessian normal form, intersections of lines and planes, intersection angles and distances",
+    "Linear Equation Systems without/with parameters, Gauss algorithm, rank of a matrix, solution sets of linear equation systems",
+    "Number sequences, functions, limits",
+    "Function properties: zeros, monotonicity, poles, asymptotes, shifting parallel to coordinate axes, function limit, continuity of functions, extreme values, inflection points, inverse functions",
+    "Elementary functions: polynomials, rational functions, trigonometric functions and their inverse functions, exponential function and logarithm, hyperbolic functions",
+    "Differential calculus for functions of one variable: difference and differential quotient, differentiation rules, L'Hôpital's rule, extreme value problems without constraints"
+  ],
+  "teaching_methods": [
+    "Lectures with integrated exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written, graded examination (Klausur)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "J. Koch, M. Stämpfle: Mathematik für das Ingenieurstudium, 5. Auflage, 4. Auflage, HANSER, 2025",
+    "T. Arens et al.: Mathematik, 5. Auflage, Springer Spektrum, 2022",
+    "L. Göllmann et al.: Mathematik für Ingenieure: Verstehen – Rechnen – Anwenden, Band 1 und 2, Springer-Vieweg, 2017"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB110",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "c5235b2abba9845e60ee330d82086bacbe560e2216147028194262d6cdf06e82",
+  "extracted_at": "2026-11-20T12:39:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

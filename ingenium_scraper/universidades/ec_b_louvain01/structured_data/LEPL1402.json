@@ -1,0 +1,148 @@
+{
+  "course_name_original": "Informatics 2",
+  "course_name_en": "Informatics 2",
+  "ects": 5.0,
+  "semester": "Q1",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "basic notions of programming (instructions, variables, loops, conditions, etc.) as taught in the LEPL1401 or LINFO1101 course."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "make a justified choice between several representations of information and several algorithms to process them",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design (fragments of) programs in a functional style",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "reasoning about (fragments of) programs: complexity of algorithms and efficiency of programs implementing them, recursive reasoning",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "apply object-oriented modeling principles",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design and apply methods for testing a program",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design a simple parallel program",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "analyze a medium-sized problem, propose a computer solution to solve it and implement it in the Java language",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design Java programs",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze programs according to their performance",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Prove correctness of programs using invariants",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the principles of object-oriented programming such as genericity, abstraction, composition, and reuse",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement variants of the algorithms studied in high-quality Java programs",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and manipulate simple linear, tree, and recursive structures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design tests for programs",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design functional programming approaches to solve small algorithmic problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use design patterns",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design simple parallel programs with synchronization mechanisms",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Java: compilation, byte-code, virtual machine, primitive type, strings, tables",
+    "Abstract data types",
+    "Linear and tree structures, and their applications",
+    "Recursive solution formulation and recursive algorithms",
+    "Reasoning technique: preconditions, postconditions, invariants",
+    "Notions of computational complexity and analysis of the temporal and spatial complexity of an algorithm",
+    "Functional programming and higher-order programming",
+    "Object-oriented modeling (inheritance, composition, reuse, polymorphism, class invariant)",
+    "Introduction to design patterns",
+    "Program testing and validation methods",
+    "Introduction to parallelization: notion of threads and synchronization mechanisms"
+  ],
+  "teaching_methods": [
+    "Traditional classroom setting using a textbook",
+    "Exercises on the INGInious platform",
+    "Practical sessions with assistants/tutors"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam on INGInious",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional individual quiz (mid-term)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated using the formula: final_grade_out_of_20 = max(quiz_out_of_2 + exam_out_of_18, exam_out_of_20). The quiz points will be retained for the August session. In case of suspected plagiarism, an oral examination on the quiz or exam may be requested.",
+  "bibliography": [
+    "Programming Concepts in Java"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Université catholique de Louvain (UCLouvain)",
+  "institution_slug": "ec_b_louvain01",
+  "degree": "Bachelor in Engineering (Bachelier en sciences de l'ingénieur, orientation ingénieur civil) - FSA1BA",
+  "course_code": "LEPL1402",
+  "academic_year": "2025-26",
+  "source_url": "https://uclouvain.be/en-cours-2025-lepl1402",
+  "source_language": "en",
+  "source_sha256": "fb68c65ab050777c6ae4f9b0cc14373979259e653d11410ca1b072cb61df7841",
+  "extracted_at": "2026-11-20T09:16:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

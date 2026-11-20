@@ -1,0 +1,69 @@
+{
+  "course_name_original": "Signal processing and system identification",
+  "course_name_en": "Signal processing and system identification",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic control engineering",
+    "Experience with Matlab"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify from recorded signals an unknown system describable with a linear time invariant model.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of signal processing and system identification",
+    "Analog and digital filters, classification and their implementation",
+    "Linear time invariant continuous and discrete models",
+    "Discretization, sampling, frequency properties, anti-aliasing filter",
+    "Parametrization of step and frequency responses",
+    "Concepts of probability theory and stochastic processes",
+    "Characteristics of stochastic processes",
+    "Continuous and discrete Fourier Transform",
+    "Power spectrum, periodogram, white noise",
+    "Identification of dynamic systems in the time domain (linear regression)",
+    "Identification of dynamic systems in the frequency domain",
+    "Time-discrete parametric stochastic models of signals and systems",
+    "Kalman filter - optimal filtration based on the internal description of the system",
+    "Analytical identification (project)",
+    "Structure and parameter estimation of linear process through the use of deterministic input signal (project)",
+    "Experimental identification of stochastic process (project)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Hofreiter, M.: Identifikace systémů I, ČVUT v Praze, 2009, 202 s. ISBN 978-80-01-04228-1",
+    "https://moodle.fs.cvut.cz/course/view.php?id=44",
+    "E. W. Kamen and B. S. Heck: Fundamentals of Signals and Systems (2nd Edition), Prentice Hall, 2006",
+    "L. Ljung: System Identification: Theory for the User (2nd Edition), Prentice Hall, 1999",
+    "O. Alkin: Signals and Systems (1st Edition), Taylor & Francis Group, 2014"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371096",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet5794606.html",
+  "source_language": "en",
+  "source_sha256": "42ee5385c400c6792ab3295c6956abde99e518885afe6f216a482a2f62eb368b",
+  "extracted_at": "2026-11-20T01:18:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

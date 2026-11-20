@@ -1,0 +1,98 @@
+{
+  "course_name_original": "INTRODUCTION TO MACHINE LEARNING (INQ1097772)",
+  "course_name_en": "Introduction to Machine Learning",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of calculus 1",
+    "linear algebra",
+    "probability theory",
+    "algorithm design",
+    "fundamental elements of programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental principles and main methodologies of machine learning.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze cases of supervised and unsupervised learning.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Design and implement software systems capable of solving the considered problems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Evaluate the effectiveness of the chosen methodology for solving a given problem.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Python - Introduction to the programming language.",
+    "Use of Python for data analysis.",
+    "Empirical study of the behavior of random variables.",
+    "Introduction to Machine Learning (ML) Instances, features, labels, training set, test set, goal, generalization error, empirical risk minimization, overfitting, evaluation. Types of machine learning.",
+    "Unsupervised Learning: Clustering - Concept and formalization.",
+    "k-means clustering: Lloyd’s algorithm.",
+    "Linkage-based clustering.",
+    "Gaussian mixtures and estimation via Expectation-Maximization (EM).",
+    "Clustering case studies and implementation in Python.",
+    "Supervised Learning: Classification - Linear models for classification: formal definition, examples; Perceptron algorithm.",
+    "Formalization for a finite hypothesis class. Introduction to Probably Approximately Correct (PAC) learning.",
+    "Classification case studies and implementation in Python.",
+    "Supervised Learning: Regression - Introduction, linear regression, and polynomial regression.",
+    "Regression case studies and implementation in Python.",
+    "Evaluation - Validation, validation for model selection (Train-Validation-Test split, k-fold cross-validation)",
+    "Statistical significance, Maximum Likelihood Estimation (MLE), and confidence intervals."
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Problem solving",
+    "Case study",
+    "Problem based learning",
+    "Use of technological tools (moodle and/or other educational tools, software, videos, quizzes)",
+    "Feedback",
+    "Theoretical lectures using both the blackboard and the computer",
+    "In-class exercises with student involvement",
+    "Asynchronous activities and exercises to be completed on the Moodle platform"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Coursework to be completed throughout the course via the Moodle platform",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final written exam (closed book)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation of acquired knowledge and skills will be based on the completeness of acquired knowledge, the ability to solve a learning problem using proposed techniques, the correct use of technical terminology, originality and independence in identifying suitable methodologies, and the ability to interpret results. In the event that the instructor has any doubts regarding the manner in which the written examination was completed, including concerns about the authenticity of the responses, the student may be required to attend an oral examination.",
+  "bibliography": [
+    "Vanderplas, Jacob T. A Whirlwind Tour of Python. 1st edition, O’Reilly Media, Inc., 2016",
+    "VanderPlas, Jake. Python Data Science Handbook : Essential Tools for Working with Data. 2. ed, O’Reilly Media, 2022",
+    "Shalev-Shwartz, Shai, and Shai Ben-David. Understanding Machine Learning : From Theory to Algorithms. Cambridge University, 2014"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Università degli Studi di Padova — Information Engineering (L-8)",
+  "institution_slug": "ec_i_padova01__tele",
+  "degree": "Laurea in Information Engineering (Information Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "INQ1097772",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipd.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=51488_542419_69579&ordinamento_aa=2024&af_percorso=51488&corso_cod=6319&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "02516136ebe4d8bc1d34b6f0b27b744c15310866ebba0d44f9f33134677c542a",
+  "extracted_at": "2026-11-20T12:47:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

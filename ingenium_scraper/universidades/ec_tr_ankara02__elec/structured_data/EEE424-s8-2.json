@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Discrete Time Control Systems",
+  "course_name_en": "Discrete Time Control Systems",
+  "ects": 6.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "EEE421"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To make the analysis of discrete time control system.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "To design and to known how to compensation of discrete time control system.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Principle features of discrete time control system, Signal sampling, quantizing and coding",
+    "Data acquisition, conversion and distribution system, Reconstruction of original signal from sampled signal",
+    "Fundamentals of Z-transform, Important properties and theorems of the Z-transform, Z-transform from the convolution integral",
+    "Inverse Z-transform, Z-transform method for solving difference equation",
+    "S-plane to Z-plane mapping and Vice-versa, Stability analysis of closed loop systems in the Z-plane",
+    "Discrete time equivalents of continuous time systems, Discrete time equivalents of analog controllers, Transient and steady state response analysis",
+    "Digital filters: structure, implementation, frequency response, applications, Control system controllers: structure, hardware/software features, responses to control signals, use of root locus and frequency domain concepts",
+    "MIDTERM EXAM",
+    "Phase lead and phase lag compensator design for discrete time system, PID controller design and selection of parameters for discrete time system",
+    "Discrete time state equations",
+    "State space representation of discrete time systems",
+    "Discretization of the continuous time state space equation",
+    "Pulse transfer function matrix",
+    "Stability assessment from the discretized state space equations"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 151.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practice",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Mid-Term",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "K. Ogata, Discrete Time Control Systems, Prentice Hall, Englewood Cliffs, New Jersey.",
+    "Charles L. Phillips, Digital Control System: Analysis and Design, Prentice Hall, Englewood Cliffs, New Jersey."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE424-s8-2",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857396&lang=en",
+  "source_language": "en",
+  "source_sha256": "55041fa69917045e8ce80b136144d0b7d50850d67e8de94c0bf5be80168812f3",
+  "extracted_at": "2026-11-20T12:53:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

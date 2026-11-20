@@ -1,0 +1,235 @@
+{
+  "course_name_original": "Teoría de Máquinas y Mecanismos",
+  "course_name_en": "Theory of Machines and Mechanisms",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Mecánica y Termodinámica",
+    "Álgebra Lineal",
+    "Cálculo",
+    "Elementary vector calculus. Concept of derivative and integral, with application to elementary functions.",
+    "System of linear equations and matrices.",
+    "Elementary concepts of particle kinematics and dynamics. Concept of force and Newton's principles. Work, kinetic and potential energy and conservation of energy.",
+    "Kinematics and dynamics of rigid body. Mass geometry. Moments of inertia.",
+    "User-level computer program handling."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "unspecified",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning.",
+      "type": "unspecified",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "unspecified",
+      "code": "CG5"
+    },
+    {
+      "text": "Ability to handle specifications, regulations, and mandatory standards.",
+      "type": "unspecified",
+      "code": "CG7"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "unspecified",
+      "code": "CG15"
+    },
+    {
+      "text": "Understanding and mastery of basic concepts on the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism and their application to solve problems typical of engineering.",
+      "type": "unspecified",
+      "code": "CB-2"
+    },
+    {
+      "text": "Knowledge of the principles of machine and mechanism theory.",
+      "type": "unspecified",
+      "code": "CC7"
+    },
+    {
+      "text": "Analyze and kinematically synthesize mechanisms.",
+      "type": "unspecified",
+      "code": "RMM-1"
+    },
+    {
+      "text": "Pose and solve the direct and inverse dynamic problem of a planar mechanism.",
+      "type": "unspecified",
+      "code": "RMM-2"
+    },
+    {
+      "text": "Analyze and design rigid and flexible transmissions.",
+      "type": "unspecified",
+      "code": "RMM-3"
+    },
+    {
+      "text": "Know widely applied mechanisms and understand that many apparently very different mechanisms respond to the same kinematic principles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Create kinematic diagrams of real mechanisms as a form of representation and understand the mechanism's operation from such a diagram.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Structurally analyze articulated mechanisms by criteria of nature and number of links or pairs, and by dimensional criteria, describing, as a consequence, the degrees of freedom or mobility of the mechanism and the existence or not of dead centers or return points and their singularities.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and develop the concepts, fundamentals, and methods applied to the kinematic and dynamic analysis of planar mechanisms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate velocities, accelerations, and forces in any planar mechanism, for specific positions of the mechanism and for complete cycles of motion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the type and dimensions of a bar mechanism to perform a specific function (problem known as mechanism synthesis).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assimilate the relationships between actions and the movement they produce in machines and be able to recognize the type of dynamic problem associated with each case.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the inertia effects supported by the links or bars that make up the mechanisms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Correctly include friction forces in sliding, rotating pairs, and rolling and analyze and understand the operation of friction-based mechanisms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and define the key dimensions and characteristics of motion transmissions between rotating shafts (gears, belts, ...).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine transmission ratios in ordinary and epicyclic gear trains and know the preferred design criteria used to define the number of teeth.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the role played by cam mechanisms, highlighting their advantages and disadvantages in relation to other mechanisms that achieve the same results.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use software for the analysis, simulation, and design of machines and mechanisms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and select information from various sources.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to understand and interpret the results obtained through kinematic and dynamic analysis of mechanisms and machines.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the subject.",
+    "Mechanisms and machines. Basic concepts and schematization.",
+    "Definition, general structure and components of a machine",
+    "Classification of kinematic elements and pairs",
+    "Schematization of mechanisms",
+    "Planar articulated mechanisms.",
+    "Mobility of mechanisms: Grübler and Kutzbach criteria",
+    "Four-bar linkage and kinematic inversion. Grashof's law",
+    "Quality of mechanisms: mechanical advantage",
+    "Synthesis of mechanisms",
+    "Introduction to kinematics",
+    "General approach. Analysis methods.",
+    "Method of relative velocities and accelerations.",
+    "Other kinematic analysis methods.",
+    "Instantaneous centers of velocity (ICV).",
+    "Graphical location of centers.",
+    "Aronhold-Kennedy Theorem.",
+    "Velocity determination using ICV",
+    "Inverse dynamic problem.",
+    "Free body diagrams",
+    "D'Alembert's Principle.",
+    "Virtual powers",
+    "Direct dynamic problem.",
+    "Dynamic reduction of 1 DOF mechanisms.",
+    "Direct dynamic analysis on reduced mechanisms",
+    "Flywheels: Steady state, degree of irregularity, concept of GD2",
+    "Friction.",
+    "Sliding friction, in rotating pairs and rolling friction.",
+    "Balancing.",
+    "Concept of balancing. Balancing of mechanisms.",
+    "Introduction to rigid motion transmissions.",
+    "Cylindrical gears with straight teeth.",
+    "Fundamentals, terminology, and classification. Forces. Variation of center distance. Interference",
+    "Helical, bevel, and worm gears.",
+    "Fundamentals, terminology, and classification. Forces. Variation of center distance. Interference",
+    "Gear trains.",
+    "Ordinary and epicyclic trains. Willis's formula.",
+    "Cam-follower mechanisms.",
+    "Fundamental design law and kinematics of cams."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory / field / computer lab / language lab practices",
+    "Group tutorials",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Assessment (EC): Problems done in classroom practices and/or tasks proposed by professors.",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices (PL): Preparation, attitude, and submission of a report.",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Final Exam (EF): Conceptual questions and problem-solving.",
+      "weight_percentage": 75.0
+    }
+  ],
+  "assessment_rules": "For ordinary and extraordinary calls in June, if the minimum of 3 points out of 7.5 in the Final Exam is reached, the final grade is calculated as EC + PL + EF. If the minimum for the final exam is not reached, the course cannot be passed, and a grade of 4.9 will be recorded. For the extraordinary call in January and differentiated evaluation, a single written exam is required, covering the course topics (9 points) and laboratory practice content (1 point), with a minimum of 5 points out of 10 to pass. No programmable calculators or internet-enabled devices are allowed in exams. Grades from previous years are not carried over.",
+  "bibliography": [
+    "Diseño de Maquinaria. R.L. Norton. McGraw-Hill. 3ª ed. 2005.",
+    "Máquinas y Mecanismos. David H. Myszka. Editorial Pearson. 4ª ed. 2012.",
+    "Problemas resueltos de Teoría de Máquinas y Mecanismos. J.C. García Prada, Cristina Castejón Sisamón, Higinio Rubio Alonso y Jesús Menezes Alonso. Editorial Paraninfo. 2ª ed. 2014.",
+    "Teoría de Máquinas y Mecanismos. Shigley, J. E.; Uicker, J. J. McGraw-Hill, 1996.",
+    "Problemas resueltos de Teoría de Máquinas y Mecanismos. Suñer Martínez, Josep Lluis; et al. Editorial Universidad Politécnica de Valencia. 2001."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-C-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-010",
+  "source_language": "es",
+  "source_sha256": "d1db71c22a0fcb0de2e7f2a000fbfdef3b129334b15767c2d81cd0995661cf12",
+  "extracted_at": "2026-11-20T06:03:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

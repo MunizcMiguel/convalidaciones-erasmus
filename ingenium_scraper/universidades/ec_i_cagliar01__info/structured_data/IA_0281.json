@@ -1,0 +1,95 @@
+{
+  "course_name_original": "MEASUREMENT SYSTEMS FOR INFORMATION ENGINEERING (IA/0281)",
+  "course_name_en": "Measurement Systems for Information Engineering",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Prerequisites indicated in the regulations of the \"Laurea in Ingegneria Elettronica, Informatica e delle Telecomunicazioni\"."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the fundamental theoretical and applied aspects of measurements in the field of information in general, and those based on digital instruments in particular.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to understand the performance of basic instrumentation and to choose measurement instrumentation based on technical and economic considerations. Awareness of the importance of safe use of a measurement system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to correctly interpret the results provided by a measurement system, based on the characteristics of its components. Ability to manage results, including assessing decision-making risks arising, for example, from the use of non-traceable instrumentation.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to communicate information and discuss problems and solutions with specialist and nonspecialist interlocutors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to learn continuously through the correct interpretation of technical bibliography, manufacturers' manuals, technical and legal standards.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Presentation of the course and its educational objectives. Illustration of course materials and examination methods.",
+    "Basic Concepts of Measurement: Fundamental elements of measurement. Measurement errors. Errors in direct and indirect measurements. The traceability of measurements. The metrological organization. The International System of units of measurement. Measurement uncertainty. Elements of statistics and probability. Evaluation of type A and B uncertainties. Law of propagation of uncertainty. Expanded uncertainty. Compliance verifications.",
+    "Measurements of fundamental electrical quantities: Measurements of dc voltages and currents. Effect of insertion of an instrument: insertion of a voltmeter; insertion of an ammeter. Measurements of ac quantities. RMS value and power.",
+    "Analog signal processing: Circuits with operational amplifiers. Conditioning of signals. Rectifiers. True RMS value converters (TRMS).",
+    "AD and DA conversion: Sampling and quantization, input-output diagrams, quantization disturbance. Weighted-network and R/2R-network DA converters. Sample & hold. Successive approximation, flash, pipelined and double ramp AD converters. Specifications of AD and DA converters.",
+    "Digital multimeters: Block diagram. Measurements of voltage, current and resistance. Specifications of multimeters.",
+    "Data acquisition systems: Single- and multi-channel schematics.",
+    "Analog oscilloscope: The cathode ray tube and electron beam deflection. The vertical channel. The time base and the trigger. Two-track oscilloscopes. Voltage probes.",
+    "Digital oscilloscope: Operating characteristics. Performance. Real-time and equivalent sampling.",
+    "Pulse counting-based measurements: Frequency and period measurements. The universal counter. The binary and BCD counter. Errors in frequency and period measurements.",
+    "Differential input circuits: Differential amplifier. Instrumentation amplifier.",
+    "Disturbances in electrical and electronic measurements: Ground connections. Inductive and capacitive couplings. Shielding. Noise. Noise specifications for amplifiers.",
+    "Laboratory & Exercises - Measurement Technologies: Uncertainty analysis. Application of ISO GUM. Analysis of data from series of observations and determination of the main statistical parameters. Presentation of the results: significant figures.",
+    "Laboratory & Exercises - Measurement Technologies: Digital multimeter. Measurements of sinusoidal and distorted ac voltages. Frequency behavior. Two- and four-terminals measurement of resistance.",
+    "Laboratory & Exercises - Measurement Technologies: Oscilloscope. Compensation of probes. Survey of the voltage-current characteristic of a device. Use of the digital oscilloscope.",
+    "Laboratory & Exercises - Measurement Technologies: Data acquisition systems. Use of data acquisition boards."
+  ],
+  "teaching_methods": [
+    "Practise",
+    "Lesson",
+    "Classroom exercises",
+    "Experimental work in the laboratory"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final score is provided by a grade out of thirty, which is the average of the written and oral exam marks. To pass, a mark of not less than 18/30 is required. To achieve 30/30 with honors, excellent knowledge of topics must be demonstrated. The assessment also considers the capacity to present theoretical subjects rigorously and effectively and highlight their practical aspects.",
+  "bibliography": [
+    "Slides and notes of the course",
+    "C. Svelto, R. Ottoboni, M. Norgia, A. Pesatori, Misure. Dai fondamenti alla strumentazione, Editore: Società Editrice Esculapio - Bologna, 2022.",
+    "M. Savino: Fondamenti di scienza delle misure. Nuova Italia Scientifica, 1992",
+    "G. Iuculano, D. Mirri: Misure Elettroniche. CEDAM, 2002"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IA/0281",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=21646&ordinamento_aa=2022&af_percorso=9999&corso_cod=11037&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "5e1ac3c8eaf800bbb8a823611e1696686394d558b00a918508af8e65328a8547",
+  "extracted_at": "2026-11-20T12:43:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

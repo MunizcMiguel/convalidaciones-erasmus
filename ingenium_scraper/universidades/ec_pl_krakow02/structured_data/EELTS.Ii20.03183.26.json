@@ -1,0 +1,145 @@
+{
+  "course_name_original": "Electric drive",
+  "course_name_en": "Electric drive",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student knows and understands the meaning of all concepts discussed in the \"Electric Drive\" module.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the principles of operation and description of individual components of the drive system, understands the principles of their interaction in the entire electro-mechanical energy system.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Can search for and apply information necessary for the design and operation of electric drives.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is able to determine the operating point of the drive for different types of loads and to specify the motor supply for given operating conditions. Motors considered: DC (as a standard for drive systems), synchronous (with electromagnetic excitation and permanent magnets), induction (simplified Kloss equation).",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is able to use information to solve a specific technical problem and cooperate with students of Electrical Engineering.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is aware of the responsibility for their own work and readiness to abide by teamwork principles and take responsibility for jointly implemented tasks.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Efficiency testing of the gearbox and the entire drive.",
+    "Dynamics testing of a separately excited DC motor.",
+    "Drive with a flexible shaft.",
+    "Identification of DC machine parameters.",
+    "Series motor in hoisting drives.",
+    "Induction motor.",
+    "BLDC motor powered by a voltage inverter.",
+    "Characteristics of squirrel cage induction motor during dynamic braking.",
+    "Elementary issues: Power flow in drive systems - calculating resultant torque (load and inertia) to the motor shaft. Mechanical transmission. Determining U(t) for a given speed profile of a separately excited DC motor. Mechanical characteristics of an induction motor. Kloss equation. Determining motor supply conditions for given drive operating points.",
+    "Computational-simulation project: The structure and control object (electric motor) are given. It is necessary to: determine the remaining elements of the control system (amplifiers and measurement systems). Parametric optimization of controllers, simulation studies and results development.",
+    "Introductory issues: Electro-mechanical energy system, torque equation, stability of equilibrium point, mechanical transmission, inertia moment of the drive, classification of load torques.",
+    "Drives with DC and PMSM motors: Mechanical characteristics, supply conditions and drive operating point, field weakening.",
+    "Power electronics systems: Construction of controlled power electronic systems used for supplying electric motors and their mathematical models.",
+    "Generalized mathematical model of the motor: Spatial rotating vector, dynamic model of the motor in a rotating coordinate system (Clarke and Park transformations).",
+    "Electric drives with DC motors: Separately excited and series motors, mathematical model, mechanical characteristics, angular velocity control methods, types of starting and braking, angular velocity regulation.",
+    "Drives with induction motors: Simplified Kloss equation, mechanical characteristics, operating point of a loaded motor, determining motor supply for a given operating point, field weakening.",
+    "Electric drives with induction motors: Mathematical model of the motor, equivalent circuit, electromagnetic torque generation, Kloss equation, mechanical characteristics, angular velocity control methods, types of starting and braking. Principles of field-oriented control.",
+    "Electric drives with synchronous motors: Mathematical models of motors, control of motors with electromagnetic excitation (converter motor) and brushless motors (BLDC, PMSM), power supply and control systems for these motors.",
+    "Introduction to electric motor control systems: Cascade control, vector control, parametric optimization of controllers, field weakening.",
+    "Vehicles with electric drives: Vehicle construction, motion model, traction motor characteristics, regenerative braking."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Group work",
+    "Project Based Learning",
+    "Simulation (event scenarios, VR/AR)",
+    "Practice method (doing tasks at the blackboard)"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 98.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of a project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Essays written during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Student participation in lectures involves familiarizing themselves with the teaching content. Students should ask questions and clarify doubts. Audiovisual recording of lectures requires the instructor's consent. For auditorium classes, students must prepare as indicated by the instructor, and their work may be assessed via oral or written colloquium, which contributes to the final grade for this form of activity. Laboratory classes require students to perform exercises according to provided materials and be prepared, which may be verified by an oral or written colloquium; passing requires presenting a solution to the problem, and all laboratory classes must be passed to pass the module. Project classes involve practical work to achieve syllabus competencies, with the method of project execution and the final result being assessed.",
+  "bibliography": [
+    "Bisztyga K. Sterowanie i regulacja silników elektrycznych. Warszawa : WNT, 1989",
+    "Tunia H. Kaźmierkowski M. Automatyka napędu przekształtnikowego. Warszawa : PWN, 1987.",
+    "Piróg S. Energoelektronika. Układy o komutacji sieciowej i o komutacji twardej. Kraków: Wydaw. AGH, 2006.",
+    "Sieklucki G. Automatyka napędu. Kraków : Wydaw. AGH, 2009.",
+    "Sieklucki G., Bisztyga B., Zdrojewski A., Orzechowski T., Sykulski R. Modele i zasady sterowania napędami elektrycznymi Kraków : Wydaw. AGH, 2014.",
+    "Sieklucki, G. Loopshaping of motor torque controller (2013) Archives of Control Sciences, 23 (2), pp. 213-228.",
+    "Sieklucki, G. Analysis of the transfer-function models of electric drives with controlled voltage source (2012) Przeglad Elektrotechniczny, 88 (7 A), pp. 250-255.",
+    "Sieklucki, G., Sykulski, R., Orzechowski, T. Wykorzystanie enkodera inkrementalnego w sterowaniu DFOC silnikiem synchronicznym z magnesami trwalymi (PMSM) (2010) Przeglad Elektrotechniczny, 86 (3), pp. 216-220.",
+    "Sieklucki, G. Pole placement method for DC motor torque controller (2009) Archives of Control Sciences, 19 (3), pp. 307-324.",
+    "Sieklucki, G., Bisztyga, B., Sykulski, R., Zdrojewski, A., Orzechowski, T. Discrete-time switching state-space controller of DC drive (2013) Archives of Control Sciences, 23 (3), pp. 333-349.",
+    "Sieklucki G., Bisztyga B., Zdrojewski A., Orzechowski T., Sykulski R. Modele i zasady sterowania napędami elektrycznymi. Kraków : Wydawnictwa AGH, 2014",
+    "Sieklucki G., Bisztyga B. Uncertainty mathematical models of power converters. Automatics (2012) vol. 16 no. 1, s. 73–87",
+    "Sylwester SOBIERAJ, Grzegorz SIEKLUCKI, Józef GROMBA Relative stability of electrical into mechanical conversion with BLDC motor-cascade control // Energies [Dokument elektroniczny]. — Czasopismo elektroniczne ; ISSN 1996-1073. — 2021 vol. 14 iss. 3 art. no. 704, s. 1–17. — Wymagania systemowe: Adobe Reader. — Bibliogr. s. 17, Abstr.. — Publikacja dostępna online od: 2021-01-29. — tekst: https://www.mdpi.com/1996-1073/14/3/704/pdf",
+    "Grzegorz SIEKLUCKI Optimization of powertrain in EV // Energies [Dokument elektroniczny]. — Czasopismo elektroniczne ; ISSN 1996-1073. — 2021 vol. 14 iss. 3 art. no. 725, s. 1–12. — Wymagania systemowe: Adobe Reader. — Bibliogr. s. 11–12, Abstr.. — Publikacja dostępna online od: 2021-01-30. — EPQU2020 : 12th international conference on Electrical Power Quality and Utilization : 20–22 April 2020, [virtual]. — tekst: https://www.mdpi.com/1996-1073/14/3/725/htm",
+    "Grzegorz SIEKLUCKI Optimization of observation in a two-mass system – dual LQ problem // W: SME 2018 [Dokument elektroniczny] : 2018 international Symposium on Electrical Machines : LIV Sympozjum Maszyn Elektrycznych : Andrychów, Poland, 10–13 June 2018. — Wersja do Windows. — Dane tekstowe. — [Piscataway] : IEEE, cop. 2018. — Dod.: ISBN 9781538652091 (USB). — ISBN: 9781538652114 ; e-ISBN: 978-1-5386-5210-7. — S. 1–6. — Wymagania systemowe: Adobe Reader. — Bibliogr. s. 6, Abstr.. — tekst: https://ieeexplore-1ieee-1org-1000047cx01c2.wbg2.bg.agh.edu.pl/stamp/stamp.jsp?tp=&arnumber=8442808",
+    "Grzegorz SIEKLUCKI, Dawid KARA Design and modelling of energy conversion with the two-region torque control of a PMSM in an EV powertrain // Energies [Dokument elektroniczny]. ISSN 1996-1073. — 2022 vol. 15 iss. 13 art. no. 4887, s. 1–18. — tekst: https://www.mdpi.com/1996-1073/15/13/4887/pdf?version=1656934877"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03183.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/4f87e87f-283f-4ebc-8645-6501a93e106e.html",
+  "source_language": "pl",
+  "source_sha256": "def2cdc4dd18a385bdfeca3f7ce14ab31d07022811f7500c9bfa67fe142d6967",
+  "extracted_at": "2026-11-20T09:03:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

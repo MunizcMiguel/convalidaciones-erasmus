@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Electrical Power Systems",
+  "course_name_en": "Electrical Power Systems",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands the role of the Polish electrical power system for the transmission and distribution of electrical energy.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Has knowledge about creating steady-state models for the electrical power system.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands methods of analyzing the electrical power system in steady states.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows and understands the necessity of active power and frequency regulation, as well as reactive power and voltage regulation in the electrical power system.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Can prepare data and build a model of a part of the electrical power system for steady-state analysis.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can perform calculations of the electrical power system operation in steady states using dedicated computational programs.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can work individually and in a team when performing a project task.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is aware of the need to adapt their competencies to dynamic changes occurring in the electricity sector.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Principles of modeling an electrical power system for steady-state analysis.",
+    "Techniques for calculating power flow in any closed network, part I",
+    "Techniques for calculating power flow in any closed network, part II",
+    "Application of modern computational tools for modeling and analyzing the operating conditions of an electrical power system.",
+    "Voltage and reactive power regulation in an electrical power system.",
+    "Frequency and active power regulation in an electrical power system.",
+    "Short-circuit calculations in an electrical power system.",
+    "Optimization of steady states of the electrical power system.",
+    "Project task involves modeling and analyzing the operating conditions of a small electrical power system. As part of the project, it is necessary to: Build a model of the analyzed system for steady-state calculations. Perform multi-variant power flow analyses to assess operating conditions across the full spectrum of load states. Consider the issue of active power balancing and frequency regulation in the studied system. Implement a P-f regulation system in the created system model. Consider issues of voltage regulation and reactive power balancing in the studied system. Implement a U-Q regulation system in the created system model. Modern simulation package designed for electrical power system analysis is expected to be used for this task.",
+    "Introductory information and characteristics of the electrical power system",
+    "Characteristics and tasks of the electrical power system. Operating conditions. Load variability and system balancing. Steady state of the electrical power system. Quantities describing the system and their relations. International context.",
+    "Modeling of EPS elements for steady-state analysis. Application of relative units for system calculations. Principles of modeling system elements for steady-state calculations. Modeling of sources. Modeling of networks. Modeling of loads.",
+    "Steady-state analysis - problem formulation. Power flow as a mathematical problem. Single-phase representation of a three-phase network. Load and generation vector. Balancing node. Nodal equations. Iterative formula for solving the problem. Types of nodes used in power flow calculations.",
+    "Steady-state analysis - methods of solving the problem. Idea of the Gauss method. Modifications of the Gauss method. Idea of the Newton method. Numerical properties of the methods. Start and stop of the iterative algorithm. Practical algorithms for calculating power flow in EPS. Tools for power flow analysis in EPS. Example of a modern simulation package enabling power flow analysis. Remarks on modeling large electrical power systems. Modeling of generation units, networks, network transformers, and loads. Control of the iterative process and principles of system balancing. Derivation and analysis of calculation results.",
+    "Issues of voltage and reactive power regulation in EPS. Conditions and specificity of the object. Basic methods of influencing nodal voltage levels. Goals of voltage regulation. Natural power of HV lines. Reactive power balance of EPS. Means of voltage regulation. Automatic group regulation systems ARNE and ARST. Hierarchical architecture of the voltage regulation system in EPS. The problem of optimizing voltage levels in EPS.",
+    "Issues of frequency and active power regulation in EPS. Frequency characteristics of complex load. Static characteristics of generation units. Statism. Essence of regulation. Primary, secondary, and tertiary regulation. Requirements for generation units. Characteristics of the frequency and exchange power regulation system ARCM (LFC). Regulation reserves. International cooperation ENTSO-E.",
+    "Selected issues of short-circuit calculations in EPS. Types of short-circuits and basics of short-circuit calculations. Thevenin's theorem for calculating symmetrical short-circuit currents. Creation of the short-circuit admittance matrix. Calculation of symmetrical short-circuits using the short-circuit admittance matrix. Asymmetrical short-circuits. Symmetrical components. Use of simulation tools for short-circuit calculations.",
+    "Optimization of EPS operation - system balancing under market conditions. Classical problem of economic load dispatch (ELD). Functioning of the system in the electricity market. Basic architecture of the wholesale electricity market. Balancing market. Regulatory system services. Security, reliability, and international conditions of EPS operation. Operational planning and operation of EPS. Requirements for security and reliability of EPS. Outage analyses and reliability assessment of EPS using modern simulation tools. Interconnection exchange. Operational cooperation of interconnected power systems in Europe (ENTSO-E). Requirements of cooperation standards. Network codes."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Group work",
+    "Laboratory classes",
+    "Project classes"
+  ],
+  "workload_hours_total": 110.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Engineering project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Laboratory classes are credited based on presenting a solution to the given problem. Completion of the module is possible after passing all laboratory classes. For project classes, the method of project execution and the final effect are assessed.",
+  "bibliography": [
+    "1.Kremens Z., Sobierajski M.: Analiza systemów elektroenergetycznych. WNT, Warszawa 1996.",
+    "2.Helman W., Szczerba Z.: Regulacja częstotliwości i napięcia w systemie elektroenergetycznym, WNT, Warszawa, 1978.",
+    "3.Machowski J.: Regulacja i stabilność systemu elektroenergetycznego, Oficyna Wydawnicza Politechniki Warszawskiej, 2007.",
+    "4.Bernas S.: Systemy elektroenergetyczne. WNT, Warszawa 1982.",
+    "5.Kujszczyk Sz. i współaut.: Elektroenergetyczne układy przesyłowe. WNT, Warszawa 1997.",
+    "1. Bilans i zapotrzebowanie mocy biernej w Krajowym Systemie Elektroenergetycznym. Acta Energetica No 14 (1/2013) pp. 68–71",
+    "2. Handbook of Power Quality edited by Angelo Baggini: Hermina Albert, Nicolae Golovanov, Aleksander Kot, Janusz Brożek chapter 1 Frequency Variations, pp 1 – 29, John Wiley & Sons Ltd., 2008"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.02949.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/d57c2aee-e670-4fe6-8c9b-5bf424514a13.html",
+  "source_language": "pl",
+  "source_sha256": "200e1563df33eb2a214709e109a3ce484ee9e1c4a9200e95a1e5a913a2690bda",
+  "extracted_at": "2026-11-20T09:03:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

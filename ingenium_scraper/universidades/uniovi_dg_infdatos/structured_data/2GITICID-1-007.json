@@ -1,0 +1,126 @@
+{
+  "course_name_original": "Fundamentos de Computadores y Redes",
+  "course_name_en": "Fundamentals of Computers and Networks",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Fundamentos de Informática",
+    "Introducción a la programación",
+    "Metodología de la Programación"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the representation of information in computers.",
+      "type": "knowledge",
+      "code": "PF1"
+    },
+    {
+      "text": "Know how the different subsystems of a computer (processor, memory and input/output) work.",
+      "type": "knowledge",
+      "code": "PF2"
+    },
+    {
+      "text": "Write simple programs in assembly language.",
+      "type": "skill",
+      "code": "PF3"
+    },
+    {
+      "text": "Know at a basic level how computers interconnect to form computer networks.",
+      "type": "knowledge",
+      "code": "PF4"
+    },
+    {
+      "text": "Knowledge of the structure, organization, functioning of computer systems and their application for solving engineering problems.",
+      "type": "competence",
+      "code": "EFB5.1"
+    },
+    {
+      "text": "Knowledge of the interconnection of computer systems and their application for solving engineering problems.",
+      "type": "competence",
+      "code": "EFB5.2"
+    },
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "competence",
+      "code": "GTR1"
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Digital information",
+    "Topic 2. Digital systems",
+    "Topic 3: Computer organization",
+    "Topic 4: The machine language",
+    "Topic 5: The processor",
+    "Topic 6: The memory system",
+    "Topic 7: Input/Output",
+    "Topic 8: Networks and protocols",
+    "Topic 9: Local area networks",
+    "Topic 10: Internet",
+    "Block 1. Digital information",
+    "Block 2. Digital systems",
+    "Block 3. The machine language",
+    "Block 4. The processor",
+    "Block 5. The input/output system",
+    "Block 6. Computer networks"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment of the theoretical part (NTeo)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment of the practical part (NPrac)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual project (NPro)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary calls, the final grade (NotaConvOrdinaria) is 0.5 * NTeo + 0.4 * NPrac + 0.1 * NPro, provided NTeo is >= 4.0; otherwise, it is the minimum of 4.5 and the formula result. A minimum active attendance of 80% to laboratory practices and group tutorials is required for NPrac. For extraordinary calls, an explicit theory exam (NExTeo) and practical exam (NExPrac) are required, with NExTeo needing to be >= 5.0 to pass, and NPrac can be retained if it was > 5.0 from the course. For differentiated evaluation, a final theory exam (NDifTeo) and practical exam (NDifPrac) are mandatory, with NDifTeo needing to be >= 5.0 to take the practical exam; the final grade is 0.5 * NDifTeo + 0.5 * NDifPrac. Fraudulent activity in any assessment will result in a 0 for that call.",
+  "bibliography": [
+    "J. Entrialgo, J.C. Granda, J.M. López, J. Molleda, J.R. Arias, R. Usamentiaga, M. García y J.L. Díaz. Computadores y Redes. Servicio de Publicaciones de la Universidad de Oviedo, 2016, ISBN: 978-84-16664-37-5. E-book, ISBN: 978-84-18482-13-7.",
+    "J. Entrialgo, J.C. Granda, J.M. López, J. Molleda, J.R. Arias, R. Usamentiaga, M. García y J.L. Díaz. Computers and Networks. Servicio de Publicaciones de la Universidad de Oviedo, 2018, ISBN: 978-84-16664-86-3. Ebook, ISBN: 978-84-16664-88-7.",
+    "R. Usamentiaga, J. Entrialgo y J. Molleda. Ejercicios de ensamblador para la arquitectura x86-32. Ediuno. Ediciones de la Universidad de Oviedo, 2008, págs. 1-166. ISBN: 84-8317-661-D",
+    "J. García, M. Garcia, J.L. Díaz, J.R. Arias, F.J. Suárez y D.F. García. Ejercicios de fundamentos de computadores y periféricos. Universidad de Oviedo, 2006. ISBN: 8483175614",
+    "V.C. Hamacher, Z.G. Vranesic, S.G. Zaky, M.L.F. García y G.Q. Vieyra. Organización de computadoras. McGraw-Hill, 1987. ISBN: 9684220588 [4]",
+    "D.A. Patterson y J.L. Hennessy. Estructura y diseño de computadores. Reverté, 2000. ISBN: 8429126163",
+    "W. Stallings. Comunicaciones y redes de computadores. Prentice Hall, 2004",
+    "Pedro De Miguel. Fundamentos de los Computadores. Paraninfo, 2004",
+    "J.M. Angulo. Introducción a los computadores. Paraninfo, 2001",
+    "W. Stallings y A.C. Vargas. Organización y arquitectura de computadores: diseño para optimizar prestaciones. Prentice Hall, 2001. ISBN: 978-8420529936",
+    "Intel. 80386 Guía del programador y Manual de referencia. Anaya, 1989. ISBN: 84-7614- 193-9"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-1-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-1-007",
+  "source_language": "es",
+  "source_sha256": "962bc03d08217a61e7425d9e944d550d50ccbc631fc9d597a1e7d50402ce330c",
+  "extracted_at": "2026-11-20T05:57:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

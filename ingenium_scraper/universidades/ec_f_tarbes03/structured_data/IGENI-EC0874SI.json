@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Automatique Avancée",
+  "course_name_en": "Advanced Automatic Control",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "modeling of linear systems with transfer functions"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "understand when to use multivariable robust control techniques",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "model uncertainties and extract them from systems models",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "design robust control for linear multivariable systems",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "analyse the robustness in stability and in performances of a closed-loop system",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "reduce the order of a complex linear controller",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Preliminaries: modeling linear systems, systems control and structures, stability and margins, standard forms.",
+    "Uncertainties modeling: structured and non-structured uncertainties, uncertainties representation, standard forms.",
+    "Robustness, stability and performances: interconnected systems, generalized standard forms and LFT, small gain theorem and its extensions/derivatives, robust performances, the mu-synthesis problem.",
+    "Standard H-infinity: sub-optimal problem and optimal problem, 4-blocks problem, mixed sensitivity case, resolution of the standard H-inf problem.",
+    "Orders reduction",
+    "Introduction to interval control.",
+    "Labs in the form of full project on a benchmark per team of two: experimental characterization, modeling, identification, choice of specifications, design of classical and then robust controllers, simulation and implementation study, implementation of the controllers, order reduction, specifications modification and re-design of controllers.",
+    "Project related to the topics of the course."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorial on computer",
+    "Practical Labs",
+    "Project work"
+  ],
+  "workload_hours_total": 43.0,
+  "workload_hours_contact": 37.0,
+  "assessment_methods": [
+    {
+      "method": "RAP1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "PJ1",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*RAP1+1*PJ1)/2.",
+  "bibliography": [
+    "Commande h∞ et µ-analyse , Gilles Duc and Stéphane Font, Hermès, ISBN 2-7462-0041-4, 1999.",
+    "Essentials of robust control, Kemin Zhou and John C. Doyle, ISBN: 0135258332, Pearson, 1997."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0874SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "70ed96abff81cdc8bbded7e0ff83ec606fc4d7256df60af1abdc7da91150df8e",
+  "extracted_at": "2026-11-18T10:00:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

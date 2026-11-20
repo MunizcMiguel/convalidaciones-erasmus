@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Recherche opérationnelle",
+  "course_name_en": "Operations Research",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Industrial management courses from S1 and S4"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Modelling optimisation problems: Translating practical problems (production management, resource allocation, logistics, etc.) into mathematical models in the form of linear programmes or networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Algorithmic problem solving: Rigorously apply algorithmic methods to find optimal solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analysis and interpretation: Interpret and evaluate the solutions obtained.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the theoretical fundamentals of linear optimisation: explain the principles of linear programming, in particular the notions of feasible solution, optimal solution, duality.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Model an optimisation problem in the form of a linear programme or a network: identify the variables, the constraints, the objective function and construct a mathematical model based on a concrete situation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply appropriate solving methods: use the simplex method to solve a linear program, maximum flow algorithms and minimum cost maximum flow algorithms to solve a problem modelled as a transport network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyse and interpret post-optimisation results: identify the variables that have a critical impact on the solution, assess the model's sensitivity to parameter variations.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to operational research",
+    "Definitions and history of OR",
+    "Concrete examples of applications (logistics, production, transport, finance, etc.)",
+    "Typical steps in an optimisation process (modelling, resolution, interpretation)",
+    "Linear Programming",
+    "Structure of a linear program (LP): variables, constraints, objective function",
+    "Examples of modelling: production, portfolio, product mix, ...",
+    "Simplex method: graphical method, principle and steps of the tabular method",
+    "Duality: formulation of the dual problem, economic interpretation",
+    "Notions of sensitivity: robustness of the solution",
+    "Flows and transport networks",
+    "Elements of graph theory - Notion of transport network / flow problems",
+    "Solving simple maximum flow problems (graph by hand)",
+    "Maximum flow problem: Ford-Fulkerson algorithm",
+    "Maximum flow problem with minimum cost: Roy algorithm"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 15.5,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1.",
+  "bibliography": [
+    "\"Programmation Linéaire\" by Michel Minoux (Annales des Télécommunications / Hermes Science Publications)",
+    "\"Théorie des Graphes et Applications\" by Michel Gondran and Michel Minoux (Eyrolles)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0551",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "63ae18ace71c1f9505dc2e1f54eee3491c086e9edc6b57154b7b70c986acf8c1",
+  "extracted_at": "2026-11-18T09:52:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

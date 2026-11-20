@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Matemáticas ii (248110)",
+  "course_name_en": "Mathematics ii",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "eu"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Handle the basic concepts of differential calculus in several real variables: Gradient, Divergence, Curl, Stokes' Theorem.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Understand the basic concepts of Integral Calculus in one and several real variables. Determine curve lengths, surface areas, body volumes, etc., using Integral Calculus techniques. Know numerical differentiation and integration techniques.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "Be able to apply Calculus to examples typical of Engineering.",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning and to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering in the specific Mechanical technology.",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Possess the ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithmics; statistics and optimization.",
+      "type": "skill",
+      "code": "CFB1"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Differential Calculus in Rn.",
+    "Basic concepts of scalar and vector functions of several variables.",
+    "Limits and continuity.",
+    "Directional and partial derivatives. Jacobian matrix and gradient vector.",
+    "Differentiability. Chain rule.",
+    "Higher-order derivatives. Hessian matrix.",
+    "Taylor polynomials.",
+    "Optimization: relative, conditional, and absolute extrema.",
+    "Topic 2. Integral Calculus of functions of one variable.",
+    "The Riemann integral.",
+    "Fundamental Theorem of Calculus. Barrow's rule.",
+    "Integration by parts. Changes of variable.",
+    "Improper and parametric integrals.",
+    "Applications",
+    "Topic 3. Integral Calculus in Rn.",
+    "Double and triple integrals.",
+    "Integrals over curves and surfaces.",
+    "Applications.",
+    "Topic 4. Vector Calculus.",
+    "Vector fields.",
+    "Integrals of fields.",
+    "Flux integrals.",
+    "Applications."
+  ],
+  "teaching_methods": [
+    "Expository/participatory classes",
+    "Practical sessions",
+    "Student self-study and autonomous work",
+    "Tutorials and evaluation tests"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 75.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam on Topic 1",
+      "weight_percentage": 33.0
+    },
+    {
+      "method": "Written exam on Topic 2",
+      "weight_percentage": 29.0
+    },
+    {
+      "method": "Written exam on Topics 3 and 4",
+      "weight_percentage": 38.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on three written exams: Topic 1 (33%), Topic 2 (29%), and Topics 3 and 4 (38%). All exams are recuperable. No minimum grade is required for individual components.",
+  "bibliography": [
+    "R. E. Larson y B. Edwards: Cálculo 1 de una variable. McGraw-Hill",
+    "R. E. Larson y B. Edwards: Cálculo 2 de varias variables. McGraw-Hill",
+    "J. Stewart: Cálculo de una variable. Cengage Learning",
+    "J. Stewart: Cálculo multivariable. Cengage Learning"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad Pública de Navarra",
+  "institution_slug": "es_publica_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "248110",
+  "academic_year": "2026-27",
+  "source_url": "https://www.unavarra.es/ficha-asignaturaDOA?idioma=es&codAsig=248110",
+  "source_language": "es",
+  "source_sha256": "5ad3a62db5c318e8b585e9a27dd02d7bcad113b315551d3398313dcedd7957fe",
+  "extracted_at": "2026-11-13T22:41:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

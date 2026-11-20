@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Connected Systems",
+  "course_name_en": "Connected Systems",
+  "ects": 5.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic understanding of computer science and electrical engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can apply the system concept to distributed mechatronic systems and incorporate system-theoretical considerations during design, creation, and use. They are able to define requirements for secure and reliable communication and select appropriate technologies. Students know a range of common IT components of distributed systems and can explain their performance characteristics. They also know selected digital tools for collaborative development, distribution, and operation (lifecycle management) of distributed systems and can apply them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "From the factual knowledge of this and previous courses, students derive the technical and organizational competence to carry out the practical project accompanying the lecture. They can derive the architecture and fine structure of a distributed, communicative system from a rough requirement sketch and with the help of their own experiences. They are able to implement and commission this system using the methods and tools learned in the lecture. Students can later transfer all procedures to topics of professional reality and apply them analogously.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students of this study program acquire the competence to design distributed communicative systems. They apply market-standard and state-of-the-art procedures and technologies.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Furthermore, students will be enabled to continuously update their knowledge and to understand and analyze new developments in their field. This enables them to adapt flexibly to new challenges and to apply their knowledge in practice. Students learn to evaluate and reflect on their own actions from both a technical and socio-economic perspective.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Architectural design patterns for distributed secure systems",
+    "Internal and external binding, system boundaries and system cut, interfaces",
+    "Description of the case study accompanying the lecture",
+    "Secure and reliable communication",
+    "Communication concepts (Pub-Sub, Server-Client, Master-Slave, Announce, Self Discovery, Peer2Peer)",
+    "Wireless communication technologies (focus M2M, e.g., LoRaWan, NB-IoT)",
+    "Building blocks of large distributed systems",
+    "Authentication services (e.g., Google, Shibboleth)",
+    "Databases (e.g., relational/SQL, Key-Value/Redis)",
+    "Message Hubs (e.g., MQTT Mosquitto)",
+    "Business Logic Hosts (e.g., Node Red)",
+    "Digital tools for collaborative development, distribution, and operation (Lifecycle Management) of distributed systems",
+    "Model Based System Engineering",
+    "Concepts of version control (Git, SVN)",
+    "Collaboration tools (Jira or similar)",
+    "Virtualization / Containerization",
+    "Test concepts for distributed systems",
+    "Guiding concepts for sustainable products",
+    "Guiding concept \"Retrofit\"",
+    "Guiding concept \"Design for Recycling\"",
+    "Guiding concept \"Event Based Processing\""
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Term paper",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is a term paper of approximately 20 pages. The workload for creating assessment services is 75 hours.",
+  "bibliography": [
+    "Script and various internet sources"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_osnabru02__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "11M2204",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/MMB/StO2025_Stand2026-03-02_MSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "9061b3302d851ef818b91c4fa63f4944d09a787d5bba710420225bc1db3d531c",
+  "extracted_at": "2026-11-20T12:34:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

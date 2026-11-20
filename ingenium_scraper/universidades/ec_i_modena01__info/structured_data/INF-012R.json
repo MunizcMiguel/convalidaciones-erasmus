@@ -1,0 +1,124 @@
+{
+  "course_name_original": "Digital Systems Electronics (INF-012R)",
+  "course_name_en": "Digital Systems Electronics",
+  "ects": 9.0,
+  "semester": "Second Half-Year Cycle",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Analisi Matematica I",
+    "Foundational knowledge in computer science (Boolean algebra)",
+    "Basic notions of Physics, with emphasis on electricity, resistors, capacitors, circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic concepts of electrical circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the basic concepts of semiconductor devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the concept of amplification and main operational amplifier applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the concept of logical inverter and its performance.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the basic digital CMOS circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the different types of semiconductor memories.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze electrical circuits under DC and transient operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze basic diode circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze circuits with operational amplifiers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to analyze basic CMOS digital circuits and the mutual constrains arising from their interconnections.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to autonomously judge the adequacy of a particular component for digital circuits to satisfy assigned specifications expressed through the main and most common performance metrics for digital circuits.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to communicate in Italian with third party experts in the sector regarding the functions and performance of digital circuits",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to learn how new digital circuits work and compare them with those learned in the course.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Electrical circuits: generators (voltage/current, indipendent/controlled), resistor, capacitor, parallelel/serier connections, Kirchoff's laws, Thevenin's and Norton's theorems. Electric power.",
+    "Semiconductor devices: junction diode.",
+    "Operational amplifiers: concept and applications.",
+    "MOS transistor",
+    "Inverter: operating principle (ratioed, static, dynamic), figures of merit, power consumption.",
+    "CMOS circuits: combinational and elements of sequential logic circuits.",
+    "Semiconductor memories: operating principles of ROM, OTP, static and dynamic RAM and non volatile flash memories.",
+    "Interconnects."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (theoretical questions and simple exercises)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final written exam includes theoretical questions and simple exercises, organized into two parts (one for basic circuit analog and one for digital electronics topics). Each part is 1 hour and has 4-7 questions/exercises. The maximum score is 33 points, and the evaluation considers the gravity of errors and the class's average performance.",
+  "bibliography": [
+    "Lecture notes available on Teams",
+    "J.M. Rabaey, A. Chandrakasan, B. Nikolic. Circuiti integrati digitali, seconda edizione, Pearson/Prentice Hall, 2005. (also available in english edition, useful for the digital electronics part)",
+    "N. Storey. Electronics-A system approach, Fifth edition, Pearson, 2013. (for the analog electronics part)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia — Ingegneria Informatica (MO)",
+  "institution_slug": "ec_i_modena01__info",
+  "degree": "Laurea in Ingegneria Informatica (Mo) (Computer Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "INF-012R",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=29459&ordinamento_aa=2025&af_percorso=10001&corso_cod=10926&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "1711cb84a598d5f64505980a82a6a773c55c4acdacdbac0a8f46e17e191d9a71",
+  "extracted_at": "2026-11-20T12:42:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

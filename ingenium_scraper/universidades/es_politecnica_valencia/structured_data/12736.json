@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Aplicaciones Industriales de la Tecnología Eléctrica (12736)",
+  "course_name_en": "Industrial Applications of Electrical Technology",
+  "ects": 4.0,
+  "semester": "1",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Fundamentals of electricity and electromagnetism acquired in previous courses.",
+    "Basic knowledge of electrical machines and power generation and distribution systems.",
+    "Handling of electrical units (active, reactive, and apparent power, cos φ, efficiency).",
+    "Notions of electrical safety and basic low-voltage regulations."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply current regulations (REBT and ITC-BT) in the design and verification of low-voltage electrical installations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Size conductors and protections in connection installations, individual feeders, and interior residential installations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Prepare load forecasts and design the complete electrical installation of a residential building.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design isolated photovoltaic solar installations, calculating modules, batteries, regulators, and inverters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Draft and present the technical documentation of an electrical project, working collaboratively and defending adopted technical decisions.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Chapter 1. General concepts and basic regulations",
+    "Chapter 2. Electrical equipment (switching, protection, measurement, and apparatus)",
+    "Chapter 3. Load forecasting and design of low-voltage electrical installations",
+    "3.1. General Protection Box (CGP).",
+    "3.2. Main Supply Line (LGA).",
+    "3.3. Meter centralization.",
+    "3.4. Individual Feeders (DI).",
+    "3.5. Interior residential installations.",
+    "Chapter 4. Earthing installations",
+    "Chapter 5. Calculation of cross-sections and selection of protections",
+    "Chapter 6. Photovoltaic solar installations"
+  ],
+  "teaching_methods": [
+    "Expository lectures",
+    "Problem-solving in class",
+    "Group project development (Project 1: complete design of the electrical installation of a residential building; Project 2: design of a small-scale isolated photovoltaic solar installation)",
+    "Collective and individual tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Academic assignments",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "First partial written test",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Second partial written test",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The final grade (N_F) is calculated as: N_F = 0.3·N_TA + 0.4·N_P1 + 0.3·N_P2, where N_TA is the average of academic assignments, N_P1 is the first partial written test, and N_P2 is the second partial written test. To pass, N_F must be ≥ 5, and both N_P1 and N_P2 (or the final exam N_EX in resit) must be ≥ 4. If these conditions are not met, the course is failed; if attending the exam, the final grade will be N_F with a maximum of 4. In the second sitting (resit), N_TA is maintained, and other grades can be recovered via a written exam (N_EX) which must be ≥ 4. The resit final grade is calculated as: N_F = 0.3·N_TA + 0.7·N_EX.",
+  "bibliography": [
+    "REBT: Reglamento Electrotécnico para Baja Tensión e Instrucciones Técnicas Complementarias / Ministerio de Industria y Energía. Disponible en Biblioteca Florida Universitaria: https://biblioteca.florida.es/sophia/index.asp?codigo_sophia=9283"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universitat Politècnica de València",
+  "institution_slug": "es_politecnica_valencia",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "12736",
+  "academic_year": "2026-27",
+  "source_url": "https://guiasdocentes.floridauniversitaria.es/2627_4GIE-AppIndTecnologiaElectrica.pdf",
+  "source_language": "es",
+  "source_sha256": "f2a8e63adebbe7e30288889172bf4734223dac485ecbd5d1dfee34d1d17ab2c1",
+  "extracted_at": "2026-11-13T20:38:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

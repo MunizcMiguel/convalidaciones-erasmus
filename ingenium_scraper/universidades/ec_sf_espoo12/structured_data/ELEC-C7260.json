@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Programming Networked Systems",
+  "course_name_en": "Programming Networked Systems",
+  "ects": 5.0,
+  "semester": "Autumn I - II",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "ELEC-C7241 Tietokoneverkot, ELEC-C7420 Basic principles in Networking, or similar elementary computer networks course",
+    "Basic programming skills (e.g. using C or Python)",
+    "Linux/Unix basic skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explain how core Internet protocols (DNS, HTTP, TCP, UDP) support networked applications",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Implement client-server systems using sockets, including concurrent servers",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Compare approaches to concurrency: processes, threads, asynchronous runtimes and their performance implications",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply basic security mechanisms such as TLS to protect communication",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Design and implement a networked application project",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Operation of basic Internet protocols",
+    "Socket programming at client and server",
+    "Handling concurrency and asynchronous runtimes",
+    "Using containers to deploy the network applications",
+    "Security in network programming, for example TLS"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Aalto University",
+  "institution_slug": "ec_sf_espoo12",
+  "degree": "Bachelor's Programme in Electrical Engineering (ELEC1)",
+  "course_code": "ELEC-C7260",
+  "academic_year": "2025-2026",
+  "source_url": "https://sisu.aalto.fi/kori/api/course-units/by-group-id?groupId=aalto-CU-1151000889&universityId=aalto-yliopisto",
+  "source_language": "en",
+  "source_sha256": "08bf1f5090e6b42e490300e03bedf763a24fb8fb3614d8fcfde903d90c3300b0",
+  "extracted_at": "2026-11-20T09:09:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

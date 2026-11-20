@@ -1,0 +1,194 @@
+{
+  "course_name_original": "Señales y Sistemas",
+  "course_name_en": "Signals and Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Relate the theory of signals and systems within the algebraic theory of signal spaces and operator spaces.",
+      "type": "unspecified",
+      "code": "RA-6.1"
+    },
+    {
+      "text": "Apply general theory to both traditional system analysis and mathematical modeling of physical problems.",
+      "type": "unspecified",
+      "code": "RA-6.2"
+    },
+    {
+      "text": "Manage the general concept of transformation and frame the particular transformations addressed in the course within this concept.",
+      "type": "unspecified",
+      "code": "RA-6.3"
+    },
+    {
+      "text": "Relate - establishing similarities and differences - discrete and continuous variable signal spaces with their associated usual algebra, as well as work with signal parameters associated with each signal space.",
+      "type": "unspecified",
+      "code": "RA-6.4"
+    },
+    {
+      "text": "Understand the particularization of general algebraic analysis to the case of continuous variable signals and systems, comprehending the need to introduce mathematical concepts associated with these spaces such as the theory of distributions or generalized functions.",
+      "type": "unspecified",
+      "code": "RA-6.5"
+    },
+    {
+      "text": "Understand, apply and operate the theory of signals and systems in continuous variable: theory of distributions, Fourier series expansion, Fourier transform and Laplace transform seen as particular cases of the general definition of transformation, as well as the spectral analysis of systems associated with these transformations, including simple examples of circuit analysis, modulations, filtering, etc.",
+      "type": "unspecified",
+      "code": "RA-6.6"
+    },
+    {
+      "text": "Understand, apply and operate the theory of signals and systems in discrete variable: Fourier series expansion, Fourier transform and Z-transform seen as particular cases of the general definition of transformation, as well as the spectral analysis of systems associated with these transformations, including simple examples of discrete systems.",
+      "type": "unspecified",
+      "code": "RA-6.7"
+    },
+    {
+      "text": "Be able to operate in both continuous and discrete variables, understanding the relationship between both signal spaces.",
+      "type": "unspecified",
+      "code": "RA-6.8"
+    },
+    {
+      "text": "Be able to apply the concepts of ideal signal sampling to relate both continuous and discrete variable signals and systems, as well as the transformed domains previously analyzed in continuous and discrete variables, and design simple continuous systems in terms of discrete systems.",
+      "type": "unspecified",
+      "code": "RA-6.9"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the subject",
+    "Relationship between algebra/calculus and signal and system theory",
+    "Overview of the subject",
+    "Function (signal) spaces",
+    "Definition of signals",
+    "Review of vector spaces and particularization of signal spaces",
+    "Classification of signals",
+    "Practical parameters for signal characterization",
+    "Basic operations with signals",
+    "Operator (system) spaces",
+    "Summary of applications",
+    "Operators (systems) on signal spaces",
+    "System properties",
+    "The convolution operation",
+    "Correlation of deterministic signals",
+    "Final considerations",
+    "Important starting signals",
+    "Periodic signals",
+    "Aperiodic signals",
+    "Complex exponentials",
+    "Introduction to distribution theory",
+    "Introduction and general definition",
+    "Definition of Dirac delta and physical meaning",
+    "Relationship of Dirac delta with step function",
+    "Operations with distributions (derivatives, convolutions, product and system resolution)",
+    "Summary of properties",
+    "Periodic signals: Fourier series expansion (DSF)",
+    "Definition of DSF",
+    "Convergence of DSF",
+    "Properties of DSF",
+    "Examples of DSF",
+    "Relationship of DSF with linear and invariant systems",
+    "Aperiodic signals: Fourier transform (TF)",
+    "Definition of TF",
+    "Convergence of TF",
+    "Properties of TF",
+    "Examples of TF",
+    "Relationship between TF and linear and invariant systems",
+    "Spectral energy and power density for deterministic signals",
+    "Bandwidth",
+    "Important starting signals",
+    "Periodic signals",
+    "Aperiodic signals",
+    "Periodic signals: Fourier series expansion (DSF) of discrete signals",
+    "Definition of DSF for discrete variable signals",
+    "Convergence of DSF for discrete variable signals",
+    "Properties of DSF for discrete variable signals",
+    "Examples of DSF for discrete variable signals",
+    "Relationship of DSF with linear and invariant systems",
+    "Aperiodic signals: Fourier transform (TF) of discrete signals",
+    "Definition of TF for discrete variable signals",
+    "Convergence of TF for discrete variable signals",
+    "Properties of TF for discrete variable signals",
+    "Examples of TF for discrete variable signals",
+    "Relationship of TF with linear and invariant systems",
+    "The Discrete Fourier Transform (DFT)",
+    "Continuous and discrete variable signals and systems",
+    "Sampling and reconstruction of continuous variable signals",
+    "Modeling a continuous LTI system using a discrete LTI system",
+    "Continuous variable: the Laplace transform",
+    "Discrete variable: the Z-transform"
+  ],
+  "teaching_methods": [
+    "Lectures (Clases Expositivas)",
+    "Laboratory Practices (Prácticas de Laboratorio)",
+    "Group Tutorials (Tutorías Grupales)",
+    "Classroom Practices/Seminars (Prácticas de Aula/Semina)",
+    "Whiteboard teaching",
+    "Transparencies and/or other computer-based aids",
+    "Software tools (MATLAB, GSST)",
+    "Hardware tools",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Ordinary call exam (Bloque teórico: EXO)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Evaluable classroom practice (PAE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Compensation for evaluable classroom practice (CPAE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practice start test (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practice start test (T2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final theoretical block grade (BT) is the exam grade (EXO). The final classroom practice grade (BPA) is min(10, PAE + 0.3xCPAE). The final laboratory practice grade (BPL) is 0.35x(0.8xP1 + 0.2T1) + 0.65x(0.8xP2 + 0.2xT2). The final grade is calculated as 0.7xBT + 0.1xBPA + 0.2xBPL. For the extraordinary call, there is a single theoretical exam (EXE), an classroom practice exam (EPA), and a laboratory practice exam (EPL). By default, the BPA and BPL grades from the ordinary call are kept, unless the student takes the EPA or EPL, respectively. The final grade is 0.7xEXE + 0.1xEPA + 0.2xEPL. No grades from previous courses are considered, and grades from the current course are not saved for subsequent courses.",
+  "bibliography": [
+    "E. Gago-Ribas. Señales y Sistemas Escalares Unidimensionales de Variable Real. Vol. ST-I. Edición previa en forma de apuntes. GR Editores, S.L. (fuera de edición), 2002. (Campus Virtual)",
+    "E. Gago-Ribas. Señales y Sistemas Escalares Unidimensionales de Variable Real. Ejercicios Resueltos. Vol. ST-II. GR Editores, S.L., León, 2009. http://www.greditores.com/",
+    "A. V. Oppenheim, A. S. Willsky, I. T. Young. Signals and Systems (2nd. Ed.), Prentice-Hall International, 1997.",
+    "Samir S. Soliman, Mandyam D. Srinath, Señales y Sistemas Continuos y Discretos, Prentice-Hall International, segunda edición, 1992.",
+    "S. S. Haykin, B. Van Veen, Señales y sistemas, John Wiley and Sons, 2001.",
+    "C. Gasquet y P. Witomski, Fourier analysis and applications, Springer, 1999.",
+    "A. V. Oppenheim, R. W. Schafer, Digital Signal Processing, Pearson, 1975.",
+    "A. D. Poularikas, S. Seeley. Signals and Systems. PWS Publishers, 1985.",
+    "Contenidos recogidos en el “Campus Virtual” de la Universidad de Oviedo.",
+    "Software MATLAB.",
+    "M. Abramowitz & I. A. Stegun. Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables. Dover Publications, Inc., 1972.",
+    "M. R. Spiegel, J. Liu, L. Abellanas. Fórmulas y Tablas de Matemática Aplicada. McGraw-Hill. (Segunda Edición), 2000."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-2-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-2-001",
+  "source_language": "es",
+  "source_sha256": "79c42c99d775aa7f5f97db00350f833780f86b9f2c6019e95adaf5ff179d8fc5",
+  "extracted_at": "2026-11-20T06:03:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

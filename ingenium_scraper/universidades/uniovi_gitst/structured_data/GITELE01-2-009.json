@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Programación",
+  "course_name_en": "Programming",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of logic and mathematics",
+    "Knowledge acquired in the \"Fundamentos de Informática\" (Fundamentals of Computer Science) course"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the concept of algorithm and the process of problem abstraction in programming.",
+      "type": "knowledge",
+      "code": "RA-4.15"
+    },
+    {
+      "text": "Identify the program development process and its location within the general Software Engineering process.",
+      "type": "knowledge",
+      "code": "RA-4.16"
+    },
+    {
+      "text": "Recognize the elementary data structures provided by a structured programming language.",
+      "type": "knowledge",
+      "code": "RA-4.17"
+    },
+    {
+      "text": "Manage the elementary control structures of a structured programming language.",
+      "type": "skill",
+      "code": "RA-4.18"
+    },
+    {
+      "text": "Recognize the elementary data structures provided by an object-oriented programming language.",
+      "type": "knowledge",
+      "code": "RA-4.19"
+    },
+    {
+      "text": "Manage the elementary control structures of an object-oriented programming language.",
+      "type": "skill",
+      "code": "RA-4.20"
+    },
+    {
+      "text": "Abstract operations.",
+      "type": "skill",
+      "code": "RA-4.21"
+    },
+    {
+      "text": "Design small applications to solve elementary problems in collaborative work environments.",
+      "type": "skill",
+      "code": "RA-4.22"
+    },
+    {
+      "text": "Describe and interpret basic data structures, such as stacks, queues, and lists.",
+      "type": "knowledge",
+      "code": "RA-4.23"
+    },
+    {
+      "text": "Analyze internal sorting algorithms.",
+      "type": "skill",
+      "code": "RA-4.24"
+    },
+    {
+      "text": "Describe and interpret advanced data structures, such as hashing, trees, and graphs.",
+      "type": "knowledge",
+      "code": "RA-4.25"
+    },
+    {
+      "text": "Program, validate, and optimize algorithm design techniques.",
+      "type": "skill",
+      "code": "RA-4.26"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic programming concepts. Programming in C/C++",
+    "Vectors and pointers",
+    "Object-oriented programming",
+    "Data structures",
+    "Recursion",
+    "Introduction to algorithm design techniques"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Classroom practices/seminars",
+    "Individual work",
+    "Individual tutorials",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P3)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, a minimum grade of 4 out of 10 is required for both the theoretical and practical blocks. The final theory grade is calculated as (0.35 * T1) + (0.65 * T2). The final practical grade is calculated as (0.30 * P1) + (0.30 * P2) + (0.40 * P3). If the minimums are met, the final grade is (0.40 * Theory) + (0.60 * Practices); otherwise, it's the minimum of this calculated grade and 4. For extraordinary assessments, a theoretical exam and a practical exam are taken, with a minimum of 4 points out of 10 required for each; the final grade is then calculated using the same 40/60 weighting, or the minimum of the calculated grade and 4 if the minimums are not met.",
+  "bibliography": [
+    "Deitel, H.M.; Deitel, P.J.: C++, Cómo programar. Novena edición, Prentice-Hall 2014.",
+    "Savitch, W.: Resolución de problemas con C++. Quinta edición, Prentice-Hall, 2007.",
+    "Dale, N.; Weems, C.: Programación y resolución de problemas con C++. Cuarta edición. McGRAW-HILL 2007.",
+    "Brassard, G., Bratley, P.: Fundamentos de Algoritmia. Prentice-Hall, 1997.",
+    "Kernighan, B.W.; Ritchie, D.M.: The C Programming Language. Prentice-Hall, Englewood Cliffs, New Jersey, 1988. Versión Española: El lenguaje de programación C.",
+    "Stroustroup, B.: The C++ Programming Language. Forth edition. Addison-Wesley, 2013",
+    "Additional resources on the course page in the Virtual Campus."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-2-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-2-009",
+  "source_language": "es",
+  "source_sha256": "324141586145960a10b55267991b1b1da16817ea23f080a33a548429560c4125",
+  "extracted_at": "2026-11-20T06:03:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

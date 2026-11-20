@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Componentes en Sistemas Guiados",
+  "course_name_en": "Components in Guided Systems",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear algebra, differential and integral calculus, vector analysis, differential equations.",
+    "Basic concepts of electromagnetic fields and waves.",
+    "Transmission lines and wave propagation."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze the propagation modes in a guided system.",
+      "type": "unspecified",
+      "code": "RA-9.14"
+    },
+    {
+      "text": "Specify the characteristics of a guided system in terms of the propagation properties of its modes.",
+      "type": "unspecified",
+      "code": "RA-9.15"
+    },
+    {
+      "text": "Manage the standards and specifications of commercial guided systems.",
+      "type": "unspecified",
+      "code": "RA-9.16"
+    },
+    {
+      "text": "Analyze and characterize elements of a guided system using models based on network theory.",
+      "type": "unspecified",
+      "code": "RA-9.17"
+    },
+    {
+      "text": "Analyze and specify different types of passive circuits according to their functionality.",
+      "type": "unspecified",
+      "code": "RA-9.18"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Characterization of guided systems by N-port networks",
+    "Z and Y matrices.",
+    "S matrix: meaning and properties.",
+    "Input/output impedances. Gains in two-port networks.",
+    "ABCD and T matrices",
+    "Introduction to Analysis of guided systems",
+    "Transmission lines. Effects of losses on basic parameters.",
+    "Smith Chart.",
+    "Propagation and dispersion. Modes in waveguides.",
+    "Rectangular waveguide.",
+    "Circular waveguide.",
+    "Effects of losses.",
+    "Waveguide specifications. Standards in guided systems.",
+    "Introduction to Passive microwave components in guided systems",
+    "Technological aspects of passive circuit implementation.",
+    "Single-port components: Loads.",
+    "Two-port components: attenuators, phase shifters, impedance matching networks, isolators, orthomode transducers, transitions.",
+    "Three-port components: power dividers, circulators.",
+    "Four-port components: directional couplers, hybrids."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Seminars"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-semester test on basic and fundamental concepts (T1)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Final written exam (T2)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Laboratory practical tests (P1)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as (T1) x 0.15 + (T2) x 0.6 + (P1) x 0.25. A weighted score of 5 points or higher is required to pass the course. Students are considered \"Not Presented\" if their participation in evaluation activities is less than 50% of the total grade. In the extraordinary examination, the evaluation consists of a written exam covering all theoretical and practical content (75% theoretical, 25% practical). The practical evaluation can be replaced by the ordinary evaluation's practical grade upon student request, implicitly waiving the continuous evaluation grade.",
+  "bibliography": [
+    "Documentación de la asignatura (transparencias, apuntes, colecciones de ejercicios y problemas, etc).",
+    "Documentación de equipos de laboratorio: bancos de microondas en banda X, analizadores de redes, circuitos en tecnología planar, etc.",
+    "Documentación para prácticas: guiones, plantillas de resultados, formatos para elaboración de informes, etc.",
+    "D. M. Pozar, “Microwave Engineering”, Addison-Wesley, 1993.",
+    "C.A. Balanis, “Advanced Engineering Electromagnetics”, John Wiley & Sons, 1989.",
+    "P. A. Rizzi, “Microwave Engineering. Passive Circuits”, Prentice Hall, 1988.",
+    "S. Ramo, J. R. Whinnery, T. van Duzer, “Fields and Waves in Communication Electronics”, Wiley, 1994.",
+    "R. E. Collin, “Foundations for Microwave Engineering”, McGrawHill, 1992.",
+    "R. E. Collin, “Field Theory of Guided Waves”, IEEE Press, 1991.",
+    "G. H. Bryant, “Principles of Microwave Measurements”, IEE Electrical Measurements Series 5, Peter Peregrinus Ltd., 1988."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-010",
+  "source_language": "es",
+  "source_sha256": "04f532dcad015c3387f9426fb318b71eab2efed60e830a83d57c69798f446d7d",
+  "extracted_at": "2026-11-20T06:06:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

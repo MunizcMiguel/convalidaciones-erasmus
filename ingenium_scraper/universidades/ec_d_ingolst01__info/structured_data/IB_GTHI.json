@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Grundlagen der Theoretischen Informatik",
+  "course_name_en": "Foundations of Theoretical Computer Science",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Second study section reached (at least 42 ECTS points from the first study section must be proven).",
+    "Familiarity with mathematical notation, basics of set theory (functions, relations)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "explain fundamental concepts, terms, and relationships in the sub-fields of Formal Languages, Automata Theory, Computability Theory, and Complexity Theory",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "independently conduct simple proofs and apply their problem-solving competence in doing so",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "differentiate the capabilities of formal language description methods (Chomsky Hierarchy)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "describe formal languages independently using the presented methods",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "describe important abstract computational models and know that there are limits to computability",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "name important historical milestones in computer science and recognize their influence on current and future development",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts: Alphabets, Words, Formal Languages, Grammars, Chomsky Hierarchy, Word Problem",
+    "Regular Languages: deterministic and non-deterministic finite automata, powerset construction, regular expressions, minimization, Pumping Lemma, Myhill-Nerode Theorem, closure properties",
+    "Context-Free Languages: Normal forms, Pumping Lemma, closure properties, CYK algorithm, Pushdown Automata",
+    "Context-Sensitive and Type-0 Languages: linearly bounded automata, Turing machines",
+    "Basic concepts: Countability, Computability",
+    "Abstract computing and programming models: Turing machines, Abacus machines",
+    "Decision problems: Halting problem, Reduction principle, Rice's Theorem"
+  ],
+  "teaching_methods": [
+    "Seminaristic teaching/exercise"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination, 90 minutes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "ASTEROTH, Alexander und Christel BAIER, 2003. Theoretische Informatik: eine Einführung in Berechenbarkeit, Komplexität und formale Sprachen mit 101 Beispielen. München: Pearson Studium. ISBN 978-3- 8632-6664-6, Print 3-8273-7033-7",
+    "BOOLOS, BURGESS und JEFFREY, 2007. Computability and Logic. ISBN 978-0-521-70146-4"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_GTHI",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "67318caeaeb2c0f4253e901a32045d4f4c92fe7b6403f6865541be0b35d57819",
+  "extracted_at": "2026-11-20T12:35:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

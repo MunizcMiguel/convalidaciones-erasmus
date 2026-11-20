@@ -1,0 +1,146 @@
+{
+  "course_name_original": "Redes de Computadores",
+  "course_name_en": "Computer Networks",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Computadores y Redes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "unspecified",
+      "code": "GTR1"
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "unspecified",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "unspecified",
+      "code": "GTR3"
+    },
+    {
+      "text": "Capacity for planning and organizing personal work.",
+      "type": "unspecified",
+      "code": "GTR4"
+    },
+    {
+      "text": "Ability to quickly integrate and work efficiently in unidisciplinary teams and to collaborate in a multidisciplinary environment.",
+      "type": "unspecified",
+      "code": "GTR5"
+    },
+    {
+      "text": "Capacity for effective oral and written communication (in expression and comprehension), with special emphasis on technical documentation writing.",
+      "type": "unspecified",
+      "code": "GTR6"
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "unspecified",
+      "code": "GTR7"
+    },
+    {
+      "text": "Knowledge and application of the characteristics, functionalities, and structure of Computer Networks.",
+      "type": "knowledge",
+      "code": "ECR11.2"
+    },
+    {
+      "text": "Knowledge and application of the characteristics, functionalities, and structure of the Internet.",
+      "type": "knowledge",
+      "code": "ECR11.3"
+    },
+    {
+      "text": "Know the transmission media, the basic operation of protocols, and the fundamentals of encoding and routing in computer networks.",
+      "type": "knowledge",
+      "code": "RS2"
+    },
+    {
+      "text": "Know and understand the architecture of the Internet, its protocols, and the services it supports.",
+      "type": "knowledge",
+      "code": "RS3"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computer networks",
+    "Classification of computer networks: topology, scale, transport mechanisms...",
+    "Protocol architectures: the OSI and TCP/IP models",
+    "Physical layer",
+    "Signals in the frequency domain: spectrum, bandwidth, Fourier analysis...",
+    "Channel capacity: Nyquist and Shannon theorems",
+    "Transmission media: wired and wireless",
+    "Encoding and modulation",
+    "Multiplexing",
+    "Data link layer",
+    "Frame delimitation",
+    "Flow control, error control, and ARQ techniques",
+    "Local Area Networks",
+    "Medium Access Control",
+    "IEEE 802 reference model: Ethernet and WiFi",
+    "Network layer",
+    "The IP protocol",
+    "Datagram and virtual circuit networks",
+    "Routing algorithms",
+    "Congestion control",
+    "Quality of service",
+    "Transport layer",
+    "Characteristics of transport protocols",
+    "The UDP protocol",
+    "The TCP protocol",
+    "Application layer",
+    "Application layer protocols: HTTP, SMTP, DNS...",
+    "Client/server model",
+    "Centralized architecture",
+    "Distributed architecture"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous evaluation of laboratory practices (N_P)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Assignments/tasks (N_T)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Theory evaluation (N_E)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, the final grade (NF) is calculated as NF = N_E*0.5 + N_P*0.3 + N_T*0.2. To pass, students must achieve at least 5 in N_P and either at least 5 in N_E, or at least 4 in N_E and at least 5 in N_T. If these conditions are not met, the maximum NF is 4.5. For the extraordinary assessment, NF_ext = N_Eext*0.7 + N_Pext*0.3, with a minimum of 5 required in both N_Eext and N_Pext to pass; otherwise, the maximum NF_ext is 4.5.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, 7ª Ed., William Stallings, Prentice Hall.",
+    "Redes de ordenadores, 4ª Ed., Andrew S. Tanenbaum, Prentice Hall.",
+    "Redes de computadoras, un enfoque descendente, James F. Kurose, Addison Wesley",
+    "Redes de comunicación. Conceptos fundamentales y arquitecturas básicas, Alberto León-García, McGraw-Hill."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-3-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-3-007",
+  "source_language": "es",
+  "source_sha256": "a1b2c6b9af002ac92a4cd3d9c2c1aac138bd8cb7b7e81b5a07236b8981da823e",
+  "extracted_at": "2026-11-20T05:54:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

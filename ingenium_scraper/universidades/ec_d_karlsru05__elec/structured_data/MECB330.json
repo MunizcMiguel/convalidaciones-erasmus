@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Elektrotechnik 3",
+  "course_name_en": "Electrical Engineering 3",
+  "ects": 6.0,
+  "semester": "3rd Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of the fundamentals of electrical engineering (lectures Electronics 1 and 2): Two-pole theory, network analysis (DC and AC), components (resistor, diode, transistor, capacitance and inductance), basic circuits with operational amplifiers, frequency response, Boolean algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can translate logical expressions into electronic circuits, analyze and build simple logic circuits, understand common circuit solutions and adapt these circuits to changed boundary conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have gained in-depth knowledge in digital electronics (e.g. ADC and DAC) using practical examples.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Participants can apply fundamental theoretical and practical methods of power electronics for electrical machines by knowing how batteries are charged from the electrical grid using power electronics to efficiently utilize the energy used.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of transistors: Differential amplifiers, amplification of differential signals with common-mode rejection",
+    "Digital Electronics: Analog vs. digital, from transistor to IC, elementary switching algebra, arithmetic operations, representation of information by bit patterns",
+    "Logic Families: TTL family, CMOS family, comparison of logic families",
+    "Memory Circuits (Flip-Flops): RS flip-flop, Master/Slave-RS flip-flop, D flip-flop, transparent JK master/slave flip-flop, edge-triggered JK flip-flop, universality of JK flip-flops, LED for indicating voltage levels",
+    "Counters: Asynchronous counters, asynchronous MOD-n counters, asynchronous counter ICs, synchronous counters",
+    "Shift Registers: Ring registers, shift register ICs, shift register application",
+    "Multivibrators and the 555-timer: Capacitor charging and discharging, comparator circuit, Timer 555, astable multivibrator, switching times, monostable multivibrator, bistable multivibrator",
+    "Digital Converters: General properties, sample-and-hold circuit, important characteristic values and conversion errors, basic principles of A/D conversion, parallel method, counting method, weighing method, dual-slope method, comparison of converter methods, Digital/Analog converters, D/A converter IC, audio-visual examples, sampling theorem, sampling, reconstruction and sampling theorem, aliasing",
+    "Power Electronics:",
+    "Voltage stabilization with Zener diode",
+    "Three-phase two-point and three-point rectifiers",
+    "Inverters, PWM",
+    "Advanced Operational Amplifier Circuits: Integrator, precision rectifier, current source with OPV and transistors, offset adjustment, swing of OPV, blocking of interference, reflections",
+    "Transistor Circuits: Dimensioning of an LED, current amplification in transistors, push/pull circuit (complementary symmetry circuit)",
+    "Fundamentals of Digital Electronics: NAND gate, NOR gate, RS flip-flop, D flip-flop, asynchronous counter, shift register",
+    "Multivibrator Circuits: RC filter circuit, series resonant circuit, timer (astable multivibrator, monostable multivibrator)",
+    "Analog/Digital Converters: 4-bit D/A converter, 4-bit A/D converter using the weighing method, 4-bit A/D converter using the parallel method, A/D converter IC with bar display",
+    "Power Electronics: Bidirectional buck converter"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "graded written exam (90 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "laboratory reports",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module examination is a graded written exam of 90 minutes duration. Laboratory reports for MECB332 are ungraded. The module grade for MECB330 corresponds to the grade of MECB331 (the lecture).",
+  "bibliography": [
+    "Vorlesungspräsentationen, Vorlesungsskript",
+    "Lernplattform H.ErT.Z, Vorlesungsskript, Vorlesungsfolien und Übungsaufgaben: Grundlagen Elektrotechnik - Gleichstromtechnik, Herausgeber: Manfred Strohrmann, siehe auch https://www.h-ka.de/lernzentren",
+    "K. Fricke: „Digitaltechnik“, Viehweg-Verlag, 2005, 4. Auflage",
+    "W. Kleitz: „Digital electronics: a practical approach“, Prentice Hall, New Jersey, 2002",
+    "R. Eckl, L. Pütgens, J. Walter. „A/D- und D/A-Wandler“, Francis´, München, 1980",
+    "N. Mohan, T. Undeland, W.P. Robbins: “Power Electronics: Converters, Applications, and Design”, Wiley 2002",
+    "D. Schröder: „Leistungselektronische Schaltungen: Funktion, Auslegung und Anwendung“, Springer Verlag, 2012",
+    "R.W. Erickson, D. Maksimovic, “Fundamentals of Power Electronics”, Springer, 2001",
+    "Laborunterlagen, Vorlesungspräsentationen, Vorlesungsskripte",
+    "U. Tietze , Ch. Schenk: „Halbleiter- Schaltungstechnik“, Springer Verlag , 12. Auflage",
+    "A.S. Sedra, K.C. Smith: „Microelectronic Circuits“ Saunders College Publishing , Third Edition, 1991 Paperback",
+    "T.C. Hayes, P. Horowitz: „Die Hohe Schule der Elektronik 3“ Elektro-Verlag, Aachen, 1997, William Kleitz: „Digital Electronics: A Practical Approach“, Prentice Hall, 2011"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB330",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "b01ff57ccff1fe4effc29bc10e675fa903beb2060b037b759949c1e3ebf78f2b",
+  "extracted_at": "2026-11-20T12:39:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

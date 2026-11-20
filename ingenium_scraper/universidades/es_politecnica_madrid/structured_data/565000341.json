@@ -1,0 +1,132 @@
+{
+  "course_name_original": "TEORIA DE CIRCUITOS",
+  "course_name_en": "Circuit Theory",
+  "ects": 4.5,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "ALGEBRA LINEAL (565000312)",
+    "Arithmetic of complex numbers and operations with trigonometric functions (from CALCULO INFINITESIMAL)",
+    "CALCULO INFINITESIMAL (565000311)",
+    "FISICA II (565000323)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess learning skills that allow continuous study throughout life for adequate professional development",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Know and apply knowledge of basic sciences and technologies to the practice of Industrial Engineering",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Knowledge and use of the principles of circuit theory and electrical machines.",
+      "type": "competence",
+      "code": "CE10"
+    },
+    {
+      "text": "Knowledge of the fundamentals of Circuit Theory.",
+      "type": "knowledge",
+      "code": "RA96"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of electricity: potential difference, electric current, current intensity, electromotive force, EMF generators, electric circuit, passive elements",
+    "Ideal passive elements: resistance, inductor, and capacitor. Defining equations. Stored energy.",
+    "Kirchhoff's Laws.",
+    "Series, parallel, and mixed connection of resistors. Voltage and current dividers. Star-delta and delta-star conversion. Duality.",
+    "Independent ideal and real voltage and current sources. Behavior of ideal and real generators: terminal voltage, supplied current. Delivered power. Source conversion. Dependent generators.",
+    "Application of Kirchhoff's laws: mesh method and node method.",
+    "Periodic waveforms. Average, RMS, and form factor. Sinusoidal waveform. Phasor concept.",
+    "Response of passive elements to sinusoidal excitation. Impedance.",
+    "Response of series circuits to sinusoidal excitation: Impedance. Resonance.",
+    "Response of parallel circuits: Admittance.",
+    "Power in alternating current. Active, Reactive, and Apparent powers. Boucherot's Theorem. Power factor: importance and improvement. Power measurement: wattmeters.",
+    "Generalities. Phase sequence. Star and delta connections. Phasor situation convention. Phasor diagrams.",
+    "Balanced and unbalanced three-phase loads. Delta and star couplings.",
+    "Power in three-phase loads. Measurement of power in three-phase loads: Four-wire systems. Three-wire systems.",
+    "Power in three-phase loads. Measurement of active power in three and four-wire systems. Two-wattmeter method. Measurement of reactive power in balanced systems.",
+    "Power factor improvement.",
+    "Waveforms. Synthesis of basic waveforms. Continuity conditions.",
+    "Superposition theorem.",
+    "Thevenin's and Norton's theorems. Maximum power transfer theorem.",
+    "Continuity conditions. Equivalent circuits with zero initial conditions.",
+    "First-order circuits. Capacitor charging. Response of an R-C circuit to a rectangular pulse. Response of an R-L circuit to a rectangular pulse.",
+    "Second-order circuits. Parameters defining a second-order system. Classification of second-order systems. Zero-input response of the series R-L-C circuit.",
+    "Initial Explanatory Session",
+    "Industrial resistance measurement",
+    "Verification of Kirchhoff's laws",
+    "Impedance measurement and AC series circuit",
+    "AC parallel circuits and AC mixed circuits",
+    "Balanced three-phase systems. Power factor improvement."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes",
+    "Laboratory practices",
+    "Individual work"
+  ],
+  "workload_hours_total": 59.5,
+  "workload_hours_contact": 53.5,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices (reports)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2",
+      "weight_percentage": null
+    },
+    {
+      "method": "Global Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Exam (test)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Exam (practical)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Extraordinary Theory and Problems Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Extraordinary Laboratory Exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The course has two main parts: Theory and Problems (TyP) and Laboratory Practices. Both parts must be approved to pass the subject. The TyP part can be assessed via two partial exams (40% for themes 1&2, 60% for themes 3,4&5) or a single global exam which internally applies the same 40/60 weighting; the highest score from the first partial or corresponding global part is kept. Laboratory practices are graded as 'Pass' or 'Fail' based on attendance, activity completion, report quality, and a written exam. If the TyP part is approved and the Lab part is 'Fail', the final grade will be 4.5 (Fail). For the extraordinary call, the TyP exam covers all topics, and lab practices are again assessed as 'Pass' or 'Fail', potentially including a practical exercise for students with previously failed labs; approved parts (TyP or Lab) are maintained for subsequent calls.",
+  "bibliography": [
+    "https://blogs.upm.es/etsidi-tc/",
+    "Jesús Fraile Mora (2012). Circuitos eléctricos. Madrid: Pearson Educación. ISBN : 978-84-8322-795-4",
+    "W H Hayt, J E Kemmerly y S M Durbin (2012). Análisis de circuitos en ingeniería. McGraw Hill. ISBN : 9786071508027",
+    "C K Alexander y M N O Sadiku (2013). Fundamentos de circuitos eléctricos. ISBN : 9781456245061",
+    "A. Pastor Gutiérrez y J. Jiménez, Ortega (2003). Circuitos eléctricos. Madrid: Universidad Nacional de Educación a Distancia. ISBN : 84-362-4957-7"
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000341",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000341_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "66f59815372b685ef39068fab7218376e8815120fce62bf8a3a93ec7232e8032",
+  "extracted_at": "2026-11-13T20:29:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

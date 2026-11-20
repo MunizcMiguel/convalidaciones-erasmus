@@ -1,0 +1,94 @@
+{
+  "course_name_original": "MECB220 \nHochschule Karlsruhe - Technik Und Wirtschaft",
+  "course_name_en": "MECB220 - Engineering Mechanics 2",
+  "ects": 6.0,
+  "semester": "2. Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students can calculate the stress and deformation of mechanical components and systems by learning to analytically apply equilibrium conditions, geometric relationships, and a linear elasticity law to different loading cases.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can perform numerical stress analyses using the Finite Element Method (FEM) to dimension mechanical components and systems with respect to strength and safety, depending on the material.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of strength theory",
+    "Tensile and compressive stress",
+    "Bending stress",
+    "Shear stress",
+    "Torsional stress",
+    "Buckling stress",
+    "Material laws for elasticity and temperature stress",
+    "Statically indeterminate systems",
+    "Area moments of inertia and section moduli",
+    "Bending lines",
+    "Uni- and multi-axial stress",
+    "Stress and strain tensor",
+    "Combined stress",
+    "Equivalent stresses and strength hypotheses",
+    "Energy methods",
+    "Introduction to FEM software (Pre- and Post-Processing)",
+    "FEM analysis of a rod system with linear elastic material behavior",
+    "FEM analysis of a beam-shaped component with linear elastic material behavior",
+    "FEM analysis of a planar component with linear elastic material behavior",
+    "Verification of FEM calculations through analytical calculations",
+    "FEM analysis of a round tensile specimen considering plastic material behavior",
+    "Verification of results for accuracy and plausibility"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical application (FEM software)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written module examination (90 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory report (FEM-Lab)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module grade for MECB220 corresponds to the grade of the MECB221 Engineering Mechanics 2 exam.",
+  "bibliography": [
+    "Eigenes Vorlesungsskript",
+    "Einführung in die Festigkeitslehre, Läpple, V., aktuelle Auflage, Springer Verlag",
+    "Technische Mechanik 2, Gross, W. Hauger, D. et al., aktuelle Auflage, Springer Verlag",
+    "Technische Mechanik, Dankert, J., Dankert, H., 7. Auflage 2014, Springer Verlag",
+    "Technische Mechanik 2 Elastostatik, Spura, C., aktuelle Auflage, Springer Verlag",
+    "Technische Mechanik, Statik, Kinetik, Schwingungen, Festigkeitslehre, Mayr, M., aktuelle Auflage, Hanser Verlag",
+    "Eigenes Vorlesungsskript",
+    "Praxisbuch FEM mit ANSYS Workbench, Gebhardt, C., 3., aktualisierte Auflage, Hanser Verlag 2018",
+    "Höhere Festigkeitslehre, Selke, P., 1. Auflage, De Gruyter Verlag 2013",
+    "Lineare und nichtlineare FEM, Wagner, M., 3., Auflage, Springer 2022",
+    "Finite Elemente in der Baustatik, Werkle, H., 4., aktualisierte Auflage, Springer Verlag 2022",
+    "Finite Element Modeling and Simulation with Ansys Workbench, Chen, X., Liu, Y., second Edition, CRC Press 2019"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB220",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "3d81f53b4c14bdfee213b06969c7197d1c0221f23b1e0019c5278d3c2fab634c",
+  "extracted_at": "2026-11-20T12:39:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

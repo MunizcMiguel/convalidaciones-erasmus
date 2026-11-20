@@ -1,0 +1,160 @@
+{
+  "course_name_original": "Mécanique des solides",
+  "course_name_en": "Solid Mechanics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic mathematical knowledge: differential and integral calculus, linear algebra (tensors and matrices), equation solving, gradients, divergences, rotationals, and Laplacians.",
+    "Notions of point mechanics: forces, moments, and the fundamental principle of statics.",
+    "Understanding of Cartesian, cylindrical, and spherical coordinate systems.",
+    "Physics basics: force, mass, acceleration, and energy.",
+    "Basic concepts of materials, such as elasticity and plasticity."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the mechanics of continuous media.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the relationship between deformations and stresses undergone by a material, using associated resolution and dimensioning tools.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know what a stress is.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to calculate stresses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to represent stresses using stress tensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be familiar with internal stresses, the different components of stress (normal and tangential), and special cases such as tension, compression, shear and spherical stresses.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn how to use Mohr circles, a geometric tool for simplifying the study of stress states.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Construct 2D and 3D Mohr circles and use them to determine principal stresses, principal directions and maximum shear.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define and calculate deformations within a continuous medium.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the kinematics of continuous media, the deformation tensor and the small perturbation hypothesis (HPP).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand Hooke's law, which establishes a linear relationship between stresses and strains for an elastic material.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the law of behaviour in linear elasticity to relate the stresses experienced to the deformations observed in materials.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be familiar with methods for solving mechanical problems, in particular using stress or displacement resolution methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to apply these methods to analyse structures under different loading conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to use design criteria.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the tools for assessing the strength of a part and ensuring that it will not undergo permanent deformation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the various sizing criteria, such as the Rankine, Tresca and Von Mises criteria.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Stresses",
+    "Mohr's circles",
+    "Deformations",
+    "Linear elasticity",
+    "Solving in displacement",
+    "Method of solving in stress",
+    "Design criteria",
+    "Stress tensor (static)",
+    "Mohr's circles (for principal stresses)",
+    "Strain tensor (kinematics and diagonalization to determine principal strains)",
+    "Strain gauges",
+    "Design criteria for a complete problem (2 sessions)",
+    "TP1 COMPOSITE TENSILE TESTING",
+    "TP 2 Tubing support on an ATR 42 aircraft (Finite Element Method, extensometry techniques)",
+    "TP 3 Thin-walled cylinder (Strain gauges, Mohr's circles, composite materials)",
+    "TP 4 Balancing a shaft (Vibration problems, resonance, static and dynamic balancing, material fatigue)"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical Work (TP)",
+    "Quizzes (iquiz.univ-toulouse.fr)",
+    "Automatic QCM (auto-multiple-choice.net)"
+  ],
+  "workload_hours_total": 73.0,
+  "workload_hours_contact": 43.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (written exam 1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "TP1 (practical work 1)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (2*DS1 + 0.7*TP1) / 2.7.",
+  "bibliography": [],
+  "isced_f_code": "0712",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0521",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "f280b78f2702dbc05090441e9b428ef662f246eccf6900c18b975fc01cc864d4",
+  "extracted_at": "2026-11-18T09:52:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

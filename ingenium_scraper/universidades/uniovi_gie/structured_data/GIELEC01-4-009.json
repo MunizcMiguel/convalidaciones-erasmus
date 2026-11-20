@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Gestión y Explotación de Sistemas Eléctricos",
+  "course_name_en": "Management and Operation of Electrical Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid knowledge in Electrical Technology",
+    "Solid knowledge in Circuit Theory and Electrical Grids",
+    "Solid knowledge in Electrical Energy Transmission and Distribution",
+    "Solid knowledge in Power Plants and Electrical Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge about power electrical systems and their applications.",
+      "type": "knowledge",
+      "code": "CEL6"
+    },
+    {
+      "text": "Applied knowledge about renewable energies.",
+      "type": "knowledge",
+      "code": "CEL10"
+    },
+    {
+      "text": "Describe the characteristics of the Spanish electrical system and the fundamental principles governing its operation. Interpret and apply the operating procedures that govern the system's functioning, recognize and distinguish the main technical problems it may face, and describe foreseen future developments.",
+      "type": "unspecified",
+      "code": "RGE-1"
+    },
+    {
+      "text": "Explain and evaluate the liberalization of major electrical systems and the functioning of the Spanish electricity market.",
+      "type": "unspecified",
+      "code": "RGE-2"
+    },
+    {
+      "text": "Properly use specific software programs for simulating electrical energy systems to estimate and determine optimal operation and the planning and development of these systems.",
+      "type": "unspecified",
+      "code": "RGE-3"
+    },
+    {
+      "text": "Recognize and apply the legislation and regulations that the operation of the Spanish electrical system must comply with.",
+      "type": "unspecified",
+      "code": "RGE-4"
+    }
+  ],
+  "syllabus_topics": [
+    "Structure and characteristics of the Iberian electrical system and the European synchronous system",
+    "Characteristics of generation technologies in the electrical system. Costs and ancillary services",
+    "Installed, consumed, and generated power in Spain. Historical evolution.",
+    "European Synchronous Grid. Interconnections and international exchanges",
+    "Structure of transmission and distribution networks. Topologies",
+    "Operating procedures.",
+    "Operating and safety criteria. Admissible load levels. Demand forecasting and coverage",
+    "Admissible voltage levels. Voltage control",
+    "Constraint resolution.",
+    "Power-frequency regulation. Primary, secondary, and tertiary regulation. Deviation management.",
+    "Liberalization of the electricity sector. The Spanish electricity market.",
+    "Historical development of the Spanish electrical system. The Stable Legal Framework",
+    "Sector liberalization - Characteristics and agents in the liberalized market",
+    "Wholesale and retail markets. Market sequence",
+    "Spot Markets. Bidding strategies. Matching process",
+    "Futures markets.",
+    "Generation programming.",
+    "Sequence of processes. Previous operations, daily market, and intraday markets. Base daily operating program",
+    "Constraint resolution. Provisional viable program",
+    "Power reserve. Secondary and tertiary regulation, Final hourly programs",
+    "Deviation management. Operational hourly program.",
+    "Network reliability, incidents, and restoration",
+    "Incident analysis.",
+    "Network reliability analysis",
+    "Service restoration methodology.",
+    "PRACTICE 1. Transmission and distribution network model",
+    "PRACTICE 2. State estimation",
+    "PRACTICE 3. Contingency analysis",
+    "PRACTICE 4. Constraint resolution",
+    "PRACTICE 5. Voltage control",
+    "PRACTICE 6. Power-frequency regulation",
+    "PRACTICE 7. Service restoration."
+  ],
+  "teaching_methods": [
+    "Expository classes (participatory lectures and board practices)",
+    "Classroom practices/seminars/workshops (development of examples and critical discussion)",
+    "Laboratory/field/computer lab practices (modeling and analysis of electrical energy systems with group work)",
+    "Group tutorials (monitoring learning, guiding autonomous learning and directed work)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exams (Theory Block)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (Practical Block)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical block (partial exams) accounts for 70% of the final grade, and the practical work for 30%. Partial exams with a score below 4 are considered failed. The final theoretical grade is the average of passed partials, or the official exam score if retaking. If all minimums for the theoretical block are met, the final grade is calculated as 0.7 * (Average of T1) + 0.3 * P1. Otherwise, the grade will be the minimum of the calculated score and 4.0. For the extraordinary call, a theoretical exam and a practical exam evaluate all content. A minimum of 4.5 out of 10 is required for both theoretical and practical parts. If these minimums are met, the final grade is 0.7 * (Theory) + 0.3 * (Practices); otherwise, the grade is the minimum of the calculated score and 4.0.",
+  "bibliography": [
+    "Red Eléctrica de España - http://www.ree.es (Operating Procedures, Energy Transmission, Demand and Generation Forecast)",
+    "Operador del Sistema Eléctrico - http://www.esiosres.ree.es/web-publica/ (Programs and Demands, Markets, Forecasts)",
+    "Energía y Sociedad - Material didáctico - http://www.energiaysociedad.es/material_didactico.asp",
+    "European network of transmission system operators for electricity - https://www.entsoe.eu/"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-4-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-4-009",
+  "source_language": "es",
+  "source_sha256": "5d2cc73ddb9489d393bcdd1ecc796ef6da2d80ad430f42c19bcdbf2e0be4e3cb",
+  "extracted_at": "2026-11-20T01:13:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

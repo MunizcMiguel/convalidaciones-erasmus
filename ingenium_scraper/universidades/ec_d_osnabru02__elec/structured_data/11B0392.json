@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Signale und Systeme",
+  "course_name_en": "Signals and Systems",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Grundlagen der Elektrotechnik 1",
+    "Grundlagen der Elektrotechnik 2",
+    "Mathematik 1 für E/Me",
+    "Mathematik 2 für E/Me"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the methods of signal and system theory and can apply the corresponding procedures of Fourier series expansion, Fourier transformation, Laplace transformation and Z-transformation to subject-specific problems. They know the validity conditions and the relationship of these calculation methods. They can represent different signals and systems in the time and frequency domain.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have basic knowledge for the analysis and synthesis of control engineering and communication engineering systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can apply their knowledge of signals and systems to problems from various technical fields. They are able to investigate technical problems using system theory in the time and frequency domain and can evaluate system properties.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can analyze given technical tasks and create suitable network models. They are able to capture and represent the influence of input and system variables on defined target variables.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can precisely describe signal and system properties and represent technical systems in a structured way.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Signals (e.g., signal properties, continuous-time and discrete-time signals, elementary signals, Dirac impulse and its application, elementary functions in system theory)",
+    "Systems (e.g., system properties, Linear Time-Invariant Systems (LTI), impulse response and step response, stability analyses, calculation of system response in the time domain using convolution)",
+    "Harmonic analysis of periodic signals (e.g., real and complex Fourier series, system response of LTI systems to periodic excitations, power and RMS values)",
+    "Fourier Transform and its application (e.g., derivation from Fourier series representation (aperiodic signals), properties of Fourier Transform; spectrum of aperiodic signals, calculation of LTI system response in the frequency domain, application to discrete-time signals)",
+    "Laplace Transform and its application (e.g., derivation from Fourier Transform (causal signals), properties of Laplace Transform, correspondences and practical procedure for inverse transformation; calculation of transient processes in the time and image domain, pole-zero plot, stability analyses)",
+    "Z-Transform and its application (definition, properties, application in discrete-time LTI systems)"
+  ],
+  "teaching_methods": [
+    "Lectures"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination is a written exam. The duration and scope of the exam are specified in the current study regulations.",
+  "bibliography": [
+    "B. Girod, R. Rabenstein : Einführung in die Systemtheorie, Vieweg + Teubner, 2009.",
+    "T. Frey, M. Bossert : Signal- und Systemtheorie, Vieweg + Teubner, 2009.",
+    "O. Föllinger : Laplace- und Fourier-Transformation, Hüthig, 2003.",
+    "I. Rennert, B. Bundschuh: Signale und Systeme - Einführung in die Systemtheorie, Fachbuchverlag Leipzig im Carl Hanser Verlag, 2013",
+    "R. Scheithauer: Signale und Systeme - Grundlagen für die Mess- und Regelungstechnik und Nachrichtentechnik, 2. Auflage, Teubner, 2005",
+    "O. Beucher: Signale und Systeme: Theorie, Simulation, Anwendung, 3. Aufl., Springer Vieweg, 2019"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B0392",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "5d21e79d731aa9e941e6b5b73df30d30f6434ae13291c2358dabd5d79c0d1d7f",
+  "extracted_at": "2026-11-20T12:32:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

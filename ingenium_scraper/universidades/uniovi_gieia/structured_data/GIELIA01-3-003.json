@@ -1,0 +1,152 @@
+{
+  "course_name_original": "Automatización Industrial",
+  "course_name_en": "Industrial Automation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have completed the subjects corresponding to the BASIC TRAINING modules and those of the second year of the INDUSTRIAL BRANCH COMMON module.",
+    "Solid knowledge of Electrical Technology, Electronic Technology, and Automation and Control is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Interpret and modify control and power diagrams of electrical and pneumatic automation systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze, design, and implement industrial automated systems using Programmable Logic Controllers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply different types of sensors and actuators in process automation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and integrate exploitation and supervision devices and technologies for automated systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and understand the basic operation of robotic systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify the objectives and limitations, application technologies, components, and their relationship in automated systems.",
+      "type": "unspecified",
+      "code": "RAI-1"
+    },
+    {
+      "text": "Apply elements of technologies based on wired logic (electrical, pneumatic, and hydraulic) and programmed logic for the implementation of industrial automation systems.",
+      "type": "unspecified",
+      "code": "RAI-2"
+    },
+    {
+      "text": "Analyze and design automation systems with standard methodologies such as GRAFCET, Petri Nets, or GEMMA.",
+      "type": "unspecified",
+      "code": "RAI-3"
+    },
+    {
+      "text": "Develop process control applications based on programmable logic controllers.",
+      "type": "unspecified",
+      "code": "RAI-4"
+    },
+    {
+      "text": "Apply basic tools for the exploitation and supervision of automated systems.",
+      "type": "unspecified",
+      "code": "RAI-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Automated systems.",
+    "Wired logic-based automation: electrical, pneumatic, and hydraulic systems.",
+    "Fundamentals and application of robotic systems.",
+    "Programmable Logic Controllers.",
+    "Methodologies for analysis and design of automated systems.",
+    "Standard programming of programmable logic controllers.",
+    "Exploitation and supervision of automated systems.",
+    "Topic 1. Fundamental components of an automated system.",
+    "Topic 2. Low voltage switchgear.",
+    "Topic 3. Electronic starters and variable speed drives.",
+    "Topic 4. Standardization of diagrams and normalization. Basic diagrams.",
+    "Topic 5. Data acquisition.",
+    "Topic 6. Electromagnetic compatibility (EMC).",
+    "Topic 7. Introduction to Industrial Pneumatics. Compressed air theory.",
+    "Topic 8. Air compression, distribution, and treatment.",
+    "Topic 9. Actuators. Special, rotary, and gripper actuators.",
+    "Topic 10. Valves.",
+    "Topic 11. Vacuum. Pneumatic symbology.",
+    "Topic 12. The Programmable Logic Controller.",
+    "Topic 13. PLC Architecture.",
+    "Topic 14. Basic programming concepts. Tasks and POUs.",
+    "Topic 15. Programming languages and instructions (IEC 61131-3).",
+    "Topic 16. SFC - GRAFCET language.",
+    "Topic 17. Introduction to Industrial Robotics."
+  ],
+  "teaching_methods": [
+    "Expositive Classes",
+    "Seminars",
+    "Laboratory Practices",
+    "Group Tutorials",
+    "Group Work",
+    "Individual Work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam Wired Logic (P1)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical Exam Wired Logic (PR1)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Partial Exam Pneumatic Automation (P2)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical Exam Pneumatic Automation (PR2)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Final Exam Automation with Programmed Logic and Industrial Robotics (P3)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical Work Automation of industrial process (T1)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "To pass the course in the ordinary call, it is mandatory to obtain a minimum grade of 5 out of 10 in the final exam (P3) and a minimum of 4 out of 10 in the practical work (T1). If these minimums are met, the final grade (N) is calculated as: N = 0.15*P1 + 0.05*PR1 + 0.15*P2 + 0.05*PR2 + 0.35*P3 + 0.25*T1. Otherwise, the grade will be the minimum of the calculated score and 4.0. For the extraordinary call, the theoretical part is evaluated by a single exam (PEX) and the practical part by the submission and defense of the Practical Work (TEX). It is mandatory to obtain at least 5 points out of 10 in the theoretical part and 4 points out of 10 in the practical work (TEX) to pass. If these minimums are reached, the final grade (N) is calculated as: N = 0.2*P1 + 0.2*P2 + 0.35*PEX + 0.25*TEX; otherwise, the grade will be the minimum of the calculated score and 4.0. Practical exams require attendance at practice sessions to be taken. Partial exam grades (P1/P2) and laboratory practical exams are valid for the current academic year if a minimum of 5 is obtained, otherwise, they are re-evaluated in the final or extraordinary exam.",
+  "bibliography": [
+    "CODESYS Development System V3.5 32bits",
+    "Transparencies of the classes. Available on the Virtual Campus and at http://www.isa.uniovi.es/~alonsog/",
+    "Telesquemario. Schneider Electrics, 1999.",
+    "Compatibilidad Electromagnética. Schneider Electrics, 2000.",
+    "Neumática. SMC. International Training. 2ª Edición. Ed. Paraninfo. 2002. ISBN: 84-283-2848-X.",
+    "El autómata programable Schneider M340. Problemas. Alonso González, Jorge; Machón Gonzalez, Iván. http://www.isa.uniovi.es/~alonsog/Automatas_M340/El_automata_M340_Problemas.pdf",
+    "Unity Pro. Lenguajes y estructura del programa. Manual de Referencia. Schneider Electrics, 2010.",
+    "Robótica. Manipuladores y robots móviles. A.Ollero, Ed. Marcombo, 2001.",
+    "Robots y Sistemas Sensoriales. Fernando Torres, Jorge Pomares. Pablo Gil, Santiago. T. Puente, Rafael Aracil.. Ed. Prentice Hall, 2002. ISBN: 84-205-3574-5"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-3-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-3-003",
+  "source_language": "es",
+  "source_sha256": "51b9b8098fcd1d9f89c5af6bdc5b9d48f23444de6692fab98c062fb940ab686a",
+  "extracted_at": "2026-11-20T01:13:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

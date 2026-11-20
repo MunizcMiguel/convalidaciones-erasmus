@@ -1,0 +1,93 @@
+{
+  "course_name_original": "Embedded Operating Systems",
+  "course_name_en": "Embedded Operating Systems",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "OS Fundamentals",
+    "C Programming Fundamentals",
+    "Embedded Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student can independently search and understand documentation (schematics, datasheets, programming manuals, ...).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must be able to set up their own development environment.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to find software errors even in software they did not create themselves.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student understands how Linux drivers work and can independently make design decisions and implement them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student can properly document their process and implementation and can verbally defend their design choices.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Setting up a host system",
+    "The (cross-compile) toolchain",
+    "The bootloader",
+    "The Linux kernel",
+    "The file system",
+    "Kernel drivers",
+    "Using libraries",
+    "Embedded Linux and Real Time",
+    "Installing/Creating a toolchain",
+    "Compiling a Linux kernel",
+    "Programming and testing drivers",
+    "Using a Library",
+    "Creating a file system",
+    "Compiling and using a bootloader",
+    "Making Real-Time applications"
+  ],
+  "teaching_methods": [
+    "College",
+    "Practicum-opdracht"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Embedded OS theory)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Oral defense of lab assignments (Embedded OS lab)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The total grade is based on two components: Embedded OS theory (100% written exam) and Embedded OS lab (100% oral defense). Successful partial results (YT5670 - Embedded Operating Systems: Theory and YT5671 - Embedded Operating Systems: Lab) are transferable within the academic year for resits.",
+  "bibliography": [
+    "Lesmateriaal op digitaal leerplatform"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Thomas More Mechelen-Antwerpen",
+  "institution_slug": "ec_b_mechele14",
+  "degree": "Bachelor Elektronica-ICT (Sint-Katelijne-Waver)",
+  "course_code": "YT0498",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.thomasmore.be/syllabi/n/YT0498N",
+  "source_language": "nl",
+  "source_sha256": "79bf00b2966ad69bc83d063830ddea75db7158fd56cc3a018f9c1a3009068ecd",
+  "extracted_at": "2026-11-20T09:16:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

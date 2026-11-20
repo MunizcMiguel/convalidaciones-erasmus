@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Mechanics I",
+  "course_name_en": "Mechanics I",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basics of elementary and linear algebra",
+    "geometry",
+    "trigonometry",
+    "vector calculus",
+    "differential calculus",
+    "integral calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to obtain information from professional literature, databases and other resources necessary to solve engineering tasks; ability to integrate the obtained information and make their interpretation, as well as draw conclusions and present opinions with justification",
+      "type": "skill",
+      "code": "K6_U01"
+    },
+    {
+      "text": "Ability to use mathematical and physical models to analyze the processes and phenomena occurring in mechanical devices in the field of mechanics and selected issues of strength of materials",
+      "type": "skill",
+      "code": "K6_U06"
+    },
+    {
+      "text": "Knowledge of mechanics, including the process of modeling mechanical systems of statics and kinematics",
+      "type": "knowledge",
+      "code": "K6_W04"
+    }
+  ],
+  "syllabus_topics": [
+    "Statics",
+    "Vectors and matrices",
+    "Systems of linear algebraic equations",
+    "Equivalent systems of forces",
+    "Moment of a force",
+    "Equivalent force-couple system",
+    "Static equilibrium",
+    "Equilibrium of a plane system",
+    "Equilibrium of a pin-joint truss",
+    "Equilibrium of a spatial system",
+    "Distributed forces",
+    "Centroid and centre of mass",
+    "Systems with distributed forces",
+    "Kinematics",
+    "Motion of a particle",
+    "Path equation",
+    "Velocity and acceleration",
+    "Path length",
+    "Rotational motion",
+    "Rotation of a body",
+    "Rotation in a mechanism",
+    "Plane motion",
+    "Plane motion of a body",
+    "Plane motion in a mechanism",
+    "Relative motion",
+    "Plane relative motion"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical classes",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The exam and practical classes each contribute 50% to the final grade. A passing threshold of 50% is required for the exam.",
+  "bibliography": [
+    "F.P. Beer et al., Vector Mechanics for Engineers: Statics and Dynamics, McGraw Hill, 2012.",
+    "E. Wittbrodt, S. Sawiak, Mechanika ogólna. Teoria i zadania, Wyd. PG, 2012.",
+    "R.D. Gregory, Classical Mechanics, Cambridge University Press, 2006.",
+    "I.V. Meshchersky, Collection of Problems in Theoretical Mechanics, The Higher School, 1962.",
+    "J. Nizioł, Metodyka rozwiązywania zadań z mechaniki, WNT, 2002.",
+    "S. Sawiak, E. Wittbrodt, Mechanika. Wybrane zagadnienia. Teoria i zadania, Wyd. PG, 2007."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Gdańsk University of Technology (Politechnika Gdańska)",
+  "institution_slug": "ec_pl_gdansk02",
+  "degree": "Mechanical Engineering, first-cycle (engineer), specialization Design and Production Engineering",
+  "course_code": "PG_00050273",
+  "academic_year": "2023-2024 (cohorte de inicio; fichas 2023/24-2026/27)",
+  "source_url": "https://ects.pg.edu.pl/en/subjects/361828/card.pdf",
+  "source_language": "en",
+  "source_sha256": "dfe32978a9fb64b5ae3397d20b7c94c1a0ef8bd5503b10f780bb39fd60e584ec",
+  "extracted_at": "2026-11-20T09:06:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

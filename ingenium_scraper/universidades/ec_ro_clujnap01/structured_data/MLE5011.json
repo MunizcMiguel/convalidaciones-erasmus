@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Software engineering",
+  "course_name_en": "Software engineering",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Advance programming methods",
+    "Databases",
+    "Average programming skills in a high-level object-oriented programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to work independently and in a team in order to develop software complying with industrial standards.",
+      "type": "competence",
+      "code": "C2.3"
+    },
+    {
+      "text": "Understanding the role of different artifacts used in the process of software development and acquiring the ability of realizing and using these artifacts",
+      "type": "competence",
+      "code": "C2.5"
+    },
+    {
+      "text": "Ability to create software beginning with model construction, continuing with model verification and model transformation in code, realizing and using testing models",
+      "type": "competence",
+      "code": "CT2"
+    },
+    {
+      "text": "Ability to use a software methodology to produce quality software from analyzing software requirements to code generation and software testing",
+      "type": "competence",
+      "code": "CT3"
+    },
+    {
+      "text": "The student knows: industry standard techniques for designing, implementing, testing, and maintaining complex software systems. Acquired knowledge includes project life cycle, a small number of uml diagrams, requirements gathering, working with tasks, using git in a team, expanded C# with .NET knowledge, desktop development with WinUI, and web development with ASP.NET (MVC & API), entity framework use, regular and mocked unit tests, several design patterns, and architectural patterns",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to work in small to medium sized teams (6-30 team members). Student acquired or expanded upon the following skills: Requirements engineering, UML, Working in teams, Git, GUI/Design, Software architectures, C# + .NET, Code quality, Communication skill, Unit testing, Database access, Web development, Design patterns, Deployment, Clean code",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student has the ability to work in a team to craft quality software.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Software engineering",
+    "Software design",
+    "Working in teams",
+    "C# + .NET with WinUI",
+    "Code quality",
+    "Unit testing",
+    "Design patterns",
+    "Dependency management",
+    "ASP.NET MVC",
+    "Working with servers",
+    "Software projects and project management",
+    "Software architectures",
+    "Hiring process",
+    "Exam",
+    "Requirements gathering",
+    "Paper prototyping",
+    "Git use in teams",
+    "Generative AI use",
+    "Deploy to server",
+    "Code generation",
+    "Project support",
+    "Environment setup and C#",
+    "Planning initial version of project with the use of uml and project management techniques",
+    "Software development in teams",
+    "Code review, refactoring, unit and integration testing",
+    "Client server development in larger teams",
+    "Web development",
+    "Multi-platform support in even larger teams"
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, discussion of case studies",
+    "Explanation, Dialogue, debate, case studies, examples, proofs"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Team project (Course)",
+      "weight_percentage": 0.0
+    },
+    {
+      "method": "Team project (Seminar/laboratory)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The minimum standard of performance for the seminar/laboratory activity is to be able to implement acknowledged knowledge in producing software, evaluated through a team project.",
+  "bibliography": [
+    "Andrew Troelsen, Phil Japikse: Pro C# 10 with .NET 6",
+    "Robert C. Martin: Clean code",
+    "Robert C. Martin: Clean architecture",
+    "Roy Osherove: The art of unit testing",
+    "Scott Chacon: Pro Git",
+    "Martin Fowler: Patterns of Enterprise Application Architecture",
+    "Bruce M. Van Horn II: Real-World Implementation of C# Design Patterns",
+    "Adam Freeman: Pro ASP.NET Core 6",
+    "Konstantin Semenenko: C# Interview Guide"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5011",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem4_MLE5011_en_imre_2025_9693.pdf",
+  "source_language": "en",
+  "source_sha256": "168ab309e961a0cb1c962cbd483dd73dc4b1d3756d902cb0b4275199bd6f27ea",
+  "extracted_at": "2026-11-20T09:08:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

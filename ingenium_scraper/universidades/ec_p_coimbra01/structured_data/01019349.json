@@ -1,0 +1,117 @@
+{
+  "course_name_original": "Laboratório de Sistemas Digitais",
+  "course_name_en": "Digital Systems Laboratory",
+  "ects": 6.0,
+  "semester": "SEMESTRAL",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Provide basic concepts and skills for the design of small digital systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Provide laboratorial experience on the design of digital systems using fast prototyping tools.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to design combinational and sequential digital systems, using standard logic and VHDL modules.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to implement digital systems on reconfigurable logic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Provide students with a low-level understanding of digital systems, important for future digital design, computer architecture, and software development.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Acquire competencies in synthesis and analysis.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire competencies in written communication.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire competencies in problem solving.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire competencies in critical reasoning.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire competencies in autonomous learning.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Acquire competencies in practical application of theoretical knowledge.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Digital Systems.",
+    "Combinational Logic Design.",
+    "Sequential Logic Design: Controllers.",
+    "Hardware Description Languages (HDL): VHDL.",
+    "Datapath Components.",
+    "Register-Transfer Level (RTL) Design.",
+    "Optimizations and Tradeoffs.",
+    "Physical Implementation: SSI IC's, ASIC's, FPGA's, PLD's.",
+    "Introduction to Programmable Processors."
+  ],
+  "teaching_methods": [
+    "Lecture classes with detailed presentation of concepts, principles, fundamental theories, and solving of basic practical exercises.",
+    "Laboratory classes with tutorial-style assignments of growing complexity, from simple combinational circuits to sequential circuits for a vending machine and a programmable processor.",
+    "Use of reconfigurable logic (FPGA) boards, and an initial assignment using a breadboard and TTL components.",
+    "Schematic design complemented with VHDL for simple modules or full controllers."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Laboratory work or Field work",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Frank Vahid, (2007) Digital Design, John Wiley and Sons. (second edition in 2011)",
+    "Jorge Lobo, (2019) Slides das aulas de Laboratório de Sistemas Digitais.",
+    "Frank Vahid, Roman Lysecky, (2007) VHDL for Digital Design, John Wiley and Sons."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01019349",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/90082/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "beb0a1f3611c034e10a306df90c3f004128c9f11db55ae282bb0d56ec4b11121",
+  "extracted_at": "2026-11-20T08:20:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

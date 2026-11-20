@@ -1,0 +1,322 @@
+---
+{
+ "course_code": "MINGIND2-C-002",
+ "course_name": "Tecnología Electrónica",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-002",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:00:20",
+ "content_sha256": "5878e6118b6bed5d009cb9cef78356340c0cb3d966660f2e01cebfbd71a4234c"
+}
+---
+
+# Tecnología Electrónica
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-C-002
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Complementos de Formación
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Clases Expositivas (35 Horas); Prácticas de Aula/Semina (7 Horas); Prácticas de Laboratorio (14 Horas); Tutorías Grupales (2 Horas)
+
+## Contextualización
+
+La electrónica está presente en multitud de aplicaciones industriales y domésticas (procesos industriales, aplicaciones domésticas, comunicaciones, conversiones energéticas, iluminación, domótica, medicina, etc.). Es por ello, necesario que cualquier graduado en Ingeniería Industrial posea unos conocimientos básicos en dicha tecnología.
+
+Así, esta asignatura compartida en cuatro titulaciones de Grado se enmarca dentro del grupo de materias Electricidad, Electrónica y Automática del módulo Común a la Rama Industrial de los títulos de Grado en Ingeniería Electrónica Industrial y Automática, Grado en Ingeniería Eléctrica, Grado en Ingeniería en Organización Industrial y Grado en Ingeniería Mecánica, y tiene como objetivo principal que el estudiante adquiera las competencias que se plantean en el apartado 3 de esta guía docente. Con la presente asignatura se pretende proporcionar al alumno una buena formación básica de Electrónica Analógica y Digital de manera que pueda incorporar estos conocimientos a cualquier campo de trabajo dentro de la Ingeniería Industrial.
+
+Por otra parte, el logro de dichas competencias y conocimientos es absolutamente necesario para el seguimiento con éxito de asignaturas de cursos posteriores relacionadas con la Electrónica en estudios de Grado en Ingeniería Electrónica, Industrial y Automática (Sistemas Electrónicos Digitales, Electrónica Analógica e Instrumentación Electrónica, Electrónica de Potencia, Electrónica para Energías Renovables y Regeneración, Sistemas Electrónicos de Medida y Transmisión de Señales, Accionamientos Electrónicos o Dispositivos Electrónicos Programables, etc.) y de Grado en Ingeniería Eléctrica (Electrónica Industrial y Automática).
+
+Esta asignatura se imparte en **Segundo Curso** del Grado de en Ingeniería Electrónica Industrial y Automática, Grado en Ingeniería Eléctrica, Grado en Ingeniería en Organización Industrial y Grado en Ingeniería Mecánica, en el **Segundo Semestre** del curso académico.
+
+## Requisitos
+
+Se considera imprescindible tener conocimiento de Teoría de Circuitos para seguir este curso. Adicionalmente, se recomienda tener nociones básicas de los siguientes temas: Álgebra Lineal, Cálculo Diferencial e Integral, Métodos Numéricos, Ondas y Electromagnetismo, Fundamentos de Informática y, sobre todo, Tecnología Eléctrica.
+
+## Competencias y resultados del aprendizaje
+
+Las competencias generales recogidas en las memorias de verificación de las titulaciones de Grado en Ingeniería Electrónica Industrial y Automática, Grado en Ingeniería Eléctrica, Grado en Ingeniería en Organización Industrial y Grado en Ingeniería Mecánica y que se tratan en esta asignatura son las siguientes:
+
+**CG1** Capacidad para la redacción, firma y desarrollo de proyectos en el ámbito de la ingeniería industrial que tengan por objeto la construcción, reforma, reparación, conservación, demolición, fabricación, instalación, montaje o explotación de: instalaciones electrónicas y automatización de procesos (Grado en Ingeniería Electrónica, Industrial y Automática), instalaciones eléctricas (Grado en Ingeniería Eléctrica), estructuras, equipos mecánicos, instalaciones energéticas, instalaciones y plantas industriales y procesos de fabricación (Grado en Ingeniería Mecánica).
+
+**CG2** Capacidad para la dirección de las actividades objeto de los proyectos de ingeniería descritos en el epígrafe anterior.
+
+**CG3** Conocimiento en materias básicas y tecnológicas, que les capacite para el aprendizaje de nuevos métodos y teorías, y les dote de versatilidad para adaptarse a nuevas situaciones.
+
+**CG4** Capacidad de resolver problemas con iniciativa, toma de decisiones, creatividad y razonamiento crítico.
+
+**CG5** Capacidad de comunicar y transmitir conocimientos, habilidades y destrezas en el campo de la Ingeniería Electrónica Industrial y Automática (Grado en Ingeniería Electrónica, Industrial y Automática), Ingeniería Eléctrica (Grado en Ingeniería Eléctrica), Ingeniería Mecánica (Grado en Ingeniería Mecánica), Organización Industrial (Grado en Ingeniería en Organización Industrial) tanto en forma oral como escrita, y a todo tipo de públicos.
+
+**CG6** Conocimientos para la realización de mediciones, cálculos, valoraciones, tasaciones, peritaciones, estudios, informes, planes de labores y otros trabajos análogos.
+
+**CG7** Capacidad para el manejo de especificaciones, reglamentos y normas de obligado cumplimiento.
+
+**CG8** Capacidad de analizar y valorar el impacto social y medioambiental de las soluciones técnicas.
+
+**CG9** Capacidad para aplicar los principios y métodos de la calidad.
+
+**CG10** Capacidad de organización y planificación en el ámbito de la empresa, y otras instituciones y organizaciones.
+
+**CG11** Capacidad de trabajar en un entorno multilingüe y multidisciplinar.
+
+**CG12** Conocimiento, comprensión y capacidad para aplicar la legislación necesaria en el ejercicio de la profesión de Ingeniero Técnico Industrial.
+
+**CG13** Capacidad para la prevención de riesgos laborales y protección de la salud y la seguridad de los trabajadores y usuarios.
+
+**CG14** Honradez, responsabilidad, compromiso ético y espíritu solidario
+
+**CG15** Capacidad de trabajar en equipo
+
+También se tratan las siguientes competencias específicas:
+
+Competencias comunes a la Rama Industrial:
+
+**CC5:**Conocimientos de los fundamentos de la electrónica.
+
+Estas competencias se desdoblan en los siguientes resultados de aprendizaje para la asignatura:
+
+**RTR-1**: Disponer de una visión general de la electrónica en sus diferentes ramas y campos de aplicación.
+
+**RTR-2**: Conocer el comportamiento, las características y principales aplicaciones de los dispositivos electrónicos.
+
+**RTR-3**: Analizar y comprender el funcionamiento de circuitos en los que estén presentes componentes electrónicos.
+
+**RTR-4**:Manejar hojas de características de circuitos integrados para aplicaciones analógicas o digitales y utilizar algunos de ellos en montajes básicos.
+
+**RTR-5**:Manejar instrumentación y equipos electrónicos de laboratorio y realizar medidas estáticas y temporales en circuitos electrónicos.
+
+## Contenidos
+
+***BLOQUE I: CONCEPTOS BÁSICOS DE ELECTRÓNICA***
+
+**TEMA 1:** **CONCEPTOS BÁSICOS DE ELECTRÓNICA.**
+
+***BLOQUE II: DISPOSITIVOS ELECTRÓNICOS***
+
+**TEMA 2: DIODOS.**
+
+**TEMA 3: TRANSISTORES BIPOLARES.**
+
+**TEMA 4: TRANSISTORES MOSFET.**
+
+***BLOQUE III: AMPLIFICACIÓN***
+
+**TEMA 5: CONCEPTOS BÁSICOS DE** **AMPLIFICACIÓN.**
+
+**TEMA 6: EL AMPLIFICADOR OPERACIONAL IDEAL. APLICACIONES LINEALES Y NO LINEALES.**
+
+***BLOQUE IV: ELECTRÓNICA DIGITAL***
+
+**TEMA 7:** **FUNDAMENTOS DEL DISEÑO DIGITAL. ALGEBRA DE BOOLE.**
+
+**TEMA 8: CIRCUITOS DIGITALES MSI.**
+
+**TEMA 9:** **CIRCUITOS INTEGRADOS DIGITALES: FAMILIAS LÓGICAS.**
+
+**PRÁCTICAS DE LABORATORIO**
+
+Práctica 1 - Manejo de equipos de laboratorio (I). Fuente de alimentación y polímetro.
+
+Práctica 2 - Manejo de equipos de laboratorio (II). Generador de funciones y osciloscopio.
+
+Práctica 3 - Caracterización de diodos.
+
+Práctica 4 - Transistor bipolar.
+
+Práctica 5 - Aplicaciones de amplificadores operacionales.
+
+Práctica 6 - Montaje y comprobación de circuitos electrónicos.
+
+Práctica 7 - Circuitos Digitales.
+
+## Metodología y plan de trabajo
+
+El plan de trabajo se recoge en la siguiente tabla, junto a la metodología empleada en la impartición: CE (Clases Expositivas), PA (Prácticas de Aula), PL (Prácticas de Laboratorio), TG (Tutorías Grupales), SE (Sesiones de Evaluación); TG (Trabajo Grupal) o TA (Trabajo Autónomo). No se usa ningún otro tipo de sesiones en este curso.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas*** <br> ***totales*** | *CE* | *PA* | *PL* | *PC* | *TG* | *PE* | *SE* | ***Total*** | *TG* | *TA* | **Total** |
+| **TEMA1: CONCEPTOS BÁSICOS DE ELECTRÓNICA.** | **25** | **2** | **1** | **4** |  | **2** |  | **1** | **10** | **1** | **14** | **15** |
+| **TEMA2: DISPOSITIVOS ELECTRÓNICOS** | **40** | **5** | **5** | **4** |  |  |  | **2** | **16** | **2** | **22** | **24** |
+| **TEMA3: AMPLIFICACIÓN AMPLIFICADORES OPERACIONALES.** | **30** | **7** | **1** | **2** |  |  |  | **2** | **12** | **2** | **16** | **18** |
+| **TEMA4: ELECTRÓNICA DIGITAL.** | **55** | **12** | **4** | **4** |  |  |  | **2** | **22** | **5** | **28** | **33** |
+| **Total** | **150** | **26** | **11** | **14** |  | **2** |  | **7** | **60** | **10** | **80** | **90** |
+
+En la siguiente tabla resumen pueden verse las horas y porcentajes de dedicación a las diferentes actividades programadas:
+
+| **MODALIDADES** |  | **Horas** | % | **Totales** |
+| --- | --- | --- | --- | --- |
+| **Presencial** | **Clases Expositivas** | **26** | **17,3%** | **60** |
+|  | **Práctica de aula / Seminarios / Talleres** | **11** | **7,3%** |  |
+|  | **Prácticas de laboratorio / campo / aula de informática / aula de idiomas** | **14** | **9.3%** |  |
+|  | **Prácticas clínicas hospitalarias** |  |  |  |
+|  | **Tutorías grupales** | **2** | **1.3%** |  |
+|  | **Prácticas Externas** |  |  |  |
+|  | **Sesiones de evaluación** | **7** | **4,7%** |  |
+| **No presencial** | **Trabajo en Grupo** | **10** | **6,7%** | **90** |
+|  | **Trabajo Individual** | **80** | **53,3%** |  |
+|  | **Total** | **150** |  |  |
+
+De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir actividades de docencia no presencial, en cuyo caso se informará al estudiantado de los cambios efectuados.
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria está dividida en teoría y prácticas. La evaluación de cada uno de estos bloques consta de los siguientes elementos:
+
+- Bloque teórico: Es necesario obtener una nota mínima de 5,0 sobre 10.
+
+o Examen Parcial (T1): Consta de una prueba escrita a realizar en febrero. Se evaluarán los contenidos vistos hasta la fecha. Es necesario alcanzar un mínimo de 5,0 puntos en este examen.
+
+o Examen Parcial (T2): Consta de una prueba escrita a realizar en marzo. Se evaluarán los contenidos vistos hasta la fecha. Es necesario alcanzar un mínimo de 5,0 puntos en este examen.
+
+o Examen Parcial (T3): Consta de una prueba escrita a realizar a finales de abril/primeros de mayo. Se evaluarán los contenidos vistos hasta la fecha. Es necesario alcanzar un mínimo de 5,0 puntos en este examen.
+
+o Examen Final (T1-T2-T3). Consta de una prueba escrita a realizar en la fecha oficial establecida por el centro para el examen teórico. Se evaluarán todos los contenidos teóricos de la asignatura o los contenidos de teoría no superados durante los exámenes parciales (únicamente en el caso de haber superado al menos dos parciales). Es necesario alcanzar un mínimo de 5,0 puntos en cada uno de los tres bloques teóricos de este examen.
+
+- Bloque práctico: Es necesario obtener una nota mínima de 5,0 sobre 10.
+
+o Examen Práctico (P1): Consta de una prueba a llevar a cabo en el laboratorio durante el mes de abril. Se evaluarán todos los contenidos explicados durante las sesiones de prácticas. Es necesario alcanzar un mínimo de 5,0 puntos en este examen.
+
+o Examen Final (P1): Consta de una prueba que los estudiantes que no hayan superado el Examen Práctico anterior deberán llevar a cabo en el laboratorio en la fecha oficial establecida por el centro para el examen práctico. Se evaluarán todos los contenidos prácticos vistos en la asignatura. Es necesario alcanzar un mínimo de 5,0 puntos en este examen.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos para superar el bloque teórico, la nota final de este bloque se calcula como:
+
+Teoría = (0,35 x T1) + (0,35 x T2) + (0,30 x T3)
+
+Si se han alcanzado todos los mínimos establecidos para superar el bloque práctico, la nota final de este bloque se calcula como:
+
+Prácticas = (P1)
+
+Si se han alcanzado los mínimos establecidos para cada bloque, la nota final de la convocatoria se calcula como:
+
+NotaFinal = (0,9 x Teoría) + (0,1 x Prácticas)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria extraordinaria**
+
+La convocatoria extraordinaria también consta de una parte teórica y una parte práctica.
+
+La parte teórica, que sólo deberán superar los estudiantes que no la hayan superado ya en la convocatoria ordinaria (los que la hayan superado mantendrán la nota obtenida en esta parte), consta de un único examen dividido en varios bloques:
+
+o Bloque I (B1): Se evaluarán los contenidos de Dispositivos Semiconductores. Es necesario alcanzar un mínimo de 5,0 puntos en esta parte. No se guarda la nota obtenida en la convocatoria ordinaria.
+
+o Bloque II (B2): Se evaluarán los contenidos de Amplificación. Es necesario alcanzar un mínimo de 5,0 puntos en esta parte. No se guarda la nota obtenida en la convocatoria ordinaria.
+
+o Bloque III (B3): Se evaluarán los contenidos de Electrónica Digital. Es necesario alcanzar un mínimo de 5,0 puntos en esta parte. No se guarda la nota obtenida en la convocatoria ordinaria.
+
+Si se han alcanzado todos los mínimos, la nota final de teoría se calcula como:
+
+Teoría = (0,35 x B1) + (0,35 x B2) + (0,30 x B3)
+
+Del mismo modo, los alumnos que no hayan superado ya la parte práctica en la convocatoria ordinaria tendrán que presentarse a un examen práctico en la fecha oficial establecida por el centro. En este examen se evalúa todo el contenido práctico de la asignatura y la nota obtenida en esta parte será la obtenida en dicho examen.
+
+Para aprobar la asignatura en esta convocatoria, es obligatorio obtener una calificación de al menos 5,0 puntos sobre 10 en la parte teórica y de 5,0 puntos sobre 10 en la parte práctica. Si se han alcanzado estos mínimos, la nota final de la convocatoria se calcula como:
+
+NotaFinal = (0,9 x Teoría) + (0,1 x Prácticas)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+La nota de practicas obtenida en la convocatoria ordinaria solo se conservará para las convocatorias extraordinarias posteriores siempre que el estudiante tenga la consideración de “presentado” en alguna de las convocatorias del curso académico, es decir cuando haya participado en actividades o pruebas de evaluación que, en su conjunto, sea superior al 50% de las pruebas evaluables de la asignatura.
+
+## Bibliografía
+
+***Bibliografía***
+
+Boylestad Nashelsky
+
+*Electrónica: Teoría de circuitos y dispositivos electrónicos*
+
+Editorial Prentice Hall
+
+James M. Fiore
+
+*Amplificadores Operacionales y Circuitos Integrados Lineales*
+
+Editorial Thomson
+
+T.L. Floyd
+
+*Principios de circuitos electrónicos*
+
+Editorial Pearson-Prentice Hall
+
+A.R. Hambley
+
+*Electrónica*
+
+Editorial Pearson- Prentice Hall
+
+A.P. Malvino
+
+*Principios de Electrónica*
+
+Editorial Mc. Graw Hill
+
+J. Millman y C.C. Halkias
+
+*Electrónica Integrada*
+
+Editorial Hispano Europea
+
+D.L. Schilling y C. Belove
+
+*Circuitos Electrónicos*
+
+Editorial Marcombo
+
+T. L. Floyd
+
+*Fundamentos de sistemas digitales*
+
+Editorial Prentice Hall
+
+E. Mandado
+
+*Sistemas electrónicos digitales*
+
+Editorial Marcombo
+
+J.F. Wakerly
+
+*Diseño Digital: Principios y prácticas,*
+
+Editorial Prentice Hall
+
+V.P.Nelson, H.T. Nagle, B. D.Carroll, J.D. Irwin
+
+*Análisis y Diseño de Circuitos Lógicos Digitales*
+
+Editorial Prentice Hall
+
+F. Aldana, R.Esparza Y P.M.Martinez
+
+*Electrónica Industrial: Técnicas Digitales,*
+
+Editorial Marcombo

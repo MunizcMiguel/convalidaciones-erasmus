@@ -1,0 +1,68 @@
+{
+  "course_name_original": "LABORATORIO COMPUTAZIONALE DI TERMOFLUIDODINAMICA T",
+  "course_name_en": "Computational Thermofluid Dynamics Laboratory T",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Solve stationary thermal conduction problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve transient thermal conduction problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve convective heat transfer problems in ducts",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Balance equations governing heat and mass transfer",
+    "Main numerical methods employed to solve balance equations",
+    "Procedure to obtain dimensionless balance equations",
+    "Solving stationary/transient conduction problems numerically using MATLAB",
+    "Solving forced convection in ducts and thermal entrance regions problems numerically using MATLAB",
+    "Solving forced and natural convection in fluid saturated porous media problems numerically using MATLAB",
+    "Solving flows around obstacles problems numerically using MATLAB",
+    "Solving convection of non-Newtonian fluids problems numerically using MATLAB",
+    "Solving dimensionless balance equations using MATLAB's PdeTool",
+    "Solving dimensionless balance equations by writing a simple MATLAB code"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Numerical solution of a basic heat and mass transfer problem",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of numerically solving a basic heat and mass transfer problem. To pass, the student must be able to obtain the dimensionless form of the local balance equation, auxiliary conditions, and geometry, and solve the problem numerically in its dimensionless form. The exam is carried out online using the EOL platform. The mark will be recorded four days after communication, unless the student sends an explicit email requesting to refuse the mark.",
+  "bibliography": [
+    "Lecture notes and virtual blackboard notes.",
+    "Arpaci V.S. Larsen P.S. CONVECTION HEAT TRANSFER PRENTICE-HALL INC. ENGLEWOOD CLIFFS 1984."
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum",
+  "institution_slug": "ec_i_bologna01",
+  "degree": "Ingegneria meccanica (Laurea, L-9, Bologna)",
+  "course_code": "31414",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2025/466479",
+  "source_language": "en",
+  "source_sha256": "859b942eed08dcfc45b7eed94f3c8395b8bc5407cd710857c2c3c652f491fda1",
+  "extracted_at": "2026-11-20T08:16:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,156 @@
+{
+  "course_name_original": "Elettronica",
+  "course_name_en": "Electronics",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic knowledge of mathematics and physics.",
+    "Ability to solve differential equations and apply Fourier and Laplace transforms.",
+    "Understanding of fundamental electrical engineering concepts.",
+    "Knowledge of basic control theory (Bode diagrams, feedback systems)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with the fundamental knowledge required for the analysis of basic electronic circuits, both analog and digital, which can be integrated into automation systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Prepare students for potential career opportunities in companies involved in the design/production of electromedical instruments, where electronics plays a significant role.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Acquire both theoretical and practical knowledge of basic electronic circuits, analog and digital, with the goal of being able to design and build potential prototypes/demonstrators and use innovative instrumentation in the medical field.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Appropriately design analog and digital circuits, with particular focus on their integration into automation systems, especially in medical applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze a circuit, sizing it appropriately for the final application, and validating its performance by comparing it with the project requirements.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Describe a solution to a specific problem with an adequate level of formalism and appropriate language, collaborating effectively within a workgroup.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Given a problem, reflect on the knowledge and skills acquired during their studies, evaluate different solution strategies, and choose the most suitable one for specific circumstances, being aware of the limitations and strengths of the chosen approach.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analog Electronics (2 ECTS)",
+    "Signals Signal frequency spectrum",
+    "Analog and digital signals",
+    "Amplifiers and their circuit models",
+    "Frequency response of amplifiers",
+    "Single time constant networks",
+    "Amplifier classification",
+    "Operational Amplifiers Ideal operational amplifier: definition, characteristics, inverting and non-inverting configurations",
+    "Differential amplifier",
+    "Integrator and differentiator",
+    "Real operational amplifier",
+    "Numerical and experimental exercises with operational amplifier circuits",
+    "Diodes Ideal diode",
+    "Voltage-current characteristic: forward bias region, reverse bias region, breakdown region",
+    "Models of the diode’s forward characteristic",
+    "Small-signal model and related applications",
+    "Zener diode",
+    "Rectifier circuits: half-wave rectifier, full-wave rectifier, bridge rectifier, precision half-wave rectifier (super diode)",
+    "LED diode",
+    "Experimental exercises with diode and LED circuits",
+    "Digital Electronics (4 ECTS)",
+    "Digital Circuits Introduction to digital electronics",
+    "Signal discretization",
+    "Logic inverter as the fundamental binary element",
+    "Basic logic gates",
+    "Transfer characteristic of a logic inverter",
+    "Nominal logic levels",
+    "Integrated Circuit Technologies Moore’s Law: integration scales of integrated circuits",
+    "Silicon as the primary material in electronic and optical devices",
+    "Fabrication processes of the P-N junction",
+    "Oxidation, deposition (CVD, PVD - Electron beam), lithography and photolithography",
+    "X-ray and electron beam lithography",
+    "Etching: dry and wet",
+    "Doping",
+    "Implantation",
+    "MOS, nMOS, and CMOS processes",
+    "MOS Transistor Structure of the MOS transistor",
+    "Threshold voltage and current-voltage characteristics",
+    "NMOS Logic Gates NMOS inverter with resistive load",
+    "MOS devices as active loads",
+    "Inverters with active NMOS load",
+    "Transfer characteristics and logic levels",
+    "Basic NMOS logic gates",
+    "CMOS Logic Gates CMOS inverter",
+    "Transfer characteristics",
+    "Basic CMOS logic gates",
+    "Advanced Logic Circuits Input/output interconnection circuits",
+    "AOI gates",
+    "Combinational circuits",
+    "NOR, NAND, XOR gates",
+    "Adder and subtractor circuits",
+    "Comparator circuits",
+    "Encoder and decoder circuits",
+    "Multiplexer and demultiplexer circuits",
+    "Sequential circuits",
+    "Bistable circuits",
+    "SR flip-flop",
+    "Internet of Things (IoT) Platforms Introduction to the Internet of Things",
+    "Basic components of an IoT system: sensors, data processing boards, network, actuators",
+    "Basic concepts of transducers, sensors, and actuators",
+    "Most common data processing electronic boards",
+    "Basic operation of Arduino",
+    "Experimental exercise on building an IoT station for heart rate monitoring"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom exercises",
+    "Experimental classroom exercise focused on the analysis of amplifier circuits based on Operational Amplifiers",
+    "Experimental classroom exercise focused on the analysis of circuits with diodes and LED diodes",
+    "Experimental classroom exercise focused on the analysis of an IoT station for monitoring medical parameters"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade will be expressed on a scale of thirty, with honors (\"cum laude\") awarded in cases where the oral exam fully meets the evaluation criteria. The oral exam will assess the student's knowledge of the topics, their ability to apply them, their critical thinking in analyzing electronic circuits, and the clarity of their explanations. The assessment will consider: a) the level of understanding of the course content, b) the quality of the oral presentation, c) the critical thinking applied to the topics, d) the degree of independent judgment, e) the command of scientific language. The oral exam may include a discussion of topics related to the classroom exercises.",
+  "bibliography": [
+    "A.S. Sedra, K.C. Smith: \"Circuiti per la Microelettronica\", 3th edizione, Ed. EdiSES, 2006.",
+    "P. Spirito: \"Elettronica digitale\", 3rd edition, McGraw-Hill libri Italia, 2006.",
+    "R. C. Jaeger, T. N. Blablock, \"Microelettronica\", 3a Edizione, Ed. McGraw-Hill Italia, 2009.",
+    "Integrated Circuit Fabrication Technologies",
+    "Laboratory Instrumentation and Electronic Devices",
+    "IoT Applications for Remote Monitoring of Patient Health"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi del Molise",
+  "institution_slug": "ec_i_campoba01",
+  "degree": "Laurea in Ingegneria Medica classe L-9 R Ingegneria industriale",
+  "course_code": "421R013",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unimol.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=31313208&ordinamento_aa=2025&af_percorso=9999&corso_cod=10462&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "89f3867e2b4bf5e0c218883f213e9a17ef95eb9c8174749bb636c7e7ad4a5c53",
+  "extracted_at": "2026-11-20T09:24:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,208 @@
+{
+  "course_name_original": "Electrónica Industrial",
+  "course_name_en": "Industrial Electronics",
+  "ects": 6.0,
+  "semester": "First Semestre",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge in mathematics",
+    "programming",
+    "electrical circuits",
+    "analog electronics",
+    "basic digital electronics",
+    "Tecnología Eléctrica",
+    "Tecnología Electrónica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Capacity for the writing and development of projects in the field of industrial engineering whose object is the construction, reform, repair, conservation, demolition, manufacturing, installation, assembly or exploitation of: structures, mechanical equipment, energy installations, electrical and electronic installations, industrial installations and plants and manufacturing and automation processes.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Capacity for the management of the activities object of the engineering projects described in the previous paragraph.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, which enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity and critical reasoning.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans and other similar works.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Ability to handle specifications, regulations and mandatory standards.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Ability to analyze and assess the social and environmental impact of technical solutions.",
+      "type": "competence",
+      "code": "CG8"
+    },
+    {
+      "text": "Ability to apply quality principles and methods.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Ability to organize and plan in the field of business, and other institutions and organizations.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "competence",
+      "code": "CG11"
+    },
+    {
+      "text": "Ability to prevent occupational risks and protect the health and safety of workers and users.",
+      "type": "competence",
+      "code": "CG13"
+    },
+    {
+      "text": "Ability to know, select, criticize and use diverse sources of information.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "competence",
+      "code": "CG15"
+    },
+    {
+      "text": "Knowledge of the fundamentals and applications of digital electronics and microprocessors.",
+      "type": "knowledge",
+      "code": "CEA3"
+    },
+    {
+      "text": "Applied knowledge of power electronics.",
+      "type": "knowledge",
+      "code": "CEA4"
+    },
+    {
+      "text": "Ability to design analog, digital and power electronic systems.",
+      "type": "skill",
+      "code": "CEA6"
+    },
+    {
+      "text": "Knowledge and ability for modeling and simulation of systems.",
+      "type": "skill",
+      "code": "CEA7"
+    },
+    {
+      "text": "Knowledge of the fundamentals of electronics.",
+      "type": "knowledge",
+      "code": "CC5"
+    },
+    {
+      "text": "Analyze the operation and design combinational and sequential digital circuits using both fixed-function circuits and internally configurable digital circuits.",
+      "type": "skill",
+      "code": "REI-1"
+    },
+    {
+      "text": "Assess the use of different resources and possibilities to carry out a digital design from a technical and economic point of view against certain initial specifications.",
+      "type": "skill",
+      "code": "REI-2"
+    },
+    {
+      "text": "Distinguish and select the different architectures of microprocessor systems, with special emphasis on the particular case of microcontrollers and their most common internal functional blocks (ports, timers, A/D and D/A converters and CCP).",
+      "type": "skill",
+      "code": "REI-3"
+    },
+    {
+      "text": "Analyze and design power electronic circuits.",
+      "type": "skill",
+      "code": "REI-4"
+    },
+    {
+      "text": "Understand the basic principles of electronic power conversion, basic configurations, and switching, conversion, and control elements.",
+      "type": "knowledge",
+      "code": "REI-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Digital sequential circuits",
+    "Introduction to configurable digital circuits",
+    "Microprocessor and microcontroller systems: architecture and internal blocks",
+    "Development tools and design procedure with microcontrollers",
+    "Software development of applications with microcontrollers",
+    "Common resources and peripherals",
+    "Interconnection and signal adaptation for input and output devices",
+    "Introduction to Power Electronics",
+    "Power topologies for energy conversion: AC/DC",
+    "Power topologies for energy conversion: DC/DC",
+    "Power topologies for energy conversion: DC/AC",
+    "Power topologies for energy conversion: AC/AC",
+    "P1- Simulation with LTspice of a controlled rectifier",
+    "P2- Simulation and assembly of a boost converter",
+    "P3- Simulation and assembly of an inverter",
+    "P4- Use of MPLAB and PROTEUS software",
+    "P5- Generation of timed visual effects on LEDs connected to the microcontroller port",
+    "P6- Use of the A/D conversion module",
+    "P7- Speed control of a DC motor using PWM modulation"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical and practical exams",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Exercises, assignments and reports (P1)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Active participation in the development of the course (P2)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "To pass the course in the ordinary call, a minimum of 5 out of 10 points must be obtained in the total final grade of the theoretical/practical exams. If all established minimums are reached, the final grade is calculated as N=(0.80 x T + 0.15 x P1 + 0.05 x P2). Otherwise, the grade will be the minimum between the calculated score and 4.0. For extraordinary calls, there will be a single theoretical/practical exam where a minimum of 5 out of 10 is required; a score below 5 will result in failure, and the final grade will be the minimum between the weighted score and 4.0. In extraordinary calls, grades for 'Exercises, assignments and reports' and 'Active participation' obtained during the current academic period are retained, up to a maximum of 2 points out of 10. For differentiated evaluation, the final grade is N=(0.80 x T + 0.20 x P) where P is the laboratory practical exam.",
+  "bibliography": [
+    "S. Martínez y J.A. Gualda; \"ELECTRÓNICA DE POTENCIA. COMPONENTES, TOPOLOGÍAS Y EQUIPOS\". Thomson. 2006.",
+    "M. H. Rashid; \"ELECTRÓNICA DE POTENCIA. CIRCUITOS, DISPOSITIVOS Y APLICACIONES\". Prentice Hall Hispanoamericana. 1993.",
+    "M.H. Rashid (Ed.); \"POWER ELECTRONICS HANDBOOK\". Academic Press, II Edición, 2006.",
+    "N. Mohan, T.M.Undeland, W. P. Robbins; \"POWER ELECTRONICS: CONVERTERS, APPLICATIONS AND DESIGN\". John Wiley Sons. 2002.",
+    "J. G. Kassakian, M.F. Schlecht, G.C. Verghese \"PRINCIPLES OF POWER ELECTRONICS\". Addison-Wesley Publishing Co. 1991.",
+    "B. W. Williams; \"POWER ELECTRONICS. DEVICES, DRIVERS, APPLICATIONS AND PASSIVE COMPONENTS\". MacMillan, 1993.",
+    "R. W. Erikson; \"FUNDAMENTALS OF POWER ELECTRONICS\". Chapman Hall. 1997.",
+    "T.L. Floyd \"FUNDAMENTOS DE SISTEMAS DIGITALES\". Prentice Hall"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-4-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-4-006",
+  "source_language": "es",
+  "source_sha256": "f18f8d7963ad8a302937bec54cf7bb7e284202eee5361af0559b5fbc37807339",
+  "extracted_at": "2026-11-20T01:12:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

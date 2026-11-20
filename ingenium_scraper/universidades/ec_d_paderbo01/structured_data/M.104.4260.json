@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Technische Mechanik 4",
+  "course_name_en": "Technical Mechanics 4",
+  "ects": 8.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Successful completion of modules to be completed in the 1st and 2nd semesters according to the study plan.",
+    "Basic knowledge in mechanics and mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students acquire knowledge of the fundamentals of strength of materials and fatigue strength and can explain the relevant content.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They can reproduce and apply calculation methods for fatigue life and material fatigue.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can formulate the basic equations of elasticity theory for three-dimensional bodies (three-dimensional stress and strain states, three-dimensional elasticity law, kinematic and static field equations).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can present basic knowledge of crystal plasticity for metals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are able to describe the methodological fundamentals of the Finite Element Method using simple bar structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Furthermore, in the accompanying exercise, they can develop an FEM program in MATLAB and deal with practical examples.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic equations of elasticity theory (three-dimensional stress and strain states, three-dimensional elasticity law, kinematic field equations, static field equations)",
+    "Fundamentals of strength of materials (stress hypotheses, fracture and yield criteria)",
+    "Analytical solutions of elasticity theory (compatibility conditions, Airy stress function, derivation of stress concentration factors)",
+    "Energy methods, application to statically indeterminate systems",
+    "Notch stresses (form factors, notch effect under variable loading, lifetime prediction)",
+    "Lifetime analysis with the stress concept (stress-Wöhler curve, Basquin relationships, consideration of mean stresses, Haigh diagram)",
+    "Lifetime analysis with the strain concept (strain-Wöhler curve, Coffin-Manson relationships, consideration of mean stresses, multi-axiality, damage parameters, example from turbine construction)",
+    "Fundamentals of crystal plasticity",
+    "Fundamentals of the Finite Element Method (Direct Method, FEM in bar statics, elastic tension rod, heat conduction in the rod, FEM for trusses, mesh generation and adaptivity, Galerkin method for the tension rod",
+    "Finite Element applications (CAE creation of geometries, creation of Finite Element meshes, execution of Finite Element calculations, result improvement by selecting suitable finite elements, post-processing and evaluation of results considering analytical solutions)",
+    "Implementation in MATLAB (pre-processing of simple geometric structures, setting up and solving the system of equations, post-processing, such as displacement, strain and stress representation)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written or oral examination (Modulabschlussprüfung)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The module examination will be either a written exam (180-240 minutes) or an oral exam (45-60 minutes). To receive ECTS credits, the module examination must be passed. In the exam, students should explain the underlying elementary processes for exemplary problems and select and fundamentally design suitable methods and apparatus.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universitaet Paderborn",
+  "institution_slug": "ec_d_paderbo01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "M.104.4260",
+  "academic_year": "2025-26 (Modulhandbuch SoSe 2026)",
+  "source_url": "https://mb.uni-paderborn.de/fileadmin-mb/fakultaet/Studiengaenge/Modulhandbuecher/Modulhandbuecher_SoSe_26/Alte_POen/Ba_MB_SS26.pdf",
+  "source_language": "de",
+  "source_sha256": "154f9b71ca213a7427c3ca1228c8339751919f09f181506ce48ab2d5c7f86397",
+  "extracted_at": "2026-11-18T09:51:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

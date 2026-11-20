@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Radiocomunicaciones Terrestres y Vía Satélite",
+  "course_name_en": "Terrestrial and Satellite Radiocommunications",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear algebra",
+    "Differential and integral calculus",
+    "Vector analysis",
+    "Differential equations",
+    "Basic concepts of electromagnetic fields and waves",
+    "Transmission lines and wave propagation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Manage the basic parameters and regulations on electromagnetic emissions of a radiating system.",
+      "type": "skill",
+      "code": "RA-9.4"
+    },
+    {
+      "text": "Analyze the effects of reflection and transmission of electromagnetic waves and interpret their behavior.",
+      "type": "skill",
+      "code": "RA-9.5"
+    },
+    {
+      "text": "Interpret the engineering parameters that define the elements composing a radio link according to the application, and, in particular, those of antennas, their value ranges and units, as well as their technical specifications (also in English).",
+      "type": "skill",
+      "code": "RA-9.8"
+    },
+    {
+      "text": "Identify an antenna type, analyze its characteristics, frequency band, and applications.",
+      "type": "skill",
+      "code": "RA-9.9"
+    },
+    {
+      "text": "Perform the balance of a link with basic propagation losses, interpret the propagation mechanisms associated with the environment and frequency bands, and use models to quantify them.",
+      "type": "skill",
+      "code": "RA-9.10"
+    },
+    {
+      "text": "Analyze the specifications and parameters of specific components of a satellite link.",
+      "type": "skill",
+      "code": "RA-9.11"
+    },
+    {
+      "text": "Identify and compare different satellite transmission systems based on orbit, applications, and services offered by organizations and consortia.",
+      "type": "skill",
+      "code": "RA-9.12"
+    },
+    {
+      "text": "Understand the technical and regulatory fundamentals of frequency allocation, as well as be able to manage national and international frequency attribution tables.",
+      "type": "skill",
+      "code": "RA-9.13"
+    }
+  ],
+  "syllabus_topics": [
+    "Parameters of antennas, types of antennas and their characterization",
+    "Engineering parameters for the characterization of transmitter and receiver antennas (matching parameters, gain functions, polarization, EIRP, radiation performance, illumination efficiency)",
+    "Wire antennas",
+    "Aperture antennas (horns and reflectors)",
+    "General theory of sensor arrays",
+    "Antenna arrays",
+    "Other types of antennas in wireless communications",
+    "Balance of a radio link in free space. Terrestrial propagation, characterization and models",
+    "Power balance of a free-space link",
+    "Friis formula",
+    "Loss factors",
+    "Characterization and specifications of link elements",
+    "EIRP of a transmitter",
+    "Receiver and antenna noise temperature",
+    "G/T parameter",
+    "Parameters related to signal-to-noise ratio, sensitivity, error probability, transmission speed and capacity, for evaluating reception in analog and digital radio links",
+    "Terrestrial radio link",
+    "Reflection coefficients",
+    "Fresnel zones",
+    "Design of a radio link with reflection and obstacles",
+    "Attenuation by hydrometeors and gases",
+    "Availability",
+    "Effect of tropospheric refraction and equivalent rectilinear propagation",
+    "Ionospheric propagation: description and balance of an ionospheric link",
+    "Characteristics of multipath propagation and mobility; characterization parameters and operating criteria",
+    "Characterization of radio coverage",
+    "Empirical and numerical models for propagation characterization and radio coverage calculation",
+    "Regulation on the use of the radio electric public domain and National Frequency Allocation Chart (CNAF)",
+    "Environmental impact of electromagnetic emissions: regulation of human exposure to electromagnetic emissions",
+    "Communication satellites. Orbits. Systems and applications. Satellite radio link",
+    "Introduction and history of satellites",
+    "Orbits, equations and coordinate systems",
+    "Examples of orbits associated with different missions and services; comparisons",
+    "Orbit perturbations; ellipses and conjunctions",
+    "Organizations and operators",
+    "Orbit coordination",
+    "Launch",
+    "Satellite elements",
+    "Payload",
+    "Characterization of specific elements of the satellite link (onboard transponder, satellite antennas, transmitters, receivers and antennas in ground stations)",
+    "Link balance and specific loss factors",
+    "Multiple access",
+    "Some examples of configuration and specifications of satellite transmission systems (TV-SAT, broadcasting, V-SAT, telephony, internet, localization, navigation, security, earth observation and environmental applications)",
+    "Frequency bands, allocation to systems and services"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Seminars",
+    "Conferences",
+    "Project-based learning"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exam (Theoretical Block)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practical work delivery and defense (Practical Block)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For the ordinary examination, the final grade is calculated as (0.70 x T) + (0.3 x P), where T is the theoretical block exam score and P is the practical block score. A minimum score of 4 out of 10 is required in the theoretical block exam. If this minimum is not met, the final grade will be the minimum between the calculated score and 4.0. For the extraordinary examination, students may use the practical score (P) from the ordinary examination and a new written exam (T). A minimum of 4 points out of 10 is required in the written exam; otherwise, the final grade will be the minimum of the calculated score and 4.0. Students can also opt for a single written exam covering the entire subject, whose score will directly be the final grade.",
+  "bibliography": [
+    "Documentación de la asignatura (transparencias, apuntes, colecciones de ejercicios y problemas, etc).",
+    "Equipamiento de laboratorio: PCs, software de simulación, herramientas de planificación radioeléctrica, bancos de antenas y equipamiento de medida, manuales.",
+    "Documentación para prácticas: guiones, plantillas, etc.",
+    "Cámara anecoica de medida de antenas y Estación de Seguimiento de Satélites ambientales de la Universidad de Oviedo (ESSUO).",
+    "Web de la asignatura, bien integrada en Campus Virtual o en Microsoft Teams.",
+    "Fernando Las-Heras, Yuri Álvarez. “Ejercicios de Radiocomunicaciones”, 1ª Edición, Servicio de Publicaciones de la Universidad de Oviedo. ISBN: 978-84-10135-50-5, Dic 2024.",
+    "Ángel Cardama, Lluis Jofre, Juan Manuel Rius, Jordi Romeu, Sebastián Blanch. Antenas. Edicions UPC, 2ª ed., 2002.",
+    "C.T.A. Balanis. Antenna Theory, Analysis and Design.2nd Ed. John Wiley and Sons, Inc., New York, 1996.",
+    "Per-Simon Kildal. Foundations of Antennas. A Unified Approach. Studentlitteratur, 2000.",
+    "Simon R. Saunders. Antennas and Propagation for Wireless Communication Systems. Wiley, 1999.",
+    "J. Griffiths. Radio Wave Propagation. Prentice Hall Int, 1987.",
+    "J.M. Hernando Rábanos. Transmisión por radio. Ed. Centro de Estudios Ramón Areces, 3ª ed., 1998.",
+    "M. Dolukhanov. Propagation of Radio Waves. MIR. 1971.",
+    "G. Maral, M. Bousquet, “Satellite Communications Systems: Techniques and Technology” (4th edition), John Wiley Sons, 2002.",
+    "T. Pratt, C. W. Bostian, J. E. Allnutt, “Satellite Communications” (2nd edition), Wiley Text Books, 2002.",
+    "T. T. Ha, “Digital Satellite Communications” (2nd edition), McGraw-Hill, 1990.",
+    "D. Roddy, “Satellite Communications” (3rd edition), McGraw-Hill, 2001.",
+    "W. L. Morgan, G. D. Gordon, “Communications Satellite Handbook”, Wiley-Interscience, 1989.",
+    "G. D. Gordon, W. L. Morgan, “Principles of Communications Satellite”, John Wiley & Sons, 1993.",
+    "W. L. Pritchard, J. A. Scuilli, “Communications Satellite Systems Engineering” (2nd edition) Prentice Hall, 1993.",
+    "Real Decreto 123/2017, de 24 de febrero, por el que se aprueba el Reglamento sobre el uso del dominio público radioeléctrico (modificado por Real Decreto 16/2023).",
+    "Orden ETD/1449/2021, de 16 de diciembre, por la que se aprueba el Cuadro Nacional de Atribución de Frecuencias (modificado por Orden ETD/625/2023).",
+    "ICNIRP Guidelines For Limiting Exposure To Electromagnetic Fields (100 KHz To 300 GHz) ICNIRP Publication – 2020",
+    "Informe sobre Radiofrecuencias y Salud (2020 - 2022). Comité Científico Asesor en Radiofrecuencias y Salud (CCARS). ISBN: 978-84-123218-8-3. 2023.",
+    "Normativa publicada en BOE sobre competencias y atribuciones profesionales y sobre la evaluación y medida de emisiones electromagnéticas en particular."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-3-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-3-009",
+  "source_language": "es",
+  "source_sha256": "07b9d61784d58a6f65e188271c43feccf5216518714ec064200bb89fddebe755",
+  "extracted_at": "2026-11-20T06:04:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

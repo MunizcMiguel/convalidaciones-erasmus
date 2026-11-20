@@ -1,0 +1,141 @@
+{
+  "course_name_original": "Podstawy techniki mikroprocesorowej (B)",
+  "course_name_en": "Fundamentals of Microprocessor Technology (B)",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands the operating principles of basic combinational and sequential digital circuits.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Possesses basic and ordered knowledge about serial communication standards (USART, I2C, SPI, 1-Wire).",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands the construction and operation of a microprocessor, microcomputer, and microcontroller.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows and understands the operating principles of basic peripheral devices found in microcontrollers.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Possesses general and systematized knowledge about programmable logic controllers (PLCs).",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Knows and understands the principles of encoding numbers in the binary system and performing basic arithmetic operations in this system.",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Knows and understands the basic principles of microcontroller programming.",
+      "type": "knowledge",
+      "code": "W7"
+    },
+    {
+      "text": "Is able to write, load, and run a program that controls a selected microcontroller peripheral device.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is able to convert numbers between decimal and binary systems and perform arithmetic operations.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is able to minimize a logical function using Karnaugh maps and design a logic circuit that implements this function.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is able to write, load, and run a simple program for a microcontroller.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Is familiar with the construction and possibilities of using programmable logic controllers (PLCs).",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Is familiar with the most common serial communication standards (USART, I2C, SPI, 1-Wire).",
+      "type": "competence",
+      "code": "K2"
+    },
+    {
+      "text": "Is familiar with the architectures of selected microcontrollers and their application possibilities.",
+      "type": "competence",
+      "code": "K3"
+    }
+  ],
+  "syllabus_topics": [
+    "Number systems. Number systems and their types (positional, non-positional, weighted, non-weighted, reflexive). Natural binary code. Hexadecimal code. Number conversion between systems. Number complement and negative number encoding. Basic arithmetic operations in the binary system on integers. Gray code. BCD code.",
+    "Basic digital circuits. Combinational and sequential circuits. Gates. Basic combinational circuits: decoders, multiplexers, demultiplexers, adders, comparators. Examples of integrated combinational circuits. Sequential circuits. Latches and flip-flops. Level and edge synchronization. Registers. Counters. Examples of integrated sequential circuits.",
+    "Microcomputer. Microprocessor, microcomputer and microcontroller. Microcomputer elements: microprocessor, buses (address and data), RAM memory (SRAM, DRAM), ROM memory (ROM, PROM, EPROM, EEPROM, Flash). Read and write cycle to/from memory. Architectures of microcomputer systems: von Neumann, Harvard and mixed. Characteristics of architectures.",
+    "Microprocessor. Microprocessor structure. Instruction execution cycle. Status word. Basic flags C, Z, V and N and auxiliary flags (S, H (AC)). Addressing modes. Stack. Microprocessor instruction list and the concept of assembler. Implementations of data transfer instructions, jumps (unconditional and conditional), subroutine calls and returns from subroutines, bit shifts and rotations.",
+    "Fundamentals of programming in assembly and C language. Elements of assembly source code: directive, instruction, instruction argument, label, comment. Allocating variables in memory. Examples of typical operations in assembly: 2- and 4-byte arithmetic, 2- and 4-byte number comparisons, encoding if-then and if-then-else branches, bitwise arithmetic (setting and clearing bit(s) in a register, testing bit(s) status) in assembly and C/C++ languages.",
+    "Microcontrollers. Microcontroller definition. Microcontroller parameters. Examples of 8-, 16-, 32-bit microcontroller families. Microcontroller structure using AVR ATxmega as an example. Memory map. Clock signal distribution. Basic peripherals. Overview of selected peripheral devices with handling examples: binary inputs/outputs (I/O), analog-to-digital converter (ADC), time-counter systems (TC).",
+    "Interrupts. Definition. Maskable and non-maskable interrupts. Interrupt vector. Interrupt controller. Order of interrupt handling. Priorities and the concept of interrupt preemption. Interrupt masking.",
+    "Examples of using peripheral devices and the interrupt system. Using a timer for periodic execution of the main program loop code. Matrix keyboard handling.",
+    "Serial communication interfaces. Division of communication interfaces: parallel/serial, synchronous/asynchronous, half/full duplex. Concept and elements of a data frame. Overview of available interfaces and their basic parameters. USART, RS232, RS422, RS485 interfaces, SPI interface, I2C interface, 1-Wire interface.",
+    "Programmable logic controllers (PLCs). Definition of a PLC controller. Controller structure and controller operation cycle. Types of PLC controllers (modular, compact, micro- and nanocontrollers) and examples. I/O packages - binary, analog, counter, specialized. Standard parameters of I/O signals. Communication modules. Fundamentals of PLC programming. Overview of programming languages defined in standard 61131-3."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 112.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed by an examination. Laboratory classes are assessed based on the execution of laboratory classes and a report. Students are obliged to prepare for laboratory exercises, which may be verified by an oral or written colloquium. Passing the module requires passing all laboratory classes.",
+  "bibliography": [
+    "Kalisz J., Podstawy elektroniki cyfrowej, WKŁ, Warszawa 2007.",
+    "Baranowski R.: Mikrokontrolery AVR ATmega w praktyce. BTC, Warszawa 2005.",
+    "Baranowski R.: Mikrokontrolery AVR ATtiny w praktyce. BTC, Warszawa 2006.",
+    "Materiały katalogowe firm Texas Instruments, Intel, Microchip, Nexperia, Siemens, GE Fanuc.",
+    "Jabłoński T.: Mikrokontrolery PIC16F. Programy w C dla początkujących. BTC, Legionowo 2010.",
+    "Bogusz J.: Lokalne interfejsy szeregowe w systemach cyfrowych. BTC, Warszawa 2004."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.19132.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/14b1b685-05b8-4159-ace2-e00f110b80cc.html",
+  "source_language": "pl",
+  "source_sha256": "751addb46c433139ac5fa6eb85b4ed1d7943f777fea7401e9936cf8eb0bcb5ca",
+  "extracted_at": "2026-11-20T09:03:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

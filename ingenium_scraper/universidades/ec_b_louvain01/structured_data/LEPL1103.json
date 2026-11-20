@@ -1,0 +1,149 @@
+{
+  "course_name_original": "EDPs and complex analysis",
+  "course_name_en": "EDPs and complex analysis",
+  "ects": 5.0,
+  "semester": "Q1",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "basic notions of analysis (ordinary differential equations (ED0) and methods of solving 1st order and 2nd order ODE, functions of several variables and partial derivatives)",
+    "gradient, divergence and Laplacian as taught in courses LEPL1102 and LEPL1105",
+    "Physics LEPL1203 for the concept of wave equation (followed in parallel)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Define and explain the fundamental properties of the different types of first-order and second-order, linear and quasi-linear PDEs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand and differentiate the fundamental physical phenomena governed by PDEs: hyperbolic case (also transport equation and wave equation), parabolic case (diffusion equation), elliptical case (Laplace and Poisson equations).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "For each type, define and apply appropriate initial and/or boundary conditions (Dirichlet, Neumann, Robin).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply the method of characteristics to solve PDEs of order 1, and to solve the 1-D wave equation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the general theory on self-adjoint operators: eigenvalues ​​and eigenfunctions, orthogonality of eigenfunctions, development of a function as a series of eigenfunctions.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply the method of separation of variables to solve Laplace's equation in a rectangle, a (sector of) circle, a (sector of) ring.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply the method of separation of variables to solve the wave equation in a segment, a rectangle, a circle (Bessel equation).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply the method of separation of variables to solve the diffusion equation in a segment, a rectangle, a circle.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Obtain the similarity solution of the diffusion equation in a semi-infinite segment: case with fixed jump at the origin, case with temporal oscillation at the origin.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the definition of the elementary functions of a complex variable, obtain the possible branching point(s) of a function and choose an appropriate cut(s), evaluate a function in one or more branches.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the concepts of limit, continuity and differentiability of a function, and make the connections with Laplace's equation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Obtain the series expansion of a function.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Calculate the pole(s) of a function, and use the residue theorem to evaluate definite integrals.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the concept of conformal transformation, and be able to apply it in simple cases.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "1st and 2nd order PDE: presentation, classification (hyperbolic, parabolic, elliptic) and links with physical phenomena (transport equation, wave equation, diffusion equation, Laplace's equation, Poisson's equation)",
+    "Cauchy problem and method of characteristics for hyperbolic PDE",
+    "Initial and/or boundary conditions (Dirichlet, Neumann, Robin)",
+    "Solutions in infinite domain (by Green's functions) for the diffusion equation, and for Poisson's equation",
+    "Self-adjoint operators, eigenvalues and eigenfunctions, orthogonality of eigenfunctions",
+    "Development of functions in series of eigenfunctions",
+    "Helmholtz problem",
+    "Bessel functions of the 1st and 2nd kind",
+    "Method of separation of variables for problems in infinite domain: Laplace's equation in 2-D (rectangle, circle, annulus, sector of circle or annulus)",
+    "Wave equation in 1-D and in 2-D",
+    "Diffusion equation in 1-D and in 2-D",
+    "Similarity solutions for the diffusion equation in 1-D semi-infinite domain",
+    "Recall the complex plane and the complex numbers",
+    "Definition of elementary functions: z^a, exp(z), log(z), a^z, sin(z), sinh(z), arcsin(z), etc.",
+    "Branch point(s) and branch cut(s), Riemann surface(s)",
+    "Limits and continuity, derivability, holomorphic (analytic) functions, entire functions",
+    "Cauchy-Riemann equations and links with Laplace's equation",
+    "Integration, Cauchy theorem and consequences: Cauchy integral formula, Taylor and Laurent series, poles, residue(s) theorem",
+    "Evaluation of definite integrals (also using Jordan's lemma)",
+    "Introduction to conformal transformations and examples of applications"
+  ],
+  "teaching_methods": [
+    "Courses in large auditorium (CM1 to CM13)",
+    "Learning through exercises sessions (APE1 to APE12), partly in tutored groups"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam on PDEs part",
+      "weight_percentage": 57.14
+    },
+    {
+      "method": "Written exam on Complex Analysis part",
+      "weight_percentage": 42.86
+    }
+  ],
+  "assessment_rules": "Students are evaluated individually with a written exam. The final grade is a weighted sum of the grade obtained for the PDEs part (4/7) and the grade obtained for the Complex Analysis part (3/7). The APE sessions are not graded but solutions are provided for self-evaluation.",
+  "bibliography": [
+    "J.-F. Remacle et G. Winckelmans, syllabus \"LEPL1103: Partie sur les équations aux dérivées partielles (EDPs)\"",
+    "P. Chatelain et G. Winckelmans, copie des supports visuels utilisés au cours",
+    "Richard Haberman, \"Elementary Applied Partial Differential Equations: with Fourier Series and Boundary Value Problems\", Prentice Hall",
+    "J. Hendrickx et G. Olikier: \"LEPL1103: syllabus d'analyse complexe\"",
+    "G. Winckelmans: note complémentaire sur les Lemmes de Jordan",
+    "Stephen D. Fisher, \"Complex Variables\", Dover",
+    "Georges F. Carrier, M. Krook, Carl E. Pearson, \"Functions of a Complex Variable: Theory and Practice\", Hod Books"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Université catholique de Louvain (UCLouvain)",
+  "institution_slug": "ec_b_louvain01",
+  "degree": "Bachelor in Engineering (Bachelier en sciences de l'ingénieur, orientation ingénieur civil) - FSA1BA",
+  "course_code": "LEPL1103",
+  "academic_year": "2025-26",
+  "source_url": "https://uclouvain.be/en-cours-2025-lepl1103",
+  "source_language": "en",
+  "source_sha256": "d6a87b95fec32488b4b58c73042f6eb66d23ab658733a948a15d8c0e27282a9d",
+  "extracted_at": "2026-11-20T09:15:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

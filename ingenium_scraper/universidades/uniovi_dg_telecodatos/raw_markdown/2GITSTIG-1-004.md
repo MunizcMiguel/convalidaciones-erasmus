@@ -1,0 +1,287 @@
+---
+{
+ "course_code": "2GITSTIG-1-004",
+ "course_name": "Empresa",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-004",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:02:21",
+ "content_sha256": "eb676e86282da5880908e46e1f0af74d132c8e3187ec992dcd5bbde2466cacd6"
+}
+---
+
+# Empresa
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-1-004
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Prácticas de Aula/Semina (14 Horas); Clases Expositivas (16 Horas); Docencia On Line (30 Horas)
+
+## Contextualización
+
+Empresa es una asignatura que pertenece a la materia “Aspectos Legales y de Gestión de Productos Basados en Datos”. Debido a su carácter, se imparte en el primer semestre del primer curso y se considera materia básica en la formación de los alumnos de Ingeniería. Los contenidos de la asignatura se encuentran enlazados con los estudiados en otras materias del grado.
+
+Esta asignatura tiene como objetivo dotar al estudiante de ingeniería de los conocimientos esenciales para la dirección y la administración de una empresa. Para ello, se requiere aportar unos conocimientos básicos relativos a economía y empresa, al funcionamiento de los mercados industriales y a la organización de la actividad empresarial. La asignatura debe asimismo introducir al alumno en el pensamiento empresarial desde el punto de vista del ingeniero, incluyendo el concepto de empresa y su papel en la economía, los tipos de empresas existentes en sus diferentes formas jurídicas y sus implicaciones económicas. A su vez, se explica la empresa desde el punto de vista de la dirección estratégica. Finalmente, se analiza la contribución de las distintas áreas funcionales (Finanzas, Producción, Marketing y Recursos Humanos) en la actividad del ingeniero.
+
+## Requisitos
+
+Ninguno, ya que al ser una asignatura de primer curso no será necesario. No obstante se recomienda tener en cuenta los requisitos generales para el acceso a grado desde los estudios cursados en el Bachillerato.
+
+## Competencias y resultados del aprendizaje
+
+**COMPETENCIAS GENERALES, BÁSICAS Y ESPECÍFICAS:**
+
+- CG07- Identificar oportunidades para aplicaciones innovadoras orientadas a datos en entornos tecnológicos en continua evolución.
+- CG09- Capacidad para expresar los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+- CB1- Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio.
+- CB2- Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+- CB3- Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+- CB4- Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+- CB5- Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía.
+- CE18- Conocimiento adecuado del concepto de empresa, su organización y gestión, los distintos sectores empresariales y las oportunidades de emprendimiento, con el objetivo de facilitar soluciones desde la ciencia e ingeniería de datos.
+- CE19- Proponer soluciones y planes de negocio basados en la explotación de datos y comunicar adecuadamente dichas propuestas.
+
+**RESULTADOS DE APRENDIZAJE:**
+
+- REMP1- Conocer el concepto de empresa y su tipología.
+- REMP2- Conocer el marco institucional de la empresa.
+- REMP3- Conocer el marco jurídico de la empresa.
+- REMP4- Conocer la organización de la empresa.
+- REMP5- Conocer los mecanismos de gestión de la empresa.
+
+## Contenidos
+
+**TEMA 1: Organización de la actividad económica**
+
+- Funcionamiento de la actividad económica y tipos de mercados
+- Análisis de magnitudes económicas
+
+**TEMA 2. Empresa y tipología de empresas**
+
+- Concepto y objetivos de la empresa
+- Tipos de empresa: criterios económicos, organizativos y jurídicos
+
+**TEMA 3. Entorno y estrategia de la empresa**
+
+- Análisis del entorno empresarial
+- Dirección estratégica de la empresa
+
+**TEMA 4. Decisiones de inversión y financiación**
+
+- Análisis patrimonial y de resultados para la toma de decisiones
+- Los recursos financieros en la empresa
+- Valoración de proyectos de inversión y financiación
+
+**TEMA 5. El sistema productivo**
+
+- La función de producción
+- Decisiones de producción
+- Tipos de sistemas productivos
+
+**TEMA 6. Marketing industrial**
+
+- Estudios de mercado
+- El marketing-mix
+
+**TEMA 7. La dirección de la empresa**
+
+- Niveles directivos y funciones de la dirección
+- Organización de la empresa
+- Gestión de recursos humanos
+
+## Metodología y plan de trabajo
+
+Al tratarse de un Grado semipresencial la docencia (tanto las clases expositivas (CE), como las prácticas (PA)) se impartirán en dos modalidades: Presencial (PR) y Online (OL).
+
+La metodología a seguir en cada una de las modalidades que configuran la docencia de esta asignatura es la siguiente:
+
+- **Actividades presenciales:**
+
+1. **CE** **PR** para introducir y desarrollar los conocimientos básicos de la asignatura, así como los conceptos y fundamentos necesarios para su comprensión. Si bien se basan fundamentalmente en la exposición y análisis por parte del profesor de los contenidos más relevantes, en ellas también se fomentará la discusión con los alumnos, estimulando el debate y una actitud activa de los mismos a través del planteamiento de preguntas, puntos de vista y opiniones. Estas CE contarán con el apoyo tanto de medios audiovisuales, como las referencias bibliográficas proporcionadas al alumno para el seguimiento de las mismas.
+2. **PA PR** para aclarar y comprender el alcance práctico de los contenidos de la materia. Con un carácter marcadamente participativo, se basarán en la resolución de cuestiones teórico-prácticas, el análisis de casos de empresas y la realización de ejercicios y problemas en aquellos apartados en los que sea pertinente. Asimismo, se comentarán noticias de prensa y temas de actualidad relacionados con los contenidos que están siendo impartidos. Durante estas sesiones, los alumnos aprenderán a resolver cuestiones básicas relacionadas con la naturaleza de la empresa, su dirección, su organización y su estructura funcional. Asimismo, en ellas se abordarán con más profundidad aquellos conceptos que pudieran resultarles menos asequibles a los estudiantes.
+- **Actividades no presenciales:**
+
+1. **CE OL**, esta docencia complementa a las CE PR. Para un adecuado seguimiento el alumno contará con el apoyo de diversos recursos: materiales, audiovisuales, bibliográficos, prensa, etc.
+2. **PA OL**, esta docencia complementa las PA PR. Se basará en la resolución de cuestiones teórico-prácticas, de ejercicios, análisis de casos, etc no contemplados en las PA PR.
+3. **Trabajo del estudiante**, autónomo o en grupo según sea pertinente, centrado principalmente en el estudio de los contenidos impartidos y en la preparación de las tareas y pruebas propuestas. El trabajo en grupo ocasional permitirá al alumno perfeccionar las competencias y habilidades relacionadas con el trabajo en equipo, la búsqueda de información y la argumentación.
+
+En cualquier caso las actividades no presenciales se basarán en un uso intensivo de los recursos ofrecidos por el Campus Virtual de la Universidad de Oviedo. También se contempla el uso de otras plataformas, si procede, como MSTeams (o similares).
+
+Todos los materiales necesarios para un adecuado seguimiento de las actividades descritas estarán a disposición del alumno a través del Campus Virtual de la Universidad de Oviedo. Asimismo, todas las actividades señaladas se verán reforzadas con la oferta de tutorías online por parte del profesor para resolver y aclarar todas las dudas que puedan planteársele al alumno.
+
+El desarrollo de todas las actividades descritas es el que se presenta en las tablas que se muestran a continuación. No obstante, su carácter es meramente aproximativo, puesto que la evolución de la actividad docente durante la impartición del curso, así como la dificultad y/o interés que pueda mostrar el alumnado en cada una de las distintas partes del programa, podrían conllevar ligeras modificaciones en el plan de trabajo presentado.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **TEMAS** | **HORAS TOTALES** | **Clase Expositiv***a* | **Prácticas de aula /Seminarios/ Talleres** | **Prácticas de laboratorio /campo /aula de informática/ aula de idiomas** | **Prácticas clínicas hospitalarias** | **Tutorías grupales** | **Prácticas Externas** | **Sesiones de Evaluación** | **TOTAL** | **Clase Expositiva** | **Prácticas de aula /Seminarios/ Talleres** | **Trabajo en grupo** | **Trabajo autónomo** | **TOTAL** |
+| Tema 1 | **29** | 3 | 3 |  |  |  |  |  | **6** | 3 | 3 | 2 | 15 | **23** |
+| Tema 2 | **13** | 1 | 1 |  |  |  |  |  | **2** | 1 | 1 | 3 | 6 | **11** |
+| Tema 3 | **17** | 2 | 2 |  |  |  |  |  | **4** | 2 | 2 | 1 | 8 | **13** |
+| Tema 4 | **36** | 4 | 4 |  |  |  |  |  | **8** | 4 | 4 | 2 | 18 | **28** |
+| Tema 5 | **27** | 2 | 3 |  |  |  |  |  | **5** | 3 | 4 | 1 | 14 | **22** |
+| Tema 6 | **5** | 1 | 0 |  |  |  |  |  | **1** | 1 | 0 | 0 | 3 | **4** |
+| Tema 7 | **11** | 1 | 1 |  |  |  |  |  | **2** | 1 | 1 | 1 | 6 | **9** |
+| Exámenes | **12** |  |  |  |  |  |  | 2 | **2** |  |  |  | 10 | **10** |
+| **TOTAL** | **150** | **14** | **14** |  |  |  |  | **2** | **30** | **15** | **15** | **10** | **80** | **120** |
+
+| **MODALIDADES** |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| **Presencial** | Clases Expositivas | 14 | 9,4 | 60 (40 %) |
+|  | Práctica de aula / Seminarios / Talleres | 14 | 9,4 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | ---- | ---- |  |
+|  | Prácticas clínicas hospitalarias | ---- | ---- |  |
+|  | Tutorías grupales | ---- | ---- |  |
+|  | Prácticas Externas | ---- | ---- |  |
+|  | Sesiones de evaluación | 2 | 1,4 |  |
+| **No presencial** | Clases Expositivas | 15 | 10 |  |
+|  | Práctica de aula / Seminarios / Talleres | 15 | 10 |  |
+|  | Trabajo en Grupo | 10 | 6,7 | 90 (60 %) |
+|  | Trabajo Individual | 80 | 5,4 |  |
+|  | TOTAL | 150 |  |  |
+
+En el desarrollo de la asignatura es aplicable el vigente Código ético de la Universidad de Oviedo.
+
+## Evaluación del aprendizaje
+
+La evaluación del aprendizaje de los estudiantes se realizará de la siguiente manera:
+
+**Evaluación en la convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen final (EX.ORD). Es un examen escrito de carácter teórico-práctico. Se realiza en la fecha oficial establecida por el centro. Se evalúan todos los contenidos de la asignatura. La puntuación máxima de esta prueba es de 6 puntos, exigiéndose un mínimo del 40% de esa nota (2,4 puntos) para superar la asignatura.
+- Práctica evaluable 1 (P1). Se evalúan los contenidos de los Temas 1, 2 y 3 de la asignatura.
+- Práctica evaluable 2 (P2). Se evalúan los contenidos del Tema 4 de la asignatura.
+- Práctica evaluable 3 (P3). Se evalúan los contenidos de los Temas 5 y 6 de la asignatura.
+- Participación (P). Participación y entrega de tareas durante todo el semestre (formas de trabajo asíncronas, participación en foros, trabajos, actividades del campus virtual, …).
+
+P1, P2 y P3 se realizan durante el semestre, en fecha a determinar, una vez finalizados los temas correspondientes. La puntuación máxima de cada práctica es de 0,9 puntos. La puntuación máxima del bloque de Participación (P) es de 1,3 puntos. No es necesario alcanzar una nota mínima en cada práctica (ni en participación), pero para superar la asignatura se debe obtener un mínimo de 1,6 puntos en la suma de las notas de las tres prácticas evaluables (P1, P2 y P3) junto con la participación (P) (1,6 sobre 4 puntos totales; 40%).
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos anteriormente, la nota final de la convocatoria se calcula como sigue:
+
+NOTA FINAL = EX.ORD + P1 + P2 + P3 + P
+
+Si se han alcanzado todos los mínimos establecidos anteriormente y, además, se han obtenido al menos 5 puntos en el conjunto de la asignatura, se aprobará la asignatura, con la nota obtenida según la fórmula anterior.
+
+Si se han alcanzado todos los mínimos establecidos anteriormente pero no se han obtenido al menos 5 puntos en el conjunto de la asignatura, se suspenderá la asignatura en esta convocatoria ordinaria, siendo la nota final la obtenida según la fórmula anterior.
+
+Si se superan los 5 puntos en la nota final, obtenida según la fórmula anterior, pero no se alcanza uno de los mínimos establecidos anteriormente, se suspenderá la asignatura en esta convocatoria ordinaria, siendo la nota final de 4,5 puntos.
+
+De no haberse alcanzado durante el semestre el mínimo establecido anteriormente en la suma de las tres prácticas evaluables (P1, P2 y P3) y la participación (P), la nota final en la convocatoria ordinaria será de “Suspenso” si el/la estudiante se presenta al examen final (EX.ORD) en esta convocatoria. Si el/la estudiante se presenta al examen final y supera el mínimo establecido anteriormente en ese examen final, su nota en el mismo será válida para las convocatorias extraordinarias, en las que no tendrá que presentarse de nuevo a ese examen final (EX.EXTR), pero sí a un examen de prácticas (EX.PR) como se detalla a continuación.
+
+La nota final en esta convocatoria será de “No presentado” si el/la estudiante no se presenta al examen final en esta convocatoria, independientemente de si se ha alcanzado o no el mínimo establecido anteriormente en la suma de las tres prácticas evaluables (P1, P2 y P3) y la participación (P).
+
+Finalmente, no es posible superar la asignatura si no se alcanzan 5 puntos y no se superan los mínimos establecidos para cada parte. Alcanzar los mínimos es condición necesaria, aunque no suficiente, para superar la asignatura puesto que es necesario alcanzar, además, los 5 puntos. Del mismo modo, alcanzar los 5 puntos no garantiza el aprobado si no se han alcanzado los mínimos establecidos en ambas partes de la asignatura (teoría y práctica). La asignatura quedará superada si se han alcanzado los mínimos y, además, se han alcanzado los 5 puntos.
+
+Consideraciones
+
+En las pruebas escritas se penalizará la sintaxis o la ortografía incorrectas.
+
+**Evaluación en las convocatorias extraordinarias**
+
+Elementos evaluables
+
+La convocatoria extraordinaria consta de un examen teórico-práctico y/o un examen de prácticas.
+
+El examen teórico-práctico (EX.EXTR) es un examen escrito, que se realiza en las fechas oficiales establecidas por el centro. En este examen se evalúan todos los contenidos de la asignatura. La puntuación máxima de esta prueba es de 6 puntos, exigiéndose un mínimo del 40% de esa nota (2,4 puntos) para superar la asignatura.
+
+El examen de prácticas (EX.PR) es un examen escrito, que se realiza en las fechas oficiales establecidas por el centro (las mismas que EX.EXTR). En este examen se evalúa todo el contenido práctico de la asignatura. La puntuación máxima de esta prueba es de 4 puntos, exigiéndose un mínimo del 40% de esa nota (1,6 puntos) para superar la asignatura.
+
+Podrán presentarse al examen teórico-práctico (EX.EXTR) quienes se hallen en alguna de las siguientes situaciones: 1) no se hayan presentado al examen final (EX.ORD) en la convocatoria ordinaria; 2) se hayan presentado al examen final (EX.ORD) en la convocatoria ordinaria, pero no hayan alcanzado el mínimo establecido anteriormente para este examen final en dicha convocatoria.
+
+Podrán presentarse al examen práctico (EX.PR) quienes no hayan alcanzado el mínimo establecido anteriormente para la suma de las tres prácticas evaluables (P1, P2 y P3) y la participación (P) durante el semestre.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos anteriormente, la nota final de la convocatoria se calcula como sigue:
+
+- NOTA FINAL = EX.EXTR + EX.PR, para quienes se presenten tanto a EX.EXTR como EX.PR
+- NOTA FINAL = EX.ORD + EX.PR, para quienes se presenten solo a EX.PR (en las convocatorias extraordinarias se guarda la nota de EX.ORD siempre y cuando se haya alcanzado el mínimo establecido anteriormente para este examen final en la convocatoria ordinaria).
+- NOTA FINAL = EX.EXTR + P1 + P2 + P3 + P, para quienes se presenten solo a EX.EXTR (en las convocatorias extraordinarias se guarda la nota de P1, P2, P3 y P siempre y cuando se haya alcanzado el mínimo establecido anteriormente para la suma de P1, P2, P3 y P)
+
+Si se han alcanzado todos los mínimos establecidos anteriormente y, además, se han obtenido al menos 5 puntos en el conjunto de la asignatura (según cualquiera de las tres fórmulas anteriores que sea aplicable a la situación particular de cada estudiante), se aprobará la asignatura, siendo la nota final la obtenida según la fórmula anterior que corresponda.
+
+Si se han alcanzado todos los mínimos establecidos anteriormente pero no se han obtenido al menos 5 puntos en el conjunto de la asignatura (según cualquiera de las tres fórmulas anteriores que sea aplicable a la situación particular de cada estudiante), se suspenderá la asignatura, siendo la nota final la obtenida según la fórmula anterior que corresponda.
+
+Si se superan los 5 puntos en la nota final (según cualquiera de las tres fórmulas anteriores que sea aplicable a la situación particular de cada estudiante), pero no se alcanza uno de los mínimos establecidos anteriormente, se suspenderá la asignatura, siendo la nota final de 4,5 puntos.
+
+Finalmente, no es posible superar la asignatura si no se alcanzan 5 puntos y no se superan los mínimos establecidos para cada parte. Alcanzar los mínimos es condición necesaria, aunque no suficiente, para superar la asignatura puesto que es necesario alcanzar, además, los 5 puntos. Del mismo modo, alcanzar los 5 puntos no garantiza el aprobado si no se han alcanzado los mínimos establecidos en ambas partes de la asignatura (teoría y práctica). La asignatura quedará superada si se han alcanzado los mínimos y, además, se han alcanzado los 5 puntos.
+
+Consideraciones
+
+En las pruebas escritas se penalizará la sintaxis o la ortografía incorrectas.
+
+**Evaluación diferenciada**
+
+Finalmente, aquellos estudiantes a los que la Escuela Politécnica de Ingeniería de Gijón les haya concedido la posibilidad de realizar en esta asignatura **evaluación diferenciada** podrán superar la misma presentándose a un examen final global, que tendrá carácter especial y unas características concretas que el profesor especificará a los alumnos; por lo que es importante que los alumnos afectados se pongan en contacto con el profesor. Por regla general, la evaluación diferenciada se estructura de la siguiente manera:
+
+- Un examen teórico-práctico (a realizar en la fecha oficial de examen de la convocatoria que corresponda, incluida la ordinaria). La puntuación máxima de esta prueba es de 6 puntos, exigiéndose un mínimo del 40% de esa nota (2,4 puntos) para superar la asignatura.
+- Un examen práctico (a realizar en la fecha oficial de examen de la convocatoria que corresponda, incluida la ordinaria). La puntuación máxima de este examen es de 4 puntos, exigiéndose un mínimo del 40% de esa nota (1,6 puntos) para superar la asignatura.
+
+Todas las reglas de evaluación y mínimos que se establecen anteriormente son aplicables a la evaluación diferenciada. Para aprobar la asignatura es preciso obtener 5 puntos después de sumar el mínimo exigido para cada una de las partes.
+
+En las pruebas escritas se penalizará la sintaxis o la ortografía incorrecta.
+
+De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir métodos de evaluación no presencial. En cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+## Bibliografía
+
+**BIBLIOGRAFÍA BÁSICA:**
+
+Cuervo, A. (director) (2008). Introducción a la administración de empresas. Cívitas.
+
+Fernández, E.; Junquera, B. y del Brío, J. (2008). Iniciación a los negocios para ingenieros. Aspectos funcionales. Paraninfo.
+
+Pérez Gorostegui, E. (2021). Dirección de empresas. Editorial Universitaria Ramón Areces.
+
+Pérez Gorostegui, E. (2021). Prácticas de dirección de empresas. Editorial Universitaria Ramón Areces.
+
+**BIBLIOGRAFÍA COMPLEMENTARIA:**
+
+Aguirreamalloa, J., y Larios, P. (2015). Finanzas de la empresa. Asertos.
+
+Calvo A., Parejo J.A., Rodríguez L., Cuervo, A. y Alcalde, E. (2018). Manual del sistema financiero español. Ariel Economía y Empresa, 27ª edición.
+
+Chiavenato, I. (2015). Introducción a la teoría general de la administración. McGraw-Hill, 8ª edición.
+
+García Echevarría, S. (2014). Introducción a la economía de la empresa. Editorial Díaz de Santos.
+
+Gómez-Mejía, L. R., Balkin, D. y Cardy, R. (2016). Gestión de recursos humanos. Pearson-Prentice Hall, 8ª ed.
+
+Gutiérrez Aragón, O. (2016). Fundamentos de administración de empresas. Pirámide, 2ª edición.
+
+Fernández Sánchez, E.; Avella Camarero, L. y Fernández Barcala, M. (2020). Administración de la producción. Enfoque estratégico. Pirámide.
+
+Hernández y Rodríguez, S. (2014). Introducción a la administración: teoría general administrativa. Origen, evolución y vanguardia. McGraw-Hill, 5ª edición.
+
+Jones, G.R. y George, J.M. (2019). Administración contemporánea. Mc Graw Hill, 10ª edición.
+
+Koontz, D. (2014). Elementos de administración. McGraw-Hill, 8ª edición.
+
+Montoro Sánchez, M.A., Díez Vial, I. y Martín de Castro, G. (2020). Fundamentos de administración de empresas. Civitas, 4ª edición.
+
+Ventura, J. (2008). Análisis estratégico de la empresa. Paraninfo.
+
+Adicionalmente, se proporcionará al alumno artículos y material docente (casos, lecturas…) específicos para cada tema.
+
+Otras fuentes de conocimiento utilizadas:
+
+Páginas web de distintas entidades y organismos internacionales, europeos, nacionales, autonómicos y locales. Páginas web de los principales medios de comunicación.

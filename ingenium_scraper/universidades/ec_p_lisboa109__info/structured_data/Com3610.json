@@ -1,0 +1,57 @@
+{
+  "course_name_original": "Compiladores (Com3610)",
+  "course_name_en": "Compilers (Com3610)",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Unix programming environment: gcc, gdb, cvs, make, lex and yacc tools",
+    "Regular languages and lexical analysis: modeling sentence recognition with finite automata (non-deterministic and deterministic)",
+    "Context free languages: context free grammars, derivation trees, stack finite automata, descendent parsers LL(1) and bottom-up parsers LR(0)/ SLR(1) / LALR(1)",
+    "Attribute grammars and attribute evaluation",
+    "Error treatment and recovery, semantic analysis",
+    "Intermediate code generation of abstract trees and postfix code",
+    "Topics of final code generation and optimization for \"load and store\" machines"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exercises",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For normal examination period, the final grade is calculated as 50% from the project and 50% from exercises. A minimum grade of 9.5 is required for both components and for the final grade. All project deliveries and the practical test are mandatory. For special examination periods, different scenarios apply based on previous project or lab approval, but generally, both project and exercises are weighted at 50% each with a minimum grade of 9.5.",
+  "bibliography": [
+    "Alfred V. Aho, Monica S. Lam, Ravi Sethi, Jeffrey D. Ullman, Compilers: Principles, Techniques, & Tools (2nd Edition), Pearson, 2006 (main)",
+    "Pedro R. Santos, Thibault Langlois, Compiladores - da Teoria à Prática, FCA, 2014 (main)",
+    "Keith Cooper, Linda Torczon, Engineering a Compiler, Morgan Kaufmann, 2011 (secondary)",
+    "Rui Gustavo Crespo, Processadores de Linguagens, da concepção à implementação, IST Press, 2001 (secondary)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "assessment_methods"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "Com3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192441",
+  "source_language": "pt",
+  "source_sha256": "7c4c0cb7be883b4ffd62bf1edcc87e655d32d0cc9f232d0b2f5b4d56216d54b7",
+  "extracted_at": "2026-11-20T12:41:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

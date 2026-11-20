@@ -1,0 +1,326 @@
+---
+{
+ "course_code": "2GITICID-3-006",
+ "course_name": "Señales y Sistemas",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-3-006",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:11",
+ "content_sha256": "a24726f4f5431fb8037e4e6332135fdab5324e298c7d94029c0e83d0636d3a41"
+}
+---
+
+# Señales y Sistemas
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-3-006
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Clases Expositivas (16 Horas); Prácticas de Aula/Semina (14 Horas)
+
+## Contextualización
+
+La asignatura Señales y Sistemas, enmarcada en la materia Extracción, Representación y Procesamiento de Datos, se imparte en el segundo cuatrimestre del segundo curso del Grado en Ciencia e Ingeniería de Datos.
+
+Se trata de una asignatura de marcado carácter teórico, que se asienta sobre los conceptos matemáticos abstractos cubiertos en asignaturas previas, para construir las estructuras y herramientas de análisis propias de la teoría de señales y sistemas, que serán utilizadas como base conceptual en asignaturas posteriores, tales como Procesado de Señal.
+
+El objetivo fundamental de la asignatura es dotar a los alumnos de la capacidad de entender, manejar y aplicar la teoría de señales y sistemas en variable continua y discreta, para analizar y modelar datos originados en el contexto de multitud de problemas físicos, tales como aquellos relacionados con comunicaciones, propagación, procesado de señal y sistemas discretos.
+
+Dada la importancia de estos contenidos para el Grado en Ciencia e Ingeniería de Datos, la asignatura tiene carácter de Formación Obligatoria, desarrollando múltiples competencias fundamentales en el mismo, especialmente las competencias específicas CE13 y CE14, en las que luego profundiza la asignatura optativa de Procesado de Señal.
+
+## Requisitos
+
+No existen requisitos previos, aunque el seguimiento de la asignatura se verá facilitado si se tienen unos buenos conocimientos de:
+
+- Álgebra de dimensión finita.
+- Cálculo en variable real y compleja.
+- Análisis funcional (representación y operaciones con funciones de variable real y variable compleja).
+
+## Competencias y resultados del aprendizaje
+
+Esta asignatura está diseñada para desarrollar una serie de Competencias Básicas y Generales comunes al Grado en Ciencia e Ingeniería de Datos y otras Competencias Específicas, más vinculadas a los contenidos de la asignatura.
+
+**Competencias básicas:**
+
+CB1: Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio.
+
+CB2: Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+
+CB3: Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+
+CB4: Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+
+CB5: Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía.
+
+**Competencias generales:**
+
+CG01: Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+CG02: Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+CG03: Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+CG04: Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG06: Capacidad de acceso y gestión de la información en diferentes formatos para su posterior análisis con el fin de obtener conocimiento a partir de datos.
+
+CG09: Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+**Competencias específicas:**
+
+CE13: Comprensión y dominio de los conceptos básicos de la teoría de la información, señales, y sistemas, empleados en diferentes esquemas y técnicas de representación y manipulación de datos.
+
+CE14: Capacidad para analizar, codificar, procesar y transmitir información y datos empleando técnicas de procesado de señal.
+
+**Resultados de aprendizaje:**
+
+Los resultados de aprendizaje relacionados con la asignatura que se esperan son los siguientes:
+
+RSS1: Saber representar una señal a partir de muestras y reconstruir una señal a partir de sus muestras.
+
+RSS2: Saber caracterizar las señales y los datos en diferentes dominios (temporal, frecuencial, espacial, etc.), y saber transformar entre dichos dominios.
+
+RSS3: Capacidad para evaluar las ventajas e inconvenientes de diferentes alternativas de implementación de sistemas de procesado de la información, desde el punto de vista del espacio de la señal, las perturbaciones y el ruido.
+
+RSS4: Capacidad de tener una visión global de un sistema complejo de procesado de señales y de datos y de las interacciones entre sus componentes.
+
+RSS5: Conocer el concepto de señales y datos analógicos y digitales. Manejar las operaciones de muestreo, interpolación, cuantificación, y teoremas y transformaciones asociadas (desarrollo en serie de Fourier, transformada de Fourier, transformada de Laplace, y transformada Z).
+
+RSS6: Saber aplicar conceptos de señales y sistemas para resolver problemas de reducción de dimensionalidad en conjuntos de datos.
+
+RSS7: Saber aplicar conceptos de señales y sistemas para seleccionar el espacio más adecuado para el tratamiento de los datos, así como para representar y operar con los datos en dicho espacio.
+
+## Contenidos
+
+**Parte I: Introducción y Análisis General**
+
+**Tema 1: Introducción a la asignatura**
+
+1.1. Relación entre el álgebra/cálculo y la teoría de señales y sistemas
+
+1.2. Visión general de la asignatura
+
+**Tema 2: Espacios de funciones (señales)**
+
+2.1. Definición de señales
+
+2.2. Repaso de espacios vectoriales y particularización de espacios de señal
+
+2.3 Clasificación de señales
+
+2.3. Parámetros prácticos para la caracterización de señales
+
+2.4. Operaciones básicas con señales
+
+**Tema 3: Espacios de operadores (sistemas)**
+
+3.1. Resumen de aplicaciones
+
+3.2. Operadores (sistemas) sobre espacios de señales
+
+3.3. Propiedades de los sistemas
+
+3.4. La operación de convolución
+
+3.5. Consideraciones finales
+
+**Parte II: Señales y Sistemas de Variable Continua**
+
+**Tema 4: Señales de partida importantes**
+
+4.1. Señales periódicas
+
+4.2. Señales aperiódicas
+
+4.3 Exponenciales complejas
+
+**Tema 5: Introducción a la teoría de distribuciones**
+
+5.1. Introducción y definición general
+
+5.2. Definición de la delta de Dirac y significado físico
+
+5.3 Relación de la delta de Dirac con la función escalón
+
+5.4. Operaciones con distribuciones (derivadas, convoluciones, producto y resolución de sistemas)
+
+5.5. Resumen de propiedades
+
+**Tema 6: Señales periódicas: el desarrollo en serie de Fourier (DSF)**
+
+6.1. Definición del DSF
+
+6.2. Convergencia del DSF
+
+6.3 Propiedades del DSF
+
+6.4 Ejemplos de DSF
+
+6.5 Relación del DSF con los sistemas lineales e invariantes
+
+**Tema 7: Señales aperiódicas: la transformada de Fourier (TF)**
+
+7.1 Definición de la TF
+
+7.2 Convergencia de la TF
+
+7.3 Propiedades de la TF
+
+7.4 Ejemplos de TF
+
+7.5 Relación entre la TF y los sistemas lineales e invariantes
+
+7.6 Ancho de banda
+
+**Parte III: Señales y Sistemas de Variable Discreta**
+
+**Tema 8: Señales de partida importantes**
+
+8.1. Señales periódicas
+
+8.2. Señales aperiódicas
+
+**Tema 9: Señales periódicas: el desarrollo en serie de Fourier (DSF) de señales discretas**
+
+9.1 Definición del DSF para señales de variable discreta
+
+9.2 Convergencia del DSF para señales de variable discreta
+
+9.3 Propiedades del DSF para señales de variable discreta
+
+9.4 Ejemplos del DSF para señales de variable discreta
+
+9.5 Relación de DSF con los sistemas lineales e invariantes
+
+**Tema 10: Señales aperiódicas: la transformada de Fourier (TF) de señales discretas**
+
+10.1 Definición de la TF para señales de variable discreta
+
+10.2. Convergencia de la TF para señales de variable discreta
+
+10.3. Propiedades de la TF para señales de variable discreta
+
+10.4 Ejemplos de la TF para señales de variable discreta
+
+10.5 Relación de la TF con los sistemas lineales e invariantes
+
+10.6 La Transformada discreta de Fourier (*Discrete Fourier Transform*, DFT)
+
+**Parte IV: Relación entre Señales y Sistemas de Variable Continua y Discreta**
+
+**Tema 11: Señales y sistemas de variable continua y discreta**
+
+11.1. Muestreo y recuperación de señales de variable continua
+
+11.2. Modelado de un SLI continuo mediante un SLI discreto
+
+**Anexos: Transformadas de Variable Compleja**
+
+**Anexo 1: Variable continua: la transformada de Laplace**
+
+**Anexo 2: Variable discreta: la transformada Z**
+
+## Metodología y plan de trabajo
+
+La asignatura se desarrollará en modalidad semipresencial, combinando actividades presenciales, actividades de formación asíncronas no presenciales y trabajo autónomo por parte del estudiante. Las actividades presenciales de la asignatura se estructuran en clases expositivas y prácticas de aula, que se impartirán principalmente en pizarra, complementadas con el uso de transparencias y/o cualquier otro medio audiovisual que pueda facilitar la comprensión de los contenidos abordados.
+
+Las actividades de formación asíncrona no presencial estarán diseñadas para su realización por parte del alumno de manera flexible y autónoma. En estas actividades se podrán cubrir contenidos teóricos, resolver problemas y/o proponer ejercicios, tanto teóricos como prácticos, ya sea para su resolución en papel o mediante herramientas informáticas. Para ello, se pondrá a disposición de los alumnos material documental y/o contenidos audiovisuales o herramientas de simulación adecuados.
+
+Los alumnos podrán plantear las dudas que les surjan en el desarrollo de las actividades no presenciales tanto por medios telemáticos, mediante correo electrónico o a través de otras plataformas habilitadas al efecto, como de forma presencial durante las actividades de formación presencial o en el horario de tutorías de los profesores. Asimismo, se fomentará la colaboración entre los alumnos para la resolución de dudas.
+
+A continuación, se especifica la distribución horaria de actividades presenciales, no presenciales y de trabajo autónomo por parte del alumno, que está previsto dedicar a cada bloque temático de la asignatura.
+
+|  |  | Presencial |  |  | No presencial |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+|  | Horas totales | Clases Expositivas | Prácticas de Aula | Total | Actividades Asíncronas | Trabajo autónomo | Total |
+| Tema 1 | 1 | 1 |  | 1 |  |  | 0 |
+| Tema 2 | 20 | 2 | 2 | 4 | 5 | 11 | 16 |
+| Tema 3 | 19 | 1 | 2 | 3 | 5 | 11 | 16 |
+| Tema 4 | 3 |  |  | 0 | 1 | 2 | 3 |
+| Tema 5 | 10 | 2 | 1 | 3 | 1 | 6 | 7 |
+| Tema 6 | 21 | 2 | 2 | 4 | 6 | 11 | 17 |
+| Tema 7 | 20 | 2 | 2 | 4 | 5 | 11 | 16 |
+| Tema 8 | 4 |  |  | 0 | 2 | 2 | 4 |
+| Tema 9 | 11 | 1 | 1 | 2 | 1 | 8 | 9 |
+| Tema 10 | 11 | 1 | 1 | 2 | 1 | 8 | 9 |
+| Tema 11 | 12 | 2 | 1 | 3 | 1 | 8 | 9 |
+| Anexo I | 9 | 1 | 1 | 2 | 1 | 6 | 7 |
+| Anexo II | 9 | 1 | 1 | 2 | 1 | 6 | 7 |
+| Totales | 150 | 16 | 14 | 30 | 30 | 90 | 120 |
+
+| Modalidades |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | CE | 16 | 10,7 | 30 (20%) |
+|  | PA | 14 | 9,3 |  |
+| No presencial | Actividades asíncronas | 30 | 20,0 | 30 (20%) |
+| Trabajo autónomo |  | 90 | 60,0 | 90 (60%) |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria:**
+
+En la convocatoria ordinaria, la calificación final de la asignatura se obtendrá como la media ponderada entre los resultados de los mecanismos de evaluación que se indican a continuación:
+
+- Participación en seminarios y tutorías [PS] (5%): Se evaluarán mediante cuestionarios y/o ejercicios cortos propuestos para su resolución, de manera individual y sin bibliografía, durante las actividades de formación presencial.
+- Participación Activa en Foros y Actividades del Campus Virtual [CV] (10%): Se evaluará la participación en actividades organizadas a través del Campus Virtual y/o la realización de tareas propuestas para su entrega a través del mismo. Se podrá complementar con actividades de defensa presenciales, individuales y sin bibliografía, con calificación binaria [D]: 0 o 1, que ponderará la calificación obtenida en este apartado.
+- Examen teórico [ET] (40%): Se realizará un examen final teórico, individual y sin bibliografía, que se podrá complementar opcionalmente con exámenes adicionales distribuidos a lo largo del periodo docente.
+- Exámenes de prácticas [EP] (45%): Se realizará un examen final práctico, individual y sin bibliografía, que se podrá complementar opcionalmente con exámenes adicionales distribuidos a lo largo del periodo docente.
+
+Calificacíon final = PS \* 0.05 + CV \* D \* 0.1 + ET \* 0.4 + EP \* 0.45
+
+PS, CV, ET y EP tendrán valores reales en una escala de 0 a 10. D tendrá un valor binario: 0 o 1.
+
+Las calificaciones obtenidas en cualquiera de los apartados anteriores en la convocatoria ordinaria no serán válidas en ninguna otra convocatoria.
+
+**Convocatorias extraordinarias:**
+
+En las convocatorias extraordinarias, la calificación final de la asignatura se obtendrá a través de los mecanismos de evaluación siguientes:
+
+- Examen teórico [ET] (50%)
+- Examen de prácticas [EP] (50%)
+
+Calificacíon final = ET \* 0.5 + EP \* 0.5
+
+**Evaluación diferenciada:**
+
+Los alumnos que tengan reconocido un sistema de evaluación diferenciada serán evaluados de acuerdo con el sistema previsto para las convocatorias extraordinarias.
+
+## Bibliografía
+
+La bibliografía básica y complementaria de la asignatura, así como recursos adicionales que podrían resultar de utilidad, se indican a continuación:
+
+Bibliografía básica:
+
+- E. Gago-Ribas. *Señales y Sistemas Escalares Unidimensionales de Variable Real*. Vol. ST-I. Edición previa en forma de apuntes. GR Editores, S.L. (fuera de edición), 2002. (Campus Virtual)
+- E. Gago-Ribas. *Señales y Sistemas Escalares Unidimensionales de Variable Real*. *Ejercicios Resueltos*. Vol. ST-II. GR Editores, S.L., León, 2009. [http://www.greditores.com](http://www.greditores.com/)
+- A. V. Oppenheim, A. S. Willsky, I. T. Young. *Signals and Systems* (2nd. Ed.), Prentice-Hall International, 1997.
+- Samir S. Soliman, Mandyam D. Srinath, *Señales y Sistemas Continuos y Discretos*, Prentice-Hall International, segunda edición, 1992.
+
+Bibliografía complementaria:
+
+- S. S. Haykin, B. Van Veen, *Señales y sistemas*, John Wiley and Sons, 2001.
+- C. Gasquet y P. Witomski, *Fourier analysis and applications*, Springer, 1999.
+- A. V. Oppenheim, R. W. Schafer, *Digital Signal Processing*, Pearson, 1975.
+- A. D. Poularikas, S. Seeley. *Signals and Systems*. PWS Publishers, 1985.
+
+Otros recursos:
+
+- Contenidos recogidos en el “Campus Virtual” de la Universidad de Oviedo.
+- Software MATLAB.
+- Tablas y formularios:
+  - o M. Abramowitz & I. A. Stegun. *Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables*. Dover Publications, Inc., 1972.
+  - o M. R. Spiegel, J. Liu, L. Abellanas. *Fórmulas y Tablas de Matemática Aplicada*. McGraw-Hill. (Segunda Edición), 2000.

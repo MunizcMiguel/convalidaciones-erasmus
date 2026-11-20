@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Análisis de Datos (Ing.Gr.)",
+  "course_name_en": "Data Analysis (Eng.Gr.)",
+  "ects": 4.0,
+  "semester": "1st semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction and review: Density functions and usual distributions (continuous and discrete)",
+    "Chi-2, t-Student, and F-Fisher distributions",
+    "Sample of a distribution",
+    "Programming in R: Introduction",
+    "Programming in R: Type of data",
+    "Programming in R: Read data from files",
+    "Programming in R: Application to statistics: type of distributions",
+    "Programming in R: Program flow control. Creation of functions",
+    "Statistical inference: test of difference of means, analysis of variance type I: Confidence intervals for mean and variance",
+    "Statistical inference: null hypothesis and p-value",
+    "Statistical inference: One-tailed and two-tailed t-tests",
+    "Statistical inference: Paired t-tests",
+    "Statistical inference: ANOVA type I",
+    "Simple linear regression: Least squares resolution",
+    "Simple linear regression: Statistical distributions of the estimated regression parameters",
+    "Simple linear regression: Inference in linear regression. Statistical distribution of regression estimates",
+    "Simple linear regression: Comparison with the test of difference of means and analysis of variance",
+    "Multiple linear regression (Linear models): Design matrix and matrix of contrasts",
+    "Multiple linear regression (Linear models): Influence of each factor",
+    "Multiple linear regression (Linear models): Explained variance and significance of the regression"
+  ],
+  "teaching_methods": [
+    "Lectures in the classroom",
+    "Problem solving in the classroom",
+    "Practical classes in computer lab",
+    "Continuous assessment through theoretical and practical tests",
+    "Personal study of theoretical bases",
+    "Learning to program fluently in R",
+    "Individual problem solving for proposed problems",
+    "Optional group work: analyzing a different dataset and applying statistical methods"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Partial exam",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 65.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated based on a partial exam (35%) and a final exam (65%). For the extraordinary call, the final exam accounts for 100% of the grade. Both exams are written and include questions on statistical analysis in R. Any attempt at fraud, copying, or plagiarism is considered a serious infraction.",
+  "bibliography": [
+    "Biostatistics with R: An Introduction to Statistics Through Biological Data, by Babak Shahbaba.",
+    "Introduction to Data Analysis and Graphical Presentation in Biostatistic with R: Statistic in the Large, by Thomas W. McFarland.",
+    "Other free electronic books, list available at http://stats.stackexchange.com/questions/170/free-statistical-textbooks."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "analisis-de-datos-a",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/analisis-de-datos-a/",
+  "source_language": "es",
+  "source_sha256": "4ce4622f6d35ceaf028beeeb6c2804ca82eb56ce0b4555eb949f3f829f2f0690",
+  "extracted_at": "2026-11-18T02:49:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

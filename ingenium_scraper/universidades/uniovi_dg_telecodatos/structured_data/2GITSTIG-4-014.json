@@ -1,0 +1,141 @@
+{
+  "course_name_original": "Gestión de Redes de Telecomunicación",
+  "course_name_en": "Telecommunication Network Management",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have passed the courses “Fundamentos de Telemática”, “Arquitectura de Redes y Sistemas”, “Servicios de Comunicaciones Básicos” and “Ingeniería de Redes”.",
+    "Basic English language skills are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the principles and reference models of network management, as well as the technologies, protocols, and tools currently used.",
+      "type": "knowledge",
+      "code": "RA-13.6"
+    },
+    {
+      "text": "Analyze, operate, and optimize existing management systems.",
+      "type": "skill",
+      "code": "RA-13.7"
+    },
+    {
+      "text": "Plan, design, and implement management systems according to the needs of a network and its environment.",
+      "type": "skill",
+      "code": "RA-13.8"
+    },
+    {
+      "text": "Use network management as support for analyzing, accounting, planning, and optimizing other services deployed in the network.",
+      "type": "skill",
+      "code": "RA-13.9"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to network management",
+    "Definition and objectives",
+    "Tools",
+    "Network management components",
+    "Principles and patterns in network management",
+    "Autonomous, heterogeneous, homogeneous and integrated management",
+    "Manager/agent paradigm",
+    "Network management models",
+    "FCAPS model",
+    "OAM&P model",
+    "FAB model",
+    "Management information",
+    "Types of information",
+    "MIBs (Management Information Base)",
+    "Standard MIBs (MIB-I, MIB-II)",
+    "Corporate MIBs",
+    "SMI (Structure of Management Information)",
+    "Communication patterns",
+    "Proactive management and passive management",
+    "Monitoring and control",
+    "Monitoring models (polling and events)",
+    "Manager-initiated interactions",
+    "Information retrieval",
+    "Configuration changes",
+    "Actions",
+    "Transactions",
+    "Agent-initiated interactions",
+    "Alarms",
+    "Cache updates",
+    "Threshold crossings",
+    "Events",
+    "Management protocols",
+    "SNMP and RMON",
+    "CLI",
+    "Syslog",
+    "Netconf",
+    "Netflow",
+    "Organization",
+    "Scalability",
+    "Architectures",
+    "Management hierarchies",
+    "Mediation",
+    "Application examples of network management",
+    "Session 1: Basic administration",
+    "Session 2: Remote administration",
+    "Session 3: Management protocols",
+    "Session 4: SNMP operations",
+    "Session 5: Zabbix",
+    "Session 6: Network management with Perl",
+    "Session 7: Event management",
+    "Session 8: SNMPv3",
+    "Session 9: RMON"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Autonomous work",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Group work (T)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Control 1 (C1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Control 2 (C2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (F)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary examination, continuous assessment (EC) requires a minimum score of 5 out of 10. The final exam (F) also requires a minimum score of 5 out of 10 and can only be taken if continuous assessment is passed. The final grade is calculated as (0.5 x EC) + (0.5 x F) if minimums are met and practical class attendance is 80% or more. Otherwise, the final grade will be the minimum of the calculated score and 4.0; if EC is below 5.0, the student cannot take the final exam and the EC score is the final grade. For extraordinary and differentiated examinations, the evaluation consists of a theoretical exam (E) and a work (T), both requiring a minimum score of 5.0 out of 10.0, with the final grade calculated as (0.5 x E) + (0.5 x T), or the minimum of the calculated score and 4.0 if minimums are not met.",
+  "bibliography": [
+    "\"Network Management Fundamentals\", Alexander Clemm. Cisco Press. 2006",
+    "\"Essential SNMP\", Douglas Mauro and Kevin Schmidt. O'Reilly Media, Inc.; 2nd edition (September 21, 2005).",
+    "“SNMP MIB Handbook”, Larry Walsh. Wyndham Press. 2008.",
+    "\"Modern Network Observability: A hands-on approach using open source tools such as Telegraf, Prometheus, and Grafana\", David Flores, Christian Adell, Josh VanDeraa, Eric Chou, Damien Garros. Packt Publishing. 2024.",
+    "“RMON – Remote Monitoring of SNMP-Managed LANs”, David T. Perkins. Prentice Hall PTR. 1999.",
+    "\"SNMP, SNMPv2 and CMIP. The Practical Guide to Network Management Standards\". William Stallings. Editorial Addison Wesley. 1993.",
+    "\"SNMP, SNMPv2, SNMPv3 and RMON 1 and 2\". William Stallings. Editorial Addison Wesley. 1998.",
+    "\"Integrated Management of Networked Systems\". Heinz-Gerd Hegering, Sebastian Abeck and Bernhard Neumair. Editorial Morgan Kaufmann. 1999."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-014",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-014",
+  "source_language": "es",
+  "source_sha256": "fb7254a98961f3832e34dd6aa22e786ef823fbe5db4e6aae74b5f73428c62597",
+  "extracted_at": "2026-11-20T06:06:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

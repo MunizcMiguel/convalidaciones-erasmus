@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Electrónica Analógica",
+  "course_name_en": "Analog Electronics",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the operation of electronic components in linear regime.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know, understand, and analyze the operation of the different fundamental blocks that form the basis of electronic design and the aspects that affect their performance.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn the concepts of amplification, frequency response, and feedback in analog amplifiers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Show the influence of different capacitances (physical and parasitic) on the frequency response of different electronic blocks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify the different feedback topologies, analyzing their influence on circuit performance and recognizing their advantages and disadvantages.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know how to use operational amplifiers and some of their applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Design, specifications, and applications of analog circuits.",
+    "Review of operation mode and modeling of bipolar and MOS transistors.",
+    "Use of transistors in simple gain stages.",
+    "Methodology for analyzing the influence of different capacitances (physical and parasitic) on the frequency response of analog circuits.",
+    "Study of electronic blocks for designing more complex analog circuits, based on simple amplifier structures.",
+    "General structure of a feedback circuit.",
+    "Advantages and disadvantages of feedback.",
+    "Guidelines for analyzing feedback circuits.",
+    "Analysis of different structures with operational amplifiers.",
+    "Course Organization",
+    "Course Evaluation System",
+    "Necessary Material for Development",
+    "Review of Necessary Prior Knowledge",
+    "Concept of amplification, transfer curve, biasing, voltage, current, power amplifiers, and efficiency",
+    "Concepts of small-signal and large-signal operation. Concept of distortion",
+    "Biasing networks",
+    "Basic structures, high and low impedance terminals",
+    "Common emitter (source), common base (gate), common collector (drain) amplifier structures",
+    "Frequency spectrum of signals",
+    "Amplifier transfer function",
+    "Frequency response of single time constant networks",
+    "Concept of dominant and secondary pole",
+    "Approximate determination of time constants: open-circuit and short-circuit time constants",
+    "Frequency response of amplifiers",
+    "Concept of power amplifier: requirements",
+    "Operation in class A, B, and class AB",
+    "Transfer curves, power dissipation, and efficiency in power conversion",
+    "BJT and MOS-based structure, operation, large-signal analysis",
+    "Differential signal response, differential gain, offset, mismatches",
+    "Common-mode signal response, concept of CMRR, common-mode input range (CMR)",
+    "Differential pairs with active loads",
+    "General structure and analysis of a feedback system, advantages and disadvantages of feedback",
+    "Analysis of different feedback topologies",
+    "Effect of feedback on system poles, instability, and compensation"
+  ],
+  "teaching_methods": [
+    "Lectures (Grupo Grande)",
+    "Laboratory practices (experimental and simulation)",
+    "Project design sessions",
+    "Seminars",
+    "Problem-solving classes",
+    "Tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.5,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Delivery of practical reports",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Delivery and defense of a project",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For continuous evaluation, the final exam accounts for 55% and requires a minimum score of 4 out of 10; if this minimum is not met but the total score is above 5, the final grade will be 4.5. Practical reports contribute 15% and are not recoverable, requiring attendance to sessions. The project contributes 30% and is recoverable, allowing students to improve their grade in the extraordinary call.",
+  "bibliography": [
+    "A. S. Sedra and K. C. Smith, Microelectronics Circuits (7/e), Oxford University Press, 2015.",
+    "B. Razavi, Fundamentals of Microelectronics, (2/e), Wiley 2012.",
+    "M. H. Rashid, Microelectronic Circuits: Analysis and Design, (2/e), Cengage Learning, 2010.",
+    "A. Malvino, Principios de Electrónica (7/e), McGraw Hill, 2007.",
+    "A. R. Hambley, Electrónica (2/e), Prentice Hall, 2002."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501086",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501086-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "00d3e15394548ed9f5e3d8dcdea4934e566b9ba965182a7a72287a19fe454329",
+  "extracted_at": "2026-11-13T21:35:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,86 @@
+{
+  "course_name_original": "Ausgewählte Kapitel der Mathematik",
+  "course_name_en": "Selected Chapters of Mathematics",
+  "ects": 6.0,
+  "semester": "2. Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematics knowledge from Bachelor's degree programs in Mechanical Engineering or Automotive Technology",
+    "Basic knowledge in Thermodynamics and Fluid Mechanics",
+    "Basic programming skills (MATLAB or Python)",
+    "Compressible and incompressible Navier-Stokes equations should be known (e.g., from CFD lectures in Bachelor's degree programs or from the Thermofluiddynamics lecture)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can specifically select and apply mathematical tools to describe physical problems by using differential operators, regression methods, numerical procedures, and error estimates to mathematically describe and analyze technical processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "numerically solve ordinary and partial differential equations (PDEs) by selecting and applying appropriate methods (e.g., Finite Differences, Finite Volumes, Finite Elements) according to the classification of PDEs, to model and simulate technical phenomena in engineering sciences.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "mathematically correctly formulate physical boundary and initial conditions by recognizing the structure and properties of the underlying PDEs (elliptic, parabolic, hyperbolic), to methodically work on realistic technical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "independently select suitable numerical methods for a physical problem by evaluating stability criteria (e.g., CFL condition) and critically comparing analytical and numerical solution approaches, to efficiently mediate between theory and simulation.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Differential calculus for scalar fields and vector fields, differential operators and their physical interpretation, Nabla operator",
+    "Error estimation, root finding, regression methods",
+    "Vector analysis, potential theory, Gauss's integral theorem",
+    "First-order ordinary differential equation systems, direction vector field, numerical methods for first-order ordinary differential equation systems, explicit and implicit Euler methods, second-order methods, Runge-Kutta methods, error order",
+    "Partial differential equations, examples of partial differential equations from physics or engineering, classification",
+    "Examples of partial differential equations from engineering application areas, heat equation, Euler equations, Navier-Stokes equations",
+    "Boundary and initial conditions, types and number of boundary conditions",
+    "Analytical solution method for linear second-order partial differential equations",
+    "Conservation equations, transport equations, analytical consideration of strictly hyperbolic first-order differential equations, characteristics",
+    "Numerical methods for partial differential equations, Finite Difference methods, Lax equivalence theorem",
+    "Finite Volume methods, CFL condition, Upwind methods"
+  ],
+  "teaching_methods": [
+    "Lecture"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Graded written module examination (120 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (20 min)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The form of examination (written or oral) will be determined by the lecturer at the beginning of the course.",
+  "bibliography": [
+    "Laurenz Göllmann, Reinhold Hübl, Susan Pulham, Stefan Ritter, Henning Schon, Karlheinz Schüffler, Ursula Voß, Georg Vossen: Mathematik für Ingenieure: Verstehen, Rechnen, Anwenden, Band 2, Springer-Vieweg, 2017.",
+    "J. H. Ferziger, M. Peric, R. L. Street: Numerische Strömungsmechanik, Springer Vieweg, 2020.",
+    "Munz, C.-D.; Westermann, T.; Numerische Behandlung gewöhnlicher und partieller Differenzialgleichungen, Springer Vieweg, 2019, ISBN 978-3-662-55886-7."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_karlsru05__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "MABM220",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABM.pdf",
+  "source_language": "de",
+  "source_sha256": "d0ea77627abb5abac7a9f29fdc3e677cfd7afe81a489ae63fa2616081edf25ba",
+  "extracted_at": "2026-11-20T12:35:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

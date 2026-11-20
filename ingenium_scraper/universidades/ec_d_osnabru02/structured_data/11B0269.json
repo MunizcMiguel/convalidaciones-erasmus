@@ -1,0 +1,126 @@
+{
+  "course_name_original": "Maschinendynamik",
+  "course_name_en": "Machine Dynamics",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematical knowledge regarding setting up and solving differential equations",
+    "Vector and matrix calculus",
+    "Statics",
+    "Kinematics",
+    "Kinetics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The knowledge from the preceding module Kinetics/Kinematics regarding the dynamics of point masses and the rotation of bodies around a fixed axis will be extended to general planar movements. The consideration of the vibration behavior of machines will be expanded to practically relevant damped and excited vibrations as well as coupled multi-mass oscillators. Software tools for the calculation and simulation of multi-body systems can be classified and assessed regarding practical applicability.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students will have broad knowledge of the causes and progression of a movement. They will have a fundamental understanding of vibrations in machines. They can calculate natural frequencies and vibration amplitudes of simple systems and are thus able to analyze and evaluate vibration phenomena in machines and propose constructive measures to reduce vibration levels. They can classify and elementarily apply software tools for calculating and simulating multi-body systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to calculate the kinematics of a disk or a system of multiple disks for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to determine absolute velocities and absolute accelerations using relative kinematics for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to calculate the rotational and translational movements caused by forces and moments for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to calculate the guiding forces caused by rotational and translational movements for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to analyze and classify vibration phenomena for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to independently set up the mathematical equations to describe simple oscillating systems and calculate the characteristic quantities (natural frequencies, damping, vibration amplitudes, and phase shifts) for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to set up the equations for describing multi-mass oscillators and also calculate the characteristic properties and analyze the vibration behavior for more complex oscillating systems for planar systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students are able to abstract a mechanical engineering design in such a way that it can be treated for dynamic and vibration-technical design using the learned methods.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "After completing the module, students can prepare, present in groups, and discuss results of selected analyses and calculations. By independently conducting laboratory experiments in groups, they expand their social and communicative skills. They can prepare engineering problems, solutions, and results and document them in the form of a scientific paper.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Kinematics and kinetics of planar systems",
+    "Kinematics of superimposed translational and rotational movements",
+    "Relative kinematics",
+    "Kinetics of the general, planar motion of a system consisting of several coupled bodies",
+    "Mechanical vibrations",
+    "Free damped vibration",
+    "Excited vibration",
+    "Coupled vibrations of multi-mass oscillators"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Klausur)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Homework (Hausarbeit)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Experimental work report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The portfolio examination is worth 100 points and consists of a one-hour written exam (K1) and a homework assignment (HA). A maximum of 60 points can be achieved with the written exam, and a maximum of 40 points with the homework assignment. The experimental work requires a report on the experiments performed, which is graded as pass/fail.",
+  "bibliography": [
+    "Eller, C, H.; Dreyer, H.J.; Holzmann, G.; Meyer, H.; Schumpich, G.: Technische Mechanik Kinematik und Kinetik, Springer Vieweg, 2019",
+    "Rockhausen, L.; Dresig, H.; Holzweißig, F.: Maschinendynamik, Springer Viewg 2016",
+    "Gasch, R.; Nordmann, R.; Pfützner, H.: Rotordynamik, Springer Verl., 2014",
+    "Hibbeler, R. C.: Technische Mechanik 3, Dynamik, Pearson Studium, 2012",
+    "K. Magnus, K. Popp: Schwingungen: Grundlagen – Modelle – Beispiele, Springer 2021"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück",
+  "institution_slug": "ec_d_osnabru02",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "11B0269",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BMB/StO2025_Stand2026-03-26_BSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "42fc0d0f64380616e71afef78570efb8e52ced616db8767e4b73ee87c3b89d45",
+  "extracted_at": "2026-11-18T09:50:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

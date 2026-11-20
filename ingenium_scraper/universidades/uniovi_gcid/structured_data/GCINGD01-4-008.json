@@ -1,0 +1,169 @@
+{
+  "course_name_original": "Temas Avanzados de Ciencia e Ingeniería de Datos",
+  "course_name_en": "Advanced Topics in Data Science and Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic understanding of Machine Learning concepts including classification, regression, clustering, model evaluation, linear regression, decision trees, support vector machines, and neural networks.",
+    "Basic knowledge of artificial neural networks, including neurons, layers, activation functions, backpropagation, and network training.",
+    "Basic understanding of Linear Algebra concepts such as vectors, matrices, vector spaces, linear transformations, eigenvalues and eigenvectors, and matrix decompositions.",
+    "Familiarity with Python programming for data manipulation, implementing machine learning algorithms, and data analysis."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will know how to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated through the development and defense of arguments and problem-solving within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students will have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students will be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Students will have developed the necessary learning skills to undertake further studies with a high degree of autonomy.",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that pose a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to propose experiments and describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge for problem-solving.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Identify opportunities for innovative data-driven applications in continuously evolving technological environments.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Understand and apply ethical and legal aspects related to data processing and the application of acquired knowledge.",
+      "type": "competence",
+      "code": "CG8"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Utilize the most appropriate techniques for data preprocessing and visualization, including dimensionality reduction techniques, in order to facilitate their analysis and communication.",
+      "type": "competence",
+      "code": "CE07"
+    },
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques, to build intelligent systems from data sets.",
+      "type": "competence",
+      "code": "CE09"
+    },
+    {
+      "text": "Understand the basic operating principles of the main generative AI models.",
+      "type": "unspecified",
+      "code": "RTEM1"
+    },
+    {
+      "text": "Implement a system based on generative models.",
+      "type": "unspecified",
+      "code": "RTEM2"
+    },
+    {
+      "text": "Understand the particular characteristics of recommendation problems and the latest techniques used to address these problems.",
+      "type": "unspecified",
+      "code": "RTEM3"
+    },
+    {
+      "text": "Implement a product recommendation system.",
+      "type": "unspecified",
+      "code": "RTEM4"
+    },
+    {
+      "text": "Understand the basic principles of quantum computing and its application in machine learning.",
+      "type": "unspecified",
+      "code": "RTEM5"
+    },
+    {
+      "text": "Solve machine learning problems using quantum computing techniques.",
+      "type": "unspecified",
+      "code": "RTEM6"
+    }
+  ],
+  "syllabus_topics": [
+    "Recommendation systems",
+    "Generative models",
+    "Quantum computing"
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expository classes",
+    "Online teaching",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance at practical classes",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in online activities (questionnaires and online activities)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical assignment (report and source code)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final theoretical exam (written test)",
+      "weight_percentage": 35.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, the final grade is calculated as (0.05 x AT) + (0.10 x FO) + (0.50 x TP) + (0.35 x EX), provided that a minimum of 2 out of 10 points is obtained in each part of the theoretical exam. Otherwise, the final grade will be the minimum between the calculated score and 4.0. In the extraordinary assessment, the final grade is calculated as (0.50 x EX) + (0.50 x TP), provided that a minimum of 2 out of 10 points is obtained in each part of the theoretical exam. Otherwise, the final grade will be the minimum between the calculated score and 4.0. Students who achieved 5 or more in either the theoretical exam or practical part in the ordinary call may retake only the failed part in the extraordinary call.",
+  "bibliography": [
+    "Foster, D. (2022). Generative deep learning. O'Reilly Media, Inc.",
+    "Babcock, J., & Bali, R. (2021). Generative AI with Python and TensorFlow 2: Create images, text, and music with VAEs, GANs, LSTMs, Transformer models. Packt Publishing Ltd.",
+    "Aggarwal, C. C. (2016). Recommender systems: the textbook. Springer.",
+    "Falk, K. (2018). Practical Recommender Systems. Manning.",
+    "Ricci, F., Rokach, L., Shapira, B. & Kantor, P. (2015). Recommender Systems Handbook. Springer.",
+    "Yanofsky, N. S., & Mannucci, M. A. (2008). Quantum computing for computer scientists. Cambridge University Press.",
+    "Nielsen, M. A., & Chuang, I. L. (2010). Quantum computation and quantum information. Cambridge University Press.",
+    "Schuld, M., & Petruccione, F. (2021). Machine learning with quantum computers. Springer.",
+    "Combarro, E. F. & González-Castillo, S. (2023). A Practical Guide to Quantum Machine Learning and Quantum Optimization: Hands-on Approach to Modern Quantum Algorithms. Packt.",
+    "Combarro, E. F. & González-Castillo, S. (2025). A Practical Guide to Quantum Computing. Packt."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-4-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-4-008",
+  "source_language": "es",
+  "source_sha256": "1f8fd55301d5ff0992f4677a6f4c28a075a560693dc54d756abb3d2f55e3ee38",
+  "extracted_at": "2026-11-20T05:56:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

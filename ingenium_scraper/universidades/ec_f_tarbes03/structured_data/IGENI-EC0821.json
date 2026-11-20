@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Calcul de structures Eléments Finis bases",
+  "course_name_en": "Finite Element Structure Calculation Basics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of continuum mechanics",
+    "Introductory finite element method module in M11"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and apply the fundamental principles of the finite element method.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Numerically model structures such as beams and bars, using assumptions adapted to each context.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Discretize a domain using an appropriate mesh, establish elementary matrices (stiffness, mass) and solve the associated matrix systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Critically interpret the results obtained, taking into account the assumptions and limitations inherent in the models used.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Grasp the fundamental principles of FEM, such as variational formulation, discretization and assembly of elementary matrices, and the theoretical foundations of mechanical and numerical modeling of structures, particularly beams. They will also integrate the notions of convergence, mesh accuracy and interpretation of results.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Carry out a complete modeling of a mechanical problem, choose the appropriate mechanical model (1D, 2D or 3D), generate a structured or free mesh and apply boundary conditions and loads.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the methodological rigor essential to the implementation of numerical simulations, be aware of the limits of the models used and adopt a critical attitude towards the results obtained.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the finite element method",
+    "Numerical modeling and mechanics",
+    "Finite element formulation",
+    "Practical application of the method",
+    "Application to bar/beam structures",
+    "Numerical modeling",
+    "Study of beam-based structures"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": 23.5,
+  "workload_hours_contact": 15.5,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is 1*DS1, indicating a single exam component.",
+  "bibliography": [
+    "J. C. Craveur. Modélisation des Structures; Calcul par Eléments Finis. Masson, 1997.",
+    "J. L. Batoz. Modélisation des structues par éléments finis - Poutres et plaques. Hermes, 1990.",
+    "J. Fish, T. Belytschko. A first course in finite elements. Wiley, 2007."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0821",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "2038e9bbfd36b71affa61d9f04467234c7bcb20c820e0a8634641e7821ce1fbd",
+  "extracted_at": "2026-11-18T10:00:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Tecnología Electrónica",
+  "course_name_en": "Electronic Technology",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of Circuit Theory",
+    "Basic notions of Linear Algebra (recommended)",
+    "Basic notions of Differential and Integral Calculus (recommended)",
+    "Basic notions of Numerical Methods (recommended)",
+    "Basic notions of Waves and Electromagnetism (recommended)",
+    "Basic notions of Fundamentals of Computer Science (recommended)",
+    "Basic notions of Electrical Technology (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have a general overview of electronics in its different branches and fields of application.",
+      "type": "knowledge",
+      "code": "RTR-1"
+    },
+    {
+      "text": "Know the behavior, characteristics, and main applications of electronic devices.",
+      "type": "knowledge",
+      "code": "RTR-2"
+    },
+    {
+      "text": "Analyze and understand the operation of circuits where electronic components are present.",
+      "type": "skill",
+      "code": "RTR-3"
+    },
+    {
+      "text": "Manage datasheets for analog or digital integrated circuits and use some of them in basic assemblies.",
+      "type": "skill",
+      "code": "RTR-4"
+    },
+    {
+      "text": "Handle laboratory electronic instrumentation and equipment and perform static and temporal measurements in electronic circuits.",
+      "type": "skill",
+      "code": "RTR-5"
+    },
+    {
+      "text": "Knowledge of the fundamentals of electronics.",
+      "type": "knowledge",
+      "code": "CC5"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of electronics",
+    "Diodes",
+    "Bipolar transistors",
+    "MOSFET transistors",
+    "Basic concepts of amplification",
+    "The ideal operational amplifier. Linear and non-linear applications.",
+    "Fundamentals of digital design. Boolean algebra.",
+    "MSI digital circuits.",
+    "Digital integrated circuits: Logic families.",
+    "Lab Practice 1 - Handling laboratory equipment (I). Power supply and multimeter.",
+    "Lab Practice 2 - Handling laboratory equipment (II). Function generator and oscilloscope.",
+    "Lab Practice 3 - Diode characterization.",
+    "Lab Practice 4 - Bipolar transistor.",
+    "Lab Practice 5 - Applications of operational amplifiers.",
+    "Lab Practice 6 - Assembly and testing of electronic circuits.",
+    "Lab Practice 7 - Digital circuits."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Assessment sessions",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": 31.5
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": 31.5
+    },
+    {
+      "method": "Partial Exam (T3)",
+      "weight_percentage": 27.0
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "In the ordinary call, a minimum score of 5.0 out of 10 is required for both the theoretical and practical blocks. The theoretical grade is calculated as (0.35 * T1) + (0.35 * T2) + (0.30 * T3), and the practical grade is P1. The final course grade is (0.9 * Theory) + (0.1 * Practices); if minimums are not met, the final grade is capped at 4.0. Students who do not pass the partial theoretical exams can take a final theory exam covering all content or only the unpassed partials (if at least two partials were passed), and a final practical exam is available for those who did not pass the initial practical exam. For the extraordinary call, students retake any unpassed parts, with the theoretical part consisting of a single exam divided into three blocks (B1, B2, B3), each requiring a minimum of 5.0 and no previous grades are saved. The theory grade is (0.35 * B1) + (0.35 * B2) + (0.30 * B3); the practical part is a single exam, and both require a minimum of 5.0. The final grade is calculated as in the ordinary call, and the practical grade from the ordinary call is retained for subsequent extraordinary calls only if the student participated in over 50% of the evaluable tests.",
+  "bibliography": [
+    "Boylestad Nashelsky. Electrónica: Teoría de circuitos y dispositivos electrónicos. Editorial Prentice Hall",
+    "James M. Fiore. Amplificadores Operacionales y Circuitos Integrados Lineales. Editorial Thomson",
+    "T.L. Floyd. Principios de circuitos electrónicos. Editorial Pearson-Prentice Hall",
+    "A.R. Hambley. Electrónica. Editorial Pearson- Prentice Hall",
+    "A.P. Malvino. Principios de Electrónica. Editorial Mc. Graw Hill",
+    "J. Millman y C.C. Halkias. Electrónica Integrada. Editorial Hispano Europea",
+    "D.L. Schilling y C. Belove. Circuitos Electrónicos. Editorial Marcombo",
+    "T. L. Floyd. Fundamentos de sistemas digitales. Editorial Prentice Hall",
+    "E. Mandado. Sistemas electrónicos digitales. Editorial Marcombo",
+    "J.F. Wakerly. Diseño Digital: Principios y prácticas. Editorial Prentice Hall",
+    "V.P.Nelson, H.T. Nagle, B. D.Carroll, J.D. Irwin. Análisis y Diseño de Circuitos Lógicos Digitales. Editorial Prentice Hall",
+    "F. Aldana, R.Esparza Y P.M.Martinez. Electrónica Industrial: Técnicas Digitales. Editorial Marcombo"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo",
+  "institution_slug": "uniovi",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "GIMECA01-2-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/mecanica/-/fof/asignatura/GIMECA01-2-006",
+  "source_language": "es",
+  "source_sha256": "d44984e6cb3e3f6b9ee2f6ec590e6456da6a84304c7da0cf708561ef6bc71ece",
+  "extracted_at": "2026-11-12T23:51:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

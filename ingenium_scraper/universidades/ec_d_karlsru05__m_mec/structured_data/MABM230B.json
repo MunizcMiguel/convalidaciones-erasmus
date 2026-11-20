@@ -1,0 +1,88 @@
+{
+  "course_name_original": "MABM230B – Simulationsmethoden in der Thermofluiddynamik",
+  "course_name_en": "MABM230B – Simulation Methods in Thermo-Fluid Dynamics",
+  "ects": 6.0,
+  "semester": "2. Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematical foundations (partial differential equations, vector analysis)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can analytically and numerically analyze the conservation equations of thermo-fluid dynamics (mass, momentum, energy, amount of substance) by making physical model assumptions, translating them into mathematical formulations, and applying suitable numerical methods (FDM, FVM) to structurally model, calculate, and evaluate technical flow and heat problems. They are able to simplify the conservation equations for specific questions and recognize the limits of applicability.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Participants are able to solve complex thermo-fluid dynamic problems with numerical software (e.g., OpenFOAM) by building models, defining parameters, and evaluating computational grids to generate realistic simulation results for industrial applications. Based on numerous application examples, they practice model building and programming and apply open-source as well as commercial software packages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Participants can transfer the universal character of transport equations to new applications by deriving suitable model equations from given physical relationships to independently work on new questions, e.g., in the areas of thermal management, lubrication, or mass transport. This enables them to design and evaluate components with heat transfer in flow (e.g., in thermal management, lubrication, or mass transport) for innovative technical solutions.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of vector analysis, index notation",
+    "Basic equations (mass, momentum, and energy equations), Euler/Lagrange perspective, application of substantial derivative (transport theorem), basic concepts and unit system (Buckingham-Pi Theorem)",
+    "Potential theory",
+    "Application of discretization FDM and FVM (Gauss's theorem, stability condition, boundary and initial conditions)",
+    "Meshing, quality, and accuracy",
+    "Gas dynamics",
+    "Boundary layer flows with heat transfer (boundary layer equations, semi-infinite body, approximation for long times)",
+    "Turbulence and turbulence modeling, transition",
+    "Radiative heat exchange",
+    "Introduction to Linux, Python, and OpenFOAM",
+    "Programming of panel methods based on potential theory, calculation of airfoil flow",
+    "Programming a solution method based on the Finite Difference Method (FDM) and calculation of example flows (cavity with moving lid, channel flow)",
+    "Calculation of example flows (airfoil flow, cavity, and channel flow) with OpenFOAM and/or a commercial software package",
+    "Exercises on mesh generation",
+    "Programming various solution methods for equations from gas dynamics and calculation of example flows",
+    "Calculation of boundary layer flows with a boundary layer solution method",
+    "Calculation of turbulent flows and flows with laminar-turbulent transition",
+    "Calculation of radiative heat exchange"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises",
+    "Lecture with exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Graded written module exam (90 min) or oral exam (20 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Examination prerequisites (laboratory, exercise, computer exercise)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The form of examination (written or oral) will be announced by the lecturer at the beginning of the course. In addition to the main exam, examination prerequisites such as laboratory work, exercises, and computer exercises must be completed.",
+  "bibliography": [
+    "Lecture script",
+    "Schwarze, R. (2013): CFD-Modellierung, Springer Verlag.",
+    "Ferziger, J.H.; Peric, M.; Street, R.L. (2019): Numerische Strömungsmechanik, Springer Vieweg."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_karlsru05__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "MABM230B",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABM.pdf",
+  "source_language": "de",
+  "source_sha256": "c44465d6f0485533226e28afadf451d47ccb16beb1a4994e354c3ed56ac3c210",
+  "extracted_at": "2026-11-20T12:35:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

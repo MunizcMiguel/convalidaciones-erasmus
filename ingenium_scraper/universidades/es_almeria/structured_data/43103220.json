@@ -1,0 +1,244 @@
+{
+  "course_name_original": "Control por Computador (43103220)",
+  "course_name_en": "Computer Control",
+  "ects": 6.0,
+  "semester": "2Q",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic competencies in Mathematics and Informatics",
+    "Industrial Automation",
+    "Signals and Systems",
+    "Modeling and Control of Continuous Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects involving knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences typically demonstrated by developing and defending arguments and solving problems within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Basic knowledge of the profession.",
+      "type": "knowledge",
+      "code": "UAL 1"
+    },
+    {
+      "text": "Ability to use ICT.",
+      "type": "skill",
+      "code": "UAL 2"
+    },
+    {
+      "text": "Problem-solving capacity.",
+      "type": "competence",
+      "code": "UAL 3"
+    },
+    {
+      "text": "Knowledge and ability for system modeling and simulation.",
+      "type": "competence",
+      "code": "E-CTEE7"
+    },
+    {
+      "text": "Knowledge of automatic regulation and control techniques and their application to industrial automation.",
+      "type": "knowledge",
+      "code": "E-CTEE8"
+    },
+    {
+      "text": "Ability to design industrial control and automation systems.",
+      "type": "skill",
+      "code": "E-CTE11"
+    },
+    {
+      "text": "Linear discrete-time dynamic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analysis of discrete-time dynamic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design of discrete-time control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Real-time systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design of real-time control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design of algorithms in concurrent language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand and know how to apply design and implementation methods for discrete-time system control.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and know how to apply design and implementation methods for real-time control systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the concept of discrete-time systems and sampled systems from the perspective of control engineering design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the temporal response of linear systems, with and without feedback, in discrete time.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Discretize continuous PID controllers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design discrete-time controllers based on external description (transfer function).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement controllers in microprocessor-based systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the concepts of cyclic executive scheduling, concurrent tasks, synchronization, and mutual exclusion in real-time systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Master at least one modeling method and one programming language for their application in real-time systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Scheduling and implementation of real-time control systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Course Introduction",
+    "MODULE 1. Discrete-time system control",
+    "Topic 1. Introduction to discrete-time control",
+    "Continuous and discrete systems",
+    "Practical considerations for implementation",
+    "Discrete LTI systems",
+    "Z-transform",
+    "Transfer function of a discrete system",
+    "Discretization of continuous systems",
+    "Topic 2. Analysis and identification of linear discrete-time systems",
+    "Causality and stability of discrete LTI systems",
+    "Analysis of discrete-time systems",
+    "First-order systems",
+    "Second-order systems",
+    "Higher-order systems. Dominance",
+    "Discrete-time delays. Effect of zeros",
+    "Topic 3. Analysis of discrete-time feedback systems",
+    "Transfer function of a discrete-time feedback system",
+    "Static behavior of a discrete-time feedback system",
+    "Dynamic behavior of a discrete-time feedback system",
+    "Topic 4. Design of discrete-time control systems",
+    "Specifications and design conditions for controllers",
+    "Discretization of PID controllers",
+    "Direct design of discrete controllers",
+    "Comparison of discrete-time controllers",
+    "Programming of discrete-time control systems",
+    "Practical 1. Design and implementation of discrete-time controllers",
+    "MODULE 2. Real-time control systems",
+    "Topic 5. Introduction to real-time systems",
+    "Computer control systems and real-time systems",
+    "Characteristics of real-time systems",
+    "Classification of real-time systems",
+    "Topic 6. Modeling and programming of real-time systems",
+    "Operating systems and programming languages",
+    "Introduction to Ada",
+    "Data types and type conversion in Ada",
+    "Instructions, control structures, and subprograms in Ada",
+    "Data input and output in Ada",
+    "Packages and encapsulation in Ada",
+    "Modeling real-time systems with timed Petri Nets",
+    "Topic 7. Real-time scheduling in real-time systems",
+    "Concurrent tasks: communication and synchronization between tasks",
+    "Synchronization and communication based on shared memory",
+    "Synchronization and communication based on message passing",
+    "Task scheduling",
+    "Topic 8. Implementation of real-time control systems",
+    "General considerations for the implementation of real-time control systems",
+    "Response times in real-time control systems",
+    "Temporal aspects in control loops",
+    "Practical 2. Design and implementation of real-time systems"
+  ],
+  "teaching_methods": [
+    "Lectures/participatory classes for each theoretical topic.",
+    "Problem and exam-type exercise solving.",
+    "Exercise solving and demonstrations with interactive and industrial tools.",
+    "Audiovisual projections.",
+    "Laboratory practicals.",
+    "Personalized tutorials.",
+    "Individual study of theoretical contents.",
+    "Assimilation of knowledge from theoretical classes.",
+    "Solving exercises proposed in lectures/participatory classes.",
+    "Solving practical cases proposed in laboratory practicals.",
+    "Preparation of reports for exercise sets and laboratory practicals.",
+    "Teamwork (in groups of 2 students)."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practical reports",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Theoretical-practical exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Participation",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade for the ordinary call is calculated as: 0.3 * laboratory practical reports + 0.6 * theoretical-practical exam + 0.1 * participation. A minimum grade of 5 points (out of 10) is required for each of the two practical reports and each of the two parts of the theoretical-practical exam. Participation credit is only added if all other activities are passed. For the extraordinary call, students who did not submit practical reports will take a laboratory exam (30% weight) and have a personal interview with the teaching team (10% weight), instead of the reports and participation. For single assessment, a laboratory exam (30%) and personal interview (10%) replace reports and participation. In all cases, a minimum grade of 5 in each assessed part is required for the entire course to be considered passed.",
+  "bibliography": [
+    "Valdivia Miranda, Carlos - (2024) - Sistemas de control continuos y discretos / Carlos Valdivia Miranda. - Paraninfo",
+    "Ogata, Katsuhiko - (2009) - Sistemas de control de tiempo discreto / Katsuhiko Ogata ; traducción: José Guillermo Aranda Pérez, Francisco Rodríguez Ramírez, Gabriel Sánchez García. - Pearson Educación",
+    "Burns, Alan - (2001) - Real-Time systems and programming languages - Addison-Wesley",
+    "Barnes, J. G. P. - (2002) - Programming in Ada 2005 - Addison Wesley",
+    "Reinoso García, Óscar - (2004) - Control de sistemas discretos / Óscar Reinoso... [et al.] - McGraw-Hill",
+    "K.J. Astrom, B. Wittenmark - (1984) - Computer controlled systems: Theory and design - Prentice-Hall",
+    "Liu, Jane W.S. - (2000) - Real-time systems / Jane W. S. Liu - Prentice Hall"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "43103220",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/43103220/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "dd0fbf6dc15acadf9a14d5a8388c186be1636119bee0d9e2f1b0bea6db52302b",
+  "extracted_at": "2026-11-13T21:22:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

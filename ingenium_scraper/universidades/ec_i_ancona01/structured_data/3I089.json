@@ -1,0 +1,86 @@
+{
+  "course_name_original": "ELECTROTECHNICS (3I089)",
+  "course_name_en": "ELECTROTECHNICS",
+  "ects": 6.0,
+  "semester": "Secondo Semestre",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematical analysis",
+    "Numbers and functions with complex values",
+    "Fundamentals of Electromagnetism"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course will provide the basic concepts of Electrical Circuit Theory and Electrical Machines. In particular, the student will be asked to focus on the basic knowledge of electrical and magnetic circuits, with special attention to analytical methods under permanent sinusoidal and continuous conditions, circuit transformations, external circuit characterization and three-phase systems. Moreover, the main features and basic working principle of static and rotating electrical machines, with specific reference to the power transformer and asynchronous/synchronous machines case studies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The students will be able to analyze the properties and functional features of electrical and magnetic circuits included in a mechanical system and will be able to identify the electrical circuits and the suitable electrical machine type for a simple mechanical engineering application.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The studying activities in this course will allow the student to improve his/her abilities in the evaluation of the effectiveness, efficiency, and opportunity of a certain design choice from the point of view of electrical circuits and machines, and at the same time to better evaluate the degree of interdisciplinarity of engineering competences in modern mechanical systems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to circuit theory",
+    "Electrical circuit model",
+    "Analysis of circuits without memory",
+    "External representation of circuits",
+    "Analysis of circuits with memory",
+    "DC/AC steady-state analysis",
+    "Power and energy in electrical circuits",
+    "Three-phase circuits",
+    "Magnetic circuits",
+    "Single and three-phase magnetic transformer",
+    "Introduction to rotating electrical machines"
+  ],
+  "teaching_methods": [
+    "Theory lessons",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (Part 1): analysis of electrical LTI circuits in transient, DC steady and AC steady states",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test (Part 2): 4 open questions on course topics",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional discussion",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation process consists of two written tests and an optional discussion. The evaluation is performed according to a 30-point grading scale on each exam part. 16/30 is the minimum score to complete the first part, 18/30 is the minimum score to complete the second part, and 18/30 is the minimum score to successfully complete the optional discussion. The final mark up to 30/30 is computed as the average (integer rounded) of the marks obtained in all exam parts (including the optional discussion). The minimum passing grade is 18/30.",
+  "bibliography": [
+    "G. Martinelli, M. Salerno, “Fondamenti di Elettrotecnica,” 2' ed., Vol. 1 e Vol. 2, Siderea 1997 ISBN 9788836225422",
+    "S. Umans, Fitzgerald, and Charles Kingsley, “Electric machinery,” McGraw-Hill Higher Education, 2013.",
+    "G. Rizzoni, “Elettrotecnica: principi e applicazioni,” McGraw-Hill, 2018. ISBN 8838601291",
+    "G. Chitarin, F. Gnesotto, M. Guarnieri, A. Maschio, A. Stella, “Elettrotecnica: 1 - Principi,” Società Editrice Esculapio, 2018 ISBN 8893850508",
+    "G. Chitarin, F. Gnesotto, M. Guarnieri, A. Maschio, A. Stella, “Elettrotecnica: 2 - Applicazioni,” Società Editrice Esculapio, 2018 ISBN 8893850842",
+    "Link to the Moodle platform: https://learn.univpm.it/"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universita Politecnica Delle Marche",
+  "institution_slug": "ec_i_ancona01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "3I089",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univpm.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=36004_98835_1016&ordinamento_aa=2019&af_percorso=36004&corso_cod=170&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "a2352dadd8261685dcae9558a9ca1480063a269d08813fcfbe74445b2caa3156",
+  "extracted_at": "2026-11-18T10:01:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

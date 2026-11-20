@@ -1,0 +1,67 @@
+{
+  "course_name_original": "Simulation of Biological Systems",
+  "course_name_en": "Simulation of Biological Systems",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic course of mathematics on differential equations"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will practice modeling techniques related to the deterministic chaos, quasiperiodic behavior, synchronization, uncertainty, neural networks, model optimization, adaptation, and will become familiar with related terms.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. The difference between the concepts of modeling technical and biological systems. Historical background- theory of catastrophes; Zeemans catastrophic machine.",
+    "Properties of nonlinear models of dynamic systems; periodic, quaziperiodic, and chaotic behavior of systems; deterministic chaos. Synchronization phenomenon of coupled biological systems.",
+    "Design principles of basic models of biological systems and their properties: population models, models of simple chemical reactions, cell regulation models, epidemiological model.",
+    "Design of dynamical model from measured data recordings (state-space reconstruction). Optimization of parameters of deterministic models: mathematical analysis, adaptation, genetic algorithms,...",
+    "Conventional and nonconventional models of a biological neuron. Possible utilization of artificial neural networks for modeling; advantages and disadvantages. Artificial neural network as predictor of heart beat rhythm.",
+    "Approaches to the design of biological models featuring uncertainty; uncertainty in biological systems. Fuzzy model of the effect of combination of anesthetics with uncertainty in measured data.",
+    "The model of the fast control influences of autonomous neural system affecting the heart-rate variability; monitoring of the dynamics of cardiovascular system.",
+    "Useful programming techniques, worksheet calculators, introduction to Matlab,Maple, Simulink, efficency of matrix and vector operations in Matlab.",
+    "Fundamentals on modelling dynamical systems, linear s",
+    "Simulation of simple catastrophic models. Simulation of bifurcations in models of beetle population. Simulation of continuous chaotic model (MS Excel, demonstration of program Maple).",
+    "Determining parameters for state space reconstruction (False Neighbors Method, Mutual Information). Automated design of an artificial neural network model predicting heart-beat rhythm; designing a model from measured data (R-R recordings) (MS Excel, Dataplore, Matlab/Simulink).",
+    "Simulation of monitoring the actual changes in the dynamics of cardiovascular system with higher-order nonlinear neural units (HONNU) (Matlab/Simulink)",
+    "Automated design of adaptive neuro-fuzzy model of combined anesthetics effects with uncertainty in measured data (MS Excel, Matlab/Simulink ANFIS).",
+    "The model of the fast control influences of autonomous neural system affecting the heart-rate variability (Matlab/Simulink).",
+    "Accomplishing projects, consulting, credits"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Accomplishing projects",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "See the subject web page ( www.fs.cvut.cz/~bukovsky/SBS/ ) for links to the on-line sources.",
+    "SW: Matlab, MS Excel"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E376012",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1516506.html",
+  "source_language": "en",
+  "source_sha256": "9b1a90f8c94bd1bd084820328726683c5eb358dd906cca62d32a7de831bf95a4",
+  "extracted_at": "2026-11-20T01:18:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

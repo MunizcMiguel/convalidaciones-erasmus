@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Steuerungs- und Regelungstechnik",
+  "course_name_en": "Control Engineering",
+  "ects": 5.0,
+  "semester": "5. Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to classify the most important control and regulation systems occurring in practice and analyze their properties.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can apply the insights gained with regard to the selection of a suitable control/regulation strategy.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are also able to systematically design controls/regulations in the time or image and frequency domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Furthermore, they are familiar with the basics for implementing/programming control and regulation algorithms, especially on programmable logic controllers.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction (definitions, norms, examples, design procedure, goals)",
+    "Binary controls (logic circuits, operation of PLCs, programming with FUP/AS)",
+    "Continuous transmission systems (classification, elementary transmission elements, block diagram, linearization)",
+    "Description and analysis of LTI systems in the image and frequency domain (transfer function, frequency response representations, stability criteria)",
+    "Design of single-loop control systems (design requirements, tuning rules, design in the image domain, design based on frequency characteristics)",
+    "Application examples"
+  ],
+  "teaching_methods": [
+    "Lectures with application examples",
+    "Seminar-like instruction"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam or oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded upon successful completion of the module examination.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Fachhochschule Bielefeld",
+  "institution_slug": "ec_d_bielefe02",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "1250",
+  "academic_year": "2025-26 (Version 2025)",
+  "source_url": "https://www.hsbi.de/media/hochschulverwaltung/dezernat-ii/studserv/pruefungsangelegenheiten/studiengangs-downloads/maschinenbau-(vollzeit-_-kooperativ)-bcn/studiengangspruefungsordnung-und-modulhandbuch-bachelor-maschinenbau-version-2025.pdf?called_by=fh_neu&download=1&original_page=1116&original_site=fh_neu&view_image=1",
+  "source_language": "de",
+  "source_sha256": "c162f0c402d86686113aa1f8c0e8f9e027370f060d91dd95a002adb367a8999b",
+  "extracted_at": "2026-11-18T09:48:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

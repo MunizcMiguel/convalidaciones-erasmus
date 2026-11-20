@@ -1,0 +1,143 @@
+{
+  "course_name_original": "Hacking Expert Class",
+  "course_name_en": "Hacking Expert Class",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl",
+    "en"
+  ],
+  "prerequisites": [
+    "The student has followed the course unit Information Security.",
+    "Students must have VMWare Workstation and a Kali Linux Virtual Machine installed on their laptop beforehand. Kali Linux Virtual Machine can be downloaded from: https://www.kali.org/downloads/"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Gather valuable information about potential targets through passive and active sources.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify, exploit, report, and mitigate complex vulnerabilities.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Handle and investigate security incidents.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand advanced security issues that can occur at network, infrastructure, or application level.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how hackers can move through a network.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how antivirus works and which techniques can bypass it.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Information gathering and reconnaissance",
+    "Advanced passive information gathering",
+    "Advanced active information gathering",
+    "SMB",
+    "SMTP",
+    "SNMP",
+    "Exercises",
+    "Network security, Infrastructure security and patch management",
+    "Advanced privilege escalation exploitation",
+    "Advanced post-exploitation",
+    "Encryption",
+    "Vulnerability Management",
+    "Exercises",
+    "Detection, incident response and Forensics",
+    "Defense in depth",
+    "Incident response",
+    "Investigating a compromised computer",
+    "Incident simulation",
+    "Application security and secure coding",
+    "Secure Code Review",
+    "Advanced web attacks",
+    "Buffer overflow exploitation",
+    "Exercises",
+    "MetaSploit, Lateral Movement and Anti-Virus Evasion",
+    "MetaSploit",
+    "Tunneling",
+    "Proxy's",
+    "Basics of Anti-Virus evasion",
+    "Exercises",
+    "CTF",
+    "Integrated Capture The Flag with technical challenges about all previous sessions"
+  ],
+  "teaching_methods": [
+    "Lecture-practical-assignment",
+    "Explanations in virtual labs",
+    "Vulnerability analysis on a lab environment"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Cooperation during contact moments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Presentation",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Process evaluation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "CTF score sessions 1-4",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Tabletop exercise session 5",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "CTF score session 6",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Technical reporting of CTF challenges and assignments from sessions 1-6",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Presentation of approach and solutions for the 2 challenges",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The total score is on a 1-20 scale. There is no second examination opportunity and no resit is possible for this course unit. There are no partial transfers for this course unit.",
+  "bibliography": [
+    "Sources provided by the lecturer and various sources on the internet"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Thomas More Mechelen-Antwerpen",
+  "institution_slug": "ec_b_mechele14",
+  "degree": "Bachelor Elektronica-ICT (Sint-Katelijne-Waver)",
+  "course_code": "YT0869",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.thomasmore.be/syllabi/n/YT0869N",
+  "source_language": "nl",
+  "source_sha256": "30850cc8fed2e951a5dda91474597611414ac2c293045eb88f97ee47d8d8e967",
+  "extracted_at": "2026-11-20T09:17:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

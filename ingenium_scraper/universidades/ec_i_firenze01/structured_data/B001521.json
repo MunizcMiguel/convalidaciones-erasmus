@@ -1,0 +1,220 @@
+{
+  "course_name_original": "STRUCTURAL MECHANICS (B001521)",
+  "course_name_en": "STRUCTURAL MECHANICS",
+  "ects": 9.0,
+  "semester": "Secondo Semestre",
+  "year_of_study": 2,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Calculus 1",
+    "Calculus 2",
+    "Geometry",
+    "Rational Mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Evaluate the distribution of the action characteristics over framed structures.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Determine the stress distribution over sections of elastic slender cylinders.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Evaluate the deformed configuration of framed structures made of elastic beams.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Perform elementary safety analyses connected with elastic instability and transition from elastic to plastic or brittle states.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of both mathematical principles and the role of mathematical sciences as a tool for the analysis and the problem solving of mechanical engineering problems. Knowledge of the principles of computer science and the algorithmic and numerical approach to problems.",
+      "type": "knowledge",
+      "code": "CC1"
+    },
+    {
+      "text": "Knowledge and understanding of the relevant laws of physics (mechanics, electromagnetism, thermodynamics) and chemistry in the field of industrial engineering and understanding of the role of these laws in the formulation of representative models of tangible reality.",
+      "type": "knowledge",
+      "code": "CC2"
+    },
+    {
+      "text": "Systematic knowledge and understanding of the key aspects of mechanical design of industrial engineering and its methods. In particular: understanding of which are the most suitable methods in order to define a product and its characteristics; knowledge of the technology of the materials that can be used, of the mechanical study of parts and assemblies, their dimensioning, their static and dynamic behaviour and interactions between components. The technologies for their production and their graphic representation are also areas of knowledge and understanding.",
+      "type": "knowledge",
+      "code": "CC3"
+    },
+    {
+      "text": "Applying knowledge and understanding related to mathematical methods - with particular reference to differential and integral calculation, geometry, linear algebra, numerical calculation, linear programming and probability and statistical calculation - to model, analyze and solve engineering problems, also with the help of IT tools.",
+      "type": "skill",
+      "code": "CA1"
+    },
+    {
+      "text": "Applying knowledge and understanding related to the physical and chemical field to solve mono-disciplinary problems of chemistry, applied chemistry, mechanics, electromagnetism and theoretical thermodynamics as a basis for mechanical engineering problems.",
+      "type": "skill",
+      "code": "CA2"
+    },
+    {
+      "text": "Applying knowledge and understanding related to the most appropriate methods of analysis, modelling, verification and experimentation to design, analyze and test machines and plants. This includes: the interpretation and drafting of mechanical parts and machines (also using dedicated CAD systems); the sizing and the functional and structural verification of components and mechanical groups subjected to static and fatigue stress; the functional setting of the design of a mechanical system, applying the principles of kinematics and static principles; analysis of the characteristics of metallic and polymeric materials for the production; the choice of the best production process aimed at the creation of mechanical components; analysis and design of production systems including the study of reliability, safety and economic and environmental sustainability.",
+      "type": "skill",
+      "code": "CA3"
+    },
+    {
+      "text": "Written technical communications (reports and deliverables).",
+      "type": "competence",
+      "code": "CT1"
+    },
+    {
+      "text": "Development of an adequate expression and technical discussion of own arguments.",
+      "type": "competence",
+      "code": "CT3"
+    },
+    {
+      "text": "Graphic representation and communication (drafting of diagrams, graphs and tables).",
+      "type": "competence",
+      "code": "CT4"
+    },
+    {
+      "text": "Conducting bibliographic research using the main resources (libraries, scientific databases, etc.).",
+      "type": "competence",
+      "code": "CT6"
+    },
+    {
+      "text": "To respect commitments and deadlines.",
+      "type": "competence",
+      "code": "CT7"
+    }
+  ],
+  "syllabus_topics": [
+    "Bodies, deformations and strain measures",
+    "Representation of bodies",
+    "Deformations",
+    "The deformation gradient F",
+    "Formal adjoint F∗ and transpose FT of F",
+    "Homogeneous deformations and rigid changes of places",
+    "Linearized rigid displacements",
+    "Kinematic constraints on rigid bodies",
+    "Kinematics of a 1D rigid body in 3D space",
+    "Kinematics of a beam system",
+    "Method of the flat link chains",
+    "Changes in volumes and the orientation-preserving property",
+    "Changes in oriented areas: the Nanson formula",
+    "Finite strain measures",
+    "Small strain measures",
+    "Finite elongation of curves and variations of angles",
+    "Deviatoric strain",
+    "Motions",
+    "Observers",
+    "An enlarged definition",
+    "Classes of changes in observers",
+    "Objectivity",
+    "Comments and generalizations",
+    "Forces, torques, balances",
+    "A preamble on the notion of force",
+    "Bulk and contact actions",
+    "Inertial effects and mass balance",
+    "Pointwise balances in Eulerian reprentation from the invariance of the external power under isometry-based changes in observers",
+    "Inner power as a derived entity",
+    "Balance equations in Lagrangian representation",
+    "Virtual work in small−strain setting",
+    "Remarks on power−invariance procedure",
+    "Discontinuity surfaces",
+    "Classification",
+    "Geometry and analysis",
+    "Constitutive structures: basic aspects",
+    "Essential motivation and basic principles",
+    "Examples of material classes",
+    "A−priori constitutive restrictions and the mechanical dissipation inequality",
+    "Simple bodies",
+    "Viscous bodies: non−conservative stress component",
+    "Elastic materials in isothermal setting: further constitutive restrictions",
+    "Constitutive restrictions for elastic materials in small strain regime",
+    "Linear elastic constitutive restrictions",
+    "Material isomorphisms and symmetries: isotropic materials, emergence of the pressure etc.",
+    "Topics in linear elasticity",
+    "Minimum of the total energy",
+    "Minimum of the complementary energy",
+    "Betti’s reciprocal theorem",
+    "Kirchhoff’s theorem",
+    "Navier’s equations and the bi-harmonic problem",
+    "The de Saint-Venant problem",
+    "Statement of the problem",
+    "Geometry",
+    "Loads",
+    "Material",
+    "Ansatz on the structure of the stress",
+    "Global balances for a portion of the cylinder",
+    "Explicit expression for ",
+    "c = 0",
+    "The Navier polynomial",
+    "The neutral axis",
+    "A scheme for evaluating ",
+    "Approximate evaluation fo the stress due to shear: the Jourawski formula",
+    "Shear actions may produce torsion effects: the shear centre",
+    "Preliminaries to the analysis of the torsion",
+    "Further remarks on the shear stress potential function over the cross-section",
+    "The Prandtl function",
+    "The torsion moment",
+    "Torsional curvature",
+    "Maximality of the shear stress due to torsion",
+    "Displacements due to torsion: warping",
+    "Analysis of cross-sections with multiple connection under torsion",
+    "The Toupin theorem: proof of the de Saint-Venant principle",
+    "Yield criteria",
+    "Reasons for introducing yield criteria",
+    "Some prominent criteria",
+    "The Tresca criterion",
+    "The Beltrami criterion",
+    "The Huber-von Mises-Hencky criterion",
+    "The Drucker-Pragher criterion",
+    "The Hill criterion",
+    "Elastic framed structures",
+    "The elastica",
+    "The Timoshenko beam",
+    "Principle of virtual power for elastic beams: the force method",
+    "Hyperstatic structures",
+    "Elastic stability",
+    "Qualitative characterization of the equilibrium",
+    "The Euler beam"
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is based on written and oral exams. A score of 18-22 indicates sufficient knowledge with some errors and basic independence. A score of 23-25 indicates satisfactory understanding and ability to apply knowledge to familiar contexts. A score of 26-28 indicates solid theoretical understanding, ability to solve problems, and perform complex tasks independently. A score of 29-30 and Honors indicates complete, in-depth knowledge, critical thinking, originality, and rigor. Honors (Laude) is awarded for exceptional work.",
+  "bibliography": [
+    "P. M., Galano L. (2017), Fondamenti di Meccanica dei Solidi, Bollati-Boringhieri.",
+    "Galano L., P. M. (2011), Eserciziario di meccanica delle strutture, COMPOMAT, Terni."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze",
+  "institution_slug": "ec_i_firenze01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "B001521",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=52964_B309-25-25_20060_774831&ordinamento_aa=2025&af_percorso=52964&corso_cod=4280&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "f59c5ffe26c722968f76ae563e27d5101710a431fdb09793a35e3dbc6c693fb7",
+  "extracted_at": "2026-11-18T09:52:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

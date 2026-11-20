@@ -1,0 +1,73 @@
+{
+  "course_name_original": "Wahrscheinlichkeitsrechnung und Statistik",
+  "course_name_en": "Probability Theory and Statistics",
+  "ects": 3.0,
+  "semester": "3. Semester (WS-Anf.); 4. Semester (SS-Anf.)",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematics 1",
+    "Fundamentals of Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are familiar with the basics of probability theory and statistics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They acquire skills in modeling random experiments and evaluating statistical data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can successfully apply probability theory and statistical methods to technical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can simulate stochastic processes using Monte Carlo methods.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Probability theory: concept of probability, urn experiments, discrete probability distributions, conditional probabilities, central limit theorem, Bayes' theorem",
+    "Random variables: probability distribution functions and probability density functions, expected value, (co)variances and standard deviation, correlation coefficients",
+    "Mathematical statistics (confidence intervals, hypothesis testing, Chi-square test)",
+    "Reliability theory (failure rate, Weibull distribution, system reliability)"
+  ],
+  "teaching_methods": [
+    "Lecture"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (60 min)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To receive credit points, the module exam must be passed. The grade's weight for the final grade is determined by ECTS credit points.",
+  "bibliography": [
+    "Lecture script",
+    "K. Bosch: Elementare Einführung in die Wahrscheinlichkeitsrechnung. Vieweg Studium Basiswissen",
+    "L. Litz: Wahrscheinlichkeitstheorie für Ingenieure. Hüthig Gruppe II: GRUNDLAGENMODULE INGENIEURWISSENSCHAFTEN"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-WAST",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "47e3f42baa09615cdb45ae695877da9fbc91a982e5cf20eb3397af9cbb818c25",
+  "extracted_at": "2026-11-20T09:21:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

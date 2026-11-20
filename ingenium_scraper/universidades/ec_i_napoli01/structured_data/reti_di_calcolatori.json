@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Reti Di Calcolatori",
+  "course_name_en": "Computer Networks",
+  "ects": 9.0,
+  "semester": "I",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student must demonstrate knowledge of the fundamental concepts that inspire the design of the various levels of a network system. In particular, the student must demonstrate understanding and ability to describe the communication protocols described in the course and the ability to understand the advantages, limitations, and tradeoffs of the studied technologies and protocols.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate the ability to apply the learned techniques and knowledge to solve simple network configuration problems, protocol analysis, and network traffic traces. The student must also demonstrate the acquired ability to use simple software tools for network analysis and network system simulation.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer networks and network services",
+    "Layered architectures of computer networks",
+    "The ISO/OSI model",
+    "Packet-switched networks",
+    "Communication protocols",
+    "Quality of Service in packet-switched networks",
+    "Datagram networks and virtual circuit networks",
+    "The TCP/IP protocol stack and the IETF",
+    "Characteristics of application protocols",
+    "The client/server paradigm",
+    "HTTP, FTP, SMTP protocols",
+    "The DNS system",
+    "The peer-to-peer paradigm",
+    "Distributed software development and the socket API and its use in C and Python languages",
+    "Techniques for reliable end-to-end transmission",
+    "Go-back-N and Selective Repeat",
+    "End-to-end techniques for error, flow, and congestion control",
+    "TCP, UDP, and RTP protocols",
+    "Congestion control in TCP",
+    "Fairness",
+    "Checksum",
+    "The IP protocol",
+    "Addressing management in IP networks",
+    "Subnetting",
+    "NAT",
+    "The IPv6 protocol",
+    "Unicast and multicast routing in intra-domain environment",
+    "Distance-vector and link-state routing",
+    "RIP and OSPF protocols",
+    "Hierarchical routing on the Internet",
+    "Autonomous System",
+    "Notes on inter-domain routing",
+    "Internet Exchange Points",
+    "Relationships between Autonomous Systems",
+    "Shared media access techniques in LAN environment",
+    "Aloha",
+    "CSMA/CD",
+    "Ethernet technology and its evolution",
+    "Interconnection of LANs: bridging and switching",
+    "VLAN",
+    "Structured cabling systems",
+    "Connecting LANs in a geographical network: access technologies",
+    "Local Network Management: addressing, NAT and DHCP services, VLAN services",
+    "Wireless LAN and PAN networks: 802.11 and Bluetooth technologies",
+    "Cryptographic techniques",
+    "Cryptographic hash functions",
+    "Digital signature",
+    "Configuration of a TCP/IP network",
+    "Use of a network simulator/emulator",
+    "Network monitoring",
+    "Software tools for network analysis",
+    "Analysis of network traffic traces"
+  ],
+  "teaching_methods": [
+    "Frontal lectures",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral test. The result of the written test is binding for access to the oral test. Written questions can be multiple choice and/or free response and/or numerical exercises.",
+  "bibliography": [
+    "J. Kurose, K. Ross - Reti di calcolatori e Internet. Un approccio top-down. (7a ed.) - Pearson 2017",
+    "Lecture slides"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "reti_di_calcolatori",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "dfa54d635318dd7a11e95777eb7a8eeb7520ff43e69068ba317dd12e0ad76dd2",
+  "extracted_at": "2026-11-20T08:19:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

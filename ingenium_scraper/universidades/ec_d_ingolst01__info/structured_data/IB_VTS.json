@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Verteilte Systeme",
+  "course_name_en": "Distributed Systems",
+  "ects": 6.0,
+  "semester": "Wintersemester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Second study section reached (at least 42 ECTS credits from the first study section must be proven).",
+    "Proficiency in C programming language, especially records, multidimensional arrays, pointers.",
+    "Proficiency in Java programming language, especially threads."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to apply their knowledge of fundamental paradigms for distributed systems in practice.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to use their knowledge of fundamental problems in the field of distributed systems and especially parallel programming and their elimination.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to practically apply language features of the C and JAVA programming languages to describe distributed systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to use their knowledge of specification languages (e.g., UML, process calculi) and to describe distributed systems both abstractly and with concrete examples.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply their knowledge of analysis and design of distributed systems to specific problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to solve the problem of mutual exclusion in the context of known standard applications (barrier synchronization, Read/Writer, Consumer/Producer) in C and Java.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Repetition of Parallel Programming",
+    "Fundamentals of Distributed Systems",
+    "Modeling of Distributed Systems (Process Calculi)",
+    "Communication of Systems",
+    "Synchronization of Systems",
+    "Language features for describing parallel and communicating programs",
+    "Problems in Distributed Systems (Safety, Security, Voting procedures, ...)",
+    "Description of Distributed Systems (UML, Statecharts, ...)",
+    "Examples of Distributed Systems",
+    "Synchronization of Distributed Systems in C and Java",
+    "RPC",
+    "RMI"
+  ],
+  "teaching_methods": [
+    "seminaristic instruction/exercise (SU/Ü)",
+    "practical course (Pr)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 59.0,
+  "assessment_methods": [
+    {
+      "method": "written examination, 90 minutes",
+      "weight_percentage": null
+    },
+    {
+      "method": "successful completion of 5 exercise sheets",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Successful completion of the practical course (15.2) is a prerequisite for participation in the lecture (15.1). The successful completion of 5 exercise sheets is required as proof of performance. This will check the ability to solve practical problems in distributed systems, the use of semaphores and monitors, and the use of C and Java for problems in parallel programming and distributed systems.",
+  "bibliography": [
+    "TANENBAUM, Andrew und Marten VAN STEEN, 2007. Distributed Systems. 2. Auflage.",
+    "COULOURIS, George F., Jean DOLLIMORE und Tim KINDBERG, 2012. Distributed systems: concepts and design. 5. Auflage. Boston [u.a.]: Addison-Wesley. ISBN 978-0-273-76059-7",
+    "SCHILL, Alexander und Thomas SPRINGER, 2012. Verteilte Systeme."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_VTS",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "ed6a73c27540b173ec5ee62b7bd9536b1a61c37a5ff63e7a9bc9d5c642fe0110",
+  "extracted_at": "2026-11-20T12:35:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,128 @@
+{
+  "course_name_original": "CAD Electrónico",
+  "course_name_en": "Electronic CAD",
+  "ects": 3.0,
+  "semester": "First Semestre",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of electronic components (resistors, capacitors, integrated circuits, \n)",
+    "Basic notions of logical circuits and components (logic gates, registers, flip-flops, etc)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquiring knowledge in order to provide a basis to develop/apply original ideas, often in a context of research.",
+      "type": "knowledge",
+      "code": "CB6"
+    },
+    {
+      "text": "Applying their knowledge and their problem-solving ability in new or unfamiliar contexts related to their field of study.",
+      "type": "skill",
+      "code": "CB7"
+    },
+    {
+      "text": "Integrating knowledge and dealing with the complexity of making judgments based on information that, being incomplete or limited, might include reflections on social and ethical responsibilities derived from the application of such knowledge or judgments.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "Communicating conclusions as well as the knowledge and rationale underpinning these, to both specialist and non-specialist public in a clear and unambiguous way.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Acquiring skills that enable students to go through a life-long learning process, mostly by self-directed or autonomous study.",
+      "type": "skill",
+      "code": "CB10"
+    },
+    {
+      "text": "Knowing the basic mathematical tools used in the analysis, modeling and simulation of power systems.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Using computers for analysis, simulation, design, monitoring, control and monitoring of power systems",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Characterization, operation and design of electronic topologies and control methods for electric energy conversion",
+      "type": "skill",
+      "code": "CE5"
+    },
+    {
+      "text": "Know design processes and technologies involved in the practical realization of electronic circuits.",
+      "type": "knowledge",
+      "code": "RA42"
+    },
+    {
+      "text": "Work with various electronic CAD environments: simulation, PCB design, new components creation, etc.",
+      "type": "skill",
+      "code": "RA43"
+    },
+    {
+      "text": "Design and develop a prototype of electronic circuit from its basic conception (schematic) to physical realization of the PCB.",
+      "type": "skill",
+      "code": "RA44"
+    },
+    {
+      "text": "Integrate different software tools of electronic CAD.",
+      "type": "skill",
+      "code": "RA45"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to electronic CAD: software, design environment, etc.",
+    "Schematics.",
+    "Hierarchical blocks, netslists, etc.",
+    "Design of Printed Circuit Boards (PCBs)",
+    "Creating components.",
+    "Definition of footprints, connections, etc.",
+    "Libraries",
+    "Introduction to FPGAs and VHDL",
+    "Basic elements of VHDL",
+    "Concurrent Hardware Description",
+    "Sequential Hardware Description"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practical sessions / Seminars",
+    "Group tutorship",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Practical Work (PCB)",
+      "weight_percentage": null
+    },
+    {
+      "method": "VHDL Assignment",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To compute the final grade, students must achieve a minimum score of 4.0 in each assessable element. If this condition is met, the final grade will be calculated as: FINAL GRADE = (PCB + VHDL) / 2. If the minimum score of 4.0 is not achieved in any element, the grade for the examination session will be the lower value between the calculated grade and 4.0. For the extraordinary call, practical work (PCB) is assessed during the official extraordinary call date, and the VHDL assignment is submitted and orally defended during the final exam.",
+  "bibliography": [
+    "Documentation for Altium Designer available in <http://techdocs.altium.com/display/ADOH/Altium+Designer>",
+    "Component datasheets.",
+    "LTspice IV information available in <http://www.linear.com/designtools/software/>"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (EPI Gijón)",
+  "institution_slug": "uniovi_mm_energia_elec",
+  "degree": "Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (Opción Pathway Ingenium)",
+  "course_code": "MCEESP03-C-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/conversionenergia/-/fof/asignatura/MCEESP03-C-010",
+  "source_language": "es",
+  "source_sha256": "953c468b52d0bab3775bfc28e9d042b8594ecceab262b384bd3012e12f54b148",
+  "extracted_at": "2026-11-20T06:00:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

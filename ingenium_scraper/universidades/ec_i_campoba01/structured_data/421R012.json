@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Elettrotecnica",
+  "course_name_en": "Electrical Engineering",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Content covered in Calculus I and Physics I and II are extremely useful for understanding this course."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate in Medical Engineering will be able to develop and understand electrical circuits and apply concepts related to Electrical Engineering.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The course provides new engineering knowledge, and the graduate will acquire understanding skills applicable to the comprehension, use, management, and maintenance of electrical or electronic machines, devices, and systems for biomedical applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will know and be able to understand the theoretical and practical foundations of Electromagnetism, Circuits, and Electrical Engineering.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be able to comprehend the operation of electrical networks in steady-state, sinusoidal, and dynamic conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be able to analyze and synthesize simple electrical and electronic problems and devices.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will be capable of designing basic electrical circuits in various operating regimes (steady-state, sinusoidal, and dynamic).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Moreover, they will be able to evaluate the most relevant measurement electrical signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be able to independently develop design proposals and will acquire critical thinking and independent judgment regarding scientific issues in Electrical Engineering and Electromagnetism.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student will be able to communicate solutions to scientific problems presented during the course and independently develop design proposals, innovative products, and compare different technologies, assessing their social, economic, and ethical implications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student will be able to clearly and accurately communicate information, problems, techniques, and solutions acquired during the course, both to specialists and non-specialists.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will develop methodological, applicative, and metacognitive skills that will enable continuous learning and updating throughout both their academic and professional careers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Consequently, the graduate will possess a set of strategies aimed at enhancing their competences and skills, particularly those required to meet workplace demands (Lifelong Learning).",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION TO THE CIRCUIT MODEL",
+    "Electric current intensity",
+    "Electric voltage and potential difference",
+    "Circuit model: two-terminal elements, Kirchhoff’s laws",
+    "Electrical power and energy, conventions",
+    "Active, passive, dissipative, and conservative components; linear and nonlinear, dynamic and non-dynamic, time-varying and time-invariant elements",
+    "Main two-terminal components: resistor, capacitor, inductor, switch, open circuit and short circuit, diodes, ideal and real voltage and current sources, controlled sources",
+    "Considerations on the characteristic of a two-terminal element and the maximum deliverable power",
+    "Introduction to the limitations of the circuit model",
+    "CIRCUIT PROPERTIES – ANALYSIS METHODS – DC CIRCUITS",
+    "Elements of graph theory: tree, co-tree, loop, ring, cut-set, incidence and fundamental loop matrices, Kirchhoff’s equations in matrix form, linearly independent Kirchhoff’s equations (proof)",
+    "Canonical form of equations",
+    "Node potentials",
+    "Conservation of electrical power and Tellegen’s theorem (proof)",
+    "Non-amplification property of resistive circuits (proof)",
+    "Concept of equivalent two-terminal element, resistors in series and parallel",
+    "Delta-wye (Δ-Y) transformation",
+    "Properties of linear resistive circuits, equivalent resistance, voltage and current dividers, superposition principle",
+    "Thevenin-Norton equivalent generators (proof) and their applications",
+    "Circuit solving methods",
+    "FIRST- AND SECOND-ORDER DYNAMIC CIRCUITS",
+    "Dynamics of first-order RC and RL circuits",
+    "Transient and steady-state behavior",
+    "Free and forced response",
+    "Dissipative circuits",
+    "Dynamics of second-order circuits: series RLC",
+    "Continuity of state variables",
+    "State equation formulation",
+    "Properties of state equations for RLC, RC, and RL second-order circuits",
+    "Interval-based analysis",
+    "SINUSOIDAL STEADY-STATE CIRCUITS AND THREE-PHASE SYSTEMS",
+    "Sinusoidal steady-state circuits, phasors, phasor method (symbolic method), impedance, impedance circuit properties, reactance, admittance, susceptance",
+    "Circuit elements under sinusoidal steady-state conditions and phasor diagrams",
+    "Instantaneous and average power in sinusoidal regime; complex, active, reactive, apparent power and conservation properties",
+    "Boucherot’s theorem",
+    "Series RLC resonant circuits",
+    "Power factor correction techniques",
+    "Power matching",
+    "Three-phase systems",
+    "Advantages of three-phase over single-phase systems",
+    "Positive sequence sets",
+    "Star and delta connected loads",
+    "Power supply of a balanced three-phase load",
+    "Unbalanced loads",
+    "Neutral point shift (Millman’s theorem)",
+    "Three-phase power",
+    "Measurement of three-phase power",
+    "ANALYSIS AND SYNTHESIS OF TWO-PORT NETWORKS",
+    "Multi-terminal circuit elements (N-ports), two-port networks",
+    "Resistive two-port networks and matrix representations (G and R)",
+    "First, second, and third forms of reciprocity in resistive two-port networks (proofs)",
+    "Controlled sources",
+    "Analysis and synthesis of two-port networks",
+    "Ideal transformer and its properties",
+    "Mutual coupling between inductors and equivalent circuits"
+  ],
+  "teaching_methods": [
+    "Lectures covering the theoretical and methodological topics of the course",
+    "Tutorials focused on solving exercises using the presented methods",
+    "Practice exercises with solutions, provided for self-assessment of individual preparation"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (two mandatory exercises on dynamic circuits, sinusoidal steady-state circuits, and DC circuits; one or more optional exercises covering other topics)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (two topics from the syllabus, explanations, proofs, examples)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The written test is graded using symbolic marks from A (highest) to INS (insufficient). The written exam is considered sufficient if the two mandatory exercises are substantially solved without major conceptual errors. If the written exam is passed with a grade of D, the oral exam begins with an additional exercise. The final grade is Voto Finale, based on both components.",
+  "bibliography": [
+    "Fundamentals of Electric Circuits, C. K. Alexander and M. Sadiku, ed. Mc Graw Hill, 7 th edition, year 2021, ISBN 978-1-260-57079-3",
+    "Basic Electric Circuit Theory: a one semester text, I. D. Mayergoyz and W. Lawson, ed. Academic Press (Elsevier), year 1996, ISBN-13: 978-0-12-480865-2",
+    "Pdf from lessons."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi del Molise",
+  "institution_slug": "ec_i_campoba01",
+  "degree": "Laurea in Ingegneria Medica classe L-9 R Ingegneria industriale",
+  "course_code": "421R012",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unimol.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=31313207&ordinamento_aa=2025&af_percorso=9999&corso_cod=10462&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "8d64a8728f96bf8c0baae634f1f3b071fa11639df29c634452e0ed5631fb93a2",
+  "extracted_at": "2026-11-20T09:24:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

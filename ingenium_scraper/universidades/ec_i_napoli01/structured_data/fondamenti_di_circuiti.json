@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Fondamenti Di Circuiti",
+  "course_name_en": "Fundamentals of Circuits",
+  "ects": 9.0,
+  "semester": "I",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Calculus II",
+    "General Physics II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course aims to provide students with the basic notions of circuit theory under steady-state, sinusoidal, and periodic operating conditions, and of first and second-order linear dynamic circuits; to systematically introduce the general properties of the circuit model, the main theorems, and the main analysis methodologies.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The training program provides students with the basic knowledge and methodological tools necessary to analyze linear circuits, under steady-state, sinusoidal, and periodic operating conditions, and to analyze first and second-order linear dynamic circuits. The student will be able to recognize the limits of validity and the main implications of the fundamental circuit theorems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate the ability to solve linear circuits under steady-state, sinusoidal, and periodic operating conditions, and first and second-order linear dynamic circuits, identifying the most appropriate solution method, and using the main circuit theorems where necessary. The student must be able to explain the basic concepts of circuit theory and derive the main theorems using the disciplinary language correctly.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The laws of electromagnetism (Electric charge, electric current, current density, electric field, magnetic field, Lorentz force, integral form of electromagnetism laws in vacuum, law of charge conservation, integral form of electromagnetism laws in matter, work of the electric field, energy stored in the electric field, energy stored in the magnetic field, electric power, electric energy, units of measurement).",
+    "The circuit model (Electric circuits under slowly varying conditions, two-terminal element: electric current intensity, electric voltage, electric power, electric energy, consumer and generator conventions, two-terminal element circuits: Kirchhoff's laws, canonical two-terminal elements: resistor, switch, independent generators, capacitor, inductor, real generators, active two-terminal elements, passive two-terminal elements, dissipative two-terminal elements, conservative two-terminal elements, frequency limits of the circuit model).",
+    "Circuit equations (Simple resistive circuit, non-linear resistive circuit and graphical solution method, Newton-Raphson algorithm, first-order linear dynamic circuits, steady-state and sinusoidal regimes, circuit graph, subgraph, connected graph, tree, cotree, loop, cut set, planar graphs and rings, fundamental loop set and fundamental cut set, incidence matrix and reduced incidence matrix, loop matrix and reduced loop matrix, Kirchhoff's equations in matrix form, independent Kirchhoff's equations, fundamental system of equations, node potentials, loop currents, conservation of virtual powers (Tellegen's theorem), conservation of electric powers).",
+    "Resistive circuits (Equivalent two-terminal element, series resistors, parallel resistors, voltage and current dividers, series and parallel of ideal generators and pathological cases, equivalence of real generators, linear resistive circuits, superposition of effects, Thevénin-Norton equivalent generator, non-amplification of voltages and currents, star-delta transformation).",
+    "Multi-terminal circuit elements (N-poles, descriptive currents and voltages, two-ports, port condition, absorbed electric power, linear controlled generators, ideal transformer, gyrator, resistive two-ports, reciprocity theorem, resistance matrix, conductance matrix, hybrid matrices, transmission matrix, mutually coupled circuits (transformer), characteristic relations, perfect coupling, equivalent circuits, series-parallel and cascade connection of two-ports, synthesis of two-ports: T and \"pi\" configurations).",
+    "Circuits in regime (Circuits in permanent regime, circuits in steady-state regime, circuits in sinusoidal regime, phasors, symbolic method, complex numbers, impedance, impedance circuits, properties of impedance circuits, complex power, average power, reactive power, phasor diagrams of elementary two-terminal elements, conservation of complex power, average power and reactive power, impedance two-terminal elements, networks in periodic regime, resonant circuit, quality factor, power and energy balances, universal resonance curves, frequency response of a circuit, filters, three-phase systems, star point shift and Millmann's formula, power measurement and Aron insertion).",
+    "Linear dynamic circuits (State equations of first-order circuits, state equations of second-order circuits, associated resistive circuit, continuity of state variables, solution of first and second-order circuits, free evolution, forced evolution, natural modes of evolution, natural frequency, time constant, transient term, permanent term, dissipative circuit, time-variant circuit, circuit with impulsive forcing, solution of second-order circuits, series RLC circuit, parallel RLC circuit, aperiodic natural modes, oscillating natural modes, RC and RL second-order circuits, impulse response and convolution integral, operational impedances, network function and Laplace domain analysis, notes on circuit simulation and the use of SPICE)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (numerical exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral test. The written test includes numerical exercises.",
+  "bibliography": [
+    "M. de Magistris, G. Miano, Circuiti, II edizione, SPRINGER, settembre 2009.",
+    "L.O. Chua, C.A. Desoer, E.S. Kuh, Circuiti Lineari E Non Lineari, Jackson, 1991.",
+    "G. Miano, Lezioni Di Elettrotecnica, Ed. Cuen, 1998;",
+    "L. De Menna, Elettrotecnica, Ed. Pironti, Napoli, 1998.",
+    "I.D. Mayergoyz, W. Lawson, Elementi Di Teoria Dei Circuiti, Utet, 2000.",
+    "H. A. Haus, J.R. Melcher, “Electromagnetic Fields And Energy,” Prentice Hall, 1989 Per Ulteriori Esercizi Svolti",
+    "S. Bobbio, L. De Menna, G. Miano, L. Verolino, Quaderno N ° 1: Circuiti In Regime Stazionario, Ed. Cuen, Napoli, 1998.",
+    "S. Bobbio, L. De Menna, G. Miano, L. Verolino, Quaderno N ° 2: Circuiti In Regime Sinusoidale, Ed. Cuen, Napoli, 1998.",
+    "S. Bobbio, L. De Menna, G. Miano, L. Verolino, Quaderno N ° 3: Circuiti In Evoluzione Dinamica: Analisi Nel Dominio Del Tempo Ed. Cuen, Napoli, 1998.",
+    "S. Bobbio, Esercizi Di Elettrotecnica, Ed. Cuen, Napoli, 1995.",
+    "Corso online aperto e di massa (Mooc) disponibile su https://www.federica.eu/"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "fondamenti_di_circuiti",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "4a8d7f26b8ae8dbb094d5aae0c5d8216242656553bd993203d13ffd44aca4942",
+  "extracted_at": "2026-11-20T08:19:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

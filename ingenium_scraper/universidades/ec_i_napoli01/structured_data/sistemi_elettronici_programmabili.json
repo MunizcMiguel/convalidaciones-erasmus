@@ -1,0 +1,138 @@
+{
+  "course_name_original": "Sistemi Elettronici Programmabili",
+  "course_name_en": "Programmable Electronic Systems",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of mathematics, physics, chemistry, and electrical engineering."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the design techniques for simple digital systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the block diagram of a digital circuit.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the constructs of the HDL Verilog language necessary for the description of a digital circuit.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the constructs of the HDL Verilog language necessary for the creation of a testbench.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the operation of a testbench.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the design techniques useful for the creation of digital circuits that implement arithmetic operations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the structure of an FPGA (Field Programmable Gate Array) component.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the datasheet of an FPGA.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to design/create the block diagram of a digital circuit based on given specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand how to subdivide a medium-complexity circuit into combinational, sequential, arithmetic sections, and those based on Finite State Machine (FSM) for managing the entire system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to describe a digital circuit in HDL Verilog language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to conceive and create a testbench in HDL Verilog language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to implement a digital circuit on a specific FPGA device.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire the ability to describe design choices in writing, also using standard languages.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to justify the design choices made and can study medium-complexity circuits and FPGA datasheets, learning about additional design possibilities.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Design flow for digital circuits to be implemented on FPGAs.",
+    "Classification and characteristics of commercial FPGAs.",
+    "FPGA packages: thermal sizing and classification by cost and size.",
+    "The Hardware Description Language HDL Verilog.",
+    "Description of combinational circuits in Verilog language. Testbenches in Verilog language.",
+    "Adders implemented on FPGAs.",
+    "Arithmetic circuits implemented in Verilog language. Sequential circuits implemented in Verilog language.",
+    "Timing of synchronous sequential circuits. Influence of timing on performance and reliability of synchronous sequential circuits.",
+    "Circuit description in Verilog language of finite state machines with reference to Mealy, Moore, and synchronized Mealy topologies. State encoding for finite state machines and fault tolerance. Finite memory machines. Realization of combinational and sequential circuits on FPGAs available in the laboratory.",
+    "Power dissipation of circuits implemented on FPGAs, estimation and simulation.",
+    "Power supply voltages of programmable circuits, historical evolution.",
+    "Enabled or three-state outputs. Noise rejection.",
+    "Effects due to parasitic inductances and transmission lines.",
+    "Fast logics for data transfer and backplane connection."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory exercises and experiments"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Discussion of design work",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The evaluation takes into account the written answers to the questionnaire during the exam and the choices made for the implementation of the design work. The weight of the two components is 60% for the written exam and 40% for the discussion of the design work.",
+  "bibliography": [
+    "E. Napoli “Progetto di sistemi elettronici digitali basati su dispositivi FPGA”, ed. Esculapio, 2011."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "sistemi_elettronici_programmabili",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "aa12ff8be73c41767d272c0ac2b0f66ac109244468118ba23d5b3c1868acdf1f",
+  "extracted_at": "2026-11-20T08:20:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

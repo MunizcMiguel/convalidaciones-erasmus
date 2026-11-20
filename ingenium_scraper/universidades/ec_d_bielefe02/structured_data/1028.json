@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Bildverarbeitung und Mustererkennung (1028)",
+  "course_name_en": "Image Processing and Pattern Recognition",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": 4,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Formal: Module 1105 Computer Science 1",
+    "Content: Fundamentals of algorithmic thinking and basic programming skills are required to follow the lecture content and successfully complete the programming practical."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students possess fundamental knowledge of image acquisition, grayscale operations, local filter operations (convolutions), as well as simple segmentation and classification methods, and apply them with justification.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The basics of Fourier transformation are known. Fourier spectra of images can be interpreted in their essential aspects.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They independently solve simple problems and applications of image processing and pattern recognition.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They select suitable methods with justification, analyze advantages and disadvantages of the methods, apply them correctly, and develop corresponding programs in suitable programming languages, which they then test with practical examples.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Simple application problems are implemented and solved independently and creatively by the students.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "They plan, structure, and develop simple proprietary methods, program them, and justify, test, and evaluate them.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students organize themselves effectively in working groups and take responsibility for themselves and the group.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "They appropriately assess their own strengths and weaknesses and develop ideas for potential professional activities or fields of work after graduation.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic principle of image processing and pattern recognition, applications.",
+    "Image acquisition: rasterization, quantization.",
+    "Design of camera, lens, illumination for the application.",
+    "Elementary image processing: grayscale histogram, point operators.",
+    "Local operations with grayscale images: smoothing operators, edge operators, sharpening operators.",
+    "Simple segmentation algorithms.",
+    "Feature extraction and simple classification methods.",
+    "Fundamentals of Fourier transformation.",
+    "Applications of image processing/pattern recognition using practical examples.",
+    "Laboratory practicals: Image acquisition with various image acquisition units.",
+    "Programming of image processing operators according to course content using suitable software.",
+    "Planning, structuring, development, programming, testing, and evaluation of simple proprietary methods for solving application-oriented image processing and/or pattern recognition tasks.",
+    "Presentation of future career fields for computer science engineers."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Seminar-style instruction",
+    "Group work in the context of the practical course"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded upon successful completion of the module examination and proof of performance. The grade's significance for the final grade is determined according to the study and examination regulations (SPO).",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Fachhochschule Bielefeld",
+  "institution_slug": "ec_d_bielefe02",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "1028",
+  "academic_year": "2025-26 (Version 2025)",
+  "source_url": "https://www.hsbi.de/media/hochschulverwaltung/dezernat-ii/studserv/pruefungsangelegenheiten/studiengangs-downloads/maschinenbau-(vollzeit-_-kooperativ)-bcn/studiengangspruefungsordnung-und-modulhandbuch-bachelor-maschinenbau-version-2025.pdf?called_by=fh_neu&download=1&original_page=1116&original_site=fh_neu&view_image=1",
+  "source_language": "de",
+  "source_sha256": "db9a2fd262f11ddef75f67a56c15df1672258413f45270bd1af075590110ab24",
+  "extracted_at": "2026-11-18T09:48:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

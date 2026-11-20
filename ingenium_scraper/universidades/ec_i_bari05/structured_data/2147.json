@@ -1,0 +1,99 @@
+{
+  "course_name_original": "SISTEMI ENERGETICI I E MACCHINE A FLUIDO I",
+  "course_name_en": "ENERGY SYSTEMS I AND FLUID MACHINES I",
+  "ects": 12.0,
+  "semester": "First Semestral Cycle",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamental notions of mechanics and thermodynamics from Physics and Technical Physics courses.",
+    "Fundamental notions of Fluid Dynamics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the operation of main energy systems (gas turbine, steam, combined and cogeneration plants).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the constructive characteristics, operation, and regulation systems of main fluid machines (steam, gas, hydraulic, and wind turbines, centrifugal and volumetric pumps and compressors, hydraulic motors, and hydrostatic transmissions, internal combustion reciprocating engines).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to perform preliminary sizing and verify the performance of energy systems and main fluid machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to select appropriate fluid machines for designing an energy system based on technical evaluations.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to effectively communicate and represent, both technically and formally, the characteristics and performance of an energy system and its component fluid machines, including through diagrams and drawings.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to learn autonomously and utilize content related to energy systems and fluid machines found in specialized books and journals.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "MODULE 1, Energy Systems I: Thermodynamics and one-dimensional fluid dynamics review: principles of thermodynamics. Lagrangian and Eulerian approach. T-S and p-v diagrams. Polytropic transformations and polytropic work. Recovery and counter-recovery. Velocity triangles and Eulerian work in turbomachines. Quasi-1D flow of a compressible fluid: total quantities, Mach number, area rule, flow rate.",
+    "Steam plants: Cycles and plant schemes. Rankine cycle. Means to increase Rankine cycle efficiency. Regeneration cycles. Condensers. Steam generators.",
+    "Gas turbine and combined plants: Constitution and operating principles. Classification: aeronautical and industrial turbines. Evolution of gas turbines and applications. Ideal simple and regenerative cycle: efficiencies and power. Thermally perfect gases. Real simple and regenerative cycle: efficiencies and power. Constitution of combined plants: efficiencies and power. Unfired and Exhaust fired cycles. Pinch-point. Principles of mechanical and thermal energy cogeneration; efficiencies. Emissions, their environmental impact and reduction methods. Application examples.",
+    "Internal combustion reciprocating engines: Classification, operating principles and machine constitution. Work, power, mean pressure. Efficiencies and specific consumption. Ideal cycles: Otto, Diesel, and Sabathé. Indicated cycle. Filling. General expression of effective mean pressure. Regulation principles. Characteristic curves.",
+    "MODULE 2, Fluid Machines I: Turbopumps and centrifugal compressors: Machine components. Work, power and efficiencies. Importance of centrifugal force field. Impeller and diffuser. Work of passive resistances. Characteristic curves and hill diagram. Operating point. Regulation. Cavitation. Pumps in series and in parallel. Preliminary design and pump selection. Constructive and operating characteristics of a centrifugal compressor. T-S diagram of operation. Notes on characteristic curves.",
+    "Steam and gas turbines: Ideal and real operation of turbine stages. Plant schemes and constructive details of turbomotors. Notes on gas and steam plant regulation.",
+    "Hydraulic turbines: Classification. Work, power and efficiencies. Characteristic curves. Specific rotational speed and flow rate. Characteristic rotational speed. Pelton, Francis, and Kaplan turbines.",
+    "Volumetric compressors: Constructive and operating characteristics (ideal, real, and conventional cycles) of reciprocating and rotary compressors. Performance calculation and hill diagrams. Regulation.",
+    "Volumetric hydraulic pumps and motors, hydrostatic transmissions.",
+    "Wind turbines: Machine constitution. Betz's theory. Characteristic curves."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom exercises supported by computers and video projectors",
+    "Experimental exercises in the laboratory",
+    "Individual tutoring"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 120.0,
+  "assessment_methods": [
+    {
+      "method": "Written practical exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Pre-oral written theory exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is the average of the practical and theory exams. The practical exam, lasting 2.5 hours, requires solving three exercises, with a minimum passing score of 15 points (out of 33). The pre-oral written exam, lasting 40 minutes, consists of four open-ended questions, with a minimum passing score of 12 points (out of 32) to access the oral exam. The oral exam lasts 20-30 minutes and includes two questions from two professors. The final grade must be at least 18 (rounded up).",
+  "bibliography": [
+    "Catalano L. A., Napolitano M., “Elementi di macchine operatrici a fluido”, Pitagora Editrice, Bologna, 1998.",
+    "Teaching materials by De P., Pascazio G., Napolitano M., M. (climeg2.poliba.it)",
+    "W. W. Bathie, Fundamentals of Gas Turbines, John Wiley & Sons, Inc., 1996.",
+    "V. Dossena et al., Macchine a fluido, CittàStudi EDIZIONI, 2015."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Politecnico Di Bari",
+  "institution_slug": "ec_i_bari05",
+  "degree": "Laurea in Ingegneria Meccanica (D.M. 270/04) (Bachelor'S Degree In Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "2147",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://poliba.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=2075&ordinamento_aa=2015&af_percorso=10000&corso_cod=10026&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "57b35f45b8ef52c32dfdb9b9ede56b6de0e0ef9f29264d9b3b5cbad13f8410a1",
+  "extracted_at": "2026-11-18T10:01:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

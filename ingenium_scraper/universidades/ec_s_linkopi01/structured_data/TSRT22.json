@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Reglerteknik",
+  "course_name_en": "Automatic Control",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Calculus, one variable",
+    "Calculus, several variables",
+    "Linear Algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze models of dynamical systems in the form of differential equations and transfer functions, describe basic properties of feedback control, and design and analyze control systems with basic controllers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze control systems and models of general dynamic systems in the frequency domain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze and design control systems using state-space methods.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Model, design and verify a control system for a laboratory process.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Differential equations, transfer functions, poles and zeros",
+    "Stability, specifications, relationships between dynamical properties and pole location",
+    "The feedback principle, block diagrams, feed-forward",
+    "The PID controller, its structure and function, algorithmization",
+    "Interpretation of system properties using root loci",
+    "The importance of control technology for effective management of environmental impact as well as energy and resource use in different types of technical systems",
+    "Frequency function, Bode plots, phase- and amplitude gain margin",
+    "Connection between frequency function and time response",
+    "Time delays",
+    "Fundamental limitations in feedback, robustness criteria",
+    "State-space models, stability, controllability and observability",
+    "State-feedback",
+    "Observers, feedback from estimated states",
+    "Reinforcement learning"
+  ],
+  "teaching_methods": [
+    "lectures",
+    "lessons",
+    "laboratory work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory work",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grades for examination modules are decided in accordance with the assessment criteria presented at the start of the course. The grading scale is U, 3, 4, 5.",
+  "bibliography": [
+    "Glad, Torkel, Ljung, Lennart, Reglerteknik: grundläggande teori Studentlitteratur",
+    "Excercises"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Linköping University",
+  "institution_slug": "ec_s_linkopi01",
+  "degree": "Industrial Engineering and Management - International (6CIEI), terms 1-6 (first cycle)",
+  "course_code": "TSRT22",
+  "academic_year": "2023-2024 (cohorte HT 2023)",
+  "source_url": "https://studieinfo.liu.se/en/kurs/TSRT22/ht-2025",
+  "source_language": "en",
+  "source_sha256": "841a02e0c5c1878cb66fa91f0b5c027cd4fd5b7d96bade404b3db3ddd4360926",
+  "extracted_at": "2026-11-20T09:09:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

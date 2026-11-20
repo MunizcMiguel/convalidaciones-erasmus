@@ -1,0 +1,174 @@
+{
+  "course_name_original": "ELEMENTS OF CONTROL ENGINEERING (B024416)",
+  "course_name_en": "ELEMENTS OF CONTROL ENGINEERING",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "basic knowledge of mathematical analysis: complex numbers, derivatives and integrals, and linear differential equations",
+    "basic knowledge of linear algebra: vectors, matrices, determinants, eigenvalues and systems of linear equations",
+    "basic knowledge of physics and electrical circuit analysis",
+    "elementary computer skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "describe the main mathematical representations of continuous-time dynamical systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explain the dynamic behaviour, stability and performance of linear time-invariant systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explain the operation of feedback control systems and the main criteria for the design of basic automatic control systems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "derive state-space and input\noutput models of simple physical systems and analyse their response",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "apply the Laplace transform and time- and frequency-domain methods to LTI systems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "assess stability and performance using the Routh\nHurwitz criterion and Bode plots",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "simulate dynamical and control systems in MATLAB/Simulink and compare analytical and numerical results",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "design basic PID controllers and compensator networks subject to steady-state and dynamic specifications",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "consult and use textbooks, lecture notes, manuals and technical documentation, and plan, complete and clearly document an analysis or design procedure",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "select the analysis or design method most appropriate to the assigned problem",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "critically interpret results, check their consistency, and discuss the assumptions and limitations of the adopted solution",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "present analysis and design solutions in written and oral form, using appropriate technical terminology",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "independently organise individual work and effectively discuss exercises and case studies in written and oral form",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "independently use learning resources and software documentation to consolidate or further explore course topics",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "relate the acquired knowledge to advanced courses in control, automation and robotics",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modelling and simulation",
+    "Time- and frequency-domain analysis of continuous-time LTI systems",
+    "Routh\nHurwitz stability analysis",
+    "Bode plots",
+    "Feedback systems",
+    "Design of PID controllers and lead/lag compensators",
+    "State-space and input\noutput representations",
+    "Lumped-parameter linear models of simple electrical, mechanical, hydraulic and thermal systems",
+    "Numerical simulation of dynamical systems using MATLAB and Simulink",
+    "Review of the Laplace transform and inverse transform",
+    "Transfer function and impulse response",
+    "Free and forced response",
+    "Stability and the Routh\nHurwitz criterion",
+    "Step response and time-domain performance indices",
+    "Harmonic analysis and frequency response",
+    "Bode plots",
+    "Structure and properties of feedback systems",
+    "Internal stability",
+    "Stability margins",
+    "Steady-state specifications: steady-state error and system type",
+    "Time-domain dynamic specifications: overshoot, settling time and rise time",
+    "Frequency-domain dynamic specifications: resonance peak, bandwidth, phase margin and crossover frequency",
+    "Approximate relationships between time- and frequency-domain specifications",
+    "Basic compensator networks: lag and lead compensators",
+    "Trial-and-error design in the frequency domain",
+    "PID controllers and basic tuning criteria"
+  ],
+  "teaching_methods": [
+    "lectures",
+    "guided exercise sessions",
+    "MATLAB/Simulink simulations",
+    "individual problem-solving activities",
+    "guided use of textbooks, manuals and technical documentation",
+    "supporting materials and activities on Moodle"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written test - Theoretical knowledge and conceptual understanding (multiple-choice questions or exemption test)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test - Analysis skills (exercise on LTI feedback system)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test - Design and problem-solving skills (design of feedback control system)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (compulsory discussion of written test exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional full oral examination (at student's request)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Learning is assessed through a compulsory written test and an oral examination. The written test has a maximum raw score of 31 points, capped at 30/30 for assessment purposes. The oral examination includes a compulsory discussion of the exercises from the written test. An optional full oral examination may be taken if the written test mark is at least 14/30, which can change the written-test mark by -5/30 to +5/30. The final mark is the written-test mark after the compulsory discussion, potentially adjusted by the optional full oral examination, and is capped at 30/30; a result below 18/30 is a fail.",
+  "bibliography": [
+    "[docente], Chisci, Falugi: Fondamenti di automatica, CittàStudi, 2007. https://onesearch.unifi.it:443/39UFI_V1:AllResources:39sbart_almap7151292630003302",
+    "Bolzern, Scattolini e Schiavoni: Fondamenti di controlli automatici, 5a edizione, Mc Graw-Hill Italia, Milano, 2025. https://onesearch.unifi.it/primo-explore/fulldisplay?docid=39sbart_almap7157940290003302&context=L&vid=39UFI_V1",
+    "Course slides",
+    "Matlab/Simulink textbooks link: https://it.mathworks.com/academia/books/search.html?q=&fq%5B%5D=book-category%3Ausing-matlab-and-simulink&page=1"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze",
+  "institution_slug": "ec_i_firenze01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "B024416",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45716_B049-23-24_60827_730237&ordinamento_aa=2023&af_percorso=45716&corso_cod=460&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "d5474d28c1a003697ee1af6e2a68dd2a2a4d12e2eb1fc7227354a59ba34956e9",
+  "extracted_at": "2026-11-18T10:02:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

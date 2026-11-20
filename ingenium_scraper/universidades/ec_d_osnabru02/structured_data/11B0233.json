@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Kommunikationsnetze",
+  "course_name_en": "Communication Networks",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Elementary basic knowledge of computer science/digital technology and mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have a broad knowledge of the fundamentals of technical communication over networks. In particular, they will have detailed knowledge of Ethernet technologies and the TCP/IP family of protocols as well as supporting functions in this environment and will be able to apply their knowledge in practice to implement such networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Beyond basic knowledge of TCP/IP-based networks, students will be familiar with more advanced concepts for implementing local networks using switched networks and virtual LANs, and additional aspects of addressing, e.g., for translation (NAT) or address assignment (DHCP), or network security (ACL) and will be able to implement these practically. They will also have in-depth knowledge of routing concepts in IP-based networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will understand the processes in communication networks in detail. They will be able to question the suitability of TCP/IP-based communication for different applications in professional and leisure life and will be sensitized to network security issues. They will be able to evaluate and select various protocols and network components regarding their suitability for different applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to apply their knowledge in practice for the planning, implementation, and configuration of TCP/IP-based computer networks. They will be able to plan small and medium-sized computer networks and to structuredly analyze communication processes in TCP/IP-based networks - also using suitable tools for network analysis - and to identify and fix possible error conditions in networks. They will be able to identify the necessary network components (end devices, switches, routers), configure them accordingly, and implement them into a functional network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will master the specific terminology for describing communication processes and will be able to present and discuss them in a structured and precise manner.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Elementary foundations of communication networks (layer models, communication protocols, addressing concepts, switching principles)",
+    "Technologies and protocols for local networks (transmission media, media access methods, Ethernet technologies, WLAN)",
+    "Protocols of the TCP/IP protocol family (e.g., IPv4, IPv6, ICMP, TCP, UDP, application protocols)",
+    "Routing in IP networks (elementary concepts, Distance Vector and Link State Routing, protocol examples)",
+    "Switched Ethernet and virtual LANs (VLANs)",
+    "Further aspects of IP addressing (NAT and DHCP, auto-configuration)",
+    "Introduction to network security",
+    "Configuration of network elements (e.g., PC, switch, router)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity",
+    "Event preparation and post-preparation",
+    "Exam preparation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is a written exam. The ungraded assessment is experimental work, consisting of approximately 6 experiments.",
+  "bibliography": [
+    "Badach, A., Hoffmann, E.: Technik der IP-Netze, 4. Aufl., Hanser, 2019",
+    "Tanenbaum, A. S.,Wetherall, D.J.: Computernetzwerke, 5. Aufl., Pearson Studium - IT, 2012",
+    "Tanenbaum, A. S., Feamster, N., Wetherall, D.J. : Computer Networks, 6th edition, Pearson, 2021",
+    "Comer: TCP/IP - Studienausgabe: Konzepte, Protokolle und Architekturen, mitp, 2011",
+    "Kurose, Ross: Computernetzwerke, 6. Aufl., Pearson Studium, 2014",
+    "CCNA Introduction to Networks, v7.02 Cisco Networking Academy, 2021"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück",
+  "institution_slug": "ec_d_osnabru02",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "11B0233",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BMB/StO2025_Stand2026-03-26_BSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "e8b0066e79e44d1edc86c9ffcf098697801dab4e3d0ce02aa92d40fd76ade642",
+  "extracted_at": "2026-11-18T09:50:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

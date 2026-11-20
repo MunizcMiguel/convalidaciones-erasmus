@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Parallel Programming",
+  "course_name_en": "Parallel Programming",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": 6,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "The second part of the study must be reached (at least 42 ECTS credits from the first part of the study must be demonstrated).",
+    "Knowledge of C or C++ programming or another system programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the structure and architecture of current single-core and multi-core processors.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Program multi-core systems using OpenMP.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Map applications and algorithms to parallel computing units.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify and resolve conflicts in parallel programming.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply standard techniques for synchronizing processes and threads specifically to parallel programming problems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Optimize applications for a given system.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer architectures and computational models of parallel computers",
+    "Amdahl's Law and Gustafson's Law",
+    "Forms of Parallelism",
+    "Synchronization mechanisms",
+    "Race Conditions and Deadlocks",
+    "Parallel Design Patterns",
+    "Multithreaded Programming",
+    "Parallel Algorithms",
+    "GPU Programming with OpenCL",
+    "GPU Algorithms"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction/exercise"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "SCHMIDT, Bertil und andere, 2017. Parallel Programming: Concepts and Practice. Cambridge, United States: Morgan Kaufmann. ISBN 978-0-12-849890-3",
+    "MCCOOL, Michael, James REINDERS und Arch ROBISON, 2012. Structured Parallel Programming: Patterns for Efficient Computation. F. Auflage. Amsterdam: Morgan Kaufmann. ISBN 978-0-12-391443-9, 0- 12-391443-4",
+    "WILLIAMS, Anthony, 2019. C++ Concurrency in Action. S. Auflage. Shelter Island: Manning. ISBN 978-1- 61729-469-3, 1-61729-469-1",
+    "GLEIM, Urs und Tobias SCHÜLE, 2011. Multicore-Software: Grundlagen, Architektur und Implementierung in C/C++, Java und C#. Heidelberg: dpunkt.verlag. ISBN 978-3-89864-758-8, 978-3-86491-080-7"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "KI_FW_PP",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "c6987e504566911c0544bd928e3542b28814befb5b09c5e36b95c57aa15a8a00",
+  "extracted_at": "2026-11-20T12:35:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

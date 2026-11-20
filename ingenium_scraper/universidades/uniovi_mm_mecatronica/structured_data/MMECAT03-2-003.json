@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Implementación de Sistemas de Control",
+  "course_name_en": "Implementation of Control Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics, especially vector and matrix calculus",
+    "Fluent computer handling",
+    "Knowledge of programming in a high-level language, preferably C or C++",
+    "English, as much of the documentation is in this language",
+    "Basic knowledge of electricity and electronics",
+    "Basic knowledge of control"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Develop technical specifications that allow a problem in mechatronic engineering to be approached while maintaining a global and integrating vision and using prescriptive, procedural, or performance specifications as appropriate.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision-making and selection among possible solutions to an engineering problem.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Evaluate the viability of new mechatronic products, based on their technological characteristics, manufacturing possibilities, and other socio-economic factors related to their possible implementation.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Students should know how to apply the acquired knowledge and their problem-solving capacity in new or little-known environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "Students should be able to integrate knowledge and face the complexity of making judgments based on information that, being incomplete or limited, includes reflections on the social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "Students should know how to communicate their conclusions and the ultimate knowledge and reasons that support them to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Students should possess the learning skills that will allow them to continue studying in a largely self-directed or autonomous manner.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Discriminate the most critical components in a mechatronic system and justify their possible redesign from the control system's point of view.",
+      "type": "competence",
+      "code": "CE10"
+    },
+    {
+      "text": "Justify, with solid arguments, the different options for the automation of a mechatronic machine or technological process.",
+      "type": "competence",
+      "code": "CE11"
+    },
+    {
+      "text": "Acquire knowledge, techniques, and skills that represent an increase in research and innovative potential and foster technology transfer to industry.",
+      "type": "competence",
+      "code": "CE13"
+    },
+    {
+      "text": "Plan the assembly, commissioning, and maintenance of a mechatronic equipment or system.",
+      "type": "competence",
+      "code": "CE4"
+    },
+    {
+      "text": "Incorporate the necessary electric, hydraulic, and pneumatic sensors and actuators based on the characteristics of the mechatronic system, its specifications, and its integration.",
+      "type": "competence",
+      "code": "CE6"
+    },
+    {
+      "text": "Identify the subcomponents of a technologically complex system, the interactions between them, and the effects and consequences of their possible redesign.",
+      "type": "competence",
+      "code": "CE8"
+    },
+    {
+      "text": "Design control systems of varying complexity, from simple loops to distributed systems.",
+      "type": "competence",
+      "code": "CE9"
+    },
+    {
+      "text": "Know the hardware and software options applicable for control implementation",
+      "type": "unspecified",
+      "code": "RA20"
+    },
+    {
+      "text": "Create object-oriented, event-driven, and graphical environment control programs",
+      "type": "unspecified",
+      "code": "RA21"
+    },
+    {
+      "text": "Design automatic operation sequences in multitasking environments",
+      "type": "unspecified",
+      "code": "RA22"
+    },
+    {
+      "text": "Perform communications with intelligent devices",
+      "type": "unspecified",
+      "code": "RA23"
+    },
+    {
+      "text": "Design and document auxiliary safety and manual control systems",
+      "type": "unspecified",
+      "code": "RA24"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to advanced system programming.",
+    "Object-oriented programming with C++",
+    "Programming of equipment with Operating System.",
+    "Serial and network communications.",
+    "Graphical environment programming.",
+    "Electric drives in mechatronic systems",
+    "Integration of motors with intelligent controller.",
+    "Application to a practical case."
+  ],
+  "teaching_methods": [
+    "Expository classes with transparencies",
+    "Practical computer exercises",
+    "Autonomous readings and small exercises",
+    "Individual project work",
+    "Group project work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical or practical exams",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Individual student work",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Group student work",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the ordinary exam, the theoretical or practical exams (EV1) account for 60% with a minimum score of 4/10. Individual student work (EV2) and group student work (EV3) each account for 20%, both requiring a minimum score of 5/10. For extraordinary exams, EV1 accounts for 80% (minimum 4/10) and EV2 for 20% (minimum 5/10). The individual work (EV2) may require a face-to-face defense if quality and originality requirements are not met.",
+  "bibliography": [
+    "A copy of the transparencies projected in the expository classes.",
+    "Links to diverse documentation on the Internet regarding the various topics, with some basic links constituting mandatory readings.",
+    "Personal computers with Qt Creator, ARM-based boards, and motors with controllers.",
+    "Online help for Qt Creator, C documentation obtained from the Internet."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-2-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-2-003",
+  "source_language": "es",
+  "source_sha256": "5dd71457a70f32d22f0628078cb73bf13add9a409d8cf5231a3f37a6b5529165",
+  "extracted_at": "2026-11-20T05:58:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

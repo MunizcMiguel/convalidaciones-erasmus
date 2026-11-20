@@ -1,0 +1,245 @@
+{
+  "course_name_original": "Introducción al Diseño de Motores Eléctricos",
+  "course_name_en": "Introduction to Electric Motor Design",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of rotating electrical machines",
+    "Successfully completed 'Máquinas Eléctricas I'"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Demonstrate theoretical knowledge about the constructive characteristics of different types of electric motors.",
+      "type": "knowledge",
+      "code": "RID1"
+    },
+    {
+      "text": "Know the properties of conductive materials used in the manufacture of electric motors and be able to select them appropriately and perform their dimensioning based on the power of the motor to be designed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the properties of insulating materials used in the manufacture of electric motors and be able to select them appropriately based on the voltage and power characteristics of the motor to be designed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the properties of magnetic materials used in the manufacture of the stator and rotor cores of electric motors and be able to select the appropriate product for the characteristics of the motor to be designed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and identify the special properties and characteristics of the electromechanical structure of the rotor and stator magnetic cores of electric motors.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the most common types of stator windings used in electric motors and be able to design single and double-layer lap and wave windings.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and differentiate the different manufacturing technologies for electric motor rotors, selecting the most appropriate for the motor to be designed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the design variables of different types of electric motors, their interrelationship and limitations.",
+      "type": "skill",
+      "code": "RID2"
+    },
+    {
+      "text": "Know the criteria and limitations imposed by the design of stator and rotor magnetic cores. Be able to appropriately dimension yokes and slots based on the type of motor to be designed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to select and adapt the design of magnetic cores to standardized enclosures for low voltage asynchronous motors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to design a rotor cage for an asynchronous motor including the dimensioning, number, and cross-section of bars and rings based on the type of motor to be designed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulate the basic equations that define the design of electric motors.",
+      "type": "skill",
+      "code": "RID3"
+    },
+    {
+      "text": "Know the simplified algebraic equations that allow a general dimensioning of an electric motor. Apply them for the initial dimensioning of the motor to be designed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to design the stator winding of an asynchronous motor including the dimensioning, number, and cross-section of the slots as well as the conductors housed within them.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and be able to apply simplified industrial methods for estimating rotor and stator leakage reactances based on the geometry of the motor to be designed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate skills in the use of specific computer tools for electric motor design.",
+      "type": "skill",
+      "code": "RID4"
+    },
+    {
+      "text": "Know the fundamentals of industrial electric motor design using commercial finite element calculation tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to perform a two-dimensional cross-section design of a squirrel cage asynchronous motor using industrial numerical calculation software via the finite element method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to perform the complete design of a squirrel cage asynchronous motor using industrial analytical calculation software, evaluating the influence of varying the design parameters of its windings and magnetic cores on the motor's behavior.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Document the design project of an electric motor.",
+      "type": "skill",
+      "code": "RID5"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision making, creativity, and critical reasoning.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability for the calculation and design of electrical machines.",
+      "type": "competence",
+      "code": "CEL1"
+    },
+    {
+      "text": "Knowledge about the control of electrical machines and drives and their applications.",
+      "type": "knowledge",
+      "code": "CEL2"
+    }
+  ],
+  "syllabus_topics": [
+    "Electrotechnical materials used in the construction of electrical machines",
+    "Conductive materials",
+    "Physical properties of conductive materials used in the manufacture of electric motors",
+    "Characteristics of conductive materials used in the manufacture of electric motors",
+    "Properties of copper conductors",
+    "Properties of copper alloys as conductors",
+    "Properties of aluminum as an integral material of electric motor windings",
+    "Insulating materials",
+    "General physical properties of insulating materials",
+    "Special characteristics of insulating materials used in the manufacture of electric motor insulation systems",
+    "Mica compounds",
+    "Glass compounds",
+    "Cellulosic and textile compounds",
+    "Plastic materials (Kapton, Nomex, etc.)",
+    "Other solid insulators",
+    "Magnetic materials",
+    "General physical properties of magnetic materials",
+    "Ferromagnetic materials used in the manufacture of electric motor magnetic cores",
+    "Iron-silicon alloys",
+    "Grain-oriented iron-silicon alloys",
+    "Permanent magnets",
+    "Main constructive aspects of rotating electrical machines",
+    "Constructive aspects of the asynchronous machine",
+    "Characteristics and structure of magnetic cores",
+    "Characteristics and structure of the stator winding",
+    "Random and preformed windings",
+    "Introduction to practical winding design: connection forms",
+    "Characteristics of the rotor winding",
+    "Characteristics of squirrel cage rotors: manufacturing technologies",
+    "Wound rotors",
+    "Complete breakdown of low and medium voltage asynchronous machines",
+    "Introduction to conventional electrical machine calculation (oriented to electric traction machines)",
+    "Review of the physical-mathematical fundamentals related to the operation of rotating electrical machines",
+    "Ampere, Maxwell, and Faraday laws",
+    "Magnetic induction",
+    "Leakage flux, reluctance, and permeance",
+    "Introduction to asynchronous motor design",
+    "Basic equations for dimensioning an asynchronous motor",
+    "Practical dimensioning of magnetic cores",
+    "Selection of the machine enclosure. Standardized enclosures.",
+    "Motor torque in asynchronous motors",
+    "Practical design of the rotor cage",
+    "Practical design of the stator: connection and winding design",
+    "Introduction to the study of leakage reactances",
+    "Brushless DC motors",
+    "Types and structure",
+    "Operating principle",
+    "Torque and speed curves",
+    "Electronic commutation operation",
+    "Sensorless and Sensored motors and drives: with and without sensors",
+    "Winding design",
+    "Industrial motors for electric traction and propulsion",
+    "Advanced industrial techniques for calculation and design of electrical machines (oriented to electric traction machines)",
+    "Introduction to numerical calculation based on commercial software tools for the design and analysis of electrical machine operation",
+    "Mathematical fundamentals",
+    "The finite element method",
+    "Development of models using the finite element method using industrial commercial software",
+    "Calculation of design parameters and variables using finite elements with industrial software",
+    "Analysis of the influence of constructive parameters on the operation of the asynchronous machine using industrial analytical calculation software",
+    "Influence of the geometric design of the cage",
+    "Influence of the connection form and type of stator winding",
+    "Use of Simulink combined with RMXPRT-Maxwell for motor design",
+    "Modeling with Simulink of Asynchronous and BLDC motors driven at variable speed",
+    "Introduction to the use of RMXPRT- for analytical calculation of asynchronous and BLDC motors",
+    "Introduction to analysis using the finite element method - MAXWELL-2D for both types of motor",
+    "Analysis of the real operation of Sensorless speed drives powering BLDC motors",
+    "Research laboratory work with all available instrumentation",
+    "Power analyzer, study of real PWM inverters",
+    "Tests on real BLDC motors with digital test bench and prototype assembly",
+    "Selection of practices based on group interest due to reduced group sizes"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Work on the virtual campus",
+    "Laboratory practices with commercial software",
+    "Construction of a motor with its sensorless inverter",
+    "Optional visits to motor repair and construction workshops"
+  ],
+  "workload_hours_total": 112.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment: complete construction of a 3D printed motor (assembly, winding, operation, measurements)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practices evaluation (real equipment, simulation, questionnaires)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Mixed electric motor design project (analytical/computational using Ansys Electronics Desktop/Maxwell-RMXPRT)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "In the ordinary call, continuous assessment accounts for 2 points, laboratory practices for 4 points, and the mixed design project for 4 points. In the extraordinary call, if the student has achieved at least 50% in continuous assessment and laboratory practices, they can take a 2-hour analytical design exam, needing a total score >= 5 with at least 2 points in the exam. If not, the student must take the same analytical design exam (evaluated out of 5 points, min 2 points) and submit a software design verification (evaluated out of 5 points, min 2 points), needing a total score >= 5. For differentiated evaluation, students can choose between two in-person sessions with a theoretical analytical design exam using a summary of expressions, or completing the conventional assessment work and practical exam.",
+  "bibliography": [
+    "Complete course material on the virtual campus including presentations, practical examples, software manuals, questionnaires, workshops.",
+    "Commercial software packages for industrial electric motor design, installed in a computer lab.",
+    "Essam Hamdi, \"Design of small electrical machines\". John Wiley&Sons, ISBN 0-471-95202-8."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-4-019",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-4-019",
+  "source_language": "es",
+  "source_sha256": "c58f6038223f70aa2b457661f8161020779d8ddaca12896f5407505f04ad8449",
+  "extracted_at": "2026-11-20T01:14:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

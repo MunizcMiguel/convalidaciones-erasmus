@@ -1,0 +1,71 @@
+{
+  "course_name_original": "Analisi Matematica Ii",
+  "course_name_en": "Mathematical Analysis II",
+  "ects": 6.0,
+  "semester": "II",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analisi Matematica I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To provide fundamental concepts, with a view to applications, related to differential and integral calculus for real functions of several real variables, and to ordinary differential equations; to acquire conscious operational skills.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate knowledge of the notions (definitions, statements, proofs if included in the program) related to infinitesimal, differential, and integral calculus for real functions of several real variables and the developed calculus tools, and be able to understand related topics by elaborating the acquired notions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate the ability to apply what has been learned in solving verification exercises prepared by the Lecturer, generally related to topics such as: sequences and series of functions, limits and studies of functions of several variables, multiple integration, ordinary differential equations, and Cauchy problems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Sequences and series of functions. Pointwise and uniform convergence; Cauchy's criteria for pointwise and uniform convergence. Theorems on the continuity of the uniform limit, passing to the limit under the integral and derivative signs. Absolutely convergent and totally convergent series; Cauchy's criteria for series; total convergence and uniform convergence. Theorems of continuity of the uniform sum of a series, integration by series and differentiation by series. Taylor series: expandability and notable expansions. Analytic functions.",
+    "Differential calculus for functions of several variables. Elements of topology. Euclidean distance; definition of neighborhood. Interior points, exterior points, boundary points. Open and closed sets; accumulation points and isolated points. Bounded sets; Bolzano-Weierstrass theorem. Compactness and characterization of compact sets. Convexity and connectedness. Functions of several variables: limits, continuity and related properties; Weierstrass theorem. Partial derivatives; differentiability and differential theorem; directional derivatives and gradient; differentiation of composite functions. Functions with zero gradient in a connected open set. Higher-order derivatives and Schwarz's theorem. Lagrange's theorem. Taylor's formula of the first and second order. Relative extrema: necessary first-order condition. Relative extrema of functions of two variables: necessary second-order condition, sufficient second-order condition. Search for absolute maxima and minima of continuous functions in compact sets of the plane. Relative extrema of functions of three variables: sufficient conditions. Positively homogeneous functions, Euler's theorem. Implicit functions. Local equivalence of a plane curve with a graph. Dini's theorem for equations of the type f(x,y)=0. Constrained maxima and minima of functions of two variables. Theorem on Lagrange multipliers.",
+    "Curves. Regular and generally regular curves: tangent line; oriented curves. Length of a curve, rectifiability of regular curves. Curvilinear abscissa. Curvature of a plane curve. Curvilinear integral of a function.",
+    "Multiple integrals. Double integrals over normal domains. Integrability of continuous functions. Reduction formulas for double integrals. Change of variables in double integrals. Triple integrals; reduction formulas; change of variables. Solids of revolution and Guldino's Theorem.",
+    "Surfaces. Regular surfaces: tangent plane; orientable surfaces; surfaces with boundary; closed surfaces. Area of a surface. Surfaces of revolution and Guldino's Theorem. Surface integral of a function. Flux integrals of a vector field. Divergence theorem in R3.",
+    "Linear differential forms. Exact differential forms and conservative fields. Curvilinear integral of a linear differential form. Integrability criterion for differential forms. Closed differential forms. Poincaré's Lemma. Radial forms. Homogeneous forms. Gauss-Green formulas in the plane. Divergence theorem in the plane. Stokes' formula in the plane. Closed differential forms in simply connected open sets of the plane. Differential forms in space. Irrotational fields. Stokes' formula in R3. Closed differential forms in simply connected open sets of space.",
+    "Differential equations. Cauchy problem for nth order differential equations: local and global existence and uniqueness theorems. General integrals; particular integrals, singular integrals. Nth order linear differential equations: theorem on the general integral of a homogeneous equation, Wronskian theorem, theorem on the general integral of a complete equation. First-order linear equations; linear equations with constant coefficients. Method of variation of constants. Separable variable equations. Equations of the form y'=f(y/x). Bernoulli equations. Equations of the form y''=f(x,y')."
+  ],
+  "teaching_methods": [
+    "Frontal lessons",
+    "Exercise sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral test. The written questions can be multiple choice, free response, and numerical exercises.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "analisi_matematica_ii",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "9d34b8f695c74d07864b7c10773c369ebc00e9e1da2ffc7be99e498f51451a79",
+  "extracted_at": "2026-11-20T08:19:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

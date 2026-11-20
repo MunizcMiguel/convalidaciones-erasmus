@@ -1,0 +1,158 @@
+{
+  "course_name_original": "Mecánica de fluidos",
+  "course_name_en": "Fluid Mechanics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Prior knowledge of the most common physical and mechanical variables and their units of measurement in the International System",
+    "Physical and mechanical concepts: center of gravity, static and inertia moment",
+    "Mathematical concepts: numerical calculus, differential calculus, and dimensional analysis"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Progressive acquisition of the capacity for observation and interpretation, contribution to the development of critical thinking, and the ability to transmit acquired information.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know and understand the fundamental principles and laws, basic concepts, and working methods of Fluid Mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know hydraulic phenomena and the ability to apply them quickly, easily, safely, concretely, usefully, precisely, with understanding and common sense.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and understand the variables involved in any hydraulic phenomenon.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the behavior of fluids, both at rest and in motion, as well as the laws that govern them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the movement of water through pressure conduits (pipes), as an introduction and basis for the analysis of piping systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the necessary skill to solve practical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire elementary knowledge about some important hydraulic works, as well as about the machinery to be used in said hydraulic works (pumping installations and hydraulic turbines).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understanding and interpretation of texts and data, development of skills for their concretization and clear and concise presentation.",
+      "type": "competence",
+      "code": "CT1"
+    },
+    {
+      "text": "Aptitude for resource and time allocation and their implementation in real situations.",
+      "type": "competence",
+      "code": "CT2"
+    },
+    {
+      "text": "Ability to use scientific-technical tools for solving calculation and design problems in Industrial Engineering and aptitude for finding sustainable engineering solutions.",
+      "type": "competence",
+      "code": "CT4"
+    },
+    {
+      "text": "Knowledge of the basic principles of fluid mechanics and their application to problem-solving in the field of engineering. Calculation of pipes, channels and fluid systems.",
+      "type": "skill",
+      "code": "CC2"
+    }
+  ],
+  "syllabus_topics": [
+    "SECTION I: GENERALITIES",
+    "TOPIC 01.- HYDRAULIC VARIABLES. System of units and dimension equation. Hydraulics. Coordinates, velocity and roughness. Density and specific weight. Pressure. Bulk modulus of elasticity. Viscosity. Surface tension. Vapor pressure and cavitation. Differential analysis (general equation of Hydraulics), dimensional analysis and hydraulic similarity.",
+    "SECTION II: HYDROSTATICS",
+    "TOPIC 02.- PRESSURE DISTRIBUTION. THRUSTS. Pressure distribution. General equation of Hydrostatics. Thrust on flat surfaces. Thrust on curved surfaces. Application to practical cases.",
+    "TOPIC 03.- EQUILIBRIUM OF A SUBMERGED BODY. Archimedes' principle. Equilibrium of a fully submerged body, uplift pressure. Equilibrium of a partially submerged body, flotation",
+    "SECTION III: KINEMATICS",
+    "TOPIC 04.- KINEMATIC CONCEPTS. Fluid kinematics. Streamline, flow tube, pathline and streakline. Types of flow regime. Flow rate. Continuity theorem. Applications.",
+    "SECTION IV: HYDRODYNAMICS: PRESSURE CONDUITS",
+    "TOPIC 05.- FUNDAMENTAL PRINCIPLES. Fluid hydrodynamics. Bernoulli's theorem: general equation, steady flow and perfect fluids, steady flow and real fluids, energy grade lines. Measuring devices: piezometer, Pitot tube and Prandtl tube. Reynolds number: laminar flow and turbulent flow. Boundary layer.",
+    "TOPIC 06.- CONTINUOUS HEAD LOSSES. Concept. Dimensional analysis. Historical evolution of continuous head loss formulas; General Darcy-Weisbach law. Poiseuille, Von Karman, Nikuradse, Prandtl-Colebrook. Moody chart. Physical meaning of roughness. Variation of roughness with time. Head losses in non-circular conduits. Variation of head losses with velocity and diameter.",
+    "TOPIC 07.- LOCALIZED HEAD LOSSES. Concept. Panel of localized head losses. Localized head losses in an enlargement. Reference section. Coefficients of localized losses.",
+    "TOPIC 08.- INTRODUCTION TO TURBOMACHINERY: PUMPS AND TURBINES. Turbomachine concept. Classification of turbines. Classification of pumps. Characteristic curves of rotodynamic pumps: flow-head, absorbed power, efficiency.",
+    "TOPIC 09.- NETWORK CALCULATION. CONTROL VALVES. Types of networks. Calculation of looped networks; Hardy-Cross method. Control valves.",
+    "TOPIC 10.- EPANET. What is EPANET?. Hydraulic module. Quality module. Project default values. Hydraulic parameters. Time and energy parameters. Network topology. Controls. Examples."
+  ],
+  "teaching_methods": [
+    "Lectures (expositions, explanations, and examples of theoretical content)",
+    "Problem-solving exercises with active student participation",
+    "Use of multimedia tools for teaching support",
+    "Blackboard classes for presenting problems, fundamentals, mathematical formulations, and calculation expressions",
+    "Problem practice classes where students propose solution methods and the professor guides the resolution",
+    "Laboratory practicals (Empirical thrust on flat surfaces, Metacentric height, Fluid head in motion, Cavitation, Flow meters, Friction head losses in pipes, Localized head losses, Impact of a jet on different surfaces, Centrifugal pumps)",
+    "Seminars on computer programs for water distribution network calculation (e.g., EPANET)",
+    "Field practicals (visits to Potable Water Treatment Plant and Wastewater Treatment Plant)",
+    "Tutorials for personalized monitoring of student learning",
+    "Personal study of theory and problems/practicals",
+    "Preparation of practical reports and assignments",
+    "Completion of online questionnaires",
+    "Group work",
+    "Use of ICTs",
+    "Critical analysis of results"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Final written exam (70% Problems, 30% Theory)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Laboratory practicals",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Online questionnaires",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Other assignments and class attendance and participation",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum grade of 4 out of 10 is required for both laboratory practicals and the final written exam. Additionally, a final average grade of 5 out of 10 is required. Non-attendance at written exams will result in a 'NOT PRESENTED' grade.",
+  "bibliography": [
+    "GARCÍA TAPIA, N. (2006).- “Ingeniería Fluido mecánica”. Ed. Universidad de Valladolid.",
+    "TEMEZ PELAEZ, J.R. ( - ).- “Hidráulica Básica”. Ed. Servicio de Publicaciones de la Escuela de I.T.O.P. de Madrid.",
+    "MARTÍNEZ MARÍN, E. (2000).- “Hidráulica”. Ed. Colegio de Ingenieros de Caminos, Canales y Puertos de Madrid.",
+    "WHITE, FRANK M. (2010).- “Mecánica de Fluidos”. Ed. McGraw-Hill",
+    "GILES, RANALD V. y otros (1999).- “Mecánica de los Fluidos e Hidráulica”. Ed. Schaum-McGraw-Hill, Inc.",
+    "DOUGLAS, J.F. (1991).´- “Problemas resueltos de Mecánica de Fluidos”. Ed. Bellisco.",
+    "SUAREZ LÓPEZ J. y otros (2005).- “Manual de conducciones URALITA: Sistemas de conducciones en infraestructuras, riego y edificación”. Ed. Thomson",
+    "HERNÁNDEZ MUÑOZ, A. y otro (2002).- “Manual de saneamiento URALITA: Sistemas de calidad en saneamientos de agua”.",
+    "URALITA DEPARTAMENTOS TECNICOS DE URALITA S.A. (1990).- “Manual General Uralita. Tomo II- Obra Civil”. Ed. Paraninfo. Madrid.",
+    "STREETER, V.L. y WYLIE, E.B. (1988).- “Mecánica de los Fluidos. Ed. McGraw-Hill, Inc., U.S.A.",
+    "SHAMES, I.H. (1967).- “La Mecánica de los fluidos”. Ed. McGraw-Hill, Inc. México. FRENCH, R.H. (1988).- “Hidráulica de Canales Abiertos”. Ed. McGraw-Hill, Inc"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Salamanca",
+  "institution_slug": "es_salamanca",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "106511",
+  "academic_year": "2026-27",
+  "source_url": "https://guias.usal.es/node/251418",
+  "source_language": "es",
+  "source_sha256": "965acfeb652aca62323714e9bdeb10f00bf8ec9da36da6717c5c668f74db1abe",
+  "extracted_at": "2026-11-13T23:01:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

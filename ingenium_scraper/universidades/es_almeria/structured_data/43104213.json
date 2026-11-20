@@ -1,0 +1,229 @@
+{
+  "course_name_original": "Instrumentación Electrónica",
+  "course_name_en": "Electronic Instrumentation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic Electronics (2nd year)",
+    "Analog Electronics (3rd year)",
+    "Power Electronics (3rd year)",
+    "Digital Electronics (3rd year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and possess knowledge.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply knowledge.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to make judgments.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Basic professional knowledge.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Teamwork.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Applied knowledge of electronic instrumentation.",
+      "type": "knowledge",
+      "code": "E-CTEE5"
+    },
+    {
+      "text": "Know electronic measurement systems used in industry.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know signal sampling methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know A/D and D/A conversion.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know signal conditioning systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know notions of sensors and transducers and their industrial applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know notions of data transmission systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know distributed electronic instrumentation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Prepare individual or group assignments.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically discuss results and compare experimental conclusions with theoretical knowledge.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform supervised laboratory practices and analyze data taken in practice.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and discuss results obtained in theoretical classes, problem sessions, and the laboratory.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform practices and assignments in small groups.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Prepare laboratory reports.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire experience in laboratory work and use advanced electronic equipment.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Become acquainted with the scientific method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn to build a set of design formulas applicable to a given electronic circuit.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use information sources, both traditional and through new technologies.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Electronic Measurement Systems",
+    "Systems of order 0, 1st order and 2nd order.",
+    "Magnitudes and modifying variables.",
+    "Sensitivity and precision.",
+    "Errors and linearity.",
+    "Sensors and transducers",
+    "Resistive transducers.",
+    "Active temperature sensors.",
+    "Conductivity in liquids.",
+    "Position encoders.",
+    "Level transducers.",
+    "Flowmeters.",
+    "Measurement of ions and gases.",
+    "Signal conditioners",
+    "Basic conditioners with Op-Amps.",
+    "Instrumentation amplifier.",
+    "Measurement bridges.",
+    "Effects of noise and interference.",
+    "Isolation circuits.",
+    "Electrocardiography amplifiers.",
+    "Signal sampling",
+    "Sampling Theorem",
+    "Antialiasing filters",
+    "Practical sampling",
+    "Sampling and holding",
+    "A/D and D/A Conversion",
+    "D/A converter",
+    "Successive approximation A/D converters",
+    "Flash converters",
+    "Oversampling converters",
+    "Non-uniform quantizer",
+    "Analog multiplexing.",
+    "Data Acquisition Systems",
+    "Structure of a data acquisition system.",
+    "Microprocessor-based acquisition systems.",
+    "Data storage, Dataloggers.",
+    "Distributed electronic instrumentation",
+    "Data transmission systems.",
+    "Distributed measurement structures.",
+    "Communication protocols for distributed measurements.",
+    "Industrial applications of distributed measurements.",
+    "Practice 1. Development of a temperature meter with Pt100 or another of similar complexity",
+    "Practice 2. Development of a liquid conductivity meter, or another of similar complexity."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving sessions",
+    "Group exercise resolution",
+    "Project work (design and construction of measuring instruments)",
+    "Circuit simulation with software (Multisim®, Matlab®)",
+    "Practical work (component search, acquisition, instrument construction, adjustment, verification)",
+    "Tutoring",
+    "Online forums"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Practices",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.4 * Practices (A) + 0.6 * Exam (B). A minimum grade of 5 points is required in each activity (practices and exam) to pass the course. Approved practice grades are valid only until the extraordinary November session; repeating students must redo practices. Failure to submit practices or attend the exam results in 'no presentado'. More than 30% absence from practice classes leads to a 'no asistente' status for attendance and lab work, which is not recoverable. For extraordinary sessions, all practices must be approved, and the final grade will be based solely on the exam (B), graded up to 10 points. For unique final evaluation, practices must be completed and evaluated, followed by a written exam; both parts must be approved with the same weighting as for ordinary evaluation.",
+  "bibliography": [
+    "Creus Solé, Antonio - (2005) - Instrumentación Industrial - Marcombo",
+    "Pallas Areny, Ramón - (2008) - Adquisición y Distribución de Señales - Marcombo",
+    "Pallas Areny, Ramón - (2003) - Sensores y Acondicionadores de Señal - Marcombo",
+    "Pallas Areny, Ramón - (2006) - Instrumentos Electrónicos Básicos - Marcombo",
+    "Helfrick, Albert - (1991) - Instrumentación Electrónica Moderna y Técnicas de Medición - Prentice Hall",
+    "Proakis, J. y Manolakis, D. - (2000) - Tratamiento Digital de Señales - Prentice Hall",
+    "Pertence, Antonio - (1998) - Amplificadores Operacionales y Filtros Activos - McGraw-Hill"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "43104213",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/43104213/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "c1a7d265b6b79a7301b3633febc694825fd2147d59deb2330b3c3ef221d91a86",
+  "extracted_at": "2026-11-13T21:22:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

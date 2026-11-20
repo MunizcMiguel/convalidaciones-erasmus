@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Elektrotechnik",
+  "course_name_en": "Electrical Engineering",
+  "ects": 8.0,
+  "semester": "Winter semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge of mathematics known in the 3rd semester",
+    "School physics from middle school"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can apply the electrical engineering fundamentals relevant for mechanical engineers (electric field, magnetic field, resistance, capacitor, coil) to practical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to analyze electrical DC and AC circuits and apply various methods for network analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can explain the natural points of contact between electrical engineering and mechanical engineering: they can describe the structure and function of the most important electrical machines (transformer, DC, asynchronous and synchronous machines) and are able to perform simple designs and calculations for the steady-state operation of machines.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can name the most important semiconductor components and describe their physical function.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have learned the most important power electronic basic circuits for switchable and non-switchable semiconductor switches and can also understand more complex circuits derived from them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can explain and calculate operational amplifier circuits by applying the network analysis methods learned at the beginning of the course and transferring them to the investigation of operational amplifier circuits.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Motivation: increasing importance of electrical energy and devices for mechanical engineering",
+    "Introduction and definition of physical units and basic concepts",
+    "Electrical components: Resistor, capacitor, inductor, voltage and current sources",
+    "Derivation of capacitors and inductors from properties of electric and magnetic fields",
+    "RC and RL circuits, systems described by 1st order differential equations, for step-wise switching of voltages on networks",
+    "Alternating current: explanation of key parameters, temporal relationships between current and voltage for components, method of 'complex AC calculation'",
+    "Simplification of differential equation systems to complex algebraic equation systems for sinusoidal waveforms in steady-state operation",
+    "Phasor diagrams for graphical representation in an equivalent circuit and their application for circuit description",
+    "DC machine: structure, characteristic behavior, applications, descriptive equations and diagrams",
+    "Transformer: structure, characteristic behavior, applications, descriptive equations and diagrams",
+    "Asynchronous machine: structure, characteristic behavior, applications, descriptive equations and diagrams",
+    "Synchronous machines: structure, characteristic behavior, applications, descriptive equations and diagrams",
+    "Drive technology: general aspects of electric drives with examples",
+    "Semiconductor components: manufacturing, PN junction, diode, other semiconductor-based components (without PN junction)",
+    "Bipolar transistor, field-effect transistor, thyristor, IGBT, IGCT and other semiconductor switches used in converters: structure, function, and application",
+    "Converter circuits formed by suitable interconnection of multiple semiconductor valves",
+    "Grid-controlled circuits: AC and three-phase bridges built with diodes and thyristors",
+    "DC-DC converters (buck/boost converters) built with switchable switches",
+    "Structure and control of self-commutated three-phase bridges for realizing inverters to supply rotating field machines",
+    "Operational amplifier circuits for signal preconditioning (e.g., signal amplification for thermocouples or signal attenuation for voltage measurements)",
+    "Most important circuit variants and calculation of wiring elements for operational amplifier circuits"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 215.5,
+  "workload_hours_contact": 67.5,
+  "assessment_methods": [
+    {
+      "method": "Written examination (3 hours)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The module grade is the grade of the written examination. By successfully completing two voluntary additional exercise sheets, a bonus of up to 6 exam points can be earned, corresponding to a maximum grade improvement of the written examination by 0.3 or 0.4.",
+  "bibliography": [],
+  "isced_f_code": "0713",
+  "missing_sections": [
+    "bibliography",
+    "learning_outcomes"
+  ],
+  "institution": "Karlsruher Institut für Technologie (KIT)",
+  "institution_slug": "ec_d_karlsru01",
+  "degree": "Maschinenbau (B.Sc.), SPO 2015",
+  "course_code": "M-ETIT-104801",
+  "academic_year": "SS 2025",
+  "source_url": "https://www.mach.kit.edu/download/MHB/82-604-H-20165_v1_2025-02-28_de.pdf",
+  "source_language": "de",
+  "source_sha256": "806d300249273f0c2a628006bc13dcf5007997a29f65f1479a9030781a1501a6",
+  "extracted_at": "2026-11-20T09:19:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

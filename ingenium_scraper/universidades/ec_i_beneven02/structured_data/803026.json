@@ -1,0 +1,124 @@
+{
+  "course_name_original": "ANALOGUE ELECTRONICS (803026)",
+  "course_name_en": "ANALOGUE ELECTRONICS",
+  "ects": 9.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "BASIC ELECTRIC CIRCUIT THEORY course content, specifically: circuit components and their constitutive equations; Kirchhoff's laws and their application; Thevenin and Norton theorems.",
+    "Transfer functions and harmonic response.",
+    "Signals in the time and frequency domain."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide fundamental tools for the design and analysis of electronic circuits for the analogical treatment of information, with particular reference to signal amplification.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Operating principles of semiconductor devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analysis of analog electronic circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Frequency response of amplifiers in the small signals approximation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Processing of analog signals using operational amplifiers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Basic elements on the power supply circuits.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Electronics: Introduction",
+    "Signals",
+    "Frequency Spectrum of Signals",
+    "Analog and Digital Signals",
+    "Amplifiers",
+    "Circuit Models for Amplifiers",
+    "Frequency Response of Amplifiers",
+    "Operational Amplifiers (Op): The Ideal Op Amp",
+    "The Inverting Configuration",
+    "The Non-inverting Configuration",
+    "Difference Amplifiers",
+    "Effect of Finite Open-Loop Gain and Bandwidth on Circuit Performance",
+    "Large-Signal Operation of Op Amps",
+    "Integrators and Differentiators",
+    "Diodes: The Ideal Diode",
+    "Terminal Characteristics of Junction Diodes",
+    "Modeling the Diode Forward Characteristic",
+    "Operation in the Reverse Breakdown Region--Zener Diodes",
+    "Rectifier Circuits",
+    "Limiting and Clamping Circuits",
+    "Physical Operation of Diodes",
+    "MOS Field-Effect Transistors (MOSFETs): Device Structure and Physical Operation",
+    "Current-Voltage Characteristics",
+    "MOSFET Circuits at DC",
+    "The MOSFET as an Amplifier and as a Switch",
+    "Biasing in MOS Amplifier Circuits",
+    "Small-Signal Operation and Models",
+    "Single-Stage MOS Amplifiers",
+    "The MOSFET Internal Capacitances and High-Frequency Model",
+    "Frequency Response of the Common Source (CS) Amplifier",
+    "Single-Stage Integrated-Circuit (IC) Amplifiers: Introduction",
+    "Fabrication technologies",
+    "IC Design philosophy",
+    "IC Biasing - Current Sources, Current Mirrors, and Current-Steering Circuits",
+    "The Common-Source Amplifiers with Active Loads",
+    "Feedback: Introduction",
+    "The General Feedback Structure",
+    "Some Properties of Negative Feedback",
+    "The Four Basic Feedback Topologies",
+    "The Series-Shunt Feedback Amplifier",
+    "The Series-Series Feedback Amplifier",
+    "The Shunt-Shunt and Shunt-Series Feedback Amplifiers"
+  ],
+  "teaching_methods": [
+    "Theoretical lessons on all course topics",
+    "Numerical exercises focused on the design and analysis of fundamental electronic circuits",
+    "Laboratory exercises carried out by the students and concerning the application of the topics studied during the course"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and, if admitted, an oral examination. The written test assesses the student's ability to solve problems of analysis and synthesis of electronic circuits. The oral examination includes three theoretical questions on all topics covered. The score obtained in the written test serves as the basis for determining the final grade, which may increase and/or decrease depending on the score obtained in the oral examination.",
+  "bibliography": [
+    "Microelectronics Circuits, A. Sedra ,K.C. Smith, T.C. Carusone, OXFORD University Press 2020."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "803026",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8857&ordinamento_aa=2025&af_percorso=2&corso_cod=10222&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "6582f879a5517a101b6ee88d2846f8cb0057d9e4db169e43e77ec8d309a1216e",
+  "extracted_at": "2026-11-20T08:19:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Programmable Logic Controllers",
+  "course_name_en": "Programmable Logic Controllers",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student has advanced knowledge of the construction, operation and programming of programmable logic controllers (PLCs).",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Student has knowledge of the possibilities of using programmable logic controllers (PLCs) in power engineering and automation devices.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Student is able to develop documentation for the implementation of an engineering task.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Student is able to select, program and commission a PLC for industrial applications.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Student is able to work in a group and take responsibility for jointly implemented tasks.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, literature, basic concepts. Hardware implementation of logical control tasks - relays, logic gates. History and development of PLCs. PLC manufacturers. Classification of controllers.",
+    "Functional blocks of a PLC. Program cycle. Central processing unit and its parameters. Cyclic program execution. Power supply system. Digital input and output modules, hardware solutions. Digital input converters, actuators. Analog input and output modules, elements of the measurement path. Special modules.",
+    "Communication in control systems with PLCs. Hierarchical control systems. Distributed input/output systems. Network topologies. Transmission media. Types of transmission, encoding methods. Access methods. Communication protocols. CC-Link network.",
+    "IEC 61131 standard. Introduction. Components of the standard. General remarks.",
+    "Data types and variables. Data notation - literals. Data types, elementary types. Variable types, simple variables. Variable attributes. Variable declaration.",
+    "Organizational units of software. User program structure. Functions, function declaration. Functional blocks, instance creation. Programs. Formal parameters, actual parameters.",
+    "Programming languages. Ladder Diagram (LD) language. Function Block Diagram (FBD) language. Instruction List (IL) language. Structured Text (ST) language. Sequential Function Chart (SFC) as a method of structuring program writing. Choice of programming language, examples.",
+    "Tool software. Functionalities of tool programs.",
+    "Graphical touch screen. Graphical touch screen as an operator-PLC interface.",
+    "Examples of PLC usage. Principles of selecting control equipment. Reliability and safety, redundancy in control systems. Examples of industrial installations with PLCs.",
+    "Laboratory stations with FX Mitsubishi controllers and hardware input/output state simulators - construction, functional properties. Bit variables. Implementation of logical control tasks.",
+    "Programming in Mitsubishi Ladder Diagram language. GX Developer tool software. Program editing, compilation, communication with the controller, monitoring program execution.",
+    "Word variables. Timers, counters.",
+    "Arithmetic operations. Program structuring: jumps, subroutines, master control function, interrupts.",
+    "Automation of technological processes - problem description, control system diagram, controller configuration, program creation, testing and commissioning. Project documentation.",
+    "Analog input/output modules."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 103.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of a project for laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test for laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report for laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Involvement in teamwork for laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures involve student participation, asking questions, and clarifying doubts. Audiovisual recording of lectures requires the instructor's consent. Laboratory classes require students to perform exercises according to provided materials and prepare for them, which may be verified by an oral or written colloquium. Passing the laboratory classes is based on presenting a solution to the given problem. Passing the module requires passing all laboratory classes.",
+  "bibliography": [
+    "Broel-Plater B.: Sterowniki programowalne. Właściwości i zasady stosowania. Wyd. Uczelniane Politechniki Szczecińskiej, Szczecin, 2003.",
+    "Kasprzyk J.: Programowanie sterowników przemysłowych. WNT, Warszawa, 2007.",
+    "Kwaśniewski J.: Sterowniki PLC w praktyce inżynierskiej. Wyd. BTC. Legionowo, 2008.",
+    "Sałat R., Korpysz K., Obstawski P.: Wstęp do programowania sterowników PLC. WKŁ. Warszawa, 2010."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.03772.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/237d8a02-26ed-4a06-8d62-07edc9fa99a6.html",
+  "source_language": "pl",
+  "source_sha256": "466efe8c6b39a98a5f999c6633be7712fb8af34403f1ca5097e5d3e162135103",
+  "extracted_at": "2026-11-20T09:04:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Project 2",
+  "course_name_en": "Project 2",
+  "ects": 5.0,
+  "semester": "Q2",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "LEPL1201 (Physics)",
+    "LEPL1501 (Project 1)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply new knowledge acquired in physics: identify and calculate the fundamental elements of electrical circuits (sources, resistors, capacitors, inductors), understand the operation of basic electrical circuits, and grasp the energy and power aspects.",
+      "type": "knowledge",
+      "code": "1.1"
+    },
+    {
+      "text": "Apply their knowledge of numerical methods to model complex phenomena such as edge effects.",
+      "type": "skill",
+      "code": "1.1, 1.2"
+    },
+    {
+      "text": "Create a hardware prototype with a dedicated function (linked to the project theme, which varies from year to year).",
+      "type": "skill",
+      "code": "2.1, 2.2, 2.3, 2.5"
+    },
+    {
+      "text": "Create a simple model of the behavior of a circuit or its components.",
+      "type": "skill",
+      "code": "1.2"
+    },
+    {
+      "text": "Master basic software tools and laboratory equipment.",
+      "type": "skill",
+      "code": "1.2"
+    },
+    {
+      "text": "Seek out diversified sources that are reliable and relevant for designing envisage the environmental impact of an aspect of the project.",
+      "type": "competence",
+      "code": "2.2, 5.1, 5.2"
+    },
+    {
+      "text": "Pose realistic working hypotheses (based on the specifications whose functional constraints are missing), synthesize them and take a critical look at them.",
+      "type": "competence",
+      "code": "2.3; 2.6; 2.7"
+    },
+    {
+      "text": "Identify and define the tasks to be carried out according to intermediate objectives provided and plan them.",
+      "type": "competence",
+      "code": "3.1"
+    },
+    {
+      "text": "Take a critical look at the way your group operates, and more specifically at areas of disagreement.",
+      "type": "competence",
+      "code": "3.2"
+    },
+    {
+      "text": "Write a project report in French with a certain scientific rigor (precise measurements, quality of vocabulary, standards) to convince project managers of the quality of results.",
+      "type": "competence",
+      "code": "4.1, 4.2, 4.3, 4.4, 4.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Determining an original application using a given electromagnetic principle (e.g. power transfer, levitation, perpetual motion, etc.)",
+    "Understanding, mathematically analyzing and experimentally characterizing (via labs) the functions of the various components and electronic blocks of the system applying the studied principle and aimed at the determined application",
+    "Designing the complete system for the given application, and validate its operation",
+    "Identifying the direct environmental impact of electronic components (through critical bibliographical research)",
+    "Writing a final report including, among other things, a functional analysis, a justification and a report on the experimental validation and qualification of the system"
+  ],
+  "teaching_methods": [
+    "Project-based learning in a group",
+    "Supervised group work sessions",
+    "Experimental work sessions in the laboratory",
+    "Interactive seminar on environmental impact analysis"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment: written report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment: compulsory presentation/Q&A session",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade weighting for continuous assessment is 2/3 if the written exam mark is higher than 9/20, and 0 if lower than 5/20; it progresses linearly between these values for exam marks between 5/20 and 9/20. The continuous assessment grade is individualized based on student involvement. Work assessed continuously cannot be repeated in the second session, and the continuous assessment mark from the first session is retained. Generative AI software is authorized for assistance in writing reports, but an appendix detailing its use and citing external sources is required.",
+  "bibliography": [
+    "Les documents de référence (énoncé du projet, notices de laboratoire, grilles d'évaluation, planning, fiches techniques des appareils et du matériel, consignes, transparents de présentation ou de restructuration, etc.) sont disponibles sur le site web du cours."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Université catholique de Louvain (UCLouvain)",
+  "institution_slug": "ec_b_louvain01",
+  "degree": "Bachelor in Engineering (Bachelier en sciences de l'ingénieur, orientation ingénieur civil) - FSA1BA",
+  "course_code": "LEPL1502",
+  "academic_year": "2025-26",
+  "source_url": "https://uclouvain.be/en-cours-2025-lepl1502",
+  "source_language": "en",
+  "source_sha256": "58982bf82c8ecea9d4e6b44958cb649d83c97daa87b1ab30bbaf56b7e9e86059",
+  "extracted_at": "2026-11-20T09:16:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

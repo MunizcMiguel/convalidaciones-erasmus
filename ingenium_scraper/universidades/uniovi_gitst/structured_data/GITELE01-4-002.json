@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Televisión y Radiodifusión",
+  "course_name_en": "Television and Broadcasting",
+  "ects": 6.0,
+  "semester": "First Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended that the student has previously acquired the specific competencies corresponding to the courses Signals and Systems, Communication Theory, Digital Communications, Telecommunication Systems, Signal Processing, and Terrestrial and Satellite Radiocommunications.",
+    "A B2 level of English is recommended as part of the course activities will be conducted in English."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Read, write and prepare documentation in English on a scientific-technical topic in the field of study.",
+      "type": "skill",
+      "code": "RA-14.8"
+    },
+    {
+      "text": "Make a presentation in English of a scientific-technical work in the field of study.",
+      "type": "skill",
+      "code": "RA-14.9"
+    },
+    {
+      "text": "Associate technical specifications with transmission and reception topologies as well as with the different subsystems that compose it.",
+      "type": "skill",
+      "code": "RA-14.10"
+    },
+    {
+      "text": "Manage the physical parameters of each subsystem, associating its behavior with the complete system.",
+      "type": "skill",
+      "code": "RA-14.12"
+    },
+    {
+      "text": "Build a complete system from different subsystems.",
+      "type": "skill",
+      "code": "RA-14.13"
+    },
+    {
+      "text": "Know the main characteristics of audio and video information and its relationship with TV and broadcasting systems.",
+      "type": "knowledge",
+      "code": "RA-14.19"
+    },
+    {
+      "text": "Know and understand the fundamentals of sound broadcasting systems, analog TV, digital TV, and IP TV and the specification of standards associated with these systems.",
+      "type": "knowledge",
+      "code": "RA-14.20"
+    },
+    {
+      "text": "Identify, interpret and synthesize the information contained in the transport streams of digital TV and broadcasting systems.",
+      "type": "skill",
+      "code": "RA-14.21"
+    },
+    {
+      "text": "Understand and be able to plan deployment networks for TV and broadcasting services, both terrestrial and by cable or satellite.",
+      "type": "skill",
+      "code": "RA-14.22"
+    },
+    {
+      "text": "Know the main aspects of radio spectrum management regarding frequency assignment for TV and broadcasting services.",
+      "type": "knowledge",
+      "code": "RA-14.23"
+    },
+    {
+      "text": "Understand the function performed by the different equipment involved in TV and broadcasting services, from information generation to its reception, including transmission, and identify its main characteristics.",
+      "type": "knowledge",
+      "code": "RA-14.24"
+    },
+    {
+      "text": "Specify, select and justify the equipment that makes up the complete chain of generation, transmission and reception for TV and broadcasting services, as well as the tasks performed by them within this chain.",
+      "type": "skill",
+      "code": "RA-14.25"
+    }
+  ],
+  "syllabus_topics": [
+    "Characteristics of audio and video information",
+    "Sound",
+    "Physical characteristics of sound",
+    "Human auditory process",
+    "Characteristics of audio signal (analog, digital, audio compression)",
+    "Light",
+    "Human vision",
+    "Color mixing and color algebra",
+    "Characteristics of digital video signal",
+    "Sound broadcasting systems",
+    "Analog broadcasting systems (AM, FM)",
+    "DAB digital broadcasting system (physical channel and propagation conditions, OFDM modulation, transmission modes, MOT protocol)",
+    "Other broadcasting systems (IBOC, DRM, digital satellite radio)",
+    "Analog TV systems (brief description of techniques)",
+    "Digital TV systems: DVB-T, DVB-S, DVB-C, DVB-H",
+    "Digital video signal generation (coding, synchronization)",
+    "Video compression and multiplexing (MPEG-2: intra-frame techniques (DCT transform), inter-frame techniques (motion prediction and compensation); channel multiplexing; evolution from MPEG-2 to H-264)",
+    "DVB and its variants (DVB-T (terrestrial radio transmission), evolution to DVB-T2, DVB-S and DVB-S2 (satellite transmission), DVB-C (cable transmission))",
+    "Transmission systems for TV and broadcasting",
+    "Introduction to transmission systems",
+    "Basic infrastructure (transmitter structure, description of transmitter elements)",
+    "Deployment planning (MFN networks, SFN networks)",
+    "Spectrum management (frequency/license assignment, broadcasting frequency bands, exposure limits)",
+    "IP TV systems",
+    "IPTV and TV over IP services (associated protocols, Quality of Service (QoS))",
+    "System structure (headend, IP network, client side)"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Group project work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam (Ef)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Group project content (Tc)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Project presentation (Te)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical Lab 1 questionnaire (PL1)",
+      "weight_percentage": 2.5
+    },
+    {
+      "method": "Practical Lab 2 (OFDM model implementation, results, and interpretation) (PL2)",
+      "weight_percentage": 6.25
+    },
+    {
+      "method": "Practical Lab 3 questionnaire (PL3)",
+      "weight_percentage": 3.75
+    },
+    {
+      "method": "Practical Lab 4 (video compression/decompression system implementation, results, and interpretation) (PL4)",
+      "weight_percentage": 12.5
+    }
+  ],
+  "assessment_rules": "For the ordinary examination, the theoretical block (Nt) is calculated as (0.6×Ef) + (0.1×Tc) + (0.05×Te) and the practical block (Np) as 0.25×{ (0.1×PL1) + (0.25×PL2) + (0.15×PL3) + (0.5×PL4) }. A minimum of 4 out of 10 in Ef is required to pass the subject. The final grade (Nf) is Nt + Np if minimums are met; otherwise, it is the minimum of Nf and 4. For the extraordinary examination and differentiated evaluation, the final grade (Nf) is calculated as (0.7×Et) + (0.3×Ep), with a minimum of 4 out of 10 required for both Et and Ep. If the practical part was passed in the ordinary call, students can choose to keep that grade or retake the practical exam.",
+  "bibliography": [
+    "Course documentation for Television and Broadcasting provided by the faculty.",
+    "Documentation on standards.",
+    "Manuals for the equipment used in practicals.",
+    "M. Robin, M. Poulin, \"Digital Television Fundamentals\", McGraw-Hill Education.",
+    "G. Maral, \"VSAT Networks\", John Wiley & Sons.",
+    "J. Whitaker, \"Television Receivers\", McGraw Hill Professional.",
+    "W. Fischer, \"Digital and Audio Broadcasting Technology. A Practical Engineering Guide\", Springer Verlag.",
+    "K. Jack, \"Video Demysified. A Handbook for the Digital Engineer\", LLH Technology Publishing.",
+    "M. Grussendorf, \"English for Presentations\", Oxford University Press."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-002",
+  "source_language": "es",
+  "source_sha256": "14378beaa3972a5aca6082395ed6fb8200531bf0954c8e8076bbd105c9af4a1b",
+  "extracted_at": "2026-11-20T06:04:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

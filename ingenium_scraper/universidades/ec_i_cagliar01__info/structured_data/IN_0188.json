@@ -1,0 +1,90 @@
+{
+  "course_name_original": "ANALISI MATEMATICA 2",
+  "course_name_en": "MATHEMATICAL ANALYSIS 2",
+  "ects": 8.0,
+  "semester": "First Semestre",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analisi Matematica 1",
+    "Geometria e Algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student will acquire a theoretical and operational knowledge of the theory of series, the topology of Euclidean spaces, the concept of limit for a function of several real variables, optimization in several variables, integral calculus in several variables, the theory of curves and surfaces, and vector fields.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student will be introduced to the main applications of analytical methods to solving geometric and physical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will acquire the ability to frame a single problem of optimization, calculation of volumes and areas, and vector fields into the appropriate category and to apply the correct solution method.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The course addresses, sometimes in simplified form, topics in higher mathematics and provides rigorous scientific language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Thanks to the notions and abilities acquired in this course, the student will be able to tackle most of the problems arising from applied sciences and engineering.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical and functional series (10 hours): Numerical series: definitions of convergent, divergent, indeterminate series, Cauchy criterion. Series and positive terms: comparison, ratio, root, Raabe, condensation criteria. Series with terms of varying sign: absolute convergence, Leibniz criterion. Sequences of functions: pointwise and uniform convergence, Cauchy criterion, limit theorems. Series of functions: total convergence, power series, radius of convergence. Taylor series, analytic functions.",
+    "Euclidean spaces (5 hours): Topology of R^n (n=2,3): interior, exterior, boundary, accumulation points; open, closed, bounded, compact, connected, convex sets. Polar coordinates.",
+    "Functions of several variables (5 hours): Functions defined in R^n: domain, image, graph, level sets. Limit of a function at a point and at infinity. Continuous functions. Weierstrass, intermediate value theorems. Local, global extrema. Vector functions: limits, continuity.",
+    "Differential calculus in several variables (15 hours): Partial, directional derivatives of a function. Gradient. Differential. Tangent plane to the graph. Higher-order derivatives. Hessian matrix. Classification of critical points. Taylor formula. Unconstrained optimization. Constrained optimization: Lagrange multipliers. Vector functions: Jacobian matrix.",
+    "Integral calculus in several variables (15 hours): Double integrals: reduction formulas, mean value theorem, area of a set in R^2. Triple integrals: reduction formulas, volume of a set in R^3. Changes of variables. Solids of revolution.",
+    "Curves and surfaces (15 hours): Curves in R^n (n=2,3), supports, parameterizations, Cartesian and polar equations. Tangent line. Regular (piecewise), rectifiable curves. First kind curvilinear integrals. Length of a curve. Arc length. Jordan curves. Simple, regular surfaces, with or without boundary in R^3. Cartesian and parametric equations. Tangent plane. Orientation of a surface and its boundary. First kind surface integrals. Area of a surface. Surfaces of revolution.",
+    "Vector fields (15 hours): Fields in R^n (n=2,3). Divergence, curl, Laplacian. Conservative, irrotational, solenoidal fields. Potential. Second kind curvilinear integrals (circulation). Second kind surface integrals (flux). Gauss-Green, divergence, Stokes theorems. Differential forms."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Tutoring activities",
+    "Exam simulations",
+    "Constant student assistance"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 80.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (problem solving)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (optional, on request)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Intermediate written test (optional, for regular attendees)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Assessment is through a written exam, consisting of solving problems requiring both theoretical and operational knowledge. An oral exam is possible upon student or lecturer request. Each part of the exam will be graded out of thirty, and the exam is passed if the arithmetic mean of the grades is between 18/30 and 30/30. A distinction (lode) will be awarded for particularly brilliant performances. An optional intermediate written test is available for regular attendees; if passed, it allows the student to cover only the remaining part of the program in the final written exam, though the oral exam (if taken) will cover the entire program.",
+  "bibliography": [
+    "Analisi matematica 2 by Nicola Fusco, Paolo Marcellini, Carlo Sbordone",
+    "Paolo Marcellini Carlo Sbordone Esercitazioni Di Matematica Volume 2 Parte Prima e Seconda"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IN/0188",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=19041&ordinamento_aa=2022&af_percorso=9999&corso_cod=11037&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "1a884b8c11c1cf22bae6b69eef2d71b1c703b2d99564512d7b9f613d78458e59",
+  "extracted_at": "2026-11-20T12:43:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

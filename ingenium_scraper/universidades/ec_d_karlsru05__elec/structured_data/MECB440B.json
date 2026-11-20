@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Robotik und Bionik 1",
+  "course_name_en": "Robotics and Bionics 1",
+  "ects": 6.0,
+  "semester": "4. Fachsemester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Höhere Mathematik",
+    "Werkstoffkunde",
+    "Technische Mechanik",
+    "Fertigungstechnik"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Participants understand the development of mobile robots as the development of a mechatronic overall system. They can recognize specific solutions from natural models and methodically integrate them into product development.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students understand the derivation of bionic concepts and can implement them in technical applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to select suitable components for positioning tasks and fundamentally develop motor controls.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can mathematically describe the pose of a mobile robot and apply basic image processing methods.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Materials and Structures",
+    "Construction Bionics",
+    "Bionic Design",
+    "Bionic Robotics/Humanoid Robots",
+    "Structural optimization according to natural principles",
+    "Swarm Intelligence",
+    "Sensors for attitude control of robot systems",
+    "Path planning on Embedded Systems",
+    "Development of digital motor controls with current and position control",
+    "Real-time firmware for digital motor controls with PWM-based power stages",
+    "Control methods for DC, stepper, and BLDC motors",
+    "Pose of a robot",
+    "Rotation and Translation in 2D and 3D",
+    "Homogeneous Coordinates",
+    "Orthogonal matrices",
+    "Special orthogonal group SO(3)",
+    "Coordinate transformations",
+    "Fundamentals of image processing",
+    "Pixel operations",
+    "Linear and nonlinear filters",
+    "Smoothing filters",
+    "Derivative filters",
+    "Canny edge detection",
+    "Hough Transform",
+    "Affine and projective transformation",
+    "Camera calibration"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "written, graded paper (project work)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "written, ungraded paper (project work)",
+      "weight_percentage": null
+    },
+    {
+      "method": "written, graded exam (60 minutes)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The module grade for MECB410B is the equally weighted average of the grades from MECB411B and MECB413B. The prerequisite for the exam is the project work or a presentation on the topic of image processing.",
+  "bibliography": [
+    "W. Nachtigall: Bionik: Grundlagen und Beispiele für Ingenieure und Naturwissenschaftler, Springer-Verlag, 2002",
+    "B. Hill: Naturorientierte Lösungsfindung, Expert-Verlag, 1999",
+    "Folienumdruck, Skript",
+    "Steffen Bernet, Selbstgeführte Stromrichter am Gleichspannungszwischenkreis, Springer 2012",
+    "Heinz Wörn, Uwe Brinkschulte. Echtzeitsysteme, Springer 2005",
+    "Hans-Rolf Tränkler, Leonhard M. Reindl. Sensortechnik, Vol. 2, Springer 2018",
+    "Digitale Bildverarbeitung - Eine algorithmische Einführung mit Java, Wilhelm Burger, Mark James Burge, SpringerVieweg",
+    "Computer Vision: Algorithms and Applications, Richard Szeliski, Springer",
+    "Dynamics of Parallel Robots, Sébastien Briot, Wisama Khalil, Springer, 2015",
+    "Grundlagen der Roboter-Manipulatoren, Band 1, Jörg Mareczek, Springer, 2020"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB440B",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "c8c07c7eb9d6edc1550318a0868cf68b6dfc56e3b57cd3724cc23021f68d90cb",
+  "extracted_at": "2026-11-20T12:39:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Informática (Ing.Gr.) (informaticaing)",
+  "course_name_en": "Informatics (Eng.Gr.)",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds upon general secondary education, and is typically found at a level that, while supported by advanced textbooks, also includes some aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "R1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "R24"
+    },
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases, and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "R4"
+    },
+    {
+      "text": "Have an introductory overview in the field of computer programming.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Approach problem-solving through algorithm design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Efficiently use data and control structures to implement algorithms and respond to posed problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret the functioning of a program without needing to execute it.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Study basic search and sorting algorithms.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer fundamentals: structure and basic operation of hardware and software (operating systems, applications and libraries). Numbering systems and logical operations",
+    "Definition of a program and types of programming languages.",
+    "MATLAB working environment: command window, workspace, programming in files, etc.",
+    "MATLAB basics: variables, vectors, and matrices. Basic mathematical operations, including matrices, polynomials, vectors, derivatives, and integrals.",
+    "Variable types and assignment in MATLAB.",
+    "Conditional structures (if, elseif, else) using relational and logical operators.",
+    "For loops: syntax, iteration over vectors and ranges, loop indices.",
+    "Use of the debugger.",
+    "While loops: syntax and use cases, exit conditions.",
+    "Switch-case structure as an alternative to multiple conditionals.",
+    "Break and continue statements.",
+    "Complex control structures with nested loops.",
+    "Use of the debugger.",
+    "2D and 3D drawing functions (plot, plot3, figure, axis, title, etc).",
+    "Inline function.",
+    "Animations.",
+    "Analysis of different sorting methods and their efficiency.",
+    "Definition of functions in separate files.",
+    "Passing parameters and calling these functions.",
+    "Functions for handling images in MATLAB.",
+    "Advanced data structures (structs, character strings).",
+    "Performance-related commands (tic, toc) and the profiler.",
+    "Reading from and writing to text files (fopen, fseek, fclose).",
+    "Event-driven programming.",
+    "Graphical user interface (GUI).",
+    "Types of database, SQL."
+  ],
+  "teaching_methods": [
+    "Theoretical lectures",
+    "Practical classes, laboratories",
+    "Supervised work",
+    "Personal study",
+    "Tutorials"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 95.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment of activities throughout the course",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade will be the best of two options. Option 1: 15% Continuous Assessment (EC) + 25% Partial Exam (EP) + 60% Final Exam (EF). To be evaluated with Option 1, a minimum grade of 5 in the Partial Exam (EP) is required, and the student must take the Final Exam (EF) obtaining a minimum of 3.5 out of 10 points. Students who obtain EP >= 5 and EF >= 5 will have their exam scores multiplied by 1.1. Option 2: 15% Continuous Assessment (EC) + 85% Final Exam (EF), with the Final Exam covering the entire syllabus. For the extraordinary call, Continuous Assessment (EC) or Partial Exam (EP) grades are not retained. The exam is worth 10 points, and a minimum of 5 is required to pass. No additional scores from activities developed during the course will be saved for the next academic year.",
+  "bibliography": [
+    "MATLAB ON-RAMP: https://matlabacademy.mathworks.com/v1/es/portal.html?course=gettingstarted#chapter=1v1&lesson=1&section=1",
+    "Aguinaga I., Martinez, G. y Díaz J., Aprenda a programar como si estuviera en primero, TECNUN.",
+    "García de Jalón J., Atencia J. y Nestar R., Aprenda Matlab 6.0 como si estuviera en primero, TECNUN.",
+    "Castrillón, M., Domínguez, A., Candela, S., Fundamentos de Informática y Programación para Ingeniería, Paraninfo, 2011."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "informaticaing",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/informaticaing/",
+  "source_language": "es",
+  "source_sha256": "030d7d65fa09d3c4459b916f0aff6aa4bf608c04a854ac0afade7872f20d7a1f",
+  "extracted_at": "2026-11-18T02:51:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

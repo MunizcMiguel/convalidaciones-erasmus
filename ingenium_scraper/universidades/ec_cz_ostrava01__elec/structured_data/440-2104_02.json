@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Introduction to Digital Systems",
+  "course_name_en": "Introduction to Digital Systems",
+  "ects": 5.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Course succeeds to compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Present to students the digital systems and their realization with gates and finite state machines.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Present to students the representation of numbers and glyphs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Present to students the basic algorithms for arithmetic operations in digital systems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Logic, Boolean algebra, Boolean functions and their representation, numeral systems \n\npositional system, conversion of integer numbers.",
+    "Definition of basic forms for two level logic network, canonical forms, minimization based on Boolean algebra and Karnaugh maps, introducing computer algorithm for minimization (McCluskey, Expesso, ...)",
+    "Gates and corresponding operations, logical signals and their active levels, design logical network, realization based on combination AND-OR, OR-AND, NAND-NAND, NOR-NOR.",
+    "Positional numeral systems and conversation between them, integer and real numbers, connection between binary, octal and hexa numeral system.",
+    "Representation integer numbers \n\nsign-and-magnitude method, ones\n\n and two\n\n complement, offset binary, arithmetic operations \n\naddition, subtraction, multiplication and division, flags negate (N), zero (Z), overflow (V) and carry (C).",
+    "Realization of binary arithmetic addition and subtraction, ripple-carry adder, carry-lookahead adder, multiplication, division and their basic hardware realization.",
+    "Representation real numbers, fixed point numbers, Qm.n format, floating point numbers according to IEEE 754-2008, arithmetic operations, program implementation of multiplication and division, flags of operations.",
+    "Representation glyphs, characters, ASCII code, Unicode, UTF algorithms.",
+    "Representation real and integer numbers in BCD code, arithmetic operation \n\naddition.",
+    "Asynchronous RS latch, synchronous D, T, JK flip-flops.",
+    "FSM \n\nfinite state machine, automata with finite state, definition of behaviour, possibility of description \n\ngraphic and software.",
+    "Digital synchronous system \n\ncontrol and data unit, realization of control unit \n\nD flip-flops, microprogramming control unit, example.",
+    "Technology of digital circuits \n\nbipolar TTL, unipolar CMOS, electric properties of gates, log values 0/1 and levels L/H, open collector, three state logic and buses.",
+    "Introduction, conversion form decimal to binary and hexa numeral systems, Boolean algebra, entering the first project."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Experimental work in labs",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Wakerly J. F.: Digital Design, Principles and Practices; Prentice Hall 2006; ISBN 0-13-186389-4",
+    "Katz R. H. and Borriello G.: Contemporary logic design; Prentice Hall 2005; ISBN 0-201-30857-6",
+    "Roth Ch. H. Jr.: Fundamentals of logic design; Thomson Brooks/Cole 2004; ISBN 0-534-37804-8",
+    "Wakerly J. F.: Digital Design, Principles and Practices; Prentice Hall 2006; ISBN 0-13-186389-4",
+    "Katz R. H. and Borriello G.: Contemporary logic design; Prentice Hall 2005; ISBN 0-201-30857-6",
+    "Roth Ch. H. Jr.: Fundamentals of logic design; Thomson Brooks/Cole 2004; ISBN 0-534-37804-8",
+    "Svoboda A. and White D. E.: Advanced logical circuit design techniques; Garland StPM Press 1979; ISBN 0-8240-7014-3",
+    "Bhasker J.: VHDL Primer, Third Edition; Prentice Hall 1999; ISBN 0-13-096575-8"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "440-2104/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=53244&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "046dc61d86adc9da471cb1c89a779a2d0c5008c9ecf2f0d4257bc6d2d4d4d90b",
+  "extracted_at": "2026-11-20T12:50:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

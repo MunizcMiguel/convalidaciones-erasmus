@@ -1,0 +1,144 @@
+{
+  "course_name_original": "Modelarea dinamica a sistemelor mecanice",
+  "course_name_en": "Dynamic Modelling of Mechanical Systems",
+  "ects": 6.0,
+  "semester": "8",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [
+    "Mechanics I (MTC.102. DI. DID)",
+    "Mechanics II (MTC. 108)",
+    "Mechanisms (MTC.203. DI. DD)",
+    "Special Mathematics (MTC 201 DI.OF)",
+    "Computer Aided Design (MTC 210, DI. DD)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "describes the types of specific dynamic analysis and the basic elements of systems used in mechanics;",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "explains, interprets, and uses the principles of dynamic analysis, applicable to the design or functional analysis of mechanical systems;",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "describes modern principles of design and operation of mechanical components in the structure of these systems;",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "applies methods for designing, analyzing, and testing mechanical elements and systems;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "acquires skills regarding how a mechanical system is analyzed and how to evaluate the dynamic performance of such a mechanical structure;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "uses graphic and digital tools for representing dynamic phenomena and for interpreting kinematic diagrams;",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "applies logical and basic engineering reasoning to analyze simple technical situations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "responsibly fulfills professional tasks regarding the exact identification of objectives to be achieved, available resources, and conditions for their completion;",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "demonstrates initiative and involvement in the analysis of examples and case studies, expressing reasoned opinions about the functionality of the analyzed mechanical system;",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "gradually develops autonomy in documentation and continuous learning, using scientific sources to deepen knowledge;",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "shows interest in integrating dynamic knowledge into the field of mechanics, especially for the analysis and design of such structures.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. Types of models in science: concepts of model, modeling, and simulation. Classification of models. Mathematical models of mechanical systems. Types of dynamic signals. Comparison between time-domain and frequency-domain analysis.",
+    "Dynamic modeling of mechanical systems. Analytical models, experimental models, and mixed models. Analytical models: structural kinematic and dynamic. Experimental models: deterministic models (using subjective, objective, and predictive analyses), non-deterministic or statistical models. Mixed models: analytical-experimental and technical-experimental models. Dimensional analysis used in modeling mechanical systems. Application of Rayleigh's method and the product method for analytical-experimental modeling of a mechanical system.",
+    "Dynamic models of mechanical systems with one degree of freedom. Reduction element models and reduction point models; dynamic characteristics of these model types and their determination. Equation of motion of the model and particular cases of analytical, numerical, or graphical solution for the equation of motion. Driving and resistive mechanical characteristics.",
+    "Types of mechanical characteristics. Driving mechanical characteristic: natural static, artificial static, and dynamic. Resistive mechanical characteristic: general expression for static resistive characteristic and expressions for turning and milling technological processes. Resistive characteristic for a connecting rod-crank mechanical working system. Resistive mechanical characteristic for actuations of kinematic driving pairs. Static stability; calculation and verification example.",
+    "Efficiency of mechanical systems. Series and parallel mechanical systems and global efficiency. Efficiency of mechanical systems formed only by fifth-class rotational or translational kinematic pairs. Efficiency of screw-nut kinematic pair. Efficiency of higher kinematic pair cam-follower. Efficiency of fixed-axis gears, efficiency of movable-axis gears, planetary and differential types; calculation examples.",
+    "Inertial and kinetic characteristics of bodies. Masses and mass moments of inertia: analytical and experimental methods for determining these characteristics. Principal points method for determining the center of mass position for a kinematic chain. Vectorial kinetic characteristics: momentum and angular momentum. Scalar kinetic characteristics: kinetic energy and potential energy. Kinetic characteristics of particular motions in mechanical systems. Applications.",
+    "Fundamental theorems of dynamics and applications in modeling mechanical systems. Momentum theorem, angular momentum theorem, impulse torsor theorem, energy theorem and their applications to mechanical systems. Dynamic modeling using these theorems, solving equations of motion, interpreting results. Dynamic stability of a mechanical system based on the roots of the characteristic equation associated with the differential equation of motion. D'Alembert's principle and the kinetostatic method for determining forces in kinematic constraints.",
+    "Modeling mechanical systems with analytical mechanics equations. Real and virtual displacements; virtual work applications of virtual work. Generalized forces, Lagrange's and Hamilton's equations; applications of Lagrange's equations.",
+    "Project theme and initial data provision. Presentation of Stage I: structural analysis, dimensioning of piston-crank mechanism elements, and calculation of masses for mechanical transmissions via gears and screw-nut.",
+    "Stage 2: determination of axial mass moments of inertia of mechanical transmission elements via gears and screw-nut, using analytical mathematical calculation and virtual representation in specialized software (SolidWorks).",
+    "Stage 3: determination of nut displacement velocity; determination of time to cover nut stroke L; plotting velocity and linear displacement diagrams for the nut.",
+    "Stage 4: calculation of the reduced moment of inertia of the dynamic reduction model for mechanical transmissions via gears and screw-nut.",
+    "Stage 5: determination of the equation of motion for the dynamic reduction element model for mechanical transmissions via gears and screw-nut.",
+    "Stage 6: calculation of angular positions of the connecting rod and crank in the piston-crank mechanical transmission, based on piston displacement over time, and plotting corresponding diagrams.",
+    "Stage 7: determination of angular velocities of the connecting rod and crank in the piston-crank mechanical transmission and plotting corresponding diagrams.",
+    "Stage 8: determination of angular accelerations of the connecting rod and crank in the piston-crank mechanical transmission and plotting corresponding diagrams.",
+    "Stage 9: calculation of masses for the piston-crank mechanical transmission; calculation of weight forces for the piston-crank mechanical transmission; selection of the law of motion for the cam-follower mechanical transmission.",
+    "Stage 10: determination of the cam balancing moment; determination of the horizontal reaction force from the rotational kinematic pair connecting the connecting rod and piston.",
+    "Stage 11: determination of the driving moment required to achieve uniform motion of the piston integral with the nut; determination of the power of the motor driving the entire mechanical system.",
+    "Stage 12: interpretation of results; graphical representation of the mechanical system in specialized software (SolidWorks).",
+    "Stage 13: details regarding project typesetting.",
+    "Stage 14: project submission."
+  ],
+  "teaching_methods": [
+    "Interactive lectures",
+    "Discussions",
+    "PowerPoint presentations",
+    "Discovery learning",
+    "Direct and indirect exploration of phenomena (experiment, modeling)",
+    "Action-based methods (exercises, problem-solving)",
+    "Case studies",
+    "Technical demonstrations",
+    "Explanations",
+    "Videoprojector",
+    "Presentation of work stages"
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam (written test)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Project (oral response and correction of written project)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "To pass the exam, a minimum grade of 5 is required, demonstrating basic theoretical knowledge of general dynamics and dynamic mechanical characteristics for system performance evaluation. To pass the project, a minimum grade of 5 is required by successfully completing the project stages. The minimum passing grade for each component (exam and project) is 5.",
+  "bibliography": [
+    "Oprian, C. Doroftei, l. Popovici, A. Moldovanu, G. lntroducere in cinematica si dinamica robotilor si manipulatoarelor, Ed. CERMI, la*i, 1998.",
+    "Patracu Pana, D., Stoian, V. Receanu, Cr., Dinamica sistemelor mecatronice. Teorie si aplicatii, Editura Universitaria, Craiova, 2016, ISBN 978-606-14-1092-7.",
+    "Berian, S Matie V. Transdisciplinaritate și mecatronica, Editura Curtea Veche, 2011, ISBN 978-606-588-199-0.",
+    "Awrejcewicz, J. Lewandowski, D. Olejnik, P. Dynamics of Mechatronics (Modeling, Simulation, Control, Optimization and Experimental Investigations), World Scientific (Wspc), Singapore 2016, ISBN 978-981-3146-55-6."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "IM.404.DI.DS",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an4_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "09e6311d1e58b61ceb97b87294f4d17569e1452fbf29dfa5bae0b1f37d42b063",
+  "extracted_at": "2026-11-13T01:05:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

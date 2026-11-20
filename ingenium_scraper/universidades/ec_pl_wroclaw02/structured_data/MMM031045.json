@@ -1,0 +1,144 @@
+{
+  "course_name_original": "Fundamentals of Machine Design II",
+  "course_name_en": "Fundamentals of Machine Design II",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge: It has a basic knowledge of metallurgy, construction materials, mechanics, strength of materials and manufacturing techniques, engineering graphics. It has a basic knowledge of Fundamentals of Machine Design I (process design and engineering, connections used in mechanical engineering) and perform the technical documentation using AutoCAD.",
+    "Skills: It has self-learning ability, and is able to retrieve information from various sources, to make their interpretation, and to draw conclusions and formulate and justify opinions. It can be used in the process of constructing knowledge gained on subjects: metallurgy, mechanics, strength of materials, Engineering Graphics, Fundamentals of Machine Design I.",
+    "Competencies: He can think and act in an entrepreneurial manner. Is aware of the seriousness and impact of activities in mechanical engineering, and understands the need for professional activities (both individually and collectively)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquisition of basic knowledge about the design of machine shafts (structural calculations, the selection of geometric features, resonance, mounting elements on the shaft) and the holder shafts - bearings (bearings characteristics, selection criteria, rules for bearing and fit).",
+      "type": "knowledge",
+      "code": "C1"
+    },
+    {
+      "text": "Gaining knowledge of the construction, operation, selection, design calculations and operation of the couplings and conveyor units and changing the rotation (mechanical transmission belts, chains and gears).",
+      "type": "knowledge",
+      "code": "C2"
+    },
+    {
+      "text": "Gain practical skills to make a simple construction task through a typical solution to the problem, the content of which is the optimal design of the drive unit driven machine (eg conveyor, ball mill, crusher, rotary kiln, etc.) The process of constructing a computer-aided both in the selection of design features (using the computer programs for the calculation of constructed elements) as well as at the stage of their graphical application (AutoCAD).",
+      "type": "skill",
+      "code": "C3"
+    },
+    {
+      "text": "He knows the algorithm design calculations machine shafts and shafts supporting elements.",
+      "type": "knowledge",
+      "code": "PEK_W01"
+    },
+    {
+      "text": "It has an extended knowledge in the construction of clutches, their applications and the selection and calculation.",
+      "type": "knowledge",
+      "code": "PEK_W02"
+    },
+    {
+      "text": "It has a basic knowledge of construction, operation, principles of selection and design calculations of the conveyor units and changing the rotation (mechanical gears: belt, chain and gear).",
+      "type": "knowledge",
+      "code": "PEK_W03"
+    },
+    {
+      "text": "Able to independently formulate and solve simple technical tasks.",
+      "type": "skill",
+      "code": "PEK_U01"
+    },
+    {
+      "text": "He can choose and calculate the shafts, bearings, couplings, mechanical.",
+      "type": "skill",
+      "code": "PEK_U02"
+    },
+    {
+      "text": "It can construct an optimal (in light of the criteria used) drive any machine work.",
+      "type": "skill",
+      "code": "PEK_U03"
+    },
+    {
+      "text": "Can search information and carry out their critical analysis.",
+      "type": "competence",
+      "code": "PEK_K01"
+    },
+    {
+      "text": "Able to work independently and in a team.",
+      "type": "competence",
+      "code": "PEK_K02"
+    },
+    {
+      "text": "Objectively evaluate the task, conceptual design, and they can justify the chosen solution and the method of its implementation.",
+      "type": "competence",
+      "code": "PEK_K03"
+    }
+  ],
+  "syllabus_topics": [
+    "Syllabus and requirements. Shafts and axes \nMains characteristics. Theoretical bases selection of constructional features of shafts. Fundamentals of shafts and axes forming. Methods for the axial location of machine elements on a shaft.",
+    "Design calculations of the shafts (preliminary, checkout). The phenomenon of resonance. Calculations of shafting for resonance in bending mode.",
+    "Main features of rolling and sliding friction. Classification of bearings, main features of rolling contact and sliding bearings. Procedure and criteria for the selection of roller contact bearings.",
+    "Bearing arrangement. Fits, lubrication and sealing in application for roller bearings.",
+    "Classification of coupling and clutches. Main features of couplings. Selection and calculation rules.",
+    "Main features of clutches. Engagement process, Work and friction losses, heat balance, service life. Equivalent friction radius.",
+    "Belt transmissions, classification, general characteristic and selection criteria. Friction coupling of the belt with the wheel. Elastic slip, actual transmission ratio, load transfer coefficient.",
+    "Force distribution, tensioning devices in belt. Required tension force and ways of regulation.",
+    "Efficiency of belt transmission and belt durability. Characteristics material for belts. The design of pulleys (material, main dimensions). Design calculations of V-belt transmissions.",
+    "Chain transmissions \nMains characteristic and calculation.",
+    "Gear transmissions. Classification and main features. Fundamental rule of engagement. Cycloid and involute profiles.",
+    "Basic rack tooth profile. Standardization of involute wheels. Basic notions. Geometry of spur gears. Generation methods.",
+    "Boundary tooth number, mesh correction, addendum modification.",
+    "Tooth loading model for bending and contact pressure. Service factor. Distribution of forces in spur and helical gearing.",
+    "ISO recommended methods for the calculation of gear transmission, a summary.",
+    "Preparation of design specifications for the designed drive system (operation principles, location data, quantitative data, operation conditions).",
+    "Possible solutions of the problem, a draft drawing (without details) of one selected solution (acceptance criteria included).",
+    "Assumption of acceptance criteria for each of the sub-assemblies of the unit. Selection of the best solution using a dedicated software.",
+    "Implementation stage of the design process: assembly and selected working drawings. Drafting technique - CAD."
+  ],
+  "teaching_methods": [
+    "traditional lecture with the use of transparencies and slides",
+    "calculation exercises",
+    "tutorials",
+    "self study - preparation for project class",
+    "self study - self studies and preparation for examination"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "exam, quiz (for lecture)",
+      "weight_percentage": null
+    },
+    {
+      "method": "defense of project, quizzes, evaluation of computational design review, review of project preparation (for project)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade for the lecture is based on F1. The final grade for the project is based on F1.",
+  "bibliography": [
+    "Podstawy konstrukcji maszyn. Praca zbiorowa pod red. Z. Osińskiego. Warszawa, PWN 1999.",
+    "Dietrych J. i inni; Podstawy konstrukcji maszyn. Tom II i III, Warszawa, WNT.",
+    "Dziama A. i inni; Przekładnie zębate. Warszawa, PWN 1995.",
+    "Dietrych M. i inni; Podstawy konstrukcji maszyn. Tom III i IV. W-a, WNT 1996.",
+    "Ćwiczenia z podstaw konstrukcji maszyn. Poradnik. Praca zbiorowa pod red. Z. Lawrowskiego, skrypt PWr., Wrocław , 1982.",
+    "Krawiec S.; Obliczenia konstrukcyjne przekładni pasowych i zębatych wspomagane mikrokomputerem, skrypt PWr.,Wrocław, 1992.",
+    "Capanidis D, Krawiec S. Wieleba W.; Materiały pomocnicze do ćwiczeń projektowych z PKM wspomaganych komputerowo, IKEM PWr., 1993.",
+    "Roloff/Matek; Maschinenelemente - Normung, Berechnung, Gestaltung, Wiesbaden, Vieweg 1994.",
+    "Jaśkiewicz Z., Wąsiewski A.; Przekładnie walcowe. Warszawa, WKŁ 1992.",
+    "Niemann G., Winter H.; Maschinenelemente. Band II. Berlin, Springer- Verlag 1985.",
+    "Niemann G., Winter H.; Maschinenelemente. Band III. Berlin, Springer- Verlag 1983.",
+    "Skarbiński M., Skarbiński J.; Technologiczność konstrukcji maszyn. Warszawa, WNT 1982."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Politechnika Wroclawska",
+  "institution_slug": "ec_pl_wroclaw02",
+  "degree": "Mechanical Engineering and Machine Building (I level, full-time)",
+  "course_code": "MMM031045",
+  "academic_year": "2026/2027",
+  "source_url": "https://wm.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkFUBhQAykrCDILDWdbXxMbFmFBWxslAxt1FSVcVnRKCkI8VQIDJCUODBYAKg8TXAMIOAZK/_users/code_BAlkUKkpKNVI_VBV9XFNBFEZcFiw5Qx0O/w10/karty_kursow/mbm_en_st_i.pdf",
+  "source_language": "en",
+  "source_sha256": "c1cb0ac510c457a51dae27aef6c3c156ed624e6e7d45d2cedffa2a3203863073",
+  "extracted_at": "2026-11-18T10:05:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,203 @@
+---
+{
+ "course_code": "2GITSTIG-3-010",
+ "course_name": "Computadores",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-010",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:05:15",
+ "content_sha256": "86cfcf2676099ff9ae8e0ef30ae02df6a4cf67cbe3562cd9b2be68f0097e9b0a"
+}
+---
+
+# Computadores
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-3-010
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Prácticas de Laboratorio (14 Horas); Clases Expositivas (16 Horas)
+
+## Contextualización
+
+Computadores es una asignatura de Formación Básica del primer curso, segundo semestre, del Grado en Ciencia e Ingeniería de Datos, que forma parte de la materia Almacenamiento y Transmisión de Datos. Se imparte por profesorado del área de Arquitectura y Tecnología de Computadores del Departamento de Informática de la Universidad de Oviedo. Las competencias adquiridas permitirán al estudiante conocer la forma en la que los datos y la información se representan en los computadores; conocer la organización y el funcionamiento esencial de los elementos hardware de los computadores; aspectos claves como el rendimiento de los computadores; así como los principales mecanismos de procesamiento y almacenamiento de la información.
+
+En esta asignatura el estudiante hará uso de las competencias adquiridas en asignaturas previas de la titulación, tales como Estructuras Discretas y Análisis de Algoritmos, y Metodología de la Programación.
+
+Las competencias adquiridas en Computadores serán básicas para que el estudiante pueda adquirir competencias más avanzadas en asignaturas tales como Infraestructura Informática y de Red, Sistemas Distribuidos y Visión Artificial.
+
+## Requisitos
+
+En el contexto del Grado en Ciencia e Ingeniería de Datos para los estudiantes que deseen cursar Computadores sería deseable que hubiesen cursado previamente las asignaturas Estructuras Discretas y Análisis de Algoritmos, y Metodología de la Programación. También es aconsejable que el estudiante curse Algoritmia al mismo tiempo que Computadores.
+
+## Competencias y resultados del aprendizaje
+
+La memoria de verificación del título de Graduado o Graduada en Ciencia e Ingeniería de Datos por la Universidad de Oviedo establece las competencias a las que contribuye la asignatura Computadores, que son las siguientes:
+
+| CB1 | Que los estudiantes hayan demostrado poseer y comprender conocimientos en un área de estudio que parte de la base de la educación secundaria general, y se suele encontrar a un nivel que, si bien se apoya en libros de texto avanzados, incluye también algunos aspectos que implican conocimientos procedentes de la vanguardia de su campo de estudio |
+| --- | --- |
+| CB5 | Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores con un alto grado de autonomía |
+| CG01 | Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal |
+| CG02 | Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes |
+| CG03 | Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas |
+| CG04 | Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos |
+| CG09 | Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente |
+| CE05 | Comprender la arquitectura de los computadores e identificar y evaluar las prestaciones y la escalabilidad de los sistemas informáticos que se utilizan para el procesamiento de grandes volúmenes de datos |
+
+De la misma forma, la memoria de verificación determina los resultados de aprendizaje que deberá alcanzar el estudiante tras superar Computadores, y son los siguientes:
+
+| RCOM1 | Comprender la representación de datos e información en los computadores |
+| --- | --- |
+| RCOM2 | Conocer cómo se organiza un computador y cómo funcionan sus subsistemas para procesar datos |
+| RCOM3 | Comprender cómo la arquitectura del computador influye en el tiempo de procesamiento |
+| RCOM4 | Conocer las funciones y estructura de un sistema operativo |
+| RCOM5 | Comprender los mecanismos de procesamiento y almacenamiento de información |
+
+## Contenidos
+
+Los contenidos de Computadores se estructuran en los siguientes temas:
+
+1. La información digital  
+2. Sistemas digitales  
+3. Arquitectura del computador  
+4. El lenguaje de la máquina  
+5. El procesador  
+6. El sistema de memoria  
+7. Entrada/Salida  
+8. Sistemas operativos  
+9. Rendimiento
+
+Los materiales utilizados por el profesorado para explicar los contenidos teóricos en las clases expositivas, así como los contenidos prácticos de las prácticas de laboratorio, utilizados tanto en las actividades presenciales como en las online estarán a disposición de los estudiantes a través de la página web de la asignatura en el Campus Virtual de la Universidad de Oviedo.
+
+## Metodología y plan de trabajo
+
+Computadores en una asignatura que se imparte en modalidad semipresencial y que consta de las siguientes actividades formativas:
+
+1. Presenciales:
+
+- Clases expositivas. En ellas se desarrollarán los principales conceptos de cada uno de los temas de la asignatura.
+- Prácticas de laboratorio. Se realizarán prácticas en un ordenador para complementar la formación de las clases expositivas.
+- Evaluación.
+
+1. On-line:
+
+- Clases expositivas. En ellas se desarrollarán los principales conceptos de cada uno de los temas de la asignatura.
+- Prácticas de laboratorio. Se realizarán prácticas en un ordenador para complementar la formación de las clases expositivas.
+
+1. No presenciales:
+- Trabajo autónomo. Trabajo del estudiante para llevar a cabo el estudio de la asignatura.
+
+En las siguientes tablas se muestra la distribución de horas para cada una de las actividades anteriores.
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases expositivas | 14 | 9.3% | 30 horas <br> 20% |
+|  | Prácticas de laboratorio | 14 | 9.3% |  |
+|  | Evaluación | 2 | 1.3% |  |
+| Online | Clases expositivas online | 15 | 10% | 30 horas <br> 20% |
+|  | Prácticas de laboratorio online | 15 | 10% |  |
+| No presencial | Trabajo autónomo | 90 | 60% | 90 horas |
+|  | Total | 150 |  |  |
+
+|  |  | **Presencial** |  |  |  | **Online y** <br> **no presencial** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de laboratorio* | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva* <br> *online* | *Prácticas de laboratorio online* | *Trabajo autónomo* | **Total** |
+| 1 | 19 | 2 | 2 |  | **4** | 2 | 3 | 10 | **15** |
+| 2 | 17 | 1 | 2 |  | **3** | 2 | 2 | 10 | **14** |
+| 3 | 3 |  |  |  |  | 1 |  | 2 | **3** |
+| 4 | 31 | 3 | 3 |  | **6** | 3 | 2 | 20 | **25** |
+| 5 | 25 | 3 | 2 |  | **5** | 2 | 3 | 15 | **20** |
+| 6 | 8 | 1 | 0 |  | **1** | 1 |  | 6 | **7** |
+| 7 | 27 | 2 | 3 |  | **5** | 2 | 3 | 17 | **22** |
+| 8 | 11 | 1 | 2 |  | **3** | 1 | 2 | 5 | **8** |
+| 9 | 7 | 1 | 2 |  | **1** | 1 |  | 5 | **6** |
+| Evaluación | 2 |  |  | 2 | **2** |  |  |  |  |
+| **Total** | **150** | 14 | 14 | 2 | **30** | 15 | 15 | 90 | **120** |
+
+## Evaluación del aprendizaje
+
+La evaluación de Computadores se realizará considerando diferentes elementos evaluables, en función de la convocatoria del curso académico.
+
+Para superar la asignatura, la calificación final debe ser igual o superior a 5 puntos sobre 10, teniendo en cuenta las condiciones que se establecen a continuación para las diferentes convocatorias.
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (por ejemplo, herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria ordinaria**
+
+**Elementos evaluables**
+
+Para aprobar la asignatura, la suma de los cuatro elementos evaluables debe ser igual o superior a 5 puntos sobre 10, teniendo en cuenta los requisitos mínimos y las consideraciones que se establecen a continuación.
+
+**A. Asistencia**
+
+El estudiante deberá asistir al 80% de las sesiones de prácticas presenciales de laboratorio para poder optar a la máxima calificación en este apartado, además deberá participar de forma activa y realizar trabajo efectivo en dichas sesiones. A esta nota se le denomina NAsist y su valor puede ir desde 0 hasta 10.
+
+**B. Participación en actividades del Campus Virtual**
+
+La realización de actividades en el Campus Virtual, tales como ejercicios y cuestionarios. A la nota obtenida por la realización de actividades en el Campus Virtual se le denomina NCampus y su valor puede ir desde 0 hasta 10.
+
+**C. Exámenes teóricos**
+
+Durante el curso se realizarán exámenes sobre la materia teórica de la asignatura. A esta nota se le denomina NTeo y su valor puede ir desde 0 hasta 10.
+
+**D. Exámenes prácticos**
+
+Durante el curso se realizarán exámenes prácticos sobre la materia de prácticas de laboratorio de la asignatura. A esta nota se le denomina NPrac y su valor puede ir desde 0 hasta 10.
+
+**Calificación**
+
+La nota final en la convocatoria ordinaria se calculará de la siguiente forma:
+
+NotaConvOrdinaria = 0.05 \* NAsist + 0.10 \* NCampus + 0.45 \* NTeo + 0.40 \* NPrac
+
+**Convocatoria extraordinaria**
+
+Los estudiantes que no hayan superado la asignatura mediante la evaluación continua pueden optar a superarla en las convocatorias extraordinarias, en las que habrá dos tipos de pruebas:
+
+**A. Examen teórico**
+
+Examen final de carácter teórico, que incluye toda la materia de teoría de la asignatura. A esta nota se le denomina NExTeo y su valor puede ir desde 0 hasta 10. Solo aquellos estudiantes que obtengan en este examen una nota igual o superior a 5.0 podrán aprobar la asignatura en esta convocatoria.
+
+**B. Examen práctico**
+
+Los estudiantes que tuviesen menos de 5.0 en las prácticas durante el curso, NPrac, y obtengan más de 5.0 en NExTeo deberán presentarse a un examen de prácticas extraordinario. A la nota de este examen se le denomina NExPrac y su valor puede ir de 0 hasta 10. Los estudiantes que tuviesen más de 5.0 en las prácticas durante el curso, NPrac, y obtengan más de 5.0 en NExTeo pueden conservar la nota de prácticas durante el curso sin necesidad de hacer el examen extraordinario de prácticas; en este caso, NExPrac será igual a NPrac.
+
+La calificación en la convocatoria extraordinaria se obtendrá de la siguiente forma:
+
+Si NExTeo > 5.0 entonces NotaConvExtraordinaria = 0.5 \* NExTeo + 0.5 \* NExPrac
+
+En otro caso NotaConvExtraordinaria = mínimo(4.5, 0.5 \* NExTeo + 0.5 \* NPrac)
+
+**Evaluación diferenciada**
+
+Aquellos estudiantes que opten por la evaluación diferenciada, según el Reglamento de Evaluación de la Universidad de Oviedo, se evaluarán, en cualquier convocatoria del curso, en un examen final de teoría, valorado entre 0 y 10 puntos al que se denominará NDifTeo, y en un examen final de prácticas, valorado entre 0 y 10 puntos al que se denominará NDifPrac. Solo los estudiantes que obtengan una nota NDifTeo igual o superior a 5.0 puntos podrán presentarse al examen práctico. En caso de que el estudiante obtenga una nota inferior a 5.0 en el examen de teoría, al no poder presentarse al examen de prácticas se considerará NDifPrac igual a 0. La nota final siguiendo el método de evaluación diferenciada se calculará, en todas las convocatorias del curso, tal y como se muestra a continuación:
+
+NotaEvDiferenciada = 0.5 \* NDifTeo + 0.5 \* NDifPrac
+
+En cada convocatoria se llevarán a cabo nuevas evaluaciones sin tener en cuenta las notas de exámenes de teoría y de prácticas obtenidas en convocatorias previas.
+
+## Bibliografía
+
+**Bibliografía básica**
+
+- J. Entrialgo, J.C. Granda, J.M. López, J. Molleda, J.R. Arias, R. Usamentiaga, M. García y J.L. Díaz. *Computadores y Redes*. Ediuno. Ediciones de la Universidad de Oviedo, 2016. ISBN: 978-84-16664-37-5. Ebook, ISBN: 978-84-18324-79-6.
+
+**Bibliografía complementaria**
+
+- A. Tanenbaum, H. Bos. *Modern Operating Systems (4th edition)*. Pearson, 2014. ISBN: 978-133591620.
+- J.C. Granda, J.M. López, M. García, J. Molleda, R. Usamentiaga, J. Entrialgo, F.J. de la Calle. *Arquitectura de Computadores*. Ediuno. Ediciones de la Universidad de Oviedo, 2019. ISBN: 978-84-17445-49-2.
+- W. Stallings*. Computer Organization and Architecture (10th edition).* Pearson, 2015. ISBN: 978-0134101613.
+- D.A. Patterson, J.L. Hennessy. Computer Organization and Design MIPS Edition. Elsevier, 2020. ISBN: 978-0128201091.

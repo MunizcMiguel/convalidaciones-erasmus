@@ -1,0 +1,203 @@
+---
+{
+ "course_code": "2GITSTIG-2-010",
+ "course_name": "Teoría de la Comunicación",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-010",
+ "source_language": "es",
+ "ects_catalog": 9.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:04:08",
+ "content_sha256": "c5ab704959c98241eca716574785ead50b1f0620ef2bb5ef4bc4b5d8f7f1203c"
+}
+---
+
+# Teoría de la Comunicación
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-2-010
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Segundo Semestre
+- **Materia:** Fundamentos de Comunicaciones
+- **Carácter:** Obligatoria
+- **Créditos:** 9
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Aula/Semina (14 Horas); Tutorías Grupales (3 Horas); Clases Expositivas (42 Horas); Prácticas de Laboratorio (28 Horas)
+
+## Contextualización
+
+La asignatura de *Teoría de la Comunicación* es una asignatura obligatoria impartida durante el 4º semestre (2º semestre del 2º curso) y que forma parte de la materia de *Fundamentos de Comunicaciones* dentro del plan de estudios correspondiente al título de *Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación*. La materia mencionada está compuesta de otras dos asignaturas: *Comunicaciones Digitales* (obligatoria impartida durante el 5º semestre) y *Procesado de Señal* (asignatura del itinerario de Sistemas de Telecomunicación impartida durante el 6º semestre). A través de la materia de Fundamentos de Comunicaciones se pretende que el estudiante desarrolle las habilidades y competencias necesarias para poder analizar y especificar los parámetros fundamentales de los sistemas de comunicaciones, tanto analógicos como digitales.
+
+Dentro del contexto de la materia mencionada, esta asignatura es el instrumento para adquirir fundamentalmente las habilidades y competencias, aludidas en el párrafo anterior, específicas de los sistemas de comunicaciones analógicos incorporando conceptos básicos de sistemas de comunicaciones digitales. A tal fin, la asignatura se desarrolla en torno al modelo estándar de un sistema de comunicaciones analógico, centrándose en los procesos de modulación y en el análisis de calidad y eficiencia de los distintos sistemas existentes en la actualidad. Al mismo tiempo, la asignatura pretende ser también el escenario en el que se asienten algunos principios básicos de las comunicaciones digitales que servirán de base para las asignaturas de cursos posteriores.
+
+## Requisitos
+
+No existen requisitos previos, aunque el seguimiento de la asignatura podría verse facilitado si el alumno ha adquirido previamente las competencias correspondientes a las asignaturas de: *Álgebra lineal* y *Cálculo* (1er semestre), *Estadística, Ampliación de Cálculo y Teoría de Circuitos* (2º semestre), *Fundamentos de electrónica analógica* y *Señales y sistemas* (3er semestre).
+
+## Competencias y resultados del aprendizaje
+
+Algunas de las competencias a adquirir en esta asignatura, así como los resultados de aprendizaje esperados que aparecen reflejados en la memoria de verificación no se alcanzarán en su totalidad en esta asignatura, sino que se verán completados en las otras dos asignaturas que forman parte de la misma materia.
+
+Las competencias a adquirir total o parcialmente en esta asignatura son:
+
+Competencias específicas:
+
+CR1. Capacidad para aprender de manera autónoma nuevos conocimientos y técnicas adecuados para la concepción, el desarrollo o la explotación de sistemas y servicios de telecomunicación.
+
+CR4. Capacidad de analizar y especificar los parámetros fundamentales de un sistema de comunicaciones.
+
+CR5. Capacidad para evaluar las ventajas e inconvenientes de diferentes alternativas tecnológicas de despliegue o implementación de sistemas de comunicaciones, desde el punto de vista del espacio de la señal, las perturbaciones y el ruido y los sistemas de modulación analógica y digital.
+
+CR6 Capacidad de concebir, desplegar, organizar y gestionar redes, sistemas, servicios e infraestructuras de telecomunicación en contextos residenciales (hogar, ciudad y comunidades digitales), empresariales o institucionales responsabilizándose de su puesta en marcha y mejora continua, así como conocer su impacto económico y social.
+
+CR15. Conocimiento de la normativa y la regulación de las telecomunicaciones en los ámbitos nacional, europeo e internacional.
+
+Competencias generales:
+
+CG2. Conocimiento, comprensión y capacidad para aplicar la legislación necesaria durante el desarrollo de la profesión de Ingeniero Técnico de Telecomunicación y facilidad para el manejo de especificaciones, reglamentos y normas de obligado cumplimiento,
+
+CG3. Conocimiento de materias básicas y tecnologías, que le capacite para el aprendizaje de nuevos métodos y tecnologías, así como que le dote de una gran versatilidad para adaptarse a nuevas situaciones,
+
+CG4. Capacidad de resolver problemas con iniciativa, toma de decisiones, creatividad, y de comunicar y transmitir conocimientos, habilidades y destrezas, comprendiendo la responsabilidad ética y profesional de la actividad del Ingeniero Técnico de Telecomunicación.,
+
+CG5. Conocimientos para la realización de mediciones, cálculos, valoraciones, tasaciones, peritaciones, estudios, informes, planificación de tareas y otros trabajos análogos en su ámbito específico de la telecomunicación.,
+
+CG6. Facilidad para el manejo de especificaciones, reglamentos y normas de obligado cumplimiento.,
+
+CG9. Capacidad de trabajar en un grupo multidisciplinar y en un entorno multilingüe y de comunicar, tanto por escrito como de forma oral, conocimientos, procedimientos, resultados e ideas relacionadas con las telecomunicaciones y la electrónica.
+
+Los resultados de aprendizaje que se esperan alcanzar a través de esta asignatura son:
+
+RA-8.1. Manejar correctamente y con soltura las unidades logarítmicas de potencia, ganancia y atenuación empleadas en sistemas de comunicaciones (CR.4, CG.3, CG.5, CG.6).
+
+RA-8.2. Aplicar los fundamentos del análisis en el dominio del tiempo y de la frecuencia para la resolución de problemas de sistemas de comunicaciones (CR.4, CR.5, CG.3, CG.4).
+
+RA-8.3. Caracterizar la información, como señal y como proceso estocástico, a transmitir por un sistema de comunicaciones, así como las perturbaciones que limitan las prestaciones de dicho sistema (CR.4, CR.5, CG.3, CG.4).
+
+RA-8.4. Describir y distinguir los bloques funcionales de los sistemas analógicos y digitales de comunicaciones (CR.1, CR.4, CR.5, CG.3, CG.5, CG.6).
+
+RA-8.5. Obtener los parámetros fundamentales de los sistemas analógicos y digitales de comunicaciones (CR.4, CG.3, CG.5, CG.6).
+
+RA-8.6. Conocer las limitaciones y prestaciones de los distintos sistemas de modulación analógica y digital (CR.5, CG.3, CG.5, CG.6).
+
+RA-8.7. Evaluar convenientemente la relación de compromiso existente entre consumo de ancho de banda y de potencia para la obtención de cierta calidad en una configuración dada de un sistema de comunicaciones analógico o digital (CR.1, CR.5, CR.15, CG.4, CG.5, CG.6).
+
+RA-8.9. Comprender las principales técnicas de modulación analógica y digital para poder identificar la técnica más apropiada en una configuración de transmisión dada (CR.1, CR.5, CG.3, CG.5, CG.6).
+
+RA-8.10. Discutir y evaluar en grupo la técnica de modulación analógica y/o digital más apropiada bajo unas condiciones y restricciones de funcionamiento dadas (CR.1, CR.5, CG.4, CG.9).
+
+RA-8.11. Aplicar el conocimiento de las distintas alternativas tecnológicas de despliegue de sistemas de comunicaciones para diseñar sistemas a nivel funcional que cumplan con ciertos requisitos y prestaciones impuestos “a priori” (CR.1, CR.5, CR.6, CR.15, CG.2, CG.3, CG.4, CG.6).
+
+## Contenidos
+
+El contenido de esta asignatura se organiza en los siguientes temas:
+
+1.- Caracterización de señales y señalización de información en banda base.
+
+Señales físicas y sus modelos matemáticos. Parámetros característicos de las señales: tensión, potencia, energía y sus unidades logarítmicas. Densidad Espectral de Energía (DEE) y Densidad Espectral de Potencia (DEP). Ancho de banda. Correlación entre señales. Autocorrelación. Incorrelación, ortogonalidad e incoherencia.
+
+Proceso estocástico: modelo matemático e interpretación. Promedios estadísticos: esperanza matemática, función de correlación y función de covarianza. Independencia, incorrelación y ortogonalidad. Estacionariedad y ergodicidad. Potencia y caracterización espectral de procesos. Procesos aleatorios gaussianos. Caracterización del ruido térmico como proceso aleatorio. Caracterización de procesos aleatorios filtrados.
+
+Señalización de información en banda base. Señales analógicas de voz, audio y video. Modulaciones analógicas mediante señales pulsadas: PAM, PWM y PPM. Cuantificación de señales analógicas. Modulaciones digitales pulsadas: PCM. Energía de símbolo y de bit, densidad y eficiencia espectral.
+
+2.- Sistemas de comunicaciones con transmisión en banda base.
+
+Introducción. Modelo general de un sistema de comunicaciones. Introducción a los conceptos de compartición de canal y multiplexación de la información. Parámetros de calidad. Recursos de un sistema de comunicaciones.
+
+Caracterización de sistemas en tiempo y en frecuencia. Atenuación, ganancia y unidades logarítmicas (decibelio dB). Caracterización de señales filtradas. Distorsión lineal: distorsión de amplitud y fase. Distorsión no lineal: distorsión armónica y distorsión de intermodulación.
+
+Definición del ruido: ruido térmico. Ruido blanco. Representación del ruido en un sistema de comunicaciones: ancho de banda equivalente de ruido, temperatura equivalente de ruido y factor de ruido. Fórmula de Friis.
+
+Transmisión de señales analógicas en banda base y recepción en presencia de ruido. Relación señal a ruido.
+
+Transmisión de señales pulsadas en banda base y receptores en presencia de ruido. Interferencia entre símbolos (ISI). Decisión bayesiana. Implementación receptor digital óptimo en canal gaussiano. Teorema de Shannon. Representación del ruido en el espacio de señal. Cálculo de la probabilidad de error y propiedades.
+
+3.- Sistemas de comunicaciones con transmisión paso-banda.
+
+Señales paso-banda y procesos estocásticos paso-banda: envolvente compleja y diagrama fasorial. Ruido paso-banda. Equivalente paso-bajo de un sistema. Modulación: objetivos de la modulación, eficiencia espectral y en potencia.
+
+Modulaciones analógicas: modulaciones en amplitud, fase y frecuencia. Definición, análisis espectral y de potencia.
+
+Introducción a modulaciones digitales mono-portadora en amplitud, fase y frecuencia para transmisión en paso-banda.
+
+Modelo de sistema de comunicaciones paso-banda. Esquemas de Transmisión y Recepción: Receptor directo, superheterodino. Análisis de calidad en predetección y en postdetección. Sensibilidad de un receptor. Relación señal a ruido. Probabilidad de error en sistemas digitales.
+
+## Metodología y plan de trabajo
+
+Conforme a la memoria de verificación, la organización docente de esta asignatura aparece reflejada en la siguiente tabla:
+
+| **TRABAJO** |  | **PRESENCIAL** |  |  |  |  | **NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *CE* | *PA* | *PL* | *TG* | ***Total*** | *En grupo* | *Autó-nomo* | **Total** |
+| Tema 1 | 73 | 18 | 4 | 8 | 1 | 31 | 6 | 36 | 42 |
+| Tema 2 | 76 | 12 | 5 | 10 | 1 | 28 | 8 | 40 | 48 |
+| Tema 3 | 76 | 12 | 5 | 10 | 1 | 28 | 7 | 40 | 48 |
+| **Total** | 225 | 42 | 14 | 28 | 3 | 87 | 22 | 116 | 138 |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 42 | 18.8 | 87 |
+|  | Práctica de aula / Seminarios / Talleres | 14 | 6.2 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 28 | 12.4 |  |
+|  | Tutorías grupales | 3 | 1.4 |  |
+| No presencial | Trabajo en Grupo | 22 | 10 | 138 |
+|  | Trabajo Individual | 116 | 51 |  |
+|  | Total | 225 |  |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+En la convocatoria ordinaria, la calificación de la asignatura para los grupos impartidos en español estará constituida por las siguientes partes:
+
+*Examen final (**Ef**)*: Consistirá en una prueba escrita, sin material bibliográfico, a realizar en la fecha oficial planificada por la dirección de la Escuela. Abarcará todos los contenidos tratados en la asignatura.
+
+*Evaluación de prácticas (**Ep**)*: Consistirá en una prueba que incluirá varias cuestiones sobre los conceptos manejados con los simuladores empleados en las sesiones de laboratorio. Se realizará durante el transcurso de las prácticas de laboratorio, en una fecha a fijar durante la segunda quincena del mes de abril, en el horario oficial para cada grupo de PL. Esta prueba se podrá realizar de forma individual o en pareja en función del número de estudiantes de cada turno de laboratorio (será definido en las primeras semanas del cuatrimestre tanto para las sesiones de preparación como de evaluación). Los estudiantes que sólo se presenten a la sesión de evaluación, la realizarán de manera individual.
+
+La nota final ***Nf*** se calculará como:
+
+*Nf = 0.7xEf + 0.3xEp*
+
+Consideraciones:
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria extraordinaria y evaluación diferenciada**
+
+En las convocatorias extraordinarias, y en evaluación diferenciada, la calificación de la asignatura para los grupos impartidos en español estará constituida por las siguientes partes:
+
+*Examen final (**Ef**)*: Consistirá en una prueba escrita, sin material bibliográfico, a realizar en la fecha oficial planificada por la dirección de la Escuela. Abarcará todos los contenidos tratados en la asignatura.
+
+*Evaluación de prácticas (**Ep**)*: Consistirá en una prueba práctica individual, sin material bibliográfico, en la que se evaluará los conocimientos adquiridos en las sesiones de prácticas de laboratorio con cuestiones sobre los conceptos manejados con los simuladores empleados en las sesiones de laboratorio. La evaluación de esta parte puede ser reemplazada, a solicitud del alumno, por la calificación ***Ep*** otenida en las prácticas de laboratorio durante el cuatrimestre de impartición de la asignatura. La realización de esta parte supone implícitamente la renuncia a la calificación obtenida mediante evaluación continua.
+
+La nota final ***Nf*** se calculará como:
+
+*Nf = 0.7xEf + 0.3xEp*
+
+Consideraciones:
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+## Bibliografía
+
+Es posible diferenciar la documentación y bibliografía a emplear en la asignatura en dos tipos: básica y complementaria.
+
+- Bibliografía básica:
+  - Bruce Carlson, Paul B. Crilly and Janet C. Rutledge “Communication systems”, 4th edition, Mc. Graw Hill. 2002.
+  - B.P. Lathi, Z. Ding, “Modern digital and analog communication systems”, 4th ed. Oxford Univ. Press. 2010
+  - J.G. Proakis, M. Salehi, “Communication systems engineering”, 2nd ed. Prentice Hall. 2002.
+  - A. Grami, “Introduction to Digital Communications”, Academic Press – Elsevier. 2015.
+- Bibliografía complementaria:
+  - M.P. Fitz, “Fundamentals of communication systems”, 1st ed. McGraw Hill. 2007
+  - P. Z. Peebles, Jr, “Principios de probabilidad, variables aleatorias y señales aleatorias”, Cuarta edición, McGrawHill.
+- Documentación básica:
+  - Transparencias de la asignatura de “Teoría de la Comunicación”.
+  - Colecciones de cuestiones y problemas de la asignatura.

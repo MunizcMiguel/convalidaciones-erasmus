@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Process Control",
+  "course_name_en": "Process Control",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Active work on classes and laboratories",
+    "Lab report",
+    "Knowledge according to lectures"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Introduce students to basic knowledge of automatic control theory and practice like transfer functions, open versus closed loop control, design of controllers and frequency based analysis of control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Concentrate on logic control and control via programmable logic controllers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Train practical skills and control engineering methods in laboratories.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Work with MATLAB software as a common platform of control engineers.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Essential Principles of Automatic Control, Signals and Systems.",
+    "Digital Logic Control.",
+    "Combinatorial Logic Circuits and Controllers.",
+    "Programmable Logic Controllers, Sequential Logic Circuits.",
+    "Continuous Linear Systems, Laplace Transform.",
+    "Transfer Functions, Mathematical Models, Poles and Zeros.",
+    "Transient and Steady State Response Analysis.",
+    "Detailed Analysis of Selected Processes.",
+    "Open Loop and Closed Loop Control.",
+    "Design of Proportional, Integral and Derivative Controllers (PID).",
+    "Advanced PID Controllers.",
+    "Discrete-time based PID Controllers.",
+    "Frequency-Response Analysis.",
+    "Modelling Control Systems via MATLAB.",
+    "Exercise: Control problem decomposition - analysis, control loop model, state feedback design, terminology from the field of logical, analog and computer-aided control",
+    "Exercise: Combinatorial and sequential logic",
+    "Exercise: Logic - decomposition - combinatorial, sequential and programmable controller",
+    "Lab Tasks on combinatorial and sequential logic, programmable logic controller",
+    "Lab Tasks on combinatorial and sequential logic, programmable logic controller",
+    "Exercise: Continuous-time/analog control (steady-state characteristics in control loop, linear approximation, plant model and controller classes, control closed-loop)",
+    "Exercise: Frequency characteristics (magnitude/phase - Bode diagram), transfer function, block algebra",
+    "Exercise: Stability, stability criteria (Hurwitz, Mikhailov Leonhard, Nyquist), controller tuning (Ziegler-Nichols)",
+    "Lab Tasks on continuous- and discrete-time control",
+    "Lab Tasks on continuous- and discrete-time control",
+    "Lab Tasks on continuous- and discrete-time control",
+    "Exercise: Discrete-time control - continuous-time plant model discretization, sample period, discrete controller PID (PSD), difference equation of discrete control closed-loop",
+    "Exercise: Discrete-time control - stability and discrete transfer function, final TEST",
+    "Assessment and consultations"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Seminaries",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Final TEST",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Ogata, K.: Modern Control Engineering (4th Edition), Prentice Hall",
+    "Klan, P., Gorez, R.: Process control. FCC Public, Prague, 2011.",
+    "Dunning, G.: Introduction to Programmable Logic Controllers (2nd Ed). Delmar Learning, 2001.",
+    "Dorf, R.C., Bishop R.H.: Modern Control Systems (8th Edition). Addison-Wesley, 1998.",
+    "Laboratory support page: www.fsid.cvut.cz/cz/u12110/ar/index_a.htm",
+    "Virtual laboratory availaible on: http://vlab.fsid.cvut.cz/"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371147",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet2971106.html",
+  "source_language": "en",
+  "source_sha256": "dcce33cf92b8e656f6c70a4f3793d76f2d88df61f277c5ded2ee1570877952d5",
+  "extracted_at": "2026-11-20T01:18:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

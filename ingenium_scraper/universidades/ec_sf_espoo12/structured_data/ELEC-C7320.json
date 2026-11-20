@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Software Defined Radio",
+  "course_name_en": "Software Defined Radio",
+  "ects": 5.0,
+  "semester": "Autumn I - II",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fi"
+  ],
+  "prerequisites": [
+    "ELEC-A7200 (recommended also ELEC-C7230)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know how a radio transceiver is constructed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how the practical receiver differs from the theoretical models.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to model a non-ideal transceiver and how to measure the errors produced by the non-ideal behavior of the transceiver.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the structure of a software project.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to participate in a large software project with multiple programmers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the basics of problem solving methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to apply problem solving methods in your own projects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand what the interference is.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Predict how the interference impacts radio links and radio communication systems in general.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Laboratory works using software radios (universal software radio platform (USRP) and GNU-radio framework)",
+    "Performance of software radio transceiver",
+    "Description and measurement of radio performance",
+    "Structuring a software project using GNU-radio as an example",
+    "Version control",
+    "Creating and adding new functions to the software based transceiver chain"
+  ],
+  "teaching_methods": [
+    "laboratory works",
+    "independent project"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": "Grade scale: sis-0-5.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Aalto University",
+  "institution_slug": "ec_sf_espoo12",
+  "degree": "Bachelor's Programme in Electrical Engineering (ELEC1)",
+  "course_code": "ELEC-C7320",
+  "academic_year": "2025-2026",
+  "source_url": "https://sisu.aalto.fi/kori/api/course-units/by-group-id?groupId=aalto-OPINKOHD-1113159026&universityId=aalto-yliopisto",
+  "source_language": "en",
+  "source_sha256": "b0f7610557c7f079dc7e461f5cc1cf2d155ae797330fb7ebf102e94de9e37355",
+  "extracted_at": "2026-11-20T09:09:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,148 @@
+{
+  "course_name_original": "Programación de Robots",
+  "course_name_en": "Robot Programming",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of sequential programs, with fundamental concepts for establishing variable types, execution flow control elements, program editing.",
+    "Reading level English is advisable for technical materials."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should know how to apply acquired knowledge and problem-solving skills in new or unfamiliar environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "Students should possess learning skills that allow them to continue studying in a largely self-directed or autonomous way.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "To project, calculate and design products, processes, facilities and plants.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "To carry out research, development and innovation in products, processes and methods.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG-3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity and critical reasoning.",
+      "type": "competence",
+      "code": "CG-4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "competence",
+      "code": "CG-5"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans and other similar tasks.",
+      "type": "competence",
+      "code": "CG-6"
+    },
+    {
+      "text": "Ability to design and project automated production systems and advanced process control.",
+      "type": "competence",
+      "code": "CE8"
+    },
+    {
+      "text": "Ability for the management of Research, Development and Technological Innovation.",
+      "type": "competence",
+      "code": "CE16"
+    },
+    {
+      "text": "Completion, presentation and defense, once all Master's credits have been obtained, of an original exercise performed individually before a university tribunal, consisting of a comprehensive Industrial Engineering project of a professional nature, in which the competencies acquired in the Master's are synthesized.",
+      "type": "competence",
+      "code": "CE24"
+    },
+    {
+      "text": "Know and apply programming fundamentals, data structures, algorithms, and interprocess communication to software development for robotic systems.",
+      "type": "unspecified",
+      "code": "RA04"
+    },
+    {
+      "text": "Use software development tools (integrated development environment, version control) appropriate to the framework of robotic systems.",
+      "type": "unspecified",
+      "code": "RA05"
+    },
+    {
+      "text": "Use scientific software libraries for information processing.",
+      "type": "unspecified",
+      "code": "RA06"
+    },
+    {
+      "text": "Know the ROS framework and be able to develop applications within it.",
+      "type": "unspecified",
+      "code": "RA07"
+    },
+    {
+      "text": "Know and use robot environment simulation tools.",
+      "type": "unspecified",
+      "code": "RA08"
+    },
+    {
+      "text": "Present and orally defend the completed project.",
+      "type": "unspecified",
+      "code": "RA18"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to C++ programming: Functions, input/output, control statements, pointers, namespaces, modules. Integrated development environments.",
+    "Tools for the development and design of computer systems: Test-Driven Development (TDD). Use of version control tools (git), collaborative work.",
+    "Object-oriented programming: classes, objects, inheritance. Definition and management of abstract data types (stacks, queues, trees, graphs, etc.).",
+    "Interprocess communications: handling of POSIX IPC calls via PyPi. Management of message queues, semaphores, and shared memory.",
+    "Use of specific libraries for robot handling and modeling: Use of ROS for simulation and evaluation of common robotics concepts."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory practice / field / computer lab / language lab",
+    "Group tutorials",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Individual student work",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Completion of practicals and active attendance",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, an individual project will be assigned, parts of which will be completed during laboratory practical classes and finalized through non-contact work. Students may be required to orally defend this work if it is deemed not to meet minimum quality and originality requirements; this project accounts for 80% of the grade, with a minimum passing score of 5 out of 10. The remaining 20% comes from laboratory practicals. In extraordinary assessments, students can choose between a project, which can account for 100% of the grade with a minimum passing score of 5 out of 10, or a written exam, which can account for up to 70% of the grade, with a minimum passing score of 7 out of 10. The same criteria apply for differentiated assessment.",
+  "bibliography": [
+    "Curso de programación C++ Zator systems https://www.zator.com/Cpp/index.htm",
+    "\"Learning Test-Driven Development: A Polyglot Guide to Writing Uncluttered Code\". Saleem Siddiqui . Ed O'Reilly",
+    "\"Learn Robotics Programming: Build and control autonomous robots using Raspberry Pi 3 and Python \". Danny Staple. Ed Packt",
+    "Simulating your Robots with Webots. https://cyberbotics.com/",
+    "Tutorial de Git. Manual básico con ejemplos https://www.diegocmartin.com/tutorial-git/",
+    "Git: https://git-scm.com/doc"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-2-024",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-2-024",
+  "source_language": "es",
+  "source_sha256": "7630de726ac313d6e5fa7011a886a167a8c6a4b96044a1dccf828da39200a77d",
+  "extracted_at": "2026-11-20T06:02:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

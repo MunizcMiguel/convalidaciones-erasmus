@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Sistemas Operativos",
+  "course_name_en": "Operating Systems",
+  "ects": 6.0,
+  "semester": "SEMESTRAL",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Computer Programming",
+    "Data Structures and Algorithms",
+    "Microprocessors Systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire knowledge about the internal functioning of operating systems (OS) and their modules, including, processes scheduling, memory management, virtual memory, disk scheduling, file systems, and concurrent programming; and basic knowledge about distributed systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire knowledge about techniques and algorithms related to operating systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire capacity to write good system code that explores in an optimized manner the functionalities of an operating system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquiring competencies in analysis and synthesis, practical application of theoretical knowledge, solving problems, autonomous learning, adaptivity to new situations, informatics knowledge concerning the scope of study.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Operating systems introductory and support concepts",
+    "General notions about computer architecture",
+    "Operating systems roles",
+    "Processes: description and control",
+    "Threads",
+    "Concurrency: mutual exclusion, synchronization and communication, deadlocks and starvation",
+    "Memory Management",
+    "Virtual memory",
+    "Scheduling of processes and threads",
+    "I/O management and disk scheduling",
+    "File management",
+    "Security in operating systems",
+    "Virtualization",
+    "Introduction to distributed operating systems",
+    "Operating systems applied to robotics and internet of things (IOS): examples of the Robot Operating System (ROS) and CONTIKI-OS for IOS",
+    "Systems programming"
+  ],
+  "teaching_methods": [
+    "Theoretical classes with presentation, using audiovisual means, of the concepts, principles, theories, and methodologies, and with the presentation of illustrative and application examples",
+    "Practical laboratory classes, supervised by a professor: in these classes, some time is dedicated to the presentation of topics relevant to the practical handouts and to the laboratory works; And the rest of the time is dedicated to the development of practical handouts and laboratory works which require the application and combination of different concepts"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Frequency",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory work or Field work",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Stallings, W. (2014) – Operating Systems - Internals and Design Principles, 8th Edition, Prentice-Hall.",
+    "Silberschatz, A., Galvin, P.B., Gagne, G. (2013) – Operating System Concepts, 9th Edition, John Wiley and Sons.",
+    "Robins, K.A., Robins, S. (2003) – Unix Systems Programming: Communication Concurrency, and Threads, Prentice-Hall.",
+    "Marshall, D.A. (1999) – Programming in C: UNIX System Calls and Subroutines Using C, Cardiff University, UK, Internet.",
+    "Kernighan, B.W., Ritchie, D.M. (1988) – The C Programming Language, 2ed, Prentice-Hall.",
+    "Stevens, W.R. (1991) – UNIX Network Programming, 1ed, Prentice-Hall."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidade de Coimbra",
+  "institution_slug": "ec_p_coimbra01",
+  "degree": "Licenciatura em Engenharia Eletrotécnica e de Computadores (LEEC)",
+  "course_code": "01000495",
+  "academic_year": "2025-2026",
+  "source_url": "https://apps.uc.pt/courses/EN/unit/8594/21062/2025-2026?common_core=true&type=ram&id=8922",
+  "source_language": "en",
+  "source_sha256": "a6f48ddfdf1a6c83f540332ec02eba3f09f3ceb3966414cf7aeea24b7adbae04",
+  "extracted_at": "2026-11-20T08:20:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

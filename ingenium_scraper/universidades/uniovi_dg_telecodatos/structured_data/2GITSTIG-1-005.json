@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Cálculo",
+  "course_name_en": "Calculus",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics I and II of Bachillerato",
+    "Satisfactory ESO mathematics education"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects involving knowledge from the forefront of their field of study.",
+      "type": "unspecified",
+      "code": "CB1"
+    },
+    {
+      "text": "Students will be able to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated through the development and defense of arguments and problem-solving within their field of study.",
+      "type": "unspecified",
+      "code": "CB2"
+    },
+    {
+      "text": "Knowledge of basic subjects and technologies, enabling learning of new methods and technologies, and providing great versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG.3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and to communicate and transmit knowledge, skills, and abilities, understanding the ethical and professional responsibility of the Telecommunications Technical Engineer's activity.",
+      "type": "competence",
+      "code": "CG.4"
+    },
+    {
+      "text": "Knowledge for performing measurements, calculations, evaluations, appraisals, expert opinions, studies, reports, task planning, and other similar work in their specific field of telecommunications.",
+      "type": "knowledge",
+      "code": "CG.5"
+    },
+    {
+      "text": "Operate and represent real functions of a real variable, obtain their limits, determine their continuity, calculate derivatives, and formulate and solve optimization problems.",
+      "type": "skill",
+      "code": "RA1"
+    },
+    {
+      "text": "Manage the concepts of sequences and series and use power series to represent functions.",
+      "type": "skill",
+      "code": "RA2"
+    },
+    {
+      "text": "Formulate and calculate integrals of single-variable functions and apply them to solving engineering problems.",
+      "type": "skill",
+      "code": "RA3"
+    },
+    {
+      "text": "State and apply the basic properties of real functions of several real variables. Obtain their limits, analyze continuity and differentiability, and solve optimization problems.",
+      "type": "skill",
+      "code": "RA4"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK 1: REAL FUNCTIONS OF A REAL VARIABLE",
+    "Topic 1: Numerical Sets and Functions. Natural numbers: Induction method. Real numbers. Absolute value of a real number. Properties. Elementary functions. Function composition and inverse function.",
+    "Topic 2: Limits and continuity. Definition of limit. Properties. Infinitesimals and infinities. Indeterminacies. Asymptotes. Continuous functions. Properties of continuous functions: Bolzano's theorem, Darboux's (intermediate value) theorem, and Weierstrass's theorem.",
+    "Topic 3: Differentiability. Properties of differentiable functions. Derivative of a function at a point. Derivative function. Differentiability and continuity. Properties of the derivative. Chain rule. Rolle's theorem. Lagrange's mean value theorem. L'Hôpital's rule.",
+    "Topic 4: Taylor Polynomial. Successive derivatives. Taylor polynomial. Taylor's formula with remainder.",
+    "Topic 5: Optimization. Local study of a function. Monotonicity, relative extrema, concavity, and inflection points. Absolute extrema. Graphical representation of functions.",
+    "BLOCK 2: RIEMANN INTEGRAL",
+    "Topic 1: Calculation of antiderivatives. Immediate integrals. Integration methods.",
+    "Topic 2: The definite integral. Basic concepts and geometric interpretation. Integrable functions. Properties of the definite integral. Fundamental theorem of integral calculus. Barrow's rule. Applications.",
+    "Topic 3: Improper integrals. Definition of improper integral. Types. Application to the study of Eulerian integrals.",
+    "BLOCK 3: SEQUENCES AND SERIES. POWER SERIES",
+    "Topic 1: Numerical sequences. Definition. Convergence. Calculation of limits.",
+    "Topic 2: Numerical series. Definition. Convergence and sum. Harmonic series and geometric series. Convergence criteria.",
+    "Topic 3: Power series. Power series expansion. Definition. Radius of convergence. Differentiation and integration. Power series expansion of a function: Taylor series. Commonly used expansions.",
+    "BLOCK 4: FUNCTIONS OF SEVERAL VARIABLES",
+    "Topic 1: The Euclidean space Rn. Basic notions of topology in Rn. Real functions. Vector functions.",
+    "Topic 2: Limits and continuity. Limit of a function at a point and properties. Calculation of limits. Continuity of a function. Properties.",
+    "Topic 3: Differentiability. Directional derivative. Partial derivative. Geometric interpretation. Higher-order derivatives. Differentiation and continuity.",
+    "Topic 4: Differentiation. Differential of a function at a point. Linear approximation. Sufficient condition for differentiability. Gradient vector. Tangent plane. Chain rule.",
+    "Topic 5: Optimization. Free relative extrema. Necessary condition. Sufficient condition. Absolute extrema. Conditional relative extrema. Lagrange multipliers."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Group/individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Exam (TE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom Practices (PA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practices (PL)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary examination, if both partial exams (P1 and P2) are taken, the Theoretical Exam (TE) grade is calculated as 0.4 * P1 + 0.6 * P2. To pass the subject, a minimum of 3.5 out of 10 in TE is mandatory. The final grade is 0.15 * PL + maximum (0.15 * PA + 0.7 * TE, 0.85 * TE). If minimums are not met, the grade is 'fail' with numerical grade TE; if P2 or TE are not attended, the grade is 'no presented'. For extraordinary exams, a single TE is taken, and a minimum of 3.5 out of 10 is required; PA grade is retained, and PL can be retained or re-examined.",
+  "bibliography": [
+    "Bradley G. L.; Smith, K. J. Cálculo de una variable y varias variables. (Vol. I y II). Prentice Hall (4ª ed.), 2001.",
+    "García López, A y otros. Cálculo I: teoría y problemas de análisis matemático en una variable, CLAGSA (3ª ed.), 2007.",
+    "García López, A y otros. Cálculo II: teoría y problemas de funciones de varias variables. CLAGSA (2ª ed.), 2002.",
+    "Stewart, J. Cálculo de una variable y Cálculo multivariable. Paraninfo Thomson. (6ª ed.), 2009.",
+    "Bayón L, Grau J. M., Suárez P.M. Cálculo. Grados en Ingeniería. Ediciones de la Universidad de Oviedo. EDIUNO, 2011",
+    "Burgos Román, J. Cálculo Infinitesimal de una variable y en varias variables. (Vol. I y II). McGraw-Hill. (2ª ed.), 2008.",
+    "Larson, R. E. y otros. Cálculo y geometría analítica. (Vol. I y II). McGraw-Hill (8ªed.), 2005.",
+    "Marsden, J.; Tromba, A. Cálculo vectorial. Addison-Wesley Longman (5ªed.), 2004.",
+    "Neuhauser, Claudia. Matemáticas para ciencias. Pearson. Prentice Hall, 2004.",
+    "Tomeo Perucha, V. y otros. Problemas resueltos de Cálculo en una variable. Thomson, 2005."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-1-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-005",
+  "source_language": "es",
+  "source_sha256": "103afe496639a23ef9c2fb71d1fdc2948d09f3e7dc277053bcc82774aff440cb",
+  "extracted_at": "2026-11-20T06:05:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

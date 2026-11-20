@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Bildverarbeitung",
+  "course_name_en": "Image Processing",
+  "ects": 5.0,
+  "semester": "unknown",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Programming skills",
+    "Mathematics skills (especially vector and matrix calculus)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students who have successfully studied this module have a basic knowledge of image data representation, know the procedure for extracting information, and know basic image processing algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know the steps of image processing from pixel representation to the extraction of knowledge from images using selected algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to implement simple image processing algorithms in programs and combine them. Thus, they can practically solve simple image processing tasks.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Image representation and storage",
+    "Transformations",
+    "Image enhancement in the spatial domain",
+    "Linear image filtering",
+    "Morphological image filtering",
+    "Feature extraction and classification",
+    "Selected topics in image processing"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project report (written)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Graded assessment can be a written exam, a written project report (approx. 10-15 pages with approx. 20 minutes explanation), or an oral examination. Ungraded assessment consists of experimental work, involving approximately 5 experiments in total.",
+  "bibliography": [
+    "W. Burger und M. J. Burge: Digitale Bildverarbeitung - Eine Einführung mit Java und ImageJ. 3. Auflage, Springer-Verlag, 2015.",
+    "R. C. Gonzalez, R. E. Woods: Digital Image Processing. Pearson International, 2008.",
+    "B. Jähne: Digitale Bildverarbeitung. Springer, 2005.",
+    "Pierre Soille: Morphological Image Analysis - Principles and Applications. Second Edition. Springer, 2004.",
+    "R. Klette, P. Zamperoni: Handbook of Image Processing Operators. John Wiley & Son Ltd, 1996.",
+    "P. A. Henning: Taschenbuch Multimedia. Fachbuchverlag Leipzig, 2001."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B0538",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "3d98e98819e238679e125ebc3c823df63170d8032a200b9f1babb825cadfc8a1",
+  "extracted_at": "2026-11-20T12:32:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

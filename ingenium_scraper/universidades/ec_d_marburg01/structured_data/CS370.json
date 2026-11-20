@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Logik",
+  "course_name_en": "Logic",
+  "ects": 9.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "No prerequisites. Competencies taught in the 'Foundations of Linear Algebra' module are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "know the problems of algorithmic treatment of logical questions",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand the structure of a logical system",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand the expressiveness of a logical system",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "be able to recognize structures of logic in computer science",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "be able to follow mathematical working methods (developing mathematical intuition and its formal justification, training abstract thinking, proving)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "are able to speak freely about scientific content, both in front of an audience and in a discussion.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Propositional Logic (Syntax and Semantics, equivalent transformations and normal forms, satisfiability tests, proof calculi, adequacy and completeness)",
+    "Predicate Logic (Syntax and Semantics, undecidability, equivalent transformations and normal forms, optional: Horn formulas and resolution, proof calculi, adequacy and completeness, unification)",
+    "Applications, e.g.: Logic Programming, SAT Algorithms, Modal and Temporal Logic"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Achieving at least 50 percent of the points from the weekly exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of the solution of at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (Klausur)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grading is done with 0 to 15 points according to the examination regulations for the B.Sc. Computer Science degree program. Prerequisites for acquiring the credit points include achieving at least 50 percent of the points from the weekly exercise assignments and orally presenting the solution of at least two exercise assignments. The final examination is a written exam.",
+  "bibliography": [
+    "M. Huth, M. Ryan: Logic in Computer Science, Cambridge Univ. Press 2004.",
+    "M. Ben-Ari: Mathematical Logic for Computer Science, Springer 2001.",
+    "Uwe Schöning: Logik für Informatiker, Spektrum Verlag 2005.",
+    "M. Kreuzer, S. Kühling: Logik für Informatiker, Pearson Studium 2006."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS370",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Weiterfuehrende_Module/Logik.html",
+  "source_language": "de",
+  "source_sha256": "1431375ae6cc30f3dab5515d018eef036af037fcc36721fb523650a9642b8dd2",
+  "extracted_at": "2026-11-20T09:22:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

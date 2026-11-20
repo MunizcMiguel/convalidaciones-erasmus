@@ -1,0 +1,78 @@
+{
+  "course_name_original": "Databases (1)",
+  "course_name_en": "Databases (1)",
+  "ects": 5.0,
+  "semester": "3.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student will gain theoretical and practical knowledge of data modeling and database technologies, and can design and implement a program that uses persistence relational database data.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, motivation and basic concepts of database systems",
+    "Data modeling - conceptual level, E-R model",
+    "Relational model, transformation of conceptual model into schema in relational database",
+    "SQL language - DDL, DML, Relational algebra",
+    "SQL language - SELECT, JOIN",
+    "SQL language - Aggregations, CTE",
+    "SQL language - Constraints, Triggers",
+    "SQL language - Window Functions",
+    "Database connectors, O / R mapping, architectural patterns of data sources",
+    "Normalization of data models",
+    "Indices, demand optimization",
+    "ACID, Transactions, Parallelism"
+  ],
+  "teaching_methods": [
+    "lecture",
+    "practicals",
+    "on-site learning"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 52.0,
+  "assessment_methods": [
+    {
+      "method": "continuous tests",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "project",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "final test",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "mandatory assignments",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students must prepare and submit all mandatory assignments and projects. A minimum of 20 points must be obtained from continuous tests (at least 6 points), project, and the final test. The final grade is calculated from continuous tests (15%), project (30%), and a final test (55%).",
+  "bibliography": [
+    "Date, C: An Introduction to Database Systems, Pearson; 8th edition, 2004.",
+    "Garcia-Molina, H, Ullman J.D., Wisdom, J.: Database Systems: The Complete Book, Prentice-Hall, 2002",
+    "Winand, M.: SQL Performance Explained, 2012."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-AIN-221/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "78db375db8958ad24036255b9114f9058f7aa2ed704c223a5ea29ca57319a883",
+  "extracted_at": "2026-11-20T09:27:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

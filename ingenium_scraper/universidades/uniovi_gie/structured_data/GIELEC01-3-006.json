@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Electrónica Industrial y Automática",
+  "course_name_en": "Industrial Electronics and Automation",
+  "ects": 9.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have completed the subjects corresponding to the BASIC TRAINING modules and those corresponding to the second year of the INDUSTRIAL BRANCH COMMON module.",
+    "It is strongly recommended to have solid knowledge of the subjects: Electrical Technology, Electronic Technology and Automation and Control."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic principles of electronic power conversion, basic configurations, and switching, conversion, and control elements.",
+      "type": "knowledge",
+      "code": "REI-1"
+    },
+    {
+      "text": "Select a specific sensor for an application, as well as analyze and design signal conditioning circuits from these sensors.",
+      "type": "skill",
+      "code": "REI-2"
+    },
+    {
+      "text": "Analyze and design power electronic and electronic instrumentation circuits.",
+      "type": "skill",
+      "code": "REI-3"
+    },
+    {
+      "text": "Design the architecture of a control system based on programmable logic controllers and industrial regulators.",
+      "type": "skill",
+      "code": "REI-4"
+    },
+    {
+      "text": "Configure and program control devices and implement control loops in medium complexity applications.",
+      "type": "skill",
+      "code": "REI-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Power Electronics: scope and utility, specific problems, mathematical and simulation tools.",
+    "Energy transformation based on the ideal switch and ideal passive components.",
+    "Power electronic devices: semiconductor switches, electrical and thermal protection of semiconductors, association of power semiconductors.",
+    "Components of a control system: instrumentation and control devices.",
+    "Measurement of the main industrial magnitudes.",
+    "Signal conditioning, acquisition, processing, and transmission.",
+    "Design of automatisms and typical applications in electrical installations and machines.",
+    "The programmable logic controller: programming with IEC 61131 standard.",
+    "Parameterization and implementation of PID loops in different devices.",
+    "Other applications and automatisms: pneumatic, hydraulic."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expositive classes",
+    "Group tutorials",
+    "Classroom/Seminar practices",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 87.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Block: Industrial Electronics Partial Exam (EPE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block: Automation Partial Exam (EPA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block: January Electronics Exam (EEE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Block: January Automation Exam (EEA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block: Electronics Laboratory Practices (PLE)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Block: Automation Laboratory Practices (PLA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the theoretical block, a minimum grade of 4 out of 10 is required in each of the \"Industrial Electronics\" and \"Automation\" parts. For the practical block, a minimum grade of 4 out of 10 is required in each of the \"Industrial Electronics Laboratory Practices\" and \"Automation Laboratory Practices\" parts. If the minimum for the theoretical partial exam (EPE) is met, the Electronics theory grade is EPE; otherwise, it is EEE. If the minimums for the Automation partial exam (EPA) and January exam (EEA) are met, the Automation theory grade is (0.4 * EPA) + (0.6 * EEA); otherwise, it is EEA. The final grade is calculated as (0.8 * Theory) + (0.2 * Practices), provided all minimums are met; otherwise, the final grade will be the minimum between the calculated grade and 4.0. In the extraordinary call, a theoretical exam and a practical exam evaluate all content; a minimum of 4 out of 10 in both parts is required, and the final grade is calculated using the same 80/20 weighting.",
+  "bibliography": [
+    "Andrés Barrado y Antonio Lázaro. “Problemas de Electrónica de Potencia”, Ed. Prentice Hall.",
+    "J. A. Gualda S. Martínez y P. M. Martínez. “Electrónica Industrial: Técnicas de Potencia”. Editorial Marcombo.",
+    "Miguel A. Pérez, Juan C.A. Antón, J. C. Campo, F.J. Ferrero y G. J. Grillo “Instrumentación electrónica” I.S.B.N. 84-9732-166-9 Ed. Thomson Paraninfo",
+    "N. Mohan, T. M. Undeland y W. P. Robbins. “Power Electronics: Converters, Applications and Design”. Ed. John Wiley and Sons.",
+    "M.H.Rashid. “Power Electronics, Circuits, Devices and Applications”. Ed. Prentice Hall.",
+    "R.W Erickson y D. Maksimovic. “Fundamentals of Power Electronics”. Kluwer Academic Publishers.",
+    "Neumática. SMC. International Training. Segunda Edición. Ed. Paraninfo. 2002. ISBN: 84-283-2848-X",
+    "Unity Pro. Lenguajes y estructura del programa. Manual de Referencia. Schneider Electrics, 2010.",
+    "Manual de Baja Tensión. Siemens. Ed. Marcombo Boixerau Editores, 2000. ISBN: 84-267-1242-8",
+    "Neumática. Serrano Nicolás, A. Ed. Thomson-Paraninfo. 5ª edición, 1996. ISBN: 84-283-2275-9",
+    "Autómatas programables. Josep Balcells. Jose Luis Romeral. Ed. Marcombo, 1997. ISBN: 84-267-1089-1"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-3-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-3-006",
+  "source_language": "es",
+  "source_sha256": "670daa3fcefe577bea575445d3fe6a77831b1642535ef04771bc5896db4bf2d6",
+  "extracted_at": "2026-11-20T01:13:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

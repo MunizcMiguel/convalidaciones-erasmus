@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Administración de Sistemas",
+  "course_name_en": "Systems Administration",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Programming knowledge",
+    "Computer and network knowledge from basic degree courses",
+    "Operating Systems course (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design, develop, evaluate and ensure the accessibility, ergonomics, usability and security of computer systems, services and applications, as well as the information they manage.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, autonomy and creativity. Ability to communicate and transmit the knowledge, skills and abilities of the profession of Technical Engineer in Computer Science.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge, administration and maintenance of computer systems, services and applications.",
+      "type": "knowledge",
+      "code": "ECR5"
+    },
+    {
+      "text": "Administration and maintenance of computer systems, services and applications.",
+      "type": "competence",
+      "code": "ECR5.2"
+    },
+    {
+      "text": "Knowledge of computer systems, services and applications.",
+      "type": "knowledge",
+      "code": "ECR5.1"
+    },
+    {
+      "text": "Knowledge of the services and management tools that integrate an operating system.",
+      "type": "knowledge",
+      "code": "PF10"
+    },
+    {
+      "text": "Perform basic administration tasks of a multi-tasking operating system in a network environment.",
+      "type": "skill",
+      "code": "PF11"
+    },
+    {
+      "text": "Install and configure applications and services in a computer system (physical or in the cloud), in order to achieve the required functionality for the system.",
+      "type": "skill",
+      "code": "PF12"
+    }
+  ],
+  "syllabus_topics": [
+    "Installation, startup and exploitation of systems",
+    "Concepts of system administration. Installation of Linux and Windows operating systems. Linux administrative tools. Windows administration console.",
+    "System startup and shutdown. Startup sequence. Linux service startup and shutdown scripts: runlevels, upstart, systemd. Troubleshooting Linux and Windows startup problems.",
+    "Resource management and growth planning",
+    "Disks and file systems: ext3-4, NTFS. Journals. Disk administration. Partitioning. Logical volumes. Disk arrays. Partition managers. Quotas. Other storage devices.",
+    "Linux and Windows directory structure. Software installation and update. Linux packages. System update. Kernel modules. Windows drivers.",
+    "Backups. Backup tools. Simple backup. Multi-level backup.",
+    "User management and administration. Authentication systems",
+    "User accounts. Creation, deletion, change of local user properties.",
+    "Local user authentication. Local groups. Resource access permissions.",
+    "Network configuration and shared resources.",
+    "Network configuration of a computer",
+    "Network authentication (LDAP, Kerberos, Active Directory)",
+    "Windows Networks. Active Directory. Domains. Organizational Units.",
+    "IPv6 concepts",
+    "Basic services",
+    "Firewalls: iptables, firewalls in Windows.",
+    "Network file systems: NFS and Samba/CIFS. Network backup.",
+    "Windows and Linux network services (DNS, WINS, DHCP, mail, SSH, Terminal Server, etc.)",
+    "Server migrations and basic virtualization concepts",
+    "Migration of physical Linux servers",
+    "Migration of physical Windows servers",
+    "Virtualization solutions",
+    "Migration of a physical server to a virtual server",
+    "Installation of operating systems and database applications.",
+    "Resource design and exploitation",
+    "System recovery",
+    "User administration",
+    "Network configuration and basic services",
+    "Backups and scheduled tasks",
+    "Migration and virtualization",
+    "Installation and configuration of cloud systems"
+  ],
+  "teaching_methods": [
+    "Laboratory Practices",
+    "Group Tutorials",
+    "Classroom Practices/Seminars",
+    "Expositive Classes",
+    "Group Work",
+    "Individual Work",
+    "Individual Tutorials",
+    "Personal Study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Evaluation of individual or group assignments related to theory",
+      "weight_percentage": null
+    },
+    {
+      "method": "Formative and continuous evaluation in practical work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final evaluation of practical work (product, report, oral presentation)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Theoretical exam (if average theory assignment score is below 7)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade calculation depends on the performance in theory assignments. If the average score in theory assignments is 7 or higher, the final grade is calculated as (0.5 × Practical work grade) + (0.5 × Average theory assignments). If the average score in theory assignments is below 7, a theoretical exam is required, and the final grade is calculated as (0.5 × Practical work grade) + (0.35 × Average theory assignments) + (0.15 × Theoretical exam grade). It is necessary to pass the theoretical and practical parts of the subject separately. The professor may require students to demonstrate knowledge in their submissions via videoconference.",
+  "bibliography": [
+    "All necessary material (notes, transparencies, supplementary material) is available on the \"Campus Virtual\" corporate platform."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-3-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-3-001",
+  "source_language": "es",
+  "source_sha256": "5efe276812eba1eb87e9c5a9660641177b0123ac1220ea32977d2b24ae613cbc",
+  "extracted_at": "2026-11-20T05:54:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

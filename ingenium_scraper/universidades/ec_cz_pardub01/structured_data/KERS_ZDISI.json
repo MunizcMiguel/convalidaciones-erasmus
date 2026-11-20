@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Digital Signal Processing",
+  "course_name_en": "Digital Signal Processing",
+  "ects": 5.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of differential and integral calculus",
+    "Knowledge of the sum of arithmetic / trigonometric series",
+    "Knowledge of Matlab software"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquaint students with the representation, processing and analysis of discrete signals and systems (filters) used in communication and control technology.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand signal representation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Model discrete signals and systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use tools for the analysis of discrete periodic and non-periodic signals in the time and frequency domain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Design discrete systems with required characteristics (by solving differential equations and by z-transform).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand sampling and subsequent quantization of continuous signals.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Perform state-space analysis of discrete signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Gain knowledge in the field of digital signal processing and their analysis in the time and frequency domain.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be acquainted with the issues of A/D conversion of continuous signals and analysis of continuous systems in the time and frequency domain.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Mathematical apparatus for processing discrete signals",
+    "Representation, modelling, classification and description of discrete signals. Discrete signal operations",
+    "Basic types of discrete signals (harmonic signals, unit pulse, unit jump, pulse signal, triangular signal)",
+    "Discrete systems in the time domain, block representation, properties of systems, FIR and IIR systems",
+    "Description of discrete systems using differential equations and their solutions",
+    "Tools for analysis of discrete periodic signals in the frequency domain (DTFS)",
+    "Tools for analysis of discrete non-periodic signals in the frequency domain (DTFT)",
+    "Discrete Fourier transform, fast computational algorithms (FFT)",
+    "Z-transformation I. (relations, convergence region, properties)",
+    "Z-transformation II. (Z-transformation of significant signals, inverse Z-transformation)",
+    "Determination of frequency characteristics of discrete systems",
+    "Sampling of continuous signals I. (types of sampling), conditions and effects of sampling in the time and frequency domain",
+    "Sampling of continuous signals II. (quantization, effects of quantization, A / D converters, SQNR)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Tutorial"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Homework assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Attendance rate of at least 80% and completion of all homework assignments are prerequisites for successful completion. Each homework assignment is marked with a maximum of 3 points and must be corrected if wrong; all must be turned in. The oral exam consists of three questions, each scoring 1 point, with a minimum of 0.5 points required for each question. The final grade is based on a score table ranging from A (3-2.7 points) to F (<1.5 points).",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "University of Pardubice (Univerzita Pardubice)",
+  "institution_slug": "ec_cz_pardub01",
+  "degree": "Bachelor's programme, Faculty of Electrical Engineering and Informatics - courses in English",
+  "course_code": "KERS/ZDISI",
+  "academic_year": "2026-2027",
+  "source_url": "https://portal.upce.cz/StagPortletsJSR168/CleanUrl?urlid=prohlizeni-predmet-sylabus&predmetZkrPrac=KERS&predmetZkrPred=ZDISI&predmetRok=2026&formRozvrhZobrazeni=0&plang=en",
+  "source_language": "en",
+  "source_sha256": "0535a6e7c29d1af419da52b25c0e43defd5875aa28c48d694a9c344fa95384ff",
+  "extracted_at": "2026-11-20T09:07:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

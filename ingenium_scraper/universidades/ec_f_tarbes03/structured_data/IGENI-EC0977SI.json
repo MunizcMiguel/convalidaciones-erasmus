@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Evaluation des performances",
+  "course_name_en": "Performance Evaluation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Performance evaluation course (Petri nets) seen in S7 Common Core."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be introduced to the modelling and simulation of complex systems as well as to the analysis and improvement of system performance.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the basic principles of discrete simulation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use the Witness software to model and analyze production systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret simulation results and suggest improvements.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to discrete simulation",
+    "Definition and importance of discrete simulation",
+    "Applications in industry and services",
+    "Objectives & Applications of simulation",
+    "Improvement of existing systems",
+    "System design",
+    "Steering and control assistance",
+    "Monitoring assistance",
+    "The simulation process",
+    "The main stages in the process",
+    "Modelling-programming-simulation process",
+    "Model validation",
+    "Modelling approaches",
+    "Basic concepts",
+    "Dynamic modelling approaches",
+    "Computer languages and tools",
+    "Presentation of Witness",
+    "Normal simulation elements",
+    "Predefined/system elements",
+    "Element manipulation",
+    "Modelling steps",
+    "Presentation of the tool & Demonstrations (Branch.mod, Maintenance.mod)",
+    "Simulation exercise",
+    "Basic Modelling Elements",
+    "Articles",
+    "Machines",
+    "Stocks",
+    "Visual Representation and Colour Code of Elements",
+    "Basic Routing Laws",
+    "WAIT",
+    "PULL",
+    "PUSH",
+    "Examples of combined use (WAIT, PUSH, PULL)",
+    "Illustrative example: Demo of a simple simulation model",
+    "Advanced Analysis and Optimisation",
+    "Taking ranges into account",
+    "Presentation of ranges",
+    "Active items",
+    "The special item: Route and Buffer routing law",
+    "Variables, Attributes and Resources",
+    "Other routing laws",
+    "Permanent and temporary assembly",
+    "Production and multi-cycle machines",
+    "Illustrative example: Demo of a simple simulation model",
+    "Practical exercise 1: Creation of a Basic Model",
+    "Creation of a production model with concepts of passive and active items, machines and stocks",
+    "Configuration of basic parameters",
+    "Execution and analysis of the results",
+    "Raising awareness of model validation, highlighting flows, capacities and bottlenecks",
+    "Practical exercise 2: Enhancing the Basic Model",
+    "Integrate the concept of production routings and analyse their contribution to improving the routing of items",
+    "Integrate resources and understand the differences between activity resources and process resources",
+    "Integrate the concepts of assembly machines, production machines and multi-cycle machines and understand the differences between types of machine",
+    "Execute and analyse the results for each type of integrated element",
+    "Practical exercise 3: Modelling a real system",
+    "Choosing the case study to be modelled by drawing lots from a portfolio of case studies",
+    "Creation of the model using the advanced features of Witness",
+    "Analysis of the results and suggestions for improvements"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical work",
+    "Demonstrations"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 19.0,
+  "assessment_methods": [
+    {
+      "method": "Practical work 1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is based solely on Practical work 1 (1*TP1)/1.",
+  "bibliography": [
+    "Witness : logiciel de simulation de systèmes de production. LANNER.",
+    "Witness : Production systems simulation software. LANNER"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0977SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "a92abeec8001b30dcb616e7152bdaaabea48a609dc53292fa1aa89cdf296d1a7",
+  "extracted_at": "2026-11-18T10:00:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,181 @@
+{
+  "course_name_original": "Robótica Computacional",
+  "course_name_en": "Computational Robotics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Have adequate knowledge of the scientific and technological aspects of: mathematical, analytical and numerical methods in engineering, electrical engineering, energy engineering, chemical engineering, mechanical engineering, continuum mechanics, industrial electronics, automation, manufacturing, materials, quantitative management methods, industrial informatics, urban planning and infrastructures.",
+      "type": "knowledge",
+      "code": "CG1"
+    },
+    {
+      "text": "Carry out research, development and innovation in products, processes and original methods in the development and/or application of ideas, often in a research context.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "That students know how to apply the acquired knowledge and their problem-solving ability in new or little-known environments within broader (or multidisciplinary) contexts related to their area of study.",
+      "type": "competence",
+      "code": "CB7"
+    },
+    {
+      "text": "That students are able to integrate knowledge and face the complexity of formulating judgments from information that, being incomplete or limited, includes reflections on the social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "That students know how to communicate their conclusions and the ultimate knowledge and reasons that support them to specialized and non-specialized audiences in a clear and unambiguous way.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "That students possess the learning skills that will allow them to continue studying in a way that will largely be self-directed or autonomous.",
+      "type": "skill",
+      "code": "CB10"
+    },
+    {
+      "text": "Know and apply classic computational technologies to fundamental problems related to perception, planning, and control in robotic systems.",
+      "type": "skill",
+      "code": "RA01"
+    },
+    {
+      "text": "Understand the fundamentals of reasoning under uncertainty and be able to apply them in all phases (perception, planning, control) to adapt to a changing, dynamic, and partially known environment.",
+      "type": "skill",
+      "code": "RA02"
+    },
+    {
+      "text": "Use algorithm libraries (ROS) to implement solutions to these problems.",
+      "type": "skill",
+      "code": "RA03"
+    },
+    {
+      "text": "Know and apply programming fundamentals, data structures, algorithms, and interprocess communication to the development of software for robotic systems.",
+      "type": "skill",
+      "code": "RA04"
+    },
+    {
+      "text": "Use software development tools (integrated development environment, version control) appropriate to the framework of robotic systems.",
+      "type": "skill",
+      "code": "RA05"
+    },
+    {
+      "text": "Use scientific software libraries for information processing.",
+      "type": "skill",
+      "code": "RA06"
+    },
+    {
+      "text": "Know and use robotic environment simulation tools.",
+      "type": "skill",
+      "code": "RA08"
+    },
+    {
+      "text": "Apply the acquired knowledge in the design and implementation of a robotic system.",
+      "type": "skill",
+      "code": "RA14"
+    },
+    {
+      "text": "Be able to work in a group through effective communication.",
+      "type": "skill",
+      "code": "RA15"
+    },
+    {
+      "text": "Be able to define, refocus, and meet system design specifications.",
+      "type": "skill",
+      "code": "RA16"
+    },
+    {
+      "text": "Be able to respond to problems or unforeseen events that arise during development.",
+      "type": "skill",
+      "code": "RA17"
+    },
+    {
+      "text": "Present and orally defend the completed project.",
+      "type": "skill",
+      "code": "RA18"
+    },
+    {
+      "text": "Know the current state of robotics and its foreseeable evolution.",
+      "type": "knowledge",
+      "code": "RA19"
+    },
+    {
+      "text": "Know the role of robotics within Industry 4.0.",
+      "type": "knowledge",
+      "code": "RA20"
+    },
+    {
+      "text": "Analyze and understand the technologies involved in a robotic system.",
+      "type": "skill",
+      "code": "RA21"
+    },
+    {
+      "text": "Know the fields in which robotics is expected to make disruptive contributions.",
+      "type": "knowledge",
+      "code": "RA22"
+    }
+  ],
+  "syllabus_topics": [
+    "Sensor-based navigation and obstacle avoidance",
+    "Trajectory planning",
+    "Map reconstruction",
+    "Localization",
+    "Machine learning in robot perception and control:",
+    "Classification",
+    "Regression",
+    "Clustering",
+    "Reinforcement learning"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Exercise resolution",
+    "Application examples",
+    "Case study",
+    "Project work",
+    "Company visits",
+    "External professor participation in seminars"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Course project (written document, software, oral presentation, Q&A)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Continuous assessment tests (autonomous resolution of theoretical-practical exercises via Virtual Campus)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final exam (individual written test with theoretical questions and application exercises)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as (0.50 × Course Project) + (0.20 × Continuous Assessment Tests) + (0.30 × Final Exam). A minimum grade of 4 out of 10 is required for the Course Project and the Final Exam. If these minimums are not met, the final grade will be the minimum between the calculated grade and 4.0. For the extraordinary call, the final grade is calculated as (0.50 × Course Project) + (0.30 × Theoretical Exam) + (0.20 × Continuous Assessment Tests). A minimum grade of 4 out of 10 is mandatory for the Course Project and the Theoretical Exam. If these minimums are not met, the final grade will be the minimum between the calculated grade and 4.0.",
+  "bibliography": [
+    "P.I. Corke, “Robotics, Vision & Control”, Springer 2017, ISBN 978-3-319-54413-7.",
+    "Russell, Stuart J. (Stuart Jonathan). Artificial Intelligence : a Modern Approach. Upper Saddle River, N.J. :Prentice Hall, 2010.",
+    "Sebastian Thrun, Wolfram Burgard, and Dieter Fox. 2005. Probabilistic Robotics (Intelligent Robotics and Autonomous Agents). The MIT Press.",
+    "Roland Siegwart, Illah R. Nourbakhsh, and Davide Scaramuzza. 2011. Introduction to Autonomous Mobile Robots (2nd. ed.). The MIT Press.",
+    "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani. An Introduction to Statistical Learning. Second Edition. Springer. 2021.",
+    "Richard S. Sutton, Andrew G. Barto. Reinforcement Learning: An Introduction. MIT Press. 2015.",
+    "Cristopher M. Bishop. Pattern Recognition and Machine Learning. Springer. 2006."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-2-023",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-2-023",
+  "source_language": "es",
+  "source_sha256": "bed33e7256efa40efe1234543798c351de1db723cd0eda2802578174ac585cdb",
+  "extracted_at": "2026-11-20T06:02:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

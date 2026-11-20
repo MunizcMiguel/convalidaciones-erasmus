@@ -1,0 +1,148 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics I and II from high school",
+    "Good command of matrix calculus at high school level"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces and linear applications, and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "RALG1"
+    },
+    {
+      "text": "Analyze and apply numerical methods for solving systems of linear equations.",
+      "type": "unspecified",
+      "code": "RALG2"
+    },
+    {
+      "text": "Be able to calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "RALG3"
+    },
+    {
+      "text": "Apply diagonalization methods to solve discrete linear dynamic systems.",
+      "type": "unspecified",
+      "code": "RALG4"
+    },
+    {
+      "text": "Use numerical methods to calculate eigenvalues and eigenvectors.",
+      "type": "unspecified",
+      "code": "RALG5"
+    },
+    {
+      "text": "Use computational tools to solve Linear Algebra problems.",
+      "type": "unspecified",
+      "code": "RALG6"
+    }
+  ],
+  "syllabus_topics": [
+    "Matrices",
+    "Definition and operations with matrices",
+    "Types of matrices",
+    "Elementary matrix transformations: matrix associated with a given one",
+    "LU factorization of a matrix",
+    "Linear systems, numerical resolution methods",
+    "Matrix form of a system of equations",
+    "Gaussian elimination: discussion and resolution of systems of linear equations",
+    "Relative and absolute errors: matrix norms",
+    "Numerical methods for solving systems: Jacobi and Gauss-Seidel methods",
+    "Vector spaces",
+    "Notion of vector space",
+    "Vectors, linear combinations, dependence, generators, bases, coordinates",
+    "Vector subspaces, intersection and sum",
+    "Linear applications",
+    "Definition and properties of linear applications",
+    "Matrix associated with a linear application, kernel and image, rank",
+    "Change of basis. Similar matrices",
+    "Diagonalization",
+    "Definition of eigenvalues and eigenvectors associated with a matrix",
+    "Diagonalization of matrices: necessary and sufficient conditions for diagonalization",
+    "Equivalent matrices",
+    "Discrete linear dynamic systems",
+    "Recurrences",
+    "Different types of discrete linear dynamic systems",
+    "Matrix resolution",
+    "Numerical methods for calculating eigenvectors and eigenvalues",
+    "Power method",
+    "Inverse power method",
+    "Introduction to MATLAB: Numerical and symbolic variables, symbolic functions, vectors and matrices",
+    "Matrices and systems: operations. The rref, linspace, a:h:b etc. commands",
+    "Numerical methods for solving systems: Jacobi and Gauss-Seidel algorithms: Creation of function files. Calculation of vector and matrix norms. Relative, absolute and percentage errors",
+    "Vector spaces and linear applications",
+    "Endomorphisms: diagonalization. eig, poly, roots, etc. instructions",
+    "Discrete dynamic systems",
+    "Numerical methods for calculating eigenvalues and eigenvectors: Power and inverse power methods"
+  ],
+  "teaching_methods": [
+    "Expository classes (virtual and in-person)",
+    "Classroom/seminar practices (virtual and in-person)",
+    "Laboratory practices (virtual and in-person)",
+    "Online teaching (videos, presentations, instructional texts, self-assessment questionnaires)",
+    "Problem-solving exercises and tasks (individual or group)",
+    "Challenges with real-world problems",
+    "Tutorials (Teams chat, virtual campus forums, individual or group virtual tutorials)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2) / Retake of Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices (PA)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory practices (PL)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Virtual Campus activities (NCv)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Programming exam (part of PL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous work during the semester (part of PL)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade (NF) is calculated as NF = 0.5 * NE + 0.2 * NL + 0.2 * PA + 0.1 * NCv, where NE is the average of written exams (P1 and P2), NL is the lab practice grade, PA is the classroom work grade, and NCv is the virtual campus activities grade. To pass, NF must be >= 5, and both NL and NE must be >= 3.5. If these minimums are not met, the final grade will be the minimum of NF and 4.5. Students in differentiated evaluation use NF = 0.7 * NE + 0.2 * NL + 0.1 * NOL, with NOL being the online activities grade. For extraordinary calls, students can retake NE and/or NL exams. The final grade formula NF = 0.7 * NE + 0.2 * NL + 0.1 * NCv (or NOL for differentiated evaluation) is applied, with the same minimum conditions for NE, NL, and NF as in the ordinary call.",
+  "bibliography": [
+    "Álgebra Lineal: una introducción moderna. Poole, D. Thomson, 2017",
+    "Linear Algebra and learning from data. Strang G. Wellesley-Cambridge Press, 2019",
+    "https://es.mathworks.com/",
+    "Mathematics for machine learning. Deisenroth, M. P., Faisal, A. A., Ong. C. S. Cambridge University Press, 2020",
+    "Matrix analysis and applied linear algebra. Meyer, C.D., SIAM, 2000",
+    "Linear Algebra and Optimization for Machine Learning. Charu C. Aggarwal. Springer Nature Switzerland, 2020",
+    "Gilbert Strang. 18.065 Matrix Methods in Data Analysis, Signal Processing, and Machine Learning. Spring 2018. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu. License: Creative Commons BY-NC-SA.",
+    "Gilbert Strang. RES.18-010 A 2020 Vision of Linear Algebra. Spring 2020. Massachusetts Institute of Technology: MIT OpenCourseWare, https://ocw.mit.edu/resources/res-18-010-a-2020-vision-of-linear-algebra-spring-2020. License: Creative Commons BY-NC-SA."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-1-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-1-001",
+  "source_language": "es",
+  "source_sha256": "dcb33bacbe1228a20aca6bb905464b195f8cb513de92653cd63066e7c8787fd7",
+  "extracted_at": "2026-11-20T05:55:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

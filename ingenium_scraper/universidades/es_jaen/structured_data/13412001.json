@@ -1,0 +1,175 @@
+{
+  "course_name_original": "Automática industrial",
+  "course_name_en": "Industrial Automation",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Physics II",
+    "Mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies typically demonstrated through the elaboration and defense of arguments and problem-solving within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to work, direct and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "skill",
+      "code": "131ACT1"
+    },
+    {
+      "text": "Ability for oral and written transmission of information adapted to the audience.",
+      "type": "skill",
+      "code": "131ACT6"
+    },
+    {
+      "text": "Ability to apply new technologies, including information and communication technologies.",
+      "type": "skill",
+      "code": "131ACT4"
+    },
+    {
+      "text": "Ability to manage information, handle and apply technical specifications and necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "131ACT2"
+    },
+    {
+      "text": "Knowledge of the fundamentals of electronics.",
+      "type": "knowledge",
+      "code": "131ACC5"
+    },
+    {
+      "text": "Knowledge and use of the principles of circuit theory and electrical machines.",
+      "type": "knowledge",
+      "code": "131ACC4"
+    },
+    {
+      "text": "Knowledge about the fundamentals of automatisms and control methods.",
+      "type": "knowledge",
+      "code": "131ACC6"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to industrial automation",
+    "Systems in automation",
+    "Applicability of automation",
+    "Historical evolution of automation",
+    "Automation of discrete event systems: basic concepts",
+    "Discrete event systems",
+    "Concept of state and transition",
+    "Boolean algebra",
+    "Automatisms",
+    "Combinational automatisms",
+    "Sequential automatisms",
+    "Implementation technologies",
+    "Wired automatisms (electrical): Introduction",
+    "Electrical diagrams",
+    "Elements of an electrical automatism",
+    "Identification and marking of electrical automatisms",
+    "Electrical automatism diagrams",
+    "Wired automatisms (pneumatic): Introduction",
+    "Pneumatic diagrams",
+    "Elements of a pneumatic automatism",
+    "Identification and marking of pneumatic automatisms",
+    "Pneumatic automatism diagrams",
+    "Programmed automatisms",
+    "Introduction to programmable logic controllers (PLC)",
+    "PLC architecture",
+    "Programming languages",
+    "Execution cycle (SCAN cycle)",
+    "GRAFCET",
+    "Examples of programmed automatisms",
+    "Fundamentals of continuous system control",
+    "Introduction to dynamic systems",
+    "Historical overview of control systems",
+    "Key concepts in continuous system control",
+    "Structure of a controlled system",
+    "Basic examples of continuous system control",
+    "Laplace transform",
+    "Block diagrams",
+    "Modeling of physical systems: Introduction",
+    "Mathematical modeling",
+    "Experimental modeling",
+    "PID Controllers: Basic concepts",
+    "On/Off Controller",
+    "PID Controller",
+    "Introduction to robotics",
+    "Industrial and service robotics",
+    "Historical and market background of robotics. Current situation",
+    "Examples of robotics applications",
+    "Practice 0. Introduction (applicability of the subject using models)",
+    "Practice 1. Pneumatic Automatisms (analysis of pneumatic components)",
+    "Practice 2. Introduction to TIA PORTAL (first contact with Siemens TIA PORTAL environment for S7-1200 PLCs)",
+    "Practice 3. Programmed Automatisms 1 (basic automation exercise with GRAFCET, KOP, PLCs, and timers)",
+    "Practice 4. Programmed Automatisms 2 (medium difficulty exercise with TIA PORTAL, advanced control structures like simultaneous actions, exclusive actions, and end-of-cycle emergency stops)",
+    "Practice 5. Introduction to Matlab/Simulink (first contact with Matlab/Simulink environment)",
+    "Practice 6. Modeling and Identification of a dynamic system (applying laws to model plant dynamic behavior)",
+    "Practice 7. Design and tuning of a PID controller (tuning a predefined plant using trial and error and/or Ziegler-Nichols method)"
+  ],
+  "teaching_methods": [
+    "Theoretical classes (including inverted classes and cooperative problem-solving)",
+    "Practical sessions (working in pairs, prior simulation tool work)",
+    "Expository classes in large groups (lectures, theory and general examples, introductory activities)",
+    "Small group classes (exercise resolution, practical activities, debates)",
+    "Collective tutorials (clarification of doubts)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam: Test 1 (evaluating topics 1-4)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Theoretical exam: Test 2 (evaluating topics 5-8)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Theoretical exam: Final exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Attendance and/or participation in in-person and/or virtual activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Completion of assignments, cases or exercises",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Laboratory/field practices/use of ICT tools",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "To pass the course, both the theoretical exam and the practical work must be passed independently. A minimum score must be obtained in each of the course blocks, with the specific minimums detailed in the exam statements. Non-attendance to practical sessions automatically implies failing them.",
+  "bibliography": [
+    "Balcells, José María - (1997) - Autómatas programables - Marcombo",
+    "Ubieto Artur, Pedro - (2001) - Diseño básico de automatismos eléctricos - Paraninfo",
+    "Serrano Nicolás, Antonio. - (1999) - Neumática - Paraninfo",
+    "Dorf, Richard C. - (2007) - Sistemas de control moderno - Pearson Prentice Hall",
+    "Ogata, Katsuhiko - (2005) - Ingeniería de control moderna - Pearson Education",
+    "Morcillo Ruiz, Pedro - (2000) - Comunicaciones industriales - Paraninfo",
+    "Ogata, Katsuhiko - (2010) - Modern control engineering - Prentice Hall",
+    "Krivts, Igor Lazar - (2006) - Pneumatic actuating systems for automatic equipment: structure and design - CRC/Taylor & Francis",
+    "Webb, John W. - (1995) - Programmable logic controllers: principles and applications - Prentice Hall"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412001",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/131A/13112002/es/2026-27-13412001_es.html",
+  "source_language": "es",
+  "source_sha256": "dd14c012138320895f296f5dbc3808f4f4e989e8a51d37d88f0083fdaacf3b3a",
+  "extracted_at": "2026-11-13T21:38:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,76 @@
+{
+  "course_name_original": "Communication Systems II",
+  "course_name_en": "Communication Systems II",
+  "ects": 7.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "EEE441"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To learn the basics of sampling process, pulse modulation and digital modulation techniques.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "To learn the fundamentals of information theory and understand the basics of channel coding for high-quality communications",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Meeting week",
+    "Introduction to random processes, probability, random variables, statistical averages, transformations of random variables",
+    ":Random processses, stationarity, mean, correlation and covariance functions, ergodicity, transmission of random proceses thorug linear filters, power spectral density, Gaussian processes and noise, properties of noise",
+    "Sampling process, pulse amplitude modulation, time-division multiplexing, pulse position modulation",
+    "Quantization, pulse code modulation, noise effects in PCM",
+    ":Baseband pulse transmission, matched filter, error rate due to ISI, Nyquist signaling for no ISI",
+    "Correlative level coding, M-PAM, tapped delay-line equalization, adaptive equalization, decision-feedback equalization, eye diagram",
+    "Transmission model for digital passband transmission, Gram-Schmidt orthogonalization, geometrical interpretation of signals",
+    "Correlator banks, coherent detection of signals in noise, ML decoder",
+    "Error-rate of maximum-likelihood decoder, korelasyon almacı, equivalence of correlation and matched filter receivers, detection of signals with unknown phase, hierarachy of digital modulation techniques, coherent BPSK modulation, Coherent BFSK modulation",
+    "Coherent QPSK, coherent MSK, GMSK, M-FSK",
+    "Noncoherent orthogonal modulation, noncoherent binary FSK, differential phase-shift keying, M-ary modulation, spectral efficiency",
+    "Enformasyon teorisine giriş. Karşılıklı enformasyon ve kapasite tanımları. Capacity of memoryless discrete-time and continuous-time channels",
+    "Introduction to error-control coding. Linear block codes, cyclic codes and convolutional codes. Associated encoding and deoding algorithms"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Modern Analog and Digital Communications. B. P. Lathi. Oxford University Press. B. P. Lathi. Oxford University Press.Schaum?s Outline of Analog and Digital Communications. Hwei P. Hsu, Nobel",
+    "Communication Systems. Simon Haykin. John Wiley and Sons Inc."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE442-s8",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857470&lang=en",
+  "source_language": "en",
+  "source_sha256": "3cd7fde6c37bc366dacd80b0b1d37f9c1e27b55211dbbae0874b9d1b95272d83",
+  "extracted_at": "2026-11-20T12:53:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

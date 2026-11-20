@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Visión por Computador Avanzada",
+  "course_name_en": "Advanced Computer Vision",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear Algebra",
+    "Euclidean Geometry",
+    "Statistics",
+    "Programming with a high-level language (e.g., MATLAB®, C/C++, or Python)",
+    "Image Processing"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand advanced computer vision methods and how to apply them to problems of image interpretation and/or retrieval of 3D scene information.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Choose appropriate methods to analyze a scene to extract information, and predict the operation and performance of the proposed solution.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze non-trivial problems in the field of computer vision, understand the keys to their solution, and propose algorithms that solve the problem.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Deepen the study of the subject and its application to new problems autonomously.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Mathematical foundations for computer vision",
+    "Image segmentation and scene interpretation",
+    "Retrieval of 3D information from the scene: Structure from motion / stereo / illumination",
+    "Advanced object recognition techniques",
+    "Analysis of practical cases"
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures)",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical/practical exam (Project-based evaluation)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Course project (Project-based evaluation)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Theoretical/practical exam (Conventional evaluation)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Individual work (Conventional evaluation)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "Students can choose between two evaluation options: Project-based evaluation or Conventional evaluation. The project-based evaluation consists of a theoretical/practical exam (20%) and a course project (80%). The conventional evaluation consists of a theoretical/practical exam (75%) and individual work (25%). For the project, students must research, propose, develop a functional prototype, and document the solution to an open problem.",
+  "bibliography": [
+    "Stan Birchfield. Image Processing and Analysis 1e. Cengage Learning, 2017. ISBN-13: 9781285179520 / ISBN-10: 1285179528",
+    "Gary Bradski y Adrian Kaehler, Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library. O’Reilly Media, Inc., 2016. Print ISBN: 978-1-4919-3799-0| ISBN 10: 1-4919-3799-8",
+    "R. Szeliski, Computer Vision: Algorithms and Applications. Springer London Ltd, 2010. (Draft disponible on-line: <http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf>)",
+    "R. Hartley y A. Zisserman, Multiple View Geometry in Computer Vision. Cambridge University Press, 2003.",
+    "Ma, Yi, et al. An invitation to 3-d vision: from images to geometric models. Vol. 26. Springer Science & Business Media, 2012.",
+    "B. Cyganek y J. P. Siebert, An Introduction to 3d Computer Vision Techniques and Algorithms. John Wiley and Sons, 2009.",
+    "Cyganek, Boguslaw. Object detection and recognition in digital images: theory and practice. John Wiley & Sons, 2013.",
+    "Articles from web repositories and/or engineering journal subscriptions maintained by the University of Oviedo."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Automatización e Informática Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mm_automatizacion",
+  "degree": "Máster Universitario en Ingeniería de Automatización e Informática Industrial",
+  "course_code": "MINAUT02-1-015",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/automatizacion/-/fof/asignatura/MINAUT02-1-015",
+  "source_language": "es",
+  "source_sha256": "337a22fe62df151d8602f369c7a877d567f5a29651dd42880cd0a0ee4e6b5567",
+  "extracted_at": "2026-11-20T06:00:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

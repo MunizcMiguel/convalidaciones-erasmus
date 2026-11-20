@@ -1,0 +1,166 @@
+{
+  "course_name_original": "Ingeniería Térmica",
+  "course_name_en": "Thermal Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Mechanics and Thermodynamics",
+    "Basic knowledge of Calculus",
+    "Basic knowledge of Linear Algebra",
+    "Basic knowledge of Mathematical Methods",
+    "Concepts of thermometry and calorimetry",
+    "Application of the first and second principle to closed systems and simple thermodynamic cycles"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills, and abilities in the field of Mechanical Engineering, both orally and in writing, and to all types of audiences",
+      "type": "skill",
+      "code": "CG5"
+    },
+    {
+      "text": "Knowledge for performing measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks",
+      "type": "knowledge",
+      "code": "CG6"
+    },
+    {
+      "text": "Ability to analyze and assess the social and environmental impact of technical solutions",
+      "type": "skill",
+      "code": "CG8"
+    },
+    {
+      "text": "Ability for occupational risk prevention and protection of workers' and users' health and safety",
+      "type": "skill",
+      "code": "CG13"
+    },
+    {
+      "text": "Honesty, responsibility, ethical commitment, and solidarity spirit",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team",
+      "type": "skill",
+      "code": "CG15"
+    },
+    {
+      "text": "Acquire knowledge of applied thermodynamics and heat transfer: basic principles and their application to solving engineering problems",
+      "type": "knowledge",
+      "code": "CC1"
+    },
+    {
+      "text": "Relate the scope of study of Thermodynamics and Heat Transfer and know the most important applications of both disciplines in the field of Thermal Engineering",
+      "type": "knowledge",
+      "code": "RIT-1"
+    },
+    {
+      "text": "Apply mass, energy, and entropy balances to various systems, including the main equipment present in industrial plants (engines, turbines, compressors, boilers, condensers, etc.)",
+      "type": "skill",
+      "code": "RIT-2"
+    },
+    {
+      "text": "Know the equipment that integrates power generation cycles (steam, gas, and combined) and refrigeration cycles commonly used in industry and be able to perform their thermodynamic analysis to assess their energy efficiency",
+      "type": "knowledge",
+      "code": "RIT-3"
+    },
+    {
+      "text": "Understand the main characteristics and fundamental physical laws on which the three basic mechanisms of heat transfer (conduction, convection, and radiation) are based",
+      "type": "knowledge",
+      "code": "RIT-4"
+    },
+    {
+      "text": "Mathematically express the equations that describe heat transfer in a physical problem based on fundamental balances (mass, momentum, and heat) and the laws on which the basic mechanisms are based",
+      "type": "skill",
+      "code": "RIT-5"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I. APPLIED THERMODYNAMICS",
+    "Chapter 1. Properties and Processes in Thermodynamic Systems",
+    "Lesson 1: Basic concepts: Units of measurement. Gases: ideal, real, and Van der Waals. Equations of state. Pure substance: phases and diagrams. State properties: determination using tables and/or equations of state.",
+    "Chapter 2. Basic Principles of Thermodynamics",
+    "Lesson 2. First Principle of Thermodynamics. Sign convention. Application to closed and open systems in steady state.",
+    "Lesson 3. Second Principle of Thermodynamics. Definition of entropy and applications. Entropy generation. Isentropic efficiency of equipment.",
+    "Chapter 3. Thermal Machines",
+    "Lesson 4. The thermal machine: types and efficiency. The Carnot cycle: thermal efficiency. Cycles of thermal machines operating as engines: thermal efficiency.",
+    "Lesson 5. Gas power cycles: analysis of the Brayton cycle.",
+    "Lesson 6. Steam power cycles: analysis of the Rankine cycle. Combined cycle.",
+    "Lesson 7. Continuous cold production by vapor compression of a refrigerant: analysis of the inverse Rankine cycle. The heat pump and its analysis.",
+    "BLOCK II. BASIC CONCEPTS OF HEAT TRANSFER",
+    "Chapter 4. Fundamentals of heat transfer",
+    "Lesson 8: Fundamental concepts, characteristics of basic heat transfer mechanisms and basic laws.",
+    "Chapter 5. Conduction",
+    "Lesson 9. Simple geometries: plane, cylindrical and spherical wall. Critical radius of insulation.",
+    "Lesson 10. Additional surfaces: concept, temperature field, efficiency and dissipation coefficient. Heat transfer through finned surfaces.",
+    "Lesson 11. Heat transfer in common configurations: shape factor in conduction.",
+    "Chapter 6. Convection",
+    "Lesson 12. Analysis methods in forced and natural convection.",
+    "Lesson 13. Use of empirical correlations in forced and natural convection.",
+    "Chapter 7. Radiation",
+    "Lesson 14. Fundamentals of thermal radiation. Radiative properties. Blackbody and gray body. Heat transfer by radiation between two surfaces. Combined mechanisms of heat transfer."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Seminars",
+    "Group tutorials",
+    "Virtual Campus activities (reading theoretical foundations, solving questionnaires, participating in debate forums, viewing additional material)",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Participation in class (PA)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices (PL)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Group tutorial (TG)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written exam (EX)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "For students with continuous evaluation, if the written exam score is 3.5 or higher, the final grade is calculated as (0.1 x PA) + (0.1 x PL) + (0.1 x TG) + (0.7 x EX). Otherwise, the grade will be the minimum of the calculated score and 4.0. To pass, the course grade must be 5.0 or higher. For students with differentiated evaluation, if the written exam score is 3.5 or higher, the final grade is calculated as (0.3 x EP) + (0.7 x EX). Otherwise, the grade will be the minimum of the calculated score and 4.0. To pass, the course grade must be 5.0 or higher. For extraordinary calls, the calculation method varies depending on whether the student was under continuous or differentiated evaluation, with minimum scores required for the written exam and potential re-use of previous component scores.",
+  "bibliography": [
+    "Termodinámica. Çengel & Boles. Editorial Mc Graw Hill.",
+    "Transmisión de Calor. Apuntes. Prieto M.M., Suárez I. Ediuno",
+    "Fundamentos de Termodinámica Técnica. Moran y Shapiro. Vol. I y II. Editorial Reverté, S.A.",
+    "Transferencia de Calor y Masa. Çengel YA. McGraw-Hill. 3ª edición (2007)"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-C-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-006",
+  "source_language": "es",
+  "source_sha256": "f24228c1e8bb2982eb6bf07fa027b87fe8dd1f8aa563b7911b1c24105321c3a3",
+  "extracted_at": "2026-11-20T06:03:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

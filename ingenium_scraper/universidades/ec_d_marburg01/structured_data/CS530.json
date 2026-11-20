@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Virtuelle Maschinen",
+  "course_name_en": "Virtual Machines",
+  "ects": 6.0,
+  "semester": "Winter semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "No prerequisites. Competencies taught in the basic modules of Computer Science and the advanced modules Software Engineering and Software Practicum are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "describe and explain the basic concepts of process-based and system-based virtual machines",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "describe the structure of virtual machines",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "develop components of process-based VMs (such as scheduler, garbage collection, just-in-time compiler)",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "explain the methods of system-based VMs (hypervisor, hardware emulation, hardware virtualization, paravirtualization)",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "explain optimizations in virtual machines",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "present exemplary modern research in the field of VM technology",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "compare implementation approaches for programming language concepts (code transformation vs. VM support)",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Process-based virtual machines for modern programming languages",
+    "Managed resources to reduce programmer complexity",
+    "Dynamic optimizations and program analyses",
+    "System-based virtual machines providing a virtual environment for entire computer systems (hardware and operating system)",
+    "Sharing of multiple virtual machines on a physical machine",
+    "Separation of virtual resources like memory"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercise assignments (minimum 50% of points)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solutions for at least two exercise assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credit points, at least 50 percent of the points from the weekly exercise assignments must be achieved, and solutions for at least two exercise assignments must be presented orally. Grading is based on a scale of 0 to 15 points according to the examination regulations for the M.Sc. Computer Science program.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS530",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Virtuelle_Maschinen.html",
+  "source_language": "de",
+  "source_sha256": "9ed9c65cefc6cadf983213e742e706510535b6163bca28d2930835a46a95c86b",
+  "extracted_at": "2026-11-20T09:22:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

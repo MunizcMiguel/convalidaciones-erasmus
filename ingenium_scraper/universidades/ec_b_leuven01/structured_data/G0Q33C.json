@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Computerarchitectuur",
+  "course_name_en": "Computer Architecture",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Students must have a basic knowledge of programming."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have insight into the architecture of a computer and can explain the role and operation of the main components (processor, I/O devices, memory).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can read and write programs in a modern Instruction Set Architecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can manually translate a program in a higher-level programming language, e.g., C, to a concrete Instruction Set Architecture, e.g., RISC-V.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students understand the different representation methods for numerical and non-numerical data in a computer and how operations are performed on them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students understand the functions of system software such as the compiler, linker, and loader, and the role they play in program execution.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students understand how a processor can be implemented in hardware and can explain techniques that improve processor speed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have insight into the memory hierarchy used by modern computer systems and in techniques used to efficiently use memory.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Part 1: The hardware/software interface: Instruction Set Architectures, system software",
+    "Part 2: Processors: basic implementation, pipelining",
+    "Part 3: Memory hierarchy: memory technologies, caches, memory management",
+    "Students gain practical experience writing programs in the RISC-V Instruction Set Architecture, and complete assignments that deepen understanding of concepts covered in this course."
+  ],
+  "teaching_methods": [
+    "Classical lectures",
+    "Interactive sessions (if requested)",
+    "Guided practical sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 71.5,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment for practicals",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Evaluation is based on continuous assessment for the practicals and a concluding written exam during the examination period. A resit follows the same modalities as the first exam opportunity.",
+  "bibliography": [
+    "Computer organization and design, RISC-V Edition, Patterson en Hennessy"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "G0Q33C",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/G0Q33CN",
+  "source_language": "nl",
+  "source_sha256": "e5f195dd314a68fe02d4a620a350b6a7388aeb76af63a1ff5f471d06a7ce3777",
+  "extracted_at": "2026-11-20T09:17:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

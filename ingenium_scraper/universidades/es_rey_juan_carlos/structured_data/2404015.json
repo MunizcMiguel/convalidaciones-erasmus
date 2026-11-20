@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Métodos matemáticos aplicados a la ingeniería mecánica",
+  "course_name_en": "Mathematical Methods Applied to Mechanical Engineering",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of Mathematics I",
+    "Knowledge of Mathematics II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; ordinary and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "HAB1"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to ordinary differential equations.",
+    "First-order ordinary differential equations.",
+    "Higher-order linear ordinary differential equations.",
+    "Systems of first-order linear ordinary differential equations.",
+    "Laplace transforms: theory and applications.",
+    "Fourier series.",
+    "Application of Fourier series to the diffusion equation, the wave equation, and Laplace's equation in bounded domains.",
+    "Fourier transforms and their application to partial differential equations in unbounded domains.",
+    "Numerical methods for solving non-linear equations.",
+    "Bisection method, fixed-point method, and Newton-Raphson method.",
+    "Methods for solving ordinary differential equations. Initial value problems.",
+    "Euler methods, predictor-corrector methods, and Runge-Kutta methods.",
+    "Partial differential equations. Finite difference method.",
+    "Finite difference schemes (explicit and implicit).",
+    "Approximation of derivatives using differences.",
+    "Application to model equations (heat, wave, Laplace)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving and exercise sessions",
+    "Practical activities in computer labs",
+    "Practices with Matlab in computer labs",
+    "Individual or group tutorials for doubt resolution"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 108.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (Topic 1)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Written test (Topic 2)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Evaluation of practical activities in computer labs (Block II)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Written test and/or computer lab test (Block II)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The final grade is the weighted average of the evaluation activities, provided each activity meets its specified minimum score. To pass the course, the weighted average must be 5 or higher. If one or more activities do not meet the minimum score, the final grade will be the average obtained from all activities, capped at 4.9. In the extraordinary session, students must retake tests where they did not achieve the minimum score and may optionally retake tests where they reached the minimum score but not a passing grade.",
+  "bibliography": [
+    "Boyce, W. E. y DiPrima, R. C. (2017). Ecuaciones diferenciales y problemas con valores en la frontera. Wiley.",
+    "Zill, D. G. (2018). Ecuaciones diferenciales con aplicaciones de modelado. Cengage Learning.",
+    "Haberman, R. (2013). Applied Partial Differential Equations. Pearson.",
+    "Strauss, W. A. (2007). Partial Differential Equations: An Introduction. Wiley.",
+    "Arnold, V. I. (1992). Ordinary Differential Equations. Springer.",
+    "A. Quarteroni, F. Saleri, Cálculo científico con MATLAB y Octave, Springer",
+    "S. Chapra, R. Canale, Numerical Methods for Engineers, McGraw-Hill (8ª ed.)"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad Rey Juan Carlos",
+  "institution_slug": "es_rey_juan_carlos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "2404015",
+  "academic_year": "2026-27",
+  "source_url": "https://servicios.urjc.es/guiasdocentes/pdfGuia.jsp?a=2404015",
+  "source_language": "es",
+  "source_sha256": "6f701ad6442724a84f1dde961f87d4b20fe779c3c7fbe85da4abc2237a26576c",
+  "extracted_at": "2026-11-13T22:46:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

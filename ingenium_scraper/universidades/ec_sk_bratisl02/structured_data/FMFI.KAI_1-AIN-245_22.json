@@ -1,0 +1,83 @@
+{
+  "course_name_original": "3D Technologies, Robotics and Artificial Intelligence",
+  "course_name_en": "3D Technologies, Robotics and Artificial Intelligence",
+  "ects": 3.0,
+  "semester": "5.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student will gain basic knowledge about current technologies of 3D imaging (Structured Light, Parallel structured light, Stereo vision, Photogrammetry, Time-of-Flight cameras) and storage of 3D data processing (depthmap, pointcloud).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The potential of these technologies for intelligent robotics and artificial intelligence (object recognition, object capture) will be presented.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Techniques that can be applied to the obtained data will be discussed: geometric algorithms, neural networks, convolutional neural networks, other machine learning algorithms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Possible applications for industry and the consumer area will also be presented.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "As an additional topic will be the presentation of basic knowledge in the business application of academic ideas (i.e. how to establish a technological start-up).",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "3D scanning technologies",
+    "Representation of 3D data and work with them",
+    "3D data processing",
+    "Robotic Operating System as an abstraction interface for robotics, Gazebo as a simulation tool",
+    "Neural networks, framework caffe, other tools for rapid prototyping",
+    "Establishment of a startup, obtaining an investment, patent protection, business plan"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 39.0,
+  "workload_hours_contact": 39.0,
+  "assessment_methods": [
+    {
+      "method": "Implementation of a small project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project presentation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Solved tasks in continuous assessment",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "During the exercises, the student must master the technologies taken over, through the implementation of a small project. At the end of the teaching part of the semester, the student must present his project implemented by modern technologies. For solved tasks, the student can get points in the continuous assessment. The indicative rating scale is: A 90%, B 80%, C 70%, D 60%, E 50%. The scale of assessment (preliminary/final) is 100/0.",
+  "bibliography": [],
+  "isced_f_code": null,
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-AIN-245/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "8a24bd5f435dd11bf9f556f62a17c458cf7bd5869731facb377c36a6e4fa7edc",
+  "extracted_at": "2026-11-20T09:27:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

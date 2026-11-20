@@ -1,0 +1,124 @@
+{
+  "course_name_original": "TELECOMMUNICATION FOUNDATIONS (566II)",
+  "course_name_en": "Telecommunication Foundations",
+  "ects": 6.0,
+  "semester": "Secondo Ciclo Semestrale",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Good knowledge of the fundamental principles of signal theory, with particular reference to the spectral analysis of deterministic signals and stochastic processes.",
+    "Solid command of complex numbers.",
+    "Good familiarity with phasor analysis.",
+    "Knowledge of the basic mathematical tools used in the analysis of linear systems."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire fundamental knowledge of the operating principles of telecommunication systems, including digital modulation, characterization and modeling of noise, signal reception techniques in the presence of noise and interference, and basic principles of equalization for compensating channel distortions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire theoretical tools required to understand, model, and analyze the main telecommunication systems operating both at baseband and in passband.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Model and analyze analog and digital communication systems operating both at baseband and in passband.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compare different communication systems in terms of spectral efficiency, energy efficiency, and overall performance.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Represent and assess the effects of distortions and impairments introduced by the transmission channel on the received signal.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Select the most appropriate transmission technique according to system requirements, such as data transmission rate and bit error probability, and the available resources, such as bandwidth and transmit power.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the analysis methods learned to the evaluation of simple telecommunication systems in practical contexts.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Characterization of Noise in Communication Systems",
+    "Power spectral density dissipated on a load",
+    "Available power spectral density of a generator",
+    "Available power gain of a two-port network",
+    "Nyquist theorem for noisy linear networks",
+    "Equivalent noise temperature and noise figure",
+    "Friis formula",
+    "Equivalent noise bandwidth",
+    "Communication systems over radio and cable channels",
+    "Repeaters for analog and digital signals",
+    "Analog-to-Digital Conversion of a Signal",
+    "PCM technique: uniform and non-uniform quantization",
+    "Compressor and expander",
+    "Sample interpolation",
+    "Performance of a PCM system: quantization noise and effect of transmission channel errors",
+    "Performance curves of PCM systems",
+    "Theory of Digital Modulations",
+    "PAM modulation: analytical signal model and its power spectral density",
+    "Structure of modulator and demodulator",
+    "Nyquist condition for intersymbol interference (ISI) elimination",
+    "Design of transmit and receive filters",
+    "Raised cosine pulses",
+    "QAM and PSK modulations: analytical signal model and its power spectral density",
+    "Structure of modulator and demodulator",
+    "Effect of phase error in carrier reconstruction",
+    "Decision regions and bit error probability calculation",
+    "Channel Equalization Techniques",
+    "Wireless channel model: multipath propagation",
+    "Coherence bandwidth and coherence time",
+    "Statistical models of indoor, typical urban, and hilly terrain channels",
+    "Linear equalizers in the time domain",
+    "Criteria for setting equalizer coefficients: Zero-Forcing and Minimum Mean Square Error (MMSE)",
+    "Performance of equalization techniques"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical examples",
+    "Exercises",
+    "References to real telecommunication systems",
+    "Microsoft Teams platform for materials and announcements",
+    "Active student participation through questions, contributions, discussions",
+    "Individual or group office-hour meetings"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination consists of an oral test covering main topics including analog and digital modulation, analog-to-digital signal conversion, channel equalization techniques, and noise effects. Students will be assessed on theoretical understanding, application of concepts, clarity of presentation, and technical terminology. They may also solve and discuss exercises, potentially in written form during the oral examination. The exam is passed if the student demonstrates adequate command of fundamental concepts, ability to reason and connect topics, and clarity and rigor in presentation.",
+  "bibliography": [
+    "A. N. D’Andrea, Comunicazioni Elettriche, Edizioni ETS, Pisa, 2002.",
+    "U. Mengali, M. [docente], Trasmissione Numerica, McGraw-Hill, 2001.",
+    "L. W. Couch, Digital and Analog Communication Systems, Prentice Hall, 2002.",
+    "S. Haykin, Communication Systems, John Wiley & Sons, 2009."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "566II",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=53295_702862_70770&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "ba0a21a1714b02d1128c8e27ddb0f06e290b9cbd771769c3a220dd98f5c5c864",
+  "extracted_at": "2026-11-20T09:25:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

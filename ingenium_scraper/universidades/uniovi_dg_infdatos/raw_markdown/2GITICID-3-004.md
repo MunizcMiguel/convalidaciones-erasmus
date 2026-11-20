@@ -1,0 +1,361 @@
+---
+{
+ "course_code": "2GITICID-3-004",
+ "course_name": "Tecnología Electrónica de Computadores",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-3-004",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:09",
+ "content_sha256": "ad1d219a879e0e056bd94591028db6087cc0767a33990412832eeb286d1122b6"
+}
+---
+
+# Tecnología Electrónica de Computadores
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-3-004
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Primer Semestre
+- **Materia:** Fundamentos Físicos
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Clases Expositivas (28 Horas); Prácticas de Aula/Semina (7 Horas); Prácticas de Laboratorio (21 Horas); Tutorías Grupales (2 Horas)
+
+## Contextualización
+
+La electrónica constituye la base del funcionamiento de cualquier computador, y está presente en prácticamente todas las aplicaciones industriales y domésticas actuales (procesos industriales, aplicaciones domésticas, comunicaciones, conversiones energéticas, iluminación, domótica, medicina, etc.).
+
+Es por ello, necesario que cualquier Ingeniero Informático posea unos conocimientos básicos en dicha tecnología. Esta asignatura se enmarca en la Titulación dentro del grupo de materias de formación fundamental, más concretamente en el módulo de Fundamentos de la Ingeniería (FI), que se completa durante los dos primeros cursos. Dentro de ese módulo, pertenece a la materia de fundamentos físicos (FF), junto a la asignatura ondas y electromagnetismo, que se imparte en el primer curso.
+
+La asignatura de Tecnología Electrónica de Computadores se imparte en el primer semestre del segundo curso, y permite proporcionar al alumno una buena formación básica tanto de electrónica analógica como especialmente de electrónica digital, constituyendo un importante apoyo para otras asignaturas de la titulación, especialmente las del módulo de Sistemas y Servicios (SS), correspondientes tanto a la materia de Plataformas de Computación (Arquitectura de Computadores, Infraestructura Informática, Informática móvil) como a la materia de Redes y Servicios (Redes de Computadores, Sistemas Distribuidos, Ingeniería de Redes).
+
+El uso de dispositivos electrónicos optimizados que trabajan próximos al hardware, contribuye a la mejora de la eficiencia energética y a la disminución de la huella de carbono al reducir el consumo tanto energético como computacional. La aplicación de la electrónica en el diseño de dispositivos inteligentes de bajo coste, basados en microcontroladores (y con capacidad de comunicaciones) permite optimizar, desde el punto de vista energético, multitud de procesos físicos, al utilizar la información generada por los dispositivos electrónicos en el desarrollo de capas de software de control y actuación en niveles superiores con mayores capacidades.
+
+## Requisitos
+
+Ninguno
+
+## Competencias y resultados del aprendizaje
+
+Las competencias generales recogidas en la memoria de verificación de la titulación de Grado en Ingeniería Informática en Tecnologías de la Información y a cuya adquisición contribuye esta asignatura son las siguientes:
+
+**GTR1** Capacidad para resolver problemas dentro de su área de estudio.
+
+**GTR2** Capacidad de abstracción: capacidad de crear y utilizar modelos que reflejen situaciones reales.
+
+**GTR3** Capacidad de actuar autónomamente.
+
+**GTR4** Capacidad de planificación y organización del trabajo personal.
+
+**GTR6** Capacidad de comunicación efectiva (en expresión y comprensión) oral y escrita, con especial énfasis en la redacción de documentación técnica.
+
+También la asignatura aporta en la adquisición de las siguientes competencias específicas de formación básica, recogidas en el punto EFB2 de la memoria de la titulación :
+
+**EFB2** Comprensión y dominio de los conceptos básicos de campos y ondas y electromagnetismo, teoría de circuitos eléctricos, circuitos electrónicos, principio físico de los semiconductores y familias lógicas, dispositivos electrónicos y fotónicos, y su aplicación para la resolución de problemas propios de la ingeniería.
+
+Particularmente:
+
+**EFB2.3** Comprensión y dominio de los conceptos básicos de teoría de circuitos eléctricos y suaplicación para la resolución de problemas propios de la ingeniería.
+
+**EFB2.4** Comprensión y dominio de los conceptos básicos de circuitos electrónicos, principio físico de los semiconductores y familias lógicas y su aplicación para la resolución de problemas propios de la ingeniería.
+
+**EFB2.5** Comprensión y dominio de los conceptos básicos de dispositivos electrónicos y fotónicos y su aplicación para la resolución de problemas propios de la ingeniería.
+
+La adquisición de estas competencias se traduce en los siguientes resultados de aprendizaje para la asignatura:
+
+**FF6** Conocer los elementos básicos de un circuito y las ecuaciones que rigen su funcionamiento
+
+**FF7** Conocer y comprender las leyes y teoremas básicos para la resolución de circuitos
+
+**FF8** Ser capaz de analizar circuitos eléctricos básicos
+
+**FF9** Conocer y comprender el funcionamiento y uso de algunos circuitos eléctricos
+
+**FF10** Conocer los componentes semiconductores básicos utilizados en los circuitos electrónicos y su comportamiento como elementos del circuito
+
+**FF11** Comprender el principio de funcionamiento de los componentes semiconductores básicos
+
+**FF12** Ser capaz de analizar circuitos básicos con componentes semiconductores
+
+**FF13** Conocer algunos circuitos de aplicación básicos y comprender su funcionamiento
+
+**FF14** Ser capaz de usar las hojas de características de los fabricantes para obtener información
+
+**FF15** Conocer las familias lógicas básicas y sus características principales
+
+**FF16** Comprender el funcionamiento de las familias lógicas básicas, y las posibilidades de interconexión
+
+**FF17** Ser capaz de utilizar los componentes semiconductores básicos en algunas aplicaciones habituales
+
+**FF18** Conocer los dispositivos electrónicos combinacionales y secuenciales principales
+
+**FF19** Comprender el funcionamiento de los dispositivos electrónicos combinacionales y secuenciales principales
+
+**FF20** Conocer algunos circuitos de aplicación de los dispositivos electrónicos combinacionales y secuenciales y comprender su funcionamiento
+
+**FF21**Conocer los dispositivos fotónicos básicos
+
+**FF22** Comprender el funcionamiento de los dispositivos fotónicos básicos
+
+**FF23** Conocer algunos circuitos de aplicación de los dispositivos fotónicos básicos y comprender su funcionamiento
+
+**FF24** Ser capaz de usar las hojas de características de los fabricantes de dispositivos electrónicos y fotónicos para obtener información
+
+**FF25** Ser capaz de desarrollar aplicaciones que utilicen los dispositivos electrónicos y fotónicos
+
+**FF26** Ser capaz de configurar y programar los dispositivos electrónicos secuenciales para su correcto funcionamiento
+
+## Contenidos
+
+*TEORÍA Y PRÁCTICAS DE AULA*
+
+Los contenidos teóricos de la asignatura están organizados en 10 temas, que se agrupan en cuatro grandes bloques temáticos, a saber:
+
+*BLOQUE I. CIRCUITOS ELÉCTRICOS*
+
+Tema 1. Circuitos eléctricos. Componentes pasivos y leyes básicas
+
+Tema 2. Fundamentos de resolución de circuitos. Teoremas
+
+*BLOQUE II. DISPOSITIVOS ELECTRÓNICOS*
+
+Tema 3. Componentes electrónicos. Diodos y transistores
+
+Tema 4. Componentes optoelectrónicos. LEDs, displays y fotorreceptores
+
+*BLOQUE III. CIRCUITOS ELECTRÓNICOS DIGITALES*
+
+Tema 5. Familias lógicas. Características eléctricas y compatibilidad. Tipos de salidas
+
+Tema 6. Circuitos electrónicos combinacionales. Puertas y bloques MSI combinacionales
+
+Tema 7. Circuitos electrónicos secuenciales. Bloques MSI secuenciales y memorias.
+
+Tema 8. Convertidores A/D y D/A.
+
+*BLOQUE IV. MICROCONTROLADORES*
+
+Tema 9. Circuitos electrónicos: microcontroladores
+
+Tema 10. Aplicaciones de los microcontroladores.
+
+En cuanto a las prácticas de laboratorio, se realizarán un total de diez prácticas a lo largo del curso:
+
+*PRÁCTICAS DE LABORATORIO*
+
+Práctica 1. Circuitos y manejo de equipos: fuentes de alimentación y polímetros
+
+Práctica 2. Circuitos eléctricos y manejo de equipos: osciloscopios y generador de funciones
+
+Práctica 3. Simulación de circuitos
+
+Práctica 4. Realización y ensayo de circuitos con diodos
+
+Práctica 5. Realización y ensayo de circuitos con transistores bipolares
+
+Práctica 6. Realización y ensayo de circuitos con MOSFET
+
+Práctica 7. Realización y ensayo de convertidores A/D y D/A
+
+Práctica 8. Realización y ensayo de circuitos combinacionales y compatibilidad de familias lógicas
+
+Práctica 9. Realización y ensayo de circuitos secuenciales.
+
+Práctica 10. Microcontroladores. Sistema de desarrollo, desarrollo de aplicaciones, simulación y depuración.
+
+## Metodología y plan de trabajo
+
+El plan de trabajo se recoge en la siguiente tabla, junto a la metodología empleada en la impartición:
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|  |  | Códigos: <br> CE=Clase Expositiva <br> PA=Prácticas de aula/Seminarios/Talleres <br> PL=Prácticas de laboratorio /campo /aula de informática/ aula de idiomas <br> PC=Prácticas clínicas hospitalarias <br> TG=Tutorías grupales <br> PE=Prácticas Externas <br> SE=Sesiones de Evaluación |  |  |  |  |  |  |  | Códigos: <br> TG=Trabajo en grupo <br> TA=Trabajo autónomo |  |  |
+| ***Temas*** | ***Horas totales*** | *CE* | *PA* | *PL* | *PC* | *TG* | *PE* | *SE* | ***Total*** | *TG* | *TA* | **Total** |
+| **Tema 1. Circuitos eléctricos** | **8** | **1** | **1** | **2** |  |  |  |  | **4** |  | **4** | **4** |
+| **Tema 2. Fundamentos de resolución de circuitos** | **10,8** | **1,5** | **1** |  |  |  |  | **0,3** | **2,8** | **2** | **6** | **8** |
+| **Tema 3. Componentes electrónicos** | **23,4** | **5** | **1** | **2** |  |  |  | **0,4** | **8,4** |  | **15** | **15** |
+| **Tema 4. Componentes Optoelectrónicos** | **6** | **1** |  | **2** |  |  |  |  | **3** |  | **3** | **3** |
+| **Tema 5. Familias Lógicas** | **5,1** | **1** |  | **1** |  | **1** |  | **0,1** | **3,1** |  | **2** | **2** |
+| **Tema 6. Circuitos combinacionales** | **17,7** | **3,5** | **1** | **2** |  |  |  | **0,2** | **6,7** |  | **11** | **11** |
+| **Tema 7. Circuitos secuenciales** | **26,2** | **5** | **1** | **4** |  |  |  | **0,2** | **10,2** |  | **16** | **16** |
+| **Tema 8. Convertidores AD y DA** | **5,1** | **1** |  | **2** |  |  |  | **0,1** | **3,1** |  | **2** | **2** |
+| **Tema 9. Microcontroladores** | **11,2** | **2** | **1** | **2** |  |  |  | **0,2** | **5,2** |  | **6** | **6** |
+| **Tema 10. Aplicaciones de los microcontroladores** | **36,5** | **7** | **1** | **4** |  | **1** |  | **0,5** | **13,5** | **3** | **20** | **23** |
+| **Total** | **150** | **28** | **7** | **21** | **0** | **2** | **0** | **2** | **60** | **5** | **85** | **90** |
+
+En la siguiente tabla resumen pueden verse las horas y porcentajes de dedicación a las diferentes actividades programadas:
+
+| **MODALIDADES** |  | **Horas** | % | **Totales** |
+| --- | --- | --- | --- | --- |
+| **Presencial** | **Clases Expositivas** | **28** | **18,7%** | **60** |
+|  | **Práctica de aula / Seminarios / Talleres** | **7** | **4,7%** |  |
+|  | **Prácticas de laboratorio / campo / aula de informática / aula de idiomas** | **21** | **14,0%** |  |
+|  | **Prácticas clínicas hospitalarias** |  |  |  |
+|  | **Tutorías grupales** | **2** | **1,3%** |  |
+|  | **Prácticas Externas** |  |  |  |
+|  | **Sesiones de evaluación** | **2** | **1,3%** |  |
+| **No presencial** | **Trabajo en Grupo** | **5** | **3,3%** | **90** |
+|  | **Trabajo Individual** | **85** | **56,7%** |  |
+|  | **Total** | **150** |  |  |
+
+De forma excepcional, si circunstancias externas imprevisibles de fuerza mayor lo requirieran, se podrán incluir actividades de docencia no presencial, en cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+## Evaluación del aprendizaje
+
+Se evaluarán independientemente la parte de teoría y prácticas de aula y la parte de prácticas de laboratorio, y luego se ponderarán para obtener la nota final.
+
+**Evaluación de teoría y prácticas de aula**
+
+Se podrán plantear dos alternativas o itinerarios de evaluación: evaluación continua y evaluación únicamente mediante examen final.
+
+Itinerario T1: evaluación continua.
+
+La nota agregada de teoría y prácticas de aula se obtendrá ponderando la realización de trabajos o ejercicios prácticos, y la realización de ejercicio(s) práctico(s) adicionales que se realizará(n) conjuntamente con el examen final, y que se corresponderán con la parte de la materia que no haya sido posible evaluar y/o aquellas partes no superadas en la evaluación continua. Este itinerario sólo estará disponible en la convocatoria ordinaria de la asignatura
+
+Itinerario T2: examen final.
+
+La nota correspondiente a la evaluación de la parte teórica de la asignatura y las prácticas de aula será directamente la obtenida en un examen final, consistente en el desarrollo de ejercicios prácticos.
+
+**Evaluación de prácticas de laboratorio**
+
+Existen dos itinerarios o alternativas, para la evaluación de las prácticas:
+
+Itinerario P1: evaluación continua.
+
+Se realizará una evaluación individualizada de cada práctica, más una prueba de aprovechamiento al final de las prácticas. El peso de cada parte sobre la nota de prácticas será: 40% evaluación de prácticas, 60% prueba.
+
+NOTA IMPORTANTE: No se habilitarán sesiones de prácticas al margen de las señaladas en el calendario.
+
+Itinerario P2: examen práctico.
+
+Alternativamente, y únicamente en las convocatorias extraordinarias el alumno tendrá opción a presentarse a un examen práctico de la asignatura, cuya valoración sustituirá directamente a la nota que se pudiera haber obtenido mediante el itinerario 1.
+
+Nota final
+
+La nota final se obtendrá aplicando una ponderación de 7 puntos para el examen de evaluación de teoría y prácticas de aula y 3 puntos para las prácticas de laboratorio. Además, será necesario obtener al menos un 40% de la nota máxima en cada parte para poder aprobar la asignatura. De lo contrario la calificación será el mínimo de los dos siguientes valores: 4, y el valor ponderado obtenido.
+
+En el caso de aprobar la parte de teoría más prácticas de aula o la parte práctica en la convocatoria ordinaria de febrero y no aprobar la otra, se conserva la nota de la parte aprobada durante las convocatorias extraordinarias del mismo curso.
+
+Se recuerda que “para que un estudiante sea calificado deberá haber participado en un conjunto de actividades de evaluación cuyo peso en la calificación total suponga al menos el 50%. En caso contrario, se considerará al alumno como No Presentado (art.18 del reglamento de evaluación vigente)”.
+
+De forma excepcional, si circunstancias externas imprevisibles de fuerza mayor lo requirieran, se podrán realizar las actividades de evaluación de la docencia de forma no presencial, en cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+## Bibliografía
+
+**Bibliografía básica**
+
+T.L. Floyd
+
+Principios de circuitos eléctricos
+
+Editorial Pearson-Prentice Hall
+
+ISBN: 9702609674
+
+A.P. Malvino
+
+Principios de Electrónica
+
+Editorial Mc. Graw Hill
+
+ISBN: 8448156196
+
+Muhammad H. Rashid.
+
+Circuitos Microelectrónicos.
+
+Ed. Thomson.
+
+ISBN: 9687529792
+
+Electrónica: Teoría de circuitos y dispositivos electrónicos
+
+Boylestad Nashelsky
+
+Editorial Prentice Hall.
+
+ISBN: 9702604362
+
+T. L. Floyd
+
+Fundamentos de sistemas digitales
+
+Editorial Prentice Hall
+
+ISBN: 8489660212
+
+**Bibliografía adicional**
+
+A.R. Hambley
+
+Electrónica
+
+Editorial Pearson- Prentice Hall
+
+ISBN: 8420529990
+
+J. Millman y C.C. Halkias
+
+Electrónica Integrada
+
+Editorial Hispano Europea
+
+ISBN: 8425504325
+
+D.L. Schilling y C. Belove
+
+Circuitos Electrónicos
+
+Editorial Marcombo
+
+ISBN: 8426705839
+
+E. Mandado
+
+Sistemas electrónicos digitales
+
+Editorial Marcombo
+
+ISBN: 8426711707
+
+J.F. Wakerly
+
+Diseño Digital: Principios y prácticas,  
+Editorial Prentice Hall
+
+ISBN: 9702607205
+
+V.P.Nelson, H.T. Nagle, B. D.Carroll, J.D. Irwin
+
+Análisis y Diseño de Circuitos Lógicos Digitales
+
+Editorial Prentice Hall
+
+ISBN: 9688807060
+
+F. Aldana, R.Esparza Y P.M.Martinez
+
+Electrónica Industrial: Técnicas Digitales,
+
+Editorial Marcombo
+
+ISBN: 8426703976
+
+N. R. Malik.
+
+Circuitos Electrónicos. Análisis, Diseño y Simulación.
+
+Editorial Prentice Hall
+
+ISBN: 8489660034

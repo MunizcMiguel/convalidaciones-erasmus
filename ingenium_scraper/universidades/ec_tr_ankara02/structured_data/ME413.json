@@ -1,0 +1,88 @@
+{
+  "course_name_original": "INTRODUCTION TO FINITE ELEMENT ANALYSIS",
+  "course_name_en": "INTRODUCTION TO FINITE ELEMENT ANALYSIS",
+  "ects": 5.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "He/She can explain the basic steps of finite element methods.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "He/She can model structural elements using the finite element method.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "He/She can analyze an engineering structure using the finite element method.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "He/She can use any proposed package program for structural analysis.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical methods, energy methods.",
+    "Modelling of one dimensional problems by finite element method.",
+    "The minimum potantial energy formulation. Weighted residual methods.",
+    "Modelling of truss systems by finite element modelling. Introduction to ANSYS packaged software.",
+    "Two and three dimensional truss systems. Solution of truss systems by ANSYS packaged software",
+    "Derivation of linear, quadratic and cubic elements shape functions for the one dimensional mesh elements.",
+    "ANSYS solutions of two dimensional elasticity problems. Shape functions of the rectangular elements.",
+    "Derivation of the linear triangular element shape functions.",
+    "Definitions of the 2D plane elements.",
+    "ANSYS solutions of plane elasticity problems by using different elements.",
+    "Beam problems.",
+    "Solutions of beam problems by ANSYS packaged software.",
+    "Three dimensional example problems by ANSYS; Solid mechanics problems.",
+    "Three dimensional example problems by ANSYS; Heat transfer and vibration problems."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 119.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Projects",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Xiaolin Chen, Yijun Liu, Finite Element Modeling and Simulation with ANSYS Workbench,CRC Press, 2015.",
+    "Saeed Moaveni, (ÇEVİRİ: Ali Osman Ayhan), Sonlu Elemanlar Analizi Teori ve ANSYS ile uygulamalar, Palme yayıncılık, 2015.",
+    "Saeed Moaveni, Finite Element Analysis Theory and Application with ANSYS, Prentice Hall, 4th Ed., 2017."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Gazi University",
+  "institution_slug": "ec_tr_ankara02",
+  "degree": "Mechanical Engineering (Eng) / Makine Mühendisliği (İngilizce)",
+  "course_code": "ME413",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=862527&lang=en",
+  "source_language": "en",
+  "source_sha256": "2d42064e97fe8e4a28617bd5b2f05391dc62b8b879a34075014acf8f60c07ac1",
+  "extracted_at": "2026-11-18T10:06:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

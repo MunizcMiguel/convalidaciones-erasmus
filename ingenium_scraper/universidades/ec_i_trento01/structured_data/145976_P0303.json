@@ -1,0 +1,68 @@
+{
+  "course_name_original": "Fondamenti di automatica (145976)",
+  "course_name_en": "Fundamentals of Automatic Control",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Elementary knowledge of mathematical analysis and geometry, with particular reference to operations on complex numbers, linear differential equations, and matrix algebra."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the concept of a dynamic system, differentiating it from a static one; be able to define it correctly, fully characterizing its components; be able to analyze its main structural properties; be able to apply system theory concepts to mathematically model simple real systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be capable of analyzing the static and dynamic behavior, in time and frequency, of a single dynamic system or an interconnection of dynamic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be capable of analyzing the static and dynamic behavior, in time and frequency, of feedback control systems and be able to approach the design of simple automatic controllers that satisfy precise performance specifications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, definitions and basic terminology: Example of control problems in Mechatronics Engineering. Dynamic systems, control problems and control specifications. Open-loop and closed-loop control.",
+    "Dynamic systems and models: Definition of dynamic system, state, input and output variables. Mathematical models of dynamic systems.",
+    "Continuous-time dynamic systems: Free and forced motion, equilibrium and stability. Motion of linear systems. Non-linear systems, linearization around an equilibrium.",
+    "Transfer function for linear time-invariant (LTI) systems: Laplace transform. Transfer function. Poles, zeros, gain. Stability. Free and forced responses of linear systems. Description of LTI systems in the frequency domain. Bode diagrams.",
+    "Block diagrams and interconnected systems: Interconnection schemes in series, in parallel, and in feedback. Stability of interconnected systems.",
+    "Analysis of control systems: Stability analysis of feedback systems: Nyquist and Bode criteria. Static performance: steady-state error. Dynamic performance: sensitivity functions, 1st and 2nd order approximations of sensitivity functions, bandwidth and disturbance rejection. Notes on performance under disturbed conditions and effect of time delays.",
+    "Design of control systems: Specifications and requirements. Simple examples of controller design through loop function modeling."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises at the blackboard"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (numerical exercises and theory questions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test at the end of the course. The written test may contain numerical exercises and theory questions. Evaluation is based on a final grade.",
+  "bibliography": [
+    "P. Bolzern, R. Scattolini, N. Schiavoni, Fondamenti di Controlli Automatici (4a edizione), Editore: McGraw-Hill, Anno edizione: 2015.",
+    "Bolzern, P., Scattolini, R., & Schiavoni, N. (2025). Fondamenti di Controlli Automatici (5a ed.). McGraw-H"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "145976_P0303",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50430_646278_94970&ordinamento_aa=2020&af_percorso=50430&corso_cod=10131&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "f9b2a015d3cb6f93325bee63f7621ce7348bc7d4e4d8e453d2ae7e037c585928",
+  "extracted_at": "2026-11-18T10:03:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

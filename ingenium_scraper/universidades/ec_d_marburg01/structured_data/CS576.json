@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Komplexitätstheorie",
+  "course_name_en": "Complexity Theory",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Successful participation in the Theoretical Computer Science module from the Bachelor's degree program in Computer Science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can classify problems according to their computational difficulty.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can compare different classes of problems with each other.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can compare the computational power of different machine models, such as randomized and non-deterministic Turing machines.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Complexity classes, such as LOGSPACE, P, NP, PSPACE",
+    "Time and space hierarchies",
+    "Reductions and completeness",
+    "Determinism / non-determinism and randomization",
+    "Circuit complexity",
+    "Parameterized complexity",
+    "Fine-Grained Complexity Theory"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Presentation of interim results",
+      "weight_percentage": null
+    },
+    {
+      "method": "Participation in the block event",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grading is done with 0 to 15 points according to the examination regulations for the M.Sc. Computer Science degree program.",
+  "bibliography": [
+    "Sanjeev Arora, Boaz Barak: Computational Complexity - A Modern Approach. Cambridge University Press 2009",
+    "Christos H. Papadimitriou: Computational complexity. Academic Internet Publ. 2007",
+    "Ingo Wegener: Complexity theory - exploring the limits of efficient algorithms. Springer 2005",
+    "Rodney G. Downey, Michael R. Fellows: Fundamentals of Parameterized Complexity. Texts in Computer Science, Springer 2013"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS576",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Komplexitaetstheorie.html",
+  "source_language": "de",
+  "source_sha256": "0d1b7a4d561a6909d209d4ae51e5e08236d088d6860ad6bd6a24d2bb2a201341",
+  "extracted_at": "2026-11-20T09:22:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

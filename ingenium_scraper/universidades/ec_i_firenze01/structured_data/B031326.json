@@ -1,0 +1,82 @@
+{
+  "course_name_original": "AUTOMATIC CONTROL I (B031326)",
+  "course_name_en": "Automatic Control I",
+  "ects": 6.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Math analysis",
+    "Geometry and linear algebra",
+    "Elements of control engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To provide mathematical tools for the analysis and design of feedback control systems to be applied to the solution of engineering control problems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION AND BACKGROUND",
+    "Background on linear system theory.",
+    "The internal model principle and its applications.",
+    "STABILITY OF FEEDBACK CONTROL SYSTEMS AND STABILIZATION",
+    "Internal stability: definition, mathematical conditions and connection with the Nyquist criterion.",
+    "Characterization of stabilizing controllers: case of stable process and general case.",
+    "DIRECT SYNTHESIS TECHNIQUES",
+    "Choice of the closed-loop transfer function.",
+    "Controller design meeting desired control specifications.",
+    "Hints on possible extensions of direct synthesis.",
+    "PERFORMANCE LIMITATIONS ON FEEDBACK CONTROL SYSTEMS AND ROBUST CONTROL",
+    "Influence of open-loop right half-plane poles and zeros on the control system bandpass and step-response.",
+    "Bode's theorem on the sensitivity function.",
+    "SAMPLED-DATA SYSTEMS",
+    "Structure of sampled-data control systems: sampling and reconstruction of signals.",
+    "Discretization of a continuous-time linear time-invariant process; analysis of the dynamic behaviour via z-transform.",
+    "Design of digital controllers: integration, matching and direct discretization techniques.",
+    "REGULATOR PROBLEM",
+    "Background on state-space representations.",
+    "Static state feedback and eigenvalue/pole placement.",
+    "Asymptotic state observers.",
+    "Regulator design."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises in class"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Grading ranges from Fail (Insufficient) for serious conceptual errors to 29-30 and Honors (Lode) for excellent and outstanding understanding. Honors is awarded for brilliant and original work exceeding standard expectations. A minimum of 18 is required to pass.",
+  "bibliography": [
+    "Bolzern, Scattolini, Schiavoni. Fondamenti di controlli automatici, 5a edizione, Mc Graw-Hill Italia, Milano, 2025.",
+    "Basso, Chisci, Falugi. Fondamenti di Automatica, De Agostini-UTET, 2007.",
+    "Check the books listed in exams bibliographies on Onesearch. For help contact your Library"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze",
+  "institution_slug": "ec_i_firenze01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "B031326",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45908_B049-23-24_85445_730216&ordinamento_aa=2023&af_percorso=45908&corso_cod=460&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "ac4a55de443ee5a878967f02de07341a3fc001741e047b4d0d445534c05250e6",
+  "extracted_at": "2026-11-18T10:02:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

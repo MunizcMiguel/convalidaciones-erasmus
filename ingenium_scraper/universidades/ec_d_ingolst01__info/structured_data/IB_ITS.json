@@ -1,0 +1,88 @@
+{
+  "course_name_original": "IT-Sicherheit",
+  "course_name_en": "IT Security",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Second study section reached (at least 42 ECTS points from the first study section).",
+    "Experience with installing software packages on one's own computer.",
+    "Experience in operating an internet browser and setting security-relevant parameters (accepting cookies, licenses, saving passwords in the browser)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the essential security risks and can assess their danger potential.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to independently perform a risk analysis and its evaluation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to design an appropriate IT security strategy based on such a risk analysis, considering both organizational and technical aspects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to assess the effectiveness of security strategies for practical application.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students know the most important procedures for data encryption and authentication.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students understand the essential mathematical concepts underlying the procedures for data encryption and authentication.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Organization and Security Management: Security models and security policies; Risk analysis of IT structure and IT-supported business processes",
+    "Network Security: Technical background to network risks; Security testing of networks (with tools, e.g., Nessus, manual tests); Malware and its defense; Procedures of hackers and crackers; Conception of firewalls and networks; Intrusion Detection and Monitoring",
+    "Making operating systems more secure; Secure configuration; \"Hardening\" an operating system (using capabilities, through tools, e.g., process isolation with AppArmor); Rootkits",
+    "Access Protection Systems: Authentication, various procedures; Rights systems on different levels",
+    "Software-related Vulnerabilities and their Prevention: Secure software development; Typical vulnerabilities such as buffer and heap overflows",
+    "Mathematical Background: Modular arithmetic; Finite groups; Finite fields",
+    "Symmetric Encryption Procedures (e.g., AES)",
+    "Public Key Procedures: RSA procedure; Diffie-Hellman key exchange; Signatures"
+  ],
+  "teaching_methods": [
+    "Seminar-like instruction/Exercises"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination is a written exam lasting 90 minutes. No further explanations are given.",
+  "bibliography": [
+    "MCNAB, Chris, 2016. Network Security Assessment.",
+    "ECKERT, Claudia, 2014. IT-Sicherheit.",
+    "MATTHES, R. , 2003. Algebra, Kryptologie und Kodierungstheorie."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_ITS",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "d460a06ca86655168cdd37e336d15149d7efc3ec91f7d09207100225b28fed2f",
+  "extracted_at": "2026-11-20T12:35:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

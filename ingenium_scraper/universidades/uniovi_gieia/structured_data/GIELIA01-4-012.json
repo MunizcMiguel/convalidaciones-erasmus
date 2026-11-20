@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Sistemas Eléctricos y Generación Distribuida",
+  "course_name_en": "Electric Systems and Distributed Generation",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Having completed the basic common training modules for the industrial branch and specific modules in Industrial Electronic and Automation."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Describe, interpret and analyze the different centralized and distributed generation systems, their differences, advantages and disadvantages.",
+      "type": "unspecified",
+      "code": "RSE-1"
+    },
+    {
+      "text": "Describe the structure and operation of electricity production systems based on distributed resources.",
+      "type": "unspecified",
+      "code": "RSE-2"
+    },
+    {
+      "text": "Analyze and assess the impact of inserting distributed generation into conventional electrical grids.",
+      "type": "unspecified",
+      "code": "RSE-3"
+    },
+    {
+      "text": "Properly manage electrical energy in terms of efficiency, continuity and quality.",
+      "type": "unspecified",
+      "code": "RSE-4"
+    },
+    {
+      "text": "Recognize the most important legislation and regulations in the field of electrical systems and distributed generation.",
+      "type": "unspecified",
+      "code": "RSE-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to conventional and distributed electric energy systems.",
+    "General structure of electrical systems.",
+    "Elements that make up the electrical system (Conventional and Distributed).",
+    "Role played by each of the elements within the electrical system.",
+    "Voltage and frequency control in power systems.",
+    "Single-phase equivalent modeling of electrical system components.",
+    "Per unit method.",
+    "Modeling of power lines and transformers.",
+    "Modeling of conventional generators.",
+    "Modeling of distributed generators.",
+    "Modeling of loads.",
+    "Steady-state analysis of electrical systems (Load Flow).",
+    "Grid modeling and load flow formulation.",
+    "Load flow resolution methods.",
+    "Conventional methods.",
+    "Methods for application to distributed generation systems.",
+    "Steady-state analysis of conventional and distributed systems.",
+    "Optimal Load Flow.",
+    "Introduction",
+    "Mathematical Modeling in traditional and distributed generation environments.",
+    "Resolution by programming of algorithms in Matlab.",
+    "Dynamic modeling and stability.",
+    "Differences between “small-signal” and “large-signal” stability.",
+    "Dynamic modeling using simulation software for conventional generators.",
+    "Dynamic modeling using simulation software for distributed generators.",
+    "Dynamic modeling using simulation software for loads.",
+    "Integration of models and dynamic simulation of electrical systems."
+  ],
+  "teaching_methods": [
+    "Expository classes (multimedia presentations combined with blackboard developments and resolution of examples/problems)",
+    "Classroom practices (solving complex problems, using software where possible)",
+    "Laboratory practices (solving simulation problems and scenarios using power system analysis and simulation software)",
+    "Group tutorials (working on assigned exercises for individual or group resolution)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (ET)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Problem solving (P)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Complex simulation (SC)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Active participation (PA)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as 0.4 * ET + 0.25 * P + 0.25 * SC + 0.1 * PA, provided a minimum of 4 out of 10 points is achieved in ET, P, and SC. If any minimum is not met, the final grade will be the minimum of the grades obtained in ET, P, and SC. For extraordinary calls, the final grade is calculated as 0.75 * ET + 0.25 * EP, with a minimum overall final grade of 5 out of 10 required to pass. Students who scored 5 or more in SC in the ordinary call can validate it for EP in the extraordinary call.",
+  "bibliography": [
+    "Electric Energy Systems: Analysis and Operation (Electric Power Engineering Series) CRC Press. Antonio Gomez-Exposito, Antonio J. Conejo, Claudio Canizares.",
+    "Integration of Green and Renewable Energy in Electric Power Systems. Ali Keyhani, Mohammad N. Marwali, Min Dai. WILEY",
+    "Lidula, N. W. A. Rajapakse, A. D. (2011), 'Microgrids research: A review of experimental microgrids and test systems', Renewable & Sustainable Energy Reviews 15(1), 186--202.",
+    "Ustun, T. S.; Ozansoy, C. Zayegh, A. (2011), 'Recent developments in microgrids and example cases around the world-A review', Renewable & Sustainable Energy Reviews 15(8), 4030—4041.",
+    "Elements of Power System Analysis, William Stevenson, McGraw-Hill, Edition IV, 1982."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-012",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-012",
+  "source_language": "es",
+  "source_sha256": "8cc93aaaf9e619fc7654c48c44cba72fd8e80544247d8bb489e7099c54f57906",
+  "extracted_at": "2026-11-20T01:13:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,176 @@
+{
+  "course_name_original": "Procesamiento de Datos Masivos",
+  "course_name_en": "Big Data Processing",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming Methodology",
+    "Databases",
+    "Advanced Programming",
+    "Computer and Network Infrastructure"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to design experiments and to describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data by combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly both in writing and orally.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Students should have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB03"
+    },
+    {
+      "text": "Students should be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB04"
+    },
+    {
+      "text": "Understand computer architecture and identify and evaluate the performance and scalability of computer systems used for processing large volumes of data.",
+      "type": "competence",
+      "code": "CE05"
+    },
+    {
+      "text": "Know the characteristics and functionality of database management systems, particularly those most suitable for managing large volumes of data, in order to apply this knowledge in the construction of intelligent systems.",
+      "type": "competence",
+      "code": "CE06"
+    },
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques, to build intelligent systems from data sets.",
+      "type": "competence",
+      "code": "CE09"
+    },
+    {
+      "text": "Understand the basic concepts of different models and technologies of non-relational databases (document, column family, graphs, etc.).",
+      "type": "knowledge",
+      "code": "RBAS3"
+    },
+    {
+      "text": "Use the corresponding languages (SQL, CQL, APIs, etc.) to update and extract information from databases from applications.",
+      "type": "skill",
+      "code": "RBAS4"
+    },
+    {
+      "text": "Know and use systems for massive data processing.",
+      "type": "knowledge",
+      "code": "RINF5"
+    },
+    {
+      "text": "Know, select, and use cloud components for data processing and storage.",
+      "type": "skill",
+      "code": "RINF7"
+    },
+    {
+      "text": "Know, select, and use cloud computing systems and big data servers, as well as service design.",
+      "type": "skill",
+      "code": "RPPROC1"
+    },
+    {
+      "text": "Manage NoSQL databases in the cloud.",
+      "type": "skill",
+      "code": "RPPROC2"
+    },
+    {
+      "text": "Solve learning problems in Big Data, applying known techniques for the modeling stage, as well as data preprocessing techniques in problems where this stage is necessary or recommended, all under distributed cloud computing and big data technologies.",
+      "type": "skill",
+      "code": "RPPROC3"
+    },
+    {
+      "text": "Apply data modeling and preprocessing techniques to model and solve real or academic big data problems.",
+      "type": "skill",
+      "code": "RPPROC4"
+    },
+    {
+      "text": "Know the main existing software tools for managing information in the cloud and big data technology: HIVE, PIG, etc.",
+      "type": "knowledge",
+      "code": "RPPROC5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Big Data and Cloud Computing",
+    "NoSQL databases: document, key/value, column, and graph",
+    "NewSQL databases",
+    "Transactions in massive databases",
+    "Big Data batch processing",
+    "Big Data in-memory processing",
+    "Big Data streaming processing",
+    "Big Data Ecosystems",
+    "Practice 1: Modeling and management of massive databases",
+    "Practice 2: Design, development, and deployment of Big Data applications"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practices",
+    "Online teaching",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (ET)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Practical block (BP) (Practice 1 evaluation test)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical block (BP) (Practice 2 evaluation test)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Online questionnaires (CO)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Attendance / participation in seminars and tutorials (AS)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum grade of 4 out of 10 is required for the theoretical exam and the practical block. The practical block grade is calculated as (0.55 * P1) + (0.45 * P2). The final grade is (0.45 * ET + 0.40 * BP + 0.10 * CO + 0.05 * AS) if minimums are met; otherwise, it is the minimum of this formula and 4.0. For the extraordinary call, a minimum of 5 out of 10 is required for both the theoretical and practical parts. The final grade is (0.5 * Theory) + (0.5 * Practices) if minimums are met; otherwise, it is the minimum of this formula and 4.0.",
+  "bibliography": [
+    "Chodorow, K. (2011). Scaling MongoDB: Sharding, Cluster Setup, and Administration. \" O'Reilly Media, Inc.\".",
+    "Cielen, D., Meysman, A. D., Ali, M. (2016). Introducing data science: big data, machine learning, and more, using Python tools. Manning Publications Co.,",
+    "De Mauro, A., Greco, M., & Grimaldi, M. (2016). A formal definition of Big Data based on its essential features. Library Review.",
+    "Dumbill, E. (2013). Making sense of big data.",
+    "Nayak, A. (2014). MongoDB cookbook. Packt Publishing Ltd.",
+    "Sadalage,P. Fowler, M. (2009). NoSQL distilled: a brief guide to the emerging world of polyglot persistence. Addison-Wesley."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-016",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-016",
+  "source_language": "es",
+  "source_sha256": "90c2e73dd3d3f08ffaa520b3d3f1ec2787fcae27a5cc473224899d4f2ed3bc0d",
+  "extracted_at": "2026-11-20T06:06:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

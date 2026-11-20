@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Radar Technology I",
+  "course_name_en": "Radar Technology I",
+  "ects": 4.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course acquaints students with the basic principles and history of radiolocation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Explains the methods of radio positioning, the use of coordinate systems in positioning, the method of detecting targets, distinguishing the characters of the targets, methods and forms of displaying processed results.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to radar systems, history of radiolocation, current development of radar technology, basic terms",
+    "Principles of radio positioning, types of positioning systems, applications",
+    "Timing and phase measurement systems, principle of time delay measurement, resolution, uniqueness, accuracy, DOP factor, Angle and Doppler system of position and velocity measurement, resolution, uniqueness, accuracy, DOP factor",
+    "Primary radar PSR, secondary radar MSSR, precision landing radar PAR, basic description and use",
+    "FMCW radar, ADSB system, 3D Radar, basic description and usage",
+    "Radionavigation systems NDB, VOR, ILS, MLS, Meteorological radars, remote sensing, georadar (GPR), synthetic aperture radar (SAR)",
+    "Antenna systems in radar technology, types of antenna diagrams, vertical diagram of 2D radar coverage, Antenna diagram of 3D radars, determination of target height, Electromagnetic wave propagation in the atmosphere, terrain and barriers.",
+    "Reflections from objects, types of targets (swerling I, swerling II), RCS calculation, use of field simulator in RCS calculation, RCS measurement",
+    "Radar equation of monostatic and bistatic primary radar, modified shapes, range equations, methods of calculation and application to specific types of radar, Beacon equation of secondary radar, modified shapes, range equations, methods of calculation and applications",
+    "Excursion to a company whose activities are related to radar and radionavigation",
+    "Calculations of tasks focused on presented systems (range, accuracy)",
+    "FMCW radar system design calculations, position detection and doppler velocity calculations",
+    "Calculations of tasks focused on propagation, attenuation of free space, reflection from meteo formations, reflection from terrain barriers",
+    "RCS calculations based on analytical models, calculations using CST Microwave studio field simulator",
+    "Calculations of primary radar range, power balance (Matlab)",
+    "Calculations of secondary radar range, power balance (Matlab)",
+    "Laboratory exercise on functional FMCW radar, basic display and characteristics of detected targets (Matlab)",
+    "Laboratory exercise on functional FMCW radar, processing of measured characteristics, determination of Doppler velocity (Matlab)",
+    "Laboratory exercise on functional FMCW radar, presentation of project results in power point, discussion about results."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Tutorials",
+    "Experimental work in labs",
+    "Project work",
+    "Field trip",
+    "Teaching by an expert (lecture or tutorial)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Introduction to Radar Systems, Merrill Skolnik, isbn:9780072881387, McGraw-Hill Education, pro 2002",
+    "Signal Processing in Radar Systems, Vyacheslav Tuzlukov, isbn:9781439826089, CRC Press, dub 2016",
+    "Secondary Surveillance Radar, Michael Stevens, isbn:9780890062920, Artech House, úno 1988",
+    "Phased-Array Radar Design: Application of Radar Fundamentals, Thomas W. Jeffrey, isbn:9781891121692, Scitech Publishing, úno 2009"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "440-2324/05",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=72551&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "9ac25092104feeddcd5c787e463d36dd6dfccde781fd3976643a66daf696b8cc",
+  "extracted_at": "2026-11-20T12:51:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

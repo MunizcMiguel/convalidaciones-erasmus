@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Introduction à la méthode des Eléments Finis",
+  "course_name_en": "Introduction to the Finite Element Method",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basics of continuum mechanics, thermics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "At the end of this course, students will be able to carry out simple linear studies (solid and structural mechanics, thermics), in particular by validating the dimensioning of a structure in a way similar to that used in a design office.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to use this numerical calculation method, which is widely used in engineering departments and research centers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be partially familiar with its theoretical foundations.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Get an overview of possible applications.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be able to communicate with specialists.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know how to carry out simple linear studies using a commercial reference code: Abaqus.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the finite element method",
+    "Comparison with: finite differences, meshless techniques and boundary elements",
+    "Variational formulation: principles of virtual power and virtual heat",
+    "Linear methods for static and thermal resolution",
+    "FEM calculation phases",
+    "Preprocessor, solver and results analysis",
+    "Verification of numerical simulations",
+    "Simplified programming illustration with Scilab",
+    "Practical work on numerical modeling",
+    "Getting to grips with a linear calculation code (Natran/Patran)",
+    "Steps in building a numerical model",
+    "Finite element mesh"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical work (TP)",
+    "Use of Scilab and Abaqus software in design office environment"
+  ],
+  "workload_hours_total": 23.0,
+  "workload_hours_contact": 23.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1+1TP1)/2.",
+  "bibliography": [
+    "The finite element method, O.C. Zienckiewicz, Mac Graw Hill",
+    "Une présentation de la méthode des éléments finis, G. Dahtt, G. Touzot, Maloine Editeur"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0721",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "59f38d8d603051bb3d8e3f27c013ac0b373fa44b9f18dae7c83499e092afc8d2",
+  "extracted_at": "2026-11-18T09:52:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

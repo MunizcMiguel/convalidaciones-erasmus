@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Calcul de structures Eléments Finis avancé",
+  "course_name_en": "Advanced Finite Element Structural Calculation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "knowledge of continuum mechanics",
+    "introductory finite element module in M11",
+    "basic structural design course in M12"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Model structures such as plates numerically, using assumptions adapted to each context.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Discretize a domain using an appropriate mesh.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Establish elementary matrices (stiffness, mass) and solve the associated matrix systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically interpret results obtained, taking into account the assumptions and limitations inherent in the models used.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Possess theoretical knowledge, practical numerical modeling skills and a critical eye for results, enabling them to apply these tools effectively in industrial or academic contexts.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Grasp the fundamental principles of FEM, such as variational formulation, discretization and assembly of elementary matrices, and the theoretical foundations of mechanical and numerical modeling of plate-based structures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Integrate the notions of convergence, mesh accuracy and interpretation of results.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Carry out a complete modeling of a mechanical problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose the appropriate mechanical model (1D, 2D or 3D).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Generate a structured or free mesh and apply boundary conditions and loads.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the use of Abaqus software for numerical simulation of structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop methodological rigor essential to the implementation of numerical simulations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the limits of the models used and adopt a critical attitude towards the results obtained.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and positioning",
+    "Plate equilibrium equations and modeling",
+    "Linear elastic behavior laws and extension to composites",
+    "Writing elementary matrices and integration",
+    "Study of plate-based structures in diaphragm and bending modes",
+    "Practical work on Abaqus FE code for structural design"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Practical work"
+  ],
+  "workload_hours_total": 30.0,
+  "workload_hours_contact": 18.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (presumably a written exam or project)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "TP1 (presumably practical work)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1.2 * DS1 + 0.8 * TP1) / 2. This implies DS1 has a 60% weight and TP1 has a 40% weight.",
+  "bibliography": [
+    "J. C. Craveur. Modélisation des Structures; Calcul par Eléments Finis. Masson, 1997.",
+    "J. L. Batoz. Modélisation des structues par éléments finis - Poutres et plaques. Hermes, 1990.",
+    "J. Fish, T. Belytschko. A first course in finite elements. Wiley, 2007."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0871GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "74b0e509269b446e3f62cdf383581bfd5c1f3cf231f3898a562a83908e87837e",
+  "extracted_at": "2026-11-18T09:52:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

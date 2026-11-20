@@ -1,0 +1,164 @@
+{
+  "course_name_original": "Sisteme senzoriale",
+  "course_name_en": "Sensorial Systems",
+  "ects": 3.0,
+  "semester": "8",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Explain the fundamental operating principles of electric and non-electric sensors and describe their role in the architecture of a sensorial system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Define types of sensors (resistive, capacitive, inductive, piezoelectric, photoelectric, magnetostrictive, image sensors, etc.) and their constructive and functional characteristics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe types of measurement errors and how they influence the precision of a sensorial system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the structure and function of conditioning circuits for analog and digital signals, as well as their selection criteria.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify the components of a data acquisition system and explain how they integrate into a sensorial system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the architectures of distributed sensorial systems (wired and wireless), as well as the principles associated with smart sensors and embedded microcontroller systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Select the appropriate type of sensor based on measurement requirements (displacement, pressure, vibrations, temperature, etc.) and justify its choice according to the application.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Utilize specific equipment and modern instrumentation for testing and characterizing sensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement conditioning circuits for adapting sensor signals to data acquisition systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Configure and operate data acquisition systems, correctly interpreting technical parameters and measurement flows.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and interpret experimental data, identifying errors, deviations, and specific sensor behaviors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop applied solutions for creating simple or distributed sensorial systems, using interdisciplinary knowledge (electrical, electronics, informatics, mechatronics).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Manage experimental activities responsibly, respecting working procedures, safety norms, and specific technical requirements.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Collaborate efficiently within laboratory teams, assuming roles and responsibilities adequate for design and testing tasks.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Organize independent study and documentation activities, efficiently utilizing informational resources and digital tools.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Demonstrate the capacity for self-assessment of results and improvement of proposed solutions for sensorial projects.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Apply ethical and professional principles in the process of diagnosis, design, and interpretation of experimental results.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory notions regarding sensors and sensorial systems: Introduction. Role of the \"Sensors and Sensorial Systems\" discipline. Sensor's place in the measurement system. Measurement errors. Common elements of sensorial systems.",
+    "Conditioning circuits specific to sensors: Circuits for sensors with analog output. Adaptation circuits for sensors with digital output. Practical calculation examples.",
+    "Resistive type sensors: Types of resistive sensors. Potentiometric sensors. Constructive types. Usual applications of potentiometric sensors.",
+    "Resistive type sensors: Thermoresistive sensors. Operating principle. Constructive types. Measurement circuits for thermoresistive sensors. Usual applications of thermoresistive sensors.",
+    "Capacitive type sensors: Capacitive sensors based on changing the distance between electrodes. Capacitive sensors based on changing the active surface area of electrodes. Capacitive sensors with movable dielectric layer. Usual applications of capacitive sensors. Measurement circuits for capacitive sensors.",
+    "Inductive type sensors: Inductive sensor with mobile armature. Inductive sensor with mobile core. Transformer-type inductive sensor. Inductive sensor with mobile coil. Inductosyn. Magnetoelastic inductive sensors. Sensor with inductance variation. Sensor with coupling variation. Uses of inductive sensors.",
+    "Photoelectric type sensors: Operating principle. Constructive types. Characteristics. Uses of photoresistive sensors.",
+    "Piezoelectric type sensors: Operating principle. Constructive types. Characteristics. Uses of piezoelectric sensors.",
+    "Image sensors: Operating principle. Constructive types. Characteristics. CCD and CMOS sensors and technologies. Integrated image sensor.",
+    "Data acquisition systems: Generalities. Classification. Structure of a data acquisition system. Sampling & memory circuit. Analog-to-digital converter. Place of the data acquisition system in a sensorial system.",
+    "Encapsulated microcontroller systems: Generalities. Structure of an encapsulated microcontroller system. User interfaces for working with external devices. Specific software.",
+    "Distributed sensorial systems: Protocols used in distributed sensorial systems. Integrated sensors and interfaced measuring devices. Architectures of distributed measurement, monitoring, and control systems.",
+    "Sensorial systems with smart sensors: Smart sensors. Dedicated hardware and software devices with smart sensors.",
+    "Laboratory presentation. Work safety and fire prevention norms.",
+    "Sensorial system for speed measurement.",
+    "Sensorial system for displacement measurement.",
+    "Sensorial system for vibration measurement.",
+    "Sensorial system for pressure measurement.",
+    "Sensorial system for temperature measurement.",
+    "Laboratory make-ups."
+  ],
+  "teaching_methods": [
+    "Interactive lectures, supported by PowerPoint presentations and visual materials, for explaining the operating principles of sensors and sensorial structures.",
+    "Experimental demonstrations, realized with equipment and didactic modules, for illustrating the real characteristics of sensors and their behavior in applications.",
+    "Explanations and analyses on practical examples, highlighting sensor selection criteria and signal adaptation methods.",
+    "Learning by discovery, utilized in laboratory activities, where students investigate the functioning of dedicated sensorial systems (measuring vibrations, displacement, rotational speed, pressure, temperature, etc.).",
+    "Applied exercises for designing and evaluating conditioning circuits and configuring data acquisition systems.",
+    "Case studies and guided discussions, facilitating the understanding of complex applications in mechatronics, automation, and industrial instrumentation.",
+    "Collaborative team activities, focused on creating and documenting mini-sensorial projects.",
+    "Thematic recaps at the beginning of each session, to ensure conceptual continuity and progressive consolidation of acquired knowledge."
+  ],
+  "workload_hours_total": 81.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Final summative test (Course component)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Completion of lab sheets and laboratory colloquium (Laboratory component)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of 60% from the course component and 40% from the laboratory component. For both components, a minimum mark of 5 is required for promotion. All laboratory works must be completed, allowing for only one make-up session. Promotion requires knowledge of sensor types, operating principles, sensorial system structure, and the ability to design sensorial systems for measuring various process quantities.",
+  "bibliography": [
+    "Cretu, M. Sarmasanu C. Brinzila M. Senzori si traductoare, Ed. Politehnium, Iasi 2017",
+    "Cretu, M. Tendinte novatoare in instrumentatie si masurari electrice, Editura Sedcom Libris, Iasi 2001",
+    "Sărmăsanu, C. Cretu, M. Sălceanu, Al. Voiniciuc, C. Senzori si traductoare pentru roboti, Editura CIA, Bucuresti, 1998",
+    "Brinzila M. Sarmasanu C. Sisteme senzoriale. Aplicatii, Ed. PIM, 2017",
+    "M. Cretu, C. Sărmăsanu,Traductoare. Indrumar de laborator, Ed.lPl, 1989"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "MTC.418.DL.DD",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an4_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "854e47194187e16c0852cece5961857f4dacf468fb0c59fb6eb48c6e9a4942c7",
+  "extracted_at": "2026-11-13T01:14:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

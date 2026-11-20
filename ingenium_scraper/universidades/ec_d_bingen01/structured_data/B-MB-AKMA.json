@@ -1,0 +1,104 @@
+{
+  "course_name_original": "Ausgewählte Kapitel der Maschinentechnik",
+  "course_name_en": "Selected Chapters of Mechanical Engineering",
+  "ects": 3.0,
+  "semester": "5th Semester (Winter Semester start); 6th Semester (Summer Semester start)",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Technical Mechanics 1-3",
+    "Machine Elements 1-2",
+    "CADE"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know, based on concrete examples, the diversity of discontinuous or non-uniform motion processes required in technology.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They can describe these processes verbally and in diagrams with regard to geometric and physical boundary conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can read and create work diagrams for machines (cyclograms).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They know other machine elements typical for non-continuously rotating movements (e.g., linear guides, linear modules, rolling ball screws, cam followers...) and their selection/design and layout, as well as overarching constructive requirements and solution approaches.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They can kinematically/dynamically animate/simulate simple mechanisms using computer algebra and/or kinematic modules of CAD systems and, if necessary, model them themselves.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They master simple, predominantly illustrative graphical methods of planar kinematic and kinetostatic analysis, as well as individual simple synthesis tasks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are aware of the potential superiority of mechanical or combined motion generation over purely electrical concepts for non-uniform and especially for reversing motion specifications, considered from a sustainability perspective (energy consumption).",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to technically important motion processes (s, v, a, j – diagrams).",
+    "Cyclograms, basic knowledge of motion design.",
+    "Architectures of processing machines.",
+    "Linear guide systems, linear modules, rolling ball screws, cam followers, etc.",
+    "Constructive peculiarities: Accuracy, adjustment, play: consequences and remedies.",
+    "Equivalent mechanisms for planar cam mechanisms.",
+    "Simple planar kinematics and kinetostatics (basic equations for four-bar linkages and graphical methods).",
+    "Basic syntheses for linkage mechanisms (e.g., dead center construction, general angle assignments).",
+    "If applicable, work with Geogebra and/or NX-Kinematics - or use of didactic tools written in these environments.",
+    "Fundamental introduction to model concepts for the energy demand of various drive concepts (e.g., inherent movements / tailored drive parameters) and plausibility considerations for them.",
+    "If applicable, exemplary treatment of other machine elements, special gearbox designs."
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises",
+    "Student presentations (if applicable)",
+    "Exercises with NX Kinematics module and/or Geogebra or tailored didactic tools (if applicable)"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": "The module examination must be passed. The examination form (written exam or project work) will be announced at the beginning of the lecture.",
+  "bibliography": [
+    "Kerle, H. u.a.: „Getriebetechnik“, Springer Vieweg, 2015",
+    "Schäffer, Th; u.a.: „Bewegungstechnik“, Hanser-Verlag, 2023",
+    "Grob GmbH: „Grundlagen linearer Antriebstechnik“, Springer Vieweg, 2014",
+    "Lohse, Georg: „Konstruktion von Kurvengetrieben“, Expert-Verlag, 1994",
+    "Cleghorn, W.L.: „Mechanics of Machines”. Oxford University Press, 2005",
+    "Spur, Günter: „Die Genauigkeit von Maschinen“, Hanser-verlag, 1996",
+    "Römisch, P.; Weiß, M.: „Projektierungspraxis Verarbeitungsanlagen“, Springer Vieweg,  2014",
+    "Bleisch, G.; Majschak, J.; Weiß, U.: „Verpackungstechnische Prozesse“, Behrs-Verlag, 2011/2017",
+    "Tränkner, G.: „Taschenbuch Maschinenbau – Bd. 3/I Arbeitsmaschinen“, Verlag Technik, 1978",
+    "Grote, K.-H.; Feldhusen, J.: „Dubbel – Taschenbuch für den Maschinenbau“ / besonders: Abschnitt „Verarbeitungsmaschinen“ und Abschnitt „Mechanismen“, Springer Verlag, 2014",
+    "Documents on linear guides, cam followers, special gearboxes ...etc... from various manufacturers",
+    "Accompanying documents from the lecturer on the learning platform or in the intranet."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-AKMA",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "80cc125e548a29c193474b16e98eb885d9d13b376c9ab7155cbdec9fc1a82370",
+  "extracted_at": "2026-11-20T09:20:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

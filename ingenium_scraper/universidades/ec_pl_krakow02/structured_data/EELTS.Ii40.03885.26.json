@@ -1,0 +1,93 @@
+{
+  "course_name_original": "LabView Programming",
+  "course_name_en": "LabView Programming",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Has knowledge and understands concepts in the field of data structure and software construction.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Has expanded and organized knowledge regarding basic structures used for software construction. Knows and understands the structure, operating principles, and applications of basic design patterns.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Can plan team work and work efficiently and safely within that team. Can write software specifications clearly for other programmers. Can correctly, consciously, and utilize known design patterns to build a program according to specifications.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is aware of responsibility for their own work and that of the team, and is ready to adhere to teamwork principles.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Laboratory: LabVIEW environment interface operation: environment configuration, options, palettes",
+    "Methods for eliminating errors in program exercises",
+    "Algorithms executed in FOR and WHILE loops, recording methods, shift register",
+    "Chart handling, plotting single points and entire arrays, waveform structure",
+    "Colloquium I – analysis and explanation of the solution",
+    "Program construction, definition of inputs/outputs, program documentation",
+    "Program in state machine architecture, definition of states and transitions between them",
+    "Programmatic change of program properties – use of property node and invoke node",
+    "Building .exe applications and distributing applications",
+    "Colloquium II – analysis and explanation of the solution, grading",
+    "Lecture: Discussion of the course program in terms of lecture and laboratory. Discussion of individual issues and related difficulties to be solved, presentation and discussion of subject literature",
+    "Programming, definition, applications. Introduction to graphical programming languages. Discussion of the programming environment – basic functions and capabilities of the environment with examples of use",
+    "Errors in programs. Gross errors recognized by the compiler. Programmer errors. Tools for error detection, error tracing. Methods of protection against the effects of errors with examples",
+    "Basic data structures in the LabVIEW environment and their properties with examples. Complex structures (arrays and data clusters), type definitions, their applications with examples of use in ready-made programs",
+    "WHILE, FOR loops – definition, application, and examples of use for handling arrays and data structures. Shift register of the loop applied in two modes with examples. CASE and Select structures with examples of use",
+    "Three types of charts and their handling with examples. Handling text files and Spreadsheet files (writing, reading, errors). Examples of application fragments using file handling",
+    "Basic program architecture – state machine. Program construction, advantages and disadvantages, methods of defining states, transition conditions, program timing, and user interface handling with examples",
+    "Parallel threads. Two WHILE loops working in parallel. Local, global, and shared variables. Resource sharing and errors related to parallel loops and attempts to simultaneously access data. Example of problem solving using Functional Global",
+    "Programmatic change of object properties in LabVIEW (controls and indicators). Property Node and Invoke Node. Possibilities of use in programs. Reference to controls and indicators. Changing interface properties in subprograms. Examples of use for building automatic reports",
+    "Building .exe applications – executable code. Application distribution. Installation. Including documentation and related files with the definition of their target path. Subsequent program versions"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures: Students participate in classes, learning subsequent teaching content according to the course syllabus. Students should ask questions and clarify doubts on an ongoing basis. Audiovisual recording of the lecture requires the consent of the instructor. Laboratory classes: Students perform laboratory exercises according to materials provided by the instructor. The student is obliged to prepare for the exercise, which may be verified by an oral or written colloquium. Course completion is based on presenting a solution to the posed problem. Module completion is possible after completing all laboratory classes.",
+  "bibliography": [
+    "1. Robert H. Bishop: LabVIEW Student Edition, Prentice Hall, 2009",
+    "2. Materiały szkoleniowe kursów LabVIEW Core I, LabVIEW Core II, LabVIEW Core III, National Instruments, Warszawa 2010",
+    "3. W. Nawrocki: Komputerowe Systemy Pomiarowe, WKŁ, 2002",
+    "4. Materiały szkoleniowe kursu Data Acquisition and Signal Conditioning, National Instruments, Warszawa 2010",
+    "5. http://sine.ni.com/psp/app/doc/p/id/psp-357"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.03885.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/50429b94-635e-4daf-bb44-269a951f367c.html",
+  "source_language": "pl",
+  "source_sha256": "a7c18546b7ddc4ea8bc6fc18748f953d8403060707821d1d732d7ba819581e52",
+  "extracted_at": "2026-11-20T09:04:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

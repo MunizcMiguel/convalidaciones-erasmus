@@ -1,0 +1,107 @@
+{
+  "course_name_original": "ANALOG ELECTRONIC CIRCUITS AND SYSTEMS",
+  "course_name_en": "ANALOG ELECTRONIC CIRCUITS AND SYSTEMS",
+  "ects": 9.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamental concepts of circuit theory.",
+    "Diode and transistor.",
+    "Single transistor amplifiers.",
+    "Complex numbers, Laplace Transform, and differential equations with constant coefficients and separable variables."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course aims to provide knowledge in one of the key areas of Electronics: analog circuits. Building on the basic circuit theory knowledge acquired in previous courses, the main objective is to deepen the understanding of linear and non-linear analog circuits based on diodes, transistors, and operational amplifiers. This objective is expressed through the learning and comprehension of the fundamentals of analysis and design of essential analog circuit blocks: feedback amplifiers, operational amplifier circuits, oscillators, and power supplies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The acquired knowledge will be tested through the analysis of analog circuits, the design of fundamental analog circuit blocks, exercises, and simulations based on Spice.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The solution of design problems derived from real-world scenarios, which includes an in-depth analysis of the analog part of a 'case study' (with the digital part covered in the Advanced Digital Systems course), will stimulate the student's ability to integrate the knowledge acquired in this and previous courses, in order to arrive at a complete and well-reasoned design solution, based on scientific literature and device datasheets.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of Analog Circuit Analysis and Electronic Devices Analysis of nonlinear circuits: linearization, direct-current (DC) analysis, and small-signal (AC) analysis.",
+    "Review of circuit theory.",
+    "Review of semiconductor physics.",
+    "Diode and MOSFET: operating principles.",
+    "Diode and MOSFET Diode: static characteristic, large-signal models.",
+    "Circuits with diodes: rectifiers, limiters.",
+    "Zener diode.",
+    "MOSFET: large-signal model, operating modes, small-signal model.",
+    "Single-transistor amplifiers.",
+    "Multistage amplifiers.",
+    "Differential Amplifier Differential amplifier: DC and AC analysis, differential gain, common-mode gain, CMRR, and emitter degeneration.",
+    "Current mirrors and active loads in differential amplifiers.",
+    "Frequency Response Bode plots.",
+    "Network functions and cutoff frequencies.",
+    "Time-constant method.",
+    "Cutoff frequencies of single-transistor amplifiers, cascode amplifiers, and the common-drain/common-source configuration.",
+    "Feedback General negative-feedback configuration and its properties.",
+    "Stability in feedback circuits: Nyquist criterion and stability analysis using Bode plots.",
+    "Compensation.",
+    "Loop-gain method.",
+    "Rosenstark method.",
+    "Middlebrook method.",
+    "Operational Amplifier Operational-amplifier characteristics: DC and AC characteristics.",
+    "Circuit models of the operational amplifier.",
+    "Fundamental operational-amplifier circuits: linear amplifiers, comparators, Schmitt triggers, integrators, and differentiators.",
+    "Effects of operational-amplifier nonidealities on circuits.",
+    "Case Study: Analysis and Design of an Analog Front End for Biomedical Signal Acquisition (ECG).",
+    "Oscillators Quasi-sinusoidal oscillators: determination of the oscillation frequency by linearization, the loop-gain method, and the characteristic-equation method.",
+    "Three-point oscillators.",
+    "Gouriet-Clapp oscillator.",
+    "Quartz oscillators: equivalent circuit and resonance.",
+    "Relaxation oscillators.",
+    "Relaxation oscillators with current-controlled two-terminal elements.",
+    "Relaxation oscillator with an operational amplifier.",
+    "Phase-Locked Loops (PLLs): Architecture and Operating Principles Introduction to PLLs.",
+    "Architecture: phase detector, phase/frequency detector, VCO, and frequency dividers.",
+    "PLL dynamics.",
+    "Output Stages Power output stages: Class A and Class B.",
+    "The practical sessions include circuit analysis and verification using SPICE simulation."
+  ],
+  "teaching_methods": [
+    "Lesson"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment has two parts: a written exam (solving a circuit in two hours) and an oral exam (discussion and simple exercises). Passing the written exam is a prerequisite for the oral exam, which must be taken in the same session. If the oral exam result is negative, both exams must be retaken. The final grade is based on the weighted average of the written and oral exams, with the oral exam carrying double the weight of the written exam. Honors are awarded for exceptional brilliance in both parts.",
+  "bibliography": [
+    "[docente], 'Elettronica Analogica.' Fifth edition, www.amazon.it.",
+    "A. Sedra, K. Smith, 'Microelectronic Circuits,' Oxford University Press.",
+    "Exercises and solved assignments, available on the university's Moodle system at https://learn.univpm.it."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universita Politecnica Delle Marche — Ingegneria Elettronica e delle Tecnologie Digitali (L-8)",
+  "institution_slug": "ec_i_ancona01__elec",
+  "degree": "Laurea in Ingegneria Elettronica E Delle Tecnologie Digitali (Electronic And Digital Technologies Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "W002173",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univpm.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=36209_99007_33215&ordinamento_aa=2022&af_percorso=36209&corso_cod=1775&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "4a4ba936e1ee4c1da6eadf30c04934b0950baa5c700c54934f1f2a62754926f8",
+  "extracted_at": "2026-11-20T12:44:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

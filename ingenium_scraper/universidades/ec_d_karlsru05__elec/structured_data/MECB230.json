@@ -1,0 +1,85 @@
+{
+  "course_name_original": "MECB230 – Elektrotechnik 2",
+  "course_name_en": "MECB230 – Electrical Engineering 2",
+  "ects": 5.0,
+  "semester": "2nd semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of the fundamentals of Electrical Engineering (Electronics 1 lecture): two-pole theory, equivalent voltage source, network analysis, components (resistor, capacitor, inductor, transistor), basic circuits with operational amplifiers, basic understanding of sinusoidal quantities, calculation with complex numbers."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to theoretically analyze, numerically simulate, build, and measure networks with frequency-dependent components in the laboratory.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can discuss circuits with operational amplifiers, theoretically construct and apply Bode plots to understand, design, and build simple filter circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The basic principles of radio technology with amplitude modulation are understood to the extent that students can build a functional medium wave receiver from a simple resonant circuit.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Periodic oscillations: mean values of periodic quantities, DC value, RMS value, rectified value, sinusoidal oscillations, mean values of sinusoidal oscillations, superposition of sinusoidal quantities, phasor representation, complex symbols, ohmic resistance, ideal capacitor and ideal inductor with sinusoidal excitation, nodal and mesh equations for complex voltages and currents, total impedance of a series and parallel circuit, currents and voltages in complex networks, R-C circuit, R-L circuit, scaled phasor diagrams",
+    "Networks with variable frequency: effect of L and C, amplitude and phase response, Bode plot of low-pass and high-pass filters, low-pass and high-pass filters with inductor and resistor, logarithmic ratios (decibels)",
+    "Series connection of two-ports: amplitude and phase responses of simple transfer functions, constant, negative constant, differentiator, integrator, low-pass, high-pass",
+    "Resonance: series resonant circuit, parallel resonant circuit, band-pass filter",
+    "Amplitude (de)modulation, medium wave receiver",
+    "Introduction to measuring instruments: power supply unit, digital multimeter, signal generator, simple circuits like voltage and current dividers, oscilloscope, breadboard, probe",
+    "RC and diode circuits: low-pass filter, high-pass filter, phase shifter, diode characteristics (Si, Ge, Zener diode), diode logic",
+    "Operational amplifier basic circuits: inverting amplifier, non-inverting amplifier, filter circuit with OPV",
+    "Resonant circuits: series resonant circuit, parallel resonant circuit, stray capacitance, AM modulation/demodulation, filter, FM modulation/demodulation"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "graded written exam (90 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "laboratory reports (ungraded)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module examination is a graded written exam of 90 minutes duration. Laboratory reports for MECB232 Laboratory Electrical Engineering 2 are ungraded. The module grade for MECB230 corresponds to the grade of MECB231.",
+  "bibliography": [
+    "Lecture presentations, lecture script, H.ErT.Z learning platform, lecture script, lecture slides and exercise tasks: Fundamentals of Electrical Engineering - DC Technology, Editor: Manfred Strohrmann, see also https://www.h-ka.de/lernzentren",
+    "Führer, et.al.: Grundgebiete der Elektrotechnik Band 1: Stationäre Vorgänge; Carl Hanser Verlag, 2019; 10. Auflage, ISBN: 978-3-446-45953-3",
+    "U. Tietze, Ch. Schenk, Halbleiter-Schaltungstechnik; 16. Auflage, Springer Verlag, 2019; ISBN: 978-3- 662-48553-8",
+    "L. Stiny, M. Poppe: Grundwissen Elektrotechnik und Elektronik; Springer Vieweg Verlag, 2018, 8. Auflage; ISBN: 978-3-662-68458-0 oder e-Book: 978-3-662-68459-7",
+    "Lecture presentations, lecture script, laboratory documents H.ErT.Z learning platform, lecture script, lecture slides and exercise tasks: Fundamentals of Electrical Engineering - DC Technology, Editor: Manfred Strohrmann, see also https://www.h-ka.de/lernzentren",
+    "Führer, et.al.: Grundgebiete der Elektrotechnik Band 1: Stationäre Vorgänge; Carl Hanser Verlag, 2019; 10. Auflage, ISBN: 978-3-446-45953-3",
+    "U. Tietze, Ch. Schenk, Halbleiter-Schaltungstechnik; 16. Auflage, Springer Verlag, 2019; ISBN: 978-3- 662-48553-8",
+    "L. Stiny, M. Poppe: Grundwissen Elektrotechnik und Elektronik; Springer Vieweg Verlag, 2018, 8. Auflage; ISBN: 978-3-662-68458-0 oder e-Book: 978-3-662-68459-7"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB230",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "d06dd16634c74a0d6f7a41a5b8ac8d61ecddaeff27d4801ebf055ecb73489e23",
+  "extracted_at": "2026-11-20T12:39:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

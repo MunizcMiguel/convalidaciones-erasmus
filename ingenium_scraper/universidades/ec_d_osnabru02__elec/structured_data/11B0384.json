@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Regelungstechnik",
+  "course_name_en": "Advanced Feedback Control Systems",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Structure of the control loop.",
+    "Laplace transform and frequency response as fundamental tools for the analysis and synthesis of control loops."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Graduates have a broad overview of frequency and time domain methods and can apply these techniques to complex systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Graduates can compare important methods for systems with concentrated parameters in specific technical applications and implement them for complex systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Graduates possess broad knowledge of control engineering and are particularly able to communicate with users at the interfaces to the process or information processing.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Continuation of frequency domain methods",
+    "Root locus (construction rules, design procedure)",
+    "Complex control systems (controllers with two degrees of freedom, disturbance feedforward, anti-windup, cascade control, ...)",
+    "State-space control",
+    "Sampled-data control (discrete analysis and synthesis, z-transformation)",
+    "Outlook on modern control engineering methods",
+    "Lecture-accompanying practical course"
+  ],
+  "teaching_methods": [
+    "Laboratory activity",
+    "Lecture"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is an exam. The ungraded assessment is experimental work, consisting of approximately 6 experiments, each lasting 90 minutes. Exam duration is according to the valid study regulations.",
+  "bibliography": [
+    "J. Lunze: Regelungstechnik 1. Springer. 2020.",
+    "H. Unbehauen.: Regelungstechnik 1. Vieweg+Teubner Verlag. 2008.",
+    "K. J. Astom, M. Murray: Feedback Systems: An Introduction for Scientists and Engineers. Princeton University Press. 2021.",
+    "M. Horn, N. Dourdoumas: Regelungstechnik. Pearson. 2004."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B0384",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "10b79653c454be443517fb0f90362b2e4568d15ba59691eac0b5eaf7539e849d",
+  "extracted_at": "2026-11-20T12:32:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,85 @@
+{
+  "course_name_original": "MABB640A – Aeronautical Engineering 2",
+  "course_name_en": "Aeronautical Engineering 2",
+  "ects": 6.0,
+  "semester": "6th Semester",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Aeronautical Engineering 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to predict and analyze the flight dynamic behavior of a fixed-wing aircraft based on geometric properties, and to independently derive and interpret the relevant equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can name the safety requirements of a passenger aircraft and independently derive the safety budgets for individual aircraft systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They are able to predict the failure probability of a system, as well as an aircraft crash or maintenance incident, based on the system architecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Furthermore, they are able to optimize the safety level of an aircraft system through technical measures.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Safety and real-time requirements for avionics systems",
+    "Basic structure and functional principles of avionics systems",
+    "Mathematical models for calculating the failure probability of individual aircraft systems",
+    "Analysis methods for evaluating the effects of system failure on the aircraft",
+    "Protection measures for avionics systems against environmental effects and random errors",
+    "Coordinate and reference systems of an aircraft",
+    "Vector space of an aircraft",
+    "Vector transformation between coordinate systems",
+    "Translational equations of an aircraft",
+    "Rotational equations of an aircraft",
+    "Prediction of aircraft movements"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Assessment for MABB611A",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Assessment for MABB612A",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The overall module grade for MABB640A is calculated with equal weighting from the grades of MABB611A and MABB612A. For each component (MABB611A and MABB612A), the assessment can be a graded written exam (60 min), a graded oral exam (20 min), or a graded presentation (20 min).",
+  "bibliography": [
+    "Jeppesen; Avionics and Flight Instruments",
+    "Stephen Corda; Introduction to Aerospace Engineering",
+    "Bernard Etkin, Dynamics of Atmospheric Flight"
+  ],
+  "isced_f_code": "0716",
+  "missing_sections": [],
+  "institution": "Karlsruhe University of Applied Sciences",
+  "institution_slug": "hka",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB640A",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "3ee2f8915d3700a819cdc36ab243336f4bbc6c2177c95db40ecc776bbd1d4da9",
+  "extracted_at": "2026-11-12T23:56:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

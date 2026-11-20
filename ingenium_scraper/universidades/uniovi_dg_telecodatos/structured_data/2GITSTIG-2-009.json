@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Arquitectura de Redes y Sistemas",
+  "course_name_en": "Network and Systems Architecture",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of protocol architectures",
+    "Knowledge of the lower layers (physical and data link) of the OSI model, included in the Fundamentals of Telematics course.",
+    "Proficiency in binary, decimal, and hexadecimal numerical representations."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Recognize topologies in local area networks, name potential protocols, and explain their operation.",
+      "type": "unspecified",
+      "code": "RA-7.9"
+    },
+    {
+      "text": "Analyze, elaborate, and determine relevant information in the development of tasks related to the different topics covered in the subject.",
+      "type": "unspecified",
+      "code": "RA-7.10"
+    },
+    {
+      "text": "Explain congestion control techniques.",
+      "type": "unspecified",
+      "code": "RA-7.13"
+    },
+    {
+      "text": "Describe routing algorithms.",
+      "type": "unspecified",
+      "code": "RA-7.14"
+    },
+    {
+      "text": "Know network routing and interconnection methods.",
+      "type": "unspecified",
+      "code": "RA-7.18"
+    },
+    {
+      "text": "Analyze and evaluate routing protocols using software tools.",
+      "type": "unspecified",
+      "code": "RA-7.20"
+    },
+    {
+      "text": "Create and use models of real networks using network simulators.",
+      "type": "unspecified",
+      "code": "RA-7.21"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1: Review of physical and data link layers",
+    "Practical aspects of IEEE 802 standards",
+    "Topic 2: Network layer",
+    "Functions, organization and services offered",
+    "Routing: Classification, strategies and minimum cost algorithms",
+    "Introduction to congestion control and traffic management techniques",
+    "Overlay tunnels",
+    "Review of packet-switched network technologies",
+    "X.25",
+    "Frame Relay",
+    "ATM",
+    "MPLS",
+    "Topic 3: TCP/IP Architecture",
+    "The TCP/IP architecture",
+    "TCP/IP protocol family",
+    "IP (Internet Protocol)",
+    "IPv4",
+    "ARP (Address Resolution Protocol)",
+    "ICMP (Internet Control Message Protocol)",
+    "IPv6",
+    "ICMPv6",
+    "Transport protocols: UDP and TCP",
+    "Application protocols: DNS and HTTP",
+    "Topic 4: Introduction to network interconnection",
+    "Routing and router operation",
+    "Autonomous systems",
+    "Routing protocols",
+    "Interior routing protocols: RIP, introduction to OSPF",
+    "Exterior routing protocols: Introduction to BGP"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual activities via Virtual Campus"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory evaluation (Nt)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Practical evaluation (Np)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "To pass the course, both theory (Nt) and practical (Np) blocks must be passed with a minimum of 5 out of 10 points. If either block is not passed, the maximum final grade will be 4.5 points. If both blocks are passed, the final grade is calculated as 0.6 * Nt + 0.4 * Np. In the ordinary call, Nt is based on controls (mean of >=4, otherwise max 4.5), potentially a global theory exam. Np requires 80% attendance and is 0.1 * Average Activities + 0.9 * Final Practical Exam. For other calls, Nt and Np are based on respective exams.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, William Stallings, Pearson.",
+    "Redes de ordenadores, Andrew S. Tanenbaum, Pearson.",
+    "Redes de computadoras, un enfoque descendente, James F. Kurose, Addison Wesley.",
+    "TCP/IP, Arquitectura, protocolos e implementación con IPv6 y seguridad de IP, Sidnie Feit, Mc-Graw Hill.",
+    "IPv6 Fundamentals: A Straightforward Approach to Understanding IPv6, Rick Graziani, CISCO Press.",
+    "Referencias en Internet a diferentes estándares."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-009",
+  "source_language": "es",
+  "source_sha256": "f50812e601891a9797ede6f9058023d62b5547aa3609693d334dcbddccf5fd47",
+  "extracted_at": "2026-11-20T06:05:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

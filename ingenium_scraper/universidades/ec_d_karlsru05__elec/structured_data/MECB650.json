@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Aktorik und Sensorik",
+  "course_name_en": "Actuators and Sensors",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of basic mathematics, technical mechanics, and electrical engineering (DC and AC technology)",
+    "Fundamentals of analog and digital electronics",
+    "Power electronics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Evaluate and apply the fundamentals of metrology (accuracy, resolution, repeatability, error).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Discuss and evaluate influences on measurement results such as EMC and cross-sensitivities.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the application of appropriate remedial measures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Competently evaluate the suitability of various sensors for typical applications in industrial processes, e.g., for measuring temperature, pressure, force, displacement, angle, and acceleration.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe sensors using system-theoretic considerations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain and evaluate interference influences on sensor output signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain and evaluate typical signal conditioning and signal transmission of analog and digital sensor signals (interfaces) for applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Derive and evaluate metrological aspects such as errors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform basic calculations of permanent and electromagnetic circuits, including with the Finite Element Method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the principles of electromagnetic force generation and apply them to force calculation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with the designs, functionalities, and mathematical models of electromagnets and permanent-magnet excited DC motors, as well as series-wound and universal motors.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the functional parameters of sensors, evaluate them metrologically considering essential influencing parameters, describe sensors system-theoretically to analyze sensor systems, and apply them in concepts with sensors and actuators.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Analyze electromagnetic circuits and develop new functional concepts by considering and applying the fundamental findings described above in the development of electric motors.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of metrology",
+    "Accuracy, resolution, linearity, reproducibility, and error analysis",
+    "Interfering variables influencing sensor output signals (EMC)",
+    "Electronic signal conditioning (analog electronics) and forwarding",
+    "Presentation and comparison of different interfaces",
+    "Evaluation of measurement results in connection with analog circuit technology and LTSPICE simulation",
+    "Fundamentals of electromagnetic fields",
+    "Magnetic forces",
+    "Electromagnets",
+    "Brushed and brushless permanent-magnet excited DC motors",
+    "Shunt-wound, series-wound, and universal motors",
+    "Piezoelectric actuators and their control",
+    "Design and optimization of electromagnetic actuators with the Finite Element Method"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory",
+    "Exercise with integrated laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written module examination (120 min)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Laboratory reports for Sensorics Lab (MECB652)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module grade for MECB650 corresponds to the module examination grade, which consists of two equal parts from MECB651 and MECB653. MECB652 Sensorics Lab is evaluated as a course achievement based on reports to be prepared for the individual experiments without grading.",
+  "bibliography": [
+    "Vorlesungspräsentationen, Vorlesungsskript",
+    "Reif (Hrsg.): Sensoren im Kraftfahrzeug, Springer-Vieweg, 2016, 3. Auflage, ISBN: 978-3658112103",
+    "Schmidt: Sensor-Schaltungstechnik, Vogel-Verlag, 2007, 3. Auflage, ISBN: 978-3-802-31574-9",
+    "H.R. Tränkler, Reindl (Hrsg.): Sensortechnik, Springer-Verlag, 2014, 2. Auflage; ISBN: 978-3-642- 29941-4",
+    "Laborunterlagen und Vorlesungsskript",
+    "Stölting et. al.: Handbuch Elektrische Kleinantriebe, Hansa-Verlag, 2006, 3. Auflage; ISBN: 978-3-446- 40019-1",
+    "Kallenbach et. al.: Elektromagnete, Teubner-Verlag, 2018, 5. Auflage, ISBN: 978-3-658-14787-7"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB650",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "b08699a979c83752aa69c82b575da1acd6ef0ca513211085f796d22446b967c3",
+  "extracted_at": "2026-11-20T12:39:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

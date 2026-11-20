@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Procesamiento de Imagen",
+  "course_name_en": "Image Processing",
+  "ects": 3.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics: linear algebra (matrices, vectors and eigenvalues), basic set theory and probability.",
+    "Programming: with a high-level language such as MATLAB/OCTAVE, C/C++ or Python."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply basic noise reduction techniques and geometric transformations to digital images.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply algorithms for extracting basic image features: contours, characteristic points, and regions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Extract high-level information from a digital image.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement a basic computer vision application.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to image processing. The camera model",
+    "Linear filters",
+    "Morphological operations",
+    "Segmentation",
+    "Feature extraction",
+    "Recognition and classification"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Problem solving",
+    "Laboratory practices",
+    "Discussions",
+    "Debates",
+    "Inquiry-Based Learning"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (E1)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Course project (T1)",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum of 5 out of 10 in the theoretical exam (E1) and 4 out of 10 in the course project (T1) are mandatory. If these minimums are met, the final grade is calculated as: Grade = 0.2 * E1 + 0.8 * T1. Otherwise, the grade will be the minimum between the calculated grade and 4.0. For extraordinary calls, the same elements and criteria apply, with the possibility for students to repeat an evaluable element to improve their score.",
+  "bibliography": [
+    "Stan Birchfield. Image Processing and Analysis 1e. Cengage Learning, 2017. ISBN-13: 9781285179520 / ISBN-10: 1285179528",
+    "Gary Bradski y Adrian Kaehler, Learning OpenCV 3: Computer Vision in C++ with the OpenCV Library. O’Reilly Media, Inc., 2016. Print ISBN: 978-1-4919-3799-0| ISBN 10: 1-4919-3799-8",
+    "K. Dawson-Howe, A Practical Introduction To Computer Vision With OpenCV. Wiley, 2014.",
+    "Sonka, Milan, Vaclav Hlavac, and Roger Boyle. Image processing, analysis, and machine vision, International Edition 4e. Cengage Learning, 2015. ISBN-13: 9781133593690 / ISBN-10: 1133593690",
+    "David Forsyth & Jean Ponce, Computer Vision: A Modern Approach, 2e. Pearson, 2012.",
+    "R. Szeliski, Computer Vision: Algorithms and Applications. Springer London Ltd, 2010. (Draft available on-line: http://szeliski.org/Book/drafts/SzeliskiBook_20100903_draft.pdf)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Automatización e Informática Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mm_automatizacion",
+  "degree": "Máster Universitario en Ingeniería de Automatización e Informática Industrial",
+  "course_code": "MINAUT02-C-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/automatizacion/-/fof/asignatura/MINAUT02-C-003",
+  "source_language": "es",
+  "source_sha256": "e537934e0a8b857122e7f8d362ae9597ed4a9df102b9a7b50b623c647b44d611",
+  "extracted_at": "2026-11-20T06:00:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

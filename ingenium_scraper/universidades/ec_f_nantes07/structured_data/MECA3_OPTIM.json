@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Optimisation",
+  "course_name_en": "Optimization",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the main optimization methods used in mechanical design and structural calculation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enable suitable method selection for given problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Emphasize optimization as a product design aid tool.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Be familiar with classical deterministic methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with global methods based on stochastic approaches.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be familiar with recently introduced industrial approaches like structural topology optimization.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Formulation of optimization problems: identification of decision variables, criteria/objectives, and relevant constraints.",
+    "Multi-objective optimization, Pareto front, and its reformulation into a single-objective problem.",
+    "Optimization methods: principles of single and multi-variable optimization, continuous, constrained and unconstrained methods, deterministic and stochastic methods (simulated annealing and genetic algorithms).",
+    "Implementation of optimization problems: practical work on Matlab and Excel for a case study.",
+    "Decision making and solution choice."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 20.0,
+  "assessment_methods": [
+    {
+      "method": "Individual evaluation (EVI 1)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "M. MINOUX \"Programmation mathématique - Théorie et algorithmes\", Tome 1, Dunod éditeur",
+    "P. BROUSSE \"Optimization in mechanics : problems and methods\". Series in Applied Mathematics and Mechanics, North Holland Editor",
+    "R. Fletche, Foundation of structural optimization. A unified Approach, John Wiley & Sons, 1987.",
+    "Mitchell Melanie : An Introduction to Genetic Algorithms"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Ecole Centrale De Nantes",
+  "institution_slug": "ec_f_nantes07",
+  "degree": "Diplôme d'ingénieur Centrale Nantes, spécialité Mécanique (apprentissage)",
+  "course_code": "MECA3_OPTIM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.ec-nantes.fr/ingenieur-de-specialite/mecanique/syllabus-ei3-spe-meca",
+  "source_language": "fr",
+  "source_sha256": "f1fb7c1830b01497c1ef71e6c2b2a50cb26a776ef6c0888bd7336fdb2f605f06",
+  "extracted_at": "2026-11-18T09:59:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,76 @@
+{
+  "course_name_original": "Introduction to Cryptography",
+  "course_name_en": "Introduction to Cryptography",
+  "ects": 6.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Acquire basic knowledge about number theory and apply basic operations in number theory.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the classical cipher systems shift cipher, substitution cipher, affine cipher, Vigenere cipher, Hill cipher, permutation cipher, and encrypt and decrpyt by using these methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the modern cipher systems RSA and ElGamal cipher, and encrypt and decrpyt by using these methods.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental definitions Binary operation",
+    "Groups: Rings and fields",
+    "Integers and integer arithmetics",
+    "Modular arithmetics",
+    "Shift cipher Substitution cipher Affine cipher",
+    "Vigenere cipher Hill cipher Permutation cipher",
+    "Stream ciphers",
+    "Digraph transformations",
+    "RSA cipher",
+    "Cryptoanalysis",
+    "Shannon theory",
+    "Primality and factoring",
+    "Primality test and prime number generation",
+    "Quantum cryptography"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "B. Schneier, Applied Cryptography: Protocols, algorithms and source code in C, Wiley, 1996. D. R. Stinson, Cryptography: Theory and Practice, CRC, 1995.",
+    "1) E. Afacan, Kriptografiye Giriş, Epos Yayınları, 2016."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Gazi University — Electrical-Electronic Engineering (Eng)",
+  "institution_slug": "ec_tr_ankara02__elec",
+  "degree": "Electrical-Electronic Engineering (Eng)",
+  "course_code": "EEE446-s8",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.gazi.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=857456&lang=en",
+  "source_language": "en",
+  "source_sha256": "56844347cc3c1383b0e5384d4d33e4b0ec6033e432ad4da9cebdea11c88c0bb5",
+  "extracted_at": "2026-11-20T12:53:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Computer Architecture (MYY505)",
+  "course_name_en": "Computer Architecture",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Identify the building blocks of a computer system",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Sketch the design of a simple processor and explain how it operates.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Demonstrate an understanding of memory hierarchy, how it is organized and used.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Develop and test programs in assembly language.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Evaluate programs written in assembly language.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Demonstrate an understanding of the organization of a microprocessor and a pipelined implementation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Demonstrate an understanding of current concepts in the organization of a microprocessor.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Instruction Set Architecture: Machine language: Instructions for data processing, memory transfer, program flow control. Registers and memory addressing. Assembly programming. Instruction encoding. Addressing modes. Subroutine call and return. Register use conventions. System stack. Compilation, static/dynamic linking",
+    "Processor core organization: Basic structure. Instruction execution cycle. Basic digital circuits. Design of arithmetic Logic Unit. Core micro-architecture. Design of datapath and control unit. Performance evaluation. Pipelining, instruction dependencies, pipeline hazards. Implementation of pipelined core. Micro-programmed control.",
+    "Memory subsystem: Locality of references. Memory hierarchy. Cache memories: organization and operation. Performance evaluation of cache memory. Virtual memory.",
+    "Input-output subsystem: Reliability. Input/output devices and principles of operation. Programmer’s model of I/O. Interrupts. Timing and arbitration of busses.",
+    "Introduction to modern computer architecture: Instruction-level parallelism. Branch prediction. Speculative execution. Dynamic/static superscalar processors. Out of order execution. Parallel processors. Multi-threaded processors. Graphics processor units.",
+    "Lab preparation: Version control using git and github. Verilog hardware description language."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Use of Github repositories for maintenance, distribution of starter programs and collection of lab assignments.",
+    "Use of the piazza.com Q&A platform and email for information exchange and improved communication with students.",
+    "Use of integrated development environment (IDE) for assembly programming and electronic design automation (EDA) software for the design and simulation of digital circuits.",
+    "Course website maintenance. Announcements and posting of teaching material (lecture slides and notes).",
+    "Use of projector and interactive board during lectures.",
+    "Announcement of assessment marks via the ecourse platform by UOI.",
+    "Seminars",
+    "Laboratory practice",
+    "Fieldwork",
+    "Study and analysis of bibliography"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 79.0,
+  "assessment_methods": [
+    {
+      "method": "Final examination, which includes argument development questions for problem solving and open-ended questions, problem solving, assembly program development.",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory exercises of three main types: a) assembly program development and testing, b) design and simulation-based verification of a simple processor, c) development and use of simple simulators. The exercises are evaluated based on correctness, completeness and, in some instances, speed of execution.",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation procedure is accessible to students via the course website.",
+  "bibliography": [
+    "Book [68370526]: Νικολός: Αρχιτεκτονική Υπολογιστών.",
+    "Book [12561945]: Patterson, Hennessy: Οργάνωση και σχεδίαση υπολογιστών: η διασύνδεση υλικού και λογισμικού.",
+    "Book [13759]: Tanenbaum: Η αρχιτεκτονική των υπολογιστών: μια δομημένη προσέγγιση.",
+    "Book [15120]: Hammacher, Vranesic, Zaky: Οργάνωση και αρχιτεκτονική ηλεκτρονικών υπολογιστών.",
+    "IEEE Micro, IEEE Computer Architecture Letters, IEEE Transactions on Computers",
+    "Transactions on Architecture and Code Optimization, Transactions on Computer Systems, ACM.",
+    "Microprocessors and Microsystems, Journal of Systems Architecture, Elsevier."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "University of Ioannina (Πανεπιστήμιο Ιωαννίνων)",
+  "institution_slug": "ec_g_ioannin01",
+  "degree": "Computer Science and Engineering (Diploma, 4 years / 240 ECTS, undergraduate programme)",
+  "course_code": "MYY505",
+  "academic_year": "2025/26",
+  "source_url": "https://www.cse.uoi.gr/wp-content/uploads/2025/09/2025-26_CSE-UOI_proptyxiaka-perigrammata_core-courses_EN.pdf",
+  "source_language": "en",
+  "source_sha256": "703067780e2ce43483a85ccd311719401939b52aadd035309d0885366483d512",
+  "extracted_at": "2026-11-20T09:26:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

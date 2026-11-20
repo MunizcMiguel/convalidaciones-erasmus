@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Fundamentos de control industrial",
+  "course_name_en": "Fundamentals of Industrial Control",
+  "ects": 4.5,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge from Mathematics I: Resolution of linear equations, complex variable.",
+    "Knowledge from Mathematics II: Resolution of systems of linear equations.",
+    "Knowledge from Mathematics III: Ordinary and partial differential equations, Laplace Transform tool.",
+    "Knowledge from Mechanics: Dynamics of mechanical systems (with translational and rotational motion), relative displacements in the composition of movements.",
+    "Knowledge from Electricity and Magnetism: Electrical circuits (basic laws - Kirchhoff), magnetic circuits (basic laws, analysis and synthesis of magnetic circuits).",
+    "Knowledge from Chemistry: Basic knowledge of chemical kinetics (differential and integral rate laws in concentrations; activation energy and temperature effect), liquids and solutions, chemical equilibrium, vapor pressure and temperature effect.",
+    "Knowledge from Thermodynamics: Fundamental concepts, PVT behavior of substances, thermal equations, compressibility factor, thermodynamic variables, thermodynamics applied to continuous media, mass balance.",
+    "Knowledge from Informatics: Programming and algorithm development (implementation of control structures), complex data structures (manipulation of vectors, matrices, records).",
+    "Knowledge from Theory of Mechanisms: Force analysis in mechanisms, gears.",
+    "Knowledge from Electrical Systems: Elements of electrical circuits, circuit analysis methods, fundamental theorems, introduction to transient regime of electrical circuits (first and second-order circuits), introduction to electrical machines (electric motors and generators).",
+    "Knowledge from Electronic Systems: The operational amplifier (models, circuits with operational amplifiers, linear applications of the operational amplifier), number systems and codes, Boolean algebra, binary functions (simplification methods), combinational systems, sequential systems (flip-flops), introduction to the microprocessor, the transistor in switch mode.",
+    "Matemáticas I",
+    "Matemáticas II",
+    "Matemáticas III",
+    "Mecánica",
+    "Electricidad y magnetismo",
+    "Química",
+    "Termodinámica",
+    "Informática",
+    "Teoría de mecanismos",
+    "Sistemas eléctricos",
+    "Sistemas electrónicos"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Will know and be able to apply the technology (devices and software tools) typical of industrial control and automation systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Will know and be able to obtain representative models of real systems to approach automatic control.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Will know and be able to apply analysis and design techniques for feedback control systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Will be able to implement industrial control and automation systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Introduction to industrial control.",
+    "1.1 Introduction to control systems (definitions, types of systems, control objectives, problems).",
+    "1.2 Control domains used in system study. Laplace Transform and its application to industrial control. Transfer function.",
+    "Topic 2. Transient response analysis.",
+    "2.1 Basic control actions.",
+    "2.2 Analysis of the response of first-order systems.",
+    "2.3 Analysis of the response of second-order systems.",
+    "2.4 Simplifications for systems with multiple poles.",
+    "Topic 3. Analysis and synthesis of linear systems in the frequency domain.",
+    "3.1 Closed-loop control versus open-loop control.",
+    "3.2. Equations governing the system, closed-loop sensitivity to disturbances and measurement noise.",
+    "3.3 Steady-state errors in control systems.",
+    "3.4 Closed-loop stability: Concept of stability, Routh-Hurwitz.",
+    "3.5 Root locus (Evans Locus).",
+    "Topic 4. Frequency response analysis.",
+    "4.1 Introduction to frequency response.",
+    "4.2 Representation of Bode diagrams.",
+    "4.3 Analysis of stability and relative stability.",
+    "Topic 5. The industrial PID controller.",
+    "5.1 Introduction to the PID controller.",
+    "5.2 Analysis of proportional, integral, and derivative actions.",
+    "5.3 Introduction to PID design techniques and PID controller tuning.",
+    "5.4 Application examples.",
+    "Practices aimed at the analysis and synthesis of linear dynamic systems.",
+    "Practices aimed at the implementation of basic PID controllers."
+  ],
+  "teaching_methods": [
+    "Theoretical classes",
+    "Seminars and workshops",
+    "Practical classes",
+    "Tutorials",
+    "Group study and work",
+    "Individual autonomous study and work",
+    "Expository method - Lecture",
+    "Case study",
+    "Problem and exercise solving",
+    "Cooperative learning"
+  ],
+  "workload_hours_total": 112.5,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Observation techniques",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Written tests",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Oral tests (laboratory practices)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "A minimum score of 4.0 out of 10 in written tests and 3.5 out of 10 in oral tests (laboratory practices) is required to pass the course. If these critical evaluation criteria are not met, the total course grade will be FAIL, capped at 4.5 points. Written tests (60%) and oral tests for lab practices (20%) are recoverable. In-course assessment tests (20%) are non-recoverable.",
+  "bibliography": [
+    "Sistemas de control moderno / Richard C. Dorf, Robert H. Bishop ; traducción, Sebastián Dormido Canto, Raquel Dormido Canto ; revisión técnica, Sebastián Dormido Bencomo-- 10ª ed-- Madrid : Pearson Educación, 2005 Absys",
+    "Ingeniería de control moderna / Katsuhiko Ogata; traducción, Sebastián Dormido Canto, Raquel Dormido Canto; revisión técnica, Sebastián Dormido Bencomo; revisión técnica para Latinoamérica, Amadeo Mariani [et al.]-- 5ª ed-- Madrid : Pearson Educación Absys",
+    "Sistemas de control automático / Benjamín C. Kuo ; traducción, Guillermo Aranda Pérez ; revisor técnico, Francisco Rodríguez Ramírez-- 7a ed-- México [etc.] : Prentice Hall Hispanoamericana, cop. 1996 Absys",
+    "Sistemas de control para ingenieria / Norman S. Nise-- 1ª ed. en español-- Mexico, D.F. : Compañía Editorial Continental, 2002 Absys",
+    "Automatic control systems / Benjamin C. Kuo, Farid Golnaraghi-- 8th ed-- New York : John Wiley & Sons, [2003]",
+    "Control Systems Engineering [Hardcover]. Norman S. Nise. Wiley. ISBN-10: 0470547561",
+    "Modern Control Engineering (5th Edition). Katsuhiko Ogata. Prentice Hall. ISBN-10: 0-13-615673-8"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de La Rioja",
+  "institution_slug": "es_rioja",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "877",
+  "academic_year": "2026-27",
+  "source_url": "https://aps.unirioja.es/GuiasDocentes/servlet/agetguiahtml?2026-27,803G,877",
+  "source_language": "es",
+  "source_sha256": "61cfd6e46f0eb6b4379e477797f370cd08b18431805474d9d8a6615c823a5b62",
+  "extracted_at": "2026-11-13T22:53:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

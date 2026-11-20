@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Fundamentos da Programação",
+  "course_name_en": "Fundamentals of Programming",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Computers, algorithms, and programs",
+    "Programming languages",
+    "Syntax and semantics",
+    "Basic programming elements",
+    "Elementary data types",
+    "Names and assignment",
+    "External communication",
+    "Programs, instructions, and sequencing",
+    "Selection",
+    "Repetition",
+    "Functions",
+    "Procedural abstraction",
+    "Tuples and counted loops",
+    "Character strings",
+    "Lists",
+    "Recursive functions",
+    "Higher-order functions",
+    "Functional programming",
+    "Recursion and iteration",
+    "Files",
+    "Data abstraction",
+    "Abstract data types",
+    "Object-oriented programming"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory exercises",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Project deliveries (P1 and P2)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical test (TP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional resit exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (NF) for the normal period is calculated as 50% Project grade (P) + 50% Laboratory grade (L). For approval, L must be >= 9.5 and P must be >= 9.5. The laboratory grade L is the average of the 6 best out of 7 programming exercises. The project grade P is calculated by P = min{TP, EP} + abs(TP - EP)*max{15, TP + 5}/100, where EP = 50% P1 + 50% P2, and TP is the practical test. An optional resit exam (E) can substitute the laboratory component (L), leading to NF = 50% P + 50% max{L, E}, where the exam grade must be >= 8 for approval. For the special period, NF = 50% P + 50% E. The final grade must be >= 9.5 for approval.",
+  "bibliography": [
+    "Martins J.P., Programação em Python. Introdução à Programação Utilizando Múltiplos Paradigmas, IST Press, 5ª Edição, 2023 (main)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "prerequisites",
+    "prerequisites",
+    "prerequisites",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "FProg3112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185631",
+  "source_language": "pt",
+  "source_sha256": "363270acfc2cd1c761c071b58b793b8a0fb1c5ca93f778ce7aca5615763e67b2",
+  "extracted_at": "2026-11-20T12:41:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

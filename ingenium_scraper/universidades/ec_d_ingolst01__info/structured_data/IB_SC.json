@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Statistik und Kombinatorik",
+  "course_name_en": "Statistics and Combinatorics",
+  "ects": 5.0,
+  "semester": "summer semester",
+  "year_of_study": 6,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Second study section reached, with at least 42 ECTS credits from the first study section.",
+    "Foundations of Mathematics 1 and 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Distinguish between permutation, combination, and selection.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Reproduce and apply the inclusion-exclusion principle.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and apply the pigeonhole principle.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define and use generating functions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply combinatorics to probability theory.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply methods of descriptive statistics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the basic concepts of inferential statistics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Fundamentally handle the statistics software R.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Handle external datasets, create R-internal data objects, and apply R functions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement statistical methods in R, especially for data visualization, sampling, and estimation and testing procedures.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Combinatorial counting problems: permutations, combinations, selection",
+    "Inclusion-Exclusion Principle; Pigeonhole Principle",
+    "Generating functions in combinatorics",
+    "Probability theory: random experiments, outcomes, sample space, events",
+    "Descriptive statistics: organization and representation of data, scale types, statistical measures, standardization of data",
+    "Inferential statistics: The normal distribution, the standard normal distribution, the sampling distribution, point and interval estimation, confidence intervals, hypothesis testing, t-test, beta error and test power, confidence level, effect sizes",
+    "Variable relationships: covariance and correlation, simple linear regression, the quality of the relationship",
+    "The basic principle of analysis of variance, methods for rank and nominal data"
+  ],
+  "teaching_methods": [
+    "seminar-style instruction",
+    "exercise"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is a 90-minute written examination.",
+  "bibliography": [
+    "RASCH, Björn, 2014. Quantitative Methoden: Band 1 u. 2. 4. Auflage. Berlin: Springer.",
+    "SEDLMEIER, Peter und Frank RENKEWITZ, 2018. Forschungsmethoden und Statistik für Psychologen und Sozialwissenschaftler. 3. Auflage. ISBN 978-3-86894-321-4",
+    "HATZINGER, Reinhold, Kurt HORNIK und Herbert NAGEL, 2014. R: Einführung durch angewandte Statistik. . 2. Auflage.",
+    "WEWEL, Max C., 2019. Statistik im Bachelor-Studium der BWL und VWL: Methoden, Anwendungen, Interpretation. 4. Auflage. Hallbergmoos/Germany: Pearson. ISBN 978-3-86894-381-8",
+    "TITTMANN, Peter, 2019. Einführung in die Kombinatorik [online]. Berlin ; Heidelberg: Springer Spektrum PDF e-Book. ISBN 978-3-662-58921-2. Verfügbar unter: https://doi.org/10.1007/978-3-662-58921-2."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_SC",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "118f21311df8414bc65a43ba1d6c91a83a4d3bbb7ccbc601aedbc312d8dcdea1",
+  "extracted_at": "2026-11-20T12:35:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Criptografía y Codificación de la Información",
+  "course_name_en": "Cryptography and Information Coding",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of linear algebra",
+    "Knowledge of polynomials",
+    "Knowledge of discrete probabilities",
+    "Notions of algorithm design and analysis",
+    "Notions of symbolic calculation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the techniques of computer security that allow maintaining privacy, confidentiality and integrity in access to data and knowledge, including the basic concepts of cryptography.",
+      "type": "knowledge",
+      "code": "CE16"
+    },
+    {
+      "text": "Know the language and interpret concepts and parameters involved in Cryptography and Coding.",
+      "type": "knowledge",
+      "code": "RCRI1"
+    },
+    {
+      "text": "Understand the objectives of Error Correcting Codes Theory and Cryptography.",
+      "type": "knowledge",
+      "code": "RCRI2"
+    },
+    {
+      "text": "Recognize the presence and importance of error-correcting codes and encryption systems in solving real-world digital security problems.",
+      "type": "knowledge",
+      "code": "RCRI3"
+    },
+    {
+      "text": "Identify different families and classical code constructions and build error-correcting codes with specific parameters.",
+      "type": "skill",
+      "code": "RCRI4"
+    },
+    {
+      "text": "Manipulate encryption systems, both public and private key, and recognize situations for using some cryptosystems over others, as well as other cryptographic protocols.",
+      "type": "skill",
+      "code": "RCRI5"
+    },
+    {
+      "text": "Handle symbolic calculation programs for manipulating the elements involved in Code Theory and Cryptography.",
+      "type": "skill",
+      "code": "RCRI6"
+    }
+  ],
+  "syllabus_topics": [
+    "Mathematical foundations of Cryptography and Coding.",
+    "Introduction to codes.",
+    "Linear codes.",
+    "Cyclic codes.",
+    "Other error-correcting codes.",
+    "Introduction to cryptography.",
+    "Private key cryptography.",
+    "Public key cryptography and digital signatures.",
+    "Other cryptographic protocols.",
+    "Introduction to Cryptography. Classical ciphers.",
+    "Stream cipher.",
+    "Block cipher.",
+    "Integrity. Hash functions. Authenticated encryption.",
+    "Key exchange. Public-key cryptosystems.",
+    "Digital signature. Cryptographic protocols.",
+    "Post-quantum cryptography.",
+    "Real cryptographic applications.",
+    "Introduction to error detecting and correcting codes.",
+    "Linear codes. Generator and parity-check matrix. Code parameters.",
+    "Hamming and Golay codes.",
+    "Cyclic codes: Reed-Solomon and BCH codes.",
+    "Other codes. Real applications of Code Theory."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expositive classes",
+    "Online teaching",
+    "Virtual expositive sessions",
+    "Presential sessions",
+    "Tutoring"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 32.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exams",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Attendance / Participation in Seminars and Tutoring (includes online)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Active Participation in Forums and Virtual Campus Activities",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Reports / Memoirs / Practice exams",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) in the ordinary call is calculated as: NF = 0.05 NA + 0.2 NC + 0.5 NP + 0.25 NT, where NA is the note for attendance/participation, NC for forum participation, NP for practical reports/exams, and NT for the objective theoretical-practical test. All grades are out of 10 points. The course is passed if NF >= 5. For students with officially recognized differentiated evaluation, or in extraordinary calls, the subject will be evaluated by a single final objective theoretical-practical test with a weighting of 100% (NF = NT).",
+  "bibliography": [
+    "Munuera, C., Tena, J.: “Codificación de la información”. Universidad de Valladolid, Valladolid, 1997.",
+    "Buchmann, J.: “Introduction to Cryptography”. Springer, 2004.",
+    "Menezes, A.J., van Oorschot, P.C., Vanstone, S.A.: “Handbook of Applied Cryptography”. CRC-Press, 2001. http://cacr.uwaterloo.ca/hac/",
+    "Blahut, R.E.: “Algebraic Codes for Data Transmission”. Cambridge University Press, 2012."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-4-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-4-006",
+  "source_language": "es",
+  "source_sha256": "95235d996598404e1238a0ca47339b97cbb4b4e589086ace6c469cfb0f609000",
+  "extracted_at": "2026-11-20T05:56:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

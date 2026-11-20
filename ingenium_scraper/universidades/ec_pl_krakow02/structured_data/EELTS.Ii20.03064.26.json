@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Electronic measurement circuits",
+  "course_name_en": "Electronic measurement circuits",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands basic concepts related to electronic measurement transducers. Has knowledge of computer programs for electronic circuit analysis. Knows and understands the properties of circuit models of electronic components. Knows basic electronic circuits used in the construction of electronic measurement transducers.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Can model the operation of an electronic circuit using the MICROCAP program. Can perform a simulation study of the designed electronic circuit.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can build the designed electronic circuit. Can start the built electronic circuit. Can measure the parameters of the built circuit. Can analyze the obtained results and compare them with the assumptions made in the project.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can work in a team, design and build a simple electronic circuit.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Selection of an electronic circuit for the project",
+    "Adoption of design assumptions",
+    "Preliminary design",
+    "Computer simulation of the circuit with MICROCAP program",
+    "Final version of the circuit design",
+    "Determination of the type and parameters of electronic components needed for the construction of the circuit prototype",
+    "Optional printed circuit board design or component layout design on a universal board",
+    "Collection of electronic components and tools",
+    "Assembly of components on the board",
+    "Circuit startup",
+    "Measurement of circuit parameters",
+    "Comparison of the parameters of the manufactured circuit with design assumptions and presentation of results in a report",
+    "Basic concepts (2 hours): Electronic measurement transducers, processing characteristics, metrological properties, definition of boundary error, sensitivity to influencing factors, accuracy class.",
+    "Methods of analysis and design of electronic measurement transducers (2 hours): Universal programs for electronic circuit analysis, MICROCAP, circuit models of basic electronic components.",
+    "Modeling of electronic components (2 hours): Determination of parameters of circuit models of basic electronic components, diode, transistor, operational amplifier.",
+    "Characteristics of measurement signal sources (2 hours): Electrical and parametric sensor signals, circuits for converting parametric signals into electrical signals.",
+    "Differential amplifiers (2 hours): Selection of components for a classic differential amplifier and analysis of errors of a real amplifier, differential measurement amplifiers.",
+    "Carrier wave amplifier path (4 hours): Elements of the carrier wave amplifier path, AC current amplifiers, synchronous demodulators, active filters, self-excited generators.",
+    "Measurement paths with frequency modulation (4 hours): Voltage/frequency and parameter/frequency converters, sigma-delta converter, frequency demodulators, PLL.",
+    "Analog signal processing circuits (2 hours): Passive and active circuits: summing, subtracting, multiplying, dividing, integrating, differentiating.",
+    "Dynamic errors of measurement transducers (2 hours): Electronic circuits for dynamic error correctors.",
+    "Electrical signal converters (2 hours): Electronic converters for average, RMS, and peak values.",
+    "Basic circuits cooperating with analog/digital converters (2 hours): Isolation amplifiers. Sample-and-hold circuits.",
+    "Basic analog-to-digital converter circuits (2 hours): Flash, compensation, integrating converters.",
+    "Integrated measurement transducers (2 hours): Temperature, pressure transducers, accelerometers."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes",
+    "Project classes"
+  ],
+  "workload_hours_total": 115.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of a project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed through activity during classes and a test. Laboratory classes are assessed based on activity during classes and the execution of laboratory classes; preparation for exercises may be verified by an oral or written colloquium. Project classes are assessed based on activity during classes, the execution of a project, and the project itself. Passing the module requires passing all laboratory classes. The overall method of verification of learning outcomes is completing the classes.",
+  "bibliography": [
+    "1. Sidor T.: Elektroniczne Przetworniki Pomiarowe. WND-AGH, Kraków 2006",
+    "2. Sidor T.: Komputerowa Analiza Elektronicznych Układów Pomiarowych. WND-AGH, Kraków 2006"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03064.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/11cd4473-262b-4025-8faf-116f4697c70f.html",
+  "source_language": "pl",
+  "source_sha256": "c2b15f88b0271f2df1847121f66fc701c2a5485630b1a597b1eb90acd23e44f4",
+  "extracted_at": "2026-11-20T09:03:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

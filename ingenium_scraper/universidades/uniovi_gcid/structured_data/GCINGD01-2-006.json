@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Aprendizaje Automático I",
+  "course_name_en": "Machine Learning I",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Linear Algebra",
+    "Calculus I",
+    "Programming Methodology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the inductive process, understanding the main concepts involved in said process.",
+      "type": "unspecified",
+      "code": "RAPI1"
+    },
+    {
+      "text": "Know the main supervised learning algorithms for binary and multi-class classification problems, regression, and ordinal classification.",
+      "type": "unspecified",
+      "code": "RAPI2"
+    },
+    {
+      "text": "Solve supervised learning applications using an appropriate algorithm depending on the application to be solved and the objective loss function.",
+      "type": "unspecified",
+      "code": "RAPI3"
+    },
+    {
+      "text": "Correctly estimate the error committed by a model and know how to statistically compare different algorithms or models.",
+      "type": "unspecified",
+      "code": "RAPI4"
+    },
+    {
+      "text": "Understand the formulation and derivation techniques of optimization-based learning algorithms, understanding the concept of regularization.",
+      "type": "unspecified",
+      "code": "RAPI5"
+    },
+    {
+      "text": "Use appropriate techniques to process the data of a learning problem.",
+      "type": "unspecified",
+      "code": "RAPI6"
+    },
+    {
+      "text": "Understand the basic aspects related to privacy, ethics, and equality that must be taken into account in data learning processes.",
+      "type": "unspecified",
+      "code": "RAPI7"
+    },
+    {
+      "text": "Utilize the most appropriate techniques for data preprocessing and visualization, including dimensionality reduction techniques, in order to facilitate their analysis and communication.",
+      "type": "skill",
+      "code": "CE07"
+    },
+    {
+      "text": "Build machine learning systems using basic and advanced techniques to construct intelligent systems from datasets.",
+      "type": "skill",
+      "code": "CE09"
+    }
+  ],
+  "syllabus_topics": [
+    "Objectives of Machine Learning",
+    "Model evaluation and algorithm comparison",
+    "Basic algorithms",
+    "Types of models",
+    "Model induction process",
+    "Optimization-based algorithms",
+    "Other learning problems",
+    "Combination of models",
+    "Feature selection and extraction"
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Practical Exam 1 (EP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam 2 (EP2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theoretical Exam (ET)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Online Questionnaires (CO)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance (A)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum grade of 4 out of 10 is required for both the practical and theoretical evaluations. If these minimums are met, the final grade is calculated as: ((EP1+EP2)/2 x 0.45) + (ET x 0.4) + (CO x 0.1) + (A x 0.05). If the minimums are not met, the final grade will be the minimum between the calculated grade and 4. For extraordinary calls, students must achieve a minimum of 4 out of 10 in both the theoretical (ET) and practical (EP) exams, and the final grade is calculated as: (ET x 0.5) + (EP x 0.5). If the minimums are not met, the final grade will be the minimum between the calculated grade and 4. Students who achieved 5 or higher in the theoretical or practical part in the ordinary call can only retake the failed part.",
+  "bibliography": [
+    "Mitchell, T. M. (1997). Machine learning.",
+    "Russell, S., & Norvig, P. (2002). Artificial intelligence: a modern approach.",
+    "Witten, I. H., Frank, E., Hall, M. A., & Pal, C. J. (2017). Data mining: practical machine learning tools and techniques. Morgan Kaufmann.",
+    "Andrew Ng, Tengyu Ma. Notas del curso CS229, Stanford University, Master Lecture Notes. 2022. https://cs229.stanford.edu/lectures-spring2022/master.pdf",
+    "Albon, C. (2018). Python Machine Learning Cookbook, First Edit. O'Reilly Media, Inc.",
+    "Müller, A. C., & Guido, S. (2016). Introduction to machine learning with Python: a guide for data scientists. O'Reilly Media, Inc.",
+    "Géron, Aurélien. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow. O'Reilly Media, Inc., 2022",
+    "https://scikit-learn.org/stable/",
+    "https://pandas.pydata.org",
+    "https://numpy.org"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-2-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-2-006",
+  "source_language": "es",
+  "source_sha256": "21df488a2d1ae3fbb645b71d04d177217e62f461ab8df16f6708b4f1b3e09ab9",
+  "extracted_at": "2026-11-20T08:21:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

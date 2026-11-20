@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Computer Principles - Hardware (FMFI.KEF/1-AIN-140/22)",
+  "course_name_en": "Computer Principles - Hardware",
+  "ects": 7.0,
+  "semester": "1.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students acquire essential knowledge of principles and properties of basic digital circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Gain practical experience to design and construct digital electronic devices and programing selected microprocessors and simple robotic systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Principles of circuits DDL, DTL and TTL",
+    "Boolean functions - combinatorial logical networks and their optimization",
+    "Selected combinatorial curcuits (adder, multiplexer, demultiplexer)",
+    "Physical implementation of automata (sequential circuits and their applications)",
+    "RS and D flip-flops, counter, shift register, three-state output, memory control R/W, parallel code converter, RS232 interface, static and dynamic RAMs and their organization",
+    "Microprocessors",
+    "Microprocessor structure",
+    "Arithmetic-logic unit (ALU) structure",
+    "Implementation of instructions and their classification",
+    "Addressing methods, internal and external memory",
+    "Auxiliary devices, their connection and data transfer, bus",
+    "Implementation of coupling circuits for memory and peripherals",
+    "Characteristics affecting computer performance, clock fequency, access time, transmission capacity, register size",
+    "Programming of single-chip microcomputers in higher and low-level programming language",
+    "Fundamentals of robotics, types of signals, their processing and control"
+  ],
+  "teaching_methods": [
+    "on-site learning"
+  ],
+  "workload_hours_total": 65.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "tests",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "exam",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "At least 50% aggregate score from tests is required for admission to the exam. The indicative grading scheme is A 90%, B 80%, C 72%, D 65%, E 60%. A supplementary classification in case of a repair test - oral exam is possible. The assessment scale is 70% from preliminary (tests) and 30% from final (exam).",
+  "bibliography": [
+    "P.Kaprálik, J.Galanová, M.Polakovič: Logické systémy, STU 2009 ISBN 978-80-227-3205-5",
+    "J. M. Bernard, J. Hugon: Od logických obvodu k mikroprocesorum I- IV SNTL, Praha 1984",
+    "Alan Clements: Principles of Computer Hardware, Oxford University Press, Fourth edition 2006, ISBN 0-19-927313-8",
+    "Logické systémy / Norbert Frištacký ... [et al.]. Bratislava : Alfa, 1990"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KEF/1-AIN-140/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "8afff7327410d6a260f8153b36827a328b4737a72e74be033957ae1335f7e297",
+  "extracted_at": "2026-11-20T09:27:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

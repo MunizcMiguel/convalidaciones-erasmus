@@ -1,0 +1,92 @@
+{
+  "course_name_original": "OPERATING SYSTEMS (800013)",
+  "course_name_en": "Operating Systems",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Calcolatori Elettronici exam"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Comprehensive understanding of the internal architecture, key components, and process lifecycle of an operating system. Acquisition of models for memory management, file systems, I/O management, security, and virtualization technologies.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Ability to solve academic and practical concurrency problems (such as mutual exclusion and the producer-consumer problem). Proficiency in utilizing the Linux command-line interface (shell) to navigate the file system, manage permissions and users, and automate tasks through shell scripting.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Ability to evaluate and select the most appropriate scheduling or memory management strategies based on hardware and software constraints. Proficiency in critically analyzing the advantages and disadvantages of diverse virtualization technologies.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Ability to articulate concepts related to operating system operations with technical linguistic precision. Proficiency in documenting configuration choices or developed scripts during practical exercises in a clear and rigorous manner.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Development of the capacity to independently consult technical manuals and official documentation (such as Linux man pages). Acquisition of a methodological approach to operating system management, fostering autonomous learning of new technologies and software platforms.",
+      "type": "skill",
+      "code": "D5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to operating systems and hardware review",
+    "Core concepts and structure of operating systems",
+    "Processes and threads",
+    "CPU scheduling",
+    "Synchronization and inter-process communication",
+    "Deadlock",
+    "Memory management",
+    "File system",
+    "Shell scripting",
+    "Input/output and mass storage",
+    "Virtualization techniques (e.g., hypervisors and containers)",
+    "Security issues",
+    "Advanced topics and practical exercises using the Linux system"
+  ],
+  "teaching_methods": [
+    "Lecture-based sessions",
+    "Guided practical exercises",
+    "Application-based activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Written assessment (short numerical problems or multiple-choice questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Computer-based programming exam (C or shell scripts)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final examination consists of a written assessment, a computer-based programming exam, and an oral examination. The final grade is awarded on a 30-point scale. Grading criteria include the accuracy and completeness of written solutions, correctness and completeness of the programming exam, relevance and accuracy of oral responses, quality of reasoning, appropriate use of technical language, and ability to integrate topics. Erasmus or international mobility students may arrange linguistic support with the instructor.",
+  "bibliography": [
+    "Modern Operating Systems, A. S. Tanenbaum, H. Bos, 5th edition, Pearson (2023)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica",
+  "institution_slug": "ec_i_beneven02__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "800013",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8836&ordinamento_aa=2025&af_percorso=9999&corso_cod=10220&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "f0646312e50ca42f2bdd95decdde54afcbf60c144bc37a9cddb2c3e599843f81",
+  "extracted_at": "2026-11-20T12:42:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

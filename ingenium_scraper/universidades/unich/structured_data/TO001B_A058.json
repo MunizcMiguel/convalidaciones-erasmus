@@ -1,0 +1,104 @@
+{
+  "course_name_original": "ANALISI MATEMATICA II (TO001B)",
+  "course_name_en": "MATHEMATICAL ANALYSIS II",
+  "ects": 9.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Competencies developed in the courses \"Mathematical Analysis 1\" and \"Linear Algebra and Elements of Geometry\""
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and be able to apply numerical methods for finding function zeros, interpolation, and numerical integration.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and use numerical methods for solving ordinary differential equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire basic notions of numerical optimization, with particular reference to gradient-based methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Develop a critical approach in the selection, application, and evaluation of numerical methods.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Refine mathematical language and the ability to formulate and solve problems rigorously.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand and be able to discuss the main methods of numerical series analysis and know the basics of function series.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Master theoretical solution techniques for ordinary differential equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop skills in multivariable real calculus.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical methods for root finding, including the bisection method, fixed-point iteration, Newton's method.",
+    "Polynomial interpolation and approximation.",
+    "Introduction to numerical integration, including the rectangle, trapezoidal, and Cavalieri-Simpson rules.",
+    "One-step numerical methods for ordinary differential equations, with particular emphasis on the forward Euler method.",
+    "Introduction to optimization, including unconstrained optimization by gradient descent methods and constrained optimization by the method of Lagrange multipliers.",
+    "Series: numerical series and related classical intuitions, convergence, series with positive terms, series with alternating signs, introduction to function series with applications.",
+    "Ordinary differential equations: basic notions, first-order equations, second-order linear equations.",
+    "Functions of several variables: elementary properties of R^n, limits and continuity, partial derivatives, gradient, tangent plane, differentiability and directional derivatives, higher-order derivatives and Hessian matrix, Taylor polynomials, introduction to partial differential equations with applications, double integrals."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Guided exercises in class"
+  ],
+  "workload_hours_total": 72.0,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Mandatory written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (mandatory for a grade above 27)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Two in-progress/partial exams",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is based on a mandatory written exam and an optional oral exam. The oral exam is mandatory to achieve a grade above 27/30. A grade of 27/30 is the maximum without the oral exam. Passing grades range from 18/30 (sufficient) to 30 cum laude (excellent with distinction).",
+  "bibliography": [
+    "M. Bertsch, R. Dal Passo and L. Giacomelli, Analisi matematica, McGraw-Hill",
+    "Slides/notes will be made available by the lecturer"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "University Gabriele d'Annunzio of Chieti-Pescara",
+  "institution_slug": "unich",
+  "degree": "Laurea in Ingegneria Biomedica (Biomedical Engineering), classe L-9 R Ingegneria industriale",
+  "course_code": "TO001B_A058",
+  "academic_year": "cohorte 2025/2026 (años 1-3 = A.A. 2025/26, 2026/27, 2027/28)",
+  "source_url": "https://unich.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=33841_L460R-2525_48224_509628&ordinamento_aa=2025&af_percorso=33841&corso_cod=7340&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "720e6392906de5bc9d44dc322f98a30d5c7fdf219c808b3d8640ba379371c376",
+  "extracted_at": "2026-11-12T23:56:51",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

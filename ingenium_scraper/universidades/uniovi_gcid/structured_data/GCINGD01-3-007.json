@@ -1,0 +1,142 @@
+{
+  "course_name_original": "Visión Artificial",
+  "course_name_en": "Artificial Vision",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid foundation in programming and mathematics.",
+    "Deep Learning course (recommended, taught in the first semester of the same year)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated by developing and defending arguments and solving problems within their area of study.",
+      "type": "unspecified",
+      "code": "CB2"
+    },
+    {
+      "text": "Students will have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "unspecified",
+      "code": "CB3"
+    },
+    {
+      "text": "Students will be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "unspecified",
+      "code": "CB4"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve data-defined problems that pose a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "unspecified",
+      "code": "CG01"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to propose experiments and describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "unspecified",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to solve problems.",
+      "type": "unspecified",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "unspecified",
+      "code": "CG04"
+    },
+    {
+      "text": "Identify opportunities for innovative data-oriented applications in continuously evolving technological environments.",
+      "type": "unspecified",
+      "code": "CG07"
+    },
+    {
+      "text": "Know and apply the ethical and legal aspects related to data processing and the application of acquired knowledge.",
+      "type": "unspecified",
+      "code": "CG08"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "unspecified",
+      "code": "CG09"
+    },
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques to build intelligent systems from datasets.",
+      "type": "unspecified",
+      "code": "CE09"
+    },
+    {
+      "text": "Understand the general concepts of Artificial Vision and use basic operations for digital image processing.",
+      "type": "knowledge",
+      "code": "RVISA1"
+    },
+    {
+      "text": "Identify relevant properties and extract different features from digital images.",
+      "type": "skill",
+      "code": "RVISA2"
+    },
+    {
+      "text": "Design, implement, and validate Artificial Vision systems for image segmentation and pattern recognition.",
+      "type": "skill",
+      "code": "RVISA3"
+    },
+    {
+      "text": "Design, implement, and validate convolutional neural networks for solving advanced Artificial Vision problems.",
+      "type": "skill",
+      "code": "RVISA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Image formation and detection",
+    "Image processing",
+    "Reconstruction",
+    "Convolutional networks and image classification",
+    "Object detection and image segmentation"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in forums/online activities (online questionnaires)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practice reports/memoranda/exams",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Theory exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "To pass the ordinary call, a minimum score of 4 out of 10 must be obtained in both the theoretical and practical parts. The final grade is calculated as 0.05*Attendance + 0.1*Online Activities + 0.45*Practices + 0.4*Theory. If the minimum requirements are not met, the final grade will be the minimum of 4.0 and the calculated score. For extraordinary calls, evaluation consists of a theoretical exam (50%) and a practical exam (50%), with a minimum of 4 out of 10 required for both. If a grade of 5 or higher was obtained in either part during the ordinary call, only the unpassed part needs to be re-evaluated. Fraudulent activity in any assessment will result in a 0.",
+  "bibliography": [
+    "Szeliski, Richard. Computer vision: algorithms and applications. Springer Nature, 2022.",
+    "Forsyth, David A., and Jean Ponce. Computer vision: a modern approach. Pearson, 2012.",
+    "González, Rafael C., Woods, Richard E., Digital Image Processing, Pearson, 2018.",
+    "Hartley, Richard, and Andrew Zisserman. Multiple view geometry in computer vision. Cambridge university press, 2003.",
+    "Elgendy, Mohamed. Deep learning for vision systems. Manning, 2020."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-3-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-3-007",
+  "source_language": "es",
+  "source_sha256": "156f461f2e1f47db2ca40fe43ee0ee6b9e04d810fb363c50c4ae3e86c9f1d785",
+  "extracted_at": "2026-11-20T05:56:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

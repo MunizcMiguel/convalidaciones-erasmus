@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Virtual reality",
+  "course_name_en": "Virtual Reality",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has knowledge related to programming, mathematics, engineering and technology and has the skills to use them to create complex information technology systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has adequate knowledge related to the use of integrated development environments for creating large complex applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to observe and obtain information from various sources.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to develop, design and create new applications, systems or products using best practices of the field.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills for computer program design and software systems analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills to develop GUI applications using architectural templates suitable for a specific user interaction applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to virtual environments, input/output devices, state of the art",
+    "Scene definition",
+    "Ray tracing",
+    "Virtual object modeling (geometric primitives, custom build geometries)",
+    "Virtual reality application architecture",
+    "Position and orientation representation (position vector, Euler angles, orientation matrix)",
+    "Unity introduction",
+    "Scene graph (reference frames, node hierarchy, node types, light nodes, fog)",
+    "Unity examples",
+    "Unity examples",
+    "Scene optimizations (level of details, textures, cell-segmentation)",
+    "Collision detection",
+    "Simulating spatial phenomena (fog, smoke, fire, fluids)",
+    "Physics engines",
+    "Character animation",
+    "Ray tracing and geometrical concepts",
+    "Semester project"
+  ],
+  "teaching_methods": [
+    "Exposition: presentation, explanations, practical examples, demonstrations, case-study discussions",
+    "Explanation, examples, dialog, case-studies",
+    "Discussion"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Project evaluation",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Semester project evaluation / Lab activity",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade requires a minimum of 5. The final grade is calculated based on project evaluation (40%) and semester project/lab activity evaluation (50%).",
+  "bibliography": [
+    "Steven M. LaValle, Virtual Reality, Cambridge University Press, 2023",
+    "Grigore C. Burdea, Philippe Coiffet, Virtual Reality Technology, Wiley-IEEE Press, 2024",
+    "Jason Jerald, The VR Book: Human-Centered Design for Virtual Reality, ACM Books, 2015",
+    "Phil Jones, Tess Osborne, Virtual Reality Methods: A Guide for Researchers in the Social Sciences and Humanities, Policy Press, 2022",
+    "Steve Marschner, Peter Shirley, Fundamentals of Computer Graphics, A K Peters/CRC Press, 2021",
+    "Paris Buttfield-Addison, Jon Manning, Tim Nugent, Unity Game Development Cookbook: Essentials for Every Game, O'Reilly Media, 2019",
+    "Unity 6.2 User Manual, https://docs.unity3d.com/6000.2/Documentation/Manual/UnityManual.html"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5061",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem5_MLE5061_en_rares_2025_10097.pdf",
+  "source_language": "en",
+  "source_sha256": "f75dd77970d331d16581098d66d2f016c6f3103d56a0e6466e3c557a45bfcff9",
+  "extracted_at": "2026-11-20T09:08:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

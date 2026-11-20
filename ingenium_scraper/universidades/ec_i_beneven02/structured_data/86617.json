@@ -1,0 +1,127 @@
+{
+  "course_name_original": "DATA ACQUISITION SYSTEMS FOR BIOMEDICAL APPLICATIONS (86617)",
+  "course_name_en": "DATA ACQUISITION SYSTEMS FOR BIOMEDICAL APPLICATIONS",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Elctronics",
+    "Electronic Measurements"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have acquired knowledge of the architecture of biomedical data acquisition systems and an understanding of the complete measurement chain.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be familiar with the metrological characteristics of physiological signals, the operating principles of the main biomedical sensors, signal conditioning techniques, and the criteria used to evaluate the performance of analog-to-digital (ADC) and digital-to-analog (DAC) converters.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to: analyse the metrological characteristics of physiological signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to: select appropriate sensors and data acquisition systems for different biomedical applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to: evaluate the performance of ADCs and DACs using relevant performance indicators and testing procedures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to: use laboratory instrumentation for signal acquisition and analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to: critically interpret experimental data obtained from biomedical devices and physiological signal databases.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will develop the ability to critically evaluate the performance of biomedical data acquisition systems, identify the main sources of signal degradation (e.g., noise, aliasing, quantization, and artefacts), select the most appropriate solutions for specific biomedical applications, and interpret experimental results from a metrological perspective.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students will acquire the ability to describe the operation of biomedical data acquisition systems using appropriate technical terminology, critically discuss the results obtained during laboratory activities, and clearly present the procedures and methodologies adopted.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students will develop the ability to independently deepen their knowledge of advances in data acquisition technologies, biomedical sensors, and measurement instrumentation by consulting scientific literature, technical documentation, and relevant standards.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to acquisition systems",
+    "Architecture of a data acquisition system",
+    "Direct and indirect measurements, invasive and non-invasive, in the biomedical field",
+    "Acquisition of physiological signals",
+    "Types of physiological signals (ECG, EMG, PPG, respiration)",
+    "Metrological characterization of biomedical signals: analysis of amplitude, frequency, noise, accuracy, and repeatability of acquired signals",
+    "Transducers for biomedical measurements: Electromechanical, electrochemical, optical, thermal, pressure and flow, acoustic and ultrasound, magnetic and electromagnetic, for motion and complex physiological parameters, MEMS (Micro-Electro-Mechanical Systems), implantable devices",
+    "Application examples",
+    "Biomedical signal conditioning",
+    "Analysis and metrological characterization",
+    "ADCs and DACs for biomedical applications",
+    "Review of fundamental concepts on sampling, aliasing, and quantization",
+    "Architectures and specifications used in the biomedical field",
+    "Testing and metrological characterization of ADCs",
+    "Biomedical image acquisition",
+    "Overview of main imaging methods",
+    "Basic acquisition techniques",
+    "Challenges in image acquisition",
+    "Biomedical signal simulators and databases",
+    "Patient simulators for device testing",
+    "Use of real signal databases",
+    "PhysioNet (MIT-BIH, Fantasia, Noise Stress Test)",
+    "Basic signal visualization and analysis",
+    "Effects of degradation: undersampling, quantization, artifacts",
+    "Comparison between real and simulated signals",
+    "Biomedical applications of the spectrum analyzer",
+    "Biomedical applications of the digital multimeter",
+    "Use of the oscilloscope to verify signals",
+    "Comparison of simulated and real signals"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Practical laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment will be conducted through an oral examination with three questions. Each question is assigned a score from 0 to 10. The exam grade is the average of the scores converted to thirty. Evaluation will be based on clarity, completeness of presentation, and mastery of topics.",
+  "bibliography": [
+    "Webster, J. G., Medical instrumentation application and design. J. Wiley.",
+    "Webb, Andrew G. Principles of Biomedical Instrumentation (Cambridge Texts in Biomedical Engineering). Cambridge University Press."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86617",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8067&ordinamento_aa=2023&af_percorso=1&corso_cod=10186&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "900f8461a2358f509f5c287c5b79810388a53a177f80f1facbc50160e0288835",
+  "extracted_at": "2026-11-20T08:19:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

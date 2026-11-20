@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Modulair programmeren",
+  "course_name_en": "Modular Programming",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Basic principles of imperative programming with insight into the iterative and recursive development of algorithms.",
+    "Basic principles of first-order logic."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design a medium-sized software system as a composition of procedural and data abstractions, using inheritance hierarchies where appropriate.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Provide the necessary documentation for the modules of a medium-sized software system. Specifically, students learn how to use both informal, natural languages and more formal notations in the documentation of classes and methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the implementation for a medium-sized software system in Java.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Verify the correctness of a medium-sized software system. Firstly, students learn how to systematically reason about the correctness of various pieces of code. Furthermore, they gain insight into strategies for systematically testing the correct functioning of a software system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Correctly and rigorously apply the principles of modular object-oriented programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Deal with increasing complexity in the development of software systems and with not fully exactly specified descriptions.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Object-oriented paradigm for developing software systems",
+    "Java as programming language",
+    "UML for visualizing design",
+    "First-order logic for formal expression",
+    "One-object abstractions (definition of procedural abstractions and simplest data-abstractions)",
+    "Handling edge cases in method definitions",
+    "Class specification: defining method signatures and describing semantics (preconditions, postconditions, exceptions, invariants)",
+    "Class implementation: determining suitable internal representation and realizing specified method effects",
+    "Class verification through systematic software system testing strategies",
+    "Handling exceptional circumstances via defensive and contractual programming",
+    "Encapsulation of class representation and dangers of exposing representation objects to clients",
+    "Inheritance (development of class hierarchies)",
+    "Abstract superclasses for generalizing concrete classes",
+    "Polymorphism and dynamic binding for decoupling client code from an object's concrete class",
+    "Behavioral subtyping as a general guideline in hierarchy development",
+    "Implementation inheritance to define a class as an extension or modification of an existing class",
+    "Multiple inheritance for deriving a new class from one existing class and an unlimited number of interfaces",
+    "Graph abstractions (representing graphs of entities with relations as objects connected by bidirectional associations)",
+    "Single-class graph abstractions",
+    "Multi-class graph abstractions and encapsulating multi-class modules using packages and default accessibility",
+    "Nested abstractions: building package-level encapsulated abstractions from class-level encapsulated abstractions",
+    "Advanced language constructs",
+    "Iterators as generic tools for traversing data structures",
+    "Nested classes, with emphasis on anonymous class definition",
+    "Lambda expressions as a means to pass functions to methods",
+    "Definition and instantiation of generic classes",
+    "Definition of constraints on parameters of generic classes"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Assignments",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 36.0,
+  "assessment_methods": [
+    {
+      "method": "Project during the semester",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual written exam on PC during the exam period",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the course, students must pass both the project and the written exam. The project result is the weighted average of the results per part, with weights announced via Toledo. The overall course result (before rounding) is the average of the project result and the written exam result, unless either result is less than 10/20, in which case the course result is the minimum of the two. For resits, students can retake the project, the written exam, or both; a new project assignment will be distributed, and the project resit result replaces the June project result (even if worse), while the written exam resit result replaces the June result (unless worse).",
+  "bibliography": [
+    "Prof. Jacobs prepares a new course text, to be used from academic year 2019-2020. The course text can be read online, is available as PDF, and via course services.",
+    "Toledo: model solutions for exercises, project assignment, references to software tools and supplementary literature."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H01P1A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H01P1AN",
+  "source_language": "nl",
+  "source_sha256": "709a665c5c51b26d2f3d8f3450cf1953e23eecfe64c5131e76abc138206845fb",
+  "extracted_at": "2026-11-20T12:28:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,90 @@
+{
+  "course_name_original": "DIGITAL SYSTEMS DESIGN",
+  "course_name_en": "Digital Systems Design",
+  "ects": 12.0,
+  "semester": "First Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "The knowledge of the principles taught in the introductory courses of computer science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with basic knowledge used for the realization of digital systems. Starting from the basis of digital electronics, informatics and computer architecture, the student will be able to design simple digital systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The constant use of the simulator and synthesizer will allow the student to self-check the project and to address the practical design with continual references.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Thanks to its methodological rigor of scientific subjects the student will mature skills and ability of understanding that will allow him to acquire basic knowledge essential for the course of studies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The teaching approach that provides the theoretical training is accompanied by examples and applications that call for active participation and a proactive attitude.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The study of the circuits will help develop the ability to evaluate the results, select what information is relevant and which approximations are appropriate.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The development of group exercises requires the student to acquire the ability to communicate both the results obtained and the problems encountered.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The use of the simulator and synthesizer allows the student to learn how to self-check circuits and understanding the basic mechanism of digital system design.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to digital systems. Summary of previous knowledge on logic gates, combinatorial and sequential networks, memories.",
+    "Implementation of logic gates. Time, delays, waves. Introduction to Verilog-HDL. Delay models in Verilog. Testbench. Simulation of simple combinatorial networks with delay. Synchronous and Asynchronous systems. Setup and hold time in a flip-flop D. Critical path. Maximum clock frequency.",
+    "Physical implementation of a digital system: PCB, ASIC, FPGA. Design flow, libraries, components. CLB of a Xilinx-Artix7. Synthesis of a digital system on FPGA. Design, simulation, synthesis of a device for a visualization on the 8 displays of the Nexys-4 Digilent board.",
+    "State machine as controller. Mealy’s and Moore’s model and timing. Datapath and control. Examples. Labs on de-bouncing, event counter (decimal) and second timer.",
+    "Serial protocols and peripherals communication. Nexys-4 Accelerometer, registers reading and designing of a level.",
+    "Other examples of data-path and control: design of a FIFO using a RAM memory, serial interface of A/D-D/A converters, watch and wake-up timer. Performance increase in digital circuits, pipelining.",
+    "Study and HDL coding of a simplified architecture of a microcontroller’s processor. Simulation of a simple assembly code. Comparison with a circuit not processor based performing the same task.",
+    "Microcontroller system architecture, bus, peripherals, serial protocols. Comparison between FPGA design and microcontroller-based design: design flow in C-language."
+  ],
+  "teaching_methods": [
+    "Practise",
+    "Lesson",
+    "Exercises",
+    "Labs"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 120.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment takes place through a written test covering digital electronics, C-code for microcontroller systems, and digital system design similar to in-class FPGA exercises. Complete, functioning solutions are not required due to software unavailability and time limits; instead, proficiency in parts that demonstrate the ability to design the device with iterative self-correction is assessed. A minimum level of knowledge required to pass the exam is sufficient mastery of the VERILOG language and the organization of a digital system, including those based on microcontrollers.",
+  "bibliography": [
+    "Material made freely available online by the teacher."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "70/0078-M",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=17719&ordinamento_aa=2022&af_percorso=9999&corso_cod=11037&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "760e60246e34d42a9edffdd16342dabaaa4b90647c82923020feaaa93ed5a6a5",
+  "extracted_at": "2026-11-20T12:43:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

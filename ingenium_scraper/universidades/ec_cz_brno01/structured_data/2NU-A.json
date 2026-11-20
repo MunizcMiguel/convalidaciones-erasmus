@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Numerical Methods",
+  "course_name_en": "Numerical Methods",
+  "ects": 4.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Numerical linear algebra",
+    "approximation of functions",
+    "numerical differentiation and integration",
+    "differential and integral calculus",
+    "basic programming skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be made familiar with a basic collection of numerical methods.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "They will make sense of errors in mathematical modelling.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "learn to find zeros of nonlinear equation and to solve systems of linear equations.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "They will master the basics of approximation including the least squares method.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "manage to use quadrature formulas and obtain an initial insight into the unconstrained minimization.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The aim of the course is to familiarize students with essential methods applied for solving numerical problems and provide them with an ability to solve such problems individually by hand and especially on computer.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students ought to realize that only the knowledge of substantial features of particular numerical methods enables them to choose a suitable method and an appropriate software product.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computing: Error analysis. Computer arithmetic. Conditioning of problems, stability of algorithms.",
+    "Solving linear systems: Gaussian elimination. LU decomposition. Pivoting.",
+    "Solving linear systems: Effect of roundoff errors. Conditioning. Iterative methods (Jacobi, Gauss-Seidel, SOR method).",
+    "Interpolation: Lagrange, Newton and Hermite interpolation olynomial. Piecewise linear and piecewise cubic Hermite interpolation. Cubic interpolating spline. Least squares method.",
+    "Numerical differentiation: Basic formulas. Richardson extrapolation.",
+    "Numerical integration: Basic quadrature rules (midpoint, trapezoidal and Simpson's rule). Gaussian quadrature. Composite quadrature. Adaptive quadrature.",
+    "Solving nonlinear equations in one dimension: bisection method, Newton's method, secant method, false position method, inverse quadratic interpolation, fixed point iteration.",
+    "Solving nonlinear systems: Newton's method, fixed point iteration.",
+    "Minimization of a function of one variable: golden ratio, quadratic interpolation.",
+    "Minimization methods for multivariable functions: Nelder-Mead method, steepest descent and Newton's method.",
+    "Minimization methods for multivariable functions: steepest descent method."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Computer-assisted exercise"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 39.0,
+  "assessment_methods": [
+    {
+      "method": "Check tests",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (practical part)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (theoretical part)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Course-unit credit is awarded for active participation in seminars and successfully passing two check tests, with a minimum of 10 points out of 20. The exam has a practical part (numerical examples) and a theoretical part (basic notions). The final classification primarily considers the written exam result, but credit test results and post-exam discussions may also be included. Students will obtain 0-100 points from the exam.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "WYSOKÉ UCENI TECHNICKÉ V BRNE - Brno University of Technology",
+  "institution_slug": "ec_cz_brno01",
+  "degree": "Fundamentals of Mechanical Engineering (B-STI-A)",
+  "course_code": "2NU-A",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.fme.vutbr.cz/en/studenti/predmety/300533",
+  "source_language": "en",
+  "source_sha256": "c14cf80d679c08ec4d6af74b890eae3b8e7fc365e6763dde17a779b72ec12cd9",
+  "extracted_at": "2026-11-18T09:47:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

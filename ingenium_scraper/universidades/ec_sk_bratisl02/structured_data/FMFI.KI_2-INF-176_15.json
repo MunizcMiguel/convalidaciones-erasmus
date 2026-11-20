@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Unix for System Administrators (FMFI.KI/2-INF-176/15)",
+  "course_name_en": "Unix for System Administrators",
+  "ects": 6.0,
+  "semester": "5.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [
+    "good user-level knowledge of UNIX systems, directory hierarchy navigation, creating and editing files (vi, joe), shell programming (sh/bash), commands find, grep, cat, cut, ls, awk."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students will know the principles of UNIX system administration.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They will be able to practically carry out the basic duties of a system administrator.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "users, groups, passwords",
+    "access permissions for files and directories, ACL",
+    "filesystem structure",
+    "character and block devices",
+    "special filesystem objects (symlink, pipe)",
+    "mounting and unmounting of filesystems to the directory hierarchy (mount, umount, /etc/fstab)",
+    "creating filesystems",
+    "system startup and shutdown - /etc/inittab, runlevels",
+    "job scheduling (cron, at, batch)",
+    "TCP/IP configuration (ifconfig, route)",
+    "network services (/etc/services, /etc/inetd.conf, /etc/protocols, /etc/hosts, ...)",
+    "DNS – client (/etc/resolv.conf)",
+    "DNS – server",
+    "NFS",
+    "Firewall",
+    "SystemD"
+  ],
+  "teaching_methods": [
+    "lecture",
+    "practicals",
+    "on-site learning"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 52.0,
+  "assessment_methods": [
+    {
+      "method": "Practical assignments (during the semester)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical assignments (final exam)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "Approximate grading scale: A 92%, B 84%, C 76%, D 68%, E 60%. The final assessment is based on a preliminary component (40%) and a final component (60%).",
+  "bibliography": [
+    "Course notes provided on the course website, freely available electronic materials"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KI/2-INF-176/15",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "77896d3549de901f608489afd404c5a1037ab4c8ffc1f3f4adf8e94b6bb1bdc4",
+  "extracted_at": "2026-11-20T09:27:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

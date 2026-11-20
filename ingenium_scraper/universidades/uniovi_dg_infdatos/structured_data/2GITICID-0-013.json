@@ -1,0 +1,104 @@
+{
+  "course_name_original": "Temas Avanzados de Ciencia e Ingeniería de Datos",
+  "course_name_en": "Advanced Topics in Data Science and Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic understanding of Machine Learning concepts including classification, regression, clustering, and model evaluation, and common algorithms like linear regression, decision trees, support vector machines, and neural networks.",
+    "Basic knowledge of Artificial Neural Networks operation, including concepts like neurons, layers, activation functions, backpropagation, and network training.",
+    "Basic understanding of Linear Algebra concepts such as vectors, matrices, vector spaces, linear transformations, eigenvalues and eigenvectors, and matrix decompositions.",
+    "Familiarity with Python programming for data manipulation, implementing machine learning algorithms, and data analysis."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic operating principles of the main generative AI models.",
+      "type": "unspecified",
+      "code": "RTEM1"
+    },
+    {
+      "text": "Implement a system based on generative models.",
+      "type": "unspecified",
+      "code": "RTEM2"
+    },
+    {
+      "text": "Know the particular characteristics of recommendation problems and the most novel techniques used to address them.",
+      "type": "unspecified",
+      "code": "RTEM3"
+    },
+    {
+      "text": "Implement a product recommendation system.",
+      "type": "unspecified",
+      "code": "RTEM4"
+    },
+    {
+      "text": "Understand the basic principles of quantum computing and its application in machine learning.",
+      "type": "unspecified",
+      "code": "RTEM5"
+    },
+    {
+      "text": "Solve machine learning problems using quantum computing techniques.",
+      "type": "unspecified",
+      "code": "RTEM6"
+    }
+  ],
+  "syllabus_topics": [
+    "Recommendation systems",
+    "Generative models",
+    "Quantum computing"
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expository classes",
+    "Online teaching",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance at practical sessions",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in online activities (questionnaires and online activities)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical work (report and source code)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final theoretical exam",
+      "weight_percentage": 35.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if the minimums established in the final theoretical exam are met (at least 2 points out of 10 in each of the three parts), the final grade is calculated as (0.05 x AT) + (0.10 x FO) + (0.50 x TP) + (0.35 x EX). Otherwise, the grade will be the minimum between the calculated grade and 4.0. For the extraordinary call, it is necessary to obtain a minimum of 2 points out of 10 in each of the three parts of the theoretical exam. If these minimums are reached, the final grade is calculated as (0.50 x EX) + (0.50 x TP). Otherwise, the grade will be the minimum between the calculated grade and 4.0. Students who obtained a grade of 5 or higher in the ordinary call for either the theoretical exam (meeting the minimums) or the practical part can present themselves in the extraordinary call only for the part they failed. If a student does not participate in enough evaluation activities to reach at least 50% of the evaluation weight, their grade will be \"No Presentado/a\".",
+  "bibliography": [
+    "Foster, D. (2022). Generative deep learning. O'Reilly Media, Inc.",
+    "Babcock, J., & Bali, R. (2021). Generative AI with Python and TensorFlow 2: Create images, text, and music with VAEs, GANs, LSTMs, Transformer models. Packt Publishing Ltd.",
+    "Aggarwal, C. C. (2016). Recommender systems: the textbook. Springer.",
+    "Falk, K. (2018). Practical Recommender Systems. Manning.",
+    "Ricci, F., Rokach, L., Shapira, B. & Kantor, P. (2015). Recommender Systems Handbook. Springer.",
+    "Yanofsky, N. S., & Mannucci, M. A. (2008). Quantum computing for computer scientists. Cambridge University Press.",
+    "Nielsen, M. A., & Chuang, I. L. (2010). Quantum computation and quantum information. Cambridge University Press.",
+    "Schuld, M., & Petruccione, F. (2021). Machine learning with quantum computers. Springer.",
+    "Combarro, E. F. & González-Castillo, S. (2023). A Practical Guide to Quantum Machine Learning and Quantum Optimization: Hands-on Approach to Modern Quantum Algorithms. Packt.",
+    "Combarro, E. F. & González-Castillo, S. (2025). A Practical Guide to Quantum Computing. Packt."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-0-013",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-013",
+  "source_language": "es",
+  "source_sha256": "fd6330015c2c4bd162bc558a4d355ff51a640ab45a67afed230a8ed8b8a9ff30",
+  "extracted_at": "2026-11-20T05:56:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

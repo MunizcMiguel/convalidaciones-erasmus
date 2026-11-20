@@ -1,0 +1,145 @@
+{
+  "course_name_original": "Estadística y Cálculo Numérico (6320)",
+  "course_name_en": "Statistics and Numerical Calculus",
+  "ects": 6.0,
+  "semester": "4th Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know, understand and properly apply data description methods, basic concepts of probability, random variables and statistical inference.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the main numerical methods necessary to address subjects of their specialty and professional activity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to implement these numerical methods on the computer to efficiently solve practical cases.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate analysis and synthesis ability.",
+      "type": "skill",
+      "code": "GI-1"
+    },
+    {
+      "text": "Demonstrate planning, organization, and strategy skills.",
+      "type": "skill",
+      "code": "GI-2"
+    },
+    {
+      "text": "Acquire the ability to effectively solve problems.",
+      "type": "skill",
+      "code": "GI-3"
+    },
+    {
+      "text": "Acquire skills related to the use of computer programs for calculation, data analysis and processing within its field of application.",
+      "type": "skill",
+      "code": "GI-7"
+    },
+    {
+      "text": "Develop critical reasoning.",
+      "type": "skill",
+      "code": "GP-1"
+    },
+    {
+      "text": "Develop the ability to put acquired knowledge into practice.",
+      "type": "competence",
+      "code": "GS-1"
+    },
+    {
+      "text": "Acquire autonomous learning ability and concern for knowledge and continuous training.",
+      "type": "competence",
+      "code": "GS-2"
+    },
+    {
+      "text": "Show motivation for quality and continuous improvement.",
+      "type": "competence",
+      "code": "GS-9"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering, and aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "ED-1"
+    }
+  ],
+  "syllabus_topics": [
+    "Descriptive Statistics",
+    "Statistical description of a variable.",
+    "Measures associated with a distribution.",
+    "Joint description of two variables.",
+    "Introduction to simple linear regression.",
+    "Probability and random variables",
+    "Probability.",
+    "Discrete random variables. Usual models.",
+    "Continuous random variables. Usual models.",
+    "Confidence intervals",
+    "Random samples and statistics.",
+    "Point estimation.",
+    "Estimation by confidence intervals (normal populations and proportions).",
+    "Hypothesis testing",
+    "Hypothesis testing (normal populations and proportions).",
+    "Numerical Calculus",
+    "Introduction to Numerical Analysis.",
+    "Origins and objectives of numerical calculus. Need for numerical analysis in engineering. Errors. Operating cost and efficiency. Introduction to Matlab.",
+    "Interpolation.",
+    "Global interpolation: Newton and Lagrange. Segmental interpolation: Linear, Quadratic and Splines.",
+    "Quadrature and Numerical Differentiation.",
+    "Introduction. Quadrature rules and degree of accuracy. Simple and compound quadrature rules. Obtaining and errors of numerical differentiation.",
+    "Solving Non-Linear Equations.",
+    "Introduction. Methods using intervals: Bisection. Iterative methods: Newton.",
+    "Numerical Solution of Ordinary Differential Equations.",
+    "Euler's Method. Runge-Kutta Method."
+  ],
+  "teaching_methods": [
+    "Theoretical classes",
+    "Practical classes (small group)",
+    "Completion of assignments, reports, memoirs, and evaluation tests"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (theory and problems) for the Statistics part",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical exam (using computer) for the Statistics part",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Written exam (theory and problems) for the Numerical Calculus part",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical exam (using computer) for the Numerical Calculus part",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum final grade of 5 out of 10 is required. The Statistics and Numerical Calculus parts are evaluated separately, and the final grade is the arithmetic mean of these two parts, with a minimum of 4 out of 10 required in each part. Furthermore, a minimum of 3.5 out of 10 must be obtained in each of the four individual assessment procedures (written exam and practical exam for each part). Fraudulent completion of any test will result in a zero for that procedure.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites",
+    "bibliography"
+  ],
+  "institution": "Universidad de Burgos",
+  "institution_slug": "es_burgos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "6320",
+  "academic_year": "2026-27",
+  "source_url": "https://ubuvirtual.ubu.es/mod/guiadocente/get_guiadocente.php?asignatura=6320&cursoacademico=2026",
+  "source_language": "es",
+  "source_sha256": "588b2d5c85bb0ad566394c94c6938f467074b346875e0f1bb418fb52d65d8827",
+  "extracted_at": "2026-11-13T21:25:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

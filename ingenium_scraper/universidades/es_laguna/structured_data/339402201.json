@@ -1,0 +1,168 @@
+{
+  "course_name_original": "Automatización y Control Industrial",
+  "course_name_en": "Industrial Automation and Control",
+  "ects": 6.0,
+  "semester": "second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge about the fundamentals of automatisms and control methods.",
+      "type": "knowledge",
+      "code": "12"
+    },
+    {
+      "text": "Ability to analyze and evaluate the social and environmental impact of technical solutions.",
+      "type": "skill",
+      "code": "T7"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "skill",
+      "code": "T9"
+    },
+    {
+      "text": "Ability to analyze and synthesize.",
+      "type": "skill",
+      "code": "O1"
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": "O6"
+    },
+    {
+      "text": "Ability to apply knowledge to practice.",
+      "type": "skill",
+      "code": "O8"
+    },
+    {
+      "text": "Ability to work effectively in a team.",
+      "type": "skill",
+      "code": "O9"
+    },
+    {
+      "text": "Ability for motivation for achievement and continuous improvement.",
+      "type": "skill",
+      "code": "O12"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Will be able to solve a medium-difficulty automation problem using ladder diagram language (KOP).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Will be familiar with the most commonly used sensors and actuators at an industrial level.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Will master the terminology of the field of process control.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Will be able to solve problems related to the analysis, modeling, and control (PID strategy) of continuous, linear, and time-invariant systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "At a basic level, have the ability to work in a multilingual and multidisciplinary environment.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to industrial automation and control systems",
+    "The programmable logic controller (PLC)",
+    "Programming programmable logic controllers in Ladder Diagram (KOP) language",
+    "Sensors and actuators",
+    "Programming practicals in KOP language with Siemens S7-1200 PLCs",
+    "Introduction to control systems",
+    "Modeling of continuous systems",
+    "Time and frequency response of continuous systems",
+    "Basic controllers. PID controller",
+    "Stability",
+    "Simulation practicals in MATLAB language"
+  ],
+  "teaching_methods": [
+    "Theoretical lectures",
+    "Practical problem-solving sessions in class",
+    "Practical sessions in computer lab and/or laboratory",
+    "Flipped classroom",
+    "Self-study/preparation for theoretical classes",
+    "Self-study/preparation for practical classes",
+    "Exam preparation",
+    "Exam taking",
+    "Tutorials",
+    "Bibliographic consultation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Development test (Automation theory and problems)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Development test (Control theory and problems)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical execution test (Automation practicals)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical execution test (Control practicals)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Development test (Single Assessment: theoretical aspects of both blocks)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practical test (Single Assessment: practical content of both blocks)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For Continuous Assessment, the final grade (CF) is calculated as 0.35*PD1 + 0.35*PD2 + 0.15*PR1 + 0.15*PR2. To pass, a minimum of 3.5 points must be obtained in each of PD1, PD2, PR1, and PR2, along with a minimum global practical grade (PR=(PR1+PR2)/2) of 5 points and a minimum global theoretical grade (PD=(PD1+PD2)/2) of 5 points. If any minimum requirement is not met, the final grade will be 4.5. For Single Assessment, the final grade is calculated as 0.70*PT + 0.30*PP, and both tests (PT and PP) must be taken. Practical activity grades from the previous year may be retained if minimum requirements (PR1 >= 3.5, PR2 >= 3.5, PR >= 5) are met.",
+  "bibliography": [
+    "J. Balcells y J.L. Romeral. Autómatas Programables. ISBN: 84-2671-089-1. Editorial Marcombo",
+    "E. Mandado y otros. Autómatas Programables. Entorno y Aplicaciones. ISBN: 84-9732-328-9 Editorial Thomson",
+    "K. Ogata. Ingeniería de Control Moderna. ISBN: 970-17-0048-1. Editorial Prentice Hall",
+    "R.C. Dorf. Modern Control Systems. ISBN: 0-201-05319-5. Editorial Addison Wesley",
+    "P.H. Lewis. Sistemas de Control en Ingeniería. ISBN: 84-8322-124-1. Editorial Prentice Hall",
+    "P. Albertos y J. Aracil. Teoría de Sistemas. ISBN: 84-2053-571-0. Editorial Prentice Hall",
+    "L. Acosta, J.A. Méndez, M. Sigut, S. Torres y G.N. Marichal. Apuntes de Control Automático. ISBN: 84-6888-018-3"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de La Laguna",
+  "institution_slug": "es_laguna",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "339402201",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ull.es/apps/guias/guias/print_guide/45560/",
+  "source_language": "es",
+  "source_sha256": "a2c33ac3c81839407f1c184bef18a1bbada57be4d9110e4214809ee752747485",
+  "extracted_at": "2026-11-13T21:43:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

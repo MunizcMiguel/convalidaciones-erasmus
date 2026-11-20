@@ -1,0 +1,192 @@
+{
+  "course_name_original": "Alimentación y Accionamiento de Prototipos Mecatrónicos",
+  "course_name_en": "Power Supply and Actuation of Mechatronic Prototypes",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid knowledge of \"Control System Calculation, Design, and Simulation\"",
+    "Solid knowledge of \"Electronic Instrumentation\"",
+    "Solid knowledge of \"Programmable Electronic Devices\"",
+    "Solid knowledge of \"Computers and Programming\""
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide knowledge and experience in the design and evaluation of motor system power supply systems, including battery evaluation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Present the behavior of various types of DC-powered motors, addressing electromechanical calculation models and the peculiarities of their electronic actuation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduce various electronic sensor elements indicating their characteristics. Attention is paid to the digital data processing provided and the use of various electronic communication protocols, with emphasis on the electrical requirements of the data bus and associated programming.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Integrate circuitry with the necessary programming tools for digital control of drives in an embedded processing environment.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Prepare technical specifications that allow a problem in mechatronic engineering to be posed, maintaining a global and integrative vision and using prescriptive, procedural, or performance specifications as appropriate.",
+      "type": "skill",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision-making and selection among possible solutions to an engineering problem.",
+      "type": "skill",
+      "code": "CG2"
+    },
+    {
+      "text": "Evaluate the viability of new mechatronic products, based on their technological characteristics, manufacturing possibilities, and other socio-economic factors related to their possible implementation.",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Students should be able to integrate knowledge and face the complexity of making judgments based on information that, being incomplete or limited, includes reflections on the social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "Students should be able to communicate their conclusions and the ultimate knowledge and reasons that support them to specialized and non-specialized audiences in a clear and unambiguous way.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Students should possess the learning skills that will allow them to continue studying in a largely self-directed or autonomous way.",
+      "type": "skill",
+      "code": "CB10"
+    },
+    {
+      "text": "Discriminate the most critical components in a mechatronic system and justify their possible redesign from the control system's point of view.",
+      "type": "skill",
+      "code": "CE10"
+    },
+    {
+      "text": "Acquire knowledge, techniques, and skills that represent an increase in research and innovation potential and promote technology transfer to industry.",
+      "type": "skill",
+      "code": "CE13"
+    },
+    {
+      "text": "Select the material, dimension, and optimize the shape of the elements of mechatronic systems, taking into account criteria of resistance, durability, and reliability.",
+      "type": "skill",
+      "code": "CE2"
+    },
+    {
+      "text": "Plan the manufacturing processes of the components of a mechatronic system, taking into account the restrictions imposed by the manufacturing, assembly, and verification environment.",
+      "type": "skill",
+      "code": "CE3"
+    },
+    {
+      "text": "Select the most appropriate programmable logic devices in each case for the design of mechatronic systems, manage their development systems, and design the necessary interface stages.",
+      "type": "skill",
+      "code": "CE5"
+    },
+    {
+      "text": "Incorporate the necessary electrical, hydraulic, and pneumatic sensors and actuators based on the characteristics of the mechatronic system, its specifications, and its integration.",
+      "type": "skill",
+      "code": "CE6"
+    },
+    {
+      "text": "Select electronic devices for instrumentation and control that allow conditioning and processing analog and digital signals from sensors and sent to typical actuators of a mechatronic system.",
+      "type": "skill",
+      "code": "CE7"
+    },
+    {
+      "text": "Identify the subcomponents of a technologically complex system, the interactions between them, and the effects and consequences of their possible redesign.",
+      "type": "skill",
+      "code": "CE8"
+    },
+    {
+      "text": "Select the most appropriate power supply type for each application.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Know the types of batteries, their characteristics, and recharging circuits.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Understand the fundamentals of DC, stepper, and servo motors.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Actuate DC, stepper, and servo motors.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Use virtual instrumentation for signal acquisition, processing, and visualization.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Jointly use electronic and mechanical design software tools.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Electrical energy and power. Energy, power, and cost. Energy consumption and generation.",
+    "Battery fundamentals. Battery characteristics. Pb, Ni, and Li batteries.",
+    "Electrical power calculation tools. Instantaneous power. Power in DC sources. Power in resistors. RMS value. Power in pure sinusoidal steady state. Power with arbitrary waveforms. Periodic waves and harmonic decomposition.",
+    "Principles of DC sources. Sizing power supplies. Linear regulators. Capacitor filter. Heatsink calculation.",
+    "DC motors and servos. Fundamentals. Power, torque, and speed calculations. Practical verification of theoretical studies.",
+    "Actuation of brushed DC motors and servos. Motor starting and speed control. Electronic configuration of specific actuators. Power, torque, and speed calculations. Virtual instrumentation. Control and supervision with microprocessor system.",
+    "Stepper motors. Fundamentals. Motor starting and speed control. Electronic configuration of specific actuators. Power, torque, and speed calculations. Practical verification of theoretical studies. Virtual instrumentation. Control and supervision with microprocessor system.",
+    "Brushless DC (BLDC) motors. Brushless DC BLDC motors. Fundamentals. Motor starting and speed control. Electronic configuration of specific actuators. Power, torque, and speed calculations. Practical verification of theoretical studies. Virtual instrumentation. Control and supervision with microprocessor system."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Laboratory practices",
+    "Classroom practices/Seminars",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (theoretical and practical content)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Practical sessions evaluation (including summary report)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a written exam (80%) and practical session evaluation (20%). A minimum of 50% must be obtained in the written exam. For extraordinary calls, a final practical exam will be scheduled.",
+  "bibliography": [
+    "Electric Motors and Drives. Fundamentals, types and applications. Fourth Edition Austin Hughes. Editorial Elsevier. ISBN-13:978-0-7506-4718-2.",
+    "Instrumentación Electrónica. Thomson. 2004. ISBN: 84-9732-166-9",
+    "FreeRTOS for ESP32-Arduino. Practical Mustitasking Fundamentals. Warren Gay. ISSN 978-1-007920-93-6. Elektor International Media B.V.",
+    "A Simplified Approach to dc Motor Modeling for Dynamic Stability Analysis. Mickey McClure. Unitrode Products from Texas Instruments SLUA076 Application Report Julio 20.",
+    "Brushless DC (BLDC) motor fundamentals. P. Yedamale, Microhip Technology. Application Note AN885 - 2003.",
+    "A comparison study of the commutation methods for the three phase permanent magnet brushless DC motor. Lee, S., Lemley, T., Keohane, G. (2004). Informe técnico, Universidad de Pensilvania. http://www. magnelab. com/uploads/4c51d9ba6fe5a. pdf.",
+    "Brushless DC Motor Control Made Easy. Ward Brown (2002). Microchip AN857.",
+    "Stepping motors fundamentals. Microchip AN907. Autores: R. Condit (Microchip Tech. Inc.), D. W. Jones (Universidad de Iowa) http://homepage.cs.uiowa.edu/~jones/step/an907a.pdf",
+    "IET Stepping motors. A guide to theory and practice. Autores. P. Acarnley (Universidad de Newcastle) Available on the internet",
+    "AVR446: Linear speed control of stepper motor. ATMEL Application Note, 2006 Available on the internet."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-1-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-1-003",
+  "source_language": "es",
+  "source_sha256": "ed2f90f68c3aa868fd376b30390f1f2d36433d4c3762ea5c967a421a92ee58ef",
+  "extracted_at": "2026-11-20T05:58:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

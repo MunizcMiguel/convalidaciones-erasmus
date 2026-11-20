@@ -1,0 +1,98 @@
+{
+  "course_name_original": "INTERNET (IN/0033)",
+  "course_name_en": "INTERNET",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic concepts of telecommunications networks: network architectures, LAN networks, operating principles of the Internet network."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide an in-depth understanding of the key technologies underpinning telecommunication networks, with a particular emphasis on Internet-related functionalities and systems. Topics include reference architectures, core protocols of the TCP/IP stack, both static and dynamic routing techniques and their associated protocols, principles of Internet security, dynamic terminal configuration, virtual LANs, the Spanning Tree Protocol, quality of service mechanisms, and network management strategies and protocols.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Provide the student with the knowledge and understanding of the operating principles of the Internet network, of the main Internet applications and of the reference technologies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enable the student to apply his/her knowledge and comprehension skills to: analyze the configuration of a local and WAN network, understand the functioning of a device connected to the Internet, analyze the basic behavior of a router, and analyze the architectural configuration of a small network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The skills acquired by the student will enable him/her to auto-assess his/her capabilities to identify the role and the configuration of the network components and to identify the competences he/she needs to acquire in the future.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The didactic approach and the methods of ascertaining the knowledge acquired will accustom the student to communicate the concepts and methods learned, as well as to formalize the problems in terms of protocols used and related configurations and to discuss the relative solutions to specialist and non-specialist people.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will have the ability to connect the contents learned during this course with those in other courses belonging to the Information Engineering area.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of the basic concepts of Internet operation: protocol model of the TCP / IP suite, IPv4, IPv6, TCP, UDP, DNS, DHCP, ARP protocols and application layers. Particular importance will be given to the operating principles and the reasons that justified the development and widespread adoption of the Internet technologies.",
+    "Routing in IP networks: router functionality, routing principles, static routing, routing algorithms, routing table. OSPF protocol. Configuration of routing parameters.",
+    "Switching: virtual LANs, interconnection of virtual LANs, routing protocol, virtual network configurations, closed loops in LANs, spanning tree protocol, EtherChannel networks.",
+    "Security and management: configuration of the main aspects of security, configuration of network devices in automatic mode and natting operations, configuration of private networks and Access Control Lists, network management and troubleshooting activities and related protocols, network virtualization principles and QoS management."
+  ],
+  "teaching_methods": [
+    "Practise",
+    "Lesson",
+    "Slide lectures",
+    "Exercises through the use of emulators and network simulators",
+    "Presentation activities by students of additional topics",
+    "Live streaming lessons",
+    "Recordings of lessons available online",
+    "Exercises through remote interaction with IT tools"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "First multiple-choice test (attending students)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second multiple-choice test (attending students)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Presentation of course content to other students (attending students, additional points)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (non-attending students)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For attending students, evaluation is based on two multiple-choice tests, each lasting one hour with around 30 questions, held during the intermediate test week and at the end of the semester. The final score is the average of the scores from these two tests. Students can earn additional points by presenting course content. For non-attending students, the exam is oral.",
+  "bibliography": [
+    "Cisco Netacad CCNA 1-3 learning material that is provided at the beginning of the class.",
+    "[docente], Struttura e protocolli della rete Internet, Aracne, 2007."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IN/0033",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=18949&ordinamento_aa=2022&af_percorso=2&corso_cod=11037&corso_aa=2023",
+  "source_language": "en",
+  "source_sha256": "cb0d811630c15991f952d3642c122a8326299a1c7678b538c2598fd724551cc2",
+  "extracted_at": "2026-11-20T12:43:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

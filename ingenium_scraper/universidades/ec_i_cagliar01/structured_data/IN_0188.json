@@ -1,0 +1,83 @@
+{
+  "course_name_original": "ANALISI MATEMATICA 2 (IN/0188)",
+  "course_name_en": "MATHEMATICAL ANALYSIS 2",
+  "ects": 8.0,
+  "semester": "First Semestre",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Good knowledge of topics from Mathematical Analysis 1 and Geometry."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the theoretical foundations of differential and integral calculus for functions of several real variables.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to apply differential and integral calculus to determine limits, maxima, and minima of simple functions of two real variables, and to calculate the circulation and flux of a given vector field along particular curves and surfaces.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to interpret the physical or geometric meaning of data and calculation results also in order to evaluate the reliability of the results themselves.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to communicate information, ideas, problems, and solutions based on differential and integral calculus for functions of several real variables.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the learning abilities necessary to assimilate the theoretical foundations of differential and integral calculus for functions of several real variables.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Functions in R^N. Sets in R^N: accumulation and isolated points, interior, exterior and boundary points, bounded, closed, open, compact, connected sets. Definition of function in R^N, domain, codomain, definition of finite and infinite limit, properties of limits. Continuity. Directional and partial derivatives and their geometric meaning. Differentiability and relationships between continuity, partial differentiability and differentiability. Tangent plane and geometric meaning of the differential. Higher order derivatives and differential. Taylor's formula. Implicit functions (in R2) and Dini's theorem.",
+    "Optimization of functions of several variables. Preliminary examples. Free extrema. Necessary conditions. Quadratic forms. Sufficient conditions for free extrema. Maximum principle for harmonic functions. Constrained extrema for functions of 2 variables: sufficient conditions.",
+    "Curves and surfaces. Plane curves represented in implicit form. Parametric representation of a plane curve. Simple and differentiable curves. Generally differentiable curves. Rectifiable curves. Length of a simple and differentiable curve. Curvilinear abscissa. Simple and differentiable surfaces of R3. Jacobian matrix. Tangent plane. Positive page and orientation of the boundary of a surface.",
+    "Double and triple integrals. Double integrals. Reduction of a double integral to a simple integral, change of integration variables, applications. Triple integrals extended to normal domains. Calculation of triple integrals by reduction to double and simple integrals using polar and cylindrical coordinates, applications. Volume of solids, in particular of solids of revolution.",
+    "Curvilinear and surface integrals. Curvilinear integrals, applications. Exact differential forms and their integration. Potential function. Areas of surfaces and in particular of Cartesian and revolution surfaces. Surface integrals. Fluxes.",
+    "Integral transformations. Green-Gauss and Stokes' theorems and their applications.",
+    "Sequences of functions and numerical and functional series. Definition of sequence of functions, examples. Numerical series: definition, convergence of a numerical series, necessary condition. Geometric series, telescoping series, generalized harmonic series. Sufficient criteria for the convergence of a numerical series (comparison criterion, asymptotic comparison, ratio, root). Alternating series. Absolute convergence. Leibniz series. Simply, totally, and uniformly convergent series of functions. Uniform convergence criterion (Weierstrass). Telescoping series. Power series in the real field, Taylor and Maclaurin series. Theorem of derivation and integration for series."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Laboratory work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 80.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (exercises, theorems, definitions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test where the resolution of some exercises and the statement (with proof) of some theorems and/or definitions will be required, followed by a potential oral exam.",
+  "bibliography": [
+    "Elementi di Analisi Matematica 2. casa editrice Zanichelli, autori Paolo Marcellini, Carlo Sbordone.",
+    "Esercitazioni di Matematica Due. Prima e Seconda parte. casa editrice Zanichelli. autori Paolo Marcellini, Carlo Sbordone."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari",
+  "institution_slug": "ec_i_cagliar01",
+  "degree": "Laurea in Ingegneria Meccanica E Gestionale (First Level Degree In Mechanical And Management Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "IN/0188",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=19041&ordinamento_aa=2023&af_percorso=9999&corso_cod=11074&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "3486ab06e45e19666264fe824c3ffe02c992e5cdaa887568f65ae1b12598b7db",
+  "extracted_at": "2026-11-20T01:18:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

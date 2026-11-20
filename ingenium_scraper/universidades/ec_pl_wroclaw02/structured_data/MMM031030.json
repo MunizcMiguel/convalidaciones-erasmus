@@ -1,0 +1,126 @@
+{
+  "course_name_original": "Finite Element Method",
+  "course_name_en": "Finite Element Method",
+  "ects": 2.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentals of strength materials. Analysis of beam, plate and shell structures. Fundamentals of engineering materials.",
+    "Matrix algebra",
+    "Skills in basic CAD tolls. Skills for solving basic engineering elements with use of classical elastic theory."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have knowledge in the fundamentals of finite element method",
+      "type": "knowledge",
+      "code": "PEK_W01"
+    },
+    {
+      "text": "Have the knowledge to prepare proper geometrical and discrete model to solve FEM task.",
+      "type": "knowledge",
+      "code": "PEK_W02"
+    },
+    {
+      "text": "Is able to use FEM in practical application of calculation of engineering structures. Can formulate and solve problems of the ultimate strength of load carrying structures.",
+      "type": "knowledge",
+      "code": "PEK_W03"
+    },
+    {
+      "text": "Skills in software for the FEA",
+      "type": "skill",
+      "code": "PEK_U01"
+    },
+    {
+      "text": "Have the knowledge to prepare proper geometrical and discrete model to solve the task in the range of elastic deformation.",
+      "type": "skill",
+      "code": "PEK_U02"
+    },
+    {
+      "text": "Is able to perform FEA in the field of liner and nonlinear statics, dynamics, vibrations and linear buckling.",
+      "type": "skill",
+      "code": "PEK_U03"
+    },
+    {
+      "text": "Learn the responsibility for his work.",
+      "type": "competence",
+      "code": "PEK_K01"
+    },
+    {
+      "text": "Creative thinking and acting",
+      "type": "competence",
+      "code": "PEK_K02"
+    },
+    {
+      "text": "Learn team work due to the necessity of information flow during project realisation",
+      "type": "competence",
+      "code": "PEK_K03"
+    }
+  ],
+  "syllabus_topics": [
+    "Development of the numerical methods in the theory of constitutive equations.",
+    "Introduction and basic assumptions of FEM",
+    "Approximation functions, classifications of finite elements, convergence conditions",
+    "Construction of stiffness matrix of the fundamental finite elements (plate, shield, beam, solid)",
+    "Characteristics of the fundamental finite elements 1D, 2D, 3D and presentation of the basic relations",
+    "Definition of the material model used in simulations of static, dynamic problems with use of FEM.",
+    "Methodics of discrete model creation",
+    "Numerical simulations with use of FEM in statics, dynamics and thermal problems",
+    "Introduction. Presentation of the software",
+    "Discrete model creation principles. Assumptions and simplifications of the model",
+    "Solid models discretization. Analysis of the parameters (type of the element, mesh density) and its influence on the results.",
+    "Designing and modeling of the thin walled beam and shell structures",
+    "Boundary conditions: DOF and load application",
+    "Principles of the creation of the complex models of load carrying structures.",
+    "Principles of design and modeling of structural nodes and the load transfer",
+    "Results analysis. Effort criterion.",
+    "Modal analysis, buckling and thermal load",
+    "Individual modeling of selected structural node"
+  ],
+  "teaching_methods": [
+    "self study - preparation for project class",
+    "problem exercises",
+    "project presentation",
+    "individual work and preparation to the exam",
+    "Lecture",
+    "Project"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 17.0,
+  "assessment_methods": [
+    {
+      "method": "exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "mark on the basis of the simulation project part",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade for lectures (P) is based on the exam (F1). The final grade for the project (P) is based on the simulation project part (F1).",
+  "bibliography": [
+    "Rusiński E., Metoda elementów skończonych. System COSMOS/M, WKiŁ Warszawa 1994",
+    "Rusinski E., Czmochowski J., Smolnicki T.: Zaawansowana metoda elementów skończonych w konstrukcjach nośnych, Oficyna Wydawnicza Politechniki Wrocławskiej, Wrocław 2000",
+    "Zienkiewicz O.C.: Metoda elementów skończonych, Arkady 1972",
+    "Rusiński E.: Zasady projektowania konstrukcji nośnych pojazdów samochodowych. Oficyna Wyd. PWr Wrocław 2002",
+    "Rakowski G., Kacprzyk Z.: Metoda elementów skończonych w mechanice konstrukcji, Oficyna Wydawnicza Politechniki Warszawskiej, Warszawa 2005",
+    "Szmelter J., Dacko M., Dobrociński S., Wieczorek M.: Metoda elementów skończonych w statyce konstrukcji, Arkady 1979",
+    "Gawroński W., Kruszewski J., Ostachowicz W., Tarnowski K., Wittbrodt E.: Metoda elementów skończonych w dynamice konstrukcji, Arkady, Warszawa 1984",
+    "Waszczyszyn Z., Cichoń Cz., Radwańska M.: Metoda elementów skończonych w stateczności konstrukcji, Arkady, Warszawa 1990",
+    "Kleiber M.: Wprowadzenie do metody elementów skończonych, PWN, Warszawa-Poznań 1989"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Politechnika Wroclawska",
+  "institution_slug": "ec_pl_wroclaw02",
+  "degree": "Mechanical Engineering and Machine Building (I level, full-time)",
+  "course_code": "MMM031030",
+  "academic_year": "2026/2027",
+  "source_url": "https://wm.pwr.edu.pl/fcp/sGBUKOQtTKlQhbx08SlkFUBhQAykrCDILDWdbXxMbFmFBWxslAxt1FSVcVnRKCkI8VQIDJCUODBYAKg8TXAMIOAZK/_users/code_BAlkUKkpKNVI_VBV9XFNBFEZcFiw5Qx0O/w10/karty_kursow/mbm_en_st_i.pdf",
+  "source_language": "en",
+  "source_sha256": "373ba836e699525ce40eb15b8faa55b83b836fd37f6b2c39679e78e751fca52a",
+  "extracted_at": "2026-11-18T10:05:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

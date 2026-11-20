@@ -1,0 +1,251 @@
+---
+{
+ "course_code": "2GITICID-1-001",
+ "course_name": "Álgebra Lineal",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-1-001",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:01",
+ "content_sha256": "6dde43e84ff32b47734c21f13b3e6829512c0621bfd8265ac39cebd13f5d97db"
+}
+---
+
+# Álgebra Lineal
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-1-001
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Materia:** Fundamentos Matemáticos
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (28 Horas); Prácticas de Laboratorio (9 Horas); Prácticas de Aula/Semina (21 Horas)
+
+## Contextualización
+
+Esta asignatura está incluida en la materia Fundamentos Matemáticos perteneciente al módulo Fundamentos de la Ingeniería del grado de Ingeniería Informática en Tecnologías de la Información. Por su naturaleza básica, sus conocimientos son imprescindibles para el desarrollo del resto de los módulos y materias del Grado.
+
+## Requisitos
+
+Para cursar esta asignatura se espera que se posea el conocimiento de los contenidos propios de Matemáticas I y II de bachillerato.
+
+## Competencias y resultados del aprendizaje
+
+**Competencia específica BOE:**
+
+*EFB1.1 Capacidad para la resolución de los problemas matemáticos que puedan plantearse en la ingeniería. Aptitud para aplicar los conocimientos sobre: álgebra lineal.*
+
+**Competencias generales y transversales:**
+
+GTR2 Capacidad de abstracción: capacidad de crear y utilizar modelos que reflejen situaciones reales.
+
+GTR3 Capacidad de actuar autónomamente.
+
+**Resultados de aprendizaje:**
+
+FM1: Utilizar las propiedades básicas de los números reales y complejos y efectuar las operaciones fundamentales con los mismos.
+
+FM2:Usar los elementos básicos del Álgebra Lineal: sistemas de ecuaciones lineales, espacios vectoriales y aplicaciones lineales y utilizar las matrices para simplificar su estudio
+
+FM3: Identificar propiedades métricas en los espacios vectoriales, a través del producto escalar, la norma o la distancia.
+
+FM4: Calcular valores y vectores propios y diagonalizar endomorfismos y matrices.
+
+FM5: Resolver problemas geométricos del plano y del espacio.
+
+FM6: Identificar los elementos básicos de las ecuaciones diferenciales y los sistemas de ecuaciones diferenciales y utilizar herramientas algebraicas para resolver casos elementales.
+
+## Contenidos
+
+**Teóricos:**
+
+Tema 1. Conjuntos y conjuntos numéricos: operaciones con números complejos.
+
+1. Conjuntos
+2. Relaciones binarias
+3. Aplicaciones: inyectividad, suprayectividad y biyectividad
+4. Números complejos
+
+Tema 2. Sistemas de ecuaciones lineales y matrices.
+
+1. Matrices y propiedades básicas. Determinantes.
+2. Resolución de sistemas a través del Método de Gauss.
+
+Tema 3. Espacios vectoriales.
+
+1. Estructura de espacio vectorial.
+2. Combinaciones lineales e independencia lineal. Bases y dimensión. Coordenadas.
+3. Subespacios vectoriales.
+
+Tema 4. Aplicaciones lineales.
+
+1. Definición y propiedades.
+2. Matriz asociada. Cambio de base.
+3. Núcleo e imagen de una aplicación. Clasificación.
+
+Tema 5. Productos escalares: ortogonalidad.
+
+1. Producto escalar y cuadrado escalar
+2. Longitudes y ángulos entre vectores
+3. Ortogonalidad: bases ortogonales y ortonormales
+4. Proyección ortogonal
+
+Tema 6. Diagonalización.
+
+1. Valores y vectores propios.
+2. Diagonalización de endomorfismos y matrices y aplicaciones.
+3. Diagnalización de endomorfismos en bases ortonormales.
+
+**Prácticos:**
+
+Las prácticas de laboratorio de realizarán utilizando el programa Matlab. En cada sesión los estudiantes deberán entregar los ejercicios pedidos sobre los contenidos de la asignatutra, implementados con Matlab.
+
+1. Introducción a la herramienta
+2. Conjuntos y números complejos
+3. Matrices, sistemas y determinantes
+4. Espacios vectoriales: cambios de base
+5. Productos escalares y proyecciones ortogonales
+
+## Metodología y plan de trabajo
+
+En las clases expositivas la profesora expondrá los principales conceptos, resolviendo las dudas que tengan los estudiantes.
+
+En las prácticas de aula los alumnos y las alumnas realizaran unos ejercicios con la ayuda de la profesora, en grupo o de forma individual. Para ello será necesario utilizar el campus virtual y la plataforma MS Teams. Por ello es recomendable que el alumnado asista a clase con algún dispositivo electrónico con conexión a internet (wifi) como un teléfono movil, una tablet, un portatil o similar.
+
+En las prácticas de laboratorio se resolverán problemas de la asignatura con el programa informático MATLAB. El alumnado tiene acceso al programa a través de la web https://es.mathworks.com/, por lo que, desde el momento que formalicen la matrícula y se les haya asignado un código UO, pueden descargar el programa y utilizarlo en su propio ordenador. Para las prácticas informáticas puede utilizarse los ordenadores de las aulas o su propio portatil, siempre que hayan instalado el programa MatLab. También será imprescindible utilizar las carpetas compartidas y sincronizadas de OneDrive.
+
+**Plan de trabajo aproximado:**
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios/ Talleres* | *Prácticas de laboratorio /campo /aula de informática/ aula de idiomas* | *Sesiones de Evaluación* | ***Total*** | **Total** |
+| Conjuntos y conjuntos numéricos: operaciones con números complejos. | 23 | 6 | 4 | 2 |  | 12 | 11 |
+| Sistemas de ecuaciones lineales y matrices | 18 | 3 | 3 | 1 |  | 7 | 11 |
+| Espacios vectoriales | 21 | 4 | 3 | 2 |  | 9 | 12 |
+| Aplicaciones lineales | 20 | 4 | 3 | 1 |  | 8 | 12 |
+| Productos escalares: ortogonalidad. | 32 | 4 | 2 | 2 |  | 8 | 24 |
+| Diagonalización | 32 | 5 | 4 | 1 |  | 10 | 22 |
+| Evaluación | 4 |  |  |  | 4 | 4 |  |
+| **Total** | **150** | **26** | **19** | **9** | **4** | **58** | **92** |
+
+**Volumen total de trabajo del estudiante:**
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 26 | 17,33 | 38,67 |
+|  | Práctica de aula / Seminarios / Talleres | 19 | 12,67 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 9 | 6 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales |  |  |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 4 | 2,67 |  |
+| No presencial | Trabajo en Grupo | 92 | 61,33 | 61,33 |
+|  | Trabajo Individual |  |  |  |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria:**
+
+Elementos evaluables
+
+La evaluación en la convocatoria ordinaria consta de los siguientes elementos:
+
+1. **Examen parcial 1 (P1).** Prueba escrita correspondiente a los temas 1 a 3, que se realizará aproximadamente a mitad del semestre.
+2. **Examen parcial 2 (P2).** Prueba escrita correspondiente a los temas 4 a 6, que se realizará en la fecha oficial de examen de la asignatura. En esa misma fecha, el estudiantado podrá repetir el examen del primer parcial (P1). La realización de esta repetición implicará la renuncia automática a la calificación previamente obtenida en P1.
+3. **Prácticas de aula.** La evaluación de las prácticas de aula se realizará durante las sesiones programadas en el horario publicado en la web del centro. Durante estas sesiones se propondrán ejercicios que el estudiantado resolverá utilizando apuntes, bibliografía u otros materiales que considere oportunos, con la orientación del profesorado.
+   Las actividades podrán realizarse de forma individual o en grupo y se evaluarán teniendo en cuenta:
+   - la asistencia a las sesiones,
+   - la participación e interés mostrados,
+   - la presentación y corrección de los ejercicios entregados.
+   Las entregas se realizarán en formato electrónico a través de la plataforma MS Teams. Para que esta parte sea evaluada será necesario asistir al menos al **80 % de las sesiones programadas**.
+4. **Prácticas de laboratorio.** Las prácticas de laboratorio se evaluarán de forma continua mediante la revisión de los ficheros desarrollados por el estudiantado utilizando el programa Matlab.
+   Además, en la última sesión presencial se realizará un **examen de prácticas de laboratorio**, que representará el **50 % de la calificación de esta parte**, mientras que el **trabajo continuo durante el cuatrimestre** supondrá el **50 % restante**.
+
+Calificación
+
+La calificación final en la convocatoria ordinaria se calculará mediante
+
+NF=0.15 NL+max⁡(0.15 NA+0.7 NC,  0.85 NC),
+
+donde:
+
+- **NL**: nota de prácticas de laboratorio
+- **NA**: nota de prácticas de aula
+- **NC = (P1 + P2)/2**: nota media de los exámenes parciales
+
+Todas las calificaciones se expresan sobre **10 puntos**.
+
+Se considerará que la asignatura está superada cuando
+
+NF≥5, NL≥3, NC≥3.
+
+En caso de no alcanzarse estos mínimos, la calificación final será min⁡(NF, 4.5).
+
+Si un estudiante **no asiste al examen de la convocatoria ordinaria**, constará en acta como **“No presentado”**.
+
+Evaluación diferenciada
+
+Al estudiantado que curse la asignatura en modalidad de **evaluación diferenciada** se le aplicará el siguiente modelo:
+
+1. Las pruebas escritas se realizarán en las mismas condiciones que para el resto del estudiantado, es decir, mediante los parciales previstos en la asignatura.
+2. Para las prácticas de laboratorio se intentará asignar un grupo que permita su evaluación continua. Si esto no fuera posible, se realizará un **examen específico de prácticas de laboratorio** en cada convocatoria oficial.
+3. Las prácticas de aula se evaluarán únicamente cuando el estudiantado pueda asistir a dichas sesiones. En caso contrario, la ponderación será:
+
+NF=0.15 NL+0.85 NC,
+
+donde
+
+- **NL** es la nota de prácticas de laboratorio
+- **NC** es la nota media de las pruebas escritas.
+
+La asignatura se considerará superada cuando
+
+NF≥5,NL≥3,NC≥3.
+
+**Convocatorias extraordinarias:**
+
+1. El estudiantado que no haya superado la asignatura en la convocatoria ordinaria y desee mejorar su calificación en **NC** o **NL** podrá realizar:
+   En caso de presentarse únicamente a una de las partes, se conservará la calificación obtenida en la otra en la convocatoria ordinaria. La realización de una prueba implicará la renuncia a la calificación previa de esa parte.
+   - un **examen escrito** para mejorar **NC**, y/o
+   - una **prueba de prácticas de laboratorio** para mejorar **NL**.
+2. La calificación final se calculará utilizando la misma fórmula que en la convocatoria ordinaria, donde:
+   En todo caso, deberán cumplirse las condiciones:
+   - **NC** será la nota del examen realizado en la convocatoria extraordinaria (o la obtenida en la ordinaria si no se repite), debe ser mayor o igual que 3
+   - **NA** será la nota obtenida durante el periodo lectivo en las prácticas de aula,
+   - **NL** será la nota de prácticas de laboratorio obtenida mediante evaluación continua o en la prueba correspondiente, y debe ser mayor o igual que 3.
+
+El estudiantado en modalidad de evaluación diferenciada se evaluará en estas convocatorias en las mismas condiciones descritas anteriormente.
+
+Consideraciones
+
+En caso de que el profesorado tenga dudas razonables sobre la **autoría de alguna prueba evaluable** o detecte el posible uso de **medios no autorizados** (incluidas herramientas de inteligencia artificial), podrá solicitar al estudiante una **defensa presencial de la prueba**.
+
+Si se comprobara la utilización de medios ilícitos, la calificación en la convocatoria correspondiente será **0 puntos** y se informará a la **Escuela Politécnica de Ingeniería** para la adopción de las medidas oportunas.
+
+## Bibliografía
+
+Recursos:
+
+Es recomendable asistir a clase con dispositivo con conexión a internet (wifi) para poder realizar las actividades que se desarrollarán, como Kahoot!, cuestionarios, entregas en MS Teams y otras.
+
+Es importante que el alumnado, una vez asignado su usuario UO descargue e instale el programa MatLab de la página https://es.mathworks.com/
+
+Bibliografía básica:
+
+Poole, D. **Álgebra Lineal: Una introducción moderna** (3ª Ed.) 2011. Thomson.
+
+Pelayo, I. y Rubio, F. **Álgebra Lineal básica para ingeniería civil.**(1ª ed.) 2008. UPC.
+
+Nakos, G.; Joyner, D. **Álgebra Lineal con Aplicaciones**. Thomson, 1999.

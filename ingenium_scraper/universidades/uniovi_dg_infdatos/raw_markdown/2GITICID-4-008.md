@@ -1,0 +1,190 @@
+---
+{
+ "course_code": "2GITICID-4-008",
+ "course_name": "Sistemas de Información",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-008",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:14",
+ "content_sha256": "b42e1a6ae50ed79a6dc1f59a49bb6012d8844094be71278d7fd2d744f0c6517a"
+}
+---
+
+# Sistemas de Información
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-4-008
+
+## Datos de la asignatura
+
+- **Curso:** Cuarto
+- **Temporalidad:** Segundo Semestre
+- **Materia:** Ingeniería del Sofware
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Aula/Semina (7 Horas); Prácticas de Laboratorio (28 Horas); Clases Expositivas (21 Horas); Tutorías Grupales (2 Horas)
+
+## Contextualización
+
+Esta asignatura se enmarca dentro de la materia de Ingeniería del Software, y en el módulo de Software de Aplicación del Grado en Ingeniería Informática en Tecnologías de la Información. Dentro de la materia de Ingeniería del Software, la asignatura se imparte a continuación de las asignaturas de Bases de Datos, Comunicación Persona Máquina e Ingeniería del Software. Las dos primeras se imparten en el curso anterior (segundo curso) y la tercera en el semestre anterior del mismo curso (tercer curso). Otras asignaturas de la misma materia que serán impartidas en el cuarto curso son Tecnologías Web y Pruebas y Despliegue de Software.
+
+La asignatura se imparte durante el segundo semestre del tercer curso por profesorado perteneciente al Departamento de Informática de la Universidad de Oviedo. Cuenta con 6 créditos ECTS, que suponen un total de 150 horas de trabajo; 60 horas presenciales y 90 horas no presenciales.
+
+Organizativamente, la asignatura tendrá 2 horas de clases expositivas a la semana (hasta un total de 21 horas), 3 horas de prácticas de laboratorio semanales (hasta un total de 28 horas). Adicionalmente tendrá 7 horas de prácticas de aula y 2 horas de tutorías grupales repartidas a lo largo del periodo docente.
+
+Mientras los fundamentos generales sobre procesos de análisis, diseño y pruebas de un sistema o producto software se abordan en la asignatura de Ingeniería del Software que la precede, en esta asignatura se profundiza en aspectos relativos a la especificación de sistemas de información, el análisis de los requisitos del software y la implementación de dichos requisitos, así como en aspectos orientados hacia la calidad del proceso y producto, como son las revisiones, las pruebas del software fundamentalmente a nivel de integración y la gestión de la configuración del software.
+
+La asignatura sirve como base a las asignaturas de Tecnologías Web, donde se abordarán aspectos específicos para el desarrollo, mantenimiento y despliegue de sistemas, aplicaciones y servicios basados en web, y de Pruebas y Despliegue de Software, donde se abordarán aspectos relativos a la elaboración, ejecución y monitorización de un plan de pruebas de un sistema software y su despliegue en producción.
+
+La asignatura tiene un fuerte componente práctico con el objetivo de aproximar al estudiante a situaciones similares a las que se puedan encontrar en la práctica profesional.
+
+## Requisitos
+
+Es recomendable haber superado parcialmente los objetivos de aprendizaje establecidos en las siguientes asignaturas del segundo curso Tecnologías y Paradigmas de Programación, Comunicación Persona-Máquina y Bases de Datos, y de Ingeniería del Software de tercer curso.
+
+## Competencias y resultados del aprendizaje
+
+Una vez cursada y asimilada la asignatura el alumno adquirirá parcialmente las siguientes **competencias específicas**, extraídas de la memoria de verificación del grado en Ingeniería Informática en Tecnologías de la Información:
+
+- **ETI2:** Capacidad para seleccionar, diseñar, desplegar, integrar, evaluar, construir, gestionar, explotar y mantener las tecnologías de hardware, software y redes, dentro de los parámetros de coste y calidad adecuados.
+- **ETI5:** Capacidad para seleccionar, desplegar, integrar y gestionar sistemas de información que satisfagan las necesidades de la organización, con los criterios de coste y calidad identificados.
+- **ETI6**: Capacidad de concebir sistemas, aplicaciones y servicios basados en tecnologías de red, incluyendo Internet, web, comercio electrónico, multimedia, servicios interactivos y computación móvil.
+
+Las competencias anteriores se desarrollan y particularizan en varios resultados de aprendizaje que se desglosan a continuación:
+
+- **IS24**: Analizar y confeccionar los requisitos de un sistema interactuando con un cliente, produciendo la parte de requisitos funcionales de una petición de oferta.
+- **IS25**: Analizar, evaluar y discutir diferentes alternativas de implantación, desarrollo y subcontratación de un sistema software, seleccionando la más adecuada para las necesidades de la organización.
+- **IS26**: Realizar revisiones técnicas de los productos desarrollados por otros equipos de trabajo.
+- **IS27**: Confeccionar un plan de implantación y despliegue de un sistema software y realizar su seguimiento.
+- **IS28**: Confeccionar un plan de gestión de la configuración del software y controlar las versiones y cambios.
+- **IS29**: Confeccionar la estrategia y pruebas de integración de un sistema software.
+- **IS30**: Comprender el contenido y objetivos de los diferentes estándares de modelos de proceso, evaluación y calidad aplicables a productos y procesos software.
+- **IS37**: Comprender los diferentes modelos de arquitectura empresarial y su relación con las tecnologías involucradas
+- **IS38**: Comprender las diferentes funcionalidades de aplicaciones empaquetadas típicas (CRM, ERP)
+
+## Contenidos
+
+Para alcanzar los resultados y objetivos planteados en el apartado anterior, la asignatura se dividirá en los siguientes contenidos:
+
+1. Requisitos del Software
+   1. Proceso general de elicitación, validación e implementación de requisitos
+   2. Extracción de requisitos y criterios de aceptación en metodologías ágiles (SCRUM)
+2. Calidad y Estándares en Ingeniería del Software
+   1. Conceptos generales. Definición y Tipos. Estándares
+   2. Pruebas del Software. Diseño de pruebas. Modelo en V (niveles y tipos). Automatización.
+   3. Gestión de la Configuración del software. Planes, Control de Versiones (Git) y Cambios
+3. Sistemas de Información Empresariales. Arquitectura y funcionalidades.
+4. Realización de un proyecto de Sistemas de Información utilizando SCRUM. Tablero Kanban, Definición de Historias de Usuario, Implementación, Control de Versiones y Prueba.
+
+## Metodología y plan de trabajo
+
+Las actividades presenciales del alumno consistirán en la asistencia a clases expositivas, a prácticas de aula y laboratorio y a tutorías grupales. En las clases expositivas el profesor alternará la exposición de los contenidos teóricos de la asignatura con la realización de pequeños ejemplos y ejercicios sobre los mismos, fomentando en lo posible la participación del alumnado en la resolución de problemas. Las prácticas de aula consistirán en la realización por parte del alumnado de pequeños casos prácticos que podrán ser realizados de forma individual y/o en equipo. Las prácticas de laboratorio consistirán en la realización de diversas tareas de un proyecto, realizadas de forma individual y en equipo. Las tutorías grupales se dedicarán a la puesta en común por parte de los alumnos de las dudas y dificultades que se les hayan presentado durante el proceso de aprendizaje.
+
+Las actividades no presenciales consistirán en el estudio de la materia teórica y la realización de los ejercicios y problemas que el profesor proponga o publique a través del Campus Virtual, así como el completar las tareas de las prácticas de laboratorio.
+
+La tutoría académica se realizará en el horario establecido a tal fin por cada profesor, pudiéndose contactar por medio del correo electrónico del profesor.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Contenidos*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios/ Talleres* | *Prácticas de laboratorio /campo /aula de informática/ aula de idiomas* | *Prácticas clínicas hospitalarias* | *Tutorías grupales* | *Prácticas Externas* | *Sesiones de Evaluación* | ***Total*** | *Trabajo grupo* | *Trabajo autónomo* | **Total** |
+| 1.Requisitos del Software | **35** | 11 | 4 |  |  |  |  |  | **15** | 10 | 10 | **20** |
+| 2.Calidad y Estándares | **27** | 8 | 3 |  |  |  |  |  | **11** | 8 | 8 | **16** |
+| 3.Sistemas de Información Empresariales | **6** | 2 |  |  |  |  |  |  | **2** | 2 | 2 | **4** |
+| 4.Realización de un proyecto | **80** |  |  | 28 |  | 2 |  |  | **30** | 25 | 25 | **50** |
+| **Total** | **150** | **21** | **7** | **28** |  | **2** |  | **2** | **60** | **45** | **45** | **90** |
+
+El resumen por modalidades es el que sigue:
+
+| MODALIDADES |  | Horas | Totales |
+| --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 21 | 60h <br> (30%) |
+|  | Práctica de aula / Seminarios / Talleres | 7 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 28 |  |
+|  | Prácticas clínicas hospitalarias |  |  |
+|  | Tutorías grupales | 2 |  |
+|  | Prácticas Externas |  |  |
+|  | Sesiones de evaluación | 2 |  |
+| No presencial | Trabajo en Grupo | 30 | 90h <br> (70%) |
+|  | Trabajo Individual | 60 |  |
+|  | Total | 150 |  |
+
+**Orientación profesional**. Las salidas laborales son cualquier empresa en la que se desarrollan productos o servicios basados en software, desde PYME y startup hasta grandes empresas multinacionales. La asignatura aborda los aspectos metodológicos, es decir, las habilidades relacionadas con la forma de trabajar en equipos para crear productos que proporcionen un servicio al cliente. Esto se complementa con un conjunto de técnicas fundamentales. Estas habilidades metodológicas, junto con el conocimiento tecnológico adquirido en otras asignaturas proporcionan una base sólida para el buen desempeño en el mercado laboral.
+
+## Evaluación del aprendizaje
+
+**Convocatoria Ordinaria**
+
+Elementos evaluables
+
+En la evaluación de la asignatura se diferencian dos bloques:
+
+- **Teoría**: Se evaluará en las convocatorias oficiales mediante una prueba escrita consistente en un conjunto de preguntas y/o ejercicios sobre los contenidos de la asignatura. Esta parte supone un 35 % de la calificación final, y se requiere obtener al menos 4,0 puntos sobre 10.
+
+- **Prácticas**: Está parte se componen de **prácticas de aula**, donde los estudiantes realizarán trabajos puntuales de forma individual y/o en equipo, y de **prácticas de laboratorio**, donde se realizan diferentes tareas de un proyecto software tanto de forma individual como en equipo. Esta parte supone el 65% de la calificación final y se evaluará de forma continua durante el curso. Se requiere obtener al menos al menos 4,0 puntos sobre 10 en este bloque. Los pesos de las diferentes actividades evaluables son como sigue:
+  - Trabajo realizado por el estudiante en las clases de prácticas de aula y los entregables (15%).
+  - Evaluación continua y formativa en la realización de prácticas de laboratorio (35%).
+  - Evaluación de la contribución del estudiante durante el curso en las memorias y productos resultantes de las prácticas de laboratorio, y de la presentación final (15%).
+
+Calificación
+
+Si se han alcanzado los mínimos establecidos en cada bloque, la calificación en la convocatoria ordinaria se realiza de acuerdo a la siguiente fórmula
+
+*Calificación = 0,65 x Prácticas + 0,35 x Teoría*
+
+En caso de no superarse los mínimos establecidos en cada bloque, la calificación será el mínimo entre la calificación obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria Extraordinaria**
+
+Calificación
+
+Como calificación del bloque teoría se utilizará la obtenida en la convocatoria ordinaria del curso académico correspondiente siempre que la calificación en la convocatoria ordinaria sea distinta a No Presentado y se haya obtenido al menos 5 puntos sobre 10. En caso contrario, se evaluará mediante una prueba de conocimientos presencial escrita sobre los contenidos de la asignatura, donde se debe obtener al menos 5,0 puntos sobre 10.
+
+Como calificación del bloque de prácticas se utilizará la obtenida en la convocatoria ordinaria del curso académico correspondiente siempre que la calificación en la convocatoria ordinaria sea distinta a No Presentado y se haya obtenido al menos 5 puntos sobre 10. En caso contrario esta parte práctica se evaluará mediante un trabajo individual que el alumno deberá solicitar previamente al profesor de su grupo de prácticas de laboratorio una vez cerrada el acta de la convocatoria ordinaria. Se debe obtener al menos 5,0 puntos sobre 10 en la evaluación del trabajo de prácticas.
+
+Si se han alcanzado los mínimos establecidos en cada bloque, la calificación en la convocatoria extraordinaria se realiza de acuerdo a la siguiente fórmula:
+
+*Calificación = 0,65 x Prácticas + 0,35 x Teoría*
+
+En caso de no superarse los mínimos establecidos en cada bloque, la calificación será el mínimo entre la calificación obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación diferenciada**
+
+Como criterio general, la evaluación diferenciada se realizará en las mismas condiciones que las especificadas anteriormente. Para la evaluación de prácticas (de laboratorio y de aula) en las que el alumno no pueda asistir presencialmente se definirán a principio de curso, en función de sus circunstancias particulares, los trabajos a realizar que los sustituyan. El alumno debe solicitar al coordinador de la asignatura dichos trabajos a principio de curso.
+
+## Bibliografía
+
+**Bibliografía**  
+**Básica:**
+
+- Karl E. Wiegers, Joy Beatty. Software Requirements (3rd Edition), Microsoft Press, 2013.
+- D. Galin, Software Quality Assurance: From Theory to Implementation, Addison Wesley, 2003
+- Deemer P, Benefield G, Larman C, Vodde B. The Scrum Primer (Version 2.0), 2012. Traducción de Ángel Medinilla. http://scrumprimer.org/ (accedido Marzo 2024).
+- Schwaber K, Sutherland J. The Scrum Guide ™, 2020. Traducción de David Martin y David Tardini. https://scrumguides.org/ (accedido Marzo 2024)
+
+**Complementaria y Estándares:**
+
+- Cohen, M. User Stories Applied. Addison-Wesley Professional, 2004.
+- IEEE. Guide to the Software Engineering Body of Knowledge SWEBOK V.3.0, 2014.
+- ISO/IEC/IEEE 29119 Software and systems engineering - Software testing (2013-2015)
+- Cem Kaner, Jack Falk, Hung Quoc Nguyen. Testing Computer Software. Wiley, 1999
+
+**Recursos:**
+
+- Los principales recursos necesarios para cursar esta asignatura son un computador personal con conexión a Internet y las herramientas de Office365, que se utilizarán para acceder a los contenidos publicados en el Campus Virtual (CV) y para la realización de las prácticas y trabajos en equipo.
+- El resto de las herramientas software necesarias serán de libre distribución (p.e. Git) o versiones de prueba de herramientas comerciales.

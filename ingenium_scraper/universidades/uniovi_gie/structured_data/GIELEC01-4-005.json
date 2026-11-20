@@ -1,0 +1,216 @@
+{
+  "course_name_original": "Control y Protección de Máquinas Eléctricas",
+  "course_name_en": "Control and Protection of Electrical Machines",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Máquinas Eléctricas I",
+    "Máquinas Eléctricas II",
+    "Tecnología Electrónica",
+    "Automatización y Control",
+    "Electrónica Industrial y Automática"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to write, develop, and manage industrial engineering projects involving the installation, assembly, and operation of industrial control and protection systems for machines.",
+      "type": "competence",
+      "code": "CG-1"
+    },
+    {
+      "text": "Knowledge of basic and technological subjects, enabling them to learn new methods and theories, and providing versatility to adapt to new situations in the field of control and protection of electrical machines.",
+      "type": "knowledge",
+      "code": "CG-3"
+    },
+    {
+      "text": "Ability to solve problems on control and protection of electrical machines with initiative, creativity, and critical reasoning.",
+      "type": "skill",
+      "code": "CG-4"
+    },
+    {
+      "text": "Ability to perform measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks in the field of control and protection of electrical machines.",
+      "type": "skill",
+      "code": "CG-6"
+    },
+    {
+      "text": "Ability to handle specifications, regulations, and mandatory standards in the field of control and protection of electrical machines.",
+      "type": "skill",
+      "code": "CG-7"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "competence",
+      "code": "CG-11"
+    },
+    {
+      "text": "Ability to prevent occupational risks and protect the health and safety of workers and users in the field of electrical machines.",
+      "type": "competence",
+      "code": "CG-13"
+    },
+    {
+      "text": "Ability to act with honesty, responsibility, ethical commitment, and solidarity.",
+      "type": "competence",
+      "code": "CG-14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "competence",
+      "code": "CG-15"
+    },
+    {
+      "text": "Knowledge and use of the principles of circuit theory and electrical machines, applied to the control and protection of electrical machines.",
+      "type": "knowledge",
+      "code": "CC-4"
+    },
+    {
+      "text": "Knowledge of the fundamentals and control methods applied to the operation control of electrical machines.",
+      "type": "knowledge",
+      "code": "CC-6"
+    },
+    {
+      "text": "Knowledge and skills to organize and manage projects. Knowledge of the organizational structure and functions of a project office.",
+      "type": "skill",
+      "code": "CC-12"
+    },
+    {
+      "text": "Knowledge of the basic principles of control and protection of electrical machines that will facilitate the learning of currently used systems and adaptation to new systems that may arise in the future, in the field of control and protection of electrical machines.",
+      "type": "knowledge",
+      "code": "CEL-2"
+    },
+    {
+      "text": "Knowledge of the principles of automatic regulation and its application to industrial automation in the field of electrical machines.",
+      "type": "knowledge",
+      "code": "CEL-8"
+    },
+    {
+      "text": "Design and automate the operation of electric motors, based on their electrical characteristics, using wired logic and programmed logic.",
+      "type": "skill",
+      "code": "RCP-1"
+    },
+    {
+      "text": "Select the appropriate variable speed drive based on its operating principle, and develop the structure and control strategies for specific industrial applications using electric motors.",
+      "type": "skill",
+      "code": "RCP-2"
+    },
+    {
+      "text": "Identify incidents that can affect the correct functioning of electrical machines, as well as the detectors and protections available on the market.",
+      "type": "knowledge",
+      "code": "RCP-3"
+    },
+    {
+      "text": "Choose and calculate the appropriate protection for various electrical machines based on their power, use, type of incident, and the circumstances surrounding an electrical installation.",
+      "type": "skill",
+      "code": "RCP-4"
+    },
+    {
+      "text": "Write and present a technical report on the application of acquired knowledge on control and protection of electrical machines.",
+      "type": "skill",
+      "code": "RCP-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to electric drives",
+    "Examples of electric drives in industry",
+    "Theory of space vectors in three-phase systems",
+    "Introduction to space vectors",
+    "Space vectors in three-phase systems: mathematical and graphical description",
+    "Reference systems: Park transform",
+    "Air gap flux space vector and induced voltage",
+    "Vectorial PWM",
+    "Dynamic description of three-phase R-L systems",
+    "General dynamic scheme of three-phase machines",
+    "General equation of torque production",
+    "Dynamic modeling of rotary electrical machines",
+    "Introduction to dynamic modeling",
+    "Dynamic model of the induction machine",
+    "Dynamic model of the synchronous machine",
+    "Dynamic model of the permanent magnet machine",
+    "Dynamic model of the reluctance machine",
+    "Control of power converters",
+    "General structure of control schemes",
+    "Volts/Hz control of AC drives",
+    "Vector control of AC drives",
+    "Vector control of the induction motor: direct and indirect control",
+    "Vector control of the induction generator: DFIG (wind turbines)",
+    "Vector control of the synchronous motor",
+    "Vector control of the permanent magnet synchronous motor",
+    "Vector control of the reluctance synchronous motor",
+    "Use of DSP for control implementation. A/D converters. Digital inputs/outputs. Interrupts",
+    "Current measurement: current sensors, signal adaptation, resolution, sensor selection",
+    "Speed measurement: the encoder as an element for measuring speed and position. Types. Schemes. Operation",
+    "Design of vectorial regulators",
+    "Simplified models of machines with current control",
+    "Inverter modeling",
+    "PID schemes in dq axes",
+    "Design of I/V decoupling regulators. Design examples",
+    "Current/speed/position control",
+    "Introduction to current/speed/position control",
+    "Current/speed/position control of the induction motor",
+    "Current/speed/position control of the synchronous motor",
+    "Current/speed/position control of the permanent magnet synchronous motor",
+    "Current/speed/position control of the reluctance motor",
+    "Selection of the appropriate drive-machine set",
+    "Introduction to drive selection",
+    "Factors for choosing a drive",
+    "Protection of machines and drives",
+    "Introduction to protection",
+    "Protection of electrical machines",
+    "Protection of electrical drives",
+    "Development of a drive for an induction motor",
+    "Implement the dynamic model (Topics 2 and 3)",
+    "Control in a DSP (Topics 4 and 5)",
+    "Perform current/speed control (Topic 6)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (test / development questions / problem solving)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Delivery of 2 tasks: testing different control strategies in laboratory trainer. Signal measurement.",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Public presentation of developed drive projects",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Attitude, participation and completion of laboratory practices",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated based on four components: a written exam (30%), two tasks testing control strategies and signal measurement (20%), a public presentation of projects (40%), and evaluation of attitude, participation, and laboratory practices (10%). Attendance to laboratory practices is mandatory for evaluation. The sum of the weights is 10 points.",
+  "bibliography": [
+    "Fraile Ardanuy, Jesús; Fraile Mora, Jesús; ACCIONAMIENTOS ELÉCTRICOS (Primera). Garceta. ISBN(13): 9788416228492",
+    "Fraile Mora, Jesús; MÁQUINAS ELÉCTRICAS (7ªEdición). Garceta. ISBN(13): 9788416228133",
+    "Fraile Ardanuy, Jesús; Fraile Mora, Jesús; PROBLEMAS DE MÁQUINAS ELÉCTRICAS (1ª edición). Garceta. ISBN(13): 9788416228140",
+    "Andres Barrado, Antonio Lázaro; PROBLEMAS DE ELECTRÓNICA DE POTENCIA. PRENTICE HALL. ISBN(13): 9788420546520",
+    "Fraile Ardanuy, Jesús; Fraile Mora, Jesús; PROBLEMAS DE MÁQUINAS ELÉCTRICAS (1ª). MC GRAW HILL. ISBN(13): 9788448142407",
+    "Gualda Gil, Juan Andrés; Martínez García, Salvador; ELECTRÓNICA DE POTENCIA. COMPONENTES, TOPOLOGÍAS Y EQUIPOS (1ª). THOMSON PARANINFO,S.A. ISBN(13): 9788497323970",
+    "https://ieeexplore.ieee.org/Xplore/home.jsp",
+    "Diapositivas de las clases de teoría"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-4-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-4-005",
+  "source_language": "es",
+  "source_sha256": "df5fc4cbb4060da2f5727cf44d3f22b78dd8a151084e8e838715a745760bc30e",
+  "extracted_at": "2026-11-20T01:13:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

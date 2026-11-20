@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Aeronautical Engineering 2",
+  "course_name_en": "Aeronautical Engineering 2",
+  "ects": 6.0,
+  "semester": "6th semester",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Aeronautical Engineering 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to predict and analyze the flight dynamic behavior of a fixed-wing aircraft based on geometric properties and to independently derive and interpret the relevant equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can name the safety requirements of a passenger aircraft and independently derive the safety budgets of individual aircraft systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to predict the failure probability of a system, as well as an aircraft crash or maintenance incident, based on the system's architecture.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to optimize the safety level of an aircraft system through technical measures.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Safety and real-time requirements for avionics systems",
+    "Basic structure and functional principles of avionics systems",
+    "Mathematical models for calculating the failure probability of individual aircraft systems",
+    "Analysis methods for evaluating the effects of failure on the aircraft",
+    "Protective measures for such systems in relation to environmental effects and random errors",
+    "Coordinate and reference systems of an aircraft",
+    "Vector space of an aircraft",
+    "Vector transformation between coordinate systems",
+    "Translational and rotational equations",
+    "Prediction of aircraft movements"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Exam (written or oral) or presentation for MECB611C",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam (written or oral) or presentation for MECB612C",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The examination performance is taken in two individual examinations. The weighting is equal for both events according to CP. The module grade MECB610C results from the grades of MECB611C and MECB612C with equal weighting. For MECB611C, a graded written exam (60 min) or graded oral exam (20 min) or graded presentation (20 min) is required. For MECB612C, a graded written exam (60 min) or graded oral exam (20 min) or graded presentation (20 min) is required.",
+  "bibliography": [
+    "Jeppesen; Avionics and Flight Instruments",
+    "Stephen Corda; Introduction to Aerospace Engineering",
+    "Bernard Etkin; Dynamics of Atmospheric Flight"
+  ],
+  "isced_f_code": "0716",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB610C",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "4919e9cffaf0417ba710cff499daaf23a5e33ac2664f31fd4d01abb5c60291d0",
+  "extracted_at": "2026-11-20T12:39:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,106 @@
+{
+  "course_name_original": "Computergrafik",
+  "course_name_en": "Computer Graphics",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Programming with C++",
+    "Linear Algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students who have successfully studied this module understand the essential techniques and methods from modeling to the generation of photorealistic images using computers. They have limited knowledge and understanding of current topics and specializations in the subject area.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The different approaches to computer-assisted generation of high-quality images and animations are understood in their processes and functions, and essential areas can be conceived and implemented.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can critically evaluate computer graphics studies based on their current methodological expertise.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can develop graphical systems from conception to operation, considering the technical complexity of the media types covered.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can conceive methods and procedures suitable for systematically processing and solving selected problems from computer graphics in and for organizations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can present their work results orally and in writing in a clearly structured form.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can understand and implement scientific procedures and articles from the fields of interactive computer graphics in an appropriate time. Furthermore, they can develop their own procedures based on the fundamentals from the course.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of computer graphics",
+    "Projective and affine transformations",
+    "Local & global lighting models",
+    "Hardware Rendering Pipeline, Scanline Algorithms",
+    "Real-time graphics libraries & Shader programming",
+    "Global (offline) image synthesis methods",
+    "Scene management & Postprocessing"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Lab activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project report (written)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (ungraded)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment can be a written exam, an oral exam, or a project report. Alternatively, a programming task including documentation and colloquium can be chosen. The duration of the written exam and oral exam is based on the respective valid study regulations and general examination regulations. The project report is approximately 10-30 pages with a 30-minute explanation. The ungraded experimental work consists of approximately 5-6 experiments.",
+  "bibliography": [
+    "Thomas Akenine-Möller, Eric Haines, Naty Hoffmann, 2018, Real-Time-Rendering, Verlag: Taylor & Francis; 4th edition (6. August)",
+    "Matt Pharr and Greg Humphreys. 2023. Physically Based Rendering, Forth Edition: From Theory to Implementation (2nd ed.). Morgan Kaufmann Publishers Inc., San Francisco, CA, USA.",
+    "John Kessenich, Graham Sellers, and Dave Shreiner. 2016. Opengl® Programming Guide: The Official Guide to Learning Opengl®, Version 4.5 with SPIR-V (9 ed.). Addison-Wesley Professional.",
+    "Wolfgang Engel. 2011-2016. GPU Pro 1-7 (1st ed.). A. K. Peters, Ltd., Natick, MA, USA.",
+    "M. Bender/M. Brill, 2003. Computergrafik, Hanser Verlag 2003 Watt, A., 2002. 3D-Computergrafik, Pearson"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Informatik – Technische Informatik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__info",
+  "degree": "Informatik – Technische Informatik (B.Sc.)",
+  "course_code": "11B0071",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BTI/StO2025_Stand2026-03-03_Informatik-TechnischeInformatik.pdf",
+  "source_language": "de",
+  "source_sha256": "012b5edd1ad6d91c59c7e249d9bf168508d69504a10524c1f84f12ae8cefc7fd",
+  "extracted_at": "2026-11-20T12:33:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

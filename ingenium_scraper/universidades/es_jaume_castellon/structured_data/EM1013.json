@@ -1,0 +1,156 @@
+{
+  "course_name_original": "Electrotècnia",
+  "course_name_en": "Electrotechnics",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Matemàtiques)",
+    "EM1002 - Càlcul I (Matemàtiques)",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II (Matemàtiques)",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to solve problems related to electrical circuits and machines.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to write a technical report on a project in the field of electrotechnics that includes a calculation part and an experimental part.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Be able to solve three-phase systems.",
+      "type": "skill",
+      "code": "CC04"
+    },
+    {
+      "text": "Be able to solve simple magnetic circuits.",
+      "type": "skill",
+      "code": "CC04"
+    },
+    {
+      "text": "Be able to solve electrical circuits powered by direct current and alternating current.",
+      "type": "skill",
+      "code": "CC04"
+    },
+    {
+      "text": "Be able to describe and analyze electrical systems that include electrical machines among their components.",
+      "type": "skill",
+      "code": "CC04"
+    }
+  ],
+  "syllabus_topics": [
+    "Electrical and magnetic quantities",
+    "Kirchhoff's first law",
+    "Kirchhoff's second law",
+    "Power and energy: conservation of power",
+    "Ideal circuit elements",
+    "Resistance",
+    "Capacitor",
+    "Inductance",
+    "Magnetically coupled inductances",
+    "Ideal transformer",
+    "Independent sources",
+    "Dependent sources",
+    "Real elements",
+    "Power and energy in dipoles",
+    "Parameters of a periodic wave",
+    "Objective",
+    "Definitions and representation of circuits",
+    "Transformations and simplifications of circuits",
+    "Branch equations",
+    "Circular methods: mesh current analysis",
+    "Direct writing of mesh equations",
+    "Nodal methods: nodal analysis",
+    "Direct writing of node equations",
+    "Linearty of circuit equations",
+    "Superposition theorem",
+    "Substitution rule",
+    "Thevenin's and Norton's theorems",
+    "Introduction",
+    "Symbolic method",
+    "Complex impedance and admittance",
+    "Phasor diagrams",
+    "Basic RLC circuits",
+    "Power entering a dipole. Instantaneous, active, and fluctuating power. Power factor",
+    "Apparent power and reactive power. Complex power",
+    "Power and energy in basic elements",
+    "Boucherot's theorem",
+    "Reactive power compensation",
+    "Power measurement",
+    "Maximum power transfer theorem",
+    "Introduction and definitions",
+    "Relationship between line and phase values",
+    "Analysis of balanced three-phase circuits",
+    "Power in three-phase systems",
+    "Measurement of active power in three-phase systems",
+    "Measurement of reactive power in three-phase systems",
+    "Magnetic properties of matter",
+    "Magnetic circuits: analogy with electrical circuits",
+    "Magnetic behavior of ferromagnetic materials",
+    "Energy losses in a ferromagnetic core",
+    "Single-phase transformer",
+    "Equivalent circuit of the transformer",
+    "Three-phase transformer",
+    "Elementary rotating electrical machine",
+    "Synchronous machine",
+    "Asynchronous machine",
+    "DC machine",
+    "Basic measurements in circuits. Multimeters and power supplies",
+    "Measurement instruments in circuits",
+    "Analysis of circuits in sinusoidal steady state",
+    "Power measurement in circuits in sinusoidal steady state",
+    "Three-phase systems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercise and problem solving",
+    "Continuous assessment tests",
+    "Laboratory practical work (assembly of electrical elements and circuits, measurement and analysis of electrical quantities)",
+    "Personal work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Continuous assessment: Laboratory practical work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous assessment: In-course written theoretical-practical tests",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "To pass, students must achieve an overall average grade of at least 5 out of 10. For the first call, the final exam accounts for 70% (minimum 4/10) and continuous assessment for 30%. Continuous assessment includes laboratory practical work (10%, no minimum) and in-course written tests (20%, no minimum). If the minimum grade for the final exam is not met, the final course grade will be the exam grade. In the second call, the final exam accounts for 90% (minimum 4/10) and laboratory practical work for 10% (no minimum), with the repetition of partial exams included in the final exam. Laboratory practical work is not recoverable.",
+  "bibliography": [],
+  "isced_f_code": "0713",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1013",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1013",
+  "source_language": "ca",
+  "source_sha256": "7ab0a07970b41762b8f9b8ae4a1c9c44100e6f01a458bd72ee77d8a588c84914",
+  "extracted_at": "2026-11-13T22:35:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

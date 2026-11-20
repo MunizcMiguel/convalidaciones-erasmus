@@ -1,0 +1,3 @@
+# ec_tr_istanbu07 — Yıldız Technical University (Kimya Mühendisliği %100 İngilizce)
+- Fuente: `http://www.bologna.yildiz.edu.tr` (sin robots; el host sin www falla TLS). Plan `program/view&id=398&aid=23`: una tabla con filas de encabezado por semestre y bolsas de optativas; ficha `course/view&id=..&aid=23&pid=36` (tablas th/td, `#learningoutcomes` ol, tablas de semanas/evaluación/carga).
+- Se omiten coordinador, profesorado y la matriz DÖÇ/PÇ. Ficha en turco. 235 filas (180 ECTS obligatorios + bolsas de optativas y KOOP) → 235 Markdown. Hay fichas con resultados de aprendizaje vacíos ("1","2") en optativas generales (hecho del origen).

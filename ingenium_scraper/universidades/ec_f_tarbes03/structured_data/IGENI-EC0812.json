@@ -1,0 +1,93 @@
+{
+  "course_name_original": "Conception en ALM",
+  "course_name_en": "Design in ALM",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will be familiar with the various additive manufacturing techniques and their main technical and economic limitations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to choose materials and manufacturing parameters, with a view to optimizing part quality and cost.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The use of topological optimization will enable them to question an initial design and propose a more optimal one.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Distinguish between the different processes (wire, powder, liquid, polymer or metal deposition).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Distinguish between achievable renderings (surface finishes, geometric precision, mechanical strength, durability, anisotropy), and the main limitations (achievable shapes, need for supports, need for post-processing).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement a printing and support strategy in software such as Cura (wire deposition) or QuantAM (laser fusion on metal powder bed).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement the topological optimization method in software such as Inspire.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory course (basic concepts)",
+    "Industrial lectures (technical aspects, productivity and costs)",
+    "TD Slicing and supporting",
+    "TD Inspire",
+    "Free choice of study topic by students on topological optimization aspect"
+  ],
+  "teaching_methods": [
+    "CM (Cours Magistral)",
+    "TD (Travaux Dirigés)",
+    "Industrial lectures"
+  ],
+  "workload_hours_total": 13.5,
+  "workload_hours_contact": 11.5,
+  "assessment_methods": [
+    {
+      "method": "CC1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "(1*CC1)/1",
+  "bibliography": [
+    "Plateforme moodle.enit.fr, containing the description of the work to be done, adapted tutorials, and examples of reports submitted by students from previous years.",
+    "L'impression 3D : la prochaine révolution industrielle / Hod Lipson, Melba Kurman (Available at the ENIT library)",
+    "L'imprimante 3D : une révolution en marche / Benjamin et Matthieu Lavergne (Available at the ENIT library)",
+    "Impression 3D l'usine du futur : 70 créations innovantes / François Brument, Maëlle Campagnoli (Available at the ENIT library)",
+    "Fabrication additive : du prototypage rapide à l'impression 3D / Claude Barlier, Alain Bernard (Available at the ENIT library)",
+    "Fabrication additive métallique : les fondamentaux _ Cetim _ Techniques de l’Ingénieur"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0812",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "4dbf6f53800cff1eafd4508f06658c5642229030bcfd95baa2b2f100e1e5cdca",
+  "extracted_at": "2026-11-18T10:00:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

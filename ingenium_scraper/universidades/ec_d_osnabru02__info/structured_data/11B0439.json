@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Verteilte Systeme",
+  "course_name_en": "Distributed Systems",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Computer networks fundamentals, such as covered in the first 3 chapters of \"Computer Networking: A Top-Down Approach\" by James F. Kurose and Keith W. Ross.",
+    "Practical knowledge of C/C++ and Java implementation under the Linux operating system, as expected for the fourth semester."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know and understand essential principles of distributed system development. They can reproduce the essential properties of various approaches and apply them in practical tasks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The different approaches to developing distributed systems are understood in their processes and functions. Important parameters can be appropriately set. The handling of typical error situations is correctly implemented.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can reflect on the use of methods and concepts for designing distributed systems in specific application contexts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can develop distributed systems based on methodological knowledge, from requirements analysis to the reflected use of system concepts and implementation. They can make a problem-related selection of distributed system development approaches. They consider aspects of usable programming languages, interoperability, and (according to system requirements) available frameworks.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can analyze the requirements for a distributed solution, derive the correct solution strategy for the application, and finally communicate it comprehensibly.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Characteristics and types of distributed systems",
+    "Architecture models and examples",
+    "Communication in networks as a basis",
+    "Realization of distributed systems:",
+    "Data-based approach",
+    "Procedure-/Function-oriented approach",
+    "Object-oriented approach",
+    "Web-based & Service-oriented approach",
+    "System concepts for synchronization, replication, consistency",
+    "Security and reliability of distributed systems",
+    "Case studies and practical projects"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity",
+    "Preparation and follow-up for events",
+    "Exam preparation",
+    "Reception of other media or sources",
+    "Literature study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam or project report (graded)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (ungraded)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is either a written exam or a written project report of approximately 15 pages, followed by a 10-minute explanation per participant. The ungraded assessment involves experimental work consisting of approximately 8 experiments.",
+  "bibliography": [
+    "Ghosh, Ratan K. & Ghosh, Hiranmay (2023): Distributed Systems : Theory and Applications, John Wiley & Sons, Incorporated.",
+    "Coulouris, G. & Dollimore, J. & Kindberg, T. (2011): Distributed Systems: Concepts and Design, Addison Wesley, 5. Auflage.",
+    "Schill, Alexander & Springer, Thomas (2012): Verteilte Systeme - Grundlagen und Basistechnologien, Springer.",
+    "Bengel, Günther (2014): Verteilte Systeme, Client-Server-Computing für Studenten und Praktiker, Springer-Vieweg, 4. Auflage.",
+    "Comer, Douglas E. (2018): Computer Networks and Internets: Global Edition, Pearson Education, 6. Auflage.",
+    "Pollakowski, Martin (2009): Grundkurs Socketprogrammierung mit C unter Linux, Vieweg & Teubner Verlag; 2., akt. Aufl.",
+    "Oechsle, Rainer (2022): Parallele und Verteilte Anwendungen in Java, Hanser, 6. Auflage."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Informatik – Technische Informatik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__info",
+  "degree": "Informatik – Technische Informatik (B.Sc.)",
+  "course_code": "11B0439",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BTI/StO2025_Stand2026-03-03_Informatik-TechnischeInformatik.pdf",
+  "source_language": "de",
+  "source_sha256": "e2a0c4535032b59ae08913c5d10d7d62d1b54dbaef85755bc7b51a7540fee44d",
+  "extracted_at": "2026-11-20T12:33:30",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

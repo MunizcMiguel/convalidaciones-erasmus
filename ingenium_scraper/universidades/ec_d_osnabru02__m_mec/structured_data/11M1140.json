@@ -1,0 +1,107 @@
+{
+  "course_name_original": "Höhere Finite Elemente Methoden",
+  "course_name_en": "Advanced Finite Element Methods",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Fundamentals of Finite Element Method",
+    "Mathematics",
+    "Mechanics",
+    "Materials Technology",
+    "Design Theory",
+    "CAD"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can present the theoretical relationships of FEM. They are able to explain the influence of nonlinearities and how dynamic effects are to be considered. They can define nonlinear material behavior and model nonlinear boundary conditions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to evaluate the influence of nonlinear and dynamic phenomena and draw conclusions for model building. They are able to select suitable solution algorithms for nonlinear systems and demonstrate this in calculations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can work on a practical task applying their specialized knowledge, discuss calculation results in the context of component optimization, and relate them to mechanical fundamentals. They can justify the choice of solution paths based on their expertise.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can assess the informative value of complex FEM simulations, considering nonlinearities and dynamic phenomena, in relation to the task, taking into account aspects of good scientific practice and based on their specialized knowledge.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can perform nonlinear FEM analyses in a common software package, considering material nonlinearities, geometric nonlinearities, and nonlinear boundary conditions. They can analyze and evaluate the natural vibration behavior of assemblies and derive theory-supported optimization approaches.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can, starting from a technical problem of a product, formulate suitable research questions that aim at the technical causes of the problems and thereby utilize the possibilities of FEM.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can analyze problems in small teams, develop solutions, and communicate the results orally and in writing to other students and experts. They can procure and evaluate information from external organizations and research literature and utilize it for their own work. Students can organize themselves as a small group regarding project management, team organization, and agile management.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to FEM",
+    "Nonlinear Methods of FEM",
+    "Nonlinear boundary conditions",
+    "Geometric nonlinearity",
+    "Material nonlinearity",
+    "Solution methods for nonlinear equation systems",
+    "FEM in Dynamics",
+    "Mechanical fundamentals",
+    "Model setup in the FEM program",
+    "Practical examples",
+    "Computer practical"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Exam (Klausur)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Term paper (Hausarbeit)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "The portfolio examination comprises 100 points, consisting of a written exam (K1) and a term paper. A maximum of 30 points can be achieved with the written exam, and a maximum of 70 points can be achieved with the term paper. The term paper involves practical work on a topic in small groups, including planning and conducting analyses, writing a report of approx. 20 pages, and presenting the results.",
+  "bibliography": [
+    "Wriggers, Peter (2013): Nichtlineare Finite-Element-Methoden, Springer, Berlin, Heidelberg",
+    "Bathe, Klaus-Jürgen (2002): Finite-Elemente-Methoden, Springer, Berlin, Heidelberg",
+    "Klein Bernd (2015): FEM, Springer Fachmedien Wiesbaden GmbH",
+    "Klaus Knothe, Heribert Wessels (2017): Finite Elemente, 5. Auflage, Springer Vieweg, Berlin, Heidelberg",
+    "Zienkiewicz O.C. , Tayler R.L., Zhu J.Z. (2005) : The Finite Element Method, 6. Auflage, Elsevier Butterworth-Heinemann, Oxford",
+    "Ahmed Elkady (2021): Abaqus Tutorial - Full Series, https://www.youtube.com/playlist?list=PLz_XdUL-6Y_k-LgmCKo5ejqRAGpfXPk23"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_osnabru02__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "11M1140",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/MMB/StO2025_Stand2026-03-02_MSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "69e3eecde47a82260772b94f57c84857f88f45ab13fdb6f188772c599d5bc368",
+  "extracted_at": "2026-11-20T12:34:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

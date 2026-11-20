@@ -1,0 +1,95 @@
+{
+  "course_name_original": "Matemáticas Avanzadas para Telecomunicación",
+  "course_name_en": "Advanced Mathematics for Telecommunication",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have acquired the basic competences of the Mathematics subject of the Degree."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the most common cryptographic constructions and recognize their presence in real-life digital applications.",
+      "type": "unspecified",
+      "code": "RA-18.7"
+    },
+    {
+      "text": "Manipulate encryption systems, both public and private key, as well as digital signature schemes.",
+      "type": "unspecified",
+      "code": "RA-18.8"
+    },
+    {
+      "text": "Skillfully handle the algebraic structures and tools involved in the different cryptographic solutions to the security problem.",
+      "type": "unspecified",
+      "code": "RA-18.9"
+    },
+    {
+      "text": "Use numerical calculation techniques to analyze and solve differential equation problems in one dimension.",
+      "type": "unspecified",
+      "code": "RA-18.10"
+    },
+    {
+      "text": "Calculate the discrete Fourier transform using computer programs and apply it to transformations related to signal processing.",
+      "type": "unspecified",
+      "code": "RA-18.11"
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical Matrix Calculus Complements.",
+    "Numerical resolution of differential problems in one dimension.",
+    "Numerical algorithms for the calculation of the discrete Fourier transform.",
+    "Alternative models to Fourier Analysis. Applications to real problems.",
+    "Mathematical foundations of Cryptography",
+    "Private key cryptography",
+    "Public key cryptography. Digital signature."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices / field / computer lab / language lab",
+    "Group tutorials",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Completion of assignments",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Participation in laboratory practices and presentation of assignments",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Resolution of proposed exercises and tasks",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Completion of theoretical-practical exams",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) in the ordinary call is calculated as NF = 0.25 NTR + 0.1 NPL + 0.15 NPT + 0.25 NEX, where NTR is the grade for assignments, NPL for lab participation, NPT for exercises and tasks, and NEX for theoretical-practical exams. All grades are out of 10 points. The course is passed when NF >= 5. For students with officially recognized differentiated evaluation, and in extraordinary calls, NF = 0.4 NTR + 0.6 NEX, where NTR is the grade for two assignments and NEX for a final objective theoretical-practical long-answer test. The course is passed when NF >= 5.",
+  "bibliography": [
+    "N. Ferguson, B. Schneier, T. Kohno: \"Cryptography Engineering: Design, Principles and Practical Applications\", Wiley Publishing, Inc. (2010).",
+    "Menezes, A.J., van Oorschot, P.C., Vanstone, S.A.: “Handbook of Applied Cryptography”. CRC-Press, 2001. <http://cacr.uwaterloo.ca/hac/>",
+    "Quarteroni, A., Saleri, F.: “Cáculo científico con MATLAB y Octave”. Springer, 2006.",
+    "Oppenheim, A.V., Willsky, A. S., Nawad, S. H.: “Señales y Sistemas” (2ª Ed.), Pearson Educación, 1998"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-023",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-023",
+  "source_language": "es",
+  "source_sha256": "ffeeb747361e8a7800fff90ec1898ed9221c4b79df237f3797ebbde55d09df44",
+  "extracted_at": "2026-11-20T06:04:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

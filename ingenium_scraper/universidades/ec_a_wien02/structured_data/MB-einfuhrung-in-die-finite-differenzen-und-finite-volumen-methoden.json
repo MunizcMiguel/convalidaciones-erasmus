@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Einführung in die Finite Differenzen und Finite Volumen Methoden",
+  "course_name_en": "Introduction to Finite Difference and Finite Volume Methods",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Vector analysis",
+    "Differential and integral calculus of several variables",
+    "Ordinary differential equations",
+    "Successful completion of the StEOP"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students possess basic knowledge of numerical methods for solving partial differential equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They understand the concepts of consistency, stability, and convergence and can use them to evaluate numerical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to numerically solve simple diffusion, advection, and advection-diffusion equations as well as elliptical equations time-dependently and in two dimensions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They also know the fundamentals of the finite volume method and its application to selected model problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To be able to present the basic concepts of numerical methods for partial differential equations in a structured way.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to explain precisely the terms consistency, stability, and convergence and to classify their meaning for numerical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to numerically solve simple diffusion and advection equations using appropriate time and space-discretized methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to numerically treat elliptic equations for given boundary value problems with computational certainty.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to formulate and solve time-dependent two-dimensional diffusion and advection-diffusion equations with appropriate numerical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to systematically analyze and compare numerical solution methods with regard to consistency, stability, and convergence properties.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to explain the basic principles of the finite volume method and apply them appropriately to simple model problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to communicate numerical results, model assumptions, and solution strategies professionally correct and comprehensible.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To be able to explain derivations, discretization approaches, and boundary conditions in partner and group settings in a structured manner.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To be able to critically reflect on numerical solution approaches and results and discuss them constructively.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To be able to independently work on simple numerical tasks and to structure the work process in a goal-oriented manner.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "To be able to precisely document subject-specific mathematical notation, graphics, and results in written form.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to partial differential equations",
+    "Convergence, consistency, stability",
+    "Spatial discretization",
+    "Numerical solution of Laplace and Poisson equations",
+    "Numerical solution of the convection-diffusion equation",
+    "Introduction to the Finite Volume Method"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Technische Universität Wien",
+  "institution_slug": "ec_a_wien02",
+  "degree": "Bachelorstudium Maschinenbau (E 033 245)",
+  "course_code": "MB-einfuhrung-in-die-finite-differenzen-und-finite-volumen-methoden",
+  "academic_year": "Studienplan 2026 (rev1)",
+  "source_url": "https://www.tuwien.at/fileadmin/Assets/dienstleister/studienabteilung/BSc-Studienplaene_2026/Bachelorstudium_Maschinenbau_2026_rev1.pdf",
+  "source_language": "de",
+  "source_sha256": "d89c9656f454d0730dc6c7fd50ede99ff3f799a5e7cdd37fb51db55f8192ae94",
+  "extracted_at": "2026-11-18T08:29:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

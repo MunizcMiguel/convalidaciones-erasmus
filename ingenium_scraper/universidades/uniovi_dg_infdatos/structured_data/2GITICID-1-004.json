@@ -1,0 +1,189 @@
+{
+  "course_name_original": "Fundamentos de Informática",
+  "course_name_en": "Fundamentals of Computer Science",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Minimal familiarity as a common user with a computer"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Locate computer science within engineering disciplines.",
+      "type": "knowledge",
+      "code": "PR1"
+    },
+    {
+      "text": "Understand the fundamentals of the binary system to comprehend information representation in computers.",
+      "type": "knowledge",
+      "code": "PR2"
+    },
+    {
+      "text": "Identify the hardware components that constitute a computer system, as well as their interconnection in networks, and understand their basic operation.",
+      "type": "knowledge",
+      "code": "PR3"
+    },
+    {
+      "text": "Distinguish the main peripherals used in a computer system and specifically in the field of engineering.",
+      "type": "knowledge",
+      "code": "PR4"
+    },
+    {
+      "text": "Classify the different types of software used in a computer system.",
+      "type": "knowledge",
+      "code": "PR5"
+    },
+    {
+      "text": "Identify and classify different types of computer systems and their application areas.",
+      "type": "knowledge",
+      "code": "PR6"
+    },
+    {
+      "text": "Understand the concept of algorithm and the process of problem abstraction in programming.",
+      "type": "knowledge",
+      "code": "PR7"
+    },
+    {
+      "text": "Identify the program development process and its location within the general Software Engineering process.",
+      "type": "knowledge",
+      "code": "PR8"
+    },
+    {
+      "text": "Recognize the elementary data structures provided by a structured programming language.",
+      "type": "knowledge",
+      "code": "PR9"
+    },
+    {
+      "text": "Handle the elementary control structures of a structured programming language.",
+      "type": "skill",
+      "code": "PR10"
+    },
+    {
+      "text": "Abstract operations.",
+      "type": "skill",
+      "code": "PR11"
+    },
+    {
+      "text": "Design small applications to solve elementary problems in collaborative work environments.",
+      "type": "skill",
+      "code": "PR12"
+    },
+    {
+      "text": "Know the main functions performed by an operating system.",
+      "type": "knowledge",
+      "code": "PR13"
+    },
+    {
+      "text": "Analyze which services the operating system provides to programs and end-users.",
+      "type": "knowledge",
+      "code": "PR14"
+    },
+    {
+      "text": "Identify the main operating systems used in professional engineering environments and utilize their main user-level services.",
+      "type": "skill",
+      "code": "PR15"
+    },
+    {
+      "text": "Know the main functions performed by a database management system.",
+      "type": "knowledge",
+      "code": "PR16"
+    },
+    {
+      "text": "Create data models for simple problems.",
+      "type": "skill",
+      "code": "PR17"
+    },
+    {
+      "text": "Use basic expressions to retrieve and modify information stored in a database.",
+      "type": "skill",
+      "code": "PR18"
+    },
+    {
+      "text": "Identify which database management systems are used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "PR19"
+    },
+    {
+      "text": "Identify the main application programs used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "PR20"
+    }
+  ],
+  "syllabus_topics": [
+    "INT - Introduction",
+    "Overview of computer science, in the context of other engineering disciplines",
+    "Structure and functioning of a computer",
+    "Representation of information in a computer",
+    "PRO - Introduction to programming",
+    "Problem abstraction for programming: fundamental concepts",
+    "Variables, expressions, assignment",
+    "Use of console input/output",
+    "Handling basic control flow structures: sequential, alternative, and repetitive",
+    "Definition and use of subprograms and functions. Variable scope",
+    "File input/output",
+    "Basic data types and structures",
+    "Program development processes. From high-level to processor execution. Compiled languages and interpreted languages.",
+    "BD - Introduction to databases",
+    "Concept of database",
+    "Fundamentals of the relational data model",
+    "Performing queries and modifications",
+    "Database Management Systems in professional engineering environments",
+    "HSW - Hardware and software components of a computer system",
+    "Structure and functioning of a computer: Von Neumann Architecture and machine language",
+    "Peripheral devices",
+    "Interconnection of systems: types, mechanisms, and applications",
+    "Types of software: system software and application software",
+    "Types of computer systems and their application areas",
+    "SO - Introduction to operating systems",
+    "Concept and functions performed by an operating system",
+    "Interface and services offered to programs",
+    "Interface and services offered to users",
+    "Operating systems used in professional engineering environments",
+    "Introduction to tools in the practice laboratory (1h)",
+    "Spreadsheet as a tool (3h)",
+    "Programming (18h)",
+    "Design, implementation, and exploitation of a database (6h)"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual study",
+    "Problem solving"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory examination",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Continuous assessment of practical exams (Excel, Access, Programming)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The ordinary assessment consists of a theory part (50%) and a practical part (50%). A minimum score of 4 out of 10 in both parts is required; otherwise, the final grade is a fail, calculated as the average of both parts with a maximum of 4.5 points. To pass, the final grade must be at least 5 out of 10. Uncompleted evaluable activities count as zero; if they account for more than 50% of the total grade, the final grade will be \"Not presented\". There are no recovery exams for any evaluable part. The extraordinary assessment requires at least 5 out of 10 in both the theoretical and practical exams, each weighted 50%; otherwise, the final grade is a fail, calculated as the average of both parts with a maximum of 4.5 points. Students who fail a previous call but have a grade of 5 or higher in theory or practice do not need to repeat that part in the second call; partial practical scores (Excel, Access, Programming) of 7 or higher are also retained.",
+  "bibliography": [
+    "Introducción a la Informática. 6ª Edición Autor: George Beekman Editorial: Pearson - Prentice Hall, 2004",
+    "Conceptos de Informática, Serie Schaum. Autores: Prieto, A., Prieto, B Editorial: McGraw Hill, 2005",
+    "Introducción a la Informática. 4ª Edición Autores: Alberto Prieto, Antonio Lloris, J.C.Torres Editorial: McGraw Hill, 2006",
+    "Fundamentos de Bases de Datos (5ª edición) Autores: A. Silberschatz, H.F; Korth, S. Sudarshan Editorial: McGraw Hill, 2006",
+    "Manuals and online resources about the programming language used in laboratory practices."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-1-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-1-004",
+  "source_language": "es",
+  "source_sha256": "d8c3de2e0b480e35325c63c17424700a3c661e689104950fad7496c434eb0035",
+  "extracted_at": "2026-11-20T05:57:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

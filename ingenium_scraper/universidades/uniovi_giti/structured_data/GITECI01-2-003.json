@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Ampliación de Mecánica",
+  "course_name_en": "Advanced Mechanics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Calculus",
+    "Algebra",
+    "Fundamentals of Computer Science",
+    "Numerical Methods",
+    "Mechanics and Thermodynamics (1st year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the concepts of rigid body kinematics and know the expressions for calculating velocities and accelerations in different types of motion. Apply this knowledge to obtain them in various cases.",
+      "type": "knowledge",
+      "code": "RME-1"
+    },
+    {
+      "text": "Define the concepts of center of mass and moments and products of inertia, and know Steiner's theorems relating them. Solve problems calculating them. Understand the influence of a body's mass distribution on its motion.",
+      "type": "knowledge",
+      "code": "RME-2"
+    },
+    {
+      "text": "Solve situations of rigid body and mixed body equilibrium.",
+      "type": "skill",
+      "code": "RME-3"
+    },
+    {
+      "text": "State the general laws of dynamics and derived theorems, understanding the conditions for their use, and apply them to problem-solving, evaluating different methods and justifying the choice of each one.",
+      "type": "skill",
+      "code": "RME-4"
+    },
+    {
+      "text": "Understand the concept of percussive force and its importance. Solve exercises.",
+      "type": "knowledge",
+      "code": "RME-5"
+    },
+    {
+      "text": "Acquire skills related to laboratory work in Advanced Mechanics, and with the treatment of measurements and errors.",
+      "type": "skill",
+      "code": "RME-6"
+    },
+    {
+      "text": "Draft reports on experimental practices carried out in the Advanced Mechanics laboratory, including error treatment.",
+      "type": "skill",
+      "code": "RME-7"
+    }
+  ],
+  "syllabus_topics": [
+    "Kinematics of the rigid body",
+    "Kinematics of planar motion",
+    "Geometry of masses",
+    "Statics of systems",
+    "Dynamics of the rigid body: general equations of motion",
+    "Dynamics of the rigid body: energetic theorems",
+    "Percussions and collisions",
+    "Laboratory Practices: Measurement and error",
+    "Conservation of mechanical energy",
+    "Undamped free oscillation",
+    "Moments of Inertia",
+    "Centripetal force",
+    "Static and dynamic balancing of a rotating system",
+    "Gyroscope: Stability and stable precessional motion"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Problem-solving examples by the professor",
+    "Evaluation activities in large groups",
+    "Problem-solving sessions",
+    "Group work activities",
+    "Presentation and defense of problems, assignments, projects",
+    "Evaluation activities in small groups",
+    "Handling of laboratory measurement equipment",
+    "Use of experimental data processing software",
+    "Analysis of results and preparation of practice reports",
+    "Evaluation activities in very small groups",
+    "Coordination and monitoring activities in very small groups",
+    "Final exam"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory and Problem Evaluation (continuous assessment + final exam)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Laboratory Evaluation (continuous assessment and/or final exam)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The Theory and Problem (TP) evaluation is calculated as 0.1*Deliveries + 0.9*Final Exam, requiring a minimum of 4 in the final exam. The Laboratory (CL) evaluation requires a minimum of 4 in continuous assessment or the final lab exam. The final grade (Cf) is Cf = 0.8*TP + 0.2*CL. If minimum limits are not met, the final grade will be the final exam grade. If the final exam grade is above 5 but the lab part is failed, the final grade will be 4. Both parts must be passed in the same call; grades are not carried over to subsequent calls within the same academic year.",
+  "bibliography": [
+    "Beer F.P., Johnston E.R. Mecánica Vectorial para Ingenieros, 12ª Ed. Vol.1 Estática. Vol.2 Dinámica. Ed. McGraw Hill. Madrid",
+    "Bedford A., Fowler W. Mecánica para Ingeniería.Vol.1 Estática. Vol. 2 Dinámica. Ed. Addison-Wesley.",
+    "Hibbeler R.C., Ingeniería Mecánica, 12ª Ed. Vol.1 Estática. Vol. 2 Dinámica. Ed. Prentice Hall.",
+    "Meriam J.L., Kraige L.G. Mecánica para Ingenieros.Vol.1 Estática. Vol.2 Dinámica, Ed. Reverté.",
+    "Riley W.F., Sturges L.D. Ingeniería Mecánica.Vol.1 Estática. Vol.2 Dinámica. Ed. Reverté.",
+    "Shames I. Mecánica para Ingenieros. Vol.1 Estática. Vol.2 Dinámica. Ed. Prentice Hall",
+    "Guiones de Prácticas de Laboratorio",
+    "Instrumentos de Laboratorio",
+    "Software Microsoft Excel o aplicación similar para cálculos matemáticos (MathLab, Matemática, MathCAD, etc.)",
+    "Calculadora Científica"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-2-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-2-003",
+  "source_language": "es",
+  "source_sha256": "096d67f75bfa27118a86168fc1c7327fbbdcbf7580fd607bd1bd1557f6f1c072",
+  "extracted_at": "2026-11-20T01:12:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,62 @@
+{
+  "course_name_original": "Arquitecturas de Redes (ARede112)",
+  "course_name_en": "Network Architectures",
+  "ects": 6.0,
+  "semester": "1st Semester",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Integrated unicast routing: spanning tree (IEEE802.1D), RIP versus RIPng, OSPFv2 versus OSPFv3, IPv4 BGP versus IPv6 BGP.",
+    "Network virtualization: VLANs, MPLS forwarding and associated protocols (LDP).",
+    "Multicast routing: architecture of Internet multicast communications, IGMP, dynamic management of multicast distribution trees, PIM protocol.",
+    "Quality of service: degradation factors, performance metrics, packet scheduling and discarding algorithms, traffic descriptors, traffic shaping and policing algorithms, RSVP, IntServ and DiffServ architectures.",
+    "Multimedia communications: types of multimedia information, voice and video coding and compression, audio and video streaming: RTP, RTCP and RTSP protocols, and real-time interactive VoIP applications: SIP protocol.",
+    "Mobile and wireless networks: wireless connections, CDMA, 802.11 networks, personal networks (Bluetooth and Zigbee), cellular networks, mobility management, Mobile IP."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratorial component",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Theoretical component (2 MAPs or 1 Exam)",
+      "weight_percentage": 55.0
+    }
+  ],
+  "assessment_rules": "The final grade is a weighted average of the laboratory component (45%) and the theoretical component (55%). A minimum grade of 7 is required in each of the two MAP45 exams, and a minimum of 8 in the theoretical component. Kahoots can contribute up to 1.5 bonus points to the theoretical grade. A minimum grade of 9.5 is required in the laboratory component, and no more than one unjustified absence from laboratory sessions is allowed.",
+  "bibliography": [
+    "S. Keshav, An Engineering Approach to Computer Networking, Addison Wesley, 1997 (main)",
+    "R. Perlman, Interconnections: Bridges, Routers, Switches and Internetworking, 2nd edition, Addison Wesley, 1999 (main)",
+    "Luc De Ghein, MPLS Fundamentals, Cisco Press, 2013 (main)",
+    "Richard Swale, Daniel Collins, Carrier Grade Voice Over IP, 3rd edition, McGraw-Hill, 2013 (main)",
+    "Larry L. Peterson, Bruce S. Davie, Computer Networks: A Systems Approach, 6th edition, Elsevier, 2012 (main)",
+    "James Kurose, Keith Ross, Computer Networking: A Top-Down Approach, 7th Edition, Pearson, 2017 (main)",
+    "Rui Valadas, OSPF and IS-IS: from Link State Routing Principles to Technologies, CRC Press, 2018 (main)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "ARede112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185617",
+  "source_language": "pt",
+  "source_sha256": "2f9af2205df177565a09cb8c95e030dbdb130839b300660f50e6e25170343baa",
+  "extracted_at": "2026-11-20T12:41:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

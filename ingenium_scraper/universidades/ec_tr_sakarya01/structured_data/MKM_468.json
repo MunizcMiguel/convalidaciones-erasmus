@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Plc Programlama",
+  "course_name_en": "PLC Programming",
+  "ects": 4.0,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Recognizes PLC hardware components and explains their operating principles.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Creates projects in TIA Portal software and writes programs using basic logic commands.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyzes a given industrial control problem, derives the input/output list, and designs a working PLC program.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Uses the PLC and power circuit laboratory in accordance with safety rules.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, Basic Control Elements and TIA Portal Interface",
+    "Basic Logic: Input/Output and AND/OR Logic",
+    "Start/Stop Logic, Latching, Set (S) and Reset (R) Commands",
+    "TON (Timer On-Delay) Applications",
+    "TOF (Timer Off-Delay) and TP (Pulse) Applications",
+    "Counters: CTU (Count Up) and Product Counting Applications",
+    "Integrated Application: Timer and Counter Integration",
+    "Data Processing: Move and Comparison Commands",
+    "Midterm Exam (Application)",
+    "Power Control with PLC: Contactor and Relay Driving Logic",
+    "3-Phase Asynchronous Motor Control",
+    "Forward-Reverse (Reversing) Motor Control and Interlock with PLC",
+    "Application Project",
+    "Application Project"
+  ],
+  "teaching_methods": [
+    "Lecture"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Midterm Exam",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Quiz",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "In-year performance",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final Exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "University Of Sakarya",
+  "institution_slug": "ec_tr_sakarya01",
+  "degree": "Makine Mühendisliği (Mechanical Engineering), lisans",
+  "course_code": "MKM 468",
+  "academic_year": "vigente en el EBS (2025-2026 aprox.)",
+  "source_url": "https://ebs.sakarya.edu.tr/Ders/Detay/663124",
+  "source_language": "tr",
+  "source_sha256": "520f8662b82e05967f28d31445707d3d44b906dcc730c95b461ab55f821c6f9c",
+  "extracted_at": "2026-11-18T10:08:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Podstawy techniki mikroprocesorowej (A)",
+  "course_name_en": "Fundamentals of Microprocessor Technology (A)",
+  "ects": 4.0,
+  "semester": "Semester 6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student has basic knowledge of the possibilities of using microprocessor technology in power engineering and automation devices.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Student has basic knowledge of small and medium scale integration digital circuits.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Student has basic knowledge of microprocessor technology and understands the relationships between elements of a microprocessor system.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Student has basic skills in programming a microprocessor in assembly language and a PLC controller in ladder diagram (LD) language.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Student is able to design and build a simple circuit using SSI and MSI digital circuits.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Student is able to work in a group, take responsibility for jointly carried out tasks.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Number systems (2 hours) Number systems and their types (positional, non-positional, weighted, non-weighted, reflexive). Natural binary code. Hexadecimal code. Number conversion between systems. Number complement and encoding negative numbers. Basic arithmetic operations in the binary system on integers. Gray code and BCD.",
+    "Complex combinational circuits (2 hours) Medium scale integration (MSI) circuits: decoders, multiplexers, demultiplexers. Arithmetic circuits: half-adders, adders, comparators. Examples of available integrated combinational circuits. Programmable Logic Devices (PLD).",
+    "Sequential circuits (2 hours) Combinational vs. sequential circuit. Asynchronous and synchronous circuits. Level and edge synchronization. Latches and flip-flops. Registers. Counters. Examples of available integrated latches, flip-flops, registers, and counters.",
+    "Microcomputer (2 hours) Microprocessor, microcomputer, and microcontroller. Elements of a microcomputer: microprocessor, buses (address and data), RAM memories (SRAM, DRAM), ROM memories (ROM, PROM, EPROM, EEPROM, Flash). Read and write cycle to/from memory. Architectures of microcomputer systems: von Neumann, Harvard, and mixed. Features of architectures.",
+    "Microprocessor (4 hours) Microprocessor structure. Instruction execution cycle. Status word. Flags C, Z, V and N. Addressing modes. Stack. Microprocessor instruction list and the concept of an assembler. Implementations of data transfer instructions, POP/PUSH, jumps (unconditional and conditional), subroutine calls and returns from subroutines, bit shifts and rotations.",
+    "Fundamentals of assembly language programming (2 hours) Elements of assembly source code: directive, instruction, instruction argument, label, comment. Allocating variables in memory. Examples of typical assembly operations: - 2- and 4-byte arithmetic, - 2- and 4-byte number comparisons, - encoding if-then and if-then-else branches. - bitwise arithmetic (setting and clearing bit(s) in a register, testing bit(s)) in assembly and C language.",
+    "Interrupts (2 hours) Definition. Maskable and non-maskable interrupts. Interrupt vector. Interrupt controller. Interrupt service order. Priorities and the concept of interrupt preemption. Interrupt masking.",
+    "Microcontrollers (4 hours) Definition of a microcontroller. Microcontroller parameters. Examples of 8-, 16-, 32-bit microcontroller families. Microcontroller architecture using the AVR ATxmega as an example. Memory map. Clock signal distribution. Basic peripherals. Overview of selected peripheral devices with examples of operation: binary inputs/outputs (I/O), analog-to-digital converter (ADC), timer/counter circuits (TC).",
+    "Serial communication interfaces (4 hours) Classification of communication interfaces: parallel/serial, synchronous/asynchronous, half/full duplex. Concept and elements of a data frame. Overview of available interfaces and their basic parameters: USART, RS232, RS422, RS485, SPI, I2C, 1-Wire interfaces.",
+    "Programmable Logic Controllers (PLC) (4 hours) PLC definition. Controller structure and operating cycle. Types of PLC controllers (modular, compact, micro- and nano-controllers), examples. I/O packs - binary, analog, counter, specialized. Standard parameters of I/O signals. Communication modules. Fundamentals of PLC programming. Overview of programming languages defined in standard 61131-3.",
+    "Introduction. Number systems (2 hours).",
+    "Use of SSI and MSI digital circuits for implementing combinational circuits (3 hours).",
+    "Synthesis and implementation of sequential circuits (3 hours).",
+    "AVR ATxmega microcontrollers. Atmel Studio programming environment (2 hours).",
+    "Assembly language programming. Addressing types. Atmel Studio simulator. Step-by-step debugging. Machine code. Solution Explorer – project files (3 hours).",
+    "Assembler directives. Stack. Task algorithm – block diagram. Arithmetic and logical operations (2 hours).",
+    "Development kits. Handling digital inputs/outputs (3 hours).",
+    "Interrupt system. Timers and counters (4 hours).",
+    "FX family programmable logic controllers (PLC), hardware structure. GX Developer tool software. Programming in Ladder Diagram (LD) language (2 hours).",
+    "Use of PLC controller for simple logic control tasks (2 hours).",
+    "Assessment and supplementary classes (2 hours)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 104.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Involvement in teamwork",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by participation in a discussion. Laboratory classes are verified by execution of laboratory classes, a test, a report, and involvement in teamwork. Students must be prepared for lab exercises, which may be verified by an oral or written colloquium. Passing the module is possible after passing all laboratory classes.",
+  "bibliography": [
+    "1. Baranowski R.: Mikrokontrolery AVR ATmega w praktyce. BTC, Warszawa 2005.",
+    "2. Bogusz J.: Lokalne interfejsy szeregowe w systemach cyfrowych. BTC, Warszawa 2004.",
+    "3. Kalisz J.: Podstawy elektroniki cyfrowej, WKŁ, Warszawa 2007.",
+    "4. Kasprzyk J.: Programowanie sterowników przemysłowych. WNT, Warszawa, 2006.",
+    "5. Pełka R.: Mikrokontrolery: architektura, programowanie, zastosowania. WKŁ, Warszawa, 2001.",
+    "6. Materiały katalogowe firm Texas Instruments, Intel, Microchip, Nexperia, Mitsubishi, Siemens."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.19131.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/48fc17ac-c877-4636-a5a8-0e45466ad142.html",
+  "source_language": "pl",
+  "source_sha256": "4ad397df88e443638bec8140c31b7f4ca9e50adfe544fa93bdbe3ba8077f8620",
+  "extracted_at": "2026-11-20T09:03:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Artificiële intelligentie",
+  "course_name_en": "Artificial Intelligence",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Knowledge of a programming language.",
+    "Some familiarity with algorithms and data structures.",
+    "Basic notions of logic.",
+    "Basic notions of complexity are desirable, but not necessary."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have deep knowledge and understanding of a limited amount of basic artificial intelligence techniques, including: basic search techniques, heuristic search techniques, optimal-path search techniques, optimal-path search techniques with limited memory usage, game-search techniques, version space machine learning and data mining, backtracking-based constraint techniques, consistency-based constraint techniques, hybrid constraint techniques, Bayesian networks, Markov decision problems, elements of machine learning and neural networks, and general resolution theorem provers for first-order predicate logic.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to simulate each of the above techniques with pen and paper on small examples.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the relevance of these techniques for applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to work out solutions on a computer for slightly less small examples using provided didactic tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the relationships that exist between these techniques.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: definition and positioning of the course",
+    "State representation and search methods: state space representation: positioning and trade-offs, blind search, heuristic search, optimal search, including the A*-algorithm, advanced aspects of heuristic search, heuristic search in game situations",
+    "A basis for Machine Learning and Data Mining: Version Spaces as an illustration of Machine Learning, Version Spaces for finding frequent patterns in data (as an illustration of data mining)",
+    "Constraint processing: backtracking, backtracking variants, intelligent backtracking, arc consistency techniques, hybrid propagation methods, positioning of applications",
+    "Automatic reasoning: introduction, repetition of basic concepts from logic, problem statement and decidability, normalization, unification and resolution in first-order logic",
+    "Bayesian Networks: joint probability distribution, conditional independence, representation and semantics of Bayesian networks, modeling with Bayesian networks, deriving conditional independencies from Bayesian networks, principles of inference with Bayesian networks",
+    "Markov Decision Processes for probabilistic planning: representation and meaning, inference in Markov decision processes to determine the correct actions and policies",
+    "Machine learning: Naive Bayes, k-nearest neighbor, Introduction to neural networks and backpropagation",
+    "Solvers in AI: Solvers for SAT and for variants such as model counting (#SAT), Use in logical inference and Bayesian networks, among others",
+    "Ethical questions and answers: regarding the implications of AI",
+    "Exercises on all content components of the lecture except the introduction."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practicum",
+    "Pen-and-paper exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 44.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is a written exam during the examination period. The exam consists of multiple-choice questions and open questions. No books are allowed during the exam, but a formula sheet is permitted. The resit modality is the same as the first examination opportunity.",
+  "bibliography": [
+    "Artificial Intelligence A modern approach, Stuart Russel and Peter Norvig, Prentice Hall, 3rd edition, 2009, ISBN-10: 0136042597, ISBN-13: 978-0136042594"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H06U1A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H06U1AN",
+  "source_language": "nl",
+  "source_sha256": "7a91d646347b83b4763cddb781cd8eee5bf8ae843902b232b9cd22967c07a1a7",
+  "extracted_at": "2026-11-20T09:19:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

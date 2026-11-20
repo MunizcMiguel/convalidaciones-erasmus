@@ -1,0 +1,96 @@
+{
+  "course_name_original": "Differential equations",
+  "course_name_en": "Differential equations",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "basic ideas and concepts in the field of differential equations",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "methods for solving selected types of differential equations",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "qualitative analysis of non-linear autonomous equations",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "apply the acquired knowledge of differential equations in electrical circuit theory",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "cooperate and work in a team",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Exercises are conducted in accordance with the lecture. Each lecture (2 hours) corresponds to exercises (2 hours).",
+    "Examples of problems leading to differential equations. First-order differential equation in normal form, initial condition, definition of solution, geometric interpretation. Method of separation of variables - 4 hours.",
+    "Simple types of first-order scalar equations - homogeneous, linear, Bernoulli, Riccati, exact equation - 4 hours.",
+    "Existence and uniqueness of the solution to the Cauchy problem, Peano theorem, Picard theorem, method of successive approximations - 4 hours.",
+    "System of first-order scalar linear equations, linear space of solutions of homogeneous equation systems, fundamental matrix, method of variation of constants. Systems of linear equations with constant coefficients. - 5 hours.",
+    "N-th order linear equation, Lagrange method, method of undetermined coefficients. Equation with constant coefficients, Cauchy-Euler equation - 3 hours.",
+    "Qualitative study of solutions of an autonomous equation, critical point, definition of stability. Classification of critical points of linear systems in the plane depending on the eigenvalues of the coefficient matrix, phase portraits. Linearizable system, linearization, perturbation and stability theorem - 4 hours.",
+    "Elements of operational calculus, definition and properties of the Laplace transform, inverse transform, operational solving of differential equations - 4 hours."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Auditorium classes"
+  ],
+  "workload_hours_total": 143.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes (Lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes (Auditorium classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Auditorium classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The method of verification for learning outcomes involves an exam for knowledge outcomes (W1, W2, W3) and activity during classes for skills and social competences (U1, K1). The evaluation of student work in auditorium classes may be based on oral or written statements in the form of colloquium, which translates into the final grade for this form of classes.",
+  "bibliography": [
+    "1. A. Palczewski, Równania różniczkowe zwyczajne, WNT, Warszawa.",
+    "2. M. Gewert, Z. Skoczylas, Równania różniczkowe zwyczajne, GiS, Wrocław."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii2.00777.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/5d4a83f6-aebc-4625-9534-d1d77fed53c0.html",
+  "source_language": "pl",
+  "source_sha256": "a1fb123f864df3356889a0fff657f815c2120c9d5fedbe211488a8bfd585473c",
+  "extracted_at": "2026-11-20T09:02:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

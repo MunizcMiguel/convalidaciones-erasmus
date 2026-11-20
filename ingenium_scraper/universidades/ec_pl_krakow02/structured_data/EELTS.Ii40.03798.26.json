@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Design improvement with CAD-based software",
+  "course_name_en": "Design improvement with CAD-based software",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the basic symbols used in electrical diagrams. Can read a drawing that also uses general symbols, e.g., describing construction, steel, architectural structures.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows how to use computer programs dedicated to performing engineering analysis in the design of electrical installations and power networks.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows the construction and operating principle of basic electrical apparatus used in modern electrical networks. Knows their operating principles, basic parameters, and implementation methods in specific cases.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows the legal aspects of an electrical engineer's activity in the design of electrical installations and power networks. Knows the principles of cooperation with people not involved in the design process. Knows the possible consequences of their activity and its impact on the environment.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Can use information sources such as basic legal acts (Construction Law, Energy Law), standards, and industry literature articles. Can interpret information and draw correct conclusions.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can work in a design team, using the knowledge and skills of others, while introducing innovative ideas or correct conclusions from the analysis of provided material. Can estimate the time needed to complete a project and properly divide tasks within the team.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can create the descriptive part of a project with references to appropriate parts of the design documentation (diagrams, drawings, etc.).",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Can produce complete documentation for an electrical installation (lighting installation, power supply installation for electrical devices such as drives, furnaces, etc.). Can produce complete design documentation containing: description, diagrams, selection of devices, calculations and selection of protections, calculations and selection of cables. Can use computer software for engineering analysis. Fluently uses documentation received from specialists of other trades involved in the design process.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Can select electrical apparatus taking into account economic aspects on many levels. Knows the principles of cost estimation for works.",
+      "type": "skill",
+      "code": "U5"
+    },
+    {
+      "text": "Is aware of the consequences of their actions regarding designed solutions. Knows their possible negative effects and threats to people and the environment.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Has a need for continuous self-improvement. Is aware of the continuous development of their field. Strives to improve their qualifications.",
+      "type": "competence",
+      "code": "K2"
+    },
+    {
+      "text": "Is aware of responsibility for their own work and that of team members.",
+      "type": "competence",
+      "code": "K3"
+    }
+  ],
+  "syllabus_topics": [
+    "Technical documentation. Method of creating electrical documentation. Legal acts in the creation of technical documentation for the electrical part of the project. Designer's responsibility in light of current regulations in our country. Principles of cooperation during the design process. Elements of electrical, architectural-construction drawing. Basic information on structures used in construction. Computer graphics systems. Modeling in computer graphics. Designing lighting systems. CAD software for electricians and automation specialists. Cost estimation of works - economic aspect of the design process. Cooperation with the investor.",
+    "Introduction to design in AutoCAD. Starting a new project. Layer organization. Discussion of the main program menu. Communication with the program. Object properties. Dimensioning and hatching objects. Creating blocks. Coordinate systems (Global and Local Coordinate System), coordinates: rectangular, polar, spherical, cylindrical; axis orientation and direction of angle measurement, references, attributes. Working with libraries. Loading architectural backgrounds of an example building and applying elements of the electrical and ICT network. Cooperation of AutoCAD with dedicated programs for electricians (SEE Electrical Expert, Ecodial). Selection of cables, protections, and other required apparatus. Checking selectivity of protections, voltage drops. Creating an independent project - based on the provided background (map, building plan), a project concerning the electrical installation in the building is executed. Special features of the object requiring the use of, for example, emergency lighting installation, fire protection installation, or others, should be taken into account. Project assumptions are defined before proceeding with the project execution."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "E-learning",
+    "Case study",
+    "Problem Based Learning",
+    "Project Based Learning"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the module, all laboratory classes must be completed. Students are obliged to prepare for laboratory exercises, which may be verified by an oral or written colloquium. Completion of classes is based on presenting a solution to the problem posed.",
+  "bibliography": [
+    "1. „Rysunek techniczny maszynowy”. Dobrzański;",
+    "2. „Poradnik projektanta elektryka”.J. Wiatr, M. Orzechowski;",
+    "3. „Poradnik projektowania sieci i instalacji elektrycznych”. Wydany przez firmę Schneider Electric;",
+    "4. Instrukcja do programów: AutoCAD, Ecodial, See Electrical Expert;",
+    "5. Akty prawne: Prawo Budowlane, Prawo Energetyczne, Normy."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.03798.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/79fe8f88-e234-4eb0-b031-02dd8306a8bb.html",
+  "source_language": "pl",
+  "source_sha256": "2ea2ac195749ccb593e768f230ca74e61d3f2051e8a56b8690edc5420560c530",
+  "extracted_at": "2026-11-20T09:04:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

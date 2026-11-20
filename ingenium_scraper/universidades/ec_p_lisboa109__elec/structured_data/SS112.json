@@ -1,0 +1,57 @@
+{
+  "course_name_original": "Sinais e Sistemas (SS112)",
+  "course_name_en": "Signals and Systems (SS112)",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Basic concepts of continuous-time (CT) and discrete-time (DT) signals. Examples. Transformations.",
+    "Basic concepts of systems. Memory, causality, invariance, linearity, stability, invertibility.",
+    "Linear time-invariant systems (LTI systems). Unit impulse response. Convolution. Properties.",
+    "Fourier series (FS) of CT signals. Exponentials as eigenfunctions of LTI systems. Representation of periodic signals in FS.",
+    "Fourier transform (FT) of CT signals. Representation of aperiodic signals via FT. Frequency response, filtering.",
+    "Fourier transform of DT signals. Concept of DT signal spectrum. LTI systems described by difference equations.",
+    "Sampling. DT processing of CT signals. Sampling theorem. Aliasing.",
+    "Laplace transform (LT). Transfer function (TF). LTI systems described by differential equations, poles and zeros. Block diagrams and equivalent TFs. Unilateral LT.",
+    "Bode diagrams."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade NF = 0.4L + 0.6E, rounded to the nearest integer, with additional approval conditions L>=7.5 and E>=8. For special examination periods, and for student workers who have not completed the laboratory work, the final grade is solely based on the exam: NF=E. Final grades above 18 will require an additional oral examination. During exams, consultation of transform tables and a one-page (A4, front and back) handwritten formula sheet is allowed, as is the use of a calculator.",
+  "bibliography": [
+    "A. V. Oppenheim, A. S. Willsky, Signals and Systems, second edition, Prentice-Hall, 1997 (main)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEEC21 Eng. Eletrotécnica e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__elec",
+  "degree": "Licenciatura Bolonha em Engenharia Eletrotécnica e de Computadores (LEEC21)",
+  "course_code": "SS112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185319",
+  "source_language": "pt",
+  "source_sha256": "d52b97847fd38e60ac1eea40b9bfa73df05e5aae4a1f509cb9d31dfe7b2348ee",
+  "extracted_at": "2026-11-20T12:42:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

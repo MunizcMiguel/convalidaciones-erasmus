@@ -1,0 +1,140 @@
+{
+  "course_name_original": "Lithium-Ion Batteries: Characterization, Modelling and Applications in Industry",
+  "course_name_en": "Lithium-Ion Batteries: Characterization, Modelling and Applications in Industry",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of mathematics, general physics, and electrical circuits at undergraduate engineering level.",
+    "Students should be able to perform simple engineering calculations, use units correctly, rearrange formulas, and interpret basic graphs.",
+    "Basic high-school chemistry (moles, concentration, redox reactions, oxidation states) is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The chemical, electrochemical, electrical, and thermal principles governing the operation of lithium-ion batteries, including the relationships between cell structure, materials, and performance parameters",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "The main quantities and concepts used to describe lithium-ion batteries, including capacity, energy, power, C-rate, SoC, SoH, DoD, efficiency, and ageing mechanisms",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "The main lithium-ion chemistries, production processes, characterization methods, testing procedures, and safety requirements used in industrial practice",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "the basic approaches to lithium-ion battery modelling, including electrical, thermal, and simplified electrochemical models, and their role in battery analysis and system design",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "the principles of using lithium-ion batteries in electric vehicles, battery energy storage systems, and other industrial applications, including technical, operational, and environmental aspects",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "perform basic calculations related to battery chemistry and electrochemistry, including stoichiometry, concentrations, electrochemical potential, capacity, energy, power, and efficiency",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "analyse the influence of load, temperature, and operating conditions on the performance, efficiency, and degradation of lithium-ion batteries",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "interpret the results of basic battery measurements and tests and assess the condition and operating properties of a lithium-ion cell on the basis of measurement data",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "select a simplified battery model for a given engineering problem and use it to describe, analyse, and predict the basic behaviour of a cell or battery system",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "evaluate the suitability of lithium-ion batteries for selected industrial applications, taking into account safety, operating requirements, economic factors, and environmental impact",
+      "type": "skill",
+      "code": "U5"
+    },
+    {
+      "text": "critically assess technical data, datasheets, and test results related to lithium-ion batteries and continuously update knowledge in response to the rapid development of battery technologies",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "take into account engineering responsibility when assessing the safety, durability, and environmental impact of lithium-ion batteries and battery systems",
+      "type": "competence",
+      "code": "K2"
+    },
+    {
+      "text": "act in a professional and responsible manner when solving engineering problems related to the design, testing, and operation of battery systems",
+      "type": "competence",
+      "code": "K3"
+    }
+  ],
+  "syllabus_topics": [
+    "From atoms to batteries: chemical foundations needed to understand how lithium-ion cells store and release energy.",
+    "Electrochemical potential, redox reactions, and the Nernst equation as the basis for battery voltage and driving forces.",
+    "Inside a lithium-ion cell: structure, materials, and key performance descriptors such as capacity, energy, power, SoC, SoH, DoD, and C-rate.",
+    "Lithium-ion chemistries in practice: anodes, cathodes, electrolytes, separators, and the trade-offs behind different cell designs.",
+    "Ageing and degradation: SEI formation, equivalent cycles, loss of performance, and the factors limiting battery lifetime.",
+    "How batteries are made: industrial production, assembly steps, and the role of manufacturing quality in performance and safety.",
+    "Electrical behaviour of batteries: resistance, conductivity, ohmic losses, load effects, and transient response represented by RC-based models.",
+    "Charge-transfer kinetics, efficiency, and thermal behaviour: how electrochemical and thermal processes shape real battery operation.",
+    "Battery characterization and testing: measurements, test procedures, standards, and interpretation of battery performance data.",
+    "Battery modelling fundamentals: electrical, thermal, and simplified electrochemical models for analysis, prediction, and engineering applications.",
+    "From cell to system: lithium-ion batteries in electric vehicles, BESS, and other industrial applications, including safety and environmental aspects.",
+    "Hands-on tutorial sessions and project focused on solving real battery engineering problems through calculations, test-data interpretation, and introductory battery modelling with PyBaMM."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Group work",
+    "Design thinking",
+    "Problem Based Learning",
+    "Project classes"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report on completion of a practical placement",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is an average of the exam and project assignment. Students who are absent need to complete the associated exercises on their own. All project meetings are obligatory.",
+  "bibliography": [
+    "Rosen, M. A., Farsi, A., Battery Technology: From Fundamentals to Thermal Behavior and Management, Elsevier, 2023.",
+    "Warner, J. T., Lithium-Ion Battery Chemistries: A Primer, Elsevier, 2019.",
+    "Plett, G. L., Battery Management Systems, Volume 1: Battery Modeling, Artech House, 2015.",
+    "Plett, G. L., Battery Management Systems, Volume II: Equivalent-Circuit Methods, Artech House, 2015.",
+    "Plett, G. L., Trimboli, M. S., Battery Management Systems, Volume III: Physics-Based Methods, Artech House, 2024.",
+    "Warner, J. T., Lithium-Ion Battery Chemistries: A Primer, Elsevier, 2019.",
+    "Beard, K. W. (ed.), Linden’s Handbook of Batteries, 5th ed., McGraw-Hill, 2019."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.20002.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/9a0b5258-7ff7-4f8e-b748-407f0eb90f20.html",
+  "source_language": "pl",
+  "source_sha256": "1b6529bd642e2c1198593b15f7ad46fab023b4975f34e52fa253ada74709de44",
+  "extracted_at": "2026-11-20T09:04:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

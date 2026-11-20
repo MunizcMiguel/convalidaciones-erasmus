@@ -1,0 +1,184 @@
+{
+  "course_name_original": "MABB350 – Maschinenanalyse und Data Science",
+  "course_name_en": "Machine Analysis and Data Science",
+  "ects": 6.0,
+  "semester": "3. Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Higher Mathematics 1",
+    "Higher Mathematics 2",
+    "Machines",
+    "Electrical Engineering",
+    "Drive Technology",
+    "Technical Mechanics 1-3"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze signals and systems to interpret machine behavior.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Create transfer functions and signal flow diagrams for technical systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply Fourier and Laplace transformations as well as digital signal processing techniques to mechanical engineering processes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Recognize and apply the link between measurement technology and system theory.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Clean measurement data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and apply practical methods of data-driven analysis, especially concerning measurement data from machines: statistical evaluation, visualization, simple model building and interpretation using common industrial software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design filters for signal processing and evaluate their effect.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Record machine measurements and calculate essential machine parameters (power, efficiency, torque, mass forces, speed uniformity). Monitor machine processes using suitable measurement procedures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Numerically simulate and analyze machine models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform metrological analysis of heat pumps and explain their significance for the energy transition.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Prepare test reports according to industrial standards and systematically document measurement procedures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify and classify the right tools for practical methods.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of Measurement Technology",
+    "Concepts: Measurement uncertainty, measurement accuracy, calibration",
+    "Measurement chain: Sensors, signal conditioning, data acquisition",
+    "Signal processing in the context of measurement systems in mechanical engineering",
+    "Connection of measurement technology and system theory",
+    "Fundamentals of Signals and Systems",
+    "Classification of signals",
+    "Linear and nonlinear systems",
+    "Time-invariance and system description",
+    "Signal flow diagrams and their interpretation",
+    "Fundamentals of Data Science",
+    "Classification and typing of technical data (continuous, discrete)",
+    "Cleaning technical data (e.g., outliers, smoothing, gap handling)",
+    "Visual representation of measurement data (e.g., time series, histograms, spectra)",
+    "Basic statistical quantities (mean, variance, standard deviation, correlation)",
+    "Feature extraction from signals (peak detection, frequency components, parameter formation)",
+    "Simple regression models for describing technical relationships",
+    "Application of industrial software for implementing the mentioned methods",
+    "Machine Science: Calculation and Analysis of Machines",
+    "Introduction to working and power machines",
+    "Calculation of power, efficiency, and energy flows",
+    "Investigation of mass forces and their metrological detection",
+    "Metrological analysis of torques and speed uniformity",
+    "Mathematical modeling of machines",
+    "Differential and difference equations for mechanical engineering processes",
+    "Application of transfer functions in machine analysis",
+    "Numerical simulation techniques (Matlab/Simulink)",
+    "Fourier and Laplace transformations in machine analysis",
+    "Time and frequency domain analysis",
+    "Application of Fourier and Laplace transformation to technical systems",
+    "Frequency response analysis of machines",
+    "Digital signal processing and sampling",
+    "Sampling theorem and value discretization",
+    "Digital filtering",
+    "Introduction to fundamental industrial measurement procedures",
+    "Strain gauges",
+    "Bridge circuit",
+    "Piezoelectric measurement technology",
+    "Acquisition of force, torque, displacement, acceleration, pressure, temperature, speed",
+    "A/D conversion",
+    "Digital storage and representation of measurement signals",
+    "Power brakes",
+    "Consumption measurement and exhaust gas analysis",
+    "Recording of dynamic vibration forces",
+    "Calibration of a pressure sensor",
+    "Transient recorder",
+    "Recording of vibration accelerations",
+    "Engine test bench",
+    "Investigation of an internal combustion engine",
+    "Vehicle chassis dynamometer",
+    "Measurement of tractive force",
+    "Piston air compressor",
+    "Recording of pV diagrams",
+    "Metrological analysis of a heat pump",
+    "Metrological determination of engine efficiency (efficiency measurement) on electrical machines using the example of a separately excited DC machine and a three-phase asynchronous machine"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory work",
+    "Demonstrations"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written Module Exam 1 (60 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written Module Exam 2 (60 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Passed laboratory exercises (Prerequisite for exam)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Two written module examinations, each 60 minutes long, are required. Successful completion of the laboratory exercises is a prerequisite for taking the examinations.",
+  "bibliography": [
+    "Oppenheim, A.V., Willsky, A.S., \"Signals and Systems\"",
+    "Ogata, K., \"System Dynamics\"",
+    "Bentley, J.P., \"Principles of Measurement Systems\"",
+    "MATLAB-Handbücher und -Dokumentationen",
+    "Puente-Leon, F.: Messtechnik, 11. Auflage, Springer Verlag",
+    "Parthier, R.: Messtechnik, 10. Auflage, Springer Verlag",
+    "Vorlesungsskript",
+    "Versuchsanleitungen",
+    "P. Profos; T. Pfeifer : Handbuch der industriellen Messtechnik, Oldenbourg Wissenschaftsverlag; 6. Auflage, 1994, (ISBN-10: 3486225928)"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft",
+  "institution_slug": "ec_d_karlsru05",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB350",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "40c0b7e2d7b496fa49ffef8edd97246095d8f1d779bbc93899887b3f08487327",
+  "extracted_at": "2026-11-18T09:49:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -14,3 +14,13 @@ __pycache__/
 .gemini/
 INGINERIE*
 "INGINERIE MECANICĂ - INGINERIE MECANICĂ/"
+
+# ingenium_scraper: cachés brutas y temporales (regenerables)
+ingenium_scraper/universidades/*/raw_cache/
+ingenium_scraper/**/__pycache__/
+ingenium_scraper/explorer/cache/
+ingenium_scraper/explorer/artifact.html
+ingenium_scraper/logs_*.txt
+ingenium_scraper/config/raw_cache_ruct/
+*.pyc
+ingenium_scraper/explorer/index.html

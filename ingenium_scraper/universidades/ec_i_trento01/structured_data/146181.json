@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Electric drives for energy transition (146181)",
+  "course_name_en": "Electric drives for energy transition",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Electrical circuits (basic electrical bipoles, Kirchhoff’s laws of voltage and current, analysis of dc and ac systems, three-phase systems, concepts of active power, reactive power and power factor)",
+    "Basic concepts related to electrical machines (structure, operating principles and basic models of dc machines, permanent magnet synchronous machines and asynchronous machines) from the course \"Electrical circuits and machines\"",
+    "Math: basics of differential calculus and trigonometric formulas",
+    "Physics: basics of mechanics and electromagnetism",
+    "Basics of automatic control: concepts of transfer function and frequency response and drawing of Bode diagrams"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the operating principles and fields of operation of the main electrical machines and drives.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Master terminology and parameters characterizing electric drives.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Design simple current and speed controllers for dc and ac drives.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Read and correctly interpret nameplate data of the considered electrical machines and drives.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the main applications of electric drives for the transition of our modern society towards more sustainable energy paradigms.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to electric drives",
+    "Supplementary analysis of motor-load dynamics",
+    "Basics of automatic control",
+    "Power electronic converters for electric drives: Power switching devices",
+    "Types of power converters",
+    "DC-DC converters operating in 1, 2 and 4 quadrants",
+    "Principle of Pulse Width Modulation (PWM)",
+    "Voltage source three phase inverters and main modulation techniques",
+    "Rectifiers",
+    "Exercises on power electronic converters",
+    "Dc motor: review of the dc motor: structure, operating principle and dynamical model",
+    "Drives for dc machines (current and speed loops)",
+    "Controllers' design criteria",
+    "Exercises on dc motors and drives",
+    "Stationary and synchronous reference frames: space vectors: definition, properties, and examples",
+    "Permanent magnet synchronous machine (PMSM): review of the PMSM",
+    "Dynamical model in a rotating reference frame synchronous with the rotor",
+    "Electromagnetic torque expressions",
+    "Operating regions and limits",
+    "Discussion and comparison of different types of controllers",
+    "Linear controllers’ design principles",
+    "Exercises and examples on permanent magnets motors and drives",
+    "Asynchronous machine: review of the asynchronous motors",
+    "Dynamical model",
+    "Equivalent circuit",
+    "Overview of the main types of drives for asynchronous machines",
+    "Scalar control of the speed (V/Hz control)",
+    "Basics of field oriented control",
+    "Exercises on asynchronous motors and drives",
+    "Reluctance machines and stepper motors: types",
+    "Structure and applications",
+    "Torque generation principle",
+    "Characteristics",
+    "Exercises on stepper motors",
+    "Electrification process of the modern society and examples of application of electric drives"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises solved in class"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final written test (theoretical content and exercises)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam, students must pass a final written test. The written test can include both open questions and multiple-choice questions. A maximum score of 31 points can be earned. If the student earns at least 18/30 points, the exam is passed; otherwise, it must be repeated in a later session.",
+  "bibliography": [
+    "N. Mohan, “Electric Machines and Drives – A first course”, John Wiley and Sons, 2012",
+    "N. Mohan, T. Undeland, T. Robbins. “Power electronics: converters, applications, and design”. John Wiley & Sons, 2007",
+    "A. Hughes, B. Drury, “Electric motors and drives: fundamentals, types and applications”. Newnes, 2019.",
+    "Mohan, N. (2012). Electric machines and drives : a first course. Wiley.",
+    "Mohan, N., Undeland, T. M., & Robbins, W. P. (2003). Power electronics : converters, applications, and design (3rd ed.). Wiley.",
+    "Hughes, A., & Drury, B. (2019). Electric motors and drives : fundamentals, types and applications (5th ed.). Newnes."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146181",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50428_646288_96044&ordinamento_aa=2020&af_percorso=50428&corso_cod=10131&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "09482a5deaa1ddf6472b6b22a1a0be1bcaf6fab9d018a8fa3ab2b6784f88960f",
+  "extracted_at": "2026-11-18T10:03:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

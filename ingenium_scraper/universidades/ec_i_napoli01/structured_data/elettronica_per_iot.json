@@ -1,0 +1,135 @@
+{
+  "course_name_original": "Elettronica Per IoT",
+  "course_name_en": "Electronics for IoT",
+  "ects": 6.0,
+  "semester": "I",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student possesses essential concepts on the structure of simple microcontroller systems and on the architecture of a sensory node for IoT applications: from the detection of physical quantities via sensors to their input into the internet network. Knows the circuit specifications and fundamental programming techniques for using the most common peripherals integrated in modern 32-bit ARM microcontrollers (digital input/output, analog inputs, PWM peripherals, serial communication peripherals, etc.).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knows peripheral interrogation techniques: (i) cyclic (polling); (ii) timed based on binary counters; (iii) event-driven; (iv) based on typical real-time operating system (RTOS) mechanisms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student possesses a basic knowledge of IoT protocols with which data can be exchanged between an electronic microcontroller system and the internet network.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student possesses essential concepts on the realization of simple microcontroller systems useful for the circuit and firmware implementation of sensory nodes for the IoT network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must be able to illustrate the theoretical and technical specifications that form the basis of microcontroller systems for IoT applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate the ability to analyze simple firmware routines for interfacing with external sensors, process collected data, and appropriately send it to the internet network using one of the IoT protocols studied during the course.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must also be able to implement firmware to perform particular functions required in an IoT context.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student must also be able to analyze some technical aspects of the electronic components used in the IoT, starting from datasheets and identifying the relevant specifications for correct hardware/firmware design.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of IoT, IoT applications, IoT infrastructure, and the concept of an IoT node",
+    "Hints of Smart City, Smart Building, Smart Home, Smart Agriculture, Smart Mobility, Manufacturing 4.0",
+    "Microcontroller: definition, architecture, and difference from microprocessor",
+    "Firmware development cycle",
+    "ARM architectures: history, CISC vs RISC",
+    "STM32 microcontroller family",
+    "Development environments (IDEs) for STM32 microcontrollers",
+    "Digital Input and Output for STM32: GPIO Design, GPIO registers, and settings/functionalities",
+    "Analog inputs: definition, ADC, and STM32 micro case study",
+    "Operating modes, sampling frequency, polling techniques, interrupt, and DMA",
+    "Using ADC with the polling technique",
+    "Using analog sensors",
+    "D/A conversion: operating principles",
+    "Using DAC",
+    "PWM \"pseudo-analog\" signals: from digital to analog signal, filtering",
+    "PWM signals",
+    "Introduction to serial protocols: using the shift register",
+    "Serial Peripheral Interface (SPI)",
+    "SPI modules in STM32 microcontrollers",
+    "Using SPI sensors",
+    "Introduction to I2C protocol: communication specifications, comparison with SPI protocol",
+    "Using I2C sensors",
+    "Introduction to UART protocol",
+    "Timing diagrams and differences with USART protocol",
+    "Interrupts, Timers, and Tasks",
+    "Event-driven and time-driven programming",
+    "Introduction to the concept of interrupt as an evolution of polling",
+    "Concept of prioritized, masked, and nested interrupt",
+    "Latency",
+    "Introduction to Real-Time Operating Systems (RTOS)",
+    "Concept of parallel programming",
+    "Threads, Mutex, Semaphore, Queue, Mail",
+    "Keil RTX and CMSIS-RTOS",
+    "Process schedulers: Pre-emptive, Round-Robin, Co-operative",
+    "Protocols and standards for IoT: IoT network architectures, data protocols, and network protocols",
+    "Hints of OSI and TCP/IP models",
+    "Introduction to TCP/IP protocol",
+    "Overview of IoT data protocols",
+    "Specifications and implementation of MQTT protocol",
+    "Overview of network protocols for IoT: short-range networks; medium-range networks; long-range networks",
+    "Comparison between different technologies: WiFi, Bluetooth, BLE, Cellular, LoRA",
+    "Electronic circuits for wireless connection to the internet",
+    "Introduction to Cloud services for IoT applications: Overview",
+    "Concept of IoT sensor network",
+    "Case studies based on cloud systems for IoT: realization of back-end configuration, user-app, actions, and data visualization"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical exercises for firmware techniques",
+    "Practical exercises for hardware implementation of embedded microcontroller systems and interfacing with sensors and the internet"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Computer-based test",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The exam consists of a computer-based test and an oral exam. The computer test assesses the ability to analyze and synthesize firmware for IoT applications or electronic schemes/components for IoT embedded systems. The oral exam assesses the understanding of theoretical methods for the analysis and synthesis of electronic microcontroller systems for IoT, both from a firmware and hardware perspective. The final grade is the arithmetic average of the scores obtained in the two tests. A minimum grade of 18/30 requires at least an elementary level of knowledge/competence in both the firmware analysis/writing part and the oral part. Students with excellent competence in both tests may be awarded cum laude.",
+  "bibliography": [
+    "“Fast and Effective Embedded Systems Design: Applying the ARM mbed” by Rob Toulson, Tim Wilmshurst.",
+    "“Microcontrollers hardware and firmware for 8-bit and 32-bit devices” by Franco Zappa, Società Editrice Esculapio.",
+    "Slides used during lessons."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "elettronica_per_iot",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "5348e1f51b5467782d048b2daf6f4db5d7060d537079b45fd0bf945bf80c26c5",
+  "extracted_at": "2026-11-20T08:19:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

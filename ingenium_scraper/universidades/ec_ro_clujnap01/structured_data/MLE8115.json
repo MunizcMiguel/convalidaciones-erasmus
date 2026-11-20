@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Design patterns",
+  "course_name_en": "Design Patterns",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentals of Programming",
+    "Object-Oriented Programming",
+    "Good programming skills in a programming language that supports the object-oriented paradigm (preferably one of Python, C++, Java or C#)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to apply architectural styles, design patterns and best practices in the field to design software applications of high complexity.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and use design patterns for application development.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills for computer program design and software systems analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to combine diverse information to formulate solutions and generate ideas for developing new products and applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to choose and use programming paradigms (procedural, object-oriented, functional) to develop software applications appropriate for the specific domain of the application being developed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to present and explain methods, algorithms, paradigms and techniques used in various branches of computer science.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Object oriented programming (OOP) principles",
+    "SOLID principles",
+    "Creational design patterns (Abstract) Factory, Builder, Prototype, Singleton",
+    "Structural design patterns Adapter, Bridge, Composite, Decorator, Façade, Flyweight, Proxy",
+    "Behavioural design patterns Chain of responsibility, Command, Iterator, Mediator, Memento, Observer, State, Strategy, Template, Visitor",
+    "Antipatterns",
+    "Dark Patterns in user experience design",
+    "Model-View-* design patterns (Model View Controller, Model View ViewModel, Model View Presenter)",
+    "Enterprise and architecture design patterns (message routing, pipes and filters, peer to peer, microservices)",
+    "OOP concepts recap. Introduction to laboratory activities and grading",
+    "SOLID principles. Creational design patterns",
+    "Structural design patterns. Checking progress of laboratory project",
+    "Behavioural design patterns. Checking progress of laboratory project",
+    "Antipatterns. Dark patterns. Architectural and enterprise patterns",
+    "Laboratory project turn-in"
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Examples",
+    "Didactical demonstration"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 36.0,
+  "assessment_methods": [
+    {
+      "method": "Presentation during the semester",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Examination during the final week",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory project",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "Students must observe the standards of academic integrity. A minimum passing grade is defined by attaining at least 50% (5/10) points in the final grade.",
+  "bibliography": [
+    "M. Fowler – Patterns of Enterprise Application Architecture, Addison Wesley, 2003",
+    "E. Freeman, E. Freeman, B. Bates – Head-First Design Patterns, Oreilly, 2004",
+    "E. Gamma, R. Helm, R.Johnson, J. Vlissides – Design Patterns: Elements of Reusable Object-Oriented Software, Addison Wesley, 1995",
+    "William J. Brown, Raphael C. Malveau, Hays W. \"Skip\" McCormick, Thomas J. Mowbray - Antifatterns: Refactoring Software, Architectures, and Projects in Crisis, Wiley, 1998.",
+    "Harry Brignull - Deceptive Patterns, Exposing the Tricks Tech Companies Use to Control You (free edition on https://www.deceptive.design/book/contents/get-started), Testimonium Ltd., 2023."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE8115",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem6_MLE8115_en_arthur_2025_9506.pdf",
+  "source_language": "en",
+  "source_sha256": "0a628de83e946a0b4b001b2433d2ecfe0724574e46aee673b06261ff5aa04863",
+  "extracted_at": "2026-11-20T09:08:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

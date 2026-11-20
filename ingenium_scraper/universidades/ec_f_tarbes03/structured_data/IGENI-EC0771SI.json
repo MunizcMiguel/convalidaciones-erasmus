@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Capteurs logiciels",
+  "course_name_en": "Soft Sensors",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Modelling of mechatronic systems",
+    "Matrix computation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the principle and the structure of observers",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the constraints linked to the use of observers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply linearization of physical phenomenum governed by a partial differential equation",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply the design of a Kalman observer or a linear functional observer without unknown inputs",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "State space model",
+    "A primer in observation",
+    "Reduced order observers",
+    "Unknown input observers"
+  ],
+  "teaching_methods": [
+    "Lessons",
+    "Practical work"
+  ],
+  "workload_hours_total": 20.0,
+  "workload_hours_contact": 15.0,
+  "assessment_methods": [
+    {
+      "method": "RAP1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*RAP1)/1.",
+  "bibliography": [
+    "O'Reilly J., \"Observers for linear systems\", Academic Press, 1983.",
+    "Gauthier J. P., Kupka I., \"Deterministic observation theory and applications\", Cambridge university press, 2001.",
+    "Trinh H., Fernando T., \"Functional observers for dynamical systems\", Springer, 2011.",
+    "Chen J., Patton R. J., \"Robust model-based fault diagnosis for dynamic systems\", Springer, 2012.",
+    "Kailath T., \"Linear systems\", Prentice Hall, 1980.",
+    "Rotella F., Zambettakis I., \"Minimal single linear functional observers for linear systems\", Automatica, vol. 47, pp. 164-169, 2011.",
+    "Baptiste Trajin, Paul-Etienne Vidal, Bond graph multi-physics modeling of encapsulating materials in power electronic modules, European Physical Journal Applied Physics, vol. 89, no. 2, Février 2020, pp. 1-9.",
+    "Baptiste Trajin, Imane Sakhraoui, Frédéric Rotella, Soft sensor design for estimation of thermal behavior of encapsulating materials in power electronic module, Microelectronics Reliability, vol. 126, Novembre 2021, pp. 1-6."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0771SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "399c38d03b409b47a6c661dba46e6a734f56a6dd43ce1497ec84ecc18c7d1ca3",
+  "extracted_at": "2026-11-18T09:59:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

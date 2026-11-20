@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Cálculo II",
+  "course_name_en": "Calculus II",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Differential calculus of single-variable functions",
+    "Differential calculus of multi-variable functions",
+    "Vector spaces",
+    "Cálculo I",
+    "Álgebra",
+    "Matemáticas II de Bachillerato"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Propose and calculate integrals of single-variable functions and apply them to solve real problems.",
+      "type": "unspecified",
+      "code": "RCALII1"
+    },
+    {
+      "text": "Propose and calculate integrals of two- and three-variable functions, and apply them to solve real problems.",
+      "type": "unspecified",
+      "code": "RCALII2"
+    },
+    {
+      "text": "Use methods that allow approximating the derivative and the definite integral of a function.",
+      "type": "unspecified",
+      "code": "RCALII3"
+    },
+    {
+      "text": "Use the parametrizations of the main curves and surfaces to apply them to integration problems.",
+      "type": "unspecified",
+      "code": "RCALII4"
+    },
+    {
+      "text": "Fluently handle various kinds of sets and measures, and acquire sufficient abstraction capacity to frame previous knowledge on integration within a broader framework.",
+      "type": "unspecified",
+      "code": "RCALII5"
+    },
+    {
+      "text": "Interpret the concept of Fourier series and transform, their calculation, properties, and applications.",
+      "type": "unspecified",
+      "code": "RCALII6"
+    },
+    {
+      "text": "Solve advanced Calculus problems using computer tools.",
+      "type": "unspecified",
+      "code": "RCALII7"
+    }
+  ],
+  "syllabus_topics": [
+    "Unit 1. Introduction to the concept of integral",
+    "Single-variable integral calculus: Riemann integral",
+    "Numerical integration methods: Quadratures",
+    "Unit 2. Extension of the concept of integral",
+    "Multi-variable integral calculus: Fubini's Theorem",
+    "Integration over a measure: Lebesgue integral",
+    "Unit 3. Fourier Analysis",
+    "Trigonometric series: Fourier series",
+    "Fourier transform: Fourier integral"
+  ],
+  "teaching_methods": [
+    "Virtual expository sessions (videos, presentations, instructional texts, self-assessment questionnaires)",
+    "Presential expository classes (doubt resolution, theoretical results, examples)",
+    "Virtual classroom practices (videos, questionnaires, forum participation)",
+    "Presential classroom practices (individual/group exercises and tasks)",
+    "Virtual laboratory practices (solving exercises with MatLab)",
+    "Presential laboratory practices (solving exercises with MatLab)",
+    "Tutorials (Teams chat, Campus Virtual forums, personal or group tutorials via Teams)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Global Exam (PG)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom Practices (NA)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory Practices (NL)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Campus Virtual tasks (NCv)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written Exams (NC) (weighted average of P1 and P2 or Global Exam)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as: NF = 0.2 NL + 0.2 NA + 0.5 NC + 0.1 NCv. The course is passed if NF >= 5, NC >= 3.5, and NL >= 3.5. If these minimums are not met, the final grade will be min(NF, NC, NL). For differentiated evaluation, if classroom practices cannot be evaluated, NF = 0.2 NL + 0.6 NC + 0.2 NOL. In extraordinary calls, students can retake an exam for NC and/or a laboratory practice test for NL, replacing the previous grade for that part; NA and NCv grades are conserved.",
+  "bibliography": [
+    "Burgos Román, J. Cálculo infinitesimal de una variable [en línea]. 2a ed. Madrid: McGraw-Hill, 2007",
+    "Zill, D.G. Cálculo de una variable: trascendentes tempranas. 4a ed. México: McGraw Hill, 2011.",
+    "Stewart, J. Cálculo de una variable. Thomson. (cualquier edición a partir del 2010)",
+    "Stewart, J. Cálculo multivariable. Thomson. (cualquier edición a partir del 2010)",
+    "Chapra, S.C.; Canale, R.P. Numerical methods for engineers. 8th ed. New York: McGraw-Hill, 2021",
+    "Brigham, E. Oran. The fast Fourier transform and its applications. Prentice-Hall, 1988.",
+    "McKay, David. Information theory, inference and learning algorithms. Cambridge University Press, 2003.",
+    "Zorich, Vladimir A. Mathematical analysis II. 2nd ed. Springer, 2016.",
+    "Blum, A.; Hopcroft, J.; Kannan, R. Foundations of data science. Cambridge: Cambridge University Press, 2020.",
+    "Hoggar, S.G. Mathematics of digital images: creation, compression, restoration, recognition. Cambridge university press, 2006.",
+    "Thompson, Silvanus Phillips; Gardner, Martin. Calculus made easy: being a very-simplest introduction to those beautiful methods of reckoning which are generally called by the terrifying names of the differential calculus and the integral calculus. 2nd ed. Macmillan and co., limited, 1998."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-1-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-1-003",
+  "source_language": "es",
+  "source_sha256": "0ab4ef686f7c3dd3877521f76b6b9261b4b17e16ca3d9c3cd92b2afc7b3a6d75",
+  "extracted_at": "2026-11-20T05:55:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

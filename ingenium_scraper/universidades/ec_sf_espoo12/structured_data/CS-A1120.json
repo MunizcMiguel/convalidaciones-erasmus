@@ -1,0 +1,86 @@
+{
+  "course_name_original": "Programming 2",
+  "course_name_en": "Programming 2",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "CS-A1110 Programming 1"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "You have gained further experience in programming and problem-solving using computers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "You will be able to describe the structure of a programmable computer and how it may be built from the bottom up using logic circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "You can explain how basic data types (bytes, integers, floating point numbers, ...) and structures (such as arrays and lists) are implemented and represented in computer memory.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "You have also gained experience in low-level programming using an assembly language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "You can define computational resources (time, space, ...) and connect these to the performance of basic functions in terms of bounds, and have familiarised yourself with basic searching and sorting algorithms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "You will have gained further experience with recursion as well as the functional programming paradigm, and are able to employ these techniques in your own programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "You can describe the role of types and collections in a high level language, and will have experienced debugging, testing, and explaining computer code.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Principles of binary representation of integers and floating point numbers",
+    "Bit-level operations",
+    "Gates as basic logic operators and how these can be combined to create circuits (e.g. for an adder)",
+    "Basic computer architecture (von Neumann model) from gate level to high-level programming",
+    "Implementation of small programs in assembly language",
+    "The big-O definition, and concepts of computational resources",
+    "The algorithms binary search and selection sort",
+    "Collections (e.g sequences, arrays, and lists), traits, types, and mutability",
+    "Aspects of functional programming, e.g. pure functions, anonymous functions, closure and currying",
+    "Tail recursion and recursive data structures",
+    "Independent programming and problem-solving with computers."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Aalto University",
+  "institution_slug": "ec_sf_espoo12",
+  "degree": "Bachelor's Programme in Electrical Engineering (ELEC1)",
+  "course_code": "CS-A1120",
+  "academic_year": "2025-2026",
+  "source_url": "https://sisu.aalto.fi/kori/api/course-units/by-group-id?groupId=aalto-OPINKOHD-1125585487&universityId=aalto-yliopisto",
+  "source_language": "en",
+  "source_sha256": "93c30d2c694439a9b6f4128ff62ffbb4e346cd8b81192463522e9a862683b6c3",
+  "extracted_at": "2026-11-20T09:09:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

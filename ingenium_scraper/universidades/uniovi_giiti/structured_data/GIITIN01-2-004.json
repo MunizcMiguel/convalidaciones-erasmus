@@ -1,0 +1,234 @@
+{
+  "course_name_original": "Computabilidad",
+  "course_name_en": "Computability",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Autómatas y Matemáticas Discretas",
+    "Metodología de la Programación (recommended)",
+    "Notions of mathematical notation and language",
+    "Proficiency in demonstrative methods"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply the acquired knowledge to elaborate and defend arguments that allow them to transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Solve problems with initiative, make informed decisions, and be autonomous and creative.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Engage in critical and logical reasoning.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Have a deep knowledge of the fundamental principles and models of computation and know how to apply them to interpret, select, evaluate, model, and create new concepts, theories, uses and technological developments.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students should be able to apply their knowledge to their work or vocation in a professional way and possess the competences that are usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students should have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students should be able to transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "competence",
+      "code": "GTR3"
+    },
+    {
+      "text": "Ability to plan and organize personal work.",
+      "type": "competence",
+      "code": "GTR4"
+    },
+    {
+      "text": "Ability to integrate quickly and work efficiently in unidisciplinary teams and collaborate in a multidisciplinary environment.",
+      "type": "competence",
+      "code": "GTR5"
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "competence",
+      "code": "GTR7"
+    },
+    {
+      "text": "Have motivation for quality and continuous improvement and act rigorously in professional development.",
+      "type": "competence",
+      "code": "GTR8"
+    },
+    {
+      "text": "Ability to understand and master the basic concepts of logic and their application to solving engineering problems.",
+      "type": "competence",
+      "code": "EFB3.2"
+    },
+    {
+      "text": "Ability to understand and master the basic concepts of algorithmics and their application to solving engineering problems.",
+      "type": "competence",
+      "code": "EFB3.3"
+    },
+    {
+      "text": "Ability to understand and master the basic concepts of computational complexity and their application to solving engineering problems.",
+      "type": "competence",
+      "code": "EFB3.4"
+    },
+    {
+      "text": "Ability to have a deep knowledge of the fundamental principles and models of computation and to know how to apply them to interpret, select, evaluate, model, and create new concepts, theories, uses and technological developments related to computer science.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Fluently handle the languages of Propositional Logic and Predicate Logic.",
+      "type": "skill",
+      "code": "FC15"
+    },
+    {
+      "text": "Prove the validity of a simple formula in both logics using different procedures.",
+      "type": "skill",
+      "code": "FC16"
+    },
+    {
+      "text": "Translate simple sentences from natural language to the most appropriate Logic language.",
+      "type": "skill",
+      "code": "FC17"
+    },
+    {
+      "text": "Check the correctness of a simple reasoning.",
+      "type": "skill",
+      "code": "FC18"
+    },
+    {
+      "text": "Understand the concept of an axiomatic system and its relation to the semantics of Logic.",
+      "type": "knowledge",
+      "code": "FC19"
+    },
+    {
+      "text": "Transform a sentence into its clausal form.",
+      "type": "skill",
+      "code": "FC20"
+    },
+    {
+      "text": "Know and use the proof procedure through general resolution.",
+      "type": "skill",
+      "code": "FC21"
+    },
+    {
+      "text": "Understand the concept of algorithm and differentiate what is algorithmic from what is not.",
+      "type": "knowledge",
+      "code": "FC22"
+    },
+    {
+      "text": "Know some computation model as a framework for the construction of computable function codes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to adequately use the fundamental results of Computability: Universality, Parametrization and Recursion.",
+      "type": "skill",
+      "code": "FC23"
+    },
+    {
+      "text": "Understand the concept of unsolvability and know techniques for studying the solvability of problems to differentiate what is computable from what is not.",
+      "type": "knowledge",
+      "code": "FC24"
+    }
+  ],
+  "syllabus_topics": [
+    "Part 1 Foundations of Logic",
+    "Topic 1. Propositional Logic",
+    "Syntax and Semantics",
+    "Semantic proof methods",
+    "Conjunctive and Disjunctive Normal Forms and Propositional Resolution",
+    "Natural Deduction",
+    "Topic 2. Predicate Logic",
+    "Syntax and Semantics",
+    "Clausal Form, Unification and General Resolution",
+    "Natural Deduction in Predicate Logic",
+    "Part 2 Computability Theory",
+    "Topic 3. Models of Computation and Computable Functions",
+    "Introduction: Intuitive concept of algorithm",
+    "The while programs model",
+    "The Turing machines model",
+    "The Church-Turing Thesis",
+    "Topic 4. Fundamental Results and Problem Solvability",
+    "Enumeration of algorithms",
+    "Fundamental theorems: Universality, Parametrization and Recursion",
+    "Algorithmic solvability and unsolvability",
+    "Introduction to algorithmic complexity"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Active Participation (PA)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if all minimums are met, the final grade is calculated as (0.45 x P1) + (0.45 x P2) + (0.10 x PA). It is mandatory to obtain a minimum of 5 out of 10 in P1 and P2. If the minimums are not met, the grade will be the minimum of the calculated score and 4.0. For extraordinary calls, there is a single theoretical exam divided into two parts (P1 and P2). It is mandatory to obtain at least 5 out of 10 in each part. If all minimums are met, the final grade is calculated as (0.5 x P1) + (0.5 x P2), otherwise, the grade will be the minimum of the calculated score and 4.0. In case of doubt regarding authorship or unauthorized means, a face-to-face defense may be requested.",
+  "bibliography": [
+    "Arenas, L. Lógica Formal para Informáticos. Díaz de Santos",
+    "Cutland, N.J. Computability: An introduction to recursive function theory. Cambridge University Press",
+    "Kfoury, A. J., Moll, R. N., Arbib, M. A. A Programming Approach to Computability. Springer-Verlag",
+    "Julián-Iranzo, P. Lógica Simbólica para Informáticos. Ra-Ma",
+    "Cuena, J. Lógica Informática. Alianza Editorial",
+    "Brookshear, J. G. Teoría de la Computación. Addison- Wesley Iberoamericana",
+    "Garey, M.R.; Johnson, D.S. Computers and Intractability. A Guide to the Theory of NP-Completness. Freeman Company",
+    "Kozen, D. C. Automata and Computability. Springer",
+    "McNaughton, R. Elementary Computability, Formal Languages, and Automata. Prentice-Hall",
+    "Ben-Ari, M. Mathematical Logic for Computer Science. Prentice-Hall",
+    "Huth, M.R.A; Ryan, M.D. Logic in Computer Science. Modelling and reasoning about systems. Cambridge University Press"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-2-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-2-004",
+  "source_language": "es",
+  "source_sha256": "e5cc2b09e87a53afd741f9fdd38bce0c7561add51f0a21553688b3613788ca43",
+  "extracted_at": "2026-11-20T05:54:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

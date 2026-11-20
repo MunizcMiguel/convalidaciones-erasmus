@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Fundamentos de electrotecnia",
+  "course_name_en": "Fundamentals of Electrotechnics",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Física II/V12G340V01202",
+    "Informática para la Ingeniería/V12G340V01203",
+    "Álgebra y estadística/V12G340V01103",
+    "Sufficient knowledge of the algebra of complex numbers",
+    "Basic knowledge of circuit theory",
+    "Basic knowledge of office automation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basic aspects of the operation of electrical circuits and machines.",
+      "type": "knowledge",
+      "code": "B3 C10"
+    },
+    {
+      "text": "Know the experimental process used when working with electrical circuits and machines.",
+      "type": "knowledge",
+      "code": "D1 D2"
+    },
+    {
+      "text": "Know the current techniques available for the analysis of electrical circuits.",
+      "type": "knowledge",
+      "code": "C10 D6"
+    },
+    {
+      "text": "Know the measurement techniques for electrical circuits.",
+      "type": "knowledge",
+      "code": "D6 D10"
+    },
+    {
+      "text": "Acquire skills in the process of analyzing electrical circuits.",
+      "type": "skill",
+      "code": "D1 D2 D10 D14 D16 D17"
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION. Charge, current, electric potential, electrical energy and power, Ohm's law, Joule's law, Kirchhoff's laws. Ideal elements. Series and parallel association of ideal elements.",
+    "REAL ELEMENTS. Real Passive Elements (Resistor, Inductor, Capacitor).",
+    "SINUSOIDAL STEADY STATE (SSS). Waveforms and associated parameters, phasors, impedances/admittances. Association of impedances/admittances. Behavior of elements in SSS.",
+    "SOURCES AND FUNDAMENTAL THEOREMS. Models of Real Sources. Conversion of Real Sources. Fundamental Theorems: Linearity, Substitution, Superposition, Thévenin and Norton.",
+    "SYSTEMATIC ANALYSIS METHODS. Nodes and meshes.",
+    "POWER AND ENERGY IN SSS. Powers: complex, active, reactive, apparent. Boucherot's Theorem. Power Factor. Reactive Power Compensation.",
+    "BALANCED THREE-PHASE SYSTEMS. Line and phase values. Reduction to equivalent single-phase. Power. Measurement of Active and Reactive Power.",
+    "SINGLE-PHASE AND THREE-PHASE TRANSFORMERS. Constitution, equivalent circuit, clock index.",
+    "ASYNCHRONOUS MACHINES. Constitution. Generation of rotating magnetic field. Equivalent Circuit. Characteristic Curves. Operations.",
+    "SINGLE-PHASE AC MACHINES. Constitution. Principle of operation. Applications.",
+    "SYNCHRONOUS MACHINES. Constitution. No-load and on-load operation. Synchronization.",
+    "DC MACHINES. Constitution. Equivalent Circuits. Characteristic Curves.",
+    "LAB PRACTICES. INTRODUCTION AND SAFETY. 1. Laboratory description. Electrical safety: Direct/Indirect contact. Introduction to RD 614/2001 on minimum provisions for the protection of workers' health and safety against electrical risk. PPE/Equipment/Installations/Safety Protocols against Electrical Risk. Case Studies. 2. Measurement equipment (multimeter, clamp meter, digital wattmeter, digital oscilloscope, network analyzer) and generation equipment (DC source, AC source, three-phase source) used in the laboratory. Methods for effective and safe measurement of voltage, current, power. CIRCUIT THEORY BLOCK. 3. Element associations. Star-delta equivalence. 4. Real Elements: resistor, air-core coil, iron-core coil, capacitor, transformer. 5. Series and parallel RLC circuit. Measurement of voltages, currents, powers. Determination of Equivalent Impedance/Admittance. 6. Reactive Compensation in Series and Parallel RL Circuits. 7. Balanced three-phase system. Concept of line and phase values. Measurement of Powers in three-phase loads. ELECTRICAL MACHINES BLOCK. 8. Tests on the three-phase asynchronous motor. Determination of the equivalent circuit. Asynchronous motor starting. Application of REBT and introduction to Machine Safety Regulations (European Parliament Regulation 2023/1230, BOE 29/06/2023, etc...). 9. DC machines. Constitution and principle of operation. Applications."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem solving",
+    "Laboratory practices",
+    "Autonomous problem solving"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 50.5,
+  "assessment_methods": [
+    {
+      "method": "Problem solving and/or exercises (Test EC1: Circuit Theory Content)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Problem solving and/or exercises (Test EC2: Electrical Machines Content)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Lab reports, practicum, and external practices",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 0.4 * NotaPruebaEC1 + 0.4 * NotaPruebaEC2 + 0.2 * NotaPrácticas, with each part graded out of 10 points. A minimum score of 3 out of 10 is required for both Test EC1 and Test EC2; if these minimums are not met and the weighted final grade is above 4.5, the final grade will be capped at 4.5 (fail). Mandatory Lab Practice 1 (Electrical Safety) requires at least 5 out of 10 points to proceed with other practices, otherwise the overall practice grade will be 0. For students who choose global assessment or need recovery, exams are available for EC1 and EC2, but practices cannot be recovered. Unethical behavior (e.g., copying, plagiarism) will result in failure of the course.",
+  "bibliography": [
+    "Suárez J., Albo E., Miranda B.N., Míguez E., Albo A.B., Apuntes F.Electrotecnia",
+    "Albo E., Albo A.B, Vázquez-Viso J., Míguez E.,, Presentaciones F. Electrotecnia.",
+    "Súarez Creo, J. , Albo López, E, Ejercicios Resueltos de F. Electrotecnia",
+    "jesús Fraile Mora, Electrotecnia para ingenieros. , 2023,",
+    "Suárez Creo J. y Albo López E., Manual de Prácticas de Laboratorio de F. Electrotecnia",
+    "Míguez E. y Vilachá C., Manual de Prácticas de Laboratorio Informático F. Electrotecnia",
+    "Jesús Fraile Mora, Problemas de Circuitos Eléctricos , 2019,",
+    "Suarez Creo J. y Miranda Blanco B.N., MÁQUINAS ELÉCTRICAS. FUNCIONAMIENTO EN RÉGIMEN PERMANENTE , 2006,",
+    "Gómez Expósito, Martínez Ramos y otros, FUNDAMENTOS DE TEORÍA DE CIRCUITOS , 2007,",
+    "Jesús Fraile Mora, Máquinas eléctricas , 2016,",
+    "Jesús Fraile Mora, Problemas de máquinas eléctricas , 2015,"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01303",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01303&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "02cb4454c6dd05f4077ef9ee55dc3879de092832af989c80e7922326e86dfebc",
+  "extracted_at": "2026-11-18T02:53:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

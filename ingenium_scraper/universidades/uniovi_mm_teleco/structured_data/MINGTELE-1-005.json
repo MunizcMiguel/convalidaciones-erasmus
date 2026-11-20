@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Diseño de Circuitos Electrónicos para Comunicaciones",
+  "course_name_en": "Design of Electronic Circuits for Communications",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Refreshed knowledge of undergraduate electronics courses.",
+    "Having taken 'Electrónica de Comunicaciones' (4th year elective) or reviewing its study material.",
+    "Reviewing contents of 'Fundamentos de Electrónica Analógica' (2nd year) related to communications electronics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design frequency synthesizers.",
+      "type": "skill",
+      "code": "R1"
+    },
+    {
+      "text": "Design linear (Class A and Class B) broadband and narrowband power amplifier stages.",
+      "type": "skill",
+      "code": "R2"
+    },
+    {
+      "text": "Design non-linear (Class D, Class E, and Class F) narrowband power amplifier stages.",
+      "type": "skill",
+      "code": "R3"
+    },
+    {
+      "text": "Improve the performance of linear amplifiers using techniques such as Envelope Tracking and Doherty technique.",
+      "type": "skill",
+      "code": "R4"
+    },
+    {
+      "text": "Design linear-behavior power amplifiers, based on high-performance non-linear amplifiers, using Envelope Elimination and Restoration techniques.",
+      "type": "skill",
+      "code": "R5"
+    },
+    {
+      "text": "Design optoelectronic conversion subsystems and signal conditioning for optical receivers and transmitters.",
+      "type": "skill",
+      "code": "R6"
+    },
+    {
+      "text": "Design electronic circuitry for the regeneration of digital signals distorted during transmission.",
+      "type": "skill",
+      "code": "R7"
+    },
+    {
+      "text": "Design receivers and transmitters based on integrated circuits according to their band and operating characteristics.",
+      "type": "skill",
+      "code": "R8"
+    },
+    {
+      "text": "Design transceivers for different bands, powers, and modulation types. Acquire criteria for selecting transceivers based on the application.",
+      "type": "skill",
+      "code": "R9"
+    },
+    {
+      "text": "Design optical receivers and transmitters for both guided (optical fiber) and unguided communications.",
+      "type": "skill",
+      "code": "R10"
+    },
+    {
+      "text": "Design Hubs, Switches, and Routers. Acquire criteria for selecting these devices based on the application.",
+      "type": "skill",
+      "code": "R11"
+    }
+  ],
+  "syllabus_topics": [
+    "Frequency synthesis: synthesizers based on PLLs and Direct Digital Synthesis (DDSs).",
+    "Communications power amplifiers: Linear and non-linear amplifiers (Class D, E, and F).",
+    "Techniques for improving the performance of linear power amplifiers.",
+    "Linearization of non-linear power amplifiers.",
+    "Components and subsystems for optical receivers and transmitters.",
+    "Regenerative repeaters.",
+    "Types, structure, and integrated circuits of receivers and transmitters.",
+    "Transceivers. Design examples with integrated transceivers.",
+    "Guided and unguided optical transmitters and receivers.",
+    "Types, structure, and dedicated integrated circuits of concentrators (hubs), switches, and routers."
+  ],
+  "teaching_methods": [
+    "Expositive classes (Lectures)",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (EF1)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Work (T)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory Practices (PL)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical block grade is (0.7 * EF1) + (0.2 * T) and the practical block grade is (0.1 * PL). The final grade is Theory + Practice. For the extraordinary call, the final grade is (0.7 * EF2) + (0.2 * T) + (0.1 * PL). For differentiated evaluation, the final grade is (0.8 * EF) + (0.2 * T). Grades obtained for Work (T) and Laboratory Practices (PL) are retained only for calls within the same academic year.",
+  "bibliography": [
+    "“Sistemas de Comunicaciones Electrónicas”, W. Tomasi. Editorial: Prentice Hall. ISBN: 970-26-0316-1.",
+    "“Sistemas Electrónicos de Comunicaciones”, Roy Blake. Editorial: Thomson. ISBN: 970-686-365-6.",
+    "“Radio Frequency and Microwave Electronics”, M. M. Radmanesh. Editorial: Prentice Hall PTR. ISBN: 0-13-027958-7",
+    "“Complete Wireless Design”, C. W. Sayre. Editorial: McGraw-Hill. ISBN: 0-07-137016-1.",
+    "“Modern Electronic Communication”, Gary Miller y Jeffrey Beasley. Editorial: Pearson Education. ISBN: 0-13-016762-2.",
+    "“RF Circuit Design”, Reinhold Ludwig y Pavel Bretchko. Editorial: Pearson Education. ISBN: 0-131-22475-1.",
+    "“Electrónica de Comunicaciones”, M. Sierra, B. Galocha y J. de la Calle. Editorial: Pearson Prentice Hall. ISBN: 84-205-3674-1. También, servicio de publicaciones de la ETSIT de la UPM.",
+    "“Switchmode RF Power Amplifiers”, A. Grebennikov y N. O. Sokal. Editorial: Elsevier. ISBN: 978-0-7506-7962-6.",
+    "“Envelope Tracking Power Amplifiers for Wireless Communications”, Z. Wang. Editorial: Artech House. ISBN: 978-1-60807-784-7."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-1-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-1-005",
+  "source_language": "es",
+  "source_sha256": "d92d362072bfce478c220296bb764c68e7be7d1f01730d7bf24888550cae4e2e",
+  "extracted_at": "2026-11-20T06:06:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,96 @@
+{
+  "course_name_original": "EHM4270 — Hücresel Haberleşme Sistemleri 1",
+  "course_name_en": "EHM4270 — Cellular Communication Systems 1",
+  "ects": 5.0,
+  "semester": "Fall",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en",
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will gain knowledge and experience about cellular communication systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will learn circuit-switched and packet-switched traffic calculations in GSM and WCDMA systems and will be able to perform dimensioning.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Outdoor and indoor cell planning in GSM and WCDMA systems will be learned.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will learn current and next-generation cellular communication systems and will be able to design systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will learn the place of cellular communication systems in technology and daily life.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Wireless Communication Systems: Development of mobile radio communication, mobile radio systems used worldwide, mobile systems",
+    "Concepts of wireless and cellular communication, concepts of mobility and portability, comparison of mobile cellular systems with existing systems, developments in cellular communication and personal communication systems, applications and operating frequencies of wireless and cellular communication systems",
+    "Overview of evolution from 1G to 5G, different multiple access technologies: FDMA, TDMA, CDMA, OFDMA, NOMA.",
+    "Overview of cellular network architectures from 1G to 5G: 1G, 2G GSM, 3G WCDMA, 4G LTE, 5G NR, emerging technologies: MIMO, massive MIMO, SDN, mmWave.",
+    "GSM system structure, examination of the functions of SIM, BTS, BSC, MSC, GMSC, OMC, HLR, VLR, EIR, AuC units, definitions of Cell, Location Area, MSC service area, GSM service area, PLMN service areas.",
+    "GSM900, GSM1800, GSM1900 Frequency spectrum, Bandwidth, Channel, Duplex distance, Carrier separation, Capacity and frequency reuse, Time division, Time management, Signal loss, Channel coding, Interleaving, Diversity concepts",
+    "Cell concept and system design principles: Frequency reuse, Channel planning strategies, Handoff techniques and strategies, Call setup over GSM Network, Interference and system capacity, Increasing capacity in cellular communication systems, Adjacent channel interference, Power control to reduce interference.",
+    "Midterm Exam 1",
+    "Link design using path loss models, Log-distance path loss model, Log-normal shadowing, Determining percentage of coverage area, Outdoor propagation models, Wideband microcell model, Indoor propagation models, Loss between floors, loss between walls, Signal penetration indoors.",
+    "GPRS network features and GPRS communication, GPRS network features and GPRS communication, Packet data transmission and traffic calculation, SGSN and GGSN Nodes",
+    "Introduction to UMTS Networks, UMTS network topology, WCDMA concepts, Radio Channel models, differences between WCDMA and 2nd generation communication system protocols,",
+    "UMTS networks and applications, Circuit-switched, packet-switched, content-providing, location-based services, HSDPA concept, HSUPA concept.",
+    "Project presentation",
+    "Project presentation",
+    "New generation communication system standards and communication techniques.",
+    "Final"
+  ],
+  "teaching_methods": [
+    "Face-to-face instruction"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Projects",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Midterm Exams",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Final",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Theodore S.Rappaport “Wireless Communications Principles and Practice” Cambridge University Press, Updated second edition, 2024. DOI: https://doi.org/10.1017/9781009489843",
+    "From GSM to LTE-Advanced Pro and 5G: An Introduction to Mobile Networks and Mobile Broadband, Fourth Edition, by Martin Sauter, John Wiley & Sons Ltd, 2021.",
+    "Cellular Communications Systems in Congested Environments Resource Allocation and End-to-End Quality of Service Solutions with MATLAB, by Mo Ghorbanzadeh, Ahmed Abdelhadi, and Charles Clancy, Springer International Publishing, Switzerland, 2017."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Yıldız Teknik Üniversitesi (Yildiz Technical University)",
+  "institution_slug": "ec_tr_istanbu07",
+  "degree": "Kimya Mühendisliği (Chemical Engineering), lisans, %100 İngilizce",
+  "course_code": "EHM4270",
+  "academic_year": "vigente en el Bologna Bilgi Sistemi (Yeni)",
+  "source_url": "http://www.bologna.yildiz.edu.tr/index.php?r=course/view&id=372&aid=23&pid=36",
+  "source_language": "tr",
+  "source_sha256": "e4e59db60808afc1206465a8a5ff1e32bcf1f09a3aa7421229eba5c135a2f7e9",
+  "extracted_at": "2026-11-20T09:11:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

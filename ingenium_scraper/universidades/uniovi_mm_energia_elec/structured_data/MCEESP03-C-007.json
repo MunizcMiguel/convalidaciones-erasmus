@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Control Dinámico de Máquinas de Alterna",
+  "course_name_en": "Dynamic Control of AC Machines",
+  "ects": 3.0,
+  "semester": "First Semestre",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Dynamic analysis and modelling of electric machines",
+    "Control of electromechanical systems",
+    "Electric machines for generation and traction"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding the principles of vector control and field orientation.",
+      "type": "unspecified",
+      "code": "RA50"
+    },
+    {
+      "text": "Develop control systems for dynamic models of AC machines.",
+      "type": "unspecified",
+      "code": "RA51"
+    },
+    {
+      "text": "To analyze the dynamics of field-oriented control and vector control.",
+      "type": "unspecified",
+      "code": "RA52"
+    },
+    {
+      "text": "Apply the different methods and control systems to control AC machines.",
+      "type": "unspecified",
+      "code": "RA53"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to variable speed drives",
+    "Converters for AC Drives",
+    "Current Regulation in Power Converters",
+    "Regenerative converters",
+    "Adjustable Speed Drive Types",
+    "Vector Control of Permanent Magnet Synchronous Machines",
+    "Field Weakening",
+    "Vector Control of Induction machines",
+    "Field oriented control",
+    "Flux observers",
+    "Direct Torque Control",
+    "Implementation issues",
+    "Sensors",
+    "Digital signal processors, sampling requirements"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises and problem resolution",
+    "Problem Based Learning",
+    "Class practice / Seminars",
+    "Laboratory practice",
+    "Group Tutoring"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Final Written Exam (EX)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final Assignment - Documentation",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final Assignment - Presentation",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Computer Homework (HW)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as (0.40 × EX) + (0.40 × Assignment) + (0.10 × HW), where Assignment = (0.25 × Documentation) + (0.15 × Presentation). A minimum score of 4/10 is required for the Final Written Exam and the Final Assignment components. If any minimum requirement is not met, the final grade will be the minimum of the calculated Final Grade or 4.0. The extraordinary call follows the same structure and weighting as the ordinary call.",
+  "bibliography": [
+    "Bose, B.K., 2006. Power Electronics and Motor Drives: Advances and Trends, Academic Press.",
+    "Drury, W., 2001. Control Techniques' Drives & Controls Handbook 1º ed, The Institution of Engineering and Technology.",
+    "Leonhard, W., 2001. Control of Electrical Drives 3º ed., Springer.",
+    "Novotny, D.W. & Lipo, T.A., 1996. Vector Control and Dynamics of AC Drives, Oxford University Press, USA."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (EPI Gijón)",
+  "institution_slug": "uniovi_mm_energia_elec",
+  "degree": "Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (Opción Pathway Ingenium)",
+  "course_code": "MCEESP03-C-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/conversionenergia/-/fof/asignatura/MCEESP03-C-007",
+  "source_language": "es",
+  "source_sha256": "35a285bbc036522fc5a1776d977a0d9da9ceb812df51d9ab2a60c7ed1fb0ea7e",
+  "extracted_at": "2026-11-20T05:59:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

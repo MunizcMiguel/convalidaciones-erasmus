@@ -1,0 +1,106 @@
+{
+  "course_name_original": "Programming of CNC machines",
+  "course_name_en": "Programming of CNC machines",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge and skills in the field of materials science",
+    "metrology",
+    "technology processes",
+    "design record"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire skills in recording design and technological information in alphanumeric G-code (DIN/ISO) for CNC machine tool numerical control systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Historical information on the development of programming languages for control systems of numerically controlled machine tools",
+    "Geometrical basics: workpiece positions",
+    "Cartesian coordinates",
+    "polar coordinates",
+    "absolute dimension",
+    "incremental dimension",
+    "work planes",
+    "zero points and reference points",
+    "coordinate systems - machine coordinate systems (MCS) and workpiece coordinate system (WCS)",
+    "NC programming basics: NC program name",
+    "program header",
+    "structure and content of the NC program",
+    "blocks and block components",
+    "available characters",
+    "Tool change: tool call using the command (T)",
+    "tool change using M06",
+    "Tool offsets: tool offset call (D)",
+    "Spindle movement: spindle speed (S)",
+    "spindle rotation direction (M3, M4, M5)",
+    "constant cutting speed (G96)",
+    "constant G97 speed",
+    "programmable spindle speed limit",
+    "Feed control (F) (G94, G95)",
+    "Geometric settings: Settable zero point shift (G54 to G57)",
+    "work plane selection (G17, G18, G19)",
+    "dimension data - absolute dimension input (G90, AC)",
+    "incremental dimension input (G91, IC)",
+    "inch or metric dimensions (G70, G71)",
+    "Path commands: Travel commands with Cartesian coordinates - rapid traverse movement (G0)",
+    "straight line interpolation (G1)",
+    "circular interpolation (G2/G3)",
+    "Travel commands with polar coordinates - polar coordinate reference point (G110, G111, G112)",
+    "Travel commands with polar coordinates (G0, G1, G2, G3, AP, RP)",
+    "chamfer, rounding (CHF, CHR, RND)",
+    "Tool radius compensation (G40, G41, G42)",
+    "Path motion behavior: exact stop (G60)",
+    "smooth transition (G64)",
+    "Coordinate transformations – concept, instructions",
+    "Auxiliary functions (M)",
+    "Supplementary commands",
+    "Programming using machining cycles – machining holes, pockets, contours",
+    "Discussion of examples of programming turning and milling machining",
+    "Basic functions of the coordinate system and technological functions and their application",
+    "Programming simple contours (G0/G1, G2/G3, RND, CHF/CHR)",
+    "Programming contours with tool radius compensation (G41/G42)",
+    "Programming contours with graphic support (contour calculator)",
+    "Advanced programming using machining cycles"
+  ],
+  "teaching_methods": [
+    "Informational lecture (regular)",
+    "practical exercises (laboratory)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Control work for lecture and project classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The condition for passing the course is to achieve all the required learning outcomes. Assessment is based on control work for lecture and project classes.",
+  "bibliography": [
+    "Sinutrain. Siemens training materials. Siemens AG, 2011.",
+    "Sinumerik 840D sl. NC programming. Siemens Programming Manual, 2021",
+    "Sinumerik One. NC programming. Siemens Programming Manual, 2024",
+    "MTS (Mathematical Technical Software). Programming instructions. 2015",
+    "Kaushik Kumar, Chikesh Ranjan, J. Paulo Davim: CNC Programming for Machining. Materials Forming, Machining and Tribology (MFMT), Springer, 2020, DOI: https://doi.org/10.1007/978-3-030-41279-1"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "C6a",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/C. Group of courses to choose from/C6a_ME_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "fd78d86bc4c415dc9fe80c75b3ea6ee3f11e952d2a08ff465988b424f5c31201",
+  "extracted_at": "2026-11-18T10:04:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

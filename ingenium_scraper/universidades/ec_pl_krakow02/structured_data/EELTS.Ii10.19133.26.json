@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Teoria i przetwarzanie sygnałów (B)",
+  "course_name_en": "Signal Theory and Processing (B)",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [
+    "Basic mathematics course"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands basic concepts used in signal theory.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the operation of basic algorithms used in signal analysis and processing applied, among others, in control and measurement equipment.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Has basic knowledge in the software and hardware implementation of digital signal processing algorithms.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Can apply known methods and algorithms in signal analysis and processing.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can implement basic digital signal processing algorithms in Matlab.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can assess the computational complexity of the signal processing algorithms used.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Understands the need for continuous self-improvement and professional development.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Mathematical models of basic signals used in signal theory: rectangular impulse, complex and real harmonic signal, phase and frequency modulated signals, Dirac distribution, Kronecker delta. Basic signal parameters.",
+    "Signal space; definition of scalar product, norm and metric. Orthogonal signals. Generalized Fourier series as a method of signal approximation and representation; Bessel's inequality, Parseval's theorem, Gibbs phenomenon, Dirichlet's theorem. Trigonometric and complex Fourier series; relationships between coefficients of trigonometric and complex Fourier series. Integral Fourier transform as a limiting case of Fourier series; properties of integral Fourier transform.",
+    "Analog linear systems. System description in the time domain: concept of system impulse response and convolution. System response to harmonic excitation, frequency characteristic. System transfer function and its relation to frequency characteristic.",
+    "Discrete linear stationary systems. Concept of discrete system impulse response and convolution. Discrete system response to harmonic excitation. Frequency characteristic of discrete systems. Digital signal filtering, design of finite impulse response (FIR) filters using the window method, discussion of the window's influence on the obtained filter frequency characteristic. Implementation methods and computational complexity of a digital FIR filter.",
+    "Description of a discrete LTI system using difference equations. Z-transform and its properties, concept of LTI system Z-transfer function and its relation to frequency characteristic. Design of infinite impulse response (IIR) digital filters using the pole and zero placement method, concept of causal and stable system, filter/system stability. Design of IIR filters using the bilinear transformation method.",
+    "Frequency analysis of signals. Sampling theorem. Discrete Fourier transform (DFT) and its properties: periodicity, symmetry, modulation, convolution, Parseval's theorem. Application of DFT in frequency analysis of signals; selection of window function, amplitude and frequency resolution. Fast Fourier transform and its applications.",
+    "Hilbert transform and its application in instantaneous amplitude and phase demodulation algorithms.",
+    "Introduction to adaptive filters.",
+    "Architecture and programming of signal processors using the example of instantaneous amplitude and phase demodulation algorithms implemented using the Hilbert transform, optimization possibilities, implementation of sqrt, atan functions in fixed-point arithmetic of a DSP processor.",
+    "Generation of basic discrete signals in a Matlab-like environment.",
+    "Representation of signals using Fourier series, observation of the Gibbs phenomenon, verification of Bessel's inequality and Parseval's theorem.",
+    "Software implementation of discrete LTI systems with finite impulse response.",
+    "Design of FIR filters using the window method, determination of frequency characteristics, filtering of example signals.",
+    "Design of IIR filters using pole and zero placement method, determination of frequency characteristics. Software implementation of IIR filters and impulse response, filtering of example signals.",
+    "Design of IIR filters using the bilinear transformation method and using ready-made Matlab functions.",
+    "Discrete Fourier transform, implementation and observation of properties.",
+    "Frequency analysis of signals, observation of the window's influence on the amplitude-frequency resolution of the obtained spectrum, selection of window function.",
+    "Design and implementation of Hilbert transform. Implementation of instantaneous amplitude and phase demodulator.",
+    "Application of adaptive filters in interference cancellation and signal denoising."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Practice method (doing tasks at the blackboard)",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Test results (Lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes (Lab. classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes (Lab. classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes (Lab. classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written assignments (Lab. classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Tests on UPEL platform (Lab. classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "A necessary condition for passing the course is the completion of all laboratory exercises. A maximum of one unjustified absence from laboratory classes is allowed, but all absences must be made up for. The laboratory grade is obtained based on written assignments (which may include UPEL tests) and is the average of these grades, with a passing grade being 50% of the points obtained. The final grade (OK) is the average of all laboratory completion terms. Additionally, OK >=3.0 if a positive grade (at least 3.0) was obtained from the last completion term. For example, L1=2.0, L2=2.0, L3=4.0 gives OK=3.0. Two retake terms are allowed.",
+  "bibliography": [
+    "R.G. Lyons, Wprowadzenie do cyfrowego przetwarzania sygnałów",
+    "A.V. Oppenheim, Cyfrowe przetwarzanie sygnałów",
+    "T. P. Zieliński: Cyfrowe przetwarzanie sygnałów: Od teorii do zastosowań, WKŁ 2005.",
+    "A. Dąbrowski: Przetwarzanie sygnałów przy użyciu procesorów sygnałowych, Wyd. Politechniki Poznańskiej, Poznań 2000.",
+    "Cyfrowe przetwarzanie sygnałów w telekomunikacji : podstawy – multimedia – transmisja / red. nauk.: Tomasz P. ZIELIŃSKI, Przemysław KOROHODA, Roman RUMIAN ; autorzy: Maciej Bartkowiak, Adam Borowicz, Jarosław BUŁAT, Piotr CHOŁDA, Marek Domański, Krzysztof DUDA, Przemysław Dymarski, Michał GREGA, Lucjan JANOWSKI, Przemysław KOROHODA, Daniel Król, Mikołaj LESZCZUK, Wiesław LUDWIN, Ryszard Makowski, Andrzej PACH, Zdzisław PAPIR, Marek Parfieniuk, Wojciech Półchłopek, Jakub RACHWALSKI, Roman RUMIAN, Paweł Świętojański, Paweł TURCZA, Robert Wielgat, Jacek WSZOŁEK, Tomasz ZIELIŃSKI. — Warszawa : PWN, 2014. — 983 s.. — Bibliogr. przy rozdz.. — ISBN: 978-83-01-17445-3",
+    "Algorytm kompresji danych dla interfejsu mózg-komputer — Data compression algorithm for brain-machine interface / Paweł TURCZA, Zbigniew MARSZAŁEK, Mirosław SOCHA // Przegląd Elektrotechniczny / Stowarzyszenie Elektryków Polskich ; ISSN [phone]. — 2015 R. 91 nr 5, s. 5–8.",
+    "Distributed-arithmetic-based DWT processor for neural recording systems / Paweł TURCZA // W: MIXDES 2017 : Mixed Design of integrated circuits and systems : book of abstracts of 24\textsuperscript{th} international conference : Bydgoszcz, Poland, June 22–24, 2017",
+    "Near-lossless energy-efficient image compression algorithm for wireless capsule endoscopy / Paweł TURCZA, Mariusz Duplaga // Biomedical Signal Processing and Control ; ISSN 1746-8094. — 2017 vol. 38, s. 1–8."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.19133.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/96c6234f-c762-4f04-875d-57f532cf66cb.html",
+  "source_language": "pl",
+  "source_sha256": "2a46a416e4aa8651361d5514a14098113f62446bb69390595fbb9081f885be35",
+  "extracted_at": "2026-11-20T09:02:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

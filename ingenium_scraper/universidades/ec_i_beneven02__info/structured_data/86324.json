@@ -1,0 +1,178 @@
+{
+  "course_name_original": "SOFTWARE FOR MEASUREMENTS (86324)",
+  "course_name_en": "SOFTWARE FOR MEASUREMENTS",
+  "ects": 6.0,
+  "semester": "Annual Course",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge provided in the basic courses of Electronic Measurements"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Describe the architecture and operating principles of automatic measurement systems and data acquisition systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the structure of a metrological chain and the role of the main components of a measurement system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the basic characteristics of the main communication interfaces for electronic instrumentation (IEEE 488, RS-232, RS-422, RS-449, RS-485, USB) and of VXI and PXI modular systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the principles of virtual instrumentation and the LabVIEW development environment, with particular reference to the programming of instruments and data acquisition systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design simple automated measurement systems based on application specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop software applications in the LabVIEW environment for the acquisition, processing, and visualization of measurement data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Program data acquisition devices and measurement instruments using the main communication interfaces.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrate hardware and software to create virtual instruments capable of automating experimental and measurement procedures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluate the most appropriate hardware and software solutions for implementing an automated measurement system.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Identify the main critical issues in communication between instruments, in device configuration, and in data acquisition.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Critically analyze the results obtained during experimental activities, identifying any anomalies and proposing corrective actions in simplified contexts.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Document design and experimental activities using appropriate technical language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Present and discuss the design choices made and the solutions developed as part of the final project.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Collaborate effectively within a work group, contributing to the planning, development, and validation of the project.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Clearly communicate results, issues, and solutions related to the design of automatic measurement systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently acquire skills in using new software tools and data acquisition devices by consulting technical manuals and specialized documentation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Stay up to date on developments in virtual instrumentation technologies and automated measurement systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Address simple design problems by integrating knowledge from the fields of electronic measurement, programming, and hardware-software interfacing.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the methodologies learned to the development of similar applications in various contexts within information engineering.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts in electronic measurement courses",
+    "Metrology chain",
+    "Components of a measurement system and their functionality",
+    "Sensors and transducers",
+    "Characteristics of automatic measurement systems and data acquisition systems",
+    "Definitions of automatic measurement system, data acquisition system, distributed measurement system",
+    "Standard model for measurement instrumentation",
+    "Elementary components of measurement systems: acquisition section, processing section, presentation section",
+    "Elementary concepts for the design of a data acquisition system",
+    "Programming interfaces of measurement instrumentation",
+    "IEEE 488 interface",
+    "RS-232 interface",
+    "RS-422 interface",
+    "RS-449 interface",
+    "RS-485 interface",
+    "USB interface",
+    "VXI systems",
+    "PXI systems",
+    "Electrical, mechanical, and functional specifications of main interface systems",
+    "Communication protocols of IEEE 488 interface",
+    "Communication protocols of RS-232C interface",
+    "Fundamental characteristics of the LabVIEW development environment",
+    "Programming of data acquisition boards",
+    "Programming of IEEE 488 interfaces in LabVIEW",
+    "Programming of RS-232C interfaces in LabVIEW",
+    "Experimental activities in laboratory",
+    "Laboratory project using Labview"
+  ],
+  "teaching_methods": [
+    "Lectures in the classroom",
+    "Laboratory exercises",
+    "Final group project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Project solution (completeness and accuracy)",
+      "weight_percentage": 66.67
+    },
+    {
+      "method": "Presentation of theoretical concepts (clarity and completeness)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Technical report of the project work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is based on an oral exam. Two-thirds of the grade will be based on the completeness and accuracy of the project solution, and one-third on the clarity and completeness of the presentation of theoretical concepts. Successful completion of the project work and submission of the final technical report are required to take the exam.",
+  "bibliography": [
+    "J.F. Coombs - Electronic Instrument Handbook - McGraw-Hill Pub. Co.",
+    "Labview basics - National Instruments",
+    "Lecture notes and lecture slides will be provided to the registered students via the learning management system Handy Unisannio"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica",
+  "institution_slug": "ec_i_beneven02__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86324",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=5094&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "96aa20c2909b200b8e94bd25840d419a579f792078bcc397404c2ca1033b08a9",
+  "extracted_at": "2026-11-20T12:43:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Computer systems architecture",
+  "course_name_en": "Computer Systems Architecture",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student has the necessary knowledge to use computers, develop software programs and applications, process information.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has knowledge related to programming, mathematics, engineering and technology and has the necessary skills to use them in creating complex computer systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student can apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate can develop, design and create new applications, systems or products using good practices in the field.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can work independently to identify complex problems and examine related issues to develop solution options and implement solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to combine diverse information to formulate solutions and generate development ideas for new products and applications.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Data representation: Elementary data types, binary representations and placement orders, data organization and storage.",
+    "Character encoding, integer encoding, signed and unsigned convention, sign bit, complement code, arithmetic operations, concept of overflow, conversion to a location of other dimensions.",
+    "CS performance, 80x86 microprocessor architecture – structure, registers, address calculation, addressing modes, FAR and NEAR addresses",
+    "Executive unit (EU) of 80x86 microprocessor.",
+    "BIU unit of 80x86 microprocessor",
+    "Assembly language elements.",
+    "Standard directives for defining segments.",
+    "Assembly language instructions.",
+    "Impact of little endian representation on data access.",
+    "Conditional and unconditional jump instructions.",
+    "Representation of machine instructions.",
+    "ASM-ASM multimodule programming:",
+    "Implementing subprogram calls.",
+    "Linking NASM modules with modules written in high-level languages.",
+    "Introducere în limbajul de asamblare IA-32.",
+    "Obtaining the offset / value of a variable.",
+    "Comparison instructions.",
+    "String instructions.",
+    "Function calls and text file operations.",
+    "Multi-module programming using assembly language.",
+    "Exam preparation: discussions and case studies.",
+    "Conversion between different number bases.",
+    "Simple arithmetic expressions.",
+    "Complex arithmetic expressions.",
+    "Bitwise instructions.",
+    "Simple string operations.",
+    "Complex string operations.",
+    "Function calls.",
+    "test",
+    "Text file operations.",
+    "Discussions, analysis and evaluation of laboratory work. Teaching the latest assignments.",
+    "Multimodule programming (asm + asm).",
+    "Multimodule programming (asm + C).",
+    "Preparation for practical exams: discussions and case studies.",
+    "test."
+  ],
+  "teaching_methods": [
+    "Exposition",
+    "conversation",
+    "debate",
+    "problematization",
+    "discovery"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Average grades obtained on laboratory assignments",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Average of grades for laboratory tests",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "A minimum grade of 5 is required at each grading activity. 75% attendance at seminar activities and 90% attendance at laboratory activities are mandatory. Students with more than 2 unmotivated absences at seminar/laboratory activities will not be able to take the exam in the normal or retake session and will have to repeat the course in the next academic year. Students with medical certificates for each absence are exempted from this rule.",
+  "bibliography": [
+    "Al. Vancea, F. Boian, D. Bufnea, A. Andreica, A. Darabant, A. Navroschi – Arhitectura calculatoarelor. Limbajul de asamblare 80x86., Editura Risoprint, Cluj-Napoca, 2014.",
+    "Al. Vancea, F. Boian, D. Bufnea, A. Gog, A. Darabant, A. Sabau – Arhitectura calculatoarelor. Limbajul de asamblare 80x86., Editura Risoprint, Cluj-Napoca, 2005.",
+    "A. Gog, A. Sabau, D. Bufnea, A. Sterca, A. Darabant, Al. Vancea – Programarea în limbaj de asamblare 80x86. Exemple si aplicatii., Editura Risoprint, Cluj-Napoca, 2005.",
+    "Randal Hyde – The Art of Assembly Programming, No Starch Press, 2003. (http://homepage.mac.com/randyhyde/webster.cs.ucr.edu/www.artofasm.com/DOS/index.html)",
+    "Boian F.M. Vancea A. Arhitectura calculatoarelor, suport de curs. Facultatea de Matematica si Informatica, Centrul de Formare Continua si Invatamant la Distanta,. Ed. Centrului de Formare Continua si Invatamant la Distanta, Cluj, 2002",
+    "Irvine, K.R., 2015. Assembly language for x86 processors.",
+    "Kusswurm, D., 2014. Modern X86 Assembly Language Programming. Springer.",
+    "Carter, P.A., 2004. PC Assembly Language. Github: (http://pacman128.github.io/static/pcasm-book.pdf)",
+    "Cavanagh, J., 2013. X86 Assembly Language and C Fundamentals. CRC Press.",
+    "Guide, P., 2011. Intel® 64 and ia-32 architectures software developer’s manual. Volume 3B: System programming Guide, Part, 2, p.11. (http://www.facweb.iitkgp.ac.in/~goutam/compiler/readingMaterial/intelfeon/253665.pdf)",
+    "BitDefender internal documentations – materiale postate pe pagina cursului",
+    "Cursuri si materiale suport postate pe site-ul cursului"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5004",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem1_MLE5004_en_mihai-suciu_2025_9973.pdf",
+  "source_language": "en",
+  "source_sha256": "6063ed4d3d416a9ec2b89637e8c7bc7d2195ab8e040f7d404261d49f9c8af56e",
+  "extracted_at": "2026-11-20T09:07:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

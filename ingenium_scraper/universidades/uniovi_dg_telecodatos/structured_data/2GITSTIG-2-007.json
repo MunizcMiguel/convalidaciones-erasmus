@@ -1,0 +1,157 @@
+{
+  "course_name_original": "Aprendizaje Automático II",
+  "course_name_en": "Machine Learning II",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is advisable for students to have taken Machine Learning I and to have the basic knowledge taught in it, even if they have not passed the course."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should know how to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated through the elaboration and defense of arguments and problem-solving within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students should have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students should be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, capable of designing experiments and describing, analyzing, evaluating, and interpreting the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to solve problems.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Identify opportunities for innovative data-driven applications in continuously evolving technological environments.",
+      "type": "competence",
+      "code": "CG07"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG09"
+    },
+    {
+      "text": "Utilize the most appropriate techniques for data preprocessing and visualization, including dimensionality reduction techniques, to facilitate analysis and communication.",
+      "type": "competence",
+      "code": "CE07"
+    },
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques to build intelligent systems from datasets.",
+      "type": "competence",
+      "code": "CE09"
+    },
+    {
+      "text": "Apply complex supervised learning techniques using an appropriate algorithm depending on the type of problem.",
+      "type": "skill",
+      "code": "RAPII1"
+    },
+    {
+      "text": "Be able to identify problems where data distribution changes and adapt models to improve their accuracy.",
+      "type": "skill",
+      "code": "RAPII2"
+    },
+    {
+      "text": "Understand the concepts of reinforcement learning and know how to use this type of algorithm to solve real applications.",
+      "type": "skill",
+      "code": "RAPII3"
+    },
+    {
+      "text": "Know how to apply unsupervised learning techniques for knowledge extraction.",
+      "type": "skill",
+      "code": "RAPII4"
+    },
+    {
+      "text": "Know the basic algorithms for anomaly detection.",
+      "type": "knowledge",
+      "code": "RAPII5"
+    },
+    {
+      "text": "Know semi-supervised learning techniques to address applications where unlabeled data is abundant.",
+      "type": "knowledge",
+      "code": "RAPII6"
+    }
+  ],
+  "syllabus_topics": [
+    "Complex supervised learning problems",
+    "Problems with changes in data distribution",
+    "Semi-supervised learning",
+    "Unsupervised learning",
+    "Anomaly detection",
+    "Markov Models",
+    "Reinforcement learning"
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Evaluation sessions",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Virtual Campus Activities (ACV)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Attendance / participation in seminars and tutorials, including online activities (PAR)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical exam (TE)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical exam (PR)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary examination, if the total weight of evaluated activities is less than 50%, the final grade will be \"Not Presented\". Otherwise, the grade is calculated as: Note = ACV * 0.15 + PAR * 0.05 + TE * 0.40 + PR * 0.40. A minimum grade of 4 out of 10 is required for both the theoretical and practical exams; if this is not met, the final grade will be the minimum between 4 points and the calculated note. To pass, a final grade of 5 points or higher is required. For extraordinary examinations, the grade is calculated as: Note = TE * 0.50 + PR * 0.50, with a minimum of 4 points required in both theoretical and practical exams, otherwise the final grade is the minimum between 4 points and the calculated note. Students can carry over grades of 4 or higher from previous theoretical or practical exams. A final grade of 5 points or higher is required to pass.",
+  "bibliography": [
+    "Hastie, T., Tibshirani, R., Friedman, J. H., & Friedman, J. H. (2009). The elements of statistical learning: data mining, inference, and prediction. Springer.",
+    "Bishop, C. M., & Nasrabadi, N. M. (2006). Pattern recognition and machine learning. Springer.",
+    "Sugiyama, M. (2015). Introduction to statistical machine learning. Morgan Kaufmann.",
+    "Barber, D. (2012). Bayesian reasoning and machine learning. Cambridge University Press.",
+    "Han, J., Pei, J., & Kamber, M. (2011). Data mining: concepts and techniques. Elsevier.",
+    "Sutton, R. S., & Barto, A. G. (2018). Reinforcement learning: An introduction. MIT press."
+  ],
+  "isced_f_code": "0611",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-007",
+  "source_language": "es",
+  "source_sha256": "16b150f42095fe478bd2e459a87463f1c22ccda86049052975ca2aa1cc23e28e",
+  "extracted_at": "2026-11-20T06:05:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

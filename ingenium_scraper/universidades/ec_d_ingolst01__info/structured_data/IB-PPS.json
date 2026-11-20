@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Programmierparadigmen und deren Sprachen",
+  "course_name_en": "Programming Paradigms and Their Languages",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": 7,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Completion of the second study section, requiring at least 42 ECTS points from the first study section.",
+    "Solid knowledge and practical experience with at least one procedural, one object-oriented, and one logical programming language (e.g., PROLOG).",
+    "Knowledge of functional programming is advantageous.",
+    "Proficient use of logical formulas.",
+    "Proficient use of grammars for context-free languages."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to distinguish essential programming paradigms and name their differences, advantages, and disadvantages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to recognize the benefits of higher-order programming and apply them to suitable problem statements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to explain the difference between pure and impure functional programming languages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to explain the difference between typed and untyped programming languages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to understand the advantageous influence of type information on code optimization.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to explain the connection between functional languages and the underlying Lambda Calculus.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to describe the difference between lazy and eager evaluation strategies and apply the adequate strategy depending on the problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to form simple equation chains in untyped Lambda Calculus to demonstrate different reduction strategies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to create programs in the strongly typed functional language Haskell.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to implement parsers for context-free languages using monadic higher-order parser combinators in Haskell.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Overview of common programming paradigms: procedural, object-oriented, functional, logical programming",
+    "Fundamentals: the untyped Lambda Calculus",
+    "Introduction to functional programming with Haskell",
+    "Evaluation strategies (eager and lazy)",
+    "Untyped functional languages: Scheme",
+    "Typed functional languages: Haskell, Standard ML, Scala",
+    "Realization of Lambda Calculus constructs in conventional languages like Java and Python",
+    "Implementation of parsers using monadic parser combinators"
+  ],
+  "teaching_methods": [
+    "seminaristic teaching/exercise"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination consists of a 90-minute written exam.",
+  "bibliography": [
+    "PAULSON, Larry, 1996. ML for the working programmer. 2. Auflage. ISBN 978-0-521-56543-1",
+    "HUTTON, Graham, 2007. Programming in Haskell. 2. Auflage. ISBN 978-1-316-62622-1",
+    "SULLIVAN, GOERZEN und STEWART, 2008. Real World Haskell. ISBN 987-0-596-51498-3"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB-PPS",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "35c873a4da96366b312882f44288bc290284d286941e041cc21f0385ac9f6b81",
+  "extracted_at": "2026-11-20T12:35:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

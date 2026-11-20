@@ -1,0 +1,76 @@
+{
+  "course_name_original": "Ingeniería térmica i",
+  "course_name_en": "Thermal Engineering I",
+  "ects": 6.0,
+  "semester": "1Q",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Applies correctly the principles of thermodynamics and heat transfer to solving engineering problems.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Knows and interprets the basic principles of technical thermodynamics. Knows the thermal cycles of Direct Thermal Machines (DTM), as well as the thermodynamic principles that govern them. Uses the basic principles of technical thermodynamics to solve DTM problems.",
+      "type": "competence",
+      "code": "A4.1"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Thermodynamic systems, properties, pure substances and mixtures. Thermodynamic system. Property, state, process and thermodynamic cycle. Efficiency and energy consumption. Ideal gas. Determination of thermodynamic properties of pure substances and mixtures.",
+    "First law of thermodynamics. Energy analysis of systems. Conservation of mass and energy in closed and open systems. Energy analysis of a control volume. Application examples: Nozzles and diffusers; Pumps and compressors; Heat exchangers; Expansion valves.",
+    "Second Law, Entropy and Exergy. Heat Engines, Carnot cycle and formulations of the second law. Concept of entropy. Entropy balance in a control volume. Isentropic processes. Isentropic efficiency in turbines, nozzles, compressors and pumps. Heat transfer and work in internally reversible steady flow processes. Exergy. Exergy balance in closed and open systems.",
+    "Reciprocating engines. Introduction. Power cycles of reciprocating engines. Power and performance.",
+    "Gas turbines. Gas turbine cycles. Gas turbines and performance.",
+    "Steam turbines. Steam power cycles. Steam turbines and performance. Fundamental equations of turbomachines."
+  ],
+  "teaching_methods": [
+    "Introductory activities",
+    "Lecture sessions",
+    "Problem/exercise solving",
+    "Personalized attention"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Problem/exercise solving",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical tests",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Development tests",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade is determined by problem/exercise solving (15%), practical tests (70%), and development tests (15%). The second call exam will account for 100% of the course grade. Fraudulent completion of any evaluative activity using any means will result in a failing grade for that activity, and may lead to disciplinary action.",
+  "bibliography": [
+    "Y. Cengel, M. Boles, Termodinámica, Setena, 2010",
+    "M. Moran, H. Shapiro, Fundamentos de Termodinámica Técnica, Quarta, 2004",
+    "J.C. Bruno, Moodle - Course on Thermal Engineering I",
+    "J. Agüera, Termodinámica Lógica y Motores Térmicos, Sisena, 1999"
+  ],
+  "isced_f_code": "0723",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224108",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224108&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "2c13e1fbb141304e24c9b3610c4a158a05716e36eb0de005a2d13b7f79cee120",
+  "extracted_at": "2026-11-13T22:48:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

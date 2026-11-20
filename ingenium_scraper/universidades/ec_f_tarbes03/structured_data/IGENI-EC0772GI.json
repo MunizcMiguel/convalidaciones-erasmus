@@ -1,0 +1,146 @@
+{
+  "course_name_original": "Evaluation des performances",
+  "course_name_en": "Performance Evaluation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Performance Evaluation Course, Common Core",
+    "Probability Concepts"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Upon completion of the course, the student will be able to model, simulate, and analyze the performance of production systems using Petri nets (particularly non-autonomous and colored) and the software Witness. They will be able to interpret simulation results, identify bottlenecks, and propose concrete improvements to optimize the system's operation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental principles of Petri nets and their extensions (synchronized, timed, interpreted, stochastic, colored).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Gain knowledge of discrete event systems and simulation methods for production systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Getting to grips with Witness software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to model discrete event and production systems using Petri nets adapted to industrial realities.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Conduct simulations using specialized tools such as Witness and PIPE and interpret the obtained results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform a critical analysis of the performance of modeled systems to identify and implement improvement strategies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the challenges related to performance optimization in production environments.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop a rigorous and critical approach to operational decision-making.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Prepare to apply these skills in a professional context, emphasizing quality and process efficiency.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition and importance of Petri nets",
+    "Applications in production systems",
+    "Non-Autonomous Petri Nets: Concepts and general properties",
+    "Synchronized Petri nets: principles and applications",
+    "Timed Petri nets: time management and modeling",
+    "Interpreted Petri nets: event interpretation",
+    "Stochastic Petri nets: probability integration",
+    "Definition and advantages of Colored Petri Nets",
+    "Application examples of Colored Petri Nets in production systems",
+    "Solving exercises on non-autonomous Petri nets (modeling and analysis)",
+    "Solving exercises on colored Petri nets (application to complex systems)",
+    "Introduction to discrete simulation",
+    "Objectives and applications of simulation",
+    "The simulation process",
+    "Modeling approaches",
+    "Introduction to Witness",
+    "Basic modeling elements",
+    "Basic routing laws",
+    "Illustrative example of Witness",
+    "Taking ranges into account",
+    "Variables, Attributes and Resources",
+    "Other routing laws",
+    "Permanent and temporary assembly",
+    "Production machines and multi-cycle machines",
+    "Illustrative example of advanced analysis and optimization",
+    "Creating a production model with concepts of passive and active items, machines and inventories",
+    "Configuration of basic parameters",
+    "Run and analyze results",
+    "Introduction to model validation, highlighting flows, capacities and bottlenecks",
+    "Integrate the notion of production ranges and analyze their contribution to improving item routing",
+    "Integrate resources and understand the differences between activity resources and process resources",
+    "Integrate the concepts of assembly machines, production machines and multi-cycle machines, and understand the differences between machine types",
+    "Execute and analyze results for each type of integrated element",
+    "Select the case study to be modeled by drawing lots from a portfolio of case studies",
+    "Create the model using Witness advanced features",
+    "Analysis of results and suggestions for improvement"
+  ],
+  "teaching_methods": [
+    "Interactive lectures with visual aids and case studies",
+    "Tutorials (TD) in the form of practical exercises",
+    "Practical sessions (TP) involving the use of specialized tools (such as Witness and PIPE)"
+  ],
+  "workload_hours_total": 19.0,
+  "workload_hours_contact": 19.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (Written Exam 1)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1 (Practical Work 1)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "TP2 (Practical Work 2)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (0.5*DS1 + 0.3*TP1 + 0.2*TP2)/1.",
+  "bibliography": [
+    "René David, Hassane Alla. Du Grafcet au Réseaux de Petri. 1997, Editions HERMES",
+    "Marc Bourcerie. Réseaux de Petri, élaboration pour les systèmes de production, cours et exercices corrigés. Ellipses, 2011",
+    "Daniel Noyes. Évaluation des performances. Polycopié de cours, ENIT"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0772GI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "95663ac470ccfc74ab1f4189d9f5f13a9e7a78f4a676fcb876dd5255b6a80b6f",
+  "extracted_at": "2026-11-18T09:52:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

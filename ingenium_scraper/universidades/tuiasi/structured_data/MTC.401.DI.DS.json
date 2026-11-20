@@ -1,0 +1,201 @@
+{
+  "course_name_original": "Sisteme de achizitie si interfete",
+  "course_name_en": "Acquisition Systems and Interfaces",
+  "ects": 3.0,
+  "semester": "7",
+  "year_of_study": 4,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [
+    "Mathematics",
+    "Vibrations",
+    "Basics of Automatic Systems",
+    "Sensors and Transducers"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explains the fundamental principles of data acquisition and the components of an acquisition system",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describes the differences between analog and digital data acquisition",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Interprets the mathematical transformations used in signal processing",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explains the functioning of acquisition boards and the role of their components",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Distinguishes types of filters and analog and digital filtering methods",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyzes the aliasing phenomenon and its effects on measurements",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Defines the main types of interfaces used in acquisition systems and communication between equipment",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Evaluates methods for statistical processing of experimental data",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Uses software tools such as MATLAB and LabVIEW for implementing and testing data acquisition applications",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Designs and implements practical schemes for signal acquisition and processing",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Applies time and frequency analysis techniques for system characterization",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrates acquisition boards (e.g., NI DAQ) into experimental applications",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Applies tensometric measurement and analysis methods",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interprets and utilizes data obtained in signal acquisition and processing",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develops data acquisition programs and hardware-software interfacing solutions",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Adheres to safety and professional ethics standards when working with specialized equipment and software",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Demonstrates rigor, responsibility, and efficiency in carrying out design and experimentation activities",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Collaborates effectively in multidisciplinary teams for the development and testing of acquisition systems",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Shows initiative and autonomy in identifying and solving technical problems in the field of data acquisition",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Constantly updates knowledge through self-study and the use of modern learning resources",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Contributes to the development and implementation of technical projects and software applications in the field of acquisition systems and interfaces",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory problems. Introduction. Role of the SAI discipline in Mechatronics. Application domains. Signals. Definition and classification. Converting signals from analog to digital form and vice-versa.",
+    "Notions of statistics and probability in signal processing. Mean, median, and standard deviation. Variance and peak-to-peak amplitude. Signal-to-noise ratio and coefficient of variation. Examples. Connection between signal and the basic process in statistics. Stationary and non-stationary processes. Examples.",
+    "Running statistics. Histogram. Probability mass function and probability density function. Examples. Numerical noise generation. Precision and accuracy.",
+    "Transformations performed on numerical signals. Z-transform. Transfer function of a digital system. System stability. Numerical examples. Equivalent transfer function. Discrete Fourier Transform (DFT). DFT frequency and definition of amplitude and phase spectra. DFT redundancy. Fast Fourier Transform (FFT) and inverse (IFFT). Numerical examples. Autocorrelation function. Applications. Power spectral density.",
+    "Data acquisition systems. Data acquisition board. Characteristics. Data acquisition chain diagram. Data restitution chain diagram. Description of the role of each component in the data acquisition chain. Global performance parameters of a data acquisition system. NI instrumentation presentation.",
+    "Multiple data acquisition. Advantages of data processing with digital systems compared to analog systems. Multiple data acquisition. Staggered sequential acquisition. Simultaneous sequential acquisition. Parallel acquisition (Delta-Sigma). Comparative performances.",
+    "Theory of time discretization. Sampling. Shannon (Nyquist) Theorem. Aliasing phenomenon. Under-sampling and over-sampling. Solutions for avoiding the aliasing phenomenon. Examples.",
+    "Theory of time discretization. Quantization. Quantization theory. Principle of quantization. Analog-to-digital conversion. Analog-to-digital converter (ADC). Quantization step and quantization noise. Numerical examples of quantization. Dithering phenomenon. Digital-to-analog conversion (DAC). Zero-order-hold method. DAC resolution. Elimination of the sinc function effect generated by the zero-order-hold method. Structure and characteristics of converters. Parallel or flash converter. Single-ramp converter. Dual-ramp converter. Successive approximation converter. Semi-parallel or semi-flash converter.",
+    "Signal filtering. Types of filters. Characteristics. Applications. Signal filtering. Classification of filters. Types of filters and filter characteristics. Analog filters for data conversion (Chebyshev, Butterworth, and Bessel). Digital filters. Applications. Filter comparisons: analog vs. digital.",
+    "Interfaces used in data acquisition. Human-machine interface. Haptic interfaces. Machine-to-machine interfaces. Serial interface; RS-232 interface; Parallel interface; I2C interface; USB interface; PCMCIA interface; HPIB interface; ETHERNET interface; other interfaces.",
+    "Occupational safety. Generalities. LabVIEW programming concepts. Signal representation and parameter control.",
+    "Statistical signal processing. Specific LabVIEW commands. Case study on concrete applications: interpretation of statistical parameter values for various types of signals and noises, plotting histograms, probability density functions, and cumulative distribution functions.",
+    "LabVIEW, MATLAB, and SIMULINK applications of the Z-transform. LabVIEW, MATLAB, and SIMULINK applications of the Fourier transform.",
+    "Signal acquisition. Signal acquisition from the sound card. Signal acquisition via NI-DAQ acquisition boards, on PCMCIA and USB interfaces.",
+    "Acquisition of a signal using tensometric methods. Use of the VISHAY-P 3 strain gauge bridge.",
+    "Types of digital filters and signal filtering. Low-pass, high-pass, band-pass, and band-stop filters.",
+    "Data acquisition with the SKF Microlog device. LabVIEW application."
+  ],
+  "teaching_methods": [
+    "Video projector presentations",
+    "Classical lectures",
+    "Blackboard presentations",
+    "Materials distributed via Google Classroom",
+    "Computer-based laboratory activities (LabVIEW, MATLAB)",
+    "Experiments on stands equipped with acquisition systems and sensors",
+    "Participative lectures",
+    "Applied discussions",
+    "PowerPoint presentations",
+    "Practical demonstrations",
+    "Synthetic recapitulation of previous concepts",
+    "Concrete examples",
+    "Case studies",
+    "Discovery learning",
+    "Simulations",
+    "Action-based methods (designing acquisition schemes, signal analysis, solving technical problems)"
+  ],
+  "workload_hours_total": 81.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam (sumative evaluation)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory activities and colloquium",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "A minimum grade of 5 is required for the laboratory component. A minimum grade of 5 is required for the final exam (which represents at least 50% of the final verification score).",
+  "bibliography": [
+    "Viorel Paleu, Sisteme de achizitie și interfete (Achizitia si procesarea semnalelor, editia a 2-a, revizuită), note de curs, 121 p. online pe Researchgate. https://www.researchgate.net/publication/316738787 _ Sisteme _ de _ achizitie _ si _ interfete _ - _ Curs _ pentru _ studentii _ facultatii _ de _ Mecanica",
+    "Haasz, V. and Madani, K. eds., 2022. Advanced Data Acquisition and Intelligent Data Processing. CRC Press.",
+    "Koch, A.W., 2023. Measurement and Sensor Systems. Springer Series in Measurement Science and Technology.",
+    "Mari, L. Wilson, M. and Maul, A. 2023. Measurement across the sciences: Developing a shared concept system for measurement (p. 307). Springer Nature.",
+    "Viorel Paleu, Achizitia si procesarea semnalelor, Editura Tehnopress, Iasi, pp. 327, 2008, [SBN 978-973-702-506-7",
+    "Mitu Nicolae, Viorel Paleu, Introducere in MATLAB Vol. I, Indrumar de laborator, Editura Tehnopress, Iasi, pp. 357, 2008, ISBN 978-973-702-507-4",
+    "Smith, S. W. The Scientist and Engineer's Guide to Digital Signal Processing, 2nd Edition, California Technical Publishing, San Diego, 1997-1998 (on-line pe Internet).",
+    "Leich, H. Dutoit, T. Traitement du signal - Notes de cours, Faculte Polytechnique de Mons, Belgium, (publicat pe internet).",
+    "Gafitanu, M. Cretu, Sp., Dragan, B. Diagnosticarea vibroacustica a masinilor si utilajelor, Ed. Tehnica, 1989",
+    "Viorel Paleu, Sisteme de achizitie si interfete și Diagnosticare vibroacustică, Lucrari simulate pe calculator in Matlab, Simulink și LabVIEW (pe internet) L1 : https://drive.google.com/file/d/0B6eyGaAXRiTAajZvYzdoTVA0OU0/view?usp=sharing L2 : https://drive.google.com/file/d/0B6eyGaAXRiTAWG9YWmJXM1p0ZGM/view?usp=sharing L3 : https://drive.google.com/file/d/0B6eyGaAXRiTAeTEwakttOGo0Yms/view?usp=sharing L4 : https://drive.google.com/file/d/0B6eyGaAXRiTAQklkZmhic1ViVE0/view?usp=sharing L5 : https://drive.google.com/file/d/0B6eyGaAXRiTASUNFWmlIaXY0OEU/view?usp=sharing L6 : https://drive.google.com/file/d/0B6eyGaAXRiTAUlozMlhiUzlEQ3c/view?usp=sharing L7 : https://drive.google.com/file/d/0B6eyGaAXRiTAY0Iya0JQZHVEb28/view?usp=sharing L8 : https://drive.google.com/file/d/0B6eyGaAXRiTAaFFNeG1DcWlTQTA/view?usp=sharing",
+    "V. Paleu, Lucrari aplicate la disciplinele Sisteme de achizitie si interfete, Diagnosticare vibroacustică si Tribologie L1 : https://drive.google.com/file/d/0B6eyGaAXRiTAVnBBT2tWdllIU3M/view?usp=sharing L2 : https://drive.google.com/file/d/0B6eyGaAXRiTAOFd6MWxPbk1 YbEk/view?usp=sharing L3 : https://drive.google.com/file/d/0B6eyGaAXRiTANndoT2pNeFFmZkk/view?usp=sharing L4 : https://drive.google.com/file/d/0B6eyGaAXRiTAQXFteXBkdFFzbzg/view?usp=sharing L5 : https://drive.google.com/file/d/0B6eyGaAXRiTAQUtSRklRSXlWU2s/view?usp=sharing L6 : https://drive.google.com/file/d/0B6eyGaAXRiTANmhMNV9Nek5zNU0/view?usp=sharing L7 : https://drive.google.com/file/d/0B6eyGaAXRiTAaUE3N3ItNDFnTnc/view?usp=sharing",
+    "Viorel Paleu, Sisteme de achizitie si interfete (Achizitia si procesarea semnalelor, editia a 2-a, revizuită) Ed. PIM 2013, pp. 121, ISBN 978-606-13-1635-9"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "MTC.401.DI.DS",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an4_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "fabe686ed54b7ba0df60939d60c01a4b07501a321f44ddf86281a29c49705226",
+  "extracted_at": "2026-11-13T01:14:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

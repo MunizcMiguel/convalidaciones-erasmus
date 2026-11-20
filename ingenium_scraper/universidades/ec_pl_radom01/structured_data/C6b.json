@@ -1,0 +1,84 @@
+{
+  "course_name_original": "CAM systems",
+  "course_name_en": "CAM Systems",
+  "ects": 5.0,
+  "semester": "6",
+  "year_of_study": 1,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge and skills in the field of materials science, metrology, technology processes, design record."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to use practical CAD/CAM computer-aided manufacturing techniques (basic level) to design technologies for machining machine parts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knows and understands the principles of engineering graphics and the tools used in the preparation of technical documentation; Has knowledge of computer-aided design, manufacturing and operation of mechanical.",
+      "type": "knowledge",
+      "code": "K_WG04 K_WG11"
+    },
+    {
+      "text": "Is able to use computer methods in solving engineering tasks in the field of design, manufacturing and operation of machinery and equipment; is able to assess the suitability of routine methods and tools for solving a simple engineering task of a practical nature in the design, manufacture and operation of machinery and equipment, and select and apply the appropriate method and tools;",
+      "type": "skill",
+      "code": "K_UW05 K_UW09"
+    },
+    {
+      "text": "Is ready to complete and critically evaluate specialized knowledge and is able to select sources of knowledge and methods of learning appropriate for himself/herself and others; is willing to comprehensively analyze and effectively carry out assigned tasks, and in the event of difficulties in solving them, use expert opinion;",
+      "type": "competence",
+      "code": "K-KK01 K-KK02"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. Historical outline of the development of CAD/CAM systems.",
+    "Assessment criteria for CAD/CAM systems.",
+    "CAD elements in CAM software: 2D/3D design (edge, surface, solid models); exchange of drawing data between CAD/CAM systems.",
+    "Application of professional CAM packages in 2D/3D machining on the example of MasterCAM or EdgeCAM.",
+    "Batch programs in CAM systems - as elements of advanced technological design (on the example of \"C-hook\" programs in the MasterCAM package).",
+    "Computer integrated manufacturing (CIM) systems.",
+    "Construction of a CAD/CAM system, discussion of individual modules and their application.",
+    "Creation of simple 2D/3D geometry and import of geometry from another CAD system.",
+    "Preparation of the machined part for work in the lathe/mill machining module, including: defining the blank, base point, drawing layers, etc.",
+    "Selection of the machine tool and post-processor for the selected CNC control system.",
+    "Selection of machining strategies, tools and machining parameters.",
+    "Processing simulation.",
+    "Creating a control file for a CNC machine."
+  ],
+  "teaching_methods": [
+    "Informational lecture (regular)",
+    "Practical exercises (laboratory)"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [],
+  "assessment_rules": "The condition for passing the course is to achieve all the required learning outcomes specified for the course. The form of passing the course, including lectures and project classes, is based on control work.",
+  "bibliography": [
+    "Mastercam Lathe Tutorial. Training materials, 2021",
+    "Mastercam Basic Tutorial. Training materials, 2022",
+    "Mastercam Solid Tutorial. Training materials, 2020",
+    "Mastercam Work Coordinate System. Training materials, 2018",
+    "Mastercam Dynamic Milling Tutorial. Training materials, 2018",
+    "EdgeCAM Getting Started Guide. Training materials, 2022",
+    "Gaurav Verma, Matt Weber: Mastercam 2022 - 2024 Black Book. 3 – 5th ed. Edition. CAD CAM CAE Works, 2022 – 2024",
+    "Zhuming Bi, Xiaoqin Wang: Computer Aided Design and Manufacturing. Wiley-ASME Press Series, 2020"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "C6b",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/C. Group of courses to choose from/C6b_ME_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "1eb793ffdec792917784f968e0e18134b4088f5fba2317aa440a2303f6f85d9c",
+  "extracted_at": "2026-11-18T10:04:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

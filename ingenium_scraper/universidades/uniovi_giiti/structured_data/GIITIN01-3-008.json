@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Sistemas Distribuidos",
+  "course_name_en": "Distributed Systems",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Redes de Computadores",
+    "Sistemas Operativos",
+    "Fundamentos de Informática",
+    "Introducción a la programación",
+    "Metodología de la programación",
+    "Fundamentos de Computadores y Redes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and application of the characteristics, functionalities and structure of Distributed Systems.",
+      "type": "competence",
+      "code": "ECR11.1"
+    },
+    {
+      "text": "Design and implement applications based on Distributed Systems, Computer Networks and the Internet.",
+      "type": "competence",
+      "code": "ECR11.4"
+    },
+    {
+      "text": "Knowledge and application of the fundamental principles and basic techniques of distributed programming.",
+      "type": "competence",
+      "code": "ECR14.2"
+    },
+    {
+      "text": "Understand the architectures, functionalities and problems of distributed systems.",
+      "type": "knowledge",
+      "code": "RS1"
+    },
+    {
+      "text": "Understand the infrastructure services of distributed systems to design and implement applications based on them.",
+      "type": "knowledge",
+      "code": "RS4"
+    },
+    {
+      "text": "Know and apply the fundamental principles of distributed system development such as synchronization and data adaptation and the basic programming techniques for them.",
+      "type": "skill",
+      "code": "RS5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Distributed Systems.",
+    "Communication mechanisms (Inter-process communication, Information encoding, Remote Invocation, Message queues, HTTP encapsulation)",
+    "Standards and architectures of distributed systems (Web Services, decentralized architectures)",
+    "Infrastructure Services (Location. Naming. Time and coordination/synchronization. Replication and federation. Distributed Transactions. Fault tolerance and recovery. Security)",
+    "Emerging technologies (Introduction to Grid. Introduction to Cloud Computing).",
+    "Introduction to a distributed system development environment.",
+    "Inter-process communication practices (sockets, concurrency, RPCs).",
+    "Standards and architectures practices (Web Services, p2p).",
+    "Infrastructure services practices (coordination, security).",
+    "Practice with emerging technologies."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual study",
+    "Individual assignments",
+    "Group assignments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exercise 1 (PRAC1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exercise 2 (PRAC2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Group Work (TG)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theory grade (TEO) is the average of T1 and T2, and the practical grade (PRAC) is the average of PRAC1 and PRAC2. It is mandatory to obtain at least 5.0 out of 10 in TEO, PRAC, and TG to pass the subject. If all minimums are met, the final grade is calculated as 0.4 * TEO + 0.4 * PRAC + 0.2 * TG; otherwise, the grade is the minimum of the calculated grade and 4.0. For the extraordinary call, a single face-to-face test (PP) covers all theoretical and practical content. If TEO ≥ 5 or PRAC ≥ 5 was achieved in the ordinary call, that part's grade is kept, and only the failed part needs to be re-examined. The PP grade is the average of its theoretical and practical parts, and a minimum of 5.0 out of 10 is required. The TG grade from the ordinary call is maintained without a minimum requirement. The final grade is 0.8 * PP + 0.2 * TG; if the minimum in PP is not met, the grade is the minimum of the calculated grade and 4.0. For differentiated evaluation, students are exempt from group work, and the final grade is calculated as 0.50 * TEO + 0.50 * PRAC for the ordinary call, and 100% PP for the extraordinary call.",
+  "bibliography": [
+    "Andrew S. Tanenbaum, Maarten van Steen, Sistemas distribuidos: principios y paradigmas. Pearson Educación, 2008.",
+    "George Colouris, Jean Dollimore, Tim Kindberg, Sistemas Distribuídos. Conceptos y Diseño. Adisson Wesley, 2001",
+    "M.L.Liu. Computación Distribuida. Fundamentos y Aplicaciones. Pearson-Addison Wesley, 2009."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-3-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-3-008",
+  "source_language": "es",
+  "source_sha256": "342d90e66c2aefed2b998b5839c8680303cd077b2e8bfcfebe326be1c97c4054",
+  "extracted_at": "2026-11-20T05:54:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

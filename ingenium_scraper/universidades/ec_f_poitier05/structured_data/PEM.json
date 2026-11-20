@@ -1,0 +1,68 @@
+{
+  "course_name_original": "Programmation Embarquée / Programming embedded systems",
+  "course_name_en": "Programming Embedded Systems",
+  "ects": 9.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Informatique Numérique (S1)",
+    "Introduction aux Systèmes Embarqués (S1)",
+    "Ingéniérie des Systèmes critiques (S3)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Detect potential problems when targeting embedded programs on different hardware architectures, requiring knowledge of: Major computer families and their differences (32 vs 64 bits, use of call stack, FPU, vector architectures); The impact of architecture on memory representation (integer representation sizes, alignment on memory words, etc.); The impact of local optimizations on execution time (caches, RAM, pipeline, prefetch, etc.); Knowledge of the specific features of multicore and multi-core processors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the low-level operation of programs on different architectures (8, 32, 64 bits, particularly for ARM, x86 architectures, etc.).",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Hardware architectures",
+    "The memory bottleneck from Harvard/von Neumann architectures to the present (SDRAM banks) and cache memories",
+    "Memory partitioning by virtual memory",
+    "Internal structure of a processor",
+    "Parallel architectures",
+    "Hyper-threading",
+    "Multicore",
+    "Heterogeneous MPSoC architecture",
+    "Manycore",
+    "Software architectures",
+    "RTOS vs GPOS",
+    "Low-level code",
+    "Compilation to assembly code and machine code",
+    "Stack and heap operation",
+    "Differences between 32-bit and 64-bit architectures",
+    "Compilation options and produced code optimization"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "E. Grolleau, J. Hugues, Y. Ouhammou, H. Bauer, « Introduction aux systèmes embarqués temps réel, Conception et mise en œuvre », Dunod, 2018",
+    "F. Cottet, E. Grolleau, S. Gérard, J. Hugues, Y. Ouhammou, S. Tucci -Piergiovanni, « Systèmes temps réel embarqués - 2e édition, Spécification, conception, implémentation et validation temporelle », Dunod, 2014"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "ISAE-ENSMA (École nationale supérieure de mécanique et d'aérotechnique)",
+  "institution_slug": "ec_f_poitier05",
+  "degree": "Diplôme d'ingénieur ISAE-ENSMA (FISE) - 2e année (syllabus A2)",
+  "course_code": "PEM",
+  "academic_year": "2025-26",
+  "source_url": "https://ensma.fr/wp-content/uploads/2025/02/Syllabus-FISE-ENSMA-A2-2025-2026-previsionnel.pdf",
+  "source_language": "fr",
+  "source_sha256": "3cd69be650e98814af290f5961936dccb8b91b7344357bd6e8993594136e13ce",
+  "extracted_at": "2026-11-20T09:15:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

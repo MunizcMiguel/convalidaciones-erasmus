@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Electronics for industry",
+  "course_name_en": "Electronics for industry",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student has basic knowledge of measurement, control and protection systems in power electronic devices.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the relationships between gate pulse parameters and static and dynamic properties of semiconductor power switches.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Has knowledge of galvanic isolation of switch control circuits and converter power circuits.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Student has knowledge of regulation, signal synchronization and their time dependencies in power electronic devices.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Can design and implement voltage, current, position, and rotational speed measurement systems with pulse-rotary transducers.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can execute a simple control circuit for an IGBT transistor with a sawtooth voltage generator and active short-circuit protection.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Student can work in a group and be responsible for jointly implemented tasks.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Royer's self-oscillating converter.",
+    "Voltage and current measurements using voltage and current separators and LEM-type transducers.",
+    "IGBT gate pulse generators. Active short-circuit protection.",
+    "Voltage regulation circuits in monolithic stabilizers.",
+    "Frequency-to-voltage converters in rotational speed measurement systems.",
+    "Rotor position measurement in permanent magnet motors.",
+    "Two-switch transformer DC/DC forward converter.",
+    "Emergency operating states of a DC/DC forward converter.",
+    "DC converter controllers.",
+    "Three-phase phase-locked loop.",
+    "Current and voltage measurement systems (3h) Voltage and current sensors. Current and voltage separators. Royer's self-oscillating converter. Modulation and demodulation. Inversive operation of transistors. LEM-type converters.",
+    "Speed and position measurement systems (3h) Photoelectric and magnetic pulse-rotary speed sensors and position sensors in permanent magnet motors. Distinction of rotation direction. Frequency-to-voltage converters.",
+    "Monolithic stabilizers (2h) Voltage and current regulation circuits in three-terminal monolithic stabilizers. Stabilizer protection in emergency operating states.",
+    "Gate pulse generators (4h) Gate pulse generators for semiconductor power switches SCR, GTO, IGBT, IGCT, MCT. Influence of gate pulse parameters on static and dynamic properties of power switches with particular emphasis on SCR thyristors and IGBT transistors.",
+    "Disturbances in gate circuits of power switches (2h) Parasitic capacitive and inductive couplings. Safe operating area. Methods for limiting and eliminating disturbances. Current loop. Time dependency circuits.",
+    "Overload and short-circuit protection of power switches (2h) Active short-circuit protection of semiconductor power switches.",
+    "Galvanic isolation (4h) Galvanic isolation of power sources in control circuits of semiconductor power switches. Externally controlled DC/DC converters: forward, flyback and push-pull. Current-voltage characteristics, operating states: continuous and discontinuous currents, commutation aiding circuits.",
+    "Pulse transformers (2h) Magnetic materials. Distortion of transformed pulses. Emergency operating states related to transformer core saturation.",
+    "Control systems for DC converters (4h) Control loop elements in DC converter control systems: analog controllers, non-linear and asymmetric controllers, speed and acceleration setpoints, synchronized filters. Blockage and equalizing current control elements, non-linear circuits in DC converter control systems.",
+    "Autonomous inverter controllers (4h) Unipolar and bipolar pulse width modulation. Pulse distribution circuits. Voltage-controlled generators. Three-phase phase-locked loop PLL."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Group work",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    },
+    {
+      "method": "Involvement in teamwork",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed by a test. Laboratory classes are assessed based on the execution of the classes, a report, and involvement in teamwork. Students must be prepared for lab exercises, which may be verified by an oral or written colloquium. Passing the module requires passing all laboratory classes.",
+  "bibliography": [
+    "1. Charoy A.: Zakłócenia w urządzeniach elektronicznych. WNT, Warszawa 1999",
+    "2. Ferenczi O: Zasilanie układów elektronicznych. WNT, Warszawa 1989",
+    "3. Kaźmierkowski M., Wójciak A.: Układy sterowania i pomiarów w elektronice przemysłowej. WKiŁ. Warszawa 1979",
+    "4. Kuta S., Krajewski G., Jasielski J.: Układy elektroniczne. Wydawnictwo AGH, Kraków 1994",
+    "5. Napieralski A., Napieralska M.: Polowe półprzewodnikowe przyrządy dużej mocy. WNT, Warszawa 1995"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.03201.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/9b5b2ae6-50c3-4188-9253-1a326dd836fa.html",
+  "source_language": "pl",
+  "source_sha256": "0294c6fd10a16cb1c010b2cb038699df212db0ac975cbe3d47d4574f6aac5531",
+  "extracted_at": "2026-11-20T09:02:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

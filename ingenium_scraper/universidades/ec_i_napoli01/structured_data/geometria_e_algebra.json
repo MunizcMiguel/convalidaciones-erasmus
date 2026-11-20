@@ -1,0 +1,67 @@
+{
+  "course_name_original": "Geometria E Algebra",
+  "course_name_en": "Geometry and Algebra",
+  "ects": 6.0,
+  "semester": "II",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "The mathematical content of secondary school curricula."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students must acquire the basic tools of linear algebra and geometry. The objective of this course is, on the one hand, to accustom the student to deal with formal problems, using appropriate tools and correct language, and on the other hand to solve specific algebraic and geometric problems with the classical tools of linear algebra.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The student must demonstrate knowledge of the notions (definitions, statements, proofs if foreseen by the program) related to the algebraic and geometric structures studied (vector spaces, spaces of elementary geometry in dimension 2 and 3, matrix spaces) and the computational tools developed, and be able to understand related topics by elaborating on the acquired notions. Finally, they must demonstrate the ability to apply what has been learned in solving verification exercises prepared by the student. The student must demonstrate knowledge of the problems related to algebraic structures.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of set theory and algebraic structures: Union, intersection, complement, Cartesian product; correspondences and relations, applications or functions, restrictions, injective, surjective, bijective applications, composition of applications, characterization of bijective applications; equivalence relations (example: equipollence between applied vectors). Internal operations: associative property, existence of the neutral element (and uniqueness), existence of symmetric elements (and uniqueness, if the operation satisfies the associative property), commutative property (examples: addition operations in numerical sets and on free and applied vectors). Abelian and non-Abelian groups (examples). Definition of a field. Examples: field of real numbers, field whose support contains only two elements. External operations (example: external multiplication operation on free and applied vectors).",
+    "Vector and Euclidean spaces (over a field): Definition, elementary properties; examples (numerical vector spaces, polynomial spaces, matrix spaces, free and applied vector spaces of elementary geometry). Linear combinations, linear dependence and independence and their characterizations; generating systems. Vector subspaces and characterization; sets of vectors that generate the same vector subspace; bases and components of a vector in an ordered basis; theorem of extraction of a basis from a generating system; Steinitz's lemma and consequences: dimension of a vector space, theorem of completion into a basis of a linearly independent set; intersection subspace, sum subspace, direct sum, Grassmann's relation. Euclidean vector spaces: scalar product in a vector space over real numbers: length of a vector, angle between two vectors, existence of orthonormal bases: Gram-Schmidt process; canonical (or natural) scalar product between numerical vectors. Scalar product between geometric vectors. Calculation of a scalar product using the components of vectors in an orthonormal ordered basis. Pythagorean theorem.",
+    "Matrices and determinants: Elementary row operations; row-reduced echelon matrices. Rank of a matrix and number of pivots of an echelon matrix. Triangular and diagonal matrices; row-by-column product; classical definition of determinant (using permutations) and elementary properties (without proof); characterization of maximum rank by non-zero determinant; methods for calculating the determinant: statements of Laplace's Theorem and the second Laplace's Theorem; statement of Kronecker's Theorem; invertible matrices and determination of the inverse matrix; similar matrices.",
+    "Linear systems: Solutions, compatibility (Rouchè-Capelli's Theorem); Cramer's Theorem; echelon reduction method (Gaussian elimination method) and resolution of a system of linear equations; determination of a basis for the vector space of solutions of a homogeneous linear system; every subspace of a numerical vector space is the solution space of a homogeneous linear system and vice versa: Cartesian and parametric representation of numerical vector subspaces.",
+    "Linear mappings: Definition and first properties; conservation of linear dependence; kernel and image; characterization of injective and surjective linear mappings; fundamental theorem of linear mappings; endomorphisms, isomorphisms; isomorphism associated with an ordered basis; associated matrices and change of basis matrix. Statement of the Dimension Theorem. Similarity relation between matrices associated with endomorphisms in different ordered bases.",
+    "Diagonalization of endomorphisms and matrices: Eigenvalues, eigenvectors, and eigenspaces of endomorphisms (and square matrices); characteristic polynomial; geometric multiplicity and algebraic multiplicity of an eigenvalue; characterization of diagonalizable endomorphisms and matrices by the existence of a basis of eigenvectors; determination of eigenvalues and a basis of eigenvectors of a diagonalizable endomorphism and a diagonalizable matrix.",
+    "Euclidean (affine) spaces over a field: Definition, Cartesian (affine) frames and coordinates of a point, Euclidean (affine) subspaces, definition of parallelism, skew lines, parametric and Cartesian representation of Euclidean (affine) subspaces. Study of incidence and parallelism between subspaces. Orthogonality conditions between subspaces in dimensions 2 and 3. Distance between sets of points; distance from a point to a hyperplane; study of the distance between Euclidean subspaces in dimensions 2 and 3, Theorem of the common perpendicular. Definition of improper and proper pencils of planes in dimension 3."
+  ],
+  "teaching_methods": [
+    "Frontal lessons",
+    "Exercise sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (multiple choice, free response questions, numerical exercises)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography",
+    "assessment_methods"
+  ],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "geometria_e_algebra",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "2e830543c7154f0e821958b0061449c075c11f836ca6b9557acaef8423430166",
+  "extracted_at": "2026-11-20T08:19:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

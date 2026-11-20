@@ -1,0 +1,130 @@
+{
+  "course_name_original": "SISTEMI DI CONTROLLO canale 1",
+  "course_name_en": "CONTROL SYSTEMS channel 1",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Methodologies for designing feedback control systems using transfer functions or state-space representations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The concepts studied are illustrated through examples from various application contexts.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student will be able to design controllers that ensure the satisfaction of specifications regarding stability, response precision, and disturbance rejection, using techniques that operate in the time or frequency domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to choose the most suitable control methodologies for specific problems and evaluate the complexity of the proposed solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The course activities allow the student to be able to communicate/share the design specifications of a feedback control scheme, as well as the design choices and design methodologies of the related controllers.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "In addition to the classic learning abilities provided by the theoretical study of the teaching material, the course delivery methods aim to create a student mindset oriented towards the design of controllers capable of satisfying a series of design specifications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The course provides methodologies for the synthesis of controllers that guide assigned processes in such a way that the overall system satisfies certain specifications. Most of these methodologies refer to processes that can be modeled as linear and stationary systems, feedback control schemes, and the use of transfer functions in the Laplace domain, or the Zeta transform, or state-space representations in the time domain.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Moreover, the course provides examples and applications of control schemes in which the aforementioned methodologies are applied. In fact, the concepts studied are illustrated through examples from various application contexts.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "In general terms, the expected learning outcome is that the student has learned and is able to use the aforementioned methodologies.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "In particular, at the end of the course, the student will be able to design controllers that ensure the satisfaction of specifications regarding stability, response precision, and disturbance rejection, using methodologies that operate in the time or frequency domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will also be able to choose among the various methodologies learned the most efficient ones for a specific proposed problem; for example, those that satisfy the design specifications with a controller that is, as far as possible, not very complex and therefore easily implementable.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will also be able to know the rudiments of advanced model-based control methodologies such as Model Predictive Control and data-driven control methodologies such as Reinforcement Learning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The course activities also aim to create a critical spirit in students that enables them to communicate, describe, share and critically evaluate (also from an ethical point of view) the design specifications, design methodologies, and applications for which the designed control systems can be used.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The course delivery methods aim to create a student mindset oriented towards design; for example, evaluating the advantages/disadvantages of the various possible methodological approaches for various design solutions, analyzing the degrees of freedom offered by the various design solutions, identifying the implementation problems inherent in the concrete application of these design solutions.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The role of automatics in ICT: examples and applications.",
+    "Problems inherent in process modeling.",
+    "Recalls concerning the representations of a process in the time domain and in the Laplace domain and related relations.",
+    "Control schemes.",
+    "Reachable/unreachable, observable/unobservable eigenvalues; hidden eigenvalues in a process and in the interconnection of processes; stabilizability of a process.",
+    "Stabilization of processes with Routh's criterion.",
+    "Eigenvalue assignment in the Laplace domain.",
+    "Stabilization techniques with the root locus.",
+    "Synthesis techniques in the Laplace domain of continuous-time controllers that simultaneously satisfy stability, tracking, and disturbance rejection specifications.",
+    "Synthesis techniques in the zeta transform domain of discrete-time controllers; finite-time response.",
+    "Synthesis, based on harmonic response (Bode and Nyquist diagrams), of controllers that simultaneously satisfy stability, bandwidth, phase margin, etc. specifications.",
+    "Eigenvalue assignment in the time domain with state feedback and with output feedback (separation principle).",
+    "The asymptotic state observer.",
+    "Introduction to advanced control techniques and their integration with Artificial Intelligence methodologies: Model Predictive Control, Neural Networks, Reinforcement Learning, Chat GPT."
+  ],
+  "teaching_methods": [
+    "Traditional lectures using a blackboard"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam consisting of three questions (two problems and one theoretical topic)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation takes place mainly through a written exam consisting of three questions related to problems and/or topics covered during the course (generally, two problems and one topic). Each of the three questions is assigned a score from 0 to 10. To pass the exam, a total score of not less than 18/30 must be achieved across the three questions, and at least two of the three questions must have a sufficient answer (i.e., a score of at least 6/10). A score of 30 cum laude is assigned to students who, in addition to correctly solving the problems, have demonstrated excellent synthetic and descriptive abilities in their answers to the theoretical topic. During the exam, students are allowed to consult texts or notes.",
+  "bibliography": [
+    "A. Isidori: “Sistemi di Controllo”, Vol. 1 e 2, Siderea, 1993",
+    "R.C. Dorf, R.H. Bishop, \"Controlli Automatici\", Prentice Hall, 2010",
+    "F. Delli Priscoli: \"Dispense di problemi di controlli automatici \"",
+    "Sutton, Barto, \"Reinforcement learning: an Introduction\"",
+    "D. J. Kelleher, \"Deep Learning\""
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "1044385",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/2/2/c889e73e-6f32-4b0c-a2a4-3e9504e191cf",
+  "source_language": "it",
+  "source_sha256": "677d7cf706673bec2d304f2251eeb72e1ab23bd11b81b69feea4b5a0d4646f1a",
+  "extracted_at": "2026-11-20T09:24:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

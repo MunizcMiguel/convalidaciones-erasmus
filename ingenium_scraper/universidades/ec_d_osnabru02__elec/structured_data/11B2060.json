@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Maschinelles Sehen",
+  "course_name_en": "Machine Vision",
+  "ects": 5.0,
+  "semester": "Summer",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Programming knowledge",
+    "Mathematics knowledge (especially vector and matrix calculus)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have a basic knowledge of image data representation, know the procedure for extracting information, and know fundamental image processing algorithms as well as the basics of Artificial Neural Networks for image recognition.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students deepen their programming skills and know the steps of image processing from pixel representation to the extraction of knowledge from images using selected algorithms and methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "After successful completion of this module, students can implement image processing algorithms and solve simple classification tasks using Artificial Neural Networks.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Image representation and storage",
+    "Image processing – point operations, filters (linear/nonlinear), geometric transformations",
+    "Object extraction and representation in binary images",
+    "Fundamentals of Artificial Neural Networks (ANN) – Deep NN, Convolutional NN, datasets",
+    "Features for object recognition (classical BV and ANN)",
+    "Object and image classification (classical and with ANN)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Lab activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Project report (written)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is either a written project report (approx. 10-15 pages with a 20-minute explanation) or an oral examination (details as per the General Examination Regulations). The ungraded assessment is experimental work, consisting of approximately 5 experiments in total.",
+  "bibliography": [
+    "W. Burger und M. J. Burge: Digitale Bildverarbeitung - Eine Einführung mit Java und ImageJ. 3. Auflage, Springer-Verlag, 2015.",
+    "R. C. Gonzalez, R. E. Woods: Digital Image Processing. Pearson International, 2008.",
+    "Pierre Soille: Morphological Image Analysis - Principles and Applications. Second Edition. Springer, 2004.",
+    "K. Dawson-Howe: A practical introduction to computer vision with openCV. John Wiley & Sons, 2014.",
+    "A. Kaehler und G. Bradski: Learning OpenCV 3: computer vision in C++ with the OpenCV library. O'Reilly Media, Inc., 2016.",
+    "A. Dadhich: Practical Computer Vision: Extract Insightful Information from Images Using TensorFlow, Keras, and OpenCV. Packt Publishing Ltd, 2018.",
+    "A. Géron: Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O'Reilly Media, 2019."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B2060",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "9e19143642078b3e864a48e137fe21a61d0ef017cf3287e0fb6e5be9a78c6586",
+  "extracted_at": "2026-11-20T12:32:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

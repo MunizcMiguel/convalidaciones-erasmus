@@ -1,0 +1,148 @@
+{
+  "course_name_original": "Comunicaciones Digitales",
+  "course_name_en": "Digital Communications",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Álgebra lineal (1st semester)",
+    "Cálculo (1st semester)",
+    "Estadística (2nd semester)",
+    "Señales y sistemas (3rd semester)",
+    "Teoría de la comunicación (4th semester)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Correctly and fluently handle logarithmic units of power, gain, and attenuation used in communication systems.",
+      "type": "skill",
+      "code": "RA-8.1"
+    },
+    {
+      "text": "Apply the fundamentals of time and frequency domain analysis to solve problems in communication systems.",
+      "type": "skill",
+      "code": "RA-8.2"
+    },
+    {
+      "text": "Characterize information, as a signal and as a stochastic process, to be transmitted by a communication system, as well as the disturbances that limit the performance of said system.",
+      "type": "skill",
+      "code": "RA-8.3"
+    },
+    {
+      "text": "Describe and distinguish the functional blocks of analog and digital communication systems.",
+      "type": "knowledge",
+      "code": "RA-8.4"
+    },
+    {
+      "text": "Obtain the fundamental parameters of analog and digital communication systems.",
+      "type": "skill",
+      "code": "RA-8.5"
+    },
+    {
+      "text": "Understand the limitations and performance of different analog and digital modulation systems.",
+      "type": "knowledge",
+      "code": "RA-8.6"
+    },
+    {
+      "text": "Conveniently evaluate the trade-off between bandwidth and power consumption to achieve a certain quality in a given analog or digital communication system configuration.",
+      "type": "skill",
+      "code": "RA-8.7"
+    },
+    {
+      "text": "Assimilate the fundamentals of decision theory and signal space to apply them in solving signal detection problems in digital communication systems.",
+      "type": "skill",
+      "code": "RA-8.8"
+    },
+    {
+      "text": "Understand the main analog and digital modulation techniques to identify the most appropriate technique in a given transmission configuration.",
+      "type": "knowledge",
+      "code": "RA-8.9"
+    },
+    {
+      "text": "Discuss and evaluate in a group the most appropriate analog and/or digital modulation technique under given operating conditions and restrictions.",
+      "type": "competence",
+      "code": "RA-8.10"
+    },
+    {
+      "text": "Apply knowledge of different technological alternatives for deploying communication systems to functionally design systems that meet certain pre-imposed requirements and performance.",
+      "type": "skill",
+      "code": "RA-8.11"
+    }
+  ],
+  "syllabus_topics": [
+    "Tools and useful parameters in digital communication systems. Digital communication system model. Signal and noise representation in signal space. Gram-Schmidt algorithm. Decision criteria. Symbol and bit error probability. Q function and its properties. Error probability bounds. Parameters related to error probability: Eb/N0, Ec/N0, C/N, S/N. Approximate calculation of Eb/N0 for generic constellations. Power gain of one modulation over another. Spectral and power efficiency. Hartley-Shannon formula and Shannon channel capacity limit.",
+    "Systems based on amplitude and/or phase modulations under Gaussian channels. Generic block diagram. Conditions for no inter-symbol interference (ISI). Nyquist criterion and consequences. Minimum bandwidth. Raised cosine pulses. Consequences of truncation. Eye diagram. Analysis of amplitude and/or phase modulations (PAM, QAM, PSK, QPSK, OQPSK and DPSK): temporal, spectral and signal space representation, error probability in Gaussian channel, spectral and power efficiency. Example: DVB-S.",
+    "Detection of amplitude and/or phase modulated signals in linear channels. Equivalent discrete channel. ML sequence detector. Viterbi algorithm.",
+    "Systems based on multi-carrier modulations. Introduction and motivation. Conditions for no ISI in Gaussian channels. Continuous and discrete time systems for Gaussian channels. Parameters of interest and results for Gaussian channels. Equivalent 1-D and L-D discrete channel. Continuous and discrete time systems for linear channels. Spectral representation. Example: DVB-T.",
+    "Systems based on frequency modulations. Systems based on FSK and CPFSK. Phase tree. OQPSK representation of MSK modulation. Error probability in Gaussian channels. Spectral and power efficiency.",
+    "Systems based on spread spectrum modulations. Direct sequence spread spectrum (DSSS). Generation and detection. Equivalent discrete channel. Frequency hopping spread spectrum (FH). Design of chirp sequences."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices/Seminars/Workshops",
+    "Laboratory practices",
+    "Group tutorials",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (ET)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Online questionnaires (C1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class participation (PC1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (EP1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Online questionnaires (C2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Class participation (PC2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (EP2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "In the ordinary call, the final grade is the sum of the Theory Block (BT) and the Practical Block (BP). The BT accounts for 60% of the final grade and is obtained from a single written theory exam (ET) scored out of 6 points, with no minimum required. The BP accounts for 40% of the final grade and is obtained from two laboratory projects, each weighing 20% of the final grade. Each project includes online questionnaires (C), class participation (PC), and a practical exam (EP), weighted 6%, 24%, and 70% respectively for the project grade, with no minimums required for these components. In the extraordinary call, students can choose between two options for the practical block: either take a new individual theoretical-practical practical exam (EP), which will count for 40% of the final grade, or keep the BP score obtained in the ordinary call. For students under differentiated evaluation, the theory exam (ET) accounts for 100% of the final grade, with the score scaled by 10/6. In case of doubt regarding authorship or unauthorized means, a presential defense may be requested.",
+  "bibliography": [
+    "J. G. Proakis, Masoud Salehi, “Digital Communications” 5th edition, Mc. Graw-Hill. USA 2007.",
+    "Antonio Artés Rodríguez, Fernando Pérez González, “Comunicaciones Digitales”, 1ª edición, Pearson Educación, 2007 y 2ª edición, obtenible a través de: http://www.tsc.uc3m.es/~antonio/libro_comunicaciones/El_libro.html",
+    "B. Sklar, “Digital Communications. Fundamentals and Applications”. Prentice-Hall, USA, 2001.",
+    "John R. Barry, Edward A. Lee and David G. Messerschmitt, “Digital Communication”. 2nd edition. Kluwer Academic Publishers, 2003.",
+    "Benedetto, E. Biglieri, “Principles of Digital Transmission with Wireless Applications”. New York. Kluwer, 1999.",
+    "Haykin, S., “Communication Systems”. John Wiley. 2001.",
+    "R.D. Gitlin, J.F. Hayes and S.B. Weinstein, “Data Communications Principles ”. Kluwer Academic/ Plenum Publishers, 1992. A. V. Oppenheim, “Signals and Systems”, Prentice Hall, 2nd Edition, 1997.",
+    "Proakis, J. G. y Salehi, M., “Communication Systems Engineering”. 2ª edición. Englewood Cliff, NJ. Prentice-Hall, USA, 2002."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-3-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-3-003",
+  "source_language": "es",
+  "source_sha256": "ac1a12a664b4f65492aedb82d0f86d3990b66e1f1fb787bb31031dbf1fc1533f",
+  "extracted_at": "2026-11-20T06:04:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

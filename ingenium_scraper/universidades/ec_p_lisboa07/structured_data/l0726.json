@@ -1,0 +1,122 @@
+{
+  "course_name_original": "Operating Systems",
+  "course_name_en": "Operating Systems",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Distinguish Operating System (OS) types, functions and characteristics",
+      "type": "unspecified",
+      "code": "OA1"
+    },
+    {
+      "text": "Describe aspects of process managment and related algorithms",
+      "type": "unspecified",
+      "code": "OA2"
+    },
+    {
+      "text": "Describe mechanisms related with inter-process communication and syncronization",
+      "type": "unspecified",
+      "code": "OA3"
+    },
+    {
+      "text": "Describe memory management models in multiprogramming systems and compare related algorithms. Explain virtual memory management methods",
+      "type": "unspecified",
+      "code": "OA4"
+    },
+    {
+      "text": "Describe the I/O principles",
+      "type": "unspecified",
+      "code": "OA5"
+    },
+    {
+      "text": "Explain the most common file system implementation issues",
+      "type": "unspecified",
+      "code": "OA6"
+    },
+    {
+      "text": "Identify OS security mechanisms and describe types of security attacks, and protection methods",
+      "type": "unspecified",
+      "code": "OA7"
+    },
+    {
+      "text": "Use the command line to work on a remote linux server; program shell script; use processing text and administration related commands",
+      "type": "skill",
+      "code": "OA8"
+    },
+    {
+      "text": "Program at the system level, using the OS functionalities and considering both sequential and concorrent programming",
+      "type": "skill",
+      "code": "OA9"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Operating Systems, Processes.",
+    "Processes and threads.",
+    "Process scheduling.",
+    "Process syncronization. Semaphores.",
+    "Interprocess comunication.",
+    "Memory management: models and algorithms.",
+    "Virtual Memory.",
+    "Input / Output.",
+    "File Systems.",
+    "Case study: Linux.",
+    "Shell commands and shell programming.",
+    "Communication and syncronization mechanisms."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Group or Individual assignment (3 stages)",
+      "weight_percentage": 37.5
+    },
+    {
+      "method": "Home quizzes (best 8 of 9)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Written exam (Test 1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Written exam (Test 2)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "This course uses only periodical evaluation, not allowing a single final exam. The overall evaluation requires: Trab+TPC >= 9.5 and PE >= 9.5. For the written exam, Test 1 and Test 2 each require a minimum grade of 8/20, and their average result must be >= 9.5/20.",
+  "bibliography": [
+    "José Alves Marques, Paulo Ferreira, Carlos Ribeiro, Luís Veiga, Rodrigo Rodrigues (2012), Sistemas Operativos, 2ª edição, FCA, ISBN: 978-9-727-22756-3",
+    "Andrew Tanenbaum, Herbert Bos (2014), Modern Operating Systems, 4th Edition, Pearson Prentice-Hall, ISBN: 978-1-292-06142-9",
+    "Andrew Tanenbaum, Albert Woodhull (2006), Operating Systems Design and Implementation, 3rd edition, Prentice-Hall, 2006, ISBN: 978-0-131-42938-3",
+    "Paulo Trezentos, Susana Nunes (2008), Linux para PCs, 3ª edição, FCA, ISBN: 978-972-722-603-0",
+    "Paulo Trezentos, António Cardoso (2006), Fundamental do Linux, 3ª edição, FCA, ISBN: 978-972-722-514-9",
+    "William Stallings (2018), Operating Systems Internals and Principles, 9th edition, Pearson, ISBN-13: 978-0-134-70006-9",
+    "Abraham Silberschatz, Peter Galvin, Greg Gagne (2018), Operating System Concepts, 10th edition, Wiley, ISBN: 978-1-119-32091-3",
+    "Abraham Silberschatz, Peter Galvin, Greg Gagne (2014), Operating Systems Concepts Essentials, 2nd edition, Wiley, ISBN: 978-1-118-84397-0"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "prerequisites",
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "ISCTE - Instituto Universitário de Lisboa",
+  "institution_slug": "ec_p_lisboa07",
+  "degree": "Telecommunications and Computer Engineering (Licenciatura, LETI)",
+  "course_code": "l0726",
+  "academic_year": "2026/2027 (plan vigente en la web)",
+  "source_url": "https://www.iscte-iul.pt/programmes/degree/9098#CourseInfoModal-4898",
+  "source_language": "en",
+  "source_sha256": "ef221d04d05fef3e952eee224932fb9c4327d57562dbe5469337940a9a67073f",
+  "extracted_at": "2026-11-20T09:10:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

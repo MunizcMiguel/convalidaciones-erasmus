@@ -1,0 +1,85 @@
+{
+  "course_name_original": "Introduction to geometric modeling (FMFI.KAG/1-AIN-545/22)",
+  "course_name_en": "Introduction to geometric modeling",
+  "ects": 4.0,
+  "semester": "6.",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The course graduate gains basic knowledge of the cubic curve segments, spline curves, patches and spline surfaces.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Spline curves and surfaces are studied with parametric or geometric continuities, the shape parameters are applied for modeling.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The computational algorithms of the curve segments are presented.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Representation of cubic segments in Hermite and Bernstein basis, computational algorithms.",
+    "Geometric and parametric continuities for curve segments and creating: interpolating splines (Hermite spline, cardinal spline, Catmull-Rom spline)",
+    "Geometric and parametric continuities for curve segments and creating: approximating splines (Bézier spline, Beta spline, B-spline).",
+    "Rational curves (Bézier, NURBS) and the weights as shape parameters.",
+    "Representation of surfaces defined by geometric transformation (surfaces of revolution)",
+    "Representation of surfaces defined by boundary curves (ruled surfaces, Coons surfaces)",
+    "Representation of surfaces defined by control nets (tensor-product surfaces, Bézier, B-spline, NURBS)."
+  ],
+  "teaching_methods": [
+    "course",
+    "on-site learning"
+  ],
+  "workload_hours_total": 52.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "programming assignments",
+      "weight_percentage": 37.5
+    },
+    {
+      "method": "written homework assignments",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "final exam - written part",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "final exam - oral part",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the semester, the student can get 50% for exercises and 50% for the final exam. The student must obtain at least half of the points for the exercises in order to pass to the final exam. If the student does not get half of the points for the written part of the final exam, he/she is not admitted to the oral part and the grade is Fx. Grading: A (100-91), B (90-81), C (80-71), D (70-61), E (60-51), Fx (50-0).",
+  "bibliography": [
+    "Geometric Modeling with Splines / R. F. Riesenfeld, E. Cohen, G. Elber: A K Peters/CRC Press; 1 ed. 2001",
+    "Fundamentals of CAGD / J. Hoschek, D. Lasser: A K Peters/CRC Press; 1 ed., 1996",
+    "Geometric Concepts for Geometric Design / W. Boehm, H. Prautzsch. Publ. by A K PETERS",
+    "Bézier and B-Spline Techniques / H. Prautzsch, W. Boehm, M. Paluszny. Springer-Verlag Berlin Heidelberg, 2002",
+    "Curves and Surfaces for CAGD, Fifth Edition: A Practical Guide / Gerald Farin. Morgan-Kaufmann, 2002"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAG/1-AIN-545/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "83ad5b1ac79f122dc4a186a51b11197e8308f349e2a4172cface23f1016b2f6e",
+  "extracted_at": "2026-11-20T09:27:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

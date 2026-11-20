@@ -1,0 +1,180 @@
+{
+  "course_name_original": "ALGORITHMS AND DATA STRUCTURES (863110)",
+  "course_name_en": "Algorithms and Data Structures",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming 2",
+    "Mathematics for Information Engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "understand the main data structures and fundamental algorithm design techniques",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand the principles of computational complexity analysis in terms of time and space requirements",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand the operation and characteristics of fundamental algorithms for searching, sorting, graph traversal, and other classical computational problems",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand the role of algorithms in solving computational problems and in selected Artificial Intelligence applications",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "design and implement algorithms using appropriate algorithmic design techniques",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "select the most suitable data structures according to the characteristics of the problem",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "analyze and compare the efficiency of different algorithmic solutions",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "apply algorithms and data structures to solve programming problems of moderate complexity",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "evaluate the correctness and efficiency of algorithms and data structures",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "compare alternative algorithmic solutions and identify the most appropriate one for a given problem",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "justify the design choices adopted in the development of algorithmic solutions",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "describe algorithms, data structures, and their properties using appropriate technical terminology",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "explain the design choices and complexity analysis of the developed solutions, both orally and in writing",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "independently deepen their knowledge of algorithms, data structures, and algorithm design techniques",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "apply the acquired methodologies to new computational problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "build upon the acquired competencies in advanced Computer Engineering courses, including Artificial Intelligence, Software Engineering, Databases, and Distributed Systems",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of Algorithms and Complexity Analysis: Definition and properties of an algorithm",
+    "Computational problems, problem instances, and input size",
+    "Computational models and the RAM model",
+    "Algorithm correctness and loop invariants",
+    "Time and space complexity",
+    "Best-case, average-case, and worst-case analysis",
+    "Asymptotic notation: O, Ω, and Θ",
+    "Analysis of iterative and recursive algorithms",
+    "Recurrence relations and the main methods for solving them",
+    "Amortized analysis and amortized cost of operations",
+    "Abstract Data Types and Fundamental Data Structures: Abstract data types, interfaces, and implementations",
+    "Arrays and dynamic arrays",
+    "Bags, stacks, and queues",
+    "Singly and doubly linked lists",
+    "Iterators and data structure traversal",
+    "Sets and dictionaries",
+    "Union-Find data structures",
+    "Comparison of data structures",
+    "Sorting and Selection: Properties of sorting algorithms: stability, in-place sorting, adaptivity, and computational complexity",
+    "Elementary sorting algorithms: Selection Sort, Insertion Sort, and Shell Sort",
+    "Merge Sort",
+    "Quick Sort",
+    "Heap Sort",
+    "Comparison of sorting algorithms",
+    "Selection problems and the Quickselect algorithm",
+    "Priority Queues and Heaps: The priority queue abstract data type",
+    "Binary heaps",
+    "Insertion, extraction, and priority-update operations",
+    "Implementation and applications of priority queues",
+    "Searching and Symbol Tables: The symbol table or dictionary abstract data type and its implementations",
+    "Binary search trees and their operations",
+    "Balanced search trees: AVL trees and Red-Black trees",
+    "Hash tables and their implementations",
+    "Graphs and Their Representations: Basic definitions and terminology",
+    "Directed and undirected graphs",
+    "Weighted and unweighted graphs",
+    "Adjacency-list and adjacency-matrix representations",
+    "Depth-first search (DFS)",
+    "Breadth-first search (BFS)",
+    "Reachability and path finding",
+    "Connected components and strongly connected components",
+    "Cycle detection",
+    "Topological sorting",
+    "Weighted undirected graphs",
+    "Kruskal’s algorithm",
+    "Shortest paths in graphs",
+    "Dijkstra’s algorithm"
+  ],
+  "teaching_methods": [
+    "Lecture"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Practical laboratory test",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final examination consists of a practical laboratory test and an oral examination. In the practical laboratory test, students will design and implement an original solution to a given problem. In the interview, students must demonstrate theoretical and methodological knowledge, relevance of answers, quality of content, appropriate use of technical terminology, clarity of expression, ability to establish connections, and ability to provide appropriate examples. Accommodations for students with SLD, disabilities, or other special educational needs will be discussed with the instructor.",
+  "bibliography": [
+    "R. Sedgewick, K. Wayne, Algoritmi, Pearson, 4th edition.",
+    "T. H. Cormen, C. E. Leiserson, R. L. Rivest, C. Stein, Introduzione agli algoritmi, McGraw-Hill, 3rd edition.",
+    "S. Russell, P. Norvig, Artificial Intelligence: a modern approach moderno, Pearson, 3rd edition.",
+    "M. Mitchell, An Introduction to Genetic Algorithms, MIT Press.",
+    "J. Kleinberg, É. Tardos, Algorithm Design, Addison-Wesley."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica",
+  "institution_slug": "ec_i_beneven02__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "863110",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7399&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "1a6e59e7eec868efec0873a35523ba07479715cd677e31b458eaaa932ff89724",
+  "extracted_at": "2026-11-20T12:42:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

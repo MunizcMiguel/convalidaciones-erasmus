@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Electromechanical automatic components",
+  "course_name_en": "Electromechanical automatic components",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the construction of electromechanical automatic components.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Understands the purpose of introducing coordinate transformations describing electrical machines.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows the principles and methods for identifying parameters of mathematical models of electromechanical automatic components.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Can write dynamic equations of electromechanical automatic components.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can use electric drive software tools.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is aware of responsibility for their own work and readiness to adhere to teamwork principles and take responsibility for jointly implemented tasks.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "DC and AC commutator motors: Construction of separately excited DC motor and series AC motor, operating principles. Scope of application of both types of motors. Mathematical models of motors and measurement identification of their parameters. Starting and braking methods. Methods and systems for speed and position control. Power electronic systems for motor supply. Commercial solutions of servo drives with separately excited DC motors.",
+    "Brushless DC motor: Construction and operating principle. Scope of application. Mathematical model of the motor and measurement identification of its parameters. Possible motor designs. Methods and systems for automatic speed control. Power electronic systems for motor supply, other accompanying electronic systems.",
+    "Brushless AC motor: Construction and operating principle. Possible motor designs. Scope of application. Mathematical model of the motor and measurement identification of its parameters. Methods and systems for automatic speed and position control. Power electronic systems for motor supply – inverter bridges and their control algorithms.",
+    "Single-phase induction motor: Construction and operating principle as an induction machine. Mathematical model. Equivalent circuit of a single-phase induction machine. Physical meaning of model parameters – analogies to the single-phase transformer model. Power balance of an induction motor. Mechanical characteristic. Methods of motor speed control.",
+    "Stepper motors: Construction and types of stepper motors. Operating principle. Applications of stepper motors. Dynamic properties of a hybrid motor. Possible phase controls of this motor. Power electronic systems for supplying hybrid motors.",
+    "Synchronous motors: Reluctance motor (SynRM) and switched reluctance motor (SRM). Hysteresis motor.",
+    "Systems accompanying servo drives: Mechanical systems that change the type and parameters of the mechanical motion performed. Other mechanical elements. Angle position sensors and rotational speed sensors. Other sensors used for electric motor control.",
+    "DC executive motors: Measurements of control characteristics of a commutator electromagnetic and magnetoelectric DC motor.",
+    "Universal commutator motor: Measurements of characteristics and efficiency of a universal series motor (AC), cooperation with a thyristor speed controller.",
+    "Single-phase induction motors: Determination of mechanical, current and control characteristics of various types of single-phase induction motors.",
+    "Stepper motors and their control: Development of motor motion trajectory and its implementation. Recording of motor phase current waveforms, speed and position. Comparison of recording results with simulation results of motor operation.",
+    "Brushless DC motor: Determination of motor operating characteristics. Recording of dynamic waveforms with an automatic speed control system and an automatic motor supply voltage control system – investigation of drive response to a unit step of set speed and load torque.",
+    "Servo drive with brushless AC motor: Configuration of servo drive for rotational speed control and position control. Recording of servo drive waveforms during its operation.",
+    "Tachogenerators: Determination of static characteristics and recording of dynamic waveforms of a DC tachogenerator and an AC tachogenerator.",
+    "Position sensors: Determination of static characteristics of an inductive position sensor and an angular position transformer (resolver).",
+    "Two qualifying colloquiums, allowing participation in laboratory exercises."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 112.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Test results (Lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are credited based on test results. Laboratory classes are credited based on the execution of laboratory tasks, a test, and the completion of all laboratory classes. Students must prepare for laboratory exercises, which may be verified by an oral or written colloquium. Passing the module requires passing all laboratory classes.",
+  "bibliography": [
+    "Fleszar J.: Maszyny elektryczne specjalne, WNT, Wyd. Politechniki Świętokrzyskiej, Kielce 2002.",
+    "Glinka T.: Maszyny elektryczne wzbudzane magnesami trwałymi, PWN 2018.",
+    "Krykowski K.: Silniki PM BLDC. Właściwości, sterowanie, aplikacje, wydawnictwo BTC, Legionowo 2015.",
+    "Przepiórkowski J.: Silniki elektryczne w praktyce elektronika, wydawnictwo BTC, Legionowo 2012.",
+    "Ronkowski M., Michna M., Kostro G., Kutt F.: Maszyny elektryczne wokół nas, Wydawnictwo Politechniki Gdańskiej, Gdańsk 2011.",
+    "Sieklucki G.: Automatyka napędu, Wydawnictwa AGH, Kraków 2009.",
+    "Sochocki R.: Mikromaszyny elektryczne, Oficyna Wydaw. Politechniki Warszawskiej, Warszawa 1996.",
+    "Wróbel T.: Silniki skokowe, WNT, Warszawa 1993",
+    "Glinka T.: Maszyny elektryczne i transformatory, WNT, Warszawa 2018"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.03199.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/983ca86e-6c1a-448e-b2ba-4e4fc7134d56.html",
+  "source_language": "pl",
+  "source_sha256": "1365189f59b71ebd080c1854b0ccb12509e6b7f603b21318c38a5bb80aca83fb",
+  "extracted_at": "2026-11-20T09:02:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

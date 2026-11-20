@@ -1,0 +1,221 @@
+{
+  "course_name_original": "Regulación automática",
+  "course_name_en": "Automatic Control",
+  "ects": 6.0,
+  "semester": "S2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "0708317: Numerical Methods in Mechanical Engineering",
+    "0708314: Principles of Electrical Machines and Circuits",
+    "0708320: Thermodynamics and Fluid Mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply the principles governing the operation of electronic circuits in solving real circuits",
+      "type": "skill",
+      "code": "RARI21"
+    },
+    {
+      "text": "Apply the basic principles of automation and control in solving real industrial problems",
+      "type": "skill",
+      "code": "RARI22"
+    },
+    {
+      "text": "Recognize and understand the fundamentals and components of electronics applied in the general operation of electronic circuits",
+      "type": "knowledge",
+      "code": "RARI5"
+    },
+    {
+      "text": "Recognize and understand the fundamentals of automatisms and robots applied in the management of robotized industrial machinery",
+      "type": "knowledge",
+      "code": "RARI6"
+    },
+    {
+      "text": "Recognize and understand the training needs that will be useful to successfully solve new situations related to industrial engineering",
+      "type": "competence",
+      "code": "RAT1"
+    },
+    {
+      "text": "Ability to manage NTIC-based environments and their emerging technologies",
+      "type": "skill",
+      "code": "RAT11"
+    },
+    {
+      "text": "Propose creative solutions to satisfactorily respond to real needs and problems of society",
+      "type": "competence",
+      "code": "RAT16"
+    },
+    {
+      "text": "Develop professional texts and scientific-technical reports according to the conventions of the industrial technical engineering field",
+      "type": "skill",
+      "code": "RAT17"
+    },
+    {
+      "text": "Adapt the organization of content and the use of language, verbal and non-verbal, to argue in various situations or before various audiences",
+      "type": "skill",
+      "code": "RAT18"
+    },
+    {
+      "text": "Apply the knowledge of industrial engineering in learning new methods and theories",
+      "type": "skill",
+      "code": "RAT4"
+    },
+    {
+      "text": "Show the advantages and opportunities of different solutions to the same problem critically and constructively",
+      "type": "competence",
+      "code": "RAT5"
+    },
+    {
+      "text": "Apply the principles and methods of quality",
+      "type": "skill",
+      "code": "RAT8"
+    }
+  ],
+  "syllabus_topics": [
+    "Block I: INTRODUCTION.",
+    "Topic 1: INTRODUCTION. BASIC CONCEPTS OF INDUSTRIAL AUTOMATION.",
+    "Architecture of an industrial control system.",
+    "Industrial automation. Definitions.",
+    "CIM pyramid.",
+    "Basics of Critical Systems.",
+    "Block II: INTRODUCTION. MODELS OF PHYSICAL SYSTEMS. SYSTEMS ANALYSIS.",
+    "Topic 1: INTRODUCTION. MATHEMATICAL CONCEPTS.",
+    "Review of signal and system concepts.",
+    "Models of physical systems.",
+    "Linearization.",
+    "BI.3 Laplace Transform.",
+    "Topic 2: CONTROL SYSTEMS.",
+    "Transfer function.",
+    "Block diagram of a system.",
+    "Negative feedback system. Unitary and non-unitary.",
+    "Topic 3: OPEN-LOOP SYSTEM ANALYSIS.",
+    "First-order systems. Time response.",
+    "Second-order systems. Time response.",
+    "Higher-order systems. Time response.",
+    "Topic 4: STABILITY. CLOSED-LOOP SYSTEMS. ERRORS.",
+    "System stability.",
+    "Routh-Hurwitz criterion.",
+    "Steady-state error.",
+    "Error constants.",
+    "Root locus. Rules. Utility.",
+    "Block III: DESIGN AND TUNING OF CONTROL SYSTEMS. STUDY OF P, PI, PID CONTROLLERS.",
+    "Topic 1: CONTROLLER DESIGN.",
+    "Design of controllers using the Root Locus.",
+    "Insensitivity to disturbances.",
+    "Topic 2: PID CONTROLLER.",
+    "PID controller. Different forms of expression.",
+    "Physical meaning of proportional, integral, derivative actions.",
+    "Block IV: FUNDAMENTALS OF ANALOG ELECTRONICS AND ITS APPLICATION IN MECHANICAL ENGINEERING.",
+    "Topic 1: INTRODUCTION.",
+    "Review of basic circuit theory concepts, differential equations applied to electrical circuits, power factor concept.",
+    "Topic 2: SEMICONDUCTOR ELEMENTS. SMALL SIGNAL AND POWER.",
+    "Concepts of Diode, thyristor, small signal and power bipolar transistor.",
+    "Static and dynamic transistor biasing.",
+    "Other types of diodes.",
+    "Topic 3: BASIC CIRCUITS WITH SEMICONDUCTOR ELEMENTS.",
+    "Single-phase and three-phase controlled and uncontrolled rectifiers.",
+    "Voltage boost converters.",
+    "Signal detectors.",
+    "Single-phase and three-phase inverters.",
+    "Topic 4: THE OPERATIONAL AMPLIFIER.",
+    "The operational amplifier. Operating concept.",
+    "Circuits with operational amplifiers.",
+    "Filtering. Active filters.",
+    "Topic 5: RESISTIVE SENSORS.",
+    "Parts of the analog signal measurement chain.",
+    "Sensors of position, displacement, temperature, pressure, flow, and level.",
+    "Operating principles.",
+    "Wheatstone bridge.",
+    "Passive filters.",
+    "Block V: DIGITAL ELECTRONICS. FUNDAMENTALS.",
+    "Topic 1: INTRODUCTION.",
+    "Difference between digital and analog system.",
+    "Topic 2: INVERTER CONTROL.",
+    "DC motor as an electric drive.",
+    "PWM control of DC motor.",
+    "AC motor as an electric drive.",
+    "BJT in switching.",
+    "IGBTs.",
+    "Frequency converters.",
+    "Topic 3: DIGITAL ELECTRONICS I.",
+    "Digital systems. Advantages and disadvantages.",
+    "Classification.",
+    "Sampled systems.",
+    "Basic A/D conversion.",
+    "Current and voltage transmission.",
+    "Transmission protocols.",
+    "Topic 4: DIGITAL ELECTRONICS II.",
+    "Information representation: binary system, hexadecimal system.",
+    "Binary codes.",
+    "Boolean Algebra. Fundamentals. Theorems.",
+    "Logic functions. Logic gates.",
+    "Combinational systems. Analysis and design.",
+    "Sequential systems."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Problem Based Learning (PBL)",
+    "Lecture",
+    "Tutoring of activities"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Objective multiple-choice tests",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Mixed tests",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Assignments",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical cases",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of 10% from objective multiple-choice tests, 70% from mixed tests (compulsory on-site control, problem-solving and multiple-choice questions), 10% from assignments (problem-based learning reports), and 10% from practical cases (short written exam on frequency converter configuration and data extraction). Objective tests are short, periodic exams with 5 questions and 4 possible answers. Assignments are graded on clarity, structure, format, technical accuracy, and completeness. Practical cases involve configuring a frequency converter and extracting values.",
+  "bibliography": [
+    "Perez Garcia, Miguel Angel Título: Instrumentacion Electronica (230 Problemas Resueltos) Datos de publicación: [Madrid] :: Ibergarceta, 2012 ISBN: 978-84-15452-00-3",
+    "Título: Practicas de la Asignatura Fecha de publicación: URL: http://lra.unileon.es/",
+    "Perez Garcia, Miguel Angel Pérez García, Miguel Ángel, Título: Instrumentación electrónica Datos de publicación: Madrid [etc.] :: Thomson-Paraninfo, [2003] ISBN: 84-9732-166-9",
+    "Título: Laboratorio Remoto de Automatica Fecha de publicación: URL: http://lra.unileon.es",
+    "Creus Solé, Antonio Título: Instrumentación industrial Datos de publicación: Barcelona :: Marcombo, 2011 ISBN: 9788426718662; 8426718663; 9788426731890; 8426731899",
+    "Ogata, Katsuhiko Título: Ingenieria de Control Moderna Datos de publicación: Madrid [etc.] :: Prentice Hall, 2004 ISBN: 84-205-3678-4",
+    "Pallás Areny, Ramón. Casas, Òscar; Bragós, Ramón Título: Sensores y acondicionadores de señal : problemas resueltos Datos de publicación: Barcelona :: Marcombo, [2008] ISBN: 978-84-267-1494-7; 84-267-1494-3",
+    "Kuo, Benjamin C Aranda Pérez, José Guillermo,; Rodríguez Ramírez, Francisco, Título: Sistemas de Control Automatico Datos de publicación: México :: Prentice Hall, 2000 ISBN: 968-880-723-0",
+    "Fraile Mora, Jesús, García Gutiérrez, Pedro Ángel.; Fraile Ardanuy, Jesús Título: Instrumentación aplicada a la ingeniería Datos de publicación: [Madrid] :: Ibergarceta, [2013] ISBN: 978-84-1545-233-1",
+    "Franklin, Gene F. Powell, J. David,; Emami-Naeini, Abbas Título: Feedback control of dynamic systems Datos de publicación: Upper Saddle River, New Jersey ;; Madrid :: Pearson, [2010] ISBN: 0-13-500150-1; 978-0-13-500150-9",
+    "Andrés Puente, E. Título: Regulación automática Datos de publicación: Madrid :: Universidad Politécnica de Madrid Escuela Técnica Superior de Ingenieros Industriales Sección de Publicaciones, 1993 ISBN: 84-7484-009-0 (O. C.); 84-7484-010-4 (T. I)",
+    "Barrientos, A Barrientos, Antonio Título: Control de Sistemas Continuos, Problemas Resueltos Datos de publicación: Madrid :: Editorial McGraw-Hill, 1996 ISBN: 84-481-0605-9; 978-84-481-0605-8",
+    "Franklin, Gene F. Powell, J. David,; Emami-Naeini, Abbas; Carranza Castro, Jorge A.,; Valle Muñoz, Víctor H. del Título: Control de sistemas dinámicos con retroalimentación Datos de publicación: Wilmington, (Delaware) :: Addison-Wesley Iberoamericana, [1991] ISBN: 0-201-64421-5; 978-0-201-64421-0 (Contracub.)",
+    "Pérez García, Miguel Ángel, Título: Instrumentación electrónica Datos de publicación: Madrid :: Paraninfo, [2014] ISBN: 978-84-283-3702-1",
+    "Dorf, Richard C., Bishop, Robert H. Título: Modern control systems Datos de publicación: Harlow (England) :: Pearson, [2017] ISBN: 978-1-292-15297-4; 1-292-15297-4",
+    "Lewis, Paul H and Yang, Chang Yang, Chang Título: Sistemas de Control en Ingenieria Datos de publicación: Madrid :: Prentice Hall, 2001 ISBN: 84-8322-124-1",
+    "Gil Nobajas, Jorge Juan; Rubio Daz-Cordoves, Ángel Título: Fundamentos de Control Automatico de Sistemas Continuos y Muestreados Datos de publicación: San Sebastián: Universidad de Navarra, 2009 ISBN: 978-84-613-4618-9",
+    "Ogata, Katsuhiko Dormido Canto, Sebastián,; Canto Díez, María Antonia, Título: Problemas de ingeniería de control utilizando MATLAB Datos de publicación: Madrid [etc.] :: Prentice-Hall, [2000] ISBN: 84-8322-046-6",
+    "Díez Díez, Ángela. Domínguez González, Manuel Título: Servosistemas Datos de publicación: [León] :: Universidad de León Secretariado de Publicaciones, 2000 ISBN: 84-7719-790-3"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de León",
+  "institution_slug": "es_leon",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "0708318",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocenteapi.unileon.es/snapshots/2026-2027/0708318",
+  "source_language": "es",
+  "source_sha256": "228322c87b0cfbcf3fd87d51d9faa838a605c883f6a7419f3a46acf2cef3f7fd",
+  "extracted_at": "2026-11-13T22:55:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Höhere Mathematik 2",
+  "course_name_en": "Higher Mathematics 2",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Good knowledge of school mathematics",
+    "Höhere Mathematik I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "After successful completion of the module Higher Mathematics 2, students will have in-depth knowledge of linear algebra, integral calculus, series expansion, and multivariable analysis and will be able to systematically model, analyze, and solve complex mathematical problems using analytical and numerical methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can understand matrices as linear mappings, confidently perform matrix operations, analyze invertibility and determinants, and solve eigenvalue problems. They use concepts such as basis transformations and matrix decompositions. Thus, they are able to investigate linear systems in a structured way and independently develop mathematical models in technology and natural sciences.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students calculate indefinite, definite, and improper integrals and apply integration methods such as substitution, integration by parts, and partial fraction decomposition. They use elementary antiderivatives and integration rules. This enables them to mathematically model continuous processes and confidently solve application problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students analyze number series for convergence, determine convergence ranges of power series, and develop functions into Taylor and Fourier series. They apply convergence criteria and Taylor's theorem and consider phenomena such as Gibbs' phenomenon. This enables them to approximate functions locally and globally and mathematically describe periodic phenomena.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students differentiate functions from ℝⁿ to ℝᵐ, determine partial derivatives, gradients, and total differentials, and solve unconstrained optimization problems. They use Taylor polynomials for approximations and error estimations. This allows them to analyze and precisely model complex relationships in multiple dimensions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students analyze curves in space, calculate line integrals of the first and second kind, and area integrals over normal domains. They apply fundamental methods of vector analysis to comprehensively mathematically grasp geometric and physical relationships.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Matrix as linear mapping (finite dimensional)",
+    "Matrix operations: Addition, multiplication with a scalar, matrix multiplication, concatenation of linear mappings (matrices)",
+    "Invertibility and inverting a matrix",
+    "Determinant of a matrix",
+    "Trace of a matrix",
+    "Eigenvalue problems",
+    "Basis transformations and eigenvalues",
+    "One-dimensional integral calculus, definite, indefinite and improper integral",
+    "Linearity of the integral",
+    "Integration methods: elementary antiderivatives, substitution, integration by parts, partial fraction decomposition",
+    "Application problems",
+    "Number series: geometric/harmonic series, convergence criteria",
+    "Power series: convergence range",
+    "Taylor series: Taylor polynomials, Taylor's theorem, application of Taylor series",
+    "Fourier series: Gibbs's phenomenon",
+    "Functions f: Rn -> Rm (scalar field, vector field, curves)",
+    "Level sets",
+    "Differential calculus for functions of several variables",
+    "Partial functions, partial derivative, Taylor polynomial, gradient, total differential and error estimation",
+    "Two-dimensional unconstrained optimization problems",
+    "Curves: derivative, line integrals of 1st and 2nd kind",
+    "Area integrals: normal domains"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written, graded examination (Klausur)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "J. Koch, M. Stämpfle: Mathematik für das Ingenieurstudium, 5. Auflage, 4. Auflage, HANSER, 2025",
+    "T. Arens et al.: Mathematik, 5. Auflage, Springer Spektrum, 2022",
+    "L. Göllmann et al.: Mathematik für Ingenieure: Verstehen – Rechnen – Anwenden, Band 1 und 2, Springer-Vieweg, 2017"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB210",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "a69d017d34a88aaf05e89760400e31d46bc35a73dbb2d860256530ff45313684",
+  "extracted_at": "2026-11-20T12:39:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

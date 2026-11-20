@@ -1,0 +1,158 @@
+{
+  "course_name_original": "Estadística",
+  "course_name_en": "Statistics",
+  "ects": 6.0,
+  "semester": "2Q",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Proficiency in algebra and calculus acquired in Mathematics I and Mathematics II courses from the first year is highly recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Interpret and calculate probabilities of events from discrete data samples, as well as conditional probabilities of events using Bayes' theorem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify probability as a tool to construct a probability distribution that serves as a descriptive model for any random variable.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Distinguish discrete and continuous probability distributions, and apply the corresponding models to describe physical phenomena.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Associate the principles that define a probability distribution with real-world problems that can be described using binomial, geometric, Poisson, uniform, exponential, normal, t-student, and chi-squared probability distributions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify continuous probability distributions, such as a normal distribution, and apply these models to solve problems describing physical phenomena.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate a mean estimation interval when making inferences about a data population.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and apply hypothesis significance tests concerning population mean values based on normal and t-distributions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the value of a dependent variable from an independent one using linear regression analysis and analyze the robustness of their relationship using correlation analysis tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply specialized computer programs to solve engineering problems using statistical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the basic tools (description and calculation of probabilities) to model random phenomena and to process data using statistical software.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithmics; statistics and optimization.",
+      "type": "competence",
+      "code": "HAB1"
+    }
+  ],
+  "syllabus_topics": [
+    "Block 1. Descriptive Statistics.",
+    "Topic 1: Descriptive Statistics.",
+    "Basic concepts.",
+    "Frequency distributions.",
+    "Descriptive Measures.",
+    "Topic 2: Bivariate Data.",
+    "Basic concepts.",
+    "Frequency distributions.",
+    "Descriptive Measures.",
+    "Topic 3: Regression Line.",
+    "Basic concepts.",
+    "Measures of linear relationship.",
+    "Block 2. Probability and Random Variables.",
+    "Topic 4: Probability.",
+    "Basic concepts.",
+    "Theorem of Total Probability.",
+    "Bayes' Theorem.",
+    "Topic 5: Discrete and Continuous Random Variables.",
+    "Basic concepts.",
+    "Probability mass functions, density functions and Distribution functions.",
+    "Population characteristics.",
+    "Discrete and Continuous Probability Distributions.",
+    "Block 3. Statistical Inference.",
+    "Topic 6: Sampling and Parametric Inference.",
+    "Sampling.",
+    "Estimation.",
+    "Hypothesis tests.",
+    "Goodness-of-fit test.",
+    "Topic 7: Non-parametric Inference.",
+    "Normality test",
+    "Wilcoxon test for one and two samples",
+    "Topic 8: Quality Control."
+  ],
+  "teaching_methods": [
+    "Group work and presentation of data analysis with R, R-Studio and/or R-Commander",
+    "Individual problem/questionnaire solving online",
+    "Theoretical lectures",
+    "Computer lab sessions with R, R-Studio and/or R-Commander",
+    "Academic tutorials",
+    "Self-study"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Practicals with R (group assignment with statistical software)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Attendance and participation in class",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Online questionnaires",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Final in-person exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "For practicals and online questionnaires to be considered, students must achieve at least 4 out of 10 in the final exam. If this condition is met, the final grade will be the maximum between the final exam grade and the weighted average (60% final exam + 20% R practicals + 15% online questionnaires + 5% attendance and participation). If the final exam grade is less than 4, the final qualification will be solely the grade of that exam. Students who do not pass the ordinary evaluation can access an extraordinary evaluation, consisting solely of retaking re-evaluable activities: R practicals (adapted submission or recovery) and the final exam (new in-person exam).",
+  "bibliography": [
+    "Statistics Explained, McKillup, S., Ed. Cambridge University Press (2009)",
+    "Fundamentos de estadística, Peña, D., Ed. Alianza Editorial (2008)",
+    "Probabilidad y estadística en ciencias e ingenierías. Jay L. Devore. Thomson Paraninfo (2006)",
+    "Introducción a la estadística, Ross, S.M., Ed. Reverté (2007)",
+    "Probabilidad y estadística para ingeniería y ciencias. Ronald E. Walpole. Pearson (2007)",
+    "Engineering Statistics, Montgomey D.C., Runger G.C. y Hubele N.F., Ed. Wiley (2006)",
+    "La certeza absoluta y otras ficciones. RBA. Grima, P. (2010)",
+    "Estadística Básica con R y R-comander. Arriaga, A.J. Universidad de Cádiz. Libro libre: http://knuth.uca.es/moodle/mod/resource/view.php?id=1126",
+    "Tratamiento de datos con R, Statistica y SPSS. Guisande González, C. et al. Díaz de Santos (2011)"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Universidad Rey Juan Carlos",
+  "institution_slug": "es_rey_juan_carlos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "2404009",
+  "academic_year": "2026-27",
+  "source_url": "https://servicios.urjc.es/guiasdocentes/pdfGuia.jsp?a=2404009",
+  "source_language": "es",
+  "source_sha256": "7e4227af36700ab07ea2c710375fa9b29cf3c8676bf971c1bbf290a39c0b3886",
+  "extracted_at": "2026-11-13T22:46:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,192 @@
+{
+  "course_name_original": "Algoritmia",
+  "course_name_en": "Algorithmics",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Metodología de la Programación",
+    "Estructuras Discretas y Análisis de Algoritmos"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually at a level that, although supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "unspecified",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated by elaborating and defending arguments and solving problems within their area of study.",
+      "type": "unspecified",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have developed the necessary learning skills to undertake further studies with a high degree of autonomy.",
+      "type": "unspecified",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Have the experimental and analytical skills to work autonomously, being able to plan experiments and describe, analyze, evaluate and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to solve problems.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG09"
+    },
+    {
+      "text": "Know the fundamentals of programming and basic algorithmic techniques and apply them using the most relevant programming languages in the field of data science and engineering.",
+      "type": "knowledge",
+      "code": "CE10"
+    },
+    {
+      "text": "Evaluate the computational complexity of a problem and identify, if they exist, appropriate algorithmic strategies for its resolution.",
+      "type": "skill",
+      "code": "CE11"
+    },
+    {
+      "text": "Know the techniques for calculating spatial and temporal algorithmic complexity.",
+      "type": "knowledge",
+      "code": "RALG1"
+    },
+    {
+      "text": "Calculate the temporal cost of an algorithm, in the best and worst case.",
+      "type": "skill",
+      "code": "RALG2"
+    },
+    {
+      "text": "Express the cost in asymptotic notation.",
+      "type": "skill",
+      "code": "RALG3"
+    },
+    {
+      "text": "Design a recursive solution for a given problem.",
+      "type": "skill",
+      "code": "RALG4"
+    },
+    {
+      "text": "Transform a recursive algorithm into its corresponding iterative version.",
+      "type": "skill",
+      "code": "RALG5"
+    },
+    {
+      "text": "Know and apply the basic algorithmic strategies of computer technologies.",
+      "type": "skill",
+      "code": "RALG6"
+    },
+    {
+      "text": "Design solutions to problems, analyzing the suitability and complexity of the obtained algorithms.",
+      "type": "skill",
+      "code": "RALG7"
+    },
+    {
+      "text": "Particularize general algorithmic schemes for problem solving.",
+      "type": "skill",
+      "code": "RALG8"
+    }
+  ],
+  "syllabus_topics": [
+    "Unit I: Fundamental concepts of algorithmics",
+    "Theme 1. Algorithm analysis",
+    "Introduction. Temporal and spatial complexity. Asymptotic notations. Orders of complexity. Case analysis: best, worst and average. Analysis of the cost of iterative and recursive algorithms. Case studies: search, sorting, etc.",
+    "Theme 2. Recursive Algorithm Design",
+    "Introduction. Induction principle. Design and verification of a recursive function. Immersion techniques. Types of recursion. Transformation of recursive algorithms into their iterative version.",
+    "Unit II: Algorithmic Schemes",
+    "Theme 3. Divide and Conquer",
+    "General characteristics of divide and conquer. General scheme. Examples: binary search, merge sort, quicksort, etc.",
+    "Theme 4. Dynamic Programming",
+    "General characteristics of dynamic programming. Optimization problems. Principle of optimality. General scheme. Examples: knapsack, change-making, shortest paths, etc.",
+    "Theme 5. Greedy algorithms",
+    "General characteristics of greedy algorithms. General scheme. Examples: change-making, knapsack, shortest paths (Dijkstra), minimum spanning trees (Prim and Kruskal), task scheduling, etc.",
+    "Theme 6. Backtracking search",
+    "General characteristics of backtracking search. General scheme. Examples: knapsack, eight queens, etc.",
+    "Theme 7. Branch and Bound",
+    "General characteristics of branch and bound. General scheme. Examples: knapsack, task assignment, etc."
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Laboratory practices",
+    "Online teaching (visualization of expository classes and lab practices, problem solving, questionnaires, forums, private email)",
+    "Academic tutoring (online)",
+    "Autonomous study",
+    "Exercise and problem solving",
+    "Collaborative work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (T)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (TP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical exam (P4)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance (A)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Active participation (PA)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4.0 out of 10 is required for both the theoretical block (T) and the practical block (TP, P1, P2, P3, P4). The final theoretical grade is T. The final practical grade is calculated as (0.20 x TP) + (0.20 x P1) + (0.20 x P2) + (0.20 x P3) + (0.20 x P4). If all minimums are met, the final grade is (0.45 x Theory) + (0.40 x Practicals) + (0.05 x A) + (0.10 x PA), requiring at least 5 points to pass. In extraordinary and differentiated calls, a theoretical exam and a practical exam are given, both requiring a minimum of 5.0 out of 10, and the final grade is (0.5 x Theory) + (0.5 x Practicals).",
+  "bibliography": [
+    "Brassard, G., Bratley, P., Fundamentos de Algoritmia, Prentice-Hall, 1997.",
+    "Cormen,T. H.; Leiserson, C. E.; Rivest, R. L.; Stein, C., Introduction to Algorithms, The MIT Press, 2009.",
+    "Peña, R., Diseño de Programas. Formalismo y Abstracción, Prentice-Hall, 2005.",
+    "Aho, A. V., Hopcroft, J. E., Ullman, J. D., Data Structures and Algorithms, Addison Wesley, 1987.",
+    "Baase, S., Computer Algorithms, Introduction to Design and Analysis, Addisson Wesley, 1988.",
+    "Horowitz, E., Sahni, S., Fundamentals of Computer Algorithms, Pitman, 1978.",
+    "Scholl, P. C., Algorítmica y Representación de Datos, Recursividad y Árboles, Masson, 1986.",
+    "Torres, C., Diseño y Análisis de algoritmos, Paraninfo, 1992."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-1-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-1-007",
+  "source_language": "es",
+  "source_sha256": "cb67d6541368627f4164856cde86d56e317db3ecd301ba62119b729198e47459",
+  "extracted_at": "2026-11-20T05:55:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,117 @@
+{
+  "course_name_original": "Automática",
+  "course_name_en": "Automatic Control",
+  "ects": 6.0,
+  "semester": "4th semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic notions of electricity, electronics, mathematics, and physics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences usually demonstrated through the elaboration and defense of arguments and problem-solving within their area of study.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to apply knowledge to practice.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and synthesize.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to interpret technical documentation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge about the fundamentals of automatisms and control methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Introductory knowledge of the different techniques for implementing an automatic control system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Introductory knowledge of the different tools for modeling, simulation, analysis, and design of automation and control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "That the student understands the disciplines involved and integrated into an automation system.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part I: Introduction to automatic regulation. Topic 01.- Introduction to feedback control systems. 1.1. Basic concepts and terminology. 1.2. Introduction to system modeling through physical principles. 1.3. Linearization and normalization. 1.4. Transfer functions of generic industrial elements and systems. 1.5. Laplace transforms. 1.6. Transfer function. 1.7. Graphical representation of control systems: block diagrams.",
+    "Part I: Introduction to automatic regulation. Topic 02.- Complete response of control systems. 2.1. First-order systems. 2.2. Second-order systems. 2.3. System identification. 2.4. Higher-order systems: dominant poles.",
+    "Part I: Introduction to automatic regulation. Topic 03.- Stability analysis and introduction to control system design. 3.1. Stability: Lyapunov analysis and Routh criterion. 3.2. Technical control specifications. 3.3. Transient response analysis: root locus. 3.4. Steady-state response analysis. 3.5. General considerations for design. 3.6. Design of controllers by dynamic compensation.",
+    "Part I: Introduction to automatic regulation. Topic 04.- Frequency response analysis. 4.1. Bode diagrams. 4.2. Series compensation by phase lag. 4.3. Series compensation by phase lead.",
+    "Part II: Introduction to automation. Topic 01.- Introduction to logical systems used in automation. 1.1. Concept of digital system. 1.2. Binary numbering system. 1.3. Fundamentals of digital systems: Boolean algebra. 1.4. Logical functions and gates. 1.5. Concept of flip-flop. 1.6. Simplification of logical functions: Karnaugh map method.",
+    "Part II: Introduction to automation. Topic 02.- Programmable logic controllers. 2.1. Introduction and types. 2.2. Internal structure and operation. 2.3. Types of inputs and outputs. Wiring. 2.4. Peripherals.",
+    "Part II: Introduction to automation. Topic 03.- Programming programmable logic controllers. 3.1. Ladder diagram. 3.2. Basic instructions: SR flip-flop, timer and counter. 3.3. Programming methodology. 3.4. Introduction to state machine. 3.5. Applications with Zelio Soft 2."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Workshop/laboratory practices",
+    "Individual problem-solving exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final Regulation and Control Exam",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "Individual laboratory practices are evaluated based on the adequacy of responses, writing, figures, tables, and comprehension of the problem. Active participation in sessions is necessary for the maximum weighting of each practice. The final exam is a written test, including problem-solving and theoretical-practical questions. Lab attendance is optional and cumulative for weighting, but active participation must be demonstrated. The overall grade is 20% from laboratory practices and 80% from the final written exam.",
+  "bibliography": [
+    "Fundamentos de regulacion automática | Rafael Gonzalez, Daniel Espinosa y otros | ISBN 84-92674-16-0",
+    "Fundamentos de regulacion automática | Rafael Gonzalez, Daniel Espinosa y otros | ISBN 84-92674-16-0",
+    "Ingeniería de control moderna | Katsuhiko Ogata | ISBN 978-84-8322-660-5",
+    "Control automático con herramientas interactivas | José Luis Guzmán Sánchez, Ramón Costa-Castelló, Manuel Berenguel Soria, Sebastián Dormido Bencomo | ISBN 978-84-8322-750-3",
+    "Fundamentos de sistemas digitales | Thomas L. Floyd | ISBN 978-84-9035-300-4",
+    "Sistemas de automatización y autómatas programables | Enrique Mandado, Jorge Marcos Acevedo, Celso Fernández Silva, José Ignacio Armesto Quiroga, José Luis Rivas López, José María Núñez Ortuño | ISBN 978-84-267-2589-9",
+    "Programación estructurada de autómatas programables con Grafcet | José Manuel Guerrero Saiz | ISBN 978-84-283-4138-7",
+    "Control e instrumentación de procesos químicos | Pedro Ollero de Castro, Eduardo Fernández Camacho | ISBN 978-84-7738-517-2",
+    "Programmable Logic Controllers | William Bolton | ISBN 978-0-12-802929-9"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720016",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720016",
+  "source_language": "es",
+  "source_sha256": "fb89b434137c1210409ef9baa4efc1a64a19fa6439f999593ddc5e870514396d",
+  "extracted_at": "2026-11-13T21:29:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

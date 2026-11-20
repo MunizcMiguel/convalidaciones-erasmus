@@ -1,0 +1,164 @@
+{
+  "course_name_original": "ANALISI DEI SEGNALI E CAMPI ELETTROMAGNETICI",
+  "course_name_en": "SIGNAL ANALYSIS AND ELECTROMAGNETIC FIELDS",
+  "ects": 9.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Analisi Matematica I",
+    "Analisi Matematica II",
+    "Geometria e Algebra",
+    "Fisica",
+    "Teoria dei Sistemi",
+    "Teoria dei Segnali"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental concepts of representing signals in time and frequency.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how signals are transformed by linear and non-linear systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Solid knowledge of basic theory and techniques for signal analysis in time and frequency, as well as their transformations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the fundamental applications of the above theory and techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand and explain the complete (analytical) path from describing a relevant engineering system, to developing a theoretical framework and applying relevant techniques to provide a quantitative description of the problem and to support a first attempt to solve a design problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental concepts of Fourier transforms and their properties, linear and non-linear systems in time and frequency, A/D conversions, and digital signal processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Demonstrate the ability to read and understand other texts on related topics, leveraging the body of knowledge and skills to solve problems in a wider variety of contexts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know and apply the fundamental laws of Electromagnetism and their mathematical formulations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe and analyze time-varying electromagnetic fields and the propagation of electromagnetic waves in different media.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret and apply boundary conditions and constitutive relations of electromagnetic materials.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze wave propagation on transmission lines and in guiding structures, understanding their main parameters and physical phenomena.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluate the energetic aspects of electromagnetic fields, with particular reference to power flow and the Poynting vector.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Select and use appropriate equations and mathematical methodologies for the formulation and solution of simple electromagnetic engineering problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and interpret the operation of basic electromagnetic systems, such as radio links, waveguides, and optical fibers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Read, understand and use technical and scientific texts and documentation related to Electromagnetism and its applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Determined signals",
+    "Classification of signals: continuous and discrete signals; energy and power.",
+    "The Fourier Transform for signal analysis: series transform, periodic signal and Fourier Series, harmonic components, Parseval's equality, amplitude and phase spectra, symmetry conditions, properties of spectra; continuous transform, properties, generalized signals and their transform, series transform as a special case of the continuous one, periodic spectra; Poisson's Formula; Fourier transform for discrete-time signals and its properties; relationship between Fourier transforms; duration and bandwidth of a signal; baseband and band-shifted signals.",
+    "Signal transformations: impulsive response and frequency response for linear systems; calculation of convolutions; transmission of a signal through a linear system: amplitude and phase distortion; response of a linear system with periodic excitation; non-linear distortions in continuous systems, intermodulation; ideal filters.",
+    "Introduction to correlation and spectral density.",
+    "Signal sampling: uniform sampling, natural and instantaneous sampling; Sampling Theorem; sampling in the frequency domain; anti-aliasing filter, interpolation with distortion (zero-order hold).",
+    "Brief mention of A/D conversion.",
+    "The Fundamentals: Electromagnetic field. Maxwell's equations. Constitutive relations. Imposed quantities. Duality principle. Boundary conditions.",
+    "Electrodynamics: Poynting's theorem and uniqueness theorem. Complex notation and complex vectors. Polarization of a vector field. Wave equation. Electrodynamic potentials.",
+    "Plane Waves: Propagation vector. Uniform and non-uniform plane waves; TEM, TE and TM waves. Reflection and refraction of plane waves. Normal incidence and oblique incidence.",
+    "Transmission Lines: Resolution of transmission line equations. Progressive waves and standing waves. Line impedance and characteristic impedance. Reflection in transmission lines: reflection coefficient; input impedance; standing wave ratio. Smith chart and applications: impedance matching.",
+    "E.M. Radiation: Green's function for free space; vector potential for arbitrary sources. Radiation from current systems. Radiation conditions. Reciprocity and equivalence theorems; their applications.",
+    "Guiding Structures - Cylindrical Symmetry Structures: Expressions of e.m. fields: TE, TM and TEM waves; equivalent transmission lines. Boundary conditions. Propagation modes; eigenvalues and eigenfunctions. Cutoff frequency.",
+    "Waveguides: Rectangular and circular metallic waveguides, coaxial cables."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Class exercises",
+    "Theoretical lessons",
+    "Numerical exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written/practical test (Signal Analysis)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (Signal Analysis) - optional or at discretion of lecturer",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (Electromagnetic Fields)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exemption tests (Electromagnetic Fields) during the course",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The overall assessment is a final grade. For Signal Analysis, a written/practical test assesses knowledge of signals, analysis and processing methodologies, linear and non-linear systems, and Fourier transforms. An oral exam for Signal Analysis is optional for the candidate or at the discretion of the lecturer to assess critical analysis and independent judgment. For Electromagnetic Fields, there is an oral exam, with potential exemption tests during the course.",
+  "bibliography": [
+    "M. Luise, G. M. Vitetta, Teoria dei Segnali, McGraw-Hill",
+    "A. W. Oppenheim, A. S. Willsky (with S. H. Nawab), Signals and Systems, Second Edition, Prentice Hall",
+    "A. Papoulis, Probability, Random Variables and Stochastic Processes, McGraw-Hill, Third Edition",
+    "P. Mandarini, Teoria dei segnali, La Goliardica",
+    "G. Cariolaro: La teoria unificata dei segnali, UTET Libreria",
+    "L. Lo Presti, F. Neri: L'analisi dei segnali, Seconda Edizione, CLUT",
+    "Complete lecture notes provided by the lecturer, including solved exercises and problems.",
+    "Fernando Bardati - Campi Elettromagnetici (5a Edizione) Universitalia. ISBN: 978-88-6507-678-1",
+    "Giorgio Gerosa, Paolo Lampariello - Lezioni di Campi Elettromagnetici (2a Edizione) Ingegneria 2000. ISBN:978-88-8665-836-2",
+    "Fawwaz T. Ulaby, Eric Michielssen, Umberto Ravaioli: “Fundamentals of Applied Electromagnetics”, Prentice Hall"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Dell'Aquila",
+  "institution_slug": "ec_i_l_aquil01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "DG0122",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univaq.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=37160&ordinamento_aa=2019&af_percorso=6&corso_cod=10120&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "296498accea9658b81a471576c4a62d055329b60eec5d4c42929a5972980832d",
+  "extracted_at": "2026-11-18T10:02:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

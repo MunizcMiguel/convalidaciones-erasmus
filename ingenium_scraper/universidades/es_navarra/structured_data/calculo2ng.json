@@ -1,0 +1,106 @@
+{
+  "course_name_original": "Cálculo II (Ing.Gr.) (calculo2ng)",
+  "course_name_en": "Calculus II (Eng.Gr.)",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will have demonstrated possession and understanding of knowledge in a field of study that builds upon general secondary education, and is typically at a level which, while supported by advanced textbooks, also includes aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "R1"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "R24"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "R2"
+    }
+  ],
+  "syllabus_topics": [
+    "The space Rn. The Euclidean space Rn. Distance and balls in Rn. Open and closed sets.",
+    "Limits and continuity of functions of several variables. Scalar functions of n variables: domains, graphs, level sets. Limits and continuity of scalar functions. Properties of continuous functions. Vector functions of dimension m of n variables. Limits and continuity of vector functions. Composition of continuous functions.",
+    "Diferentiation of functions of several variables. Partial derivatives. Gradient vector. Repeated partial derivatives. Schwarz’s theorem. Differentiable scalar functions. Properties of differentiable functions. Differential of a scalar function. Second and higher differentials of scalar functions. Hessian matrix. Differentiable vector functions. Jacobian matrix. Differential of a vector function. Second and higher differentials of vector functions. Composition of differentiable functions. Chain rule.",
+    "Differential operators. Gradient of a scalar field and properties. Laplacian of a scalar field. Divergence and curl of a vector field. Differential forms and potential functions.",
+    "Taylor’s formula. Taylor’s theorem and mean value theorem.",
+    "Implicit functions. Implicit scalar and vector functions.",
+    "Extrema of scalar functions. Absolute and relative extrema. Necessary and sufficient conditions of relative extrema.",
+    "Conditional extrema. Method of Lagrange multipliers.",
+    "Parametric integrals. Definition of parameter-dependent integrals. Properties. Gamma and Beta functions.",
+    "Multiple integrals. Double integrals. Definitions. Calculation of double integrals. Change of variables. Triple integrals.",
+    "Curve integrals. Plane curves and curves in Rn. Curve integral of a scalar field. Curve integral of a vector field. Conservative vector fields.",
+    "Surface integrals. Surfaces in R3. Surface integral of a scalar field. Surface integral of a vector field.",
+    "Integral theorems. Green’s theorem. Gauss’ theorem. Divergence theorem. Stokes’ theorem."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Personal interview with the course instructor",
+    "Student study based on different sources of information",
+    "Completion of evaluated tests",
+    "In-person classes (classroom) including theoretical development and practical exercise resolution",
+    "Provision of study materials (internal area) for course follow-up and personal study",
+    "Tutoring and personalized help to address doubts and facilitate knowledge, skill, and aptitude acquisition"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 61.0,
+  "assessment_methods": [
+    {
+      "method": "Test 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test 2",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ordinary Exam - Part 1",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ordinary Exam - Part 2",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ordinary Exam - Part 3",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Extraordinary Exam (full course)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as max(P1,E1) + max(P2,E2) + E3, where P1 is the score for Test 1 (out of 3), P2 for Test 2 (out of 3), E1 for the first part of the ordinary exam (out of 3), E2 for the second part of the ordinary exam (out of 3), and E3 for the third part of the ordinary exam (out of 4). A final grade equal to or greater than 5 out of 10 is required to pass. For the extraordinary call, the exam covers the entire course material, previous partial scores are not retained, and a score equal to or greater than 5 is required to pass.",
+  "bibliography": [
+    "JM Martínez-Esnaola, C Blanco del Prado. Cálculo II: Notas de clase. Escuela de Ingenieros, TECNUN, Universidad de Navarra (2024).",
+    "A García, A López, F García, G Rodríguez, A Gutiérrez, A de la Villa. Calculo II: Teoría y problemas de funciones de varias variables. Glagsa, Madrid (2002).",
+    "J Stewart. Cálculo multivariable. Thomson, Madrid (2002).",
+    "J De Burgos Román. Cálculo infinitesimal: Teoría y problemas. Alhambra (1992).",
+    "J De Burgos Román. Cálculo integral (una y varias variables): 70 problemas útiles. García-Maroto Editores (2007).",
+    "GB Thomas, RL Finney. Cálculo con geometría analítica, Vols. I y II. Addison-Wesley Iberoamericana, Wilmington (1987).",
+    "W Rudin. Principles of mathematical analysis. McGraw-Hill, New York (1976)."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "calculo2ng",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/calculo2ng/",
+  "source_language": "es",
+  "source_sha256": "bba96588c263a7d3224f47b2af364b7fa29da4030a3970d526dcbf4677a6f320",
+  "extracted_at": "2026-11-18T02:50:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Datenintegration",
+  "course_name_en": "Data Integration",
+  "ects": 6.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "No prerequisites. Competencies taught in the Algorithms and Data Structures and Database Systems modules are recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The students can describe basic similarity measures for simple and complex data types (Data Matching).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students can explain methods for metadata extraction and for determining data dependencies (Data Profiling).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students can explain techniques for mapping, integrating, and transforming schemas and their data (Schema Alignment).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students can explain and apply algorithms for detecting and resolving duplicates and other data errors (Entity Resolution).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students can explain architectures and functionalities of modern, integrated information systems (Integrated Information Systems).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students can handle heterogeneous, dirty data and its integration.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students are able to apply scientific working methods in independently identifying, formulating, and solving problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The students are able to speak freely about scientific content, both in front of an audience and in a discussion.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Data models and query languages",
+    "Data extraction and preparation",
+    "Similarity measures for simple and complex data types",
+    "Metadata and dependency search",
+    "Schema transformation and mapping",
+    "Data transformation and cleaning",
+    "Entity search and resolution",
+    "Architectures of integrated information systems",
+    "Practical exercise of data integration"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercises (at least 50% of points)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solution for at least two exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (individual examination)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Assessment is based on a grading scale of 0 to 15 points according to the examination regulations for the M.Sc. Data Science program. To receive credits, students must achieve at least 50 percent of the points from the weekly exercises and orally present the solution for at least two of the exercises. The examination can be either a written exam or an individual oral exam.",
+  "bibliography": [
+    "Ulf Leser, Felix Naumann: Informationsintegration (dpunkt, 2006)",
+    "AnHai Doan, Alon Halevy, Zachary Ives: Principles of Data Integration (Morgan Kaufmann, 2012)",
+    "Ziawasch Abedjan, Lukasz Golab, Felix Naumann, Thorsten Papenbrock: Data Profiling Synthesis Lectures on Data Management (Morgan & Claypool, 2018)",
+    "George Papadakis, Ekaterini Ioannou, Emanouil Thanos, Themis Palpanas: The Four Generations of Entity Resolution (Morgan & Claypool, 2021)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS671",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Datenintegration.html",
+  "source_language": "de",
+  "source_sha256": "c250d8b7ad79435a12366fd19be7f75692877ee9850ee759cebb5860e3d71fee",
+  "extracted_at": "2026-11-20T09:23:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

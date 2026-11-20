@@ -1,0 +1,120 @@
+{
+  "course_name_original": "BIOELECTROMAGNETISM (86616)",
+  "course_name_en": "BIOELECTROMAGNETISM",
+  "ects": 9.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge acquired in Mathematics 2, Physics, Geometry, and Algebra, particularly on derivatives, integrals, electromagnetic phenomena, and the use of vectors."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire an intuitive and operational understanding of electric and magnetic fields and their interaction with biological tissues.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the fundamental principles of electromagnetism and understand the role of electromagnetic phenomena in several biomedical applications, such as magnetic resonance imaging, electrical and magnetic stimulation, hyperthermia therapy, and technologies for diagnosis and treatment.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe and interpret the main electromagnetic phenomena relevant to biological systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the basic physical models of field–tissue interaction.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Critically analyze the assumptions, limitations, and domains of validity of such models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the acquired knowledge to the understanding of biomedical devices and techniques based on electromagnetic fields, assessing their operating principles, performance, and practical implications from both qualitative and quantitative perspectives.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to connect physical, mathematical, and engineering concepts in an interdisciplinary context.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Foster independent judgment in the interpretation of results and in the critical assessment of biomedical applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Communicate concepts, methods, and results clearly and rigorously.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire tools for the autonomous study of advanced and rapidly evolving topics in biomedical electromagnetism.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of electromagnetics - Electric and magnetic fields - Electromagnetic waves - Maxwell’s equations - Field/matter interaction",
+    "Electromagnetic field behavior as a function of wavelength - Quasi-static regime (λ ≫ body size) - Intermediate regime (λ ~ body size) - Optical regime (λ ≪ body size)",
+    "Electromagnetic properties of biological tissues - Conductivity, permittivity, permeability - Conduction and displacement currents - Polarization and dipoles",
+    "Electromagnetic dosimetry - SAR (Specific Absorption Rate) - Human body models - Numerical methods: FDTD, FEM, impedance methods",
+    "Biomedical applications of electromagnetic fields - Magnetic Resonance Imaging (MRI) - Electrical stimulation (pacemakers, TENS) - Hyperthermia for cancer therapy - Microwave and optical imaging - Communication and powering of implantable devices",
+    "Regulatory and safety aspects - International guidelines - Exposure limits and regulations",
+    "Laboratories and exercises - Electromagnetic field visualization - Computational simulations - Environmental measurements"
+  ],
+  "teaching_methods": [
+    "Classroom lectures",
+    "Numerical exercises",
+    "Individual design activities",
+    "Group design activities",
+    "Numerical laboratory sessions",
+    "Flipped classroom activities (student-led seminars)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Electromagnetic simulation activities (individual report)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Numerical exercises (workbook developed in Jupyter environment)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Flipped classroom seminar activities",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on an oral examination (25%) and the evaluation of activities carried out during the course (75%). The 75% component is divided into three equal parts: electromagnetic simulation activities, numerical exercises, and flipped classroom seminar activities. Assessment criteria include understanding physical/engineering principles, applying models, correctness of analyses, quality of documentation, rigor in interpretation, ability to connect topics, and communication effectiveness.",
+  "bibliography": [
+    "C. Furse, D. A. Christensen, C. H. Durney, and J. Nagel, Basic Introduction to Bioelectromagnetics (2018).",
+    "U. Ravaioli and F. T. Ulaby, Fundamentals of Applied Electromagnetics (Pearson, 2022).",
+    "Additional materials provided by the lecturer."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86616",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8066&ordinamento_aa=2023&af_percorso=1&corso_cod=10186&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "2d1a17b2432cc75e6fc714f87c293667cc89ff21bbb3b911035557b8a31931b1",
+  "extracted_at": "2026-11-20T08:19:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

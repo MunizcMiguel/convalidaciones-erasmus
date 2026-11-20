@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Python for electrical engineering",
+  "course_name_en": "Python for electrical engineering",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "procedural programming",
+    "signal processing",
+    "electrical circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Student knows and understands the basics of Python programming language.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Student knows and understands which Python tools can be used for selected applications in electrical engineering.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Student knows and understands how to use Python tools selected applications in electrical engineering - digital signal processing and visualisation, - electrical circuits and power systems analysis, - artificial intelligence, machine and deep learning.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Student has ability to use Python programming language and tools in selected applications in electrical engineering: - digital signal processing and visualisation, - electrical circuits and power systems analysis, - artificial intelligence, machine and deep learning.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Student has ability to acquire a new knowledge",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Student has team working skills",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Python: Why Python?, environmental setup, run scripts, GitHub overview, use of documentation, basic syntax, variable types, basic operators, objects and data structures, strings, lists, tuples, dictionary.",
+    "Python methods and functions: Matplotlib library introduction – figures and axes creation, iterative figures, colormaps. File input/output, comparison operators, statements, conditionals and loops, linear algebra operations, statistics and random numbers, interpolation and fit.",
+    "Procedural programming in Python: Math and logic computations: selection, sorting, stack, queue etc.",
+    "Fundamentals of object-oriented programming in Python: OOP paradigms, attributes and class keyword, class object attributes and methods, function overloading, inheritance and polymorphism.",
+    "Digital signal processing and visualisation in Python part 1 – introduction: Introduction to NumPy/SciPy library, signals importing and pre-processing, harmonics and stochastic signals, signal processing tools, data visualisation.",
+    "Digital signal processing and visualisation in Python part 2 – selected applications: Fast Fourier transform (FFT) for spectral analysis, discrete cosine transform (DCT) for data compression, noise reduction and signal filtering.",
+    "Electrical circuits analysis in Python part 1 - introduction: Introduction to Pyspice library, electrical and electronics elements representation, creating electrical diagrams.",
+    "Electrical circuits analysis in Python part 2 – selected applications: Modelling and analysis of electrical diagrams.",
+    "Electrical power system analysis and modelling in Python part 1 - introduction: Introduction to Pypower/Pandapower library, power flow analysis, interfacing with OpenDSS.",
+    "Power system analysis and modelling in Python part 2 – selected applications: Analysis of a power systems, influence of non-linear and variable loads, influence of distributed generation, reactive power compensation.",
+    "Power system analysis and modelling in Python part 3 – project: Solution of typical issues in modern power systems, influence of distributed generation, power factor improvement etc.",
+    "Machine learning and deep learning in Python for electrical systems part 1 - Applications of Python artificial intelligence libraries.",
+    "Machine learning and deep learning in Python for electrical systems part 2 - data forecasting: Analysis of the operation of renewable energy sources using artificial intelligence methods.",
+    "Machine learning and deep learning in Python for electrical systems part 3 - system diagnosis: Analysis of the operation of a distributed power system using artificial intelligence methods."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "E-learning",
+    "Group work",
+    "Project Based Learning",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Project score (teamwork)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Total lab exercises score",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is the arithmetic mean of the project score (50%) and the total lab exercises score (50%). Attendance for laboratory classes is mandatory; one unexcused absence is allowed but must be caught up. Excused absences must be caught up through an additional date or fully documented student's own work.",
+  "bibliography": [
+    "https://www.python.org",
+    "https://docs.python.org/3/library/"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.12288.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/53886032-8fbd-4a75-901f-fddcaed09045.html",
+  "source_language": "pl",
+  "source_sha256": "72da071e9bfc6d7a39aa0ac9830a276238c212d032ff0022ff73a2f52be7d259",
+  "extracted_at": "2026-11-20T09:04:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

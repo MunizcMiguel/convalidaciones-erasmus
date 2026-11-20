@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Administración de Sistemas",
+  "course_name_en": "Systems Administration",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Programming, computer, and network knowledge from basic degree courses",
+    "Operating Systems course (second year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the services and management tools integrated into an operating system",
+      "type": "knowledge",
+      "code": "PF10"
+    },
+    {
+      "text": "Perform basic administration tasks of a multitasking operating system in a network environment",
+      "type": "skill",
+      "code": "PF11"
+    },
+    {
+      "text": "Install and configure applications and services in a computer system (physical or in the cloud) to achieve the required system functionality",
+      "type": "skill",
+      "code": "PF12"
+    }
+  ],
+  "syllabus_topics": [
+    "Installation, boot, and system operation",
+    "Concepts of systems administration. Installation of Linux and Windows operating systems. Linux administrative tools. Windows administration console.",
+    "System boot and shutdown. Boot sequence. Linux service startup and shutdown scripts: runlevels, upstart, systemd. Troubleshooting Linux and Windows boot issues.",
+    "Resource management and growth planning",
+    "Disks and file systems: ext3-4, NTFS. Journals. Disk administration. Partitioning. Logical volumes. Disk arrays. Partition managers. Quotas. Other storage devices.",
+    "Linux and Windows directory structure. Software installation and update. Linux packages. System update. Kernel modules. Windows drivers.",
+    "Backups. Backup tools. Simple backup. Multi-level backup.",
+    "User management and administration. Authentication systems",
+    "User accounts. Creation, deletion, changing properties of local users.",
+    "Local user authentication. Local groups. Resource access permissions.",
+    "Network configuration and shared resources.",
+    "Network configuration of a computer",
+    "Network authentication (LDAP, Kerberos, Active Directory)",
+    "Windows networks. Active Directory. Domains. Organizational units.",
+    "IPV6 concepts",
+    "Basic services",
+    "Firewalls: iptables, firewalls in Windows.",
+    "Network file systems: NFS and Samba/CIFS. Network backup.",
+    "Windows and Linux network services (DNS, WINS, DHCP, mail, SSH, Terminal Server, etc.)",
+    "Server migrations and basic virtualization concepts",
+    "Linux physical server migration",
+    "Windows physical server migration",
+    "Virtualization solutions",
+    "Migration of a physical server to a virtual server",
+    "Installation of operating systems and database applications.",
+    "Resource design and exploitation",
+    "System recovery",
+    "User administration",
+    "Network configuration and basic services",
+    "Backups and scheduled tasks",
+    "Migration and virtualization",
+    "Cloud system installation and configuration"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices / field / computer lab / language lab",
+    "Group tutorials",
+    "Group work",
+    "Individual work",
+    "Individual tutorials",
+    "Personal study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Individual or group theoretical assignments",
+      "weight_percentage": null
+    },
+    {
+      "method": "Formative and continuous evaluation of practical work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final evaluation of practical work (product, report, oral presentation)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Theoretical exam (if average theoretical assignment grade is below 7)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "The final grade depends on theoretical assignment performance. If the average of theoretical assignments is 7 or higher, the final grade is calculated as (0.5 × Practical Grade) + (0.5 × Average Theoretical Assignments Grade). If the average of theoretical assignments is below 7, a theoretical exam is required, and the final grade is (0.5 × Practical Grade) + (0.35 × Average Theoretical Assignments Grade) + (0.15 × Theoretical Exam Grade). Both theoretical and practical parts must be passed separately. The professor may require a videoconference to verify knowledge.",
+  "bibliography": [
+    "All necessary material for this course (notes, transparencies, supplementary material) is available to students on the corporate platform \"Campus Virtual\"."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Informática (Informática, Oviedo)",
+  "institution_slug": "uniovi_mm_inf",
+  "degree": "Máster Universitario en Ingeniería Informática",
+  "course_code": "MINFOR01-C-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/informatica/-/fof/asignatura/MINFOR01-C-001",
+  "source_language": "es",
+  "source_sha256": "26fa0c650e5cd85e7401e72dd6259ea2b98e920865b7bd4a0f7f74b9af92e997",
+  "extracted_at": "2026-11-20T05:58:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

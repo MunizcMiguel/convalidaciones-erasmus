@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Funktionale Sicherheit",
+  "course_name_en": "Functional Safety",
+  "ects": 5.0,
+  "semester": "unregelmäßig",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of engineering mathematics or mathematics for computer science.",
+    "Procedural and Object-Oriented Programming in C/C++."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students gain a basic understanding of control engineering safety systems, reliability analysis, and software quality criteria and their special development requirements. In particular, they know the processes of functionally safe software development for these systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have the knowledge of how software for safe systems is structured. They know the design process and tools for creating hardware and software for safe and reliable computer systems. They understand the concepts of software quality assurance.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students who have successfully studied this module understand the basics of Functional Safety and its requirements for development and quality standards.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply the knowledge acquired in the module and interpret the applicability of functional safety standards to real problems. They are able to make independent, scientifically sound judgments and assessments for practical scenarios.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to communicate comprehensively, plan, and effectively collaborate with other team members to create a multidisciplinary project related to various areas of functional safety, such as hardware, software, and verification and validation.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of the terms \"hazards and risks\", safety vs security.",
+    "Recognizing and defining safety goals.",
+    "Fundamentals of reliability considerations (redundancies, diversity, failure rates).",
+    "Fundamental importance of metrics and key figures of Functional Safety (SIL, ASIL, PL, DC, HFT, MTTF, etc.).",
+    "SW requirements management.",
+    "SW quality management for error prevention in the development process, e.g., V-model.",
+    "The use and qualification of development tools for the development of safe software systems.",
+    "Coding guidelines and qualification of programming languages.",
+    "Validation and verification methods.",
+    "Basic techniques for error prevention in system architectures."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise",
+    "Self-study (preparation and follow-up)",
+    "Exam preparation"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project report (written)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded assessment is either a written exam or a written project report, chosen by the lecturer. The written exam duration is specified in the valid study regulations. The project report is approximately 10-15 pages with an associated explanation of about 20 minutes. The ungraded assessment is experimental work consisting of approximately 8 experiments in total.",
+  "bibliography": [
+    "Börcsök : Funktionale Sicherheit, VDE Verlag, 2021",
+    "Löw, Papst, Petry: Funktionale Sicherheit, dpunkt.verlag 2010",
+    "Wratil, Kieviet: Sicherheit für Komponenten und Systeme, VDE Verlag 2010",
+    "Wratil, Kieviet, Röhrs: Sicherheit für Maschinen und Anlagen, VDE Verlag 2015",
+    "Ross: Funktionale Sicherheit im Automobil, Hanser 2014",
+    "Montenegro, Sichere fehlertolerante Steuerungen, Hanser 1999",
+    "Liggesmeyer: Software-Qualität, Spektrum Akademischer Verlag 2009",
+    "Kemnitz: Test und Verlässlichkeit von Rechnern, Springer 2007",
+    "Rausand: Relaibility of Safety-Critical Systems, Wiley 2014"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B1265",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "576a89c67539934ed64a644d30913e69c3f3f9a78c48ae979ae8fe86d707ffeb",
+  "extracted_at": "2026-11-20T12:32:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

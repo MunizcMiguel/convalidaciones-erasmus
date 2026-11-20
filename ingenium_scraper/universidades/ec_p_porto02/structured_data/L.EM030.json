@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Automação Industrial",
+  "course_name_en": "Industrial Automation",
+  "ects": 6.0,
+  "semester": "2S",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "As defined by Course Direction"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Global knowledge of the capabilities of logic control systems and associated technologies in the context of industrial automation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze a logic control system integrated in a machine.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to propose a wired or programmed logic control solution.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "1. Introduction to industrial automation and safety",
+    "2. Continuous and discrete quantities. Quantities and all-or-nothing variables. Boolean algebra",
+    "3. Combinational circuits: simplification, description and use of logic functions.",
+    "4. Bistable memories (set reset). Related technologies.",
+    "6. Timer: opening and closing delay. Impulse timers. Applications",
+    "5. Most common binary codes. Unipolar and bipolar codes. A/D and D/A conversion",
+    "5 - Events.",
+    "7. Counters: up counters, down counters and up/down counters. Applications",
+    "8. Grafcet (Graphe Fonctionnel de Commande, Etapes Transitions) modelling",
+    "9. Programming and use of programmable logic controllers (PLCs) - I/O interfaces. Intern organisation. Operation. Variable initiation. Programming languages and programming techniques. Arithmetic instructions and numerical manipulation. Grafcet’s translation in PLCs’ programs."
+  ],
+  "teaching_methods": [
+    "Theoretical-practical classes with audiovisual support and simple examples",
+    "Critical practice of the themes taught",
+    "Problem-solving (with professor assistance available outside of class)",
+    "Laboratory classes to increase contact with technology and tests",
+    "Short presentations (if necessary) to contextualize topics in lab classes",
+    "Practical assignments based on the development of combinational circuits, timers, counters, and their application on sequential circuits",
+    "Project and circuit development using software of logic circuits simulation, integrated circuits, electro mechanics, and programmed PLCs in contacts language, functional blocks, and Grafcet."
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 78.5,
+  "assessment_methods": [
+    {
+      "method": "Individual written exam 1 (WE1)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Individual written exam 2 (WE2)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Individual laboratory assignment (ASN)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The final mark is based on two individual written exams (WE1: 35%, WE2: 40%) and one individual laboratory assignment (ASN: 25%), all assessed from 0 to 20. Students must achieve a minimum grade of 7 out of 20 in both WE1 and WE2; otherwise, the final grade will be 9 out of 20, regardless of the calculated average. Students who failed can repeat one written exam (WE1 or WE2) or take a global written exam that replaces both previous grades and also requires a minimum grade of 7 out of 20. The laboratory assignment can only be repeated in exceptional cases, and class attendance is generally required to attend exams and the assignment. During assessment periods, the use of any electronic device is strictly prohibited, unless expressly indicated by teaching staff or for students with special needs.",
+  "bibliography": [
+    "Portugal. Instituto Portugus da Qualidade; Smbolos grficos para esquemas",
+    "Antnio Pessoa de Magalhes; Fundamentos de Automao Industrial (13 cadernos), 2022",
+    "Norma EN 60848:2002 GRAFCET specification language for sequential function charts , CENELEC, 2002",
+    "CENELEC EN 61082-1 2006.07.01 Preparation of documents used in electrotechnology Part 1: Rules - IEC 61082-1:2006",
+    "Jack, Hugh; Automating manufacturing systems with PLCs",
+    "Mano, M. Morris; Digital design . ISBN: 0-13-212994-9",
+    "William Bolton; Mechatronics . ISBN: 0-582-35705-5"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM030",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560374",
+  "source_language": "en",
+  "source_sha256": "eca05bf054414dfb6ac33663ae6badfd7db9fb3569165f3c8a7a62fb4e958fb7",
+  "extracted_at": "2026-11-18T04:11:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

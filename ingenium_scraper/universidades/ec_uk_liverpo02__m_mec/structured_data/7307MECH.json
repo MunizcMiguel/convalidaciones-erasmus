@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Advanced Finite Element Analysis (7307MECH)",
+  "course_name_en": "Advanced Finite Element Analysis",
+  "ects": 5.0,
+  "semester": "September (Non-standard start date) (12 Weeks)",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Set up and validate efficient and accurate FE models of a range of simple engineering components, assemblies or structures under non-linear loading.",
+      "type": "unspecified",
+      "code": "MLO1"
+    },
+    {
+      "text": "Set up and validate an efficient and accurate FE model of a complex engineering component, assembly or structure under non-linear loading.",
+      "type": "unspecified",
+      "code": "MLO2"
+    },
+    {
+      "text": "Critically evaluate the output from non-linear FE analysis.",
+      "type": "unspecified",
+      "code": "MLO3"
+    },
+    {
+      "text": "Appreciate the theory underpinning the non-linear aspects of commercial FE codes.",
+      "type": "unspecified",
+      "code": "MLO4"
+    }
+  ],
+  "syllabus_topics": [
+    "Practical aspects of FEA: Non-linear analysis",
+    "Planning the analysis",
+    "Element selection",
+    "Plane stress",
+    "Plane strain",
+    "Axisymmetric",
+    "Brick elements",
+    "Full integration",
+    "Reduced integration",
+    "Shear locking",
+    "Hour glassing",
+    "Geometric non linearity",
+    "Material non linearity",
+    "Managing the solution, incremental solution and convergence of results",
+    "Plastic behaviour in metals",
+    "Von-Mises plasticity",
+    "Available material models",
+    "Elastic perfectly plastic",
+    "Elastic linear strain hardening",
+    "Piecewise plasticity model",
+    "Hardening models, isotropic, kinematic",
+    "Practical application to plasticity problems",
+    "Application of explicit dynamics to impact and pseudo static situations such as metal forming",
+    "Post processing and results checking",
+    "Review of available non linear results: stress, strain, displacement, velocity, acceleration, primary and derived quantities",
+    "Interpretation of results, checking results, reaction forces, displaced shape, nodal and element plots, energy balance for explicit dynamics, hand calculations",
+    "Theoretical aspects of FEA: Review of basic theory",
+    "Global stiffness matrix assembly and solution",
+    "Determination of element stiffness matrix by variational approach",
+    "Minimum potential energy or virtual work",
+    "Application to 2 noded bar element",
+    "Element formulation, linear and quadratic, shape functions, implicit and explicit for two dimensional elements",
+    "Isoparametric elements",
+    "Determination of element stiffness matrix, Gaussian quadrature, fully and reduced integration elements",
+    "Obtaining non linear solutions, time and load steps, incremental analysis, Newton-Raphson"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Assignments using industry standard software"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 33.0,
+  "assessment_methods": [
+    {
+      "method": "FEA Project Report",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Liverpool John Moores University — MEng (Hons) Mechanical Engineering (Level 7 / master-level modules)",
+  "institution_slug": "ec_uk_liverpo02__m_mec",
+  "degree": "MEng (Hons) Mechanical Engineering (Level 7 / master-level modules)",
+  "course_code": "7307MECH",
+  "academic_year": "2025-26 (Programme Specification 2022.01)",
+  "source_url": "https://coursecatalogue.ljmu.ac.uk/module/2025/7307MECH",
+  "source_language": "en",
+  "source_sha256": "67f690834d7e4c1642b2aa6d70a39b14f575fa0aca5b9b299dbc7f3de6259515",
+  "extracted_at": "2026-11-20T13:00:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

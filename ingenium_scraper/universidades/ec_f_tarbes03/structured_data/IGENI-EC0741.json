@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Informa�que Industrielle (micro controleur)",
+  "course_name_en": "Industrial Computing (microcontroller)",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Cross-disciplinary knowledge of algorithms (IGENI-EC0143 / IGENI-EC0442)",
+    "Combinational and sequential logic (IGENI-EC0245 / IGENI-EC0443)",
+    "Embedded electronics (IGENI-EC0144 / IGENI-EC0244)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the structure and simplified operation of an AVR-type microcontroller.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the content of a given code in C and Wiring language intended for an AVR type microcontroller.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Make rational use of the development environment (IDE) for Arduino boards in order to program them.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Draw up the state diagram for a simple industrial application requiring data acquisition and actuator control.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Draw up the logigram and then the code in C/wiring from a state diagram.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Develop a prototype on training equipment using an arduino board interfaced with sensors, actuators and man/machine interfaces.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowing the structure of an Atmel 2560 microcontroller, and the role of all its constituent parts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the main parts of an Arduino C code, and understand the functions performed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use a number of C and C++ libraries to manage sensor, actuator and man-machine interfaces in simple applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement a development methodology (state diagram) as part of a group industrial project.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Learning about GPIOs and time management",
+    "Use of interrupts",
+    "Transmission protocols",
+    "Analogue functions",
+    "Design and prototyping of a personal project"
+  ],
+  "teaching_methods": [
+    "Practical laboratory exercise sessions",
+    "Flipped classroom"
+  ],
+  "workload_hours_total": 36.0,
+  "workload_hours_contact": 26.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Control (CC1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project (PJ1)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1+1*PJ1)/2.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0741",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "43d3e59aa27b1cc7ecdf1c47ce6f9cd0fe0a499403a0ec7adde993bdd915972a",
+  "extracted_at": "2026-11-18T09:52:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

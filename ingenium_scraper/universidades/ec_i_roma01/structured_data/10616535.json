@@ -1,0 +1,199 @@
+{
+  "course_name_original": "FONDAMENTI TEORICI DELL'INFORMATICA Canale unico",
+  "course_name_en": "THEORETICAL FOUNDATIONS OF COMPUTER SCIENCE Single Channel",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic mathematical knowledge",
+    "Knowledge of the most common programming languages and computer architectures",
+    "In-depth knowledge of the most common algorithms and data structures"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student learns the fundamental notions of computational models and computational complexity, of mathematical logic, the principles by which the validity of arguments is judged, the relationships between arguments are analyzed, and inferential relationships, such as deduction, induction, and abduction, between them are evaluated. The student also learns the basic notions of probabilistic methods and dynamic optimization and acquires the bases for applying these notions to the analysis and design of fundamental algorithms in computer science, including sorting algorithms, network and graph algorithms, classification, clustering, and machine learning algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student acquires a deep understanding of the decidability/undecidability and tractability/intractability of problems, on the role of logic in various aspects of a computer engineer's activities. They acquire basic knowledge to formalize a problem in logic, analyze logical theories and reason about their inferences, build logical theories for modeling the requirements of a medium-complexity information system, specify database queries in logic, specify the properties of automata in logic, and translate the specification of simple computations into logic programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student also acquires a deep understanding of the role of algorithm analysis and design in various aspects of a computer engineer's activities and acquires basic knowledge to perform analysis of probabilistic algorithms, define probabilistic algorithms for medium-complexity problems, apply fundamental methods such as the Monte Carlo method, Markov chains, dynamic programming, and Bayesian models to different contexts, such as sequences, graphs, networks, machine learning, classification, and clustering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to evaluate the validity of statements and arguments, the consistency of a set of requirements for an information system, the adequacy of the formulation of a computation that extracts data from a database, the correctness of a program with respect to the specification of certain properties. The student is able to define the decidability/complexity of a problem, analyze probabilistic algorithms, evaluate the effectiveness of probabilistic and dynamic optimization methods for algorithmic problems, and judge the quality of the application of machine learning, classification, and clustering algorithms.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The practical activities and exercises of the course allow the student to acquire crucial tools for communicating and sharing the critical evaluation of logical tools and languages and their role in different fields of computer science and algorithmic methods and their role in different important contexts of computer engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "In addition to the classic learning abilities provided by the theoretical study of the basic topics covered in the course, the course delivery methods, particularly the project activities, stimulate the student to independent study of some topics, group work, and the concrete application of the notions and techniques learned during the course.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define syntax and semantics of first-order logic (structures, interpretations, satisfiability, validity).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe finite state automata (DFA/NFA), the concept of regular language and their limits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Present the Turing machine model, its relationship with the notion of algorithm and the fundamental notions of computability/decidability.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Illustrate the basic concepts of computational complexity, with particular attention to P, NP, and Karp reductions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the fundamental notions of probabilistic algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Formalize simple properties/problems in first-order logic and evaluate the truth of formulas on assigned structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Construct and minimize DFAs, convert NFAs to DFAs, and translate between automata and regular expressions (in treated cases).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design Turing machines for elementary tasks and simulate step-by-step computations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate non-regularity (e.g., using pumping lemma or equivalent methods), argue decidability/undecidability in standard examples.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Classify problems in P or NP in simple cases and set up basic polynomial reductions (introduction to NP-completeness).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze a simple probabilistic algorithm and calculate/estimate the probability of success/error.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Select the most appropriate formalism (logic/automata/TM/complexity) to analyze a given problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Evaluate the correctness of a solution or a proof, identifying assumptions, critical steps, and possible errors.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Compare models and results (e.g., expressive power, decidability limits, implications of reductions) to draw reasoned conclusions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Critically evaluate when the use of randomization is advantageous (cost/benefit).",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Present definitions, examples, constructions, and proofs with rigorous language and correct notation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Justify the choices made in solving exercises (automata construction, logical formalizations, reductions).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Present structured, clear, and verifiable solutions in written and/or oral form.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Communicate precisely the results of a probabilistic algorithm, explicitly stating hypotheses, randomization model, and probabilistic guarantees (expected time, error probability).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently study additional material (chapters/texts on computation theory) to consolidate or extend the content.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Reuse learned techniques (pumping lemma, automata constructions, TM simulations, reductions) on new but similar problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop a working method based on precise definitions, examples and counterexamples, and systematic verification of demonstrative steps.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently delve into variants and limits of probabilistic algorithms, linking them to the course's complexity topics.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "First-order logic. Syntax and Semantics.",
+    "Finite state automata.",
+    "Turing Machines",
+    "Computability",
+    "Complexity",
+    "Probabilistic Algorithms"
+  ],
+  "teaching_methods": [
+    "Lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "To pass the exam, a minimum score of 18/30 is required. The student must demonstrate sufficient knowledge of first-order logic (syntax and semantics), finite state automata and regular languages, Turing machines, basic notions of computability and computational complexity (P and NP), and basic knowledge of the main techniques (e.g., automata construction, decidability/undecidability arguments, elementary reductions). For a score of 30/30 cum laude, the student must demonstrate excellent knowledge of all topics, connecting them logically and coherently, and be able to develop complete and rigorous solutions for non-immediate exercises.",
+  "bibliography": [
+    "M. Sispser. Introduzione alla teoria della computazione",
+    "S. Arora, B. Barak. Computational Complexity: a Modern Approach",
+    "C. H. Papadimitriou. Computational Complexity."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "10616535",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e3be2337-c826-4055-903f-7f6c3a072764/3/1/cd007c6f-0132-4ff7-a5fb-45e7a14de040",
+  "source_language": "it",
+  "source_sha256": "6afeaa9553fc9f531aad3d47bc4eaeead476071c16750c3dc5d693987dcf796c",
+  "extracted_at": "2026-11-20T09:24:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

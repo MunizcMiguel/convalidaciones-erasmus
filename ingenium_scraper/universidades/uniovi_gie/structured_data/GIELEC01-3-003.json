@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Transporte y Distribución de Energía Eléctrica",
+  "course_name_en": "Electric Power Transmission and Distribution",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have completed the subjects corresponding to the basic training modules and those corresponding to the second year of the common module for the industrial branch."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Describe and interpret the basic principles governing the transmission and distribution of electric power, as well as analyze and apply the basic configurations and models of installations, their constituent elements, and the mathematical relationships governing these involved physical processes.",
+      "type": "unspecified",
+      "code": "RTD-1"
+    },
+    {
+      "text": "Analyze and evaluate the behavior of electrical lines both in normal operation and in the face of various incidents that power transmission and distribution networks may be subjected to.",
+      "type": "unspecified",
+      "code": "RTD-2"
+    },
+    {
+      "text": "Properly use specific computer programs for electrical network simulation and calculate and evaluate the results obtained.",
+      "type": "unspecified",
+      "code": "RTD-3"
+    },
+    {
+      "text": "Design overhead and underground electrical lines.",
+      "type": "unspecified",
+      "code": "RTD-4"
+    },
+    {
+      "text": "Recognize and apply the regulations that must be met by electrical transmission and distribution facilities.",
+      "type": "unspecified",
+      "code": "RTD-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Chapter I. BASIC CONCEPTS",
+    "Introduction: Justification of transmission and distribution networks. Voltage levels.",
+    "Transmission and distribution networks. Elements. Technical, business and regulatory aspects. The Spanish electrical system.",
+    "Phasors. Instantaneous and complex power. Power triangle.",
+    "Network equations in three-phase circuits. Per-unit quantities.",
+    "Chapter II. LINE PARAMETERS AND MODELS",
+    "Overhead and underground lines. Conductors. Supports and fittings. Parameters. Resistance. Inductance and Capacitance. Series impedance. Parallel admittance.",
+    "Model of short, medium, and long lines. Voltage and current waves. Characteristic impedance. Transmission capacity. Compensation.",
+    "Transformers and Generators. Behavior. Equivalent circuits.",
+    "Single-line diagrams. Impedance and reactance diagrams.",
+    "Chapter III. ELECTRICAL NETWORK ANALYSIS",
+    "Load flows. Concept. Solution. Newton-Raphson. Decoupled flows. DC flows.",
+    "State Estimators.",
+    "Economic dispatch. Optimal power flows.",
+    "Voltage and frequency control. Voltage stability. Voltage collapse.",
+    "Transient stability.",
+    "Chapter IV. SHORT-CIRCUIT ANALYSIS and NETWORK PROTECTION",
+    "Incidents in electrical networks, causes and consequences.",
+    "Symmetrical short-circuits.",
+    "Symmetrical components and asymmetrical short-circuits.",
+    "Components of a protection system. Measuring transformers and relays.",
+    "Overcurrent, differential, and distance protection.",
+    "Advanced protection. Reclosers.",
+    "P1- Introduction to PowerFactory. Working environment.",
+    "P2. Models of overhead and underground lines.",
+    "P3. Load flow calculation.",
+    "P4. Short-circuit calculation.",
+    "P5. Project, model, and results management.",
+    "P6. Design and analysis of protections.",
+    "P7. Practical exam."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices/seminars/workshops",
+    "Laboratory/computer room practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exams (theory)",
+      "weight_percentage": 85.0
+    },
+    {
+      "method": "Practical exam",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "In the ordinary session, the final grade is calculated as 0.85 * (Average of theoretical partials) + 0.15 * (Practical exam grade), provided all theoretical partials have a minimum grade of 4. Otherwise, the final grade is the minimum of the calculated grade and 4.0. In the extraordinary session, a theoretical exam (T) covers all theoretical content and must have a minimum grade of 4.5 out of 10. The practical grade (P1) is retained from the ordinary session. The final grade is calculated as 0.85 * T + 0.15 * P1. Otherwise, the final grade is the minimum of the calculated grade and 4.0. In case of doubt regarding authorship or unauthorized means, students may be asked for an in-person defense.",
+  "bibliography": [
+    "GARCÍA TRASANCOS, José. *Instalaciones Eléctricas en media y baja tensión*. THOMSON. PARANINFO. Tercera edición. 2003",
+    "GRAINGER, J. STEVENSON, W. *Análisis de Sistemas de Potencia*. McGraw Hill.1995.",
+    "GÓMEZ EXPÓSITO, A. *Análisis y Operación de Sistemas de Energía Eléctrica*. McGraw Hill. 2002",
+    "KOTHARI, D. NAGRATH, I. *Sistemas Eléctricos de Potencia*. McGraw Hill. 2008",
+    "ZAMORA BELVER, Mª Inmaculada y otros. *Simulación de Sistemas Eléctricos.* Pearson. 2005",
+    "RLAT Reglamento sobre condiciones técnicas de seguridad en líneas eléctricas de alta tensión y sus instrucciones técnicas reglamentarias.Real Decreto 223/2008, de 15 de febrero.BOE-A-2008-5269"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-3-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-3-003",
+  "source_language": "es",
+  "source_sha256": "02b4bf22f20e9eaa1edbc0c4da6587e7db08ace766861dc81ebffddb27565b09",
+  "extracted_at": "2026-11-20T01:13:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

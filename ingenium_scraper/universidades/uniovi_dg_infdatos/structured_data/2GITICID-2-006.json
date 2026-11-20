@@ -1,0 +1,203 @@
+{
+  "course_name_original": "Algoritmia",
+  "course_name_en": "Algorithmics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Fundamentos de Informática",
+    "Introducción a la Programación",
+    "Metodología de la Programación"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Capacity to solve problems within their area of study.",
+      "type": "competence",
+      "code": "GTR1"
+    },
+    {
+      "text": "Capacity for abstraction: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "competence",
+      "code": "GTR3"
+    },
+    {
+      "text": "Capacity for personal planning and organization.",
+      "type": "competence",
+      "code": "GTR4"
+    },
+    {
+      "text": "Capacity for effective communication (in expression and comprehension) oral and written, with special emphasis on the drafting of technical documentation.",
+      "type": "competence",
+      "code": "GTR6"
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "competence",
+      "code": "GTR7"
+    },
+    {
+      "text": "Have motivation for quality and continuous improvement and act rigorously in professional development.",
+      "type": "competence",
+      "code": "GTR8"
+    },
+    {
+      "text": "Understand the classical algorithmic schemes (Divide and Conquer, Branch and Bound, etc.) and apply them effectively to a problem that requires it.",
+      "type": "skill",
+      "code": "PR32"
+    },
+    {
+      "text": "Calculate the efficiency of an algorithm using the complexity order technique (O notation).",
+      "type": "skill",
+      "code": "PR33"
+    },
+    {
+      "text": "Understand the concept of a recursive algorithm.",
+      "type": "knowledge",
+      "code": "PR34"
+    },
+    {
+      "text": "Apply the recursive algorithm design technique to solve a problem.",
+      "type": "skill",
+      "code": "PR35"
+    },
+    {
+      "text": "Transform a recursive algorithm into its equivalent iterative version.",
+      "type": "skill",
+      "code": "PR36"
+    },
+    {
+      "text": "Determine the suitability of using a recursive algorithm versus the equivalent iterative one to solve a problem.",
+      "type": "skill",
+      "code": "PR37"
+    },
+    {
+      "text": "Select the appropriate algorithmic scheme to solve a specific problem.",
+      "type": "skill",
+      "code": "PR38"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to algorithm analysis",
+    "Time and space complexity",
+    "Asymptotic notations: O, omega, and exact order",
+    "Orders of complexity",
+    "Case analysis: best, worst, and average",
+    "Cost analysis of iterative and recursive algorithms",
+    "Case studies: search, sort, etc.",
+    "Introduction to recursive algorithm design",
+    "Principle of induction",
+    "Design and verification of a recursive function",
+    "Immersion techniques",
+    "Types of recursion",
+    "Transformation of recursive algorithms into their iterative version",
+    "Introduction to Dynamic Programming",
+    "General characteristics of dynamic programming",
+    "Optimization problems",
+    "Principle of optimality",
+    "General scheme of dynamic programming",
+    "Examples: knapsack, change-making, shortest paths, etc.",
+    "Introduction to Divide and Conquer",
+    "General characteristics of divide and conquer",
+    "General scheme of divide and conquer",
+    "Examples: binary search, merge sort, quicksort, etc.",
+    "Introduction to Backtracking",
+    "General characteristics of backtracking",
+    "Exploration trees",
+    "General schemes of backtracking",
+    "Examples: knapsack, eight queens, etc.",
+    "Introduction to Greedy Scheme",
+    "General characteristics of greedy algorithms",
+    "General scheme of greedy algorithms",
+    "Examples: change-making, knapsack, shortest paths (Dijkstra), minimum spanning trees (Prim and Kruskal), task scheduling, etc.",
+    "Introduction to Branch and Bound",
+    "General characteristics of branch and bound",
+    "General schemes of branch and bound",
+    "Examples: knapsack, assignment problems, etc."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Study of theoretical material",
+    "Completion of exercises and problems"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (T1)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Partial Exam (T2)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Partial Exam (T3)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practical work (TP1)",
+      "weight_percentage": 2.5
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical work (TP2)",
+      "weight_percentage": 2.5
+    },
+    {
+      "method": "Practical Exam (P2)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical work (TP3)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Practical Exam (P3)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Group Work (TG)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "For the ordinary examination, a minimum score of 4.0 out of 10 is required for both the theoretical and practical blocks. The theoretical block score is (0.25 * T1) + (0.25 * T2) + (0.50 * T3). The practical block score is (0.20 * TP1 + 0.80 * P1) * 0.25 + (0.20 * TP2 + 0.80 * P2) * 0.25 + (0.20 * TP3 + 0.80 * P3) * 0.50. The final grade is (0.50 * Theory) + (0.45 * Practices) + (0.05 * Group Work), and must be at least 5 out of 10 to pass. In the extraordinary examination, students who achieved at least 50% in either the theoretical or practical part in the ordinary call are not required to retake that part. To pass, a minimum of 5.0 out of 10 is required for both the theoretical and practical exams, with the final grade calculated as (0.5 * Theory) + (0.5 * Practices).",
+  "bibliography": [
+    "Brassard, G., Bratley, P., Fundamentos de Algoritmia, Prentice-Hall, 1997.",
+    "Cormen,T. H.; Leiserson, C. E.; Rivest, R. L.; Stein, C., Introduction to Algorithms, The MIT Press, 2009.",
+    "Peña, R., Diseño de Programas. Formalismo y Abstracción, Prentice-Hall, 2005.",
+    "Aho, A. V., Hopcroft, J. E., Ullman, J. D., Data Structures and Algorithms, Addison Wesley, 1987.",
+    "Baase, S., Computer Algorithms, Introduction to Design and Analysis, Addisson Wesley, 1988.",
+    "Horowitz, E., Sahni, S., Fundamentals of Computer Algorithms, Pitman, 1978.",
+    "Scholl, P. C., Algorítmica y Representación de Datos, Recursividad y Árboles, Masson, 1986.",
+    "Torres, C., Diseño y Análisis de algoritmos, Paraninfo, 1992."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-2-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-006",
+  "source_language": "es",
+  "source_sha256": "7ef7c5f5d39e19182ef3f4598c04e8db5fe0017e0716c3e7ba77af661b4b1569",
+  "extracted_at": "2026-11-20T05:57:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

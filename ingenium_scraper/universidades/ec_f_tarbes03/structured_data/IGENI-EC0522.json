@@ -1,0 +1,75 @@
+{
+  "course_name_original": "Mécanique des fluides",
+  "course_name_en": "Fluid Mechanics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know how to determine the pressure space function within a static fluid.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to predict the evolution of pressure/velocity/potential energy within a dynamic fluid with or without head losses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to use Euler's theorem to predict the action of a fluid on a wall.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "General overview of fluid systems",
+    "Fundamental principle of statics",
+    "Fluid kinematics",
+    "Fluid dynamics"
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical work (TP)"
+  ],
+  "workload_hours_total": 45.5,
+  "workload_hours_contact": 25.5,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "TP1",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (3*DS1+1*TP1)/4.",
+  "bibliography": [
+    "Mécanique des fluides, S. Candel, DUNOD, (1990)",
+    "Mécanique expérimentale des fluides (Tome I).",
+    "Mécanique des milieux continus, J. Coirier, DUNOD (1997)",
+    "Mécanique expérimentale des fluides (Tome I), R. Comolet, MASSON, 1961.",
+    "Exercices de mécanique des fluides, M.A.Morel et J.P.Laborde, EYROLLES, 1992"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0522",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "0d0c2678cfe9a2316c535801862de2fee1543a8acf13a27421e7c9ee8c18f90f",
+  "extracted_at": "2026-11-18T09:52:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

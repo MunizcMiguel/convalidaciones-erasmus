@@ -1,0 +1,180 @@
+{
+  "course_name_original": "Arquitectura de Redes y Sistemas",
+  "course_name_en": "Network and Systems Architecture",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of protocol architectures and the lower layers (physical and data link) of the OSI model, as covered in the 'Fundamentos de Telemática' course.",
+    "Proficiency in binary, decimal, and hexadecimal numerical representations."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of basic subjects and technologies, enabling the learning of new methods and technologies, and providing great versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and to communicate and transmit knowledge, skills and abilities, understanding the ethical and professional responsibility of the Telecommunication Technical Engineer's activity.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Knowledge for performing measurements, calculations, valuations, appraisals, expert reports, studies, task planning, and other similar works in their specific field of telecommunication.",
+      "type": "knowledge",
+      "code": "CG5"
+    },
+    {
+      "text": "Facility for handling specifications, regulations, and mandatory standards.",
+      "type": "skill",
+      "code": "CG.6"
+    },
+    {
+      "text": "Ability to work in a multidisciplinary group and in a multilingual environment and to communicate, both in writing and orally, knowledge, procedures, results, and ideas related to telecommunications and electronics.",
+      "type": "competence",
+      "code": "CG.9"
+    },
+    {
+      "text": "Ability to use communication and computer applications (office automation, databases, advanced calculation, project management, visualization, etc.) to support the development and operation of telecommunication and electronic networks, services, and applications.",
+      "type": "skill",
+      "code": "CR2"
+    },
+    {
+      "text": "Ability to use computer tools for searching bibliographic resources or information related to telecommunications and electronics.",
+      "type": "skill",
+      "code": "CR3"
+    },
+    {
+      "text": "Ability to conceive, deploy, organize and manage telecommunication networks, systems, services, and infrastructures in residential (home, city, and digital communities), business, or institutional contexts, taking responsibility for their implementation and continuous improvement, as well as knowing their economic and social impact.",
+      "type": "competence",
+      "code": "CR6"
+    },
+    {
+      "text": "Knowledge and use of network architecture, protocols, and communication interface concepts.",
+      "type": "knowledge",
+      "code": "CR12"
+    },
+    {
+      "text": "Knowledge of network interconnection and routing methods, as well as the fundamentals of network planning and sizing based on traffic parameters.",
+      "type": "knowledge",
+      "code": "CR14"
+    },
+    {
+      "text": "Recognize topologies in local area networks, name the protocols that could be used, and explain their operation.",
+      "type": "unspecified",
+      "code": "RA-7.9"
+    },
+    {
+      "text": "Analyze, elaborate, and determine relevant information in the development of works related to the different topics that will be addressed in the subject.",
+      "type": "unspecified",
+      "code": "RA-7.10"
+    },
+    {
+      "text": "Explain congestion control techniques.",
+      "type": "unspecified",
+      "code": "RA-7.13"
+    },
+    {
+      "text": "Describe routing algorithms.",
+      "type": "unspecified",
+      "code": "RA-7.14"
+    },
+    {
+      "text": "Know the methods of routing and network interconnection.",
+      "type": "unspecified",
+      "code": "RA-7.18"
+    },
+    {
+      "text": "Analyze and evaluate routing protocols using computer tools.",
+      "type": "unspecified",
+      "code": "RA-7.20"
+    },
+    {
+      "text": "Create and use models of real networks using network simulators.",
+      "type": "unspecified",
+      "code": "RA-7.21"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1: Review of Physical and Data Link Layers",
+    "Practical aspects of IEEE 802 standards",
+    "Topic 2: Network Layer",
+    "Functions, organization, and services offered",
+    "Routing: Classification, strategies, and minimum cost algorithms",
+    "Introduction to congestion control and traffic management techniques",
+    "Overlay tunnels",
+    "Review of packet-switched network technologies",
+    "X.25",
+    "Frame Relay",
+    "ATM",
+    "MPLS",
+    "Topic 3: TCP/IP Architecture",
+    "The TCP/IP architecture",
+    "TCP/IP protocol family",
+    "IP (Internet Protocol)",
+    "IPv4",
+    "ARP (Address Resolution Protocol)",
+    "ICMP (Internet Control Message Protocol)",
+    "IPv6",
+    "ICMPv6",
+    "Transport protocols: UDP and TCP",
+    "Application protocols: DNS and HTTP",
+    "Topic 4: Introduction to Network Interconnection",
+    "Routing and router operation",
+    "Autonomous systems",
+    "Routing protocols",
+    "Interior routing protocols: RIP, introduction to OSPF",
+    "Exterior routing protocols: Introduction to BGP"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual activities (Campus Virtual)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory evaluation (Nt) - Ordinary call: Controls during classroom practices or global theory exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice evaluation (Np) - Ordinary call: Activities during the semester (Nap) and final practice exam (Nep)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theory evaluation (Nt) - Other calls: Theory exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practice evaluation (Np) - Other calls: Practice exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the course, both the theory (Nt) and practical (Np) blocks must be passed with a minimum of 5 out of 10 points. If this condition is not met, the maximum final grade will be 4.5 points. If both blocks are passed, the final grade is calculated as 0.6 * Nt + 0.4 * Np. Grades for passed blocks are carried over between calls within the same academic year. For the ordinary call, theory is assessed through controls (average if each is >= 4, else max 4.5 for theory; if global theory < 5, a global exam is required); practices require 80% attendance and Np = 0.1 * Nap + 0.9 * Nep. For other calls, both Nt and Np are determined by their respective exams.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, William Stallings, Pearson.",
+    "Redes de ordenadores, Andrew S. Tanenbaum, Pearson.",
+    "Redes de computadoras, un enfoque descendente, James F. Kurose, Addison Wesley.",
+    "TCP/IP, Arquitectura, protocolos e implementación con IPv6 y seguridad de IP, Sidnie Feit, Mc-Graw Hill.",
+    "IPv6 Fundamentals: A Straightforward Approach to Understanding IPv6, Rick Graziani, CISCO Press.",
+    "Referencias en Internet a diferentes estándares."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-2-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-2-002",
+  "source_language": "es",
+  "source_sha256": "b39b21ca6e401f5ba954c4a6449c7b8c718d75534474c2d01aee5d5cd1d617f8",
+  "extracted_at": "2026-11-20T06:03:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

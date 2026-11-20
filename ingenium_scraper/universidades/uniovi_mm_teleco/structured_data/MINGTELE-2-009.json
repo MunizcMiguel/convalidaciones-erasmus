@@ -1,0 +1,162 @@
+{
+  "course_name_original": "Integración de Sistemas de Radiolocalización",
+  "course_name_en": "Integration of Radiolocation Systems",
+  "ects": 4.5,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic concepts of signal processing",
+    "Basic concepts of radio propagation",
+    "Terrestrial and satellite radio communication systems",
+    "Radio determination systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamentals of radar, localization, and radionavigation systems.",
+      "type": "knowledge",
+      "code": "CB6"
+    },
+    {
+      "text": "Define the specifications of each of the communication subsystems that make up a radiolocation system.",
+      "type": "skill",
+      "code": "CE5"
+    },
+    {
+      "text": "Apply advanced digital processing techniques to radar and radionavigation systems.",
+      "type": "skill",
+      "code": "CB7, CE1"
+    },
+    {
+      "text": "Design radar and radionavigation subsystems.",
+      "type": "skill",
+      "code": "CE2, CE5"
+    },
+    {
+      "text": "Integrate technologies of radar and radionavigation systems.",
+      "type": "competence",
+      "code": "CB8, CE5, CE16, CE17, GT1"
+    },
+    {
+      "text": "Develop, coordinate, and direct a radiolocation systems project.",
+      "type": "competence",
+      "code": "CG1, CG3, CG5, CG9, GT2"
+    },
+    {
+      "text": "Effectively communicate the reasons and conclusions supporting decisions made in project development.",
+      "type": "competence",
+      "code": "CB9, CG11"
+    },
+    {
+      "text": "Apply acquired knowledge to solve new problems in radar, radiolocation, or radionavigation.",
+      "type": "skill",
+      "code": "CG8"
+    },
+    {
+      "text": "Autonomously study any future radar, radiolocation, or radionavigation system.",
+      "type": "competence",
+      "code": "CB10, CG12"
+    },
+    {
+      "text": "Define the specifications of each of the communication subsystems that make up a radiolocation system.",
+      "type": "skill",
+      "code": "CE5"
+    },
+    {
+      "text": "Apply advanced digital processing techniques to radar and radionavigation systems.",
+      "type": "skill",
+      "code": "CE2"
+    },
+    {
+      "text": "Design radar and radionavigation subsystems.",
+      "type": "skill",
+      "code": "CE2, CE5"
+    },
+    {
+      "text": "Integrate technologies of radar and radionavigation systems.",
+      "type": "competence",
+      "code": "CE5, GT1"
+    },
+    {
+      "text": "Elaborate, coordinate, and direct a radiolocation systems project.",
+      "type": "competence",
+      "code": "GT2"
+    }
+  ],
+  "syllabus_topics": [
+    "Angle of arrival (AoA)",
+    "Time of arrival (ToA)",
+    "Time difference of arrival (TDoA)",
+    "RSSI and fingerprinting",
+    "Operational fundamentals of radar systems",
+    "Radar signal processing",
+    "Types of radars",
+    "Radar architecture and subsystems",
+    "GNSS: GPS, Galileo",
+    "GNSS architectures",
+    "Hybrid systems",
+    "Air navigation: PSR/SSR, VOR, DME, ILS",
+    "Short range: Bluetooth, Wi-Fi, IEEE 802.15.4 (UWB. Zigbee, 6LoWPAN)",
+    "Long range: 5G, LPWAN",
+    "Cellular and wireless network-based radiolocation architecture and subsystems",
+    "Definition of applications/use cases and technical requirements",
+    "Technology selection",
+    "Definition of system architectures",
+    "Technical documentation",
+    "Hardware development: interfaces, integration",
+    "Software development: interfaces, algorithms, software testing",
+    "Testing and calibration strategies",
+    "Deployment, optimization and maintenance",
+    "Technical documentation"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Problem solving",
+    "Teamwork",
+    "Autonomous study"
+  ],
+  "workload_hours_total": 112.5,
+  "workload_hours_contact": 33.75,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (T1) on theoretical content",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical work (P1) on first laboratory practice",
+      "weight_percentage": 12.0
+    },
+    {
+      "method": "Practical work (P2) on second laboratory practice",
+      "weight_percentage": 12.0
+    },
+    {
+      "method": "Practical work (P3) on classroom practices and third laboratory practice (project planning and execution)",
+      "weight_percentage": 36.0
+    }
+  ],
+  "assessment_rules": "The theoretical block grade is 1 * T1. The practical block grade is (0.2 * P1) + (0.2 * P2) + (0.6 * P3). The final grade for the ordinary call is (0.4 * Theoretical block grade) + (0.6 * Practical block grade). To pass, the sum of theoretical and practical grades must be 5 or greater. For the extraordinary call, students can retake a theoretical exam and a practical exam, or keep their ordinary practical grade; retaking the practical exam implies waiving the ordinary practical grade. In case of doubt about authorship, students may be required to defend their work.",
+  "bibliography": [
+    "Merrill Skolnik, \"Radar Handbook\", Third Edition, McGraw-Hill, 2008.",
+    "Elbahhar, F., & Rivenq, A. (Eds.). (2012). New approach of indoor and outdoor localization systems. BoD–Books on Demand.",
+    "Frattasi, S., & Della Rosa, F. (2017). Mobile positioning and tracking: from conventional to cooperative techniques. John Wiley & Sons.",
+    "P. Misra, P. Enge, “Global Positioning System: Signals, Measurements, and Performance (Revised Second Edition)”, Ganga-Jamuna Press, 2012.",
+    "Schaumont, P. R. (2012). A practical introduction to hardware/software codesign. Springer Science & Business Media."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-2-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-2-009",
+  "source_language": "es",
+  "source_sha256": "9a5c390a1dd38947ad530e4cb237aa7b3a251108f1a6cb6d9af4fc83371e22ca",
+  "extracted_at": "2026-11-20T06:07:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

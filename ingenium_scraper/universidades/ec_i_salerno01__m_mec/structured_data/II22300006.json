@@ -1,0 +1,158 @@
+{
+  "course_name_original": "MODELING OF ENERGY CONVERSION SYSTEMS AND POWERTRAINS",
+  "course_name_en": "MODELING OF ENERGY CONVERSION SYSTEMS AND POWERTRAINS",
+  "ects": 9.0,
+  "semester": "SPRING SEMESTER",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "detailed knowledge of Thermodynamics",
+    "Applied Mechanics",
+    "Fluid Machinery and Energy Systems",
+    "basics of Computer Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Main issues related to the modeling representation of the main phenomena involved in fluid machines, energy and propulsion systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Dimensional analysis principles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Basics of 2D flow around a profile.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Internal Combustion Engines (ICE) and related application issues.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "ICE design, management of the connection to the load and issues related to combustion, pollutant emissions and control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Methodologies to develop simple mathematical models in MATLAB environment for the design and control of fluid machines and thermal power plants, particularly by using identification techniques aimed at the best compromise between precision and generalization.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Selection criteria for the development of scale models and for the application of the mechanical similarity laws.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculation methodologies to be adopted for internal combustion engine sizing both in stationary and transient operation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply advanced calculation methods for optimal control strategies design.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze different mathematical models and choose the most appropriate model depending on the specific application, in terms of precision, generalization and computational time.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyzing problems related to the design and control of internal combustion engines oriented to automotive uses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the most appropriate methods for the quantitative evaluation of engine performance depending on final application.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop model-based optimization procedure for the optimal design and energy management for machines and thermal engine systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Capability of identifying the most suitable models for the data analysis and resolution of problems related to fluid machines end energy systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Capability of presenting the mathematical models selected for the resolution of an engineering problem linked to the topics addressed in the course. The student is capable of illustrating the performed analysis, the hypothesis made for model selection and the advantages in the use of the model in an industrial and professional context. Capability of describing the procedures and the achieved results, both in written and oral form, with a suitable technical terminology.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Know how to apply the acquired knowledge to contexts different from those presented during the course, and to deepen the topics discussed using materials other than those proposed.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Thermodynamic cycle of internal combustion engines (ICE). Limit real cycles for 4 and 2 strokes (spark ignition and ad compression ignition). Introduction of the limit cycle and relevant hypotheses. Basics of thermochemistry. Properties of mixture of real gases (unburned, burned). Main concepts of ICE combustions.",
+    "Chemical reaction for a stoichiometric combustion. Equivalence ratio. The first law of thermodynamics for a combustion reaction.",
+    "Enthalpy of formation. Heat of reaction. Efficiency of combustion. Reactions of combustion (chemical equilibrium and kinetics, frozen mixture).",
+    "The second law of thermodynamics for a combustion reaction. Chemical equilibrium constants and dependence with the temperature. Adiabatic flame temperature. Chemical equilibrium at high temperature (mixture with 10 species) and low temperature (mixture with 6 species).",
+    "Chemical kinetics. Models for the gas composition at low (6 species) and high temperature (10 specie). Real combustion.",
+    "Models for the simulation of gas properties and implementation within limit cycles and two zone approach.",
+    "The volumetric efficiency for 2 and 4 stroke engines and impact of geometry. Quasi static and dynamic effects. Pressure losses in intake and exhaust pipes and impact on volumetric efficiency as function of engine speed.",
+    "Transient processes and phenomena in the intake and exhaust pipes: RAM effects and pressure waves. Design of intake and exhaust systems. Modeling: white-box (1-D pipes), grey-box (combustion and pressure losses). Analysis of experimental data and 1-D models.",
+    "Two stroke engines and applications; working principle. Intake, scavenging and exhaust processes timing; ports geometry and valves arrangement. Scavenging and trapping efficiency, delivery ratio. Low- and high-pressure cycle. Charge pressurizing systems machines. Lamellar and rotary disk valve intake systems.",
+    "Supercharging, turbocharging and turbocompound. Constant-pressure and pulse turbocharging, ideal e real cases. Mass flow rate parameter and reduced speed and maps for turbines e compressors. Engine-turbocharging matching. Volumetric compressors and wave-compression device.",
+    "Premixed and diffusive combustion processes. In-cylinder charge motion. Basics of turbulence and spray. Reaction rates for laminar and turbulent combustion. Ignition and autoignition. Heat release rate in premixed and diffusive combustion.",
+    "Fuel injections systems for spark ignition and diesel engines and relevant control issues.",
+    "Introduction and overview of pollutant emissions and environmental impact. Analysis and models for CO, HC, NOX and soot emissions. Effect of operating conditions for spark ignition and diesel engines.",
+    "Two-dimensional flow elements in turbomachinery and related fluid-dynamics, flow and stream functions, profiles and terminology, lift and drag coefficients, angle of attack dependencies, elementary flow fields and superposition, Kutta-Jukowski Theorem, effect of numbers of Reynolds and Mach, profile arrays, solidity, array lift, correlation between single profile and array.",
+    "Similarity in machines, similarity theory, Buckingham's theorem, compressor characteristic curves, specific speed, reduced parameters.",
+    "Introduction to the modelling approach, models development procedure, classification, evaluation criteria, forward and inverse modelling, parametric and sensitivity analysis, optimisation, model limits, parameter estimation (block and recursive), interpolation and approximation, multiple polynomial and linear regressions, confidence intervals of parameters and estimates, accuracy and generalizability errors as a function of polynomial degree, stepwise regression, optimisation methods: classification, rounding and truncation errors, gradient and Hessian, constrained optimisation, Lagrange multipliers, penalisation, augmented Lagrangian, Newton methods, comparison between methods.",
+    "Introduction to the use of MATLAB, Polyfit and Polyval functions, Interp1 and Polyder functions, Regress function, calculation of uncertainty and generalizability errors, derivative and roots of polynomials, NOX polynomial model exercise, multiple linear regression: optimal regression choice, specific consumption example, numerical integration: use of ODE, Lokta-Volterra equations example, operation of a pumping plant with numerical integration, search for minimums and zeros: Fminbnd, Fminsearch and Fmincon functions, setting of a constrained problem, parametric identification, optimisation of a pumping plant with penalty function and constrained optimisation, ideal Joule cycle calculation and representation on plane (T,S) with trapezoidal integration, parametric identification with numerical integration."
+  ],
+  "teaching_methods": [
+    "Theoretical lessons",
+    "Classroom numerical exercises",
+    "Development of models and algorithms in MATLAB-Simulink environment"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written numerical test (PC-based, with theoretical questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final mark generally comes from the average of the written numerical test and the oral test. The minimum evaluation level to pass the examination is 18/30. The maximum evaluation is 30/30, with 30/30 cum laude for outstanding competence. The written numerical test, lasting approximately 2 hours, involves solving a problem and answering 4 theoretical questions. The mark for admission to the oral test is expressed on a scale from A (maximum) to D (minimum).",
+  "bibliography": [
+    "J. B. HEYWOOD, INTERNAL COMBUSTION ENGINE FUNDAMENTALS, MCGRAWHILL, NEW YORK, 1988.",
+    "G. FERRARI, MOTORI A COMBUSTIONE INTERNA, IL CAPITELLO, TORINO.",
+    "C. R. FERGUSON, INTERNAL COMBUSTION ENGINES, JOHN WILEY, NEW YORK.",
+    "I. ARSIE, M. SORRENTINO, APPUNTI DI MATLAB, ELEARNING.DIMEC.UNISA.IT",
+    "DIAPOSITIVE DELLE LEZIONI (G. RIZZO, SUPPORTI DIDATTICI MULTIMEDIALI AL CORSO DI MACCHINE) ED ESERCIZI DISPONIBILI SUL SITO WEB: HTTPS://ELEARNING.UNISA.IT/.",
+    "R. DELLA VOLPE, M. MIGLIACCIO, MOTORI A COMBUSTIONE INTERNA PER AUTOTRAZIONE, LIGUORI, 1995.",
+    "J. I. RAMOS, INTERNAI. COMBUSTION ENGINE MODELING, HEMISPHERE P.C., 1989."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Laurea Magistrale en Ingegneria Meccanica (LM-33)",
+  "institution_slug": "ec_i_salerno01__m_mec",
+  "degree": "Laurea Magistrale in Ingegneria Meccanica (Mechanical Engineering), classe LM-33 Classe delle lauree magistrali in Ingegneria meccanica",
+  "course_code": "II22300006",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=521505&ordinamento_aa=2026&af_percorso=10001&corso_cod=500897&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "4af0fcb116b45c3f1033ff875f469d7211622c55743b2d7d4b7762c9c86ff14d",
+  "extracted_at": "2026-11-20T12:46:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

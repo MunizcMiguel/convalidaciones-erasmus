@@ -1,0 +1,928 @@
+{
+  "course_name_original": "Tecnología Mecánica I",
+  "course_name_en": "Mechanical Technology I",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Demonstrate the ability to analyze and synthesize",
+      "type": "competence",
+      "code": "GI-1"
+    },
+    {
+      "text": "Acquire the ability to effectively solve problems",
+      "type": "competence",
+      "code": "GI-3"
+    },
+    {
+      "text": "Express oneself correctly in Spanish, both orally and in writing",
+      "type": "competence",
+      "code": "GI-4"
+    },
+    {
+      "text": "Develop the ability to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences",
+      "type": "competence",
+      "code": "GI-8"
+    },
+    {
+      "text": "Develop interpersonal skills",
+      "type": "competence",
+      "code": "GP-2"
+    },
+    {
+      "text": "Develop the ability to work in a team",
+      "type": "competence",
+      "code": "GP-3"
+    },
+    {
+      "text": "Ability to apply knowledge to practice",
+      "type": "competence",
+      "code": "GS-1"
+    },
+    {
+      "text": "Acquire the ability for autonomous learning and concern for knowledge and continuous training",
+      "type": "competence",
+      "code": "GS-2"
+    },
+    {
+      "text": "Ability to work autonomously",
+      "type": "competence",
+      "code": "GS-7"
+    },
+    {
+      "text": "Applied knowledge of manufacturing systems and processes, metrology, and quality control",
+      "type": "competence",
+      "code": "ED-26"
+    },
+    {
+      "text": "Ability to draft and develop projects in the field of mechanical engineering, for the construction, renovation, repair, conservation, demolition, manufacturing, installation, assembly or operation of: structures, mechanical equipment, energy installations, electrical installations, industrial installations and plants, and manufacturing processes.",
+      "type": "competence",
+      "code": "EP-1"
+    },
+    {
+      "text": "Ability to manage the activities subject to the engineering projects described in the previous section",
+      "type": "competence",
+      "code": "EP-2"
+    },
+    {
+      "text": "Ability to exercise teaching in the terms required by current regulations.",
+      "type": "competence",
+      "code": "EP-11"
+    },
+    {
+      "text": "Describe the important points and zones of the conventional tensile test curve.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Justify the use of the yield curve in plastic deformation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Obtain the yield curve from the conventional tensile test curve.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate that the true strain is the sum of the partial strains.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Justify the improvement of properties of plastically deformed materials.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Enumerate the objectives pursued with plastic deformation procedures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Classify deformation procedures based on the temperature used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe hot deformation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the advantages of hot deformation over cold deformation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the disadvantages of hot deformation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the influence exerted by the deformation speed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the forging process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Classify forging procedures based on the tool used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate stresses and strains in forging.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the rolling process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the transformations a billet undergoes to become a finished product.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the different types of rolling mills.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the causes that produce thickness variation in the rolled product.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Write the expression that must be met in rolling for self-feeding of the material.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design plate rolling processes based on machine characteristics and material used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the drawing process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the parts of a die.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain why the drawing stress must be lower than the material's yield stress.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Demonstrate the maximum theoretical cross-sectional reduction in drawing.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design drawing processes based on machine characteristics and material used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the extrusion process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Differentiate the different types of extrusion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design extrusion processes based on machine characteristics and material used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the heading process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the maximum length/diameter ratio in heading.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the sheet metal cutting process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify, by means of a drawing, the different zones observed at the edge of a sheet.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Differentiate the terms shearing, punching, and cutting.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Reason the condition that must be met to prevent the punching tool from crushing.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain which element the clearance between the punch and the die must be applied to, depending on the operation to be performed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Formulate the advantages and disadvantages of different ways of arranging parts in blanking.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the forces produced in cutting and punching operations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the fundamental problems of the bending operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Precisely define the bending operation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate developments for obtaining different bent parts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the necessary forces for the bending operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the deep drawing process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the fundamental differences between a cutting die and a deep drawing die.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate the characteristic parameters of the deep drawing process.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe deep drawing defects and their causes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe how axes are positioned in a machine tool.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the main parts of a lathe.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the main geometric characteristics of the lathe.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the movements of feed, depth of cut, and cutting speed in turning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the parts of the lathe bed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the functions performed by the bed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the geometry of the lathe's main spindle.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the lathe headstock and its internal and external contents.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the function of the mechanical speed variator.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the functions of the tailstock.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the functions of the carriages in the lathe.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the function of the reversing mechanism.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the purpose of idler gears in a kinematic chain.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate the feeds produced by kinematic chains.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the fundamental parts of a single-point cutting tool.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Differentiate right and left cutting tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Differentiate the main cutting motion from the resultant cutting motion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain the reasons why ISO standards define two systems for measuring cutting angles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain how effective angles differ from sharpening angles, and main cutting edge angles from secondary cutting edge angles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the planes and angles of the tool-in-hand system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the movements that must be imparted to the tool to achieve longitudinal and transverse sharpening angles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the factors on which the tool wedge angles depend.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Differentiate positive angles from negative angles.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain how to achieve tool wedge angles on a universal grinder.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the planes and angles of the tool-in-use system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the purpose of the effective clearance angle in machining.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the influence of the effective rake angle in machining.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the functions of the main cutting edge angle in machining.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the influence of the secondary cutting edge angle in machining.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the different types of tool tip truncation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the purposes of constant-profile tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the types of constant-profile tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Select the geometry of the cutting tool based on the operation to be performed, tool and workpiece material, and cutting conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Enumerate the purposes of the chip breaker.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Synthesize the general approach to machining.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the importance of the workpiece plane in the machining process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the information contained in the machining process of a part.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the machine characteristics that influence the machining process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the importance of lot size and part complexity in the selection of the machine to be used.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the approach to be taken when selecting the cutting tool material.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the properties that the cutting tool material must possess.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the factors on which cutting tool wear depends.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Order cutting tool materials from lowest to highest hardness.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Enumerate the fundamental alloying elements in high-speed steels.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the applications of high-speed steel tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the difference in chemical composition between high-speed steels and superior high-speed steels.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the main drawback of metallic carbides.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Order families of metallic carbides in increasing order of toughness.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the application of each family of hard metals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the purposes of coatings on cutting tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the properties of ceramic tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the applications and cutting conditions of diamond tools.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the factors to consider when predicting the properties that the cutting tool material must possess.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Select the cutting tool material based on the workpiece material, allowances to be removed, and characteristics of the machine used.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Make a drawing representing the zones where tool wear occurs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Enumerate the causes of cutting tool wear.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Create a graph showing how roughness varies with cutting speed, keeping cutting time constant.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the maximum depth of cut that can be given to the cutting tool.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Enumerate the machining factors influenced by cutting speed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply Taylor's and Kronenberg's theories to calculate cutting speed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the constants of Taylor's or Kronenberg's generalized expression through tests.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe Denis's method for calculating cutting speed.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Differentiate between minimum cost speed and maximum profit speed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate minimum cost, maximum production, and maximum profit speeds in operations with constant cutting speed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate minimum cost, maximum production, and maximum profit revolutions per minute in operations with variable cutting speed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Reason when to lean towards selecting maximum production speeds and when towards maximum economy speeds.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the machining process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the materials and conditions under which continuous chips are produced.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the conditions under which continuous chips with built-up edge are produced.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Enumerate the materials and conditions under which discontinuous chips are produced.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Create a graph showing how roughness varies with cutting speed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain the concept of chip upsetting.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Represent, by means of a graph, the cutting speeds, shear plane speed, and chip sliding speed on the rake face, indicating the relationship between them.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate that cutting power is the sum of the power consumed in the shear plane and in the sliding of the chip on the rake face.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe how to calculate the feed per revolution of the tool.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate the feed per revolution in roughing and finishing operations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Briefly describe the operations of cylindrical turning, facing, parting, grooving, and knurling.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate the cutting time in turning operations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design the machining process for parts obtained by turning.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define the standardized terminology used in the evaluation of measurement uncertainty, including the definitions of the different uncertainties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the measurement methods in dimensional metrology.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the law of propagation of uncertainties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Define and calculate Type A standard uncertainty.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define and calculate Type B standard uncertainty.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define and calculate the uncertainty of an input quantity that is related to more than one source of uncertainty.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Differentiate correlated input quantities from uncorrelated ones.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the covariance in quantities that exhibit a functional relationship.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Estimate covariance using a series of measurements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define and calculate expanded uncertainty.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the conditions that must be met to calculate the coverage factor using the normal distribution or Student's t-distribution.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe how to express the result of a measurement.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe what the calibration operation consists of and the results obtained.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain the physical meaning of a precision measurement.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain how, through the measurement of a standard, the uncertainty of measurements made with the measurement method is established.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly explain how an instrument is calibrated across its entire scale.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Briefly describe how the measurement and its uncertainty are established with linear interpolation, common correction, and maximum uncertainty methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate the value of the measurement and its uncertainty in indirect measurements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the expressions for obtaining indirect measurements of radii in cylindrical parts, and of angles and diameters in cones.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the expressions for performing indirect measurements of angles in prismatic parts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the terminology used in threads.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the characteristics of the metric thread.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the characteristics of the Whitworth and Seller threads.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Perform the calibration of a universal caliper.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform the calibration of an external hundredth micrometer.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Measure angles in a prismatic part using rollers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Measure the pitch diameter and angle of a thread.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Measure the angle of an external cone, check the straightness of the generatrices and the concentricity of a section, using the sine bar.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Measure the angle of an internal cone and the extreme diameters using balls.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the module, base pitch, pressure angle, and tooth thickness of a spur gear, taking the necessary measurements with a caliper and a gear tooth micrometer.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "MECHANICAL TECHNOLOGY I",
+    "INTRODUCTION TO PLASTIC DEFORMATION PROCESSES",
+    "FORGING",
+    "ROLLING",
+    "DRAWING",
+    "CONTINUOUS EXTRUSION OF METALS",
+    "SHEET METAL BENDING AND CURVING",
+    "SHEARING, CUTTING AND PUNCHING",
+    "DEEP DRAWING",
+    "THE LATHE",
+    "GEOMETRY OF CUTTING TOOLS",
+    "CUTTING TOOL MATERIALS",
+    "CUTTING SPEED",
+    "CUTTING FORCES",
+    "TURNING OPERATIONS",
+    "EVALUATION OF MEASUREMENT UNCERTAINTY",
+    "CALIBRATION",
+    "INDIRECT MEASUREMENTS",
+    "THREAD MEASUREMENT",
+    "GEAR MEASUREMENT",
+    "PRACTICALS:",
+    "PRACTICAL 1. Caliper calibration",
+    "PRACTICAL 2. External micrometer calibration",
+    "PRACTICAL 3. External cone measurement",
+    "PRACTICAL 4. Internal cone measurement",
+    "PRACTICAL 5. Thread measurement",
+    "PRACTICAL 6. Measurement of a cylindrical spur gear"
+  ],
+  "teaching_methods": [
+    "Chapter control (questions)",
+    "Submission of exercises (team work)",
+    "Presentation of exercises (oral exposition)",
+    "Overall control (final exam for theory and problems)",
+    "Practicals (instrument calibration, angle and indirect dimension measurement, uncertainty calculation)",
+    "Theoretical classes",
+    "Practical classes",
+    "Seminars and debates",
+    "Tutorials",
+    "Completion of assignments, reports, dissertations, and evaluation tests"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous evaluation of theoretical classes",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Continuous evaluation of laboratory practicals",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final written theory exam",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final written problem exam",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum score of 40% of the corresponding score is required in each activity, and an overall score higher than 50%. For exceptional evaluation, the assessment consists of Theory (30%) and Exercises (70%), with the same minimum passing scores applied.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Universidad de Burgos",
+  "institution_slug": "es_burgos",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "6331",
+  "academic_year": "2026-27",
+  "source_url": "https://ubuvirtual.ubu.es/mod/guiadocente/get_guiadocente.php?asignatura=6331&cursoacademico=2026",
+  "source_language": "es",
+  "source_sha256": "14d593caab03aed47ccd51dbc40ec649e69d6eb949b2661cc6cc221c5001b635",
+  "extracted_at": "2026-11-13T21:27:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

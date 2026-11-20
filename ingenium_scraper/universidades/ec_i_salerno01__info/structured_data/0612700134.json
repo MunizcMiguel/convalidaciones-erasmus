@@ -1,0 +1,131 @@
+{
+  "course_name_original": "NETWORK MANAGEMENT AND SECURITY",
+  "course_name_en": "Network Management and Security",
+  "ects": 6.0,
+  "semester": "SPRING SEMESTER",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Computer Networks exam passed",
+    "Basic knowledge of operating systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Develop the theoretical and practical skills necessary for implementing strategies for the management and security of a computer network.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understanding of the main security issues affecting systems and networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the security protocols and strategies provided by the TCP/IP stack.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of Software-Defined Networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of tools for ensuring system and network security.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of protocols and tools for network management.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of network virtualization environments.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Configure hosts and network devices appropriately.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply system configurations to improve security.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use network management tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use virtualization environments to validate network configurations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use POSIX BASH for network host management.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course and to cyber security",
+    "Introduction to system and network security",
+    "GNU/Linux basics",
+    "Linux system security",
+    "Basic concepts of cryptographic keys and X.509 certificates",
+    "Using GPG and OpenSSL to generate keys and certificates",
+    "Transport Layer Security",
+    "Concepts of firewalls, VPNs, and IDS",
+    "Using firewalls and VPNs",
+    "Network storage: NAS, SAN, and RAID",
+    "Basic concepts of malware",
+    "Introduction to the GNS3 environment",
+    "Configuration of a simple computer network",
+    "Configuring a firewall on GNS3",
+    "Implementing a network with three perimeters using firewalls",
+    "Configuring a VPN gateway",
+    "Project Work"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory exercises",
+    "Group project"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Project presentation and discussion (group)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Individual theoretical test",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade is awarded on a scale of thirty. The project presentation and discussion account for 40% of the final grade, while the individual theoretical test accounts for 60%. Honors may be awarded for excellent analytical and design skills, presentation quality, and independence of judgment.",
+  "bibliography": [
+    "THE TEACHING MATERIAL WILL BE AVAILABLE ON THE UNIVERSITY E-LEARNING PLATFORM (HTTP://ELEARNING.UNISA.IT) ACCESSIBLE TO STUDENTS USING THEIR OWN UNIVERSITY CREDENTIALS.",
+    "COMPUTER NETWORKING: A TOP-DOWN APPROACH. - KUROSE & ROSS"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Ingegneria Informatica",
+  "institution_slug": "ec_i_salerno01__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "0612700134",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=515205&ordinamento_aa=2022&af_percorso=10002&corso_cod=500189&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "9237e2739fb524fc0e0317861cbc0ceeb68fc98134b794a184125fe310dad844",
+  "extracted_at": "2026-11-20T12:43:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

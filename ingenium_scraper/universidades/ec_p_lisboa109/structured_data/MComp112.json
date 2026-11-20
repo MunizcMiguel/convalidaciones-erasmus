@@ -1,0 +1,61 @@
+{
+  "course_name_original": "Mecânica Computacional (MComp112)",
+  "course_name_en": "Computational Mechanics",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "2nd order differential equations. Strong and weak formulation. Galerkin approximation.",
+    "1D problems: Domain discretization. Finite element and shape function. Linear, quadratic and higher order elements. Applications: One-dimensional bars; Heat Transfer; Laminar flow. Discrete systems.",
+    "Finite elements for planar trusses. Beam element. Frames. Beam-bar element.",
+    "2D problems: Triangular and quadrangular finite elements. Linear and quadratic interpolation functions. Standard element. Coordinate transformation. Numerical integration. Isoparametric elements. Applications: Heat transfer; Potential flow; Torsion in a non-circular section shaft; Deformation of elastic membranes. Finite elements in two-dimensional elasticity.",
+    "Error estimates. Modeling considerations: Error sources, admissible elements, mesh refinement. Extension to 3D problems. Implementation of an FE program. Commercial FE software."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Two computational assignments",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Two computational assignments",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Two tests (MAP45)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Two tests (MAP45)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on two computational assignments (25% each) and two tests (25% each). A minimum average grade of 8 must be achieved in the tests. The assessment method, including the grades from assignments, applies to resit and special examinations, which are make-up exams for the two tests.",
+  "bibliography": [
+    "J.N Reddy, \"Introduction to the Finite Element Method\", 4th Edition, McGraw-Hill, 2018 (main)"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa",
+  "institution_slug": "ec_p_lisboa109",
+  "degree": "Licenciatura Bolonha em Engenharia Mecânica (LEMec21)",
+  "course_code": "MComp112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185300",
+  "source_language": "pt",
+  "source_sha256": "ca6b97403f088aef4758c55862b3a0f0a0040f48b22d388c820e9dea667c7f1b",
+  "extracted_at": "2026-11-18T10:04:15",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

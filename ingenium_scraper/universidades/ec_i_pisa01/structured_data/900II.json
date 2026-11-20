@@ -1,0 +1,83 @@
+{
+  "course_name_original": "INTERNET TECHNOLOGIES (900II)",
+  "course_name_en": "INTERNET TECHNOLOGIES",
+  "ects": 6.0,
+  "semester": "Secondo Ciclo Semestrale",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of computer programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student who completes the course successfully will be able to demonstrate a basic knowledge of the main issues related to the architecture, protocols and applications of the Internet.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "At the end of the course the student will be able to understand the working principles of Internet, will know the main protocols of the TCP/IP stack and will be able to use wireshark for network traffic analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be able to understand the mode of operation of the main protocols and network devices.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "The fundamental elements of the Internet",
+    "Architectural principles of telecommunication networks",
+    "Delay and loss in packet-switched networks",
+    "Network security issues",
+    "Protocol layers and their service models",
+    "Main network applications",
+    "DNS",
+    "P2P",
+    "Introduction and transport layer services",
+    "UDP and TCP",
+    "Principles of reliable data transfer",
+    "TCP mechanisms for flow and congestion control",
+    "TCP variants",
+    "QUIC and HTTP3",
+    "Router architecture",
+    "IPv4",
+    "NAT, DHCP",
+    "IPv6"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "face to face lectures with the use of slides",
+    "lab classes with traffic and protocol analysis using wireshark",
+    "open discussion with the students"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination with questions on various parts of the course and traffic trace analysis",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam will consist of an oral examination. A basic knowledge of the different topics is required to pass the exam. The final mark will depend on the level of understanding and in-depth study shown by the student during the oral exam.",
+  "bibliography": [
+    "James F. Kurose, Keith W. Ross, \"Computer Networking: A Top-Down Approach\",Pearson Addison-Wesley",
+    "Lecture notes (in English)",
+    "Web site of the reference book",
+    "Recording of the lessons of the a.y. 2022/23"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università di Pisa",
+  "institution_slug": "ec_i_pisa01",
+  "degree": "Laurea in Ingegneria Delle Telecomunicazioni (Telecommunications Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "900II",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=53295_702852_76222&ordinamento_aa=2025&af_percorso=53295&corso_cod=11550&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "4ef1f1a6de600dce6b5704aa9f89d27aa67a7f4f524b7de304c871e99bfe4a96",
+  "extracted_at": "2026-11-20T09:25:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

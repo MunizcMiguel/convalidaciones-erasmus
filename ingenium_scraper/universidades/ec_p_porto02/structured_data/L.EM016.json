@@ -1,0 +1,137 @@
+{
+  "course_name_original": "Análise Matemática III",
+  "course_name_en": "Mathematical Analysis III",
+  "ects": 6.0,
+  "semester": "1S",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students should get solid theoretical and practical skills on identification and integration of ordinary differential equations",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "integration of systems of first-order ordinary differential equations",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "calculation of the Laplace transform of real functions of a positive variable and application of its properties",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "calculation of line integrals and application of their properties",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "calculation of surface integrals and application of their properties",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "application of integral theorems of vector analysis",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "determination of the Fourier series of a periodic function",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to differential equations: general classification, definition of solution, and initial and boundary value problems.",
+    "Ordinary differential equations of first order: the existence and uniqueness theorem; separable equations; homogeneous equations; linear equations (homogeneous and non-homogeneous).",
+    "Some problems modeled by first-order equations: problems in mechanics and population dynamics.",
+    "Exact equations and integrating factors.",
+    "Nonlinear equations reducible to linear ones: the Bernoulli equation.",
+    "Ordinary higher-order differential equations reducible to lower-order equations.",
+    "Linear equations of order greater than one: general theory of homogeneous and non-homogeneous linear nth order equations.",
+    "Existence and uniqueness theorem.",
+    "General solution for homogeneous linear equations with constant coefficients.",
+    "Linear non-homogeneous equations: the variation of parameters method.",
+    "Systems of first-order linear equations: introduction and its relation with an nth order linear differential equation.",
+    "Some examples.",
+    "Basic theory of systems of first-order linear equations.",
+    "Homogeneous linear equations with constant coefficients.",
+    "Real or complex single eigenvalues case and repeated eigenvalues case.",
+    "Fundamental matrices.",
+    "The method of variation of parameters for non-homogeneous systems.",
+    "The Laplace transform: definition and existence conditions.",
+    "Laplace transform of some basic functions using the definition.",
+    "Main properties of the Laplace transform: first and second translation theorems and the transform of the derivative.",
+    "Inverse Laplace transform.",
+    "Solution of initial value problems and of differential equations with discontinuous forcing functions, using the Laplace transform.",
+    "Impulse functions and Dirac δ-function.",
+    "The convolution theorem.",
+    "Line integral of scalar and vector functions.",
+    "Independence of path.",
+    "Work done by a force.",
+    "Green’s Theorem.",
+    "Surface integral.",
+    "Area of a surface, mass, center of gravity, centroid, and moment of inertia.",
+    "Flux integral.",
+    "Some differential operators.",
+    "Stoke's and Gauss 's theorems.",
+    "FOURIER ANALYSIS Fourier Series.",
+    "Euler formulas.",
+    "Even and odd functions, half-range expansions.",
+    "Approximation by trigonometric polynomials and minimum square error.",
+    "The wave equation, vibrating string.",
+    "Solution by separation of variables."
+  ],
+  "teaching_methods": [
+    "Theoretical-practical classes (TP)",
+    "Oral presentations supported by slide projection or other technologies such as a digital table",
+    "Writing on the whiteboard",
+    "Deduction and abstraction",
+    "Resolution of application examples",
+    "Students solve proposed exercises suggested in advance based on both texts and exercise book"
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 58.5,
+  "assessment_methods": [
+    {
+      "method": "In-person participation",
+      "weight_percentage": 0.0
+    },
+    {
+      "method": "Test 1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Test 2",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Total Classification = 50% of Test 1 + 50% of Test 2. The tests are not mandatory and have no minimum grade. Students cannot exceed 25% of absences in practical classes to be eligible for exams. Successful students can improve their grades at the recourse exam by taking a final exam covering all themes; a grade of 20 (out of 20) is only possible with an oral exam.",
+  "bibliography": [
+    "Maria Luisa Romariz Madureira; Problemas de equações diferenciais ordinárias e transformadas de Laplace . ISBN: 978-989-892-758-3",
+    "Maria Luisa Romariz Madureira; Problemas de análise matemática para engenharia . ISBN: 9789899101562",
+    "Kreyszig, Erwin; Advanced Engineering Mathematics . ISBN: 0-471-59989-1",
+    "Apostol , Tom M.; Calculus . ISBN: 0-536-00008-5 (Vol. II)",
+    "Wylie, C. Ray; Advanced engineering mathematics . ISBN: 0-07-113543-X"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM016",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560360",
+  "source_language": "en",
+  "source_sha256": "2b82384a4355b3a168be0ffd8ebd560246348e9568469d4a0c358eb59f35e773",
+  "extracted_at": "2026-11-18T04:10:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

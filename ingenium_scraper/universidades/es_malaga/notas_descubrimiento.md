@@ -1,0 +1,4 @@
+# es_malaga — notas de descubrimiento (PARCIAL, regla de parada)
+- Título: Grado en Ingeniería Mecánica (UMA, Escuela de Ingenierías Industriales; título 5043; RUCT 2502008, RD 1393/2007). Curso 2026-27.
+- Catálogo: `https://www.uma.es/centers/subjects_center/escuela-de-ingenierias-industriales/5043/` (HTML estático, una tabla Código/Asignatura/Curso/Semestre/Carácter/Créditos; filas enlazadas a `/centers/subject/5043/{id}`). 50 asignaturas: básica 60, obligatorias 138, TFG 12 = RUCT; 96 ECTS optativos ofertados (se cursan 30). www.uma.es no tiene robots.txt (404).
+- Guía: PDF `https://sara.uma.es/ht/2026/ProgramasAsignaturas_Titulacion_5043_AsigUMA_{id}.pdf` (enlace «Mostrar documento» de la ficha `/centers/subject/5043/{id}`, que en HTML solo tiene título y metadatos). **robots.txt de sara.uma.es prohíbe el acceso automatizado** a todas las rutas (PoliteClient: RobotsBlocked). No se descargó ningún PDF. Catálogo `parcial`, sin Fase 2.

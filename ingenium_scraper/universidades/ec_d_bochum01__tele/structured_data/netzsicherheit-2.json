@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Netzsicherheit 2",
+  "course_name_en": "Network Security 2",
+  "ects": 5.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of TCP/IP",
+    "Basic knowledge of computer network security problems at the level of popular trade journals (e.g. c't)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have a comprehensive understanding of the technical aspects of network security.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have recognized that cryptography alone is not enough to solve security problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have acquired a comprehensive system understanding for complex IT systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will prepare for their role in professional life through independent considerations for improving network security.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can analyze new problems and develop new solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can argumentatively justify the benefits of the solutions they have developed in conversation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will have understood that non-technical factors such as liability issues and resulting costs significantly influence IT security decisions.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Security of HTTP (HTTP Authentication, Secure HTTP, Architecture of SSL/TLS)",
+    "Transport Layer Security (TLS1.2, versions SSL 2.0 to TLS 1.3)",
+    "Attacks on SSL and TLS (BEAST, CRIME, POODLE, Lucky13, Bleichenbacher, DROWN, Heartbleed, Invalid Curve)",
+    "Secure Shell - SSH",
+    "The Domain Name System and DNSSEC (factorable keys)",
+    "Security of web applications (HTML, URI, XSS, CSRF, SQLi, SSO)",
+    "XML and JSON security",
+    "Published attacks on these systems"
+  ],
+  "teaching_methods": [
+    "Lecture with exercise"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon passing the written exam.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "netzsicherheit-2",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "ddd15f2d99df4b053d9923a6fb876eac68c41cde668b8fd6c93c7f97b9570730",
+  "extracted_at": "2026-11-20T12:36:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

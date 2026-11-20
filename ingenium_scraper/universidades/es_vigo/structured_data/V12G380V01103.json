@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Matemáticas: Álgebra y estadística",
+  "course_name_en": "Mathematics: Algebra and Statistics",
+  "ects": 9.0,
+  "semester": "1st Quarter",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "gl",
+    "en"
+  ],
+  "prerequisites": [
+    "Matemática aplicada I",
+    "Matemática aplicada II"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire basic knowledge about matrices, vector spaces, and linear applications.",
+      "type": "knowledge",
+      "code": "B3 C1"
+    },
+    {
+      "text": "Handle matrix calculus operations and solve problems related to systems of linear equations using them.",
+      "type": "skill",
+      "code": "B3 C1 D2"
+    },
+    {
+      "text": "Understand the fundamentals of eigenvectors and eigenvalues, vector spaces with scalar product, and quadratic forms used in other subjects, and solve basic problems related to these topics.",
+      "type": "knowledge",
+      "code": "B3 C1 D2 D9"
+    },
+    {
+      "text": "Acquire skills in handling and exploratory analysis of databases.",
+      "type": "skill",
+      "code": "B3 C1 D5"
+    },
+    {
+      "text": "Be able to model situations of uncertainty using probability calculus.",
+      "type": "skill",
+      "code": "B3 C1 D2"
+    },
+    {
+      "text": "Know basic statistical techniques and models in their application to the industrial field and make inferences from data samples.",
+      "type": "knowledge",
+      "code": "B3 C1 D2 D9"
+    },
+    {
+      "text": "Use computer tools to solve problems related to the course content.",
+      "type": "skill",
+      "code": "B3 D2 D6"
+    }
+  ],
+  "syllabus_topics": [
+    "Preliminaries: The field of complex numbers.",
+    "Matrices, determinants, and systems of linear equations: Definition and types of matrices. Matrix operations. Elementary transformations, echelon forms, rank. Determinant of a square matrix. Inverse matrix. Discussion and resolution of systems of linear equations.",
+    "Vector spaces and linear applications: Definition of vector space. Subspaces. Linear independence, basis, and dimension. Coordinates, change of basis. Basic notions of linear applications.",
+    "Eigenvalues and eigenvectors: Definition of eigenvalue and eigenvector of a square matrix. Diagonalization of matrices by similarity. Applications of eigenvalue calculation.",
+    "Vector spaces with scalar product and quadratic forms: Vector spaces with scalar product. Associated norm and properties. Orthogonality. Gram-Schmidt orthonormalization process. Orthogonal diagonalization of a real and symmetric matrix. Quadratic forms. Classification.",
+    "Probability: Concept and properties. Conditional probability and independence of events. Bayes' theorem.",
+    "Discrete and continuous random variables: Concept. Types. Distribution function of a random variable. Discrete and continuous random variables. Characteristics of a random variable. Notable distributions: binomial, geometric, Poisson, hypergeometric, uniform, exponential, normal. Central Limit Theorem.",
+    "Statistical inference: General concepts. Sampling distributions. Point estimation. Interval estimation. Hypothesis testing.",
+    "Regression: Scatter plot. Correlation. Linear regression: regression line. Inference on regression line parameters."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Problem-solving",
+    "Autonomous problem-solving"
+  ],
+  "workload_hours_total": 225.5,
+  "workload_hours_contact": 80.5,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment tests (Algebra)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classwork and exercises (Algebra)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous assessment tests (Statistics)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (Algebra)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (Statistics)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Students must choose between continuous assessment (EC) and global assessment (EG). For the 1st opportunity, if both Algebra (A) and Statistics (E) scores are greater than or equal to 3.5, the final grade is (A+E)/2. If either A or E is less than 3.5, the final grade is the minimum of (A+E)/2 and 4.5. A student is marked as 'not presented' if they do not attend any EC or EG exams after the decision deadline. For the 2nd opportunity, assessment is via an Algebra exam and a Statistics exam, each counting for 100% of its respective part, applying the same grading procedure. If a student scores 5 or higher in one part during the 1st opportunity, they may retain that score and skip that part's exam in the 2nd opportunity. Unethical behavior in any assessment will result in a zero grade for that assessment opportunity.",
+  "bibliography": [
+    "Lay, David C., Álgebra lineal y sus aplicaciones , 4ª",
+    "Nakos, George; Joyner, David, Álgebra lineal con aplicaciones , 1ª",
+    "de la Villa, A., Problemas de álgebra , 4ª",
+    "Cao, Ricardo et al., Introducción a la Estadística y sus aplicaciones , 1ª",
+    "Devore, Jay L., Probabilidad y estadística para ingeniería y ciencias , 8ª",
+    "Jay L. Devore, Probability and Statistics for Engineering and the Sciences , 8th edition",
+    "Douglas C. Montgomery & George C. Runger, Applied Statistics and Probability for Engineers , 5th edition",
+    "Openstax College (Internet), Introductory Statistics",
+    "William Navidi, Statistics for Engineers and Scientists , 3rd edition"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01103",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01103&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "93dba7d9bd93a22c802a6f552f4efa4e888b5ebe4ce547c59d75a793bb5ebde4",
+  "extracted_at": "2026-11-18T02:52:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

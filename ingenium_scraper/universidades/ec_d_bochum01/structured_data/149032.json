@@ -1,0 +1,82 @@
+{
+  "course_name_original": "Technische Informatik 2",
+  "course_name_en": "Computer Engineering 2",
+  "ects": 5.0,
+  "semester": "Summersemester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will have acquired comprehensive knowledge in Boolean algebra, the structure and function of basic digital circuits, cost optimization of digital functional groups, techniques for clock-synchronous data processing, data encoding and processing, and the structure and function of basic functionalities that are central components, especially in microprocessor architectures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to understand basic circuit concepts of digital logic and functional blocks, analyze their interaction, evaluate their functionality, and develop simple blocks themselves.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The evaluation and development of multi-stage combinatorial logic blocks and Finite State Machines (FSMs) will be covered.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will learn the hardware description language Verilog, and Verilog examples will be given for each topic of the lecture. The lecture deals exclusively with (clock-) synchronous circuits.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Boolean algebra",
+    "Realization of Boolean functions",
+    "Minimization of Boolean functions",
+    "Multiplexers, encoders",
+    "Decoders",
+    "Error-detecting and error-correcting codes",
+    "Adders, subtractors, multipliers",
+    "Hardware description language Verilog",
+    "Storage elements (Flip-flops)",
+    "Sequential circuits",
+    "Counters",
+    "Shift registers",
+    "RAM",
+    "Finite State Machines (FSMs)",
+    "Timing analysis of sequential circuits",
+    "Brief overview of FPGAs"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful completion of the module exam. The grade contributes 5/138 to the final grade.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum",
+  "institution_slug": "ec_d_bochum01",
+  "degree": "Elektrotechnik und Informationstechnik (B.Sc., 1-Fach-Bachelor, PO 2020)",
+  "course_code": "149032",
+  "academic_year": "2025-2026",
+  "source_url": "https://ei.ruhr-uni-bochum.de/fileadmin/content/Fakultaet_fuer_Elektrotechnik_und_IT/ETIT_Pruefungsamt/Dokumente/Ba_ETIT_PO20/Modulhandbuch_BaET_PO20_SS_2026_Stand_30.03.2026.pdf",
+  "source_language": "de",
+  "source_sha256": "8d124c8426a9f521a9847f5cb720afa3de88ae20748fbc61f5e20ab6adfc25d4",
+  "extracted_at": "2026-11-20T08:21:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

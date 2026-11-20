@@ -1,0 +1,57 @@
+{
+  "course_name_original": "Sistemas Distribuídos",
+  "course_name_en": "Distributed Systems",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction: challenges and opportunities of distribution",
+    "Message exchange: remote procedure calls and name management",
+    "Shared memory: memory consistency and distributed shared memory",
+    "Coordination and fault tolerance: types of faults and operational reliability, state machine replication, primary-secondary, two-phase commit",
+    "Security: introduction to cryptography, secure channels, digital certificates, TLS, distributed authentication"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory component (project)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Theoretical component (exam)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of 50% from the laboratory component and 50% from the theoretical component. The laboratory component requires a minimum grade of 9.0 and is completed in groups, with individual grades assigned after project discussion. The theoretical component requires a minimum grade of 8.0 on the exam. For the resit period, the exam can be retaken, and the new grade only counts if it improves the student's overall score. For special period assessment, it's 50% Theoretical (special exam) + 50% Project (individual).",
+  "bibliography": [
+    "George Coulouris and Jean Dollimore and Tim Kindberg and Gordon Blair, Distributed Systems - Concepts and Design - 5th edition, Addison Wesley, 2011 (main)",
+    "Maarten van Steen and Andrew S. Tanenbaum, Distributed Systems - 3rd edition, CreateSpace Independent Publishing Platform, 2017 (main)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "SDis23610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192349",
+  "source_language": "pt",
+  "source_sha256": "333a73bab589e1f5325b73f54aca93e6cf5bcb9ca74c1276aafc36a1ca86889d",
+  "extracted_at": "2026-11-20T12:41:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

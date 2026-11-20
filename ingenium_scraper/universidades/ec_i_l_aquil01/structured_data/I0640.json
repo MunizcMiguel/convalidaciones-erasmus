@@ -1,0 +1,91 @@
+{
+  "course_name_original": "NUMERICAL CALCULUS (I0640)",
+  "course_name_en": "Numerical Calculus",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Mathematical analysis, Linear Algebra, and Geometry (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply basic computational and numerical knowledge.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Select the numerical method most appropriate for solving a given problem, taking its specific characteristics into account.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Implement numerical methods using the reference programming language, MATLAB.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Process, interpret, and present the results obtained, including in graphical form.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Assess numerical errors and analyze the convergence and stability properties of the methods employed.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Identify the main issues associated with the use of computers in the numerical solution of mathematical problems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Computer Arithmetic: Numbers, Basis, Floating-point numbers and arithmetic, Errors in computation, Stability of algorithms, Condition number",
+    "Nonlinear Equations: Iterative methods, Convergent sequences, Existence and unicity theorems, Bisection algorithm, Fixed point iteration, Newton's methods, Stopping criteria",
+    "Numerical linear algebra: Linear systems, computational cost, errors and conditioning, estimate errors",
+    "Direct Methods for linear systems: Gauss and matrix factorizations",
+    "Iterative Methods for linear systems: Jacobi and Gauss-Seidel, Convergence theorems, Stopping criteria",
+    "Polynomial Approximation: Interpolation (Lagrange, Newton), Interpolation error, Least squares approximation",
+    "Ordinary differential equations: Initial Value Problems, Explicit one-step methods (Euler, Heun and Runge Kutta)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical lessons with PCs in IT classrooms",
+    "Working groups"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (Laboratory test using Matlab language)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a written and oral exam. The written test involves solving numerical calculation problems using Matlab. The oral test assesses the ability to explain theorems, definitions, and calculation techniques, emphasizing the connection between topics.",
+  "bibliography": [
+    "L.Gori: Calcolo Numerico. Edizioni Kappa Roma 1999",
+    "E. Santi: Calcolo numerico. Metodi ed applicazioni usando Matlab. Aracne 2014",
+    "W.J. Palm III: MATLAB 6 per l’Ingegneria e le Scienze. Mc. Graw Hill 2002"
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Dell'Aquila",
+  "institution_slug": "ec_i_l_aquil01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "I0640",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univaq.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=32630&ordinamento_aa=2025&af_percorso=4&corso_cod=10493&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "6f9b48ed2857d8cf7c3795e859dff0beb8058b67f9118ad0dcbd79cf3990cc2d",
+  "extracted_at": "2026-11-18T10:03:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

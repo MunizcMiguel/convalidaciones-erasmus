@@ -1,0 +1,140 @@
+{
+  "course_name_original": "NUMERICAL ANALYSIS (B002372)",
+  "course_name_en": "NUMERICAL ANALYSIS",
+  "ects": 6.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Fundamentals of linear algebra and calculus"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The course aims to provide the theoretical and practical skills required to use numerical methods and algorithms in an informed manner to solve complex mathematical problems using computational tools. Students will learn to evaluate the accuracy, stability, and computational complexity of numerical methods, as well as how to implement them in the MATLAB environment.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge of mathematical principles and understanding of the role of mathematical sciences as a tool for analyzing and solving problems and models underlying industrial engineering, and mechanical engineering in particular. Knowledge of computer science principles and of algorithmic and numerical approaches to problem-solving.",
+      "type": "knowledge",
+      "code": "CC1"
+    },
+    {
+      "text": "The ability to apply mathematical methods—with particular reference to numerical analysis—to model, analyze, and solve engineering problems using computational tools.",
+      "type": "skill",
+      "code": "CA1"
+    },
+    {
+      "text": "Ability to analyze data and information using established methods and tools, interpret results, and draw coherent conclusions, also with the support of provided guidance.",
+      "type": "competence",
+      "code": "AG1"
+    },
+    {
+      "text": "Ability to organize one's work in compliance with assigned commitments and deadlines, managing available time and resources, realistically assessing one's abilities, and contributing to the prioritization of activities.",
+      "type": "competence",
+      "code": "AG4"
+    },
+    {
+      "text": "Ability to recognize one's knowledge limits and the need to acquire new skills, identifying appropriate information sources and guided learning opportunities.",
+      "type": "competence",
+      "code": "AG5"
+    },
+    {
+      "text": "Ability to present problems, solutions, analyses, and results in a clear and structured manner through written reports and oral presentations, following standard formats and procedures.",
+      "type": "skill",
+      "code": "AC2"
+    },
+    {
+      "text": "Ability to graphically represent and communicate technical data, results, and engineering solutions through the preparation of drawings, diagrams, graphs, and tables, using established tools and conventions.",
+      "type": "skill",
+      "code": "AC3"
+    },
+    {
+      "text": "Ability to acquire and update knowledge in the relevant engineering field, independently, although primarily under guidance, by using established educational resources and learning tools.",
+      "type": "skill",
+      "code": "AP1"
+    },
+    {
+      "text": "Knowledge and understanding of both mathematical principles and the role of mathematical sciences as a tool for the analysis and the problem solving of mechanical engineering problems. Knowledge of the principles of computer science and the algorithmic and numerical approach to problems.",
+      "type": "knowledge",
+      "code": "CC1"
+    },
+    {
+      "text": "Applying knowledge and understanding related to mathematical methods - with particular reference to differential and integral calculation, geometry, linear algebra, numerical calculation, linear programming and probability and statistical calculation - to model, analyze and solve engineering problems, also with the help of IT tools.",
+      "type": "skill",
+      "code": "CA1"
+    },
+    {
+      "text": "Development of an adequate expression and technical discussion of own arguments",
+      "type": "unspecified",
+      "code": "CT3"
+    },
+    {
+      "text": "To respect commitments and deadlines",
+      "type": "unspecified",
+      "code": "CT7"
+    }
+  ],
+  "syllabus_topics": [
+    "Finite precision computation.",
+    "Numerical methods for solving scalar nonlinear equations.",
+    "Numerical solution of linear systems.",
+    "Data and function approximation.",
+    "Quadrature rules.",
+    "Programming with Matlab.",
+    "Algorithms.",
+    "Floating point arithmetics.",
+    "Finite precision.",
+    "Norms of matrices and vectors.",
+    "Conditioning of a problem.",
+    "Stability of an algorithm.",
+    "Direct methods for linear systems: Gauss method and pivoting strategies.",
+    "Iterative methods for finding the roots of a nonlinear equation: Bisection, Newton and Secant methods; corresponding algorithms.",
+    "Polynomial interpolation, spline interpolation.",
+    "Least-squares problems.",
+    "Quadrature rules: mid-point rule, trapezoidal rule, Simpson rule, composite formulas.",
+    "MATLAB: Handling matrices, operations between matrices. Function and script files.",
+    "If, while and for commands.",
+    "2D and 3D plots.",
+    "Built-in functions for linear systems, nonlinear equations, basic fitting.",
+    "Iterative methods for linear systems: Jacobi and Gauss-Siedel methods.",
+    "Quadrature rules: Richardson extrapolation."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Matlab laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral Test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is a single final score. A negative evaluation (Fail) is due to serious conceptual errors, fragmentary or non-existent understanding, inability to apply knowledge, major gaps, and lack of independence. Grades from 18 to 22 reflect elementary knowledge with some errors, basic independence, and ability to handle only simple or guided tasks. Grades from 23 to 25 indicate a satisfactory understanding, ability to apply knowledge to familiar contexts, and independent exercise completion with some inaccuracies. Grades from 26 to 28 signify a solid theoretical understanding, ability to connect concepts, solve problems, and perform complex tasks independently. Grades from 29 to 30 and Honors (Lode) denote complete, in-depth knowledge, ability to operate independently in complex contexts, and appropriate use of terminology, with Honors awarded for brilliance and originality exceeding expectations. For students with surnames A-L, based on the written test assessment, a further oral test may be required.",
+  "bibliography": [
+    "M.G.Gasparo, R. Morandi: Elementi di Calcolo Numerico:metodi e algoritmi McGraw-Hill editore, 2008",
+    "G. Naldi, L. Pareschi, G. Russo, \"Introduzione al calcolo Scientifico, metodi e applicazioni con Matlab\", McGraw-Hill, 2001."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze",
+  "institution_slug": "ec_i_firenze01",
+  "degree": "Laurea in Ingegneria Meccanica (Mechanical Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "B002372",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45713_B049-23-24_20543_730170&ordinamento_aa=2023&af_percorso=45713&corso_cod=460&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "1fb2989a7dd46c1bf180593a3f777ead73a957cc65376da60ece5c4080c4f24e",
+  "extracted_at": "2026-11-18T10:02:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

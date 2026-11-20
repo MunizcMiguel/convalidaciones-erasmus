@@ -1,0 +1,257 @@
+{
+  "course_name_original": "Termotecnia",
+  "course_name_en": "Thermal Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Basic notions of Physics (Thermodynamic processes)",
+    "Basic notions of Mathematics (Geometric calculations, differentiation and integration)",
+    "Basic English reading level"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental concepts related to the different mechanisms involved in heat transfer and the application of their basic equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Recognize the magnitudes and values that determine the operation of thermal equipment, relating them to their behavior and comparing them with their operating ranges.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Configure air conditioning systems for humid air treatment.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Recognize the elements of a heating system, describing their operating principles and field of application.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify the basic elements of a heat exchange, heating, or refrigeration installation, their function, and operating conditions using technical catalogs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Manage available technical information (commercial catalogs and regulations) for solving practical problems in sizing thermal installations or equipment.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate the thermal loads of refrigeration, air conditioning, and heating installations, justifying the procedures and results obtained.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowledge of applied thermodynamics and heat transfer. Basic principles and their application to solving engineering problems.",
+      "type": "competence",
+      "code": "CRI1"
+    },
+    {
+      "text": "Basic knowledge and application of environmental and sustainability technologies.",
+      "type": "competence",
+      "code": "CRI10"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CT3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CT4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks.",
+      "type": "competence",
+      "code": "CT5"
+    },
+    {
+      "text": "Ability to manage specifications, regulations, and mandatory standards.",
+      "type": "competence",
+      "code": "CT6"
+    }
+  ],
+  "syllabus_topics": [
+    "Block 1. Basic concepts of heat and humidity transfer",
+    "Topic 1. Heat transfer by conduction",
+    "1.1. Modes of heat propagation.",
+    "1.2. Steady-state conduction.",
+    "1.3. General heat conduction equation.",
+    "1.4. Thermal conductivity and thermal resistance.",
+    "1.5. Particular cases of industrial interest.",
+    "Topic 2. Heat transfer by convection",
+    "2.1. Dynamic and thermal boundary layers.",
+    "2.2. Basic convection equations.",
+    "2.3. Dimensional analysis.",
+    "2.4. Common correlations for natural convection.",
+    "2.5. Common correlations for forced convection.",
+    "2.6. Heat transfer during phase changes.",
+    "Topic 3. Heat transfer by radiation",
+    "3.1. Characteristics of radiation.",
+    "3.2. Laws of radiation.",
+    "3.3. Radiative exchange between surfaces.",
+    "3.4. Shape factors.",
+    "3.5. Radiation in the presence of gases",
+    "Topic 4. Heat exchangers",
+    "4.1. Classification of heat exchangers.",
+    "4.2. Temperature distribution inside exchangers.",
+    "4.3. Overall heat transfer coefficient.",
+    "4.4. Effectiveness and Number of Transfer Units.",
+    "Topic 5. Heat transfer in extended surfaces",
+    "5.1. Extended surfaces.",
+    "5.2. General equation for extended surfaces.",
+    "5.3. Longitudinal fins of uniform thickness and needles of constant cross-section.",
+    "5.4. Long longitudinal fins.",
+    "5.5. Annular fins.",
+    "Topic 6. Psychrometry and air conditioning",
+    "6.1. Characteristic parameters of humid air.",
+    "6.2. Psychrometric diagrams.",
+    "6.3. Humid air mixtures.",
+    "6.4. Humid air treatment operations.",
+    "6.5. Air conditioning systems.",
+    "6.6. Humid air measuring instruments.",
+    "Block 2: Heat generation",
+    "Topic 7. Principles of heat generation and biomass energy",
+    "7.1. Combustion theory. Analysis and products.",
+    "7.2. Classification of fuels.",
+    "7.3. Characteristics of fuels. Calorific value.",
+    "7.4. Use of biomass as an energy source.",
+    "7.5. Air required for combustion.",
+    "7.6. Excess air coefficients.",
+    "7.7. Flue gas analysis. Combustion efficiency.",
+    "Topic 8. Boilers and hot air generators",
+    "8.1. Description of heating installations.",
+    "8.2. Types of boilers and burners.",
+    "8.3. Auxiliary elements of heating installations.",
+    "8.4. Emitters and heat exchangers.",
+    "8.5. Indirect combustion hot air generators.",
+    "8.6. Direct combustion hot gas generators.",
+    "Block 3. Sustainability criteria in thermal installations",
+    "Topic 9. Thermal balance in buildings",
+    "9.1. Exterior and interior design conditions for load calculation.",
+    "9.2. Calculation of the thermal load of a refrigeration installation.",
+    "9.3. Calculation of the thermal load of a heating installation.",
+    "Topic 10. Thermal insulation and limitation of energy demand",
+    "10.1. Greenhouse gases, global warming, and climate change",
+    "10.2. Limitation of energy demand. Technical Building Code (CTE)",
+    "10.3. Calculation of thermal transmittance and condensation in a building envelope",
+    "10.4. Limitation of heat losses in pipes",
+    "10.5. Calculation of thermal insulation and characteristics of insulation materials",
+    "10.6. Insulating materials",
+    "10.7. Manufacturing of insulation materials",
+    "Topic 11. Energy saving and efficiency in thermal installations",
+    "11.1. Energy and CO2 emission equivalence of fuels.",
+    "11.2. Energy evaluation of heat generation systems.",
+    "11.3. Fuel demand and consumption determination.",
+    "11.4. Regulatory requirements for energy efficiency.",
+    "11.5. Energy saving methods in heating systems.",
+    "Block 4. Cold generation and mechanical compression refrigeration systems",
+    "Topic 12. Cold production. Absorption refrigeration.",
+    "12.1. Classification of refrigeration systems.",
+    "12.2. Multi-stage compression systems.",
+    "12.3. Absorption systems.",
+    "Topic 13. Mechanical compression",
+    "13.1. Thermodynamic diagrams for the study of refrigeration cycles.",
+    "13.2. Cycle of a perfect refrigeration machine.",
+    "13.3. Theoretical real machine.",
+    "13.4. Effect of vaporization and condensation temperatures on cycle efficiency.",
+    "13.5. Vapor superheating and liquid subcooling.",
+    "13.6. Pressure losses.",
+    "13.7. Coefficient of Performance (COP).",
+    "Topic 14. Main elements of mechanical compression systems.",
+    "14.1. Description and operating principle of compressors.",
+    "14.2. Volumetric efficiency and power required in the compressor.",
+    "14.3. Operating regime and compressor selection.",
+    "14.4. Characteristics, function, and types of evaporators.",
+    "14.5. Overall heat transfer coefficient and refrigeration capacity of evaporators.",
+    "14.6. Frosting and defrosting of evaporators.",
+    "14.7. Classification and operation of condensers.",
+    "14.8. Selection of condensers.",
+    "14.9. Cooling or recovery towers.",
+    "Topic 15. Regulation and control of the refrigeration system and refrigerants",
+    "15.1. Control of an installation's capacity",
+    "15.2. Thermostatic valves for regulation and control",
+    "15.3. Constant pressure valves and safety valves",
+    "15.4. Auxiliary elements",
+    "15.5. Classification of refrigerants",
+    "Practical Topics",
+    "Practice 1. Experimental measurement of the thermal resistance of a material.",
+    "Practice 2. Application of dimensionless numbers to the study of convection.",
+    "Practice 3. Sizing of a shell-and-tube heat exchanger.",
+    "Practice 4. Calculation of an air recirculation system.",
+    "Practice 5. Benefits and drawbacks of using biomass in thermal generation.",
+    "Practice 6. Analysis of the energy balance in a cold room.",
+    "Practice 7. Calculation of the necessary insulation thickness in an enclosure.",
+    "Practice 8. Representation of a compression system on a pressure-enthalpy diagram.",
+    "Practice 9. Sizing of the main elements for a refrigeration installation.",
+    "Practice 10. Regulation of a refrigeration system using different valves.",
+    "Practice 11. Group work presentation on the analysis of scientific articles."
+  ],
+  "teaching_methods": [
+    "Participative lecture classes (24 sessions)",
+    "Evaluation session (2 sessions)",
+    "Problem solving (2 sessions)",
+    "Laboratory tasks (4 sessions)",
+    "Problem-based learning (4 sessions)",
+    "Case studies (2 sessions)",
+    "Use of simulation tools for thermal systems projects (6 sessions)",
+    "Teamwork (4 sessions requiring 5 coordinated students)",
+    "Report writing (4 practice reports)",
+    "Group critical analysis activity submission via virtual platform",
+    "Group work presentation (1 session)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Theory-problem written exams",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Individual practice reports (2 reports)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Group practice reports (2 reports)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Critical analysis activity (report and oral presentation)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "To pass the course, it is necessary to obtain a minimum of 5 out of 10 points in the theory-problem exams. If both exam grades (Block 1 and Blocks 2-4) are 5/10 or higher, the final grade is calculated as: 0.7 * Average Exam Grade + 0.2 * Practice Evaluation + 0.1 * Critical Analysis. If any exam grade is below 5/10, the qualification is 'Fail' (Numeric Grade = Minimum value between the average exam grade and 4.5). For the extraordinary call, students may submit practice reports and the critical analysis activity until the date of the extraordinary final exam. Students who do not pass the practical evaluation during the course will need to take a practical evaluation test during the final exam.",
+  "bibliography": [
+    "Arco Vicente, Luis del - (1984) - Termotecnia : calor industrial - Mitre D.L",
+    "Andrés y Rodríguez-Pomatta, Juan A. de; Aroca Lastra, Santiago; Andrés y Rodríguez-Pomatta, María Isabel - (2005) - Termotecnia - UNED",
+    "Böckh, Peter von; Wetzel, Thomas - (2012) - Heat Transfer - Springer-Verlag Berlin Heidelberg",
+    "Karwa, Rajendra - (2020) - Heat and Mass Transfer - Springer Singapore",
+    "Çengel, Yunus A.; Ghajar, Afshin J. - (2020) - Transferencia de calor y masa: Fundamentos y aplicaciones - McGraw-Hill",
+    "Bart, Hans-Jörg; Scholl, Stephan - (2018) - Innovative Heat Exchangers - Springer International Publishing",
+    "Marín Herrero, José María; Guillén Lambea, Silvia - (2013) - Diseño y cálculo de intercambiadores de calor monofásicos - Ediciones Paraninfo S.A",
+    "Carlucci, Salvatore - (2013) - Thermal Comfort Assessment of Buildings - Springer",
+    "Sánchez y Pineda de las Infantas, María Teresa - (2005) - Ingeniería del frío : teoría y práctica - Mundi-Prensa"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "44102202",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/44102202/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "3192ec930ece8c21a2377376a90dee93b0c6959b045f2dcdaa6afeed11598c52",
+  "extracted_at": "2026-11-13T21:23:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

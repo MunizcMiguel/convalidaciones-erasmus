@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Informática",
+  "course_name_en": "Computer Science",
+  "ects": 6.0,
+  "semester": "S2",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Use programming languages, databases, and computer programs for engineering applications.",
+      "type": "skill",
+      "code": "RAFB10"
+    },
+    {
+      "text": "Recognize and understand programming languages, operating systems, databases, and computer programs applied to engineering.",
+      "type": "knowledge",
+      "code": "RAFB3"
+    },
+    {
+      "text": "Recognize and understand the training needs that will be useful to successfully resolve new situations related to industrial engineering.",
+      "type": "competence",
+      "code": "RAT1"
+    },
+    {
+      "text": "Propose creative solutions to satisfactorily respond to real needs and problems of society.",
+      "type": "competence",
+      "code": "RAT16"
+    },
+    {
+      "text": "Apply industrial engineering knowledge in learning new methods and theories.",
+      "type": "skill",
+      "code": "RAT4"
+    }
+  ],
+  "syllabus_topics": [
+    "Programming Practices: Algorithm and program development related to engineering. Databases: Information management. Basic concepts.",
+    "Operating Systems: Introduction to Operating Systems. Linux Operating System: Shell Practices.",
+    "C Programming I: Structure of a C program. Variables. Operations. Decision structures. Loops. Basic I/O. Arrays. Matrices. Functions. Character strings.",
+    "Algorithms: Variables and Constants. Linear Sequence. Selection. Loops. Basic data structures.",
+    "Principles of Computer Architecture: Introduction to computers. Historical evolution. Basic hardware components. Von Neumann model. Bus interconnection model.",
+    "C Programming II - Memory and Storage Management: Static and dynamic memory. Stack and Heap. Pass by value and by reference. Pointers. Files."
+  ],
+  "teaching_methods": [
+    "Assignments",
+    "Computer Practices",
+    "Lectures"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Assignments",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Practical cases",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Juan Felipe García Sierra: Programación en C. Prácticas",
+    "Kernighan, Brian W. Ritchie, Dennis M.: The C programming language. Englewood Cliffs (New Jersey) :: Prentice Hall, cop. 1988 ISBN: 0131103628; 0131103709"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de León",
+  "institution_slug": "es_leon",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "0708310",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocenteapi.unileon.es/snapshots/2026-2027/0708310",
+  "source_language": "es",
+  "source_sha256": "b4cb35dd984cdb5c1b834152b8dd1a86b979c994cff99dd3c10e1474b5ca765b",
+  "extracted_at": "2026-11-13T22:54:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

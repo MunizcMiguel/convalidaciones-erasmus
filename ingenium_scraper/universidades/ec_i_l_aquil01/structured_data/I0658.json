@@ -1,0 +1,92 @@
+{
+  "course_name_original": "ELETTRONICA I",
+  "course_name_en": "ELECTRONICS I",
+  "ects": 9.0,
+  "semester": "Secondo Semestre",
+  "year_of_study": 2,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of the fundamentals of electrical circuits and passive components."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Upon passing the exam, the student should be able to analyze and design electronic circuits and systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to electronics: analog and digital quantities.",
+    "Voltage and current signals.",
+    "DC and AC signals.",
+    "Small and large signals.",
+    "Introduction to electronic circuits.",
+    "Amplifiers: bandwidth, dynamics.",
+    "Linear amplifiers: representations, impedances, gains.",
+    "Thevenin and Norton.",
+    "Amplifiers, cascaded amplifiers, buffers.",
+    "Feedback.",
+    "Differential amplifier, operational amplifier (OA) and transconductance amplifier (OTA).",
+    "Real OA.",
+    "Negative feedback on the OA.",
+    "Configurations with OA: inverting, non-inverting, buffer.",
+    "Integrator and differentiator.",
+    "Summer, differential, for instrumentation.",
+    "Circuits with non-linear open-loop OAs: comparators, astable.",
+    "Waveform generators (square, sinusoidal).",
+    "The diode: behavior, equivalent models.",
+    "Diode circuits.",
+    "Bipolar and field-effect transistors: introduction, Gm.",
+    "Non-linear transfer characteristic: biasing and small-signal equivalent circuits.",
+    "Transistor circuits (CS, CD, CE, and CC).",
+    "Dual-load circuit, multi-stage amplifiers.",
+    "Differential pair.",
+    "Introduction to digital electronics: binary representation, combinational circuits, logic gates, K-maps, sequential circuits.",
+    "A/D and D/A converters.",
+    "Power amplifiers.",
+    "Laboratory exercises: review of RC and CR circuits, circuits with OAs, diode circuits, MOSFET CS, dual-stage amplifiers, combinational and sequential circuits, A/D and D/A converters.",
+    "Numerical exercises."
+  ],
+  "teaching_methods": [
+    "Lectures at the blackboard.",
+    "Numerical exercises.",
+    "Laboratory exercises."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written question",
+      "weight_percentage": null
+    },
+    {
+      "method": "Two oral questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "One question on laboratory reports",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final exam consists of a written question, two oral questions, and one question on the laboratory reports. Discussions during lectures and laboratory exercises are also part of the assessment. Students are required to solve numerical exercises independently, which are then corrected.",
+  "bibliography": [
+    "A.Sedra, K.Smith, Circuiti per la microelettronica.",
+    "Francesco Centurelli, Aldo Ferrari FONDAMENTI DI ELETTRONICA ISBN: 9788808621306"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Dell'Aquila",
+  "institution_slug": "ec_i_l_aquil01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "I0658",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univaq.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=32640&ordinamento_aa=2025&af_percorso=2&corso_cod=10493&corso_aa=2025",
+  "source_language": "it",
+  "source_sha256": "f4b11dbdf8e0ae9df120dd414eb686478706b059622d8ec72aa27cd70ffadb09",
+  "extracted_at": "2026-11-18T10:03:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

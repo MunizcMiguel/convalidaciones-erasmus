@@ -1,0 +1,155 @@
+{
+  "course_name_original": "Dispositivos Electrónicos y Fotónicos",
+  "course_name_en": "Electronic and Photonic Devices",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Physics: Basic concepts of electricity (electrostatics and electrodynamics): electric charge, electric field, electric potential, electric current density, electric current, and Ohm's Law.",
+    "Mathematics: Integration of differential equations with separated variables.",
+    "Simultaneous knowledge in Physics: Mathematical relationships between charges, fields, and potentials.",
+    "Simultaneous knowledge in Mathematics: Integration of linear differential equations.",
+    "Simultaneous knowledge in Circuit Theory: Kirchhoff's Laws, Thévenin, Norton, and Millman theorems, DC circuit analysis, transient analysis in first-order circuits with DC excitation."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze and quantify conduction phenomena in semiconductor materials and in junctions between different types of semiconductors and between semiconductors and metals.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Analyze the operation of simple circuits with semiconductor diodes (idealized and real) and calculate the values of their electrical variables.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Relate the different types of semiconductor diodes to their applications.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Analyze and quantify conduction phenomena in bipolar and field-effect transistors and establish comparisons between their properties.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.9"
+    },
+    {
+      "text": "Calculate the electrical variables in simple circuits with bipolar and field-effect transistors (both idealized and real), describing the conduction states in the transistors.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Analyze the electrical operation of logic gates and establish comparisons between the properties of different logic families.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.9"
+    },
+    {
+      "text": "Analyze and quantify conduction and electrical energy generation phenomena in semiconductor materials and in semiconductor material junctions when light radiation is incident.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.5, CG.9"
+    },
+    {
+      "text": "Analyze the phenomena by which a semiconductor material can generate light radiation.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.9"
+    },
+    {
+      "text": "Understand the physical principle of semiconductors, being able to analyze and evaluate the main differences with conductive and insulating materials, as well as determine equilibrium conditions under different situations and quantify equilibrium values and the evolution from an imbalance to a new equilibrium state.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identify, describe, classify and select different electronic devices, characterize them according to different design parameters and evaluate (quantify) how these characteristics are modified according to certain external conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the phenomena of interaction between light radiation and electrical conduction in semiconductors and know the devices capable of detecting light, generating electrical energy from light, and emitting light radiation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Use electronic and photonic devices in simple circuits, being able to analyze circuits involving these devices as well as design circuits that behave according to a specification.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve simple problems involving electronic and photonic devices.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic theory of semiconductor materials: Materials and types of semiconductors. Band diagrams and conduction phenomena. Equilibrium concentrations. Quantification of electric current in semiconductors (field and diffusion currents). Carrier concentration imbalances and continuity equation.",
+    "Basic theory of PN junctions: Carrier concentration, electric fields, and voltages in unbiased and biased PN junctions. Calculation of the voltage-current equation of a junction and its validity limits. Characteristic curve. Band diagrams of a PN junction and tunnel effect.",
+    "Semiconductor diodes: PN diodes and their models. Analysis of elementary circuits with diodes. Other diodes: varicap diodes, Zener diodes, and PIN diodes. Analysis of elementary circuits with Zener diodes. Metal-semiconductor junctions and Schottky diodes. Diode fabrication.",
+    "Optoelectronic devices: Voltage-current equation of a junction in the presence of light. Photodiodes and photovoltaic cells. Direct and indirect semiconductors. Light-emitting diodes (LEDs) and their applications.",
+    "Bipolar transistors: Asymmetrically doped junctions and short junctions. Physical principle of the bipolar transistor. General equation of a transistor and Ebers-Moll model. Transistor operating regions. Current gain in active region. Common base and common emitter characteristic curves. Phototransistors and optocouplers. Bipolar transistor fabrication.",
+    "Field-effect transistors: Operating principle and characteristic curves of junction field-effect transistors (JFETs). MESFET transistors. Operating principle and characteristic curves of metal-oxide-semiconductor field-effect transistors (MOSFETs), both enhancement and depletion mode. Field-effect transistor fabrication.",
+    "Transistor biasing circuits: Objectives of biasing circuits. Bipolar transistor biasing. JFET biasing. MOSFET biasing.",
+    "Logic families: Bipolar technology logic families (TTL). MOS technology logic families (CMOS)."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Classroom Evaluation Tests (PEAs)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF1) - PEAs-new part",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF1) - Non-PEAs part",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF1) - Problem Solving (RP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practices Exam (PL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Extraordinary Final Exam (EF2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The theoretical block grade for the ordinary call is the highest between (0.45 x PEAs) + (0.15 x No-PEAs) + (0.25 x RP) and (0.45 x PEAs-new) + (0.15 x No-PEAs) + (0.25 x RP). The practical block grade is 0.15 x PL. The final ordinary call grade is Theory + Practices. For the extraordinary call, the final grade is (0.85 x EF2) + (0.15 x PL). For differentiated evaluation, the final grade is (0.85 x EF) + (0.15 x PL). Attendance to the first laboratory practice is mandatory to take the laboratory practice control, except for students under differentiated evaluation.",
+  "bibliography": [
+    "J. M. Abella Martín, J. M. Martínez Duarte y F. Agulló Rueda. Fundamentos de microelectrónica, nanoelectrónica y fotónica. Pearson Prentice Hall. ISBN:84-205-4651-8.",
+    "T. Mouthaan. Semiconductor Devices Explained. John Wiley and Sons. ISBN:0-47-198854-5.",
+    "Robert F. Pierret. Modular series on solid state devices. Volume I: Semiconductor fundamentals. Addison-Wesley Publishing Company. ISBN:0-201-12295-2.",
+    "Gerold W. Neudeck. Modular series on solid state devices. Volume II: The PN junction diode. Addison-Wesley Publishing Company. ISBN:0-201-12296-0.",
+    "Gerold W. Neudeck. Modular series on solid state devices. Volume III: The bipolar junction transistor. Addison-Wesley Publishing Company. ISBN:0-201-12297-9.",
+    "Robert F. Pierret. Modular series on solid state devices. Volume IV: Field effect devices. Addison-Wesley Publishing Company. ISBN:0-201-12298-7.",
+    "Ben G. Streetmam y Sanjay Banerjee. Solid state electronic devices. Prentice Hall. ISBN:0-13-025538-6.",
+    "S. M. Sze. Semiconductor devices. John Wiley and Sons. ISBN:0-47-133372-7.",
+    "M. S. Tyagi. Introduction to semiconductor materials and devices. John Wiley and Sons. ISBN:0-47-160560-3.",
+    "Jasprit Singh. Dispositivos semiconductores. McGraw-Hill. ISBN:9-70-101024-8.",
+    "S. M. Sze. Physics of semiconductor devices. John Wiley and Sons. ISBN:0-47-105661-8."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-1-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-011",
+  "source_language": "es",
+  "source_sha256": "26a1a820f32efd263fd2a0c229ab3c87116a87408eba2b571b8c4714816c1256",
+  "extracted_at": "2026-11-20T06:05:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

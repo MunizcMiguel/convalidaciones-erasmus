@@ -1,0 +1,88 @@
+{
+  "course_name_original": "CONTROLLI AUTOMATICI M",
+  "course_name_en": "AUTOMATIC CONTROLS M",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "At the end of the course the student handles Linear Time-Invariant (LTI) systems and their representation through state-space methods, Laplace transform and its inverse, and transfer functions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students understands the basic principles of linear-system stability and the response modes (1st and 2nd order elementary systems and their composition to implemented higher-order systems).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students know how to use Bode diagrams and root locus to design controllers for linear systems, which include lead and lag networks, PID controllers and cascade controllers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will be exposed to the control of nonlinear system via linearization-based methods.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Control Systems. Examples of control systems. Definition of system: control and disturbance inputs, outputs, state variables. Principles of control systems design.",
+    "Mathematical Models of Systems. Differential equation models of physical systems; Linear approximations of nonlinear models. Modeling principles: Electric systems; Mechanical systems; Flow systems.",
+    "State Variable Models. State-space models. Realization from differential equation models: Canonical forms. Solution of the state equation.",
+    "Input-Output Models. Laplace transform. Transfer functions. Forced and free response. Computation of the response via partial fraction expansion. Block diagrams. Signal-flow graphs. Relation with state-space models.",
+    "Stability of Systems. Definitions. Stability of state-space models: Internal stability and external stability. Transient and steady-state response. External stability (BIBO stability). Routh-Hurwitz criterion.",
+    "Feedback Systems. Introduction. Error-signal Analysis. Sensitivity Analysis. Test input signals. Time-response of first- and second-order systems. Higher-order models. Transient response. Performance specification in time-domain and relation with pole location. Steady-state error of feedback control systems. Design examples.",
+    "Root Locus. Definition and procedure. Parameter design via the root locus method. Introduction to PID controllers. Design examples. Design using computer software.",
+    "Frequency Response Methods. Frequency response. Polar plots and Bode plots. Performance specifications in the frequency domain. Design Examples.",
+    "Feedback Control Systems Design. Cascade compensators. Phase-lead compensator networks: Frequency domain and root-locus design methods. Phase-lag design: Frequency domain and root-locus design methods. Lead-lag controllers. Pre-filters. Design examples."
+  ],
+  "teaching_methods": [
+    "In-class lectures",
+    "Occasional remote lectures (synchronous and asynchronous)",
+    "Worked-out examples and recitation sessions",
+    "Computer-aided design tools (MATLAB®/Simulink®)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Comprehensive oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written questionnaires",
+      "weight_percentage": null
+    },
+    {
+      "method": "Design problems",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "P. Bolzern, R. Scattolini, N. Schiavoni, \"Fondamenti di controlli Automatici'', McGraw-Hill.",
+    "G. Marro, \"Controlli Automatici\", Zanichelli, Bologna, 2004.",
+    "H. Khalil, \"Control Systems: An Introduction\", Michigan Publishing, 2023."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Laurea Magistrale Ingegneria meccanica",
+  "institution_slug": "ec_i_bologna01__m_mec",
+  "degree": "Ingegneria meccanica (Laurea Magistrale, LM-33, Bologna)",
+  "course_code": "35245",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/516490",
+  "source_language": "en",
+  "source_sha256": "3e1e9612fa20e5a37a882468391193755efdfd6827121c8e35f4f485b758fd73",
+  "extracted_at": "2026-11-20T13:01:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

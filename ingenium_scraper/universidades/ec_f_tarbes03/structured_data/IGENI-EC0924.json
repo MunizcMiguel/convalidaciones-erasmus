@@ -1,0 +1,70 @@
+{
+  "course_name_original": "FAO Surfacique",
+  "course_name_en": "Surface CAM",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Manufacturing methods (turning, milling, drilling... cutting tools, cutting parameters, tooling)",
+    "Operation of CNC machine tools",
+    "CNC programming",
+    "Computer-Aided Manufacturing (CAM for 2.5- and 3-axis machining)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design manufacturing process plans for complex parts, ensuring both technical feasibility (tool accessibility, machine rigidity) and economic performance (material cost, productivity).",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "CAD Models of Non-Developable Surfaces (Bézier, B-splines, NURBS)",
+    "CAD Techniques for Non-Developable Surfaces (CATIA V5 - Shape Generator, Repair Assistant, Connect Checker, G2/G3 continuity, Mesh Optimization)",
+    "Machining Strategies (3 to 5 Axis - Z-Level, 5-Axis Contour Milling)",
+    "5-Axis CAM Techniques (CATIA V5 Workflow: Machine Axis Definition, Toolpath Calculation with Free Contouring and Automatic Collision Avoidance, Post-Processing)",
+    "Critical Case: Machining Inconel turbines with integrated thermal compensation",
+    "Case Study: \"Project\" Part (Turbine Blade - NURBS modeling, Swarf Machining, Tolerance analysis verification)",
+    "Surface CAM Project (Pedagogical Mock-Up: 3-Axis Phase with Z-Level Roughing and Profile cutting; 5-Axis Phase with Multi-Axis Pocket and Cutting force simulation via Abaqus)",
+    "Deliverables: Comparative time/quality report between methods, Reusable CATIA tool library (ball nose, toroidal cutters)"
+  ],
+  "teaching_methods": [
+    "Project-based approach"
+  ],
+  "workload_hours_total": 34.0,
+  "workload_hours_contact": 24.0,
+  "assessment_methods": [
+    {
+      "method": "PJ1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "RAP1",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*PJ1+1*RAP1)/2.",
+  "bibliography": [
+    "Modélisation et construction de surface pour la CFAO, Jean-Claude LEON, Bibliothèque ENIT 516.3 LEO.",
+    "B-splines, R.H. BARTELS, Bibliothèque ENIT 516.3 BAR.",
+    "L'utilisation des courbes et surfaces en CAO, Pierre Bézier, Bibliothèque ENIT 516.3 BEZ.",
+    "Fabrication assistée par ordinateur, Alain BERNARD, Lavoisier, 2003.",
+    "L'usinage 5 axes, Eric GALLET et Christophe DESPLATZ, Publications CETIM, 2004."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0924",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "197bffd3954f4bdede190d54fca8ba4b6fc09208255c3064b72db92c59699374",
+  "extracted_at": "2026-11-18T09:52:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

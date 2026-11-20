@@ -1,0 +1,195 @@
+{
+  "course_name_original": "Fundamentos de Informática",
+  "course_name_en": "Fundamentals of Computer Science",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "No specific prior knowledge is required beyond general computer literacy as a common user."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Basic knowledge on the use and programming of computers, operating systems, databases, and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "CB3"
+    },
+    {
+      "text": "Locate computer science within engineering disciplines.",
+      "type": "knowledge",
+      "code": "RFI-1"
+    },
+    {
+      "text": "Understand the fundamentals of the binary system to comprehend information representation in computers.",
+      "type": "knowledge",
+      "code": "RFI-2"
+    },
+    {
+      "text": "Identify the hardware components that constitute a computer system, as well as their interconnection in networks, and understand their basic operation.",
+      "type": "knowledge",
+      "code": "RFI-3"
+    },
+    {
+      "text": "Distinguish the main peripherals used in a computer system and specifically in the field of engineering.",
+      "type": "knowledge",
+      "code": "RFI-4"
+    },
+    {
+      "text": "Classify the different types of software used in a computer system.",
+      "type": "knowledge",
+      "code": "RFI-5"
+    },
+    {
+      "text": "Identify and classify different types of computer systems and their application areas.",
+      "type": "knowledge",
+      "code": "RFI-6"
+    },
+    {
+      "text": "Understand the main functions performed by an operating system.",
+      "type": "knowledge",
+      "code": "RFI-7"
+    },
+    {
+      "text": "Analyze what services the operating system provides to programs and end-users.",
+      "type": "knowledge",
+      "code": "RFI-8"
+    },
+    {
+      "text": "Identify the main operating systems used in professional engineering environments and use the main services at user level.",
+      "type": "skill",
+      "code": "RFI-9"
+    },
+    {
+      "text": "Understand the main functions performed by a database management system.",
+      "type": "knowledge",
+      "code": "RFI-10"
+    },
+    {
+      "text": "Create data models for simple problems.",
+      "type": "skill",
+      "code": "RFI-11"
+    },
+    {
+      "text": "Use basic expressions to retrieve and modify information stored in a database.",
+      "type": "skill",
+      "code": "RFI-12"
+    },
+    {
+      "text": "Identify which database management systems are used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "RFI-13"
+    },
+    {
+      "text": "Identify the main application programs used in professional engineering environments.",
+      "type": "knowledge",
+      "code": "RFI-14"
+    },
+    {
+      "text": "Understand the concept of algorithm and the process of abstracting a problem in programming.",
+      "type": "knowledge",
+      "code": "RFI-15"
+    },
+    {
+      "text": "Identify the program development process and its location within the general Software Engineering process.",
+      "type": "knowledge",
+      "code": "RFI-16"
+    },
+    {
+      "text": "Recognize the elementary data structures provided by a structured programming language.",
+      "type": "knowledge",
+      "code": "RFI-17"
+    },
+    {
+      "text": "Handle the elementary control structures of a structured programming language.",
+      "type": "skill",
+      "code": "RFI-18"
+    },
+    {
+      "text": "Abstract operations.",
+      "type": "skill",
+      "code": "RFI-19"
+    },
+    {
+      "text": "Design small applications to solve elementary problems in collaborative work environments.",
+      "type": "skill",
+      "code": "RFI-20"
+    }
+  ],
+  "syllabus_topics": [
+    "INT - Introduction: Overview of computer science, in the context of other engineering disciplines",
+    "INT - Introduction: Structure and operation of a computer",
+    "INT - Introduction: Information representation in a computer",
+    "BD - Introduction to databases: Concept of database",
+    "BD - Introduction to databases: Fundamentals of the relational data model",
+    "BD - Introduction to databases: Performing queries and modifications",
+    "BD - Introduction to databases: Database Management Systems in professional engineering environments",
+    "PRO - Introduction to programming: Problem abstraction for programming: fundamental concepts",
+    "PRO - Introduction to programming: Variables, expressions, assignment",
+    "PRO - Introduction to programming: Using console input/output",
+    "PRO - Introduction to programming: Handling basic flow control structures: sequential, alternative, and repetitive",
+    "PRO - Introduction to programming: Definition and use of subprograms and functions. Variable scope",
+    "PRO - Introduction to programming: File input/output",
+    "PRO - Introduction to programming: Basic data types and structures",
+    "PRO - Introduction to programming: Program development processes. From high level to execution in the processor. Compiled languages and interpreted languages",
+    "HSW - Hardware and software components of a computer system: Structure and operation of a computer: Von Neumann Architecture and machine language",
+    "HSW - Hardware and software components of a computer system: Peripheral devices",
+    "HSW - Hardware and software components of a computer system: System interconnection: types, mechanisms, and applications",
+    "HSW - Hardware and software components of a computer system: Types of software: basic software and application software",
+    "HSW - Hardware and software components of a computer system: Types of computer systems and their application areas",
+    "SO - Introduction to operating systems: Concept and functions performed by an operating system",
+    "SO - Introduction to operating systems: Interface and services offered to programs",
+    "SO - Introduction to operating systems: Interface and services offered to users",
+    "SO - Introduction to operating systems: Operating systems used in professional engineering environments",
+    "Laboratory Practices: Introduction to tools in the practice lab. Spreadsheet as a tool (4h)",
+    "Laboratory Practices: Design, implementation, and exploitation of a database (6h)",
+    "Laboratory Practices: Programming with Python: Introduction to the development environment (18h)",
+    "Laboratory Practices: Programming with Python: Variables, expressions, and console input-output (18h)",
+    "Laboratory Practices: Programming with Python: Flow control: if-else, while, for (18h)",
+    "Laboratory Practices: Programming with Python: Functions (18h)",
+    "Laboratory Practices: Programming with Python: Structures: lists and strings (18h)",
+    "Laboratory Practices: Programming with Python: Files (18h)"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual study of theoretical material",
+    "Completion of exercises and problems proposed via Virtual Campus"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical block exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical block exams",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Ordinary Call: The theoretical block requires a minimum of 40% in 'Introduction to Programming' (Tema 3) and an overall score greater than 4 out of 10 to be averaged. The practical block requires a minimum of 40% in 'Programming' (P3) and an overall score greater than 4 out of 10 to be averaged. The final grade is calculated as (0.5 * Theoretical block score) + (0.5 * Practical block score). If minimums are not met, the final grade is the minimum of the calculated score and 4.0. Extraordinary Call: Similar minimums, but require a score greater than or equal to 5 out of 10 for each block to be averaged. Scores from the ordinary call for each block (if >= 5.0) can be retained. The final grade is calculated using the same formula. If minimums are not met, the final grade is the minimum of the calculated score and 4.0. Differentiated Evaluation: Consists of one theoretical and one practical exam, evaluated in the same way as the extraordinary call. In case of doubt regarding authorship or unauthorized means, a presential defense may be requested.",
+  "bibliography": [
+    "George Beekman, \"Introducción a la Informática. 6ª Edición\", Pearson - Prentice Hall, 2004",
+    "Prieto, A., Prieto, B, \"Conceptos de Informática, Serie Schaum\", McGraw Hill, 2005",
+    "Alberto Prieto, Antonio Lloris, J.C.Torres, \"Introducción a la Informática. 4ª Edición\", McGraw Hill, 2006",
+    "A. Silberschatz, H.F; Korth, S. Sudarshan, \"Fundamentos de Bases de Datos (5ª edición)\", McGraw Hill, 2006",
+    "Manuals and online resources about the programming language used in laboratory practices."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo",
+  "institution_slug": "uniovi",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "GIMECA01-1-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/mecanica/-/fof/asignatura/GIMECA01-1-003",
+  "source_language": "es",
+  "source_sha256": "84c16d269605c9a1f57aa42e027cb6b31c470856fed67bbee33ba034633b5064",
+  "extracted_at": "2026-11-12T23:49:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

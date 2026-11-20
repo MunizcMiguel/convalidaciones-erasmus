@@ -1,0 +1,152 @@
+{
+  "course_name_original": "Microprocessor Technology",
+  "course_name_en": "Microprocessor Technology",
+  "ects": 3.0,
+  "semester": "6",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows and understands the principles of binary number encoding and performing basic arithmetic operations in this system.",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "Knows and understands the operating principles of basic combinational and sequential digital circuits.",
+      "type": "knowledge",
+      "code": "ELT1A_W07"
+    },
+    {
+      "text": "Knows and understands the structure and operation of a microprocessor, microcomputer, microcontroller.",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "Knows and understands the principles of microcontroller programming basics.",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "Knows and understands the operating principles of basic peripheral devices found in microcontrollers.",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "Possesses basic and ordered knowledge about serial communication standards (USART, I2C, SPI, 1-Wire).",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "Possesses general and systematized knowledge about programmable logic controllers (PLCs).",
+      "type": "knowledge",
+      "code": "ELT1A_W05"
+    },
+    {
+      "text": "Is able to convert numbers between decimal and binary systems and perform arithmetic operations.",
+      "type": "skill",
+      "code": "ELT1A_U09"
+    },
+    {
+      "text": "Can minimize a logical function using Karnaugh maps and design a logic circuit that implements this function.",
+      "type": "skill",
+      "code": "ELT1A_U09"
+    },
+    {
+      "text": "Is able to write, load, and run a simple program for a microcontroller.",
+      "type": "skill",
+      "code": "ELT1A_U09"
+    },
+    {
+      "text": "Is able to write, load, and run a program that handles a selected microcontroller peripheral device.",
+      "type": "skill",
+      "code": "ELT1A_U09"
+    },
+    {
+      "text": "Understands the need and knows the possibilities of continuous self-improvement and expanding acquired knowledge and raising professional qualifications.",
+      "type": "competence",
+      "code": "ELT1A_K01"
+    },
+    {
+      "text": "Has the ability to work in a team and is aware of the responsibility for their own work and joint activities during laboratory exercises.",
+      "type": "competence",
+      "code": "ELT1A_K03"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the laboratory (2 hours): Programming and application execution environment for Atmel/Microchip microcontrollers. Introduction to AVR microcontroller architecture and assembly language.",
+    "Introduction to microcomputer technology (2 hours): Historical overview of computer technology development. Computer architectures: Von Neumann (Princeton), Harvard. Basic functional components of a computer. Processor operation principle. Processor work cycle. Clock, machine, and instruction cycles. Processor working environment. Types of processor machine cycles. Stages of computer and microcomputer technology development. Microprocessor, microcomputer, microcontroller.",
+    "Basic concepts of computer technology (2 hours): Processor, memory, bus – significance of high impedance state, input/output circuits, processor work cycle. Processor structure – functional elements of the processor. Examples of processor architectures. CISC and RISC architectures. Address space maps. Memory types. Data addressing modes. Jumps and subroutines. Jump addressing modes.",
+    "Microcomputer programming (2 hours): Types of programs: source programs, binary programs, executable programs, absolute programs, relocatable programs, semi-compiled programs. ASCII code and binary code. Processor instruction lists – relation to the processor's internal structure. Two approaches to program execution: compilation and interpretation. Path from source code to program executed by microcomputer. Utility programs: editor, assembler, linker, loader, compiler, interpreter. Methodology for preparing program algorithm – program flowchart (Flow-Chart), sequential function diagram.",
+    "Internal structure and instruction list of the microprocessor using the Atmel XMEGA/Dx/EA microcontroller as an example (2 hours): The importance of understanding the logical internal structure of the processor for efficient use of microprocessor and microcontroller. Processor internal structure, basic components, registers, data flow paths between processor components, addressing of program memory and data memory, address areas. Principles of navigating processor documentation. Processor internal instruction list: format and components of instructions, overview of internal instruction list.",
+    "Instruction list part 1 (2 hours): Arithmetic and logical instructions. Number representation in the processor. Branch instructions. Examples of use in a program.",
+    "Instruction list part 2 (2 hours): Data transfer instructions. Examples of use in a program.",
+    "Instruction list part 3 (2 hours): Bit manipulation instructions. Processor control instructions. Special instructions. Examples of use in a program.",
+    "Methods of processor cooperation with input-output circuits part 1 (2 hours): Input/output circuits as registers with data and instructions. Methods of addressing input/output circuits in the memory address area and in the input/output address area. Significance of address decoders, direct read/write of an input/output data register, use of status registers and bits. Types of software handling of input/output circuits, including polling – cyclic scanning of input/output device status bits. Handling of input/output device registers in Atmel XMEGA/Dx/EA microcontroller.",
+    "Methods of processor cooperation with input-output circuits part 2 (2 hours): Interrupts, events and DMA circuits – general concepts, operating principles and examples of use in Atmel XMEGA/Dx/EA microcontroller.",
+    "Serial transmission in microcomputer systems part 1 (2 hours): Basic concepts of data transmission: parallel, serial, synchronous, asynchronous transmission. Characteristics of individual transmission types. USART interface: signal lines, transmission principle, data frame format, basic transmission parameters.",
+    "Serial transmission in microcomputer systems part 2 (2 hours): Standards RS-232C, RS423A, RS422A, RS485. I2C, SPI, 1-Wire, CAN interfaces: signal lines, device addressing principles, data frame formats, basic transmission parameters.",
+    "Review lecture – overview of important concepts in microcomputer technology (2 hours).",
+    "Concluding colloquium from lectures (2 hours).",
+    "Laboratory exercises 1. (2h) Introduction to the programming and application execution environment for Atmel / Microchip microcontrollers. Introduction to assembly language.",
+    "Laboratory exercises 2. (2h) Methods of accessing data memory and program memory. Loops and conditional program branches. Conditional and unconditional jumps and calling subroutines.",
+    "Laboratory exercises 3. (4h) Adding multi-byte numbers in BCD code in data memory. Use of pointer registers, arithmetic operations with carry consideration.",
+    "Laboratory exercises 4. (4h) Introduction of decimal correction for adding multi-byte numbers: introduction of GPIO registers with access to individual bits (setting, conditional program branching); operations on Half-Carry and Carry flags. Use of stack.",
+    "Laboratory exercises 5. (2h) Byte logical operations using the example of converting a multi-byte number from BCD code to Gray code.",
+    "Laboratory exercises 6. (4h) Text data processing: comparisons, arithmetic operations, in-place data processing.",
+    "Laboratory exercises 7. (2h) Colloquium I.",
+    "Laboratory exercises 8. (2h) Configuration of I/O ports in different modes. Program structure for detecting multiple events and non-blocking execution of program fragments. Ability to select configuration and operate microcontroller I/O ports.",
+    "Laboratory exercises 9. (4h) Alternatively one of the projects implemented on xmIO_Xplained workstations: a) keypad controller project – use of input operating modes with internal pull-up resistors, lookup tables, correct program structure. b) electronic cipher lock project – handling of quadrature encoder, 2x16 display with RGB backlight. c) project for detecting input state change events and implementing logical dependencies (inverting IO signal order, Direct/Toggle/Set/Reset control, input priorities (RS flip-flop with R or S priority), modification of bit range in byte. d) PWM signal generator project, reading of binary inputs with contact bounce elimination using a microcontroller peripheral (timer), use of interrupts, verification of functionality with logic state analyzer.",
+    "Laboratory exercises 10. (2h) Colloquium II."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Discussion",
+    "E-learning",
+    "Group work",
+    "Project Based Learning",
+    "Visual thinking (mind mapping, concept mapping, sketchnoting)",
+    "Demonstration"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are assessed by a test. Laboratory classes are assessed by the execution of the laboratory classes. Passing the module is possible after passing all laboratory classes. Students are required to prepare for the laboratory exercises, which may be verified by an oral or written colloquium.",
+  "bibliography": [
+    "Kalisz J., Podstawy elektroniki cyfrowej, WKŁ, Warszawa 2007.",
+    "Doliński J.: Mikrokontrolery AVR w praktyce. BTC, Warszawa 2004.",
+    "Bogusz J.: Lokalne interfejsy szeregowe w systemach cyfrowych. BTC, Warszawa 2004.",
+    "AVR-Instruction-Set-Manual.",
+    "AVR-Microcontroller-XMEGA-AU_Manual.",
+    "Materiały z wykładów.",
+    "Materiały do laboratorium.",
+    "Materiały katalogowe firm Atmel, Microchip, Intel, Texas Instruments."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.02298.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/140ae503-0af0-411b-bd62-b76a72cd16f8.html",
+  "source_language": "pl",
+  "source_sha256": "3aec87b1e76f3ea6c909036318792beb1315d56ab211f8a9577a0d133e0742fd",
+  "extracted_at": "2026-11-20T09:03:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

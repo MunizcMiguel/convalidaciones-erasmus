@@ -1,0 +1,177 @@
+{
+  "course_name_original": "Sistemes Automàtics (EM1023)",
+  "course_name_en": "Automatic Systems",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ca"
+  ],
+  "prerequisites": [
+    "EM1001 - Àlgebra (Matemàtiques)",
+    "EM1002 - Càlcul I (Matemàtiques)",
+    "EM1003 - Informàtica",
+    "EM1004 - Física I",
+    "EM1006 - Química",
+    "EM1007 - Càlcul II (Matemàtiques)",
+    "EM1008 - Física II",
+    "EM1009 - Expressió Gràfica",
+    "EM1011 - Estadística i Optimització",
+    "EM1012 - Mecànica de Màquines i Estructures",
+    "EM1013 - Electrotècnia",
+    "EM1014 - Enginyeria Tèrmica",
+    "EM1015 - Ciència i Tecnologia de Materials",
+    "EM1016 - Mecànica de Fluids",
+    "EM1017 - Empresa",
+    "EM1018 - Electrònica",
+    "EM1019 - Elasticitat i Resistència de Materials",
+    "EM1020 - Teoria de Màquines i Mecanismes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to solve problems of system behavior calculation, experimental identification, and controller design, analytically and with computer aid.",
+      "type": "skill",
+      "code": "CG06"
+    },
+    {
+      "text": "Be able to write a technical report on a work in the field of automatics that includes a calculation part and an experimental part.",
+      "type": "skill",
+      "code": "CG03"
+    },
+    {
+      "text": "Be able to identify a model of a continuous linear system from experimental data, using a computer.",
+      "type": "skill",
+      "code": "CC06"
+    },
+    {
+      "text": "Be able to model simple sequential systems and obtain the algorithm for their automatic control using a programmable device.",
+      "type": "skill",
+      "code": "CC06"
+    },
+    {
+      "text": "Be able to design a PID controller for a process, to meet the required operating specifications, analytically and by computer.",
+      "type": "skill",
+      "code": "CC06"
+    },
+    {
+      "text": "Be able to calculate the time evolution of continuous linear dynamic systems from their mathematical model and characterize their behavior in time and frequency, analytically and by computer.",
+      "type": "skill",
+      "code": "CC06"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to automatic control",
+    "Introduction",
+    "Definition of a system",
+    "Definition of an automated system",
+    "Sensors and actuators",
+    "Open-loop and closed-loop control",
+    "Sequential control vs. continuous systems control",
+    "Modeling of discrete event systems",
+    "Discrete event systems",
+    "Stage-transition diagram. Grafcet",
+    "The industrial programmable logic controller (PLC)",
+    "PLC programming. Ladder language",
+    "Modeling of continuous systems",
+    "Concept of a continuous dynamic system",
+    "Basic concepts: control input, disturbances, output",
+    "Mathematical modeling of systems. Ordinary differential equations (ODEs)",
+    "Laplace transform",
+    "Transfer function",
+    "Block diagram",
+    "Primary elements of physical systems",
+    "Time analysis of continuous systems",
+    "Time response of linear systems",
+    "Characterization of dynamic behavior. Specifications",
+    "Response of first and second order systems",
+    "Dominant poles and zeros of a linear system",
+    "Experimental identification of continuous systems",
+    "Introduction to experimental identification",
+    "Identification methods using step input",
+    "Sampling and identification tools",
+    "Analysis of feedback systems. PID control",
+    "Introduction to feedback systems",
+    "On-off control",
+    "Continuous control",
+    "PID control",
+    "Evaluation of closed-loop performance",
+    "PID controller design",
+    "Practical aspects in PID implementation",
+    "Experimental tuning of PID controllers",
+    "Introduction",
+    "Methods based on step response",
+    "Methods based on closed-loop response",
+    "Auto-tuning",
+    "Design strategies using experimental techniques",
+    "Tuning of PID controllers using frequency response",
+    "Frequency response of a linear system",
+    "Bode diagram",
+    "Stability criteria based on frequency response",
+    "Control specifications based on frequency response",
+    "PID tuning using frequency response",
+    "Design strategies for PID controllers using frequency response",
+    "Properties of the Bode diagram",
+    "Identification methods using frequency response",
+    "Control structures",
+    "Introduction",
+    "Feedforward control",
+    "Cascade control",
+    "Control of systems with pure delay. Smith predictor",
+    "Control with two degrees of freedom",
+    "Ratio control",
+    "Control with multiple actuators",
+    "Multivariable control (control of interacting loops)",
+    "Mid-level control",
+    "Modeling and control of sequential processes",
+    "Experimental identification of dynamic systems",
+    "Tank level control using an industrial PID controller",
+    "Speed and position control of a DC motor"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical problem-solving sessions (computer-based)",
+    "Laboratory practical sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment (Partial Exam 1)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous assessment (Partial Exam 2)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical sessions (Lab tasks)",
+      "weight_percentage": 12.0
+    },
+    {
+      "method": "Practical sessions (Simulation practices)",
+      "weight_percentage": 8.0
+    },
+    {
+      "method": "Final Exam",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "Students pass if they obtain at least 5 out of 10 in the overall average grade. A minimum score of 4 out of 10 is required on the final exam to average other grades; if not met, the overall grade cannot exceed 4.5. Practical activities are not recoverable and if not submitted, score zero. In the second call, partial exams can be recovered as part of the final exam, which then counts for 80%.",
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Universidad Jaume I de Castellón",
+  "institution_slug": "es_jaume_castellon",
+  "degree": "Grau en Enginyeria Mecànica",
+  "course_code": "EM1023",
+  "academic_year": "2026-27",
+  "source_url": "https://ujiapps.uji.es/sia/rest/publicacion/2026/estudio/222/asignatura/EM1023",
+  "source_language": "ca",
+  "source_sha256": "23b31c9e842577c1c6b0234a645ec814bffc374e739fcb90c98201b806d32f71",
+  "extracted_at": "2026-11-13T22:36:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,104 @@
+{
+  "course_name_original": "Robot programming",
+  "course_name_en": "Robot Programming",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "news from Programming",
+    "updates from Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "knows and understands the basics of industrial robot programming and controller structure",
+      "type": "knowledge",
+      "code": "K_WG08"
+    },
+    {
+      "text": "knows the safety",
+      "type": "knowledge",
+      "code": "K_WG19"
+    },
+    {
+      "text": "can program an industrial robot using teach pendant, offline methods, and RobotStudio software",
+      "type": "skill",
+      "code": "K_UW02"
+    },
+    {
+      "text": "can perform robot and tool calibration and establish communication with external devices via I/O signals",
+      "type": "skill",
+      "code": "K_UW05"
+    },
+    {
+      "text": "is ready to comply with safety regulations and work responsibly in a team",
+      "type": "competence",
+      "code": "K_KK01"
+    },
+    {
+      "text": "is ready to take responsibility for the implementation of assigned robot programming tasks",
+      "type": "competence",
+      "code": "K_KK02"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to safety principles at an industrial robot workstation",
+    "Overview of the basics of industrial robot programming: hardware structure and controller software, principles of manual control and program execution, various methods of tool calibration, controller operating modes, manipulator calibration, kinematic singularities, and the consequences of manipulator movement near singular configurations",
+    "Principles of proper task planning for robotic manipulators",
+    "Interaction with external devices through input/output signal exchange",
+    "Operation of robots sharing the workspace, principles of zone locking",
+    "Presentation of sample production programs",
+    "Programming the robot using a Teach Pendant, offline programming, and point-to-point guidance",
+    "Manual control of an industrial robot in different coordinate systems",
+    "Tool and robot calibration",
+    "Saving and running programs",
+    "Interaction with external devices",
+    "Analysis of movement using approximate positioning",
+    "Programming of pick and place operations",
+    "Robot programming using RobotStudio and dedicated software",
+    "Task planning based on a geometric model of the object",
+    "Programming signal exchange",
+    "Generating a production program"
+  ],
+  "teaching_methods": [
+    "Informative lecture using audiovisual aids",
+    "Laboratory exercises: individual work using RobotStudio software"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Lecture – written assessment",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory – average grade from exercise reports",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The condition for passing the course is achieving all the required learning outcomes specified for the subject. Lecture is assessed by a written assessment. Laboratory is assessed based on the average grade from exercise reports (50%).",
+  "bibliography": [
+    "Craig, J. J. Introduction to Robotics: Mechanics and Control. Pearson Education.",
+    "Spong, M. W., Hutchinson, S., Vidyasagar, M. Robot Modeling and Control. Wiley.",
+    "ABB. RobotStudio – User Manual and Tutorials. ABB Robotics.",
+    "Siciliano, B., Khatib, O. (Eds.). Springer Handbook of Robotics. Springer.",
+    "Groover, M. P. Automation, Production Systems, and Computer-Integrated Manufacturing. Pearson.",
+    "Niku, S. B. Introduction to Robotics: Analysis, Control, Applications. Wiley."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "B21",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/B. Group of obligatory course core subject/B21_MB_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "849252a2bf57b16180c6316ff24d3158740b6f9e1a6114e6843a96c4a559d8f8",
+  "extracted_at": "2026-11-18T10:04:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

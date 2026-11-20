@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Proses Dinamiği ve Kontrol",
+  "course_name_en": "Process Dynamics and Control",
+  "ects": 5.0,
+  "semester": "Fall",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Ability to create system models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to perform simulations using created system models and analyze system behavior.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to design a control loop to control relevant variables in systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to decide what kind of equipment to use and how to select it when designing a control loop.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to recognize controllers, adjust controllers, and analyze their performance on systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts and necessity of process control",
+    "Concepts of System, Parameter, Process",
+    "Modeling of systems",
+    "Laplace transforms",
+    "Solving linear differential equations using Laplace transforms",
+    "Transfer functions and Input-output models",
+    "Dynamic behavior of first-order systems",
+    "Linearization and simulation of non-linear systems",
+    "Dynamic behavior of second-order systems",
+    "Processes with dead time and inverse response",
+    "Empirical model identification methods",
+    "Block diagrams",
+    "Control loops",
+    "Measuring instruments and control elements",
+    "Controller types and tuning",
+    "Dynamic behavior of control loops",
+    "Investigation of control loop stability and performance"
+  ],
+  "teaching_methods": [
+    "Face-to-face instruction"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Quizzes",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Midterm exams",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Akgün, M., Bölüm 11: Proses Dinamiği ve Kontrolü, Kimya Mühendisliğine Giriş, (Ed.) Selahattin GÜLTEKİN, Papatya Yayıncılık, İstanbul, pp. 317-368, 2013.",
+    "T.E. Marlin, Process Control: Designing Processes and Control Systems for Dynamic Performance, 2nd Edition, McGraw Hill, Boston, 2000.",
+    "G. Stephanopoulos, Chemical Process Control: An Introduction to theory and practice, Prentice-Hall, New Jersey, 1984.",
+    "W.L. Luyben, Process Modeling, Simulation, and Control for Chemical Engineers, 2nd Edition, McGraw-Hill, 1999.",
+    "W.L. Luyben, Chemical Reactor Design and Control, Wiley-Interscience, 2007.",
+    "W.L. Luyben and M.L. Luyben, Essentials of Process Control, McGraw Hill, New York, 1997."
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Yıldız Teknik Üniversitesi (Yildiz Technical University)",
+  "institution_slug": "ec_tr_istanbu07",
+  "degree": "Kimya Mühendisliği (Chemical Engineering), lisans, %100 İngilizce",
+  "course_code": "KMM4631",
+  "academic_year": "vigente en el Bologna Bilgi Sistemi (Yeni)",
+  "source_url": "http://www.bologna.yildiz.edu.tr/index.php?r=course/view&id=929&aid=23&pid=36",
+  "source_language": "tr",
+  "source_sha256": "fa5085a0dc76bcf932b8b282235dd73ac466a310e52c2f00f0e624b977ab7d2b",
+  "extracted_at": "2026-11-20T09:13:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

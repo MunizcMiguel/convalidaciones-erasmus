@@ -1,0 +1,88 @@
+{
+  "course_name_original": "FEM Structural Analysis",
+  "course_name_en": "FEM Structural Analysis",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the theoretical foundation of FEM and develop own program codes.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Create optimal numerical models of structures.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Present and analyse of results, considering the characteristics of the finite elements and the physical problem.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "In-depth knowledge of FEM theory and methodology, with ability to implement it in custom program codes for modelling complex physical problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Mastering efficient computer-aided FEM of structures, with the ability to critically analyse and interpret results.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of modelling of structures.",
+    "Numerical modelling: comparison of numerical methods in terms of suitability for structural analysis, fulfilment of boundary conditions, basic steps in FE analysis.",
+    "Steps in FE analysis.",
+    "Properties of FEs, determination of initial, boundary and loading conditions.",
+    "Isoparametric FE: interpolation functions, mapping to a natural coordinate system, mapping to a volume coordinate system, Gaussian quadrature rule.",
+    "3D FE to solve thermal or mechanical problems: determination of the number of FE DOF, point load, area distributed load, volume distributed load, analysis of the results.",
+    "Axisymmetric FE to solve thermal or mechanical problems: mapping from Cartesian to cylindrical coordinate system, conditions for use of axisymmetric Fes.",
+    "2D FE to solve thermal or mechanical problems: conditions for the use of 2D FEs.",
+    "Shell FE to solve shell structure problems; conditions for the use of shell FEs.",
+    "1D FE: matrix form of the system of linear equations in case of axial loaded construction elements, matrix form of the system of linear equations in case of Euler-Bernoulli theory and Timoshenko beam theory of bending beams, types of loads, visualization and analysis of the results.",
+    "Advanced use of FEM: mirror symmetry, antisymmetry, cyclic symmetry, periodic boundary conditions, connection of different types of FEs"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Practical work",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Coursework",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "“The Finite Element Method for Solid and Structural Mechanics” - Elsevier - O.C. Zienkiewicz, R.L. Tayler, D.D. Fox, 2014",
+    "“The Finite Element Method: A practical course” - Elsevier - G.R. Liu, S.S. Quek, 2014",
+    "“Structural Analysis with the Finite Element Method Linear Statics”, Springer - E. Onate, 2013"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Univerza v Ljubljani",
+  "institution_slug": "ec_si_ljublja01",
+  "degree": "Mechanical Engineering (2nd cycle, Erasmus+ subjects, Research and Development programme)",
+  "course_code": "6037-M",
+  "academic_year": "2026/27",
+  "source_url": "https://www.fs.uni-lj.si/wp-content/uploads/2026/06/ERASMUS-1.pdf",
+  "source_language": "en",
+  "source_sha256": "9fafa742070eb3d013d61347855f8b117e86b67a71fcc731b856d4c963ee5f8c",
+  "extracted_at": "2026-11-20T09:25:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

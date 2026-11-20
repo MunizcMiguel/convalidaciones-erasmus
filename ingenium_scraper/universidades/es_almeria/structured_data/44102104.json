@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Métodos Numéricos y Optimización (44102104)",
+  "course_name_en": "Numerical Methods and Optimization",
+  "ects": 6.0,
+  "semester": "1Q",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics I and II (or similar) of 1st year of Chemical Industrial Engineering, Industrial Electronic Engineering, Electrical Engineering and Mechanical Engineering degrees at UAL"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be able to solve mathematical problems that may arise in Engineering.",
+      "type": "competence",
+      "code": "CB0001"
+    },
+    {
+      "text": "Be able to formulate and solve various problems using appropriate Numerical Methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to model theoretical and applied engineering problems related to linear or non-linear optimization, with or without constraints.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to use computer tools to solve both optimization problems and numerical methods application problems, especially the Matlab language.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Numerical Solution of Equations",
+    "Non-linear equations, root localization and polynomial equations",
+    "Bisection and Newton-Raphson methods. Other methods",
+    "Topic 2. Numerical Solution of Systems of Equations",
+    "Direct methods for linear systems. Matrix factorization: LU and Cholesky",
+    "Iterative methods for linear systems: Jacobi and Gauss-Seidel",
+    "Iterative methods for non-linear systems: Newton-Raphson",
+    "Topic 3. Numerical Solution of Initial Value Problems (IVPs) and Boundary Value Problems (BVPs) for Differential Equations",
+    "IVPs for differential equations and systems of differential equations",
+    "Numerical methods for IVPs: Euler and Runge-Kutta methods",
+    "Boundary Value Problem for a second-order ODE",
+    "Finite difference method for BVPs",
+    "Topic 4. Interpolation and Function Approximation",
+    "Classical polynomial interpolation problem. Lagrange and Newton interpolation",
+    "Interpolation with splines",
+    "Approximation. Least squares fitting",
+    "Topic 5. Numerical Integration",
+    "Simple and composite elementary quadrature formulas",
+    "Topic 6. Optimization (mathematical programming)",
+    "Introduction to optimization. Linear, non-linear and integer optimization problems, with and without constraints.",
+    "Solution techniques in linear optimization",
+    "Solution techniques in non-linear optimization"
+  ],
+  "teaching_methods": [
+    "Participatory lectures",
+    "Problem solving",
+    "Evaluation sessions",
+    "Problem sets",
+    "Exercise completion",
+    "Theoretical-practical classes",
+    "Tutorials",
+    "Autonomous or group work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written final exam (theoretical-practical content)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Computer practices with MATLAB (tests, exercises, problems)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Problem solving on Optimization (reports, assignments, problems)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 60% from the written final exam (A1), 30% from computer practices with MATLAB (A2), and 10% from problem solving on Optimization (A3). A minimum score of 4 out of 10 points is required for the written final exam (A1), and a minimum final grade of 5 out of 10 points is required to pass the course. In the ordinary examination, A2 and A3 are evaluated continuously and cannot be retaken. In the unique final evaluation and extraordinary examination, A2 and A3 are assessed via an additional written exam alongside A1; however, students may keep their continuous assessment grades for A2 and A3 from the teaching period if desired. The use of Artificial Intelligence tools is prohibited in all assessment activities.",
+  "bibliography": [
+    "Chapra, S. C. y Canale, R. P. - (2015) - Métodos numéricos para ingenieros - McGraw-Hill",
+    "Ramos López, Darío - (2025) - Manual de Prácticas de MATLAB y Octave para Métodos Numéricos y Optimización en Ingeniería - Editorial Universidad de Almería",
+    "Quarteroni, A. y Saleri, F. - (2006) - Cálculo científico con MATLAB y Octave - Springer-Verlag",
+    "Cánovas, M. J., Huertas, V. y Sempere, M. - (2010) - Optimización matemática aplicada. Enunciados, ejercicios y aplicaciones del mundo real con Matlab - Editorial Club Universitario",
+    "Andújar Rodríguez, A. S. y Moreno Balcazar, J. J. - (2010) - Una introducción a las Ecuaciones Diferenciales y a los Métodos Numéricos con Matlab para Ingeniería - Sistemas de Oficina de Almería",
+    "Infante del Río, J. A. y Rey Cabezas, J. M. - (2022) - Métodos numéricos: teoría, problemas y prácticas con MATLAB - Pirámide",
+    "Luenberger, D. G. y Ye, Y. - (2008) - Linear and nonlinear programming - Springer",
+    "Mathews, J. H. y Fink, K. D. - (2005) - Métodos numéricos con Matlab - Prentice-Hall",
+    "Sánchez, J. M. y Souto, A. - (2005) - Problemas de Cálculo Numérico para ingenieros con aplicaciones Matlab - McGraw-Hill",
+    "Soto Torres, M. D. - (2006) - Métodos de optimización - Delta Publicaciones"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "44102104",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/44102104/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "310f61ac2346f699e01c98442f3e4383287478ecc7b9ffa0761b8ece36c13152",
+  "extracted_at": "2026-11-13T21:23:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

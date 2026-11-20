@@ -1,0 +1,171 @@
+{
+  "course_name_original": "Elettronica Ii",
+  "course_name_en": "Electronics II",
+  "ects": 10.0,
+  "semester": "I",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of mathematics, physics, and electrotechnics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student is knowledgeable about the behavior of single-stage amplifiers, Cascode amplifier, differential amplifier over a wide frequency range.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is knowledgeable about the operation of feedback circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is knowledgeable about the behavior and dimensioning of digital integrated circuits in ratio logic and CMOS logic.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is knowledgeable about the behavior of complex digital circuits such as decouplers, multiplexers, decoders, ROM and RAM memories.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is knowledgeable about the main scaling techniques proposed in the literature.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to analyze various advanced analog circuits in bipolar technology with particular emphasis on design choices.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to analyze, dimension, and draw on wafer all integrated digital circuits in MOS logic, with the support of circuit simulations using SPICE software and Microwind2 layout editor.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student acquires autonomous judgment skills, which is an essential prerequisite for creative design activities that fall within the capabilities of applying knowledge.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students are stimulated to acquire tools that allow for independent study of the topics covered.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Learning verification methodologies tend to develop students' communication skills.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analog Electronics: Overview of bipolar junction transistor (BJT) operation.",
+    "SPICE model.",
+    "Review of main BJT amplifiers.",
+    "Low/high frequency response of common emitter BJT amplifier and frequency response; SPICE simulations.",
+    "Cascode configuration: medium/high frequency analysis; SPICE simulations.",
+    "Differential amplifier; medium/high frequency behavior and SPICE simulations.",
+    "Simple and Widlar current mirror.",
+    "Differential amplifiers with active load.",
+    "Introduction to feedback.",
+    "Series-parallel, series-series, parallel-parallel, parallel-series configurations.",
+    "Introduction to Digital Electronics: Overview of semiconductor physics.",
+    "Doping.",
+    "Transport mechanisms.",
+    "Concept of mobility.",
+    "Review of digital circuit fundamentals.",
+    "Figure of merit for a digital system.",
+    "Transfer characteristic of an inverter and notable voltages.",
+    "Logic swing and noise margins.",
+    "Propagation times.",
+    "Integrated circuit technologies.",
+    "Photolithographic process.",
+    "Oxidation techniques.",
+    "Methods for dopant introduction.",
+    "Realization of a diode and a resistor.",
+    "Analysis of enhancement N-channel MOSFET operation.",
+    "Concept of self-isolation.",
+    "SPICE model.",
+    "Scalable design and composition rules.",
+    "Introduction to Microwind2 usage.",
+    "MOSFET simulations.",
+    "Ratio Logics: Resistive load NMOS inverter and problems.",
+    "Overview of EE, ED NMOS inverters.",
+    "Operation of P-channel enhancement MOSFET.",
+    "Pseudo-NMOS logic.",
+    "Inverter.",
+    "Dimensioning strategy.",
+    "Lightly constrained system.",
+    "NOR, NAND gates and comparison.",
+    "Complex gates.",
+    "Topology and dimensioning.",
+    "SPICE simulations and Microwind2 layout.",
+    "CMOS Logic: Inverter: transfer characteristic.",
+    "Symmetrization.",
+    "Complete dimensioning.",
+    "Evaluation of exact and approximate propagation time.",
+    "Dynamic power dissipation.",
+    "Microwind2 layout.",
+    "NAND, NOR gates and comparison.",
+    "Design and dimensioning using arc graph theory and Euler paths.",
+    "Exercises on CMOS gate dimensioning.",
+    "SPICE simulations and Microwind2 layout.",
+    "Scaling Techniques: Constant field, voltage, and frequency scaling techniques.",
+    "Complex Circuits in CMOS Logic: Decoupling stages (buffers), transmission gates, multiplexers, decoders in pseudo-NMOS NOR logic.",
+    "Memories: Manufacturer-programmed ROM memories.",
+    "2-D addressing technique.",
+    "Minimum access time if ROM is square.",
+    "User-programmable ROM memories.",
+    "PROM, EPROM, EEPROM, Flash.",
+    "RAM memories.",
+    "SRAM and DRAM.",
+    "Topology, dimensioning, and SPICE simulations.",
+    "Use of OBL amplifier."
+  ],
+  "teaching_methods": [
+    "Frontal lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of project work",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written and an oral test, and a discussion of project work and/or exercises.",
+  "bibliography": [
+    "Diapositive presentate a lezione più appunti addizionali.",
+    "A. S. Sedra, K. C. Smith, Circuiti per la Microelettronica, EdiSES, 3a edizione Italiana, 2005.",
+    "S. Daliento, A. Irace, Elettronica Generale, McGraw-Hill, 2011.",
+    "P. Spirito, Elettronica Digitale, McGraw-Hill, 3a edizione, 2006."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "elettronica_ii",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "1c271209133bd7adfaf1acb8bcdb9ca425875fc9d07a70013a8e281398c83581",
+  "extracted_at": "2026-11-20T08:19:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

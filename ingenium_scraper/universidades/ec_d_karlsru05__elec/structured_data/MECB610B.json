@@ -1,0 +1,96 @@
+{
+  "course_name_original": "MECB610B – Robotik und Bionik 2",
+  "course_name_en": "MECB610B – Robotics and Bionics 2",
+  "ects": 6.0,
+  "semester": "6th semester",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Bionics",
+    "Mathematical Foundations of Robotics and Image Processing",
+    "Control Engineering",
+    "Numerical Programming",
+    "Advanced Mathematics",
+    "Sensor Technology and Actuator Technology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply mathematical design tools of control engineering for robotics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Select suitable sensors and actuators for robotic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement path control for robotic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement basic autonomous capabilities for motion planning, image-based control, and force-torque control.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "State-space description (representation, solution in time and frequency domain, normal forms)",
+    "Controllability and observability",
+    "Synthesis in state space (controllers, observers)",
+    "Digital control systems (z-transform, representation in time and frequency domain, stability, control algorithms)",
+    "Structure of industrial motion control systems (cascade control, pre-filters, vibration suppression)",
+    "Mathematical methods and description of robotic systems (introduction to kinematics and dynamics of robotic systems)",
+    "Motion planning, with focus on global path planning (search and sample-based methods) and trajectory planning in Joint Space and Task Space",
+    "Visual Servoing (Image-based Visual Servoing and Position-based Visual Servoing)",
+    "Force and torque control with focus on indirect force-torque control using impedance or admittance approach",
+    "Implementation of basic algorithms in accompanying exercises",
+    "Sensors for position control of robotic systems",
+    "Structure of digital motor controls with current and position control",
+    "Real-time firmware for digital motor controls with PWM-based power stages",
+    "Control methods for DC, Stepper, and BLDC motors"
+  ],
+  "teaching_methods": [
+    "lectures",
+    "laboratory work",
+    "exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "graded, written examination (Klausur)",
+      "weight_percentage": null
+    },
+    {
+      "method": "oral examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "H. Unbehauen, Regelungstechnik 2- Zustandsregelungen, digitale und nichtlineare Regelsysteme, Vieweg, 2007.",
+    "J. Lunze, Regelungstechnik 2- Mehrgrößensysteme, Digitale Regelung, Springer, 2006.",
+    "B. Siciliano, L. Sciavicco, L. Villani, G. Oriolo, Robotics Modeling, Planning and Control, Springer, 2009. Spong, Mark W., Seth Hutchinson, and Mathukumalli Vidyasagar. Robot modeling and control. Vol. 3. New York: Wiley, 2006.",
+    "Corke, Peter I., and Oussama Khatib. Robotics, vision and control: fundamental algorithms in MATLAB. Vol. 73. Berlin: Springer, 2011.",
+    "Steffen Bernet, Selbstgeführte Stromrichter am Gleichspannungszwischenkreis, Springer 2012 Heinz Wörn, Uwe Brinkschulte. Echtzeitsysteme, Springer 2005",
+    "Hans-Rolf Tränkler, Leonhard M. Reindl. Sensortechnik, Vol. 2, Springer 2018"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Mechatronik (B.Eng.)",
+  "institution_slug": "ec_d_karlsru05__elec",
+  "degree": "Mechatronik (B.Eng.)",
+  "course_code": "MECB610B",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MECB.pdf",
+  "source_language": "de",
+  "source_sha256": "aa0519ae7b36cf95d9bcb2304e6280a5d008872dcf314549cf1e971b1f19f03c",
+  "extracted_at": "2026-11-20T12:39:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

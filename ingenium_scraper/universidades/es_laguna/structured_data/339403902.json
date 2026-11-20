@@ -1,0 +1,318 @@
+{
+  "course_name_original": "Modelización Mecánica de los Elementos Estructurales",
+  "course_name_en": "Mechanical Modeling of Structural Elements",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Having completed the courses Calculus or Mathematical Fundamentals, Elasticity and Strength of Materials, and Graphic Expression and CAD."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "2"
+    },
+    {
+      "text": "Ability for spatial vision and knowledge of graphic representation techniques, both by traditional methods of metric geometry and descriptive geometry, and by computer-aided design applications.",
+      "type": "skill",
+      "code": "4"
+    },
+    {
+      "text": "Knowledge and abilities to apply graphic engineering techniques.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Knowledge and abilities to apply the fundamentals of elasticity and strength of materials to the behavior of real solids.",
+      "type": "skill",
+      "code": "24"
+    },
+    {
+      "text": "Knowledge and ability for the calculation and design of structures and industrial constructions.",
+      "type": "skill",
+      "code": "25"
+    },
+    {
+      "text": "Knowledge and ability for the calculation, design and testing of machines.",
+      "type": "skill",
+      "code": "26"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "T3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Mechanical Industrial Engineering.",
+      "type": "competence",
+      "code": "T4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks.",
+      "type": "knowledge",
+      "code": "T5"
+    },
+    {
+      "text": "Ability to work in a multilingual and multidisciplinary environment.",
+      "type": "competence",
+      "code": "T9"
+    },
+    {
+      "text": "Ability to analyze and synthesize.",
+      "type": "skill",
+      "code": "O1"
+    },
+    {
+      "text": "Ability for oral expression.",
+      "type": "skill",
+      "code": "O3"
+    },
+    {
+      "text": "Ability for written expression.",
+      "type": "skill",
+      "code": "O4"
+    },
+    {
+      "text": "Ability to learn and work autonomously.",
+      "type": "skill",
+      "code": "O5"
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": "O6"
+    },
+    {
+      "text": "Ability for critical reasoning/logical analysis.",
+      "type": "skill",
+      "code": "O7"
+    },
+    {
+      "text": "Ability to apply knowledge to practice.",
+      "type": "skill",
+      "code": "O8"
+    },
+    {
+      "text": "That students have demonstrated possession and understanding of knowledge in a field of study that starts from the basis of general secondary education, and is usually at a level that, while supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "That students have the ability to gather and interpret relevant data (normally within their area of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "That students can transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "That students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Will recognize mechanical components and model the loads and boundary conditions imposed by other components to which it is subjected.",
+      "type": "skill",
+      "code": "25"
+    },
+    {
+      "text": "Will learn to make a reasoned representation of the component to consider in its design the elements that may make it sensitive to external loads.",
+      "type": "skill",
+      "code": "26"
+    },
+    {
+      "text": "Will know how to create graphic models, numerically simulate structural behavior, and will be capable of interpreting the results provided by simulation software.",
+      "type": "skill",
+      "code": "20, 26"
+    },
+    {
+      "text": "Will know how to explain and publicly present the acquired knowledge.",
+      "type": "skill",
+      "code": "26, 20"
+    },
+    {
+      "text": "Analytically calculate a planar bar or beam structure using the finite element method and the principle of minimum energy.",
+      "type": "skill",
+      "code": "25, 26, O6, O7"
+    },
+    {
+      "text": "Know how to formulate a linear, planar, and solid element using the displacement-based finite element method to calculate the stress and strain states of a structure.",
+      "type": "skill",
+      "code": "25, O6, O7"
+    },
+    {
+      "text": "Graphically design a complex three-dimensional beam and bar structure.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Graphically design simple three-dimensional solid parts.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Recognize and identify load states and restrictions to define an isostatic or hyperstatic study.",
+      "type": "skill",
+      "code": "25, 26"
+    },
+    {
+      "text": "Simulate load states and restrictions on complex structures and calculate them using a computational model based on the finite element method.",
+      "type": "skill",
+      "code": "20, 26"
+    },
+    {
+      "text": "Analyze the results of stresses and strains in structures.",
+      "type": "skill",
+      "code": "25, 26"
+    },
+    {
+      "text": "Design structures that structurally resist different static load conditions.",
+      "type": "skill",
+      "code": "20, 25, 26, O8"
+    },
+    {
+      "text": "Analytically verify computationally calculated results using elasticity equations.",
+      "type": "skill",
+      "code": "25, 26, O6, O7"
+    },
+    {
+      "text": "Calculate the natural frequencies of a complex structure and make modifications to increase or decrease these frequencies.",
+      "type": "skill",
+      "code": "25, 26"
+    },
+    {
+      "text": "Optimize the calculation of a finite element model by adjusting the mesh.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Impose symmetry conditions on structures to optimize computational calculation.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Perform planar simplification studies on three-dimensional models.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Know how to interpret results and computational singularities in numerical simulations performed with SolidWorks.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Know how to identify different types of studies to achieve greater efficiency in simulation.",
+      "type": "skill",
+      "code": "20"
+    },
+    {
+      "text": "Know how to explain and publicly present the acquired knowledge.",
+      "type": "skill",
+      "code": "26, 20, O1"
+    },
+    {
+      "text": "Know how to write reports on computational simulation studies.",
+      "type": "skill",
+      "code": "O4, O5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Finite elements in an elastic continuum",
+    "Discrete systems in general. Structural elements and systems. Assembly of a structure. Boundary conditions. External load vector.",
+    "Bar and beam elements in the plane and in space.",
+    "The displacement function. Linear interpolation function. Shape functions. Representation of the deformation field. Representation of the stress field. Principle of minimum total potential energy. Convergence criteria.",
+    "Plane stress elements.",
+    "Linear displacements. Shape functions. Relationship of strain, stress and energy within a triangular element. Energy minimization. Stiffness matrix. Properties. Initial strains. Local load vector.",
+    "Plane strain elements",
+    "Linear displacements. Shape functions. Relationship of strain, stress and energy within a triangular element. Energy minimization. Stiffness matrix. Properties.",
+    "Plane elements for bodies with axisymmetry of revolution.",
+    "Linear displacements. Shape functions. Relationship of strain, stress and energy within a triangular element. Energy minimization. Stiffness matrix. Properties. Initial strains.",
+    "3D solid elements",
+    "Linear displacements. Shape functions. Relationship of strain, stress and energy within a tetrahedral element. Energy minimization. Stiffness matrix. Properties. Initial strains. Applications in mechanical components. Stress concentration.",
+    "Characterization of shell elements",
+    "Introduction to triangular plate elements. The shell as a superposition of plate and membrane. Description and properties. Modeling problems.",
+    "Numerical modeling with SOLIDWORKS software. Numerical implementation with OCTAVE.",
+    "Programming in Octave, matrix calculation and basic algorithms for solving applied problems. Implementation in OCTAVE of FEM in one dimension.",
+    "Design and computational simulation of 3D bar structures: bridges and towers.",
+    "Design and computational simulation of 3D beam structures: International Space Station structure module. BAJA Vehicle Structure. Analysis of natural frequencies.",
+    "Design and computational simulation, plane stress analysis: perforated plate, wrench, etc.",
+    "Design and computational simulation, plane stress study of a composite model.",
+    "Design and computational simulation, plane strain study: pipe, dike, etc.",
+    "Design and computational simulation, axisymmetric study: cylindrical tanks.",
+    "Design and computational simulation, 3D solids: Anchor and handlebar.",
+    "Structural simulation of a BAJA SAE vehicle applying analysis conditions published in an English article."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical classes in computational laboratory (Octave programming, SolidWorks simulation)",
+    "Virtual laboratory for problem solving",
+    "Cooperative learning",
+    "Case study method",
+    "Simulation",
+    "Problem-solving exercises (analytical resolution of displacements, FEM problems in 2D bars, elemental matrix development, exam type I/II)",
+    "Group dynamics for collaborative work",
+    "Use of Artificial Intelligence (AI) as a learning support tool",
+    "Tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Tasks and exercises in theory class",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Problem collection in computational laboratory",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practice report",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Octave programming test",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Oral presentation of final work (practical knowledge)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Oral questions on course theoretical concepts",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For short answer tests and practice reports, a minimum grade of 5 out of 10 is required for each component. For the Octave programming test, a minimum grade of 5 out of 10 is required; it can be retaken on the exam day. For the oral presentation of practical knowledge, failure to correctly perform studies, interpret results, or presenting incoherent values as valid will result in failure of this test, preventing course completion. For oral theoretical questions, failure to answer at least 50% of the questions correctly will result in failure of this test, preventing course completion. Attendance to all theoretical and practical classes is mandatory, and all exercises, tasks, and reports must be submitted with a minimum grade of 5 to pass. If the grade in development tests is 5 or higher but the minimum for practical knowledge (b) and theoretical knowledge (c) is not met, a failing grade of 4.5 will be recorded. The second call will be a single evaluation modality consisting of two tests, with the final grade being that of the last test taken. Practice labs are mandatory for all students, regardless of evaluation modality.",
+  "bibliography": [
+    "Introducción al análisis estructural con matrices. J.M Gere, W. Weaver. Edit. Secsa.",
+    "Dinámica Estructural. Teoría y cálculo. M. Paz. Edit. Reverté, S.A.",
+    "El método de los elementos finitos. O. C.Zienkiewicz. Edit. Reverté, S.A.",
+    "Introduction to Finite Element Analysis Usisng SolidWorks Simulation 2020, Schroff Development Corporation. 2020."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de La Laguna",
+  "institution_slug": "es_laguna",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "339403902",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ull.es/apps/guias/guias/print_guide/45587/",
+  "source_language": "es",
+  "source_sha256": "250328ebb8d6555bd8d54af38e37f248cadf3784bbdde403f8f62f4cb149626b",
+  "extracted_at": "2026-11-13T21:44:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

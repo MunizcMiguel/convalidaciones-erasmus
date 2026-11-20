@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Finite Element Method - Metode numerice II",
+  "course_name_en": "Finite Element Method - Numerical Methods II",
+  "ects": 5.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Numerical analysis of stress and strain state for rod, plate in plane stress state, solid and shell bodies.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learning the steps in FEM solution of structural problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using finite elements appropriate for different practical problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Correct formulation of boundary conditions.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction. Steps of FEM analysis. Types of FE.",
+    "Truss finite element. Determination of stiffness matrix by direct method. Transformation matrix.",
+    "Beam finite element with rigid nodes. Formation of stiffness matrix by direct method.",
+    "Plane stress problem in Cartesian coordinates. Triangular finite element with constant stress and strain state. Determination of stiffness matrix based on the principle of virtual work.",
+    "Three-dimensional tetrahedral and hexahedral finite elements.",
+    "Natural coordinates. Isoparametric finite elements.",
+    "Plate finite elements.",
+    "Analysis of stress and strain state of 2D and 3D articulated bar structures.",
+    "Analysis of stress and strain state of 2D and 3D beam structures.",
+    "Analysis of stress and strain state of parts in plane stress and plane strain state. Axially-symmetric problems.",
+    "Analysis of stress and strain state of parts with 3D geometry and loading.",
+    "Analysis of stress and strain state for shell-type structures."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Presentations",
+    "Discussions",
+    "Laboratory work",
+    "Case studies",
+    "Problem-solving",
+    "Individual computer work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (grid test and theoretical subject)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory activity/periodic tests",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of the exam grade (1/2) and the ongoing activity grade (1/2). A minimum final grade of 5 is required to pass. A minimum average of 5 is required for the two subjects within the written exam. 100% attendance at laboratory sessions is mandatory.",
+  "bibliography": [
+    "Șerban D.A., Negru R. (2019) Analiza structurilor mecanice cu Abaqus/CAE, Editura Politehnica, Timișoara.",
+    "Faur N. (2002) Elemente Finite: Fundamente, Editura Politehnica, Timișoara.",
+    "Rao S.S. (2011) The finite element method in engineering, 5th edition, Butterworth Heinemann, Elsevier, Burlington, MA, USA.",
+    "Sorohan Ș. (2015) Elemente finite în ingineria mecanică. Curs introductiv, Editura Politehnica Press, București.",
+    "Șerban, D.A., Negru, R. (2017) Lucrări de laborator la Metoda elementului finit, Timișoara."
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universitatea Politehnica Din Timisoara",
+  "institution_slug": "ec_ro_timisoa04",
+  "degree": "Inginerie Mecanică / Mechanical Engineering (licență)",
+  "course_code": "L431.23.05F5",
+  "academic_year": "2025/26",
+  "source_url": "https://international.upt.ro/en/incoming-students/course-catalogue/",
+  "source_language": "ro",
+  "source_sha256": "6342cb1ca20d9f42b77a6bf9d5c083a0f6e496ddd0e0ced13a06ecc3c6f2abe1",
+  "extracted_at": "2026-11-18T04:12:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

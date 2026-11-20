@@ -1,0 +1,226 @@
+{
+  "course_name_original": "Señales y Sistemas",
+  "course_name_en": "Signals and Systems",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Good knowledge of finite-dimensional algebra",
+    "Good knowledge of real and complex variable calculus",
+    "Good knowledge of functional analysis (representation and operations with real and complex variable functions)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is typically at a level that, while supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "unspecified",
+      "code": "CB1"
+    },
+    {
+      "text": "Students are able to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated by the formulation and defense of arguments and the solution of problems within their field of study.",
+      "type": "unspecified",
+      "code": "CB2"
+    },
+    {
+      "text": "Students have the ability to gather and interpret relevant data (usually within their field of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "unspecified",
+      "code": "CB3"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "unspecified",
+      "code": "CB4"
+    },
+    {
+      "text": "Students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "unspecified",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG01"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to design experiments and describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "competence",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to access and manage information in different formats for subsequent analysis in order to obtain knowledge from data.",
+      "type": "competence",
+      "code": "CG06"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG09"
+    },
+    {
+      "text": "Understanding and mastery of the basic concepts of information, signal, and system theory, used in different schemes and techniques for data representation and manipulation.",
+      "type": "competence",
+      "code": "CE13"
+    },
+    {
+      "text": "Ability to analyze, encode, process, and transmit information and data using signal processing techniques.",
+      "type": "competence",
+      "code": "CE14"
+    },
+    {
+      "text": "Be able to represent a signal from samples and reconstruct a signal from its samples.",
+      "type": "skill",
+      "code": "RSS1"
+    },
+    {
+      "text": "Be able to characterize signals and data in different domains (temporal, frequency, spatial, etc.), and know how to transform between these domains.",
+      "type": "skill",
+      "code": "RSS2"
+    },
+    {
+      "text": "Ability to evaluate the advantages and disadvantages of different implementation alternatives for information processing systems, from the point of view of signal space, perturbations, and noise.",
+      "type": "skill",
+      "code": "RSS3"
+    },
+    {
+      "text": "Ability to have a global vision of a complex signal and data processing system and the interactions between its components.",
+      "type": "skill",
+      "code": "RSS4"
+    },
+    {
+      "text": "Understand the concept of analog and digital signals and data. Handle sampling, interpolation, quantization operations, and associated theorems and transformations (Fourier series expansion, Fourier transform, Laplace transform, and Z transform).",
+      "type": "knowledge",
+      "code": "RSS5"
+    },
+    {
+      "text": "Be able to apply signal and system concepts to solve dimensionality reduction problems in data sets.",
+      "type": "skill",
+      "code": "RSS6"
+    },
+    {
+      "text": "Be able to apply signal and system concepts to select the most suitable space for data treatment, as well as to represent and operate with data in that space.",
+      "type": "skill",
+      "code": "RSS7"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course",
+    "Relationship between algebra/calculus and signal and system theory",
+    "Course overview",
+    "Definition of signals",
+    "Review of vector spaces and particularization of signal spaces",
+    "Classification of signals",
+    "Practical parameters for signal characterization",
+    "Basic operations with signals",
+    "Summary of applications",
+    "Operators (systems) on signal spaces",
+    "System properties",
+    "The convolution operation",
+    "Final considerations",
+    "Periodic signals",
+    "Aperiodic signals",
+    "Complex exponentials",
+    "Introduction and general definition",
+    "Definition of the Dirac delta and physical meaning",
+    "Relationship of the Dirac delta with the step function",
+    "Operations with distributions (derivatives, convolutions, product, and system resolution)",
+    "Summary of properties",
+    "Definition of the Fourier series expansion (FSE)",
+    "Convergence of the FSE",
+    "Properties of the FSE",
+    "Examples of FSE",
+    "Relationship of the FSE with linear and invariant systems",
+    "Definition of the Fourier Transform (FT)",
+    "Convergence of the FT",
+    "Properties of the FT",
+    "Examples of FT",
+    "Relationship between the FT and linear and invariant systems",
+    "Bandwidth",
+    "Periodic signals",
+    "Aperiodic signals",
+    "Definition of the FSE for discrete variable signals",
+    "Convergence of the FSE for discrete variable signals",
+    "Properties of the FSE for discrete variable signals",
+    "Examples of the FSE for discrete variable signals",
+    "Relationship of FSE with linear and invariant systems",
+    "Definition of the FT for discrete variable signals",
+    "Convergence of the FT for discrete variable signals",
+    "Properties of the FT for discrete variable signals",
+    "Examples of the FT for discrete variable signals",
+    "Relationship of the FT with linear and invariant systems",
+    "The Discrete Fourier Transform (DFT)",
+    "Sampling and recovery of continuous variable signals",
+    "Modeling a continuous LTI system using a discrete LTI system",
+    "Continuous variable: the Laplace transform",
+    "Discrete variable: the Z transform"
+  ],
+  "teaching_methods": [
+    "Semi-presential",
+    "Lectures (chalkboard, transparencies, audiovisual aids)",
+    "Classroom practices",
+    "Asynchronous non-presential activities (theoretical content, problem-solving, exercises, IT tools)",
+    "Autonomous student work",
+    "Email support",
+    "Virtual Campus platforms",
+    "Tutoring hours",
+    "Collaborative doubt resolution"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Participation in seminars and tutorials [PS]",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Active Participation in Forums and Virtual Campus Activities [CV]",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical exam [ET]",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical exams [EP]",
+      "weight_percentage": 45.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as: PS * 0.05 + CV * D * 0.1 + ET * 0.4 + EP * 0.45, where PS, CV, ET, and EP are on a scale of 0 to 10, and D is binary (0 or 1) from a complementary oral defense. Grades obtained in the ordinary call are not valid for other calls. For extraordinary calls, the final grade is ET * 0.5 + EP * 0.5. Students with differentiated evaluation will be assessed according to the extraordinary call system.",
+  "bibliography": [
+    "E. Gago-Ribas. Señales y Sistemas Escalares Unidimensionales de Variable Real. Vol. ST-I. Edición previa en forma de apuntes. GR Editores, S.L. (fuera de edición), 2002. (Campus Virtual)",
+    "E. Gago-Ribas. Señales y Sistemas Escalares Unidimensionales de Variable Real. Ejercicios Resueltos. Vol. ST-II. GR Editores, S.L., León, 2009. http://www.greditores.com/",
+    "A. V. Oppenheim, A. S. Willsky, I. T. Young. Signals and Systems (2nd. Ed.), Prentice-Hall International, 1997.",
+    "Samir S. Soliman, Mandyam D. Srinath, Señales y Sistemas Continuos y Discretos, Prentice-Hall International, segunda edición, 1992.",
+    "S. S. Haykin, B. Van Veen, Señales y sistemas, John Wiley and Sons, 2001.",
+    "C. Gasquet y P. Witomski, Fourier analysis and applications, Springer, 1999.",
+    "A. V. Oppenheim, R. W. Schafer, Digital Signal Processing, Pearson, 1975.",
+    "A. D. Poularikas, S. Seeley. Signals and Systems. PWS Publishers, 1985.",
+    "Contenidos recogidos en el “Campus Virtual” de la Universidad de Oviedo.",
+    "Software MATLAB.",
+    "M. Abramowitz & I. A. Stegun. Handbook of Mathematical Functions with Formulas, Graphs, and Mathematical Tables. Dover Publications, Inc., 1972.",
+    "M. R. Spiegel, J. Liu, L. Abellanas. Fórmulas y Tablas de Matemática Aplicada. McGraw-Hill. (Segunda Edición), 2000."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-3-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-3-006",
+  "source_language": "es",
+  "source_sha256": "a24726f4f5431fb8037e4e6332135fdab5324e298c7d94029c0e83d0636d3a41",
+  "extracted_at": "2026-11-20T05:57:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

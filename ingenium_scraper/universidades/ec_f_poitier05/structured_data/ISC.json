@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Ingénierie des Systèmes Critiques / Model-based system engineering for critical systems",
+  "course_name_en": "Critical Systems Engineering / Model-based system engineering for critical systems",
+  "ects": 5.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Information numérique (S1)",
+    "Introduction aux systèmes embarqués (S1)",
+    "Digital Information (S1)",
+    "Introduction to Embedded Systems (S1)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Follow a System Engineering design cycle.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Use a software life-cycle to insure a safe, and fault-tolerant of critical real-time embedded systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduce real-time specificities and constraints.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to critical and embedded systems",
+    "Constraints, requirements and certification",
+    "Redundancy and fault-tolerance",
+    "Software life-cycle",
+    "Requirement Engineering",
+    "Introduction des concepts et de la méthode à travers un exemple",
+    "Sequential embedded programming (based on a simple Arduino example)",
+    "Analog Input/Output, Digital I/O, PWM, clock circuits, buses, digital representation",
+    "Typical drone sensors and actuators",
+    "Event-based programming using interrupts",
+    "Cyclic programming model",
+    "Multithread programming",
+    "Introduction to FreeRTOS",
+    "Functional specification (using Capella)",
+    "Statecharts modelling (UML FSM using Yakindu)",
+    "Hardware-software co-design for multithreading (using AADL)",
+    "Performance and end-to-end delays"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "E. Grolleau, J. Hugues, Y. Ouhammou, H. Bauer, « Introduction aux systèmes embarqués temps réel », ed. Dunod, 2018",
+    "F. Cottet, E. Grolleau, S. Gérard, J. Hugues, Y. Ouhammou, « Spécification, conception, implémentation et validation temporelle », ed. Dunod, 2014",
+    "F. Cottet, E. Grolleau, « Systèmes temps réel de contrôle-commande », ed. Dunod, 2005",
+    "A. Tanenbaum, « Systèmes d’exploitation », ed. Pearson",
+    "P. Zanella, Y. Ligier, E. Lazard, « Architecture et technologie des ordinateurs »",
+    "P. Ward, S. Mellor, « Structured development for real-time systems », Yourdon press",
+    "H. Gomaa, “Software design methods for concurrent and real-time systems”, Addison Wesley"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "ISAE-ENSMA (École nationale supérieure de mécanique et d'aérotechnique)",
+  "institution_slug": "ec_f_poitier05",
+  "degree": "Diplôme d'ingénieur ISAE-ENSMA (FISE) - 2e année (syllabus A2)",
+  "course_code": "ISC",
+  "academic_year": "2025-26",
+  "source_url": "https://ensma.fr/wp-content/uploads/2025/02/Syllabus-FISE-ENSMA-A2-2025-2026-previsionnel.pdf",
+  "source_language": "fr",
+  "source_sha256": "22c486116356ec9fe40e0f6f906dfe0e40df50f9164a827c1b74c7332199e83d",
+  "extracted_at": "2026-11-20T09:15:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

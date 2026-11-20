@@ -1,0 +1,69 @@
+{
+  "course_name_original": "Introdução aos Algoritmos e Estruturas de Dados (IAED23610)",
+  "course_name_en": "Introduction to Algorithms and Data Structures",
+  "ects": 6.0,
+  "semester": "2",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to imperative programming and the C programming language",
+    "Introduction to the study of algorithm efficiency",
+    "Elementary and advanced sorting algorithms: direct insertion, direct selection, bubblesort, quicksort, binary merge, heapsort, shellsort, counting sort and radix sort",
+    "Data types: stacks, queues, priority queues, heaps, trees",
+    "Vectorial and dynamic implementations",
+    "Binary search trees",
+    "Balanced search trees",
+    "Hash tables",
+    "Collision resolution by chaining and open addressing",
+    "Linear, quadratic and double hashing"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Test (TP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exam (E)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the project component (NP) requires a minimum grade of 7. The project (P) has two deliveries: P1 (40%) and P2 (60%), with P = 0.4*P1 + 0.6*P2. The final project grade (NP) is calculated as min(P,TP)+sqrt(|P-TP|/2), where TP is the practical test. For the exam period, the exam (E) also requires a minimum grade of 7. The final grade (NF) for both normal and resit periods is NF = 0.5*NP + 0.5*E.",
+  "bibliography": [
+    "Robert Sedgewick, Algorithms in C, Addison-Wesley Publishing Company, 1997 (main)",
+    "Brian W. Kernighan, Dennis Ritchie, The C Programming Language,, Prentice Hall, 1988 (main)",
+    "T. Cormen, C. Leiserson, R. Rivest e C. Stein, Introduction to Algorithms, McGraw Hill e MIT Press, 2001 (main)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "prerequisites",
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEIC-A Eng. Informática e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__info",
+  "degree": "Licenciatura em Engenharia Informática e de Computadores - Alameda (LEIC-A)",
+  "course_code": "IAED23610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192474",
+  "source_language": "pt",
+  "source_sha256": "1e3bb63f0a4a823c60008c8120c7a3dcf8f654fae3365045bdc98d843a963b9d",
+  "extracted_at": "2026-11-20T12:41:08",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

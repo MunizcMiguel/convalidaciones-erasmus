@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Artificial Intelligence",
+  "course_name_en": "Artificial Intelligence",
+  "ects": 2.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "knowledge of mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student has structured knowledge of the basic methods and applications of artificial intelligence, including machine learning, image analysis, and data-driven diagnostics relevant to mechanical engineering.",
+      "type": "knowledge",
+      "code": "K_WG14"
+    },
+    {
+      "text": "The student is able to select and apply appropriate artificial intelligence methods and tools to solve practical engineering problems related to machine diagnostics and predictive maintenance.",
+      "type": "skill",
+      "code": "K_UW12"
+    },
+    {
+      "text": "The student is able to plan and carry out AI-based experiments (e.g., training, testing, validation of models), interpret results and draw conclusions regarding their applicability to mechanical systems.",
+      "type": "skill",
+      "code": "K_UW13"
+    },
+    {
+      "text": "The student is able to work effectively as a member of an engineering team, demonstrates responsibility and communication skills in collaborative development of AI-based solutions.",
+      "type": "competence",
+      "code": "K_KK02"
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamental concepts, historical development, and classification of Artificial Intelligence (AI) methods",
+    "Application of AI in mechanical engineering",
+    "Supervised and unsupervised learning algorithms, including training, testing, and validation procedures",
+    "Technical diagnostics",
+    "Design optimization",
+    "Fault detection",
+    "Sensor data analysis from machines and industrial systems",
+    "Introduction to computer vision techniques",
+    "Use of AI in predictive maintenance, based on historical and real-time operational data",
+    "Limitations of AI algorithms, their reliability, interpretability, and ethical considerations in engineering applications",
+    "Installation and configuration of programming environments",
+    "Acquaintance with Python and machine learning libraries (e.g., scikit-learn, TensorFlow, PyTorch)",
+    "Implementation and training of basic machine learning models for classification and regression problems in mechanical systems",
+    "Construction and training of neural networks to analyze signals (vibration, temperature, operational data)",
+    "Application of Convolutional Neural Networks (CNNs) to technical image analysis (surface defect detection, component wear identification)",
+    "Sensor data analysis to predict mechanical failures",
+    "Practical project: design and implementation of an AI-based diagnostic or predictive system for a selected mechanical component or subsystem"
+  ],
+  "teaching_methods": [
+    "Information lecture",
+    "Lecture",
+    "Reading",
+    "Problem lecture",
+    "Conversational lecture",
+    "Activating method"
+  ],
+  "workload_hours_total": 60.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Laboratory reports",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project implementation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final written or oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation in laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of all assigned programming tasks and reports",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The condition for passing the course is to achieve all required learning outcomes, including positive grades from laboratory reports, project implementation, and the final examination. Active participation in laboratory classes and completion of all assigned programming tasks and reports are mandatory. A minimum threshold of 50% of the total available points is required to pass the course. Students must demonstrate the ability to apply theoretical knowledge and AI techniques to solve practical engineering problems.",
+  "bibliography": [
+    "Marcin Szeliga, Praktyczne uczenie maszynowe, Wydawnictwo Naukowe PWN, ISBN Ebooka: 978-83-012-0784-7, 2019",
+    "Aurélien Géron, Uczenie maszynowe z użyciem Scikit-Learn, Keras i TensorFlow. Wydanie III, Wydawnictwo Helion, 2023"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "B17",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/B. Group of obligatory course core subject/B17_ME_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "4613609ce0648fec4e9adcfe038ba6ab7d23955b0b371ea8cff16ba09e76c8ae",
+  "extracted_at": "2026-11-18T10:04:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

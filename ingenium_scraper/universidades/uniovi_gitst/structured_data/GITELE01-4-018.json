@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Sistemas de Información en la Ingeniería",
+  "course_name_en": "Information Systems in Engineering",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de informática (1st year)",
+    "Programación (2nd year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the concept of database and design, implement and optimize databases.",
+      "type": "competence",
+      "code": "RA-18.12"
+    },
+    {
+      "text": "Know the functionality and characteristics of database management systems.",
+      "type": "competence",
+      "code": "RA-18.13"
+    },
+    {
+      "text": "Determine the needs related to information systems.",
+      "type": "competence",
+      "code": "RA-18.14"
+    },
+    {
+      "text": "Know and select data exchange standards.",
+      "type": "competence",
+      "code": "RA-18.15"
+    },
+    {
+      "text": "Understand the basic elements of programming, structured programming, and object-oriented programming.",
+      "type": "competence",
+      "code": "RA-18.16"
+    },
+    {
+      "text": "Design, implement, and debug programs.",
+      "type": "competence",
+      "code": "RA-18.17"
+    },
+    {
+      "text": "Develop programs using standard market libraries.",
+      "type": "competence",
+      "code": "RA-18.18"
+    },
+    {
+      "text": "Develop programs that exploit databases.",
+      "type": "competence",
+      "code": "RA-18.19"
+    },
+    {
+      "text": "Understand the problems in integrating information systems.",
+      "type": "competence",
+      "code": "RA-18.20"
+    },
+    {
+      "text": "Determine the selection criteria for tools and components for information system integration.",
+      "type": "competence",
+      "code": "RA-18.21"
+    }
+  ],
+  "syllabus_topics": [
+    "Relational databases. Design and optimization. Information retrieval",
+    "Advanced information systems. Data warehouses and multidimensional modeling",
+    "Data access libraries.",
+    "Graphical interfaces for data access.",
+    "Creation, manipulation and querying of databases",
+    "Procedures and functions. Packages. Exceptions",
+    "Implementation of semantic constraints",
+    "Use of data access libraries",
+    "Basic development of graphical interfaces for data access"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices/Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual activities on the Virtual Campus",
+    "Student-led projects/assignments"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Project (Theoretical Task 1: Building an E/R diagram)",
+      "weight_percentage": 18.75
+    },
+    {
+      "method": "Project (Theoretical Task 2: Converting an E/R diagram to tables)",
+      "weight_percentage": 7.5
+    },
+    {
+      "method": "Project (Practical Task 3: Creating, modifying, deleting tables, data manipulation, and SQL queries)",
+      "weight_percentage": 18.75
+    },
+    {
+      "method": "Project (Practical Task 4: Procedures, functions, packages, and PL/SQL triggers)",
+      "weight_percentage": 22.5
+    },
+    {
+      "method": "Project (Practical Task 5: JDBC)",
+      "weight_percentage": 7.5
+    },
+    {
+      "method": "In-person exam related to project tasks",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "In the ordinary call, the final grade is calculated as 0.75 * (0.25 * T1 + 0.1 * T2 + 0.25 * T3 + 0.3 * T4 + 0.1 * T5) + 0.25 * EX. To pass, each task score (T1-T5) and the exam score (EX) must be 50 points or higher out of 100. If any score is below 50, the final grade will be the minimum of 4.0 out of 10 and the weighted average. For the extraordinary call, evaluation consists of two in-person tests (theoretical and practical) with similar weighting, and each section (A1-A5) must score 50 points or higher out of 100. Non-submitted activities count as zero; if their total weight exceeds 50%, the final grade will be 'not presented'.",
+  "bibliography": [
+    "Silberschatz, Korth, Sudarshan. Fundamentos de bases de datos. McGraw Hill. 2006.",
+    "Piattini M., Marcos E., Calero C., Vela B. Tecnología y diseño de bases de datos. Rama. 2006.",
+    "Elmasri R., Navathe S.B. Fundamentos de sistemas de bases de datos. Addison Wesley. 2007.",
+    "Juan Carlos Trujillo Mondejar, Norberto Mazón López y Jesús Pardillo Vela. Diseño y explotación de almacenes de datos. Conceptos básicos de modelado multidimensional. Editorial Club Universitario. ISBN 978-84-8454-902-4.",
+    "Gabillaud J. Oracle 10g: SQL, PL/SQL, SQL Plus. 1a edición. Ediciones ENI. 2005."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-018",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-018",
+  "source_language": "es",
+  "source_sha256": "8860d9af26e0f42838be8c509064f2ae62afeecdfd1af499c9b80fabf4703f14",
+  "extracted_at": "2026-11-20T06:04:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

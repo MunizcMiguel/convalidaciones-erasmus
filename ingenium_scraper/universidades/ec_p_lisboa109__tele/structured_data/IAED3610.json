@@ -1,0 +1,59 @@
+{
+  "course_name_original": "Introdução aos Algoritmos e Estruturas de Dados (IAED3610)",
+  "course_name_en": "Introduction to Algorithms and Data Structures (IAED3610)",
+  "ects": 6.0,
+  "semester": "2º Semestre",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to imperative programming and the C programming language",
+    "Introduction to the study of algorithm efficiency",
+    "Elementary and advanced sorting algorithms: direct insertion, direct selection, bubblesort, quicksort, binary merge, heapsort, shellsort, counting sort and radix sort",
+    "Data types: stacks, queues, priority queues, heaps, trees",
+    "Vectorial and dynamic implementations",
+    "Binary search trees",
+    "Balanced search trees",
+    "Hash tables",
+    "Collision resolution by chaining and open addressing",
+    "Linear, quadratic, and double hashing"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Project and Practical Test",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The continuous assessment component (Project and Practical Test) is mandatory with a minimum grade of 7. The project (P) has two deliveries, P1 (40%) and P2 (60%), with P = 0.4*P1 + 0.6*P2. P1 can be improved in the second delivery up to a maximum of (20-P1)/2. The final project component grade (NP) is NP = min(P,TP)+sqrt(|P-TP|/2). The Exam (E) is mandatory with a minimum grade of 7. The final grade (NF) for both normal and resit periods is NF = 0.5*NP + 0.5*E.",
+  "bibliography": [
+    "Robert Sedgewick, Algorithms in C, Addison-Wesley Publishing Company, 1997 (main)",
+    "Brian W. Kernighan, Dennis Ritchie, The C Programming Language,, Prentice Hall, 1988 (main)",
+    "T. Cormen, C. Leiserson, R. Rivest e C. Stein, Introduction to Algorithms, McGraw Hill e MIT Press, 2001 (main)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "bibliography"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "IAED3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192179",
+  "source_language": "pt",
+  "source_sha256": "dd66982a3908a41c7bd5be5054e9fe8da71878ae82847c48a648728a7f887f75",
+  "extracted_at": "2026-11-20T12:41:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

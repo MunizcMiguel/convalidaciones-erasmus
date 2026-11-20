@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Análise Numérica",
+  "course_name_en": "Numerical Analysis",
+  "ects": 6.0,
+  "semester": "1S",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Linear Algebra",
+    "Mathematical Analysis",
+    "Computer programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and apply the main numerical methods covered in the course, identifying the conditions for their applicability and the respective convergence theorems. Demonstrate the ability to critically analyze the efficiency and robustness of the methods for different types of numerical problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Translate mathematical methods and algorithms into computational code, particularly in Matlab, by implementing functions that accurately solve numerical problems. Perform numerical simulations and interpret the results, adjusting parameters and refining solutions to achieve optimal accuracy.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply the numerical methods learned to practical situations, such as solving nonlinear equations, numerical integration and differentiation, linear systems, and eigenvalue analysis. Analyze and solve new problems using the numerical tools studied, comparing the performance of different methods in terms of speed, precision, and robustness.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Explain theorem proofs and apply theoretical concepts to new contexts, demonstrating a deep understanding of the underlying mathematical principles. Show the ability to derive new results or methods based on the concepts studied, applying logical and mathematical reasoning.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Critically assess the results obtained from simulations, discussing the accuracy, efficiency, and limitations of the numerical methods applied. Compare different numerical approaches, selecting the most appropriate one for each problem based on criteria such as convergence speed, ease of implementation, and robustness.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop the ability to clearly and objectively communicate technical concepts and results. Collaborate effectively in teams, sharing ideas, discussing solutions, and contributing to the collective development of numerical projects.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Number systems and errors; number systems on computers; representation of integers and floating point arithmetic; round-off error; absolute error and relative error, significant digits, Taylor's formula and error estimation; error analysis.",
+    "Linear systems of equations: Gaussian elimination. Round off errors and possible instability of the numerical methods, pivoting strategies. Solution of triangular systems. Tridiagonal systems. LU factorization; application to the computation of determinants and to the inversion of matrices. Iterative methods: Jacobi and Gauss-Seidel; convergence theorems and algorithms. Definition of truncation error, estimation of truncation errors for the previous methods.",
+    "Non linear equations: general conditions for the solution, stopping criteria for iterative methods; some iterative methods: successive bisection, fixed point iteration, Newton's method, secant method. Convergence theorems, estimation and upper bound of truncation errors, order of convergence.",
+    "Least squares approximation. Orthogonal polynomials. Curve fitting. Over-determined systems of equations.",
+    "Polynomial interpolation: methods of Newton and Lagrange; error of the interpolating polynomial. Hermite interpolation and Splines. Numerical differentiation and divided differences.",
+    "Numerical integration: Newton-Cotes formulae. Composite rules. Numerical integration errors. Gaussian quadrature.",
+    "Ordinary differential equations: Euler's method for ODE of order 1. Taylor methods. Order of a method for ODE of order 1. Runge-Kutta methods of order 2 and 4."
+  ],
+  "teaching_methods": [
+    "Theoretical expositions on the board and through PowerPoint presentations, with a focus on Analysis and Algebra concepts.",
+    "Practical examples accompanying theoretical sessions.",
+    "Suggested examples for computer testing and observation of practical behavior.",
+    "Laboratory sessions where students complete and present small projects.",
+    "Project preparation outside of class hours in computer-equipped rooms.",
+    "In-person teaching."
+  ],
+  "workload_hours_total": 165.5,
+  "workload_hours_contact": 45.5,
+  "assessment_methods": [
+    {
+      "method": "First test (T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second test (T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (EF)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Retake exam (ER)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (CF) is calculated as 0.5 * T1 grade + 0.5 * T2 grade, provided T1 >= 7/20 and T2 >= 7/20. Alternatively, CF = EF grade, which covers all topics and can be taken if T1 < 7/20 or chosen instead of T2. CF = ER grade for students who did not achieve the minimum grade in T1 or T2, or an average of 10/20, or for grade improvement. A CF grade of 18/20 or higher is subject to an oral exam. To obtain attendance, students must attend at least 75% of classes. Grade improvement is done through an exam in a subsequent term.",
+  "bibliography": [
+    "Maria Raquel Valena ; Anlise Numrica , Universidade Aberta",
+    "Richard L. Burden; Numerical analysis . ISBN: 0-534-40499-5",
+    "Maria Raquel Valena ; Mtodos Numricos , Livraria do Minho , 1993",
+    "Heitor Pina ; Mtodos numéricos , McGraw Hill , 1995",
+    "Edite Fernandes; Computao Numrica , 1997. ISBN: ISBN: 972-96944-1-9",
+    "Cleve Moler; Numerical Computing with Matlab , SIAM , 2004",
+    "John Mathews; Kurtis Fink ; ; Numerical Methods using Matlab , Prentice Hall , 1999"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM015",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560359",
+  "source_language": "en",
+  "source_sha256": "dc2441748d4f4b3b46cae24253270368bed2f71002b8eab3da962e1f13360474",
+  "extracted_at": "2026-11-18T04:10:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

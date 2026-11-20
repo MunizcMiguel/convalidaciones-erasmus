@@ -1,0 +1,101 @@
+{
+  "course_name_original": "MABM130A – Industrierobotik",
+  "course_name_en": "MABM130A – Industrial Robotics",
+  "ects": 6.0,
+  "semester": "1. Semester",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students can describe the position and orientation of industrial robots using Euler angles, Euler parameters, quaternions, and Denavit-Hartenberg parameters.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They understand how Newton-Euler equations can be used in the simulation of robots.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They are able to perform the described calculations analytically or with the help of suitable simulation software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can also design motion profiles for drives for various movement types such as Point-to-Point, synchronous Point-to-Point, and Continuous Path movements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They can then implement these typical movement types programmatically with the training cells at the end of the course.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to create programmatic solutions for robot applications, including the integration of camera systems.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Familiarization with and handling of various robot coordinate systems and robot movements and related practical problems",
+    "Controlling outputs, reading inputs",
+    "Online programming",
+    "Offline programming",
+    "Integration of additional sensors such as cameras",
+    "User interaction",
+    "Kinematics of robot systems: Degrees of freedom of mechanisms",
+    "Description of position and orientation of bodies in space: Rotation matrices, Euler angles, Euler parameters, Homogeneous Coordinates/Denavit-Hartenberg parameters",
+    "Multibody dynamics",
+    "Movement methods: PTP, synchronous PTP, CP",
+    "Jacobian matrix",
+    "Application of simulation software to perform the above calculations",
+    "Calculations using simulation software for robot kinematics",
+    "Compulsory tasks on the robot for essential chapters in robot programming"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated practical exercises",
+    "Lecture",
+    "Exercise (calculation and programming)",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Kl/45) or oral exam (MP/20) in Robot Kinematics",
+      "weight_percentage": null
+    },
+    {
+      "method": "Graded practical work in Robot Programming",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ungraded successful completion of the Robot Laboratory (exercises on the robot cell and Matlab exercises)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The examination form will be announced at the beginning of the semester. The overall assessment includes a graded written exam (Kl/45) or an oral exam (MP/20) in Robot Kinematics, a graded practical work in Robot Programming, and the ungraded successful completion of the Robot Laboratory (exercises on the robot cell and Matlab exercises).",
+  "bibliography": [
+    "Vorlesungsunterlagen, Kuka-Unterlagen, ggf. ROS2-Tutorials und Unterlagen.",
+    "Bruno Siciliano, Lorenzo Sciavicco , Luigi Villani , Giuseppe Oriolo: Robotics: Modelling, Planning and Control",
+    "Peter Corke: Robotics, Vision and Control."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_karlsru05__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "MABM130A",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABM.pdf",
+  "source_language": "de",
+  "source_sha256": "ccca37bc3d6dc17a2e91d1038b53813cbe1057daa8c0f73e6312c8718d632a44",
+  "extracted_at": "2026-11-20T12:35:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,125 @@
+{
+  "course_name_original": "I.C. SIGNAL ANALYSIS AND STATISTICAL METHODS FOR BIOENGINEERING",
+  "course_name_en": "Integrated Course: Signal Analysis and Statistical Methods for Bioengineering",
+  "ects": 9.0,
+  "semester": "Annual",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of elements of physiology, analysis and physics",
+    "Knowledge of rudiments of Matlab coding",
+    "Real functions",
+    "Integrals",
+    "Functions of two or more variables",
+    "Multiple integrals"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the theoretical and methodological foundations for analyzing biomedical signals in the time, frequency, and time-frequency domains, with particular emphasis on: physiological signal acquisition and digitization; filtering and preprocessing; spectral analysis; feature extraction for diagnosis and monitoring; an introduction to the analysis of non-stationary signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Model a discrete biomedical signal.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply digital transforms and filters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret results from a physiological perspective.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement simple algorithms in MATLAB or Python.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand notions of probability theory and mathematical statistics for the management of uncertainty and for making predictions.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Biomedical Signals (Classification, Continuous and Discrete Signals, Acquisition, Types)",
+    "Sampling and the Nyquist-Shannon Theorem",
+    "Quantization and Noise",
+    "Applications of Biomedical Signals: ECG, EMG, EEG, PPG, fNIRS",
+    "Time Domain Analysis: Statistical Parameters (Mean, Variance, RMS), Autocorrelation, Cross-Correlation, Convolution, Impulse Response of LTI Systems",
+    "Analysis of RR variability in the ECG",
+    "Frequency Analysis: Fourier Series and Transform, DFT and FFT, Power Spectral Density (PSD)",
+    "Physiological Spectral Interpretation (EEG Bands, EMG Spectrum, Respiratory Analysis)",
+    "Digital Filtering: FIR and IIR Filters, Low-pass, high-pass, and notch filter design",
+    "Network Noise Removal (50 Hz)",
+    "Adaptive Filtering (basic information)",
+    "ECG Signal Cleaning",
+    "Time-Frequency Analysis: STFT and Spectrogram, Introduction to Wavelets, Non-stationary Signals",
+    "Applications to Dynamic EEG and EMG",
+    "Feature Extraction and Introduction to Pattern Recognition: Feature Extraction in Time and Frequency",
+    "Dimensionality Reduction (PCA, ICA)",
+    "Introduction to Supervised Classification (basics)",
+    "Connection to Medical Devices and AI",
+    "Laboratory Activities: MATLAB Exercises (Sampling Simulation, FFT and PSD Calculation, Digital Filter Design, Spectrogram Analysis)",
+    "Probability Theory: Events, Probability, Total Probability Theorem, Conditional Probability, Combinatorics",
+    "Independence (Logical and Stochastic), Bayes Theorem, Bayesian Networks",
+    "Random Variables: Expectation, Moments, Distribution Function, Moment Generating Function",
+    "Discrete Distributions: Binomial, Geometric, Poisson",
+    "Continuous Distributions: Uniform, Exponential, Gaussian, Gamma, Lognormal",
+    "Law of Large Numbers",
+    "Central Limit Theorem",
+    "Statistical Inference"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Project works"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (multiple-choice, open-ended questions, problem-solving) for Signal Analysis module",
+      "weight_percentage": null
+    },
+    {
+      "method": "First written test for Statistics and Probability Methods module",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second written test for Statistics and Probability Methods module",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination for Statistics and Probability Methods module",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the Signal Analysis module, the final written test is graded on a scale of 18-30, with honors awarded for correctly answering all questions. For the Statistics and Probability Methods module, the final grade is the arithmetic mean of two written tests and one oral examination. Students not taking periodic assessments for the Statistics module will have one written test and one oral examination. The minimum passing grade is 18/30. The syllabus does not provide specific resit arrangements.",
+  "bibliography": [
+    "Practical Guide for Biomedical Signals Analysis Using Machine Learning Techniques: A MATLAB® Based Approach. Abdulhamit Subasi. Elsevier Academic Press",
+    "R.M. Rangayyan, Biomedical signal analysis, IEEE Press, 2002",
+    "Handouts and materials provided by the teacher on the e-learning platform.",
+    "De Groot, M. Schervish, Probability and Statistics, Addison Wesley 4th ed."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "University Gabriele d'Annunzio of Chieti-Pescara",
+  "institution_slug": "unich",
+  "degree": "Laurea in Ingegneria Biomedica (Biomedical Engineering), classe L-9 R Ingegneria industriale",
+  "course_code": "TO0037_A058",
+  "academic_year": "cohorte 2025/2026 (años 1-3 = A.A. 2025/26, 2026/27, 2027/28)",
+  "source_url": "https://unich.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=33841_L460R-2525_163404_508857&ordinamento_aa=2025&af_percorso=33841&corso_cod=7340&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "121127d57f63ca5ae1ce4882b459176113d1e89a80239528b7a096d1e691ebcd",
+  "extracted_at": "2026-11-13T00:15:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

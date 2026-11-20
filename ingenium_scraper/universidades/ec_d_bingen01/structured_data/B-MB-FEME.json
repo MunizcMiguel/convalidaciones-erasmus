@@ -1,0 +1,78 @@
+{
+  "course_name_original": "Finite Elemente Methode",
+  "course_name_en": "Finite Element Method",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Technical Mechanics",
+    "specifically Technical Mechanics 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the structure of an FEM program and have an overview of common FEM systems; they know the mechanical fundamentals and mathematical concepts of the Finite Element Method (linear theory). They possess the necessary competence for model building and result interpretation and can apply an FEM program.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students know the basics of data management in CAE, understand the lifecycle of CAE data, and have an understanding of databases, PLM systems, and version control. They can use cloud technologies in the CAE context and implement remote access. Furthermore, they are able to apply QM methods in CAE development, validate and verify CAE models, and understand sensitivity analyses and robustness evaluations. From practical examples, they can apply best practices and lessons learned, and effectively organize interdisciplinary collaboration in CAE teams.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students know current trends such as Artificial Intelligence, Virtual Reality and can explain automation techniques in CAE and categorize their future developments and possible applications.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "One- and two-dimensional problems of solid mechanics: rod, plate, shape functions, stiffness matrix and load vector, assembly process, consideration of boundary conditions",
+    "Techniques for storing and solving large systems of equations",
+    "Structure and process of an FEM program",
+    "CAD and CAE data integration, data formats and standards (STEP, IGES)",
+    "Concept of 24/7 working, cloud-based CAE solutions",
+    "Validation, test and verification methods, application and project examples through practical introduction and application of e.g. ANSYS, ABAQUS, COMSOL",
+    "Outlook: Use of artificial intelligence, ethics and responsibility, societal impacts of engineering decisions"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Elaboration of/on exercise tasks",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project work (alternative)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded based on the elaboration of exercise tasks, or alternatively, a project work. The grade's contribution to the final grade is weighted according to the credit points.",
+  "bibliography": [
+    "Baaser \"Development and Application of the Finite Element Method Based on MatLab\", Springer",
+    "Baaser: OLAT-online-Skript",
+    "Knothe & Wessels: Finite Elemente, Springer ebook",
+    "Gross / Hauger / Schnell / Wriggers „Technische Mechanik 4“, Springer",
+    "Nasdala, FEM-Formelsammlung, Springer"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-FEME",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "c2790fa781570ff535a88cc5fb725fc9bb145e96c4d8b417f98d95bbb7811aaf",
+  "extracted_at": "2026-11-20T09:20:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

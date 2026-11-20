@@ -1,0 +1,153 @@
+{
+  "course_name_original": "Modelización y Cálculo de Componentes Mecánicos",
+  "course_name_en": "Modeling and Calculation of Mechanical Components",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "It is recommended to have completed a course in strength of materials or a similar course in basic calculation of mechanical elements.",
+    "Basic knowledge of calculus, algebra, and mathematical numerical methods is also recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should be able to apply acquired knowledge and problem-solving skills in new or unfamiliar environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "skill",
+      "code": "CB7"
+    },
+    {
+      "text": "Students should be able to integrate knowledge and confront the complexity of formulating judgments based on incomplete or limited information, including reflections on social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "skill",
+      "code": "CB8"
+    },
+    {
+      "text": "Students should be able to communicate their conclusions and the knowledge and ultimate reasons that support them to specialized and non-specialized audiences in a clear and unambiguous way.",
+      "type": "skill",
+      "code": "CB9"
+    },
+    {
+      "text": "Students should possess the learning skills that will allow them to continue studying in a largely self-directed or autonomous manner.",
+      "type": "skill",
+      "code": "CB10"
+    },
+    {
+      "text": "Prepare technical specifications that allow a mechatronic engineering problem to be formulated, maintaining a global and integrative vision and using prescriptive, procedural, or performance specifications as appropriate.",
+      "type": "skill",
+      "code": "CG1"
+    },
+    {
+      "text": "Organize conceptual design activity to support decision-making and selection among possible solutions to an engineering problem.",
+      "type": "skill",
+      "code": "CG2"
+    },
+    {
+      "text": "Acquire the necessary skills to act as administrators of mechatronic system design, assuming planning (setting goals and strategies), organizing (assigning tasks and resources, coordinating), directing (leading and motivating), and controlling (monitoring) functions.",
+      "type": "skill",
+      "code": "CG3"
+    },
+    {
+      "text": "Know and use finite element simulation software to study the integral behavior (mechanical, static and dynamic, thermal, magnetic, electrical, etc.) of mechatronic elements and correctly interpret the results.",
+      "type": "skill",
+      "code": "CE1"
+    },
+    {
+      "text": "Select the material, dimension, and optimize the shape of mechatronic system elements, taking into account resistance, durability, and reliability criteria.",
+      "type": "skill",
+      "code": "CE2"
+    },
+    {
+      "text": "Identify the subcomponents of a technologically complex system, the interactions between them, and the effects and consequences of their possible redesign.",
+      "type": "skill",
+      "code": "CE8"
+    },
+    {
+      "text": "Discriminate the most critical components in a mechatronic system and justify their possible redesign from the point of view of the control system.",
+      "type": "skill",
+      "code": "CE10"
+    },
+    {
+      "text": "Acquire knowledge of the mathematical tools related to the calculation of mechatronic components.",
+      "type": "knowledge",
+      "code": "RA38"
+    },
+    {
+      "text": "Acquire the fundamentals of the finite element method as an approximate calculation procedure of general application for the modeling of mechatronic elements and systems.",
+      "type": "knowledge",
+      "code": "RA39"
+    },
+    {
+      "text": "Apply the finite element method in the static and dynamic calculation of mechatronic elements and systems, adequately interpreting the results.",
+      "type": "skill",
+      "code": "RA40"
+    },
+    {
+      "text": "Quantify the stresses and deformations produced by a general state of tension, bending, or torsion.",
+      "type": "skill",
+      "code": "RA41"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the finite element (FE) problem.",
+    "FE for bars (axial)",
+    "FE for beams (bending)",
+    "FE 1D of lattice type (axial+bending) and FE 1D of general type (+torsion)",
+    "FE for two-dimensional planar solids.",
+    "Generalization to 2D and 3D FE models.",
+    "Structural modeling."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Group work",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (theoretical-practical)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Laboratory practices evaluation (attendance)",
+      "weight_percentage": 3.0
+    },
+    {
+      "method": "Laboratory practices evaluation (other activities, e.g., exercises, problem-solving)",
+      "weight_percentage": 7.0
+    },
+    {
+      "method": "Group work",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Exercises/tasks to be submitted during the semester",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final grade is a weighted average of a written exam (60%), laboratory practices (10%), group work (20%), and submitted exercises/tasks (10%). To pass, a minimum of 35% of the written exam's allocated grade must be obtained. If this minimum is not met, the final grade will be a failing grade corresponding to the weighted score of the written exam, regardless of the overall sum. Grades from laboratory practices and group work are valid for the May and July calls of the current academic year, and optionally for one subsequent academic year. For extraordinary calls, if the student has not participated in lab practices, group work, or activity 4, the written exam will be the only assessment, weighted at 60%, meaning a maximum possible score of 6 out of 10. Otherwise, the ordinary assessment system applies.",
+  "bibliography": [
+    "Ortiz Berrocal “Resistencia de Materiales” Ed. Bellisco. 1998.",
+    "Ortiz Berrocal “Elasticidad. 3ª Edición” Ed. McGraw Hill. 1998.",
+    "Y.C. Fung, \"Foundations of Solid Mechanics\", Prentice Hall",
+    "Gere J.M., Timoshenko S.P. “Mecánica de Materiales” Thomson Editores. 1999.",
+    "G. R. Liu, S. S. Quek, The Finite Element Method: A Practical Course, Butterworth-Heinemann",
+    "Oñate, E., Cálculo de Estructuras por el Método de Elementos Finitos. Análisis elástico lineal, Ed. CIMNE, 1992.",
+    "M. Vázquez, E. López, El Metodo de los Elementos Finitos Aplicado al Análisis Estructural Ed. Noela, 2001"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Mecatrónica (EPI Gijón)",
+  "institution_slug": "uniovi_mm_mecatronica",
+  "degree": "Máster Universitario en Ingeniería Mecatrónica",
+  "course_code": "MMECAT03-C-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/mecatronica/-/fof/asignatura/MMECAT03-C-008",
+  "source_language": "es",
+  "source_sha256": "b8feebe034a6ad2bb821b19d197ebc706d351d419475bba7659ee6c33bc22fbd",
+  "extracted_at": "2026-11-20T05:59:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

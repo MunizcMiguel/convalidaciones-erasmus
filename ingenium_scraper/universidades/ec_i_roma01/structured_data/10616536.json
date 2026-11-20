@@ -1,0 +1,146 @@
+{
+  "course_name_original": "ALGORITMI E STRUTTURE DATI canale 1",
+  "course_name_en": "ALGORITHMS AND DATA STRUCTURES channel 1",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Familiarity with at least one programming language between C and JAVA is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know fundamental algorithms and data structures. Be able to implement them in an advanced programming language (Java or C) and be able to make design choices for solving problems in real application domains.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to design algorithms for solving new problems, using or modifying algorithms and data structures seen in lessons.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to design/implement algorithmic solutions based on studied techniques or simple variants.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to approximately evaluate the computational resources required for an algorithmic solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to make informed design choices for problem solving.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know fundamental data structures and algorithms. Understand the concepts of correctness and computational complexity of an algorithm. Know the main paradigms for algorithm design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to design an algorithm that solves a problem and implement it in an advanced programming language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to evaluate the correctness, adequacy, and efficiency of the algorithmic solution to a problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to effectively describe problem specifications and communicate adopted choices and underlying motivations to others.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The course will allow the development of autonomous in-depth study skills on course topics or related ones. It will also allow the student to easily consult advanced and/or specific manuals for autonomous learning of ad hoc algorithmic solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "At the end of the course, the student knows the main data structures and fundamental algorithms, understanding their functioning, properties, and contexts of use. They also know the main algorithmic design paradigms, including divide and conquer and dynamic programming, and understand their role in solving computational problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to apply appropriate data structures and algorithmic techniques to solve computational problems. They are also able to design algorithms based on the studied paradigms and use them in solving problems of medium complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student is able to analyze and evaluate algorithms and data structures, verifying their correctness and analyzing their computational complexity. They are also able to compare different algorithmic solutions and choose the most appropriate one for the considered problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student is able to describe and discuss algorithms and data structures using appropriate technical terminology, illustrating their functioning, properties, and efficiency.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student acquires methodological tools to tackle new algorithmic problems and to autonomously deepen more advanced algorithm design and analysis techniques.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course and fundamental concepts",
+    "Introductory examples and algorithm analysis. Elementary operations and algorithm complexity. Analysis of algorithms and programs: RAM model with uniform costs. Input size. First examples of algorithm and program complexity analysis. Worst-case analysis and hints of average-case analysis. Beyond the worst case: amortized analysis of the cost of sequences of operations.",
+    "Analysis of algorithm cost and asymptotic notation. Function growth. O, Ω, and Θ notations. o and ω notations. Further examples of algorithm analysis.",
+    "The Divide-and-Conquer method. First examples. Recurrences and analysis of recursive algorithms. Solving recurrences: substitution method and use of recursion trees with examples. Hints of the master method.",
+    "Sorting and Selection",
+    "Sorting and Merge-Sort. The sorting problem. Divide-and-Conquer based sorting: Merge-Sort. Analysis of correctness and computational cost of Merge-Sort. Quicksort. Other examples of the Divide and Conquer method. Quicksort sorting algorithm: analysis of correctness and computational cost.",
+    "Sorting complexity. Lower bound on the cost of comparison-based sorting algorithms: illustration and proof of the result. Non-comparison-based algorithms and linear-time sorting: Counting sort, Radix sort, and Bucket sort.",
+    "The selection problem. Introduction: finding the minimum and maximum. Algorithms for solving the selection problem in linear time. Randomized selection with expected linear time and selection with worst-case linear cost. Hints of expected time analysis for randomized selection. Analysis of selection with worst-case linear cost.",
+    "Graphs and Fundamental Data Structures",
+    "Data structures: Heap and priority queues. Operations and their desired complexity. Applications: Efficient implementation of Dijkstra's algorithm, Heapsort, calculation of the first k elements. Heap implementation with arrays. Heapify. Resizing heaps implemented with arrays. Amortized analysis of the cost of sequences of operations on heaps implemented with arrays (see references for hash table resizing).",
+    "Introduction to Graphs. The concept of a graph. Directed and undirected graphs. Basic terminology and properties. Graph representations. Adjacency list and adjacency matrix representations and their costs.",
+    "Graph traversal and its applications. Breadth-First-Search (BFS) and shortest paths in unweighted (un)directed graphs. Depth-First-Search (DFS) of directed and undirected graphs and its properties. Edge classification. Topological Sorting in directed graphs: applications and conditions for the existence of a topological sort. Algorithms for calculating topological sorts based on depth-first search. Connected components and reachability relation. Strongly connected components in directed graphs. Calculation of strongly connected components using DFS: linear algorithm (Kosaraju's algorithm).",
+    "Shortest paths and Dijkstra's algorithm. The single-source shortest path problem in weighted graphs. BFS and shortest paths: why it doesn't work in weighted graphs. Shortest paths in weighted graphs: properties of shortest paths and relaxation. Dijkstra's algorithm: correctness and computational cost. Bellman-Ford algorithm: correctness and computational cost.",
+    "Greedy Method and Minimum Spanning Trees. The minimum spanning tree problem. Prim's algorithm: analysis of correctness and computational cost. Efficient version based on heaps. Kruskal's algorithm. Efficient version of Kruskal's algorithm using the Union-Find data structure. Analysis of the correctness of Kruskal's algorithm.",
+    "Data structures: hash tables. Operations and their desired complexity. Applications. Hash functions and hash table implementation. Collision resolution: chaining with linked lists and open addressing. Main open addressing techniques. Load factor and hash table resizing: amortized analysis of the cost of sequences of insertion and deletion operations on hash tables.",
+    "Data structures: binary search trees. Sorted arrays and search trees. Main operations on sorted arrays and binary search trees and their cost. Implementation of binary search trees. Balancing: maintenance and rotation operations following insertions and deletions. Hints of balanced search trees: red-black trees and their height.",
+    "Data structures: maintaining disjoint sets. Operations on disjoint sets. Representation of disjoint sets with linked lists. Representation of disjoint sets with forests.",
+    "Algorithmic Techniques.",
+    "Greedy Approach to Algorithm Design. Huffman's algorithm. The Greedy paradigm: introductory examples. Codes and Dynamic Programming. Introductory examples: some problems and algorithm design for their solution applying the dynamic programming paradigm. More complex examples: the knapsack problem.",
+    "Dynamic Programming and Shortest Paths. All-pairs shortest paths and dynamic programming: Floyd-Warshall algorithm. Transitive closure of a graph."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Open questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Programming test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the exam, a score not lower than 18/30 is required. To achieve a score of 30/30 cum laude, the student must demonstrate excellent knowledge of all topics, full mastery of data structures and algorithmic techniques, and the ability to analyze, compare, and design efficient algorithmic solutions, rigorously discussing their correctness and complexity and connecting the different concepts logically and coherently.",
+  "bibliography": [
+    "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein. Introduzione agli Algoritmi e Strutture Dati - IV edizione. McGraw Hill, Milano, Italia, 2023.",
+    "Tim Roughgarden: Algorithms Illuminated Omnibus Edition, 2022. Book Website with material: https://www.algorithmsilluminated.org/ The book content reflects the notes and material from the CS161 course taught by Prof. Roughgarden at Stanford University, freely accessible at: https://stanford-cs161.github.io/winter2024/",
+    "Robert Sedgewick and Kevin Wayne. Algorithms, 4th Edition. Addison-Wesley,"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "10616536",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/2/2/ea847841-4afe-4d9c-a335-7b577aa80df7",
+  "source_language": "it",
+  "source_sha256": "53cc6482619c8b16d160e70f2116acd3f424661738e6190e32144755c2b88157",
+  "extracted_at": "2026-11-20T09:24:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

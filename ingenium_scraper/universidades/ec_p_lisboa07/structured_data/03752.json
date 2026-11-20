@@ -1,0 +1,101 @@
+{
+  "course_name_original": "Fundamentals of Signals and Systems",
+  "course_name_en": "Fundamentals of Signals and Systems",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Characterize and manipulate continuous signals, in the time domain;",
+      "type": "unspecified",
+      "code": "LG1"
+    },
+    {
+      "text": "Characterize and manipulate discrete signals, in the time domain;",
+      "type": "unspecified",
+      "code": "LG2"
+    },
+    {
+      "text": "Characterize and manipulate linear and time-invariant systems through their impulsive responses, for continuous time;",
+      "type": "unspecified",
+      "code": "LG3"
+    },
+    {
+      "text": "Characterize and manipulate linear and time-invariant systems through their impulsive responses, for discrete time;",
+      "type": "unspecified",
+      "code": "LG4"
+    },
+    {
+      "text": "Determine and manipulate the spectra of periodic and aperiodic continuous signals from their time domain expressions;",
+      "type": "unspecified",
+      "code": "LG5"
+    },
+    {
+      "text": "Determine and manipulate the spectra of periodic and aperiodic discrete signals from their time domain expressions;",
+      "type": "unspecified",
+      "code": "LG6"
+    },
+    {
+      "text": "Characterize and manipulate linear and time-invariant systems, in the frequency domain, through their transfer functions, for continuous time;",
+      "type": "unspecified",
+      "code": "LG7"
+    },
+    {
+      "text": "Characterize and manipulate linear and time-invariant systems, in the frequency domain, through their transfer functions, for discrete time.",
+      "type": "unspecified",
+      "code": "LG8"
+    }
+  ],
+  "syllabus_topics": [
+    "Continuous-time and discrete-time signals - continuous time and discrete time, elementary signals, signal operations, signal classification, energy and power, symmetry properties.",
+    "Temporal analysis of continuous-time systems - linearity and time invariance, description with differential equations, block diagrams, impulsive response and convolution, causality, stability.",
+    "Temporal analysis of discrete-time systems - linearity and time invariance, description with difference equations, block diagrams, impulsive response and convolution, causality, stability.",
+    "Fourier analysis of signals and systems in continuous time - periodic and aperiodic signals in the frequency domain, transfer function, systems in the frequency domain.",
+    "Fourier analysis of signals and systems in discrete time - periodic and aperiodic signals in the frequency domain, transfer function, systems in the frequency domain."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written test 1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Written test 2",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Final exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "Assessment can be done throughout the semester or through a written final exam. For throughout the semester assessment, there are 2 written tests, each with a 50% weight on the final grade, and a minimum passing grade of 8/20 (i.e., 7.5) for each test. For exam-only assessment, the final exam (1st or 2nd or special exam periods) weights 100% and has a minimum passing grade of 9.5/20.",
+  "bibliography": [
+    "Oktay Alkin, Signals and Systems: A MATLAB Integrated Approach, 2017, O. Alkin, Signals and Systems: A MATLAB Integrated Approach, CRC Press, 2017., http://www.signalsandsystems.org/",
+    "Alan V. Oppenheim, Alan S. Willlsky, Signals and Systems, 2nd Ed., 2013, A. V. Oppenheim, A. S. Willlsky, Signals and Systems, 2nd Ed., Pearson, 2013., https://www.pearson.com/en-us/subject-catalog/p/signals-and-systems/P200000003155/9780138229429",
+    "Bhagwandas P. Lathi, Roger A. Green, Linear Systems and Signals, 3rd Ed., 2022, B. P. Lathi, R. A. Green, Linear Systems and Signals, 3rd Ed., Oxford University Press, 2022., https://global.oup.com/academic/product/linear-systems-and-signals-9780190200190?q=Linear%20Systems%20and%20Signals&lang=en&cc=pt",
+    "Matthew N. O. Sadiku, Warsame H. Ali, Signals and Systems: A Primer with MATLAB, 2015, M. N. O. Sadiku, W. H. Ali, Signals and Systems: A Primer with MATLAB, CRC Press, 2015., https://www.taylorfrancis.com/books/mono/10.1201/b19285/signals-systems-matthew-sadiku-warsame-hassan-ali"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "prerequisites",
+    "learning_outcomes",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "ISCTE - Instituto Universitário de Lisboa",
+  "institution_slug": "ec_p_lisboa07",
+  "degree": "Telecommunications and Computer Engineering (Licenciatura, LETI)",
+  "course_code": "03752",
+  "academic_year": "2026/2027 (plan vigente en la web)",
+  "source_url": "https://www.iscte-iul.pt/programmes/degree/9098#CourseInfoModal-4828",
+  "source_language": "en",
+  "source_sha256": "9e558d8c48db9e20264f51651a684876555d02be5915280d68b90656d040627d",
+  "extracted_at": "2026-11-20T09:10:24",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Control Systems",
+  "course_name_en": "Control Systems",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic control engineering",
+    "Experience with Matlab"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Explain the essentials of process control.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Provide the fundamental concepts and practical tools needed by control engineers.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Methods of system identification, black/white/gray box approach, analytical methods of system identification (modelling of mechanical, electro-technical, hydraulic and thermo-mechanic systems).",
+    "Experimental methods of system identification. Types of input signals. Nonparametric methods. Step response. Model parameterization by using the development of empirical dynamic models from step-response data.",
+    "Process control and block diagrams, dynamic versus steady-state models, transfer functions (continuous/discrete time systems).",
+    "Frequency response analysis using the Bode and the Nyquist diagrams.",
+    "Sampling and discretization for linear systems",
+    "Stability of linear feedback systems and the stability criteria (Routh, Nyquist, Bode, Michailov); The Möbius bilinear transform; Minimum/non-minimum phase transfer functions.",
+    "Controller design (Ziegler and Nichols method, direct synthesis method, frequency response techniques, method based on integral error criteria, trial and error tuning, Åsträm and Hägglund method).",
+    "Advanced Control Techniques (internal model control and time-delay compensation using the Smith predictor technique).",
+    "Control of MIMO systems (interactions, pairing of controlled and manipulated variables, tuning multiloop control systems and decoupling).",
+    "Supervisory control (basic requirements, implementation and applications)",
+    "Analytical identification of technological processes. For examples a model of mechanical system, an electrical circuit and a hydraulic system.",
+    "Experimental identification with work on development of empirical dynamic models from step response data, simulation and verification with Matlab software).",
+    "Tasks on steady characteristics and mathematical descriptions of systems",
+    "Transfer function computation of complex systems, step/ impulse responses and computer modelling of continuous/discrete systems",
+    "Tasks on frequency domain analysis.",
+    "Tasks on sampling and discretization of linear systems.",
+    "Lab work on stability and minimum/non-minimum phase systems with Matlab software.",
+    "Lab work on controller design methods and simulation with Matlab/Simulink software.",
+    "Examples of advanced control techniques (internal model control, time-delay compensation using the Smith predictor technique) and simulation of controlled circuits with Matlab/Simulink software.",
+    "Example of control of MIMO systems",
+    "Assessment and consultati"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Lab work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Assessment and consultation during tutorials",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Seborg, D. E. -Edgar, T. F. - Mellichamp, D. A.: \"Process Dynamics and Control, John Willey & Sons, 1989",
+    "Ogata, K.: Modern Control Engineering (4th Edition), Prentice Hall,",
+    "Dunning, G.: Introduction to Programmable Logic Controllers (2nd Ed). Delmar Learning, 2001.",
+    "Dorf, R.C., Bishop R.H.: Modern Control Systems (8th Edition). Addison-Wesley, 1998"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371705",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1058106.html",
+  "source_language": "en",
+  "source_sha256": "a9dfa9809ba6e62fa78262b922e6744365a6e9394365d0b7d426b109281ebb02",
+  "extracted_at": "2026-11-20T01:18:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

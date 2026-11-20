@@ -1,0 +1,210 @@
+{
+  "course_name_original": "Bazele sistemelor automate",
+  "course_name_en": "FUNDAMENTALS OF AUTOMATIC SYSTEMS",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student acquires knowledge regarding: The fundamental principles of automatic systems (structure, classification, operation).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Mathematical models for describing and analyzing dynamic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Bases of automatic control theory (functional blocks, stability, performance).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Types of sensors, actuators and execution elements used in mechanical, mechatronic and robotic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student can develop skills in: Modeling and simulating the behavior of simple automatic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyzing the response of systems (in time and frequency).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Proposing and dimensioning control elements to meet specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using simulation software to verify solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student applies criteria, evaluation methods, concepts from automatic systems theory in the design of industrial equipment.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student/graduate develops responsibilities and learns to become autonomous.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Responsibility by: Ensuring the safe and efficient operation of automatic systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Respecting technical and ethical standards in system design.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Documenting and presenting the results of analyses and projects.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Autonomy by: Identifying control problems and selecting appropriate resolution methods.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Working independently on modeling/simulation projects.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Continuous development of knowledge through individual study and experimentation.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "1. Notions of Systems Theory",
+    "The notion of system; definition",
+    "System structures; component elements",
+    "Classification of systems",
+    "Information - a component of automatic/mechatronic systems",
+    "2. Introduction to Automation",
+    "Objectives and purpose of the discipline; connection with other disciplines;",
+    "Approaches;",
+    "Material-energy-information relationship",
+    "Automation in engineering education and practice. Trends.",
+    "Examples of automatic/mechatronic products and systems (industrial robot, hard disk, automobile)",
+    "3. Signals - Information Carriers",
+    "Generalities; definitions",
+    "Types of signals. Test signals (standard)",
+    "Unit step signal: definition, response, examples",
+    "Unit impulse signal (Dirac): definition, properties, response, examples",
+    "Ramp signal: definition, response, examples",
+    "Periodic signal: definition, response, examples",
+    "4. Calculation Methods and Techniques in Systems Theory",
+    "Time domain calculation techniques (impulse succession; convolution)",
+    "Calculation techniques based on Laplace transform",
+    "Laplace transform: definition, properties",
+    "Transfer function: definition, observations, examples",
+    "Graphical representations of the transfer function: Nyquist diagram; Bode diagram",
+    "Operations with transfer functions: series connection, parallel connection, inverse feedback connection",
+    "Frequency domain calculation techniques",
+    "Fourier series: role and importance in automatic systems theory, examples",
+    "Fourier transform: definition, examples, importance",
+    "State space calculation techniques",
+    "Notion of state and state space, choice of state variables",
+    "Example of using state variables in the analysis of a technical system",
+    "Techniques based on the sampling theorem",
+    "Sampling and reconstruction of signals",
+    "Transfer function of systems with sampling",
+    "5. Operating Regimes of Systems",
+    "6. System Quality Analysis",
+    "Stability of linear systems (fundamental stability criterion, Routh-Hurwitz criterion, Nyquist criterion - advantages)",
+    "Performance of automatic systems (quality indices)",
+    "7. System Identification/Estimation Methods",
+    "Necessity of system modeling and identification",
+    "Approaches to the identification problem",
+    "Classes of models used.",
+    "8. Functional Characterization of Automatic Systems",
+    "Control laws (proportional P, integral I, proportional-integral PI, proportional-derivative PD, PID)",
+    "Examples",
+    "9. Hardware Structure of an Automatic System",
+    "Description of specific elements: definitions, role and functionality (microprocessor, microcontroller, memory unit UM, central processing unit CPU, data and address bus, input-output system I/O, timer unit, analog-digital converter).",
+    "Physical configuration inside a microcontroller",
+    "Microcontroller programming",
+    "Media presentation of mechatronic systems (robots, computing technology, modern automobile, mechatronics in medicine, architecture of an intelligent machine, applications - MEMS)",
+    "1. Systems and signals; convolutions; approximations of the 8 function. Applications in LabView.",
+    "2. Transfer functions; hard disk modeling; automobile suspension modeling. Applications in Lab View.",
+    "3. Analysis of system time response: unit step response, unit impulse response, harmonic input response; performance specifications on time response. Applications in Lab View.",
+    "4. Frequency representation of systems; hodographs; Bode diagram; Applications in Lab View.",
+    "5. Series, parallel, feedback connections. Stability analysis in closed loop based on Nyquist criterion. Applications in LabView.",
+    "6. Constructive-functional study of an automatic positioning system. Evaluation of dynamic parameters of an automobile with Lab View.",
+    "7. Conclusions and discussions"
+  ],
+  "teaching_methods": [
+    "Participatory lectures and debates based on Power Point presentations, which will be made available to students. Presentations contain images and sketches to make the information easier to understand and assimilate. Each course will begin with a brief recap of concepts covered in the previous course.",
+    "In the laboratory, simulation software is used for identifying and verifying solutions.",
+    "The teaching method is thus based on discovery learning models facilitated by direct and indirect exploration of reality (experiment, demonstration, modeling), as well as on action-based methods such as exercise, practical activities and problem-solving."
+  ],
+  "workload_hours_total": 108.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Colloquium",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory activity",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Solving completely defined problems of medium complexity from the fundamental domain studied, obtaining a passing score (minimum 5) for both the course and the laboratory.",
+  "bibliography": [
+    "Bolton W -Instrumentation and Control Systems ISBN: 0750664320 2nd edition, Publisher: Elsevier Science & Technology Books, 2015",
+    "Aly El-Osery, Jeff Prevost - Control and Systems Engineering, ISBN 3319363832, Springer International Publishing AG, 2016.",
+    "C. Bujoreanu, Lab View - prietenul nostru, https://mec.tuiasi.ro/studenti/informatii- utile/manuale-electronice/ 122 pg., 2016",
+    "C. Bujoreanu Laborator \"Bazele sistemelor automate (pdf arhivate zip), disponibil pe https://mec.tuiasi.ro/studenti/informatii- utile/manuale-electronice, 144 pg., update 2022",
+    "C. Bujoreanu, Prelucrarea datelor experimentale\", 127 pg https://mec.tuiasi.ro/studenti/informatii- utile/manuale- electronice 2016",
+    "Carmen Bujoreanu, Curs Bazele sistemelor automate\", 100 pg., https://mec.tuiasi.ro/studenti/informatii- utile/manuale-electronice, update 2024",
+    "Carmen Bujoreanu, Teoria sistemelor mecatronice, curs in format electronic pe web: https://mec.tuiasi.ro/studenti/informatii- utile/manuale-electronice",
+    "I.Olah Note de curs Sisteme Automate, 2005",
+    "V. Maties s.a. Tehnologie si Educatie Mecatronica Ed. Todesco, Cluj-Napoca, 2001.",
+    "M Voicu Teoria sistemelor-vol 1.Sisteme dinamice liniare, Rotaprint, Iasi, 1980",
+    "L. Sebastian Sisteme automate, Rotaprint, 1975",
+    "Gh. Livint Teoria sistemelor automate, Ed. Gama, 1996",
+    "Olaru R, Zamfir M- Teoria sistemelor si automatizari, Rotaprint, Iasi, 1995",
+    "Gh. Prisacaru - Actionarea robotilor industriali, Ed. Vie, Iasi, 2000.",
+    "N. lonită - Elemente de mecanica automatelor si dinamica automatizarii proceselor industriale, Ed. Tehnică, Bucuresti, 1985.",
+    "V. Ispas - Aplicatiile cinematice in constructia manipulatoarelor si a robotilor industriali, Ed. Academiei Romane, Bucuresti, 1990.",
+    "Carmen Bujoreanu, Instrumentatia virtuala cu LabVIEW, Editura Tehnopress, ISBN 978-973-702-074-X, 155 pg., 2015",
+    "B. Dragan, Achizitia si procesarea semnalului vibroacustic, Ed. Politehnium Iasi, 2004",
+    "C. Stefanescu, N. Cupcea, Sisteme inteligente de masura si control, Editura Albastra Cluj-Napoca, 2002",
+    "V. Maier, C.D.Maier, LabVIEW in Calitatea Energiei Electrice, Editura Albastra Cluj-Napoca, 2000",
+    "F. Cottet, O. Ciobanu, Bazele Programarii in LabVIEW, Ed. Matrix Rom Bucuresti, 1998",
+    "L abVIE W- Data Acquisition/Course Manual/Users Guide, vol.I-IV, april 2024 Edition."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "MTC.305.DI.DD",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an3_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "565abd06419a5dbb5412caa9bf1dfd51f09d42b2084e7229654802a037707f76",
+  "extracted_at": "2026-11-13T01:12:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,105 @@
+{
+  "course_name_original": "Gömülü Sistemler",
+  "course_name_en": "Embedded Systems",
+  "ects": 4.0,
+  "semester": "8. Yarıyıl",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to recall the basic structure and instruction set of Arm Cortex M4-based microcontrollers.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to develop software in low-level and high-level languages.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to use the tools and methods for software development.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to analyze, design, and implement microcontroller-based systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students will be able to understand the value of embedded systems.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "ARM Microcontrollers introduction",
+    "Examination of ALU structure",
+    "Examination of input/output units",
+    "Examination of ARM ISA structure: Arithmetic and logic commands, Load/store commands, big/little endian concepts",
+    "Load/store commands, addressing modes, Branch commands, conditional commands",
+    "Subroutine commands (BL, BX LR), passing arguments in registers, passing arguments in stack, Recursive functions (preserving environment via stack)",
+    "Interrupt operations",
+    "Interrupt operations",
+    "“Static” and “volatile” variables",
+    "Timer/PWM/Counter applications",
+    "ADC, DAC and DMA",
+    "Serial communication applications (SPI/I2C/UART)",
+    "Serial communication applications (SPI/I2C/UART)",
+    "Sample student projects"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 102.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Midterm Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignment",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignment Preparation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "End-of-term Application",
+      "weight_percentage": null
+    },
+    {
+      "method": "In-class Activity",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Embedded Systems with ARM Cortex-M Microcontrollers in Assembly Language and C : Third Edition, Yifeng Zhu, 2017",
+    "ARM System-on-Chip Architecture, Steve Furber, 2nd Edition",
+    "Embedded Systems: Introduction To ARM Cortex-M Microcontrollers, Jonathan W. Valvano"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Düzce University — Elektrik-Elektronik Mühendisliği (Electrical-Electronics Engineering), Normal Öğretim",
+  "institution_slug": "ec_tr_duzce01__elec",
+  "degree": "Elektrik-Elektronik Mühendisliği (Electrical-Electronics Engineering), Normal Öğretim",
+  "course_code": "EEM478",
+  "academic_year": "2026 - 2027",
+  "source_url": "https://ebs.duzce.edu.tr/Ders/Index/3599657?sdgNo=343267&bno=15&bot=16&yilNo=34",
+  "source_language": "tr",
+  "source_sha256": "f8083c6a6e76cf7bc1ddfd59c7433958c82878bf051c9986202e7fff20d91a4c",
+  "extracted_at": "2026-11-20T12:59:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

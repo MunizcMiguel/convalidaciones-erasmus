@@ -1,0 +1,78 @@
+{
+  "course_name_original": "Matematisk statistik, grundkurs",
+  "course_name_en": "Mathematical Statistics, basic course",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sv"
+  ],
+  "prerequisites": [
+    "Intended learning outcomes (presumably referring to prior course outcomes, or general academic aptitude, not a specific course)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify experimental situations where random factors can affect the outcome, explain basic probability theoretical concepts and carry out probability calculations related to basic probability laws and theories.",
+      "type": "skill",
+      "code": "M1"
+    },
+    {
+      "text": "Distinguish between different types of random variables, set up relevant probability-theoretic models for random experiments, and calculate important quantities in probability-theoretic models.",
+      "type": "skill",
+      "code": "M2"
+    },
+    {
+      "text": "Use the limit theories to analyze some random trials.",
+      "type": "skill",
+      "code": "M3"
+    },
+    {
+      "text": "Set up and analyze probability-theoretic models for certain types of quantities that vary randomly in time, e.g. in the form of time-discrete Markov chains.",
+      "type": "skill",
+      "code": "M4"
+    }
+  ],
+  "syllabus_topics": [
+    "Random experiments and probabilities: Outcome spaces, events, combinatorics, probabilities, urn models, conditional probabilities, Bayes formula and the concept of independence.",
+    "Random variables (one-dimensional): Discrete and continuous random variables, distribution function, probability function and density function.",
+    "Measures of mode, dispersion, and correlation: Expected value, variance, and standard deviation.",
+    "Probability distributions: Normal distribution, Binomial distribution, Poisson distribution, Exponential distribution, Uniform distribution, etc.",
+    "Stochastic variables (Two-dimensional): Simultaneous/marginal probability function, simultaneous/marginal density function, and the concept of independence.",
+    "Functions of random variables: Distribution derivation, distribution for sums of random variables and for maximum and minimum.",
+    "Approximations: Law of large numbers, central limit value theorem and poisson approximation.",
+    "Stochastic processes: Poisson process, discrete-time Markov chains."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "Grades for examination modules are decided in accordance with the assessment criteria presented at the start of the course. The grading scale is U, 3, 4, 5.",
+  "bibliography": [
+    "Blom, Gunnar m.fl., (2005) Sannolikhetsteori och statistikteori med tillämpningar 5., [omarb.] uppl. Studentlitteratur ISBN: 9789144024424",
+    "Jan Enger, Jan Grandell, Kompendium om Markovkedjor, Markovprocesser och tillämpningar",
+    "Institutionens formelsamling i matematisk statistik.",
+    "Torkel Erhardsson, Poissonprocessen"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Linköping University",
+  "institution_slug": "ec_s_linkopi01",
+  "degree": "Industrial Engineering and Management - International (6CIEI), terms 1-6 (first cycle)",
+  "course_code": "TAMS79",
+  "academic_year": "2023-2024 (cohorte HT 2023)",
+  "source_url": "https://studieinfo.liu.se/en/kurs/TAMS79/ht-2024",
+  "source_language": "en",
+  "source_sha256": "2ea91e1d0e62af3310c007a0389be749e3bcbed59dbde5a66ed4be28be8dcea4",
+  "extracted_at": "2026-11-20T09:08:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

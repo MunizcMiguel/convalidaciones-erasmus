@@ -1,0 +1,142 @@
+{
+  "course_name_original": "MABB410 – Fluiddynamik",
+  "course_name_en": "Fluid Dynamics",
+  "ects": 6.0,
+  "semester": "4. Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Thermodynamic principles, ideal/real gas, vector analysis, differential equations",
+    "Higher Mathematics I and II (MABB 110, 210)",
+    "Thermodynamics (MABB 310)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Be sensitized to the interacting forces in fluids and the resulting special properties, especially in comparison to solids.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate relevant forces in quiescent compressible and incompressible fluids and quantify static loads.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze all relevant flow variables in geometrically simple flow problems using the streamline/stream tube concept for the one-dimensional description of incompressible frictionless and frictional flows, and design and optimize flow-technical systems using balances.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the limits and restrictions of one-dimensional balance calculations and recognize and propose the use of experimental or numerical methods.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Calculate fluid-structure interactions in steady flows using the momentum equation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Phenomenologically describe boundary layer phenomena and especially turbulence, and formulate solutions for aerodynamic and hydraulic optimization based on this.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the advantages and disadvantages of numerical flow calculations and identify possible application areas for solving flow-technical problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Numerically analyze geometrically simple flow problems, systematically drawing on preliminary estimates for setting up and parameterizing a simulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design solution strategies to increase the accuracy and efficiency of numerical calculations based on their knowledge of the origin of numerical errors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically question numerical results and check for plausibility using flow hypotheses and balance estimates.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to design and optimize flow-technical products, components, and systems later in relevant industrial sectors such as process engineering, automotive, or energy industry.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Properties of fluids, interaction forces in fluids and distinction from solid bodies and point/rigid body mechanics, continuum description",
+    "Equation of motion for one-dimensional frictional flows",
+    "Special case of quiescent incompressible and compressible fluids:",
+    "Hydrostatic fundamental law and technical applications",
+    "Pressure profiles in quiescent fluids and resulting force effects",
+    "Static buoyancy",
+    "Concept of streamline/stream tube for one-dimensional description, deficits and limits of applicability",
+    "Description of moving incompressible dissipative fluids with work input or extraction:",
+    "Continuity equation",
+    "Ideal and extended Bernoulli equation: Concept of control volume, limits of balanced description",
+    "Balanced description of turbomachinery",
+    "Description of the force effect of steady flows on mechanical structures with help of the momentum equation: Methodological approach, applications",
+    "Pipe hydraulics in linear flow systems: Calculation of flow losses in laminar and turbulent flows",
+    "Phenomenological description of turbulence and boundary layer effects",
+    "Empirical description of bodies in flow using coefficients, airfoil theory and aerodynamics of blunt bodies",
+    "Methods for describing and modeling flow processes",
+    "Components and procedure of a numerical flow calculation",
+    "Discrete description of continuous systems using the finite difference method: Origin and quantification of numerical errors in various discretization methods",
+    "Numerical artifacts: Numerical diffusion and stability",
+    "Advantages and properties of the Finite Volume Method",
+    "Methodical approach to setting up a simulation: Flow hypothesis, selection of a solution method, estimation calculations for parameterizing the solver",
+    "Exemplary numerical solution of simple steady and unsteady technical flow problems",
+    "Visualization, analysis and extraction of results and identification of numerical problems"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises",
+    "Selected laboratory experiments",
+    "Lecture with integrated computer exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam (90 min) for MABB411",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (20 min) for MABB411",
+      "weight_percentage": null
+    },
+    {
+      "method": "Graded homework for MABB412",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam (45 min) for MABB412",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The specific form of examination for MABB411 and MABB412 will be announced at the beginning of the course. A prerequisite for participation in the module examination is successful participation in all offered laboratory work or passing 2 homework assignments (XP) distributed over the semester.",
+  "bibliography": [
+    "Herwig, H., Strömungsmechanik - Einführung in die Physik von technischen Strömungen, 2. Auflage, Springer-Vieweg, 2016",
+    "Bschorer, S., Költzsch, K., Technische Strömungslehre, 12. Auflage, Springer-Vieweg, 2021",
+    "Bohl, W., Elmendorf W., Technische Strömungslehre. Vogel, 2014"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Karlsruhe University of Applied Sciences",
+  "institution_slug": "hka",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MABB410",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABB.pdf",
+  "source_language": "de",
+  "source_sha256": "0e32495dcb71958d74e10a395ff7779cab9c5d3e2423b8e0875f44b8fb73d3d3",
+  "extracted_at": "2026-11-12T23:55:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

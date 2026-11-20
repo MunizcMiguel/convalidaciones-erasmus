@@ -1,0 +1,150 @@
+{
+  "course_name_original": "SIMULATION MODELING FOR INDUSTRIAL AND MANUFACTURING SYSTEMS (II22300014)",
+  "course_name_en": "SIMULATION MODELING FOR INDUSTRIAL AND MANUFACTURING SYSTEMS",
+  "ects": 6.0,
+  "semester": "AUTUMN SEMESTER",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of general aspects for the design and management of industrial plants.",
+    "Basic statistical and programming knowledge."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide tools to support the modeling and optimization of the technical and economic performance of production and logistics systems through a review of quantitative methods to support the design and improvement of systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowing how to use the cause-and-effect diagram and the Pareto chart for problem formulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Schematizing a process using block diagrams.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using project management (PM) software for scheduling a simulation project.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using IDEF0 and flowcharts for the formal definition of a manufacturing system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using statistical tests to identify the origin distributions of sample data (processing times, order arrivals, etc.).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using a simulation environment to implement a discrete event model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Creating animations to verify the simulator’s operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Using statistical tests to determine if two sets of data originate from the same distribution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Designing an experimental campaign.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determining the duration of runs and transients.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determining the number of replications to achieve the desired precision.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyzing results through the use of parametric and non-parametric statistical tests.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluating alternative management strategies to implement.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student acquires the ability to independently formulate the opportunity to conduct a simulation study and to carry out all phases of its development.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student acquires the ability to communicate effectively on topics related to the simulation of a production and logistics plant and on the techniques for validation and conducting experiments.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The student acquires the ability to independently learn more in-depth and specific competencies in the field of simulation of production and logistics systems.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTRODUCTION TO MODELING TECHNIQUES FOR PRODUCTION AND LOGISTICS SYSTEMS (3H T): OBJECTIVES OF SIMULATION, TYPES OF MODELS, APPLICATIONS OF SIMULATION IN INDUSTRY, DISCRETE EVENT SIMULATION.",
+    "FORMULATING A MANAGEMENT PROBLEM IN A MANUFACTURING ENVIRONMENT (2H T + 4H E): FORMAL PROBLEM DEFINITION, SYSTEM KNOWLEDGE, ISHIKAWA DIAGRAM, PARETO ANALYSIS, OBJECTIVE DEFINITION, LOGICAL SCHEME, LEVEL OF DETAIL, EXERCISES AND APPLICATIONS.",
+    "PROJECT PLANNING FOR A SIMULATION PROJECT (2H T + 3H E): PROJECT LIFE CYCLE, COST-TIME-PERFORMANCE DIAGRAM, WBS (WORK BREAKDOWN STRUCTURE) AND LRC (LOGICAL RELATIONSHIP CHART) OF A PROJECT, EXERCISES WITH PROJECTLIBRE AND APPLICATIONS.",
+    "FORMAL DEFINITION OF A SIMULATION MODEL (2H T + 3H E): CLASSIFICATION OF SYSTEMS, TERMINATING AND NON-TERMINATING SYSTEMS, COMPONENTS AND EVENTS TO MODEL, MODELING LANGUAGES (IDEF0, FLOWCHART, ETC.), EXERCISES AND APPLICATIONS.",
+    "INPUT DATA COLLECTION AND DISTRIBUTION ANALYSIS (3H T + 5H E): SOURCES AND METHODS OF DATA COLLECTION, DETERMINISTIC AND STOCHASTIC, CONTINUOUS AND DISCRETE, MOST COMMON PROBABILITY DISTRIBUTIONS, DATA FITTING, EXERCISES WITH R AND APPLICATIONS.",
+    "MODEL IMPLEMENTATION IN ANYLOGIC (4H T + 12H E): IMPLEMENTATION METHODS, INTRODUCTION TO ANYLOGIC, EXERCISES WITH ANYLOGIC AND APPLICATIONS AIMED AT REPRODUCING MANAGERIAL LOGICS WITHIN THE MODELS.",
+    "SIMULATOR VERIFICATION AND VALIDATION (2H T + 4H E): \"DIVIDE ET CONQUER\" TECHNIQUE, ANIMATION, TYPES OF VALIDATION, STATISTICAL VALIDATION PROCEDURE, EXERCISES WITH R AND APPLICATIONS.",
+    "EXPERIMENTAL DESIGN (3H T + 2H E): FACTORS AND LEVELS, TYPES OF EXPERIMENTS, ANOVA, EXERCISES AND APPLICATIONS.",
+    "EXECUTION AND ANALYSIS OF RESULTS (2H T + 4H E): CALCULATION OF THE NUMBER OF REPLICATIONS, TRANSIENT LENGTH, RUN DURATION, WELCH’S APPROACH, DUNCAN MULTIPLE RANGE TEST, AUTOCORRELATION AND BATCH METHOD, EXERCISES AND APPLICATIONS."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Practical applications in classroom and/or laboratory using personal computer"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The overall grade is calculated as a weighted average of the written examination (80%) and the oral examination (20%). A minimum score of 18 points on the written exam (out of a total maximum of 32 points) is required to pass. Academic honors may be awarded if the student achieves at least 30 points on the written exam and demonstrates excellent mastery during the oral assessment.",
+  "bibliography": [
+    "COURSE SLIDES AND NOTES (DOWNLOADABLE DURING THE COURSE FROM THE UNISA E-LEARNING PLATFORM)",
+    "MARCO MACCHI, SERGIO TERZI, MODELING OF PRODUCTION SYSTEMS. VOL. 2: ANALYSIS. SIMULATION. PERFORMANCE IMPROVEMENT, PITAGORA EDITRICE, 2009, ISBN: 88-371-1776-0",
+    "CHRISTOPHER A. CHUNG, SIMULATION MODELING HANDBOOK – A PRACTICAL APPROACH, CRC PRESS, 2004, ISBN 0-8493-1241-8",
+    "ANDREI BORSHCHEV, THE BIG BOOK OF SIMULATION MODELING. MULTIMETHOD MODELING WITH ANYLOGIC 6"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Laurea Magistrale en Ingegneria Meccanica (LM-33)",
+  "institution_slug": "ec_i_salerno01__m_mec",
+  "degree": "Laurea Magistrale in Ingegneria Meccanica (Mechanical Engineering), classe LM-33 Classe delle lauree magistrali in Ingegneria meccanica",
+  "course_code": "II22300014",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=521537&ordinamento_aa=2025&af_percorso=10003&corso_cod=500897&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "dcf7b07bda0890cb7d9c50eab8119a20fbcec3e2856f5d84c7a8ecb19044f732",
+  "extracted_at": "2026-11-20T12:46:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

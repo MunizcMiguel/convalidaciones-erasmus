@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Functional and logic programming",
+  "course_name_en": "Functional and Logic Programming",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "MLE5005: Programming Fundamentals",
+    "MLE5055: Computational Logic",
+    "MLE5022: Data Structures and Algorithms",
+    "Average programming skills in a high level programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate knows multiple programming languages and is able to write applications in compiled, interpreted or dynamic languages with the ability to choose the appropriate programming language for the specific application to be developed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is able to present and explain methods, algorithms, paradigms and techniques used in various branches of computer science.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to choose and use programming paradigms (procedural, object-oriented, functional) to develop software applications appropriate for the specific domain of the application being developed.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to understand and communicate information effectively.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic elements of Prolog. Facts and rules in Prolog. Goals. The control strategy in Prolog. Variables and composed propositions. Anonymous variables. Rules for matching. The flow model. Sections of a Prolog program. Examples",
+    "The Prolog program. Predefined domains. Internal and external goals. Multiple arity predicates. The IF symbol (Prolog) and the IF instruction (other languages). Compiler directives. Arithmetic expressions and comparisons. Input/output operations. Strings",
+    "Backtracking. The backtracking control. The \"fail\" and \"!\"(cut) predicates. Using the \"!\" predicate. Type of cuts. The \"not\" predicate. Lists in Prolog. Recursion. Examples for backtracking in Prolog. Finding all solutions in the same time. Examples of predicates in Prolog. Non-deterministic predicates",
+    "Composed objects and functors. Unifying composed objects. Arguments of multiple types; heterogeneous lists. Comparisons for composed objects. Backtracking with cycles. Examples of recursive procedures. The stack frame. Optimization using the \"tail recursion\". Using the \"cut\" predicate in order to keep the \"tail recursion\".",
+    "Recursive data structures. Trees as data structures. Creating and traversing a tree. Search trees. The internal database of Prolog. The \"database\" section. Declaration of the internal database. Predicates concerning operations with the internal database.",
+    "Advanced issues of Backtracking in Prolog. Files management in Prolog.",
+    "Programming and programming languages. Imperative programming vs. declarative programming. Introduction. The importance of the functional programming as a new programming methodology. History and presentation of LISP",
+    "Basic elements in Lisp. Dynamic data structures. Syntactic and semantic rules. Functions' classification in Lisp. Primitive functions in Lisp. Basic predicates in Lisp.",
+    "Predicates for lists; for numbers. Logic and arithmetic functions. Defining user functions. The conditional form. The collecting variable method. Examples",
+    "Symbols' managing. Other functions for lists' accessing. OBLIST and ALIST. Destructive functions. Comparisons. Other interesting functions. Examples",
+    "Definitional mechanisms. The EVAL form. Functional forms; the functions FUNCALL and APPLY. LAMBDA expressions, LABEL expressions. Generators, functional arguments. MAP functions. Iterative forms. Examples",
+    "Other elements in Lisp. Data structures. Macro-definitions. Optional arguments. Examples",
+    "Graded paper in Logic and Functional Programming",
+    "Basic elements of Prolog. Facts and rules in Prolog. Goals. The control strategy in Prolog. Variables and composed propositions. Anonymous variables. Rules for matching. The flow model. Sections of a Prolog program. Examples",
+    "Recursion (Seminar)",
+    "Lists in Prolog (Seminar)",
+    "Processing of heterogeneous lists in Prolog (Seminar)",
+    "Backtracking in Prolog (Seminar)",
+    "Lists processing in LISP (Seminar)",
+    "MAP functions in LISP (Seminar)",
+    "Recap (Seminar)",
+    "Lab 1: Recursive algorithms in Pseudocode",
+    "Lab 2: Lists in Prolog",
+    "Lab 3: Trees in Prolog. Lists management in Prolog.",
+    "Lab 4: Backtracking in Prolog",
+    "Lab 4: Practical test in Prolog",
+    "Lab 5: Recursive programming in Lisp",
+    "Lab 6: Recursive programming in Lisp",
+    "Lab 7: Using MAP functions in Lisp.",
+    "Lab 7: Practical test in Lisp"
+  ],
+  "teaching_methods": [
+    "Exposure: description, explanation, examples, discussion of case studies",
+    "Exposure: description, explanation, examples, proofs, debate, dialogue",
+    "Written test",
+    "Explanation",
+    "Conversation",
+    "Modelling",
+    "Case studies",
+    "Dialogue",
+    "Testing data discussion",
+    "Practical test"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written test in Logic and Functional Programming",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Evaluation of seminaries activity",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Programs documentation and delivery",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical test in Prolog (one hour at lab 4)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical test in Lisp (one hour at lab 7)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "To pass the course, students must achieve at least grade 5 (on a scale of 1 to 10) at the written test, and an overall final grade average of at least 5. Additionally, attendance of at least 5 seminars and at least 6 labs is required. The semester activity cannot be redone in the sessions. All requirements for the resit exam are identical to the above.",
+  "bibliography": [
+    "CZIBULA G., POP H.F., Elemente avansate de programare in Lisp si Prolog. Aplicatii in Inteligenta Artificiala, Editura Albastra, Cluj-Napoca, 2012",
+    "POP H.F., SERBAN G., Programare in Inteligenta Artificiala - Lisp si Prolog, Editura Albastra, ClujNapoca, 2003",
+    "http://www.ifcomputer.com/PrologCourse, Lecture on Prolog",
+    "http://www.lpa.co.uk, Logic Programming",
+    "FIELD A., Functional Programming, Addison Wesley, New York, 1988.",
+    "WINSTON P.H., Lisp, Addison Wesley, New York, 2nd edition, 1984.",
+    "Product documentation: Gold Common Lisp 1.01 si 4.30, XLisp, Free Lisp, CLisp.",
+    "Product documentation: Turbo Prolog 2.0, Logic Explorer, Sicstus Prolog, SWI Prolog."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5009",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem3_MLE5009_en_hfpop_2025_9331.pdf",
+  "source_language": "en",
+  "source_sha256": "26529598b4d631227befb18a6d2b876d112d1a0b96a690badb7938954331e77c",
+  "extracted_at": "2026-11-20T09:08:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

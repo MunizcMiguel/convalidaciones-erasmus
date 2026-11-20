@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Teoría de Circuitos y Redes Eléctricas",
+  "course_name_en": "Circuit and Electrical Network Theory",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of electricity, as covered in the Electrical Technology course (second year of industrial engineering degrees).",
+    "Basic knowledge of physics and mathematics: differential and integral calculus, algebra and complex algebra, and electromagnetic theory."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify, analyze, and calculate balanced and unbalanced three-phase circuits, as well as select and decide on the procedures for calculating and measuring the power absorbed (or delivered) by them.",
+      "type": "unspecified",
+      "code": "RTC-1"
+    },
+    {
+      "text": "Classify and analyze electrical transients produced in first, second, and higher-order electrical circuits.",
+      "type": "unspecified",
+      "code": "RTC-2"
+    },
+    {
+      "text": "Perform current calculations when short circuits occur in electrical networks, using the symmetrical components technique.",
+      "type": "unspecified",
+      "code": "RTC-3"
+    },
+    {
+      "text": "Analyze and compare electrical networks composed of linear and non-linear elements.",
+      "type": "unspecified",
+      "code": "RTC-4"
+    },
+    {
+      "text": "Handle the analysis techniques for electrical circuits fed with non-sinusoidal periodic waves and use them for their resolution.",
+      "type": "unspecified",
+      "code": "RTC-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Electrical circuits in transient regime",
+    "First-order electrical circuits.",
+    "Second-order and higher electrical circuits. Application of Laplace transform.",
+    "Topic 2. Balanced three-phase electrical circuits",
+    "Technical characteristics of electrical energy. Justification of three-phase electrical circuits.",
+    "Phase and line variables.",
+    "Active and passive components. Connections.",
+    "Analysis using equivalent per-phase circuits.",
+    "Three-phase electrical power. Power measurements and measuring equipment.",
+    "Reactive energy compensation.",
+    "Topic 3. Unbalanced three-phase circuits",
+    "Analysis of unbalanced circuits.",
+    "Method of symmetrical components.",
+    "Particularities of the homopolar sequence.",
+    "Topic 4. Introduction to the analysis of electrical power systems under normal operating conditions and short-circuit faults",
+    "Introduction to electrical power systems.",
+    "Single-line diagrams.",
+    "Representation of the system in per unit.",
+    "Basic models of main equipment.",
+    "Calculation of symmetrical and asymmetrical short circuits.",
+    "Topic 5. Non-linear circuits and non-sinusoidal supply",
+    "Analysis of non-linear circuits.",
+    "Spectral analysis of non-sinusoidal waves.",
+    "Harmonic distortion in electrical power systems.",
+    "Laboratory Practices",
+    "Session 1. Introduction to circuit modeling in the Matlab/Simulink environment. Transient analysis of first-order circuits.",
+    "Session 2. Analysis of second-order circuits. Application of the Laplace transform.",
+    "Session 3. Harmonic distortion. Tutorial, part I.",
+    "Session 4. Harmonic distortion. Tutorial, part II.",
+    "Session 5. Analysis of short-circuit faults in electrical networks. Part I.",
+    "Session 6. Analysis of short-circuit faults in electrical networks. Part II. Application of matrix methods.",
+    "Session 7. Practical evaluation."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 152.0,
+  "workload_hours_contact": 62.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (T1)",
+      "weight_percentage": 75.0
+    },
+    {
+      "method": "Practical evaluation - scripts (P1)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Deliverable practical exercise (P2)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical exam (P3)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as: [Final grade] = T1*0.75 + P1*0.05 + P2*0.1 + P3*0.1. A minimum of 4 out of 10 points is required in the theory exam (T1); otherwise, the final grade will be a maximum of 4.5 points. No minimum grade is established for P1, P2, and P3. For the extraordinary call, the final grade is calculated as: [Final grade] = E1*0.75 + E2, where E2 = P1*0.05 + P2*0.1 + P3*0.1, retaining grades from the ordinary call for P1, P2, P3. A minimum of 4 out of 10 points is required in the theory exam (E1). For differentiated evaluation, the theory exam counts for 100% of the final grade, with a practical laboratory exam (EP1) as pass/fail; an 'fail' in EP1 limits the final grade to a maximum of 4.5/10 points.",
+  "bibliography": [
+    "Fraile mora, J. (2019). Circuitos eléctricos (2da ed.). Garceta. ISBN 978-84-1622-847-8. Disponible: [V621E FRAI] Bib. Tecnología y Empresa, campus de Gijón.",
+    "Sadiku, M. N. (2006). Fundamentos de circuitos eléctricos. México: McGraw-Hill. ISBN 970105606X. Disponible: [V621E ALEX] Bib. Tecnología y Empresa, campus de Gijón.",
+    "Hadi Saadat (1999) Power system analysis. McGraw-Hill series in electrical and computer engineering. Disponible: [V621E SAAD] Bib. Tecnología y Empresa, campus de Gijón.",
+    "Stevenson, W. D. (2000). Análisis de sistemas de potencia. México: McGraw-Hill. Disponible: [T621.3 Grai] Bib. Tecnología y Empresa, campus de Gijón."
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-3-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-3-008",
+  "source_language": "es",
+  "source_sha256": "15d1a3aff968a907bd718d20b2a48ab85eab5fe1290f9b55d7b13f5faa47b0e1",
+  "extracted_at": "2026-11-20T01:13:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

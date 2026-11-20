@@ -1,0 +1,117 @@
+{
+  "course_name_original": "Ingeniería de Tráfico y Conmutación",
+  "course_name_en": "Traffic and Switching Engineering",
+  "ects": 6.0,
+  "semester": "First Semestre",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Telemática (Fundamentals of Telematics)",
+    "Arquitectura de Redes y Sistemas (Network and Systems Architecture)",
+    "Ingeniería de Redes (Network Engineering)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply queueing theory techniques and all their mathematical tools.",
+      "type": "skill",
+      "code": "RA-13.20"
+    },
+    {
+      "text": "Mathematically reason and solve problems related to queue dimensioning, applying the studied queue models.",
+      "type": "skill",
+      "code": "RA-13.21"
+    },
+    {
+      "text": "Analyze and evaluate the requirements of a local network and identify the necessary switching elements.",
+      "type": "skill",
+      "code": "RA-13.22"
+    },
+    {
+      "text": "Manage the signaling system used in circuit-switched networks.",
+      "type": "skill",
+      "code": "RA-13.23"
+    },
+    {
+      "text": "Analyze and design intelligent network services using the studied signaling system.",
+      "type": "skill",
+      "code": "RA-13.24"
+    },
+    {
+      "text": "Interpret and justify the evolution from IP packet switching technology to MPLS technology.",
+      "type": "skill",
+      "code": "RA-13.25"
+    },
+    {
+      "text": "Solve traffic routing and switching problems in telematics networks and services.",
+      "type": "skill",
+      "code": "RA-13.26"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to traffic modeling and dimensioning",
+    "Theoretical foundations of queueing theory",
+    "Simple queueing systems",
+    "Advanced queueing systems",
+    "Queueing networks",
+    "Access networks",
+    "Broadband systems (ADSL)",
+    "Hybrid fiber-coaxial",
+    "Optical fiber",
+    "Wireless networks",
+    "Circuit switching technologies",
+    "Signaling System No. 7",
+    "Intelligent Network",
+    "Packet switching technologies",
+    "ATM",
+    "MPLS"
+  ],
+  "teaching_methods": [
+    "Group tutorials",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Expositive classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment of practicals",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Assignments/tasks (Task 1: written submission, presentation, debate)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Assignments/tasks (Task 2: presentation)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theory evaluation (written exam)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade (NF) is calculated as NF = NE*0.5 + NP*0.3 + NT*0.2. To pass, students must obtain a grade of 5 or higher in NP. Additionally, they must obtain a grade of 5 or higher in NE, or a grade of 4 or higher in NE and 5 or higher in NT. If these requirements are not met, the maximum NF will be 4.5. For the extraordinary call, NFext = NEext*0.7 + NPext*0.3, with a minimum grade of 5 in both NEext and NPext required to pass; otherwise, the maximum NFext is 4.5.",
+  "bibliography": [
+    "Teoría de colas y simulación de eventos discretos, José Juan Pazos Arias, Andrés Suárez González y Rebeca P. Díaz Redondo, Pearson, Prentice Hall.",
+    "The MPLS Primer. An Introduction to Multiprotocol Label Switching, Sean Hardeny, Prentice Hall.",
+    "Next Generation Intelligent Networks, J. Zuidweg, Artech House.",
+    "Interconexión de Dispositivos de Red Cisco, Steve McQuerry, Cisco Press.",
+    "Tecnologías de banda ancha y convergencia de redes, Manuel Álvarez-Campana y otros, Ministerio de Industria, Turismo y Comercio.",
+    "Redes e Internet de alta velocidad: rendimiento y calidad de servicio, 2ª Ed., William Stallings, Prentice Hall."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-013",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-013",
+  "source_language": "es",
+  "source_sha256": "b4ffbc9a8a78331ac5be37139bdcd79bcdfdefe3eb9879f8363849832f0a7823",
+  "extracted_at": "2026-11-20T06:04:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

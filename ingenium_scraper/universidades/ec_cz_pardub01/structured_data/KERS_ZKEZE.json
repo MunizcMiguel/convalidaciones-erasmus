@@ -1,0 +1,73 @@
+{
+  "course_name_original": "Design of Electrical Equipments",
+  "course_name_en": "Design of Electrical Equipments",
+  "ects": 5.0,
+  "semester": "Winter + Summer",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic PC skills",
+    "basic knowledge of electronics",
+    "physics",
+    "material technology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students get knowledge about printed circuit boards, especially how they are designed and manufactured, including assembling technology of complex electronic devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be informed about trends in CAD, CAM systems for electronics design & manufacturing process.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction, introduction to basic terms, overview of technologies, basic technologies of production and properties of PCB, history, Familiarization with the specifics of prototype, small series and large series production.",
+    "Tools and design systems for schematic creation, simulation, schema checking, PCB design, design rule check, generation and manipulation with production data, creation of documentation. Comparison of design software.",
+    "Library systems and libraries of design systems, schematic symbols, simulation models, interconnection with items vendors and datasheets of manufacturers, definition of housings and solder pads for placement on PCB, 3D models.",
+    "Design schemes, tools, design procedures, net definitions, class support, buses, virtual links over net names. Specifics of design systems, simple schemes, multipage schemes, hierarchical schemes. Completion designing, checking and correcting errors.",
+    "PCB design, definition of design rules, board shape setting, component placement, number and layout selection layers, joint drawing, tools for assisted and automatic joint drawing, finishing, copper pouring, quilting, optimization of drilled holes, shielding, control of design rules.",
+    "Production materials, data formats, choice of layers for PCB production, installation, documentation creation and production assignment.",
+    "PCB properties, composition, mechanical properties, thermal properties, current carrying capacity, electrical strength, resistance, capacitance, inductance, total impedance of link, signal propagation over PCB, current loops, frequency influence signal on spread across the board.",
+    "Rules and methods of PCB design with regard to elimination of undesirable phenomena and interference. Coupling between signals, effect of housings and technology, minimization of current loops, shielding of joints, towing of buses and differential connections, hourly signals. Critical combinations and mutual bond removal. Combination of analog and digital system. Power supply, design of basic types of power supply and their properties. Construction of selected sources.",
+    "Design of boards with respect to signals with finite propagation speed, properties of signals, high frequency signals, impedance matching.",
+    "Selection of specific components, marking of components, influence of capacitor material and resistors, basic parameters semiconductor devices and their use, estimation and selection of coolers, work with datasheets.",
+    "Production of printed circuit boards, production technology. Machining and drilling boards mechanically, laser, plasma. Formation of vias, methods of copper removal chemically, mechanically, laser. Copper surface treatment, metallization, solder mask, printing. PCB assembly and soldering. PCB testing.",
+    "Components, dimensions, standards and recommendations (JEDEC, IEC, IPC), solder pads, specific modifications of solder surfaces and restrictions on the use of various types of soldering."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Small project (schematic, pcb design, production data and documentation)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "University of Pardubice (Univerzita Pardubice)",
+  "institution_slug": "ec_cz_pardub01",
+  "degree": "Bachelor's programme, Faculty of Electrical Engineering and Informatics - courses in English",
+  "course_code": "KERS/ZKEZE",
+  "academic_year": "2026-2027",
+  "source_url": "https://portal.upce.cz/StagPortletsJSR168/CleanUrl?urlid=prohlizeni-predmet-sylabus&predmetZkrPrac=KERS&predmetZkrPred=ZKEZE&predmetRok=2026&formRozvrhZobrazeni=0&plang=en",
+  "source_language": "en",
+  "source_sha256": "002aaef36abcf9daae2cfaeeb76dc65f3d39776170510aceacb121e1abb49033",
+  "extracted_at": "2026-11-20T09:07:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,140 @@
+{
+  "course_name_original": "Sistemas Híbridos de Control y Procesamiento Digital",
+  "course_name_en": "Hybrid Control Systems and Digital Processing",
+  "ects": 4.0,
+  "semester": "First Semestre",
+  "year_of_study": 1,
+  "course_type": "other",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Microcontrollers",
+    "Control of electromechanical systems"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding of the fundamentals of digital control systems.",
+      "type": "unspecified",
+      "code": "RA18"
+    },
+    {
+      "text": "Implementation of control systems on digital systems.",
+      "type": "unspecified",
+      "code": "RA19"
+    },
+    {
+      "text": "Designing control systems using tools of analysis in the continuous domain and subsequent discretization.",
+      "type": "unspecified",
+      "code": "RA20"
+    },
+    {
+      "text": "Knowledge of the different alternative topologies and control benefits and limitations of the solution.",
+      "type": "unspecified",
+      "code": "RA21"
+    },
+    {
+      "text": "Designing control systems in state-space considering aspects such as observability / control variables and system nonlinearities.",
+      "type": "unspecified",
+      "code": "RA22"
+    },
+    {
+      "text": "Understanding the limitations introduced in the control system for non-ideal behavior of the sensors and actuators.",
+      "type": "unspecified",
+      "code": "RA23"
+    },
+    {
+      "text": "To know the different hardware architectures of digital signal processors.",
+      "type": "unspecified",
+      "code": "RA24"
+    },
+    {
+      "text": "Selection of the most appropriate digital system in terms of performance and economy for each particular implementation.",
+      "type": "unspecified",
+      "code": "RA25"
+    },
+    {
+      "text": "Implementation of efficient digital filters on a digital processor.",
+      "type": "unspecified",
+      "code": "RA26"
+    },
+    {
+      "text": "Designing digital filters considering the computational cost of the solution and the limitations of it.",
+      "type": "unspecified",
+      "code": "RA27"
+    },
+    {
+      "text": "To analyze signals in the frequency domain and be capable of performing a real-time implementation of the discrete transform / fast Fourier.",
+      "type": "unspecified",
+      "code": "RA28"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to digital control systems.",
+    "Discrete-time models of continuous-time controllers.",
+    "Introduction to discrete-time controller design.",
+    "PID controllers: digital implementation and saturation of the controller ouput.",
+    "Digital implementation of cascaded control.",
+    "Implementation issues: sensors, filter and actuator effects.",
+    "Introduction to real-time digital signal processing.",
+    "Digital filters: Introduction to digital filters: FIR/IIR filters.",
+    "Digital filters: IIR design by discretization of continuous-time filters.",
+    "Digital filters: FIR filter design.",
+    "Digital filters: Filter selection criteria.",
+    "Discrete Fourier Transform (DFT/FFT)",
+    "C language implementation of digital control systems."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Problem resolution",
+    "Problem Based Learning"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Final Written Exam (EX)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final Assignment - Documentation",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Final Assignment - Presentation",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Practical Cases (PC)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Attendance and Active Participation (AT)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "A minimum score of 4/10 is required for the Final Written Exam and the Final Assignment components. If all minimum requirements are met, the final grade is calculated as (0.40 × EX) + (0.40 × Assignment) + (0.10 × PC) + (0.10 × AT). If any minimum score in EX or Assignment is not attained, the final grade will be the minimum of the calculated grade and 4.0. The extraordinary call follows the same structure, weighting, and minimum requirements as the ordinary call.",
+  "bibliography": [
+    "M. S. Fadali y A. Visioli, Digital Control Engineering: Analysis and Design. Academic Press, 2009.",
+    "K. Ogata, Discrete-Time Control Systems, 2nd ed. Prentice Hall, 1995.",
+    "R. H. Middleton y G. C. Goodwin, Digital Control and Estimation: A Unified Approach. Prentice Hall, 1990.",
+    "C. H. Houpis y G. B. Lamont, Digital Control Systems, 2nd ed. McGraw-Hill Companies, 1991.",
+    "K. Moudgalya, Digital Control, 1st ed. Wiley-Interscience, 2007.",
+    "“The Scientist and Engineer's Guide to Digital Signal Processing”, Steven W. Smith, Ph.D, freely available online at: http://www.dspguide.com/",
+    "General information on the hardware platform (Texas Instruments C2000) at: http://focus.ti.com/mcu/docs/mcuprodoverview.tsp?sectionId=95&tabId=1531&familyId=916"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (EPI Gijón)",
+  "institution_slug": "uniovi_mm_energia_elec",
+  "degree": "Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (Opción Pathway Ingenium)",
+  "course_code": "MCEESP03-C-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/conversionenergia/-/fof/asignatura/MCEESP03-C-004",
+  "source_language": "es",
+  "source_sha256": "e041303e6405d0fcf3edd12e5efccf33f2ac69d2f04e2246434a2a17e0a73f37",
+  "extracted_at": "2026-11-20T05:59:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

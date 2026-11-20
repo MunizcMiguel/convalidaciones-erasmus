@@ -1,0 +1,120 @@
+{
+  "course_name_original": "Ampliación de Matemáticas",
+  "course_name_en": "Advanced Mathematics",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Master all knowledge acquired in 1st year courses, such as CALCULUS AND LINEAR ALGEBRA AND GEOMETRY. It is also recommended to attend class and maintain a continuous study habit for the course."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability for critical reasoning",
+      "type": "competence",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated by elaborating and defending arguments and solving problems within their area of study",
+      "type": "competence",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects that enables them to learn new methods and theories, and provides them with versatility to adapt to new situations",
+      "type": "knowledge",
+      "code": "GENERAL"
+    },
+    {
+      "text": "That students have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific or ethical issues",
+      "type": "competence",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization",
+      "type": "skill",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Ability to solve problems",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability for autonomous learning",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Assertive behavior",
+      "type": "competence",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to organize and plan",
+      "type": "competence",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "That students can transmit information, ideas, problems and solutions to both specialized and non-specialized audiences",
+      "type": "skill",
+      "code": "GENERAL"
+    }
+  ],
+  "syllabus_topics": [
+    "LINE INTEGRAL: Definitions.- Gradient of a scalar field. Properties.- Divergence of a vector field. Solenoidal field.- Curl of a vector field. Conservative field.- Laplacian of a scalar field.- Calculation of the line integral. -Conservative vector fields and path independence. -Green's Theorem.",
+    "SURFACE INTEGRALS: Area of a surface given in explicit and parametric form.- Surface elements.- Surface integral.- Calculation of surface integrals.- Stokes' Theorem.- Flux of a vector field.- Divergence Theorem or Gauss-Ostrogradski Theorem.",
+    "INTRODUCTION TO DIFFERENTIAL EQUATIONS: Definitions, fundamental concepts and notations.- Solutions. Type of solutions.- Classification of differential equations.- Origin and application of differential equations: Families of curves.",
+    "FIRST-ORDER DIFFERENTIAL EQUATIONS: Existence and uniqueness theorems for solutions.- Geometric interpretation.- Differential equations with separable variables and reducible to them.- Homogeneous equations and reducible to them.- Exact differential equations: Integrating factor.- Linear equations. Reducible to linear.- Orthogonal and isogonal trajectories.",
+    "HIGHER-ORDER LINEAR DIFFERENTIAL EQUATIONS: Introduction to higher-order linear differential equations.- Homogeneous linear equation. Vector treatment of the set of solutions.- Order reduction.- Second-order homogeneous linear equations with constant coefficients. Solution.- Complete second-order linear ODE. Solution: Variation of parameters method and method of undetermined coefficients.- Linear ODEs with variable coefficients: Euler's equation.- Other variable changes in linear equations with variable coefficients.- Applications: Vibrations in mechanical and electrical systems.",
+    "SYSTEMS OF ORDINARY DIFFERENTIAL EQUATIONS: Definition.- First-order homogeneous and non-homogeneous linear systems.- Linear systems with constant coefficients.- Autonomous system of two differential equations.- Phase diagram. Critical points.- Stability at a critical point.- Stability in homogeneous and non-homogeneous linear autonomous systems.",
+    "LAPLACE TRANSFORM: Definition.- Calculation of transforms of elementary functions.- Properties.- Inverse transform and transforms of derivatives.- Translation theorems.- Convolution product. Laplace transform of convolution product.- Application of the transform to the resolution of differential and integral equations and systems of linear differential equations.",
+    "NUMERICAL METHODS FOR SOLVING ODEs: Euler's method.- Taylor methods of order n.- Runge-Kutta methods. Runge-Kutta of order 4."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving sessions",
+    "Problem-based learning",
+    "Computer labs",
+    "Independent study",
+    "Self-directed learning",
+    "Tutoring",
+    "Seminars"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 74.0,
+  "assessment_methods": [
+    {
+      "method": "Written test of theoretical-practical knowledge and problems on course content",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Test on Numerical Methods content in ODEs and PDEs (theoretical and practical exercises)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Dennis G. Zill. Ecuaciones diferenciales con aplicaciones de modelado. 9706861211",
+    "James Stewart ; traducción Ana Elizabeth García Hernández, Enrique C. Mercado González. Cálculo de varias variables : trascendentes tempranas. 9786075265520",
+    "Timothy Sauer. ANÁLISIS NUMÉRICO 2ED. 9786073220590",
+    "Jerrold E. Marsden, Anthony Tromba. Cálculo vectorial. 9788490355787",
+    "Richard Bronson, Gabriel B. Costa ; revisor técnico Raúl Gómez Castillo. Ecuaciones diferenciales. 9789701065099",
+    "George F. Simmons,John S. Robertson. Ecuaciones diferenciales : con aplicaciones y notas históricas. 84-481-0045-x"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720004",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720004",
+  "source_language": "es",
+  "source_sha256": "5ae54474fc4b01cc15666ae26aff09b173b495ea8e9492004c2dc256c46c698b",
+  "extracted_at": "2026-11-13T21:28:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

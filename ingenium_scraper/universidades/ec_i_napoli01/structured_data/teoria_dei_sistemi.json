@@ -1,0 +1,134 @@
+{
+  "course_name_original": "Teoria Dei Sistemi",
+  "course_name_en": "Systems Theory",
+  "ects": 9.0,
+  "semester": "II",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Analisi Matematica II",
+    "Geometria e Algebra",
+    "Fisica Generale II",
+    "Basic knowledge of Laplace, Zeta, and Fourier transforms"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with the basics of mathematical modeling of natural and/or artificial continuous and discrete-time systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Provide students with techniques for analyzing systems described by input-state-output and input-output mathematical models, with particular reference to linear and stationary systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Provide students with the main techniques for analyzing feedback systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Introduce students to the use of main software for system analysis and simulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will acquire methodological tools to describe simple engineering systems using an adequate mathematical model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will learn to derive small-signal models of non-linear systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to characterize the time response and main structural properties of linear systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be introduced to the main techniques for analyzing dynamic systems, both in the time domain and in the complex domain.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will learn about the analysis of systems in the frequency domain, presenting the main parameters that characterize linear systems in this context.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to analyze block diagrams, deriving an overall model, and evaluate the response of this model to given signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to analyze the structural properties of such a model, with particular reference to stability.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to use Matlab/Simulink software for system analysis and simulation.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of matrix algebra: elementary operations on matrices and vectors. Eigenvalues and eigenvectors of a matrix. Vector spaces. Banach spaces and Hilbert spaces. p-norms of matrices and vectors.",
+    "Dynamic systems: input, state and output variables, state and input-output representations, classification of dynamic systems.",
+    "Elements of modeling, examples of mathematical models.",
+    "Non-linear systems: equilibrium points of a non-linear system, linearization around a trajectory and an equilibrium point.",
+    "Analysis of linear and stationary continuous and discrete-time systems: the principle of superposition of effects, free evolution response and forced response. Calculation of the transition matrix through diagonalization. Natural modes.",
+    "Analysis of linear and stationary continuous-time systems using the Laplace transform: transfer function, impulse response and step response, characteristic parameters of the step response, response to polynomial and sinusoidal signals, steady-state and transient response.",
+    "Analysis of linear and stationary discrete-time systems using the Zeta transform: transfer function, impulse response and step response, steady-state and transient response.",
+    "Stability of equilibrium points: simple and asymptotic stability, instability. Examples of stability analysis of equilibrium points of non-linear systems (pendulum, etc.). Notes on Lyapunov Theory. Stability of linear systems, Routh criterion, application of Routh criterion to discrete-time systems. Input-output stability of linear systems.",
+    "Interconnected systems and block diagrams: series, parallel and feedback systems. Representation of interconnected systems. Notes on the stability of interconnected systems.",
+    "Realization theory for single-variable systems, canonical observability form and canonical reachability form.",
+    "Digitization techniques for a continuous-time system. Sampled-data systems: sampler and ZOH filter. Sampled-data representation of a finite-dimensional linear system.",
+    "Fourier series and transform. Frequency response of a linear and stationary system.",
+    "Bode diagram plotting.",
+    "Filtering action of dynamic systems: low-pass, high-pass, band-pass, notch filters.",
+    "Stability analysis of closed-loop systems: Nyquist diagram plotting, Nyquist criterion. Stability margins.",
+    "Structural properties: reachability, controllability and observability, Kalman canonical forms.",
+    "Matlab and Simulink for the simulation and analysis of dynamic systems."
+  ],
+  "teaching_methods": [
+    "Lectures (80% of total hours)",
+    "Class exercises using MATLAB/SIMULINK (20% of total hours)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of project work (simple assignments in Matlab/Simulink)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral interview. The written test verifies the student's ability to calculate the response of a linear system to given signals, plot Bode diagrams, and analyze the stability properties of interconnected systems. The oral interview, which follows the written test, consists of a discussion on the theoretical topics covered in the course and on simple Matlab/Simulink assignments, in order to ascertain the acquisition of concepts and content. Passing the written test is a prerequisite for access to the oral test, but it is not sufficient to pass the exam.",
+  "bibliography": [
+    "G. Celentano, L. Celentano – “Modellistica, Simulazione, Analisi, Controllo e Tecnologie dei Sistemi Dinamici - Fondamenti di Dinamica dei Sistemi”, Vol. II, EdiSES, 2010.",
+    "Other texts and/or notes suggested by the lecturer."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Napoli Federico II",
+  "institution_slug": "ec_i_napoli01",
+  "degree": "Laurea in Ingegneria Elettronica (L-8, Classe delle lauree in Ingegneria dell'informazione)",
+  "course_code": "teoria_dei_sistemi",
+  "academic_year": "A.A. 2022/23 (Guida dello Studente publicada)",
+  "source_url": "https://ingegneria-elettronica.dieti.unina.it/images/allegati/GdS_-_Laurea_-_2022-23.pdf",
+  "source_language": "it",
+  "source_sha256": "ad5c881e93effe122ae41790d611b4202f46144e0330b5519f7e9af66df5091b",
+  "extracted_at": "2026-11-20T08:20:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

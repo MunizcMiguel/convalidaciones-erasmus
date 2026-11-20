@@ -1,0 +1,181 @@
+{
+  "course_name_original": "MATHEMATICS FOR INFORMATION ENGINEERING (800003)",
+  "course_name_en": "Mathematics for Information Engineering",
+  "ects": 9.0,
+  "semester": "First semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know and understand the fundamental discrete structures: sets, relations (in particular equivalence relations and order relations) and graphs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the principles of combinatorics and discrete probability.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand propositional logic, Boolean algebra and its application to logic circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand modular arithmetic and the representation of integers in different bases.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand vector spaces in Rⁿ, matrix algebra (rank, inverse, determinant) and the theory of systems of linear equations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand eigenvalues and eigenvectors of a matrix, and quadratic forms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know and understand the basics of analytic geometry.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the formal language and the logical structure of definitions, statements, proofs and algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply what they have learned to solve exercises and problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Represent relations and graphs, identify their properties and apply the main graph algorithms (topological sorting, shortest paths, minimum spanning tree).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve counting and probability problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine whether a logical formula is satisfiable or a tautology, recognize equivalent formulas and simplify logic circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Work in modular arithmetic, convert numbers between bases and carry out binary arithmetic.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Check whether vectors are linearly independent and find bases and dimensions of subspaces of Rⁿ.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve and analyze systems of linear equations, including systems that depend on parameters, using Gaussian elimination.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compute the rank, inverse, determinant, eigenvalues and eigenvectors of a matrix, and classify quadratic forms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Represent and study lines and planes in the plane and in space.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze a problem and recognize its mathematical structure, whether combinatorial, probabilistic, logical, graph-based or linear.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Choose on their own the most suitable model and solution algorithm, assess whether solutions exist and are unique, and critically check that their results are correct and consistent.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Present the concepts, methods and results they have learned clearly, rigorously and concisely, both in writing and orally.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Use mathematical language and notation correctly and be able to justify each step of their solutions and of the algorithms they apply.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop abstract and algorithmic reasoning skills and the ability to study technical and scientific texts on their own, including texts in English such as the course textbook.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be prepared for later courses in the degree program, for example in computer science, algorithms, computer architecture, operations research and networks, and be able to keep their knowledge up to date on their own.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Set theory: definitions and representation of sets, set operations and their properties, inclusion–exclusion principle, Cartesian product",
+    "Relations: definition, properties of relations, equivalence relations, partially ordered sets, partial and total orders, topological sorting",
+    "Graphs: definitions and properties, graph representation, algorithms for shortest and longest path problems in directed acyclic graphs, Dijkstra's shortest-path algorithm, trees, decision trees, Kruskal's minimum spanning tree algorithm",
+    "Combinatorics: pigeonhole principle, permutations with and without repetition (k-permutations of n), permutations of a set, combinations",
+    "Probability: Laplace's (classical) definition, probability of the union of events, conditional probability, probability of the intersection of events, Bayes' theorem",
+    "Propositional logic: simple and compound propositions, truth tables, logically equivalent propositions, satisfiability of compound propositions",
+    "Boolean algebra: definition of a Boolean algebra, Boolean functions and duality, sum-of-products expansion",
+    "Logic circuits: representing Boolean functions with logic circuits, simplifying logic circuits, Karnaugh maps",
+    "Modular arithmetic: modular arithmetic, congruences",
+    "Integer representation: base-n representation of decimal numbers, conversion between decimal, binary, octal and hexadecimal; binary addition and multiplication",
+    "Vectors: definition and geometric representation of vectors, vector operations, linear dependence and independence, vector spaces, bases and dimension of a vector space",
+    "Matrices: matrix operations, row echelon form, elementary row operations and row reduction, rank, inverse, determinant",
+    "Systems of linear equations: solving systems of linear equations by row reduction, analysis of systems with parameters, homogeneous systems, null space, rank and nullity",
+    "Eigenvalues and eigenvectors: definition, characteristic equation, computation of eigenvalues and eigenvectors",
+    "Quadratic forms: definition, classification of quadratic forms",
+    "Lines and planes: parametric and Cartesian equations of lines and planes"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercise sessions",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam (statement or proof of theorems)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam is oral. During the exam, students may be asked to solve some exercises in writing and to state or prove theorems. For students with certified learning disorders or disabilities, assessment arrangements will be agreed upon to meet individual needs while respecting course objectives.",
+  "bibliography": [
+    "K. H. Rosen, Discrete Mathematics and Its Applications, 8th edition, McGraw-Hill.",
+    "Lecture notes on Graph Theory and Combinatorics (in Italian)",
+    "Lecture notes on Linear Algebra (in Italian)"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica",
+  "institution_slug": "ec_i_beneven02__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "800003",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8630&ordinamento_aa=2026&af_percorso=9999&corso_cod=10220&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "29b7b67312bbd45ec570375681cb11a99b099f7578e26d1d0d86825688b9de5b",
+  "extracted_at": "2026-11-20T12:42:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

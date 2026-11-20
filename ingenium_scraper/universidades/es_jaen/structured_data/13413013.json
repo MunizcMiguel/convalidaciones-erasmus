@@ -1,0 +1,198 @@
+{
+  "course_name_original": "Técnicas numéricas y modelado geométrico",
+  "course_name_en": "Numerical Techniques and Geometric Modeling",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Minimal computer skills in Windows interface, file management, and local/internet network access.",
+    "Availability of a personal computer at home for individual work.",
+    "Ability to integrate with other students in work groups for collective tasks."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students must be able to gather and interpret relevant data (normally within their area of study) to make judgments that include reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students must have demonstrated possession and understanding of knowledge in an area of study that builds on general secondary education, and is usually at a level that, while supported by advanced textbooks, also includes aspects implying knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students must have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "Students must know how to apply their knowledge to their work or vocation in a professional manner and possess the competences usually demonstrated through the elaboration and defense of arguments and problem-solving within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Knowledge and skills to apply graphic engineering techniques.",
+      "type": "competence",
+      "code": "134ACEM1"
+    },
+    {
+      "text": "Ability to apply new technologies, including information and communication technologies.",
+      "type": "skill",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability to manage information, handle and apply technical specifications and necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "134ACT2"
+    },
+    {
+      "text": "Basic knowledge of production and manufacturing systems.",
+      "type": "knowledge",
+      "code": "134ACC9"
+    },
+    {
+      "text": "Spatial vision ability and knowledge of graphic representation techniques, both by traditional methods of metric and descriptive geometry, and through computer-aided design applications.",
+      "type": "competence",
+      "code": "134ACBB5"
+    },
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases and software with application in engineering.",
+      "type": "knowledge",
+      "code": "134ACBB3"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Interpolation. Concept of interpolation. Unisolvence.",
+    "Polynomial interpolation in one variable. Lagrangian interpolation: Indeterminate coefficients, Newton's idea, Divided differences, Lagrange's idea. Taylor interpolation. Hermite interpolation.",
+    "Construction of interpolating polynomial parametric curves. Parameter selection.",
+    "Convergence problems in polynomial interpolation. Weierstrass and Faber theorems.",
+    "Spline functions. Degree and class. Spline interpolation. Examples. Basis of spline functions.",
+    "Interpolation in two variables. Unisolvent problems in Pn and Qn,m. Introduction to spline interpolation in two variables. Construction of Lagrange functions.",
+    "Approximation. Concept of approximation. Quantitative approximation: Least squares. Qualitative approximation: Bernstein polynomials. Shape preservation.",
+    "B-splines.",
+    "Approximation of one-variable functions.",
+    "Approximation of curves. Bezier curves. B-spline curves. NURBS curves.",
+    "Approximation of two-variable functions. Approximation of surfaces. Bezier, B-spline and NURBS surfaces.",
+    "Parametric variational 3D CAD systems. Creation of parts and assemblies.",
+    "Spatial wireframe models. Spatial geometry in CAD environments.",
+    "Planar curves. Spatial curves. Bezier and B-Spline curves.",
+    "Planar surfaces. Polygonal faces. Manipulation of planar surfaces.",
+    "Warped surfaces: ruled, swept, revolved, curve-bounded, lofted. Manipulation of warped surfaces.",
+    "Generalized three-dimensional meshes.",
+    "Modeling of industrial products composed of surfaces.",
+    "Preparation of drawings from surface-based three-dimensional designs.",
+    "Applications I: Discretization of volumes for analysis using the Finite Element Technique.",
+    "Applications II: Simulation of a part's stress behavior under external loads.",
+    "Applications III: Optimization of a part's design based on stress behavior analysis.",
+    "Applications IV: Obtaining machining trajectories for complex surfaces for manufacturing on Numerical Control machines.",
+    "Applications V: Photorealistic representations. Texturing and lighting techniques. Creation of videos of virtual 3D environments.",
+    "Practice: Preliminaries. Mathematica and plotting curves and surfaces with this software.",
+    "Practice: Representing curves using polynomial interpolation of one-variable functions.",
+    "Practice: Representing curves using polynomial interpolation of parametric curves.",
+    "Practice: Representing curves using Spline interpolation.",
+    "Practice: Representing surfaces using polynomial and Spline interpolation.",
+    "Practice: Representing curves using least squares approximation and Bernstein polynomials.",
+    "Practice: Representing surfaces using Bezier surface approximation.",
+    "Practice: Representing curves using B-Spline curve approximation.",
+    "Practice: Representing surfaces using B-Spline surface approximation.",
+    "Practice: Representing curves using rational Bezier curve approximation.",
+    "Practice: Representing curves using Nurbs curve approximation.",
+    "Practice: Representing surfaces using rational Bezier surface approximation.",
+    "Practice: Representing surfaces using Nurbs surface approximation.",
+    "Practice: Explanation of the final project.",
+    "Practice: Sketching (1/2).",
+    "Practice: Sketching (2/2): Creation of 2D sketches and drawings necessary for 3D part generation (solid) and profile structures (surfaces).",
+    "Practice: Part (1/3).",
+    "Practice: Part (2/3).",
+    "Practice: Part (3/3): Options for \"solid type\" 3D modeling of industrial parts.",
+    "Practice: Surfaces (1/3).",
+    "Practice: Surfaces (2/3).",
+    "Practice: Surfaces (3/3): Options for \"surface type\" 3D modeling of industrial parts.",
+    "Practice: Drawing (1/2).",
+    "Practice: Drawing (2/2): Options for drawing 2D planes and obtaining normalized projections (views) from a 3D part.",
+    "Practice: Assemblies (1/1): For an industrial mechanism, obtaining its 3D model assembled in its operating position, normalized views, and assembly drawing (exploded perspective).",
+    "Practice: Simulation (1/2): Analysis, using CAE software, of the stress behavior of a part under external loads.",
+    "Practice: Simulation (2/2): Optimization of the geometry and dimensions of an industrial part with CAE stress analysis software.",
+    "Practice: Group Project (1/1): Presentation and defense of the group project."
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures) in large groups, covering theoretical content, general examples, and introductory activities.",
+    "Small group classes (computer labs) for problem solving, practical activities, seminars, and debates.",
+    "Weekly practical sessions, with theoretical introductions by the professor and resolution of exercises, sometimes completed in class or at home.",
+    "Individual final project, chosen by the student, covering course content and presented in class.",
+    "Group project (maximum two students), with choice of thematic, delivered electronically, presented, and defended."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Block 1: Active Participation",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Block 1: Individual Project (Mathematica)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Block 1: Theory Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Block 1: Weekly Practices",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Block 2: Weekly Practices",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Block 2: Practical Exam (CAD/CAE software)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Block 2: Group Project",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "The grading system follows RD 1125/2003. Contents of Block 1 and Block 2 are evaluated separately, each contributing 50% to the final grade. For Block 1, students have the option to choose between an individual project or a theory exam, which accounts for 50% of the block's grade. Grades for Block 1 (Active Participation) and Block 2 (Practices) are maintained for ordinary and extraordinary calls. For the extraordinary call, students may request to be evaluated solely by the Block 2 Practical Exam, which would then account for 100% of the final grade.",
+  "bibliography": [
+    "Burden, Richard L. - (2003) - Análisis númerico - International Thomson Editores",
+    "Gerald, Curtis F. - (2000) - Análisis numérico con aplicaciones - Pearson Educación",
+    "Farin, Gerald E. - (1993) - Curves and surfaces for computer aided geometric design: a practical guide - Academic Press",
+    "Cohen, Elaine - (2001) - Geometric modeling with splines: an introduction - A K Peters",
+    "Hansen, L. Scott - (2006) - Applied SolidWorks - Industrial Press",
+    "Gómez González, Sergio. - (2024) - Gran libro de SolidWorks - Marcombo",
+    "Torrecilla, Eduardo - (2018) - El gran libro de CATIA - Marcombo",
+    "Gómez González, Sergio - (2017) - El gran libro de SolidWorks Simulation - Marcombo",
+    "Ferré Masip, Rafael - (1987) - Fabricación asistida por computador - CAM - Marcombo Boixerau",
+    "Gómez González, Sergio. - (2024) - SolidWorks Práctico II - 2. ª Edición. - Marcombo, S.A.",
+    "Gómez González, Sergio - (2012) - SolidWorks práctico - Marcombo",
+    "Lombard, Matt - (2019) - Mastering solidworks - Sybex",
+    "Almattar, Tayseer - (2019) - Learn SolidWorks 2020 : a hands-on guide to becoming an accomplished SolidWorks associate and professional - Packt",
+    "Bethune, James D. - (2023) - Engineering design and graphics with SolidWorks 2023 - Pearson",
+    "Shah, Jami J. - () - Parametric and feature-based CAD-CAM: concepts, techniques, and applications - John Wiley & Sons",
+    "Sanz Adán, Félix. - () - Cad-Cam: gráficos, animación y simulación por computador - Thomson",
+    "Kvasov, Boris I. - () - Methods of shape-preserving spline approximation - World Scientific",
+    "Dierckx, Paul - () - Curve and surface fitting with splines - Clarendon [etc.]",
+    "Sarfraz, Muhammad. - () - Interactive Curve Modeling : With Applications to Computer Graphics, Vision and Image Processing - Springer London",
+    "Piegl, Les - () - The Nurbs book - Springer",
+    "Ariza Moreno, Pilar - (2004) - Método de los elementos finitos: introducción a ANSYS - Universidad de Sevilla, Secretariado de Publicaciones"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13413013",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13413013/es/2026-27-13413013_es.html",
+  "source_language": "es",
+  "source_sha256": "61135c17f53d4bafc86ec1c713bba546a7bb14a16da7cb12ebc5398d1b6dbefb",
+  "extracted_at": "2026-11-13T21:41:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

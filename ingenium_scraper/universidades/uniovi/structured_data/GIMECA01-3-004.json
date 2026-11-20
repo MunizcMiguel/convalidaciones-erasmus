@@ -1,0 +1,175 @@
+{
+  "course_name_original": "Transmisión de Calor Aplicada",
+  "course_name_en": "Applied Heat Transfer",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "It is highly recommended that the student has passed the second-year course Thermal Engineering.",
+    "Assimilated basic knowledge of Calculus, Linear Algebra, and Mathematical Methods taught in the first year.",
+    "Knowledge of the main characteristics and fundamental physical laws of the three basic heat transfer mechanisms (conduction, convection, and radiation).",
+    "Ability to mathematically express equations describing heat transfer problems from fundamental balances (mass, momentum, and heat) and basic heat transfer laws."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and critical reasoning.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills, and aptitudes in the field of Mechanical Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Knowledge for performing measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other similar tasks.",
+      "type": "knowledge",
+      "code": "CG6"
+    },
+    {
+      "text": "Ability to apply quality principles and methods.",
+      "type": "skill",
+      "code": "CG9"
+    },
+    {
+      "text": "Honesty, responsibility, ethical commitment, and solidarity spirit.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "skill",
+      "code": "CG15"
+    },
+    {
+      "text": "Knowledge of applied thermodynamics and heat transfer. Basic principles and their application to solving engineering problems.",
+      "type": "knowledge",
+      "code": "CC1"
+    },
+    {
+      "text": "Applied knowledge of thermal engineering.",
+      "type": "knowledge",
+      "code": "CM3"
+    },
+    {
+      "text": "Applied knowledge of the fundamentals of fluid-mechanical systems and machines.",
+      "type": "knowledge",
+      "code": "CM6"
+    },
+    {
+      "text": "Identify variables and results in fluid systems with heat exchange.",
+      "type": "skill",
+      "code": "RTC-1"
+    },
+    {
+      "text": "Establish relationships between surfaces that exchange heat by radiation in participating media.",
+      "type": "skill",
+      "code": "RTC-2"
+    },
+    {
+      "text": "Formulate models expressed by differential equations that reproduce a heat transfer problem.",
+      "type": "skill",
+      "code": "RTC-3"
+    },
+    {
+      "text": "Know and design basic heat exchangers with and without phase change.",
+      "type": "skill",
+      "code": "RTC-4"
+    },
+    {
+      "text": "Know and energetically evaluate the main heat production equipment and systems.",
+      "type": "skill",
+      "code": "RTC-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Analysis of convection",
+    "Heat exchangers without phase change",
+    "Phase change: Boiling. Condensation",
+    "Combustion Technology",
+    "Heat exchangers with phase change",
+    "Radiation in non-participating medium",
+    "P1. Convection (Computer)",
+    "P2. LMTD method exchanger (Laboratory)",
+    "P3. NTU method exchanger (Laboratory)",
+    "P4. Boiling and condensation (Computer)",
+    "P5. Boiler (Laboratory)",
+    "P6. Phase change exchanger (Computer)",
+    "P7. Radiation (Computer)",
+    "Lesson 1: General conservation equations. Methods for studying convection. Dimensionless numbers. Analysis of main physical convection situations. Use of empirical correlations.",
+    "Lesson 2. Forced internal flow convection in pipes. Fully developed flow. Diverse cross-sections. Entrance effects.",
+    "Lesson 3. Forced external flow convection. Flat plate. Transverse flow over a cylinder. Flow around a sphere. Natural convection.",
+    "Lesson 4: Classification of heat exchangers. Plate heat exchangers. Shell and tube heat exchangers.",
+    "Lesson 5: Temperature distribution inside a heat exchanger. Logarithmic mean temperature difference. Overall heat transfer coefficient for flat and finned surfaces.",
+    "Lesson 6: Application of the Logarithmic Mean Temperature Difference (L.M.T.D.) method: Data and calculation scheme. Number of Transfer Units (N.T.U.) method: Data and calculation scheme.",
+    "Lesson 7. Pool boiling. Nucleate boiling. Maximum heat flux. Film boiling. Minimum heat flux. Flow boiling.",
+    "Lesson 8. Laminar film condensation. Turbulent film condensation. Film condensation in horizontal tubes.",
+    "Lesson 9. Definitions. Calculation of complete and stoichiometric combustion. Calculation of incomplete combustion and with excess air. Thermal balance in boilers.",
+    "Lesson 10. Obtaining temperature versus heat flux diagrams for boiling. Calculation methodology. Capacity ratio. Approach factor for L.M.T.D. application.",
+    "Lesson 11. Nature of thermal radiation. Laws of radiation behavior for a black body. Properties of radiation.",
+    "Lesson 12. Definition of radiation intensity. Shape factors calculated by integrals. Hottel's method. Algebra of shape factors.",
+    "Lesson 13. Radiation balances in non-participating media. Electrical analogy. Particularization of the analogy for a black body and for a re-radiating body.",
+    "Lesson 14. Resolution of radiation within enclosures. Radiation exchange between surfaces. Matrix solution method. Radiation shields."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices",
+    "Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Virtual Campus activities (reading theoretical foundations, questionnaires, forum participation, additional material viewing)",
+    "Autonomous work",
+    "Problem solving"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 61.0,
+  "assessment_methods": [
+    {
+      "method": "Participation in the classroom (PA)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Laboratory practices (PL)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Group tutorial (TG)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Written exam (EX)",
+      "weight_percentage": 70.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if the written exam score (EX) is 4 or higher, the course grade is calculated as: NOTE = (0.1 x PA) + (0.10 × PL) + (0.10 × TG) + (0.70 × EX). If the written exam score is less than 4, the course grade is: NOTE = EX. To pass, the course grade must be 5.0 or higher. For extraordinary calls, a minimum of 4 points out of 10 in the written exam (EX) is mandatory to pass. If this minimum is reached, the final grade for the extraordinary call is: NOTE = (0.15 x EP) + (0.85 × EX), where EP is the practical exam. If the student has continuous assessment grades (PA, PL, TG), their average will replace the EP grade.",
+  "bibliography": [
+    "Prieto M.M., Suárez I. Transmisión de Calor. Apuntes. Ediuno",
+    "Aguirrezabalaga V., Prieto M.M. Transferencia de Calor. Problemas. Ediuno",
+    "Suárez I., Prieto M.M. Tablas y Gráficos para Resolución de Problemas de Transmisión de Calor. Ediuno",
+    "Incropera F.P., De Witt D.P. Fundamentos de Transferencia de Calor. Prentice Hall",
+    "Çengel YA. Transferencia de Calor y Masa. McGraw-Hill"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo",
+  "institution_slug": "uniovi",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "GIMECA01-3-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/mecanica/-/fof/asignatura/GIMECA01-3-004",
+  "source_language": "es",
+  "source_sha256": "8dd547747d8812f8637354ab5373c274c7a62164dd5cb23a7c24e0aed8edeb3d",
+  "extracted_at": "2026-11-12T23:52:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,271 @@
+---
+{
+ "course_code": "2GITICID-1-010",
+ "course_name": "Ondas y Electromagnetismo",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-1-010",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:03",
+ "content_sha256": "d0c56ea6cd1cdbedeb783fac64c8a4defc71c8ca2cdb037cef3451029f3cd3e9"
+}
+---
+
+# Ondas y Electromagnetismo
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-1-010
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Segundo Semestre
+- **Materia:** Fundamentos Físicos
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (35 Horas); Prácticas de Aula/Semina (14 Horas); Prácticas de Laboratorio (9 Horas)
+
+## Contextualización
+
+La asignatura pertenece a la Materia Fundamentos Físicos del módulo Fundamentos de Ingeniería
+
+## Requisitos
+
+Se recomienda haber cursado Física en 2º de bachillerato y tener conocimientos matemáticos previos de cálculo vectorial, geometría básica, trigonometría y derivación e integración de funciones de una variable
+
+## Competencias y resultados del aprendizaje
+
+Los objetivos de esta asignatura están relacionados con las siguientes competencias :
+
+**Competencias Generales**:
+
+GTR1 Capacidad para resolver problemas dentro de su área de estudio; potenciando, fundamentamente, la vertiente razonadora frente a la puramente memorística.
+
+GTR2 Capacidad de abstracción.
+
+GTR3 Capacidad de actuar autónomamente.
+
+GTR4 Capacidad de planificación y organización del trabajo personal.
+
+GTR5 Capacidad de trabajo en equipo.
+
+GTR6 Capacidad de comunicación efectiva oral y escrita.
+
+GTR7 Poseer habilidades de aprendizaje necesarias para emprender estudios posteriores o mejorar su formación con un cierto grado de autonomía.
+
+GTR8 Tener motivación por la calidad y la mejora continua y actuar con rigor en el desarrollo profesional.
+
+**Competencias Específicas**:
+
+EFB2.1 Comprensión y dominio de los conceptos básicos de campos y ondas y su aplicación para la resolución de problemas propios de la ingeniería.
+
+EFB2.2 Comprensión y dominio de los conceptos básicos de electromagnetismo y su aplicación para la resolución de problemas propios de la ingeniería.
+
+Las competencias antedichas se deben concretar en los siguientes resultados de aprendizaje:
+
+***Conocimientos (saber):***
+
+- RAOE-1 Entender el concepto de onda y conocer tanto su caracterización matemática como los fenómenos ondulatorios básicos.
+- RAOE-2 Conocer los conceptos y leyes básicos del electromagnetismo y aplicarlos al análisis de situaciones electromagnéticas sencillas en el vacío y en medios materiales.
+
+***Habilidades y destrezas (saber hacer***):
+
+- RAOE-3 Manejar con corrección la simbología física recomendada, tanto en cuanto a magnitudes como a unidades.
+- RAOE-4 Aprender y poner en práctica las estrategias de resolución de problemas relativos a los distintos contenidos de la asignatura.
+- RAOE-5 Adquirir las destrezas relacionadas con el trabajo de laboratorio y con el tratamiento de medidas y errores.
+
+## Contenidos
+
+**1. Contenidos de la asignatura.**
+
+**Tema 1.** **Electrostática.**
+
+Carga eléctrica. Ley de Coulomb. Campo y potencial electrostático creados por cargas puntuales. Obtención de los mismos creados por distribuciones de carga sin simetría total. Obtención del campo eléctrico creado por distribuciones de carga con simetría total: Teorema de Gauss. Obtención del potencial electrostático creado por estas últimas distribuciones de carga. Conductores. Dieléctricos: Condensadores.
+
+**Tema 2.** **Corriente eléctrica.**
+
+Intensidad y densidad de corriente eléctrica. Ley de Ohm. Resistencia: asociaciones de las mismas. Efecto Joule. Generadores: Fuerza electromotriz. Circuitos de corriente continua.
+
+**Tema 3.** **Magnetostática: acciones de campos magnéticos sobre corrientes.**
+
+Campo magnético. Inducción magnética. Ley de Lorentz. Efecto Hall. Fuerza magnética sobre una corriente eléctrica. Momento del campo magnético sobre una espira.
+
+**Tema 4. Magnetostática: campos magnéticos creados por corrientes.**  
+Ley de Biot-Savart: aplicación a conductores con simetrías de interés. Fuerza entre corrientes: redefinición de amperio. Teorema de Ampère.
+
+**Tema 5.Campos electromagnéticos variables con el tiempo.**
+
+Inducción electromagnética: Ley de Faraday-Henry. Autoinducción e inducción mutua.
+
+**Tema 6.Ondas.**
+
+Concepto de onda. Ecuación de ondas. Clasificación de ondas. Ondas armónicas. Ondas sonoras. Ondas estacionarias en cuerdas vibrantes. Efecto Doppler.
+
+**2. Contenidos de las Prácticas de Laboratorio.**
+
+PL.1. Medidas eléctricas con múltimetros. Comprobación experimental de la ley de Ohm.
+
+PL.2. Comprobación experimental del transitorio de carga de un condensador.
+
+PL.3. Comprobación experimental de los campos magnéticos creados por: conductores rectilíneos infinitos
+
+y finitos y espiras circulares.
+
+PL.4. Comprobación experimental de parámetros físicos asociados con ondas estacionarias generadas
+
+en cuerdas vibrantes.
+
+## Metodología y plan de trabajo
+
+Todas las diferentes actividades están encaminadas a que el alumno adquiera las competencias generales y específicas relacionadas con la materia.
+
+En las siguientes tablas se detalla la relación entre las actividades formativas y las competencias que debe adquirir el estudiante en cada una de las actividades.
+
+| **ACTIVIDADES PRESENCIALES** |  |  |  |  |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| **CLASES EXPOSITIVAS (CE/SE)** |  |  |  |  |  |  |  |  |  |  |
+| **Actividad** |  |  |  |  |  |  |  |  |  | **Competencias** |
+| 1. Exposición y explicación de los contenidos teóricos de la asignatura por parte del profesor |  |  |  |  |  |  |  |  |  | Todas las correspondientes a la asignatura |
+| 2. Ejemplificación de los contenidos de la asignatura y resolución de problemas—tipo por parte del profesor |  |  |  |  |  |  |  |  |  |  |
+| 3. Actividades de evaluación en grupos grandes |  |  |  |  |  |  |  |  |  |  |
+| **PRÁCTICAS DE AULA/SEMINARIOS/TALLERES (PA/SE)** |  |  |  |  |  |  |  |  |  |  |
+| **Actividad** |  |  |  |  |  |  |  |  |  | **Competencias** |
+| 4. Resolución de problemas |  |  |  |  |  |  |  |  |  | Todas las correspondientes a la asignatura |
+| 5. Actividades formativas en grupos de trabajo |  |  |  |  |  |  |  |  |  |  |
+| 6. Exposición y defensa de problemas, trabajos, proyectos |  |  |  |  |  |  |  |  |  |  |
+| 7. Actividades de evaluación en grupos reducidos |  |  |  |  |  |  |  |  |  |  |
+| **PRÁCTICAS DE LABORATORIO (PL/SE)** |  |  |  |  |  |  |  |  |  |  |
+| **Actividad** |  |  |  |  |  |  |  |  |  | **Competencias** |
+| 8. Manejo de equipos de medida en laboratorio |  |  |  |  |  |  |  |  |  | Todas las correspondientes a la asignatura |
+| 9. Uso de software de simulación y/o tratamiento de datos experimentales |  |  |  |  |  |  |  |  |  |  |
+| 10. Análisis de resultados |  |  |  |  |  |  |  |  |  |  |
+| 11. Actividades de evaluación en grupos muy reducidos |  |  |  |  |  |  |  |  |  |  |
+| **EVALUACIÓN FINAL (SE)** |  |  |  |  |  |  |  |  |  |  |
+| 12. Evaluación final |  |  |  |  |  |  |  |  |  | Todas las correspondientes a la asignatura |
+| **ACTIVIDADES NO PRESENCIALES (TRG/TRI)** |  |  |  |  |  |  |  |  |  |  |
+| **Actividad** |  |  |  |  |  |  |  |  |  | **Competencias** |
+| 1. Estudio de los contenidos teórico-prácticos expuestos en el aula y en el laboratorio por el profesor |  |  |  |  |  |  |  |  |  | Todas las correspondientes a la asignatura |
+| 2. Resolución de problemas y elaboración de informes sobre trabajos propuestos por el profesor para su realización individual o en grupo |  |  |  |  |  |  |  |  |  |  |
+| 3. Uso de plataformas virtuales para la posible realización de actividades docentes |  |  |  |  |  |  |  |  |  |  |
+| 4. Actividades de autoevaluación |  |  |  |  |  |  |  |  |  |  |
+|  |  | Trabajo Presencial |  |  |  |  | Trabajo No Presencial |  |  |  |
+|  | Total | CE | PA | PL | SE | Total | TRG | TRI | Total |  |
+| Tema 1 | 112 | 9 | 11 | 7 | 3 | 44 | 12 | 56 | 68 |  |
+| Tema 2 |  | 3 |  |  |  |  |  |  |  |  |
+| Tema 3 |  | 7 |  |  |  |  |  |  |  |  |
+| Tema 4 |  | 4 |  |  |  |  |  |  |  |  |
+| Tema 5 | 38 | 3 | 3 | 2 | 1 | 14 | 4 | 20 | 24 |  |
+| Tema 6 |  | 5 |  |  |  |  |  |  |  |  |
+| Total | 150 | 31 | 14 | 9 | 4 | 58 | 16 | 76 | 92 |  |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas (CE) | 31 | 20.7 | 58 |
+|  | Práctica de aula (PA) | 14 | 9.3 |  |
+|  | Prácticas de laboratorio (PL) | 9 | 6.0 |  |
+|  | Sesiones de evaluación (SE) | 4 | 2.7 |  |
+| No presencial | Trabajo en Grupo (TRG) | 16 | 10.6 | 92 |
+|  | Trabajo Individual (TRI) | 76 | 50.6 |  |
+| Total |  | 150 | 100.0 | 150 |
+
+De forma excepcional, si las condiciones sanitarias lo requieren, se podrán incluir actividades de docencia no presencial. En cuyo caso, se informará al estudiantado de los cambios efectuados.
+
+## Evaluación del aprendizaje
+
+**7.1 CONVOCATORIA ORDINARIA**
+
+Se establecen dos sistemas de evaluación de la asignatura:
+
+1. **Evaluación continua**. Adecuada para los alumnos que asistan a las clases con regularidad y participen en las actividades presenciales.
+
+2. **Evaluación por examen global**. Adecuada para los alumnos que no asistan a clase con regularidad ni participen en las actividades presenciales.
+
+**7.1.1 Evaluación continua**.
+
+La siguiente tabla resume el sistema de evaluación continua de la asignatura:
+
+|  | **Métodos de evaluación** | **Porcentaje** |
+| --- | --- | --- |
+| 1 | Pruebas objetivas escritas teóricas y/o prácticas de realización individual. (\*) | 30 |
+| 2 | Examen Final Global de la asignatura | 45 |
+| 3 | Evaluación de prácticas de laboratorio(\*) o examen final de prácticas de laboratorio | 15 |
+| 4 | Control de asistencia, comportamiento, actitud y notas del profesor acerca de la participación activa del alumno en actividades individuales y colectivas durante el proceso de aprendizaje (\*) | 10 |
+
+(\*)Se establece un mínimo del 75% en la participación de todas las actividades presenciales para tener acceso a la fórmula de evaluación continua. Si un alumno incumpliera esta norma, perdería la evaluación continua y pasaría a ser evaluado por examen global.
+
+La nota de la evaluación continua está formada por los siguientes términos:
+
+- Calificación de Teoría *CT,* formada por las notas de las pruebas objetivas (apartado 1 de la tabla) y notas de participación activa (apartado 4 de la tabla); es una nota sobre 4 puntos.
+- Calificación del Laboratorio *CL*, que es la nota obtenida en las prácticas de laboratorio (apartado 3 de la tabla); es una nota sobre 1,5 puntos.
+- Calificación del examen final CEF, nota obtenida en el examen final (apartado 2 de la tabla); es una nota sobre 8,5 puntos.
+
+La nota final obtenida por un alumno, en la convocatoria ordinaria de la asignatura, se calcula mediante la siguiente fórmula:
+
+**Nota Final = CT + CEF\*(8,5-CT)/8,5 + CL** **(1)**
+
+Para superar la asignatura se requiere que la suma de la nota final alcance un mínimo del 50% (*Nota Final* ≥ 5 puntos), con la condición de alcanzar un mínimo de 3 puntos en el examen final (CEF>= 3 puntos sobre 8,5 puntos) y un mínimo de 0,5 puntos en prácticas de laboratorio (*CL* ≥ 0,5 puntos). Si no se alcanzase la nota mínima requerida, tanto en el examen final de la asignatura como en las prácticas de laboratorio, el alumno sería calificado con una nota máxima de 4 puntos en la correspondiente Acta de la asignatura.
+
+Los alumnos que no alcancen la puntuación mínima requerida en las prácticas de laboratorio (*CL*) pueden tratar de obtener dicha puntuación en el examen final de prácticas de laboratorio.
+
+En lo que se refiere a la evaluación continua de las prácticas de laboratorio, se tendrán en cuenta los siguientes items:
+
+a) AACP\_Lab(0...100%)=Calificación de la asistencia, actitud, tanto individual como en relación al trabajo en equipo, comportamiento y realización de las prácticas planteadas en las diferentes sesiones de laboratorio.
+
+b)EvC\_Lab(0...100%)=Calificación promedio de diversos trabajos propuestos a lo largo del periodo de sesiones de laboratorio, con el objetivo de estimular un proceso pedagógico proactivo del alumnado en relación con los conceptos físicos involucrados en las diferentes prácticas que se realicen.
+
+c)ExF\_Lab(0,..100%)= Calificación de la evaluación final de las prácticas de laboratorio. Implicará la realización de una prueba de evaluación, obligatoria para todos los alumnos.
+
+La calificación final de las prácticas de laboratorio, Ev\_Lab(0...120%), se calculará mediante la siguiente expresión:
+
+Ev\_Lab = Ex\_F \* ( 1 + 0,1 \* AACP\_Lab/100 + 0,1 \*EvC\_Lab/100)
+
+**7.1.2 Evaluación por examen global**
+
+Los alumnos que no se evalúen por evaluación continua, podrán aprobar la asignatura presentándose a las pruebas correspondientes al examen global final de teoría (CEF) y de prácticas de laboratorio (CL). La nota final se obtendrá sumando la nota obtenida en el examen final de teoría *CEF* (nota sobre 8,5) y la nota obtenida en el examen final de prácticas de laboratorio *CL*(nota sobre 1,5), de forma que:
+
+**Nota Final = CEF + CL (2)**
+
+Para superar la asignatura se requiere que la nota final alcance un mínimo del 50% (*Nota Final* ≥ 5 puntos), y de 0,5 puntos en prácticas de laboratorio (CL ≥ 0,5).
+
+**7.2 CONVOCATORIAS EXTRAORDINARIAS**
+
+- Si el alumno se evalúa por evaluación continua, se conserva la calificación obtenida durante el curso en el trabajo en clase (*CT*) y en el práctico de laboratorio (*CL*).
+
+El alumno deberá presentarse al examen final de teoría (*CEF*) y su nota se calculará mediante la expresión (1).
+
+Si el alumno no hubiera aprobado las prácticas de laboratorio (*CL*) deberá presentarse también al examen de prácticas de laboratorio y aprobarlo.
+
+- Si el alumno optó por la evaluación mediante examen global o no se ha presentado nunca a la asignatura, deberá presentarse a los exámenes de teoría (*CEF*) y de prácticas de laboratorio (*CL*) y aprobarlos. Su nota se calculará usando la expresión (2).
+
+**7.3 CONDICIONES Y CONSIDERACIONES ADICIONALES**
+
+En caso de dos faltas en prácticas de laboratorio, justificadas documentalmente, se podrá recuperar una de ellas para no perder el derecho a evaluación continua, siempre que existan recursos de personal, locales y equipamiento.
+
+Se considerarán no presentados en la convocatoria ordinaria los alumnos que hayan realizado un número de pruebas de evaluación tal que con ellas no puedan alcanzar el 50% de la calificación final. En las convocatorias extraordinarias sólo se considerarán como presentados aquellos alumnos que asistan a las pruebas de evaluación final.
+
+**7.4. EVALUACION DIFERENCIADA**.
+
+Se establece un sistema de evaluación análogo al especificado en el punto 7.1.2.; teniendo en cuenta, asimismo, las especificidades de cada caso concreto.
+
+## Bibliografía
+
+A lo largo del curso, cada profesor especificará el material bibliográfico recomendado para los diversos bloques temáticos de la asignatura. A título informativo, a continuación se relacionan textos que pueden ser recomendables para alguno de los bloques temáticos. Para el desarrollo de las prácticas de laboratorio, se pondrán guiones de prácticas a disposición del alumno.
+
+Alonso, M., Finn, E. J., 1995. *Física*, Addison-Wesley.
+
+Halliday, D., Resnick, R., Walker J., 2001. *Fundamentos de Física*, (2 vols.), Compañía Editorial Continental, México.
+
+Sears, F. W., Zemansky, M. W., Young, H. D., Freedman, R. A., 2013. *Física universitaria* (2 vols.), Pearson.
+
+Serway, R. A., Jewett, J. W., 2005, *Física para Ciencias e Ingeniería* (2 Vols.), Thomson.
+
+Tipler, P. A., Mosca, G.2010. *Física para la ciencia y la tecnología* (2 vols.), Reverté.
+
+Menéndez, J.R. 1999. Conceptos de Electromagnetismo. Servicio de Publicaciones. Universidad de Oviedo.

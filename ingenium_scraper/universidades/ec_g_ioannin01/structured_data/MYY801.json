@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Computer Networks II (MYY801)",
+  "course_name_en": "Computer Networks II",
+  "ects": 6.5,
+  "semester": "8",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand the fundamental principles underlying the Internet.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand and be able to explain the operation of the main protocols of the TCP/IP reference model.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Implement networked applications using the BSD Sockets API.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Computer Networks and the Internet: Review of basic principles of Computer Networks, the TCP/IP reference model, and models of networked applications.",
+    "Network layer: The IP protocol, service model, addressing, the Dijkstra and Bellman-Ford routing algorithms, the RIP, OSPF, and BGP routing protocols, the ICMP protocol, IP multicasting using IGMP.",
+    "Transport layer: Service model, connectionless and connection-oriented communication at transport level, principles of reliable data transport, UDP and TCP protocols, reliable communication over TCP, principles of congestion control, TCP congestion control.",
+    "Application layer: Examples of application protocols: HTTP, FTP, SMTP, the Internet directory service, the DNS protocol, programming networked applications using the BSD Sockets API."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Lab courses",
+    "Use of projector and interactive board during lectures",
+    "Use of networked computers in laboratories for development and testing of networked application software",
+    "Course website maintenance",
+    "Announcements and posting of teaching material (lecture slides and notes, programs)",
+    "Announcement of course grades via the UOI electronic course administration system",
+    "Use of email for information exchange and improved communication with students"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 65.0,
+  "assessment_methods": [
+    {
+      "method": "Final examination, including open-ended questions and problem solving",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory exercises in program development and testing, and oral examination on them by course staff",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Book [13954]: Δίκτυα Υπολογιστών: Μια προσέγγιση από τη σκοπιά των συστημάτων, Larry L. Peterson, Bruce S. Davie, Εκδόσεις Κλειδάριθμος, 2009, 4η Έκδοση",
+    "Book [102070624]: Δικτύωση Υπολογιστών, J. F. Kurose, K. W. Ross, Εκδόσεις Γκιούρδα, 2018, 8η Έκδοση",
+    "ACM/IEEE Transactions on Networking.",
+    "ACM SIGCOMM Computer Communication Review."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "University of Ioannina (Πανεπιστήμιο Ιωαννίνων)",
+  "institution_slug": "ec_g_ioannin01",
+  "degree": "Computer Science and Engineering (Diploma, 4 years / 240 ECTS, undergraduate programme)",
+  "course_code": "MYY801",
+  "academic_year": "2025/26",
+  "source_url": "https://www.cse.uoi.gr/wp-content/uploads/2025/09/2025-26_CSE-UOI_proptyxiaka-perigrammata_core-courses_EN.pdf",
+  "source_language": "en",
+  "source_sha256": "83b2091a5083e8282666d767b311184a33646e0f5336ec5b6b97d30254373169",
+  "extracted_at": "2026-11-20T09:26:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

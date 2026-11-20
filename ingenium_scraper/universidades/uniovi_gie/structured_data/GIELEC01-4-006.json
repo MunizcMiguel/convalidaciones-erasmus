@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Tracción Eléctrica",
+  "course_name_en": "Electric Traction",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Tecnología Eléctrica",
+    "Tecnología Electrónica",
+    "Máquinas Eléctricas I y II",
+    "Electrónica Industrial y Automática"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Differentiate and describe the different elements that integrate an electric traction system.",
+      "type": "unspecified",
+      "code": "RTE-1"
+    },
+    {
+      "text": "Analyze the operating principle of the types of electric machines used in traction systems as well as their constructive particularities.",
+      "type": "unspecified",
+      "code": "RTE-2"
+    },
+    {
+      "text": "Describe and analyze the topology and operating principle of electronic converters used in electric traction systems.",
+      "type": "unspecified",
+      "code": "RTE-3"
+    },
+    {
+      "text": "Apply and analyze the fundamentals of control algorithms used in electric traction systems.",
+      "type": "unspecified",
+      "code": "RTE-4"
+    },
+    {
+      "text": "Differentiate the industrial application areas of electric traction systems based on their constituent elements and constructive characteristics.",
+      "type": "unspecified",
+      "code": "RTE-5"
+    },
+    {
+      "text": "Automate an industrial process using wired logic and programmed logic, based on identifying the operation of the different elements used.",
+      "type": "unspecified",
+      "code": "RCP-1"
+    },
+    {
+      "text": "Select the appropriate variable speed drive based on its operating principle, structure, and control strategies for a given industrial application.",
+      "type": "unspecified",
+      "code": "RCP-2"
+    },
+    {
+      "text": "Identify incidents that can affect the correct operation of electrical machines, as well as existing detectors and protections on the market.",
+      "type": "unspecified",
+      "code": "RCP-3"
+    },
+    {
+      "text": "Choose and calculate the appropriate protection for various electrical machines based on their power, location, type of incident, and the circumstances surrounding an electrical installation.",
+      "type": "unspecified",
+      "code": "RCP-4"
+    },
+    {
+      "text": "Write and present a technical report on the application of acquired knowledge about control and protection of machines and installations.",
+      "type": "unspecified",
+      "code": "RCP-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Types, operating principles and constructive characteristics of electric machines used in traction systems",
+    "Operating principle and constructive characteristics of induction machines",
+    "Operating principle and constructive characteristics of permanent magnet synchronous machines",
+    "Operating principle and constructive characteristics of reluctance synchronous machines",
+    "Modeling of electric machines used in traction systems",
+    "abc-dq transformation",
+    "Dynamic model in dq coordinates",
+    "Characterization",
+    "Open-loop behavior",
+    "Closed-loop behavior (current/torque, speed control)",
+    "Storage",
+    "Storage systems used in electric traction",
+    "Traction batteries",
+    "Energy management of traction batteries: Charge and discharge behavior",
+    "Demand profiles of electric traction applications",
+    "Characteristics, properties, and operating principle of power electronic switches",
+    "The MOSFET and the power IGBT",
+    "Structure and operating characteristics",
+    "Control circuits for power electronic switches",
+    "Other power electronic switches",
+    "Topology and operating principles of electronic converters used in traction systems",
+    "Three-phase inverters",
+    "Boost-buck converters",
+    "Controlled rectifiers",
+    "Control of power converters",
+    "Volts/Hz control of AC drives",
+    "Vector control of AC drives",
+    "Speed control",
+    "Implementation"
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical/practical exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Course project",
+      "weight_percentage": null
+    },
+    {
+      "method": "Exercises and practice",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, the theoretical/practical exam can be between 40% and 70%, the course project between 10% and 30%, and exercises and practice between 10% and 30%. To pass, a minimum of 40% of the maximum score is required in each part of the theoretical/practical exam and in the course project. If the overall grade is 5 or higher but the 40% minimum in the exam or project is not met, the final grade will be 4. For the extraordinary assessment, a theoretical exam (60-80%) and a practical exam (20-40%) are given, requiring a minimum of 40% in each. For differentiated assessment, a theoretical/practical exam (80-90%) and a project (10-20%) are used, with a 40% minimum required in both for passing.",
+  "bibliography": [
+    "Brushless Permanent-Magnet Motor Design. Duane C. Hanselman. McGraw-Hill, Inc.",
+    "PERMANENT MAGNET MOTOR TECHNOLOGY: Design and Applications. JACEK F. GIERAS. MARCELD EKKEIRN.",
+    "HANDBOOK OF SMALL ELECTRIC MOTORS. William H. Yeadon, P.E. , Alan W. Yeadon, P.E. . McGraw-Hill.",
+    "Electric Machinery. A. E. Fitzgerald, Charles Kingsley, Jr., Stephen D. Umans. McGraw-Hill.",
+    "Design, analysis, and control of interior PM synchronous machines. N Bianchi, T. M. Jahns. IEEE",
+    "Bose, B.K., 2006. Power Electronics and Motor Drives: Advances and Trends, Academic Press.",
+    "Drury, W., 2001. Control Techniques' Drives Controls Handbook 1º ed, The Institution of Engineering and Technology.",
+    "Leonhard, W., 2001. Control of Electrical Drives 3º ed., Springer.",
+    "Novotny, D.W. Lipo, T.A., 1996. Vector Control and Dynamics of AC Drives, Oxford University Press, USA.",
+    "Hybrid Electric Vehicles: Principles and Applications with Practical Perspectives, Chris Mi, M. Abul Masrur, David Wenzhong Gao, Siley, 2011",
+    "Modern Electric, Hybrid Electric, and Fuel Cell Vehicles: Fundamentals, Theory, and Design, Mehrdad Ehsani, Yimin Gao, Sebastien E. Gay, Ali Emadi, CRC Press, Power Electronics and Applications Series , 2005",
+    "Power Electronics Handbook, Muhammad H. Rashid, Academic Press, 2001",
+    "Handbook of Batteries. Third edition. David Linden and Thomas B. Reddy. McGraw-Hill, 2002",
+    "Battery Reference Book. Third edition. T. R. Crompton. Electrical Engineering, Newnes, 2000"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-4-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-4-006",
+  "source_language": "es",
+  "source_sha256": "4420dece820fa0fc089035d0fa1ffd1fa26ab0283f27daa8ea6cb53dd62e0b40",
+  "extracted_at": "2026-11-20T01:13:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,109 @@
+{
+  "course_name_original": "Sistemas de Tiempo Real",
+  "course_name_en": "Real-Time Systems",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of Computer Fundamentals",
+    "Automation and Control",
+    "Control Systems",
+    "Digital Electronic Systems",
+    "Industrial Automation",
+    "Knowledge acquired in the Industrial Informatics and Communications course",
+    "Technical reading level in English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with basic knowledge on programming real-time multitasking control systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Extend knowledge on C language programming, allowing the development of advanced programs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the mechanisms for developing real-time applications and the available hardware platforms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Introduce network communications programming.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Introduction to real-time systems and multitasking programming.",
+    "Topic 2. Programming in C ++ and QT",
+    "Topic 3. Functionalities of a Real-Time Operating System",
+    "Topic 4. The POSIX standard: generalities",
+    "Topic 5. The POSIX standard: processes and threads.",
+    "Topic 6: The POSIX standard: synchronization.",
+    "Topic 7: The POSIX standard: time management.",
+    "Topic 8: Programming Input/Output devices",
+    "Topic 9: Introduction to system analysis and modeling.",
+    "Topic 10: Realization of an application example",
+    "PL1: Introduction to Qt + gcc in Linux.",
+    "PL2: Creation of a Transfer Function class.",
+    "PL3: Programming with templates: matrix arithmetic (transpose, product, inverse).",
+    "PL4: Programming with inheritance and polymorphism: implementation of PID controllers.",
+    "PL5: Interface programming with Qt I: creation of interactive environments.",
+    "PL6: Interface programming with Qt II: access and monitoring systems.",
+    "PL7: Control loop with threads, synchronization with mutex and condition variables.",
+    "PL8: Use of binary formats, derived classes: AD converter example.",
+    "PL9: Control loops with periodic threads, access to shared variables.",
+    "PL10: Drawing temporal data curves and handling an A/D converter.",
+    "PL11: Modeling an Automatic Teller Machine.",
+    "PA1 to PA7: Simple exam-type exercises to be developed on paper in about 20 min; then, one of the students presents their solution on the board and it is discussed.",
+    "TG: Presentation of the work to be done in the course."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Problem-based learning",
+    "Autonomous work",
+    "Collaborative work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (E1)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Course project (T1)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "To pass the course, a minimum of 5 out of 10 points must be obtained in the theoretical exam (E1) and at least 4 out of 10 points in the course project (T1). If these minimums are met, the final grade is calculated as 0.7 * E1 + 0.3 * T1. Otherwise, the final grade will be the minimum between the calculated score and 4.0. The theoretical exam can be taken multiple times, with the highest score considered for the final grade. For differentiated evaluation, the content of the course project may be adapted.",
+  "bibliography": [
+    "\"The C programming language. ANSI C\". B.W. Kernigham, D.M. Ritchie. Prentice-Hall.",
+    "\"Sistemas en tiempo real y lenguajes de programación\". A. Burns, A. Wellings. Addison-Wesley.",
+    "\"An embedded software primer\". D. E. Simon. Addison-Wesley.",
+    "\"Programming Embedded Systems in C and C++\". M. Barr. O'Reilly.",
+    "\"Real-Time Systems. Design Principles for Distributed Embedded Applications Series\". H. Kopetz. Kluwer.",
+    "“C++. Manual de referencia\". H. Schildt. McGraw-Hill.",
+    "\"C++ GUI Programming with Qt 4 (2nd Edition)\". J. Blanchette, M. Summerfield. Prentice Hall Open Source Software Development Series"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-003",
+  "source_language": "es",
+  "source_sha256": "5cca6d77348fdfdce59774c19185738a1f03e44813e47fe5fcc9772398bad8da",
+  "extracted_at": "2026-11-20T01:13:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

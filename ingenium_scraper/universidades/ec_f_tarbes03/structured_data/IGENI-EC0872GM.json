@@ -1,0 +1,107 @@
+{
+  "course_name_original": "Modélisation Numérique CFD",
+  "course_name_en": "Numerical CFD Modeling",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Understand the fundamental concepts of linear algebra (systems of equations, matrices)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to model transfer phenomena numerically using the finite volume method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will be able to formulate, discretize and solve partial differential equations relating to fluid mechanics and heat transfer, for stationary and transient regimes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will be able to analyse numerical results, validate them by comparison with analytical solutions, and interpret any discrepancies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulate and discretize partial differential equations of the convection-diffusion type in stationary and transient regimes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Choose and justify a suitable numerical scheme according to the problem studied.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement and solve systems of equations resulting from discretisation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyse, validate and interpret the results obtained, comparing them with analytical or reference solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Adapt their modelling approach according to the objectives pursued and the physical or numerical constraints of the problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be rigorous in analysing the results and identifying the limits of the simulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use digital simulation tools in an engineering context, with a critical eye for the assumptions and approximations introduced.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Diffusion (or conduction) in steady state",
+    "Steady convection and diffusion",
+    "1D Transient Diffusion (Explicit, Implicit, and Crank-Nicolson Schemes)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorial exercises",
+    "Practical work"
+  ],
+  "workload_hours_total": 19.0,
+  "workload_hours_contact": 19.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (2*DS1 + 1*TP1) / 3.",
+  "bibliography": [
+    "H.K. Versteeg and W. Malalasekera, An introduction to computational fluid dynamics : the finite volume method, Pearson.",
+    "Suhas V. Patankar, Numerical Heat Transfer and Fluid Flow"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0872GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "989a6609e4cfbbda74e5b8fe2b860dd4804d654fafa4ddfe930dcb99fd29d1bb",
+  "extracted_at": "2026-11-18T10:00:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

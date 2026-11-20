@@ -1,0 +1,159 @@
+{
+  "course_name_original": "Redes Eléctricas Inteligentes",
+  "course_name_en": "Smart Grids",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic training modules (common to industrial branch and specific electrical technology)",
+    "Electrical Technology",
+    "Circuit Theory and Electrical Networks",
+    "Transmission and Distribution of Electrical Energy",
+    "Power Plants and Electrical Systems",
+    "Management and Operation of Electrical Power Systems",
+    "Microgrids and Distributed Generation",
+    "Basic knowledge in Control Systems",
+    "Industrial Process Informatics",
+    "Telecommunications"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge about control of electrical machines and drives and their applications.",
+      "type": "knowledge",
+      "code": "CEL2"
+    },
+    {
+      "text": "Ability to calculate and design low and medium voltage electrical installations.",
+      "type": "skill",
+      "code": "CEL3"
+    },
+    {
+      "text": "Ability to calculate and design high voltage electrical installations.",
+      "type": "skill",
+      "code": "CEL4"
+    },
+    {
+      "text": "Ability to calculate and design electrical lines and electrical energy transmission.",
+      "type": "skill",
+      "code": "CEL5"
+    },
+    {
+      "text": "Knowledge about power electrical systems and their applications.",
+      "type": "knowledge",
+      "code": "CEL6"
+    },
+    {
+      "text": "Applied knowledge about renewable energies.",
+      "type": "knowledge",
+      "code": "CEL10"
+    },
+    {
+      "text": "Describe and explain the basic principles governing the automation of distribution networks, their relationship with the improvement of quality and continuity of electricity supply and the need to develop new methods of operating these networks.",
+      "type": "unspecified",
+      "code": "RRE-1"
+    },
+    {
+      "text": "Recognize, select, analyze and design the signal acquisition, processing and transmission systems involved in the automation and control of medium voltage distribution as well as their protection systems. Recognize, analyze and design the methodologies and techniques involved in efficient distribution management: demand management, losses, service quality, fault detection and location, and service restoration.",
+      "type": "unspecified",
+      "code": "RRE-2"
+    },
+    {
+      "text": "Properly handle specific computer programs for simulating electrical power systems for monitoring and controlling distribution networks and the communication systems involved.",
+      "type": "unspecified",
+      "code": "RRE-3"
+    },
+    {
+      "text": "Select and apply the legislation and regulations that electrical grids and equipment involved in automated distribution network operation must comply with.",
+      "type": "unspecified",
+      "code": "RRE-4"
+    }
+  ],
+  "syllabus_topics": [
+    "Automation of distribution and smart grids",
+    "Basic architectures and implementation strategies",
+    "Distribution management and demand management systems",
+    "Real-time control systems: SCADA/DMS",
+    "Monitoring and data processing. Configurations",
+    "Interruption management: legal regulations for individual and zonal supply cut records",
+    "Loss minimization",
+    "Voltage control",
+    "Active demand management",
+    "Operator training tools",
+    "Central Distribution Dispatch",
+    "Legal concepts (Critical Infrastructure)",
+    "Functional concepts (24*7, ergonomics, functionalities, operation)",
+    "Protection of HV and MV smart grids",
+    "Intelligent electronic devices",
+    "Fault location based on oscillographic records",
+    "Service Restoration Techniques",
+    "Advanced LV network management",
+    "Characteristics of electricity distribution in LV",
+    "Smart metering and remote management systems: architecture, features",
+    "Synergies with real-time network operation: interconnection strategies with SCADA/DMS systems, functionalities and synergies",
+    "Real-time management of a network with a high index of Distributed Generation: Self-consumption and Self-producers, applicable technical legislation and energy management",
+    "Control of distributed energy resources interconnected by power electronic converters",
+    "Communications. Architectures, systems and protocols",
+    "Basic communication concepts",
+    "Real-time transmission systems",
+    "The Ethernet standard: TCP-IP",
+    "Modbus",
+    "Fiber optics",
+    "Carrier wave: PRIME alliance",
+    "Wireless communication: Wimax, Vsat, Digital Radio",
+    "Process or Telecontrol networks: topology, systems, concepts",
+    "Cybersecurity: definitions and scope",
+    "IEEE 1547 Standard (Interoperability of Distributed Energy Resources) and IEC 61850 Standard Protocol (substation automation)",
+    "Scope of standards: concepts, versions, evolution",
+    "Operating modes of distributed energy resources",
+    "Communication protocols supported by IEEE 1547 standard",
+    "Interoperability between different manufacturers for IEC61850 standard: keys",
+    "Real applications: most important functions serving smart grids"
+  ],
+  "teaching_methods": [
+    "Expository classes (participatory master classes and board practices)",
+    "Classroom practices/seminars/workshops (example development and critical discussion)",
+    "Laboratory/field/computer classroom practices (visits to relevant facilities, practices with IEDs, Substation SCADA)",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Practical assignments (P1)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Class attendance (AS)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Active participation (PA)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, if all established minimums are met (P1 minimum of 4 out of 10), the final grade is calculated as 0.8*P1 + 0.1*AS + 0.1*PA. Otherwise, the grade will be the minimum between the calculated grade and 4.0. The extraordinary assessment consists of a practical exam covering all course content, and the grade obtained in this exam will be the final grade for this assessment.",
+  "bibliography": [
+    "Red Eléctrica de España - http://www.ree.es (Procedimientos de Operación, Transporte de Energía, Previsión de demanda y generación)",
+    "Smart Grids European technology platform - http://www.smartgrids.eu/",
+    "European network of transmission system operators for electricity - https://www.entsoe.eu/",
+    "International Smart Grid Action Network (ISGAN) http://www.iea-isgan.org/",
+    "Union of the Electricity Industry - EURELECTRIC http://www.eurelectric.org/",
+    "European Association of the Electricity Transmission and Distribution Equipment and Services Industry - http://www.tdeurope.eu/",
+    "Grupo de Empresas Eléctricas Españolas (E3) para el desarrollo del protocolo IEC 61850 - https://sites.google.com/site/e3groupiec61850/"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-4-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-4-001",
+  "source_language": "es",
+  "source_sha256": "6572cc98aabfa0d6d7980385fc34b640c4f0c7759404edc60e93cd9ddc4799da",
+  "extracted_at": "2026-11-20T01:13:47",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

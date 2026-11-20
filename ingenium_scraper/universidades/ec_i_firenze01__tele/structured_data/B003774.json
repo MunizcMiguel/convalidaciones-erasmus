@@ -1,0 +1,105 @@
+{
+  "course_name_original": "APPLICAZIONI DI MATEMATICA",
+  "course_name_en": "APPLICATIONS OF MATHEMATICS",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basic notions of Geometry and Linear Algebra and Mathematical Analysis.",
+    "Passing Mathematical Analysis 1 and 2 exams is required before taking the final exam."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Deepen mathematical preparation on some aspects of complex variable functions, with a view to engineering applications, particularly in second-level courses.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Knowledge of mathematical principles and understanding of the role of mathematical sciences as a tool for analysis and problem-solving and models underlying information engineering.",
+      "type": "knowledge",
+      "code": "1.1"
+    },
+    {
+      "text": "Understanding the properties of mathematical tools and their correct use in engineering applications.",
+      "type": "knowledge",
+      "code": "1.2"
+    },
+    {
+      "text": "Ability to apply mathematical methods – with particular reference to methods related to complex analysis – to model, analyze, and solve engineering problems, also with the aid of IT tools.",
+      "type": "skill",
+      "code": "2.1"
+    },
+    {
+      "text": "Ability to make autonomous choices of mathematical methods useful for the design and simulation of electronic systems.",
+      "type": "competence",
+      "code": "3.1"
+    },
+    {
+      "text": "Development of logical reasoning and adequate technical discussion skills for one's arguments.",
+      "type": "skill",
+      "code": "4.1"
+    },
+    {
+      "text": "Ability to independently find and understand information on mathematical tools used in engineering applications.",
+      "type": "skill",
+      "code": "5.1"
+    }
+  ],
+  "syllabus_topics": [
+    "REVIEW OF COMPLEX NUMBERS",
+    "COMPLEX FUNCTIONS",
+    "LAPLACE TRANSFORM and TRANSFER FUNCTIONS",
+    "R.P. FUNCTIONS",
+    "ZETA TRANSFORM AND APPLICATIONS",
+    "Algebraic form, trigonometric form, exponential form. De Moivre's laws. Algebraic equations and roots. The exponential in the complex field and its properties. Trigonometric functions and Euler's formulas. The logarithm in the complex field. Solvability of exponential equations.",
+    "Complex functions as planar transformations. Continuity and differentiability. Cauchy-Riemann formulas. Analytic functions and harmonic functions. Reconstruction of analytic functions. Uniqueness theorem of analytic extension. Integral in the complex field. Cauchy's theorem and its consequences. Power series expansion of analytic functions. Some notable expansions [exponential, sine, cosine, (1-s)^(-1)]. Laurent series. Classification of singularities. Removable, polar, essential singularities and their characterization. Casorati's Theorem. Zeros of analytic functions. Analytic and bounded functions: Liouville's and D'Alembert's theorems. The concept of Residue at a finite point. First Residue theorem and calculation of Residues. Laurent series at infinity. Residue at infinity and Second Residue Theorem. Calculation of integrals in the complex field using the Residue theorems. Resolution of integrals of functions with infinite singularities.",
+    "Review of power series. Signal sampling. Radius of convergence. Zeta transform. Transforms of elementary samplings. Properties of damping, \"multiplication by n\", translation. Discrete convolution and periodic samplings. Inverse Zeta transform and calculation in the rational case. Initial and final value properties. Recursive approach. The Zeta transform in solving linear constant coefficient difference equations. Brief mention of the Zeta transform in the analysis of discrete-time systems and signal transmission.",
+    "Physical systems and mathematical models: examples. Transfer functions and network functions. Laplace transformable functions and convergence abscissa. The Laplace transform. Properties of derivation and integration. The Laplace transform in the analysis and synthesis of passive electrical networks.",
+    "Review of polynomial algebra. Routh-Hurwitz test. Rational positive real functions: definition and main properties. The \"4 conditions\" test and Talbot's criterion. The odd case. Series and parallel passive RCL circuits. Complex impedance and admittance: synthesis examples."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises at the blackboard"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Intermediate quiz assessments (option 1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exams with free-response exercises (option 2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional oral exam (integration for both options)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Assessment of acquired skills occurs in two alternative ways: 1) two multiple-choice quiz tests during the course with review/discussion of results, or 2) written exams in exam sessions after the course, with free-response paper-and-pencil exercises and review/discussion of submissions. In both cases, the written exam result can be supplemented by an optional oral exam. The minimum passing grade is 18/30. A grade of 29-30 and cum laude indicates excellent knowledge, critical skills, originality, and rigor. \"Cum laude\" is awarded for brilliance and originality beyond curricular expectations.",
+  "bibliography": [
+    "Course handouts, freely available on the moodle page",
+    "M. Marini \"Metodi Matematici per lo studio delle reti elettriche\", Ed. Cedam, 1999.",
+    "G.C. Barozzi \"Matematica per l'Ingegneria dell'Informazione\", Ed. Zanichelli 2001.",
+    "M. Codegone \"Metodi Matematici per l'Ingegneria\", Ed. Zanichelli, 1995.",
+    "M. Bramanti, C.D. Pagani, S. Salsa \"Matematica\", Zanichelli."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B003774",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45508_B244-21-24_21990_802315&ordinamento_aa=2021&af_percorso=45508&corso_cod=1437&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "f08d8053959de9863886af516583be763a886a9c024e1aa5a22db81d70b0d598",
+  "extracted_at": "2026-11-20T12:45:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

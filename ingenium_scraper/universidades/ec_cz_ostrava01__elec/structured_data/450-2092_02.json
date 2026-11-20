@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Embedded Systems",
+  "course_name_en": "Embedded Systems",
+  "ects": 4.0,
+  "semester": "Winter Semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "compulsory courses of previous semester"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquaint students with microcontrollers, its peripherals and implementation of this technology in embedded control systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The students are able to choose suitable technical equipment for the given task and they can program the microcontroller and configure its peripherals, which will allow to implement the specified control algorithms.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Embedded control systems: basic specification and current trends in embedded systems, summary of microprocessor and microcontroller theory.",
+    "Microcontroller: core ARM Cortex M, microcontroller topology a specification.",
+    "Basic microcontroller configuration: clock signal, watchdog, JTAG, power supply system, reference voltages, package, basic configuration registers.",
+    "Configuration of input and output interface: configuration registers, electrical characteristic of a port, PORT and GPIO peripherals.",
+    "Interrupt system in ARM Cortex M, interrupt controller (NVIC), interrupt sources, priority, vector, handler. Internal connection of microcontroller peripherals.",
+    "Counters and timers: SysTick, periodic interrupt timers, advanced timers, real time timers, low-power timers.",
+    "Signal digitalization in microcontroller: AD converters and their configuration, synchronization, multiplexing and correct implementation.",
+    "Other analogue peripherals: DA converters and analog comparator.",
+    "Basic communication peripherals and their configuration: UART, I2C, SPI. Communication with external memory.",
+    "Advanced communication interfaces: USB, Ethernet and wireless communication standards.",
+    "Direct memory access (DMA): Usage methods and peripheral configuration.",
+    "Modern trends in embedded control systems, review of modern technologies.",
+    "Final lecture, summary of subject knowledge, preparation for exam."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Experimental work in labs",
+    "Teaching by an expert (lecture or tutorial)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Dean, Alexander G. Embedded systems fundamentals with ARM Cortex-M based microcontrollers : a practical approach. Cambridge: ARM Education Media, 2017.",
+    "Berger, A. Embedded systems design. Vyd. 1. San Francisco: CMP Books, 2002, 237 s. ISBN 1-57820-073-3.",
+    "Zhu, Yifeng. Embedded Systems with ARM® Cortex-M3 Microcontrollers in Assembly Language and C. E-Man Press, LLC, 2014.",
+    "Ganguly, Amar K. Embedded Systems : Design, Programming and Applications. Oxford: Alpha Science International Ltd, 2014."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava — ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "institution_slug": "ec_cz_ostrava01__elec",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Electrical Engineering and Computer Science (FEI) (first cycle courses)",
+  "course_code": "450-2092/02",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fei/?expandedSubjectId=52920&studyPlanId=-1&subjectBlockId=60364",
+  "source_language": "en",
+  "source_sha256": "63164bed3aefef2969dd1215733651ded530425c64d4147e96f17c70c74c7690",
+  "extracted_at": "2026-11-20T12:51:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

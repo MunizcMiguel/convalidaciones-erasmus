@@ -1,0 +1,228 @@
+---
+{
+ "course_code": "2GITICID-2-010",
+ "course_name": "Sistemas Operativos",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-2-010",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:06",
+ "content_sha256": "95f47d7c598525405ab5ff5e8522891dfd916ced5d27ee2515ad8b4b0016a76a"
+}
+---
+
+# Sistemas Operativos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-2-010
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Segundo Semestre
+- **Materia:** Plataformas de Computación
+- **Carácter:** Obligatoria
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Clases Expositivas (28 Horas); Prácticas de Laboratorio (21 Horas); Tutorías Grupales (2 Horas); Prácticas de Aula/Semina (7 Horas)
+
+## Contextualización
+
+La asignatura de ***Sistemas operativos (SO)*** forma parte de la **materia de *Plataformas de Computación (PL)*** junto con las asignaturas: *Fundamentos de computadores y redes (FCR)*, *Arquitectura de computadores (ARC),* *Administración de sistemas (ADS)*, *Infraestructura Informática (INI)* e *Informática móvil (IMV)*. Esta materia y la materia *Redes y Servicios (RS)* conforman el **módulo de *Sistemas y Servicios (SS)***.
+
+Los contenidos desarrollados y las competencias adquiridas por los alumnos serán la base para otras asignaturas de la titulación, tales como: *Administración de sistemas (ADS)*, *Informática móvil (IMV)*, *Programación concurrente y paralela (PCP)*, *Configuración y evaluación de sistemas (CES)* y *Seguridad (SEG)*. Además serán utilizados en numerosas asignaturas ya que el *Sistema operativo* es el elemento que posibilita el uso del ordenador y sobre el que se ejecutan las aplicaciones informáticas.
+
+## Requisitos
+
+Para poder abordar los contenidos de la asignatura es muy aconsejable que el alumno haya asimilado los conceptos teóricos y las habilidades prácticas que se proporcionan en las asignaturas de primer curso: *Fundamentos de computadores y redes (FCR)* y *Fundamentos de Informática (FIN)*. Aunque en menor medida, también es aconsejable haber adquirido conocimientos en las asignaturas de primer curso: *Introducción a la Programación (INP)* y *Metodología de la Programación (MTP)* y en la asignatura de segundo curso: *Estructuras de datos (ESD)*.
+
+## Competencias y resultados del aprendizaje
+
+Según la memoria de verificación del Grado en Ingeniería Informática en Tecnologías de la Información, las competencias generales en cuyo desarrollo colabora la asignatura de *Sistemas operativos* son las siguientes:
+
+**Competencias generales**
+
+| **ECR1.3** | Capacidad para diseñar y desarrollar aplicaciones, asegurando su fiabilidad, seguridad y calidad, conforme a principios éticos y a la legislación y normativa vigente |
+| --- | --- |
+| **ECR1.4** | Capacidad para seleccionar y evaluar sistemas informáticos, asegurando su fiabilidad, seguridad y calidad, conforme a principios éticos y a la legislación y normativa vigente |
+| **ECR5.1** | Conocimiento de sistemas, servicios y aplicaciones informáticas |
+| **ECR7** | Conocimiento, diseño y utilización de forma eficiente de los tipos y estructuras de datos más adecuados a la resolución de un problema |
+| **ECR10.1** | Conocimiento de las características, funcionalidades y estructura de los Sistemas operativos |
+| **ECR10.2** | Diseñar e implementar aplicaciones basadas en los servicios de los Sistemas operativos |
+| **ECR14.1** | Conocimiento y aplicación de los principios fundamentales y técnicas básicas de la programación paralela y concurrente |
+
+**Resultados de aprendizaje**
+
+| **Competencia** | **Resultado del aprendizaje** |
+| --- | --- |
+| **ECR1.3** | PF6: Conocer los diferentes tipos de sistemas operativos, junto con sus características y capacidades, que pueden ser utilizados como el software de sistema en el diseño y desarrollo de un sistema informático |
+| **ECR1.4** | PF8: Ser capaz de seleccionar y evaluar el tipo de sistema operativo más apropiado para proporcionar un servicio asegurando las características de calidad requeridas |
+| **ECR5.1** | PF9: Conocimiento de los componentes y aplicaciones que integran una distribución de un sistema operativo |
+| **ECR7** | PF13: Comprender cómo se utilizan las estructuras de datos en la gestión de los componentes y funciones de un sistema operativo |
+| **ECR10.1** | PF17: Conocer la estructura de un sistema operativo |
+| **ECR10.1** | PF18: Comprender los mecanismos básicos de funcionamiento de los subsistemas que integran un sistema operativo |
+| **ECR10.2** | PF19: Diseñar e implementar aplicaciones basadas en los servicios de un sistema operativo |
+| **ECR14.1** | PF20: Comprender el uso de las técnicas básicas de la programación paralela y concurrente en los mecanismos de funcionamiento de los sistemas operativo |
+
+## Contenidos
+
+Los contenidos de la asignatura se estructuran en 5 temas de teoría y 2 bloques de prácticas de laboratorio que se indican a continuación:
+
+**TEMAS DE TEORÍA:**
+
+T1 - Introducción a los sistemas operativos
+
+T2 - Gestión de procesos
+
+T3 - Coordinación y sincronización de procesos
+
+T4 - Gestión de la memoria
+
+T5 - Gestión de ficheros
+
+**PRÁCTICAS DE LABORATORIO:**
+
+Bloque 1 – Programación con el Shell de UNIX
+
+Bloque 2 – Programación con llamadas al sistema en UNIX. Implementación de un intérprete de comandos
+
+## Metodología y plan de trabajo
+
+De acuerdo con las pautas que establece el EEES, la asignatura se desarrollará mediante actividades presenciales y trabajo autónomo del estudiante.
+
+Las **actividades presenciales** son aquellas en las que estará siempre presente el profesor. Se dividen en clases expositivas, seminarios, prácticas de laboratorio, tutorías grupales y sesiones de evaluación.
+
+Por su parte, a fin de cumplir los principios referentes a ECTS, establecidos en el Real Decreto 1393/2007, el estudiante deberá desarrollar un **trabajo autónomo** paralelo (actividades no presenciales), dirigido por el profesor.
+
+La metodología docente a emplear estará basada en la participación activa del alumno. Se propondrán entregables que el alumno deberá realizar y presentar con un mínimo de calidad en el tiempo establecido.
+
+Con respecto a las **prácticas de laboratorio**, con cada una de las prácticas programadas, se podrá solicitar uno o más informes o la entrega del trabajo realizado durante la sesión de prácticas que se alojará en el campus virtual.
+
+La asignatura de *Sistemas operativos* requiere un total de 150 horas entre actividades presenciales y no presenciales organizadas de la forma siguiente:
+
+**Presenciales (60 horas)**
+
+1. Clases expositivas (28 horas)
+2. Prácticas de aula (7 horas)
+3. Prácticas de laboratorio (21 horas)
+4. Tutorías grupales (2 horas)
+5. Sesiones de evaluación (2 horas)
+
+**No presenciales (90 horas)**
+
+1. Trabajo autónomo (90 horas)
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula* | *Prácticas de laboratorio* | *Tutorías grupales* | *Sesiones de Evaluación* | ***Total*** |
+| Introducción a los Sistemas operativos | 10 | 3 | 0 | 2 |  |  | 5 |
+| Gestión de procesos | 37,5 | 7 | 3 | 5 |  |  | 15 |
+| Coordinación y Sincronización de procesos | 22 | 3 | 0 | 4 | 1 | 2 | 10 |
+| Gestión de la memoria | 49 | 10 | 3 | 5 |  | 0 | 18 |
+| Gestión de Ficheros | 31,5 | 5 | 1 | 5 | 1 | 0 | 12 |
+| **Total** | **150** | **28** | **7** | **21** | **2** | **2** | **60** |
+
+|  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |
+| --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Trabajo autónomo* | **Total** |
+| Introducción a los Sistemas operativos | 10 | 5 | 5 |
+| Gestión de procesos | 37,5 | 22,5 | 22,5 |
+| Coordinación y Sincronización de procesos | 22 | 12 | 12 |
+| Gestión de la memoria | 49 | 31 | 31 |
+| Gestión de Ficheros | 31,5 | 19,5 | 19,5 |
+| **Total** | **150** | **90** | **90** |
+
+| **MODALIDADES** |  | **Horas** | % | **Totales** |
+| --- | --- | --- | --- | --- |
+| **Presencial** | Clases Expositivas | 28 | 18,67 | 60 (40%) |
+|  | Práctica de aula / Seminarios / Talleres | 7 | 4,67 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 21 | 14 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales | 2 | 1,33 |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 2 | 1,33 |  |
+| **No presencial** | Trabajo Individual | 90 | 60 | 90 (60%) |
+|  | **Total** | **150** |  |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria está dividida en teoría y prácticas. La evaluación de cada uno de estos bloques consta de los siguientes elementos:
+
+- Bloque teórico: Es necesario obtener una nota mínima de 4,5 sobre 10.
+  - Examen Parcial (T1): Consta de una prueba escrita a realizar a mediados del semestre. Se evaluarán los contenidos vistos hasta la fecha. No es necesario alcanzar ningún mínimo en este examen.
+  - Examen Parcial (T2): Consta de una prueba escrita a realizar en la fecha oficial establecida por el centro para el examen teórico. Se evaluarán los contenidos de teoría vistos hasta la fecha, excepto los evaluados en la prueba T1. No es necesario alcanzar ningún mínimo en este examen.
+- Bloque práctico: Es necesario obtener una nota mínima de 4,5 sobre 10.
+  - Examen Práctico (P1): Consta de una prueba a llevar a cabo con ordenadores a mediados del semestre. Se evaluarán los contenidos vistos hasta la fecha (programación de Shell-scripts). Será obligatorio haber asistido al menos al 75% de las clases prácticas de este periodo para poder realizar este examen. No es necesario alcanzar ningún mínimo en este examen.
+  - Participación activa (PA1): Durante las prácticas de laboratorio de este periodo (programación de Shell-scripts) se plantearán ejercicios cuyas soluciones deberán ser remitidas al profesorado a través del campus virtual, o el medio que se pueda establecer al efecto. Será obligatorio haber asistido al menos al 75% de las clases prácticas de este periodo para poder entregar estos ejercicios. No es necesaria una nota mínima.
+  - Examen Práctico (P2): Consta de una prueba escrita a realizar en la fecha oficial establecida por el centro para el examen práctico. Se evaluarán todos los contenidos prácticos vistos hasta la fecha (programación con llamadas al sistema). Será obligatorio haber asistido al menos al 75% de las clases prácticas de este periodo para poder realizar este examen. No es necesario alcanzar ningún mínimo en este examen.
+  - Participación activa (PA2): Durante las prácticas de laboratorio de este periodo (programación con llamadas al sistema) se plantearán ejercicios cuyas soluciones deberán ser remitidas al profesorado a través del campus virtual, o el medio que se pueda establecer al efecto. Será obligatorio haber asistido al menos al 75% de las clases prácticas de este periodo para poder entregar estos ejercicios. No es necesaria una nota mínima.
+
+Calificación
+
+La nota final del bloque teórico se calcula como:
+
+Teoría = (0,5 x T1) + (0,5 x T2)
+
+Si se han alcanzado todos los mínimos establecidos para superar el bloque práctico, y se ha cumplido con la asistencia exigida, la nota final de este bloque se calcula como:
+
+Prácticas = (0,4 x P1) + (0,1 x PA1) + (0,4 x P2) + (0,1 x PA2)
+
+Si durante la primera mitad del semestre (programación de Shell-scripts) no se ha cumplido con la asistencia exigida la nota de P1 y de PA1 será cero y se aplicará la fórmula anterior.
+
+Si durante la segunda mitad del semestre (programación con llamadas al sistema) no se ha cumplido con la asistencia exigida la nota de P2 y de PA2 será cero y se aplicará la fórmula anterior.
+
+Si se han alcanzado los mínimos establecidos para cada bloque la nota final de la convocatoria se calcula como:
+
+Nota final = (0,65 x Teoría) + (0,35 x Prácticas)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria extraordinaria**
+
+La convocatoria extraordinaria consta de un examen teórico y un examen práctico.
+
+En el examen teórico se evalúa todo el contenido teórico de la asignatura. La nota obtenida en esta parte será aquella obtenida en dicho examen. Los estudiantes que hayan obtenido una nota mayor o igual a 5 en el boque teórico de la convocatoria ordinaria podrán, si lo desean, conservar dicha nota y no presentarse a este examen.
+
+Del mismo modo, en el examen práctico se evalúa todo el contenido práctico de la asignatura y la nota obtenida en esta parte será la obtenida en dicho examen. Los estudiantes que hayan obtenido una nota mayor o igual a 5 en el boque práctico de la convocatoria ordinaria podrán, si lo desean, conservar dicha nota y no presentarse a este examen.
+
+Para aprobar en esta convocatoria, es obligatorio obtener una calificación de al menos 4,5 puntos sobre 10 en la parte teórica y de 4,5 puntos sobre 10 en la parte práctica. Si se han alcanzado estos mínimos, la nota final de la convocatoria se calcula como:
+
+Nota Final = (0,65 x Teoría) + (0,35 x Prácticas)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entra la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación diferenciada**
+
+La evaluación será exactamente la misma que en la Convocatoria extraordinaria.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+## Bibliografía
+
+[SILBERSCHATZ-2006] Abraham Silberschatz, Peter B. Galvin, Greg Gagne "FUNDAMENTOS DE SISTEMAS OPERATIVOS", Ed. McGraw-Hill, 7ª edición, español, ISBN: 8448146417, ISBN‑13: 9788448146412.
+
+[STALLINGS-2005] William Stallings "SISTEMAS OPERATIVOS: ASPECTOS INTERNOS Y PRINCIPIOS DE DISEÑO" Ed. PEARSON, 5ª edición, español, ISBN-10: 8420544620, ISBN‑13: 9788420544625.
+
+[CARRETERO-2007] Jesús Carretero, Félix García, Pedro de Miguel y Fernando Pérez "SISTEMAS OPERATIVOS, UNA VISIÓN APLICADA" Ed. McGraw-Hill, 2ª edición, español, ISBN-10: 8448156439.
+
+[CARRETERO-2003] Jesús Carretero, Félix García y Fernando Pérez "PROBLEMAS DE SISTEMAS OPERATIVOS: DE LA BASE AL DISEÑO", Ed. McGraw-Hill, 2ª edición, español, ISBN-10: 8448139917, ISBN-13: 9788448139919.

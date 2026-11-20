@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Numerical Methods",
+  "course_name_en": "Numerical Methods",
+  "ects": 5.0,
+  "semester": "Summer Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Compulsory courses of previous semester",
+    "Mathematics 1",
+    "Mathematics 2"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Recognize problems suitable for solving by numerical procedures and find an appropriate numerical method.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Decide whether the computed solution is sufficiently accurate and, in case of need, assess reasons of inaccuracies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Propose an algorithmic procedure for solving the problem and choose a suitable computer environment for its realization.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Course contents, the issue of errors, stability calculations.",
+    "Solution of nonlinear equations, separation of roots, the simplest method.",
+    "Newton's method and simple iterations.",
+    "Direct methods for solving linear equations, Gaussian elimination and LU-decomposition.",
+    "Eigenvalues and eigenvectors, numerical calculation.",
+    "Iterative methods for solving linear equations.",
+    "Interpolation by polynomials and splines.",
+    "Least squares approximation.",
+    "Numerical differentiation and integration.",
+    "Extrapolation in the calculation of integrals. Gaussian integration formulas.",
+    "One-step method for solving initial value problems for ordinary differential equations.",
+    "Multistep methods.",
+    "Ordinary differential equations of higher order.",
+    "Systems of differential equations."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Individual consultations",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Burden, R. L., Faires, J. D.: Numerical Analysis. Cengage Learning, 2011",
+    "Chapra, S., Canale, R.: Numerical Methods for Engineers. McGraw-Hill Education, 2009.",
+    "Qaurteroni, A., Sacco, R., Saleri, F.: Numerical Mathematics. Springer, 2007.",
+    "Süli, E., Mayers, D.: An introduction to Numerical Analysis. Cambridge University Press, 2003.",
+    "Van Loan, C. F.: Introduction to scientific computing. Prentice Hall, Upper Saddle River, NJ 07459, 1999."
+  ],
+  "isced_f_code": "0542",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "Vysoka Skola Banska- Technicka Univerzita Ostrava",
+  "institution_slug": "ec_cz_ostrava01",
+  "degree": "ECTS course offer for Erasmus+ students - Faculty of Mechanical Engineering (first cycle courses)",
+  "course_code": "310-2304/01",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.vsb.cz/en/study/exchange-students/erasmus-plus/courses/fs/?expandedSubjectId=57510&studyPlanId=-1&subjectBlockId=61798",
+  "source_language": "en",
+  "source_sha256": "6a328bc0e75fdd0a2547d90ad318603ab2a718d7daac2b77b1542d8a940bb508",
+  "extracted_at": "2026-11-18T09:48:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

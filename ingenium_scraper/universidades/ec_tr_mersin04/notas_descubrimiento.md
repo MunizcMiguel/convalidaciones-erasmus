@@ -1,0 +1,4 @@
+# ec_tr_mersin04 — Toros University (Endüstri Mühendisliği)
+- `bologna.toros.edu.tr` solo incrusta (iframe) el Bologna Bilgi Paketi `obsogrenci.toros.edu.tr/BLGNDersBilgiPaketi/` (AngularJS; robots sin reglas). JSON público por POST: `GetMufredat`, `MufredatDerslerListele` (obligatorias en `.dersler`, optativas en `.dersgruplari[].dersGruplariDersleri`), y por ficha `GetDersGenel/OgrenmeCikti/HaftalikIcerik/Degerlendirme/IsYuku` con QS {mufDersID, dersGrubuDersID, dersID, programID, dilID}.
+- Trampas: programas EN (116-118) no listan su currículo actual (HTTP 500) → programa TR 115, currículo 2085 (2022-Devam). Sin `yilID` el servidor devuelve la versión más reciente con contenido; con yilID concreto suele venir vacío. dilID=2 (EN) siempre vacío → fichas en turco.
+- Fase 2: 53/84 Markdown; 31 sin contenido publicado (optativas). Muchas fichas solo tienen Genel (amaç/içerik) y no resultados/evaluación.

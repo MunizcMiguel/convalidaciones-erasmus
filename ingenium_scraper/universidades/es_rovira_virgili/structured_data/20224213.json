@@ -1,0 +1,97 @@
+{
+  "course_name_original": "Cálculo avanzado de estructuras",
+  "course_name_en": "Advanced Structural Calculation",
+  "ects": 3.0,
+  "semester": "2Q",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES I/20224106 (ELASTICITY AND STRENGTH OF MATERIALS I)",
+    "ELASTICIDAD Y RESISTENCIA DE MATERIALES II/20224107 (ELASTICITY AND STRENGTH OF MATERIALS II)",
+    "TEORÍA Y DISEÑO DE ESTRUCTURAS/20224118 (THEORY AND DESIGN OF STRUCTURES)",
+    "It is recommended to have previously taken the course 'Theory and design of structures', as the concepts worked on practically in 'Advanced Structural Calculation' are based on the methods taught in 'Theory and design of structures'."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply structural concepts and methods.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Apply matrix and finite element techniques to structural calculation.",
+      "type": "skill",
+      "code": "A1.6"
+    },
+    {
+      "text": "Use specific computer programs for structural calculation.",
+      "type": "skill",
+      "code": "A2.5"
+    }
+  ],
+  "syllabus_topics": [
+    "1.- Basic aspects of structural regulations.",
+    "1.1.- The Technical Building Code (CTE).",
+    "1.2.- The Structural Steel Instruction (EAE).",
+    "1.3.- The Structural Concrete Instruction (EHE-08).",
+    "1.4.- The Earthquake-Resistant Construction Standard (NCSE-02).",
+    "2.- Structural elements in building.",
+    "2.1.- Introduction to buildings as structures.",
+    "2.2.- Integral structural elements.",
+    "2.3.- Constructive aspects to consider when calculating a building.",
+    "2.4.- Functional aspects to consider when calculating a building.",
+    "2.5.- Complementary structural elements: retaining structures, buried tanks, and reservoirs.",
+    "3.- Use of professional computer programs.",
+    "3.1.- Calculation of reinforced concrete building structures.",
+    "3.2.- Calculation of steel building structures.",
+    "3.3.- Specific calculation of shallow foundation structures.",
+    "3.4.- Calculation of retaining walls.",
+    "3.5.- Calculation of buried tanks and reinforced concrete reservoirs."
+  ],
+  "teaching_methods": [
+    "Introductory activities (video and powerpoint presentations of works, building projects)",
+    "Problem/exercise solving in the ordinary classroom (delivery of exercises, formulation and discussion of problems and exercises related to the course topic)",
+    "Lectures (presentation and theoretical explanation of the course program)",
+    "Preliminary project (team work, presentation of a preliminary project for a building structure (structural and constructive elements))",
+    "Personalized attention (using Moodle forum, videoconference sessions, or in-person classes to resolve specific questions and doubts; email and scheduled in-person meetings may also be used if contingency plan allows)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Preliminary project (calculation of a building structure with computer programs, with delivery of calculation report)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Practical tests (development of smaller assignments by the student using computer programs)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Objective short-answer tests (Final exam)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "A minimum score of 3.00 points in the final exam is required to pass the course. The use or possession of communication and data transmission devices is limited and prohibited during the tests and must be complied with by the student.",
+  "bibliography": [
+    "Codigo Técnico Edificación, Ministerio Vivienda",
+    "EHE-08 (Instrucción Hormigón Estructural), Ministerio Fomento",
+    "R.Argüelles Alvarez, Estructuras de Acero, Editorial Bellisco",
+    "A.Garcia Valcarce, Mecánica de los terrenos y cimientos, Universidad de Navarra",
+    "Jimenez Montoya, Hormigón Armado, Gustavo Gili"
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224213",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224213&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "7c9b27f9165994e543295e0c800f0aa4f81b4a2dab729119d7f6fe0dd0842197",
+  "extracted_at": "2026-11-13T22:50:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

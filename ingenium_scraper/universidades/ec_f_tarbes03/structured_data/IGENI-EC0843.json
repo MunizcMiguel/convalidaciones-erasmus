@@ -1,0 +1,146 @@
+{
+  "course_name_original": "Simulation de processus continus",
+  "course_name_en": "Simulation of continuous processes",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of mathematics (differential and integral calculus, linear algebra)",
+    "Basic knowledge of linear automation (representation of systems, Laplace transform, basic notions of stability)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Face a continuous dynamic system described by differential equations, model it, synthesize adequate linear control laws and simulate it using simulation software (Matlab/Simulink).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze the results of the simulation in the state space.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply the basics of state feedback control to improve system performance.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Optimize the behavior of dynamic systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Master the transition from theory to practice.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the link between differential equations and simulation models.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the different model representations, in particular the state representation and its variants.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the methods for analyzing the performance of systems in state space.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the basic principles of state feedback control and pole placement.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to translate differential equations into a simulable model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to implement a dynamic system model, in particular in state representation, in simulation software (Matlab/Simulink) and optimize the parameters of simulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to analyze and interpret the results of a simulation in state space.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to apply the basics of state feedback control to modify the performance of a system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to work independently on modeling, simulation and analysis of systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop a critical mindset regarding simulation results and the effectiveness of control strategies.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of differential equations: principle of analytical and numerical resolution.",
+    "Introduction to simulation: principle, interest, tools.",
+    "Transition from differential equations to a simulation model: examples and methods.",
+    "Review of transfer functions.",
+    "Introduction to state representation: definition, interest.",
+    "Different forms of state representation (canonical controllability, observability, modal).",
+    "Transition from transfer function to state representation and vice versa.",
+    "Analysis of stability in state space (eigenvalues, poles).",
+    "Performance of systems in state space (speed, damping).",
+    "Introduction to state feedback control (pole placement): principle, objective and application.",
+    "Implementation in Matlab/Simulink of non-linear models of differential equations of gyropode systems",
+    "Analysis and physical interpretation of simulation results",
+    "Analysis of the influence of physical parameters",
+    "State representation of linearized dynamic systems under Simulink",
+    "Performance analysis (stability, speed, damping) from the state representation",
+    "Implementation of two state feedback controls, with observation and comparison of the improvement in performance by pole placement",
+    "Adaptation and implementation of the best state feedback control on the non-linear model and observation of the improvement in performance"
+  ],
+  "teaching_methods": [
+    "Lectures for the acquisition of theoretical concepts",
+    "Sharing of resources and tests on Moodle, for off-site learning",
+    "Practical work on Matlab/Simulink for implementation and experimentation"
+  ],
+  "workload_hours_total": 12.0,
+  "workload_hours_contact": 12.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (written exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*TP1) / 2.",
+  "bibliography": [
+    "Harold Klee, Randal Allen, Simulation of Dynamic Systems with MATLAB and Simulink, Second Edition. CRC Press, Inc. Boca Raton, FL, USA \r\n2007",
+    "Devendra K. Chaturvedi, Modeling and Simulation of Systems Using MATLAB and Simulink, First Edition. CRC Press, Inc. Boca Raton, FL, USA \r\n2009"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0843",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "5b322cca1d4a67b4c468e78c9c2bb96f6a9aef8bb3050d767252a68fbbc310de",
+  "extracted_at": "2026-11-18T10:00:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

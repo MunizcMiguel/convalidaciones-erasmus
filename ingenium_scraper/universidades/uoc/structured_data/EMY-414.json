@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Laboratory for Computer Control and Automation of Measurement Systems",
+  "course_name_en": "Laboratory for Computer Control and Automation of Measurement Systems",
+  "ects": 5.0,
+  "semester": "8th",
+  "year_of_study": 4,
+  "course_type": "other",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [
+    "Introduction to programming (EMY-113)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand basic concepts of mechatronic systems and electric circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand basic concepts of continuous-time and discrete-time signals and systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the principles of actuators and their drives, emphasis on electric motors.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the principles of sensors, sensor interfaces, and measurement systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand digital controllers, emphasis on Arduino microcontrollers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to program Arduino microcontrollers.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to acquire, store and process data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to use mechatronics instrumentation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analysis and synthesis of data and information, with the use of the necessary technology.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analysis of mechatronic systems. Parts of mechatronic system. Power and signal flow. Feedback. Interfacing. Electric circuit elements. Electric circuit analysis. Power variables.",
+    "Lab instrumentation: Power supplies. Measurements of voltage and current. Use of breadboards, digital multimeters, oscilloscope, power supplies.",
+    "Signals & systems: Continuous-time and discrete-time systems and signals. Signal discretization. Analog-to-digital and digital-to-analog conversion. PWM signals. Frequency response. Filters.",
+    "Introduction to control systems: Modeling dynamic systems. Transfer function, poles and zeros. Closed loop control systems. Root locus. PID controllers.",
+    "Sensors: Sensor types for various variables (position, velocity, acceleration, angle, angular velocity, distance, pressure, temperature, humidity, force, torque, inclination, light intensity). Basic characteristics of sensors. Measurement systems. Sampling theorem.",
+    "Actuators: Principles of electromechanical conversion, Types and characteristics of electric motors. Torque-speed curve. Models of DC motors. Motor drives and controllers. Actuators for electric, hydraulic, pneumatic and thermal systems.",
+    "Digital controllers and microcontrollers. Digital controllers, embedded systems, internet of things. Intro to computer architecture. Optic isolation. Communication protocols. Microcontroller architecture. Arduino microcontrollers.",
+    "Arduino programming. Syntax and flow control. Variables, functions and libraries. Implementing digital logic and difference equations. Applications in control and signal processing."
+  ],
+  "teaching_methods": [
+    "Face-to-face",
+    "Laboratory exercises with the use of computer to control measurement systems and data acquisition",
+    "Lectures",
+    "Laboratory",
+    "Assignment preparation",
+    "Independent study"
+  ],
+  "workload_hours_total": 135.0,
+  "workload_hours_contact": 85.0,
+  "assessment_methods": [
+    {
+      "method": "Short-answer questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Problem solving",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory work",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignments",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Bolton W. Μηχατρονική, Ηλεκτρονικά Συστήματα Ελέγχου για Επιστήμονες και Μηχανικούς, 6η Έκδοση, Εκδόσεις Τζιόλα, 2020",
+    "Παπαδόπουλος E. Hλεκτρομηχανικά Συστήματα Μετατροπής Eνέργειας, Εκδόσεις Φούντα, Aθήνα 2010.",
+    "Alciatore D.G., Introduction to Mechatronics and Measurement Systems, 5th edition, McGraw Hill, 2019.",
+    "Scherz P. Practical electronics for inventors, New York: McGraw-Hill, 2000.",
+    "Bishop R. The Mechatronics Handbook, 2nd ed., CRC press, 2007.",
+    "Παπαδόπουλος Ε. Εισαγωγή στα Ηλεκτρικά Κυκλώματα και Συστήματα, εκδόσεις Φούντα, Αθήνα, 2011."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "University of Crete",
+  "institution_slug": "uoc",
+  "degree": "Materials Science and Engineering — Πτυχίο Τμήματος Επιστήμης και Μηχανικής Υλικών (first cycle, 240 ECTS, curriculum ΕΜΥ)",
+  "course_code": "EMY-414",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.materials.uoc.gr/wp-content/uploads/2026/07/new_courses-outline_en_eng.pdf",
+  "source_language": "en",
+  "source_sha256": "35df33a0dc06da36e5bc65654eb785712aeeaa923047960deaa41989110ba47a",
+  "extracted_at": "2026-11-13T00:17:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

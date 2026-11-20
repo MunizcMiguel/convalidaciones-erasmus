@@ -1,0 +1,66 @@
+{
+  "course_name_original": "Electrónica dos Sistemas Embebidos",
+  "course_name_en": "Embedded Systems Electronics",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Embedded systems: structure and components.",
+    "Analog-to-digital and digital-to-analog conversion: Rounding and sampling.",
+    "Filtering: Transfer function; Butterworth and Chebyshev approximations; RLC filters; 1st and 2nd order active filters.",
+    "Signal generation - Linear oscillators and Barkhausen criterion; Wien bridge oscillator; LC oscillators; Crystal oscillators; Gain control and stabilization of sinusoidal oscillators; Astable multivibrators; The 555 timer; VCO; PLL, Frequency synthesizers.",
+    "Communication system: constituent blocks of the PCM system.",
+    "Sensors and actuators: Characteristics (range, resolution; error; precision; linearity; sensitivity); Temperature, light, positioning, motion and sound sensors; Heat, light, force, positioning and motion, and sound actuators; Interface circuits for sensors and actuators.",
+    "Embedded systems: use of microcontrollers for actuation."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory work (L1 to L5)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam (E-EN)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exam (E-ER)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Special period exam",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The laboratory grade is calculated as (L1 + L2 + L3 + 2x L4 + L5) / 6, with a minimum grade of 9.5 values. The final grade in the \"normal period\" is 50% x Laboratory Grade + 50% x E-EN Exam, with a minimum of 8.0 values in the E-EN exam. The final grade in the \"re-sit period\" is 50% x Laboratory Grade + 50% x E-ER Exam, with a minimum of 8.0 values in the E-ER exam. Student workers can choose between the rules of the \"normal period\" or the \"re-sit period\". In the \"special period\", the final grade is 100% x Exam.",
+  "bibliography": [
+    "Jonathan W. Valvano, Embedded Microcomputer Systems, 3rd edition, Cengage Learning, 2012 (main)",
+    "Neil Storey, Electrical & Electronic Systems, Prentice Hall, 2004 (main)",
+    "David Crecraft, Stephen Gergely, Analog Electronics: Circuits, Systems and Signal Processing, Elsevier, 2002 (main)",
+    "Sedra & Smith, Microelectronic Circuits, 5th edition, Saunders College Publishing, 2004 (main)"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Universidade De Lisboa — LERC Eng. de Telecomunicações e Informática (IST)",
+  "institution_slug": "ec_p_lisboa109__tele",
+  "degree": "Licenciatura em Engenharia de Telecomunicações e Informática (LERC)",
+  "course_code": "ESEmb112",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566185323",
+  "source_language": "pt",
+  "source_sha256": "254040917caaf4f7ebbac4c5e3e61dfd34f3cfd1252a59e218ceb9f943e6b883",
+  "extracted_at": "2026-11-20T12:41:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

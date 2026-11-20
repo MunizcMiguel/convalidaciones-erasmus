@@ -1,0 +1,170 @@
+{
+  "course_name_original": "Resistencia de materiales ii",
+  "course_name_en": "Strength of Materials II",
+  "ects": 6.0,
+  "semester": "S2",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Must master the obtaining of effort laws for simple bar structures.",
+    "0708315: RESISTENCIA DE MATERIALES I",
+    "0708306: MÉTODOS NUMÉRICOS Y ESTADÍSTICOS",
+    "0708303: FUNDAMENTOS FÍSICOS",
+    "0708301: ALGEBRA LINEAL Y GEOMETRÍA",
+    "0708302: CÁLCULO DIFERENCIAL E INTEGRAL"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Apply the principles of materials resistance in the selection of materials used in engineering.",
+      "type": "skill",
+      "code": "RARI16"
+    },
+    {
+      "text": "Recognize and understand the principles of materials resistance that apply to engineering.",
+      "type": "knowledge",
+      "code": "RARI8"
+    },
+    {
+      "text": "Recognize and understand the training needs that will be useful to successfully solve new situations related to industrial engineering.",
+      "type": "competence",
+      "code": "RAT1"
+    },
+    {
+      "text": "Propose creative solutions to satisfactorily respond to real needs and problems of society.",
+      "type": "competence",
+      "code": "RAT16"
+    },
+    {
+      "text": "Develop professional texts and scientific-technical reports according to the conventions of the field of industrial technical engineering.",
+      "type": "skill",
+      "code": "RAT17"
+    },
+    {
+      "text": "Adapt the organization of content and the use of language, verbal and non-verbal, to argue in various situations or before various audiences.",
+      "type": "skill",
+      "code": "RAT18"
+    },
+    {
+      "text": "Develop measurements, calculations, valuations, appraisals, expert reports, studies, reports, work plans, and other works typical of the field of technical engineering.",
+      "type": "skill",
+      "code": "RAT19"
+    },
+    {
+      "text": "Apply the knowledge of industrial engineering in learning new methods and theories.",
+      "type": "skill",
+      "code": "RAT4"
+    },
+    {
+      "text": "Critically and constructively show the advantages and opportunities of different solutions to the same problem.",
+      "type": "skill",
+      "code": "RAT5"
+    },
+    {
+      "text": "Apply quality principles and methods.",
+      "type": "skill",
+      "code": "RAT8"
+    },
+    {
+      "text": "Apply the fundamentals of elasticity and materials resistance to the behavior of real solids.",
+      "type": "skill",
+      "code": "RATE13"
+    },
+    {
+      "text": "Recognize and understand the fundamentals of elasticity and materials resistance that apply to the behavior of real solids.",
+      "type": "knowledge",
+      "code": "RATE4"
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I.- STUDY OF DEFORMATIONS AND MOVEMENTS. HYPERSTATIC STRUCTURES.",
+    "Theme 1: AXIAL FORCE",
+    "Deformations produced by axial force. Elongations-shortenings.",
+    "Hyperstatic bars subjected to axial force.",
+    "Mixed sections subjected to axial force.",
+    "Theme 2: BENDING MOMENT",
+    "Differential equation of the elastic line.",
+    "Mohr's Theorems.",
+    "Hyperstatic beams.",
+    "Mixed sections subjected to bending.",
+    "Theme 3: LATTICE STRUCTURES",
+    "Isostatic.",
+    "Hyperstatic.",
+    "BLOCK II.- ELASTICITY",
+    "Theme 4: BASIC ELASTICITY",
+    "Elasticity and Strength of Materials: Elastic Solids.",
+    "Basic hypotheses.",
+    "Static equilibrium and elastic equilibrium.",
+    "Concept of stress. Stress tensor. Equilibrium at the boundary. Principal stresses and directions.",
+    "Concept of deformation: Strain tensor. Compatibility conditions for deformations.",
+    "Generalized Hooke's Laws.",
+    "Lamé's equations.",
+    "BLOCK III.- DEFORMATION ENERGY",
+    "Theme 5: WORK AND ENERGY IN ELASTIC SOLIDS",
+    "Deformation energy. Work of external forces.",
+    "Mutual or indirect work.",
+    "Reciprocity theorems.",
+    "Virtual work theorems.",
+    "Internal deformation energy in straight bars.",
+    "Calculation of reactions and movements using virtual work theorems.",
+    "BLOCK IV: INTRODUCTION TO THE FINITE ELEMENT METHOD",
+    "Theme 6: INTRODUCTION TO THE FINITE ELEMENT METHOD (FEM).",
+    "Discretization: nodes and elements.",
+    "Shape functions.",
+    "Different types of finite elements.",
+    "Matrix formulation of FEM.",
+    "Introduction to the use of commercial software for structural analysis using FEM.",
+    "BLOCK V: LABORATORY PRACTICES",
+    "Deformations due to axial and bending forces."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Problem-Based Learning",
+    "Laboratory practices",
+    "Computer practices",
+    "Assignments",
+    "Tutoring of activities"
+  ],
+  "workload_hours_total": 146.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Mixed tests",
+      "weight_percentage": 90.0
+    },
+    {
+      "method": "Assignments",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Timoshenko, Stepan Prokof'evich. Resistencia de materiales. 1ª parte, Teoría elemental y problemas. Madrid :: Espasa-Calpe, 1980. ISBN: 8423963144, O.C.; 8423963152",
+    "EAE : instrucción de acero estructural : con comentarios de los miembros de la Comisión Permanente de Estructuras de Acero. Centro de Publicaciones Ministerio de Fomento, 2012",
+    "Vázquez Fernández, Manuel. Resistencia de materiales. Noela, 1999",
+    "Timoshenko, Stepan Prokof'evich. Resistencia de materiales. 2ª parte, Teoría y problemas más complejos. Madrid :: Espasa-Calpe, 1978. ISBN: 8423963144, O.C.; 8423963160, 2a. parte",
+    "España García Abancens, David. Código técnico de la edificación. DAPP, 2009",
+    "Argüelles Álvarez, Ramón. Escuela Técnica Superior de Ingenieros de Montes (Madrid), ot. Cálculo de estructuras. Madrid :: Escuela Técnica Superior de Ingenieros de Montes, 1981-1986. ISBN: 84-600-2411-3 (T. I); 84-600-2412-1 (T. II); 84-600-4189-1 (T. III); 84-600-2410-5 (O.C.)",
+    "Miquel, J. Cálculo de estructuras. Libro 1, Fundamentos y estudio de secciones. Edicions UPC, 2000",
+    "Ortiz Berrocal, Luis. e-libro, Corp. Resistencia de materiales. Madrid :: McGraw-Hill/Interamericana, D.L. 2007. ISBN: 84-481-7461-5",
+    "Ortiz Berrocal, Luis. Resistencia de materiales. Madrid :: McGraw-Hill Interamericana, [2007]. ISBN: 978-84-481-5633-6",
+    "Timoshenko, Stephen, Goodier, J. N.; Fuentes Pérez, Alberto. Teoría de la elasticidad. Bilbao :: Urmo, [1981]. ISBN: 84-314-0231-8",
+    "Garrido García, José A. Foces Mediavilla, Antonio. Resistencia de materiales. Secretariado de Publicaciones e Intercambio Científico Universidad de Valladolid, 1999"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad de León",
+  "institution_slug": "es_leon",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "0708319",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocenteapi.unileon.es/snapshots/2026-2027/0708319",
+  "source_language": "es",
+  "source_sha256": "35fa7858b5162ad27925f3814dc08d03121710f84b881361b8e37afe5c4fb173",
+  "extracted_at": "2026-11-13T22:55:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

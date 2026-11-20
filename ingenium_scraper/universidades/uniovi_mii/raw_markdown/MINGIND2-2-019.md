@@ -1,0 +1,255 @@
+---
+{
+ "course_code": "MINGIND2-2-019",
+ "course_name": "Generación Termoeléctrica Limpia",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-2-019",
+ "source_language": "es",
+ "ects_catalog": 4.5,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:02:34",
+ "content_sha256": "2c09dc0c6a8fa6dec243f61ca5312a26ee43879a1d7c83d36eb340aa6f05c2a1"
+}
+---
+
+# Generación Termoeléctrica Limpia
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-2-019
+
+## Datos de la asignatura
+
+- **Curso:** Segundo
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Optativa
+- **Créditos:** 4.5
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Clases Expositivas (16.75 Horas); Prácticas de Aula/Semina (7 Horas); Prácticas de Laboratorio (10 Horas)
+
+## Contextualización
+
+La asignatura Generación Termoeléctrica Limpia (de ahora en adelante GTL) se enmarca dentro del Módulo/Intensificación Energía, de 4,5 créditos ECTS y se imparte durante el primer semestre. La asignatura comprende el estudio de los circuitos, su funcionamiento, sus componentes y su interrelación en la configuración de una central productora de energía.
+
+La palabra clave es energía y los principios básicos que rigen la conversión entre las distintas formas de aquella. Para una sociedad industrializada, los recursos energéticos, formas de energía, tienen que ser convertidos en trabajo útil, otra forma de energía.
+
+Observando el balance energético de un país industrializado se pueden extraer una serie de conclusiones que ayudarán a comprender la importancia relativa de la asignatura, de los epígrafes que la constituyen y el porqué de su elección y desarrollo.
+
+En dicho balance aparece en primer término “producción de energía primaria”, es decir, materias primas, vitales desde el punto de vista estratégico de un país y que pueden proceder tanto de sus propias reservas como de la importación siguiendo criterios elementales de política energética (diversificación y garantía de suministro). Entre las materias primas destacan principalmente los combustibles, utilizados casi exclusivamente en forma térmica para obtener energía mecánica y eléctrica.
+
+Y es que hay que tener en cuenta que las tecnologías energéticas se han basado en la conversión de energía térmica –calor- en trabajo útil desde el inicio de la Revolución Industrial hasta hoy.
+
+La creciente preocupación sobre las implicaciones medioambientales de la producción de energía -tanto en su forma de energía eléctrica como energía mecánica- mediante el empleo de combustibles convencionales, se materializa en la aparición de regulaciones más rigurosas de control de descargas, tanto sólidas como líquidas y gaseosas. Por ello, la evolución de la tecnología de la generación termoeléctrica está orientada hacia una reducción progresiva de las emisiones mediante sistemas de tratamiento y depuración de los efluentes gaseosos, así como mediante el empleo de nuevos sistemas de utilización de combustibles convencionales que disminuyan las emisiones de elementos contaminantes a la vez que incrementan la eficiencia en la conversión.
+
+Con estos estudios se pretende, por tanto, la formación del futuro Ingeniero en el conocimiento de los Sistemas de Generación Termoeléctrica (sistemas mediante los que se genera más del 60 % de la energía eléctrica del mundo), integrando para ello los conocimientos adquiridos en las disciplinas cursadas a lo largo de la carrera, adquiriendo una visión de conjunto de las instalaciones, de los parámetros de diseño y una idea básica de las condiciones de operación, así como de la integración de los distintos tipos de instalación en el sistema eléctrico y del papel de los mismos en el desarrollo de un país.
+
+## Requisitos
+
+Las materias estrechamente vinculadas con la GTL son las siguientes:
+
+- La Termodinámica, que establece los fundamentos de la conversión de la energía térmica, el estudio de las propiedades de los sistemas y de las máquinas térmicas.
+- La Ingeniería Térmica, donde se estudia el funcionamiento de motores térmicos alternativos y rotativos.
+- La Mecánica de Fluidos que proporciona los principios de la circulación de fluidos en los distintos sistemas.
+- La Transmisión de Calor que proporciona los fundamentos de los procesos de transferencia de calor y masa.
+
+Por lo tanto, son recomendables conocimientos en Termodinámica, Ingeniería Térmica, Mecánica de Fluidos y Transmisión de Calor. Finalmente pueden mencionarse otras materias fundamentales como: Física General, Química General, Matemáticas.
+
+## Competencias y resultados del aprendizaje
+
+*Competencias básicas:*
+
+**CB6:** Poseer y comprender conocimientos que aporten una base u oportunidad de ser originales en el desarrollo y/o aplicación de ideas, a menudo en un contexto de investigación. **CB7:** Que los estudiantes sepan aplicar los conocimientos adquiridos y su capacidad de resolución de problemas e entornos nuevos o poco conocidos dentro contextos más amplios (o multidisciplinares) relacionados con su área de estudio. **CB8:** Que los estudiantes sean capaces de integrar conocimientos y enfrentarse a la complejidad de formular juicios a partir de una información que, siendo incompleta o limitada, incluya reflexiones sobre las responsabilidades sociales y éticas vinculadas a la aplicación de sus conocimientos y juicios. **CB9:** Que los estudiantes sepan comunicar sus conclusiones y los conocimientos y razones últimas que las sustentan a públicos especializados y no especializados de un modo claro y sin ambigüedades. **CB10:** Que los estudiantes posean las habilidades de aprendizaje que les permitan continuar estudiando de un modo que habrá de ser en gran medida autodirigido o autónomo.
+
+*Competencias generales:*
+
+**CG1 -** Tener conocimientos adecuados de los aspectos científicos y tecnológicos de: métodos matemáticos, analíticos y numéricos en la ingeniería, ingeniería eléctrica, ingeniería energética, ingeniería química, ingeniería mecánica, mecánica de medios continuos, electrónica industrial, automática, fabricación, materiales, métodos cuantitativos de gestión, informática industrial, urbanismo e infraestructuras**. CG2 -** Proyectar, calcular y diseñar productos, procesos, instalaciones y plantas. **CG4** - Realizar investigación, desarrollo e innovación en productos, procesos y métodos. **CG5 -** Realizar la planificación estratégica y aplicarla a sistemas tanto constructivos como de producción, de calidad y de gestión medioambiental. **CG8 -** Conocimiento, comprensión y capacidad para aplicar la legislación necesaria en el ejercicio de la profesión de Ingeniero Industrial.
+
+*Competencias específicas:*
+
+**CE1:** Conocimiento y capacidad para el análisis y diseño de sistemas de generación, transporte y distribución de energía eléctrica. **CE5:** Conocimientos y capacidades para el diseño y análisis de máquinas y motores térmicos, máquinas hidráulicas e instalaciones de calor y frío industrial. **CE6:** Conocimientos y capacidades que permitan comprender, analizar explotar y gestionar las distintas fuentes de energía.
+
+R**esultados del aprendizaje**:
+
+**RA20:** Conocer las líneas de política energética y de las tecnologías avanzadas para la generación termoeléctrica con mínima emisión de contaminantes. **RA21:** Aplicar, valorar y analizar las tecnologías de generación termoeléctrica limpia bajo distintas posibilidades técnicas según los tipos de aplicaciones. **RA22:** Seleccionar y aplicar tecnologías de reducción de emisiones contaminantes en los gases de combustión.
+
+## Contenidos
+
+*Contenidos de las clases presenciales*
+
+**BLOQUE I: ACTUACIONES DE POLÍTICA ENERGÉTICA EN RELACIÓN CON EL MEDIO AMBIENTE**
+
+Unidad temática 1: Panorama energético mundial
+
+Unidad temática 2: Panorama energético nacional
+
+Unidad temática 3: Costes de la generación eléctrica
+
+Unidad temática 4: Planificación energética para la reducción de emisiones contaminantes
+
+**BLOQUE II: TECNOLOGÍAS AVANZADAS DE COMBUSTIÓN PARA EL EMPLEO DE RECURSOS CONVENCIONALES**
+
+Unidad temática 5: Sistemas de generación termoeléctrica
+
+Unidad temática 6: Proceso de combustión
+
+Unidad temática 7: Circuitos básicos en una central térmica
+
+Unidad temática 8: Tecnologías limpias. Centrales térmicas SC y USC
+
+Unidad temática 9: Tecnologías limpias. Combustión en lecho fluido
+
+Unidad temática 10: Tecnologías limpias. Ciclo combinado
+
+Unidad temática 11: Tecnologías limpias. Gasificación Integrada en Ciclo Combinado
+
+**BLOQUE III: TECNOLOGÍAS DE COMBUSTIÓN QUE EMPLEAN RECURSOS ALTERNATIVOS**
+
+Unidad temática 12: Biomasa
+
+Unidad temática 13: Hidrógeno
+
+**BLOQUE IV: TECNOLOGÍAS PARA LA REDUCCIÓN DE EMISIONES CONTAMINANTES**
+
+Unidad temática 14: Fuentes de emisiones contaminantes en la generación termoeléctrica
+
+Unidad temática 15: Captura y almacenamiento de CO2
+
+Unidad temática 16: Eliminación de óxidos de azufre
+
+Unidad temática 17: Reducción de óxidos de nitrógeno
+
+Unidad temática 18: Eliminación de partículas sólidas
+
+*Prácticas de aula*
+
+Las *Clases prácticas de aula* están constituidas por ejercicios y/o problemas, basados en los conocimientos adquiridos en las clases expositivas a las que complementan. Estas hacen que el alumno comprenda los conocimientos teóricos y su puesta en práctica.
+
+*Prácticas de laboratorio*
+
+1. Análisis del proceso de combustión:
+   1. Balance de combustión de un combustible
+   2. Determinación del rendimiento de caldera en una central térmica
+   3. Balance de emisiones en una central térmica
+2. Análisis de una CT de ciclo combinado
+3. Análisis de una CT de biomasa
+
+*Programa de actividades no presenciales*
+
+1. Estudio de contenidos de cada unidad temática y casos prácticos
+2. Elaboración individual de un trabajo asignado
+3. Elaboración en grupo de casos prácticos
+
+## Metodología y plan de trabajo
+
+**Clases expositivas y prácticas de aula**, de 1 hora de duración cada una, en las que se presenta una visión general de los contenidos de cada tema, complementados con la resolución de problemas. Con ella se trata de transmitir conocimientos por parte del profesor, sin que ello implique una menor participación del alumno, ya que éste debe de hacer una lectura comprensiva, y previa, de la lección programada. Con ello se trata de que el alumno contribuya con actitudes más activas y creativas y que permitan un análisis crítico de los contenidos.
+
+**Prácticas de laboratorio**, de 2 h de duración cada una. Cada alumno realizará un total de unas 5 sesiones de este tipo.
+
+Por otro lado, los estudiantes deben dedicar un cierto número de horas de **trabajo no presencial** para mejorar su comprensión de los contenidos de cada tema. Este trabajo incluye tanto actividades en el Campus Virtual (lectura de fundamentos teóricos, resolución de cuestionarios, participación en foros de debate, visionado de material adicional, etc.) como actividades de trabajo autónomo.
+
+**Plan de trabajo:**
+
+Actividades formativas presenciales (Total: 33,75 h)
+
+1. Clases expositivas: 14 horas, distribuidas de la siguiente manera,
+
+| Bloque I | 3,5 h |
+| --- | --- |
+| Bloque II | 5 h |
+| Bloque III | 1,5 h |
+| Bloque IV | 4 h |
+
+2. Prácticas de Aula /Seminario/Taller: 7 h
+
+3. Prácticas de Laboratorio/Campo: 10 h
+
+4. Evaluación: 2,75 h
+
+Actividades formativas no presenciales(Total: 78,75 h)
+
+1. Trabajo en grupo: 15,75 h
+2. Trabajo autónomo: 63 h
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**:
+
+Elementos evaluables:
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen presencial escrito único. Tendrá una duración aproximada de 3 h. Constará de cuestiones teóricas y/o ejercicios prácticos en formato test. Sse penalizarán las respuestas incorrectas de acuerdo con la fórmula siguiente:
+
+*N=((**A-**Err/(**d-1))/**n)**\*10*
+
+En donde N: nota obtenida; A: respuestas correctas; Err: respuestas incorrectas; d: nº de opciones/pregunta; n: nº de preguntas. El peso del examen en la calificación final será de un 60%. La evaluación se corresponde con los resultados de aprendizaje.
+
+- Pruebas de evaluación prácticas (PL): Durante la realización de las prácticas de laboratorio y aula de informática los estudiantes recibirán instrucciones sobre la tarea a realizar en forma de cuestionario a entregar durante la sesión de prácticas o, si su duración lo requiere, a través del Campus Virtual. La tarea correspondiente a cada sesión de prácticas se calificará con una nota entre 0 y 10. La nota de pruebas de evaluación prácticas será la media aritmética de las notas obtenidas en los trabajos correspondientes a cada sesión de prácticas. El peso de las pruebas de evaluación práctica en la calificación final será de un 30%. La nota de PL será válida para las convocatorias del curso académico en el que se haya obtenido.
+- Participación en clase (PC): Durante las clases de teoría del curso podrán plantearse ejercicios a resolver por parte del estudiante. El peso de la participación en clase en la calificación final será de un 10%.
+
+No es necesario alcanzar una nota mínima en ninguno de los elementos evaluables mencionados.
+
+La nota final se obtiene de la siguiente manera:
+
+NF=N\*0,6+PC\*0,10+PL\*0,3
+
+**Convocatoria extraordinaria:**
+
+Elementos evaluables:
+
+Aquellos alumnos que no hayan superado la asignatura mediante el proceso ordinario de evaluación tendrán derecho a realizar la convocatoria extraordinaria, consistente en:
+
+- Examen presencial escrito único. Tendrá una duración aproximada de 3 h. Constará de cuestiones teóricas y/o ejercicios prácticos en formato test. Se penalizarán las respuestas incorrectas de acuerdo con la fórmula siguiente:
+
+*N=((**A-**Err/(**d-1))/**n)**\*10*
+
+En donde N: nota obtenida; A: respuestas correctas; Err: respuestas incorrectas; d: nº de opciones/pregunta; n: nº de preguntas. El peso del examen en la calificación final será de un 60%. La evaluación se corresponde con los resultados de aprendizaje.
+
+- Pruebas de evaluación prácticas (PL): Durante la realización de las prácticas de laboratorio y aula de informática los estudiantes recibirán instrucciones sobre la tarea a realizar en forma de cuestionario a entregar durante la sesión de prácticas o, si su duración lo requiere, a través del Campus Virtual. La tarea correspondiente a cada sesión de prácticas se calificará con una nota entre 0 y 10. La nota de pruebas de evaluación prácticas será la media aritmética de las notas obtenidas en los trabajos correspondientes a cada sesión de prácticas. El peso de las pruebas de evaluación práctica en la calificación final será de un 30%. La nota de PL será válida para las convocatorias del curso académico en el que se haya obtenido.
+- Participación en clase (PC): Durante las clases de teoría del curso podrán plantearse ejercicios a resolver por parte del estudiante. El peso de la participación en clase en la calificación final será de un 10%.
+
+No es necesario alcanzar una nota mínima en ninguno de los elementos evaluables mencionados.
+
+La nota final se obtiene de la siguiente manera:
+
+NF=N\*0,6+PC\*0,10+PL\*0,3
+
+**Evaluación Diferenciada**
+
+La evaluación diferenciada en la asignatura Generación Termoeléctrica Limpia consistirá en las siguientes pruebas:
+
+- Examen final de teoría. Tendrá una duración aproximada de 3 h. Constará de cuestiones teóricas y/o ejercicios prácticos en formato test. Se penalizarán las respuestas incorrectas de acuerdo con la fórmula siguiente:
+
+*N=((**A-**Err/(**d-1))/**n)**\*10*
+
+En donde N: nota obtenida; A: respuestas correctas; Err: respuestas incorrectas; d: nº de opciones/pregunta; n: nº de preguntas. El peso del examen en la calificación final será de un 70%. La evaluación se corresponde con los resultados de aprendizaje.
+
+- Un **examen final de prácticas** que sustituye a la evaluación continua. Esta prueba consistirá en la resolución de un cuestionario en las que se plantearán ejercicios relativos a los contenidos de las prácticas. Se realizará en la misma fecha que el examen final escrito oficial y tendrá una duración de 2 horas. Representa un 30% de la nota final de la asignatura.
+
+No es necesario alcanzar una nota mínima en ninguno de los elementos evaluables mencionados.
+
+La nota final se obtiene de la siguiente manera:
+
+NF=N\*0,7+ PL\*0,3
+
+**Consideraciones**
+
+En caso de duda por parte del profesorado sobre la autoría de alaguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+## Bibliografía
+
+El alumno dispondrá en el campus virtual de *material docente* correspondiente a cada parte del temario y el necesario para la realización de las actividades propuestas.
+
+*Bibliografía básica*
+
+- Prieto Fernández, I. *Apuntes de Centrales Térmicas*.
+- Prieto Fernández, I. (2005) *Tecnologías de reducción de contaminantes en grandes instalaciones de combustión*. Dpto. Energía. Curso de Doctorado.
+
+*Documentos complementarios*
+
+- British Electricity International (1991) *Modern Power Station*, Vol. B y C. Londres: Pergamon Press.
+- Stulz, S.C.; Kito, J.B. (ed.) (1992) *Steam. Its generation and use* (40º ed.). New York: Babcock & Wilcox Co.

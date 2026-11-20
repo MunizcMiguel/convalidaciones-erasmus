@@ -1,0 +1,147 @@
+{
+  "course_name_original": "Metodología de la Programación",
+  "course_name_en": "Programming Methodology",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic notions of logic",
+    "Basic notions of mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually at a level that, although supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "unspecified",
+      "code": "CB 1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their field of study.",
+      "type": "unspecified",
+      "code": "CB 2"
+    },
+    {
+      "text": "Students have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "unspecified",
+      "code": "CB 5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical and signal processing methods.",
+      "type": "unspecified",
+      "code": "CG 1"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to design experiments and describe, analyze, evaluate and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "unspecified",
+      "code": "CG 2"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "unspecified",
+      "code": "CG 3"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "unspecified",
+      "code": "CG 4"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly both in writing and orally.",
+      "type": "unspecified",
+      "code": "CG 9"
+    },
+    {
+      "text": "Understand the fundamentals of programming and basic algorithmic techniques and apply them using the most relevant programming languages in the field of data science and engineering.",
+      "type": "knowledge",
+      "code": "CE 10"
+    },
+    {
+      "text": "Understand the concept of algorithm and the process of problem abstraction in programming.",
+      "type": "unspecified",
+      "code": "RMP-1"
+    },
+    {
+      "text": "Identify the program development process and its location within the general Software Engineering process.",
+      "type": "unspecified",
+      "code": "RMP-2"
+    },
+    {
+      "text": "Know the elementary data structures provided by a structured programming language.",
+      "type": "knowledge",
+      "code": "RMP-3"
+    },
+    {
+      "text": "Manage the elementary control structures of a structured programming language.",
+      "type": "skill",
+      "code": "RMP-4"
+    },
+    {
+      "text": "Abstract an operation. Design functions, including simple recursive functions.",
+      "type": "skill",
+      "code": "RMP-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to programming: basic concepts and languages.",
+    "Data types: variables and constants.",
+    "Basic input/output.",
+    "Elementary data structures: lists, tuples, dictionaries.",
+    "Structured programming: conditionals and loops.",
+    "Modular design: functions.",
+    "Introduction to OOP: classes, objects, methods.",
+    "Vectors and matrices."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Laboratory practices",
+    "Expositive classes",
+    "Individual practices",
+    "Individual study",
+    "Academic tutoring"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance to practices (A)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in forums/online activities (B)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Continuous evaluation (C) (programming exercises)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final exam (D) (written test)",
+      "weight_percentage": 45.0
+    }
+  ],
+  "assessment_rules": "For ordinary evaluation, the final grade is calculated as: (0.05 x A) + (0.10 x B) + (0.40 x C) + (0.45 x D), provided a minimum of 4 out of 10 is obtained in the final exam (D). For differentiated evaluation, the final grade is (0.50 x Theoretical Final Exam) + (0.50 x Practical Final Exam), with a minimum of 4 out of 10 in the theoretical exam. In extraordinary calls, if continuous evaluation is passed (>=5 in A+B+C), the final grade is (Continuous Evaluation + Theoretical Exam) / 2, with a minimum of 4 in the theoretical exam. Otherwise, the final grade is (0.50 x Theoretical Exam) + (0.50 x Practical Exam), with a minimum of 4 in both parts.",
+  "bibliography": [
+    "Hall, T., y Stacey, J.-P. (2009). Python 3 for absolute beginners. Apress.",
+    "Marzal Varó, A., Gracia Luengo, I., y García Sevilla, P. (2014). Introducción a la programación con Python 3. Universitat Jaume I. Descargado de <http://hdl.handle.net/10234/102653>",
+    "McConnell, S. (2004). Code complete: A practical handbook of software construction (2nd ed.). Microsoft Press.",
+    "Meyer, B. (1997). Object-oriented software construction (2nd ed.). Prentice-Hall.",
+    "Microsoft Inc. (s.f.). Visual Studio Code. Descargado 10/04/2021, de <https://code.visualstudio.com>",
+    "Phillips, D. (2015). Python 3 object-oriented programming (2nd ed.). Packt Publishing.",
+    "Pilgrim, M. (2009). Dive into Python 3. Apress. Descargado de <https://diveintopython3.problemsolving.io>",
+    "Python Software Foundation. (s.f.). Python. Descargado 10/04/2021, de <https://www.python.org>"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-1-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-1-006",
+  "source_language": "es",
+  "source_sha256": "8303f05a9e63923c502b03a501ae39fc367389321a69e702c3a3deb5f7652049",
+  "extracted_at": "2026-11-20T05:55:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

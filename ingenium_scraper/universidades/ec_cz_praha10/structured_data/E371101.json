@@ -1,0 +1,59 @@
+{
+  "course_name_original": "Optimal and predictive control systems",
+  "course_name_en": "Optimal and predictive control systems",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand control system design based on the approaches of optimal and predictive control to processes described by both parametric and non-parametric model.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Solving linear (LP) and quadratic (QP) programming problems",
+    "Optimal control problem",
+    "Gradient-based optimization methods",
+    "Bellman principle of optimality, dynamic programming",
+    "Linear quadratic regulator, algebraic (matrix) Riccati equation",
+    "Development of optimal control design based on linear matrix inequalities (LMI)",
+    "Model Predictive Control (MPC) algorithm definition and synthesis",
+    "Receding Horizon Control (RHC) comparison between the control in finite and infinite horizon",
+    "MPC design using output prediction based on plant state estimation",
+    "MPC design strategy with pole placement, deadbeat control",
+    "MPC design constrained on the control input (saturation etc.)",
+    "Multivariable MPC: challenges from industry",
+    "Optimal and predictive control problems: Case studies"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Ogata K.: Modern Control Engineering. Prentice Hall, Boston, 2002.",
+    "Camacho E. F. and Bordons A. C.: Model Predictive Control. Springer-Verlag, London, 2004.",
+    "Goodwin, G. C., Graebe, S. F., and Salgado, M. E.: Control System Design, Pearson, 2001.",
+    "Kwakernaak H. and Sivan R.: Linear optimal control systems. Wiley &Sons, Inc., New York, 1972"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods",
+    "prerequisites"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371101",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet5794806.html",
+  "source_language": "en",
+  "source_sha256": "c4feea7cbc3cd4fba3c3099591bfcca3480e3db900c8f05a9f5320e2f69c45dc",
+  "extracted_at": "2026-11-20T06:07:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

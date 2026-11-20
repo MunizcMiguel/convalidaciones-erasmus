@@ -1,0 +1,156 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics I and Mathematics II from scientific-technological baccalaureate, including elementary algebra, trigonometry, and basic calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Utilize the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces, and linear applications, and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces, through the scalar product, norm, or distance.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and space.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Identify the basic elements of differential equations and systems of differential equations and use algebraic tools to solve elementary cases.",
+      "type": "unspecified",
+      "code": "RA6"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Knowledge of basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity and critical reasoning.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering, both orally and in writing, and to all types of audiences.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Honesty, responsibility, ethical commitment and solidarity.",
+      "type": "competence",
+      "code": "CG14"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "competence",
+      "code": "CG15"
+    }
+  ],
+  "syllabus_topics": [
+    "Theme 1. Real and complex numbers.",
+    "1.1. Basic properties and fundamental operations.",
+    "Theme 2. Systems of linear equations and matrices.",
+    "2.1. Matrices and basic properties. Determinant.",
+    "2.2. Solving systems using Gauss's Method. Application to the calculation of the inverse matrix.",
+    "Theme 3. Vector spaces.",
+    "3.1. Vector space structure.",
+    "3.2. Linear combinations and linear independence. Bases and dimension. Coordinates.",
+    "3.3. Vector subspaces.",
+    "Theme 4. Linear applications.",
+    "4.1. Definition and properties.",
+    "4.2. Associated matrix. Change of basis.",
+    "4.3. Kernel and image of an application. Classification of linear applications.",
+    "Theme 5. Diagonalization.",
+    "5.1. Eigenvalues and eigenvectors.",
+    "5.2. Diagonalization of endomorphisms and matrices.",
+    "5.3. Applications to the resolution of systems of linear differential equations.",
+    "Theme 6. Euclidean geometry.",
+    "6.1. Euclidean vector space. Scalar product and metric properties.",
+    "6.2. Orthogonality. Orthogonal diagonalization.",
+    "6.3. Orthogonal projection.",
+    "1. Introduction to MATLAB",
+    "2. Matrix calculus and systems of equations",
+    "3. Vector spaces and changes of basis",
+    "4. Linear applications. Eigenvalues and diagonalization",
+    "5. Scalar products and orthogonal projections"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices (problem solving)",
+    "Laboratory practices (using MATLAB)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial written control 1 (first three themes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial written control 2 (last three themes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices (NA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practices (NL)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as NF = 0.15*NL + maximum (0.15*NA + 0.7*NC, 0.85*NC), where NL is the laboratory practice grade, NA is the classroom practice grade, and NC is the average of the written controls, all out of 10 points. To pass, students must obtain at least 2.5 points out of 10 in each partial control; otherwise, the final grade will be a fail, with a numerical grade of the minimum between NF and 4.5. For differentiated evaluation, if classroom practice attendance is not possible, the formula becomes NF = 0.15*NL + 0.85*NC, with passing conditions of NF ≥ 5, NL ≥ 2.5, and NC ≥ 2.5 in each written exam part. Extraordinary calls involve a written exam (two parts) and a laboratory practice test, using the same grading formula. Grades obtained in classroom practices are conserved for all calls of the same academic year; laboratory practice grades can be conserved or replaced by a specific exam.",
+  "bibliography": [
+    "Lay, D.C. Álgebra Lineal y sus Aplicaciones. Addison Wesley (3ª ed.), 2007.",
+    "Lay, D.C. Linear Algebra and its Applications. Addison Wesley (4th ed.), 2011.",
+    "Nakos, G.; Joyner, D. Álgebra Lineal con Aplicaciones. Thomson, 1999.",
+    "Nakos, G.; Joyner, D. Linear Algebra with Applications. Brooks, 1998.",
+    "Poole, D. Álgebra Lineal, una introducción moderna. Thomson, 2004.",
+    "Poole, D. Linear Algebra: A modern introduction. Brooks, 2010 (3rd ed).",
+    "Burgos, J, de. Álgebra Lineal. McGraw-Hill (3ª ed.), 2006.",
+    "Golubitsky, M.; Dellnitz, M. Álgebra Lineal y ecuaciones diferenciales, con uso de MatLab. Thomson, 2001.",
+    "Golubitsky, M.; Dellnitz, M. Linear Algebra and Differential Equations using MATLAB. Brooks, 1999.",
+    "Strang, G. Álgebra Lineal y sus aplicaciones. Thomson, 2007.",
+    "Strang, G. Linear Algebra and Its Applications. Brooks, 2005 (4th ed.)."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Química Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_giqi",
+  "degree": "Grado en Ingeniería Química Industrial",
+  "course_code": "GIIQUI01-1-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/quimicaindustrial/-/fof/asignatura/GIIQUI01-1-004",
+  "source_language": "es",
+  "source_sha256": "55b3988103aa07b8989cfca4d7dfb66cff3d2723aa9f42cf01e6e811ccfae519",
+  "extracted_at": "2026-11-20T01:14:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,120 @@
+{
+  "course_name_original": "Teoría de Circuitos",
+  "course_name_en": "Circuit Theory",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematics (functions, differentiation, integration, matrix operations, determinants, solving algebraic equation systems, complex numbers)",
+    "Physics (basic notions of electricity: electric field, magnetic field, electric charge, electric current, potential difference, Ohm's law, Kirchhoff's laws)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Calculate steady-state voltages and currents in linear circuits with direct current and alternating current excitation.",
+      "type": "skill",
+      "code": "RA-5.1"
+    },
+    {
+      "text": "Obtain, if it exists, a simple circuit with equivalent behavior to a given one.",
+      "type": "skill",
+      "code": "RA-5.2"
+    },
+    {
+      "text": "Calculate steady-state voltages and currents in linear circuits with sinusoidal excitation when the excitation frequency changes.",
+      "type": "skill",
+      "code": "RA-5.3"
+    },
+    {
+      "text": "Calculate transient voltages and currents in first and second-order linear circuits with direct current excitation.",
+      "type": "skill",
+      "code": "RA-5.4"
+    },
+    {
+      "text": "Determine various normalized relationships between currents and voltages in four-terminal networks (two-port networks).",
+      "type": "skill",
+      "code": "RA-5.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Electromagnetic magnitudes and units.",
+    "Reference conventions for current, voltage, and power.",
+    "Kirchhoff's laws.",
+    "Active elements. Voltage and current sources. Dependent sources.",
+    "Resistance: Ohm's law. Power and energy dissipated in a resistance: Joule effect.",
+    "Inductance: Power and electromagnetic energy stored in an inductance.",
+    "Capacitor. Power and electrostatic energy stored in a capacitor.",
+    "Operational impedance and admittance. Impedance associations.",
+    "Reduction of active branches. Source transformation.",
+    "Real sources. Real source conversion.",
+    "Thevenin's and Norton's theorems. Circuit equivalents.",
+    "Maximum power transfer theorem.",
+    "Kenelly's theorem.",
+    "Superposition principle.",
+    "Periodic waveforms: average and RMS values.",
+    "Phasor representation of sinusoidal magnitudes. Phasor diagrams.",
+    "Response of passive elements in alternating current.",
+    "Complex impedance and admittance. Association of complex impedances.",
+    "Variation of impedance with frequency. Series and parallel resonance.",
+    "Complex power. Apparent, active, and reactive power. Power factor.",
+    "Circuit analysis using the mesh current method.",
+    "Circuit analysis using the node voltage method.",
+    "Transient and steady-state regimes of an electrical circuit.",
+    "First-order circuits: RL and RC circuit response in direct current.",
+    "Second-order circuits: RLC circuit response in direct current.",
+    "Concept of two-port networks. Types of two-port networks.",
+    "Characteristic parameters of electrical two-port networks.",
+    "Handling of PicoScope. Kirchhoff's Laws.",
+    "Calculation of currents, voltages, and powers in steady-state DC circuits.",
+    "Tutorial group. Attendance is not mandatory, not evaluable.",
+    "Analysis of circuits in sinusoidal steady-state.",
+    "Evaluation session. Resolution of circuits involving the use of PicoScope and concepts acquired in previous practical sessions."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam (EP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory exam (EL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (EF)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if conditions for content elimination from the partial exam (EP) are met, the final grade is (0.4 * EP) + (0.15 * EL) + (0.45 * EF). Otherwise, it is (0.15 * EL) + (0.85 * EF). A minimum final grade of 5 points is required to pass, and if any minimums are not met, the maximum final grade is 3.5 points. For extraordinary calls, the final grade is (0.15 * EL) + (0.85 * EF), with the same passing and maximum grade conditions. In both cases, the student must obtain at least 20% of the maximum score for each exercise and 50% of the overall score in the final exam (EF) for content being evaluated in that exam.",
+  "bibliography": [
+    "ANÁLISIS DE CIRCUITOS EN INGENIERÍA. Hayt; Kemmerly. Ed. McGraw Hill",
+    "Joseph A. Edminister. Circuitos eléctricos. Teoría y problemas resueltos. Serie Schaum. ISBN:84-481-1061-7. Mc-Graw Hill.",
+    "José Gómez Campomanes. Circuitos eléctricos. Servicio de publicaciones Universidad de Oviedo 1990. ISBN 84-7468-288-6.",
+    "Parra V. M.; Pérez, A.; Pastor, A.; Ortega, J. \"Teoría de Circuitos\" (2 tomos). U.N.E.D., 1981. ISBN 97-8843-621949-4",
+    "Pastor, A.; Ortega J; Parra, V. “Circuitos Eléctricos” (2 tomos), UNED, 2003. ISBN 97-8843-624981-1",
+    "Guías de seguimiento de clases, Presentaciones",
+    "Colecciones de problemas propuestos y resueltos"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-1-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-1-010",
+  "source_language": "es",
+  "source_sha256": "7130ae24b2ee7922f757319e8700b9ca07640c2bae122665f298fada2d9f0db4",
+  "extracted_at": "2026-11-20T06:05:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

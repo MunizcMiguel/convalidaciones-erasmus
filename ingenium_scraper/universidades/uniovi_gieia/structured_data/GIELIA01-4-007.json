@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Accionamientos Electrónicos",
+  "course_name_en": "Electronic Drives",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "All subjects of the Industrial Electronic and Automation degree up to the 3rd year included are recommended to be passed.",
+    "Power Electronics (3rd year - 2nd semester)",
+    "Electrical Installations and Machines"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the necessity and the basic operating principle of electronic drives used in controlling typical industrial power loads.",
+      "type": "unspecified",
+      "code": "RAE-1"
+    },
+    {
+      "text": "Autonomously search for and assimilate very specific technical information, as well as apply that information in the design of industrial electronic drives.",
+      "type": "unspecified",
+      "code": "RAE-2"
+    },
+    {
+      "text": "Acquire the ability to use complex electronic design software and specific laboratory equipment.",
+      "type": "unspecified",
+      "code": "RAE-3"
+    },
+    {
+      "text": "Design simple electronic drives for the most common applications in industrial loads.",
+      "type": "unspecified",
+      "code": "RAE-4"
+    },
+    {
+      "text": "Know and apply the applicable regulations for the design and construction of industrial electronic drives.",
+      "type": "unspecified",
+      "code": "RAE-5"
+    }
+  ],
+  "syllabus_topics": [
+    "General characteristics of electric motors (DC, AC, electronically commutated, etc.).",
+    "Introduction to electronic drives. Necessity, scope of application, main characteristics, etc.",
+    "Electronic drives for DC motors (single-phase and three-phase rectifiers, dual converters, DC regulators, etc.).",
+    "Electronic drives for AC motors (inverters, cycloconverters, etc.).",
+    "Electronic drives for special motors (stepper motors, brushless motors, servomotors, etc.).",
+    "Electronic drives for applications other than traction.",
+    "Electronic control circuits and power stage interface.",
+    "Introduction to Electronic Drives (Overview of the subject and work methodology, Presentation of the Workroom on Electronic Drives (WED))",
+    "Scope of Application and Utility of Electronic Drives (Projects of the Workroom on Electronic Drives (WED))",
+    "Drives for Motors. Types of Motors and their Drivers (DC Motor and its drives, AC Induction Motors and their drives, Drives for Synchronous Motors, Brushless Motors. Drives, Permanent Magnet Synchronous AC Motor (PMSM) Drives, DC Brushless Motor Drives, Stepper Motor Drives, Switched Reluctance Motors, Servos)",
+    "Electronic Devices for Drive Applications (Specific ICs for single-phase and three-phase inverters, Specific ICs for DC, AC Brushless motor control etc...)",
+    "Electronic Drives (Market study, Industrial applications)",
+    "Workroom on Electronic Drives (WED) - Group activity. Presentation and defense of WED projects (Development and programming tasks, Simulation of Power Electronics circuits: PSIM, Printed circuits for Power Electronics: Altium Designer, Public presentation of the work)",
+    "Robot line follower: Construction and testing of a prototype based on two photodiodes and two DC motors.",
+    "Design of a driver for a DC motor: Implementation of a controller using L293 and L298 integrated circuits, with Arduino UNO and ESP32 as control platforms.",
+    "Design of a driver for a brushless DC motor: Development of a controller based on L293 and L298 integrated circuits, with Arduino UNO and ESP32 for brushless motor management.",
+    "Design of a driver for a stepper motor: Creation of a controller using L293, L298, and A4988 integrated circuits, with Arduino UNO and ESP32 as control systems.",
+    "Electronic Drives I. PCB design using Altium design software.",
+    "Electronic Drives II. PCB design using Altium design software. Specific design of a motor drive. General guidelines.",
+    "Electronic Drives III. Simulation of a DC motor and design of the Digital controller.",
+    "Electronic Drives IV. Simulation of a BRUSHLESS motor.",
+    "Electronic Drives V. Closed-loop speed control of a DC motor, based on a Microchip microcontroller. PICDEM MECHATRONICS DEMO BOARD.",
+    "Electronic Drives VI. Speed control of a BRUSHLESS FAN motor based on a Microchip microcontroller. Development board: PICDEM System Management Kit.",
+    "Electronic Drives VII. Simulation, programming, and testing of a stepper motor based on an Arduino UNO shield."
+  ],
+  "teaching_methods": [
+    "Project-Based Learning (PBL)",
+    "Expositive classes",
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Ordinary Evaluation: Examination (theory, PSIM simulation, Altium Designer PCB design)",
+      "weight_percentage": 100.0
+    },
+    {
+      "method": "Continuous Evaluation: Assigned tasks (WED workshop)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Continuous Evaluation: Laboratory practices + Classroom practices (attendance and completion)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The course offers two evaluation paths: Ordinary Evaluation and Continuous Evaluation. By default, all students start with Ordinary Evaluation. Students can opt for Continuous Evaluation if they meet attendance requirements and deliver milestones. Ordinary Evaluation consists of a single exam covering theory, practical simulation with PSIM, and PCB design in Altium Designer, weighted 50% for theory and 50% for practical. Continuous Evaluation is based on assigned tasks (70% of the grade) and laboratory/classroom practices (30% of the grade). Failure to submit a task or two unexcused absences from practices automatically transfers the student to the Ordinary Evaluation system.",
+  "bibliography": [
+    "Permanent Magnet Brushless DC Motor Drives and Control (Chang-Liang Xia) WILEY John Wiley & Song Singapure Pte.Ltd.",
+    "Electrónica de Potencia. Circuitos Dispositivos y Aplicaciones. Muhammad H. Rashid. Pretince Hall Hispanoamericana.",
+    "Maxon Academy",
+    "Motor Control and Drive Overview. Microchip Technology",
+    "Electric Drives An Integrative Approach NED MOHAN.",
+    "Course Virtual Campus"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-007",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-007",
+  "source_language": "es",
+  "source_sha256": "5797492d963845554640eb605056616352475f1e3765df21e473e2e870650ba7",
+  "extracted_at": "2026-11-20T01:13:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

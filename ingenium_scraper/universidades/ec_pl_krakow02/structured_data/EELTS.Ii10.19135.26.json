@@ -1,0 +1,150 @@
+{
+  "course_name_original": "Maszyny elektryczne (A)",
+  "course_name_en": "Electrical Machines (A)",
+  "ects": 5.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the properties of transformers, induction motors, and synchronous generators as basic elements of the power system, in steady and transient states.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the economic aspects of voltage regulation with frequency control of induction motor speed.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows the properties of transformers, induction motors, and synchronous generators under conditions of unbalanced supply.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows the principles and methods of identifying parameters of mathematical models of electrical machines.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows and understands the influence of transient states of electric motors and generators on the quality of electrical energy in the network in which they operate.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Understands the economic and practical aspects of parallel operation of transformers and its conditions.",
+      "type": "knowledge",
+      "code": "W6"
+    },
+    {
+      "text": "Is able to propose, perform, and process measurement results to determine the parameters and properties of a transformer, induction motor, and synchronous generator as basic elements of the power system.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Is able to use catalog parameters of transformers, induction motors, and synchronous generators to evaluate their properties in steady states, transient states, and under unbalanced supply conditions.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Is able to assess currents and torques in asynchronous operating states of a generator and their influence on the quality of electrical energy.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Is able to work in a group and cooperate with it in carrying out a research topic, both in the measurement and computer laboratory.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Is able to prepare a report and documentation of performed tests in the measurement laboratory and appropriately process measurement results and draw conclusions.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Problems analyzed in auditorium classes: 1. Single and three-phase transformer: identification of model parameters, calculation of voltage drop on a loaded transformer, calculation of transformer efficiency for a given operating point (2 hours). 2. Parallel operation of transformers: identification of three-phase transformer model parameters for parallel operation, calculation of currents of individual transformers operating in parallel with different ratios and short-circuit voltages of transformers (2 hours). 3. Three-phase transformer operation under unbalanced supply: analysis of equivalent circuits for positive, negative, and zero sequence components for various winding connection schemes, calculation of winding currents under unbalanced supply (2 hours). 4. Frequency control of induction machine rotational speed: analysis of mechanical characteristics of induction machine with frequency change, influence of stator resistance on characteristic shape, calculation of speed, current, and torque of induction machine at a given operating point with supply frequency change (2 hours) 5. Induction machine operation under unbalanced supply: analysis of mechanical characteristics under unbalanced supply, calculation of stator phase currents of loaded induction machine under unbalanced supply (2 hours). 6. Stator of salient-pole synchronous machine: phasor diagram of salient-pole synchronous machine, V-curves, power factor regulation, calculation of power angle, electromagnetic torque, stator current, power factor for a given operating point (2 hours). 7. Isolated operation of salient-pole synchronous machine: calculation of external characteristic, calculation of current and voltage of receiver supplied by salient-pole synchronous machine (1 hour). 8. Two control works (2 hours).",
+    "Measurement laboratory (8 3-hour exercises + 3 colloquia + 3 report assessments) - exercise topics: 1. Cage induction machine: observation of motor start-up with star-delta switch, determination of mechanical and stator current characteristics from slip, determination of equivalent circuit parameters based on computer approximation. 2. Induction motor: measurement of waveforms and characteristics of wound-rotor and cage machine in no-load, load, short-circuit, start-up, and voltage drop conditions. 3. Three-phase transformer: no-load measurements, determination of ratio, measurements in symmetrical measurement short-circuit condition. 4. Parallel operation of transformers: measurement of voltages and short-circuit impedances of transformers, measurement of voltage ratios of transformers, experimental determination of load characteristics of transformers operating in parallel in case of correctly selected transformers and with difference in voltage ratios and difference in short-circuit voltages. 5. Synchronous generator - parameter measurements and isolated operation: measurements for determining no-load, short-circuit, external, and regulation characteristics, determination of Xd and Xq by small slip method. 6. Synchronous machine - cooperation with the grid: asynchronous start-up, accurate synchronization and self-synchronization of the machine with the grid, determination of V-curves. 7. DC motors: separately excited motor - voltage start-up, determination of iron and mechanical losses, determination of mechanical characteristics; series motor - voltage start-up, determination of mechanical and starting characteristics. 8. Universal motor: measurement of mechanical characteristics with sinusoidal AC supply and full-wave rectified voltage supply, measurement of motor efficiency with both supply variants.",
+    "THREE-PHASE POWER TRANSFORMERS 1. Three-phase power transformers, construction, equivalent circuit and identification of its parameters, no-load operation, voltage variability, efficiency (2 hours) 2. Parallel operation of transformers, conditions for parallel operation, selection of transformers for parallel operation, equivalent circuit of transformers operating in parallel (2 hours) 3. Three-phase transformer operation under external asymmetry, equivalent circuits for different connection schemes, methods for calculating currents. (2 hours) ROTATING ELECTRICAL MACHINES, DYNAMICS, CONTROL, OPERATION UNDER VARIOUS SUPPLY CONDITIONS 4. Three-phase induction machine under asymmetrical voltage supply conditions. Single-phase induction machine (2 hours) 5. Induction machine dynamics equations, mathematical model in 0dq space for dynamic states, transformation matrix, purpose of coordinate transformation (2 hours) 6. Frequency control of induction machine. Principles of scalar and vector control. Application of 0dq transformation for vector control. (2 hours) 7. Salient-pole synchronous machine, construction and properties in steady and dynamic states. Two-axis model of 3-phase salient-pole synchronous machine – equations for dynamic states in 0dq coordinates, transformation matrix, purpose of coordinate transformation (2 hours). 8. Three-phase salient-pole synchronous generator operating in an isolated network in a steady state, basic characteristics: no-load, short-circuit, external, regulation. Additional conditions for energy conversion in a synchronous machine (2 hours). 9. Salient-pole synchronous machine cooperating with the power grid in a steady state – rotating field, phasor diagram, power angle, motor and generator operation, power factor regulation, V-curves (2 hours). ELECTRICAL MACHINES IN RENEWABLE ENERGY AND ELECTROMOBILITY 10. PM BLDC motors. Construction, operating principle, electronic commutator. Examples of applications in vehicle drives (2 hours). 11. PMAC machines. Construction, operating principle and control. Examples of application in generation and drive systems (2 hours). 12. Reluctance motors. Construction, operating principle and control, and applications in drive systems (2 hours). 13. Doubly-fed machine. Construction, operating principle and control. Application of DFIG in wind power plants. (4 hours)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Auditorium classes",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 140.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Test (Lectures)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of exercises (Auditorium classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Auditorium classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral answer (Auditorium classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during classes (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Involvement in teamwork (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral answer (Laboratory classes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes (Laboratory classes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass the lectures, students must obtain a pass from the auditorium and laboratory classes. For auditorium classes, a positive grade from mid-semester colloquia is required. For laboratory classes, all laboratory exercises must be completed. Assessment of student work in auditorium classes may be based on oral or written statements in the form of colloquia, which translates into the final grade for this form of classes.",
+  "bibliography": [
+    "1. Dybowski P., Lerch T., Milej W., Rams W. Skwarczyński J.: Układy elektromechaniczne i transformatory – obliczenia i zadania, Wydawnictwa AGH, Kraków 2010",
+    "2. Rams W., Skwarczyński J.: Laboratorium maszyn elektrycznych. AGH UWND, Kraków 2009.",
+    "3. Paszek W.: Stany nieustalone maszyn elektrycznych prądu przemiennego. Wyd. Helion, 1998",
+    "4. Skwarczyński J., Tertil Z.: Elektromechaniczne przetwarzanie energii. AGH UWND, Kraków 2000.",
+    "5. Machowski J.: Regulacja i stabilność systemu elektroenergetycznego. OWPW, Warszawa 2007",
+    "6.Plamitzer A.: Maszyny elektryczne. WNT, Warszawa 1976.",
+    "Electrical Machines and Drives, Melkebeek Jan A., Springer-Verlag Gmbh, Springer-Verlag Gmbh, Springer International Publishing, 2018"
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.19135.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/9b5725d2-b79f-4207-b8df-e8cd0eb23b8d.html",
+  "source_language": "pl",
+  "source_sha256": "2bfa5ec64da4913290a047e98d2e36875d3b1ae55df5dbd3113ce430347a4b60",
+  "extracted_at": "2026-11-20T09:02:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

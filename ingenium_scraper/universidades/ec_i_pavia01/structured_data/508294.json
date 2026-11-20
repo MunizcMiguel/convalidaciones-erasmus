@@ -1,0 +1,95 @@
+{
+  "course_name_original": "CAMPI ELETTROMAGNETICI E CIRCUIT (508294)",
+  "course_name_en": "ELECTROMAGNETIC FIELDS AND CIRCUITS",
+  "ects": 12.0,
+  "semester": "Annual",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Complex numbers",
+    "Vector algebra",
+    "Differential operations on scalar and vector fields",
+    "Divergence theorem",
+    "Cartesian and spherical coordinate systems",
+    "Concept of force, work, energy, power",
+    "Concept of field, charge, current, electric and magnetic polarization",
+    "Electrostatic and magnetostatic fields in vacuum and matter",
+    "Maxwell's equations",
+    "Units of measurement for physical quantities in the MKSA system",
+    "Topics from the first module of \"Guided Propagation\""
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with basic information on the propagation of electromagnetic waves in both waveguides and free space.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Present antennas and their properties to the student.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to design simple waveguide or coaxial cable connections, dimensioning such systems appropriately to avoid electrical discharges, overheating, and undesirable reflection phenomena.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire the ability to dimension a transceiver system, choosing the most appropriate antennas and evaluating the link budget in a simplified manner.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Provide students with basic information on electromagnetic waves and introduce them to calculation methodologies for the quantitative analysis of phenomena involving them.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Waveguides - Formulation for calculating TE, TM modes in metallic waveguides: modal fields, modal impedance, cutoff frequency, normalization. Cutoff wavelength, attenuation due to conductor and dielectric. Rectangular waveguides: expression of normalized TE and TM modal fields, TE10 mode and conductor attenuation formula for TE10 mode. Circular waveguide: normalized modal fields, fundamental TE11 mode. TEM modes. Coaxial cable and planar lines. Modal expansion. Dispersion and group velocity.",
+    "Radiation - Lorentz potentials and their integral representation for a limited-size source. Long-distance approximations in vacuum. Field in the radiation zone. Radiation intensity and radiated power. Elementary dipole. Circular loop. Dipoles of length comparable to wavelength. Radiation in a low-loss medium. Boundary conditions. Uniqueness Theorem. Radiation in the presence of a conducting plane. Radiation from an aperture. Uniformly illuminated rectangular aperture.",
+    "Antennas - Characteristic parameters of transmitting antennas. Main types of antennas: dipoles, half-wave dipoles, resonant slots, truncated waveguides and horns. Array antennas. Linear arrays. Parabolic antennas. Reciprocity theorem. Receiving antennas. Effective area and polarization factor. Friis formula.",
+    "Fundamental Laws and Concepts: Maxwell's equations in differential and integral form, charge conservation law, phasor notation. Constitutive equations. Electromagnetic field conditions at medium discontinuity surfaces and boundary conditions.",
+    "Uniform Plane Waves: Uniform plane waves in vacuum, in low-loss dielectrics, attenuation, propagation in cold plasma, in good conductors. Skin effect, limiting case of perfect conductor. Wave polarization. Poynting's Theorem. Reflection and refraction of uniform plane waves in the presence of discontinuities and layers.",
+    "Transmission Lines: Elementary theory of transmission lines and telegrapher's equation. Characteristic impedance. Reflection coefficient, standing waves, impedance matching, and Smith Chart. Description of common transmission lines: coaxial cable, microstrip, coplanar line."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 111.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a written test and an oral test, to be taken in the same session. Admission to the oral exam is granted only to those who have obtained at least 15/30 in the written test. Upon request, students can be exempted from the oral exam, receiving the grade obtained in the written test (if between 18/30 and 24/30) or a score of 24/30 (if the written test score exceeds 24/30). The average of the grades obtained in the two modules constitutes the final exam grade.",
+  "bibliography": [
+    "G. Conciauro, Introduzione alle onde elettromagnetiche, McGraw-Hill, 1993.",
+    "G. Conciauro, L. [docente], Fondamenti di onde elettromagnetiche, Medea Edizioni, 2015",
+    "Slide fornite dal docente",
+    "David M. Pozar, Microwave Engineering (Fourth Edition), John Wiley & Sons, Inc., 2011."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "508294",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=18837&ordinamento_aa=2021&af_percorso=1&corso_cod=10223&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "9538e4f9ee966648e692bc4d2cdd933ce5489c58a3d11fe65956497d8236de9a",
+  "extracted_at": "2026-11-20T08:18:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

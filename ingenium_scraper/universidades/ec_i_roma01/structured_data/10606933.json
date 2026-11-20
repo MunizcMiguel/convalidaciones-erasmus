@@ -1,0 +1,141 @@
+{
+  "course_name_original": "SISTEMI OPERATIVI E RETI DI CALCOLATORI canale 1",
+  "course_name_en": "OPERATING SYSTEMS AND COMPUTER NETWORKS channel 1",
+  "ects": 9.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "SISTEMI DI CALCOLO",
+    "FONDAMENTI DI COMUNICAZIONI E INTERNET"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the elements of the operating system and computer networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Deeply understand the motivations behind the design choices adopted in the implementation of protocol stacks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to design networked systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand multiprogramming and the problems inherent in the communication and synchronization of multiple processes or threads, even on different devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to create initial distributed network applications using socket programming.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to implement network protocols.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop reliable and efficient multiprocess and multithreaded applications through the use of system calls provided by the operating system and thread libraries.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to understand the problems of mutual exclusion and deadlock that an algorithm can have.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to understand the most appropriate implementation solution depending on the specific requirements.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to understand how to design a protocol stack or how to configure it according to the different quality of service needs of the application to be developed.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to design and implement distributed network applications, defining their functionalities, selecting the most suitable application paradigm and transport level, and the best techniques for implementing the application.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to describe the elements of the operating system and a protocol stack and to communicate the choices made in the development of concurrent applications and network protocols and applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to use the knowledge acquired in advanced courses on operating systems, computer networks, distributed systems, and cybersecurity courses.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Be able to read and understand industry standards.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Knowledge of modern operating systems and computer networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to develop simple concurrent and distributed applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course",
+    "Concurrency",
+    "Scheduling",
+    "Basics of Computer Networks",
+    "Sockets",
+    "Deadlock",
+    "Basics of Distributed Systems",
+    "InterProcess Communication",
+    "Security in Computer Systems"
+  ],
+  "teaching_methods": [
+    "Frontal lessons in the classroom",
+    "Guided laboratory exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Programming test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theory questions to be answered on the computer",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of a programming test and theory questions to be answered on the computer. The exam takes place in person. Any remote exams will also include an oral examination. An oral exam may be requested by the instructor in addition to the written test if deemed necessary.",
+  "bibliography": [
+    "W. Stallings: \"Operating Systems: Internals and Design Principles\" (ninth edition), Pearson",
+    "G. Coulouris, J. Dollimore, T. Kindberg, G. Blair: \"Distributed Systems: Concepts and Design\" (fifth edition), Pearson",
+    "W. Stallings: \"Cryptography and Network Security: Principles and Practice\" (seventh edition), Pearson"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Sapienza Università di Roma",
+  "institution_slug": "ec_i_roma01",
+  "degree": "Laurea in Ingegneria Informatica e Automatica (L-8)",
+  "course_code": "10606933",
+  "academic_year": "A.A. 2026/2027",
+  "source_url": "https://corsidilaurea.uniroma1.it/it/course/33501/attendance/lesson/e1c7939d-92e9-4713-b6d3-bc31f0d8225c/3/1/c4110ce4-16d3-49b5-87ec-f52bd08e356b",
+  "source_language": "it",
+  "source_sha256": "ff5393959a563252532a7ca9e361b7cdfcfb4db6f81ae279e5d25d33f032c68f",
+  "extracted_at": "2026-11-20T09:24:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,95 @@
+{
+  "course_name_original": "BUILDING SCIENCE (I0537)",
+  "course_name_en": "Building Science",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Basics of Calculus, Linear Algebra and Physics, contained in the exams of Calculus I, II, Geometry and Physics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Demonstrate knowledge of the fundamental principles of rigid body mechanics, continuum mechanics, and structural mechanics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply the methods and models of Structural Mechanics to the analysis of structural systems, determining equilibrium conditions, internal forces, stresses, strains, and displacements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the most appropriate analytical model and critically evaluate the obtained results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use the technical terminology of Structural Mechanics correctly when describing and discussing structural problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently deepen their knowledge of the subject and apply the acquired competences in subsequent courses in structural engineering.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Kinematics of rigid body systems.",
+    "Statics of rigid body systems.",
+    "Duality principle and the Principle of Virtual Work.",
+    "Internal force resultants in beams.",
+    "Formulation of the elastic problem for bars and beams.",
+    "Principle of Virtual Work and displacement methods.",
+    "Analysis of beam structures.",
+    "Kinematics and statics of the Cauchy continuum.",
+    "Stress and strain states; equilibrium and compatibility equations.",
+    "Linear elastic constitutive law and formulation of the elastic problem.",
+    "Problem formulation and fundamental assumptions.",
+    "Cross-sectional geometry.",
+    "Solutions for axial loading, bending, shear, and torsion.",
+    "Strength verification."
+  ],
+  "teaching_methods": [
+    "Lectures on theoretical topics, with discussion and proof of the outcomes",
+    "Numerical exercises, with physical interpretation of the outcomes"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "Student must obtain a score of 18/30 in the written exam. The written exam includes exercises on structures constituted by beams, and evaluation of the stress field and safety of a cross section of a De Saint Venant beam. The oral exam is about thirty minutes long, covering the theoretical part of the course and applications. The final grade is a combination of both exams.",
+  "bibliography": [
+    "Angelo Luongo, Achille Paolone, [docente] Di [docente]. Rigid Structures with Point-Flexibility: Elasto-statics, Dynamics, Stability and Plastic Collapse. Springer, 2025.",
+    "Gere J. M. & Timoshenko S. P. (1997). Mechanics of materials (4th ed.). PWS Publishing.",
+    "Gavarini, C., 'Lezioni di scienza delle costruzioni', ISBN: 8808082997.",
+    "Luongo A., Paolone A., 'Meccanica delle Strutture. Sistemi rigidi ad elasticità concentrata', ISBN: 8808083179.",
+    "Luongo A., Paolone A., 'Scienza delle Costruzioni. Il continuo di Cauchy', ISBN: 8808087212.",
+    "Luongo A., Paolone A., 'Scienza delle Costruzioni. Il problema di De Saint Venant', ISBN: 8808087395."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Dell'Aquila",
+  "institution_slug": "ec_i_l_aquil01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "I0537",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univaq.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=32325&ordinamento_aa=2019&af_percorso=6&corso_cod=10120&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "6406670ff91b24b6a6118fc09f2e290610b0d991eb02247b5969f085889804c9",
+  "extracted_at": "2026-11-18T10:03:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

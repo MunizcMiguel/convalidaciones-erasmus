@@ -1,0 +1,64 @@
+{
+  "course_name_original": "Sinais e Sistemas Mecatrónicos",
+  "course_name_en": "Mechatronic Signals and Systems",
+  "ects": 6.0,
+  "semester": "4",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Analog signals",
+    "Static, dynamic and deterministic systems",
+    "Laplace and Fourier transforms",
+    "Representation of SISO systems by transfer function",
+    "Modeling of dynamic systems as energy converters: flow, potential, accumulators, dissipators",
+    "Application to mechanical, electrical, fluidic and thermal systems: analogies between systems",
+    "Block diagram algebra",
+    "Analysis of dynamic systems of first order, second order, with zeros, higher order, non-minimum phase, stable and unstable, and system reduction",
+    "Routh-Hurwitz stability criterion",
+    "Time responses: impulse, step, ramp",
+    "Frequency responses: Bode and polar diagrams",
+    "Sensors for position, velocity, acceleration, proximity, force, torque, flow, level, temperature",
+    "Actuators in a control loop: servomotors and pneumatic actuators",
+    "Linearization and operating point",
+    "Actuation chain and measurement chain",
+    "AD/DA conversion",
+    "Filters and signal conditioning"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory Work",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Exams",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade is 0.5 * (Average of Best 5 Lab Grades) + 0.5 * (Best Exam Grade). To pass the course, the best exam grade must be >= 8 and the average of the best 5 lab grades must be >= 10. If either condition is not met, the final grade is Fail.",
+  "bibliography": [
+    "K. Ogata, Modern Control Engineering, 5th Edition, Prentice Hall, 2010 (main)",
+    "D. Valério, Lecture Notes on Signals, Systems and Control (course lecture notes), -, 2025 (main)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa",
+  "institution_slug": "ec_p_lisboa109",
+  "degree": "Licenciatura Bolonha em Engenharia Mecânica (LEMec21)",
+  "course_code": "SSM3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192200",
+  "source_language": "pt",
+  "source_sha256": "0baa431a63a785f52e3095b704377bb144a93050367d1188fd5f34316ad9c3f9",
+  "extracted_at": "2026-11-18T10:04:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

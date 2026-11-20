@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Fortgeschrittene Datenbanktechnologien",
+  "course_name_en": "Advanced Database System Techniques",
+  "ects": 5.0,
+  "semester": "unknown",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge analogous to introductory courses on databases is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know current paradigms of data storage as well as database management systems that follow these paradigms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have in-depth knowledge in dealing with these systems (in terms of modeling, data persistence, and data access).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply current database management systems in practice. They know and can apply corresponding technical vocabulary and concepts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Given a task, students are able to select a suitable database management system/data representation, model the necessary data structures, and access these systems using a high-level language. This refers to the transfer to different subject domains.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students are able to explain the working methods of persistent data processing of various database management systems and use the appropriate vocabulary in technical discussions.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Overview of current database management systems",
+    "Application areas and restrictions",
+    "Current scientific developments in data management",
+    "Advanced language concepts",
+    "Query optimization",
+    "Database tuning",
+    "Selection and operation of modern database management systems",
+    "Introduction to NoSQL databases, including:",
+    "Schema on read / Schema on write",
+    "Document-oriented database management systems",
+    "Key-Value stores",
+    "(Multi-)Column stores",
+    "Graph databases",
+    "Management of complex data, including:",
+    "Temporal data",
+    "Geographical data",
+    "Image data",
+    "Semi-structured data",
+    "Overview of scalable data management architectures, e.g.:",
+    "Parallel databases",
+    "Distributed databases",
+    "Distributed Ledger (private and public)",
+    "Data Warehousing",
+    "Pub-/Sub-Systems",
+    "Mediator-/Wrapper architectures",
+    "Data space concepts and initiatives",
+    "Further concepts",
+    "Event processing",
+    "Data stream management",
+    "Current developments in data management",
+    "Practical application examples"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Supervised small group work",
+    "Seminars",
+    "Independent small group work",
+    "Preparation of examination assignments",
+    "Event preparation and follow-up"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination or written assignment (graded)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work or regular attendance (ungraded)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The selection of graded and ungraded examination types from the given options is at the discretion of the respective lecturer. Graded examination can be an oral exam (duration as per examination regulations) or a written assignment (approx. 15 pages) with an accompanying presentation (approx. 10 minutes). Ungraded examination can be experimental work (approx. 5 experiments in total) or regular attendance (at least 80% attendance).",
+  "bibliography": [
+    "Redmon, Wilson: Sieben Wochen, sieben Datenbanken, O'Reilly",
+    "Özsu, Valduriez: Principles of Distributed Database Systems, Prentice Hall",
+    "Luckham, D.: The Power Of Events, Addison Wesley",
+    "Gyllstrom et.al.: On Supporting Kleene Closure over Event Streams, ICDE, 2008",
+    "Agrawal et.al.: Efficient Pattern Matching over Event Streams, SIGMOD 2008",
+    "Han, Kamber: Data Mining Concepts and Techniques, Morgan Kaufmann Publishers",
+    "Bauer, Günzel: Data Warehouse Systeme, D-Punkt",
+    "H. Plattner: Lehrbuch In-Memory Data Management: Grundlagen der In-Memory-Technologie, Springer, 2013",
+    "J. Freiknecht: Big Data in der Praxis: Lösungen mit Hadoop, HBase und Hive. Daten speichern, aufbereiten, visualisieren, Hanser, 2014",
+    "N. Marz: Big Data: Principles and Best Practices of Scalable Realtime Data Systems, Manning Pubn, 2015",
+    "A. Schütz, T. Fertig: Blockchain für Entwickler: Das Handbuch für Software Engineers, Grundlagen, Programmierung, Anwendung, Rheinwerk, 2019",
+    "N. Marz, J. Warren: Big Data: Entwicklung und Programmierung von Systemen für große Datenmengen und Einsatz der Lambda-Architektur, mitp Professional, 2016",
+    "S. Edlich: NoSQL: Einstieg in die Welt nichtrelationaler Web 2.0 Datenbanken, Hanser, 2011",
+    "H. Atwal: Practical DataOps - Delivering Agile Data Science at Scale, Apress, 2020",
+    "R. Elmasri, S. Navathe, Fundamentals of database systems (2016) (recommended for refreshing knowledge)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Informatik – Technische Informatik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__info",
+  "degree": "Informatik – Technische Informatik (B.Sc.)",
+  "course_code": "11B0556",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BTI/StO2025_Stand2026-03-03_Informatik-TechnischeInformatik.pdf",
+  "source_language": "de",
+  "source_sha256": "11864a6aa9d07f52dfa69b9e9260784ba4ab6dc81fa53caa8b77a6d83276ec69",
+  "extracted_at": "2026-11-20T12:33:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

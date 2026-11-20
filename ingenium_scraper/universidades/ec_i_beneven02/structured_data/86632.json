@@ -1,0 +1,139 @@
+{
+  "course_name_original": "SENSORS/ SENSORS LAB (86632)",
+  "course_name_en": "SENSORS/ SENSORS LAB",
+  "ects": 12.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic knowledge of physics, analog electronics, and electrical and electronic measurements.",
+    "Adequate knowledge of Electrical Engineering, Analog Electronics, and Electronic Measurements."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide an in-depth understanding of the physical principles, characteristics, and applications of sensors, with a particular focus on smart sensor systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the theoretical and practical skills needed to design, select, and integrate sensors into real-world applications (e.g., IoT, automation, environmental monitoring).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Provide the fundamental knowledge and techniques necessary for the design and implementation of sensor-based electronic systems used in industrial plants and the Internet of Things (IoT).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Perform hands-on laboratory exercises focused on sensor characterization.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design and implement electronic systems (sensor - acquisition board - actuator) for industrial and IoT applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Evaluate the performance of developed systems by identifying appropriate figures of merit.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use electronic instrumentation to acquire sensor output signals.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interface with various types of sensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and interpret data provided by sensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Address the challenges of designing and implementing electronic systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand the differences between expected and actual behavior.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Primary principles and variables",
+    "Characteristics and terminology",
+    "Physical principles",
+    "Optical components",
+    "Occupancy and motion detectors",
+    "Position, displacement, and level",
+    "Velocity and acceleration",
+    "Force, strain, and tactile sensors",
+    "Pressure",
+    "Flow",
+    "Acoustic sensors",
+    "Humidity",
+    "Light detectors",
+    "Temperature",
+    "Chemical sensors",
+    "Structure, definitions, and concepts of Smart Sensors",
+    "Advanced processing and sensing techniques for Smart Sensors",
+    "Smart sensors systems",
+    "The future of smart sensor systems",
+    "Key characteristic parameters of sensors: transfer function, sensitivity, uncertainty, and hysteresis.",
+    "Laboratory exercises on tools and methods for processing and analyzing data from conventional sensors.",
+    "Basic electronic instrumentation for data acquisition and the metrological characterization of sensors.",
+    "Lab exercises on conventional sensors (environmental, mechanical, and optical), including experimental evaluation and extraction of characteristic parameters: transfer function, sensitivity, repeatability, and hysteresis.",
+    "Fiber optic sensors.",
+    "IoT platforms: Introduction to IoT and its basic components (sensors, data processing boards, and actuators).",
+    "Using Arduino as a platform for creating IoT systems and interfacing with analog and digital sensors using acquisition boards.",
+    "Lab exercises with Arduino data acquisition boards: acquiring signals from analog and digital sensors, displaying data on an LCD screen, and activating visual/acoustic alarms when predefined thresholds are exceeded.",
+    "Electronic circuits for conditioning sensor output signals.",
+    "The design, implementation, and performance evaluation of an electronic system comprised of a sensor, an acquisition board, and an actuator."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 96.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam with theoretical questions and practical exercises (Module 1 - SENSORS)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam discussing a developed project (Module 2 - SENSORS LABORATORY)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of an oral exam for both modules. For Module 1, it includes theoretical questions and practical exercises such as problems, case studies, or practical activities. For Module 2, it involves the discussion of a project developed by the student.",
+  "bibliography": [
+    "J. Fraden, Handbook of Modern Sensors: Physics, Designs, and Applications.",
+    "P. Ripka, A. Tipek, Modern Sensors Handbook.",
+    "Scientific articles and datasheets provided by the instructor.",
+    "Slides and lecture notes written by the instructor.",
+    "Datasheets provided by the instructor.",
+    "Slides provided by the instructor."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86632",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8078&ordinamento_aa=2023&af_percorso=2&corso_cod=10186&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "efa51d2c9138e2bffb4d86ed7d5aa1cbcba5b2cead93234d8c8e033b102402dd",
+  "extracted_at": "2026-11-20T08:19:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,117 @@
+{
+  "course_name_original": "Cálculo",
+  "course_name_en": "Calculus",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge taught in the MATEMÁTICAS II high school course."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "competence",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "That students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated by means of the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects that enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "R1: Be able to solve mathematical problems that may arise in engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "R2 Aptitude to apply knowledge about differential and integral calculus.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "R3 Aptitude to apply knowledge about function approximation using power series.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "R4 Aptitude to apply knowledge about numerical methods (through the use of specific software).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "R5 Be able to geometrically interpret the concept of derivative (ordinary and partial) and apply it to the different problems that may arise in engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "R6 Be able to calculate areas and volumes, geometrically interpret them, visualize them, and apply them to the different geometric requirements that may arise in engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "R7 Be able to optimize multivariable functions (possibly subject to constraints) and know how to interpret these optimal values and apply them to the different optimization situations that may arise in engineering.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK 1.- FUNCTIONS OF ONE VARIABLE Topic 1.- Differential calculus of functions of one variable: Real and complex numbers, Definition of function, Concept of continuity and limit, Calculation of limits, Concept of derivative, Interpretation of the derivative, Calculation of derivatives, Mean value theorems, L'Hôpital's rule, Implicit differentiation, Power series, Taylor's theorem, Maclaurin and Taylor series.",
+    "BLOCK 1.- FUNCTIONS OF ONE VARIABLE Topic 2.- Integral calculus of functions of one variable: Primitive function, Calculation of primitives, Problem of the area of a plane region, Riemann integral, Properties of the Riemann integral, Mean value theorem, Fundamental theorem of Calculus and Barrow's rule, Applications of the integral, Improper integrals.",
+    "BLOCK 2.- FUNCTIONS OF SEVERAL VARIABLES Topic 3.- Differential calculus of functions of several variables: Introduction to functions of several variables, Surfaces in space, Continuity and limits, Partial derivatives, Differentiability, Chain rule, Directional derivatives, Implicit differentiation, Optimization of functions of several variables, Lagrange multipliers.",
+    "BLOCK 2.- FUNCTIONS OF SEVERAL VARIABLES Topic 4.- Integral calculus of functions of several variables: Iterated integrals, Double and triple integrals, Applications, Change of variables: polar, cylindrical and spherical coordinates.",
+    "BLOCK 3.- NUMERICAL METHODS: Numerical resolution of equations, Polynomial interpolation, Function approximation, Numerical differentiation and integration."
+  ],
+  "teaching_methods": [
+    "Practical classes (resolution of exercises, problem-based learning)",
+    "Computer practices (expository method, problem-solving)",
+    "Individual/autonomous study and work (learning contract)",
+    "Tutorials and seminars",
+    "Theoretical classes (expository method, master class)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Final written exam (theoretical-practical exercises and problems)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Monitoring and control activities for computer practices",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as 80% from a final written test and 20% from monitoring and control activities of computer practices. Evaluation procedures will consider active student participation in scheduled learning activities and accredited learning levels.",
+  "bibliography": [
+    "CÁLCULO DE UNA VARIABLE: TRASCENDENTES TEMPRANAS (7A. ED.). James Stewart. 978-607-481-881-9",
+    "CÁLCULO INFINITESIMAL DE VARIAS VARIABLES (2A. ED.) Juan de Burgos. 84-481-1621-6",
+    "CÁLCULO INTEGRAL García Calderón, Salvador E. - López Silva, Blanca Elizabeth - Tapia Salazar, Pablo. 978-607-9106-86-7",
+    "CÁLCULO: APUNTES DE TEORÍA Y EJERCICIOS RESUELTOS José Manuel Salazar. 978-84-8138-892-3."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720002",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720002",
+  "source_language": "es",
+  "source_sha256": "35e59009022711b93641a3202cfbfe40e89f8a250ee301da04352ee1a0752767",
+  "extracted_at": "2026-11-13T21:28:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

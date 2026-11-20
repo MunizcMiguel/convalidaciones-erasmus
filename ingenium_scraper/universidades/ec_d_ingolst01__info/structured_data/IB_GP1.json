@@ -1,0 +1,136 @@
+{
+  "course_name_original": "Grundlagen der Programmierung 1",
+  "course_name_en": "Fundamentals of Programming 1",
+  "ects": 7.0,
+  "semester": "Wintersemester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Secure handling of one's own PC (requirements Intel/AMD 64, 16GB RAM, 500GB SSD, OS Linux/MacOS/Windows). Students are provided with a ready-to-use image of a virtual machine for self-study at home, which can be executed on all Intel/AMD platforms using VirtualBox or other common hypervisors. This image is also available in the PC pools of the faculty."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Name general terms of computer science.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the historical development of programming languages in outline.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Logically grasp simple problems and independently create an algorithmic solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement predefined or self-developed algorithms in a higher imperative programming language, especially in C.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use operating system services and a development environment.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Discuss and create solutions for programming tasks alone or together in small teams.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand given code parts and independently make extensions in the code.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Create more extensive C programs (between 500 - 2000 lines of code).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Operate the essential components of a development environment (Editor, Compiler, Debugger and Build-Tool).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve programming tasks alone or together in small teams.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Operate a Linux Workstation (virtual machine).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use the GIT tool for version control of source code with repositories on the PC and in the cloud.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic concepts of computer science",
+    "Phases and tools of software development",
+    "Basic concepts and principles of imperative programming",
+    "Programming languages (general and specifically C language)",
+    "Control flow",
+    "Primitive data types in C",
+    "Separate compilation and development environment (Editor, Build-Tool, Debugger)",
+    "Enumerations and data type bool",
+    "Functions, subroutine technique, parameter passing, stack setup and teardown",
+    "Records",
+    "Arrays",
+    "Pointers",
+    "Static and dynamic memory objects, validity, visibility and lifetime",
+    "Linked lists and other memory structures",
+    "String functions of the standard library",
+    "Creation of an interactive game (Worm) with simple symbolic graphics based on the Curses-library",
+    "Working with a simple, non-integrated development environment in the console (Editor, Compiler, Debugger)",
+    "Using a Linux-Workstation for the development of C-programs",
+    "Working in a remote session via SSH",
+    "Using a simple Build-Tool (GNU make)",
+    "Using RCS GIT with repositories on your own computer and in the cloud",
+    "Programming in the C language is done based on a virtual Linux-machine, whose image is pre-installed in all computer pools of the faculty. This image can also be copied by all students and used on their own PC. Only OpenSource software is used in the virtual machine, so that the image of the virtual machine can be copied and distributed as often as desired."
+  ],
+  "teaching_methods": [
+    "seminaristic teaching/exercise",
+    "practical training"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "written examination, 90 minutes",
+      "weight_percentage": null
+    },
+    {
+      "method": "practical examination (acquisition of four attestations through programming tasks in C)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Successful completion of the practical examination (2.2) is a prerequisite for participation in the written examination (2.1). In the practical training, several attestations (programming tasks in C) must be acquired. Upon successful completion of the task, an attestation is awarded by the lecturer. Solutions may and should be worked out in small groups to promote social and technical competence. A total of four tasks covering essential lecture topics must be completed. The finished solutions are to be presented individually within a fixed schedule (one attestation every 14 days), including answering questions about the solution concept and the created program. Only if all four attestations are acquired in time is the performance record considered fulfilled.",
+  "bibliography": [
+    "DAUSMANN, Manfred und andere, 2011. C als erste Programmiersprache: vom Einsteiger zum Fortgeschrittenen ; [mit Übungsaufgaben im Web]. 7. Auflage. Wiesbaden: Vieweg + Teubner. ISBN 978-3- 8348-1221-6, 3-8348-1221-8",
+    "ERNST, H., 2008. Grundkurs Informatik. Grundlagen und Konzepte für die erfolgreiche IT-Praxis. 4. Auflage. ISBN 978-3-8348-0362-7",
+    "ERBEN, Thomas, 2017. Einführung in Unix/Linux für Naturwissenschaftler: Effizientes wissenschaftliches Arbeiten mit der Unix-Kommandozeile [online]. Berlin, Heidelberg: Springer Berlin Heidelberg PDF e- Book. ISBN 978-3-662-50301-0. Verfügbar unter: https://doi.org/10.1007/978-3-662-50301-0.",
+    "FUCHS, Paul, 2021. Git Handbuch für Einsteiger: der leichte Weg zum Git-Experten. 1. Auflage. [Deggendorf] ; [Berlin]: BMU Verlag. ISBN 978-3-96645-119-2, 3-96645-119-0"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_GP1",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "5de7404d0350f9d9e50e9c36ee3ac4499e69880caf6d745852bf7f35c4a737d3",
+  "extracted_at": "2026-11-20T12:35:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,128 @@
+{
+  "course_name_original": "Álgebra Lineal (14182)",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "High school mathematics, including:",
+    "Solving systems of linear equations (at least 3 equations).",
+    "Evaluating functions (in particular, polynomial functions).",
+    "Vectors in R^2 and R^3. Elementary Euclidean geometry (dot product, Euclidean distance, magnitude of a vector).",
+    "Elementary matrix theory."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Have knowledge and understanding of the principles of linear algebra that underlie mechanical engineering.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to apply their knowledge and understanding to identify, formulate and solve mathematical problems of linear algebra using established methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to select and use appropriate tools and methods to solve mathematical problems formulated in terms of linear algebra.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to combine theory and practice to solve mathematical problems of linear algebra.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the scientific and mathematical principles underlying their branch of engineering.",
+      "type": "knowledge",
+      "code": "RA1.1"
+    },
+    {
+      "text": "The ability to apply their knowledge and understanding to identify, formulate and solve engineering problems using established methods.",
+      "type": "skill",
+      "code": "RA2.1"
+    },
+    {
+      "text": "The ability to select and use appropriate equipment, tools and methods.",
+      "type": "skill",
+      "code": "RA5.1"
+    },
+    {
+      "text": "The ability to combine theory and practice to solve engineering problems.",
+      "type": "competence",
+      "code": "RA5.2"
+    },
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually found at a level that, while supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated by elaborating and defending arguments and solving problems within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning and to communicate and transmit knowledge, skills and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude for applying knowledge about: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithmics; statistics and optimization.",
+      "type": "skill",
+      "code": "CG11"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 0.- Complex numbers.",
+    "Topic I.- Systems of linear equations. Introduction to systems of linear equations. Elementary row operations. Row reduction and echelon forms. Vector equations. The matrix equation Ax = b. Solution sets of linear systems.",
+    "Topic II.- Matrix algebra. Matrix operations. The inverse of a matrix. Block matrices. Determinants.",
+    "Topic III.- Vector spaces. Vector spaces and subspaces. Linearly independent sets and bases. Coordinate systems and dimension. Linear transformations.",
+    "Topic IV.- Eigenvalues and eigenvectors. Introduction to eigenvalues and eigenvectors. Diagonalization of square matrices.",
+    "Topic V.- Orthogonality and least squares. Dot product, norm and orthogonality. Orthogonal sets. Orthogonal projections and least-squares problems.",
+    "Topic VI.- Symmetric matrices."
+  ],
+  "teaching_methods": [
+    "Lectures, where the knowledge that students must acquire will be presented.",
+    "Problem solving by the student, which will serve as self-assessment and to acquire the necessary skills.",
+    "Tutorials."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Final Exam/Test",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Continuous assessment (partial exams)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade is composed of 40% continuous assessment (SE1) and 60% final exam (SE2). Continuous assessment is conducted through partial exams to check basic concepts and skills. The final exam verifies overall mastery and understanding of the subject. Oral tests may be conducted to ensure the acquisition of learning outcomes.",
+  "bibliography": [
+    "D.C. Lay. Álgebra Lineal y sus Aplicaciones, 4ª edición. Pearson. 2012",
+    "J. Arvesú Carballo, F. Marcellán Español, J. Sánchez Ruiz. Problemas resueltos de Álgebra Lineal. Paraninfo. 2015",
+    "A. Borobia Vizmanos y B. Estrada López. Álgebra Lineal y Geometría Vectorial. Sanz y Torres. 2015",
+    "B. Noble, J.W. Daniel. Álgebra lineal aplicada, 3ª Ed.. Prentice Hall Hispanoamericana. 1989",
+    "G. Strang. Álgebra lineal y sus aplicaciones, 4ª Ed. Thomson. 2007",
+    "J. Arvesú Carballo, R. Álvarez Nodarse, F. Marcellán Español. Álgebra Lineal y aplicaciones. Síntesis. 1999"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad Carlos III de Madrid",
+  "institution_slug": "es_carlos_iii_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "14182",
+  "academic_year": "2026-2027",
+  "source_url": "https://aplicaciones.uc3m.es/cpa/generaFicha?est=221&plan=446&asig=14182&idioma=1",
+  "source_language": "es",
+  "source_sha256": "2433e4d16a8292f59aecd0d3747240c81256c712d9fe1f2b3f03dd283a7d9732",
+  "extracted_at": "2026-11-13T20:14:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

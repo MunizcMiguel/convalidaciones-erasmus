@@ -1,0 +1,70 @@
+{
+  "course_name_original": "Surveillance, diagnostic, pronostic, supervision",
+  "course_name_en": "Monitoring, diagnosis, prognosis, supervision",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Knowledge of automatic control (continuous, sampled and event-driven systems) and signal processing is desirable."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Implement and operate a technical system supervision system, enabling them to detect faults, establish diagnoses, manage operating modes to best meet objectives and plan maintenance interventions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Specify requirements in terms of system supervision, carry out tests, and interact with other stakeholders in charge of their deployment or upgrading.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Technical process command",
+    "Stakes and role of supervision",
+    "Fault detection methods",
+    "Failure diagnostic methods",
+    "Failure prognostic methods",
+    "Architectures for supervision"
+  ],
+  "teaching_methods": [
+    "Lectures with illustrations and some direct applications"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 15.0,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1)/1.",
+  "bibliography": [
+    "J. Brunet, M. Labarrere, D. Jaume, A. Rault, M. Vergé. Détection et diagnostic de pannes approche par modélisation. Ed. Hermès, 1990.",
+    "G. Zwingelstein. Diagnostic des défaillances théorie et pratique pour les systèmes industriels. Ed. Hermès, 1995.",
+    "J.M. Chatain. Diagnostic par système expert. Ed. Hermès, 1993.",
+    "J. Richalet. Pratique de l'identification. Ed. Hermès, 1991.",
+    "E. Davalo, P. Naïm. Des Réseaux de Neurones. Ed. Eyrolles, 1992.",
+    "J. Hérault, C. Jutten. Réseaux neuronaux et traitement de signal. Ed. Hermès, 1994.",
+    "G. Vachtsevanos, F.L. Lewis, M. Roemer, A. Hess, B. Wu. Intelligent fault diagnosis and prognosis for engineering systems. Ed. John Wiley & Sons, 2006.",
+    "https://fidle.cnrs.fr/w3/",
+    "https://www.youtube.com/@CNRS-FIDLE"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0974SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "52eef4353ec2fd2ea0c4767f125fe99b6f880cd4f21c35edb79dfffee0b922ef",
+  "extracted_at": "2026-11-18T10:00:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

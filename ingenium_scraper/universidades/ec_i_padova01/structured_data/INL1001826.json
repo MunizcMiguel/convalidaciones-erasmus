@@ -1,0 +1,189 @@
+{
+  "course_name_original": "DIGITAL ELECTRONICS SYSTEMS",
+  "course_name_en": "DIGITAL ELECTRONICS SYSTEMS",
+  "ects": 9.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamental knowledge provided by the courses Fundamentals of Computer Science and Fundamentals of Electronics (the latter may be attended concurrently).",
+    "An introductory course on digital systems, such as Digital Circuits or Computer Architecture, which provides the basic concepts of digital system organization and hardware description languages.",
+    "Ability to apply the principles of Boolean algebra to the synthesis and analysis of simple logic circuits.",
+    "Ability to describe the general architecture of a digital system, including registers, buses, memory, arithmetic logic units (ALUs), and interconnections.",
+    "Ability to use a hardware description language (preferably VHDL) to describe simple combinational and sequential circuits.",
+    "Ability to explain the operation of the MOS transistor as a digital switch and the fundamental principles of CMOS logic.",
+    "Ability to analyze simple digital circuits from a functional perspective, with familiarity with the basic concepts of signal timing."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the operation of CMOS digital circuits, with particular emphasis on the static and dynamic characteristics of logic gates.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the main methodologies for the design of combinational and sequential logic circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the characteristics of the main logic families and digital architectures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the principles of hardware description using VHDL and the FPGA design flow.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamentals of CMOS integrated circuit fabrication and their implications for digital circuit design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design combinational and sequential logic circuits of moderate complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze propagation delay, power consumption, and silicon area in common digital architectures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe digital systems using VHDL and verify their correct operation through simulation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement and validate simple digital systems on FPGA devices.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compare alternative design solutions and select the most appropriate one according to given performance, area, and power requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically evaluate different circuit- and architecture-level design solutions by considering performance, silicon area, and power consumption.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Identify and assess the main design trade-offs involved in the implementation of digital systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Use the technical terminology of digital system design appropriately.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe and document digital circuits using schematics, timing diagrams, and VHDL code.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Collaborate effectively in the design and verification activities carried out during the laboratory sessions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently approach the study of more advanced digital architectures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use technical documentation, datasheets, and CAD tool manuals to further develop their knowledge of digital design methodologies and technologies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Continuously update their skills in a field characterized by rapid technological evolution.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Digital signals and their representation.",
+    "Noise margins and robustness of digital systems.",
+    "Representation of numerical data and complex information.",
+    "The MOS transistor as the fundamental building block of digital electronics.",
+    "The CMOS inverter: static and dynamic characteristics.",
+    "Propagation delay and power consumption.",
+    "CMOS logic gates based on static logic.",
+    "Introduction to dynamic logic and pass-transistor logic.",
+    "Latches and flip-flops.",
+    "Registers and shift registers.",
+    "SRAM, DRAM, and non-volatile memory technologies.",
+    "Basic arithmetic blocks of an Arithmetic Logic Unit (ALU).",
+    "Shifters.",
+    "Adders.",
+    "Comparators.",
+    "Multipliers.",
+    "Programmable logic devices.",
+    "FPGA architecture.",
+    "VHDL description of combinational logic.",
+    "VHDL description of sequential logic.",
+    "Timing constraints.",
+    "Synthesis, implementation, and verification of digital systems on FPGA devices."
+  ],
+  "teaching_methods": [
+    "Workshop",
+    "Lesson",
+    "Problem solving",
+    "Case studies",
+    "Simulations",
+    "Group work",
+    "Use of educational technologies",
+    "Feedback",
+    "In-course assessment activities",
+    "Lectures",
+    "Applied lectures",
+    "Laboratory sessions",
+    "Guided exercises",
+    "Classroom discussions"
+  ],
+  "workload_hours_total": 72.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Theoretical section (multiple-choice and/or open-ended questions)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Design section (design-oriented problems)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final assessment consists of a single individual written examination lasting 2 hours and 30 minutes, divided into a theoretical section and a design section. The maximum possible score is 30/30, and the examination is passed with a minimum grade of 18/30. Honours (30 cum laude) may be awarded for comprehensive understanding, rigorous technical reasoning, ability to establish connections, and exceptional clarity. The use of generative Artificial Intelligence (AI) tools is not permitted during the written examination. During laboratory activities, AI tools may be used to support the design process, but students must explicitly disclose AI use, and assessment will be based on the student's ability to understand, justify, and critically adapt solutions.",
+  "bibliography": [
+    "Rabaey, Jan M., et al. Circuiti integrati digitali : l’ottica del progettista. 2. ed, Pearson education Italia, 2005",
+    "Rabaey, Jan M., et al. Digital Integrated Circuits : A Design Perspective. 2. ed, Prentice Hall, 2003",
+    "Hu, Chenming Calvin. Modern Semiconductor Devices for Integrated Circuits. Prentice Hall, 2010",
+    "Dally, William James, et al. Digital Design Using VHDL : A Systems Approach. Cambridge University, 2016",
+    "Jasinski, Ricardo. Effective Coding with VHDL : Principles and Best Practice. The MIT Press, 2016",
+    "Gerosa, [docente]. Elettronica digitale : Esercizi risolti. Seconda edizione, Progetto, 2006",
+    "Rabaey, Jan M.; Chandrakasan, Anantha; Nikolić, Borivoje; Gerosa, [docente]; Cester, [docente]. Circuiti integrati digitali. L'ottica del progettista. Pearson Education Italia, 2005. ISBN: 9788871922485. Notes: REQUIRED. Primary reference text covering CMOS circuits and digital system design.",
+    "Rabaey, Jan M.; Chandrakasan, Anantha; Nikolić, Borivoje. Digital Integrated Circuits: A Design Perspective. 3rd Edition. Pearson, 2010. ISBN: 9780136085256. Notes: RECOMMENDED. Updated reference covering advanced topics in CMOS digital integrated circuit design.",
+    "Dally, William J.; Harting, R. Curtis; Aamodt, Tor M. Digital Design Using VHDL: A Systems Approach. Cambridge University Press, 2016. ISBN: 9781107096882. Notes: RECOMMENDED. Supplementary reference on digital system design using VHDL.",
+    "Jasinski, Ricardo. Effective Coding with VHDL: Principles and Best Practice. MIT Press, 2016. ISBN: 9780262529679. Notes: RECOMMENDED. Reference on VHDL design methodology and coding best practices.",
+    "Gerosa, [docente]. Elettronica Digitale. Esercizi Risolti. Libreria Progetto, Padova, 2004. Notes: RECOMMENDED. Collection of solved exercises intended to support preparation for the written examination."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Padova",
+  "institution_slug": "ec_i_padova01",
+  "degree": "Laurea in Ingegneria Elettronica (Electronic Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "INL1001826",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipd.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=52278_551477_13858&ordinamento_aa=2025&af_percorso=52278&corso_cod=12370&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "8d7c6dead5a91a4eb146819b73047b6342fcb17c2ff179e259b00cd5f0e1223d",
+  "extracted_at": "2026-11-20T09:23:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

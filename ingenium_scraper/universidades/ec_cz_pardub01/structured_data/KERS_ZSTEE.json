@@ -1,0 +1,100 @@
+{
+  "course_name_original": "Principles of Communication Engineering",
+  "course_name_en": "Principles of Communication Engineering",
+  "ects": 6.0,
+  "semester": "Winter + Summer",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Fundamentals of Electrical Engineering and Electronics",
+    "Linear and Electronic Circuits"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will receive fundamentals of information transfer, signals classification and characteristic, including spectral representation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They will get a deep insight in analogue and discrete modulation of a harmonic carrier and impulse modulations as well as in modulators and demodulators in use.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Classification of signals",
+    "Characteristics of signals (energy, power, mean value)",
+    "Autocorrelation/correlation function of signals",
+    "Unit step, Dirac function, triangular signal, rectangular signals, radio pulse (computation of characteristics)",
+    "Fourier series (direct and inverse FS, properties of FS, spectrum of periodic signals",
+    "Computation of FS for rectangular, radio pulse, triangular pulse, harmonic signal",
+    "Computation of spectrum at Matlab system (rectangular, radio pulse, triangular pulse, harmonic signal)",
+    "Fourier Transform (direct and inverse FT, properties of FT, spectrum of non-periodic signals)",
+    "Computation of FT for rectangular, radio pulse, triangular pulse, harmonic signal (1 period)",
+    "Computation of spectrum at Matlab system (rectangular, radio pulse, triangular pulse, harmonic signal)",
+    "Communication model, propagation theorem",
+    "Examples of propagation theorem",
+    "Losses (free space path, terrain loss, multipath fading)",
+    "Communication model, propagation theorem",
+    "Complex examples of propagation theorem II.",
+    "Lab I. Measurement of radiation diagram",
+    "AM, FM modulation",
+    "Principles of AM (modulation, demodulation), properties, examples",
+    "Principles of FM (modulation, demodulation), properties, examples",
+    "Lab II. AM",
+    "Lab III. FM",
+    "ASK, FSK modulation",
+    "Principles of ASK (modulation, demodulation), properties, examples",
+    "Principles of FSK (modulation, demodulation), properties, examples",
+    "LAB IV. ASK, FSK modulation",
+    "BPSK, FSK modulation",
+    "Principles of BPSK (modulation, demodulation), properties, examples",
+    "Principles of FSK (modulation, demodulation), properties, examples",
+    "LAB IV. BPSK, FSK modulation"
+  ],
+  "teaching_methods": [
+    "Monologic (reading, lecture, briefing)",
+    "Dialogic (discussion, interview, brainstorming)",
+    "Methods of individual activities",
+    "Demonstration"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 4.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Home assignment evaluation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "J. Pearson. Basic Communication Theory. Prentice Hall, 1991.",
+    "J. Proakis. Digital Communication, 1996. Mc Graw Hill Inc, 2002.",
+    "Taylor, Fred J. Principles of signals and systems. New York: McGraw-Hill, 1994. ISBN 0-07-911171-8."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "University of Pardubice (Univerzita Pardubice)",
+  "institution_slug": "ec_cz_pardub01",
+  "degree": "Bachelor's programme, Faculty of Electrical Engineering and Informatics - courses in English",
+  "course_code": "KERS/ZSTEE",
+  "academic_year": "2026-2027",
+  "source_url": "https://portal.upce.cz/StagPortletsJSR168/CleanUrl?urlid=prohlizeni-predmet-sylabus&predmetZkrPrac=KERS&predmetZkrPred=ZSTEE&predmetRok=2026&formRozvrhZobrazeni=0&plang=en",
+  "source_language": "en",
+  "source_sha256": "cdb255164aecebf7a3e025bc7efd8c85826d16decbefb1a4727ed5ad7fb5ccfd",
+  "extracted_at": "2026-11-20T09:07:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

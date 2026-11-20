@@ -1,0 +1,127 @@
+{
+  "course_name_original": "Programmierung 2",
+  "course_name_en": "Programming 2",
+  "ects": 5.0,
+  "semester": "2",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Programmieren I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have very good competencies for independent design, implementation, and testing of Java programs.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students understand the concepts of modular software design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Through programming exercises in lectures, students are able to understand and criticize the content of their colleagues' programs and complement them with their own programs. They are able to create programs in a form that allows team cooperation.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students have the ability to create programs using a modern object-oriented programming platform.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can implement their own software engineering ideas and defend them against competing approaches.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Deepening OOP and modeling with UML",
+    "Abstraction and encapsulation",
+    "Review of data types, syntax, conventions",
+    "Modeling: UML diagrams",
+    "Principle of secrecy and modularization",
+    "Modularization since Java 9 (JigSaw Project)",
+    "Data types and helper classes",
+    "Primitive data types and reference data types",
+    "The Object class",
+    "Helper classes: Math, Random, Arrays, Objects, Collections, System",
+    "Relationships",
+    "Inheritance, Abstract Classes, Interfaces and Generics",
+    "Inner Classes, Local Classes, Anonymous Classes",
+    "Extended Interfaces",
+    "Advanced Java Programming",
+    "Collections API",
+    "Important Interfaces",
+    "Set, Map, List",
+    "Exceptions",
+    "Checked Exceptions",
+    "Unchecked Exceptions",
+    "Custom Exceptions",
+    "Lambdas and Functional Interfaces",
+    "Lambdas",
+    "Functional Interfaces",
+    "sort foreach",
+    "Java Code Conventions, Design Patterns and Clean Code",
+    "Code Conventions",
+    "Design Patterns (Singleton, Immutable, Iterator, Factory)",
+    "Clean Code (Readable and Maintainable Code)",
+    "Refactoring",
+    "J-Unit-Tests",
+    "J-Unit",
+    "Test Driven Development",
+    "Debugging",
+    "Multithreading",
+    "Thread, Runnable, ExcecutionService",
+    "Future<T>",
+    "File access and resource management",
+    "Path, FileSystem, Paths, FileSystems, Files",
+    "RandomAccessFile, Logfiles, Tempfiles",
+    "Media",
+    "Properties",
+    "Stream-API",
+    "Streams",
+    "Filter-Map-Reduce",
+    "Deployment of a Java application",
+    "Integrating libraries (Jars, JMods)",
+    "Creating libraries (Jars, JMods)",
+    "jLink (Native Version with JLink, since Java 11)",
+    "Installer (Free Inno Setup for Windows)"
+  ],
+  "teaching_methods": [
+    "Lecture with PowerPoint",
+    "Practical with many exercises",
+    "Group work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module examination is a written test of 90 minutes. The weighting of the grade is 5/210.",
+  "bibliography": [
+    "Java-Programmierung: Das Handbuch zu Java 8 Guido Krüger, Heiko Hansen O'Reilly Verlag Köln 8. Auflage 2014 ISBN 978-3-95561-514-7",
+    "Handbuch der Java-Programmierung Guido Krüger, Heiko Hansen 7. Auflage 2011 HTML-Ausgabe 7.0.0 \t© 1998, 2011 http://www.javabuch.de/download.html",
+    "Java ist auch eine Insel: Einführung, Ausbildung, Praxis Christian Ullenboom Rheinwerk Computing 12. Auflage 2016 ISBN 978-3-8362-4119-9",
+    "Java ist auch eine Insel: Einführung, Ausbildung, Praxis Christian Ullenboom Rheinwerk Computing 10. Auflage 2012 http://openbook.rheinwerk-verlag.de/javainsel"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-08",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "12f2a14740c698d7f4d508a8a4b4812b2bb9fd8c0100fcc0657ce0b72cd744d5",
+  "extracted_at": "2026-11-20T09:21:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

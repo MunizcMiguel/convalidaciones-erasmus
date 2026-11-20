@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Fundamentals of Informatics (INF-002R)",
+  "course_name_en": "Fundamentals of Informatics",
+  "ects": 9.0,
+  "semester": "First Half-Year Cycle",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Learn how to formalize and solve real world problems and how to describe them to a computer.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Learn the basics of the C programming language.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Through lectures, students learn the fundamental knowledge of computer science and in particular of imperative programming and acquire the ability to understand programs written in C language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Through practical exercises on the computer, the student is able to define sequential algorithms and to develop and verify programs using the C programming language.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through the test, the student learns to quickly analyze part of a computer program evaluating what is essential in order for an algorithm to work.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Laboratory testing leaves complete freedom to choose the solution that is deemed suitable in order to comply with the proposed problem requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The course and quiz tests require to develop considerable attention to the rigor in the language in referring to specific elements of the programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The described activities allow the student to acquire the methodological tools to continue their studies and to be able to arrange their own update.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and Information Representation",
+    "Information representation: positional number system, base 2, integer and fractional numbers",
+    "Bases 8 and 16, addition and subtraction of binary numbers, negative number representations, overflow and underflow",
+    "IEEE 754 standard, text representation, UNICODE",
+    "Architecture, Machine Language, and Assembly",
+    "Computer architecture: Von Neumann machine, the ADE8 educational processor",
+    "The concept of variable, managing multiple data, the concept of array, data addressing",
+    "Elementary C Constructs",
+    "From assembly to C: structure of a C program, the concept of data type, integer and floating-point types, variable definition, identifiers, initialization, read-only variables",
+    "Functions, the main function, assignment",
+    "Left and right associativity, expression types",
+    "The goto statement and labels, the if statement",
+    "High-level programming",
+    "The do-while and for constructs",
+    "Pointers",
+    "Memory allocation: malloc, free, and realloc",
+    "Advanced Constructs and Multi-file Source Usage",
+    "Allocating multiple data items: arrays",
+    "Accessing array elements with pointers and the square brackets operator",
+    "The C preprocessor",
+    "Structures in C: the struct directive",
+    "Defining structures and structure-type variables",
+    "Accessing structure members and passing a structure to a function",
+    "Defining new types: the typedef directive",
+    "Programming with Libraries and I/O",
+    "The standard library",
+    "Overview of math.h and string.h headers",
+    "The concept of a file as an abstraction of the underlying hardware",
+    "The stdio.h library"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Laboratory",
+    "Theoretical lessons",
+    "Practical coding on computer in labs"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 108.0,
+  "assessment_methods": [
+    {
+      "method": "Theory test (quiz test)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Programming test",
+      "weight_percentage": 66.67
+    }
+  ],
+  "assessment_rules": "For each session, there are two tests: a theory test and a programming test. Both tests are evaluated with a maximum score of 33, and passing is achieved with a grade greater than or equal to 18. The written exam must be passed (grade>=18) to access the programming test. The final grade will be the weighted average (rounded to the nearest integer, 0.5 upwards) of the grades of the two tests, where the theory weighs 1 and programming weighs 2. The written test, once passed, remains valid until the start of the new course in September of the year following the start of the course.",
+  "bibliography": [
+    "Tullio Facchinetti, Cristiana Larizza, Alessandro Rubini Programmare in C Maggioli Editore",
+    "Marco Manfredi Esercizi di Programmazione in Linguaggio C: 80 problemi e soluzioni commentate"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia — Ingegneria Informatica (MO)",
+  "institution_slug": "ec_i_modena01__info",
+  "degree": "Laurea in Ingegneria Informatica (Mo) (Computer Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "INF-002R",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=29303&ordinamento_aa=2026&af_percorso=1&corso_cod=10926&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "de1c05d3f6c8e598249ea64878c2d644353f8948d027f4725d10fb1656613a8c",
+  "extracted_at": "2026-11-20T12:42:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

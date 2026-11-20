@@ -1,0 +1,100 @@
+{
+  "course_name_original": "INDUSTRIAL ELECTRONICS SYSTEMS DESIGNE (DG0197)",
+  "course_name_en": "INDUSTRIAL ELECTRONICS SYSTEMS DESIGN",
+  "ects": 9.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Fisica II",
+    "Elettrotecnica",
+    "Elettronica I"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Electronic design capability",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "have profound knowledge of basic principles of operation of electronic circuits",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "have knowledge and understanding of the behavior and of the main applications of basic electronic circuits",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "understand and explain the performances and characteristics of simple electronic circuits and systems",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understand the fundamental concepts of electronic circuits and systems and their application to information and power management systems",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "demonstrate skill in circuit analysis and design",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "demonstrate capacity for understanding problems of information and power management and for addressing their solution by means of electronic circuits and systems",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Current mirrors",
+    "active loads and references: current mirror, active loads, amplifiers with current mirrors and active loads, voltage and current references, biasing of transistors",
+    "Operational amplifiers: Transconductance amplifier, internal structure and characteristics of an operational amplifier; real operational amplifier, applications (base circuits, active filters, impedance simulators, oscillators)",
+    "Analog circuits: Transistor-based multipliers, Gilbert cell, Phase-Locked Loop circuits, modulators, filters, noise analysis",
+    "Power amplifiers",
+    "Optical devices: Photodiodes, LED and laser diodes, solar cells",
+    "Optical transmission systems",
+    "Active and passive filters: low-pass, high-pass and band-pass filters. Main types and design formulas",
+    "Active filters: Sallen-Key filters",
+    "Analog/digital circuits and systems: Practical realization of logic ports; A/D and D/A converters; microcontroller systems; internal structure of a microcontroller",
+    "Examples of applications to microcontroller systems",
+    "Software: Open source simulation software “LTSpice”, Analog Devices Corporation",
+    "C Language"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "CAD practice",
+    "home work (project)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of an oral exam. During the oral exam, some topics included in the program will be discussed. The exam will be considered passed if the student has demonstrated having understood and assimilated the topics of the course.",
+  "bibliography": [
+    "J. Millman & A. Grabel, Microelectronics, McGraw-Hill",
+    "Adel S. Sedra, K.C. Smith, Microelectronic Circuits, Oxford University Press Inc",
+    "Gray, Hurst, Lewis, Meyer, Analysis and design of Analog Integrated Circuits, John Wiley & Sons, Inc."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Dell'Aquila",
+  "institution_slug": "ec_i_l_aquil01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "DG0197",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univaq.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=37960&ordinamento_aa=2019&af_percorso=5&corso_cod=10120&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "fc03db69edb1ded7a686db85c1be37c6035ab205847b3fb201264fd42c826346",
+  "extracted_at": "2026-11-18T10:02:48",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,103 @@
+{
+  "course_name_original": "MECHATRONICS (507282)",
+  "course_name_en": "Mechatronics",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of concepts addressed in courses of electronics, controls, electronic calculators and fundamentals of computer science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify and choose the main components making up a chain of measurement acquisition of the conditions of an industrial process.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Intervene on the process by means of an electromechanical actuator to maintain the stability of the process, that is operation within desired minimum conditions.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Apply microprocessor control identified within a series of known algorithms and techniques.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course",
+    "Measurement systems",
+    "Electronic chain of acquisition and control",
+    "Analog and digital signals",
+    "Fourier analysis (outline)",
+    "Frequency spectrum",
+    "Low-pass, high-pass, band-pass filters",
+    "Bode diagrams",
+    "Step response analysis",
+    "General information on transducers",
+    "Transducers for measuring linear and angular position",
+    "Transducers for measuring linear and angular velocity",
+    "Transducers for measuring acceleration",
+    "Transducers for measuring pressure",
+    "Transducers for measuring temperature",
+    "Transducers for measuring flow rate",
+    "Transducers for measuring level and acidity",
+    "Voltage-current and current-voltage converters",
+    "Charge-voltage converters",
+    "Frequency-voltage converters",
+    "Bridge circuits",
+    "The use of operational amplifiers in measurement chains: amplification with diode and single and double half-wave AC-DC converter",
+    "Synchronous rectifier",
+    "Instrumentation amplifier",
+    "Sampling problems: Shannon's theorem",
+    "Interfacing to the microprocessor",
+    "Creation of a circuit for the analog-digital set point",
+    "Visualization on LCD display",
+    "SCR",
+    "Triac and Unijunction Transistor",
+    "Direct current motor",
+    "Stepper motor",
+    "Resumption of proportional, proportional-integral and proportional-integral-derivative control",
+    "Cascade and feed-forward control",
+    "Numerical controllers",
+    "Speed control",
+    "Smith predictor",
+    "Compensation for a pure delay",
+    "Numerical techniques and optimal controllers",
+    "Examples of process acquisition and control chains in typical applications of the automation world"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercises",
+    "Problem solving"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 51.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The written test will contain an example of an industrial process where students must identify the correct transducer, the transfer function of the process, and the control algorithm needed for stabilization. The second part of the test focuses on describing a transducer and its conditioning electronics or an actuator. The test concludes with short questions requiring identification of reasons for behaviors of transducers, electronic circuits, control techniques, and actuators.",
+  "bibliography": [
+    "[docente]. Slides and notes from the lessons (look at the web site of the course http://mclab.unipv.it/eleind/Mechatronics/)."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "507282",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=17750&ordinamento_aa=2021&af_percorso=1&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "b53e5b6dd5fdf5278a6398a1d7abfc17d3ca90024f2cc6d1ffab79d7d88b0112",
+  "extracted_at": "2026-11-20T08:18:21",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

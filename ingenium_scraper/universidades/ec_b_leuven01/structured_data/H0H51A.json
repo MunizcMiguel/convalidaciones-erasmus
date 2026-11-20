@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Elasticiteits- en plasticiteitsleer",
+  "course_name_en": "Theory of Elasticity and Plasticity",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "nl"
+  ],
+  "prerequisites": [
+    "Basic knowledge of strength of materials."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The student knows the different concepts and quantities from continuum mechanics and the relationships that exist between these quantities.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student can write down the complete set of equations for an elastic and an elasto-plastic analysis of an arbitrary body in a two- or three-dimensional space.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can interpret a stress and strain state.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student knows the techniques for transforming analytical equations into numerical simulation techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student is able to independently make an analytical elaboration of a continuum mechanical problem with an elastic material and a simple geometry and boundary conditions in a two- or three-dimensional space and with an elasto-plastic material in a one- or two-dimensional domain.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Part I: Elasticity",
+    "Mathematical concepts: basic concepts from vector calculus; basic concepts from tensor calculus; coordinate transformations.",
+    "Stresses: stress vector in a 3D continuum; stress tensor in a 3D continuum; stress tensor in a coordinate transformation; principal stresses, principal directions of the stress tensor; Mohr's circles for stresses; deviatoric stresses; octahedral shear stress.",
+    "Kinematics and deformations: Lagrangian and Eulerian description of displacement and deformation; deformation gradient; physical meaning of the deformation tensor: change in length and change in angle; principal strains, principal directions of the strain tensor; Mohr's circles for deformations; compatibility conditions.",
+    "Conservation laws: Reynolds transport theorem; conservation of mass; conservation of momentum; conservation of angular momentum.",
+    "Constitutive laws: definitions of elastic material; generalized Hooke's law; constitutive law for a linearly isotropic elastic material; constitutive law for hydrostatic and deviatoric stress components; physical meaning of elastic constants; constitutive equations in a transformed coordinate system; material models for elastic materials: anisotropic, with one plane of symmetry, orthotropic, transversely isotropic.",
+    "Formulation of the 2D elasticity problem: formulation of all valid equations; Navier's equations; 2D stress states in Cartesian coordinates: plane stress state, plane strain state, Airy stress function; 2D stress states in polar coordinates: relation between displacements and strain components, Airy stress function.",
+    "Virtual work: repetition of virtual displacements of rigid bodies; virtual work in virtual displacements for elastic continua: virtual work of external and internal forces, theorem of virtual work and equivalence with equilibrium; virtual work in virtual forces for elastic continua: virtual work of external and internal forces, theorem of complementary virtual work and equivalence with compatibility.",
+    "Potential energy and energy methods: concepts of potential energy: potential energy of external forces, elastic energy and potential functions of energy density; theorem of minimum potential energy: 1st variation and equilibrium, 2nd variation and stability; theorem of stationary complementary energy: equivalence with compatibility; application of energy theorems.",
+    "Plates: kinematics of thin flat plates under transverse loading, Kirchhoff hypothesis; stresses in thin flat plates; stress resultants in thin flat plates; equilibrium equations: plate equation and boundary conditions; effective shear force.",
+    "Part II: Plasticity",
+    "Plasticity in one-dimensional stress states; material models for uniaxial tension/compression; Bauschinger effect; hardening.",
+    "Yield criteria in two- and three-dimensional stress states: general form of the yield criterion; Haigh-Westergaard stress space; yield criteria for ductile materials: Tresca, von Mises; fracture criteria for brittle materials: Rankine, Mohr-Coulomb, Drucker-Prager.",
+    "Deformations in plastic regime: yield surface and loading criterion; incremental deformations; convexity of the yield surface; normality of the plastic deformation increment on the yield surface; plastic potential and flow rule.",
+    "Stresses: stress tensor, principal stresses, principal directions.",
+    "Kinematics and deformations, principal strains, principal directions.",
+    "Constitutive equations. Isotropic, transversely isotropic and orthotropic materials. Application to laminates.",
+    "2D problems in Cartesian coordinates: plane stress state and plane strain state. Airy stress functions.",
+    "2D problems in polar coordinates. Airy stress functions.",
+    "Plates.",
+    "1D plasticity.",
+    "Yield criteria for ductile materials: Guest-Tresca and Von Mises.",
+    "Yield criteria for brittle materials: Rankine, Mohr-Coulomb and Drucker-Prager.",
+    "Perfect plasticity.",
+    "Perfect plasticity, application to thick-walled cylinders."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Assignments"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 34.0,
+  "assessment_methods": [
+    {
+      "method": "Oral examination (theory question)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Oral examination (elasticity exercise)",
+      "weight_percentage": 33.33
+    },
+    {
+      "method": "Oral examination (plasticity exercise)",
+      "weight_percentage": 33.33
+    }
+  ],
+  "assessment_rules": "Each student receives three questions: one theory question, one exercise from the elasticity part, and one exercise from the plasticity part. The theory question involves an independent derivation (not reproduction from the course). The exercises concern a complete elaboration of a concrete continuum mechanical problem with simple geometry. The weighting for the three questions is equal. Any rounding is done according to the usual rule, but in case of deficiencies in at least two of the three questions, rounding is always downwards.",
+  "bibliography": [
+    "G. Degrande, D. Vandepitte, Elasticiteits- en plasticiteitsleer, Deel 1, Acco, Leuven, Tweede, herziene uitgave, 2012.",
+    "G. Degrande, D. Vandepitte, Elasticiteits- en plasticiteitsleer, Deel 2, Acco, Leuven, Tweede, herziene uitgave, 2012.",
+    "G. Degrande, D. Vandepitte, Elasticiteits- en plasticiteitsleer, Formularium, Acco, Leuven, Tweede, herziene uitgave, 2012.",
+    "G. Degrande, Elasticiteits- en plasticiteitsleer: oefeningen, VTK, Leuven, 2008."
+  ],
+  "isced_f_code": "0711",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H0H51A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/n/H0H51AN",
+  "source_language": "nl",
+  "source_sha256": "f7d896f9ab66122f46345230973cbf4019fb2033c38144ab1b0d3e4ba628be36",
+  "extracted_at": "2026-11-20T09:19:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

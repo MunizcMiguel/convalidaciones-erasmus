@@ -1,0 +1,140 @@
+{
+  "course_name_original": "Computadores",
+  "course_name_en": "Computers",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Estructuras Discretas y Análisis de Algoritmos",
+    "Metodología de la Programación",
+    "Algoritmia (recommended concurrently)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that starts from the basis of general secondary education, and is usually at a level that, although supported by advanced textbooks, also includes some aspects that involve knowledge from the forefront of their field of study.",
+      "type": "unspecified",
+      "code": "CB1"
+    },
+    {
+      "text": "Students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "unspecified",
+      "code": "CG01"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to propose experiments and to describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "skill",
+      "code": "CG02"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to problem-solving.",
+      "type": "unspecified",
+      "code": "CG03"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG04"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "skill",
+      "code": "CG09"
+    },
+    {
+      "text": "Understand computer architecture and identify and evaluate the performance and scalability of computer systems used for processing large volumes of data.",
+      "type": "knowledge",
+      "code": "CE05"
+    },
+    {
+      "text": "Understand the representation of data and information in computers.",
+      "type": "knowledge",
+      "code": "RCOM1"
+    },
+    {
+      "text": "Know how a computer is organized and how its subsystems function to process data.",
+      "type": "knowledge",
+      "code": "RCOM2"
+    },
+    {
+      "text": "Understand how computer architecture influences processing time.",
+      "type": "knowledge",
+      "code": "RCOM3"
+    },
+    {
+      "text": "Know the functions and structure of an operating system.",
+      "type": "knowledge",
+      "code": "RCOM4"
+    },
+    {
+      "text": "Understand information processing and storage mechanisms.",
+      "type": "knowledge",
+      "code": "RCOM5"
+    }
+  ],
+  "syllabus_topics": [
+    "Digital information",
+    "Digital systems",
+    "Computer architecture",
+    "The machine language",
+    "The processor",
+    "The memory system",
+    "Input/Output",
+    "Operating systems",
+    "Performance"
+  ],
+  "teaching_methods": [
+    "In-person expository classes",
+    "In-person laboratory practices",
+    "Online expository classes",
+    "Online laboratory practices",
+    "Autonomous study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and active participation in in-person laboratory sessions (NAsist)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in Virtual Campus activities (exercises and questionnaires) (NCampus)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Theoretical exams (NTeo)",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Practical exams (NPrac)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade (NotaConvOrdinaria) is calculated as 0.05 * NAsist + 0.10 * NCampus + 0.45 * NTeo + 0.40 * NPrac, and must be >= 5/10. For the extraordinary call, if NExTeo > 5.0, then NotaConvExtraordinaria = 0.5 * NExTeo + 0.5 * NExPrac; otherwise, NotaConvExtraordinaria = minimum(4.5, 0.5 * NExTeo + 0.5 * NPrac). A minimum score of 5.0 in NExTeo is required to pass in the extraordinary call. For differentiated evaluation, NotaEvDiferenciada = 0.5 * NDifTeo + 0.5 * NDifPrac, with a minimum of 5.0 in NDifTeo required to take the practical exam.",
+  "bibliography": [
+    "J. Entrialgo, J.C. Granda, J.M. López, J. Molleda, J.R. Arias, R. Usamentiaga, M. García y J.L. Díaz. Computadores y Redes. Ediuno. Ediciones de la Universidad de Oviedo, 2016. ISBN: 978-84-16664-37-5. Ebook, ISBN: 978-84-18324-79-6.",
+    "A. Tanenbaum, H. Bos. Modern Operating Systems (4th edition). Pearson, 2014. ISBN: 978-133591620.",
+    "J.C. Granda, J.M. López, M. García, J. Molleda, R. Usamentiaga, J. Entrialgo, F.J. de la Calle. Arquitectura de Computadores. Ediuno. Ediciones de la Universidad de Oviedo, 2019. ISBN: 978-84-17445-49-2.",
+    "W. Stallings. Computer Organization and Architecture (10th edition). Pearson, 2015. ISBN: 978-0134101613.",
+    "D.A. Patterson, J.L. Hennessy. Computer Organization and Design MIPS Edition. Elsevier, 2020. ISBN: 978-0128201091."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-3-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-010",
+  "source_language": "es",
+  "source_sha256": "86cfcf2676099ff9ae8e0ef30ae02df6a4cf67cbe3562cd9b2be68f0097e9b0a",
+  "extracted_at": "2026-11-20T06:06:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

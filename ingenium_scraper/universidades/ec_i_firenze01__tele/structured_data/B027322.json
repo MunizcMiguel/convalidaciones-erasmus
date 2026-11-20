@@ -1,0 +1,130 @@
+{
+  "course_name_original": "NUMERIC CALCULUS (B027322)",
+  "course_name_en": "NUMERIC CALCULUS",
+  "ects": 6.0,
+  "semester": "Secondo Semestre",
+  "year_of_study": 1,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Fundamentals of linear algebra and calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of both mathematical principles and the role of mathematical sciences as a tool for the analysis and the problem solving of engineering problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge of the principles of computer science and the algorithmic and numerical approach to problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The main functionalities of a basic computer system",
+      "type": "unspecified",
+      "code": "cc5"
+    },
+    {
+      "text": "Strengthening one's cognitive and interpersonal skills",
+      "type": "unspecified",
+      "code": "cc24"
+    },
+    {
+      "text": "Applying knowledge and understanding related to mathematical methods - with particular reference to differential equations, large-scale linear and nonlinear systems - to model, analyze and solve engineering problems, also with the help of IT tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Extrapolating application-oriented information from analytical results to be used in the study of engineering problems",
+      "type": "unspecified",
+      "code": "ca2"
+    },
+    {
+      "text": "Ability to make autonomous choices in selecting the most suitable algorithms for solving a real problem.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Identifying appropriate calculation methods, as well as procedures for collecting and processing information (measurements, experimental results, laboratory activity outcomes, etc.), and interpreting the resulting data, including through statistical analysis",
+      "type": "unspecified",
+      "code": "ag1"
+    },
+    {
+      "text": "Ability to describe the numerical methods and algorithms introduced in the course.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to logically exhibit demonstrations of the theoretical properties studied.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Mastery of the basic notions and methodologies, which allows their application in areas other than those covered during the course.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Adequately preparing for subsequent levels of education (Master's degrees and postgraduate studies)",
+      "type": "unspecified",
+      "code": "ap2"
+    }
+  ],
+  "syllabus_topics": [
+    "Floating point arithmetic.",
+    "Algorithms and stability.",
+    "Conditioning of a problem.",
+    "Direct numerical methods for algebraic linear systems (e.g. Gauss elimination method).",
+    "Iterative numerical methods and algorithms for solving nonlinear equations.",
+    "Polynomial interpolation and least-squares problems. Numerical methods.",
+    "Composite quadrature rules.",
+    "The MATLAB environment.",
+    "Algorithms.",
+    "Finite precision.",
+    "Norms of matrices and vectors.",
+    "Stability of an algorithm.",
+    "Direct methods for linear systems: Gauss method and pivoting strategies.",
+    "Jacobi and Gauss-Siedel iterative methods for linear systems.",
+    "Iterative methods for finding the roots of a nonlinear equation: Bisection, Newton and Secant methods; corresponding algorithms.",
+    "Polynomial interpolation, spline interpolation.",
+    "MATLAB: Handling matrices, operations between matrices.",
+    "Function and script files.",
+    "If, while and for commands.",
+    "2D e 3D plots.",
+    "Built-in functions for linear systems, nonlinear equations, basic fitting."
+  ],
+  "teaching_methods": [
+    "Lectures using slides and blackboard",
+    "Exercises in the computer room using Matlab software"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Written test (theory questions, exercises, \"pen and paper\" implementation of simple Matlab codes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The learning assessment includes a written test. Each question is assigned a score, for a total of 32 out of 30 (scores above 30/30 correspond to the 30L grade). The allotted time is two hours. During the test, the use of a calculator is permitted, while it is not permitted to consult books, handouts or notes. Honors (Laude) is awarded for work or performance distinguished by brilliance and originality, exceeding standard curricular expectations.",
+  "bibliography": [
+    "M.G. Gasparo, R. Morandi: \"Elementi di calcolo Numerico: metodi ed algoritmi\", Mc-Graw Hill, 2008.",
+    "G. Naldi, L. Pareschi, G. Russo, \"Introduzione al calcolo Scientifico, metodi e applicazioni con Matlab\", McGraw-Hill, 2001.",
+    "A. Quarteroni, R. Sacco, F.Saleri, \"Matematica Numerica\", Springer 2000."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B027322",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=66628_B307-26-26_73903_837775&ordinamento_aa=2026&af_percorso=66628&corso_cod=4277&corso_aa=2026",
+  "source_language": "en",
+  "source_sha256": "81f7c4d8576000b873edb6160c9f9a2d0c0602987cf167fd1ed6bc545d5e0894",
+  "extracted_at": "2026-11-20T12:45:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

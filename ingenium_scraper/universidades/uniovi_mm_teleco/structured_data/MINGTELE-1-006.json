@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Diseño Digital Avanzado",
+  "course_name_en": "Advanced Digital Design",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid knowledge of digital electronics acquired in any of the degrees that allow access to the Master's.",
+    "Knowledge related to microcontroller or microprocessor programming (recommended).",
+    "Knowledge of circuit theory (recommended)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design high-complexity digital circuits, from high-level VHDL languages.",
+      "type": "skill",
+      "code": "R24"
+    },
+    {
+      "text": "Perform functional simulations of complex digital circuits using hardware description languages.",
+      "type": "skill",
+      "code": "R25"
+    },
+    {
+      "text": "Perform the analysis and temporal simulation of complex digital circuits.",
+      "type": "skill",
+      "code": "R26"
+    },
+    {
+      "text": "Generate the test of a high-complexity digital circuit, using different algorithms.",
+      "type": "skill",
+      "code": "R27"
+    },
+    {
+      "text": "Select the appropriate programmable digital circuit for each application.",
+      "type": "skill",
+      "code": "R28"
+    },
+    {
+      "text": "Design and implement communication circuits based on complex programmable devices.",
+      "type": "skill",
+      "code": "R29"
+    }
+  ],
+  "syllabus_topics": [
+    "Classes of programmable logic devices: PLDS, FPGAS, SEA-GATES",
+    "Hierarchical design: schematics",
+    "Functional simulation, temporal and fault analysis",
+    "Basic concepts: design methodologies.",
+    "Combinational and sequential circuits with VHDL",
+    "Functional simulation with VHDL",
+    "Temporal analysis",
+    "Digital circuit testing with VHDL",
+    "Programmable devices for internet communication",
+    "Programmable devices for radio communication"
+  ],
+  "teaching_methods": [
+    "Expositive classes (lectures)",
+    "Laboratory practices",
+    "Project-Based Learning (PBL)",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Block Exam (EX)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Practical Block Project 1 (Pr1)",
+      "weight_percentage": 19.5
+    },
+    {
+      "method": "Practical Block Report 1 (Inf)",
+      "weight_percentage": 9.75
+    },
+    {
+      "method": "Practical Block Project 2 (Pr2)",
+      "weight_percentage": 35.75
+    }
+  ],
+  "assessment_rules": "To pass the theoretical block, a minimum of 4 points is required on the exam. To pass the practical block, a minimum of 5 points is required, calculated as 0.3*Pr1 + 0.15*Inf + 0.55*Pr2. If both minimums are met, the final grade is 0.35*Theoretical Block Grade + 0.65*Practical Block Grade. Otherwise, the final grade will be the minimum between the calculated grade and 4.0. It is a necessary condition to have submitted and defended both projects (Pr1 and Pr2) at least one week before taking the theoretical exam.",
+  "bibliography": [
+    "E.MANDADO, L.J.ALVAREZ Y MªD.VALDES. Dispositivos Lógicos Programables y sus aplicaciones. Editorial Thomsom.",
+    "J.O. HAMBLEN, M. FURMAN. Rapid Prototyping of Digital Systems. Editorial Kluwer Academic Publishers",
+    "J.I.ARTIGAS, L.A.BARRAGAN, C.ORRITE et al. Electrónica Digital. Aplicaciones y problemas con VHDL. Editorial Prentice-Hall",
+    "S.A. PEREZ, E. SOTO y S. FERNANDEZ. Diseño de Sistemas Digitales con VHDL. Editorial Thomson.",
+    "J.M.ANGULO, B. GARCIA, I. ANGULO y J. VICENTE. Microcontroladores Avanzados dsPIC. Editorial Thomson.",
+    "https://www.intel.com/content/www/us/en/products/programmable.html",
+    "http://www.xilinx.com/",
+    "http://www.microchip.com/",
+    "http://www.ccsinfo.com/forum/",
+    "http://www.labcenter.com/products/vsm/pic33.cfm"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_mm_teleco",
+  "degree": "Máster Universitario en Ingeniería de Telecomunicación",
+  "course_code": "MINGTELE-1-006",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/telecomunicacion/-/fof/asignatura/MINGTELE-1-006",
+  "source_language": "es",
+  "source_sha256": "d8478dd29cff69217fc538503411b2e4fe2a8f5c95c24a172526d9546ebdfe71",
+  "extracted_at": "2026-11-20T06:06:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

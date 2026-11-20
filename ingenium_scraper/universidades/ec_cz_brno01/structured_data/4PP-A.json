@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Strength of Materials I",
+  "course_name_en": "Strength of Materials I",
+  "ects": 7.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of statics and mathematics.",
+    "Statics \nconditions of static equilibrium and equivalence, free-body diagrams, assessment of static determinacy, shear force and bending moment diagrams.",
+    "Mathematics \nvectors and matrices, differential and integral calculus, solutions to differential equations.",
+    "Knowledge of the software Matlab."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Equip the students with methodology for determination of strain and stress in bodies and risk assessment of basic limit states.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Practical experience with computations of the simplest bodies will be further supplemented with basic knowledge necessary for the strength design of real machine parts.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Basic knowledge of stress and strain related to simple cases of loaded bars and beams and the idea of the boundaries of applicability of these classical approaches.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Criteria of fundamental limit states and determination of safety and dimensions of designed bodies or machine parts.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Definition of subject contents.",
+    "Basic terms \ndeformation, stress, stress state, limit states, safety.",
+    "Mechanical properties of material and its computational models. Characteristics of linear elastic body. Definition of linear strength of materials.",
+    "Work done by forces, Castigliano's theorem. Saint -Venant's principle. Beam in strength of materials \ndefinition, classification.",
+    "Geometrical characteristics of cross-section. Area moments of inertia, transformation with respect to the translated and rotated axes. Principal central area moments of inertia.",
+    "Axially loaded bars:",
+    "Deformation, stress state and strain energy.",
+    "Influence of deviations on deformation and stress state, notches and safety check.",
+    "Statically indeterminate beam loaded in tension and compression.",
+    "Truss structures and trusses.",
+    "Bars in torsion:",
+    "Deformation, stress state, strain energy and influence of deviations on deformation and stress state.",
+    "Statically indeterminate beam and safety check.",
+    "Beams in bending:",
+    "Stress state, deformation, strain energy. Methods of determination of deflection.",
+    "Influence of deviations on stress state and deformation. Shear stress resulting from shear force. Safety check.",
+    "Statically indeterminate beam.",
+    "Shear stress for thin-walled profiles, shear center.",
+    "Stability of columns. Influence of deviations on the critical load.",
+    "Stability of columns from real material. Eccentric compression.",
+    "Stress state in the point of a body, principal stresses.",
+    "Representation of stress state using Mohr's circle. Particular cases of stress state, plane stress state.",
+    "Criteria for materials of bodies in ductile or brittle state without a priori defects of the crack type at static loading.",
+    "Combined loading of beams.",
+    "Curved beams and frames. Closed beams (frames). Utilization of symmetry and antimetry.",
+    "Beams loaded by temperature. Non-linearity in bending.",
+    "Overview of problems solvable by analytical and numerical methods.",
+    "Examples of possibilities of contemporary methods of experimental strength of materials.",
+    "Eurocodes \nDesign of steel structures.",
+    "Internal forces and moments for straight bar.",
+    "Internal forces and moments for curved beam and frame.",
+    "Area moments of inertia. Mohr's circle.",
+    "Loading in tension, stress state and deformation. Statically determinate tasks.",
+    "Loading in tension, stress state and deformation. Statically indeterminate tasks.",
+    "Loading in torsion. Statically determinate and indeterminate tasks.",
+    "Loading in bending. Stress state and deformation for statically determinate beam.",
+    "Loading in bending. Stress state and deformation for statically indeterminate beam.",
+    "Stability of columns. Safety for compressive loading of bars from real material.",
+    "Calculation of trusses considering the stability of columns. Truss structures.",
+    "Combined loading.",
+    "Curved beams and frames. Closed beams (frames). Utilization of symmetry and antimetry."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise",
+    "Computer-assisted exercise"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Seminar tests of basic knowledge",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written final examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The course-unit credit is granted under the condition of active participation in seminars and passing the seminar tests of basic knowledge (at least 10 ECTS points out of 20 must be gained). The written part of the examination can yield a maximum of 80 ECTS points, involving computational problems and theoretical questions. The final evaluation is the sum of points from seminars and the examination, requiring at least 50 points to pass the course. Attendance at practical training is obligatory.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "WYSOKÉ UCENI TECHNICKÉ V BRNE - Brno University of Technology",
+  "institution_slug": "ec_cz_brno01",
+  "degree": "Fundamentals of Mechanical Engineering (B-STI-A)",
+  "course_code": "4PP-A",
+  "academic_year": "2026/2027",
+  "source_url": "https://www.fme.vutbr.cz/en/studenti/predmety/300559",
+  "source_language": "en",
+  "source_sha256": "6cbd216dde84e83a6f0ddcdb96905abab8a453f2525a42c667d26839af02c1d9",
+  "extracted_at": "2026-11-18T09:47:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

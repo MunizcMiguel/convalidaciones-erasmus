@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Integración de Sistemas",
+  "course_name_en": "Systems Integration",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Having completed the basic training modules",
+    "Having completed the modules common to the industrial branch",
+    "Having completed the specific modules in Industrial Electronics and Automation"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design the most suitable network architecture for the integration of automatic systems.",
+      "type": "unspecified",
+      "code": "RIS-1"
+    },
+    {
+      "text": "Develop applications that allow the visualization, capture, and exploitation of process information.",
+      "type": "unspecified",
+      "code": "RIS-2"
+    },
+    {
+      "text": "Design and implement an information system for the storage and exploitation of manufacturing data.",
+      "type": "unspecified",
+      "code": "RIS-3"
+    }
+  ],
+  "syllabus_topics": [
+    "Block 1: Integration Technologies for Industrial Automated Systems.",
+    "T1: Introduction. Basic CIM concepts. Integration methodologies.",
+    "Block 2: Industrial Information Systems",
+    "T2. Information Systems",
+    "Block 3: Industrial Networks",
+    "T3. Fieldbuses",
+    "T4. Industrial Ethernet",
+    "T5. Wireless networks in industry",
+    "Block 4: Acquisition and exploitation of plant data.",
+    "T6. OPC Standard",
+    "T7. User interface design.",
+    "T8. Security, availability, and integrity."
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practices",
+    "Classroom practices/Seminars",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Work (TL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active Participation (PA)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if all minimums in partial exams are met and their average is >= 4.5, the final grade is (0.5 * (0.33 * (P1 + P2 + P3))) + (0.4 * TL) + (0.10 * PA). If the Final Exam is taken and its minimum grade is met, the final grade is (0.5 * EF) + (0.4 * TL) + (0.10 * PA). If minimums are not met, the final grade is the minimum of the calculated formula and 4.0. For the extraordinary call, if all minimums are met, the final grade is (0.5 * EF) + (0.5 * TL); otherwise, it is the minimum of the calculated formula and 4.0. For partial exams, a minimum score of 3 is required for compensation, and the average of the three must be >= 4.5. The Final Exam requires a minimum of 4.5, and Laboratory Work requires a minimum of 4.",
+  "bibliography": [
+    "Zurawski, R., \"Integration Technologies For Industrial Automated Systems\", Ed. CRC Press, Taylor & Francis Group",
+    "Cerro, E. “Comunicaciones industriales”. Ed. Ceysa 2004",
+    "Rodríguez, A. “Comunicaciones industriales. Guía práctica”. Ed. Marcombo 2008",
+    "Domingo, J. \"Comunicaciones en el entorno industrial\". Ed. UOC 2003",
+    "Tanenbaum, A. S. “Redes de Computadores”, 5ª edición, Prentice Hall 2012",
+    "Proceedings of the IEEE, vol. 93, no. 6, Junio 2005",
+    "Proceedings of the IEEE, vol. 107, no. 6, Junio 2019"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-005",
+  "source_language": "es",
+  "source_sha256": "b9db225dd4faf02236918d5928824bb8080914d827800429c6ad92a870852ccb",
+  "extracted_at": "2026-11-20T01:13:05",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

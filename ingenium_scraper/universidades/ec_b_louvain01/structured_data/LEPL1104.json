@@ -1,0 +1,89 @@
+{
+  "course_name_original": "Numerical methods",
+  "course_name_en": "Numerical methods",
+  "ects": 5.0,
+  "semester": "Q2",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "distinguish between physical reality, mathematical model and numerical solution",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understand the characteristics of the methods: precision, convergence, stability",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "choose a method taking into account precision and complexity requirements",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "implement a numerical method",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "critically interpret results obtained on a computer",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Error analysis: modelling error, truncation error, convergence and approximation order, floating point number representation (IEEE754)",
+    "Approximation and interpolation: Lagrange polynomials, spline functions, NURBS, orthogonal polynomials, error estimators",
+    "Numerical integration and differentiation: backward and centered finite difference, midpoint, trapezoidal and Simpson formula, adaptive techniques",
+    "Ordinary Differential Equations (ODE): Taylor and Runge Kutta methods, predictor-corrector methods, stability on unbounded intervals and perturbation analysis",
+    "Linear equations: factorization methods and iterative techniques, complexity, computation of eigenvalues",
+    "Nonlinear equations: bisection and Newton methods, optimisation applications",
+    "Partial Differential Equations (PDE): boundary value problems (Laplace, heat equation, waves equation), approximation by finite differences"
+  ],
+  "teaching_methods": [
+    "Lectures in auditorium",
+    "supervised exercise and problem sessions",
+    "unsupervised assignments",
+    "Real-life examples using numerical methods",
+    "Use of Python software"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "In-session written exam",
+      "weight_percentage": 90.0
+    },
+    {
+      "method": "Continuous assessment (homeworks)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Quiz",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Continuous assessment accounts for 10% of the final grade. The in-session written exam accounts for 90%. A quiz may be organized during the year and can only have a positive influence on the final grade; it is never possible to retake this test.",
+  "bibliography": [],
+  "isced_f_code": "0541",
+  "missing_sections": [
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "Université catholique de Louvain (UCLouvain)",
+  "institution_slug": "ec_b_louvain01",
+  "degree": "Bachelor in Engineering (Bachelier en sciences de l'ingénieur, orientation ingénieur civil) - FSA1BA",
+  "course_code": "LEPL1104",
+  "academic_year": "2025-26",
+  "source_url": "https://uclouvain.be/en-cours-2025-lepl1104",
+  "source_language": "en",
+  "source_sha256": "146412c05b15985226bb31dac302bccbbf72960afea1fd7887af5d63ebd49ffa",
+  "extracted_at": "2026-11-20T09:15:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

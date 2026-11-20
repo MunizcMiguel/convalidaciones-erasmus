@@ -1,0 +1,138 @@
+{
+  "course_name_original": "Mecânica das Estruturas",
+  "course_name_en": "Structural Mechanics",
+  "ects": 6.0,
+  "semester": "1S",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pt"
+  ],
+  "prerequisites": [
+    "Knowledge of Statics (static equilibrium, reactions, stress diagrams)",
+    "Concepts of Elasticity Theory (Stress and Deformation Tensor, Stress-Strain Relations, Strength Criteria)",
+    "Relationship between internal stresses and stresses for simple loads"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze and design isostatic and hyperstatic structures, including beams, frames, articulated systems, and reticulated structures.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze structures using numerical methods based on solid mechanics.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Determine efforts, deformations, and tensions in a structure, thereby validating the proposed structural solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the fundamentals of the Displacement Method.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to construct the stiffness matrix and the stress vector of a structure.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to introduce boundary conditions that simulate connections to the outside of the referred structure and determine the vector of nodal displacements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to calculate the forces acting on critical sections of this structure.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the fundamentals of the Finite Element Method.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to construct, by numerical integration, the stiffness matrix and the demand vector of a finite, isoparametric, triangular and quadrangular element, with linear/quadratic approximation, intended for linear-elastic analysis of structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able, from the nodal displacements, to calculate the displacements, deformations, and stresses at points inside a finite element.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire skills to carry out the analysis and analytical design of structures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know the principles of numerical calculation of structures using the finite element method.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Static Equilibrium in determinate structures; Reaction and internal forces, shear force and bending moment diagrams in beams and frames.",
+    "Analysis of trusses.",
+    "Column Stability. Critical buckling load (Euler Problem).",
+    "Design of steel sections subject to axial compressive loading by using the European Rules Eurocdigo EN1993.",
+    "Energy theorems: Deformation Energy, Virtual Work theorem. Principle of complementary virtual work. Unit load method.",
+    "Force Method. Coefficient of flexibility, canonical equation, symmetry simplification.",
+    "Displacement Method: Theoretical principles, stiffness coefficients and stiffness matrices. Stiffness matrix of a beam in local and global axis.",
+    "Assembly of elementary stiffness matrices; solicitation vector.",
+    "Resolution of global system of equations.",
+    "Finite Element Method: Overview; discrete and continuous problems.",
+    "Linear elastic analysis by using the finite element method (FEM).",
+    "Equilibrium of a 2D domain; decomposition in bar elements, triangular and square; displacement fields, stress fields.",
+    "System of nodal forces, equilibrium of the finite element; equilibrium of the whole domain.",
+    "Interpolation functions and shape functions.",
+    "Deformation matrix (B), elasticity matrix (D), stiffness matrix (K), solicitation vector.",
+    "Parametric transformation: isoparametric elements, numerical integration.",
+    "Introduction to equilibrium of a 3D domain."
+  ],
+  "teaching_methods": [
+    "Face-to-face instruction",
+    "Theoretical presentation of themes and subjects",
+    "Solving and discussing examples",
+    "Theoretical/Practice classes"
+  ],
+  "workload_hours_total": 162.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Examination",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Test",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation is based on two exams of equal weight (50% each): one during the semester covering the first part, and another in January covering the second part. A minimum grade of 6.5 values is required in each assessment. Compulsory attendance to Theoretical/Practice classes is required, with a tolerance of up to 25% of classes taught. Students who have not achieved an average of 10 values, or who have an average of 10 values but failed to achieve the minimum grade of 6.5 in either assessment, or who missed at least one assessment, may take an appeal examination covering all content. Classification improvement is available during the appeal period, which will evaluate 100% of the subject matter. Students with a final classification greater than 17 values can be subjected to an oral exam.",
+  "bibliography": [
+    "Carlos Reis Gomes; Mecnica das Estruturas, 2010",
+    "Carlos Magalhes Oliveira; Introduo ao Mtodo dos Elementos Finitos, 1995/1996, 1996",
+    "Filipe Miguel Horta e Vale Teixeira-Dias; Mtodo dos elementos finitos . ISBN: 978-972-8480-25-7",
+    "Beer, Ferdinand P.; Resistncia dos materiais . ISBN: 85-346-0344-8",
+    "A. Ghaly and A. M. Neville; Structural Analysis , Chapman & Hall",
+    "Antnio Joaquim Mendes Ferreira; Problemas de elementos finitos em MATLAB . ISBN: 978-972-31-1329-7",
+    "Eugenio Onate; Structural analysis with the finite element method . ISBN: 978-1-4020-8732-5"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidade Do Porto",
+  "institution_slug": "ec_p_porto02",
+  "degree": "Licenciatura em Engenharia Mecânica (L.EM)",
+  "course_code": "L.EM022",
+  "academic_year": "2025/26",
+  "source_url": "https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=560366",
+  "source_language": "en",
+  "source_sha256": "85b92198ee0e6e1b7fefb98033bc31526c369e47d7302dc9130c2ca110db85e5",
+  "extracted_at": "2026-11-18T04:10:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

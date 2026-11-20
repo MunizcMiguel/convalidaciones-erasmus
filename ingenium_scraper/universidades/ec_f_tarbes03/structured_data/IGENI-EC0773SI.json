@@ -1,0 +1,92 @@
+{
+  "course_name_original": "Traitement du signal 1",
+  "course_name_en": "Signal Processing 1",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr",
+    "en"
+  ],
+  "prerequisites": [
+    "Electrical circuits: Kirchhoff's voltage law, Kirchhoff's current law, Millman's theorem",
+    "Differential equations",
+    "Fourier series",
+    "Laplace transform and Bode diagram",
+    "Static converters"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to apply various signal processing methods, both offline and online, to enhance the measurement quality within a system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will understand the link between Fourier and Laplace transforms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to calculate the Fourier transform of piecewise constant signals representing the output voltage of switching static converters.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "In an electrical system containing passive dipoles or active quadripoles, determine the system transfer function and compute the Fourier transform of various output quantities.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop and analyze a computer code performing frequency-domain diagnostics and assess its relevance and effectiveness.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Measurements",
+    "Signal processing in the time domain, linear filtering",
+    "Signal processing in the frequency domain, Fourier transform",
+    "Time frequency discovering, wavelet analysis"
+  ],
+  "teaching_methods": [
+    "Lessons",
+    "Exercise",
+    "Problem based learning including reverse engineering approach"
+  ],
+  "workload_hours_total": 19.0,
+  "workload_hours_contact": 19.0,
+  "assessment_methods": [
+    {
+      "method": "DS1 (exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1 (practical work)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1+1*TP1)/2.",
+  "bibliography": [
+    "S. Mallat, \"Une exploration des signaux en ondelettes\", Editions de l'école polytechnique, 2000.",
+    "G. Asch et al., \"Acquisition de données - du capteur à l'ordinateur\", Dunod, 2003.",
+    "F. Cottet, \"Traitement des signaux et acquisition de données\", Dunod, 1999.",
+    "J. Max, J.L. Lacoume, \"Méthodes et techniques de traitement du signal\", Dunod, 2004.",
+    "B. Trajin, \"Analyse et traitement de grandeurs électriques pour la détection et le diagnostic de défauts mécaniques dans les entraînements asynchrones\", Université de Toulouse, 2009.",
+    "C. Gasquet, P. Witomski, \"Analyse de Fourier et applications : filtrage, calcul numérique, ondelettes\", Dunod, 2000.",
+    "P. Flandrin, \"Temps-fréquence\", 2nde Edition, Collection Traitement du signal, Hermes, Paris, 1998."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0773SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S07.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "73b2c1892b900575c1ba783ab5b1099723f08690c771258ac0dd82eab5a6a40b",
+  "extracted_at": "2026-11-18T09:52:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

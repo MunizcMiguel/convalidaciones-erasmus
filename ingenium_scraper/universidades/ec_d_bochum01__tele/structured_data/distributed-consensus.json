@@ -1,0 +1,90 @@
+{
+  "course_name_original": "Distributed Consensus",
+  "course_name_en": "Distributed Consensus",
+  "ects": 5.0,
+  "semester": "Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de",
+    "en"
+  ],
+  "prerequisites": [
+    "Basic understanding of elementary probability theory, algorithms, and complexity.",
+    "Basic understanding of cryptography is also helpful."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the basics of consensus algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Learn the types of models used to model these algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Quantify the correctness, security, and liveness properties of consensus algorithms.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the efficiency metrics used to quantify the performance and robustness of consensus algorithms.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Become familiar with techniques to prove that achieving consensus is impossible under certain conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Gain a comprehensive overview of classical (and some newer) results in the field.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to write a Bachelor's or Master's thesis on this topic and read/understand the latest results from the literature.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Distributed consensus as the fundamental problem of reaching agreement over a point-to-point network.",
+    "Important results in the field of distributed consensus.",
+    "Newer developments driven by the blockchain era.",
+    "Early feasibility/impossibility results.",
+    "High-performance algorithms scalable to billions of users."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise",
+    "Weekly tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To receive credits, the exam must be passed.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "distributed-consensus",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "910693f605bf62ad6181bdc3b351cfdce24a6cb7f908fd4581cbe63ce91bfa7f",
+  "extracted_at": "2026-11-20T12:36:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

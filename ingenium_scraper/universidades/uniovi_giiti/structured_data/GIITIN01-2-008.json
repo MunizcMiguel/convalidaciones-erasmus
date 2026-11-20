@@ -1,0 +1,160 @@
+{
+  "course_name_original": "Sistemas Operativos",
+  "course_name_en": "Operating Systems",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Fundamentos de computadores y redes (FCR)",
+    "Fundamentos de Informática (FIN)",
+    "Introducción a la Programación (INP)",
+    "Metodología de la Programación (MTP)",
+    "Estructuras de datos (ESD)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to design and develop applications, ensuring their reliability, security, and quality, in accordance with ethical principles and current legislation and regulations.",
+      "type": "competence",
+      "code": "ECR1.3"
+    },
+    {
+      "text": "Ability to select and evaluate computer systems, ensuring their reliability, security, and quality, in accordance with ethical principles and current legislation and regulations.",
+      "type": "competence",
+      "code": "ECR1.4"
+    },
+    {
+      "text": "Knowledge of computer systems, services, and applications.",
+      "type": "competence",
+      "code": "ECR5.1"
+    },
+    {
+      "text": "Knowledge, design, and efficient use of the most appropriate data types and structures for problem solving.",
+      "type": "competence",
+      "code": "ECR7"
+    },
+    {
+      "text": "Knowledge of the characteristics, functionalities, and structure of Operating Systems.",
+      "type": "competence",
+      "code": "ECR10.1"
+    },
+    {
+      "text": "Design and implement applications based on Operating System services.",
+      "type": "competence",
+      "code": "ECR10.2"
+    },
+    {
+      "text": "Knowledge and application of the fundamental principles and basic techniques of parallel and concurrent programming.",
+      "type": "competence",
+      "code": "ECR14.1"
+    },
+    {
+      "text": "Understand the different types of operating systems, along with their characteristics and capabilities, that can be used as system software in the design and development of a computer system.",
+      "type": "knowledge",
+      "code": "PF6"
+    },
+    {
+      "text": "Be able to select and evaluate the most appropriate type of operating system to provide a service ensuring the required quality characteristics.",
+      "type": "skill",
+      "code": "PF8"
+    },
+    {
+      "text": "Knowledge of the components and applications that integrate an operating system distribution.",
+      "type": "knowledge",
+      "code": "PF9"
+    },
+    {
+      "text": "Understand how data structures are used in managing the components and functions of an operating system.",
+      "type": "knowledge",
+      "code": "PF13"
+    },
+    {
+      "text": "Know the structure of an operating system.",
+      "type": "knowledge",
+      "code": "PF17"
+    },
+    {
+      "text": "Understand the basic operating mechanisms of the subsystems that integrate an operating system.",
+      "type": "knowledge",
+      "code": "PF18"
+    },
+    {
+      "text": "Design and implement applications based on the services of an operating system.",
+      "type": "skill",
+      "code": "PF19"
+    },
+    {
+      "text": "Understand the use of basic parallel and concurrent programming techniques in the operating mechanisms of operating systems.",
+      "type": "knowledge",
+      "code": "PF20"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Operating Systems",
+    "Process Management",
+    "Process Coordination and Synchronization",
+    "Memory Management",
+    "File Management",
+    "Programming with UNIX Shell",
+    "Programming with system calls in UNIX. Implementation of a command interpreter"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Group tutorials",
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (Theory T1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam (Theory T2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation (PA1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical Exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active participation (PA2)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary assessment, a minimum score of 4.5 out of 10 is required for both the theoretical and practical blocks. The theoretical block grade is (0.5 * T1) + (0.5 * T2). The practical block grade is (0.4 * P1) + (0.1 * PA1) + (0.4 * P2) + (0.1 * PA2), provided attendance requirements are met; otherwise, scores for P1/PA1 or P2/PA2 may be zeroed. The final grade is (0.65 * Theory) + (0.35 * Practical) if minimums are met, otherwise it's the minimum of the calculated score and 4.0. For the extraordinary assessment, a theoretical exam and a practical exam cover all content, with a minimum of 4.5 in each, and the final grade is calculated using the same 0.65/0.35 weighting.",
+  "bibliography": [
+    "Abraham Silberschatz, Peter B. Galvin, Greg Gagne \"FUNDAMENTOS DE SISTEMAS OPERATIVOS\", Ed. McGraw-Hill, 7ª edición, español, ISBN: 8448146417, ISBN\n\n‑13: 9788448146412.",
+    "William Stallings \"SISTEMAS OPERATIVOS: ASPECTOS INTERNOS Y PRINCIPIOS DE DISEÑO\" Ed. PEARSON, 5ª edición, español, ISBN-10: 8420544620, ISBN\n\n‑13: 9788420544625.",
+    "Jesús Carretero, Félix García, Pedro de Miguel y Fernando Pérez \"SISTEMAS OPERATIVOS, UNA VISIÓN APLICADA\" Ed. McGraw-Hill, 2ª edición, español, ISBN-10: 8448156439.",
+    "Jesús Carretero, Félix García y Fernando Pérez \"PROBLEMAS DE SISTEMAS OPERATIVOS: DE LA BASE AL DISEÑO\", Ed. McGraw-Hill, 2ª edición, español, ISBN-10: 8448139917, ISBN-13: 9788448139919."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-2-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-2-008",
+  "source_language": "es",
+  "source_sha256": "52d87dd2a59433b066fbdff12681e727a07ef0858750672a080ef642e3d78665",
+  "extracted_at": "2026-11-20T05:54:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

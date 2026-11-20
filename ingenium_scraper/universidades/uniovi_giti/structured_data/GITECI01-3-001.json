@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Automatización Industrial",
+  "course_name_en": "Industrial Automation",
+  "ects": 9.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Proficiency in complex numbers and their various representations",
+    "Basic knowledge of complex variable functions",
+    "Knowledge of Fourier series expansions",
+    "Knowledge of Fourier and Laplace transforms",
+    "Basic knowledge of matrix calculus",
+    "Basic mathematical models of mechanical, electrical, electromechanical, thermal, and chemical processes",
+    "Previous experience with MATLAB or similar programming languages"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should discern in which cases it is necessary to use process control or automation.",
+      "type": "unspecified",
+      "code": "RAU1"
+    },
+    {
+      "text": "Identify and understand the functions of the various control and automation elements.",
+      "type": "unspecified",
+      "code": "RAU4"
+    },
+    {
+      "text": "Be able to analyze the dynamics of a system using temporal and frequency methods, as well as simulation tools.",
+      "type": "unspecified",
+      "code": "RAU2"
+    },
+    {
+      "text": "Be able to design continuous and discrete regulators.",
+      "type": "unspecified",
+      "code": "RAU3"
+    },
+    {
+      "text": "Configure and program industrial devices such as PLCs and PIDs.",
+      "type": "unspecified",
+      "code": "RAU5"
+    }
+  ],
+  "syllabus_topics": [
+    "Control and automation in industrial engineering. Instrumentation for automation and control: sensors, actuators, and control elements. The computer in process control: Control, Supervision, and Monitoring.",
+    "Representation and classification of Systems, Signals, and Models. Functional and Block Diagrams. Time-invariant linear models. Superposition Principle.",
+    "Representation and simulation of models: transfer function, frequency response, state equations. Relationship between state representation and transfer function.",
+    "Dynamic analysis of systems: temporal and frequency methods. Stability. Static behavior. Dynamic behavior.",
+    "Control objectives and structures: open-loop control and feedback control. Dynamic Analysis of Feedback Systems. Stability. Steady-State Errors. Transient. Control Actions.",
+    "Design of Industrial Regulators. Analytical methods. Empirical methods. State Feedback. Observers.",
+    "Signal Sampling and Regulator Discretization.",
+    "Implementation of PLCs and Digital Regulators. Configuration and Programming. IEC 61131 Standard."
+  ],
+  "teaching_methods": [
+    "Expositive classes (Lectures)",
+    "Classroom/Seminar practicals",
+    "Laboratory practicals",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Automation exam (EA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Simulation work (TS)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (P3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final exam (EF)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, if all minimums in partials are met, the final grade is calculated as: (0.2 × EA) + (0.3 × TS) + (0.2 × P1) + (0.2 × P2) + (0.1 × P3). Otherwise, the final grade is: (0.2 × EA) + (0.3 × TS) + (0.5 × EF). A minimum of 4 out of 10 is required for P1, P2, P3, and EF to be considered. For extraordinary calls, the final grade is calculated as: (0.2 × EA) + (0.3 × TS) + (0.5 × EF); EA and TS grades from the ordinary evaluation are retained. In both cases, if the minimum for EF is not met, the final grade will be the minimum between the calculated score and 4.0.",
+  "bibliography": [
+    "MatLab/Simulink available from the university's computer labs.",
+    "Introducción a la Ingeniería de Control. G.Ojea, A. Diez. Electronic edition accessible from the university's virtual campus.",
+    "Ingeniería de Control Moderna. K.Ogata. Pearson Educación SA. Prentice Hall",
+    "Sistemas de Control Moderno. R.Dorf et al. Prentice Hall",
+    "Feedback Control of Dynamic Systems. G. Franklin. Prentice Hall",
+    "Fundamentos de Control con Matlab. E. Pinto, F. Matía. Prentice Hall"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-3-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-3-001",
+  "source_language": "es",
+  "source_sha256": "15f7e006e928f0dc6d990309a5944aa9131eb3bd6a059a76dd10bd86398bca47",
+  "extracted_at": "2026-11-20T01:12:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,103 @@
+{
+  "course_name_original": "FEM Praktikum mit Ansys",
+  "course_name_en": "FEM Internship with Ansys",
+  "ects": 4.0,
+  "semester": "every semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Technische Mechanik",
+    "Statik und Festigkeitslehre",
+    "Maschinenlehre or Maschinenelemente"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to basically operate the FE program ANSYS Workbench.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to independently create their own simple structural mechanical models to perform structural mechanical simulations, including: Definition of material properties, Geometry creation, Mesh creation, Definition of boundary conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to generate their own structural mechanical simulation results, and to select, present and discuss the relevant results for the respective task.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to work on a project task together in a team (communication, discussion, finding consensus).",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students are able to complete a project task within a given timeframe and acquire and apply knowledge of project planning and management in the engineering field.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students are able to combine their knowledge and connections from various sub-disciplines to solve complex tasks.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students are able to present the result of the independent, scientific processing of the project task using the required standards and technical language.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Use of an FEM program",
+    "Set up FEM workstation",
+    "Program structure",
+    "Preprocessing, model creation, loads and boundary conditions",
+    "Solution (calculation run) and postprocessing (evaluation of stresses and deformations)",
+    "Line, surface and volume models",
+    "Parameterization",
+    "Mesh quality",
+    "Contacts",
+    "Assemblies",
+    "Thermal analyses and combined thermal-mechanical analyses",
+    "Material properties (linear elastic and elastoplastic input)",
+    "Mapped Meshing (important meshing method)",
+    "Remote Points",
+    "Multibody simulation"
+  ],
+  "teaching_methods": [
+    "chalkboard",
+    "slides"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 28.0,
+  "assessment_methods": [
+    {
+      "method": "Exercises and tasks for all program parts",
+      "weight_percentage": null
+    },
+    {
+      "method": "Independent execution of a small strength analysis (project) using Finite Elements",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The course is graded, and the assessment components contribute 100% to the module grade.",
+  "bibliography": [
+    "Skript zur Vorlesung"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "fem-praktikum-mit-ansys",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "2e4f043f81d70626caf9e4a7dda53b1ba1144b631af4a9224cf5d640002c6781",
+  "extracted_at": "2026-11-18T09:49:07",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

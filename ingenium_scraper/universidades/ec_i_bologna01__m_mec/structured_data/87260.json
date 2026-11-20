@@ -1,0 +1,86 @@
+{
+  "course_name_original": "DINAMICA E CONTROLLO DEI SISTEMI ENERGETICI M (87260)",
+  "course_name_en": "DYNAMICS AND CONTROL OF ENERGY SYSTEMS M",
+  "ects": 6.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Describe an energy system using mathematical models.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Study its behavior in terms of stability and response to external stresses.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Define control strategies in order to condition the response to improve its quality and compliance with technical specifications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Mathematical study of control systems.",
+    "Definition of SISO LTI system.",
+    "Laplace transform.",
+    "Inverse Laplace transform.",
+    "Stability analysis for a system.",
+    "Routh stability criterion.",
+    "Frequency response of linear systems: Bode diagrams, Nyquist plot",
+    "Open and closed-loop systems: Definition and evaluation of permanent errors.",
+    "Definition of margin of phase and amplitude.",
+    "Stability of a closed-loop system: Nyquist stability criterion.",
+    "Root Locus.",
+    "Compensation of the disturbances in feedback systems by means of lead and lag Compensators and standard regulators.",
+    "Feedback control design.",
+    "Energy systems",
+    "Modeling with lumped parameters.",
+    "Hydraulic, mechanical and thermal systems and components.",
+    "Application of control theory to power plants (steam turbine, hydraulic turbine, turbogas), cogeneration plants, heat production plants, internal combustion engines"
+  ],
+  "teaching_methods": [
+    "Frontal teaching lessons in the classroom with blackboard",
+    "Examples, exercises and practical applications using openSource software (e.g. Octave, Scilab, python, Hopsan) or commercial (such as Matlab / Simulink, AMESim)"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written test (open-ended questions on theory)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Analytical / numerical solution of exercises to be carried out at home",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final exam is a written test of approximately 3 hours, consisting of two parts: a written test in the classroom on theoretical topics and an analytical/numerical solution of exercises to be completed at home. The exercises are made public on the day of the written test and must be returned within two days. The exam is graded from 0-30, with 18 being the minimum to pass. If part of an integrated course, the final grade is the arithmetic average of marks from constituent courses, rounded to the next whole number; '30 e lode' (30 and honors) is awarded if 30 is obtained in both modules and honor in at least one.",
+  "bibliography": [
+    "Giua A., Seatzu C., \"Analisi dei sistemi dinamici\", Springer-Verlag",
+    "Penati M.E., Bertoni G., Simonini S., “Automazione e Sistemi di Controllo”, Progetto Leonardo-Esculapio",
+    "Marro Giovanni, “Controlli Automatici”, Zanichelli",
+    "AA.VV., “Dinamica e controllo delle macchine a fluido”, Edizioni Pitagora.",
+    "AA.VV., “Servocomandi e regolazione”, Edizioni Pitagora.",
+    "Notes and supplemetary materials on https://virtuale.unibo.it/"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Università Di Bologna - Alma Mater Studiorum — Laurea Magistrale Ingegneria meccanica",
+  "institution_slug": "ec_i_bologna01__m_mec",
+  "degree": "Ingegneria meccanica (Laurea Magistrale, LM-33, Bologna)",
+  "course_code": "87260",
+  "academic_year": "2025/26",
+  "source_url": "https://www.unibo.it/en/study/course-units-transferable-skills-moocs/course-unit-catalogue/course-unit/2026/548697",
+  "source_language": "en",
+  "source_sha256": "48b8ddd70b4769d7eb9317ba952640adecb08b277e88a1a4739a1bd2d57996bf",
+  "extracted_at": "2026-11-20T13:01:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

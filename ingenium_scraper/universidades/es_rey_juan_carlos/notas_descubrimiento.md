@@ -1,0 +1,10 @@
+# es_rey_juan_carlos — notas de descubrimiento
+- Título: Grado en Ingeniería Mecánica (URJC, Móstoles; RUCT 2503544, RD 822/2021). Curso 2026-27.
+- Fuente: aplicación «Guías Docentes» `https://servicios.urjc.es/guiasdocentes/` (gestion3.urjc.es redirige aquí; un POST a gestion3 pierde los datos en la redirección: usar servicios.urjc.es). robots.txt de www.urjc.es: Crawl-delay 10 (afecta a esa web; la aplicación de guías no tiene veto). Listado: `POST getAsignaturasAlumnoAjax.jsp?codPlan={titulacion}&alumno=1&cursoAcademico=2026-27` (XML). Guía: `POST pdfGuia.jsp` con `txtCursoAcademico, txtTitulacion, txtAsignatura` → PDF con texto; hace falta la cookie de sesión (GET previo de la portada). Como PoliteClient cachea por URL, se añade `?a={codigo}` para distinguir los POST.
+- El grado figura como dos titulaciones: **2404** «(1º y 2º curso)» = plan RD 822/2021 en implantación y **2286** «(3º y 4º curso)» = plan anterior. Catálogo = 1.º-2.º de la 2404 (21) + 3.º-4.º de la 2286 (17) = 38. El listado 2286 incluye además asignaturas de 1.º-2.º del plan antiguo (descartadas) y 9 códigos cuya guía da HTTP 500 (no publicadas) que se omiten (no se puede saber su curso).
+- **ECTS NO cuadran con el RUCT** (60/144/12 opt/12 prác/12 TFG): el catálogo suma básica 54, obligatorias 139,5, prácticas 18 (el PDF dice 18), TFG 12; faltan las optativas y las guías 500. Verificar a mano.
+- Plantilla del PDF: I Identificación (tipo, período, créditos, idioma), II Presentación, III Resultados de aprendizaje, IV.A Temario / IV.B Actividades, V Tiempo de trabajo, VI Metodología, VII Evaluación (A, B…E), VIII Recursos y materiales (= bibliografía), IX Profesorado (se descarta). Marca de agua girada y cabecera/pie por página: se filtran. Portada = página 1.
+- Prerrequisitos: sin apartado propio; solo si el texto de la presentación los cita («conocimientos previos…»).
+
+## Fase 2
+`scraper_es_rey_juan_carlos.py`: 38/38 Markdown. Ausentes: Prácticas externas (sin temario ni evaluación) y TFG (sin evaluación). Prerrequisitos casi siempre ausentes.

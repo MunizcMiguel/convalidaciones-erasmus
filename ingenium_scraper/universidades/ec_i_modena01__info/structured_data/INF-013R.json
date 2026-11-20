@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Object Oriented Programming (INF-013R)",
+  "course_name_en": "Object Oriented Programming",
+  "ects": 6.0,
+  "semester": "Second Half-Year Cycle",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "A basic understanding of programming, particularly familiarity with variables, data types, control structures, and functions."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the main constructs of Java and the principles of object-oriented programming.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Read and understand Java code, model a problem, and design, develop, and test a software solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Compare alternative solutions, select appropriate methods and tools, and justify their design decisions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Critically evaluate code and suggestions produced by AI assistants and verify that they are correct and appropriate for the problem.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe how software works and explain their design decisions using appropriate technical terminology.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Consult technical documentation, deepen their understanding of course topics, and independently explore new software development tools.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Java fundamentals: data types, operators, control structures, methods, arrays, strings, and unit testing with JUnit",
+    "Object-oriented programming: classes, encapsulation, inheritance, polymorphism, interfaces, abstract classes, and composition",
+    "Java Collections Framework, generics, exception handling, and resource management",
+    "Functional and concurrent programming: lambda expressions, the Stream API, threads, synchronization, and concurrent task management",
+    "Graphical user interface development with JavaFX",
+    "Accessing PostgreSQL databases through JDBC",
+    "Developing REST services with Spring Boot",
+    "Integrating REST services with JavaFX clients"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "In-class practical exercises",
+    "Laboratory component"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 54.0,
+  "assessment_methods": [
+    {
+      "method": "Paper-based written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Individual take-home project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Assessment consists of a paper-based written exam and an individual take-home project. The written exam consists of ten multiple-choice or short-answer questions, each worth 3 points, for a total of 30 points. The project can raise or lower the written exam score by up to 3 points, depending on whether it is assessed as above or below average. Students are required to use AI assistants to complete the project.",
+  "bibliography": [
+    "Course notes provided by the instructor",
+    "Big Java: Early Objects, 7th edition, by Cay S. Horstmann, published by Wiley"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia — Ingegneria Informatica (MO)",
+  "institution_slug": "ec_i_modena01__info",
+  "degree": "Laurea in Ingegneria Informatica (Mo) (Computer Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "INF-013R",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=29460&ordinamento_aa=2025&af_percorso=10001&corso_cod=10926&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "40bd0803fbd9a31df45a37d18547e1d3379d85d1c2f42f82c23db6a15a48918a",
+  "extracted_at": "2026-11-20T12:42:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

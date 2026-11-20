@@ -1,0 +1,86 @@
+{
+  "course_name_original": "Mikrorechnertechnik",
+  "course_name_en": "Microprocessors and Microcontrollers",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Knowledge of the C/C++ programming language"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students have a broad basic knowledge regarding the fundamental functioning of modern microcomputers and their programming. They are able to use this knowledge for the realization of microcomputer-based systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have in-depth knowledge of the structure and programming of microcomputer systems. They know the specifics of programming microcomputer systems and can independently apply them in practice when programming these systems. They know the essential components of integrated microcomputer systems. Students are able to describe the functionality of the core components, especially interfaces, timers, and interrupt processing, and can use them to solve simple problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students understand the interaction of hardware and software components in modern microcomputer systems. They are able to analyze the requirements for a microcomputer-based system and compare well-founded alternatives based on these analyses to define a suitable implementation using a microcomputer.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students understand the interaction of hardware and software components in modern microcomputer systems. They are able to carry out application-oriented microcontroller-based projects and independently contribute to solving complex tasks in a team.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students understand the structure and functioning of microcomputer systems and are able to explain them.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Structure and functionality of microprocessors and microcontrollers",
+    "Programming of microcontrollers",
+    "Interrupt processing",
+    "Serial interfaces",
+    "Timers",
+    "DMA",
+    "Performance evaluation",
+    "Power loss reduction to support sustainable products",
+    "In-System-Debuggers"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Graded examination: written exam, duration according to the current study regulations. Ungraded examination: experimental work, consisting of approximately 5 experiments, each 90 minutes.",
+  "bibliography": [
+    "Winfried Gehrke, Marco Winzker: \"Digitaltechnik\", Springer-Vieweg, Heidelberg 2023.",
+    "Joseph Yiu: \"The Definitive Guide to the ARM Cortex-M0 and Cortex-M0+ Processors\", Newnes, 2015."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B0297",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "b61caeba153141f66d54902758507da19829fbf1d387e9727b74433576a4a61b",
+  "extracted_at": "2026-11-20T12:32:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

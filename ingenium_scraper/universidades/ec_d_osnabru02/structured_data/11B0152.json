@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Finite Elemente Methoden",
+  "course_name_en": "Finite Element Methods",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Mathematics",
+    "Mechanics (especially Strength of Materials)",
+    "Materials Engineering",
+    "Design Engineering",
+    "CAD"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can present the fundamental theoretical relationships of the Finite Element Method. They can explain the essential aspects of model building. Students can classify the position of FEM in the development process and its contribution to achieving goals in product development.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students gain a deeper understanding of the mechanical fundamentals and can illustrate their application in FEM. They are able to describe how a simple problem can be concretely formulated and calculated. They are able to evaluate the influence of simplifications in model building on calculation results. They can critically evaluate calculation results and derive constructive measures for component improvement.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can assess the informative value of FEM calculation results in relation to the task, considering aspects of good scientific practice and based on their technical knowledge.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can make simple real constructions accessible to a FEM calculation during model building. They can implement the model in an FEM program, execute the calculation, and evaluate the results.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Fundamentals of Elasticity Theory, Energy Methods",
+    "Fundamentals of FEM using the example of a rod",
+    "Surface and Volume Elements",
+    "FEM in Practice",
+    "Computer practical (various application tasks)"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination is a written exam. The duration and scope of the exam are specified in the currently valid study regulations.",
+  "bibliography": [
+    "Bathe, Klaus-Jürgen (2002): Finite-Elemente-Methoden, Springer Verlag, Berlin, Heidelberg",
+    "Klein, Bernd (2015): FEM, Springer Fachmedien Wiesbaden GmbH",
+    "Knothe, Klaus & Heribert Wessels, Heinrich (2017): Finite Elemente, 5. Auflage, Springer Vieweg, Berlin, Heidelberg"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück",
+  "institution_slug": "ec_d_osnabru02",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "11B0152",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BMB/StO2025_Stand2026-03-26_BSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "824e27522ac7079eb15af5c84278815cecfdc3aef7285c53afb013a4b15971d0",
+  "extracted_at": "2026-11-18T09:50:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

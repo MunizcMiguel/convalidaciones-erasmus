@@ -1,0 +1,103 @@
+{
+  "course_name_original": "Simulationsmethoden in der Ingenieurmechanik",
+  "course_name_en": "Simulation Methods in Engineering Mechanics",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Higher Mathematics",
+    "Technical Mechanics",
+    "Materials Science",
+    "Programming",
+    "Fundamentals of Finite Element Method"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students are able to independently conceive, perform, and critically evaluate complex mechanical calculations using FE programs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can specifically apply numerical simulation tools (such as Abaqus and pyLabFEA) for structural analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have developed a fundamental understanding of the underlying theoretical concepts of linear and nonlinear elasticity as well as plasticity and can implement them practically using numerical methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can recognize data-based approaches to material modeling and apply them exemplarily to flow rules.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic principle of the finite element (FE) method using planar bar elements: stiffness matrix, setting up and solving the system of equations, evaluation",
+    "Linear elasticity theory: stress tensor, strain tensor, elasticity law, principle of virtual work",
+    "Finite elements in elasticity theory: development of a mechanical plate element, numerical integration",
+    "Nonlinear elasticity theory: strain measures for large deformations, stress measures",
+    "Application example: instability of bar systems using Finite Element Analysis (FEA)",
+    "Plasticity theory: flow laws (Mises, Tresca, Hill), flow rules, hardening laws",
+    "Flow laws via machine learning (ML): training and application in FEA",
+    "Introduction to python-based (pyLabFEA) and commercial FE programs (Abaqus)",
+    "Programming of bar elements with Python and verification",
+    "Analyze composite material with both commercial and python-based FE program",
+    "Buckling analysis with commercial FE program",
+    "Training ML flow laws using python-based FE program",
+    "Topology optimization with commercial FE program"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory work",
+    "Computer exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Graded written examination (90 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (20 min)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Coursework (Studienarbeit) as examination prerequisite",
+      "weight_percentage": null
+    },
+    {
+      "method": "Presentation (Referat) as examination prerequisite",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination can be a written exam (90 min) or an oral exam (20 min). A coursework (Studienarbeit) or a presentation (Referat) serves as an examination prerequisite. The form of the examination will be determined by the lecturer at the beginning of the course.",
+  "bibliography": [
+    "Technische Mechanik 4, Gross, D. et al., aktuelle Auflage, Springer Verlag.",
+    "Mechanisches Verhalten der Werkstoffe, Rösler, J. et al., aktuelle Auflage, Springer Verlag.",
+    "Applied Mechanics of Solids, Bower, A., aktuelle Auflage, CRC Press.",
+    "A First Course in Finite Elements, Fish, J. und Belytschko, T., aktuelle Auflage, Wiley",
+    "Data-Oriented Constitutive Modeling of Plasticity in Metals, Hartmaier, A., Materials 2020, 13,1600; doi:10.3390/ma13071600.",
+    "pyLabFEA. Python Laboratory for Finite Element Analysis, Hartmaier, A., ICAMS Ruhr Universität Bochum.",
+    "Manuals of the programs used."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Hochschule Karlsruhe - Technik Und Wirtschaft — Maschinenbau (M.Sc.)",
+  "institution_slug": "ec_d_karlsru05__m_mec",
+  "degree": "Maschinenbau (M.Sc.)",
+  "course_code": "MABM120A",
+  "academic_year": "2026-27",
+  "source_url": "https://www.h-ka.de/fileadmin/Hochschule_Karlsruhe_HKA/Bilder_FK-MMT/Dokumente/Modulhandbuecher/Modulhandbuecher_2026/20260401_Modulhandbuch_MABM.pdf",
+  "source_language": "de",
+  "source_sha256": "cb9e00cf0ea99d1b784b6dae6ba5827f97adb5a443eeddba532b7e19a99f4fce",
+  "extracted_at": "2026-11-20T12:35:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

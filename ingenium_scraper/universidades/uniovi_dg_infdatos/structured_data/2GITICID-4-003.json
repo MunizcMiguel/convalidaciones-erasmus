@@ -1,0 +1,163 @@
+{
+  "course_name_original": "Redes de Computadores",
+  "course_name_en": "Computer Networks",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamentos de Computadores y Redes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve problems within their area of study.",
+      "type": "competence",
+      "code": "GTR1"
+    },
+    {
+      "text": "Ability of abstraction: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "competence",
+      "code": "GTR3"
+    },
+    {
+      "text": "Ability to plan and organize personal work.",
+      "type": "competence",
+      "code": "GTR4"
+    },
+    {
+      "text": "Ability to integrate quickly and work efficiently in unidisciplinary teams and to collaborate in a multidisciplinary environment.",
+      "type": "competence",
+      "code": "GTR5"
+    },
+    {
+      "text": "Ability for effective oral and written communication (expression and comprehension), with special emphasis on technical documentation.",
+      "type": "competence",
+      "code": "GTR6"
+    },
+    {
+      "text": "Possess the necessary learning skills to undertake further studies or improve their training with a certain degree of autonomy.",
+      "type": "competence",
+      "code": "GTR7"
+    },
+    {
+      "text": "Knowledge and application of the characteristics, functionalities and structure of Computer Networks.",
+      "type": "competence",
+      "code": "ECR11.2"
+    },
+    {
+      "text": "Knowledge and application of the characteristics, functionalities and structure of the Internet.",
+      "type": "competence",
+      "code": "ECR11.3"
+    },
+    {
+      "text": "Know the transmission media, the basic operation of protocols, and the fundamentals of encoding and routing in computer networks.",
+      "type": "knowledge",
+      "code": "RS2"
+    },
+    {
+      "text": "Know and understand the architecture of the Internet network, its protocols, and the services it supports.",
+      "type": "knowledge",
+      "code": "RS3"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computer networks:",
+    "Overview of computer networks",
+    "Classification of computer networks: topology, scale, transport mechanisms...",
+    "Protocol architectures: the OSI and TCP/IP models",
+    "Physical layer:",
+    "Signals in the frequency domain: spectrum, bandwidth, Fourier analysis...",
+    "Channel capacity: Nyquist and Shannon theorems",
+    "Transmission media: wired and wireless",
+    "Coding and modulation",
+    "Multiplexing",
+    "Data link layer:",
+    "Frame delimitation",
+    "Flow control, error control, and ARQ techniques",
+    "Local area networks",
+    "Medium access control",
+    "IEEE 802 reference model: Ethernet and WiFi",
+    "Network layer:",
+    "The IP protocol",
+    "Datagram and virtual circuit networks",
+    "Routing algorithms",
+    "Congestion control",
+    "Quality of service",
+    "Transport layer:",
+    "Characteristics of transport protocols",
+    "The UDP protocol",
+    "The TCP protocol",
+    "Application layer:",
+    "Application layer protocols: HTTP, SMTP, DNS...",
+    "Client/server model",
+    "Centralized architecture",
+    "Distributed architecture"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous evaluation of laboratory practices (Task 1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous evaluation of laboratory practices (Evaluation test)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work/tasks (delivery 1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Work/tasks (delivery 2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theory evaluation (written exam)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Continuous evaluation of practices (NP)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Work/tasks (NT)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as NF = NE*0.5 + NP*0.3 + NT*0.2. To pass, the student must obtain a grade of 5 or higher in NP. Additionally, the student must obtain a grade of 5 or higher in NE, or a grade of 4 or higher in NE and a grade of 5 or higher in NT. If these requirements are not met, the maximum final grade will be 4.5. For the extraordinary examination, the final grade (NF_ext) is calculated as NF_ext = NEext*0.7 + NPext*0.3, with a minimum grade of 5 in both NEext and NPext required to pass, otherwise the maximum grade is 4.5. The NP and NE/NT grades from the ordinary examination may be carried over to the extraordinary examination under specific conditions.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, 7ª Ed., William Stallings, Prentice Hall.",
+    "Redes de ordenadores, 4ª Ed., Andrew S. Tanenbaum, Prentice Hall.",
+    "Redes de computadoras, un enfoque descendente, James F. Kurose, Addison Wesley",
+    "Redes de comunicación. Conceptos fundamentales y arquitecturas básicas, Alberto León-García, McGraw-Hill."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-4-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-003",
+  "source_language": "es",
+  "source_sha256": "7791dac5ec8f22a0d86ae148674b1de0c2485f3abefa33ab4fe920360f7ef105",
+  "extracted_at": "2026-11-20T05:57:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

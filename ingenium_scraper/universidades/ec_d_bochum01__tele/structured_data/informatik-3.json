@@ -1,0 +1,70 @@
+{
+  "course_name_original": "Informatik 3",
+  "course_name_en": "Computer Science 3",
+  "ects": 8.0,
+  "semester": "Wintersemester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students master the professional handling of computational models and their relationships to language classes. This includes the intellectual and methodical ability to prove membership or non-membership in such a class.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Through practicing proof techniques such as mutual simulation or computable reductions, students will understand that concepts that appear different on the surface can be identical at their core. In addition, this allows students to independently classify new application problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have learned the Turing machine as an easy-to-use computer model, which will henceforth serve as an abstraction for all possible computers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have gained fundamental insights into which problems can be efficiently decided, partially decided, or, in principle, not decided using computers. This will lead to a deeper understanding of the complexity of computational problems.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Finite automata and regular expressions",
+    "Pushdown automata and context-free grammars",
+    "Turing machines and decidability",
+    "Nondeterminism and NP-completeness theory"
+  ],
+  "teaching_methods": [
+    "Lecture with media support",
+    "Exercises",
+    "Computer exercises"
+  ],
+  "workload_hours_total": 240.0,
+  "workload_hours_contact": 90.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (180 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded for a successfully passed written exam.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "informatik-3",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "d6a4eabdf958efcaa3719eb1a549909398aff8c5f6124991056c6383d7a56301",
+  "extracted_at": "2026-11-20T12:36:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

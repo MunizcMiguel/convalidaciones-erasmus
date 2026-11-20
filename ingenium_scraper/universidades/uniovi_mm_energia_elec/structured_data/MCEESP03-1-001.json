@@ -1,0 +1,223 @@
+{
+  "course_name_original": "Electrónica Industrial en Sistemas de Generación de Energías Renovables",
+  "course_name_en": "Industrial Electronics in Renewable Energy Generation Systems",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic skills and competences in power electronics",
+    "Power plants",
+    "Electric machines",
+    "Control systems and automation",
+    "Related subjects of the first semester (if basic skills and competences are not covered in student profile/CV)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Integration of knowledge, facing the complexity of issuing judgments and sentences parting from some information that includes ethic and social liability constraints.",
+      "type": "competence",
+      "code": "CB8"
+    },
+    {
+      "text": "Ability of communicating justified decisions and conclusions, to specialized and unspecialized listeners.",
+      "type": "competence",
+      "code": "CB9"
+    },
+    {
+      "text": "Ability of autonomous learning.",
+      "type": "competence",
+      "code": "CB10"
+    },
+    {
+      "text": "Knowledge of the principal mathematic tools used in the analysis, modelling and simulation of power systems.",
+      "type": "knowledge",
+      "code": "CG3"
+    },
+    {
+      "text": "Use of computers and digital processors in the analysis, design, simulation, monitoring, control and supervision of power systems.",
+      "type": "skill",
+      "code": "CG4"
+    },
+    {
+      "text": "Skills related to teamwork, recognizing different roles within a group and different ways of organizing research teams.",
+      "type": "skill",
+      "code": "CG9"
+    },
+    {
+      "text": "Ability to manage information: search, analysis and synthesis of the specific technical information.",
+      "type": "skill",
+      "code": "CG10"
+    },
+    {
+      "text": "Ability to assimilate and communicate information in English concerning technical",
+      "type": "skill",
+      "code": "CG11"
+    },
+    {
+      "text": "Ability to plan and organize work",
+      "type": "skill",
+      "code": "CG12"
+    },
+    {
+      "text": "Skills for critical reasoning, making decisions and making judgments based on information that include reflecting on social and ethical responsibilities of professional activity",
+      "type": "skill",
+      "code": "CG13"
+    },
+    {
+      "text": "Concern for quality and achievement motivation",
+      "type": "unspecified",
+      "code": "CG14"
+    },
+    {
+      "text": "Understanding of the importance and the area of utilization of electrical power systems for generation, transmission and distribution of electrical energy",
+      "type": "knowledge",
+      "code": "CE1"
+    },
+    {
+      "text": "Characterization, operation and design of electronic topologies and control methods for electric energy conversion",
+      "type": "skill",
+      "code": "CE5"
+    },
+    {
+      "text": "Acquire the basic knowledge of power electronics to analyse and design electrical power systems",
+      "type": "knowledge",
+      "code": "CE8"
+    },
+    {
+      "text": "Technical-economical-environmental regulations and directives in different scopes (local, regional, national, European, etc.), which are applied to power systems",
+      "type": "knowledge",
+      "code": "C17"
+    },
+    {
+      "text": "Knowledge and analysis of the energetic structures and technologies necessary, considering multiple aspects as the requirements, expected technical evolution, efficiency, security, sustainable development concerns, environmental and service guaranteeing issues",
+      "type": "knowledge",
+      "code": "C19"
+    },
+    {
+      "text": "Understanding and ability to apply the main particularities and specific techniques of electronic circuits used in power generation systems renewable energy.",
+      "type": "skill",
+      "code": "RA63"
+    },
+    {
+      "text": "Analysis and design of complex power electronics systems, integrating knowledge of different subjects previously viewed.",
+      "type": "skill",
+      "code": "RA64"
+    },
+    {
+      "text": "Comparison and justified selection of devices and power electronic circuits appropriate for a type of generator of renewable energy source (solar, wind, marine, thermal, etc.).",
+      "type": "skill",
+      "code": "RA65"
+    },
+    {
+      "text": "To know where are the margins for the optimization of power generation system, looking for increased performance (efficiency, reduce losses, versatile control, etc.).",
+      "type": "knowledge",
+      "code": "RA66"
+    },
+    {
+      "text": "To know and select the communication and telemetry system best suited for a particular energy-generating structure.",
+      "type": "skill",
+      "code": "RA67"
+    },
+    {
+      "text": "Practical implementation of control circuits used in power generation systems for renewable energy sources.",
+      "type": "skill",
+      "code": "RA68"
+    }
+  ],
+  "syllabus_topics": [
+    "Specific technologies (Bidirectional converters; association of converters; back-to-back converter; matrix converter; interleaving converters; transformerless converters; modeling of converters; small signal dynamic analysis; ...)",
+    "Power electronic circuits for PV generation (input and output characteristics of converters; power topologies; semiconductor technologies; MPPT; drawbacks, solutions and expectations)",
+    "Power electronic circuits for Wind generation (input and output characteristics of converters; power topologies; semiconductor technologies; MPPT; modular topologies; drawbacks, solutions and expectations)",
+    "1.-Introduction to power electronics in renewable energy systems",
+    "1.1.-Review of renewable energy sources",
+    "1.1.1.- PV System Basics",
+    "1.1.2.- Wind System Basics (Characteristics, technologies, drawbacks and advantages, maximum power point operation)",
+    "1.1.3.- Other Renewable systems",
+    "2. Basic power schemes (DC-DC, DC-AC, AC-DC, AC-AC), Case of Study Wind Systems.",
+    "2.1. Diode Bridge + Boost Converter + 3-Phase PWM inverter",
+    "2.2. Dynamic Modeling of Converters",
+    "2.3. 3-Phase rectifier + 3-Phase inverter",
+    "2.4. 3-Phase Back to Back Converter",
+    "3. Advanced power schemes, Case of Study Wind Systems",
+    "3.1. Matrix Converters",
+    "3.2. Bidirectional Converters",
+    "3.3. Multilevel converters",
+    "4. Specific topologies for PV Power Systems",
+    "4.1. Interleaved Converters",
+    "4.2. Transformerless converters",
+    "4.3. The Solid State Transformer",
+    "4.4. Regulations for PV systems",
+    "5. Specific Electro Magnetic Compatibility (EMC) Technologies for Renewable Generarion Systems",
+    "5.1. EMC Standards and Regulations",
+    "5.2. EMC Tests and facility requirements",
+    "5.3. Practical issues for PCB Design considering EMC"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Resolution of exercises and problems",
+    "Problem based learning",
+    "Project oriented learning",
+    "Class practice",
+    "Seminars",
+    "Laboratory practice",
+    "Group tutoring"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Written tests (objective tests, short answer tests and / or test development)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Oral tests (individual, group, presentation of topics/projects, etc.)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Works or projects",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Observation Techniques (logs, checklists, etc.)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Real / Simulated Task Performance Tests",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "The final qualification is calculated from: 40% from works/projects (mandatory), 10% from simulated task performance tests (mandatory), 25% from a comprehensive individual written test at the end of the semester (mandatory, minimum score of 4/10 required), 15% from oral tests, and 10% from attendance to presential hours (minimum 80% required). For part-time students, the 'Observation techniques' mark is not applied, and the total grade is calculated proportionally to the remaining percentages. Oral tests for part-time students will be scheduled on an agreed date, with online presentation available, and other tests may be moved if non-attendance is justified.",
+  "bibliography": [
+    "Mohan, Undeland Robbins, \"Power Electronics. Converters, Applications and Design\", Ed. John Wiley & Sons, Inc., 1989, USA",
+    "Ali Keyhani, Mohammad N. Marwali, Min Dai, \"Integration of Green and Renewable Energy in Electric Power Systems\", WILEY 2010",
+    "Manfred Stiebler, \"Wind Energy Systems for Electric Power Generation\", Springer Series in Green Energy and Technology 2008",
+    "Surin Khomfoi and Leon M. Tolbert, \"Chapter 31 Multilevel Power Converters\", The University of Tennessee",
+    "Edited by Ali Emadi, \"Handbook of Automotive Power Electronics and Motor Drives\", Illinois Institute of Technology and ABB, Chicago, Illinois, U.S.A., 2005 by Taylor & Francis Group, LLC",
+    "José Luis Sebastián, \"Fundamentos de Compatibilidad Electromagnética\", Addison-Wesley",
+    "John C. Fluke, \"Controlling Conducted Emissions by design\", Van Nostrand Reinhold",
+    "Josep Balcells, Francesc Daura, Rafael Esperanza, Ramón Pallás, \"Interferencias Electromagnéticas en Sistemas Electrónicos\", Marcombo",
+    "J. Arrillaga, L. I. Eguíluz, \"Armónicos en Sistemas de Potencia.\", Universidad de Cantabria-Electra de Viesgo.",
+    "Blaabjerg, F. Iov, F.; Teodorescu, R.; Chen, Z.; , \"Power Electronics in Renewable Energy Systems,\" Power Electronics and Motion Control Conference, 2006. EPE-PEMC 2006. 12th International , vol., no., pp.1-17, Aug. 30 2006-Sept. 1 2006 doi: 10.1109/EPEPEMC.2006.4778368",
+    "Carrasco, J.M.; Franquelo, L.G.; Bialasiewicz, J.T.; Galvan, E.; Guisado, R.C.P.; Prats, Ma.A.M.; Leon, J.I.; Moreno-Alfonso, N.; , \"Power-Electronic Systems for the Grid Integration of Renewable Energy Sources: A Survey,\" Industrial Electronics, IEEE Transactions on , vol.53, no.4, pp.1002-1016, June 2006. doi: 10.1109/TIE.2006.878356",
+    "Wheeler, P.W.; Rodriguez, J.; Clare, J.C.; Empringham, L.; Weinstein, A.; , \"Matrix converters: a technology review,\" Industrial Electronics, IEEE Transactions on , vol.49, no.2, pp.276-288, Apr 2002. doi: 10.1109/41.993260",
+    "Jih-Sheng Lai; Fang Zheng Peng; , \"Multilevel converters-a new breed of power converters,\" Industry Applications, IEEE Transactions on , vol.32, no.3, pp.509-517, May/Jun 1996 doi: 10.1109/28.502161",
+    "Alpha Ventus Project (http://www.alpha-ventus.de/)",
+    "RAVE Project (http://rave.iset.uni-kassel.de/rave/pages/welcome)",
+    "Ocean Current monitoring system (www.horizonmarine.com)",
+    "Hydrodynamic Laboratories (www.marintek.sintef.no/)"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (EPI Gijón)",
+  "institution_slug": "uniovi_mm_energia_elec",
+  "degree": "Máster Universitario en Conversión de Energía Eléctrica y Sistemas de Potencia (Opción Pathway Ingenium)",
+  "course_code": "MCEESP03-1-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/conversionenergia/-/fof/asignatura/MCEESP03-1-001",
+  "source_language": "es",
+  "source_sha256": "09891bec98ed46507362c47ee8e6bf4745b5950ed6baf4a93211d581fc3d25a1",
+  "extracted_at": "2026-11-20T05:59:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

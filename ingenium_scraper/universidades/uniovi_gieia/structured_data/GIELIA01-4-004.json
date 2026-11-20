@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Supervisión y Control de Procesos",
+  "course_name_en": "Supervision and Process Control",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Sistemas de Control (Control Systems) or an equivalent course, covering classic control techniques, controller design using root locus, frequency domain design, and an introduction to state-space control.",
+    "English at a reading level.",
+    "Knowledge of Matlab/Simulink, especially the control toolbox.",
+    "Familiarity with Python, including libraries like numpy, matplotlib, pandas, and scikit-learn."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Interpret process state information from common graphical representations in industrial supervision systems.",
+      "type": "unspecified",
+      "code": "RSC-1"
+    },
+    {
+      "text": "Implement a supervision system in a SCADA system for monitoring an industrial process, with the ability to detect and diagnose simple faults.",
+      "type": "unspecified",
+      "code": "RSC-2"
+    },
+    {
+      "text": "Determine a dynamic process model suitable for control system design using empirical procedures.",
+      "type": "unspecified",
+      "code": "RSC-3"
+    },
+    {
+      "text": "Tune the parameters of the most important industrial PID controller formulations, using theoretical and empirical methods.",
+      "type": "unspecified",
+      "code": "RSC-4"
+    },
+    {
+      "text": "Design and implement industrial process control systems with specific characteristics such as dead times, typical nonlinearities, and coupled variables, among others.",
+      "type": "unspecified",
+      "code": "RSC-5"
+    }
+  ],
+  "syllabus_topics": [
+    "Control in State Space",
+    "Considerations for pole selection in assignment methods.",
+    "Optimal control. Symmetric root locus (SRL). LQR design.",
+    "Integral control in state space.",
+    "Industrial process control techniques",
+    "PID architectures used in industry.",
+    "Empirical tuning methods (Ziegler-Nichols, Coon-Cohen).",
+    "Control of processes with dead times (Smith Predictor).",
+    "Anti-windup methods",
+    "Principles of system supervision",
+    "Introduction, terminology, and basic techniques.",
+    "Supervision technologies (SCADA systems)",
+    "Principles of fault detection and identification. Analytical redundancy.",
+    "Feature extraction techniques",
+    "Statistical descriptors (aggregated values).",
+    "Principles of digital signal processing.",
+    "Frequency band analysis using FFT",
+    "Decision techniques",
+    "PCA techniques. PCA decomposition and calculation of projections. Contribution graphs, scores, etc.",
+    "Fundamentals of classification",
+    "Practical part: simulation exercises covering practical examples of state-space and PID control system design, as well as examples of feature extraction and classification for supervision."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices",
+    "Group tutorials",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (written test: problems, theoretical questions, multiple-choice, short answer, numerical exercises)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practical exercises and/or presentation of work in the laboratory",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Active participation (attendance, initiative, answering questions, active work on exercises)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum score of 4 out of 10 is required for the theory block. If this minimum is met, the final grade is calculated as 0.7 * Theory + 0.2 * Practices + 0.1 * Active Participation. If the minimum theory score is not met, the final grade will be the minimum of the calculated formula and 4.0. Formal aspects such as legibility and grammar are considered, and students may be asked to defend their work in case of doubts about authorship or unauthorized means. For extraordinary calls, the grading system is the same, but only the theoretical exam is conducted (70%), with the practice and participation scores (30%) carried over from the teaching period. For differentiated evaluation, students will take the theoretical exam (T) and a practical exam (P), with the same grading system and considerations, and an Active Participation (A) score of 0.",
+  "bibliography": [
+    "K.J. Astrom and T. Hagglund, \"PID Controllers: Theory, Design and Tuning\". Instrument Society of America, 1995.",
+    "Karl J. Aström and Richard M. Murray, \"Feedback Systems: An Introduction for Scientists and Engineers\". Princeton University Press. March, 2010",
+    "G. F. Franklin, J. D. Powell, and A. Emami-Naeini, \"Feedback Control of Dynamic Systems\". Pearson Prentice Hall, 2006",
+    "Karl J. Aström, \"Control System Design. Lecture notes for ME 155A\". Department of Mechanical and Environmental Engineering. University of California Santa Barbara., 2003",
+    "Joan Colomer, Joaquim Meléndez, and Jordi Ayza, \"Sistemas de Supervisión\". Cuadernos CEA-IFAC, 2000",
+    "Graham C. Goodwin, Stefan F. Graebe, and Mario E. Salgado, \"Control System Design\". Prentice Hall, 2001",
+    "Smith, S. W. The Scientist and Engineer's Guide to Digital Signal Processing, California Technical Publishing, 1997. ISBN: 0-9660176-3-3 (1997). Accesible vía web en http://www.dspguide.com"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Electrónica Industrial y Automática (EPI Gijón)",
+  "institution_slug": "uniovi_gieia",
+  "degree": "Grado en Ingeniería Electrónica Industrial y Automática",
+  "course_code": "GIELIA01-4-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electronicaindustrial/-/fof/asignatura/GIELIA01-4-004",
+  "source_language": "es",
+  "source_sha256": "8f18f07a31ccd9e5195800f177668c4ece10ae403027d4f8e9c0aa6dffcb1db1",
+  "extracted_at": "2026-11-20T01:13:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

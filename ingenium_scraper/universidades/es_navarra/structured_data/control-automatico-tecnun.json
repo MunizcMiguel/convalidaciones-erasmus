@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Control Automático (Tecnun)",
+  "course_name_en": "Automatic Control (Tecnun)",
+  "ects": 4.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Fundamentals of Electricity, Electronics and Automation"
+  ],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Introduction to Automation",
+    "Historical introduction",
+    "Signal measurement",
+    "Definitions",
+    "Elements of a controlled system",
+    "Examples",
+    "Signal Modeling",
+    "Causal signals",
+    "Signals in the Laplace domain",
+    "Basic input signals",
+    "System Modeling",
+    "Response with zero initial conditions",
+    "Definition of transfer function",
+    "Poles and zeros of a system",
+    "Block Diagrams",
+    "Internal signals",
+    "Block diagrams and simplification rules",
+    "Exercises",
+    "First-Order Systems",
+    "Second-Order Systems",
+    "Third-Order and Higher Systems",
+    "Systems with Zeros",
+    "Integrator and Differentiator Systems",
+    "System Simulation using Matlab",
+    "Controlled Systems",
+    "Design specifications",
+    "Open-loop control",
+    "Closed-loop control",
+    "Influence of plant model uncertainty and external disturbances",
+    "Steady-State Error",
+    "Stability",
+    "Definition of stability",
+    "Stability analysis methods",
+    "Routh-Hurwitz criterion",
+    "PID Controllers",
+    "General expression",
+    "Proportional, Derivative, and Integral actuation",
+    "PI, PD, and PID Controllers",
+    "Experimental tuning of PID parameters using the Ziegler-Nichols method",
+    "Root Locus Method",
+    "Frequency Response",
+    "Graphical representation of frequency response: The Bode plot",
+    "Gain margin and phase margin",
+    "Controller tuning using the Bode plot",
+    "SYSTEM MODELING, SIMULATION, AND CONTROL USING MATLAB / SIMULINK"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Individual or group work",
+    "Resolution of practical cases in the laboratory",
+    "Student study based on different sources of information",
+    "Completion of evaluated tests",
+    "Explanation of theoretical content",
+    "Resolution of practical exercises",
+    "Explanation of the use of useful computer tools (Matlab / Simulink)"
+  ],
+  "workload_hours_total": 112.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Practical cases",
+      "weight_percentage": null
+    },
+    {
+      "method": "Ordinary final exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Extraordinary final exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade will be the better of two options: a weighted average of practical cases (10%) and the ordinary final exam (90%), or the ordinary final exam alone (100%). This same rule applies to the extraordinary call, substituting the ordinary exam with the extraordinary exam. Any attempt at fraud, copying, or plagiarism is considered a serious infraction. Students with special educational needs should contact the Tecnun Study Coordination in advance for authorized adaptations.",
+  "bibliography": [
+    "JORGE JUAN GIL, \"Control Automático\", 2ª edición, EUNSA, 2026. ISBN 978-84-313-4152-7.",
+    "KATSUHIKO OGATA, \"Ingeniería de Control Moderna\", 4ª edición, Pearson Prentice-Hall, 2003. ISBN 84-205-3678-4.",
+    "RICHARD CARL DORF y ROBERT H. BISHOP, \"Sistemas de Control Moderno\", 10ª edición, Pearson Prentice-Hall, 2005. ISBN 84-205-4401-9.",
+    "PAOLO BOLZERN, RICCARDO SCATTOLINI y NICHOLA SCHIAVONI, \"Fundamentos de Control Automático\", 3ª edición, McGraw-Hill, 2009. ISBN 978-84-481-6640-3.",
+    "BENJAMIN C. KUO, \"Automatic Control Systems\", 7ª edición, Prentice-Hall, 1995. ISBN 0-13-312174-7.",
+    "JOHN J. D'AZZO y CONSTANTINE H. HOUPIS, \"Linear Control System Analysis and Design\", 4ª edición, McGraw-Hill, 1995. ISBN 0-07-016321-9.",
+    "GENE F. FRANKLIN, J. DAVID POWELL y ABBAS EMAMI-NAEMI, \"Control de sistemas dinámicos con retroalimentación\", 1ª edición, Addison-Wesley, 1991. ISBN 0-201-64421-5."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes"
+  ],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "control-automatico-tecnun",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/control-automatico-tecnun/",
+  "source_language": "es",
+  "source_sha256": "871e5db463da8d97ac85fa3f57205d562a73cb9edc30c36b8297823cb4fe42ba",
+  "extracted_at": "2026-11-18T02:50:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,113 @@
+{
+  "course_name_original": "Ingeniería gráfica",
+  "course_name_en": "Engineering Graphics",
+  "ects": 6.0,
+  "semester": "2nd semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "gl",
+    "en"
+  ],
+  "prerequisites": [
+    "Graphic Expression/V12G380V01101",
+    "Fundamentals of Manufacturing Systems and Technologies/V12G380V01305"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and have well-founded criteria for the selection and application of standardized components.",
+      "type": "knowledge",
+      "code": "B1, C19, D2"
+    },
+    {
+      "text": "Know CAD technologies for geometric modeling and the generation of drawings from it.",
+      "type": "knowledge",
+      "code": "C19, D6"
+    },
+    {
+      "text": "Ability to analyze the functioning of mechanisms based on drawing specifications.",
+      "type": "skill",
+      "code": "B1, C19, D16"
+    },
+    {
+      "text": "Know how to apply geometry in solving problems of industrial constructions and installations.",
+      "type": "skill",
+      "code": "C19, D2, D9, D14"
+    },
+    {
+      "text": "Acquire skills to create and manage graphic information related to mechanical engineering problems.",
+      "type": "skill",
+      "code": "C19, D10, D14, D16, D17"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to engineering graphics: Types of graphics in engineering. Fields of application. Graphics for design, visualization, and communication. The graphic language. Graphic systems. Types and structure of graphic files. Information management. Hierarchies. Layers. Models. Geometric model. Information associativity.",
+    "Representation of standardized mechanical parts and components: Standardization of values. Standardized designations. Representation, dimensioning, and standardized designations: threaded elements, springs, bearings and their accessories, keys. Graphic information on drawings of curved gear wheels for tooth profiles. Other forms of motion transmission: pulleys, chains, and couplings. Symbolic representation of standardized mechanisms and components. Materials. Standardized designations. Criteria for selection and use of standardized components.",
+    "Variability management; functional impact of tolerances. Tolerance analysis and synthesis: Variability associated with Mechanical Engineering problems. Macro and micro geometric variability. Dimensional tolerances and fits. Specification. Geometric tolerances. Specification. References and reference systems. Surface roughness tolerances. Specification. Statistical tolerances. Tolerance cost functions. Tolerance analysis and tolerance synthesis. Combination of tolerances; impact of tolerance accumulation on the functioning and assembly of mechanisms.",
+    "Conception and representation of elementary mechanical forms. Dimensioning oriented to function, manufacturing, and product control: Constructive forms for part design: machined, molded, forged, formed, and deep-drawn. Elementary mechanical functions. Analysis of operating conditions in mechanisms. Functional dimensioning. Dimension chains. Dimensioning oriented to the manufacturing process. Dimensioning oriented to conformity control.",
+    "Geometric Product Specification (GPS): Concept of geometric specification according to ISO. Technical report and standard. Standard Chains. Links and characteristics. Fundamental GPS Standards. Matrices of General GPS Standards. Matrices of Complementary GPS Standards. Specification operations. Interpretation of geometric specifications based on the operations to construct them.",
+    "Fundamentals of computer graphics: Basic geometric transformations. Line graphics: basic algorithms, digital differential and Bresenham or midpoint. Approximating and interpolating polynomial curves: types and applications. Geometric modeling. Information structure in 2D and 3D CAD files. Entities and solid/surface/wireframe/point models. Graphic libraries. CAD systems for product-oriented mechanical design.",
+    "Representation of industrial constructions and installations: Symbolic representation of structures. Detail drawings for metal structures. Representation and dimensioning of welded joints. Drawings for boiler making. Symbols and diagrams for oleo-hydraulic and pneumatic circuits. Symbols and diagrams for fluid conduits.",
+    "Diagrams, Nomograms, and empirical equations: Graphic constructions used in engineering. Scales for graphic constructions. Diagrams and Nomograms. Volumetric graphics. Graphical representation of empirical equations. Data analysis functions.",
+    "CAD/CAE/CAM Systems. Systems for acquiring data from real geometries. Rapid prototyping: CAx systems. CAD/CAM tools. CAE tools in the context of design engineering. Virtual reality: characteristics and devices. Applications in the field of engineering. Digitization of forms. Reverse engineering projects. Rapid prototyping systems. Formats for information exchange.",
+    "Introduction to industrial design: Design. Types. Industrial design: product, communication, and corporate image. Design methodologies. Stages of the design process. Creativity in the design process. Evaluation of design alternatives. DfX.",
+    "Directed practical exercises of progressive application: Individual, progressively applying theoretical contents. Includes representation of parts, views, sections, dimensioning, threads, fits, geometric tolerances, surface finishes, and dimension chains. Formative, self-corrected, not directly graded, but supports the integrated mechanical project.",
+    "Integrated project for definition and representation of a mechanical assembly: Group project throughout the course, defining a complete mechanical assembly. Includes study, sketching, part identification, bill of materials, detail drawings, functional analysis, and tolerance assignment. 3D modeling and assembly using CAD software. Final assembly and detail drawings with dimensions, tolerances, and indications. Evaluated. Intermediate review possible.",
+    "Individual synthesis practice on mechanical assemblies: Individual in-class practice to check assimilation of first part content. Graphical resolution of a mechanical assembly, including assembly drawing sketch, part identification, bill of materials, necessary detail drawings, and fit proposals. Evaluated.",
+    "Practices for representation of metallic structures and welded joints: Individual practices on standardized representation of metallic structures, structural nodes, and welded joints. Includes views, sections, constructive details, dimensions, welding indications, and consultation of tables of structural profiles and standardized elements. Evaluated."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Problem solving",
+    "Project-based learning",
+    "Seminar"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 62.0,
+  "assessment_methods": [
+    {
+      "method": "Exams related to lectures (minimum one mid-term, final exam with two parts)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical activities (integrated mechanical project, individual synthesis practice, metallic structures and welded joints practices)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Objective questions exams (MOOVI platform)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "To average the grades, a minimum score of 5 out of 10 is required in each part and sub-part of the evaluated activities. In continuous assessment, students pass with a total of five points, provided minimums in all parts are met, and unpassed parts can be recovered. Students who have passed can re-take the final exam to improve their grade. Students who do not pass in the first call must take a final exam covering all theoretical and practical content. Unethical behavior (copying, plagiarism, unauthorized electronic devices) will result in a global failing grade (0.0) for the academic year.",
+  "bibliography": [
+    "AENOR, Normas UNE/EN/ISO diversas actualizadas",
+    "Cordero, J.M.; Cortés, P., Curvas y Superficies para Modelado Geométrico, 1ª, Ra-Ma, 2002",
+    "Félez, J.; Martínez, M.L., Ingeniería Gráfica y Diseño, 1ª, Síntesis Ingeniería, 2008",
+    "Foley, J. D.; Van Dam, A.; Feiner, S. K.; Hughes, J. F.; Philips, R. L., Introducción a la Graficación por Computadora, 1ª, Addison-Wesley Ib., 1996",
+    "Gómez González, S., El Gran Libro de SolidWorks, 3ª, Ed. Marcombo, 2019",
+    "Aguayo, F.; Soltero, V., Metodología del Diseño Industrial. Un Enfoque desde la Ingeniería Concurrente., 1ª, Ra-Ma, 2003",
+    "Company, P.; Vergara, M.; Mondragón, S., Dibujo Industrial, 1ª, Publicacions de la Universitat Jaume I, 2007",
+    "Farin, G., Curves and Surfaces for Computer-Aided Geometric Design: A Practical Guide, 3rd, Academic Press, 2014",
+    "Fischer, B. R., Mechanical Tolerance Stackup and Analysis, 2nd, CRC Press, 2011",
+    "García, M.; Alcaide, J.; Gómez, T.; Collado-Ruiz, D., Fundamentos del diseño en la ingeniería, 1ª, UPV, 2009",
+    "Giesecke F.E.; et al., Technical Drawing with Engineering Graphics, 1st, Prentice Hall (Pearson Education, 2012",
+    "Hearn, D.; Baker, P., Gráficos por computadora, 1ª, Prentice Hall Hispanoamericana, 1995",
+    "Jensen, C.; Helsel, J. D.; Short, D. R., Dibujo y diseño en Ingeniería, 6ª, Mc Graw-Hill, 2004",
+    "Montaño La Cruz, F., Autocad 2023, 1ª, Inforbook's, 2023",
+    "Ulrich, K. T., Eppinger, S.D., Diseño y Desarrollo de Productos, 5ª, McGraw-Hill, 2013"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad de Vigo",
+  "institution_slug": "es_vigo",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "V12G380V01602",
+  "academic_year": "2026-27",
+  "source_url": "https://secretaria.uvigo.gal/docnet-nuevo/guia_docent/?centre=312&ensenyament=V12G380V01&assignatura=V12G380V01602&idioma=cast&any_academic=2026_27&idioma_assig=cast",
+  "source_language": "es",
+  "source_sha256": "02a18aa37db719aac59dc6ca55cbb2c27d261788f69f6c262cdfcfa55014d69a",
+  "extracted_at": "2026-11-18T02:55:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

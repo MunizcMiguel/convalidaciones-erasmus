@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Embedded Systems für Maschinenbau",
+  "course_name_en": "Embedded Systems for Mechanical Engineering",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Successful completion of Electrical Engineering and Computer Science courses"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know the essential terms and attributes in the field of embedded systems. They are able to create requirement profiles for various applications and select suitable market-standard hardware components. Furthermore, they can estimate the effort for software implementation and independently design simple software modules. Students are familiar with the necessary tasks in a real development project and can use this knowledge to sensibly organize the accompanying project both technically and organizationally.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can discuss the specific peculiarities of embedded systems in software development and compare them with the possibilities of PC-based environments.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can analyze a simple problem and discuss suitable solution architectures in a group. They can then make a decision after critical reflection and begin implementation. In the process, students are able to critically question all development steps in the area of hardware and software and reflect on them after completion.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The project task implemented within the framework of the internship/exercise is taken from the professional reality of a mechanical engineer. All learned competencies thus have an immediate use and context of use. Students can professionally use their skills in the field of embedded systems and transfer them to other problems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The graduates of the module are able to establish a professional development process for embedded systems and bring it to a successful conclusion. Within the module, they get to know a selection of the technically required tools for this.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Conceptual fundamentals",
+    "Hardware, firmware, software",
+    "Requirements and goals",
+    "Selected application examples",
+    "Introduction to the semester-long design task",
+    "Hardware of Embedded Systems",
+    "Microcontroller, microprocessor, DSP, FPGA/CPLD, RAM, ROM, clock generator",
+    "Immediate periphery",
+    "Examples: Timer, GPIO, ADC/DAC, I2C, I2S, SPI, I2C, USB, Wifi, Ethernet Mac",
+    "Relevance of immediate periphery on system behavior",
+    "Timer, DMA, Interrupt, Standby/LowPower",
+    "Indirect periphery in mechatronic systems",
+    "Examples: Power drivers for drives, measuring amplifiers/DAC/ADC, displays, energy management (PMU, battery management), communication modules (Ethernet PHY, 2.4GHz, GPS, 4G)",
+    "Basic Course: Programming in C++",
+    "Firmware of Embedded Systems",
+    "Layer model / Hardware abstraction",
+    "Real-time operating systems (multithreading: process communication, synchronization)",
+    "Memory management",
+    "Energy management",
+    "Functional safety",
+    "Project planning of embedded systems",
+    "Concept design hardware by example (e.g. \"Driving robot with mobile phone remote control\")",
+    "Schematic design with EDA software",
+    "PCB design with EDA software",
+    "Concept design software",
+    "Implementation of the software",
+    "Test and debugging possibilities for embedded systems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activities"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Presentation",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Oral examination",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Experimental work (attendance and active participation in practical sessions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The portfolio examination is worth 100 points, consisting of a presentation (max 60 points) and an oral examination (max 40 points). The experimental work is successfully completed with attendance and active participation in the practical sessions. The presentation duration is 20 to 30 minutes. The oral examination duration is based on the General Part of the examination regulations.",
+  "bibliography": [
+    "Marwedel, P. (2021). Eingebettete Systeme: Grundlagen Eingebetteter Systeme in Cyber-Physikalischen Systemen. Springer Vieweg.",
+    "Zickert, G. (2023). Leiterplatten: Stromlaufplan, Layout und Fertigung. Carl Hanser Verlag GmbH Co KG."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück",
+  "institution_slug": "ec_d_osnabru02",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "11B2316",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BMB/StO2025_Stand2026-03-26_BSc_Maschinenbau.pdf",
+  "source_language": "de",
+  "source_sha256": "a17b381c3fb40d8c14f69958db38c03ab9da023942372cd0a232fba145bbc3f1",
+  "extracted_at": "2026-11-18T09:50:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

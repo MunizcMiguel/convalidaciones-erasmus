@@ -1,0 +1,97 @@
+{
+  "course_name_original": "SIGNALS AND SYSTEMS",
+  "course_name_en": "SIGNALS AND SYSTEMS",
+  "ects": 9.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Linear Algebra and Geometry, in particular with reference to the following topics: complex numbers, differential and integral calculus, vector spaces.",
+    "General programming skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "apply mathematical tools to represent and analyze signals of different nature (continuous or discrete time, periodic or aperiodic).",
+      "type": "skill",
+      "code": "ILO1"
+    },
+    {
+      "text": "identify and describe the properties of transformations and systems, in particular of linear time-invariant (LTI) systems.",
+      "type": "skill",
+      "code": "ILO2"
+    },
+    {
+      "text": "interpret signals and systems in the frequency domain and understand their spectral characteristics.",
+      "type": "skill",
+      "code": "ILO3"
+    },
+    {
+      "text": "analyze the effects of sampling continuous signals and design procedures for the reconstruction of continuous signals from discrete data.",
+      "type": "skill",
+      "code": "ILO4"
+    },
+    {
+      "text": "solve differential and difference equations and interpret their results in engineering contexts.",
+      "type": "skill",
+      "code": "ILO5"
+    },
+    {
+      "text": "explain theoretical concepts and problem-solving approaches using appropriate technical language and clear logical reasoning in written form.",
+      "type": "competence",
+      "code": "ILO6"
+    }
+  ],
+  "syllabus_topics": [
+    "Review of linear algebra and complex analysis.",
+    "Types and properties of signals. Continuous and discrete-time signals, symmetry, periodicity, energy and power signals, standard test signals.",
+    "Systems in the time domain. System definitions, LTI systems, convolution, impulse response, causality, stability.",
+    "Differential and difference equations. Solutions of linear time-invariant differential and difference equations, natural and forced responses.",
+    "Frequency domain analysis. Fourier series, Fourier transform, frequency response, filtering, Discrete Fourier Transform (DFT), Discrete-Time Fourier Transform (DTFT).",
+    "Sampling and reconstruction. Time and frequency domain perspectives of sampling, interpolation, and the Sampling Theorem.",
+    "Laplace and Z-Transforms. Region of convergence. Examples for notable signals. Properties. Unilateral transforms and their use for solving differential and difference equations."
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Use of educational technologies (e.g., e-learning platform, videos, quizzes, Wooclap polls)",
+    "Self-assessment activities",
+    "Problem-based learning",
+    "Problem solving",
+    "Frontal lectures",
+    "Discussion and solution of exercises",
+    "Laboratory sessions as practical demonstrations"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The written and oral exam aims to assess the understanding of theoretical principles and their applications in engineering contexts, critically evaluating possible alternative strategies. During the exam, the use of any tools such as books, notes, communication and calculation devices is not allowed. The use of generative artificial intelligence tools is prohibited for individual assessment tasks.",
+  "bibliography": [
+    "Finesso, Lorenzo. Segnali e sistemi. 4. ed, Libreria Progetto, 2022",
+    "Oppenheim, Alan V., and George C. Verghese. Signals, Systems & Inference. Pearson, 2016",
+    "L. Finesso, Segnali e Sistemi (quarta edizione riveduta e corretta), Padova, Edizioni Libreria Progetto, 2025",
+    "Alan V. Oppenheim, Alan S. Willsky, S. Hamid Nawab, Signals & Systems, 2nd edition, Upper Saddle River, Prentice-Hall, 1997"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Università degli Studi di Padova — Information Engineering (L-8)",
+  "institution_slug": "ec_i_padova01__tele",
+  "degree": "Laurea in Information Engineering (Information Engineering), classe L-8 R Ingegneria dell'informazione",
+  "course_code": "INQ1097773",
+  "academic_year": "A.A. 2025/26 (cohorte 2025, años 1-3 del plan)",
+  "source_url": "https://unipd.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=51488_542420_69580&ordinamento_aa=2024&af_percorso=51488&corso_cod=6319&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "a9ffd0963637d3119655efd237ac2b59680048a7d928561945a7b445939fb896",
+  "extracted_at": "2026-11-20T12:47:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

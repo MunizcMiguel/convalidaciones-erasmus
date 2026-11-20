@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Redes de Sensores: Aplicaciones Médicas e IoT",
+  "course_name_en": "Sensor Networks: Medical and IoT Applications",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "To know the different communication networks and sensor networks (Internet of Things, IoT) for data collection and transport, mainly those oriented to M2M (machine-to-machine communications).",
+      "type": "knowledge",
+      "code": "RRS1"
+    },
+    {
+      "text": "To know the basic parameters of communication networks: coverage, bandwidth, transmission techniques, application scenarios.",
+      "type": "knowledge",
+      "code": "RRS2"
+    },
+    {
+      "text": "To know how to characterize transmission mechanisms and phenomena affecting transmission (distortion, noise), as well as techniques to minimize them (encodings, MIMO).",
+      "type": "skill",
+      "code": "RRS3"
+    },
+    {
+      "text": "To know how to choose the most appropriate data acquisition and transport system for a given application, based on parameters such as coverage area, application scenario, amount of data to be collected and transmitted, real-time requirements.",
+      "type": "skill",
+      "code": "RRS4"
+    },
+    {
+      "text": "Ability to discuss the advantages and limitations of communication and sensor network technologies.",
+      "type": "skill",
+      "code": "RRS5"
+    },
+    {
+      "text": "To know the different types of sensors and their applications. Emphasis on medical applications (e-Medicine and e-Health), Smart applications (e.g., Smart-cities), and applications for Industry 4.0.",
+      "type": "knowledge",
+      "code": "RRS6"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to wireless networks. Wireless transmission mechanisms and phenomena affecting them (noise, multipath). Access schemes, modulation, encoding.",
+    "Communication networks for data transport. M2M networks in 4G and 5G. Internet of Things (IoT). Specifications (coverage, frequency bands, bandwidth, access and encoding techniques), scope and reach.",
+    "Types of sensors and information acquisition elements.",
+    "Applications of sensor networks and IoT for data collection and transport.",
+    "Applications for Industry 4.0, Smart applications (Smart-Cities and Environmental Management, Smart Buildings), logistics and transport, e-medicine and e-health, open information sources."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Expositive classes",
+    "Laboratory practices",
+    "Project-based learning",
+    "Slides",
+    "Videos"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Practical work (T1) - Description, project requirements and preliminary design",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (T1) - Detailed design",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (T1) - Development of a sensor subsystem",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (T1) - Development of a monitoring subsystem",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (T1) - Integration and verification of the final system",
+      "weight_percentage": null
+    },
+    {
+      "method": "Practical work (T1) - Intermediate presentation and final demo",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "In the ordinary call, the practical work (T1) during the course is evaluated based on several components: description, project requirements, preliminary design, detailed design, development of a sensor subsystem, development of a monitoring subsystem, integration and verification of the final system, intermediate presentation, and final demo (totaling 9 points). The final exam accounts for 1 point. In the extraordinary call, there will be a theoretical exam (maximum 5 points) covering all theoretical content, and a practical work evaluated by an oral defense (maximum 5 points). Differentiated evaluation follows the same guidelines as the extraordinary call.",
+  "bibliography": [
+    "Vídeos y diapositivas en Campus Virtual",
+    "Sakthivel P., Ramasamy S. , Sumathy V. “Redes De Sensores Inalámbricos Con Internet De Las Cosas”. 2023. ISBN-13-978-6205690505",
+    "Vedat Ozan Oner “Developing IoT Projects with ESP32: Automate your home or business with inexpensive Wi-Fi devices” ( 2021). ISBN-13-978-1838641160. Ed. Pack Publishing",
+    "Kazem Sohraby, Daniel Minoli, Taieb Znati, “Wireless Sensor Networks: Technology, Protocols, and Applications”. Ed Wiley ISBN: 978-0-470-11275-5.",
+    "Holger Karl, Andreas Willig, ”Protocols and Architectures for Wireless Sensor Networks”. Ed Wiley"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-0-012",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-012",
+  "source_language": "es",
+  "source_sha256": "16d9a4c001e228fc973b7a19cce209483155ab74ae358163ad1b71135304b5ae",
+  "extracted_at": "2026-11-20T05:56:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

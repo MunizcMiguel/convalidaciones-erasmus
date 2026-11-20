@@ -1,0 +1,123 @@
+{
+  "course_name_original": "C++ language in control applications",
+  "course_name_en": "C++ language in control applications",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows data types, operators and statements of C++ language and understands principles of their use.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows and understands the idea of classes and rules for operator overloading in C++ language. Knows possibilities of the standard iostream library and understands principles of its use.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows and understands principles of hardware interrupt handling in C/C++ language in microprocessor systems.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows principles of C/C++ language handling for basic peripheral devices of microprocessor systems used for control.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows the basics of the QNX6 real-time operating system.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Can correctly use data types, operators and statements of C++ language in programs.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can design a class representing real objects (e.g., controllers, counters, drive models) and write appropriate code.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can write a simple application in the QNX6 real-time operating system.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Can write an application using the interrupt system and selected peripheral devices of the microprocessor system.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "Possesses basic and organized knowledge about C++ language and designing control applications without or with the use of a real-time operating system environment.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "Possesses general knowledge regarding the QNX6 real-time operating system and its properties.",
+      "type": "competence",
+      "code": "K2"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the QNX operating system. Definition of a real-time operating system. Properties and parameters of a real-time system. Examples of real-time operating systems. QNX6 system. Microkernel of the QNX6 system and its functions. File system.",
+    "Basics of C and C++ languages. Basic data types in C++ language and their properties. Operators. Priorities and associativity of operators. Rules for writing expressions. Basic language statements: conditional statements, selection statements, loops. Examples of simple programs. Logical and bitwise sum, product, and negation operators. Bitmask. Setting, clearing, and testing bits in a variable. Representation of variables of individual types in memory.",
+    "Arrays, pointers and pointer arithmetic. Array definition. One- and multi-dimensional arrays. Rules for accessing array elements using indices. Array representation in computer memory. Pointer definition. Rules of pointer arithmetic. Arrays and pointers. Method of accessing array elements using pointers.",
+    "Structures and unions. Definition of a structure and a union. Method of accessing members of a structure (union). Representation of a structure and a union in computer memory. Pointers to a structure and to a member.",
+    "Character strings in C (string.h). Definition of a character string and its representation in C language. Copying and concatenation of strings. Overview of functions for operating on character strings available in the C standard library (string.h header).",
+    "Classes and the idea of class design. Class definition. Class elements: members, methods, constructor(s), destructor. Access attributes to class members. Class as an abstract type for representing data and properties of real objects. Example implementation of date and functions operating on date in C language (data structure and functions) and in C++ language (class). Example implementation of a vector, hysteresis controller and PID controller as a class. Friend functions.",
+    "Overloading function names and operators. Idea of overloading function names. Rules for matching function definitions at the call site. Examples of possible ambiguities in matching. Operator overloading. Conditions for overloading C++ operators, limitations. Example definition of operators in a class representing a vector.",
+    "Inheritance and virtual methods. Idea of inheritance. Properties of a derived class. Type compatibility of base and derived classes. Problems of accessing class methods using class pointers. Virtual methods. Rules for ordinary and virtual methods using class pointers. Example of representing properties of geometric figures using derived classes.",
+    "The iostream library. Class structure in the iostream library. Basic methods of iostream library classes. Overloaded << and >> operators. Text formatting using iostream library class methods. Manipulators. Comparison of text formatting in the C standard library (stdio.h - printf(), sprintf() functions) and in the iostream library. File access using iostream library class methods.",
+    "Character strings in C++ (String class) and iostream library. Standard String class as a type for representing character strings. String class constructors. String class methods for operating on character strings. Possibilities of using C language character strings (char*) with the String class. Class structure in the iostream library. Basic methods of iostream library classes. Overloaded << and >> operators. Text formatting using iostream library class methods. Manipulators. Comparison of text formatting in the C standard library (stdio.h - printf(), sprintf() functions) and in the iostream library. File access using iostream library class methods.",
+    "Function and class templates. Principle of creating function templates (patterns). Template instantiation. Function name overloading versus function template creation. Class templates. Example of a class template representing a vector."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes",
+    "Discussion"
+  ],
+  "workload_hours_total": 111.0,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Report",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by a test. Laboratory classes are verified by execution of laboratory classes and a report. Students must participate in classes, ask questions, and clarify doubts. Students are required to prepare for laboratory exercises, which may be verified by an oral or written colloquium. Passing the module requires passing all laboratory classes.",
+  "bibliography": [
+    "Kernighan B., Ritchie D.: Język ANSI C. Helion 2010",
+    "Stroustrup B.: Język C++. Kompendium wiedzy. Helion 2014.",
+    "Grębosz J.: Opus magnum C++11. Programowanie w języku C++. Helion 2018.",
+    "Ułasiewicz J.: Systemy czasu rzeczywistego QNX6 Neutrino. Wyd. BTC, Warszawa 2008."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii40.03762.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/1814e81f-02fe-4627-942a-77606a2ecc44.html",
+  "source_language": "pl",
+  "source_sha256": "9c1a6de708b800f92a890917c910f2b4d6a3b347d3b1eebca8d003db8efff3a4",
+  "extracted_at": "2026-11-20T09:04:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

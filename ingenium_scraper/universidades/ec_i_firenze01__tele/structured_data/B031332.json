@@ -1,0 +1,183 @@
+{
+  "course_name_original": "TELECOMUNICAZIONI C.I. (B031332)",
+  "course_name_en": "Telecommunications C.I.",
+  "ects": 12.0,
+  "semester": null,
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it",
+    "en"
+  ],
+  "prerequisites": [
+    "Solid knowledge of concepts from the Signals Theory course: Fourier theory of periodic and aperiodic deterministic signals, random variables, stochastic processes and their spectral analysis.",
+    "Basic knowledge of courses in the telecommunications sector provided in the degree program."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the basic principles of telecommunications, the characteristics of the signals used and their propagation modes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the different systems of analog and digital modulation and demodulation of signals.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the disturbances affecting received signals and their statistical characterization.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowledge and understanding of the main aspects of TCP/IP networks and networks with ISO/OSI architecture.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Ability to classify existing or soon-to-be-developed telecommunication networks in relation to specific operational requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to understand the functioning of the basic devices of a network.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to define appropriate types of sensor networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to select MAC and Network level algorithms in relation to specific application needs.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to characterize, analyze and quantify disturbances on signals and their effects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to comparatively and critically analyze the different transmission and reception, modulation and demodulation schemes.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to analyze and model the main protocol architectures.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to make autonomous choices regarding the design of an analog or digital telecommunications system.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to clearly and rigorously present telecommunication network architectures and their applications.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to logically present demonstrations related to the characterization of signals and random disturbances.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to logically present technical demonstrations on characteristics of specific telecommunication systems and networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously carry out the complete characterization of a telecommunications system.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Ability to autonomously find technical documentation on network protocols and services.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Signals and telecommunications systems",
+    "Principles of propagation",
+    "Transmission through modulation of analog and digital signals",
+    "Spectral efficiency",
+    "Efficiency of modulation/demodulation schemes against noise",
+    "Main switching techniques",
+    "TCP/IP and IEEE 802 Networks",
+    "Wireless Communication Technology",
+    "Multiple access techniques",
+    "Principles and applications of sensor and actuator networks",
+    "Routing techniques in wired and wireless networks",
+    "Congestion control techniques",
+    "Basic principles of network security",
+    "Introduction to communication systems: information and disturbance, information sources, communication system architecture, wireless and wired communication systems, frequency allocation, notes on signal propagation mode, with particular reference to wireless systems",
+    "Disturbances in communication systems: band-limited white noise, thermal noise, noise figure, equivalent noise temperature, noise figure of cascaded systems",
+    "Analog modulations: classic AM modulation, AM-DSB modulation, AM-SSB modulation, angular modulations (PM and FM). Modulators and demodulators, performance against noise, threshold effect. Signal multiplexing: FDM and TDM. Superheterodyne and homodyne receivers",
+    "Digital modulations: baseband impulse modulations: \"flat top\" and \"natural gating\" PAM, PDM and PPM, quantized impulse modulations, PCM, differential PCM, line codes: unipolar and bipolar NRZ and RZ. Gray coding. Binary digital modulations: OOK, BPSK, FSK and CPFSK. Transmission bandwidth. Relationship between total signal-to-noise ratio, signal-to-noise ratio per bit and spectral efficiency. Multilevel modulations: M-PAM, M-PSK (QPSK and OQPSK), QAM. Transmission bandwidth and spectral efficiency. Probability of error in digital modulations: decision regions and maximum likelihood receiver. Optimal receiver schemes. Error bound.",
+    "Structure and characteristics of communication networks: generalities",
+    "Telephone network. Structure of an automatic telephone exchange",
+    "Architecture of connection networks. No-blocking condition",
+    "Data transmission networks and computer communication networks. Protocols: ISO/OSI model",
+    "Traffic characteristics",
+    "Circuit, message, packet switching",
+    "Fast packet switching (FPS) and circuit switching (FCS)",
+    "Local area networks (LAN), IEEE 802 standard",
+    "TCP/IP protocol",
+    "Issues concerning the interconnection of telecommunication networks",
+    "The network layer",
+    "Wireless networks",
+    "CSMA/CA access technique",
+    "IEEE 802.12 technology networks",
+    "Sensor networks",
+    "Elements of Modern Networking",
+    "SDN Networks",
+    "Open Flow",
+    "Network Function Virtualization",
+    "Network Slicing",
+    "Routing techniques in fixed and wireless networks",
+    "Techniques for congestion control",
+    "Elements of communication security"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Frontal exercises",
+    "In-depth seminars held by qualified external personnel"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 108.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade is based on an oral exam. Evaluation ranges from insufficient (serious conceptual errors, fragmented understanding, inability to apply knowledge) to excellent (complete, in-depth knowledge, autonomous and flexible operation, critical skills, originality, rigor). A grade of 18-22 indicates elementary knowledge, 23-25 satisfactory understanding, 26-28 good theoretical understanding, and 29-30 cum laude excellent knowledge.",
+  "bibliography": [
+    "Leon W. Couch II Fondamenti di Telecomunicazioni, Settima edizione, Pearson",
+    "S. Haykin: “Communication systems”, Ed. Wiley.",
+    "G. Benelli, V. Cappellini, E. Del Re: “Note di comunicazioni elettriche” Ed. Libreria Alfani.",
+    "V. Lottici “Esercizi di comunicazioni elettriche” Edizioni ETS Pisa",
+    "R. [docente], Reti di Telecomunicazioni : Fondamenti e Tecnologie Internet, Esculapio, 2014",
+    "Lecture and exercise notes (available in electronic format on the course website)",
+    "J.F. Kurose, K.W. Ross, “Reti di Calcolatori e Internet”, Pearson, 2022.",
+    "S. W. Tanenbaum, N. Feamster , D. Wetherall “ Reti di Calcolatori”, Pearson, 2023.",
+    "M. Luise, G.M. Vitetta: “Teoria dei Segnali” Ed. Mc Graw – Hill Italia (for probability theory and random processes review)"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Firenze — Ingegneria Elettronica (L-8)",
+  "institution_slug": "ec_i_firenze01__tele",
+  "degree": "Laurea in Ingegneria Elettronica (Electronics Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "B031332",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unifi.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=45510_B244-21-24_85457_732010&ordinamento_aa=2021&af_percorso=45510&corso_cod=1437&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "cc873648ad648c0aad48b541869ae89e59b49faa0bd4501da6217d7c952ab603",
+  "extracted_at": "2026-11-20T12:45:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

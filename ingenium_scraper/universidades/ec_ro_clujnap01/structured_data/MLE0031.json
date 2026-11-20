@@ -1,0 +1,145 @@
+{
+  "course_name_original": "Probability and statistics",
+  "course_name_en": "Probability and Statistics",
+  "ects": 6.0,
+  "semester": "3",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Mathematical Analysis",
+    "Algebra",
+    "Logical thinking",
+    "Average logical programming skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire basic knowledge of Probability Theory and Mathematical Statistics, with main focus on applications",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Become familiar and be able to work with various probabilistic and statistical models",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to perform statistical analysis of data",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Ability to use statistical features of various mathematical software",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Defining basic concepts, theory and mathematical models",
+      "type": "unspecified",
+      "code": "C4.1"
+    },
+    {
+      "text": "Interpretation of mathematical models",
+      "type": "unspecified",
+      "code": "C4.2"
+    },
+    {
+      "text": "Identifying the appropriate models and methods for solving real-life problems",
+      "type": "unspecified",
+      "code": "C4.3"
+    },
+    {
+      "text": "Embedding formal models in applications from various areas",
+      "type": "unspecified",
+      "code": "C4.5"
+    },
+    {
+      "text": "Ability to conform to the requirements of organized and efficient work, to develop a responsible approach towards the academic and scientific fields, in order to make the most of one’s own creative potential, while obeying the rules and principles of professional ethic",
+      "type": "unspecified",
+      "code": "CT1"
+    },
+    {
+      "text": "Using efficient methods and techniques for learning, information, research and developing capabilities for using knowledge, for adapting to a dynamic society and for communicating in Romanian and in a worldwide spoken language",
+      "type": "unspecified",
+      "code": "CT3"
+    }
+  ],
+  "syllabus_topics": [
+    "Experiments, events, field of events, operations with events. Axiomatic definition of probability. Poincaré’s formula. Classical definition of probability.",
+    "Conditional probability. Independent events. Total probability formula. Classical probabilistic models (Binomial, Hypergeometric, Poisson, Pascal, Geometric).",
+    "Random variables and random vectors. Discrete random variables. Probability distribution function. Cumulative distribution function. Properties, examples.",
+    "Discrete probability laws (Bernoulli, Binomial, Hypergeometric, Poisson, Negative Binomial, Geometric). Discrete random vectors. Operations with discrete random variables.",
+    "Continuous random variables. Probability density function. Continuous probability laws (Uniform, Normal, Gamma, Exponential, Chi-square, Student, Fisher). Independent random variables. Functions of continuous random variables.",
+    "Numerical characteristics of random variables. Expectation. Variance and standard deviation. Median. Moments (initial, central, absolute).",
+    "Quantiles. Covariance and correlation coefficient. Inequalities (Markov, Chebyshev). Central limit theorem.",
+    "Descriptive statistics. Data collection. Graphical display of data. Frequency distribution, histograms, stem-and-leaf plots. Parameters of a statistical distribution. Measures of central tendency.",
+    "Measures of variation. Correlation and regression. Linear regression, least squares estimation.",
+    "Statistical inference. Sample theory. Samples. Sample functions (sample mean, sample variance, sample moments). Estimation theory, basic notions. Confidence intervals for estimating the population mean and the population variance.",
+    "Confidence intervals for comparing two population means and two population variances. Hypothesis testing, basic notions. Rejection region. Type I errors. Significance testing and P-values.",
+    "Tests for the parameters of one population Tests for comparing the parameters of two populations. Examples. Robust tests. Summary of hypothesis testing.",
+    "Properties of point estimators. Unbiased and minimum variance estimators. Fisher’s information. Absolutely correct estimators. The Rao-Cramer inequality. Efficient estimators. Methods of estimation (method of moments, method of maximum likelihood). Examples.",
+    "Type II errors and the power of a test. Most powerful tests and the Neyman-Pearson lemma. Uniformly most powerful tests. Examples.",
+    "Euler's Functions. Properties. Counting, Outcomes, Events.",
+    "Classical Probability. Rules of Probability. Conditional Probability. Independent Events.",
+    "Probabilistic models.",
+    "Discrete random variables and discrete random vectors.",
+    "Continuous random variables and continuous random vectors.",
+    "Numerical characteristics of random variables.",
+    "Inequalities. Central Limit Theorem. Point Estimators.",
+    "Introduction to Matlab.",
+    "Estimating probability by computer simulations.",
+    "Discrete random variables. PDF and CDF.",
+    "Continuous random variables. PDF, CDF and Inverse CDF.",
+    "Descriptive Statistics. Statistical measures. Correlation and regression.",
+    "Confidence intervals and tests for the mean and variance.",
+    "Confidence intervals and tests for the difference of means and ratio of variances."
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Didactical demonstration",
+    "Individual and group work",
+    "Synthesis"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Course)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Seminar activities (participation, documentation, individual presentation, solving bonus problems)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Lab activities (participation, individual presentation of solutions)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "A minimum grade of 5 (on a scale of 1 to 10) is required on each of the three evaluation activities: written test, seminar evaluation, and lab evaluation.",
+  "bibliography": [
+    "Micula, S., Probability and Statistics for Computational Sciences, Cluj University Press, 2009.",
+    "Baron, M., Probability and Statistics for Computer Scientists, 3rd edition, CRC Press, Taylor and Francis, Boca Raton, FL, 2019.",
+    "Milton, J.S., Arnold, J. C., Introduction to Probability and Statistics: Principles and Applications for Engineering and the Computing Sciences, 3rd Edition. McGraw-Hill, New York, 1995.",
+    "Blaga, P., Calculul probabilitatilor si statistica matematica. Vol. II. Curs si culegere de probleme, Universitatea \"Babes-Bolyai\" Cluj-Napoca, 1994.",
+    "Feller, W., An introduction to probability theory and its applications, Vol. 1, 3rd edition, WSE Wiley, New York, 2008.",
+    "DeGroot, M. H., Schervish, M. J., Probability and Statistics, Addison-Wesley, Boston, 2012.",
+    "Blaga, P., Statistica prin Matlab, Presa Universitara Clujeana, Cluj-Napoca, 2002.",
+    "Lisei, H., Micula, S., Soos, A., Probability Theory trough Problems and Applications, Cluj University Press, 2006."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE0031",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem3_MLE0031_en_smicula_2025_9608.pdf",
+  "source_language": "en",
+  "source_sha256": "5df2de289ce579eb2f8a12e927892c2bb2691fa03b03defa8f342a5d06fb2710",
+  "extracted_at": "2026-11-20T09:07:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

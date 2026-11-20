@@ -1,0 +1,202 @@
+{
+  "course_name_original": "Álgebra y Geometría",
+  "course_name_en": "Algebra and Geometry",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge from high school Mathematics II.",
+    "Continuous study habits for the subject."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competencies usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "skill",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects that enables them to learn new methods and theories, and provides them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge of: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "ESPECÍFICA"
+    },
+    {
+      "text": "Ability to solve problems with initiative, make decisions, be creative, reason critically, and communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "competence",
+      "code": "GENERAL"
+    },
+    {
+      "text": "Ability to solve problems.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to make decisions.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to organize and plan.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to apply knowledge in practice.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to work in a team.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Aptitude for motivation for Quality and continuous improvement.",
+      "type": "competence",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to analyze and synthesize.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to adapt to new situations.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Creativity and inventive spirit in solving scientific-technical problems.",
+      "type": "competence",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability for autonomous learning.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to manage information in solving problematic situations.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability for critical reasoning.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Ability to fluently use computing at a user level.",
+      "type": "skill",
+      "code": "TRANSVERSAL"
+    },
+    {
+      "text": "Fluently handle the main concepts of Linear Algebra: vector spaces, eigenvalues, eigenvectors, and diagonalization.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Solve systems of linear and non-linear equations using direct and iterative methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply numerical methods for solving non-linear equations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Classify conics and quadrics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify different ways to define a curve and calculate its length.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Determine the elements of the Frenet frame and calculate the curvature and torsion of a curve.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Represent curves in the plane and in space.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify different ways to define a surface and determine the normal vector and tangent plane to a surface.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK 1.- ALGEBRA. TOPIC 1.- Matrices and Determinants: Definition of matrix. Linear operations with matrices. Matrix product. Transpose matrix. Properties. Types of matrices. Inverse matrix. Uniqueness and properties. Elementary operations. Elementary matrices. Equivalent matrices. Hermite canonical form. Gauss-Jordan method for calculating the inverse of a matrix. Rank of a matrix. Calculation of rank using elementary operations. Definition and properties of the determinant of a square matrix. Application of determinants.",
+    "TOPIC 2.- Systems of Linear and Non-Linear Equations: Terminology and notations. Equivalent systems. Gauss elimination method. Rouché-Frobenius theorem. Homogeneous systems: Null space of a matrix.",
+    "TOPIC 3.- Vector Space Rn: Definition and properties. Linear dependence and independence. Properties. Basis and dimension of vector space Rn. Coordinates of a vector. Change of basis in Rn. Vector subspaces. Characterization. Equations of a subspace. Basis and dimension of a subspace.",
+    "TOPIC 4.- Euclidean Vector Space Rn: Scalar product. Modulus of a vector and angle between vectors. Orthogonal and orthonormal bases. Gram-Schmidt orthonormalization method.",
+    "TOPIC 5.- Diagonalization of Matrices: Eigenvalues and eigenvectors of a square matrix. Properties. Diagonalizable matrix: Diagonalization. Diagonalization of symmetric matrices by orthogonal similarity. Powers of a diagonalizable matrix.",
+    "BLOCK 2.- GEOMETRY. TOPIC 6.- Conics: Definition of a conic. Matrix equation. Reduced equation of a conic. Classification and main elements of conics. Study of ordinary conics.",
+    "TOPIC 7.- Quadrics: Definition of a quadric. Matrix equation. Reduced equation of a quadric. Classification of quadrics. Study of ordinary quadrics.",
+    "TOPIC 8.- Plane Curves: Concept of a plane curve. Expressions of a curve: parametric, explicit, and implicit. Tangent and normal at a point on a curve. Singular points and ordinary points. Plane curves in Polar Coordinates.",
+    "TOPIC 9.- Skew Curves: Definition of a curve in space. Equations of a curve. Ordinary point and singular point. Length of an arc of a curve. Frenet frame and Formulas. Tangent, normal, and Binormal line. Curvature and torsion. Osculating, normal, and rectifying planes.",
+    "TOPIC 10.- Surfaces: Concept of a surface. Tangent plane and normal line to a surface. Surfaces of revolution and translation. Conical and cylindrical surfaces.",
+    "BLOCK 3.- NUMERICAL AND ITERATIVE METHODS. Solving systems of equations."
+  ],
+  "teaching_methods": [
+    "Practical classes, seminars and problem solving (Resolution of exercises, problem-based learning, application activities, individual or small group work).",
+    "Individual/autonomous study and work (Understanding theoretical content, problem classes, computer practices, bibliographic research).",
+    "Tutoring sessions (Guidance on solving exercises and problems).",
+    "Theory classes (Expository method, master class, presentation of basic content, solving and proposing exercises and problems).",
+    "Computer practicals (Problem solving using symbolic calculation software and result analysis)."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 65.0,
+  "assessment_methods": [
+    {
+      "method": "Monitoring and control activities for computer practices",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Mid-semester progress test (Block I: Algebra)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final exam (Block I: Algebra and Block II: Geometry)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on computer practices (20%), a mid-semester algebra progress test (40%), and a final exam (40%). For the progress test and final exam, a minimum score of 5 out of 10 for each block (Algebra/Geometry) is required to pass that block; passed block grades are preserved for the academic year. Students can opt for a global evaluation in the final call (including December call), renouncing previous partial grades, where a single exam covers all content.",
+  "bibliography": [
+    "ALGEBRA LINEAL CON APLICACIONES | STANLEY GROSSMAN | ISBN: 9789684229846",
+    "Álgebra Lineal y Geometría Cartesiana | De Burgos, J. | ISBN-10. 8448149009 ; ISBN-13. 978-8448149000",
+    "Álgebra lineal y geometría en escuelas técnicas, notas de clase | Ariza, O.; Camacho, J.C. y Sánchez, A. | ISBN: 978-84-607-1364-7"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Cádiz",
+  "institution_slug": "es_cadiz",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "21720001",
+  "academic_year": "2026-27",
+  "source_url": "https://asignaturas.uca.es/2026-27/21720001",
+  "source_language": "es",
+  "source_sha256": "47db57dadf84161169fe5ba7025dda957487d54be298cd59e4163958ce3d18f9",
+  "extracted_at": "2026-11-13T21:28:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,72 @@
+{
+  "course_name_original": "Programming in .NET and C#",
+  "course_name_en": "Programming in .NET and C#",
+  "ects": 7.0,
+  "semester": "Summer semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "algorithmization",
+    "data structures",
+    "object-oriented programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to create simple console and more complex GUI (Windows Forms) programs in C#.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Architecture .NET, introduction to language C#, assembly, name spaces",
+    "Value data types - primitive data types, structures, enumerated type",
+    "Reference data types - classes, arrays (regular, irregular)",
+    "Reference data types - delegates (definition and use of anonymous method, lambda expression), interface",
+    "Statements - basic construction, decision-making, cycles, jumps etc.",
+    "Operators and expressions, preprocessor directives",
+    "Classes - declaration, data files, attributes, methods",
+    "Classes - constructors, finalizers, events",
+    "Classes - inheritance, polymorphism, abstract, static, partial classes",
+    "Interface - declaration, implicit and explicit implementation, basic library interfaces, iterators",
+    "Exceptions - throwing and catching exceptions, operator overloading",
+    "Files, streams, inputs and outputs, object serialization",
+    "Genericity - constraints of type parameters, covariance and contravariance of type parameters, Windows Forms - GUI toolkit"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "9 assignments in exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Examination (complex assignment)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "A condition for the award of credit is the completion of 9 assignments in the exercises. During the examination period, at least 2 dates for remedial credit are implemented; to obtain remedial credit, it is necessary to additionally fulfil all the conditions for obtaining regular credit and to fulfill practical assignment within the time limit (1:30 hours) at the remedial date. In order to pass the examination, it is necessary to work out a given complex assignment within a given time limit (2:30 hours). The score of at least 60 % is required to pass the examination (grade E).",
+  "bibliography": [
+    "Troelsen, Andrew W.; Japikse Philip. Pro C# 10 with .NET 6. Berkeley, 2022. ISBN 978-1-4842-7868-0."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "syllabus_topics",
+    "bibliography",
+    "prerequisites"
+  ],
+  "institution": "University of Pardubice (Univerzita Pardubice)",
+  "institution_slug": "ec_cz_pardub01",
+  "degree": "Bachelor's programme, Faculty of Electrical Engineering and Informatics - courses in English",
+  "course_code": "KST/ZCSH1",
+  "academic_year": "2026-2027",
+  "source_url": "https://portal.upce.cz/StagPortletsJSR168/CleanUrl?urlid=prohlizeni-predmet-sylabus&predmetZkrPrac=KST&predmetZkrPred=ZCSH1&predmetRok=2026&formRozvrhZobrazeni=0&plang=en",
+  "source_language": "en",
+  "source_sha256": "77f606ba49983d540f3467c55f5e7a9383c34cfb1251c15fcf8712b1011d55c9",
+  "extracted_at": "2026-11-20T09:07:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

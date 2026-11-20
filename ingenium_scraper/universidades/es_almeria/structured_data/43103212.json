@@ -1,0 +1,194 @@
+{
+  "course_name_original": "Electrónica Digital (43103212)",
+  "course_name_en": "Digital Electronics",
+  "ects": 6.0,
+  "semester": "2Q",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Having completed the Basic Electronics course is recommended.",
+    "Prior knowledge of electronics and algebra is required.",
+    "It would be convenient for the student to have acquired basic competencies in Electronics and Mathematical Foundations."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the fundamentals and applications of digital electronics and microprocessors.",
+      "type": "knowledge",
+      "code": "E-CTEE3"
+    },
+    {
+      "text": "Ability to design analog, digital, and power electronic systems.",
+      "type": "skill",
+      "code": "E-CTEE6"
+    },
+    {
+      "text": "Know the electronic components commonly used in digital electronics, their behavior, characterization, and representation in electronic diagrams and schematics, as well as their practical limitations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the topology of the most common digital circuits, their structure, operation, and applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the electronic devices used in solving engineering problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Become familiar with the technical language of digital electronics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the fundamentals for the analysis of digital electronic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the principles for the design of digital electronic circuits, both with discrete and integrated elements, including programmable devices.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the basic computer tools for simulating digital electronic systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Become familiar with the scientific method in circuit analysis and design.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know traditional and new technology information sources applied to digital electronics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Recognize, analyze, design, simulate, assemble, and test, through direct measurements, digital electronic circuits of basic and medium complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Prepare individual and group assignments, developing critical capacity to discuss obtained results and compare experimental conclusions with theoretical knowledge.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Perform supervised laboratory practices, analyze collected data, and prepare lab reports.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use basic laboratory instruments (oscilloscopes, power supplies, multimeters, signal generators) and assembly systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develop collaborative work competencies through small group practices and projects.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design digital circuits using programmable devices and simulation tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrate knowledge and skills in the development and presentation of projects related to real applications.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Number systems and Boolean algebra",
+    "1.1. Number system.",
+    "1.2. Binary and hexadecimal code.",
+    "1.3. Fundamental arithmetic operations.",
+    "1.4. Study of Boolean functions.",
+    "Practice 1: Combinational Logic I",
+    "Topic 2. Combinational circuits",
+    "2.1. Switching functions.",
+    "2.2. Implementation of switching functions with Logic Gates.",
+    "2.3. Methods for minimizing logic circuits.",
+    "2.4. Combinational Integrated Circuits.",
+    "Practice 2: Combinational Logic II",
+    "Topic 3. Sequential circuits",
+    "3.1. Flip-flops and sequential systems.",
+    "3.2. Asynchronous Systems.",
+    "3.3. Synchronous Systems, high-speed counters.",
+    "3.4. Automata.",
+    "3.5. Automata configuration.",
+    "Practice 3: Sequential Logic.",
+    "Topic 4. Introduction to Microprocessors:",
+    "4.1. Main blocks of a microprocessor.",
+    "4.2. Optional peripherals.",
+    "4.3. Integration of digital blocks.",
+    "4.4. Microprocessor circuits for industrial and power instrumentation.",
+    "Practice 4: Real application of a microcontroller."
+  ],
+  "teaching_methods": [
+    "Participatory lectures",
+    "Case studies",
+    "Problem-solving",
+    "Results evaluation",
+    "Report writing",
+    "Personalized tutorials",
+    "Exercises and demonstrations with simulation and industrial tools",
+    "Laboratory practices",
+    "Autonomous and group work based on Project-Based Learning",
+    "Individual study of theoretical contents",
+    "Assimilation of knowledge derived from theoretical classes",
+    "Resolution of exercises proposed in participatory lectures",
+    "Resolution of practical cases proposed in laboratory practices",
+    "Elaboration of laboratory practice reports through group work",
+    "Development and presentation of a project related to real challenges and topic 4 of the subject."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Lab reports",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Exam",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Project development and presentation",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as 0.20 * Lab reports + 0.6 * Exam + 0.2 * Project development and presentation. A minimum score of 5 points out of 10 is required for each activity (each lab report, each part of the exam, and the project). Lab attendance is mandatory, and students with more than 10% non-attendance will be marked as 'not qualified' for practices. For the extraordinary call, the evaluation structure is similar, but the 20% dedicated to practices varies based on prior attendance, either through resubmission of reports or a combination of simulation reports and a lab exam. For single evaluation, the final grade is 0.1 * Simulation reports + 0.25 * Lab exam + 0.65 * Theoretical/practical exam, with a minimum of 5 points in each part. All evaluation methods can be performed virtually if health authorities advise.",
+  "bibliography": [
+    "Artigas, L.A., Barragán, C., Orrite, C., & Urriza, I. - (2002) - Electrónica digital: Aplicaciones y problemas con VHDL - PrenticeHall",
+    "Blanco Viejo, C. - (2005) - Fundamentos de electrónica digital - Thomson",
+    "Mandado, E., Álvarez, L.J., & Valdés, M.D. - (2002) - Dispositivos lógicos programables y sus aplicaciones - Thomson",
+    "García Zubía, J. - (2003) - Problemas resueltos de electrónica digital - Thomson",
+    "Wakerly, J.F. - (2001) - Diseño digital: Principios y prácticas - Prentice Hall",
+    "Hayes, J.P. - () - Diseño lógico digital - Addison-Wesley Iberoamericana",
+    "Mandado Pérez, E., Álvarez Ruiz de Ojeda, L.J., & Valdés Peña, M.D. - (2002) - Dispositivos lógicos programables y sus aplicaciones - Thomson-Paraninfo",
+    "Tocci, R., & Widmer, N. - (2003) - Sistemas digitales: Principios y aplicaciones - Prentice Hall",
+    "Hambley, A.R. - (2001) - Electrónica - Prentice Hall",
+    "Angulo, J., & Angulo, I. - () - Microcontroladores PIC: Diseño práctico de aplicaciones - McGraw-Hill"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Almería",
+  "institution_slug": "es_almeria",
+  "degree": "Grado en Ingeniería Mecánica (Plan 2010)",
+  "course_code": "43103212",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ual.es/guia_academica/43103212/2026-27/CAS",
+  "source_language": "es",
+  "source_sha256": "5a0b141fa338c1b96c7efadd7efeac423daf4f74e62f938750cddfcca5aca8c2",
+  "extracted_at": "2026-11-13T21:22:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

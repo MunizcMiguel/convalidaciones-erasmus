@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Teoría de Circuitos",
+  "course_name_en": "Circuit Theory",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Mathematics: Representation of functions, derivation and integration, matrix and determinant operations, solving algebraic equation systems, and complex number operations.",
+    "Physics and general knowledge: Basic notions of electricity: electric field, magnetic field, electric charge, electric current, potential difference, Ohm's law, Kirchhoff's laws. It is convenient for students to have taken Mathematics II and Physics in 2nd year of Bachillerato (High School)."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Calculate steady-state voltages and currents in linear circuits with DC and AC excitation.",
+      "type": "unspecified",
+      "code": "RA-5.1"
+    },
+    {
+      "text": "Obtain, if it exists, a simple circuit with equivalent behavior to a given one.",
+      "type": "unspecified",
+      "code": "RA-5.2"
+    },
+    {
+      "text": "Calculate steady-state voltages and currents in linear circuits with sinusoidal excitation when the excitation frequency changes.",
+      "type": "unspecified",
+      "code": "RA-5.3"
+    },
+    {
+      "text": "Calculate transient voltages and currents in first and second-order linear circuits with DC excitation.",
+      "type": "unspecified",
+      "code": "RA-5.4"
+    },
+    {
+      "text": "Determine various normalized relationships between currents and voltages in four-terminal networks (quadripoles).",
+      "type": "unspecified",
+      "code": "RA-5.5"
+    }
+  ],
+  "syllabus_topics": [
+    "Magnitudes and electromagnetic units.",
+    "Reference conventions for current, voltage, and power.",
+    "Kirchhoff's Laws.",
+    "Active elements. Voltage and current sources. Dependent sources",
+    "Resistance: Ohm's law. Power and energy dissipated in a resistance: Joule effect.",
+    "Inductance: Power and electromagnetic energy stored in an inductance.",
+    "Capacitor. Electrostatic power and energy stored in a capacitor.",
+    "Operational impedance and admittance. Impedance associations.",
+    "Reduction of active branches. Source displacement.",
+    "Real sources. Real source conversion.",
+    "Thevenin's and Norton's Theorems. Circuit equivalents.",
+    "Maximum power transfer theorem.",
+    "Kenelly's Theorem.",
+    "Superposition rule.",
+    "Periodic waveforms: average and RMS values.",
+    "Phasor representation of sinusoidal magnitudes. Phasor diagrams",
+    "Response of passive elements in alternating current.",
+    "Complex impedance and admittance. Association of complex impedances.",
+    "Variation of impedance with frequency. Series and parallel resonance",
+    "Complex power. Apparent, active, and reactive power. Power factor.",
+    "Circuit analysis using the mesh current method",
+    "Circuit analysis using the node voltage method",
+    "Transient regime and steady regime of an electrical circuit",
+    "First-order circuits: response of RL and RC circuits in direct current.",
+    "Second-order circuits: response of RLC circuits in direct current.",
+    "Concept. Types of quadripoles.",
+    "Characteristic parameters of electrical quadripoles.",
+    "Practice 1: Handling the PicoScope. Kirchhoff's Laws.",
+    "Practice 2: Calculation of currents, voltages, and powers in steady-state and DC circuits.",
+    "Practice 3: Group tutorial. Not mandatory attendance, not evaluable",
+    "Practice 4: Analysis of circuits in sinusoidal regime.",
+    "Practice 5: Evaluation session. Circuit solving involving the handling of PicoScope and concepts acquired in previous practices."
+  ],
+  "teaching_methods": [
+    "Expository classes (theory lectures)",
+    "Classroom practices",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual study (exercises, analysis, review, bibliographic research)",
+    "Group work with peers (in classroom and laboratory practices)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (EP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Exam (EL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary call, if conditions for the Partial Exam (EP) are met to eliminate content, the final grade is calculated as (0.4 x EP) + (0.15 x EL) + (0.45 x EF). Otherwise, or if taking the full EF to improve the grade, it is (0.15 x EL) + (0.85 x EF). In all cases, a minimum of 20% of the maximum score for each exercise and 50% overall in the Final Exam (EF) is required, and for the EP (if content is eliminated). The course is passed with a minimum final grade of 5 points. If any minimum is not met, the maximum final grade will be 3.5 points. For extraordinary calls, the final grade is (0.15 x EL) + (0.85 x EF), with the same minimum requirements for the EF and a minimum final grade of 5 points to pass, otherwise a maximum of 3.5 points.",
+  "bibliography": [
+    "ANÁLISIS DE CIRCUITOS EN INGENIERÍA. Hayt; Kemmerly.Ed. McGraw Hill",
+    "Joseph A. Edminister. Circuitos eléctricos. Teoría y problemas resueltos. Serie Schaum. ISBN:84-481-1061-7.Mc-Graw Hill.",
+    "José Gómez Campomanes .Circuitos eléctricos. Servicio de publicaciones Universidad de Oviedo 1990. ISBN 84-7468-288-6.",
+    "Parra V. M.; Pérez, A.; Pastor, A.; Ortega, J. \"Teoría de Circuitos\" (2 tomos). U.N.E.D., 1981. ISBN 97-8843-621949-4",
+    "Pastor, A.; Ortega J; Parra, V. “Circuitos Eléctricos” (2 tomos), UNED, 2003. ISBN 97-8843-624981-1"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-1-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-1-003",
+  "source_language": "es",
+  "source_sha256": "2501e2b234dbd825c69b66d13ca5fc09a99305b5437a9e05ffe359664dfbed39",
+  "extracted_at": "2026-11-20T06:03:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

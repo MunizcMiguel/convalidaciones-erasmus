@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Netzsicherheit 1",
+  "course_name_en": "Network Security 1",
+  "ects": 5.0,
+  "semester": "3. Semester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge in TCP/IP",
+    "Basic knowledge of computer network security problems at the level of popular trade magazines (e.g. c't)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have a comprehensive understanding of the technical aspects of network security.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have recognized that cryptography alone is not sufficient to solve security problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will have acquired a comprehensive system understanding for complex IT systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will prepare for their role in professional life through independent considerations for improving network security.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can analyze new problems and develop new solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can argumentatively justify the utility of the solutions they have developed in conversation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will have understood that non-technical factors such as liability and resulting costs significantly influence IT security decisions.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction: Internet",
+    "Introduction: Confidentiality",
+    "Introduction: Integrity",
+    "Introduction: Cryptographic Protocols",
+    "PPP security (esp. PPTP)",
+    "EAP protocols",
+    "WLAN security (WEP, WPA, Wardriving, KRACK)",
+    "GSM and UMTS mobile communication (authentication and encryption)",
+    "IPSec (ESP and AH, IKEv1 and v2, attacks on IPSec)",
+    "File encryption with OpenPGP (data format, Efail, Klima-Rosa)",
+    "Email encryption with S/MIME (SMTP, data format, Efail, POP3, IMAP)",
+    "Published attacks on these systems will also be discussed",
+    "Students will undertake scientific considerations for improving security"
+  ],
+  "teaching_methods": [
+    "Youtube videos",
+    "Moodle materials",
+    "In-person in-depth lecture",
+    "Online lecture (from WS 24/25)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon passing the exam. The exam is a 120-minute written examination.",
+  "bibliography": [],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "netzsicherheit-1",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "de199babcb49c0775ce508f99dd8adf23380d8463c0e1d6a0c78691c62268272",
+  "extracted_at": "2026-11-20T12:36:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

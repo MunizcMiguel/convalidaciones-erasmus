@@ -1,0 +1,148 @@
+---
+{
+ "course_code": "2GITICID-0-012",
+ "course_name": "Redes de Sensores: Aplicaciones Médicas e IoT",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-012",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:08",
+ "content_sha256": "16d9a4c001e228fc973b7a19cce209483155ab74ae358163ad1b71135304b5ae"
+}
+---
+
+# Redes de Sensores: Aplicaciones Médicas e IoT
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-0-012
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Optativa
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Clases Expositivas (16 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura de Redes de Sensores: Aplicaciones Médicas e IoT es una asignatura optativa, impartida durante el séptimo semestre (primer semestre del cuarto curso) dentro del plan de estudios correspondiente al título de Grado en Ciencia e Ingeniería de Datos
+
+## Requisitos
+
+No existen requisitos para poder cursar esta asignatura.
+
+## Competencias y resultados del aprendizaje
+
+Competencias generales:
+
+CG02 - Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y  
+de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a  
+problemas conocidos y/o emergentes.
+
+CG04 - Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+CG05 - Desarrollar, gestionar y liderar proyectos que utilicen las técnicas, herramientas y metodologías propias de la ciencia de  
+datos en distintos ámbitos de aplicación.
+
+CG07 - Identificar oportunidades para aplicaciones innovadoras orientadas a datos en entornos tecnológicos en continua evolución.
+
+CG09 - Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como  
+oralmente.
+
+Competencia específica:
+
+CE14 - Capacidad para analizar, codificar, procesar y transmitir información y datos empleando técnicas de procesado de señal.
+
+Resultados de aprendizaje:
+
+RRS1: Conocer las diferentes redes de comunicaciones y redes de sensores (Internet of Things, IoT) para captación y transporte de datos, principal mente las orientadas a M2M (comunicaciones máquina a máquina).
+
+RRS2: Conocer los parámetros básicos de las redes de comunicaciones: cobertura, ancho de banda, técnicas de transmisión, escenarios de aplica ción.
+
+RRS3: Saber caracterizar los mecanismos de transmisión y los fenómenos que afectan a la transmisión (distorsión, ruido), así como técnicas para minimizarlos (codificaciones, MIMO).
+
+RRS4: Saber elegir el sistema de adquisición y transporte de datos más adecuado para una aplicación determinada, en función de parámetros tales como área de cobertura, escenario de aplicación, cantidad de datos a captar y transmitir, requerimientos de tiempo real.
+
+RRS5: Capacidad para discutir las ventajas y limitaciones de las tecnologías de las redes de comunicaciones y de sensores.
+
+RRS6: Conocer los diferentes tipos de sensores y sus aplicaciones. Énfasis en las aplicaciones médicas (e-Medicina y e-Salud), aplicaciones Smart (por ejemplo, Smart-cities), y aplicaciones para Industria 4.0
+
+## Contenidos
+
+1. Introducción a las redes inalámbricas.Mecanismos de transmisión inalámbricos y fenómenos que afectan a los mismos (ruido, multitrayecto). Esquemas de acceso, modulación, codificación.
+
+2. Redes de comunicaciones para el transporte de datos. Redes M2M en 4G y 5G. Internet of Things (IoT). Especificaciones (cobertura, bandas de frecuencia, ancho de banda, técnicas de acceso y codificación), ámbito y alcance.
+
+3. Tipos de sensores y elementos de adquisición de información.
+
+4. Aplicaciones de las redes de sensores e IoT para captación y transporte de datos.
+
+5. Aplicaciones para Industria 4.0, aplicaciones Smart (Smart-Cities y Gestión Medioambiental, Smart Buildings), logística y transporte, e-medicina y e salud, fuentes de información abiertas.
+
+## Metodología y plan de trabajo
+
+En la medida de lo posible, se plantea seguir una metodología basada en proyectos, siguiendo el proceso de desarrollo e integración de un sistema complejo: necesidad → desarrollo → sistema → servicio. El desarollo del proyecto se apoyará en clases expositivas, prácticas de aula y prácticas de laboratorio. En las clases expositivas se utilizarán diapositivas para impartir parte de los contenidos teóricos y vídeos. En las prácticas de aula y de laboratorio, se irá implementando paso a paso el desarollo de una red de sensores inalámbica basada en un prótocolo estandarizado (WiFi, LoRaWAN,...).
+
+|  | Trabajo presencial |  |  |  |  | Trabajo no presencial |  |  | Trabajo personal |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Temas | Horas | Clase | Prácticas de | Evaluación | Total | Clase | Prácticas de | Total | Estudio | Total |
+|  | totales | Expositiva | laboratorio |  |  | Expositiva | laboratorio |  | individual |  |
+| Tema 1 | 15 | 2 | 1 |  | 3 | 1 | 1 | 2 | 10 | 10 |
+| Tema 2 | 40 | 5 | 3 |  | 8 | 2 | 5 | 7 | 25 | 25 |
+| Tema 3 | 35 | 3 | 3 |  | 6 | 4 | 5 | 9 | 20 | 20 |
+| Tema 4 | 33 | 2 | 3 |  | 5 | 5 | 3 | 8 | 20 | 20 |
+| Tema 5 | 23 | 2 | 4 |  | 4 | 2 | 2 | 4 | 15 | 15 |
+| Exámenes | 4 |  |  | 2 | 4 |  |  |  |  |  |
+| **Total** | **150** | **14** | **14** | **2** | **30** | **14** | **16** | **30** | **90** | **90** |
+
+| Modalidades |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases expositivas | 14 | 9.33% | 30 |
+|  | Prácticas de laboratorio | 14 | 9.33% |  |
+|  | Sesiones de evaluación | 2 | 1.33% |  |
+| No presencial | Clases Expositivas | 14 | 9.33% | 30 |
+|  | Prácticas de laboratorio | 16 | 10.67% |  |
+| Personal | Estudio individual | 90 | 60.00% | 90 |
+|  | Total | 150 |  |  |
+
+## Evaluación del aprendizaje
+
+***Convocatoria ordinaria***
+
+*Trabajo práctico (T1): Trabajo a realizar durante el curso sobre los contenidos prácticos de todo el temario donde se evaluará:*
+
+- Descripción, requisitos del proyecto y diseño preliminar (1.0 puntos)
+- Diseño detallado (1.0 puntos)
+- Desarrollo de un subsistema de sensores (2.0 puntos)
+- Desarrollo de un subsistema de monitorización (2.0 puntos)
+- Integración y verificación el sistema final (2.0 puntos)
+- *Presentación intermedia y demo final (1.0 puntos)*
+- *Examen Final: 1.0 puntos*
+
+**Convocatoria extraordinaria:**
+
+Constará de dos partes:
+
+Un examen teórico se evalúa todo el contenido teórico de la asignatura. La nota obtenida en esta parte será aquella obtenida en dicho examen. (máximo 5 puntos)
+
+La evaluación de prácticas se lleva a cabo mediante la elaboración de un trabajo que comprende los contenidos vistos en la parte práctica de la asignatura. Se deberá defender oralmente el trabajo realizado (máximo 5 puntos.
+
+**Evaluación diferenciada**
+
+Se rige por las mismas directrices que la evaluación en Convocatoria extraordinaria.
+
+## Bibliografía
+
+- Vídeos y diapositivas en Campus Virtual
+- Sakthivel P., Ramasamy S. , Sumathy V. “Redes De Sensores Inalámbricos Con Internet De Las Cosas”. 2023. ISBN-13-978-6205690505
+- Vedat Ozan Oner “Developing IoT Projects with ESP32: Automate your home or business with inexpensive Wi-Fi devices” ( 2021). ISBN-13-978-1838641160. Ed. Pack Publishing
+- Kazem Sohraby, Daniel Minoli, Taieb Znati, “Wireless Sensor Networks: Technology, Protocols, and Applications”. Ed Wiley ISBN: 978-0-470-11275-5.
+- Holger Karl, Andreas Willig, ”Protocols and Architectures for Wireless Sensor Networks”. Ed Wiley

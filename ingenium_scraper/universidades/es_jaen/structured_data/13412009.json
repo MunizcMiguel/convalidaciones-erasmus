@@ -1,0 +1,115 @@
+{
+  "course_name_original": "Fundamentos de electrónica",
+  "course_name_en": "Fundamentals of Electronics",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "It is recommended to have previously studied Physics and Electrotechnics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional way and possess the competences usually demonstrated through the elaboration and defense of arguments and problem-solving within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Ability to work, lead, and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "skill",
+      "code": "134ACT1"
+    },
+    {
+      "text": "Ability for oral and written transmission of information adapted to the audience.",
+      "type": "skill",
+      "code": "134ACT6"
+    },
+    {
+      "text": "Ability to apply new technologies, including information and communication technologies.",
+      "type": "skill",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability for information management, handling, and application of technical specifications and necessary legislation for engineering practice.",
+      "type": "skill",
+      "code": "134ACT2"
+    },
+    {
+      "text": "Knowledge of the fundamentals of electronics.",
+      "type": "knowledge",
+      "code": "134ACC5"
+    },
+    {
+      "text": "Knowledge and use of the principles of circuit theory and electrical machines.",
+      "type": "knowledge",
+      "code": "134ACC4"
+    },
+    {
+      "text": "Knowledge of the fundamentals of automatisms and control methods.",
+      "type": "knowledge",
+      "code": "134ACC6"
+    }
+  ],
+  "syllabus_topics": [
+    "Theory Block I: Signals and components. Types of signals. Basic components of electrical circuits. Basic theorems for circuit resolution.",
+    "Theory Block II: Semiconductors. Diodes. Bipolar transistors. Introduction. Definition of Semiconductor. Silicon Obtention. Silicon Crystals. Types of Flows in Semiconductors. Band Theory. Types of Semiconductors: Intrinsic and Extrinsic. The PN Junction: Forward Bias and Reverse Bias. Diode Concept. Diode V-I Curve. Electrical Characteristics of the Diode. V-I Curve Linearization with Ideal Diodes. Basic Circuits with Diodes. Other Characteristic Parameters of the Diode. Diode Datasheet. Other Diodes. Transistors. Transistor Biasing. The transistor in switching. Types of semiconductor-based components.",
+    "Theory Block III: Operational Amplifier. Concept of amplifier. Voltage amplifier model. Cascading of amplifiers. Differential Amplifier Concept. The Ideal Operational Amplifier (Op-Amp). Linear circuits using Operational Amplifiers. Linear circuits with Op-Amp. The real Op-Amp.",
+    "Theory Block IV: Digital Electronics. Digital signals vs. Analog signals. Information representation. Need and justification. Representation of NATURAL magnitudes. Representation of INTEGER magnitudes. Representation of REAL magnitudes. Binary codes. Boolean Algebra: definition. Theorems and properties. Logic Gates. Combinational functions: definition. Truth tables. Canonical Forms: definition. Definition of Minterm and Maxterm. First Canonical Form. Second Canonical Form. NAND Implementation. NOR Implementation. Functions with don't cares. Simplification of Logic Functions. Veitch-Karnaugh Maps (V-K). Simplification with V-K. Design of combinational circuits.",
+    "Practical Block I: Instrumentation. Learning to handle the instruments of a basic Electronics Laboratory station: multimeter, power supply, function generator, and oscilloscope. Measurement of phase shifts in voltages of an R-C circuit.",
+    "Practical Block II: Analog Electronics. Identification and electrical characterization of different types of diodes. Design, simulation, assembly, and measurement of half-wave and full-wave rectifiers. Design, simulation, assembly, and measurement of an inverting amplifier based on an operational amplifier. Design, assembly, and measurement of a non-inverting amplifier based on an operational amplifier. Experimental measurement of slew rate and bandwidth.",
+    "Practical Block III: Digital Electronics. Identification and verification of the operation of integrated circuits with logic gates. Design, simulation, assembly, and verification of truth tables for combinational functions from digital integrated circuits."
+  ],
+  "teaching_methods": [
+    "Lectures in large groups",
+    "Introductory activities",
+    "Conferences or seminars",
+    "Problem-solving exercises",
+    "Practical activities",
+    "Seminars",
+    "Debates",
+    "Collective tutorials (doubt clarification)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and/or participation in in-person and/or virtual activities",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical concepts exam including problem-solving",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Continuous evaluation of assignments, cases, or exercises (Digital twin practices)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Laboratory/field/ICT tools practices (written exam and/or oral test, review of practice reports)",
+      "weight_percentage": 35.0
+    }
+  ],
+  "assessment_rules": "The grading system will be governed by RD 1125/2003 of September 5, which establishes the European credit system and the grading system in official university degrees. The final grade is composed of 5% for active participation, 45% for the theoretical concepts exam, 15% for continuous evaluation of 'digital twin' practices, and 35% for laboratory activities and their associated exam.",
+  "bibliography": [
+    "Hambley, Allan R. - (2001) - Electrónica - Pearson Educación",
+    "Wakerly,John F. - (1992) - Diseño digital: principios y prácticas - Prentice-Hall Hispanoamericana",
+    "Malvino, Albert Paul - (1982) - Principios de electrónica - McGraw-Hill"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412009",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13412009/es/2026-27-13412009_es.html",
+  "source_language": "es",
+  "source_sha256": "8ecb9ccefcda5e211414f8a739eecc5912a29ebd64a88ab96fcf26e0c790ff3e",
+  "extracted_at": "2026-11-13T21:38:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,227 @@
+---
+{
+ "course_code": "2GITICID-1-008",
+ "course_name": "Autómatas y Matemáticas Discretas",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-1-008",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:03",
+ "content_sha256": "9608a4ab166b581e5e265e3d89a8740b096ae07ac68a7235e38f05fbdda201b7"
+}
+---
+
+# Autómatas y Matemáticas Discretas
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-1-008
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Segundo Semestre
+- **Materia:** Plataformas de Computación
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Prácticas de Aula/Semina (7 Horas); Clases Expositivas (28 Horas); Tutorías Grupales (2 Horas); Prácticas de Laboratorio (21 Horas)
+
+## Contextualización
+
+La asignatura de *Autómatas y Matemáticas Discretas* (AMD) compone, junto con la de Computabilidad, la materia de Fundamentos de Computación (FC) que se integra en el Módulo de Fundamentos de Ingeniería (FI) junto con las materias de Fundamentos Físicos y Fundamentos Matemáticos. Por su carácter fundamental, sus contenidos y competencias serán utilizados en la mayor parte del resto de las materias repartidas a lo largo de los distintos cursos, o bien como herramienta o bien como fuente de ejemplos y aplicaciones.
+
+Servirá de apoyo a multitud de asignaturas, particularmente las de *Estructuras de Datos* y *Algoritmia*, proporcionando al estudiante una adecuada base conceptual sobre los principios teóricos relevantes que se utilizan en estas asignaturas. El estudio de los Lenguajes Formales, así como los correspondientes dispositivos reconocedores ó generadores, resulta de gran utilidad a la hora de comprender algunas de las tareas presentes en todo proceso de compilación de un programa, y más concretamente el análisis sintáctico y semántico del mismo. En lo que respecta a asignaturas del mismo curso, la materia de *Autómatas y Matemáticas Discretas* tiene interrelación con la asignatura de *Álgebra*. Los conceptos básicos sobre funciones, como el dominio, rango, las propiedades de inyectividad y suprayectividad, así como propiedades básicas sobre conjuntos y relaciones, resultan de gran utilidad para la asignatura de Autómatas. Sin embargo, como es lógico, la asignatura que constituye su continuación natural es la de *Computabilidad*. La materia que forman estas dos asignaturas constituye la justificación teórica de aspectos importantes de la Informática y debería hacer reflexionar al alumno sobre cómo se produjo el origen y desarrollo de la misma.
+
+## Requisitos
+
+Para un correcto seguimiento de esta asignatura es recomendable que el alumno esté familiarizado con algunos conceptos asociados a las funciones, como es el dominio y el rango, así como con cuestiones básicas de teoría de conjuntos y relaciones. En cualquier caso con la formación que aporta el bachillerato por la rama tecnológica es suficiente para el seguimiento de la asignatura.
+
+## Competencias y resultados del aprendizaje
+
+Como asignatura de carácter fundamental, Autómatas y Matemáticas Discretas contribuirá activamente a la adquisición de competencias básicas para el estudiante que le proporcione las habilidades de aprendizaje necesarias para emprender estudios posteriores o mejorar en su formación con un cierto grado de autonomía. Así, contribuirá a potenciar su capacidad para resolver problemas dentro de su área de estudio; de abstraer lo suficiente como para crear y utilizar modelos que reflejen situaciones reales; de actuar autónomamente así como de planificar y organizar su trabajo personal pero también fomentará la adquisición de competencias relativas al trabajo en entornos multidisciplinares y a la comunicación oral y escrita de documentación técnica poniendo énfasis especial en el cuidado de la calidad, la superación y el rigor que serán necesarios para el desarrollo profesional (GTR1 a GTR8).
+
+Además, la asignatura desarrolla la siguiente competencia específica:  
+**EFB3.1** - Capacidad para comprender y dominar los conceptos básicos de matemática discreta y su aplicación para la resolución de problemas propios de la ingeniería.
+
+Dicha competencia específica comprende los resultados de aprendizaje detallados en la siguiente tabla:
+
+| Competencia | Resultado de aprendizaje |  |
+| --- | --- | --- |
+| EFB3.1 | FC1 | Expresar alguna situación o problema real mediante un grafo |
+| EFB3.1 | FC2 | Construir caminos Eulerianos y Hamiltonianos en los correspondientes grafos |
+| EFB3.1 | FC3 | Utilizar los árboles y sus propiedades como estructura de datos |
+| EFB3.1 | FC4 | Resolver problemas reales utilizando la teoría de grafos |
+| EFB3.1 | FC5 | Construir un autómata finito reconocedor de un sencillo lenguaje dado y describir el lenguaje regular asociado a un pequeño autómata finito dado |
+| EFB3.1 | FC6 | Relacionar los lenguajes regulares con las expresiones regulares y autómatas equivalentes |
+| EFB3.1 | FC7 | Reconocer los límites de los lenguajes que pueden ser reconocidos por autómatas finitos |
+| EFB3.1 | FC8 | Describir alguna aplicación de los autómatas finitos |
+| EFB3.1 | FC9 | Construir gramáticas sencillas generadoras de un lenguaje dado y determinar el lenguaje generado por una gramática |
+| EFB3.1 | FC10 | Simplificar una gramática libre de contexto dada y pasar a cualquiera de las formas normales |
+| EFB3.1 | FC11 | Reconocer los lenguajes libres de contexto y conocer sus propiedades formales |
+| EFB3.1 | FC12 | Describir alguna aplicación de las gramáticas libres de contexto |
+| EFB3.1 | FC13 | Diseñar una Máquina de Turing sencilla asociada a un lenguaje dado |
+| EFB3.1 | FC14 | Reproducir la jerarquía de Chomsky relativa a los lenguajes formales |
+
+## Contenidos
+
+Los contenidos de esta asignatura se desarrollarán en los siguientes 4 temas:
+
+**1. Grafos.**
+
+- Conceptos básicos y representación
+- Accesibilidad y conexión
+- Grafos y relaciones
+- Caminos Eulerianos y Hamiltonianos
+- Árboles
+- Planaridad y coloreado
+
+**2. Autómatas y lenguajes regulares.**
+
+- Cadenas, alfabetos y lenguajes
+- Autómatas Finitos Deterministicos (AFD)
+- Autómatas Finitos No Determinísticos (AFN) y su equivalencia con los AFD
+- AFN con lambda-movimientos (AFN-λ) y su equivalencia con los AFN
+- Expresiones regulares (ER) y su equivalencia con los Autómatas Finitos
+- Propiedades formales de los Lenguajes regulares
+
+**3. Autómatas, gramáticas y lenguajes libres de contexto.**
+
+- Gramáticas regulares y su equivalencia con los Autómatas Finitos
+- Gramáticas y lenguajes libres de contexto (GLC, LLC)
+- Árboles de derivación y ambigüedad
+- Simplificación de GLC
+- Formas Normales de Chomsky y Greibach
+- Propiedades formales de los LLC
+- Introducción al análisis léxico y sintáctico en compiladores
+- Autómatas de Pila
+
+**4. Lenguajes recursivos y recursivamente enumerables.**
+
+- Jerarquía de Chomsky
+- Gramáticas generales o de tipo 0
+- Máquinas de Turing
+
+## Metodología y plan de trabajo
+
+Como se detalla en las tablas siguientes, se propone la siguiente tipología de modalidades organizativas, incluyendo los porcentajes correspondientes estimados en función del número total de créditos europeos de la asignatura:
+
+1. Presenciales (total 40%)
+   1. Clases expositivas 18.7%
+   2. Prácticas de aula/Seminarios/Talleres 4.7%
+   3. Prácticas de laboratorio/campo/aula de informática/aula de idiomas. 14%
+   4. Tutorías grupales 1.3%
+   5. Sesiones de evaluación 1.3%
+2. No presenciales (total 60%)
+   1. Trabajo autónomo: (48%)
+      1. Trabajos individuales 21.0%
+      2. Estudio personal 26.0%
+      3. Tutorías individuales 1.0%
+   2. Trabajo en grupo (12%)
+
+**Trabajo Presencial:**
+
+|  | Introd. | Grafos | Lenguajes Regulares | Leng. Libres de Contexto | Lenguajes Recursivos y R.E. | Evaluación | **Total** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| *Clase Expositiva* | 1 | 10 | 8 | 7 | 2 | 0 | 28 |
+| *Prácticas de aula* */ Seminarios / Talleres* | 0 | 2 | 2 | 3 | 0 | 0 | 7 |
+| *Prácticas de laboratorio / campo / aula de informática / aula de idiomas* | 0 | 6 | 8 | 7 | 0 | 0 | 21 |
+| *Prácticas clínicas hospitalarias* | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| *Tutorías grupales* | 0 | 0 | 1 | 1 | 0 | 0 | 2 |
+| *Prácticas Externas* | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| *Sesiones de Evaluación* | 0 | 0 | 0 | 0 | 0 | 2 | 2 |
+| ***Total*** | ***1*** | ***18*** | ***19*** | ***18*** | ***2*** | ***2*** | ***60*** |
+
+**Trabajo No Presencial:**
+
+|  | Introd. | Grafos | Lenguajes Regulares | Leng. Libres de Contexto | Lenguajes R. y R.E. | Evaluación | **Total** |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| *Trabajo grupo* | 0 | 5 | 5 | 5 | 3 | 0 | 18 |
+| *Trabajo autónomo* | 0 | 22 | 22 | 23 | 5 | 0 | 72 |
+| ***Total*** | ***0*** | ***27*** | ***27*** | ***28*** | ***8*** | ***0*** | ***90*** |
+
+**Resumen:**
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18.67 | 60 (40%) |
+|  | Práctica de aula / Seminarios / Talleres | 7 | 4.67 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 21 | 14.00 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales | 2 | 1.33 |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 2 | 1.33 |  |
+| No presencial | Trabajo grupo | 18 | 12.00 | 90 (60%) |
+|  | Trabajo autónomo | 72 | 48.00 |  |
+|  | Total | 150 |  | **150** |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen parcial (T1): Consta de una prueba teórica a realizar tras el primer tercio del semestre. Se evaluarán los contenidos del Tema 1. Para aprobar la asignatura en la convocatoria ordinaria, es necesario obtener una calificación de al menos 4 puntos sobre 10 en esta prueba. En caso de no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial. La calificación final del Tema 1 será el máximo entre la calificación obtenida en el examen parcial y la obtenida en la parte correspondiente a este tema en el examen teórico de la convocatoria oficial.
+- Examen parcial (T2): Consta de una prueba teórica a realizar tras el segundo tercio del semestre. Se evaluarán los contenidos del Tema 2. Para aprobar la asignatura en la convocatoria ordinaria, es necesario obtener una calificación de al menos 4 puntos sobre 10 en esta prueba. En caso de no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial. La calificación final del Tema 2 será el máximo entre la calificación obtenida en el examen parcial y la obtenida en la parte correspondiente a este tema en el examen teórico de la convocatoria oficial.
+- Examen parcial (T3): Consta de una prueba teórica a realizar al final del semestre. Se evaluarán los contenidos del Tema 3. Para aprobar la asignatura en la convocatoria ordinaria, es necesario obtener una calificación de al menos 4 puntos sobre 10 en esta prueba. En caso de no alcanzar el mínimo o de querer repetir la prueba, se podrá hacer en el examen teórico correspondiente a la convocatoria oficial. La calificación final del Tema 3 será el máximo entre la calificación obtenida en el examen parcial y la obtenida en la parte correspondiente a este tema en el examen teórico de la convocatoria oficial.
+- Cuestionarios en prácticas de laboratorio (CL): Durante las prácticas de laboratorio se plantearán cuestionarios a realizar en el Campus Virtual. Se evaluarán los contenidos correspondientes al temario visto durante la clase. No es necesaria una nota mínima.
+
+Calificación
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+(0,90 x ((T1 + T2 + T3) / 3)) + (0,10 x CL)
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatoria extraordinaria**
+
+La convocatoria extraordinaria consta de un único examen teórico dividido en varias partes:
+
+- Parte 1 (TE1): Se evaluarán los contenidos del Tema 1. La calificación final correspondiente al Tema 1 será el máximo entre la calificación obtenida en este elemento y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento T1). Para aprobar la asignatura en la convocatoria extraordinaria, es necesario obtener una calificación de al menos 4 puntos sobre 10 en esta parte.
+- Parte 2 (TE2): Se evaluarán los contenidos del Tema 2. La calificación final correspondiente al Tema 2 será el máximo entre la calificación obtenida en este elemento y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento T2). Para aprobar la asignatura en la convocatoria extraordinaria, es necesario obtener una calificación de al menos 4 puntos sobre 10 en esta parte.
+- Parte 3 (TE3): Se evaluarán los contenidos del Tema 3. La calificación final correspondiente al Tema 3 será el máximo entre la calificación obtenida en este elemento y la obtenida en la parte correspondiente de la convocatoria ordinaria (elemento T3). Para aprobar la asignatura en la convocatoria extraordinaria, es necesario obtener una calificación de al menos 4 puntos sobre 10 en esta parte.
+
+Si se han alcanzado todos los mínimos, la nota final de la convocatoria se calcula como:
+
+(TE1 + TE2 + TE3) / 3
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4,0.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación diferenciada**
+
+Aquellos alumnos con derecho a evaluación diferenciada serán evaluados del mismo modo que en las convocatorias extraordinarias.
+
+## Bibliografía
+
+Las tablas siguientes incluyen las referencias bibliográficas básicas y complementarias que se utilizan en la asignatura. Sin embargo los estudiantes dispondrán también de otros recursos en forma de apuntes, transparencias, boletines de problemas, exámenes tipo, etc que tendrán a su disposición en el Campus Virtual en el que, además, se incluirán avisos, applets, otros enlaces interesantes, etc.
+
+| **Bibliografía básica** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Introducción a la Teoría de Autómatas, Lenguajes y Computación.* | *Hopcroft, J.E.; Motwanni, R.; Ullman, J.D.* | Addison-Wesley |
+| *Teoría de Autómatas y Lenguajes Formales* | *Kelley, D.* | Prentice Hall |
+| *Análisis de Algoritmos y Teoría de Grafos* | *Abellanas, M.; Lodares, D.* | Ra-ma |
+| *Introduction to Discrete Structures* | *Preparata, Y.* | Addison-Wesley |
+
+| **Bibliografía complementaria** |  |  |
+| --- | --- | --- |
+| **Título** | **Autor** | **Editorial** |
+| *Teoría de Lenguajes, Gramáticas y Autómatas* | *Alfonseca, M.; Sancho, J.; Martínez, M.* | Universidad y Cultura |
+| *Theory of Finite Automata* | *Carroll, J.; Long, D.* | Prentice Hall |
+| *Mathematical Theory of Computation* | *Manna, Z.* | McGraw-Hill |

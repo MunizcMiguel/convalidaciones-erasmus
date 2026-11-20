@@ -1,0 +1,91 @@
+{
+  "course_name_original": "Introduction to Finite Elements for Mechanical Systems",
+  "course_name_en": "Introduction to Finite Elements for Mechanical Systems",
+  "ects": 3.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "basic concepts of finite elements for bar constructions in static applications",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "the student can fully compile a matrix formulation, code in Matlab/Python, carry out a complete analysis, and interpret results",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "demonstrate the modular nature of the method and make connections to other courses in the curriculum where these points are addressed",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "mathematical modeling of a continuous system with discrete degrees of freedom",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "coding of a problem in a matrix formulation",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Context and fundamental concepts of discretization",
+    "Composition of system matrices - Based on physical principles (for 2D problems)",
+    "Stiffness matrix of a bar element (truss structures)",
+    "Stiffness matrix of a beam element",
+    "Derived from energy statements in displacement formulation",
+    "System equations",
+    "Element stiffness matrix",
+    "System stiffness matrix",
+    "Coordinate transformations (for 3D problems)",
+    "Properties of the system matrix",
+    "Definition of boundary conditions and loads",
+    "Solution of the system of equations",
+    "Postprocessing of the results",
+    "Basic non-linear analysis (geometric non-linearity)",
+    "Outlook on the extension from 1D elements to 2D and 3D elements",
+    "Truss structure (with hinged nodes)",
+    "Straight beam structure with orthogonal elements",
+    "Planar structure with inclined/curved beams in 2D",
+    "Bar structure in 3D",
+    "Comparison of the previous exercises with an analysis in commercial Finite Element (FE) software."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Practical"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Partial or continuous assessment with (final) exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H0R52A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H0R52AE",
+  "source_language": "en",
+  "source_sha256": "7983c89fde0c2d975c6777f7d60144dd4c14d992b979db7ec8c36c69ed2f7d04",
+  "extracted_at": "2026-11-20T09:19:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

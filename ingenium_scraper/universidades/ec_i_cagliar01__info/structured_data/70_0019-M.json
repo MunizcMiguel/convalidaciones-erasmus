@@ -1,0 +1,129 @@
+{
+  "course_name_original": "ANALYSIS AND CONTROL OF DYNAMICAL SYSTEMS (70/0019-M)",
+  "course_name_en": "Analysis and Control of Dynamical Systems",
+  "ects": 12.0,
+  "semester": "Annual",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basics of linear algebra.",
+    "Trigonometric, exponential and logarithmic functions and their properties.",
+    "Ordinary linear differential equations.",
+    "Integrals.",
+    "Complex numbers.",
+    "Polynomials.",
+    "Fourier transforms.",
+    "Physical principles of the solid body and of electrical systems.",
+    "Algebraic, differential calculus.",
+    "Analysis and representation of functions depending on one or more variables.",
+    "Variable transformations.",
+    "Ability to apply the methods of algebra, differential calculus and function analysis to represent physical systems and evaluate their characteristics.",
+    "Calculus 1",
+    "Physics 1",
+    "Math and Physics 2 (recommended)",
+    "Applied math (recommended)",
+    "Electrotechnics (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will know how dynamical systems can be represented and the tools to verify their properties while understanding the relevant physical meaning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They will know the components of a control system and they will be able to evaluate the performance of each component and of the overall system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They will know the basics design approaches for single loop control systems while understanding their application contexts.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will be able to evaluate the performance of linear dynamical systems on the base of their mathematical and graphical representation and the overall performance of a feedback control system on the basis of its components characteristics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They will be able to design the controller's transfer function to satisfy prescribed closed loop performance by means of the most effective design approach.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to carry on a critical analysis of the system performance both for open-loop and closed loop systems in order to check the effectiveness of the control design to improve it, even by means of approximate methods.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students will be able to clearly present technical and scientific statements in the field of automatic control systems and generally in the field of the electrical and information engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will be able to get the information from different sources and to integrate them in order to achieve a comprehensive understanding of the aspects related to a control system analysis and design problem.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Automatic control and systems",
+    "Systems, models and their properties (Input-Output (IU) and State-Variable (SV) models, Examples, Properties)",
+    "Analysis in the time domain of IU models (IU models and analysis problems, Homogeneous equation and modes, Free evolution, Signals and evolutions, Response to an impulse, Forced evolution and Duhamel integral)",
+    "Analysis in the time domain of VS models (Problem of analysis, State transition matrix and Sylvester approach, Lagrange formula, Equivalence transformations, Diagonalization, Jordan form)",
+    "Analysis in the s domain (Laplace's transform and its inverse, Fundamental properties, Analysis of IU and SV models, Transfer function and matrix, Forced evolution, Interconnected systems)",
+    "Analysis in the frequency domain (Harmonic response, Response to signals with Fourier series, Bode diagrams, Characteristic parameters of the harmonic response and filtering actions)",
+    "Stability (BIBO stability, Lyapunov stability, Linear and time invariant systems, Routh criterion)",
+    "Laboratory (MATLAB and control system toolbox)",
+    "Introduction to Automatic Control (Presentation of the course topic, characteristics and methods, Initial test and discussion)",
+    "Control system structure (Components of a control system, Examples of feedback control systems from practice, Approximations in the analytic model of a dynamical system: the coil and D.C motor examples, Dynamical systems with dominant modes, Blocks algebra, Load effects in connected systems, Transfer function of connected systems)",
+    "Stability of feedback systems (Nyquist diagram and criterion, Phase and gain margins, Roots locus, Modal analysis of feedback systems via roots locus)",
+    "Requirements in control systems (Physical meaning of control system requirements, Sensitivity functions with respect to external disturbances and parameters variations, Tracking error, Asymptotic tracking error with respect to canonical inputs and disturbances, Tracking systems type, Transient behavior and closed loop characteristics, Relationships between step and frequency response, Relationships between open-loop and closed-loop characteristics)",
+    "S-plane design (Closed loop requirements representation in the s-plane, Control design by means of zero-pole compensation, Controller design for non-minimum phase systems, Influence of additional poles and zeroes on the roots locus)",
+    "Frequency response design (Harmonic response diagram via test, Closed loop requirements in the frequency response, Lead, lag, lead-lag compensators, Normalized diagrams for the lead compensator, Nichols chart, Feedback requirements verification by Nichols chart, Controller design via active and active electrical networks)",
+    "PID controllers (P, PI and PID controllers, Parallel and series configuration of a PID, PID tuning via open-loop and closed-loop Ziegler and Nichols methods, PID controllers as approximate realization of the lead-lag compensator)"
+  ],
+  "teaching_methods": [
+    "Practice",
+    "Lesson",
+    "Lectures with digital presenter",
+    "Guided exercises with individual and/or groups activities",
+    "Tutorial activities",
+    "Laboratory"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 120.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Mid-term evaluations (written tests on System theory)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final evaluation consists of an oral exam. To pass, students must demonstrate appropriate knowledge of linear system theory techniques and methods for critical analysis and controller design of feedback systems, as well as adequate expertise in applying this knowledge and identifying general aspects of problems. Significant leaks in preliminary skills will result in exam failure. Students attending lectures may take mid-term written evaluations for the System Theory module; passing these contributes to the final mark, but students must still demonstrate adequate knowledge of system analysis methods during the oral exam. Students can always opt for a full final oral exam regardless of mid-term evaluation results. Grading is based on knowledge, abilities, understanding, and exposition, evaluated from A (perfectly) to E (none), leading to a final mark between 18 and 30.",
+  "bibliography": [
+    "Alessandro GIUA, [docente], Analisi dei sistemi dinamici- 2a edizione, Springer-Verlag Italia, MIlano, 2009.",
+    "Norman S. Nise, Controlli automatici - a cura di Paolo Pugliese, Edizioni Città studi, De Agostini Scuola, Novara, 2013.",
+    "Paolo Bolzern, Riccardo Scattolini, Nicola Schiavoni, Fondamenti di controlli automatici- 4ª edizione, McGraw-Hill, Milano, 2015.",
+    "Augusto FERRANTE, Antonio LEPSCHY, Umberto VIARO, Introduzione ai Controlli Automatici, UTET Libreria S.r.l., Torino, 2000.",
+    "Giovanni Marro, Controlli automatici - 4ª ed., Zanichelli, Bologna, 1997.",
+    "J.J. D’Azzo, C.H. Houpis, Linear control systems analysis & design – Conventional and modern (3rd edition), McGraw-Hill, 1988."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni",
+  "institution_slug": "ec_i_cagliar01__info",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "70/0019-M",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2024&insegnamento=17271&ordinamento_aa=2022&af_percorso=9999&corso_cod=11037&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "78956390dba756a1b10230a2ec10c4f373740b0b4a459d05e8538e7ea6611587",
+  "extracted_at": "2026-11-20T12:43:18",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

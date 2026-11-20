@@ -1,0 +1,70 @@
+{
+  "course_name_original": "Instrumentation for Automatic Control",
+  "course_name_en": "Instrumentation for Automatic Control",
+  "ects": 5.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "in scope of lectures"
+  ],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Means for realization of control loop in general, division of the means based on transfer of information, signals and construction, comparing of various systems{priorities of pneumatic, hydraulic and electric system}",
+    "Static and dynamic qualities of the control means, possibilities of their evaluation with regards to the measured response",
+    "Function of the amplifier as a basic construction element of pneumatic and hydraulic means of control, hydraulic servomotor",
+    "Pneumatic drivers {function of corrector}, valves, the notation for drawing diagrams for control loops by norm",
+    "Labour, control and auxiliary means to control single and double actuating pneumatic cylinders",
+    "Possibilities of control more actuating pneumatic cylinders - application of quickstepper and relay mode of control",
+    "Signal filtering, analogue filters",
+    "Digital filtering, Finite Impulse Response filteres (FIR), Infinite response filters (IIR).",
+    "Analogue controllers and their realisation. Input and output signals",
+    "Discrete PID controllers, algorithm, alliasing, wind-up effect, experimental methods of settings",
+    "Electrical actuators, AC, DC, stepper motors, electromagnets. Dynamical properties, model of DC motor.",
+    "Busses, serial communications. Interface TIA/EIA 232F,422B, 485A. Current loop",
+    "Industrial communication systems, Reference model ISO/OSI. Profibus, CAN, -Net. AS-interface, HART.",
+    "Application of Matlab for simulation of dynamic and static properties of control means (dynamic error, frequency limit and etc.) - laboratory PC",
+    "Simulation of the amplifier supply with the feedback, dynamic properties of the hydraulic servomotor - laboratory PC",
+    "Practical acquaintance with pneumatic motors, controllable and auxiliary means for realization of control- laboratory FESTO",
+    "Practical application - laboratory FESTO",
+    "Control of single and double actuating pneumatic cylinders (laboratory FESTO)",
+    "Filters - amplitude and phase curve - measurement",
+    "Filter + PID controller, Matlab simulation",
+    "PID controllers, practical settings",
+    "PID controllers, practical settings",
+    "DC motor, static and dynamic parameters identification",
+    "AC induction motor and frequency converter",
+    "Electrical servomotor and controller for positioning",
+    "Stepper motor"
+  ],
+  "teaching_methods": [
+    "lectures",
+    "tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "Beneš, P.:Pneumatická ovládání,doplňkové skriptum ČVUT Praha 1991",
+    "Kolář,V.,Vinopal,St.: Hydraulika průmyslových armatur",
+    "Hlava,J.:Prostředky automatického řízení, skriptum, ČVUT FS, Praha 2002"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes",
+    "assessment_methods"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E371524",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet2981506.html",
+  "source_language": "en",
+  "source_sha256": "23c15a3d526541646fa24bb3c3a6549a167a2550eff0a957cac47746c6bb2f20",
+  "extracted_at": "2026-11-20T01:18:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

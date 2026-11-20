@@ -1,0 +1,116 @@
+{
+  "course_name_original": "Estructuras y Construcciones",
+  "course_name_en": "Structures and Constructions",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Model structures and calculate the actions that solicit them. Calculate forces and displacements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use the Finite Element Method in Structural Analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate and design structures using the direct stiffness method. Learn the fundamentals of plastic analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the different types of structural analysis, global stability analysis, and the analysis of plates and shells.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Calculate articulated and rigid structural systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Calculate and check metallic structures.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Analysis of articulated bar structures: Design and calculation principles. Basic calculation hypotheses. Fundamental relationships. Boundary conditions. Isostatism and hyperstatism. Calculation of isostatic trusses. The node equilibrium method. The section method. Force method. Displacement calculation. Calculation of hyperstatic trusses.",
+    "Introduction to Matrix Structural Analysis: Introduction to the matrix method and the Finite Element Method.",
+    "Introduction to Structural Design and Analysis: Structural steels. Types of structural elements. Profile typology. Calculation bases - Regulations. Introduction to the concept of bars, sheets, plates, cables, rings, and arches.",
+    "Introduction to Plastic Structural Design and Analysis: Methods for global structural analysis. Section classification. Initial imperfections. Equivalent actions. Materials used, calculation bases, and actions to consider.",
+    "Calculation of elements for resistance effects: Ultimate Limit State (ULS) of resistance to tension, compression, bending, shear, and torsion. Interaction of forces.",
+    "Dimensioning of elements subjected to bending: Element typology, Serviceability Limit State (SLS) of deformation, Ultimate Limit State (ULS) of resistance and stability (lateral buckling).",
+    "Calculation of flexo-compressed members: Compressed members. Ultimate Limit State of stability (Buckling). Non-linear behavior of steel. Calculation of buckling lengths. Buckling of compressed and flexed members.",
+    "Other relevant aspects in Structural Analysis: Introduction to structural dynamics and global stability of frames, and the study of plates and shells."
+  ],
+  "teaching_methods": [
+    "Large group lectures",
+    "Computer lab activities",
+    "Seminar or problem-solving activities in class",
+    "Scheduled tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.5,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam and/or cumulative/eliminatory partial exams",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Use of practical activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Resolution and submission of activities (cases, problems, reports, projects)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Active class participation",
+      "weight_percentage": 0.0
+    },
+    {
+      "method": "Attendance at face-to-face activities",
+      "weight_percentage": 0.0
+    }
+  ],
+  "assessment_rules": "The final exam (NE) is divided into a multiple-choice test (NTT), Part I (P1: topics 1-2), and Part II (P2: topics 3-8). To pass the subject, NTT, P1, and P2 must each be equal to or greater than 4.5 out of 10. The exam grade is calculated as NE = 0.3*P1 + 0.7*P2. A partial exam for topics 1-2 is offered, and students scoring 5 or higher are exempt from that part in the ordinary exam. The final grade (NA) is calculated as NA = 0.8*NE + 0.10*NT + 0.10*NP, where NT is the work grade and NP is the average practice grade; if P1 < 4.5 or P2 < 4.5, NA is capped at 4.5. Practical activities are not recoverable; global evaluation includes an additional practical exam in the computer lab.",
+  "bibliography": [
+    "Cálculo Matricial de Estructuras, F. Paris, Universidad Politécnica de Madrid (1980)",
+    "Estructuras Articuladas. Teoría y Ejercicios, R. Perera Veamazán y S. Gómez Lera. U.P.M. E.T.S. de Ingenieros Industriales (1998).",
+    "Análisis de Estructuras. Teoría, problemas y programas, R. Argüelles Álvarez; R. Argüelles Bustillo Fundación Conde del Valle de Salazar (1995).",
+    "Problema de Estructuras Metálicas según los criterios del Eurocódigo 3, J. Monfort LLeonart, Universidad Politécnica de Valencia (1999).",
+    "Código Técnico de la Edificación. Ministerio de Fomento.",
+    "Teoría General del MEF, R. Álvarez Cabal y J.J Benito Muñoz, UNED (1994)",
+    "Real Decreto 470/2021, de 29 de junio, por el que se aprueba el Código Estructural.",
+    "NCSE-02 Norma de Construcción Sismorresistente.",
+    "Estructura Metálicas para Edificación, J. Monfort LLeonart, Universidad Politécnica de Valencia (2006).",
+    "Cálculo matricial de estructuras en primer y segundo orden. Teoría y problemas, R. Argüelles Álvarez, R y Otros. Ed. Bellisco (2005).",
+    "Cálculo de Estructuras. Tomo I y II. R. Argüelles Álvarez E.T.S. Ingenieros de Montes (1986).",
+    "Fundamentos para el cálculo y diseño de estructuras metálicas de acero laminado. Comportamiento del material y esfuerzos básicos, J. Marco García, McGraw Hill (1997).",
+    "La estructura Metálica Hoy. R. Argüelles Álvarez. Bellisco (1987).",
+    "Estructuras de Acero. Cálculo, Norma Básica y Eurocódigo, R. Argüelles Álvarez; R. Argüelles Bustillo; F. Arriaga Martitegui; J.R. Atienza Reales. Bellisco (1999)."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501330",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501330-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "4bd3df37da425bd73481d2cb51b32ee53a0210591a1ceb1f66c1adbfd9a80e42",
+  "extracted_at": "2026-11-13T21:36:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

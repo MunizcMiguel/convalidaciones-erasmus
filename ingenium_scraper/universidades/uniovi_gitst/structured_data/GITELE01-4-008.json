@@ -1,0 +1,166 @@
+{
+  "course_name_original": "Dispositivos Electrónicos Programables",
+  "course_name_en": "Programmable Electronic Devices",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Electrónica Digital",
+    "Microprocesadores y Microcontroladores",
+    "Teoría de Circuitos",
+    "Fundamentos de Informática",
+    "Dispositivos Electrónicos y Fotónicos",
+    "Fundamentos de Electrónica Analógica"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Address the complete implementation of an “embedded system” based on microprocessors and/or microcontrollers in their professional life.",
+      "type": "unspecified",
+      "code": "RA-10.5"
+    },
+    {
+      "text": "Fluently handle the datasheets of typical electronic components of embedded systems: microprocessors, microcontrollers and peripheral integrated circuits.",
+      "type": "unspecified",
+      "code": "RA-10.6"
+    },
+    {
+      "text": "Know the programming language for a given microprocessor/microcontroller, and handle the most common development tools: assembler, compilers, simulators, emulators, etc., that facilitate development.",
+      "type": "unspecified",
+      "code": "RA-10.9"
+    },
+    {
+      "text": "Work in a group, reason critically to compare various solutions and discriminate the most optimal one.",
+      "type": "unspecified",
+      "code": "RA-10.10"
+    },
+    {
+      "text": "Acquire the ability to solve open problems and projects through analysis and information search. Defend their solution against other possible ones through the use of oral communication.",
+      "type": "unspecified",
+      "code": "RA-10.11"
+    },
+    {
+      "text": "Use A/D and D/A conversion circuits, both discrete and integrated into microcontrollers or other devices.",
+      "type": "unspecified",
+      "code": "RA-10.12"
+    },
+    {
+      "text": "Design and implement digital systems using timer blocks, A/D and D/A converters integrated into microcontrollers, and select the optimal one for each application.",
+      "type": "unspecified",
+      "code": "RA-10.13"
+    },
+    {
+      "text": "Know and use the most common digital communication buses and standards between systems (RS-232, RS-485, etc), and between integrated circuits (SPI, I2C, etc).",
+      "type": "unspecified",
+      "code": "RA-10.14"
+    },
+    {
+      "text": "Handle and design complex I/O circuits and interfaces, such as LCDs and their associated circuits, both at a logical and electrical level.",
+      "type": "unspecified",
+      "code": "RA-10.15"
+    },
+    {
+      "text": "Implement circuit designs in a structured way, dividing into simpler sub-circuits and their subsequent integration into a superior one, from given specifications.",
+      "type": "unspecified",
+      "code": "RA-10.16"
+    },
+    {
+      "text": "Use programmable logic devices as one more component within electronic design, distinguishing when their use is advantageous over other alternatives and handling the various debugging and development tools for a given family.",
+      "type": "unspecified",
+      "code": "RA-10.17"
+    },
+    {
+      "text": "Understand the architecture of the digital signal processor, distinguish when its use is advantageous over other alternatives of programmable electronic devices, and be able to establish the specifications for a given application.",
+      "type": "unspecified",
+      "code": "RA-10.18"
+    },
+    {
+      "text": "Design digital circuits using a specific DSP, and program it using its own design tools.",
+      "type": "unspecified",
+      "code": "RA-10.19"
+    },
+    {
+      "text": "Include basic signal processing and control algorithms in the design, selecting the most appropriate in each case, according to technical and economic criteria.",
+      "type": "unspecified",
+      "code": "RA-10.20"
+    },
+    {
+      "text": "Know the different microelectronics design strategies.",
+      "type": "unspecified",
+      "code": "RA-10.21"
+    }
+  ],
+  "syllabus_topics": [
+    "Advanced PLDs and FPGAs",
+    "Design of basic combinatorial and sequential blocks",
+    "Design of applications with PLDs/FPGAs using graphical input",
+    "Introduction to Hardware Description Languages",
+    "Introduction to DSPs",
+    "DSPs Architecture",
+    "Basic DSP blocks: Ports and Timers",
+    "DSPs Interrupts",
+    "Advanced DSP blocks: ADC, UART, SPI/I2C, DCI, CAN",
+    "Basic applications for DSPs: Filter Design, FFTs"
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom/Seminar practices",
+    "Laboratory practices",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment (Laboratory activities - FPGA block activities during classes)",
+      "weight_percentage": 25.6
+    },
+    {
+      "method": "Continuous assessment (Laboratory activities - FPGA block individual assignment)",
+      "weight_percentage": 38.4
+    },
+    {
+      "method": "Continuous assessment (Laboratory activities - dsPIC block exercises during classes)",
+      "weight_percentage": 14.4
+    },
+    {
+      "method": "Continuous assessment (Laboratory activities - dsPIC block individual assignment)",
+      "weight_percentage": 33.6
+    },
+    {
+      "method": "Continuous assessment (Theory activities - research and development activity/oral presentation/written report)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Final written exam",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is 80% continuous assessment and 20% final exam. For continuous assessment, laboratory activities account for 80% and theory activities for 20%. A minimum score of 4 out of 10 is required in each laboratory block (FPGA and dsPIC) to pass that part; if below 4, the continuous assessment grade is capped at 4. If the continuous assessment grade is 4 or less, the overall course evaluation is considered failed, and the final grade is capped at 4. For extraordinary calls and differentiated evaluation, the same weighting applies, but continuous assessment relies on two individual assignments (one for FPGA, one for dsPIC), and for differentiated evaluation, the final exam is replaced by a development project with a written report and defense.",
+  "bibliography": [
+    "E.MANDADO, L.J.ALVAREZ Y MªD.VALDES. Dispositivos Lógicos Programables y sus aplicaciones. Editorial Thomsom.",
+    "J.O. HAMBLEN, M. FURMAN. Rapid Prototyping of Digital Systems. Editorial Kluwer Academic Publishers.",
+    "J.I.ARTIGAS, L.A.BARRAGAN, C.ORRITE…. Electrónica Digital. Aplicaciones y problemas con VHDL. Editorial Prentice-Hall.",
+    "S.A. PEREZ, E. SOTO y S. FERNANDEZ. Diseño de Sistemas Digitales con VHDL. Editorial Thomson.",
+    "J.M.ANGULO, B. GARCIA, I. ANGULO y J. VICENTE. Microcontroladores Avanzados dsPIC. Editorial Thomson.",
+    "J.M.ANGULO, A.ETXEBARRIA, I. ANGULO e I. TRUEBA. DsPIC – Diseño Práctico de Aplicaciones. Editorial Mc Graw Hill.",
+    "Datasheets and application notes on dsPIC. Microchip.",
+    "http://www.altera.com/",
+    "http://www.xilinx.com/",
+    "http://www.microchip.com/"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-008",
+  "source_language": "es",
+  "source_sha256": "449b52d4f7eb21f9595d92df9c1ae77a5c9a4e86b0f3e708790f775d1ee7653e",
+  "extracted_at": "2026-11-20T06:04:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

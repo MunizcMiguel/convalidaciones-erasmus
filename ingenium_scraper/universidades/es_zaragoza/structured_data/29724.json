@@ -1,0 +1,111 @@
+{
+  "course_name_original": "Ingeniería térmica",
+  "course_name_en": "Thermal Engineering",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Technical thermodynamics",
+    "Fundamentals of heat transfer"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Applied knowledge of thermal engineering.",
+      "type": "knowledge",
+      "code": "HAB-14"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "HAB-23"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, skills, and abilities in the field of Industrial Engineering.",
+      "type": "skill",
+      "code": "HAB-24"
+    },
+    {
+      "text": "Understands the basic mechanisms of heat transport in steady-state and transient situations and applies the appropriate analytical calculation tools.",
+      "type": "knowledge",
+      "code": "HA_14.1"
+    },
+    {
+      "text": "Fluently handles simple computer tools for calculating heat transfer with numerical methods in transient and steady-state and evaluates their results.",
+      "type": "skill",
+      "code": "HA_14.2"
+    },
+    {
+      "text": "Understands common heat production procedures, analyzes the behavior of corresponding equipment, and applies appropriate calculation tools for creating simple calculation models.",
+      "type": "knowledge",
+      "code": "HA_14.3"
+    }
+  ],
+  "syllabus_topics": [
+    "PART I - HEAT TRANSFER",
+    "1 - Introduction to Heat Transfer",
+    "Conduction",
+    "2 - Fundamentals of heat conduction: Fourier's law, EDC",
+    "3 - One-dimensional and steady-state conduction. Fins",
+    "4 - 2-D and 3-D steady-state conduction. Numerical methods",
+    "5 - Transient conduction",
+    "Convection",
+    "6 - Fundamentals of heat convection",
+    "7 - External forced convection",
+    "8 - Internal forced convection",
+    "9 - Heat exchangers",
+    "10 - Natural convection",
+    "11 - Two-phase convection",
+    "Radiation",
+    "12 - Fundamentals of radiation",
+    "13 - Radiative exchange between surfaces",
+    "PART II - HEAT PRODUCTION",
+    "1 - Combustion thermochemistry. Boilers"
+  ],
+  "teaching_methods": [
+    "Lectures: Sessions with the professor where the syllabus will be explained and practical examples will be given",
+    "Problem and case solving: Practical sessions where problems related to theoretical concepts are solved",
+    "Simulation and laboratory practices: Computer simulation exercises, accompanied by experimental data collection in some cases, of thermal systems",
+    "Personal study and work: Preparation for classes, completion of exercises, etc."
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 66.0,
+  "assessment_methods": [
+    {
+      "method": "Practical activities",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Written exam (practical)",
+      "weight_percentage": 80.0
+    }
+  ],
+  "assessment_rules": "There will be a single global evaluation procedure. Practical activities will account for 20% of the grade. A written exam will account for 80% of the final grade, requiring a minimum of 4.5/10 to pass the course. The practical activities grade is retained for the enrollment period; otherwise, related questions may be included in the written exam for up to 20% of the total value.",
+  "bibliography": [
+    "Çengel, Y. A., Ghajar, A.J. Transferencia de calor y masa : fundamentos y aplicaciones. McGraw-Hill Interamericana, 2020",
+    "Incropera, F. P., DeWitt, D.P. Fundamentos de transferencia de calor. México : Prentice Hall, 1999",
+    "Marín, J. M., Monné, C., Uche, J. Transferencia de calor. 2a ed. Zaragoza : Kronos, 2007",
+    "Mills, A.F. Transferencia de calor. Irwin, D.L. 1995",
+    "Morán, M. J., Shapiro, H. N. Fundamentos de termodinámica técnica. Barcelona : Reverté, 2004.",
+    "Çengel, Y. A., Turner, R. H. Fundamentals of thermal-fluid sciences. Boston, Massachusetts : McGraw-Hill, cop. 2001",
+    "Moran, M. J. Introduction to thermal systems engineering : thermodynamics, fluid mechanics, and heat transfer. New York : John Wiley & Sons, cop. 2003.",
+    "Ragland, K. W., Bryden, K. M. Combustion engineering. 2nd ed. Boca Raton : CRC Press, 2011",
+    "Turns, Stephen R. Thermal-fluid sciences: an integrated approach. New York : Cambridge University Press, 2006"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Zaragoza",
+  "institution_slug": "es_zaragoza",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "29724",
+  "academic_year": "2026-27",
+  "source_url": "https://sia.unizar.es/doa/consultaPublica/look[conpub]MostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=es.ES&_anoAcademico=2026&_codAsignatura=29724",
+  "source_language": "es",
+  "source_sha256": "62cc47d81b6bae0f573059bf10fd62f6be0c373e444dc5d3fc62511be4113d04",
+  "extracted_at": "2026-11-13T20:25:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

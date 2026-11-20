@@ -1,0 +1,99 @@
+{
+  "course_name_original": "Network Security and Management",
+  "course_name_en": "Network Security and Management",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "To distinguish, evaluate and implement different available protocols or applications essential for computer network support and management.",
+      "type": "skill",
+      "code": "OA1"
+    },
+    {
+      "text": "To know different security methods in computer networks and systems and identify solutions for potential security threats",
+      "type": "knowledge",
+      "code": "OA2"
+    },
+    {
+      "text": "To distinguish, evaluate and implement in an integrated form, with other protocols, different available security techniques.",
+      "type": "skill",
+      "code": "OA3"
+    },
+    {
+      "text": "Taking into account concrete network management and security problems, the student should be able to use, in an integrated manner, systems, applications, services and/or tools that solve those problems.",
+      "type": "competence",
+      "code": "OA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Session and Data Management in Distributed Applications: session management and data storage in distributed applications",
+    "Management of Overlay Networks: Ad-hoc or structured overlay networks; file access",
+    "Management of Network Equipment and Services: architecture; SNMP protocol; monitoring; ASN.1; encoding",
+    "Introduction to Security: information attacks and security; cryptography and security services; ciphers and authentication using symmetric, asymmetric, and hash algorithms; cipher chaining; public key algorithms; key distribution infrastructures and digital certification; authentication; digital signatures; non-repudiation; integrity",
+    "Multi-layer Network Security: security using PAP, CHAP, EAP, RADIUS, IPSec, SSL/TLS, S-HTTP, PGP, DNSSEC; firewalls; blockchain; application-layer security."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "1st written test",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "2nd written test",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "5 laboratory assignments",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "First Season Exam (written exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Second Season Exam (written exam)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Special Season Exam (written exam)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "A minimum weighted average of 8 (out of 20) is required across both written tests. A minimum weighted average of 8 (out of 20) is required for the laboratory assignments. If a student has a temporary incapacity status that coincides with a lab session, the result of up to two lab assignments may be replaced by the score of the written test. The first, second, and special season exams are written exams worth 100% covering all program contents.",
+  "bibliography": [
+    "Computer Networking: A Top-Down Approach, James F. Kurose, Keith W. Ross, Addison Wesley",
+    "Acetatos e outro material de apoio na plataforma de e-Learning",
+    "Engenharia de Redes Informáticas, Edmundo Monteiro e Fernando Boavida, FCA - Editora de Informática",
+    "TCP/IP Teoria e Prática, Fernando Boavida e Mario Bernardes, FCA - Editora de Informática",
+    "Segurança em Redes Informáticas, André Zúquete, FCA - Editora de Informática",
+    "Applied Cryptography: Protocols, Algorithms and Source Code in C, Bruce Schneier, John Wiley and Sons",
+    "Cryptography and Network Security, Principles and Practice, William Stallings, Pearson Education",
+    "Computer Networks, Andrew S. Tanenbaum, David J. Wetherall, Pearson",
+    "Computer Networks, A systems Approach, Larry L. Peterson, Bruce S. Davie, Elsevier"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "prerequisites",
+    "learning_outcomes",
+    "syllabus_topics",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "ISCTE - Instituto Universitário de Lisboa",
+  "institution_slug": "ec_p_lisboa07",
+  "degree": "Telecommunications and Computer Engineering (Licenciatura, LETI)",
+  "course_code": "sgr",
+  "academic_year": "2026/2027 (plan vigente en la web)",
+  "source_url": "https://www.iscte-iul.pt/programmes/degree/9098#CourseInfoModal-4822",
+  "source_language": "en",
+  "source_sha256": "8c31c732e2cf1fb81d2887e9630cff8d1df61d212b855bbcbcf52fc98eb5c5a6",
+  "extracted_at": "2026-11-20T09:10:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,150 @@
+{
+  "course_name_original": "MODELING AND SIMULATION",
+  "course_name_en": "Modeling and Simulation",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Automatic Control",
+    "basic knowledge of calculus (differential and integral calculus, ordinary differential equations)",
+    "linear algebra (matrices, eigenvalues)",
+    "fundamentals of physics",
+    "minimal familiarity with the Matlab computing environment"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Describe the concept of dynamical system and its mathematical representations (input\nstate\noutput and, for LTI systems, transfer function).",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Understand the balance equations and constitutive laws underlying lumped-parameter physical modelling across different domains (mechanical, thermal, fluidic, electrical/electronic).",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Recognise the analogies between physical domains and multi-domain interactions.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Understand the fundamentals of numerical methods for the integration of differential equations and the concepts of stability, accuracy and stiffness.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Apply procedures for deriving lumped-parameter models starting from a real physical system.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Apply parameter identification techniques on experimental data (least squares) and model validation.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Apply numerical simulation methods in the Matlab/Simulink environment, with an appropriate choice of solvers and integration steps.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Apply parametric analyses and comparison between simulated results and experimental data.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Assess and interpret the adequacy of a model with respect to its purpose, managing the trade-off between accuracy and complexity.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Assess and interpret the quality of an identified model through the analysis of errors, residuals and overfitting phenomena.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Assess and interpret the reliability of simulation results in relation to numerical stability and error.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Communicate the modelling choices and their results through clear and reproducible technical reports.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Communicate the interpretation of simulation results with appropriate use of terminology, units of measurement and graphical representations.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Autonomously extend the acquired methodologies to new systems and application domains.",
+      "type": "skill",
+      "code": "D5"
+    },
+    {
+      "text": "Consult technical and scientific documentation (including the official MathWorks documentation) to deepen tools and methods.",
+      "type": "skill",
+      "code": "D5"
+    },
+    {
+      "text": "Independently tackle modelling and simulation problems in professional contexts or in subsequent studies.",
+      "type": "skill",
+      "code": "D5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to system modelling (fundamentals) Concept of a model: purpose, level of detail, accuracy/complexity trade-off. System, subsystem, boundaries, state variables, inputs, outputs, disturbances. System classification: SISO/MIMO, LTI/nonlinear, continuous-time/discrete-time, deterministic/stochastic (overview).",
+    "Physical lumped-parameter modelling and multi-domain analogies Balances and constitutive laws: conservation principles and dynamics. Typical structures: storage, dissipation, conversion elements. Mathematical analogies across domains (e.g., electrical\nmechanical\nthermal\nfluidic). Cross-domain examples (depending on the degree programme): RLC networks and circuit models (electronics). Mass\nspring\ndamper models (mechanics). RC thermal models (thermal systems). Tank and pipe models (fluid systems).",
+    "Mathematical representations of dynamic systems Ordinary differential equations (ODEs) and nonlinear models. Input\nstate\noutput form: definition and physical interpretation of states. Relationship with the transfer function for LTI systems. Subsystem interconnections: series/parallel/feedback, modular modelling.",
+    "Identification and validation (operational introduction) Why identification is needed: uncertain parameters and data-informed models. Parameter fitting from experimental data: least squares (basics), model selection, model/data comparison. Quality metrics and validation (error, residuals, overfitting: essential concepts).",
+    "Numerical simulation ODE integration methods: Euler, Runge\nKutta (concepts), adaptive solvers. Numerical stability, local/global error, step-size choice. Stiff systems: recognition and impact on simulation (overview). Discretisation and discrete-time simulation: sampling, aliasing (essential reminders).",
+    "Modelling and simulation in Matlab/Simulink (guided lab) Model implementation in Matlab: scripts, functions, simulation and post-processing. Simulink: block-based modelling, solver settings, parameters, signal logging. Parametric analyses, scenarios, parameter sweeps, comparison of modelling architectures. Good practices: traceability, units, lightweight model versioning, simulation reporting.",
+    "Case studies focused on electronics and biomedicine"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials/exercises, also with the aid of computer tools",
+    "Guided laboratory activities in the Matlab/Simulink environment"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Applied exercises (modelling, analysis and/or simulation)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Theory questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of a report/activity carried out in the Matlab/Simulink environment",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final examination verifies the achievement of expected learning outcomes. The assessment is expressed out of thirty and considers correctness and completeness in solving exercises, command of theoretical fundamentals and appropriateness of technical language, and ability to justify modelling choices and critically interpret simulation results. The examination is passed with a minimum mark of 18/30; honours are awarded for full command, autonomy of judgement, and particular clarity of exposition.",
+  "bibliography": [
+    "K. Ogata, Modern Control Engineering, Prentice Hall (Capthers Modeling )",
+    "L. Ljung, System Identification: Theory for the User, Prentice Hall / Pearson (Identification and validation)",
+    "K. J. Åström, R. M. Murray, Feedback Systems: An Introduction for Scientists and Engineers",
+    "K. J. Åström, B. Wittenmark, Computer-Controlled Systems",
+    "Official MathWorks documents (Matlab, Simulink, ODE solvers)",
+    "Supplementary teaching materials (lecture notes, slides, worked exercises and scripts) are made available by the lecturer on the University e-learning platform Handy."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86628",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8076&ordinamento_aa=2023&af_percorso=2&corso_cod=10186&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "10dccb8e1b76a10146682cfed932875d4c6200ed9429c0fac06f08ee521c5c96",
+  "extracted_at": "2026-11-20T08:19:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

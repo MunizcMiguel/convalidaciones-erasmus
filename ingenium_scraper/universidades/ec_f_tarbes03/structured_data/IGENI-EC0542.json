@@ -1,0 +1,138 @@
+{
+  "course_name_original": "Interface pièce - machine",
+  "course_name_en": "Part-Machine Interface",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "MFPM1&2 (EC0132, EC232)",
+    "statique (EC121)",
+    "construction méca (EC0122)",
+    "Initiation à la conception (EC131)",
+    "RDM (EC222)",
+    "Méthodes (EC324 EC431 EC541)",
+    "Machines CN (EC432)",
+    "CN FAO (EC543)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "As part of the serial production of a mechanical part, the student must be able to carry out a cutting study (choice of tools, proposed machining sequence, etc.).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "As part of the serial production of a mechanical part, the student must be able to design and dimension a part-machine interface (PMI).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "As part of the serial production of a mechanical part, the student must be able to carry out digital simulation of the machining of the part to be manufactured.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the geometry and dimensions of an elementary part in order to define the machining operations for manufacturing the part.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Define the orientation of the part in relation to the machine required, and position and hold it in position.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Schedule the machining operations to detail the manufacturing process.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Propose a cycle time.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Determine the clamping force in order to size the clamping system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Analyze/criticize the simulation produced.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "For each surface to be machined, be able to choose the appropriate cutting tools and their cutting conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Produce a robust digital model of the IPM on a volume modeller.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Check the relevance of the model in relation to the cdc.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement Computer Aided Manufacturing software, in line with the proposed process.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Study of data in the context of 3-axis CU milling + 4th and 5th positioned axes",
+    "Scheduling of operations in the machining phase",
+    "Choice of cutting tools based on the definition of the tool/material pairing",
+    "Definition of implementation conditions (taking into account technical and economic criteria)",
+    "Determine the cycle time for producing a part (excluding access time to the surfaces to be machined)",
+    "Design the machining set-up",
+    "Model the various components of the workpiece-machine interface",
+    "Creation of the CAM process",
+    "Validation of the process in a digital simulation environment",
+    "Critical analysis and suggestions for improvement"
+  ],
+  "teaching_methods": [
+    "Tutorial sessions (TD)",
+    "Teacher instruction on fundamentals of workpiece holder design",
+    "Pair work"
+  ],
+  "workload_hours_total": 78.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Control 1 (CC1)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Continuous Control 2 (CC2)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Continuous Control 3 (CC3)",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1 + 2*CC2 + 1*CC3) / 4.",
+  "bibliography": [],
+  "isced_f_code": null,
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0542",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "48613ba70623eb9135ec19917c136f05b915203606a2b94f61bb9b5041134ea2",
+  "extracted_at": "2026-11-18T09:52:16",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

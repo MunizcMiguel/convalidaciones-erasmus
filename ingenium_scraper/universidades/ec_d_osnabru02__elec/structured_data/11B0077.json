@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Datenbanken",
+  "course_name_en": "Database Systems",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Practical programming skills in object-oriented programming analogous to the concepts taught in \"Programming 1 (I)\"."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students know current database technologies and their application areas.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students have in-depth knowledge of modeling, normalization, transactions, and a database query language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can model, introduce, and query databases. They adhere to established quality-assuring development processes. They are able to critically reflect on their results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are proficient in using selected database technologies and can assess their applicability and practical relevance in a situation- and domain-specific manner.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students are able to apply modern and established database technologies as part of complex information technology projects. They can independently learn new database technologies and concepts and incorporate them into practical projects.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students can present their developed results to a specialist audience through formal presentations. They are capable of critical professional discussion with colleagues, users, database experts, and software developers.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Terms, concepts and architectures",
+    "Database management systems and their foundation",
+    "Data models (relational and NOSQL)",
+    "Data schemas",
+    "Schema-on-read, Schema-on-write",
+    "Conceptual and logical data modeling (e.g., ER modeling, table design)",
+    "Transfer of modeling to a concrete data model (e.g., from EER to relational)",
+    "Normalization, normal forms, redundancy, efficiency aspects",
+    "Introduction to a query language (e.g., SQL) along with programming language extensions",
+    "Using databases from programming languages",
+    "Introduction to advanced database technologies"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Exercise"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Term paper",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work",
+      "weight_percentage": null
+    },
+    {
+      "method": "Regular attendance",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The graded examination can be either a written exam or a term paper. The ungraded examination can be either an experimental work (approx. 5 experiments) or regular attendance (at least 80% presence). The selection of graded and ungraded examination types is at the discretion of the respective lecturer.",
+  "bibliography": [
+    "R. Elmasri, S. Navathe, Fundamentals of database systems (2016)",
+    "S. Kleuker, Grundkurs Datenbankentwicklung (2024)",
+    "S. Edlich: NoSQL",
+    "C. J. Date, An Introduction to Database Systems",
+    "H. Jarosch, Grundkurs Datenbankentwurf",
+    "A. Kemper, A. Eickler, Datenbanksysteme – Eine Einführung",
+    "G. Matthiessen, M.Unterstein, Relationale Datenbanken und SQL - Konzepte der Entwicklung und Anwendung",
+    "E. Schicker: Datenbanken und SQL",
+    "M. Schubert, Datenbanken"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B0077",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "b6d9d29f9f0b3bec499a57e8b21b6baf3736467bca280b0c9378ae076686fcae",
+  "extracted_at": "2026-11-20T12:32:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

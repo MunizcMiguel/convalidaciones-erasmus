@@ -1,0 +1,103 @@
+{
+  "course_name_original": "CAD/CAM (Ing.Gr.) (cadcaecaming)",
+  "course_name_en": "CAD/CAM (Eng.Gr.)",
+  "ects": 6.0,
+  "semester": "1st semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Modelling with surface techniques with CREO: Concepts of modelling using curves and surfaces",
+    "Basic features: Extrude, revolve, sweep, blend.",
+    "Advanced features: Sweep blend, helical sweep, Boundary blend, variable section sweep.",
+    "Detail features: Chamfer, round, draft.",
+    "Operations with surfaces and curves: Fill, Intersect, Merge, Project, Wrap, Trim, Extend, Offset, Thicken, Solidify.",
+    "Boundary conditions for surfaces and curves: Normal, Tangent, Curvature, Free",
+    "Top-down and Bottom-Up methodologies for modelling in CREO: Advantages and drawbacks",
+    "Skeletons",
+    "Applications in product design",
+    "Introduction to CAM",
+    "Characteristics of CAD/CAM tools",
+    "Manual programming and CAM-based programming.",
+    "Conventional vs CNC machine tools",
+    "Characteristics of CNC machines",
+    "Machining centers",
+    "Setup: fixturing systems, searching for zeros, tool adjustments",
+    "Milling: process fundamentals and applications",
+    "Haas CNC programming language",
+    "Numerical Control (NC) program format",
+    "Preparatory and auxiliary functions",
+    "Programming of dimensions, speeds and tools",
+    "Trajectory control",
+    "Fixed cycles",
+    "Programming of milling operations with CREO",
+    "Program environment",
+    "Programming steps",
+    "Model creation",
+    "Establishment of general working conditions",
+    "Programming of operations: Milling sequences",
+    "Trajectory simulation",
+    "Post-processing: conversion to ISO languages"
+  ],
+  "teaching_methods": [
+    "Previous work before face-to-face class: students must watch explanatory videos and complete assigned exercises.",
+    "Face-to-face class: explanation of technical concepts, resolution of doubts from videos and exercises.",
+    "Face-to-face class: students work on more complex exercises and course projects."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Evaluated test of surface modeling in CREO (CAD part)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Mechanical dissection of a product, report and oral presentation (CAD part)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Product design using Top-Down methodology in CREO, report and oral presentation (CAD part)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Practice 1: Manual programming and manufacturing of a pocket (CAM part)",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Practice 2: Design and manufacturing of a part (CAM part)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Evaluated tests (NC programming and CAM) (CAM part)",
+      "weight_percentage": 12.5
+    }
+  ],
+  "assessment_rules": "To pass the CAD part, a minimum grade of 3/10 is required in the evaluated surface modeling test, and both practical assignments must be completed. To pass the CAM part, a minimum grade of 3/10 is required in each of the two evaluated tests (NC programming and CAM), and both practical assignments must be completed. Two or more unjustified absences will result in a 'Did Not Sit' grade. In the extraordinary call, students will retake failed CAD components (practicals or evaluated tests) using the same assessment method. For the CAM part in the extraordinary call, students will retake failed evaluated tests (NC Programming and CAM), with each test being worth 2.5 points, and the CAM part grade will be the sum of these two tests.",
+  "bibliography": [
+    "Apuntes de la asignatura. CREO 9.0 para ingenieros. Unicopia.",
+    "Libro de apuntes de Tecnología de Fabricación. publicación interna de Tecnun.",
+    "Vertical & Horizontal Mill, Operator's Manual, Haas Automation Inc. Disponible en el taller.",
+    "Mill Series Programming Workbook, Haas Automation Inc. Disponible en el taller."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidad de Navarra",
+  "institution_slug": "es_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "cadcaecaming",
+  "academic_year": "2026-27",
+  "source_url": "https://asignatura.unav.edu/cadcaecaming/",
+  "source_language": "es",
+  "source_sha256": "7cd32ffa5e5ce7bf39985c641aae2c59a99cdc5bc0f9822cff1538c3762e9efc",
+  "extracted_at": "2026-11-18T02:50:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

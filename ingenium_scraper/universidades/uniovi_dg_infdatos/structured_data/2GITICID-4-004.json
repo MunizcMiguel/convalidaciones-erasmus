@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Administración de Sistemas",
+  "course_name_en": "Systems Administration",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic programming knowledge from the degree's foundational courses",
+    "Basic computer and network knowledge from the degree's foundational courses",
+    "Operating Systems course (second year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge of the services and management tools that integrate an operating system.",
+      "type": "knowledge",
+      "code": "PF10"
+    },
+    {
+      "text": "Perform basic administration tasks of a multitasking operating system in a network environment.",
+      "type": "skill",
+      "code": "PF11"
+    },
+    {
+      "text": "Install and configure applications and services in a computer system (physical or in the cloud) to achieve the required functionality for the system.",
+      "type": "skill",
+      "code": "PF12"
+    }
+  ],
+  "syllabus_topics": [
+    "Installation, startup, and operation of systems",
+    "Concepts of systems administration. Installation of Linux and Windows operating systems. Linux administrative tools. Windows administration console.",
+    "System startup and shutdown. Startup sequence. Linux service startup and shutdown scripts: runlevels, upstart, systemd. Linux and Windows startup troubleshooting.",
+    "Resource management and growth planning",
+    "Disks and file systems: ext3-4, NTFS. Journals. Disk administration. Partitioning. Logical volumes. Disk arrays. Partition managers. Quotas. Other storage devices.",
+    "Linux and Windows directory structure. Software installation and updates. Linux packages. System updates. Kernel modules. Windows drivers.",
+    "Backups. Backup tools. Simple backup. Multi-level backup.",
+    "User management and administration. Authentication systems",
+    "User accounts. Creation, deletion, changing properties of local users.",
+    "Local user authentication. Local groups. Resource access permissions.",
+    "Network configuration and shared resources.",
+    "Network configuration of a machine",
+    "Network authentication (LDAP, Kerberos, Active Directory)",
+    "Windows networks. Active Directory. Domains. Organizational units.",
+    "IPv6 concepts",
+    "Basic services",
+    "Firewalls: iptables, firewalls in Windows.",
+    "Network file systems: NFS and Samba/CIFS. Network backup.",
+    "Windows and Linux network services (DNS, WINS, DHCP, mail, SSH, Terminal Server, etc.)",
+    "Server migrations and basic virtualization concepts",
+    "Linux physical server migration",
+    "Windows physical server migration",
+    "Virtualization solutions",
+    "Migration of a physical server to a virtual server",
+    "Installation of operating systems and database applications.",
+    "Design and exploitation of resources",
+    "System recovery",
+    "User administration",
+    "Network configuration and basic services",
+    "Backups and scheduled tasks",
+    "Migration and virtualization",
+    "Installation and configuration of cloud systems"
+  ],
+  "teaching_methods": [
+    "Laboratory Practices",
+    "Group Tutorials",
+    "Classroom Practices/Seminars",
+    "Expository Classes",
+    "Group Work",
+    "Individual Work",
+    "Individual Tutoring",
+    "Personal Study"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Evaluation of individual or group assignments related to theory",
+      "weight_percentage": null
+    },
+    {
+      "method": "Formative and continuous evaluation in the performance of practical work",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final evaluation of practical work (product, report, oral presentation)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Theoretical exam",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "It is necessary to pass the theoretical and practical parts of the subject separately. If the average of theory assignments is 7 or higher, the final grade is calculated as (0.5 × Practical Grade) + (0.5 × Average Theory Assignments). If the average of theory assignments is less than 7, a theoretical exam (15% weight) is required, and the final grade is calculated as (0.5 × Practical Grade) + (0.35 × Average Theory Assignments) + (0.15 × Theoretical Exam Grade). The professor may require a videoconference after each assessment to verify knowledge.",
+  "bibliography": [
+    "All necessary material for this subject (notes, transparencies, complementary material) is available to students on the \"Campus Virtual\" corporate platform."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-4-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-4-004",
+  "source_language": "es",
+  "source_sha256": "9ec6bf6608bfff359c6e5ab223caeded4b0b8db7194c396f1c27ce0849cb4042",
+  "extracted_at": "2026-11-20T05:57:55",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

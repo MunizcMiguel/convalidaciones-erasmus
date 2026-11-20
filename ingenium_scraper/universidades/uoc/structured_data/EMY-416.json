@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Computational Materials Science II: Electronic Structure",
+  "course_name_en": "Computational Materials Science II: Electronic Structure",
+  "ects": 5.0,
+  "semester": "8th",
+  "year_of_study": 4,
+  "course_type": "other",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [
+    "EΜY-113"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Become familiar with the modern theory of electronic structure, and more specifically with DFT (Density Functional Theory), by employing large software packages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the basic principles of solving quantum mechanical problems in materials science as well as how to perform computational experiments in order to study properties of standard materials.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Develop scientific computing and software related technical skills.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire hands-on experience in first principles calculations for solving challenging problems in materials science.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to DFT. Schrödinger equation for polyelectronic systems and methods for its solution. Exchange and correlation potential. Calculation of molecules energy and reactions enthalpy.",
+    "Crystalline solids. Density and bulk modulus calculation using Bloch theorem. Energy bands.",
+    "Surfaces. Extension of theory to semi-periodic structures. The concept of surface tension. Influence of adsorbed molecules on surface properties. Adsorption enthalpy.",
+    "Magnetic materials. The role of spin in the magnetic properties of materials, such as iron, as well as in the cohesion of nonmagnetic molecules, such as H2O. The concept of density of states and its calculation. Oscillations of simple molecules.",
+    "Experimental techniques. Basic principles of experiments for the depiction of the electronic structure, such as STM (Scanning Tunneling Microscope) and their simulation. Electronic band structure calculations in metals, insulators, and semiconductors.",
+    "Reaction speeds. TST (Transition State Theory) and nudged elastic band method for the calculation of the speed of a chemical reaction. Application to diffusion constants calculation.",
+    "Machine learning for predicting electronic properties of materials. Machine learning algorithms for accurate description of interatomic interactions from DFT calculation data, effective prediction of electronic properties of materials, and other applications, such as molecule adsorption on surfaces, STM."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory work",
+    "Computer programming",
+    "Extensive use of specialized software in laboratory education",
+    "Use of ICT in communication with students",
+    "Presentations",
+    "Use of digital resources for further understanding taught material"
+  ],
+  "workload_hours_total": 140.0,
+  "workload_hours_contact": 65.0,
+  "assessment_methods": [
+    {
+      "method": "Mandatory exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final project with in-class presentation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Student performance evaluation consists of mandatory exercises handed out and graded during the course of the semester and a final project with in-class presentation at the end of the semester.",
+  "bibliography": [
+    "Antonios N. Andriotis, Computational Physics, Volume ΙΙ, 1999.",
+    "Frank Jensen, Introduction to Computational Chemistry, Wiley-VCH, 2nd edition 2006.",
+    "Efthimios Kaxiras, Atomic and Electronic Structure of Solids, Cambridge University Press, 2003.",
+    "Richard M. Martin, Electronic Structure: Basic Theory and Practical Methods, Cambridge University Press, 2004.",
+    "Jos M. Thijssen, Computational Physics, Cambridge University Press, 1999."
+  ],
+  "isced_f_code": "0533",
+  "missing_sections": [],
+  "institution": "University of Crete",
+  "institution_slug": "uoc",
+  "degree": "Materials Science and Engineering — Πτυχίο Τμήματος Επιστήμης και Μηχανικής Υλικών (first cycle, 240 ECTS, curriculum ΕΜΥ)",
+  "course_code": "EMY-416",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.materials.uoc.gr/wp-content/uploads/2026/07/new_courses-outline_en_eng.pdf",
+  "source_language": "en",
+  "source_sha256": "bc19926d260dca33f018bcaf8d5d80801e67bbfe56b0358f58b0b4756e433661",
+  "extracted_at": "2026-11-13T00:17:42",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

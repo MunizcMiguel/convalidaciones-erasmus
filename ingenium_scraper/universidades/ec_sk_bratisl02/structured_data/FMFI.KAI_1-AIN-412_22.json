@@ -1,0 +1,75 @@
+{
+  "course_name_original": "Logic for Computer Science",
+  "course_name_en": "Logic for Computer Science",
+  "ects": 7.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "sk",
+    "en"
+  ],
+  "prerequisites": [
+    "FMFI.KAI/1-AIN-160/22 - Discrete Mathematics (2)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students learn to model and solve problems using the methods of logic.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students learn to construct formal proofs and understand their relationship to informal ones.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students acquire the fundamentals of theoretical concepts (model, semantics, soundness, completeness), enabling them to study more advanced logical methods with applications in computer science.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Propositional logic",
+    "First-order logic with equality",
+    "Formalization and modeling in logic",
+    "Tarski’s semantics and an introduction to classical model theory",
+    "Introduction to proof theory, logical calculus (e.g., tableaux), soundness and completeness",
+    "Inference problems and their algorithmization",
+    "Overview of logic and inference applications, e.g., in databases, knowledge representations, artificial intelligence"
+  ],
+  "teaching_methods": [
+    "on-site learning"
+  ],
+  "workload_hours_total": 78.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Continuous assessment (Tests, assessed homework)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Final written exam (problem solving and theory)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Admission to the final exam requires at least 60% in continuous assessment. The final exam consists of two parts (problem solving and theory), with at least 60% required in each part. The overall assessment is based on a 60/40 proportion for continuous assessment and final exam respectively. Grading scale: A \n\n92%, B \n\n84%, C \n\n76%, D \n\n68%, E \n\n60%.",
+  "bibliography": [
+    "First-Order Logic / Raymond M. Smullyan. Springer, 1968.",
+    "Logika: Neúplnost, složitost a nutnost / Vítězslav Švejdar. Praha : Academia, 2002.",
+    "Language, Proof and Logic. / Dave Barker-Plummer, Jon Barwise and John Etchemendy. Stanford, CA : CSLI Publications, 2011."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Univerzita Komenského v Bratislave (Comenius University Bratislava)",
+  "institution_slug": "ec_sk_bratisl02",
+  "degree": "Bachelor Applied Informatics (1-AIN), Faculty of Mathematics, Physics and Informatics",
+  "course_code": "FMFI.KAI/1-AIN-412/22",
+  "academic_year": "2025/26",
+  "source_url": "https://ais2.uniba.sk/repo2/repository/default/ais/informacnelisty/2025-2026/FMFI/EN/AIN.pdf",
+  "source_language": "en",
+  "source_sha256": "b548a75225dff8ee3b4cc3a12c25f8485edeffa2d99a8476fd5220884f6aec7e",
+  "extracted_at": "2026-11-20T09:27:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

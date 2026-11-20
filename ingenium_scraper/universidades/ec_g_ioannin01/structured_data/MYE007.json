@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Security of Computer Systems and Networks",
+  "course_name_en": "Security of Computer Systems and Networks",
+  "ects": 5.0,
+  "semester": ">=6",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Learn basic methods and applications of symmetric and public-key cryptography.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand computer systems security and access control.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Get familiar with web security and distributed authentication.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Get hands-on experience with buffer overflow and network attacks.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to security: computer security, security model, attacks, OSI security architecture, functional requirements and strategy",
+    "Symmetric cryptography: definitions, requirements, Feistel structure, DES, 3DES, AES, stream ciphers, modes, secret key distribution",
+    "Elements of number theory: birthday paradox, divisibility and prime numbers, Euler’s Totient function, Euclidian algorithm",
+    "Public-key cryptography: steps, requirements, RSA, Diffie-Hellman, message authentication code (MAC), one-way hash function (SHA-1, SHA-512, MD5), HMAC, digital signatures",
+    "Software security: buffer-overflow attack, shellcode, secure programming, defensive programming, command/SQL injection, cross-site scripting (XXS), time-of-check-to-time-of-use (TOCTOU)",
+    "Security of computer systems: access control, discretionary access control, role-based access control, mandatory access control (Bell-Lapadula, Biba), trusted computing, trusted platform module (TPM)",
+    "Network security: denial of service, spoofing, reflection, firewall, network address translation (NAT)",
+    "Internet security: Internet Protocol Security (IPSec) protocol, security association, authentication header and encapsulating security payload, transport and tunnel mode",
+    "Web security: protocol for web traffic security (SSL/TLS), protocol for secure use of credit cards (SET)",
+    "Distributed authentication: Kerberos protocol, X.509 authentication service",
+    "Blockchain and cryptocurrency: block, blockchain, address, transaction, consensus, proof of work, mining",
+    "Programming development of software (buffer overflow) and network (man-in-the-middle) attacks."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Lab exercises",
+    "Self-study"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 39.0,
+  "assessment_methods": [
+    {
+      "method": "Final examination (questions and problem solving)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Κρυπτογραφία για ασφάλεια δικτύων: αρχές και εφαρμογές, William Stallings, Έκδοση 1η, 2011",
+    "Βασικές αρχές ασφάλειας δικτύων: εφαρμογές και πρότυπα, William Stallings, Έκδοση 3η, 2008",
+    "Ασφάλεια υπολογιστών: αρχές και πρακτικές, William Stallings, Lawrie Brown, Έκδοση 3η , 2016"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [
+    "assessment_methods"
+  ],
+  "institution": "University of Ioannina (Πανεπιστήμιο Ιωαννίνων)",
+  "institution_slug": "ec_g_ioannin01",
+  "degree": "Computer Science and Engineering (Diploma, 4 years / 240 ECTS, undergraduate programme)",
+  "course_code": "MYE007",
+  "academic_year": "2025/26",
+  "source_url": "https://www.cse.uoi.gr/wp-content/uploads/2025/09/2025-26_CSE-UOI_proptyxiaka-perigrammata_elective-courses_EN.pdf",
+  "source_language": "en",
+  "source_sha256": "5753e888ce93e94a8d5b881562ed755d55d9aab80ef068f61700fdf05633a98f",
+  "extracted_at": "2026-11-20T09:25:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

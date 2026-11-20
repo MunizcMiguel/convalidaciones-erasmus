@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Betriebssystem E Und Netzwerke",
+  "course_name_en": "Operating System E And Networks",
+  "ects": 5.0,
+  "semester": "1",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Students gain knowledge of concepts and technologies necessary for building operating systems and knowledge of the modular structure and functionality of operating systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students acquire knowledge and skills in the configuration, administration, and secure application of operating systems using commercial operating systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students classify and evaluate modern operating forms of data centers, such as virtualization or cloud computing, in the context of operating systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students gain insight into the theoretical foundations of a Linux system and an overview of the most important shell commands.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students install and administer a Linux server.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain the importance of layered models and the tasks and functions of the layers of the ISO/OSI model, as well as the most important service representatives of each layer.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Reproduce the concepts of application protocols like HTTP and SMTP and understand their functionality, e.g., using sequence diagrams.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Program simple internet applications using sockets.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze and diagnose network problems with suitable tools.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Rights management (authentication, authorization)",
+    "Processes & Threads, Inter-Process Communication",
+    "Deadlocks, Mutex procedures",
+    "Peripherals / Input/Output",
+    "Operating system API, Userspace / Kernelspace",
+    "Dealing with Linux / Unix / POSIX",
+    "Dealing with Shells - graphical and text-based (especially practical use of the command line)",
+    "Use of system virtualization (e.g.: Hypervisors, VirtualBox, XEN, Docker, ...)",
+    "Use of system calls",
+    "Layered model: OSI",
+    "Network topologies (Bus, Tree, Star, partially/fully meshed)",
+    "Application layer: HTTP, SMTP & IMAP, DNS",
+    "Transport layer: Sockets, UDP, TCP",
+    "Outlook on the network layer: IPv4/v6",
+    "Use of tools and techniques for network analysis and configuration (e.g., Ping, Traceroute, PuTTY/telnet, nslookup, ...)",
+    "Use of browser debugging tools (network console, ...)",
+    "Understanding and implementing text-based application protocols (e.g., HTTP interactions)"
+  ],
+  "teaching_methods": [
+    "Seminar-style teaching with practical exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The assessment is a 90-minute written examination. The weighting of the grade is 5/210.",
+  "bibliography": [
+    "Andrew S. Tanenbaum, Herbert Bos; Modern Operating Systems; Prentice Hall, 4th ed., 2014",
+    "Evi Nemeth, Garth Snyder, Trent R. Hein et ak.; Unix and Linux System Administration Handbook, Addison-Wesley, 5th ed., 2018",
+    "Micha Gorelick & Ian Ozsvald; High Performance Python; O'Reilly, 2014",
+    "James F. Kurose, Keith F. Ross; Computer Networking: A Top-Down Approach; Pearson, 7th ed., 2017",
+    "Andrew S. Tanenbaum, David J. Wetherall; Computer Networks; Pearson, 5th ed., 2014"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-04",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "5c8a40dd3f906298e8ba0fdfd58823609a8cc5b1640c312930955f29d81337b0",
+  "extracted_at": "2026-11-20T09:21:26",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

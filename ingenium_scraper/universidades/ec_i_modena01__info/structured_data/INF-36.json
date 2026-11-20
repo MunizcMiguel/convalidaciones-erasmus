@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Software Engineering (INF-36)",
+  "course_name_en": "Software Engineering",
+  "ects": 9.0,
+  "semester": "First Half-Year Cycle",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Object-oriented Programming"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Providing the fundamental knowledge of the models, languages and technologies for requirements specification, design, implementation, testing, deployment and maintenance of software systems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The lectures will provide the students with the ability to know and understand the major technology, scientific and application-related trends in the software engineering.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Through laboratory practical classes the students will describe the specific requirements and design of a software system. The students will be able to design software according to patterns consolidated and available in the literature.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The students will be able to assess whether a program has been specified, designed and developed in compliance with well-known, standard quality methodologies.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "The studentd will be able to gather and describe the technical specifications of a software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student will achieve the knowledge and the ability to perform further and complete investigations on the issues of software design.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Requirement specifications",
+    "Using the UML use case diagram for the representation of the requirements",
+    "Design",
+    "High-level design definition and detail",
+    "Examples of architectural styles",
+    "Functional decomposition",
+    "Object Relational Mapping: definition and issues",
+    "Defining the design quality characteristics",
+    "Introduction of metrics for software evaluation",
+    "Definition of cohesion and coupling of software modules",
+    "Use of UML diagrams for the description of the software",
+    "ORM: JPA and Hibernate",
+    "Use of design patterns for software design",
+    "Implementation, testing",
+    "Defining what it is meant by good planning and identification of best practices",
+    "Software refactoring",
+    "Software testing and code inspection",
+    "Survey of several testing techniques (Path Analysis, Boundary values analysis, ...)",
+    "Junit: the framework for testing Java programs",
+    "Overview of basic techniques of defensive programming",
+    "Maven and Git programming support, and software management",
+    "Distribution and Maintenance",
+    "Description of the main problems associated with configuration management and post-production software",
+    "Types of software licenses",
+    "AI-Native Software Engineering",
+    "Use of LLMs and agents across the different phases of the software development lifecycle",
+    "Opportunities, limitations, and risks of AI-generated code",
+    "The role of human verification",
+    "Demonstration of AI coding assistants for software generation, comprehension, modification, refactoring, and testing"
+  ],
+  "teaching_methods": [
+    "Lesson",
+    "Laboratory",
+    "Lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 108.0,
+  "assessment_methods": [
+    {
+      "method": "Written test: open questions",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Written test: exercises for software application design (use case diagrams, class diagrams, sequence diagrams, package diagrams, activity diagrams, design patterns)",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Written test: testing exercises (identifying tests to perform for a given function)",
+      "weight_percentage": 55.0
+    },
+    {
+      "method": "Individual report describing a software product (requirements, UML diagrams, design patterns)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Learning is verified through a written test and a report. The written test consists of 3-4 open questions (30% of overall evaluation), software application design exercises (55% of overall evaluation), and testing exercises (55% of overall evaluation). The individual report describes a software product in detail, assessed on precision and correctness (25%), completeness in design and use of patterns (50%), and \"wow effect\" (25%).",
+  "bibliography": [
+    "Frank Tsui, Orlando Karam, Barbara Bernal, Software engineering (Third Edition), Jones & Bartlett Learning",
+    "Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra: Head First Design Patterns, O'Reilly Media 2014",
+    "Erich Gamma, Ralph Johnson, Richard Helm, John Vlissides: Design Patterns: Elements of Reusable Object-Oriented Software, Addison-Wesley, 1994",
+    "Martin Fowler, UML Distilled: A Brief Guide to the Standard Object Modeling Language , Pearson Addison Wesley",
+    "Martina Seidl, Marion Scholz, Christian Huemer, Gerti Kappel: UML @ Classroom - An Introduction to Object-Oriented Modeling, Springer 2015"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia — Ingegneria Informatica (MO)",
+  "institution_slug": "ec_i_modena01__info",
+  "degree": "Laurea in Ingegneria Informatica (Mo) (Computer Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "INF-36",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=27351&ordinamento_aa=2022&af_percorso=10000&corso_cod=10296&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "bc68c7a5e57c92627d5a7eb75e95d8cebff4f55cb222d5cb7b7560bac20f98aa",
+  "extracted_at": "2026-11-20T12:42:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

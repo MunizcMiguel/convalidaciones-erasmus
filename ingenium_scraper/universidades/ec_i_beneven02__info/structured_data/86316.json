@@ -1,0 +1,216 @@
+{
+  "course_name_original": "NETWORKED SYSTEMS PROGRAMMING (86316)",
+  "course_name_en": "Networked Systems Programming",
+  "ects": 9.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "knowledge of the fundamental principles of I/O management, concurrent execution, and system calls, as well as procedural and object-oriented programming, with particular emphasis on I/O programming",
+    "Operating Systems course",
+    "Programming 2 course"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with the theoretical and methodological knowledge required to understand the operation of computer networks and to develop distributed applications based on the main network protocols and services.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Explore the software architecture of computer networks, with particular emphasis on the application layer of the Internet, message-passing programming interfaces, and the technologies used for Web application development.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Understand the operating principles of network-based distributed systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Select appropriate tools for developing network applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Implement software solutions based on Internet protocols and services.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the architecture of computer networks and the role of the main Internet protocols.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Explain the operating principles of distributed applications and, in particular, client-server systems.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Identify the main programming interfaces for message-based communication.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Understand the architectures, protocols, and technologies underlying Web applications.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Design and develop simple distributed applications based on network protocols and services.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Implement client-server applications using the main communication APIs.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Develop Web applications using the principal technologies covered in the course.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Integrate software components that communicate through standard network protocols.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Evaluate the characteristics of different architectural solutions for network applications.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Select appropriate protocols, tools, and technologies according to application requirements.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Critically analyze the performance of client-server applications.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Clearly describe the architectures and protocols of computer networks using appropriate technical terminology.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Document and present the design choices adopted in the development of network applications.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Discuss technical solutions and design issues using the terminology of software engineering and computer networking.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Independently explore new technologies and frameworks for network application development.",
+      "type": "skill",
+      "code": "D5"
+    },
+    {
+      "text": "Consult and interpret technical documentation, standards, and Internet protocol specifications.",
+      "type": "skill",
+      "code": "D5"
+    },
+    {
+      "text": "Adapt their knowledge and skills to the evolution of software technologies and network architectures.",
+      "type": "skill",
+      "code": "D5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to computer networks",
+    "Network types and access networks",
+    "Packet switching networks",
+    "Network model",
+    "Networking software",
+    "Layered architectures",
+    "Concepts of protocol, service and interface",
+    "OSI reference model and TCP/IP network architecture",
+    "Application layer",
+    "Client/Server model",
+    "Socket interface for network programming and synchronous I/O multiplexing",
+    "Concurrent programming",
+    "The Web and its infrastructure",
+    "HTTP/1.1",
+    "HTTP/2",
+    "Introduction to QUIC and HTTP/3",
+    "Transport layer",
+    "Addressing",
+    "Multiplexing and demultiplexing",
+    "Principles of reliable transmission",
+    "ARQ protocols",
+    "UDP and TCP protocols",
+    "Flow control",
+    "Congestion control principles",
+    "Congestion control in TCP",
+    "Network layer",
+    "Addressing",
+    "Routing",
+    "IP protocol",
+    "Datagram fragmentation",
+    "Internet Routing",
+    "Subnetting, supernetting, CIDR, NAT e NAPT",
+    "Introduction to SDN: separation between data-plane and control-plane",
+    "Data link layer",
+    "Multiple access to the channel",
+    "IEEE 802.3 and 802.11",
+    "ARP protocol",
+    "Web applications programming",
+    "REST paradigm and RESTful services",
+    "JAX-RS",
+    "Introduction to CSS, DOM, Javascript and technologies for developing Single Page Applications",
+    "Server-side frameworks",
+    "IoT applications programming",
+    "MQTT Broker",
+    "CoAP and MQTT client and server programming",
+    "Flow-based programming"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Exercise during oral exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Discussion of exercises developed during the course",
+      "weight_percentage": null
+    },
+    {
+      "method": "Questions about theoretical topics",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam is oral. The assessment is based on the relevance of the answers, the quality of content, appropriate use of technical terminology, clarity of expression, ability to connect topics, and ability to provide examples. Accommodations for students with specific learning disorders or disabilities will be provided while respecting learning outcomes.",
+  "bibliography": [
+    "J. Kurose, K. Ross. “Computer Networking: A top down approach”, 9th edition - Pearson Education, 2025",
+    "J. Kurose, K. Ross, “Reti di Calcolatori e Internet: un Approccio Top-down”, Paerson Education, 8a edizione, 2022",
+    "R. Stevens, UNIX Network Programming, Volume 1, Second Edition: Networking APIs: Sockets and XTI, Prentice Hall, 1998, ISBN 0-13-490012-X",
+    "Slides",
+    "RFC and other specifications",
+    "Course materials are available on the University's Handy e-learning platform in a dedicated course area. Link https://handy.unisannio.it/login/index.php"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica",
+  "institution_slug": "ec_i_beneven02__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "86316",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=5090&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "a02ec24eb0d278c3304df29ef4e4c8bbbfb045464e14375b1f91a378bee21b0b",
+  "extracted_at": "2026-11-20T12:43:10",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

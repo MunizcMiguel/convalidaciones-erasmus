@@ -1,0 +1,146 @@
+{
+  "course_name_original": "MICROCONTROLERE, MICROPROCESOARE",
+  "course_name_en": "MICROCONTROLLERS, MICROPROCESSORS",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "ro"
+  ],
+  "prerequisites": [
+    "familiar with English",
+    "familiar with mathematical calculation (algebra, trigonometry)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knows the operating principles of microprocessors and microcontrollers used in mechatronic applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understands the architectural differences between types of processors (von Neumann, Harvard, CISC, RISC).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knows low and medium-level programming languages used in embedded application development.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understands the hardware and software structure of development platforms like Arduino and 8051.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Applies data conversion and acquisition methods (ADC, DAC) and integrates them into demonstrative applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Develops applications with serial communications (UART, SPI, I2C) and PWM control for mechatronic systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Integrates input/output, timing, and digital display modules into functional applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrates responsibility in using hardware and software platforms in the laboratory.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develops clear technical documentation for projects developed with microcontrollers.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Shows autonomy in designing and testing embedded solutions specific to intelligent systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Takes an active role in developing robust autonomous applications for Mechanical Engineering.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Use of binary and hexadecimal operating system, Conversions from decimal to binary and hexadecimal systems, Performing logical-arithmetic operations in hexadecimal system",
+    "Presentation of main differences between microprocessors, microcontrollers, CISC, RISC, von Neumann and Harvard architectures; Increasing microprocessor performance by using an extended set of register locations, pipelining technique, and cache memory; Advantages of microcontrollers from the perspective of hardware resources on the same integrated circuit; Fast signal processing processors",
+    "Description of the general architecture of an Intel-type microprocessor system; comparisons between Intel, AMD, and Motorola Power PC processors; General presentation of the Intel x86 microprocessor and the Motorola Power PC microprocessor; Methods for testing the computational performance of microprocessors from various families using benchmark tests",
+    "Generalities regarding microprocessor languages; Instruction encoding; Example of a restricted machine code type language",
+    "Arithmetic, logical, boolean, branching (jump) and data transfer instructions; Arithmetic instructions: addition, subtraction, multiplication and division in single and double precision; Logical instructions - AND, OR, Exclusive OR, Complement, 2's Complement; Boolean instructions (bit-level) - AND, OR, NOT, shifts, rotations; Conditional or unconditional jump instructions",
+    "Memories and addressing modes used in microprocessors and microcontrollers; RAM, ROM, EEPROM and Flash memories, Data memories and Program memories; Addressing modes: inter-register, direct, immediate, indirect, absolute, indexed, between memory blocks",
+    "Basic architecture of the ARDUINO development system; Programming; Input/Output Interfaces; Development Kit",
+    "Writing a C program in Arduino 1.8 Platform",
+    "Execution of demonstrative programs from the ARDUINO application library",
+    "Execution of examples for creating demonstrative applications using the C programming language in ARDUINO",
+    "Analog-to-digital and digital-to-analog conversion techniques; converters and data acquisition experimented with the ARDUINO Kit; Notions regarding conversion resolution and acquisition speed; Parallel, serial A/D and D/A conversion techniques, with weighted resistive networks, sigma-delta",
+    "Presentation of hardware and software aspects of I/O transfer techniques",
+    "Operation and programming of a Timer/Counter module; Methods for measuring the period and frequency of signals with applications in the automotive industry; Emitting pulse trains with variable PWM duty cycle",
+    "Inter-processor connection and communications using serial link, I2C, SPI",
+    "Presentation of Arduino Kit 1, Assembly of the workbench; Presentation of the Arduino Software IDE development platform; Presentation of C instructions from the Arduino CC Library with examples",
+    "Execution of LED Blinking circuit on a prototype board and execution of the program for turning on/off an LED at various frequencies; Control of a 7-segment display using Arduino Uno Kit",
+    "Development of a serial communication program between a Windows PC and an Arduino Kit by sending and receiving messages between the two entities; Hardware/software development of a digital display system using an Arduino Uno kit and a 2x16 alphanumeric display",
+    "Development of a digital voltmeter using the Arduino Uno kit; Study of the significance of PWM control using an RGB LED coupled to the Arduino Uno kit",
+    "Control of a DC motor using the Arduino Uno kit; Presentation and control of a digitally actuated servomechanism via Arduino-Uno kit; Hardware/software implementation of a digital Thermometer and Hygrometer using Arduino Kit",
+    "Presentation of a Robot using the Arduino Robot Starter Kit",
+    "Project submission"
+  ],
+  "teaching_methods": [
+    "Participatory lectures",
+    "Discussions based on PowerPoint presentations",
+    "Short recap of previous course notions",
+    "Classical lecture",
+    "Use of video projector and whiteboard for demonstrations",
+    "Discussion of technical solutions and causes of failures",
+    "Description of working methods",
+    "Presentation of Arduino Starter Kit",
+    "Presentation of Arduino Robot Starter Kit",
+    "Presentation of how to build an electronic circuit using a prototype board, electronic components, pin wires, and Starter Kit",
+    "Presentation of Arduino board programming"
+  ],
+  "workload_hours_total": 108.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Ongoing observation, individual/team assignments, case study reports",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final test",
+      "weight_percentage": 90.0
+    },
+    {
+      "method": "Project work and submission",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final evaluation result for a discipline is obtained by considering the scores and weights allocated to each activity. Whole grades from 10 to 1 will be awarded, with grade 5 certifying the acquisition of minimal learning outcomes and corresponding study credits. A minimum grade of 5 is required for the Colloquium/Verification and for the Project.",
+  "bibliography": [
+    "Drosescu Radu \"Microprocesoare și Microcontrollere\" Curs format digital",
+    "Parallax, What's a Microcontroller? Student Guide, Ver.3 ISBN 9781928982524, https://www.parallax.com/sites/default/files/downloads/28123 -Whats-a-Micro-v3.0.pdf",
+    "Brian Evans, \"Beginning ARDUINO Programming\"; Friendstof Apress, 2011, http://www.hfremote.us/files/Arduino.pdf",
+    "J. D. Warren, J. Adams, H. Molle, Arduino Robotics, Apress, 2011, http ://www.qsl.net/yo4tnv/docs/Arduino %20Robotics %20By %20Jhon David %20Warren, %20Josh% %20Adams %20and %20Harald %20Molle.pdf",
+    "S. Monk,\" Programming Arduino Next Steps\", Mc. Graw Hill, 2014, http://2.droppdf.com/files/XFqkH/programming arduino-next-steps-going-further-with-sketches.pdf",
+    "Sztonojov et al, \"De la poarta TTl la microprocesor\", Ed. Tehnica Bucuresti, 1987"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Gheorghe Asachi Technical University of Iași",
+  "institution_slug": "tuiasi",
+  "degree": "Inginerie Mecanică (licență, 4 ani / 240 ECTS) - Facultatea de Mecanică",
+  "course_code": "IM.414.DO.DS-2",
+  "academic_year": "2025-26",
+  "source_url": "https://mec.tuiasi.ro/wp-content/uploads/2026/01/FD_an4_IM_PSUL.pdf",
+  "source_language": "ro",
+  "source_sha256": "43558cd7d07c4297412e1d0bf704086c97742edf294c0b07f6acf2db5f214f3d",
+  "extracted_at": "2026-11-13T01:06:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

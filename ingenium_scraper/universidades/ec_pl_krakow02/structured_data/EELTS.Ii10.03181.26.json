@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Electric Drive and Power Electronics",
+  "course_name_en": "Electric Drive and Power Electronics",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Knows the construction, operating principles, and properties of basic semiconductor devices used in power electronics.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Knows the construction and operation of thyristor converters.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Knows the construction and operating principles of basic DC-DC converters and voltage inverters.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Knows the construction, operating principles, and control properties of basic types of electrical machines.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Knows the construction and operation of basic drive systems with DC and AC motors.",
+      "type": "knowledge",
+      "code": "W5"
+    },
+    {
+      "text": "Can identify the main properties and application ranges of basic drive systems.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Can identify the main properties and application ranges of basic power electronic systems.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Can analyze and perform computer simulations of typical power electronic converters and estimate their basic parameters.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Understands the economic and non-technical aspects of an engineer's work in electronic drive and power electronics.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Designing power electronic systems using simulation software",
+    "In power electronics: Semiconductor components used in power electronics. Pulsed DC-DC converters for stepping down and boosting DC voltage. Pulsed DC-DC converters with galvanic isolation. Voltage inverters - topologies and modulation types. Power transistor gate circuits and their implementation in converters. Single and three-phase thyristor converters and thyristor power regulators. In drives: Control properties of electric motors. Basic drive concepts (active and reactive torque, stable operating point, moment of inertia, drive dynamics equation). General principles of rotational speed control using the example of a separately excited DC motor. Speed control of a three-phase induction motor. Drive systems with permanent magnet motors. Soft start system for induction motors.",
+    "Selected topics, depending on the optional module, from: 3-phase transistor voltage inverter with pulse modulation. Induction motor drive - Pulsed DC-DC converter. - 1-phase controllable rectifiers - Impact of a 3-phase thyristor rectifier on the supply network - 3-phase bridge thyristor rectifier with RL load - 3-phase thyristor power regulator connected in star. Soft start system for induction motors - drives with brushless DC motors, - power electronic systems for improving power quality, - converter-based, reversible DC drive without circulating current, - soft start systems for induction motors, - voltage inverters"
+  ],
+  "teaching_methods": [
+    "E-learning",
+    "Project Based Learning",
+    "Demonstration",
+    "Simulation (event scenarios, VR/AR)",
+    "Lecture"
+  ],
+  "workload_hours_total": 164.0,
+  "workload_hours_contact": 70.0,
+  "assessment_methods": [
+    {
+      "method": "Exam",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The method of verification of learning outcomes includes an exam, activities, and hours (lectures: 28, laboratory classes: 28, project classes: 14). For lectures, verification methods include test, examination, and completion of laboratory classes. For laboratory classes, verification methods include test, examination, and completion of laboratory classes, with credit condition that all laboratory classes must be passed, based on presented problem solutions and preparation checked by colloquium. For project classes, verification methods include test and examination, with evaluation based on project execution and final effect.",
+  "bibliography": [
+    "Piróg S.: Energoelektronika. Układy o komutacji sieciowej i komutacji twardej. Wydawnictwa AGH Kraków 2006.",
+    "Ned Mohan, Tore M. Undeland, William P. Robbins, Mohan Ned, “Power electronics: converters, applications, and design”,2nd ed., New York : John Wiley & Sons, 1995.",
+    "Orłowska-Kowalska T.: Bezczujnikowe układy napędowe z silnikami indukcyjnymi, Oficyna Wyd. Politechniki Wrocławskiej 2003",
+    "Zawirski K.: Sterowanie silnikiem synchronicznym o magnesach trwałych, Wydawnictwo Politechniki Poznańskiej 2005",
+    "Robert Perret, “Power Electronics Semiconductor Devices”, First published: 1 January 2009, print ISBN: 9781848210646, online ISBN:9780470611494, DOI:10.1002/9780470611494, copyright © 2009 ISTE Ltd."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii10.03181.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/fdb64ceb-0f30-41cc-8711-c8fda823fc21.html",
+  "source_language": "pl",
+  "source_sha256": "5672084d917c80799b1f3520b91b80ce64dae56f552330872d0fb0c8fbc093db",
+  "extracted_at": "2026-11-20T09:02:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

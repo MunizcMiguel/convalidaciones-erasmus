@@ -1,0 +1,186 @@
+{
+  "course_name_original": "INTERNET OF THINGS",
+  "course_name_en": "INTERNET OF THINGS",
+  "ects": 9.0,
+  "semester": "AUTUMN SEMESTER",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Previous knowledge about Internet protocols is preferable."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding of the architecture of an IoT system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire knowledge related to the fundamental elements of the Python programming language.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowing how to code simple programs in Python through the use of functions, arrays, tuples and dictionaries.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understanding of the architecture of the ESP32 board, and its digital inputs/outputs.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understanding of the principle of operation of simple sensors and actuators.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquisition of basic knowledge related to the MicroPython framework.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowing how to setup simple circuits with resistors, LEDs, buttons and sensors on breadboards.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowing how to write MicroPython programs for ESP32 to acquire data from sensors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowing how to write MicroPython programs for ESP32 that allow to control DC and servo motors.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowing how to code a driver in MicroPython for a simple sensor provided with interfacing via serial protocol.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understanding of the Publish&Subscribe paradigm and the fundamental characteristics of the MQTT protocol.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowing how to encode in MicroPython a program for ESP32 that allows data exchange via MQTT protocol.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the concepts behind designing user interfaces for IoT solutions.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand how Node-RED develops flow-based.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowing how to develop and implement Node-RED flows for the creation of monitoring and remote control dashboards of IoT solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Knowing how to integrate an MQTT based IoT solution into OpenHAB.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understanding and knowing how to interpret a project specification for an IoT system.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Knowing how to develop and implement from a hardware / software point of view an IoT system, based on a specific date, consisting of one or more microcontrollers connected to a set of sensors and actuators.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Architecture of an IoT application.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Programming of a microcontroller and sensors interfacing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Characteristics of the different types of sensor (MEMS, SERVO).",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Network protocols.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Create simple IoT applications in which the data detected by one or more sensors are processed through a microcontroller.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "INTERNET OF THINGS. General Introduction. Examples of applications. Architecture of an IoT application. IoT frameworks.",
+    "Python expressions and variables. Selection and iteration. Definition of functions.",
+    "Arrays, tuples and dictionaries. Python exercises and examples.",
+    "ESP32 board overview: architecture and key features. The MicroPython framework.",
+    "GPIO. Management of digital outputs and digital inputs; analog inputs via ADC. First examples of development in MicroPython.",
+    "Organization of a breadboard and setup of simple circuits with LEDs, resistors and potentiometers. Examples of GPIO management with MicroPython and ESP32: turning a LED on, reading a button level, reading signals from a photoresistor. Management of a potentiometer.",
+    "Introduction to Pulse Width Modulation (PWM). First examples PWM with ESP32: control of LED light intensity - fading.",
+    "PWM examples. Control of the timbre and intonation of a passive buzzer. Speed control of a DC motor. Rotation control of a servo motor.",
+    "Introduction to serial protocols: RS232, I2C, SPI. Example of an I2C driver for a light intensity sensor.",
+    "Development of an I2C driver for a temperature and humidity sensor.",
+    "The Publish&Subscribe paradigm and the MQTT protocol. Service Quality Levels in MQTT. Development of a Python MQTT client with Eclipse Paho. Types of loop functions and callback functions.",
+    "Connection of the ESP32 microcontroller to the WiFi network and communication via socket module. Use of the MicroPython MQTT library for ESP32 and development of a \"smart\" light intensity sensor.",
+    "More MQTT examples on ESP32. Example of a complete IoT project. Tools for the creation of simple graphical interfaces.",
+    "Overview of tools for creating remote dashboards for IoT solutions. Introduction to Node-RED.",
+    "Implementation of simple Node-RED flows for interaction with MQTT and HTTP services. The Dashboard package. Persistence of acquired data.",
+    "Web-based platforms for smart homes. Introduction to OpenHAB. Integration of an MQTT based solution in OpenHAB.",
+    "Presentation of projects and start of activities.",
+    "Assisted design activity."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Exercises",
+    "Lab"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Group project",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Theoretical test",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The exam includes a group project and a theoretical test. The project should involve interfacing sensors via I2C or SPI, controlling a device via PWM, and communicating via MQTT. The theoretical test verifies understanding of MQTT, I2C, SPI protocols, and PWM for motor control. The final grade is a weighted average of the project score (60%) and the theoretical test score (40%). Students achieving maximum scores in both and completing a project with unpresented sensors will be awarded excellence.",
+  "bibliography": [
+    "Didactical material will be provided by teachers",
+    "Supplementary teaching material will be available on the university e-learning platform (http://elearning.unisa.it) accessible to students using their own university credentials."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universita Degli Studi Di Salerno — Ingegneria Informatica",
+  "institution_slug": "ec_i_salerno01__info",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "0612700124",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisa.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=515195&ordinamento_aa=2022&af_percorso=10001&corso_cod=500189&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "204ddbd21816b1f4c26c68d0036feeafc93fd3b790090990f2458519a274b518",
+  "extracted_at": "2026-11-20T12:43:57",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

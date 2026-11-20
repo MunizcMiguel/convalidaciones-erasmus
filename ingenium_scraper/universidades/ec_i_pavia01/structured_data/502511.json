@@ -1,0 +1,121 @@
+{
+  "course_name_original": "ELECTRONICS II",
+  "course_name_en": "ELECTRONICS II",
+  "ects": 12.0,
+  "semester": "Annual",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Students are expected to be familiar with the working principles of diodes and MOS transistors, the use of Fourier transform, Laplace transform, Bode plots and complex numbers.",
+    "Students are expected to be able to perform AC and DC, small and large signal analysis of simple electronic circuits, and to understand the structure and the operating principle of the basic amplification stages including operational amplifiers and MOS transistors.",
+    "Knowledge of circuit theory and applied electronics (analog) with particular reference to the MOS and BJT transistors, operational amplifiers, Bode plots.",
+    "Familiarity with the use of the Fourier transform, the Laplace transform, and the complex numbers.",
+    "Contents of the Modulus A of this course."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire knowledge on the architectures of multi-stage amplifiers using both MOS and BJT transistors and a deep knowledge of the frequency behavior of the elementary devices and basic circuits.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Have a deep understanding of the negative feedback concepts, of the stability problems in amplifiers with feedback and of the techniques to compensate them.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire knowledge on architectures of simple electronics systems, ranging from multistage linear and non linear circuits, signal conditioning stages, waveform generators.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know the systems for the signal conversion from analog to digital and vice versa and the theory of noise in circuits.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Review of amplification stages with single transistor.",
+    "Behavior of the transistors at high frequency, the high frequency equivalent circuit for MOS and BJT.",
+    "Analysis in the high frequency of the basic stages of amplification.",
+    "The cascode stage.",
+    "Differential stage BJT and MOS.",
+    "Review of current mirrors.",
+    "Multistage amplifiers.",
+    "The feedback: basic concepts, negative and positive feedback.",
+    "The negative reaction applied to the amplifiers.",
+    "Calculation of the loop gain.",
+    "Stability of amplifiers with feedback.",
+    "Frequency compensation.",
+    "Internal structure of bipolar and MOS transistor operational amplifiers.",
+    "Single-stage and two-stage operational amplifiers.",
+    "Frequency-response compensation.",
+    "Class A and Class B power amplifier stages.",
+    "Power transistors and thermal management/heatsink design.",
+    "Analog filters.",
+    "Filter classification.",
+    "The approximation problem: Butterworth and Chebyshev filters.",
+    "First- and second-order transfer functions and their implementation using operational amplifiers.",
+    "Introduction to the implementation of Gm-C and switched-capacitor filters.",
+    "Electronic noise.",
+    "Analytical tools for electronic noise analysis.",
+    "Noise sources in electronic components.",
+    "Calculation of the input-referred noise in amplifiers.",
+    "Oscillators.",
+    "Sinusoidal oscillators: operating principles and analysis of RC, LC, and crystal oscillator configurations.",
+    "Relaxation oscillators and waveform generators: operating principles and analysis of the most common circuit configurations."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Laboratory",
+    "Practical class",
+    "Workshops",
+    "Problem-solving sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 129.0,
+  "assessment_methods": [
+    {
+      "method": "Oral exam for Module A",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral exam for Module B",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional written exam \"in itinere\" for Module A",
+      "weight_percentage": null
+    },
+    {
+      "method": "Optional written exam \"in itinere\" for Module B",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory activity reports",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of an oral exam for each of the two modules (A and B). At the end of each module, there will also be an optional written exam \"in itinere\". If both written exams are passed and oral exams are not taken, the grade is calculated based on the average of the written exam scores. The final grade is the average of the grades obtained in the two modules plus a score ranging between zero and one point based on the evaluation of the laboratory activity reports. The oral exam remains mandatory for modules for which the student does not take or pass the written exams \"in itinere\".",
+  "bibliography": [
+    "A.S. Sedra, K.C. Smith. Microelectronics Circuits.",
+    "Spice manual; Data Sheets e Applications of electronic components.",
+    "Notes from the instructors."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Pavia",
+  "institution_slug": "ec_i_pavia01",
+  "degree": "Laurea in Ingegneria Elettronica E Informatica (Electronic And Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "502511",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unipv.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=10313&ordinamento_aa=2021&af_percorso=1&corso_cod=10223&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "ee86483eb5997cb590b7707e1779b20f11b9ba9e7ed87d33eecdb0fb40cc2955",
+  "extracted_at": "2026-11-20T08:18:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

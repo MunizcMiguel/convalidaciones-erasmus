@@ -1,0 +1,139 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of Mathematics I and II from high school"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra.",
+      "type": "competence",
+      "code": "EFB1.1"
+    },
+    {
+      "text": "Ability to abstract: ability to create and use models that reflect real situations.",
+      "type": "competence",
+      "code": "GTR2"
+    },
+    {
+      "text": "Ability to act autonomously.",
+      "type": "competence",
+      "code": "GTR3"
+    },
+    {
+      "text": "Use the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "unspecified",
+      "code": "FM1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces and linear applications and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "FM2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces, through scalar product, norm or distance.",
+      "type": "unspecified",
+      "code": "FM3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "FM4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and in space.",
+      "type": "unspecified",
+      "code": "FM5"
+    },
+    {
+      "text": "Identify the basic elements of differential equations and systems of differential equations and use algebraic tools to solve elementary cases.",
+      "type": "unspecified",
+      "code": "FM6"
+    }
+  ],
+  "syllabus_topics": [
+    "Theme 1. Sets and numerical sets: operations with complex numbers.",
+    "Sets",
+    "Binary relations",
+    "Applications: injectivity, surjectivity and bijectivity",
+    "Complex numbers",
+    "Theme 2. Systems of linear equations and matrices.",
+    "Matrices and basic properties. Determinants.",
+    "Solving systems using Gauss's Method.",
+    "Theme 3. Vector spaces.",
+    "Vector space structure.",
+    "Linear combinations and linear independence. Bases and dimension. Coordinates.",
+    "Vector subspaces.",
+    "Theme 4. Linear applications.",
+    "Definition and properties.",
+    "Associated matrix. Change of basis.",
+    "Kernel and image of an application. Classification.",
+    "Theme 5. Scalar products: orthogonality.",
+    "Scalar product and scalar square",
+    "Lengths and angles between vectors",
+    "Orthogonality: orthogonal and orthonormal bases",
+    "Orthogonal projection",
+    "Theme 6. Diagonalization.",
+    "Eigenvalues and eigenvectors.",
+    "Diagonalization of endomorphisms and matrices and applications.",
+    "Diagonalization of endomorphisms in orthonormal bases.",
+    "Introduction to the tool (Matlab)",
+    "Sets and complex numbers (Matlab)",
+    "Matrices, systems and determinants (Matlab)",
+    "Vector spaces: changes of base (Matlab)",
+    "Scalar products and orthogonal projections (Matlab)"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars / Workshops",
+    "Laboratory practices / field / computer lab / language lab"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1) - Topics 1-3",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2) - Topics 4-6",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices",
+      "weight_percentage": null
+    },
+    {
+      "method": "Continuous work during the semester for lab practices",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Lab practice exam",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) in the ordinary call is calculated as NF=0.15 NL+max⁡(0.15 NA+0.7 NC,  0.85 NC), where NL is the lab practices grade, NA is the classroom practices grade, and NC is the average of the partial exams (P1 + P2)/2. All grades are out of 10 points. The course is passed if NF≥5, NL≥3, and NC≥3; otherwise, the final grade will be min⁡(NF, 4.5). For differentiated evaluation, NF=0.15 NL+0.85 NC is used if classroom attendance is not possible. In extraordinary calls, students can take a written exam to improve NC and/or a lab practices test to improve NL, retaining the grade from the ordinary call for the non-repeated part. If unauthorized means are used, the grade will be 0 points.",
+  "bibliography": [
+    "Poole, D. Álgebra Lineal: Una introducción moderna (3ª Ed.) 2011. Thomson.",
+    "Pelayo, I. y Rubio, F. Álgebra Lineal básica para ingeniería civil.(1ª ed.) 2008. UPC.",
+    "Nakos, G.; Joyner, D. Álgebra Lineal con Aplicaciones. Thomson, 1999."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Informática en Tecnologías de la Información (Informática, Oviedo)",
+  "institution_slug": "uniovi_giiti",
+  "degree": "Grado en Ingeniería Informática en Tecnologías de la Información",
+  "course_code": "GIITIN01-1-001",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasinformacion/-/fof/asignatura/GIITIN01-1-001",
+  "source_language": "es",
+  "source_sha256": "2d11eaac993d5d393a998e972c7a187c3806c942c108a4296071543ff1a37049",
+  "extracted_at": "2026-11-20T05:54:12",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

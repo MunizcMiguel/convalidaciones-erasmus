@@ -1,0 +1,189 @@
+---
+{
+ "course_code": "MINGIND2-C-011",
+ "course_name": "Máquinas y Sistemas Fluidomecánicos",
+ "institution_slug": "uniovi_mii",
+ "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-C-011",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T04:59:19",
+ "content_sha256": "aa1957568691417f4323b8b48698e526d4e1c26e34af87ed627f7b14df0f029a"
+}
+---
+
+# Máquinas y Sistemas Fluidomecánicos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Máster Universitario en Ingeniería Industrial · MINGIND2-C-011
+
+## Datos de la asignatura
+
+- **Curso:** Primero
+- **Temporalidad:** Primer Semestre
+- **Carácter:** Complementos de Formación
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** Sí
+- **Actividades:** Prácticas de Aula/Semina (14 Horas); Prácticas de Laboratorio (14 Horas); Tutorías Grupales (2 Horas); Clases Expositivas (28 Horas)
+
+## Contextualización
+
+La asignatura de Máquinas y Sistemas Fluidomecánicos, enmarcada dentro de los créditos obligatorios de la materia de Energía y Medio Ambiente, común al módulo de tecnologías mecánicas del Plan de Estudios de Grado en Ingeniería Mecánica, es una asignatura de 6 créditos ECTS con una orientación claramente tecnológica. La asignatura se plantea como una materia de tercer curso cuyo objetivo es proporcionar al alumno el conocimiento de los principios de funcionamiento y aplicaciones de las máquinas de fluidos e introducirles en las tecnologías de transporte de fluidos, transmisión de potencia, propulsión, conversión energética y otras aplicaciones de la ingeniería de fluidos.
+
+A pesar del carácter tecnológico de la asignatura, también en este caso es pertinente dar un cierto enfoque fundamental a los contenidos, que facilite su desarrollo en el mayor rango posible de aplicaciones prácticas. Particularmente frecuente y relevante es el papel de los fluidos en muchos procesos tecnológicos de transferencia energética, en los que precisamente un fluido actúa como receptor o proveedor de energía mecánica a través de la acción de una determinada máquina. Con el enfoque indicado, la asignatura de Máquinas y Sistemas Fluidomecánicos bien se puede considerar como una continuación directa de la asignatura de Mecánica de Fluidos, de la que obviamente necesita sus principios básicos.
+
+Por lo tanto, al acabar de cursar la asignatura, el alumno debe haber adquirido los siguientes conocimientos y habilidades:
+
+- Conceptos básicos de los tipos de sistemas fluidodinámicos y aplicación de los mismos.
+- Principios de transferencia de energía en sistemas de transporte de fluidos y en sistemas de potencia.
+- Tipología, diseño y características fundamentales de las máquinas de fluidos.
+- Conocimiento de la aplicación de las técnicas de semejanza en las turbomáquinas.
+- Identificación de los fenómenos limitadores del funcionamiento de las máquinas.
+- Relación entre la energía gestionada por las máquinas y los niveles energéticos de los circuitos en los que operan.
+- Conocimientos de tecnologías oleohidráulicas y neumáticas.
+- Metodologías de análisis y experimentación en la Ingeniería de Fluidos.
+
+**Orientación profesional:**
+
+Esta asignatura proporciona los conocimientos y competencias básicas para el diseño, evaluación y explotación de sistemas y maquinarias en las que los fluidos realizan intercambios energéticos. Tiene una orientación de marcado carácter práctico y con acomodo en las labores diarias de muchas empresas de ingeniería dedicadas al sector de la energía, el suministro y abastecimiento de líquidos y gases, la generación de energía, el transporte o la transformación en procesos industriales. También es de aplicación en labores de diseño de equipos y mantenimiento de instalaciones.
+
+**Compromiso con el medio ambiente:**
+
+La asignatura presenta una íntima relación con conceptos actuales tales como sostenibilidad, responsabilidad social para con el Medio Ambiente o transición ecológica. En particular, ser tratan en profundidad temas relacionados con el ahorro y la eficiencia energética de instalaciones, sistemas de bombeo o maquinaria fluidomecánica y se abordan en detalle las principales tecnologías de generación de energía renovable, tales como turbinas eólicas e hidráulicas.
+
+## Requisitos
+
+Sería muy recomendable que los alumnos hubieran superado la asignatura de Mecánica de Fluidos con el objeto de haber adquirido las destrezas necesarias para aplicar los contenidos básicos en un ámbito tecnológico. En particular, se considera recomendable disponer de:
+
+- Conocimiento de las ecuaciones fundamentales que rigen el movimiento de los fluidos.
+- Conceptos de capa límite, flujo potencial y ecuación de energía.
+- Flujo viscoso en conductos y turbulencia.
+- Fenómenos no estacionarios.
+- Semejanza dimensional y teoría de modelos.
+
+## Competencias y resultados del aprendizaje
+
+Se pretende que los estudiantes adquieran las **competencias generales** CG1 a CG12 y CG14 a CG15 recogidas en la Memoria de Verificación del Grado.
+
+Las **competencias específicas** que se deben afianzar con esta asignatura comprenden las competencias CC2 y CM3, en especial la de adquirir "conocimientos de los principios básicos de la Mecánica de Fluidos y su aplicación a la resolución de problemas en el campo de la ingeniería; cálculo de tuberías, canales y sistemas de fluidos". Además se debe adquirir la competencia tipificada como CM6 en la memoria de verificación del Grado, expresada como el *“conocimiento aplicado de los fundamentos de los sistemas y máquinas fluidomecánicas”.* Al finalizar el curso, estas competencias se deben concretar en unos resultados de aprendizaje. De forma más concreta, se destacan:
+
+- Comprender y aplicar los fundamentos de los sistemas y máquinas fluidomecánicas (RFM-1).
+- Realizar medidas de variables fluidomecánicas y ensayos de prestaciones de máquinas de fluidos (RFM-2).
+- Diseñar, calcular, proyectar y operar sistemas de transporte de fluidos (RFM-3).
+- Modelizar, analizar y optimizar el funcionamiento de sistemas y máquinas fluidomecánicos (RFM-4).
+- Manejar especificaciones, reglamentos y normas de obligado cumplimiento relacionadas con las máquinas y sistemas fluidomecánicos (RFM-5).
+
+## Contenidos
+
+Los contenidos de la asignatura se estructuran en cuatro bloques o unidades didácticas:
+
+1. Introducción a las máquinas y sistemas de fluidos
+
+2. Principios generales de transferencia de energía en turbomáquinas
+
+- Ecuación de Euler de las turbomáquinas  
+- Transferencia de energía. Rendimientos  
+- Tipologías geométricas  
+- Máquinas generadoras: bombas, ventiladores y compresores
+
+3. Sistemas de bombeo y ventilación
+
+- Curvas características y punto de diseño  
+- Acoplamiento a circuitos  
+- Regulación y control  
+- Semejanza  
+- Cavitación  
+- Esfuerzos estáticos y dinámicos
+
+4. Turbinas hidráulicas y eólicas
+
+- Centrales Hidráulicas  
+- Turbinas Pelton, Francis y Kaplan  
+- Aerogeneradores y parques eólicos
+
+## Metodología y plan de trabajo
+
+La asignatura comprende 150 horas de trabajo personal del alumno, de las cuales 60 horas son de trabajo presencial (clases expositivas, prácticas de laboratorio, tutorías grupales y sesiones de evaluación) y 90 horas de trabajo no presencial (uso del Campus Virtual y trabajos individuales). Se han considerado 2 horas semanales de clases teóricas durante las 14 semanas que dura el semestre, de modo que se puedan contabilizar las 28 horas de clases magistrales estipuladas. También se introducen 14 horas de sesiones de prácticas de aula (7 sesiones de 2 horas cada una), así como 14 horas de prácticas de laboratorio y simulación (6 sesiones de 2 horas cada una, más una de evaluación).
+
+La metodología de trabajo se puede estructurar en cuatro apartados diferentes: aprendizaje en grupo con el profesor, estudio individual, seminarios y trabajos en prácticas, y la nota final será acorde al correcto desarrollo de estos apartados.
+
+|  |  | **TRABAJO PRESENCIAL** |  |  |  |  |  |  |  | **TRABAJO NO** <br> **PRESENCIAL** |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | *Prácticas de aula /Seminarios/ Talleres* | *Prácticas de laboratorio /aula de informática* | *Prácticas clínicas hospitalarias* | *Tutorías grupales* | *Prácticas Externas* | *Sesiones de Evaluación* | ***Total*** | *Trabajo grupo/Campus virtual* | *Trabajo autónomo* | **Total** |
+| 1.- Introducción | 15 | 4 |  |  |  |  |  |  | 4 |  | 11 | 11 |
+| 2.- Ppos. Generales Turbom. | 50 | 10 | 4 | 4 |  |  |  |  | 18 | 6 | 26 | 32 |
+| 3.- Stmas. bombeo y vent. | 40 | 8 | 4 | 5 |  | 1 |  | 1 | 19 | 5 | 17 | 22 |
+| 4.- Turbinas hidráulicas y eól. | 45 | 6 | 6 | 5 |  | 1 |  | 1 | 19 | 4 | 21 | 25 |
+| **Total** | **150** | **28** | **14** | **14** |  | **2** |  | **2** | **60** | **15** | **75** | **90** |
+
+| MODALIDADES |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases Expositivas | 28 | 18.66 | **60** <br> **(40%)** |
+|  | Práctica de aula / Seminarios / Talleres | 14 | 9.33 |  |
+|  | Prácticas de laboratorio / campo / aula de informática / aula de idiomas | 14 | 9.33 |  |
+|  | Prácticas clínicas hospitalarias |  |  |  |
+|  | Tutorías grupales | 2 | 1.33 |  |
+|  | Prácticas Externas |  |  |  |
+|  | Sesiones de evaluación | 2 | 1.33 |  |
+| No presencial | Actividades Campus Virtual | 15 | 10 | **90** <br> **(60%)** |
+|  | Trabajo Individual | 75 | 50 |  |
+|  | Total | **150** |  |  |
+
+## Evaluación del aprendizaje
+
+**Evaluación ordinaria**
+
+El periodo de evaluación ordinaria, normalmente en enero, tiene en cuenta los siguientes elementos como parte de la nota de los alumnos:
+
+Examen final (EF): consiste en un examen escrito que se realiza al final del semestre. Para aprobar la asignatura, se requiere una nota mínima de 4,0 (en una escala de 0 a 10) en el examen. El examen final (EF) sería del tipo EV-1 dentro de la memoria de verificación.
+
+Otros elementos (OE) de la nota serían: Examen de prácticas (EP), ejercicios adicionales (EA) y Entregables en clase (EC). Los exámenes de prácticas se corresponden con EV-1, los ejercicios adicionales se corresponden con EV-3 y los entregables en clase se corresponden con EV-2, según la memoria de verificación.
+
+**Calificaciones:**
+
+La calificación final de la asignatura (NF) se divide en dos valores. El primero es el examen final, que representa el 70 % de la nota final (NF), y la nota complementaria es una combinación de los demás elementos considerados (OE).
+
+La nota de OE sería: (OE) = 0,4(EP)+0,4(EA)+0,2(EC). Si algún curso, por planificación o evolución de la docencia, no se proponen los entregables, la nota de OE sería: (OE) = 0,5(EP)+0,5(EA).
+
+Teniendo en cuenta los valores individuales en una escala de 0 a 10, los dos cálculos para la nota final son:
+
+Por lo tanto, (NF) = 0,7(EF) + 0,3(OE) con un mínimo de (EF) >= 4,0
+
+Si (EF) < 0,4, entonces (NF) = min{4,0 ; (NF)}
+
+**Aviso:**
+
+Si existe alguna duda sobre la autoría de las soluciones entregadas por los alumnos para cualquiera de los elementos que forman parte de la nota o se detecta el uso de herramientas no autorizadas (por ejemplo, IA u otras), se podrá programar un examen presencial individual.
+
+**Evaluación diferenciada:**
+
+La prueba de evaluación diferenciada, en el caso de que así se solicite, consistirá en un examen escrito que se ponderará sobre un 90% de la nota final y, por otra parte, en una prueba metodológica en la que se plantearán cuestiones referidas a las prácticas de laboratorio y al resto de actividades realizadas durante el curso, y que ponderará el 10% restante.
+
+**Evaluación extraordinaria:**
+
+Las calificaciones obtenidas en la evaluación de los demás elementos son válidas para los periodos de evaluación de enero, mayo y julio del curso académico actual (ordinarios y extraordinarios). En las evaluaciones extraordinarias, si el estudiante no ha asistido a las clases y, por lo tanto, tiene (OE) = 0, el examen escrito será la única prueba del aprendizaje del estudiante y, partiendo de una escala de 0 a 10, seguirá ponderándose con un factor de 0,7. Por lo tanto, la nota máxima en esas evaluaciones extraordinarias sería del 70 %, si el estudiante no ha realizado ninguna de las otras actividades.
+
+**Ingenium:**
+
+Las actividades docentes, como conferencias, seminarios o proyectos conjuntos, podrían desarrollarse en colaboración con universidades de la Alianza Ingenium. Dicha colaboración puede requerir ajustes específicos en la metodología y/o la evaluación.
+
+## Bibliografía
+
+Libros de referencia:
+
+- Blanco, E.; Velarde, S.; Fernández, J.; 1994, “Sistemas de Bombeo”; Universidad de Oviedo.
+- Lakshminarayana, B.; 1996; “Fluid Dynamics and Heat Transfer of Turbomachinery”, Wiley.
+- Lecuona, A.; Noguiera, J.I; 2000, “Turbomáquinas”; Ed. Ariel.
+
+Libros de texto complementarios:
+
+- Blanco, E.; Ballesteros, R.; 1994; “Análisis de incertidumbre en Mecánica de Fluidos”; Universidad de Oviedo.
+- Brennen, C.E.; 1994; “Hydrodinamics of Pumps”; ETI-Oxford.
+- Dixon, S.L.; 1981; “Fluid Mechanics and Thermodynamics of Turbomachinery”; Dossat (en Español) o ‎ ButerworthHeineman (in English).
+- Horlock; 1985; "Axial Flow Compressors", Krieger.
+- McKenzie, A.B.; 1997; “Axial flow fans and compressors”, Ashgate.

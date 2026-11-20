@@ -1,0 +1,118 @@
+{
+  "course_name_original": "Daten Banken",
+  "course_name_en": "Databases",
+  "ects": 5.0,
+  "semester": "3",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic computer science courses, e.g., Fundamentals of Computer Science module",
+    "Knowledge of a programming language is desirable",
+    "Office applications are required"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students understand the importance of databases and can differentiate their use.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students learn the procedure for creating a data model and can implement it in a specific database.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students learn how to access relational databases with SQL and develop applications based on a database.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Participants acquire knowledge of performance optimization for data storage and access and understand the interaction of application, presentation, and database servers in programming, especially in a web environment.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Students understand the concepts of databases and their use.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students are able to understand, criticize, and complement the database designs of their colleagues through their own contributions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students have the ability to create software using a database.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can implement their own software engineering ideas with the help of databases and defend them against competing approaches.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction",
+    "Introduction",
+    "Why databases?",
+    "Examples",
+    "Data Modeling",
+    "Redundancy",
+    "Data Modeling",
+    "Object-Oriented",
+    "Relational Data Model",
+    "Normalization",
+    "SQL",
+    "SQLite, a database for your pocket",
+    "SQL Data Definition Language",
+    "SQL Data Manipulation Language",
+    "Tables and Relationships",
+    "Data Models",
+    "View",
+    "Advanced Concepts",
+    "Goals for data storage/access",
+    "ACID",
+    "Sequential Data Organization",
+    "Indexed Sequential Data Organization",
+    "Relative Record Organization",
+    "Optimization",
+    "Trees",
+    "Implementations",
+    "Object-Relational Mapping",
+    "NoSQL"
+  ],
+  "teaching_methods": [
+    "Lectures with exercises"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The module examination is a written examination of 90 minutes. The weighting of the grade is 5/210.",
+  "bibliography": [
+    "Thomas M. Conolly, Carolyn E. Begg: Database systems, A practical approach to design, implementation, and managment. Addison-Wesley, an imprint of Pearson Education, 4th edition 2005.",
+    "Kemper A., Eickler A.: Datenbanksysteme: Eine Einführung, Oldenbourg Wissenschaftsverlag",
+    "Preiß, N. (2007), Entwurf und Verarbeitung relationaler Datenbanken, Oldenbourg, München u.a."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Deggendorf",
+  "institution_slug": "ec_d_deggend01",
+  "degree": "Künstliche Intelligenz (Bachelor, Fak. Angewandte Informatik)",
+  "course_code": "KI-13",
+  "academic_year": "2021-22 (Stand 10.03.2022)",
+  "source_url": "https://www.th-deg.de/Studierende/Antraege-und-Organisatorisches/Modulhandbuecher/modulhandbuch_ki.pdf",
+  "source_language": "de",
+  "source_sha256": "09e634cfad401053e1ad32f356b364371c87c6faddbb5b808da81658d0f874ce",
+  "extracted_at": "2026-11-20T09:21:37",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

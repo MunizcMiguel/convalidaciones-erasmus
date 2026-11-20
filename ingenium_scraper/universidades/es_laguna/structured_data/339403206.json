@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Ampliación de Ingeniería Térmica (339403206)",
+  "course_name_en": "Advanced Thermal Engineering",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Having passed the course Thermal Engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Solve basic heat transfer problems (advanced): systems with heat generation and systems with thermal exchange by radiation using the effective sky temperature parameter (star thermal circuit).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Provide the basic design of extended surfaces (fin) that satisfy given working conditions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify when a problem requires transient regime analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve transient heat conduction problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve simple heat conduction problems by applying numerical methods.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe and identify the different types of heat exchangers.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Perform the analysis and basic sizing of a heat exchanger.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe the main modifications of the Brayton cycle: intercooling in compression, regeneration or recuperation, and reheating.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe the fundamental parts, components, and devices of steam power cycles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Perform thermodynamic analysis of steam power cycles and modified Brayton cycles.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Identify the most important operating parameters of steam power cycles and modified Brayton cycles and establish the values of these parameters that optimize their operation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe and analyze the incorporation of renewable energies and cogeneration schemes in steam power cycles and in simple and modified Brayton cycles.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "BLOCK I - ADVANCED HEAT TRANSFER",
+    "TOPIC 1. Heat transfer in extended surfaces. Introduction. General equation. Fins of uniform cross-section. Fins of variable cross-section. Efficiency. Design considerations.",
+    "TOPIC 2. Transient heat conduction. Introduction. Systems with negligible internal resistance. Conduction in a semi-infinite solid. Multidimensional effects. Numerical methods in heat conduction.",
+    "BLOCK II - HEAT EXCHANGERS",
+    "TOPIC 3. Heat exchangers. Types of heat exchangers. Overall heat transfer coefficient. Thermal design of heat exchangers: logarithmic mean temperature difference method and efficiency-NTU method.",
+    "BLOCK III - POWER CYCLES",
+    "TOPIC 4. POWER CYCLES FOR STEAM TURBINE THERMAL POWER PLANTS. Rankine cycle with water/steam. Influence of operating parameters on cycle performance. Techniques for cycle improvement: superheating, reheating and regeneration. Cycle parameters. Thermodynamic analysis. Plant diagram and equipment. Technological aspects of steam power plants.",
+    "TOPIC 5. BRAYTON CYCLE. Irreversibilities in the Brayton cycle. Modifications of the Brayton cycle: regeneration, compression with intercooling, reheating. Exergetic analysis.",
+    "PRACTICAL CONTENTS",
+    "PRACTICE 1 – Extended surfaces.",
+    "PRACTICE 2 – Transient heat conduction.",
+    "SEMINAR AND PRACTICE 3 - Heat exchangers.",
+    "PRACTICE 4 – Simulation of power cycles for steam turbine thermal power plants."
+  ],
+  "teaching_methods": [
+    "Lectures (exposure of theoretical content)",
+    "Problem-solving sessions (application problems)",
+    "Problem-based learning (theoretical content exposed during problem solving)",
+    "Laboratory practices",
+    "Computer-based practices",
+    "Project work (individual/group)",
+    "Self-study for theoretical classes",
+    "Self-study for practical classes",
+    "Exam preparation",
+    "Tutorials (face-to-face and/or virtual)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Continuous Evaluation (EvC1): Written exam on Block I content",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Continuous Evaluation (EvC2): Laboratory practice submissions",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Continuous Evaluation (EvC3): Written exam on Blocks II & III content",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Unique Evaluation (EvU1): Written exam on all course content",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Unique Evaluation (EvU2): Laboratory practice reports",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The course has two evaluation paths: Continuous Evaluation (EvC) and Unique Evaluation (EvU). For EvC, a minimum of 4.0/10 is required in each activity (EvC1, EvC2, EvC3), including individual practical activities, otherwise the overall grade is Fail. EvU requires a minimum of 4.5/10 in the main exam (EvU1) and 4.0/10 in each practical activity (EvU2). If practices are not completed during the semester, a separate practice exam with a minimum score of 5.0 is required to pass.",
+  "bibliography": [
+    "Cengel, Y. A, Ghajar, A. J. Transferencia de calor y masa: fundamentos y aplicaciones. México [etc.] : McGraw Hill, cop. 2011. ISBN: 978-607-15-0540-8",
+    "Incropera, F. P., Dewitt, D. P. Fundamentos de transferencia de calor. México : Prentice-Hall, cop. 1999. ISBN: 970-17-0170-4",
+    "Material supplied by the professor",
+    "Muñoz Domínguez, Marta; Rovira de Antonio, Antonio José \"Máquinas Térmicas\". UNED",
+    "J. Arregle y otros autores: Procesos y tecnología de máquinas y motores térmicos. Editorial UPV",
+    "Moran, M. J., Shapiro, H. N. Fundamentos de Termodinámica Técnica. 2º edición. 2004. Ed: Reverté. ISBN (edición en papel): 978-84-291-4379-9, ISBN (edición e-book, PDF): 978-84-291-9411-1",
+    "FluidProp (http://www.asimptote.nl/software/fluidprop)"
+  ],
+  "isced_f_code": "0712",
+  "missing_sections": [],
+  "institution": "Universidad de La Laguna",
+  "institution_slug": "es_laguna",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "339403206",
+  "academic_year": "2026-27",
+  "source_url": "https://www.ull.es/apps/guias/guias/print_guide/45558/",
+  "source_language": "es",
+  "source_sha256": "97439e192d6bbd4ed4c8925248a6a85daf663551a1fc56a9f9757a017d0fd65d",
+  "extracted_at": "2026-11-13T21:44:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,147 @@
+{
+  "course_name_original": "Mobile application programming",
+  "course_name_en": "Mobile application programming",
+  "ects": 4.0,
+  "semester": "5",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Object Oriented Programming",
+    "Advanced Programming Methods",
+    "Average Java/Kotlin programming skills"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The graduate can design/develop/debug basic mobile applications.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate can apply architectural styles, design patterns, and best practices in the field to design mobile applications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate is familiar with the tools used for testing, debugging, and validating mobile applications.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "The graduate is familiar with project management tools, version control systems, and continuous integration/continuous delivery (CI/CD) concepts, methods, tools.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Base Android tooling",
+    "Android Studio",
+    "Activity/Fragment lifecycle",
+    "User interfaces",
+    "Lists and rest resources",
+    "Views",
+    "Background processing",
+    "Networking",
+    "Master-details and rest resources",
+    "More views: NavigationDrawer",
+    "OkHttp, JsonReader, JsonWriter",
+    "Contentfroviders",
+    "Local persistence",
+    "Preferences and Files",
+    "Databases: SQLite, Room, Realm",
+    "Securing mobile apps",
+    "Android security model",
+    "JSON Web Tokens",
+    "OAuth 2.0",
+    "Synchronizing data",
+    "WebSockets",
+    "Local synchronization services",
+    "LoaderManagers",
+    "Reactive programming",
+    "Realm - real-time database",
+    "Rx - reactive programming",
+    "Coroutines",
+    "System services and sensors",
+    "Services",
+    "Processes",
+    "Sensors",
+    "Animations",
+    "ValueAnimator",
+    "ObjectAnimator",
+    "Transitions framework",
+    "Firebase Services",
+    "Authentication",
+    "Database",
+    "Remote Config",
+    "Monetize",
+    "Ads",
+    "In-app billing",
+    "Firebase",
+    "Awareness and nearby",
+    "Anticipate and react",
+    "Nearby",
+    "Physical Web",
+    "Test your app",
+    "Junit",
+    "Mockito",
+    "UI Automator, Expresso",
+    "Firebase test lab",
+    "Performance testing",
+    "Exam simulation and discussions",
+    "Sample exam requirement",
+    "Exam discussions",
+    "Getting Started",
+    "Create Android and Flutter sample applications",
+    "Discuss the L1 and L2 assignments",
+    "Specification evaluation",
+    "CRUD Specifications discussion",
+    "Specification reevaluation. Evaluation",
+    "Evaluate the UI module",
+    "Evaluate the local persistence logic",
+    "Evaluate the network/online communication logic",
+    "Bonus/Final project evaluation"
+  ],
+  "teaching_methods": [
+    "Exposure: description",
+    "examples",
+    "discussion of case studies",
+    "live demo"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Practical examination",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical evaluation during the semester",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Portfolio",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To pass, students must attend 90% of lab activities during the semester, achieve at least a grade of 5 (on a 1 to 10 scale) in all activities, including seminar/lab and the written exam. The final grade must be at least 5.",
+  "bibliography": [
+    "Android Development. http://developer.android.com/index.html",
+    "React Native. https://facebook.github.io/react-native/",
+    "Flutter. https://flutter.io/docs",
+    "Android codelabs. https://developer.android.com/get-started/codelabs",
+    "Vogella. Android Development Tutorials. http://www.vogella.com/android.html"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5078",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem5_MLE5078_en_dan_2025_9833.pdf",
+  "source_language": "en",
+  "source_sha256": "587630bcb3e6dd80d15c244de2fb89affa071cc509d911a5d35c91fe35e536e4",
+  "extracted_at": "2026-11-20T09:08:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,133 @@
+{
+  "course_name_original": "METODOS NUMERICOS EN INGENIERIA MECANICA",
+  "course_name_en": "Numerical Methods in Mechanical Engineering",
+  "ects": 3.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "CALCULO INFINITESIMAL (565000311)",
+    "High school mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: Linear algebra, geometry, differential geometry, differential and integral calculus, differential and partial differential equations, numerical methods and numerical algorithms.",
+      "type": "competence",
+      "code": "CE1"
+    },
+    {
+      "text": "Apply acquired knowledge to identify, formulate and solve problems in broad contexts, being able to integrate and work in multidisciplinary teams.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Understand the impact of engineering on the environment, the sustainable development of society and the importance of working in a professional and responsible environment.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Communicate knowledge and conclusions, both orally and in writing, to specialized and non-specialized audiences clearly and unambiguously.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Possess learning skills that allow continuous lifelong learning for adequate professional development.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Incorporate ICT and Industrial Engineering technologies and tools into professional activities.",
+      "type": "competence",
+      "code": "CG7"
+    },
+    {
+      "text": "Know and apply basic science and technology knowledge to the practice of Industrial Engineering.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Creativity.",
+      "type": "competence",
+      "code": "CG10"
+    },
+    {
+      "text": "Acquire a programming language and learn to program the theoretical methods explained in class for specific problems.",
+      "type": "skill",
+      "code": "RA286"
+    },
+    {
+      "text": "Ability to solve mathematical problems in Engineering using numerical calculation techniques.",
+      "type": "skill",
+      "code": "RA84"
+    }
+  ],
+  "syllabus_topics": [
+    "Resolution of equations and non-linear systems.",
+    "Introduction.",
+    "Bisection method.",
+    "Fixed-point iteration.",
+    "Newton-Raphson method and secant method.",
+    "Newton-Raphson method for systems of non-linear equations.",
+    "Approximation of functions by polynomials. Numerical differentiation and integration.",
+    "Introduction.",
+    "Polynomial interpolation.",
+    "Numerical differentiation.",
+    "Degree of exactness/precision.",
+    "Gauss-Legendre formulas.",
+    "Newton-Cotes formulas.",
+    "Composite trapezoidal and Simpson's formulas.",
+    "Numerical resolution of ordinary differential equations.",
+    "Introduction.",
+    "Existence and uniqueness theorems for initial value problems for first-order differential equations.",
+    "Euler's method (explicit and implicit).",
+    "Runge-Kutta methods, Butcher tables.",
+    "Systems of ordinary differential equations."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving classes",
+    "Laboratory practicals",
+    "Online Matlab course",
+    "Problem solving with MATLAB in the computer lab"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 36.0,
+  "assessment_methods": [
+    {
+      "method": "Test 1 (Prueba 1)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Test 2 (Prueba 2)",
+      "weight_percentage": 60.0
+    },
+    {
+      "method": "Global Exam (Prueba Global)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation consists of classroom/laboratory work and two written, theoretical/practical tests with Matlab, announced in advance. A student passes if the score is 5 or greater. If a student does not achieve at least 5 points in the progressive evaluation score, they may take the global exam in the ordinary call, with the grade being that obtained in the exam. For the extraordinary call, evaluation is a global theoretical/practical exam with Matlab, passing with 5 or more points.",
+  "bibliography": [
+    "Faires,J.D.,Burden,R.(2004) Métodos numéricos,3ª edición.Thomson",
+    "Mathews, J. H., Fink, K. T. (2000) Métodos Numéricos con Matlab, 3ª edición. Prentice-Hall.",
+    "Quintana, P., Villalobos, E., Cornejo, M.C. (2005) Métodos Numéricos con aplicaciones en Excel. Reverté.",
+    "Quintela, P. (2001) Métodos Numéricos en Ingeniería. Tórculo ediciones.",
+    "Sanz-Serna, J.M. (1998) Diez lecciones de Cálculo Numérico. Ed. De la Universidad de Valladolid."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad Politécnica de Madrid",
+  "institution_slug": "es_politecnica_madrid",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "565000325",
+  "academic_year": "2026-27",
+  "source_url": "https://www.upm.es/comun_gauss/publico/guias/2026-27/GA_56IM_565000325_ES_2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "0f0c9f82be82f131c1a1e2f6dd00ab50e7376bc60dfcc08a5ecff33b91cffea6",
+  "extracted_at": "2026-11-13T20:29:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

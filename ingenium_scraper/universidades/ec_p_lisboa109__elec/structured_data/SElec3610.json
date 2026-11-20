@@ -1,0 +1,55 @@
+{
+  "course_name_original": "Sistemas Electrónicos (SElec3610)",
+  "course_name_en": "Electronic Systems (SElec3610)",
+  "ects": 6.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [],
+  "syllabus_topics": [
+    "Feedback and Stability. Linear two-ports. Feedback topologies. Stability as a function of return gain. Nyquist diagram. Effect on frequency response.",
+    "Analog Filters. Design of Butterworth and Chebyshev filters. Frequency transformations. Realization of active filters by direct simulation (GIC). Biquadratic sections.",
+    "Oscillators. Barkhausen criterion. Stability of oscillation frequency and amplitude. Oscillator circuits: Wien bridge, phase shift, LC and relaxation. Applications.",
+    "Digital Filters. Signal digitalization. IIR and FIR filters. Realization of digital filters.",
+    "Digital Systems. ROM, EPROM, EEPROM, SRAM and DRAM memories.",
+    "Embedded Systems. Electronics of embedded systems: interface between microcontrollers and external components. Bluetooth, ZigBee, Wi-Fi and IoT. Design, implementation and testing of advanced embedded electronic systems."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Final Exam, Resit Exam, or Special Season Exam (best grade counted as Nexame)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Laboratory work (3 assignments: Feedback, Proximity Detector, Microcontroller)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as 0.5 * Nlab + 0.5 * Nexame, rounded to the nearest unit. Nexame is the best grade among the Final Exam, Resit Exam, or Special Season Exam, with a minimum score of 8.0. Nlab is the average of the 3 laboratory reports, rounded to the first decimal, and must be greater than or equal to 9.5. Mandatory attendance for all laboratory sessions; absence from a demonstration results in a zero for that work. All students must obtain approval in the laboratory component for all assessment methods.",
+  "bibliography": [
+    "Manuel de Medeiros Silva, CIRCUITOS COM TRANSISTORES BIPOLARES E MOS, F.C. Gulbenkian, 2ª edição- 2003 (main)",
+    "Manuel de Medeiros Silva, INTRODUÇÃO AOS CIRCUITOS ELÉCTRICOS E ELECTRÓNICOS, F.C. Gulbenkian, 2001 (main)",
+    "Adel Sedra, Kenneth Smith, MICROELECTRONIC CIRCUITS, Oxford University Press, 7ª Edição-2014 (secondary)",
+    "3/E: Alan V. Oppenheim, Ronald W. Schafer, Discrete-Time Signal Processing, Prentice Hall, 2010 (main)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "learning_outcomes",
+    "prerequisites"
+  ],
+  "institution": "Universidade De Lisboa — LEEC21 Eng. Eletrotécnica e de Computadores (IST)",
+  "institution_slug": "ec_p_lisboa109__elec",
+  "degree": "Licenciatura Bolonha em Engenharia Eletrotécnica e de Computadores (LEEC21)",
+  "course_code": "SElec3610",
+  "academic_year": "2025/2026",
+  "source_url": "https://fenix.tecnico.ulisboa.pt/api/fenix/v1/courses/564560566192366",
+  "source_language": "pt",
+  "source_sha256": "c870bdb6ec50e7cb89784fb8d0fdabef8195cb465c70eeef75b907153d482637",
+  "extracted_at": "2026-11-20T12:42:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

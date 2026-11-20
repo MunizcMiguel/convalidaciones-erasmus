@@ -1,0 +1,110 @@
+{
+  "course_name_original": "Simulations in Mechanics FEM+CFD+FSI",
+  "course_name_en": "Simulations in Mechanics FEM+CFD+FSI",
+  "ects": 9.0,
+  "semester": "5,6,7",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "knowledge of mathematics",
+    "mechanics",
+    "fluid mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Has knowledge of the theoretical foundations of the Finite Element Method (FEM), Computational Fluid Dynamics (CFD), and Fluid-Structure Interaction (FSI), and their application to the modeling and simulation of mechanical systems.",
+      "type": "knowledge",
+      "code": "K_WG04, K_WG17, K_WG16"
+    },
+    {
+      "text": "Is able to perform strength and fluid dynamic analyses of mechanical systems (e.g., trusses, beams, frames, and fluid domains) using FEM and CFD methods; uses computer software implementing FEM/CFD/FSI algorithms.",
+      "type": "skill",
+      "code": "K_UW02, K_UW05, K_UW13"
+    },
+    {
+      "text": "Can select appropriate numerical models and simulation techniques (e.g., FEM, CFD, FSI) from commercial software packages and apply them for engineering analysis; is able to interpret the obtained results critically.",
+      "type": "skill",
+      "code": "K_UW05, K_UW13"
+    },
+    {
+      "text": "Is willing to comprehensively analyze and effectively carry out assigned tasks, work in a team, and take responsibility",
+      "type": "competence",
+      "code": "K_KK02"
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of the finite element method (FEM): discretization principles, shape functions, stiffness matrices, boundary conditions, equilibrium and compatibility.",
+    "Types and properties of finite elements: 1D (bar, beam), 2D (plane stress, plane strain), and 3D elements.",
+    "FEM applications in structural mechanics: trusses, beams, frames.",
+    "Formulation of global stiffness matrices and coordinate transformations.",
+    "Modeling errors and sources of numerical inaccuracy in FEM.",
+    "Advanced FEM topics: linear vs. non-linear analysis, modal analysis, stress-thermal coupling, and contact problems.",
+    "Introduction to fluid mechanics: conservation equations (mass, momentum, energy), laminar and turbulent flows.",
+    "Turbulence modeling and discretization techniques in CFD (FVM approach).",
+    "Solving Navier–Stokes equations for incompressible flows, with focus on stability, convergence, and validation.",
+    "Fundamentals of fluid-structure interaction (FSI): dimensional analysis, coupling regimes (weak and strong), slow vs. fast flow coupling, mono- and bidirectional coupling strategies.",
+    "Overview and comparison of commercial and open-source software environments: ANSYS (Mechanical, Fluent), Autodesk CFD, OpenFOAM.",
+    "Practical use of FEM software for structural analysis of trusses, beams, and frames in both linear and non-linear regimes.",
+    "Discretization of models using structured and unstructured 2D/3D meshes; mesh generation techniques.",
+    "Application of various FEM-based solvers for stress, thermal, and modal analyses.",
+    "Comparative simulations using different finite element types and mesh resolutions.",
+    "Execution of CFD simulations using FVM-based tools (OpenFOAM, Fluent, Autodesk CFD).",
+    "Programming and customizing simulation tasks in C++ within OpenFOAM environment.",
+    "Performing FSI simulations with one- and two-way coupling approaches, with validation of numerical results.",
+    "Analysis of convergence, mesh independence, and numerical accuracy in coupled simulations."
+  ],
+  "teaching_methods": [
+    "information lecture",
+    "lecture",
+    "reading",
+    "problem lecture",
+    "conversational lecture",
+    "activating method",
+    "laboratory"
+  ],
+  "workload_hours_total": 270.0,
+  "workload_hours_contact": 135.0,
+  "assessment_methods": [
+    {
+      "method": "laboratory reports",
+      "weight_percentage": null
+    },
+    {
+      "method": "final examination (written or oral)",
+      "weight_percentage": null
+    },
+    {
+      "method": "active participation in laboratory sessions",
+      "weight_percentage": null
+    },
+    {
+      "method": "completion of all assigned computational tasks and reports",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The condition for passing the course is the achievement of all defined learning outcomes, including passing grades from laboratory reports and the final examination (written or oral). Active participation in laboratory sessions and the completion of all assigned computational tasks and reports are mandatory. A minimum of 50% of the total available points is required to pass the course. Students must also demonstrate the ability to apply theoretical knowledge in the practical implementation of numerical methods (FEM, CFD, FVM) to solve engineering problems.",
+  "bibliography": [
+    "Zienkiewicz O. C., Taylor R. L., The Finite Element Method , I: The Basis, Butterworth-Heinemann, Oxford, 2000.",
+    "Jean‐François Sigrist, Fluid‐Structure Interaction: An Introduction to Finite Element Coupling, ISBN:9781119952275, DOI:10.1002/9781118927762, Copyright © 2015 John Wiley & Sons, Ltd",
+    "John D. Anderson Jr., Computational Fluid Dynamics, McGraw-Hill Higher Education , ISBN-13: 978-0070016859",
+    "Joel H. Ferziger, Milovan Peric, Computational Methods for Fluid Dynamics, Springer Berlin Heidelberg, ISBN-10: 354042074",
+    "John D. Anderson Jr., Computational Fluid Dynamics, McGraw-Hill Higher Education , ISBN-13: 978-0070016859",
+    "Joel H. Ferziger, Milovan Peric, Computational Methods for Fluid Dynamics, Springer Berlin Heidelberg, ISBN-10: 3540420746"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "B19",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/B. Group of obligatory course core subject/B19_ME_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "c864cb075140f467f669537782a68afbdbeb7b6dfe6f6b60de908baa5c784598",
+  "extracted_at": "2026-11-18T10:04:44",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

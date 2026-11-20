@@ -1,0 +1,270 @@
+{
+  "course_name_original": "Máquinas térmicas",
+  "course_name_en": "Thermal Machines",
+  "ects": 6.0,
+  "semester": "2nd Semester",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Thermal Engineering",
+    "Thermal Engineering II (Mechanical specialization)",
+    "Fluid Mechanics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should be able to collect and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students have demonstrated possession and understanding of knowledge in a field of study that builds on general secondary education, and is usually found at a level that, while supported by advanced textbooks, also includes aspects involving knowledge from the forefront of their field of study.",
+      "type": "knowledge",
+      "code": "CB1"
+    },
+    {
+      "text": "Students have developed the learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "skill",
+      "code": "CB5"
+    },
+    {
+      "text": "Students know how to apply their knowledge to their work or vocation in a professional manner and possess the competences that are usually demonstrated by the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "skill",
+      "code": "CB2"
+    },
+    {
+      "text": "Students can transmit information, ideas, problems and solutions to both specialized and non-specialized audiences.",
+      "type": "skill",
+      "code": "CB4"
+    },
+    {
+      "text": "Applied knowledge of the fundamentals of fluid-mechanical systems and machines.",
+      "type": "knowledge",
+      "code": "134ACEM6"
+    },
+    {
+      "text": "Applied knowledge of thermal engineering.",
+      "type": "knowledge",
+      "code": "134ACEM3"
+    },
+    {
+      "text": "Ability to work, lead and manage conflicts in a multidisciplinary group and/or a multilingual environment.",
+      "type": "competence",
+      "code": "134ACT1"
+    },
+    {
+      "text": "Ability for oral and written transmission of information adapted to the audience.",
+      "type": "skill",
+      "code": "134ACT6"
+    },
+    {
+      "text": "Ability to apply new technologies including information and communication technologies.",
+      "type": "skill",
+      "code": "134ACT4"
+    },
+    {
+      "text": "Ability to understand and apply the principles of basic knowledge of general chemistry, organic and inorganic chemistry and their applications in engineering.",
+      "type": "knowledge",
+      "code": "134ACBB4"
+    },
+    {
+      "text": "Knowledge of the basic principles of fluid mechanics and its application to problem-solving in the field of engineering. Calculation of pipes, channels and fluid systems.",
+      "type": "knowledge",
+      "code": "134ACC2"
+    },
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply the knowledge on: linear algebra; geometry; differential geometry; differential and integral calculus; differential and partial differential equations; numerical methods; numerical algorithms; statistics and optimization.",
+      "type": "skill",
+      "code": "134ACBB1"
+    },
+    {
+      "text": "Understanding and mastery of the basic concepts about the general laws of mechanics, thermodynamics, fields and waves, and electromagnetism and their application to the resolution of problems typical of engineering.",
+      "type": "knowledge",
+      "code": "134ACBB2"
+    },
+    {
+      "text": "Basic knowledge about the use and programming of computers, operating systems, databases and computer programs with application in engineering.",
+      "type": "knowledge",
+      "code": "134ACBB3"
+    }
+  ],
+  "syllabus_topics": [
+    "U.D.1. GENERALITIES",
+    "TEMA 1.- GENERALITIES OF THERMAL MACHINES",
+    "Introduction, Classification and Applications",
+    "Technology and operation",
+    "Thermal turbomachines",
+    "Gas turbines",
+    "Volumetric thermal machines. Compressors",
+    "Volumetric thermal machines. Reciprocating engines",
+    "Power plants",
+    "General characteristics. Tests and curves",
+    "Tests",
+    "Characteristics in Thermal Machines",
+    "Characteristics in Thermal Engines and power plants",
+    "Contamination",
+    "TEMA 2.- MODELING IN THERMAL MACHINES",
+    "General aspects",
+    "Mathematical modeling",
+    "Classification of models",
+    "Validation of models. Parameter identification",
+    "Use of characteristic operating curves in steady state for diagnostic and predictive purposes",
+    "Predictive models in systems involving work",
+    "Systems that include heat energy",
+    "Thermophysical properties",
+    "Modeling of gas flow",
+    "Mean value models",
+    "Filling and emptying models",
+    "One-dimensional flow in ducts",
+    "Modeling of thermodynamic transformations and cycles",
+    "Analysis of thermodynamic cycles in zero-dimensional or quasi-dimensional models",
+    "Dimensional physical models (CFD)",
+    "Combustion",
+    "Stoichiometry",
+    "Equilibrium reactions",
+    "Reaction kinetics",
+    "Flame temperature and combustion efficiency",
+    "Heat losses",
+    "Kinematics and dynamics of machines",
+    "U.D.2.- VOLUMETRIC THERMAL MACHINES",
+    "TEMA 3.- RECIPROCATING INTERNAL COMBUSTION ENGINES",
+    "Introduction",
+    "Geometry",
+    "Operating cycles",
+    "Properties of the operating fluid",
+    "Theoretical cycles",
+    "Ideal OTTO cycle",
+    "Ideal DIESEL cycle",
+    "Ideal mixed or SABATHE cycle",
+    "Other ideal cycles",
+    "Equivalent air and air-fuel cycles",
+    "Main parameters",
+    "Powers and mean pressures",
+    "Efficiencies",
+    "Characteristic curves",
+    "Charge renewal",
+    "Coefficients and Efficiencies",
+    "Mixture requirements",
+    "Spark-ignition engines",
+    "Compression-ignition engines",
+    "Combustion",
+    "Losses",
+    "Supercharging",
+    "TEMA 4.- VOLUMETRIC COMPRESSORS",
+    "Introduction",
+    "Reciprocating compressors",
+    "p-V diagram",
+    "Influence of harmful space on compressor power and size",
+    "Volumetric efficiency",
+    "Powers and efficiencies",
+    "Multi-stage compression",
+    "Regulation of reciprocating compressors",
+    "Rotary compressors",
+    "Vane compressors",
+    "Compressor de rodillo",
+    "Screw compressors",
+    "Roots type compressors",
+    "Rotary Scroll refrigeration compressor",
+    "Regulation of rotary volumetric compressors",
+    "TEMA 5.- OTHER VOLUMETRIC MACHINES",
+    "Introduction",
+    "Wankel rotary engine",
+    "Stirling engine",
+    "Steam engine",
+    "Air engine",
+    "UD. 3.- THERMAL MACHINES BASED ON TURBOMACHINES",
+    "TEMA 6.- THERMAL TURBOMACHINES",
+    "Introduction",
+    "Flow direction in the impeller of a turbomachine",
+    "Transformation of mechanical and fluid energy in the impeller",
+    "Derivation of Euler's equation for motor turbomachines",
+    "Derivation of Euler's equation for generator turbomachines",
+    "Degree of reaction of a turbomachine stage",
+    "Characteristic cases of turbomachines",
+    "Axial turbines",
+    "Centripetal turbine",
+    "Axial turbocharger",
+    "Centrifugal compressor",
+    "Stages in turbomachines",
+    "Thermodynamic study of the impulse stage",
+    "Thermodynamic study of the reaction stage",
+    "Characteristic curves and regulation of turbomachines",
+    "TEMA 7.- GAS TURBINES",
+    "Introduction",
+    "Gas turbines for industrial uses. Simple and advanced cycles",
+    "Simple theoretical cycle",
+    "Regenerative theoretical cycle",
+    "Theoretical cycle with afterburning",
+    "Theoretical cycle with intercooling",
+    "Regenerative theoretical cycle with intercooling and afterburning",
+    "Real cycles",
+    "Jet engines",
+    "Rocket engines",
+    "Aero-reactors",
+    "Powers and efficiencies. Thrust",
+    "Thermodynamic transformations",
+    "Combustion",
+    "Regenerators",
+    "Characteristic curves. Losses and regulation",
+    "Practical work: Characteristic curves in Volumetric Thermal Machines",
+    "Practical work: Thermodynamic models (zone 0) of Volumetric Thermal Machines",
+    "Practical work: Thermodynamic models and characteristics in systems integrating Turbomachines"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving / Practical exercises",
+    "Seminars",
+    "Tutoring of individual/collective works",
+    "Computer lab sessions",
+    "Laboratory sessions",
+    "Forums",
+    "Doubt clarification"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance and/or participation in face-to-face and/or virtual activities",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Theoretical concepts of the subject",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Completion of works, cases or exercises",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory/field/ICT tool use practices",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "The global qualification considers 70% from a content exam (including exercises and questions) and 30% from directed work evaluated through continuous assessment. Both blocks must be passed separately to perform the weighted sum. For the content exam, students must obtain 50% in each of the three exercises; failure in any leads to failing the exam and the course. For continuous assessment, 100% attendance to laboratory practices (5% of final grade) and collective tutorials (5% for attendance and participation, 5% for delivery of associated work) is mandatory. Failure to attend these sessions or deliver the corresponding work on time will result in automatic failure of this block.",
+  "bibliography": [
+    "Payri González, Francisco, ed. lit. - () - Motores de combustión interna alternativos - Editorial Reverté",
+    "Muñoz Domínguez, Marta. - (2008) - Problemas resueltos de motores térmicos y turbomáquinas térmicas - Universidad Nacional de Educación a Distancia",
+    "Muñoz Domínguez, Marta. - (2014) - Máquinas térmicas - UNED - Universidad Nacional de Educación a Distancia",
+    "Broatch Jacobi, Alberto. - (2020) - Ejercicios resueltos de máquinas térmicas - Editorial, Universitat Politècnica de València",
+    "Arnau, Francisco José, coord. - (2012) - Ejercicios resueltos de máquinas térmicas / - Editorial, Universitat Politècnica de València",
+    "Sánchez Lencero, Tomás. - (2004) - Turbomáquinas térmicas - Síntesis",
+    "Saravanamuttoo, H. I. H., autor - (2017) - Gas Turbine Theory - Pearson Education",
+    "Heywood, John B. - (2018) - Internal combustion engine fundamentals / - McGraw-Hill Education",
+    "Ruiz Rosales, Santiago, coord. - (2012) - Problemas resueltos de flujo compresible y turbomáquinas térmicas - Universidad Politécnica de Valencia"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Jaén",
+  "institution_slug": "es_jaen",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "13412015",
+  "academic_year": "2026-27",
+  "source_url": "https://uvirtual.ujaen.es/pub/es/informacionacademica/catalogofichasdocentesasignaturas/p/2026-27/4/134A/13412015/es/2026-27-13412015_es.html",
+  "source_language": "es",
+  "source_sha256": "429dea00948ca943fd0846b91bd814d0d6da9b001fac87e867247501bbd40aca",
+  "extracted_at": "2026-11-13T21:39:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

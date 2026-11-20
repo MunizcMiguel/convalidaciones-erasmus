@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Ingeniería de Fabricación",
+  "course_name_en": "Manufacturing Engineering",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Basic knowledge of production and manufacturing systems.",
+      "type": "knowledge",
+      "code": "CON-6"
+    },
+    {
+      "text": "Applied knowledge of manufacturing systems and processes, metrology, and quality control.",
+      "type": "knowledge",
+      "code": "HAB-19"
+    },
+    {
+      "text": "Knowledge in basic and technological subjects, enabling them to learn new methods and theories, and providing them with versatility to adapt to new situations.",
+      "type": "knowledge",
+      "code": "HAB-23"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, critical reasoning, and to communicate and transmit knowledge, abilities, and skills in the field of Industrial Engineering.",
+      "type": "skill",
+      "code": "HAB-24"
+    },
+    {
+      "text": "Ability to apply quality principles and methods.",
+      "type": "skill",
+      "code": "HAB-28"
+    },
+    {
+      "text": "Identify different manufacturing processes and systems, including advantages and disadvantages, and potential defects in their application.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Select the most appropriate manufacturing processes based on knowledge of their capabilities and limitations and according to the technological, technical, and economic demands of both product and market.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interpret metrological control guidelines used to ensure product and process quality.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Recognize and apply the basic considerations for configuring a process sheet.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know quality tools and be able to integrate manufacturing and measurement functions into them.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Concept of manufacturing and general classification of manufacturing processes.",
+    "Fundamentals of machining processes",
+    "Mechanics of cutting and machining economy",
+    "Manufacturing Systems. Tooling. Machine tool programming.",
+    "Process planning. CAPP",
+    "Industrial inspection and metrology. Measurement methods systems",
+    "Quality assurance in measurement",
+    "Quality in design and development",
+    "Quality in manufacturing",
+    "Turning and grinding processes",
+    "Drilling, milling and EDM processes.",
+    "CNC/CAM machine tool programming.",
+    "Geometric measurement with conventional systems and with three-coordinate measuring systems.",
+    "Calibration in dimensional metrology. R&R",
+    "Quality tools applied to machining processes: Design of Experiments, Control Charts, Process Capability."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Problem-solving sessions",
+    "Case studies",
+    "Practical sessions (using specialized software and workshop/metrology lab equipment)",
+    "Teamwork"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Evaluation of practical sessions on metrology and quality tools (reports)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Control on Metrology / Quality tools (global test)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Teamwork on component machining (report, CAM files, presentation)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Control on Machining",
+      "weight_percentage": 25.0
+    }
+  ],
+  "assessment_rules": "The final grade for continuous assessment is calculated as: 0.15 * practical reports grade + 0.3 * Metrology/Quality control grade + 0.3 * Machining teamwork grade + 0.25 * Machining control grade. Minimum grades are required for each component: 4/10 for practical reports, 4/10 for the Metrology/Quality control exam part and 3/10 for its problem part, 5/10 for machining teamwork, and 4/10 for machining control. Students failing continuous assessment minimums will take a global evaluation with specific exams for each part. If all required minimums are not met, the final grade will be 'Fail' with a maximum of 4.0. Resits for practicals can involve retaking only the failed parts, and the CAM programming test must be taken individually if the teamwork grade is below 5/10.",
+  "bibliography": [
+    "López de Lacalle, Luis Norberto. Mecanizado de alto rendimiento: procesos de arranque. Ediciones Técnicas Izaro, 2004.",
+    "López de Lacalle, Luis Norberto, Fernández Valdivielso, Asier y Wang, Jun. MECANIZADO AVANZADO: Productividad y calidad. Interempresas Media, S.L.U., 2024",
+    "José Antonio Travieso Rodríguez y Amelia Nápoles Alberro. Ingeniería de los procesos de fabricación mediante el arranque de virutas. Delta Publicaciones, 2010.",
+    "Boothroyd, Geoffrey. Fundamentos del corte de metales y de las máquinas- herramienta. McGraw-Hill Latinoamericana, cop. 1978.",
+    "Gorka Urbikain Pelayo, Daniel Olvera Trejo. Procesos de mecanizado convencional. McGraw Hill, 2023",
+    "Pfeifer, Tilo. Manual de gestión e ingeniería de la calidad. Mira, 2002"
+  ],
+  "isced_f_code": "0721",
+  "missing_sections": [],
+  "institution": "Universidad de Zaragoza",
+  "institution_slug": "es_zaragoza",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "29765",
+  "academic_year": "2026-27",
+  "source_url": "https://sia.unizar.es/doa/consultaPublica/look[conpub]MostrarPubGuiaDocAs?entradaPublica=true&idiomaPais=es.ES&_anoAcademico=2026&_codAsignatura=29765",
+  "source_language": "es",
+  "source_sha256": "175c5dc4b27bc3614f843754353718c5143edf9ee04dd5683a69e0f65519a422",
+  "extracted_at": "2026-11-13T20:27:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

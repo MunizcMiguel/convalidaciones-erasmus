@@ -1,0 +1,79 @@
+{
+  "course_name_original": "Introduction à la commande adaptative et à la commande en boucle",
+  "course_name_en": "Introduction to Adaptive Control and Feedforward Control",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en",
+    "fr"
+  ],
+  "prerequisites": [
+    "Systems modeling in the continuous time-domain using differential equations and transfer functions",
+    "Stability and performance in the continuous time-domain",
+    "PID controllers in the continuous time-domain"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "understand some architectures of adaptive control",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "design a simple adaptive control",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "understand feedforward control",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "design and implement a feedforward controller for badly damped mechatronic systems",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to adaptive control (2h)",
+    "Introduction to feedforward control (2h)",
+    "Exercise on adaptive control and feedforward control combined (1h)",
+    "Modeling and feedforward control of a piezoelectric mini-UAV which exhibits badly damped vibrations and non-linearity (4h)",
+    "Use of Matlab/Simulink on a topic which is related to research (mini-UAV)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical labs"
+  ],
+  "workload_hours_total": 17.0,
+  "workload_hours_contact": 9.0,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "TP1",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1+1*TP1)/2.",
+  "bibliography": [
+    "Micky Rakotondrabe, 'Smart materials-based actuators at the micro/nano-scale: characterization, control and applications', edited book, Springer - Verlag, New York, ISBN 978-1-4614-6683-3, 2013."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0934",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "07c47609ab0b02666c6f05bd059acdf60a636a4eaa3d3516511f0878ab8330e9",
+  "extracted_at": "2026-11-18T10:00:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

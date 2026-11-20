@@ -1,0 +1,103 @@
+{
+  "course_name_original": "AI for Biomedical Data Analysis",
+  "course_name_en": "AI for Biomedical Data Analysis",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student knows the foundations and basic concepts of biomedical data analysis and can apply them in the domain of biomedical signal and image processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student knows the basic concepts of statistics and machine learning.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The student knows how to correctly select data science methodologies to apply to problems in biomedical engineering.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The student can call the methods in Python and correctly apply them to practical problems in biomedical signal and image processing.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to biomedical signals (ECG, EEG, EMG, accelerometry, bioimpedance,…) and images (X-ray, CT, MRI, PET, …)",
+    "Estimation theory with applications in biomedical data analysis: Fisher information",
+    "Estimation theory with applications in biomedical data analysis: Cramér-Rao lower bound, U-statistics",
+    "Estimation theory with applications in biomedical data analysis: bootstrapping",
+    "Estimation theory with applications in biomedical data analysis: Maximum Likelihood",
+    "Hypothesis tests for machine learning and biostatistics: Concepts - P-values",
+    "Hypothesis tests for machine learning and biostatistics: Wilcoxon test and permutation tests",
+    "Hypothesis tests for machine learning and biostatistics: Rank-tests such as the Mann-Whitney U test, Kruskal-Wallis and other non-parametric tests",
+    "Hypothesis tests for machine learning and biostatistics: Bonferroni correction in the case of multiple comparisons",
+    "Hypothesis tests for machine learning and biostatistics: Goodness-of-fit tests",
+    "Hypothesis tests for machine learning and biostatistics: Power analysis",
+    "Classic machine learning methods: Nearest neighbors",
+    "Classic machine learning methods: Decision trees",
+    "Classic machine learning methods: Bias-variance decomposition",
+    "Linear models and optimization: Logistic regression",
+    "Linear models and optimization: Tikhonov regularization",
+    "Linear models and optimization: Gradient descent",
+    "Linear models and optimization: Learning rate, training curves",
+    "Linear models and optimization: Stochastic gradient descent",
+    "Linear models and optimization: Metrics for classification and regression",
+    "Neural networks: Multi-layer perceptrons",
+    "Neural networks: Convolutional networks",
+    "Neural networks: Backpropagation",
+    "Neural networks: Deep learning",
+    "Exercise sessions: Estimation theory",
+    "Exercise sessions: (Non)parametric hypothesis tests and variance analysis",
+    "Exercise sessions: Classification and cluster analysis",
+    "Exercise sessions: Biomedical image analysis",
+    "Exercise sessions: Time-series analysis",
+    "Exercise sessions: Machine learning challenge"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Assignment",
+    "Exercise sessions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Project/Product",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Partial or continuous assessment with a final exam during the examination period. Permitted materials include a list of formulas and a calculator.",
+  "bibliography": [
+    "Slides",
+    "Selection of papers on TOLEDO",
+    "Assignment",
+    "Information on TOLEDO"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "KU Leuven - Faculty of Engineering Science",
+  "institution_slug": "ec_b_leuven01",
+  "degree": "Bachelor in de ingenieurswetenschappen (Bachelor of Engineering Science, Leuven)",
+  "course_code": "H0R28A",
+  "academic_year": "2026-27",
+  "source_url": "https://onderwijsaanbod.kuleuven.be/syllabi/e/H0R28AE",
+  "source_language": "en",
+  "source_sha256": "f0c9578d0d21730f52b7e92bab3a625156ffb63d0ef5afd638da3cb3e149b58b",
+  "extracted_at": "2026-11-20T09:19:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

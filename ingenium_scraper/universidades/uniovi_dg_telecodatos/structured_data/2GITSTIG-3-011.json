@@ -1,0 +1,89 @@
+{
+  "course_name_original": "Visión Artificial",
+  "course_name_en": "Computer Vision",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid foundation in programming",
+    "Solid foundation in mathematics",
+    "Deep Learning (recommended)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the general concepts of Artificial Vision and use basic operations for digital image processing.",
+      "type": "knowledge",
+      "code": "RVISA1"
+    },
+    {
+      "text": "Identify relevant properties and extract different features from digital images.",
+      "type": "skill",
+      "code": "RVISA2"
+    },
+    {
+      "text": "Design, implement, and validate Artificial Vision systems for image segmentation and pattern recognition.",
+      "type": "competence",
+      "code": "RVISA3"
+    },
+    {
+      "text": "Design, implement, and validate convolutional neural networks for solving advanced Artificial Vision problems.",
+      "type": "competence",
+      "code": "RVISA4"
+    }
+  ],
+  "syllabus_topics": [
+    "Image formation and detection",
+    "Image processing",
+    "Reconstruction",
+    "Convolutional networks and image classification",
+    "Object detection and image segmentation"
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Online teaching",
+    "Expositive classes"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Participation in forums/online activities (online questionnaire/s)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practice reports/memories/laboratory exams",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Theory exam",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "To pass the subject, a minimum of 4 out of 10 points must be obtained in both the theoretical and practical parts. If these minimums are not met, the final grade will be the minimum between 4 and the grade obtained from the weighted average. The ordinary examination consists of 5% attendance, 10% online participation, 45% practical work, and 40% theory exam. For extraordinary examinations, the evaluation consists of a 50% theory exam and a 50% practical exam, with a minimum of 4 points required in each part. If a student obtained 5 or higher in a part (theory or practical) in the ordinary call, they can only be evaluated on the part not previously passed.",
+  "bibliography": [
+    "Szeliski, Richard. Computer vision: algorithms and applications. Springer Nature, 2022.",
+    "Forsyth, David A., and Jean Ponce. Computer vision: a modern approach. Pearson, 2012.",
+    "González, Rafael C., Woods, Richard E., Digital Image Processing, Pearson, 2018.",
+    "Hartley, Richard, and Andrew Zisserman. Multiple view geometry in computer vision. Cambridge university press, 2003.",
+    "Elgendy, Mohamed. Deep learning for vision systems. Manning, 2020."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-3-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-011",
+  "source_language": "es",
+  "source_sha256": "d079a1cf08e8742eb7b4323456c53627fec1e0b5c0d1abeff54cc7e1ca4b1eed",
+  "extracted_at": "2026-11-20T06:06:11",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

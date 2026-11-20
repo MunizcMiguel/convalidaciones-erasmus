@@ -1,0 +1,132 @@
+{
+  "course_name_original": "Programming fundamentals",
+  "course_name_en": "Programming fundamentals",
+  "ects": 6.0,
+  "semester": "1",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The graduate has the necessary knowledge for using computers, developing software programs and applications, information processing.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to apply general rules to specific problems and produce relevant solutions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills to understand and use object-oriented programming concepts to develop software applications of medium complexity.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the necessary skills for computer program design and software systems analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate has the ability to observe and obtain information from various sources.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "The graduate knows the basic aspects of software management.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the course",
+    "What is programming: algorithm, program, basic elements of the Python language, the Python interpreter.",
+    "Recursion.",
+    "Notion of recursion, direct and indirect recursion, examples.",
+    "Empiric analysis and asymptotic analysis.",
+    "Asymptotic notation: big-o, little-o, big-omega, little-omega, theta.",
+    "Comparison of algorithms from an efficiency point of view, analysing both time and extra-space complexity.",
+    "Searching. Sorting",
+    "Specification of the searching and sorting problems.",
+    "Search methods: sequential, binary, exponential.",
+    "Sort methods: bubble sort, selection sort, insertion sort and optimizations, quick sort, merge sort and optimizations.",
+    "Algorithm and extra-space complexity of searching and sorting algorithms.",
+    "Problem solving methods",
+    "General presentation of the greedy, divide & conquer, backtracking and dynamic programming methods.",
+    "Typical problem statements.",
+    "Analysis of time and extra-space complexity.",
+    "Procedural programming",
+    "Compound types in Python: list, tuple, dictionary",
+    "Functions: definition, creating test cases, variable scope, calling, parameter passing",
+    "Test-driven development steps and refactoring.",
+    "Modular programming",
+    "What is a module, what is a Python module, variable scope in a module, packages, standard module libraries, installing additional modules.",
+    "How to organize source code: responsibilities, single responsibility principle, separation of concerns, dependency, coupling, cohesion.",
+    "Introduction to layered architecture.",
+    "Classes and objects",
+    "How to define additional data types in Python using classes",
+    "Class methods, special methods, object creation, Python scope and packages",
+    "Object based programming",
+    "Information hiding, encapsulation, inheritance, dynamic typing",
+    "How to apply the principles of layered architecture using classes and objects",
+    "Using the exceptions mechanism",
+    "Examples focused on layered architecture solutions that demonstrate class hierarchies, the use of text and binary files for storage as well as the use of Python exceptions for signalling the occurrence of exceptional situations.",
+    "Program design guidelines",
+    "Design principles: information expert, low coupling, high cohesion, single responsibility principle, dependency injection.",
+    "The Unified Modelling Language, UML class diagrams.",
+    "Program testing and refactoring",
+    "Introduction to program testing, program testing levels.",
+    "Manual and automated testing using PyUnit.",
+    "Introduction to the Test-driven development paradigm.",
+    "Program inspection and refactoring",
+    "Preparing for the exam",
+    "Revision of the most important topics covered by the course.",
+    "Exam guide presentation."
+  ],
+  "teaching_methods": [
+    "Interactive exposure",
+    "Explanation",
+    "Conversation",
+    "Examples",
+    "Didactical demonstration"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 84.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Practical evaluation",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Program and documentation portfolio (Seminar/laboratory)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "Students must observe academic integrity. Successful passing of the exam is conditioned by a minimum grade of 5 at the lab activity, practical test and written examination. Entering the examination during the regular or retake sessions is conditioned by having 10 attendances at the seminar (out of 14 possible) and 12 attendances at the laboratory (out of 14 possible). Entering the examination during the regular session is conditioned by having a minimum grade of 5 at the lab activity.",
+  "bibliography": [
+    "Kent Beck - Test Driven Development: By Example. Addison-Wesley Longman, 2002.",
+    "Kleinberg and Tardos – Algorithm Design. Pearson Educational, 2014 (http://www.cs.princeton.edu/~wayne/kleinberg-tardos/)",
+    "Martin Fowler - Refactoring. Improving the Design of Existing Code. Addison-Wesley, 1999. (http://refactoring.com/catalog/index.html)",
+    "The Python language reference. (https://docs.python.org/3/reference/index.html)",
+    "The Python standard library. (https://docs.python.org/3/library/index.html)",
+    "The Python tutorial. (https://docs.python.org/3/tutorial/index.html)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Babeș-Bolyai University, Cluj-Napoca",
+  "institution_slug": "ec_ro_clujnap01",
+  "degree": "Computer Science (teaching in English), Bachelor",
+  "course_code": "MLE5005",
+  "academic_year": "2025-2026",
+  "source_url": "https://www.cs.ubbcluj.ro/files/curricula/2025/syllabus/IE_sem1_MLE5005_en_arthur_2025_9508.pdf",
+  "source_language": "en",
+  "source_sha256": "5626d28523ca62317038505534bf6a523c4dc906c28566791a714cc2c1723c86",
+  "extracted_at": "2026-11-20T09:08:00",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

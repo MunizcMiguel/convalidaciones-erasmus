@@ -1,0 +1,121 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of contents typical of Mathematics I and II of high school, including elementary algebra, trigonometry, and basic calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Capacity for solving mathematical problems that may arise in engineering. Aptitude to apply knowledge about: linear algebra.",
+      "type": "competence",
+      "code": "CB1"
+    },
+    {
+      "text": "Utilize the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "skill",
+      "code": "RA1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces, and linear applications, and use matrices to simplify their study.",
+      "type": "skill",
+      "code": "RA2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces through scalar product, norm, or distance.",
+      "type": "skill",
+      "code": "RA3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "skill",
+      "code": "RA4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and space.",
+      "type": "skill",
+      "code": "RA5"
+    },
+    {
+      "text": "Identify the basic elements of differential equations and systems of differential equations and use algebraic tools to solve elementary cases.",
+      "type": "skill",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic properties and fundamental operations of real and complex numbers.",
+    "Matrices and basic properties. Determinant.",
+    "Resolution of systems using Gauss Elimination Method. Application to inverse matrix calculation.",
+    "Vector space structure.",
+    "Linear combinations and linear independence. Bases and dimension. Coordinates.",
+    "Vector subspaces.",
+    "Definition and properties of linear applications.",
+    "Associated matrix. Change of basis.",
+    "Kernel and image of an application. Classification of linear applications.",
+    "Eigenvalues and eigenvectors.",
+    "Diagonalization of endomorphisms and matrices.",
+    "Applications to solving systems of linear differential equations.",
+    "Euclidean vector space. Scalar product and metric properties.",
+    "Orthogonality. Orthogonal diagonalization.",
+    "Orthogonal projection.",
+    "Introduction to MATLAB",
+    "Matrix calculation and systems of equations",
+    "Vector spaces and change of basis",
+    "Linear applications. Eigenvalues and diagonalization",
+    "Scalar products and orthogonal projections"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Written partial controls",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practices",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practices",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as NF = 0.15*NL + maximum (0.15*NA + 0.7*NC, 0.85*NC), where NL is the laboratory practice grade, NA the classroom practice grade, and NC the average of two written partial controls. To pass, a minimum of 2.5 out of 10 points is required in each partial control; otherwise, the final numerical grade will be the minimum of NF and 4.5. Extraordinary calls include a two-part written exam and a laboratory practice test, using the same grading formula. Grades for classroom practices are valid for the entire academic year, while laboratory practice grades can be conserved or replaced by a new specific exam.",
+  "bibliography": [
+    "Lay, D.C. Álgebra Lineal y sus Aplicaciones. Addison Wesley (3ª ed.), 2007.",
+    "Lay, D.C. Linear Algebra and its Applications. Addison Wesley (4th ed.), 2011.",
+    "Nakos, G.; Joyner, D. Álgebra Lineal con Aplicaciones. Thomson, 1999.",
+    "Nakos, G.; Joyner, D. Linear Algebra with Applications. Brooks, 1998.",
+    "Poole, D. Álgebra Lineal, una introducción moderna. Thomson, 2004.",
+    "Poole, D. Linear Algebra: A modern introduction. Brooks, 2010 (3rd ed).",
+    "Burgos, J, de. Álgebra Lineal. McGraw-Hill (3ª ed.), 2006.",
+    "Golubitsky, M.; Dellnitz, M. Álgebra Lineal y ecuaciones diferenciales, con uso de MatLab. Thomson, 2001.",
+    "Golubitsky, M.; Dellnitz, M. Linear Algebra and Differential Equations using MATLAB. Brooks, 1999.",
+    "Strang, G. Álgebra Lineal y sus aplicaciones. Thomson, 2007.",
+    "Strang, G. Linear Algebra and Its Applications. Brooks, 2005 (4th ed.)."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo",
+  "institution_slug": "uniovi",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "GIMECA01-1-004",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/mecanica/-/fof/asignatura/GIMECA01-1-004",
+  "source_language": "es",
+  "source_sha256": "ad634dd66bf016a92a9ac6779d5a9836bafd1d19ea9d2264356a74e0f487691d",
+  "extracted_at": "2026-11-12T23:50:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

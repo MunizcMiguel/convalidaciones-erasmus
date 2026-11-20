@@ -1,0 +1,98 @@
+{
+  "course_name_original": "Rechnerarchitektur",
+  "course_name_en": "Computer Architecture",
+  "ects": 7.0,
+  "semester": "Wintersemester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of Boolean algebra",
+    "Algorithmic thinking"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Represent different types of information for processing by digital computers",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Name the elements of an instruction set architecture, based on data-processing-appropriate representation of information and the principles of instruction-based execution of processing instructions, and assess their effects on programming",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain the interaction of hardware and software",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Formulate basic elements of procedural programming in a machine language",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Assess the effect of programming alternatives on execution speed",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain concepts for performance enhancement in modern processors and associated problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Independently create and execute small assembler programs",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Classification of computer architectures and computer description",
+    "Information representation in the computer: Polyadic number systems, conversion methods, complement representations, floating-point representations",
+    "Instruction set architectures: Classification, programming model, IA32 instruction set as example, machine-oriented programming concepts (addressing modes, subroutine techniques, others)",
+    "von Neumann computer: Mode of operation and structure, control unit, arithmetic logic unit, memory unit and memory technologies, I/O units, bus system",
+    "Advanced concepts in current computer architectures (Cache, multi-core architectures, pipelining, superscalar)",
+    "Tasks for assembler programming with NASM (x86/IA32/Intel 64-Assembler)"
+  ],
+  "teaching_methods": [
+    "Seminar-style instruction",
+    "Exercises",
+    "Practical work"
+  ],
+  "workload_hours_total": 175.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Written examination (90 minutes)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Successful participation in practical work (Testates)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Successful completion of the practical work (3.2) is a prerequisite for participation in the written examination (3.1). Within the practical work, several testates must be acquired. For successful completion of the tasks, a testate is awarded by the lecturer. A minimum of 80% of the testates, covering essential topics of the lecture, must be completed.",
+  "bibliography": [
+    "PATTERSON, David A. und John L. HENNESSY, 2014. Computer Organization and Design: The Hardware/Software Interface. 5. Auflage.",
+    "SCHIFFMANN, W. und R. SCHMITZ, 2003. Technische Informatik 1 \n Grundlagen der digitalen Elektronik. 5. Auflage.",
+    "SCHIFFMANN, W. und R. SCHMITZ, 2002. Technische Informatik 2 \n Grundlagen der Computertechnik. 4. Auflage.",
+    "STALLINGS, William, 2017. Computer Organization and Architecture - Designing for Performance. 10. Auflage.",
+    "ROMING, Marcus und Joachim ROHDE, 2006. Assembler : Grundlagen der Programmierung. ISBN 978-3- 8266-1469-9"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt — Informatik (B.Sc.)",
+  "institution_slug": "ec_d_ingolst01__info",
+  "degree": "Informatik (B.Sc.)",
+  "course_code": "IB_RA",
+  "academic_year": "SPO WS 18/19 (Stand 31.01.2025)",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetI/Modulhandbuecher/MHBuch_INF-B.pdf",
+  "source_language": "de",
+  "source_sha256": "9e164dd3891a1c5972fc7fbc95a6defe3b3690c6aa8122c60f8fefe804c4ea87",
+  "extracted_at": "2026-11-20T12:35:45",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

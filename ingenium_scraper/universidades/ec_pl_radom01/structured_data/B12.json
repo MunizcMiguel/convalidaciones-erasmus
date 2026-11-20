@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Machine dynamics",
+  "course_name_en": "Machine dynamics",
+  "ects": 4.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "mechanics",
+    "strength of materials",
+    "mathematics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Master the skills of constructing physical and mathematical models for vibrating objects and their analysis.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Learn about vibration phenomena, determine the parameters of the vibration damper, and calculate eigenvalues and mode shapes.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Master the ability to model mechanical systems using dedicated software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Has basic knowledge in the field of mechanical vibrations of discrete systems and their application in engineering calculations and knows the impact of vibrations on the environment and on the human body",
+      "type": "knowledge",
+      "code": "K_WG01, K_WG02, K_WG05, K_WG17"
+    },
+    {
+      "text": "Is able to build differential equations of free and forced vibrations for discrete mechanical models, determine eigenfrequencies and mode shapes, build simple testing set up for vibration presentation and calculate the response to kinematic, inertia and harmonic forces",
+      "type": "skill",
+      "code": "K_UW02, K_UW08, K_UW09, K_UK18, K_UK18, K_UO19"
+    },
+    {
+      "text": "Is able to use the software to conduct the dynamic simulation mechanical models along with the determination of the time and frequency dependent responses.",
+      "type": "skill",
+      "code": "K_UW02, K_UW05, K_UU21"
+    },
+    {
+      "text": "Is able to cooperate and work in a group and understands the non-technical aspects of the engineer-mechanic activity, including the impact on the environment",
+      "type": "competence",
+      "code": "K_KK01, K_KO02, K_KO04"
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory information. Determination of vibrations.",
+    "Vibrations in nature and technology. Causes of vibrations, their differentiation, damping, and excitation.",
+    "Impact of vibrations on the human body.",
+    "The dynamic individuality of the mechanical system.",
+    "Categorization of vibrations in vibrating systems.",
+    "Vibrations of linear systems with one degree of freedom.",
+    "Harmonic movement. Submission of harmonic movements.",
+    "Replacement systems. Degrees of freedom. Generalized coordinates.",
+    "Free vibrations (self) without damping.",
+    "Free vibrations with viscous damping. Critical suppression.",
+    "Free vibrations suppressed by dry, structural, and mixed friction.",
+    "Vibration damping.",
+    "Forced vibrations of a system with one degree of freedom. Forcing with harmonic force, periodic non-harmonic forces, kinematics, and inertia.",
+    "Resonance chart. Phase-frequency diagram.",
+    "Vibrations of linear systems with a finite number of degrees of freedom.",
+    "Dynamic models of machines and structures.",
+    "Building physical and mathematical models for vibrating objects with one degree of freedom.",
+    "Laying down equations of vibrating motion.",
+    "Application of the d'Alembert principle and Lagrange equations of the second kind for constructing motion equations for models with a finite number of degrees of freedom.",
+    "Choosing the method for arranging differential equations of motion.",
+    "Comparison of vibration damping methods.",
+    "Dynamic isolation effect.",
+    "Ways of inducing and supporting vibrations. Examples.",
+    "Calculating natural frequencies and presenting vibrations of systems with 2 or 3 degrees of freedom.",
+    "Basics of MBD.",
+    "Utilization of dedicated software to conduct simulations."
+  ],
+  "teaching_methods": [
+    "Informative lecture",
+    "Calculation exercises"
+  ],
+  "workload_hours_total": 100.0,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Exam-lecture",
+      "weight_percentage": null
+    },
+    {
+      "method": "Project-lab exercises",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The condition for passing the course is to achieve all the required learning outcomes specified for the course. The final grade is the average of grades obtained from the exam-lecture and the project-lab exercises.",
+  "bibliography": [
+    "Daniel J. Inman, Engineering vibrations, Pearson International Edition, 2009",
+    "Singiresu S. Rao, Mechanical Vibrations, Pearson 2004, 2011, 2017",
+    "Osiński Z., Teoria drgań, PWN, Warszawa, 1978.",
+    "Arczewski K., Pietrucha J., Szuster J. T., Drgania układów fizycznych, Oficyna Wydawnicza Politechniki Warszawskiej, Warszawa, 2008.",
+    "Osiński Z., Tłumienie drgań mechanicznych. PWN, Warszawa, 1979.",
+    "Parszewski Z., Drgania i dynamika maszyn, WNT, Warszawa, 1982.",
+    "Den Hartog J. P., Drgania mechaniczne, PWN, Warszawa, 1971.",
+    "Osiński Z. (red), Zbiór zadań z teorii drgań, PWN, Warszawa, 1989.",
+    "Kruszewski J., Wittbrodt E., Drgania układów mechanicznych w ujęciu komputerowym, WNT, Warszawa, 1992.",
+    "Woroszył S., Przykłady i zadania z teorii drgań, PWN, Warszawa, 1979."
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Uniwersytet Technologiczno - Humanistyczny Im. Kazimierza Pulaskiego W Radomiu",
+  "institution_slug": "ec_pl_radom01",
+  "degree": "Mechanical Engineering (first-cycle, full-time, English)",
+  "course_code": "B12",
+  "academic_year": "2025/2026",
+  "source_url": "https://wm.uniwersytetradom.pl/wp-content/uploads/sites/18/2025/05/Syllabusy-2025-2026-ME-I.zip#Syllabusy/Full - time studies/B. Group of obligatory course core subject/B12_ME_O_I_ST.pdf",
+  "source_language": "en",
+  "source_sha256": "9e818c98e2029b15c55b28fbd7c6159faecca12bd436b9040a5f28e9c1b8c2d0",
+  "extracted_at": "2026-11-18T10:04:38",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

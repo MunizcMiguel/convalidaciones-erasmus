@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Álgebra Lineal",
+  "course_name_en": "Linear Algebra",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of Mathematics I and II from high school (Bachillerato científico-tecnológico), including elementary algebra, trigonometry, and basic calculus."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to solve mathematical problems that may arise in engineering. Aptitude to apply knowledge on: linear algebra.",
+      "type": "skill",
+      "code": "CB1"
+    },
+    {
+      "text": "Utilize the basic properties of real and complex numbers and perform fundamental operations with them.",
+      "type": "unspecified",
+      "code": "RA1"
+    },
+    {
+      "text": "Use the basic elements of Linear Algebra: systems of linear equations, vector spaces and linear applications and use matrices to simplify their study.",
+      "type": "unspecified",
+      "code": "RA2"
+    },
+    {
+      "text": "Identify metric properties in vector spaces, through the dot product, norm, or distance.",
+      "type": "unspecified",
+      "code": "RA3"
+    },
+    {
+      "text": "Calculate eigenvalues and eigenvectors and diagonalize endomorphisms and matrices.",
+      "type": "unspecified",
+      "code": "RA4"
+    },
+    {
+      "text": "Solve geometric problems in the plane and in space.",
+      "type": "unspecified",
+      "code": "RA5"
+    },
+    {
+      "text": "Identify the basic elements of differential equations and systems of differential equations and use algebraic tools to solve elementary cases.",
+      "type": "unspecified",
+      "code": "RA6"
+    }
+  ],
+  "syllabus_topics": [
+    "Topic 1. Real and complex numbers.",
+    "1.1. Basic properties and fundamental operations.",
+    "Topic 2. Systems of linear equations and matrices.",
+    "2.1. Matrices and basic properties. Determinant.",
+    "2.2. Solving systems using the Gauss Method. Application to inverse matrix calculation.",
+    "Topic 3. Vector spaces.",
+    "3.1. Vector space structure.",
+    "3.2. Linear combinations and linear independence. Bases and dimension. Coordinates.",
+    "3.3. Vector subspaces.",
+    "Topic 4. Linear applications.",
+    "4.1. Definition and properties.",
+    "4.2. Associated matrix. Change of basis.",
+    "4.3. Kernel and image of an application. Classification of linear applications.",
+    "Topic 5. Diagonalization.",
+    "5.1. Eigenvalues and eigenvectors.",
+    "5.2. Diagonalization of endomorphisms and matrices.",
+    "5.3. Applications to solving systems of linear differential equations.",
+    "Topic 6. Euclidean geometry.",
+    "6.1. Euclidean vector space. Scalar product and metric properties.",
+    "6.2. Orthogonality. Orthogonal diagonalization.",
+    "6.3. Orthogonal projection.",
+    "1. Introduction to MATLAB",
+    "2. Matrix calculation and systems of equations",
+    "3. Vector spaces and changes of basis",
+    "4. Linear applications. Eigenvalues and diagonalization",
+    "5. Scalar products and orthogonal projections"
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom practices",
+    "Laboratory practices",
+    "Autonomous work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial written control 1 (covers topics 1-3)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial written control 2 (covers topics 4-6)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom practice evaluation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory practice evaluation",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final grade (NF) is calculated as: NF = 0.15*NL + maximum (0.15*NA + 0.7*NC, 0.85*NC), where NL is the laboratory practice grade, NA is the classroom practice grade, and NC is the average grade of the written controls, all out of 10 points. To pass, students must obtain at least 2.5 points out of 10 in each of the partial controls. If this minimum is not met in any control, the final grade will be a fail, and the numerical grade on the transcript will be the minimum of NF and 4.5. In extraordinary calls, a written exam with two parts and a laboratory practice test will be conducted, using the same evaluation formula as in the ordinary call. For differentiated evaluation, if classroom attendance is not possible, the final grade is NF = 0.15*NL + 0.85*NC, with passing requiring NF >= 5, NL >= 2.5, and NC >= 2.5 in each written exam part.",
+  "bibliography": [
+    "Lay, D.C. Álgebra Lineal y sus Aplicaciones. Addison Wesley (3ª ed.), 2007.",
+    "Versión en ingles: Linear Algebra and its Applications. Addison Wesley (4th ed.), 2011.",
+    "Nakos, G.; Joyner, D. Álgebra Lineal con Aplicaciones. Thomson, 1999.",
+    "Versión en inglés: Nakos, G.; Joyner, D. Linear Algebra with Applications. Brooks, 1998.",
+    "Poole, D. Álgebra Lineal, una introducción moderna. Thomson, 2004.",
+    "Versión en inglés: Linear Algebra: A modern introduction. Brooks, 2010 (3rd ed).",
+    "Burgos, J, de. Álgebra Lineal. McGraw-Hill (3ª ed.), 2006.",
+    "Golubitsky, M.; Dellnitz, M. Álgebra Lineal y ecuaciones diferenciales, con uso de MatLab. Thomson, 2001.",
+    "Versión en ingles: Linear Algebra and Differential Equations using MATLAB. Brooks, 1999.",
+    "Strang, G. Álgebra Lineal y sus aplicaciones. Thomson, 2007.",
+    "Versión en inglés: . Linear Algebra and Its Applications. Brooks, 2005 (4th ed.)."
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería de Tecnologías Industriales (EPI Gijón)",
+  "institution_slug": "uniovi_giti",
+  "degree": "Grado en Ingeniería de Tecnologías Industriales",
+  "course_code": "GITECI01-1-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/tecnologiasindustriales/-/fof/asignatura/GITECI01-1-009",
+  "source_language": "es",
+  "source_sha256": "798572ee575cadf69e20afe17fefdda243f6ea02b35a004134d4d99eab501b10",
+  "extracted_at": "2026-11-20T01:12:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

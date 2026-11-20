@@ -1,0 +1,167 @@
+{
+  "course_name_original": "Theory of Computation (MYY501)",
+  "course_name_en": "Theory of Computation",
+  "ects": 6.0,
+  "semester": "5",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "el"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "To have a good understanding of the fundamental notions of the subject of Formal Languages and Models of Computation.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To understand and design regular expressions.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To understand the function of deterministic and non-deterministic finite automata and to construct such automata for recognizing languages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To construct deterministic automata equivalent to non-deterministic ones.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To know the closure properties of regular languages and to use them in order to prove that a language is regular.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To know the Pumping Lemma for regular languages and to use it to prove that a language is not regular.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To construct context-free grammars for context-free languages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To understand the function of pushdown automata and to construct such automata for recognizing languages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To transform context-free grammars into grammars in Chomsky normal form.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To know the closure properties of context-free languages and to use them in order to prove that a language is context-free.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To know the Pumping Lemma for context-free languages and to use it to prove that a language is not context-free.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To understand the function of deterministic and non-deterministic Turing machines and to construct such machines for recognizing and deciding languages.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To prove that a given language is recursive (i.e., a given problem is decidable).",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To know the relationships among the regular, context-free, recursive, and recursively enumerable languages.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To know the P and NP classes of problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Search for, analysis, and synthesis of data, methodologies, and information, with",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Structured mathematical thinking",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Algorithmic thinking",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Promotion of free, creative, and inductive thinking",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Working independently",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Regular languages: regular expressions, deterministic and non-deterministic finite automata, language recognition using a finite automaton, equivalence of deterministic and non-deterministic finite automata, construction of a finite automaton recognizing the language described by a regular expression, construction of a regular expression describing the language recognized by a finite automaton, closure properties, pumping lemma for regular languages and its use in proving that a language is not regular, algorithms for finite automata and regular expressions.",
+    "Context-free languages: context-free grammars, leftmost/rightmost derivation, derivation trees, ambiguous grammars, regular context-free grammars, pushdown automata, non-equivalence of deterministic and non-deterministic pushdown automata, equivalence of the set of languages recognized by (non-deterministic) pushdown automata and the set of languages derived by context-free grammars, Chomsky normal form, closure properties, pumping lemma for context-free languages and its use in proving that a language is not context-free, algorithms for pushdown automata and context-free grammars.",
+    "Recursively enumerable and recursive languages: Turing machines, recognizing and deciding languages using a Turing machine, equivalence of deterministic and non-deterministic Turing machines, language enumeration, equivalence of different Turing machine models, closure properties, Church-Turing thesis.",
+    "Undecidability: Decidable problems for finite automata and regular expressions, a language that is not recursively enumerable, the halting problem, reductions, the Post correspondence problem.",
+    "Classes P and NP."
+  ],
+  "teaching_methods": [
+    "Weekly Lectures",
+    "Use of computer presentations during lectures",
+    "Course website maintenance with announcements and posting of teaching material (lecture slides, solved exercises)",
+    "Announcement of grades via the online platform of UOI"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 65.0,
+  "assessment_methods": [
+    {
+      "method": "Final examination (exercises and theory questions)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Midterm (exercises on the first half of the course)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "The final grade is based on a final examination (80%) and a midterm (20%). The final examination includes exercises and theory questions. The midterm includes exercises on the first half of the course.",
+  "bibliography": [
+    "H. Lewis, Χ. Παπαδημητρίου, Στοιχεία Θεωρίας Υπολογισμού, Εκδόσεις Κριτική, 2005.",
+    "M. Sipser, Εισαγωγή στη Θεωρία Υπολογισμού, Πανεπιστημιακές Εκδόσεις Κρήτης, 2009.",
+    "Computational Complexity (Springer)",
+    "SIAM Journal on Computing",
+    "Journal of the ACM",
+    "Journal of Computer and System Sciences (Elsevier)",
+    "Theoretical Computer Science (Elsevier)",
+    "Information and Computation (Elsevier)",
+    "Theory of Computing Systems (Springer)",
+    "Journal of Complexity (Elsevier)",
+    "Bulletin of the EATCS",
+    "Journal of Automata, Languages and Combinatorics (Otto-von-Guericke-Universität Magdeburg)"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "University of Ioannina (Πανεπιστήμιο Ιωαννίνων)",
+  "institution_slug": "ec_g_ioannin01",
+  "degree": "Computer Science and Engineering (Diploma, 4 years / 240 ECTS, undergraduate programme)",
+  "course_code": "MYY501",
+  "academic_year": "2025/26",
+  "source_url": "https://www.cse.uoi.gr/wp-content/uploads/2025/09/2025-26_CSE-UOI_proptyxiaka-perigrammata_core-courses_EN.pdf",
+  "source_language": "en",
+  "source_sha256": "ebff42b9ba6d5a58d5cec8640f897e92257d7f903ba5a590892e0e63a0851e32",
+  "extracted_at": "2026-11-20T09:26:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

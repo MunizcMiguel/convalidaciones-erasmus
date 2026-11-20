@@ -1,0 +1,88 @@
+{
+  "course_name_original": "Computer Aided Mold Design",
+  "course_name_en": "Computer Aided Mold Design",
+  "ects": 4.0,
+  "semester": "7",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "tr"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Sheet metal design",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "drafting and assembling of sheet metal parts",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "progressive die design",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "mold design",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Sheet metal design, drafting and assembling of sheet metal parts, progressive die design, mold design",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to sheet metal design and NX sheet metal software, the main sheet metal bending application (flange) by NX, Importance and finding of full length of opened part in sheet metal design, determination of K faktor by reverse engineering method, form (unbend, rebend) applications by NX, solution of an example with regard to part full length",
+    "Other sheet metal bending applications (contour flange, lofted flange, hem flange, bend, jog, sheet metal from solid) by NX, a sample sheet metal part design by NX",
+    "Corner (closed corner, three bend corner, break corner) and cutting (extrude, normal cutout, bend taper) treatments in sheet metal design by NX, a sample sheet metal part design by NX",
+    "Application of forming features (dimple, louver, drawn cutout, bead) in sheet metal design by NX, a sample sheet metal part design by NX",
+    "Punch (solid punch) application, resize (resize bend radius, resize bend angle, resize neutral factor) and convert applications (convert to sheetmetal, edge rip) in sheet metal design by NX, a sample sheet metal part design by NX",
+    "Introduction to aerospace sheet metal module in NX software and presentation of aerospace sheet metal features (aeorspace flange, aerospace joggle, chamfer, sheet metal relief, sheet metal cutout), a sample sheet metal part design by NX",
+    "Flat pattern (flat solid, flat pattern) applications by NX, generating engineering drawings, assemblies and disassemblies of sheet metal parts by NX Drafting and Assembly modules, constracting of model views and dimensioning of a sample sheet metal part by NX drafting, practising of assembling and disassembling of sample sheet metal parts by NX Assembly module",
+    "Topic review",
+    "Introduction to sheet metal die design and presentation of die components, introduction to Progressive Die Wizard module in NX software and methods of construction of sheet metal dies by that module, initialize project, determination of sheet metal materials and their shear and tensile strengths together with penetration factors, blank generator, blank layout, single row-single punch layout, single row-multi punchs layout, double rows-multi punchs layout, angular layout, sample layout applicaitons and determination of material utilizations depending on those layouts",
+    "Scrap design and scrap design methods (blank boundary+sketch, hole boundary, close curves), scrap design for piercing, blanking and piloting processes, strip layout (determination of process stations, and their simulation) and interactive and automatic force calculation (process force, holding force, total force, perimeter of cutting, center of force) in sheet metal die design with NX, a sample sheet metal part design by NX and implementation of scrap design, strip layout and force calculations depending on different materials in relation to that sample",
+    "Determination of die base, die plate dimensions, strip channel dimensions and specifying of die reference point, determination of die piercing and blanking clearances (Die/Punch Side Offset), design of piercing and pocket of die plate and bottom plate in progressive die design with NX",
+    "Design of standard punch, user defined punch and user defined punch head in progressive die design with NX, calculation of punch buckling length",
+    "Designing of screw joints as component set and single component (add/edit component for component set, add/edit component or standard parts for single component), determination of screw and pocket dimensions for blind holes and throughout holes, positioning of shank joint on top plate according to center of force, implementation of disassembly of completed die set in progressive die design with NX",
+    "Generating of ball joint dies and flat thimble dies, and sequential dies working by blanking separation principle in progressive die design with NX, performing of an application study towards final examination interactively with students in classroom environment and course review"
+  ],
+  "teaching_methods": [
+    "Unigraphics NX 11 software and related modules"
+  ],
+  "workload_hours_total": 105.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Mid-terms",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Final examination",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "Üretim Yöntemleri ve İmalat Teknolojileri Talaşsız İmalat - Talaşlı İmalat - Kaynak",
+    "T.C. MİLLİ EĞİTİM BAKANLIĞI MAKİNE TEKNOLOJİSİ SAC METAL KALIP VE MEKANİZMALAR"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Tc Dumlupinar Universitesi",
+  "institution_slug": "ec_tr_kutahya01",
+  "degree": "Makine Mühendisliği / Mechanical Engineering (Normal Öğretim)",
+  "course_code": "221917032",
+  "academic_year": "2026/2027",
+  "source_url": "https://obs.dpu.edu.tr/oibs/bologna/progCourseDetails.aspx?curCourse=124016659&lang=en",
+  "source_language": "en",
+  "source_sha256": "5babf422d6bd79d3098fe91213e85df5c390a8bf00e78f929d0ed272b02e795f",
+  "extracted_at": "2026-11-20T01:20:29",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

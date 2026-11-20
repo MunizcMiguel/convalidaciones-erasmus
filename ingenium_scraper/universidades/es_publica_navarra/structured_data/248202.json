@@ -1,0 +1,187 @@
+{
+  "course_name_original": "Electrónica y automática (248202)",
+  "course_name_en": "Electronics and Automation",
+  "ects": 6.0,
+  "semester": "1st Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know the fundamental electronic components.",
+      "type": "knowledge",
+      "code": "RA01"
+    },
+    {
+      "text": "Be able to break down a problem into functional blocks easily implementable with electronic circuits.",
+      "type": "skill",
+      "code": "RA02"
+    },
+    {
+      "text": "Be able to analyze electronic circuits.",
+      "type": "skill",
+      "code": "RA03"
+    },
+    {
+      "text": "Understand and know the basic qualities and limitations of analog, digital, and power circuits.",
+      "type": "knowledge",
+      "code": "RA04"
+    },
+    {
+      "text": "Be able to integrate a mixed, analog and digital, solution for the electronic implementation of a particular industrial application.",
+      "type": "skill",
+      "code": "RA05"
+    },
+    {
+      "text": "Operate laboratory equipment specific to the field of electronics.",
+      "type": "skill",
+      "code": "RA06"
+    },
+    {
+      "text": "Describe the elements of a control system and their function.",
+      "type": "knowledge",
+      "code": "RA07"
+    },
+    {
+      "text": "Model and analyze the behavior of linear systems and characterize transient and steady states.",
+      "type": "skill",
+      "code": "RA08"
+    },
+    {
+      "text": "Model the behavior of complex systems from their constituent elements.",
+      "type": "skill",
+      "code": "RA09"
+    },
+    {
+      "text": "Establish control system objectives based on performance specifications, for both reference tracking and disturbance rejection.",
+      "type": "skill",
+      "code": "RA10"
+    },
+    {
+      "text": "Operate simulation and control software.",
+      "type": "skill",
+      "code": "RA11"
+    },
+    {
+      "text": "Simulate dynamic systems in both open and closed loop, and analyze the results.",
+      "type": "skill",
+      "code": "RA12"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to the tasks currently faced by electronics.",
+    "Fundamental devices.",
+    "Functional analysis of signal circuits, both analog and digital.",
+    "Functional description of power equipment.",
+    "Practical examples of integration in specific applications of signal and power circuits.",
+    "External representation of Linear Dynamic Systems.",
+    "Time domain analysis.",
+    "Frequency domain analysis.",
+    "Design using empirical methods.",
+    "Introduction to electronics",
+    "Basic concepts and needs (circuit theory, differences between linear and non-linear elements, types of signals, signal generators, units, basic elements, basic laws, simple control circuit C1)",
+    "The diode (function, LED, photodiode, datasheet analysis, diode bridge, LM7805 stabilization, C1 analysis)",
+    "MOSFET and BJT transistors (function, operating models, analog and digital applications, datasheet analysis, power transistors, heat sink design, C1 analysis)",
+    "Operational amplifier (Op-Amp) (presentation, operation without feedback (comparator), with feedback (amplifier), datasheet analysis, C1 analysis)",
+    "Introduction to control systems (systems and models, states, inputs and outputs, block diagrams, feedback and feedforward, open loop and closed loop, positive and negative feedback, disturbances and noise, classic examples, modeling of mechanical, electrical and thermal systems, Laplace transform, transfer function, poles and zeros of the transfer function, transfer functions and block diagrams (Laplace), block algebra)",
+    "Time domain system analysis (normalized signals for system analysis, LTI system stability, simple system stability, stability and transfer function poles, transient response and steady state, step response parameters, first-order step response, second-order step response, dominant dynamics, steady-state error calculation, system type and errors, root locus, angle and magnitude conditions)",
+    "Frequency domain system analysis (frequency response, Bode diagram, basic factors, relative stability, phase margin and gain margin, cutoff frequency and bandwidth)",
+    "Basic control actions. PID controllers. (basic control structures, control actions in a PID, first Ziegler-Nichols method, second Ziegler-Nichols method)",
+    "Handling instrumentation and circuits with diodes and LED diodes.",
+    "Circuits with Op-Amps.",
+    "Introduction to Matlab and Simulink. System representation and simulation.",
+    "Time domain system analysis. Dominance. Stability. Frequency domain analysis.",
+    "Electronics laboratory exam.",
+    "Automation laboratory exam."
+  ],
+  "teaching_methods": [
+    "Expository/participatory classes",
+    "Practical sessions",
+    "Debates",
+    "Common presentations",
+    "Group tutoring",
+    "Work elaboration",
+    "Material readings",
+    "Individual study",
+    "Exams",
+    "Assessment tests",
+    "Individual tutoring"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 67.0,
+  "assessment_methods": [
+    {
+      "method": "Written test",
+      "weight_percentage": 18.75
+    },
+    {
+      "method": "Written test",
+      "weight_percentage": 18.75
+    },
+    {
+      "method": "Practical exam",
+      "weight_percentage": 12.5
+    },
+    {
+      "method": "Short answer test",
+      "weight_percentage": 18.75
+    },
+    {
+      "method": "Short answer test",
+      "weight_percentage": 18.75
+    },
+    {
+      "method": "Practical exam",
+      "weight_percentage": 12.5
+    }
+  ],
+  "assessment_rules": "Four partial tests (written tests and short answer tests) will be conducted throughout the course, each associated with a syllabus section. A minimum grade of 5 is required in all of them to pass the course. The average of these four grades will account for 75% of the final grade. Practical sessions are evaluated based on work developed before and during the sessions, along with a practical exam, and account for 25% of the final grade. Parts not passed in the continuous assessment can be recovered in the resit exam. If an average of 5 or higher is obtained but any of the minimum requirements are not met, the final grade will be 4.9.",
+  "bibliography": [
+    "Material de la asignatura (disponible en el sitio de la asignatura en MiAulario)",
+    "A. Sedra and K. C. Smith, Microelectronic Circuits, 6ª edition, Oxford Univ. Press, 2010.",
+    "A. R. Hambley, Electronics. Second Edition, Prentice-Hall, 2000.",
+    "J.David Irwin. Análisis básico de circuitos en ingeniería. 5ª edición, Prentice-Hall, 1997.",
+    "B. Kuo, Sistemas de control automático, 7ª edición, Prentice Hall, México, 1996.",
+    "R. C. Dorf y R. H. Bishop, Sistemas de control moderno, 10ª edición, Pearson, Madrid, 2005.",
+    "K. Ogata, Ingeniería de control moderna, 5ª edición, Pearson, Madrid, 2010.",
+    "Norbet R. Malik, Electronic Circuits. Analysis, Simulation & Design. Ed.: Prentice-Hall 1995.",
+    "D. A. Neamen, Electronic Circuit Analysis and Design, 2ª edicion, MacGraw-Hill, 2000.",
+    "R. C. Jaeger y T. N. Blablock, Microelectronic Circuit Design, Second Edition, McGraw-Hill, 2004.",
+    "A. Malvino y D.J. Bates, Principios de Electrónica. 7ª edición, McGraw-Hill, 2007.",
+    "K. C. Smith, KC’s Problems for Microelectronic Circuits. Fourth Edition, Oxford Univ. Press, 1998.",
+    "Foundations of Analog and Digital Electronic Circuits. Anant Agarwal, and Jeffrey Lang, Ed.:Morgan Kaufmann, 2005.",
+    "J. B. Galván Herrera, Control Analógico de Sistemas Lineales, Ulzama Digital, Pamplona",
+    "L. Moreno, S. Garrido y C. Balaguer, Ingeniería de control, Modelado y control de sistemas dinámicos, Ariel, 2003",
+    "J.J. D'azzo y C.H. Houpis, Linear Control System Analysis and Design with Matlab, Marcel Dekker, 2003",
+    "G. C. Goodwin, S. F. Graebe y M. E. Salgado, Control System Design, Prentice-Hall, 2001",
+    "G. F. Franklin, J. D. Powell y A. Emani-Naeini, Control de Sistemas Dinámicos con Retroalimentación, Addison-Wesley Iberoamericana, 1991",
+    "C. L. Phillips y R. D. Harbor, Feedback Control Systems, Prentice-Hall, 1988",
+    "K. J. Åström y R. M. Murray, Feedback Systems, An introduction for Scientists and Engineers, Princeton University Press, 2008",
+    "P. Albertos e I. Mareels, Feedback and Control for Everyone, Springer, 2010",
+    "R. L. Woods y K.L. Lawrence, Modelling and simulation of dynamic systems, Prentice-Hall, 1997",
+    "W. J. Palm, Modelling, Analysis and Control of Dynamic Systems, 2nd edition, John Wiley & Sons, 2000",
+    "F. G. Shinskey, Process Control Systems, McGraw-Hill, 1996",
+    "C.A.Smith y A.B.Corripio, Control Automático de Procesos, Limusa, 2006.",
+    "G. Stephanopoulos, Chemical Process Control, Prentice Hall, 1984",
+    "K. J. Åström y T. Hägglund, Control PID Avanzado, Pearson, 2009",
+    "K. J. Åström y T. Hägglund, PID Controllers: Theory, Design and Tuning, ISA, 1995",
+    "C. Pérez, Matlab® y sus Aplicaciones en las Ciencias y la Ingeniería, Pearson, 2002",
+    "H. Klee, Simulation of Dynamic Systems with MATLAB® and Simulink®, CRC Press, 2007"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad Pública de Navarra",
+  "institution_slug": "es_publica_navarra",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "248202",
+  "academic_year": "2026-27",
+  "source_url": "https://www.unavarra.es/ficha-asignaturaDOA?idioma=es&codAsig=248202",
+  "source_language": "es",
+  "source_sha256": "11032e722fe824ca4a655b809637e3163ae15e18c013570297040ce7f7df31bd",
+  "extracted_at": "2026-11-13T22:42:02",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

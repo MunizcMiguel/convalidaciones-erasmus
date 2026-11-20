@@ -1,0 +1,160 @@
+{
+  "course_name_original": "Procesos Estocásticos",
+  "course_name_en": "Stochastic Processes",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Good knowledge of the contents of the Probability course"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should know how to apply their knowledge to their work or vocation in a professional way and possess the competencies that are usually demonstrated through the elaboration and defense of arguments and the resolution of problems within their area of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students should have the ability to gather and interpret relevant data (usually within their area of study) to make judgments that include a reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students should be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Students should have developed those learning skills necessary to undertake further studies with a high degree of autonomy.",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that represent a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to propose experiments and to describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge for problem solving.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Analyze data from complex phenomena by applying statistical techniques and probability calculus.",
+      "type": "competence",
+      "code": "CE03"
+    },
+    {
+      "text": "Understand and correctly apply exploratory data analysis and statistical modeling techniques, evaluating the quality of the models, validating them, and interpreting them.",
+      "type": "competence",
+      "code": "CE04"
+    },
+    {
+      "text": "Know the different types of stochastic processes, and their classification based on the index set and the properties of their increments.",
+      "type": "knowledge",
+      "code": "RPE1"
+    },
+    {
+      "text": "Fluently handle Markov chain models, transition matrices, and stationary distribution.",
+      "type": "skill",
+      "code": "RPE2"
+    },
+    {
+      "text": "Know the main applications of Markov chains in data analysis.",
+      "type": "knowledge",
+      "code": "RPE3"
+    },
+    {
+      "text": "Know the most important models of continuous-time processes: Poisson processes, renewal models, queueing models, continuous-time Markov chains, and Brownian motion.",
+      "type": "knowledge",
+      "code": "RPE4"
+    },
+    {
+      "text": "Apply appropriate models for fitting a dataset in the context of medicine or market analysis.",
+      "type": "skill",
+      "code": "RPE5"
+    },
+    {
+      "text": "Use simulation to analyze the evolution of a stochastic process and make predictions.",
+      "type": "skill",
+      "code": "RPE6"
+    }
+  ],
+  "syllabus_topics": [
+    "Discrete-time processes. Discrete-time Markov chains. Stationary distributions. Applications: genetic drift, PageRank algorithm. Markov Chain Monte Carlo.",
+    "Continuous-time processes. Poisson processes and renewal theory. Applications in queueing theory. Continuous-time Markov chains. Applications in medical data. Brownian motion. Applications in market analysis: the Black-Scholes model.",
+    "Simulation of stochastic processes.",
+    "Topic 1 - Probability review. Introduction to stochastic processes.",
+    "Topic 2 - Discrete-time processes.",
+    "Topic 3 - Continuous-time processes.",
+    "Topic 4 - Other models of stochastic processes."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Online teaching",
+    "Laboratory practices",
+    "Classroom/Seminar practices",
+    "Autonomous work",
+    "Academic tutoring"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical exam (ExT)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Continuous assessment questionnaires (EvC)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Practical exam (ExP)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory practice questionnaires (EvP)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the final grade is calculated as 0.4 * ExT + 0.2 * ExP + 0.1 * EvC + 0.3 * EvP. A final grade equal to or greater than 5.0 out of 10 is required to pass. For the extraordinary call, only the exam grades (ExT and ExP) can be recovered, with the final grade calculated as 0.45 * ExT + 0.40 * ExP + 0.05 * EvC + 0.10 * EvP; a minimum of 5.0 is required. Students with differentiated evaluation will be assessed solely by theoretical and practical final exams, with the final grade calculated as 0.5 * ExT + 0.5 * ExP; a minimum of 5.0 is required.",
+  "bibliography": [
+    "‘Essentials of Stochastic Processes’. R. Durrett. Springer, 1999.",
+    "‘Stochastic Processes’. S. Ross. Wiley, 1995.",
+    "‘Introducción a la simulación y a la teoría de colas’. R. Cao. Netbiblo, 2002.",
+    "‘Stochastic processes. Basic theory with applications’. N. Prabhu. World Scientific, 2007.",
+    "‘Topics in Stochastics Processes. R. Ash, M.F. Gardner. Academic Press, 1975.",
+    "‘Financial Calculus’. M. Baxter, A. Rennie. Cambridge University Press, 1996.",
+    "‘Stochastic Processes with applications’. R.N.Bhattacharya, E.C. Waymire, Wiley, 1990.",
+    "‘A course in Statistics with R’. P. Tattar, S. Ramaiah, B.G. Manjunath. Alpha Science International, 2016"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-0-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-010",
+  "source_language": "es",
+  "source_sha256": "7e26ecf777ec8c9bb6b51fa8781a6cfe9baebd4d6977a84917439d378e4a48f3",
+  "extracted_at": "2026-11-20T05:56:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

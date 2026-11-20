@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Aplicaciones y Tratamiento de Datos en Tecnología y Física",
+  "course_name_en": "Applications and Data Processing in Technology and Physics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Machine Learning I",
+    "Machine Learning II",
+    "Deep Learning",
+    "Massive Data Processing"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Construction of machine learning systems using basic and advanced techniques to build intelligent systems from data sets.",
+      "type": "competence",
+      "code": "CE9"
+    },
+    {
+      "text": "Utilize advanced methods based on multivariate techniques for the analysis of complex data in Technology and Physics.",
+      "type": "unspecified",
+      "code": "RATDTF1"
+    },
+    {
+      "text": "Know and use computational techniques and tools for data analysis in Technology and Physics.",
+      "type": "unspecified",
+      "code": "RATDTF2"
+    },
+    {
+      "text": "Be able to define the most suitable strategy for the analysis of data from a complex physical or technological experiment.",
+      "type": "unspecified",
+      "code": "RATDTF3"
+    },
+    {
+      "text": "Know the main current applications of data processing in physical technologies.",
+      "type": "unspecified",
+      "code": "RATDTF4"
+    }
+  ],
+  "syllabus_topics": [
+    "Artificial intelligence techniques in spatio-temporal modeling in materials physics.",
+    "Hamiltonian formalism for describing a material in a spatio-temporal cylinder.",
+    "Variational methods to study the propagation of elastic waves in the medium, visco-elasticity, and damage models.",
+    "Tools and applications for atmospheric and space data analysis.",
+    "Advanced techniques for atmospheric data analysis.",
+    "Algorithms for ocean-climate system modeling based on convolutional neural networks, graph networks, Bayesian regression, and genetic programming.",
+    "Strategies for analyzing data flows from large facilities: example of Big Data in CERN's LHC.",
+    "LHC data analysis and processing flow, with focus on data dimensional reduction techniques.",
+    "Automated learning techniques used in state-of-the-art data processing: anomaly detection with autoencoders, particle registration with graph networks.",
+    "Differentiable programming paradigm and its application to data analysis optimization.",
+    "Inductive bias and its use in particle physics, with examples in muonic and neutron tomography, and equivariant neural networks.",
+    "Advanced computing: key elements of advanced computing systems in modern physics (CPUs, GPUs), recent advances in fast inference (FPGA, ASIC, neuromorphic chips, quantum computing).",
+    "Infrastructure: typical structure of a computing center, international computing network projects (GRID, EXASCALE), and commercial solutions (cloud computing on-demand)."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Online teaching (asynchronous sessions)",
+    "Laboratory practices",
+    "Self-study with provided materials (slides, scientific articles, videos)",
+    "Problem solving exercises with Python and automated learning software (e.g., pytorch)",
+    "Virtual campus forums",
+    "Tutoring sessions (Teams chat, forums, individual/group)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical-practical exam",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Attendance / Participation in Seminars and Tutoring (including online)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Active Participation in Forums and Virtual Campus Activities",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Reports / Memoirs / Practice Exams",
+      "weight_percentage": 55.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as: Final Score = 0.1 * A + 0.1 * P + 0.55 * I + 0.25 * X. A minimum score of 3/10 is required on the final exam (X) to pass the course. If X < 3, the final score will be the minimum of the calculated score and 4.5. For part-time students electing differentiated evaluation, the grade will be based on a theoretical-practical exam (60%) and an individual project (40%), with a minimum of 3/10 on the exam.",
+  "bibliography": [
+    "Vischia, P. Bayesian and Frequentist Statistics for High Energy Physics: a Primer. Springer-Nature, 1ed. (Jan. 2025).",
+    "Shalev-Shwartz, S. and Ben-David, S. Understanding Machine Learning: From Theory to Algorithms. Cambridge, 1ed.",
+    "Bishop, C.M. and Bishop, H. Deep Learning: Foundations and Concepts. Springer-Nature, 1ed. (2024).",
+    "Hastie, T., Tibshirani, R., Friedman, J. The Elements of Statistical Learning (https://hastie.su.domains/ElemStatLearn/). Springer-Nature, 2ed.",
+    "Calafiura P., Rousseau, D., Terao, K. Artificial Intelligence for High Energy Physics. World Scientific, 1ed.",
+    "Additional teaching material will be made available to students on the virtual campus http://www.campusvirtual.uniovi.es/"
+  ],
+  "isced_f_code": null,
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-4-009",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-4-009",
+  "source_language": "es",
+  "source_sha256": "f034d9e4474e776b5d36913446bf74e7992c170466a717f5e63b6d22d455b1cc",
+  "extracted_at": "2026-11-20T05:56:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

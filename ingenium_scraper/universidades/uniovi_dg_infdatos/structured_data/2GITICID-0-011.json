@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Procesado de Señal",
+  "course_name_en": "Signal Processing",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Prior knowledge of signals and systems in continuous and discrete variables is recommended.",
+    "A solid foundation in algebra and statistics is recommended."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understanding and mastering the basic concepts of information theory, signals, and systems, used in different schemes and techniques of data representation and manipulation.",
+      "type": "unspecified",
+      "code": "CE13"
+    },
+    {
+      "text": "Ability to analyze, encode, process and transmit information and data using signal processing techniques.",
+      "type": "unspecified",
+      "code": "CE14"
+    },
+    {
+      "text": "Know the signal processing tools.",
+      "type": "knowledge",
+      "code": "RPS1"
+    },
+    {
+      "text": "Know how to apply filtering techniques and design digital filters.",
+      "type": "skill",
+      "code": "RPS2"
+    },
+    {
+      "text": "Know how to design statistical estimators for parameters and signals.",
+      "type": "skill",
+      "code": "RPS3"
+    },
+    {
+      "text": "Know how to describe an image, audio or video signal at the content level by its different local or frequency characteristics.",
+      "type": "skill",
+      "code": "RPS4"
+    },
+    {
+      "text": "Know how to implement methods based on knowledge of theoretical foundations, algorithms and standards for audio and video encoding and compression.",
+      "type": "skill",
+      "code": "RPS5"
+    },
+    {
+      "text": "Know how to evaluate the suitability of applied methodologies in specific audiovisual processing problems.",
+      "type": "skill",
+      "code": "RPS6"
+    },
+    {
+      "text": "Recognize the aspects present in a basic image acquisition model and the processes involved in the generation and processing of a digital image.",
+      "type": "skill",
+      "code": "RPS7"
+    },
+    {
+      "text": "Recognize and apply the fundamentals, formats and techniques of video processing and filtering.",
+      "type": "skill",
+      "code": "RPS8"
+    },
+    {
+      "text": "Design and implement algorithms for sound processing applying signal representation techniques, digital synthesis, spectral analysis and sound transformation.",
+      "type": "skill",
+      "code": "RPS9"
+    }
+  ],
+  "syllabus_topics": [
+    "Information of continuous and discrete nature. Encoding of information in signals. Sampling of continuous signals: analysis in real domain and transformed domains. Decimation and interpolation.",
+    "Systems for analog and digital processing. Representation of continuous systems by digital systems. Representation of digital systems by continuous systems.",
+    "Digital filters: design and characterization. Definition of digital systems by difference equations. FIR and IIR systems. Impulse response, frequency response and system function of a digital filter. Design and characterization of filters in the Z domain. Structures for digital filters.",
+    "Analysis of deterministic and random signals: analysis of the properties of signals in the real domain and in transformed domains.",
+    "Optimal filtering, adaptive systems and regression. Calculation of optimal filters. Adaptive systems: LMS algorithm and its variants. Other iterative and adaptive algorithms.",
+    "Voice and audio processing. Voice and audio signals: properties. Voice encoding. Image and Video processing. Discrete cosine transform. Fundamentals, formats and techniques of video processing and filtering. Theoretical foundations, algorithms and standards for audio and video encoding and compression."
+  ],
+  "teaching_methods": [
+    "Expository classes (lectures)",
+    "Classroom practicals",
+    "Asynchronous non-presential activities",
+    "Autonomous student work",
+    "Laboratory practicals"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam (E1)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Practical work (T1) and oral presentation",
+      "weight_percentage": 45.0
+    },
+    {
+      "method": "Classroom practical exercises (P1)",
+      "weight_percentage": 15.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, a minimum of 3 out of 10 points must be obtained in the final exam (E1). If all minimums are met, the final grade is calculated as (0.40*E1 + 0.45*T1 + 0.15*P1). Otherwise, the final grade will be the minimum between the calculated grade and 4.0. For the extraordinary assessment, the final grade is calculated as (0.40*E1 + 0.60*P1) with a minimum of 3 out of 10 in E1. Students may keep their T1 and P1 grades from the ordinary assessment, with these replacing P1 in the extraordinary assessment.",
+  "bibliography": [
+    "A.V. Oppenheim, R.W. Schafer, Tratamiento de Señales en Tiempo Discreto, Prentice Hall 2011.",
+    "M. Hayes, Statistical Digital Signal Processing and Modeling, Wiley, 1996.",
+    "J.G. Proakis, D.G. Manolakis, Digital Signal Processing, Prentice Hall, 1996.",
+    "Hayes, M.H.: Statistical Digital Signal Processing and Modeling, New York, Wiley, 1996.",
+    "E. Soria, M. Martínez, J.V. Francés, G. Camps, Tratamiento Digital de Señales. Pearson Educación, 2003.",
+    "S. Haykin, Adaptive Filter Theory, Prentice Hall, 1996."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-0-011",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-011",
+  "source_language": "es",
+  "source_sha256": "e95ce48cc894883938dd8075afb0afcd3852db051fe1b4b70a0df24845779fb4",
+  "extracted_at": "2026-11-20T05:56:53",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

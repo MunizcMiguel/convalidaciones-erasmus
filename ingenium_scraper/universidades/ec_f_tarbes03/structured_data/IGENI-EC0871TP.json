@@ -1,0 +1,94 @@
+{
+  "course_name_original": "Dynamique des structures",
+  "course_name_en": "Structural Dynamics",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "fr"
+  ],
+  "prerequisites": [
+    "Continuum mechanics",
+    "RDM",
+    "static analysis",
+    "Abaqus basics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the use of numerical tools available to design engineers for structural dynamics.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to build a simple dynamic numerical model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Interact with specialists.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand a technical report created using finite element software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand seismic prevention of structures and buildings.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Acquire the skills needed to use numerical tools such as the finite element method, specifically in structural dynamics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know about the seismic resources available to civil engineers, whether for buildings or engineering structures such as bridges.",
+      "type": "knowledge",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Numerical calculation methods for structural dynamics used in design offices. Overview of the various calculation methods available to the engineer: modal analysis, time and frequency responses.",
+    "Introduction to modal analysis, modal parameters and response by modal superposition, regulatory seismic analysis in civil engineering using response spectra.",
+    "Non-linear dynamic analysis: progressive thrust method, analysis using implicit and explicit formulations.",
+    "Final mini-project for the study of a prestressed reinforced concrete bridge, linear approaches on a modal basis, by response spectrum then implicit nonlinear, with calculation report.",
+    "Seismic prevention of structures and buildings, case studies."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Practical work (TP)",
+    "Supervised project",
+    "Autonomous project"
+  ],
+  "workload_hours_total": 16.0,
+  "workload_hours_contact": 16.0,
+  "assessment_methods": [
+    {
+      "method": "Study report (Mini-project)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Evaluation is based on a study report from the final mini-project, which is carried out in pairs using the finite element method (Abaqus).",
+  "bibliography": [
+    "La méthode des éléments finis – Tome 1 – De la théorie à la pratique – Concepts généraux (Patrick Ciarlet, Eric Lunéville)",
+    "Introduction à la méthode des éléments finis – Cours et exercices corrigés (Jean-Christophe Cuillière)",
+    "Dynamique des structures et des ouvrages – (Alain Pecker) - Presse des Ponts et chaussées - 2006"
+  ],
+  "isced_f_code": "0732",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0871TP",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "fac3bfa7a34cfbdbc0fd62171e6acd6d3990d247b054bc216eac765f8d057d32",
+  "extracted_at": "2026-11-18T10:00:14",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

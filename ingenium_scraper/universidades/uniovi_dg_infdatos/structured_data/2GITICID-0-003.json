@@ -1,0 +1,114 @@
+{
+  "course_name_original": "Métodos Heurísticos para Planificación y Scheduling",
+  "course_name_en": "Heuristic Methods for Planning and Scheduling",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Metodología de la Programación",
+    "Estructuras Discretas y Análisis de Algoritmos",
+    "Algoritmia",
+    "Programación Avanzada",
+    "Búsqueda Inteligente y Metaheurísticas",
+    "Inferencia Estadística"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand planning and scheduling problems and their formalization as constrained combinatorial optimization problems.",
+      "type": "knowledge",
+      "code": "RMET1"
+    },
+    {
+      "text": "Know how to apply heuristic search techniques, constraint propagation, and metaheuristics to these problems.",
+      "type": "skill",
+      "code": "RMET2"
+    },
+    {
+      "text": "Understand the characteristics of planning and scheduling problems that arise in real situations, such as uncertainty or the dynamic nature of data, constraints, and objective functions.",
+      "type": "knowledge",
+      "code": "RMET3"
+    },
+    {
+      "text": "Know and be able to use tools for solving planning problems and constraint optimization problems applicable to scheduling problems.",
+      "type": "skill",
+      "code": "RMET4"
+    },
+    {
+      "text": "Know some real-world applications of planning and scheduling problems in areas such as transportation, energy efficiency, production management, system maintenance, etc.",
+      "type": "knowledge",
+      "code": "RMET5"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to planning and scheduling problems. Definition and formalization.",
+    "Problem-solving techniques for optimization and constraint satisfaction: Heuristics, Constraint Programming, Metaheuristics and Hyperheuristics.",
+    "Real-world scenarios of optimization and constraint satisfaction problems."
+  ],
+  "teaching_methods": [
+    "On-line teaching",
+    "Laboratory practices",
+    "Expository classes",
+    "Asynchronous online training activities",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Theoretical Exam (ET)",
+      "weight_percentage": 30.0
+    },
+    {
+      "method": "Virtual Campus Activities (ACV) - Planning Questionnaire (CP)",
+      "weight_percentage": 3.0
+    },
+    {
+      "method": "Virtual Campus Activities (ACV) - Scheduling Questionnaire (CS)",
+      "weight_percentage": 7.0
+    },
+    {
+      "method": "Reports / Memoranda / Practice Exams (P) - Genetic Programming Project (PG)",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "Reports / Memoranda / Practice Exams (P) - Genetic Algorithms Project (AG)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Reports / Memoranda / Practice Exams (P) - Constraint-Based Scheduling Project (PR)",
+      "weight_percentage": 15.0
+    },
+    {
+      "method": "Attendance (A)",
+      "weight_percentage": 5.0
+    }
+  ],
+  "assessment_rules": "The final grade is calculated as: 0.3 * ET + 0.03 * CP + 0.07 * CS + 0.25 * PG + 0.15 * AG + 0.15 * PR + A. For the CS component, it is mandatory to have completed and submitted the Scheduling practices deliverable on time. Attendance (A) is 0.05 if attendance >= 80%, and 0 if attendance < 80%. No minimum grade is established for any individual component. To pass, a minimum final score of 5 out of 10 points is required. In extraordinary calls, the assessment includes a Theoretical Exam (30%), a Presential Test on Planning and Scheduling (15%), and three practical projects (25%, 15%, 15%). To pass, a minimum final score of 5 out of 10 points is required in extraordinary calls. The teaching staff may require an oral defense of any assessable test or practical work.",
+  "bibliography": [
+    "Michael Pinedo, Scheduling: Theory, Algorithms, and Systems, Springer, 2016",
+    "Peter Brucker, Scheduling Algorithms, Springer, 2006",
+    "El-Ghazali Talbi, Metaheuristics: From Design to Implementation, Wiley, 2009",
+    "Dana Nau and Paolo Traverso, Automated Planning and Acting, Cambridge University Press, 2016",
+    "Francesca Rossi, Peter van Beek, Toby Walsh, Handbook of Constraint Programming, Elsevier, 2006",
+    "Riccardo Poli, William B. Langdon, Nicholas Freitag McPhee, A Field Guide to Genetic Programming, Lulu, 2008",
+    "Judea Pearl, Heuristics: Intelligent Searches for Computer, Addison Wesley, 1984",
+    "Stuart Russell, Peter Norvig, Artificial Intelligence: A Modern Approach, Pearson, 2019",
+    "Daniel Gutiérrez Reina, Alejandro Tapia Córdoba, Álvaro Rodríguez del Nozal, Algoritmos Genéticos con Python: Un enfoque práctico para resolver problemas de ingeniería, Marcombo, 2020",
+    "Enrique J. Carmona Suárez, Severino Fernández Galán, Fundamentos de la computación evolutiva, Marcombo, 2020"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_dg_infdatos",
+  "degree": "Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITICID-0-003",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-003",
+  "source_language": "es",
+  "source_sha256": "0b96300feb2438efd2dbdcbc039222a1e5093933bbbb94dd6567801ce088d13b",
+  "extracted_at": "2026-11-20T05:56:41",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

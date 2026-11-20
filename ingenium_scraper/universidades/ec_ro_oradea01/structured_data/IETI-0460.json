@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Microprocessor systems (IETI-0460)",
+  "course_name_en": "Microprocessor systems",
+  "ects": 3.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Using knowledge of mathematics, physics, measurement, technical graphics, mechanical engineering, chemical, electrical and electronic engineering in control systems engineering.",
+      "type": "competence",
+      "code": "C1"
+    },
+    {
+      "text": "Application development and implementation of algorithms and automatic management structures, using the principles of project management, programming environments and technologies based on microcontrollers, signal processors, programmable logic controllers, embedded systems.",
+      "type": "competence",
+      "code": "C5"
+    },
+    {
+      "text": "Assimilation of the necessary notions for the design and use of microprocessor systems, approaching microprocessor systems, hardware structures and their applications. The family of Intel microprocessors (I8086, Pentium I-IV), memory and interface circuits are shown.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Study the characteristics and operation of microprocessor and support circuits with the experimentation of the operation and characteristics of support circuits with the elaboration and running programs in Assembly language for a microsystem with 80C51 microcontroller.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Creating the ability to design and use microprocessor systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Familiarizing students with the architecture of the microprocessor.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Identifying and exploiting the resources of a microprocessor system.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Highlighting the peculiarities of communication in microprocessor systems and input-output operations.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Creating the skills to design a hardware system with microprocessors or microcontrollers.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "MICROPROCESSORS: Introductory aspects; Evolution and characteristics of microprocessors.",
+    "MICROPROCESSOR I8086: Configuration of the terminals.",
+    "Internal structure of the microprocessor I8086.",
+    "Internal registers of the microprocessor I8086.",
+    "Connecting the main memory in I8086 systems.",
+    "Input and output operations in I8086 microsystems.",
+    "MICROPROCESSOR INTEL PENTIUM, PENTIUM MMX, PENTIUM II, PENTIUM III, PENTIUM IV: Microprocessor Intel Pentium.",
+    "Microprocessor Intel Pentium MMX.",
+    "Microprocessor Intel Pentium II.",
+    "Microprocessor Intel Pentium III.",
+    "Microprocessor Intel Pentium IV.",
+    "Microprocessor Intel Dual-Core, Quad-Core.",
+    "Motherboards: Design modes; Types of motherboards.",
+    "Main memory: Primary and secondary storage systems; ROM memory; RAM memory; Cache memory; Memory circuit encapsulation techniques.",
+    "Sets of chips and support circuits: Chipsets; Chipset functions; System controller; Controller for peripheral devices; Memory controller.",
+    "BUS Extensions: BUS functions; ISA and EISA; VESA; PCMCIA; PCI.",
+    "Presentation of the laboratory, of the labor protection norms and of the conventional signs.",
+    "Notions of boolean algebra, representation and minimization of logical functions by analytical methods and Veith-Karnaugh diagrams.",
+    "Study of multiplexors.",
+    "Study of decoders and demultiplexors.",
+    "Study of bistables JK asynchronous, synchronously, master-slave and type T.",
+    "Study of synchronous and asynchronous counters.",
+    "Study of registers.",
+    "Description of the microcontroller INTEL 80C51.",
+    "Studying the way of work with mon552mv.exe.",
+    "Internal memory, registers with special functions (SFR) at microcontroller 80C51.",
+    "Counters/Timers T0 and T1 of microcontrollers 80C51.",
+    "Closing the situation of the laboratory."
+  ],
+  "teaching_methods": [
+    "Free exposure, with the presentation of the course with video projector, on the board or online",
+    "Summary of the papers and practical demonstration using the equipments from the laboratory"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Course evaluation (exam)",
+      "weight_percentage": 66.66
+    },
+    {
+      "method": "Laboratory evaluation",
+      "weight_percentage": 33.33
+    }
+  ],
+  "assessment_rules": "Minimum requirement for passing the exam is a grade of 5 for both course and laboratory. For the course, this implies knowledge of microprocessor systems structure, architecture, memory transfers, and input-output operations. For the laboratory, it implies knowledge of the Intel 80C51 microcontroller's structure, internal memory, registers, and programming. Attendance at least 50% of courses and mandatory presence at all laboratories are required. Frequency at laboratory hours below 70% leads to restoration of the discipline. A maximum of 4 laboratory works can be recovered during the semester (30%).",
+  "bibliography": [
+    "Gergely E., Sisteme cu microprocesoare, Note de curs, http://egergely.webhost.uoradea.ro/materiale.html .",
+    "Hennessy J.L., Patterson D.A., Computer Architecture. A Quantitative Approach, Elsevier, USA, 2007.",
+    "Mueller S., Zacker C., PC depanare şi modernizare, Editura Teora, 2007.",
+    "Balch M., Complete digital design. A Comprehensive Guide to Digital Electronics and Computer System Architecture, McGraw-Hill, USA, 2003.",
+    "Gergely E., ş.a., Sisteme cu microprocesoare, partea I, Curs, Lito Universitatea din Oradea, 1999.",
+    "Gavriş M., ş.a. Sisteme cu microprocesoare, Îndrumător de laborator, Universitatea din Oradea, 1996",
+    "Nagy Z.T., Codoban A. Gergely E.I., Microcontrolere în automatizări, Îndrumător de laborator, Universitatea din Oradea, 2005.",
+    "Murdocca M.J., Heuring V. P., Principles of computer architecture, Prentice Hall, 2000.",
+    "Rosch W. L., Totul despre hardware, Editura Teora, 1999."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "Universitatea din Oradea",
+  "institution_slug": "ec_ro_oradea01",
+  "degree": "Electromechanics (B.Eng., Electrical Engineering field, 4 years / 240 credits)",
+  "course_code": "IETI-0460",
+  "academic_year": "2026/27 (plan) / 2024/25 (fichas)",
+  "source_url": "https://ieti.uoradea.ro/images/zEN/Programmes/Bachelor_degree_programmes/2024_2025/FD_licenta_EM_EN_2024-2025.pdf",
+  "source_language": "en",
+  "source_sha256": "76e86b051d1e8af757feceabecdb09e01c42a34ca7c5ea2a0ce2a71332346b42",
+  "extracted_at": "2026-11-20T09:28:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

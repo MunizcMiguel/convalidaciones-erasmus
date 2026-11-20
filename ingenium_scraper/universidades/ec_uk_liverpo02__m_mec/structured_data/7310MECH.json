@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Advanced Computational Fluid Dynamics (7310MECH)",
+  "course_name_en": "Advanced Computational Fluid Dynamics",
+  "ects": 5.0,
+  "semester": "September (12 Weeks)",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Understand and apply the theory underpinning commercial CFD codes.",
+      "type": "unspecified",
+      "code": "MLO1"
+    },
+    {
+      "text": "Appreciate the structure of CFD codes for potential amendment and development.",
+      "type": "unspecified",
+      "code": "MLO2"
+    },
+    {
+      "text": "Set up and validate efficient and accurate CFD models.",
+      "type": "unspecified",
+      "code": "MLO3"
+    },
+    {
+      "text": "Assess the limitations of CFD simulations as part of the design process.",
+      "type": "unspecified",
+      "code": "MLO4"
+    },
+    {
+      "text": "Critically evaluate the output from CFD analysis.",
+      "type": "unspecified",
+      "code": "MLO5"
+    }
+  ],
+  "syllabus_topics": [
+    "Review of the mathematical formulation of fluid dynamics - Continuity equation (Conservation of mass); Navier-Stokes equation (Conservation of momentum); Equation of energy (Conservation of energy).",
+    "Numerical solution methods - Finite differences; Finite volumes; Spectral elements.",
+    "Efficient approaches for the solution of a system of linear algebraic equations - Why is it important in practical CFD simulations? Issues with direct solution approaches; Iterative solution approaches; Relaxation and convergence; Error and residual; Improve performance of iterative solvers.",
+    "Equation discretisation schemes - Central differencing; Upwind differencing; Higher order schemes; Diffusion problems (e.g. heat conduction problems); Convection-diffusion problems; Numerical diffusions;",
+    "Pressure correction algorithms - SIMPLE, SIMPLEC, PISO, other variations.",
+    "Chorin / Chorin-type algorithms (for unsteady problems).",
+    "Introduction to Turbulence – physical descriptions - Why do we study turbulence? Characteristics of turbulence? How to study turbulence? Mesh-based/meshless techniques. Law of the wall.",
+    "Introduction to Turbulence – modelling - Why turbulence modelling? Closure problem in the modelling? Various turbulence models. How to choose/set up the appropriate turbulence models in the commercial CFD packages? Appropriate treatment of the near-wall region and its importance.",
+    "Considerations on accuracy and validity of CFD numerical results - Assess sources of error in the solution process (from mathematical descriptions to numerical solution) of Fluid/heat transfer problems. How do the sources of error influence the results? How can the errors be quantified? Verification and Validation of the numerical results.",
+    "Further considerations on the use of commercial CFD packages - Capabilities, benefits, limitations of commercial CFD packages. Set-up and run CFD problems and post-processing the results. Some ideas to consider to fix the failed CFD models. Some ideas to consider to improve the performance of the functioning CFD models (in terms of accuracy and simulation time)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials",
+    "Assignments"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 22.0,
+  "assessment_methods": [
+    {
+      "method": "VLE Test",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "CFD Project Report",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "prerequisites",
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Liverpool John Moores University — MEng (Hons) Mechanical Engineering (Level 7 / master-level modules)",
+  "institution_slug": "ec_uk_liverpo02__m_mec",
+  "degree": "MEng (Hons) Mechanical Engineering (Level 7 / master-level modules)",
+  "course_code": "7310MECH",
+  "academic_year": "2025-26 (Programme Specification 2022.01)",
+  "source_url": "https://coursecatalogue.ljmu.ac.uk/module/2025/7310MECH",
+  "source_language": "en",
+  "source_sha256": "575d4eb7b8e4ddf5c91415fe7ae154af1749b825875d4ac27af8c243b816dc6c",
+  "extracted_at": "2026-11-20T13:01:01",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

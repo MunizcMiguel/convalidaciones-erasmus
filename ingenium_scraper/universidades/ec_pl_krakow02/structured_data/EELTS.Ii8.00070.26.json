@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Fundamentals of Electronics",
+  "course_name_en": "Fundamentals of Electronics",
+  "ects": 4.0,
+  "semester": "4",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "The student has basic knowledge of the construction and operation of semiconductor electronic components and can analyze the operation of components and basic electronic circuits.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "The student knows and understands the methodology for designing basic analog and digital electronic circuits and has practical knowledge of measuring the basic parameters of these electronic circuits.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "The student has general knowledge of the structure, operation, measurement of selected parameters, and applications of analog and digital electronic circuits.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "The student can acquire information from literature, databases, and other sources; can integrate acquired information, interpret it, draw conclusions, and formulate and justify opinions.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "The student can read and create graphical technical documentation (drawings, diagrams, charts), also using computer-aided design.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "The student can create models of components and simple electronic circuits and perform both DC and AC analysis of these circuits.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "The student can analyze and design measurement systems for parameters of simple electronic circuits, conduct measurements, and process results including error analysis.",
+      "type": "skill",
+      "code": "U4"
+    },
+    {
+      "text": "The student understands the need for and knows the possibilities of continuous self-education and improving professional competencies.",
+      "type": "competence",
+      "code": "K1"
+    },
+    {
+      "text": "The student is aware of the importance and understands the non-technical aspects and consequences of an electrical engineer's activities, including their impact on the environment, and the associated responsibility for decisions made.",
+      "type": "competence",
+      "code": "K2"
+    },
+    {
+      "text": "The student is aware of the importance of acting professionally, adhering to professional ethics, and respecting diversity of views and cultures.",
+      "type": "competence",
+      "code": "K3"
+    }
+  ],
+  "syllabus_topics": [
+    "Semiconductor elements and their applications – 10 hours: Electrical conductivity of semiconductors. Basic concepts, electrical models, properties and parameters of electronic components: diodes, bipolar transistors, unipolar transistors – operating principle and basic parameters. Power supply and stabilization of the operating point of bipolar and unipolar transistors. Switching circuit solutions: diode and transistor switches – bipolar and unipolar (inverters). Basic rectifier and stabilizer circuits – classification, circuit solutions, reference sources, operating parameters, stabilization factors.",
+    "Design and parameter measurements of a voltage amplifier – 6 hours: Selection of components for a single-stage voltage amplifier for a given operating point to achieve assumed operating parameters. Measurement of these parameters - voltage gain ku, effective gain, measurement of input impedance, output impedance, cutoff frequencies, amplifier bandwidth and its non-linear distortions.",
+    "Design and parameter measurements of transistor switches - 6 hours: Selection of components for electronic switch circuits implemented based on a bipolar transistor (n-p-n) and unipolar transistor (N-MOS with enhanced channel) to achieve assumed parameters. Measurement of switching times of bipolar and NMOS transistors and understanding factors influencing switching times.",
+    "Basic amplifying circuits and their applications - 10 hours: Operational amplifier structure – knowledge of functional blocks. RC amplifier – operating circuits, circuit models, operating parameters, frequency characteristics, applications. Differential amplifiers – operating circuits, operating parameters, transient characteristics, applications. Operational amplifiers – basic properties and parameters, linear and non-linear applications of operational amplifiers (operating circuits, parameters). Basic feedback circuits – shaping circuit parameters using feedback, stability of feedback systems, examples of feedback block applications. Selective amplifiers – resonant circuits, basic parameters.",
+    "Design and parameter measurements of selected operational amplifier applications – 6 hours: Designing the structure of a feedback loop circuit determining the function of the integrated circuit, measuring selected parameters and characteristics of the designed functional circuits with feedback.",
+    "Basic generative circuits and their applications – 2 hours: Types of generators, methods of oscillation excitation, generator parameters, generation conditions, circuit solutions for generators: LC, quartz, RC, square wave, VCO generators.",
+    "Fundamentals of digital technology – 6 hours: Number systems, logical functions - minimization methods, basic logical circuits, sequential circuits (flip-flops), combinational circuits (counters). Basics of A/D and D/A conversion.",
+    "Design and parameter measurements of stabilizers - 6 hours: Designing the structure of a parametric and compensatory stabilizer circuit, measuring selected parameters of designed reference sources and a low-dropout voltage stabilizer.",
+    "Design of selected digital circuits – 4 hours: Design of a decoder circuit and modulo n counter circuits. Verification of the correct operation of the designed circuits."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 118.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Test",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are credited by a test. Laboratory classes are credited by a test. Attendance at lectures is recommended for learning the content and clarification of doubts. Audiovisual recording of lectures requires the instructor's consent. For laboratory classes, students must prepare for the exercises, which may be verified by an oral or written colloquium. Course credit is based on presenting a solution to the given problem. Passing the module requires passing all laboratory classes.",
+  "bibliography": [
+    "1.Praca zbiorowa pod red St. Kuty: Przyrządy półprzewodnikowe i układy elektroniczne cz. I i II\", Wyd AGH, Kraków 2000.",
+    "2. U. Tietze, Ch. Schenk: „Układy półprzewodnikowe”, WNT, Warszawa 2009",
+    "3. J. Kalisz: Podstawy elektroniki cyfrowej. WKŁ, Warszawa 2007",
+    "4. B. Wilkinson: Układy cyfrowe. WKŁ, Warszawa 2000",
+    "5. P. Horowitz, W. Hill: Sztuka Elektroniki, WKŁ, Warszawa 2009",
+    "6.Ciążyński W.E.: Elektronika analogowa w zadaniach. Tom 1-8, Gliwice, WPŚl 2010.",
+    "4.Gray P.R., Hurst P.J., Lewis J.H., Meyer R.G.; Analysis and design of analog integrated circuits, 4th ed., Wiley, New York 2001.",
+    "5.Allen P.E., Holberg D.R.; \"CMOS Analog Circuit Design\", Oxford UP, 2002",
+    "6.Baker R.J.: \"CMOS\", Wiley, 3rd ed.,IEEE Press, 2010"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii8.00070.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/7f983420-a2aa-4531-8c3c-a01a4654c8be.html",
+  "source_language": "pl",
+  "source_sha256": "64bb0628a1695fa92ce3cb55874b41671817e136e1007371253b2d403c0ae321",
+  "extracted_at": "2026-11-20T09:04:50",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

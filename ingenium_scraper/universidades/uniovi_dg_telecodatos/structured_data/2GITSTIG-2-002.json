@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Ampliación de Matemáticas",
+  "course_name_en": "Advanced Mathematics",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of differential calculus of single-variable functions",
+    "Knowledge of differential calculus of multi-variable functions",
+    "Knowledge of vector spaces",
+    "Calculus I",
+    "Algebra"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify and classify bilinear forms and real quadratic forms.",
+      "type": "unspecified",
+      "code": "RAMP1"
+    },
+    {
+      "text": "Solve, using symbolic and numerical calculation, problems of maximums, minimums, and constrained extremes.",
+      "type": "unspecified",
+      "code": "RAMP2"
+    },
+    {
+      "text": "Decompose matrices, geometrically interpret the result, and apply it to problem-solving.",
+      "type": "unspecified",
+      "code": "RAMP3"
+    },
+    {
+      "text": "Utilize basic concepts, results, and techniques in affine and Euclidean geometry.",
+      "type": "unspecified",
+      "code": "RAMP4"
+    },
+    {
+      "text": "Relate the intuitive concept of rigid body motion (in the plane or in real space) with orthogonal transformations.",
+      "type": "unspecified",
+      "code": "RAMP5"
+    },
+    {
+      "text": "Explain the concept and know the usual techniques of least squares fitting.",
+      "type": "unspecified",
+      "code": "RAMP6"
+    },
+    {
+      "text": "Solve Advanced Mathematics problems using computational tools.",
+      "type": "unspecified",
+      "code": "RAMP7"
+    }
+  ],
+  "syllabus_topics": [
+    "Unit 1 Geometry and Orthogonality",
+    "Euclidean Geometry.",
+    "Affine Geometry.",
+    "Bilinear and quadratic forms.",
+    "Orthogonality. Relation to rigid body motion.",
+    "Unit 2 Calculation of Extremes",
+    "Calculation of extremes of functions of several variables.",
+    "Numerical methods for the calculation of extremes.",
+    "Unit 3 Approximation and Data Fitting",
+    "Singular value decomposition of matrices.",
+    "Approximation and least squares."
+  ],
+  "teaching_methods": [
+    "Virtual expository sessions (training videos, presentations, instructional texts, self-assessment questionnaires)",
+    "In-person expository classes (doubt resolution, theoretical development, examples)",
+    "Virtual classroom practices (video viewing, questionnaire answering, forum participation)",
+    "In-person classroom practices (individual or group exercises and tasks)",
+    "Virtual laboratory practices (solving exercises with MatLab software)",
+    "In-person laboratory practices (solving exercises with MatLab software)",
+    "Tutorials (forums, personal virtual tutoring via Teams)"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam 1 (P1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial Exam 2 (P2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Global Exam (PG)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Classroom Practices (NA)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Laboratory Practices (NL)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Virtual Campus tasks (NCv)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Average score of partial exams (NC)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The final grade (NF) in the ordinary call is calculated as NF = 0.2 NL + 0.2 NA + 0.5 NC + 0.1 NCv. NL is the laboratory practices grade, NA is the classroom practices grade, NC is the average of the partial exams (0.4 P1 + 0.6 P2) or the global exam grade (PG), and NCv is the virtual campus tasks grade. All grades are out of 10 points. The course is passed if NF >= 5, NC >= 3.5, and NL >= 3.5. If these minimums are not met, the final grade will be min(NF, NC, NL). For differentiated evaluation, if classroom attendance is not possible, the formula becomes NF = 0.2 NL + 0.6 NC + 0.2 NOL, where NOL is the online tasks grade.",
+  "bibliography": [
+    "Foundations of Data Science, Avrim Blum, John Hopcroft and Ravindran Kannan, Cambridge Univ. Press. 2020",
+    "Stewart, J. Cálculo de una variable y Cálculo multivariable. Paraninfo Thomson. (6ª ed.), 2009",
+    "Linear Algebra Done Right. Sheldon Axler, Springer ,2015",
+    "Espacios de Hilbert (Geometría, Operadores, Espectros). Abellanas, L. y Galindo A. EUDEMA, S. A. (Ediciones de la Universidad Complutense, S. A.). 1987",
+    "Elementos de cálculo tensorial. A. Lichnerowicz, Aguilar, 1968.",
+    "Introduction to Analytical Dynamics. Nicholas Woodhouse, Springer, 2009",
+    "Foundations of Optimization, Osman Güler, Springer, 2010"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-2-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-2-002",
+  "source_language": "es",
+  "source_sha256": "edd3c953a5239f1a2ce0082637c923bfff8801f273dff4f603647792c1b0c826",
+  "extracted_at": "2026-11-20T06:05:36",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

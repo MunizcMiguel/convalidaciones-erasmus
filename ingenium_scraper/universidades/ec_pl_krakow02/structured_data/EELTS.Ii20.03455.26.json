@@ -1,0 +1,133 @@
+{
+  "course_name_original": "Podstawy regulacji cyfrowej",
+  "course_name_en": "Basics of digital control",
+  "ects": 4.0,
+  "semester": "6",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "pl"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Student knows and understands the meaning of all specialized concepts discussed within the 'Basics of digital control' module.",
+      "type": "knowledge",
+      "code": "W1"
+    },
+    {
+      "text": "Student has knowledge of mathematics, including algebra, analysis, differential and difference equations, necessary to describe and analyze technical objects and processes, both continuous and discrete.",
+      "type": "knowledge",
+      "code": "W2"
+    },
+    {
+      "text": "Student consolidates knowledge in the basics of controlling linear objects - continuous and discrete, with particular emphasis on the cooperation of discrete-continuous systems.",
+      "type": "knowledge",
+      "code": "W3"
+    },
+    {
+      "text": "Student has in-depth knowledge of specialized issues concerning digital control, implementation of digital controllers, and digital signal processing for control purposes.",
+      "type": "knowledge",
+      "code": "W4"
+    },
+    {
+      "text": "Student is able to apply learned mathematical methods and models, as well as computer techniques, to analyze and evaluate the operation of dynamic systems; is able to assess control quality and investigate the causes of errors in a discrete-continuous control system.",
+      "type": "skill",
+      "code": "U1"
+    },
+    {
+      "text": "Student is able to design linear automatic control systems based on the evaluation of their operation in steady and dynamic states; is able to select the structure and parameters of a digital controller for controlling a continuous linear object; uses simulation research as a design tool.",
+      "type": "skill",
+      "code": "U2"
+    },
+    {
+      "text": "Student is able to implement a conventional controller algorithm on a signal processor (e.g., cooperating with the Simulink software platform); is able to scale program variables and match digital output signals from the processor for the needs of controlling a real object.",
+      "type": "skill",
+      "code": "U3"
+    },
+    {
+      "text": "Student understands the need and knows the possibilities of continuous self-education and improving professional competencies along with rapid technological development.",
+      "type": "competence",
+      "code": "K1"
+    }
+  ],
+  "syllabus_topics": [
+    "Introductory lecture on the cooperation of discrete-continuous systems. Discussion of elements of the digital control system, types of signals, and systems for their processing. Real-time systems: sampling, tasks of the control program.",
+    "Comparison: discrete system – continuous system, including mathematical models of these systems in the time and frequency domains. Differential equation versus difference equation; transfer function models - interpretation of variable 'z' and variable 's', spectral transfer functions.",
+    "Qualitative comparison of features of continuous and discrete systems and an attempt at a unified description of cooperating systems – continuous and discrete. Sampling and holding elements, i.e., (A/D) and (D/A) processing models in an engineering project: an example of selecting elements and a controller in a computer control system.",
+    "Discrete representations of continuous system dynamics; accurate representations and approximate discretization methods, including transformations in the time and frequency domains. Image of continuous system properties after discretization, description accuracy, and significance of the sampling period.",
+    "Analysis of simple discrete-continuous control systems. Control by changing controller gain and sampling time.",
+    "Stability analysis of discrete-continuous systems as a basic requirement for automatic control systems.",
+    "Conventional digital PID controllers. Issues of selecting the structure and parameters of controllers - quality indicators.",
+    "Implementation of digital control algorithms for continuous objects – design example. Analysis of control accuracy. Examination of signal waveforms between sampling periods. Examination of the influence of algorithm implementation inaccuracies and time delays in data processing on the quality of the control process.",
+    "Selection of sampling time for digital control systems.",
+    "Investigation of impulse and step responses of discrete systems – digital processing; recognizing system characteristics based on a mathematical model.",
+    "Investigation of frequency characteristics of discrete systems, their practical interpretation.",
+    "Discretization of continuous processes, consequences in the time and frequency domains, comparison of applied methods.",
+    "Investigation of PID controller time characteristics; application of the controller to control a continuous object.",
+    "Synthesis of a discrete PID controller for controlling a continuous second-order object – individual student project.",
+    "Selection of sampling time for a digital control system.",
+    "Design of a conventional PID controller and its implementation on the Arduino platform to control a continuous object using an A/D converter and a PWM system for generating control signals.",
+    "Investigation of time characteristics of control and controlled signals in a control system with a PI controller with saturation. Discussion of the \"anti-windup\" corrective structure. Implementation on the Arduino platform."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Group work",
+    "Laboratory classes"
+  ],
+  "workload_hours_total": 101.0,
+  "workload_hours_contact": 56.0,
+  "assessment_methods": [
+    {
+      "method": "Activity during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Test during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Essays written during lectures",
+      "weight_percentage": null
+    },
+    {
+      "method": "Activity during laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Execution of laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Essays written during laboratory classes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Completion of laboratory classes",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Lectures are verified by activity during classes, tests, and essays. Laboratory classes are verified by activity during classes, execution of laboratory tasks, essays, and completion of laboratory classes. Students are required to prepare for laboratory exercises, which may be verified by an oral or written colloquium. Passing the module is possible after passing all laboratory classes.",
+  "bibliography": [
+    "1. J.Ackermann : Sampled-data Control Systems, Springer 1996",
+    "2. K.J.Astrom, B.Wittenmark : Computer-controlled Systems, PrenticeHall 1997",
+    "3. G. Sieklucki: Automatyka napędu, Wyd. AGH, 2009",
+    "4. J.Brzózka : Regulatory dyskretne w automatyce, MIKOM 2002",
+    "5. A.Dzieliński, T.Kaczorek i in. : Podstawy sterowania, WNT 2005"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [
+    "prerequisites"
+  ],
+  "institution": "AGH University of Krakow (Akademia Górniczo-Hutnicza)",
+  "institution_slug": "ec_pl_krakow02",
+  "degree": "Electrical Engineering (Elektrotechnika), First-cycle (engineer) programme",
+  "course_code": "EELTS.Ii20.03455.26",
+  "academic_year": "2026-2027",
+  "source_url": "https://sylabusy.agh.edu.pl/en/document/f8736f2c-9990-44d9-b865-1a3101e5a341.html",
+  "source_language": "pl",
+  "source_sha256": "754939da47bc1b69cdf2e2dcf19f3adeccddf86b968a02ef649ca3b4a7ad678e",
+  "extracted_at": "2026-11-20T09:03:39",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

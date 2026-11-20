@@ -1,0 +1,125 @@
+{
+  "course_name_original": "Tecnología Eléctrica",
+  "course_name_en": "Electrical Technology",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [
+    "Mathematics (from first year)",
+    "Physics (from first year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify and analyze the different components of electrical circuits and master the techniques for their analysis.",
+      "type": "unspecified",
+      "code": "R1"
+    },
+    {
+      "text": "Master the techniques for analyzing electrical circuits powered by sinusoidal sources.",
+      "type": "unspecified",
+      "code": "R2"
+    },
+    {
+      "text": "Identify, analyze, and calculate balanced three-phase circuits and their application in industrial electrical installations.",
+      "type": "unspecified",
+      "code": "R3"
+    },
+    {
+      "text": "Master the procedures and measurement instruments for electrical circuits.",
+      "type": "unspecified",
+      "code": "R4"
+    },
+    {
+      "text": "Describe and analyze the operating principle of electrical machines and their applications.",
+      "type": "unspecified",
+      "code": "R5"
+    }
+  ],
+  "syllabus_topics": [
+    "FUNDAMENTALS OF ELECTRICAL CIRCUITS: DC CIRCUITS",
+    "Fundamental electrical magnitudes and units",
+    "Sign conventions and graphical references",
+    "Fundamental concepts of electrical circuits",
+    "Characteristic waveforms of electrical circuits",
+    "Components of electrical circuits",
+    "CIRCUITS IN SINUSOIDAL STEADY STATE",
+    "Sinusoidal waveforms: relevance, amplitude, angular frequency, phase angle, initial phase angle, particularization of characteristic parameters of periodic waves",
+    "Complex representation of sinusoidal waves: phasors",
+    "Complex impedance and admittance: generalization of Ohm's Law in complex notation",
+    "Systematic analysis of circuits in sinusoidal steady state in the complex domain",
+    "Response of R, L, C, RL and RC series dipoles in sinusoidal steady state: phasor diagram",
+    "Power and energy in sinusoidal steady state",
+    "Introduction to the frequency response of electrical circuits in sinusoidal steady state: series and parallel resonance",
+    "TOPOLOGICAL METHODS AND THEOREMS",
+    "Circuit resolution using the mesh method",
+    "Circuit resolution using the node method",
+    "Superposition Theorem",
+    "Thévenin's Theorem",
+    "Norton's Theorem",
+    "THREE-PHASE CIRCUITS",
+    "Generalities",
+    "Topologies of three-phase circuits",
+    "Line and phase magnitudes, and relationship between them",
+    "Star-delta and delta-star equivalences",
+    "Resolution of balanced three-phase circuits",
+    "Power in three-phase circuits",
+    "Introduction to the generation, transmission, and distribution of electrical energy",
+    "ELECTRICAL MACHINES",
+    "Introduction to transformers",
+    "Introduction to asynchronous machines",
+    "Introduction to synchronous machines",
+    "LABORATORY PRACTICE PROGRAM:",
+    "P1: Description of equipment and assembly of DC circuits",
+    "P2: Assembly of circuits in sinusoidal steady state I",
+    "P3: Assembly of circuits in sinusoidal steady state II",
+    "P4: Exam"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory practice",
+    "Group tutorials",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 58.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (EP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Exam (EL)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary calls, if conditions for eliminating content with the partial exam (EP) are met, the final grade is calculated as (0.4 * EP) + (0.15 * EL) + (0.45 * EF). If EP conditions are not met or the student opts to improve the grade, the final grade is calculated as (0.15 * EL) + (0.85 * EF). In both cases, a minimum final grade of 5 points is required to pass, with minimums of 20% per exercise and 50% globally for the EP and EF. If any minimums are not met, the maximum final grade is 3.5 points. For extraordinary and differentiated calls, the final grade is (0.15 * EL) + (0.85 * EF), with a minimum of 5 points to pass and a maximum of 3.5 points if minimums are not met, and similar minimums for the EF.",
+  "bibliography": [
+    "ALEXANDER, C y SADIKU, M. Fundamentos de Circuitos Eléctricos. Editorial Mc Graw Hill. Tercera Edición. 2004. ISBN: 970105606X",
+    "FRAILE MORA, JESÚS. Circuitos Eléctricos. Editorial Pearson. 2012. ISBN: 9788483227954",
+    "GÓMEZ EXPÓSITO, Antonio. Fundamentos de Teoría de Circuitos. Editorial Thomson. 207. ISBN:9788497324175"
+  ],
+  "isced_f_code": "0713",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería Eléctrica (EPI Gijón)",
+  "institution_slug": "uniovi_gie",
+  "degree": "Grado en Ingeniería Eléctrica",
+  "course_code": "GIELEC01-2-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/electrica/-/fof/asignatura/GIELEC01-2-005",
+  "source_language": "es",
+  "source_sha256": "776f67cdf04b918f473fa4b411f1a0b72dd9af0fe25e05de0c74c3fd7b0836df",
+  "extracted_at": "2026-11-20T01:13:34",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

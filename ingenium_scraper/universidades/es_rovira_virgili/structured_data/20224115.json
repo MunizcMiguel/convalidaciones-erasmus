@@ -1,0 +1,102 @@
+{
+  "course_name_original": "Laboratorio de hidráulica",
+  "course_name_en": "Hydraulics Laboratory",
+  "ects": 3.0,
+  "semester": "2nd Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [
+    "INGENIERÍA FLUIDOMECÁNICA/20224114",
+    "Fluid Mechanics Engineering course (1st semester of 3rd year)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Applies the fundamentals of fluid mechanical systems and machines.",
+      "type": "skill",
+      "code": "A1.1"
+    },
+    {
+      "text": "Applies experimental techniques to fluid systems.",
+      "type": "skill",
+      "code": "A1.2"
+    },
+    {
+      "text": "Knows the operation of pressure measuring equipment and related calculations. Applies the concept of dimensional analysis to the study of hydraulic machines and their scaling. Evaluates pressure losses. Experimentally evaluates the performance and characteristics of hydraulic machines and transmissions.",
+      "type": "unspecified",
+      "code": "A5.6"
+    },
+    {
+      "text": "Intervenes effectively and transmits relevant information, appropriate to the situation. Plans communication: generates ideas, searches for information, selects and organizes information, creates outlines, determines the audience, communication objectives,... Drafts documents with the appropriate format, content, structure, linguistic correctness, and register, and illustrates concepts using conventions correctly: formats, titles, footers, legends,... Their presentations are properly prepared, using strategies to present and deliver oral presentations (audiovisual aids, gaze, voice, gestures, time control,...).",
+      "type": "competence",
+      "code": "B1.1"
+    },
+    {
+      "text": "Participates actively and shares information, knowledge, and experiences. Carries out their individual contribution within the foreseen time and with available resources. Accepts and complies with group rules. Actively collaborates in team work planning, task distribution, and required deadlines.",
+      "type": "competence",
+      "code": "B3.3"
+    }
+  ],
+  "syllabus_topics": [
+    "Evaluate the viscosity of liquids with the Cannon-Fenske viscometer. Analyze the dependence of viscosity on concentration and temperature.",
+    "Evaluate the viscosity of liquids with a rotation viscometer.",
+    "Observe the qualitative differences between different flow regimes (laminar, transition, and turbulent) in a circular pipe.",
+    "Measure the force exerted by a jet impacting different types of static plates.",
+    "Measure the resultant force due to hydrostatic pressure acting on a flat surface partially or totally submerged in a liquid in equilibrium.",
+    "Determine the velocity profile and pressure drop of air circulating inside a pipe.",
+    "Calibrate different flow meters: orifice plate, venturi meter, and variable area rotameter.",
+    "Determine the operating characteristics of a Pelton turbine at different speeds and study the variation of torque, power, discharge, and efficiency of the turbine according to its rotation speed.",
+    "Determine the characteristic H-Q curves of two simple centrifugal pumps at a fixed rotation speed and of two centrifugal pumps connected in series and parallel.",
+    "Determine the characteristics of water hammer in a pipe caused by the sudden closing of a valve.",
+    "Determine the characteristics of the oscillation of a cylindrical fluid column caused by pressure variations in a pipe after the sudden closing of a valve.",
+    "Determine the distribution of the mean velocity at the exit of a circular jet from pressure difference measurements and analyze how it relates to flow rate, momentum flux, and kinetic energy flux at different distances from the jet exit.",
+    "Use EPANET to model a water supply network, obtain velocities and pressures in pipelines, and simulate different typical problems in these systems.",
+    "1) Use FluidSim to model and simulate some elementary pneumatic circuits, for 2) building them with the elements of the laboratory pneumatic bench, observing and describing their operation."
+  ],
+  "teaching_methods": [
+    "Laboratory practices: Laboratory experiments on equipment used for fluid transfer in engineering and accompanying phenomena.",
+    "Introductory activities: Presentation of practices.",
+    "ICT-based practices: Apply statistical knowledge and error propagation to the results of laboratory practices to process data according to scientific criteria.",
+    "Personalized attention: During stipulated consultation hours."
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Laboratory practices (report submission and practical skills)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "ICT-based practices (problem-solving with data treatment)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Objective tests (multiple-choice test)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Development tests (final test of content and knowledge)",
+      "weight_percentage": 40.0
+    }
+  ],
+  "assessment_rules": "The final grade for the course will be the weighted average of all scores. There is no minimum score required for any individual part. There is no resit opportunity; if a student fails the course, all practical sessions must be repeated the following year as report scores are not carried over. The final exam is optional: if the score before the exam reaches 5, it is not necessary to take the final exam.",
+  "bibliography": [
+    "White, F. M., Mecánica de fluidos, McGraw-Hill, Madrid, 2002",
+    "Incropera, F. P., DeWitt, D. P., Fundamentals of Heat and Mass Transfer, John Wiley & Sons, New York"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "Universidad Rovira i Virgili",
+  "institution_slug": "es_rovira_virgili",
+  "degree": "Grado en Ingeniería Mecánica",
+  "course_code": "20224115",
+  "academic_year": "2026-27",
+  "source_url": "https://guiadocent.urv.cat/docnet/guia_docent/index.php?centre=20&ensenyament=2022&assignatura=20224115&idioma=cast",
+  "source_language": "es",
+  "source_sha256": "020fd1561c0c0daea052f29bf0672798a098602e41aa9f0774f66b0ee5e07882",
+  "extracted_at": "2026-11-13T22:48:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,68 @@
+{
+  "course_name_original": "Regelungstechnik I",
+  "course_name_en": "Control Systems I",
+  "ects": 4.0,
+  "semester": "1 Semester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Fundamental knowledge from (engineering) mathematics: arithmetic operations with fractions, complex numbers, differential and integral calculus, ordinary linear differential equations of the first order with constant coefficients, Taylor series, polynomials, rational functions, partial fraction decomposition."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "The participants will be familiarized with the fundamental mathematical tools for dealing with control systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Participants can use these tools for the analysis of systems and control loops as well as for the design of controllers.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to control engineering",
+    "Linearization of ordinary nonlinear first-order differential equations and systems of differential equations",
+    "Ordinary linear first-order differential equations with constant coefficients",
+    "Laplace transformation",
+    "Application of the Laplace transformation to ordinary linear first-order differential equations with constant coefficients, transfer function, poles and zeros, convolution integral, stability, frequency response",
+    "Linear time-invariant systems, modeling, typical transfer elements (P-, I-, D-, PT1-, PT2(S), DT1-, PD-, Tt-element), all-pass elements, minimum-phase and non-minimum-phase behavior",
+    "Closed control loop, requirements, stability, Nyquist criterion",
+    "Controller design, classification of methods, standard controllers (PID controllers), frequency response methods, algebraic/analytical controller design (pole placement in the standard control loop)",
+    "Approximate conversion of a continuous control algorithm (differential equation, transfer function) into a discrete-time control algorithm (difference equation)",
+    "Selected aspects of control engineering, e.g., digital control (if applicable)"
+  ],
+  "teaching_methods": [
+    "Blackboard writing",
+    "Projector presentation (partially)",
+    "Practice problems and supplementary materials as text documents"
+  ],
+  "workload_hours_total": 120.0,
+  "workload_hours_contact": 42.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam or oral examination",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The module examination is either a written exam or an oral examination. The conduct and duration of the examination are in accordance with the applicable examination regulations. This examination accounts for 100% of the module grade.",
+  "bibliography": [
+    "An up-to-date bibliography is included in the provided lecture materials."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Universität Clausthal",
+  "institution_slug": "ec_d_clausth01",
+  "degree": "Maschinenbau (B.Sc.)",
+  "course_code": "regelungstechnik-i",
+  "academic_year": "2025-26 (MHB Stand 13.06.2025)",
+  "source_url": "https://www.fakultaeten.tu-clausthal.de/fileadmin/Sites/Studiengaenge/Documents/Studiengaenge/Modulhandbuecher/Neu_in_2025-26/MHB_MB_B.Sc._13_06_2025.pdf",
+  "source_language": "de",
+  "source_sha256": "2a64eace77aae4c0420715e9cf76ab6753793f35f63b88e4b38f89020ba64cc5",
+  "extracted_at": "2026-11-18T09:49:17",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

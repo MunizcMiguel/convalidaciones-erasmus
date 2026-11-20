@@ -1,0 +1,73 @@
+{
+  "course_name_original": "Robotisation en fabrication mécanique",
+  "course_name_en": "Robotization in mechanical manufacturing",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Manufacturing methods (turning, milling, drilling... Cutting tools, cutting parameters, tooling)",
+    "CNC machine-tool operation",
+    "CNC programming",
+    "Computer-aided manufacturing (CAM)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To identify and compare different robotized manufacturing strategies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To evaluate the potential benefits of robotized manufacturing strategies.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To take into account the technical and organizational constraints linked to their implementation in an industrial environment.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Articulated robots (6 axes) for complex 3D machining and FSW welding",
+    "SCARA robots for high-precision assembly in electronics",
+    "Parallel robots (Delta) for fast pick-and-place operations",
+    "Collaborative robots equipped with force sensors for finishing operations",
+    "Robotic manufacturing operations (Hybrid operations combining machining and inline quality control, Friction stir welding (FSW), Intelligent completion with 3D vision and AI systems, Machine tool loading/unloading with automatic tool management)",
+    "Robot programming (Off-line programming with software such as NX CAM for preliminary simulation, Direct teaching via touch pendulums for fine adjustments, Adaptive programming using force/torque sensors for machining, Pre-optimized motion libraries for FSW)",
+    "Implementing robotic manufacturing (Analysis of process constraints, Design of modular cells with standardized interfaces, Integration of vision systems and IoT sensors, Validation by digital twin before deployment)",
+    "Critical points (Robot/effector suitability for FSW, Vibration management in robotic machining, Securing material flows in cells)",
+    "Expected behaviors (Accuracy, Robustness, Adaptability, Safety)",
+    "Case study: Completion and FSW welding (Application Airbus, Solution Proxinnov)",
+    "Application TP (Inverse kinematic modeling of a 6-axis robot, Programming machining trajectories on a complex part, Implementation of FSW parameters, Metallographic analysis of welded joints)"
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": 12.0,
+  "workload_hours_contact": 12.0,
+  "assessment_methods": [
+    {
+      "method": "TP1",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*TP1)/1.",
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0876GM",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "6ad935dcaa84877cc00606a426a82e949eb79a1bf9612c184c041d910ce394ff",
+  "extracted_at": "2026-11-18T10:00:20",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

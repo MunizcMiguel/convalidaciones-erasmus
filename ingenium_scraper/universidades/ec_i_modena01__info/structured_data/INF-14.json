@@ -1,0 +1,140 @@
+{
+  "course_name_original": "Fondamenti di Telecomunicazioni",
+  "course_name_en": "Fundamentals of Telecommunications",
+  "ects": 9.0,
+  "semester": "First Semester Cycle",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Matematica Applicata e Statistica",
+    "Elettronica Digitale",
+    "Inglese",
+    "Analisi Matematica II (recommended)",
+    "Excellent knowledge of Mathematics, Geometry",
+    "Knowledge of fundamental aspects of Electronics and Electrical Circuits",
+    "Ability to work with complex numbers, solve simple electrical circuits, and understand the basics of stochastic processes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Acquire fundamental notions of information transmission, signal theory, and telecommunications networks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design simple numerical links and simple telecommunications networks.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand and analyze simple telecommunication systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Develop effective and concise presentation skills for results.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Acquire methodological tools for the study and design of telecommunication systems useful for further studies.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Telecommunications Scenario",
+    "Deterministic Signal Theory",
+    "Analysis of continuous-time, continuous-value, and discrete-value deterministic functions",
+    "Fourier series and transform",
+    "Time series",
+    "Fourier transform of a time series",
+    "Sampling theorem in time and frequency domains and its applications",
+    "FFT",
+    "Dirac operator",
+    "Application of signal analysis to the study of linear systems",
+    "Transfer function",
+    "Non-distortion conditions",
+    "A/D and D/A conversion",
+    "Numerical low-pass signals",
+    "PCM signals",
+    "TDM-PCM signals",
+    "Impulse response of a linear network",
+    "Discrete-time linear systems",
+    "Finite-energy and finite-power continuous-time functions",
+    "Energy and power spectra",
+    "Finite-power time series",
+    "PAM signals",
+    "Power spectrum of PAM signals",
+    "Random Signal Theory",
+    "Random processes",
+    "Statistical means and temporal means",
+    "Stationary processes and ergodic processes",
+    "Gaussian processes",
+    "Error function",
+    "Discrete-time, continuous-value, and discrete-value random processes",
+    "Random PAM signals",
+    "Power spectrum of random PAM signals",
+    "Signals of greatest interest in telecommunications",
+    "Analog low-pass signals and related services",
+    "Frequency division multichannel signals",
+    "A/D and D/A conversion",
+    "Numerical low-pass signals and related services",
+    "PCM signals",
+    "Time division multichannel signals",
+    "TDM-PCM signals",
+    "Transmission lines",
+    "Study of a numerical link",
+    "Nyquist criterion",
+    "Study of an optical fiber link",
+    "Band-pass signals",
+    "Elements of modulation theory",
+    "Amplitude and/or angle modulated sinusoidal oscillations: AM, SSB, VSB, FM, PM, QAM",
+    "Spectral characteristics of modulated signals",
+    "Main numerical modulations: ASK, OOK, PSK, CPFSK, M-QAM",
+    "Vector diagram and constellation of states",
+    "Telecommunication networks: topologies",
+    "Switching techniques: circuit and packet switching",
+    "Layered communication architectures: ISO/OSI model and TCP/IP stack",
+    "Physical layer: RS-232E, USB",
+    "Link layer: HDLC",
+    "Channel access techniques for shared communication channels: deterministic, random",
+    "Aloha solution and CSMA access strategies",
+    "Performance evaluation",
+    "IEEE 802 Project: LAN Ethernet/IEEE 802.3, Fast Ethernet/802.3u, Token Ring",
+    "Introduction to ADSL, WLAN"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Classroom exercises",
+    "Examples of system and network design"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 81.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (numerical exercises, open theoretical questions, closed questions)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of only written tests with numerical exercises, open theoretical questions, and closed questions. The duration of the in-person written test is usually two hours. Grades range from 'Insufficient' (<18/30) to 'Excellent' (28-30/30 cum laude).",
+  "bibliography": [
+    "L.Calandrino, G.Immovilli: \"Schemi delle lezioni di Comunicazioni Elettriche\" - Pitagora Editrice.",
+    "Lecture notes provided by the instructor."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università degli Studi di Modena e Reggio Emilia — Ingegneria Informatica (MO)",
+  "institution_slug": "ec_i_modena01__info",
+  "degree": "Laurea in Ingegneria Informatica (Mo) (Computer Engineering (D.M.270/04)), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "INF-14",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unimore.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=19829&ordinamento_aa=2022&af_percorso=10000&corso_cod=10296&corso_aa=2024",
+  "source_language": "it",
+  "source_sha256": "d66001e16b91c461146d7c97c3ddbc4419d948957618f3f6ae4472f243f11509",
+  "extracted_at": "2026-11-20T12:42:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

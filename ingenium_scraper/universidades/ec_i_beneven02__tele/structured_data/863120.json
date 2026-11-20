@@ -1,0 +1,111 @@
+{
+  "course_name_original": "MOBILE ROBOTICS (863120)",
+  "course_name_en": "MOBILE ROBOTICS",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "it"
+  ],
+  "prerequisites": [
+    "Knowledge of dynamical systems and automatic control (Automatic Control exam)",
+    "Familiarity with linear algebra",
+    "Familiarity with differential calculus",
+    "Familiarity with probability"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "By the end of the course, students will know and understand the models and control principles of mobile robotic systems, with reference to quadrotors, as well as the main methodologies for motion planning, state estimation, localization, mapping, vision, and learning.",
+      "type": "knowledge",
+      "code": "D1"
+    },
+    {
+      "text": "Students will be able to formulate basic models, set up control and stabilization problems, select planning and filtering algorithms, and interpret the use of the studied techniques in mobile robotics scenarios.",
+      "type": "skill",
+      "code": "D2"
+    },
+    {
+      "text": "Students will be able to critically evaluate the suitability of models, control algorithms, planning algorithms, and estimation methods with respect to the requirements of an application, recognizing assumptions, limitations, and main trade-offs.",
+      "type": "competence",
+      "code": "D3"
+    },
+    {
+      "text": "Students will be able to describe problems, models, and solutions for mobile robots using appropriate technical language and presenting their reasoning clearly.",
+      "type": "skill",
+      "code": "D4"
+    },
+    {
+      "text": "Students will develop autonomous learning skills that allow them to further study advanced mobile robotics techniques and to use specialized teaching and bibliographic material.",
+      "type": "skill",
+      "code": "D5"
+    }
+  ],
+  "syllabus_topics": [
+    "Feedback control: linearization",
+    "Lyapunov asymptotic stability",
+    "Hovering control",
+    "Trajectory stabilization",
+    "Linear quadratic regulator (LQR)",
+    "Motion planning in environments with obstacles: discrete search techniques (breadth-first search and depth-first search)",
+    "Discrete optimal planning (Dijkstra and A* algorithms)",
+    "Randomized techniques (Rapid Random Tree, Rapid Random Graph, and RRT*)",
+    "Continuous trajectory planning",
+    "Differential flatness",
+    "State estimation, localization, mapping, and SLAM: nondeterministic filters and the Bayesian filter",
+    "Kalman filter, extended Kalman filter, and particle filter",
+    "Localization with a known map",
+    "Mapping with known robot pose",
+    "SLAM (Simultaneous Localization and Mapping)",
+    "Radio Frequency Localization Systems",
+    "Vision and learning for robotics: introduction to vision",
+    "Optical flow for reconstructing object velocity in the image plane",
+    "Principles of deep learning for image processing (stochastic gradient descent, multilayer perceptron, backpropagation, overfitting and regularization, convolutional neural networks)",
+    "Introductory notions of reinforcement learning for robot control",
+    "Overview of the ethical, social, and economic impacts of robotics",
+    "Legal issues and challenges arising from the deployment of robotic systems"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Examples",
+    "Guided discussions",
+    "Board demonstrations",
+    "Seminars"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Written test with open-ended questions",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral discussion",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final examination consists of a written test followed by an oral discussion. The written test and the final grade (which takes into account both the written test and the oral discussion) are each graded on a 30-point scale. Incoming international exchange students may arrange to take the examination in English.",
+  "bibliography": [
+    "Presentations used during lectures and notes related to board developments",
+    "Introduction to Robotics (Princeton University course)",
+    "Visual Navigation for Autonomous Vehicles (MIT course)",
+    "R. Siegwart, I. R. Nourbakhsh, D. Scaramuzza, Introduction to Autonomous Mobile Robots (book)",
+    "S. M. LaValle, Planning Algorithms (book)",
+    "S. Thrun, W. Burgard, D. Fox, Probabilistic Robotics (book)",
+    "B. Siciliano, L. Sciavicco, L. Villani, G. Oriolo, Robotics: Modelling, Planning and Control (book)",
+    "S. Karaman, E. Frazzoli, Incremental Sampling-based Algorithms for Optimal Motion Planning (scientific article)"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica (L-8)",
+  "institution_slug": "ec_i_beneven02__tele",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "863120",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=7726&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "d99001bc3d7fb4ccf56a5bb50c4c6065ccbfa8dc9f97edbdbf6d18d9d290338e",
+  "extracted_at": "2026-11-20T12:46:06",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

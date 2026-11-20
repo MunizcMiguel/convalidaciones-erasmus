@@ -1,0 +1,102 @@
+{
+  "course_name_original": "State space control for robotic systems",
+  "course_name_en": "State space control for robotic systems",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Classical control systems: differential models, transfer functions and their properties."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Model simple mechatronic and robotic systems in the state-space",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze structural properties and internal properties of systems from state-space models and from detailed block diagrams",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design controllers in the state space and with state-feedback and output feedback architectures",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Design observers in the state space",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the utility of modern control and of working in the estate space",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know how to model in the state space from differential model and from transfer function and vice-versa",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to analyse the (structural and internal) properties of a system from its state-space model",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to design a state-feedback and output-feedback controller",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Know how to design a Luenberger observer",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction and modeling (3h)",
+    "State-feedback and output-feedback control (3h)",
+    "Structural and internal properties (3h)",
+    "Observers (1h)",
+    "Labs (6h)"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Lab work (project-based)"
+  ],
+  "workload_hours_total": 24.0,
+  "workload_hours_contact": 16.0,
+  "assessment_methods": [
+    {
+      "method": "Exam (DS1)",
+      "weight_percentage": 50.0
+    },
+    {
+      "method": "Lab project (TP1)",
+      "weight_percentage": 50.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1 + 1*TP1) / 2. This implies an equal weighting of the exam (DS1) and the lab project (TP1).",
+  "bibliography": [
+    "Modern control systems, Richard Dorf and Robert Bishop, Pearson Education Limited, 2010, ISBN-10 ‏: 0136024580.",
+    "Commande et estimation multivariables: Méthodes linéaires et optimisation quadratique, Eric Ostertag, 2006, Ellipses, ISBN-10 ‏: 2729828036."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0878SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S08.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "4918dcdc7ef1ab51f841bdcf0a4fbbdb76602a0f7e190c735d56c9fe4a4b782f",
+  "extracted_at": "2026-11-18T09:52:35",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

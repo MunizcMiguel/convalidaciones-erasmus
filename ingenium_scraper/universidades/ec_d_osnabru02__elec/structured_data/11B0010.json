@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Analogelektronik",
+  "course_name_en": "Analogue Electronics",
+  "ects": 5.0,
+  "semester": "Winter- und Sommersemester",
+  "year_of_study": null,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Basic knowledge of electrical engineering, especially DC and AC networks with their components: resistor, capacitor, and inductor.",
+    "Knowledge of complex numbers, differential and integral calculus, and solving linear equation systems from mathematics."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can recognize and calculate a given analog circuit. They know the components used and their properties.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can design a suitable analog circuit for a given task, select appropriate components, and dimension the circuit. They are also aware of the importance of low power consumption of analog circuits.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students understand that there are differences between theoretical calculations and the real properties of an analog circuit. They can assess the relevance of these differences and obtain necessary information from component datasheets.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students can build an analog circuit and perform simulations, measurements, and calculations.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can prepare, present, and discuss results from selected analyses, simulations, measurements, and calculations.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Fundamentals of Analog Electronics: development process, description of circuits in time and frequency domains, two-port networks",
+    "Components: properties of passive components, diodes",
+    "Operational Amplifiers: basic circuits, internal structure, properties, datasheets",
+    "Circuits with Operational Amplifiers",
+    "Bipolar and Field-Effect Transistors: basic function, structure, characteristic curves, properties",
+    "The Transistor as a Switch",
+    "Amplifier Circuits with Transistors",
+    "Further Circuits: constant current sources, voltage regulators"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory activity"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (Klausur)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Experimental work (Praktikum)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "ECTS credits are awarded based on a graded examination (Klausur) and an ungraded experimental work. The experimental work consists of 5 experiments, each 90 minutes long, requiring preparation and a report.",
+  "bibliography": [
+    "U. Tietze, C. Schenk, E. Gamm: \"Halbleiterschaltungstechnik\", Springer-Verlag, 15, Auflage, 2016",
+    "P. Horowitz, W. Hill: \"The Art of Electronics\", Cambridge University Press, 3. Auflage, 2015",
+    "R. Heinemann: \"PSPICE Einführung in die Elektroniksimulation\", Carl-Hanser-Verlag, 2011"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Hochschule Osnabrück — Elektrotechnik (B.Sc.)",
+  "institution_slug": "ec_d_osnabru02__elec",
+  "degree": "Elektrotechnik (B.Sc.)",
+  "course_code": "11B0010",
+  "academic_year": "2025-26 (StO 2025, Stand 26.03.2026)",
+  "source_url": "https://www.hs-osnabrueck.de/fileadmin/Modulhandbuch/BET/StO2025_Stand2026-08-20_Elektrotechnik.pdf",
+  "source_language": "de",
+  "source_sha256": "06aec688bd2bb57e51438a8f740feb6b4f73c8b6a244fb7c77e56bef2e3fad68",
+  "extracted_at": "2026-11-20T12:31:54",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

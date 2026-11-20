@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Sensors and systems for robotics (146180)",
+  "course_name_en": "Sensors and systems for robotics",
+  "ects": 6.0,
+  "semester": "First semester",
+  "year_of_study": 3,
+  "course_type": "other",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic concepts of control",
+    "Basic concepts of programming",
+    "Basic concepts of electronics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the operation, limitations, and applications of the main robotic sensors.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Integrate sensors into a robotic system, both at the hardware and software level.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Design sensor fusion and state estimation algorithms.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Analyze sensory data and use them for navigation, perception, and control.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to sensing systems for robotics: classification of sensors (active/passive, absolute/incremental), performance parameters (accuracy, resolution, precision), basic concepts of measurement and uncertainty evaluation, hardware and interfacing architectures.",
+    "Position, velocity, and orientation sensors: optical and magnetic encoders, IMUs (accelerometers, gyroscopes, magnetometers), inertial measurements, calibration.",
+    "Environmental perception: distance sensors (ultrasonic, infrared, LiDAR, ToF), computer vision (RGB, stereo, and RGB-D cameras), introduction to computer vision for robotics, localization and mapping (maps, landmarks, loop closure).",
+    "Sensor fusion and state estimation: least squares, Kalman filters, EKF, localization and SLAM algorithms, multi-sensor integration.",
+    "Sensors for interaction and control.",
+    "Exercises and laboratory sessions: implementation of pipelines for real and simulated sensors, basic use of ROS/ROS2 for data acquisition and management, experiments and exercises with real sensors (IMU, LiDAR, cameras, encoders) and on a robotic platform."
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Classroom exercises",
+    "Classroom activities",
+    "Discussions",
+    "Open questions"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Project (group of two or three, with a 3-4 page report)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Oral examination (open discussion on one or two topics)",
+      "weight_percentage": 60.0
+    }
+  ],
+  "assessment_rules": "To successfully pass the exam, students must complete a project and an oral examination. The final grade will be based on a weighted evaluation of the project (40%) and the oral exam (60%).",
+  "bibliography": [
+    "Course handouts and selected articles",
+    "Sensor manuals and datasheets",
+    "Rossi, G.B., 2014. Measurement and Probability. Meteorology and Atmospheric Physics.",
+    "R. Siegwart, I. Nourbakhsh, D. Scaramuzza – Introduction to Autonomous Mobile Robots",
+    "B. Siciliano, O. Khatib – Springer Handbook of Robotics",
+    "Rossi, G. B. (2014[). Measurement and probability : a probabilistic theory of measurement with applications.](https://strutture-provincia.primo.exlibrisgroup.com/permalink/39SBT_INST/1c2kpst/alma991022092300106186) Springer.",
+    "Siegwart, R., Nourbakhsh, I. R., & Scaramuzza, D. (2011). [Introduction to autonomous mobile robots](https://strutture-provincia.primo.exlibrisgroup.com/permalink/39SBT_INST/1c2kpst/alma991000115349706186) (2nd ed.). MIT press.",
+    "Siciliano, B., & Khatib, O. (2016). [Springer handbook of robotics](https://strutture-provincia.primo.exlibrisgroup.com/permalink/39SBT_INST/1c2kpst/alma991022299801106186) (2. ed.). Springer"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Trento",
+  "institution_slug": "ec_i_trento01",
+  "degree": "Laurea in Ingegneria Industriale (Industrial Engineering), classe L-9 Classe delle lauree in Ingegneria industriale",
+  "course_code": "146180",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unitn.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=50428_646292_96043&ordinamento_aa=2020&af_percorso=50428&corso_cod=10131&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "ec14f4fa84a62096f0e221a54b0c195878c4a0d3d5669e4f4c29eb424ad3b20b",
+  "extracted_at": "2026-11-18T10:03:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

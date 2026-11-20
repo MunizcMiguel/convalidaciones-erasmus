@@ -1,0 +1,81 @@
+{
+  "course_name_original": "Fahrzeugmechatronik",
+  "course_name_en": "Vehicle Mechatronics",
+  "ects": 3.0,
+  "semester": "6th Semester (winter term start); 5th Semester (summer term start)",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Vehicle Technology"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will know the fundamental information technology contexts and functionalities of embedded systems in motor vehicles.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will know the basic development process of embedded systems according to DIN-ISO 26262.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Students will understand the digital information flow from the source (sensor technology) via data processing (signal conditioning and control) to the information sink (actuators) in the motor vehicle at different OSI abstraction layers and be able to implement a prototype vehicle system as a model.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students will possess the fundamental competence to diagnose errors in data transmission in the vehicle and derive solutions.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Students will be enabled to mediate as an interdisciplinary interface between mechanical development goals and electronic or information technology development goals.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Development fundamentals of embedded systems",
+    "Components of embedded systems",
+    "Digital encoding and processing of information",
+    "State machines",
+    "Data transmission",
+    "System theory with modeling and control in relation to road vehicles"
+  ],
+  "teaching_methods": [
+    "Lecture with integrated exercises and laboratory experiments"
+  ],
+  "workload_hours_total": 90.0,
+  "workload_hours_contact": null,
+  "assessment_methods": [
+    {
+      "method": "Written exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credit points are awarded upon passing the module exam. The grade's contribution to the final grade is weighted by credit points.",
+  "bibliography": [
+    "Lutz Eckstein, Torsten Dellmann; Mechatronische Systeme in der Fahrzeugtechnik; 2011; ISBN 978-3-940374-05-9",
+    "Winfried Gehrke, Marco Winzker; Digitaltechnik - Grundlagen, VHDL, FPGAs, Mikrocontroller; Springer 2022; ISBN 978-3-662-63954-2",
+    "Sarah L. Harris, David Harris; Digital Design and Computer Architecture RISC-V Edition; Elsevier 2022; ISBN: 978-0-12-820064-3",
+    "Russell Merrick; GETTING STARTED WITH FPGAS; ISBN-13: 978-1-7185-0294-9",
+    "Karsten Berns, Alexander Köpper, Bernd Schürmann; Technische Grundlagen Eingebetteter Systeme - Elektronik, Systemtheorie, Komponenten und Analyse; Springer 2019; ISBN 978-3-658-26515-1",
+    "Peter Gliwa; Embedded Software Timing Methodik, Analyse und Praxistipps am Beispiel Automotive; Springer2021; ISBN 978-3-658-26479-6",
+    "Werner Zimmermann, Ralf Schmidgall; Bussysteme in der Fahrzeugtechnik; Springer 2014; ISBN 978-3-658-02418-5"
+  ],
+  "isced_f_code": "0716",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Bingen",
+  "institution_slug": "ec_d_bingen01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "B-MB-FAME",
+  "academic_year": "2026-27",
+  "source_url": "https://www.th-bingen.de/fileadmin/studium/bachelor/maschinenbau/Modulhandbuch_Bachelor_Maschinenbau_26-09-28.pdf",
+  "source_language": "de",
+  "source_sha256": "83a8d1265cff6232537631866adfd978c47deb54d2e9393c249cba42480be94a",
+  "extracted_at": "2026-11-20T09:20:32",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

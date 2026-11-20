@@ -1,0 +1,108 @@
+{
+  "course_name_original": "Procesamiento de Datos en Arquitecturas de Altas Prestaciones",
+  "course_name_en": "Data Processing in High-Performance Architectures",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Solid foundation in programming",
+    "Solid foundation in computers"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand the architecture and operation of computer clusters.",
+      "type": "unspecified",
+      "code": "RPROA1"
+    },
+    {
+      "text": "Know specific processors for AI, GPUs, and FPGAs, and estimate the additional performance they offer when processing AI workloads.",
+      "type": "unspecified",
+      "code": "RPROA2"
+    },
+    {
+      "text": "Know and use parallel file systems.",
+      "type": "unspecified",
+      "code": "RPROA3"
+    },
+    {
+      "text": "Configure and use task schedulers.",
+      "type": "unspecified",
+      "code": "RPROA4"
+    },
+    {
+      "text": "Develop parallel programs that use clusters, GPUs, etc.",
+      "type": "unspecified",
+      "code": "RPROA5"
+    },
+    {
+      "text": "Use performance measurement and visualization tools.",
+      "type": "unspecified",
+      "code": "RPROA6"
+    },
+    {
+      "text": "Understand and apply performance optimization techniques.",
+      "type": "unspecified",
+      "code": "RPROA7"
+    }
+  ],
+  "syllabus_topics": [
+    "Clusters and high-speed interconnection networks.",
+    "Processors for AI, GPUs, FPGAs.",
+    "Parallel file systems and task schedulers.",
+    "Parallel programming in shared and distributed memory architectures.",
+    "Performance measurement, optimization, and visualization."
+  ],
+  "teaching_methods": [
+    "Laboratory practices",
+    "Expositive classes",
+    "Online teaching"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 30.0,
+  "assessment_methods": [
+    {
+      "method": "Partial exam (EX1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Partial exam (EX2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignment (TR1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Assignment (TR2)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Participation (PA)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance (AS)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For ordinary assessment, a minimum average of 4 out of 10 is required for the two exams (EX1 and EX2) and a minimum average of 4 out of 10 for the two assignments (TR1 and TR2). If these minimums are met, the final grade is calculated as: Grade = 0.40 x [(EX1 + EX2)/2] + 0.45 x [(TR1 + TR2)/2] + 0.10 x PA + 0.05 x AS. Otherwise, the grade will be the minimum between the calculated grade and 4. For extraordinary assessment, a minimum of 4 out of 10 is required for both the final exam (EX) and the final assignment (TR). If these minimums are met, the final grade is calculated as: Grade = 0.50 x EX + 0.50 x TR. Otherwise, the grade will be the minimum between the calculated grade and 4. Grades are not carried over between calls.",
+  "bibliography": [
+    "Hennessy, David A. Patterson. \"Computer Architecture: A Quantitative Approach by John L.\" Hennessy, David A. Patterson (2017).",
+    "Hager, Georg, and Gerhard Wellein. Introduction to high performance computing for scientists and engineers. CRC Press, 2010."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-3-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-3-010",
+  "source_language": "es",
+  "source_sha256": "8020a0bf1b3ae15c63c544b7bc36e73e408cbce11408896bddbd886e55963126",
+  "extracted_at": "2026-11-20T05:56:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

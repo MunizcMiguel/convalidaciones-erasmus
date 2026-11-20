@@ -1,0 +1,119 @@
+{
+  "course_name_original": "Ingeniería de Control",
+  "course_name_en": "Control Engineering",
+  "ects": 3.0,
+  "semester": "First Semester",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Industrial Automation",
+    "Electrical Machines",
+    "Electronic Technology",
+    "Industrial Electronics",
+    "Organization of Industrial Companies",
+    "Manufacturing Processes"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Identify the fundamental elements of integral control of production and manufacturing processes in industry.",
+      "type": "unspecified",
+      "code": "RA-1"
+    },
+    {
+      "text": "Define the necessary elements for the implementation of control systems for proposed cases.",
+      "type": "unspecified",
+      "code": "RA-2"
+    },
+    {
+      "text": "Understand the operation of communication, supervision, and control systems for process optimization.",
+      "type": "unspecified",
+      "code": "RA-3"
+    },
+    {
+      "text": "Apply appropriate methodologies for the implementation of the different elements of an integral control system.",
+      "type": "unspecified",
+      "code": "RA-4"
+    },
+    {
+      "text": "Apply the appropriate norms and representation methods to the industrial control project.",
+      "type": "unspecified",
+      "code": "RA-5"
+    }
+  ],
+  "syllabus_topics": [
+    "CIM, the control pyramid in industry",
+    "Batch, continuous, and discrete (sequential) processes",
+    "Centralized and distributed control systems",
+    "Instrumentation in process and manufacturing control",
+    "Sensors: conventional and advanced (virtual sensors, vision systems, …)",
+    "Actuators: Valves, electric motors, pneumatics, hydraulics, robotics.",
+    "Devices for process and sequential system control: PID, PLC, microP, DSP, PC, …",
+    "Safety and EMC regulations",
+    "Communications at different control levels",
+    "Point-to-point communications: Analog and digital signal transmitters.",
+    "Industrial communication buses and networks",
+    "Security in communications and information systems",
+    "Supervision and control at plant level",
+    "SCADA, OPC and WEB technologies.",
+    "Optimization of processes and consumption",
+    "Data acquisition and exploitation",
+    "Acquisition and sampling",
+    "Databases for industry",
+    "Data exploitation techniques: data representation, statistical treatment, data mining.",
+    "Methodologies for the development of automated systems",
+    "Real-Time system programming",
+    "GEMMA",
+    "Normative for the design of batch manufacturing ISA S88 (IEC 61512-01)",
+    "Integration of enterprise control systems ISA S95",
+    "Integration of information technologies: MES, WMS, TMS, ERP",
+    "Normative and representation",
+    "Representation of control installations",
+    "P&ID Diagrams",
+    "Design and development standards ISA 5.1, 5.5 and UNE"
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practices",
+    "Expository classes",
+    "Group work",
+    "Autonomous work",
+    "Group tutorials"
+  ],
+  "workload_hours_total": 75.0,
+  "workload_hours_contact": 22.5,
+  "assessment_methods": [
+    {
+      "method": "Final Exam (EF)",
+      "weight_percentage": 80.0
+    },
+    {
+      "method": "Practical Work (TP)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "To pass the course in the ordinary call, a minimum grade of 4 out of 10 is required on the Final Exam and the Practical Work. If these minimums are met, the final grade is calculated as (0.8 x EF) + (0.2 x TP). Otherwise, the grade will be the minimum between the calculated grade and 4.0. In the extraordinary call, an exam (80%) and practical work (20%) are evaluated, with a minimum of 4 out of 10 required for each part. If these minimums are met, the final grade is calculated as (0.8 x Theory) + (0.2 x Practical Work); otherwise, the grade will be the minimum between the calculated grade and 4.0.",
+  "bibliography": [
+    "Cerro, E. “Comunicaciones industriales”. Ed. Ceysa 2004.",
+    "Rodríguez, A. \"Comunicaciones industriales: Guía práctica\". Ed. Marcombo 2008.",
+    "Williams, T.J. “A Reference Model for Computer Integrated Manufacturing (CIM): A Description from the Viewpoint of Industrial Automation”. Ed. Instrument Society of America 1989.",
+    "Andrew S. Tanenbaum, “Computer Networks”. Fourth Edition. Capítulo 1. Disponible en internet: <http://authors.phptr.com/tanenbaumcn4/samples/chapter01.pdf>",
+    "Thomesse, J.-P. “Fieldbus technology in industrial automation”. Proceedings of the IEEE, 2005, vol. 93, no 6, p. 1073-1101.",
+    "Felser, Max. “Real-Time Ethernet--Industry Prospective”. Proceedings of the IEEE, 2005, vol. 93, no 6, p. 1118-1129.",
+    "Telesquemario. Schneider Electrics, 1999.",
+    "Compatibilidad Electromagnética. Schneider Electrics, 2000.",
+    "Neumática. SMC. International Training. Segunda Edición. Ed. Paraninfo. 2002."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mii",
+  "degree": "Máster Universitario en Ingeniería Industrial",
+  "course_code": "MINGIND2-1-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/industrial/-/fof/asignatura/MINGIND2-1-008",
+  "source_language": "es",
+  "source_sha256": "b410db6d4d857f06514e369059136c29983afbe7b7a9197e9f4651391640e1a7",
+  "extracted_at": "2026-11-20T06:01:52",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

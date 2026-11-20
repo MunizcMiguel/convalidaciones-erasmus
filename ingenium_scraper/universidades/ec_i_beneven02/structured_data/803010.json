@@ -1,0 +1,105 @@
+{
+  "course_name_original": "NUMERICAL SIGNAL PROCESSING (803010)",
+  "course_name_en": "Numerical Signal Processing",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "methods of signal theory and probability theory",
+    "basic knowledge of programming methods"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Provide students with the fundamental knowledge and methodological tools required to understand and analyze digital signal processing systems and techniques.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Describe and apply the main methods for the deterministic analysis of one-dimensional signals and systems, with particular attention to audio signals, biomedical signals, and data acquired from advanced sensing systems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the role of probabilistic and statistical models in the analysis of signals affected by noise.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Apply acquired knowledge and skills to wireless and biomedical signal processing to address real-world problems involving signal analysis and interpretation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Justify methodological choices adopted and communicate the results of the analysis appropriately.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Sampling theory",
+    "Discrete Fourier Transform (DFT)",
+    "Use of DFT for filtering",
+    "Sequence expansion and decimation",
+    "Interpolation",
+    "Fast DFT computation (FFT)",
+    "Numerical simulation of analog systems",
+    "DFT-based spectral analysis",
+    "Use of windows",
+    "Resolution and sidelobes",
+    "The zeta transform",
+    "Finite impulse response (FIR) and infinite impulse response (IIR) filters design",
+    "Simulation and analysis of random sequences",
+    "Monte Carlo simulation",
+    "Correlated Gaussian variables",
+    "CDF estimation",
+    "Estimation of the autocorrelation function of a sequence",
+    "Non-parametric spectral analysis",
+    "Periodogram",
+    "Spectral resolution and dispersion",
+    "Matched filter and its properties",
+    "Lab Introduction to signal processing using Matlab",
+    "Processing of analog signals",
+    "Simulation and analysis of random variables",
+    "Estimation of CDF from iid sequences",
+    "Spectrum estimation",
+    "Applications to biomedical signals"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Seminars",
+    "Supervised exercise sessions",
+    "Blackboard lessons",
+    "Computer for numerical exercises and analysis"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "First part (analytical and methodological aspects, application of signal and system analysis methods)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Second part (discussion of homework, application of numerical signal processing techniques using a computer, interpretation and critical discussion of results and methodological choices)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The exam consists of two parts: the first accounts for 70% of the final grade and the second for 30%. The overall assessment considers theoretical content, ability to develop and justify analytical procedures, use of numerical tools, and clarity of presentation.",
+  "bibliography": [
+    "Fabio Rocca. Fondamenti di elaborazione numerica dei segnali. CUSL. Milano. Appunti del docente."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Università del Sannio",
+  "institution_slug": "ec_i_beneven02",
+  "degree": "Laurea in Ingegneria Elettronica E Biomedica (Electronics And Biomedical Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "803010",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8850&ordinamento_aa=2025&af_percorso=1&corso_cod=10222&corso_aa=2025",
+  "source_language": "en",
+  "source_sha256": "ac976f32a9fa0d9da608174eeccf678668c81dc35e7b90aead2adebc13d511da",
+  "extracted_at": "2026-11-20T08:18:59",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

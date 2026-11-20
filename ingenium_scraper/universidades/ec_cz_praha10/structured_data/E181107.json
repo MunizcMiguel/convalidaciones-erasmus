@@ -1,0 +1,60 @@
+{
+  "course_name_original": "Computational Fluid Dynamics",
+  "course_name_en": "Computational Fluid Dynamics",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Fundamental mathematics (derivatives, integrals, vectors)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students should be able to read and understand software manuals and papers concerning CFD.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Some basic skills - Fluent.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Applications: Aerodynamics, Drag coefficient, hydraulic systems (fuel pumps, injectors), spray and droplet formation, new application magnetorheological and electrorheological fluids / suspension, brakes, Turbomachinery, Chemical engineering reactors, combustion.",
+    "Implementation CFD in standard software packages Fluent Ansys Gambit. Problem classification: compressible/incompressible. Types of PDE (hyperbolic, eliptic, parabolic) - examples.",
+    "Weighted residual Methods (steady state methods, transport equations). Finite differences, finite element, control volume and meshless methods.",
+    "Mathematical and physical requirements of good numerical methods: stability, boundedness, transportiveness. Order of accuracy. Stability analysis of selected schemes.",
+    "Balancing (mass, momentum, energy). Fluid element and fluid particle. Transport equations.",
+    "Navier Stokes equations. Turbulence. Transition laminar-turbulent. RANS models: gradient diffusion (Boussinesque). Prandtl, Spalart Alamaras, k-epsilon, RNG, RSM. LES, DNS.",
+    "Navier Stokes equations solvers. Problems: checkerboard pattern. Control volume methods: SIMPLE, and related techniques for solution of pressure linked equations. Approximation of convective terms (upwind, QUICK). Techniques implemented in Fluent.",
+    "Applications: Combustion (PDF models), multiphase flows.",
+    "Fluent tutorials"
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Tutorials"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [],
+  "isced_f_code": "0715",
+  "missing_sections": [
+    "assessment_methods",
+    "bibliography"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E181107",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet1520906.html",
+  "source_language": "en",
+  "source_sha256": "f5a7680db9bd05108b0fe2adeb44072c5e8edab0ff4370a99213de38be6eaad8",
+  "extracted_at": "2026-11-20T01:16:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

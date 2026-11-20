@@ -1,0 +1,294 @@
+---
+{
+ "course_code": "2GITSTIG-3-008",
+ "course_name": "Bases de Datos",
+ "institution_slug": "uniovi_dg_telecodatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-3-008",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:05:01",
+ "content_sha256": "344c0df81f044d1c2c86d9567ba28d12db6f645f6baae2a02576e946e18fcf49"
+}
+---
+
+# Bases de Datos
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos · 2GITSTIG-3-008
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Formación Básica
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Docencia On Line (30 Horas); Clases Expositivas (16 Horas); Prácticas de Laboratorio (14 Horas)
+
+## Contextualización
+
+La asignatura de Bases de Datos (BD) se enmarca dentro de la materia Almacenamiento y Trasmisión de Datos que se imparte durante el segundo semestre del primer curso. La asignatura proporciona a los estudiantes los conocimientos generales fundamentales de las Bases de Datos, las cuales son el sustento de muchos sistemas de información y aplicaciones informáticas en la actualidad. Presenta el concepto de sistemas de gestión de bases de datos y sus características fundamentales. Aborda el diseño de bases de datos relacionales, utilizando el modelo entidad/relación y el modelo relacional. También estudia las características básicas y tipos de almacenamiento de las bases de datos no relacionales.
+
+## Requisitos
+
+Se recomienda que el estudiante que curse esta asignatura disponga de conocimientos y destrezas adquiridas en Metodología de la programación.
+
+## Competencias y resultados del aprendizaje
+
+**Competencias generales**
+
+**CG01 -** Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+
+**CG02 -** Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+
+**CG03 -** Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+
+**CG04 -** Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+
+**CG06 -** Capacidad de acceso y gestión de la información en diferentes formatos para su posterior análisis con el fin de obtener conocimiento a partir de datos.
+
+CG09 - Capacidad para expresar de los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+**Competencias básicas**
+
+**CB2 -** Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+
+**CB3** - Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio)
+
+para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+
+**CB5** - Que los estudiantes hayan desarrollado aquellas habilidades de aprendizaje necesarias para emprender estudios posteriores
+
+con un alto grado de autonomía
+
+**Competencias específicas**
+
+**CE06 -** Conocer las características y funcionalidad de los sistemas de gestión de bases de datos, en particular, aquellos que sean más adecuados para la gestión de grandes volúmenes de datos, con objeto de poder aplicar dichos conocimientos en la construcción de sistemas inteligentes.
+
+**Resultados de aprendizaje**
+
+**RBAS1:** Manejar bases de datos para almacenar y extraer información: Bases de datos relacionales y modelado de datos.
+
+**RBAS2:** Conocer los modelos de datos multidimensionales.
+
+**RBAS3:** Conocer los conceptos básicos de los diferentes modelos y tecnologías de bases de datos no relacionales (documental, familia de columnas, grafo, etc.).
+
+**RBAS4:** Utilizar los lenguajes correspondientes (SQL, CQL, APIs, etc.) para actualizar y extraer información de bases de datos desde aplicaciones.
+
+## Contenidos
+
+1. Introducción y estructura de los Sistemas de Gestión de Bases de Datos.
+
+T1: Arquitectura y funcionalidad de los Sistemas de Gestión de Bases de Datos.
+
+2. Diseño conceptual con el modelo Entidad-relación, restricciones de integridad.
+
+T2: Bases de datos relacionales. Modelo Entidad/Relación.
+
+3. Bases de datos relacionales: modelo relacional, transacciones, seguridad y control de concurrencia, lenguajes de datos (definición, modificación y consulta).
+
+Contenidos teóricos
+
+T3: Bases de datos relacionales. Modelo Relacional. Álgebra y Cálculo Relacional.
+
+T4: Diseño y optimización de bases de datos relacionales. Normalización y optimización de consultas.
+
+T5: Transacciones, seguridad y control de concurrencia.
+
+Contenidos prácticos
+
+P1. Creación, manipulación y consulta de bases de datos. Procedimientos y funciones. Paquetes. Excepciones. Implementación de restricciones semánticas.
+
+P2. Uso de librerías para el acceso a datos.
+
+4. Bases de datos no relacionales: Características básicas, tipos de almacenamiento. BD de grafos, documentales, semánticas (RDF, OWL). Tecnologías para el tratamiento de bases de datos no relacionales.
+
+Contenidos teóricos
+
+T6: Bases de datos avanzadas. Almacenes de datos y modelado multidimensional.
+
+T7: Bases de datos no relacionales.
+
+Contenidos prácticos
+
+P3. Creación, manipulación y consulta de bases de datos no relacionales.
+
+## Metodología y plan de trabajo
+
+|  |  | ***TRABAJO PRESENCIAL*** |  |  |  | **TRABAJO NO PRENSENCIAL** |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ***Temas*** | ***Horas totales*** | *Clase Expositiva* | Prácticas de laboratorio/Campo/Aula de Informática/Aula de idiomas | *Sesiones de Evaluación* | ***Total*** | *Clase Expositiva (on-line)* | *Prácticas de laboratorio (on-line)* | *Trabajo autónomo* | **Total** |
+| T1: Arquitectura y funcionalidad de los Sistemas de Gestión de Bases de Datos. | 4 |  |  |  |  | 2 |  | 2 | 4 |
+| T2: Bases de datos relacionales. Modelo Entidad/Relación | 20 | 7 |  | 1,5 | 8,5 |  |  | 12,75 | 12,75 |
+| T3: Bases de datos relacionales. Modelo Relacional. Álgebra y Cálculo Relacional. | 12,5 | 2 |  | 0,5 | 2,5 | 3 |  | 8,25 | 11,25 |
+| T4: Diseño y optimización de bases de datos relacionales. Normalización y optimización de consultas. | 15 | 5 |  |  | 5 |  |  | 7,5 | 7,5 |
+| T5: Transacciones, seguridad y control de concurrencia | 9 |  |  |  |  | 3 |  | 6 | 9 |
+| P1. Creación, manipulación y consulta de bases de datos. Procedimientos y funciones. Paquetes. Excepciones. Implementación de restricciones semánticas | 57,5 |  | 10 | 2 | 12 |  | 10 | 33 | 43 |
+| P2. Uso de librerías para el acceso a datos | 5 |  | 2 |  | 2 |  | 1 | 4,5 | 5,5 |
+| T6: Bases de datos avanzadas. Almacenes de datos y modelado multidimensional. | 7 |  |  |  |  | 2 |  | 5 | 7 |
+| T7: Bases de datos no relacionales. | 10 |  |  |  |  | 4 |  | 6 | 10 |
+| P3. Creación, manipulación y consulta de bases de datos no relacionales | 10 |  |  |  |  |  | 4 | 6 | 10 |
+| Total | 150 | 14 | 12 | 4 | 30 | 15 | 15 | 90 | 120 |
+
+El resumen por modalidades de trabajo se muestra a continuación:
+
+| MODALIDADES |  | Horas | Totales |
+| --- | --- | --- | --- |
+| Presencial | Clase Expositiva | 14 | 30 |
+|  | Prácticas de laboratorio | 12 |  |
+|  | Sesiones de evaluación | 4 |  |
+| No presencial | *Clase Expositiva (on-line)* | 15 | 120 |
+|  | *Prácticas de laboratorio (on-line)* | 15 |  |
+|  | Trabajo Individual | 90 |  |
+|  | **Total** | **150** |  |
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+Elementos evaluables
+
+La evaluación ordinaria constará de los siguientes elementos evaluables:
+
+- Parte 1 (P1): Exámenes de carácter teórico (ET) (40%): Se deben de alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Teórico 1 (ET1) (35%): Examen correspondiente a contenidos del Tema 2 que se realizará en torno a la mitad del cuatrimestre. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Teórico 2 (ET2) (15%): Examen correspondiente a contenidos del Tema 3 que se realizará en torno a la mitad del cuatrimestre (el mismo día que el ET1). Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Teórico 3 (ET3) (50%): Examen correspondiente a contenidos del Tema 4 que se realizará en la fecha oficial de la Convocatoria Ordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Parte 2 (P2): Exámenes de las prácticas (EP) (45%): Se deben de alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Práctico 1 (EP1) (50%): Examen correspondiente a contenidos de SQL que se realizará en torno a la mitad del cuatrimestre. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Práctico 2 (EP2) (50%): Examen correspondiente a contenidos de PL/SQL que se realizará en la fecha oficial de la Convocatoria Ordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Parte 3 (P3): Actividades del Campus Virtual (ACV) (10%): Se evaluarán los cuestionarios del Campus Virtual correspondientes a los Temas 1 (C1), 5 (C2), 6 (C3) y 7 (C4). No es necesario una nota mínima.
+- Parte 4 (P4): Asistencia / participación en seminarios y tutorías (incluye online) (AP) (5%): Se controlará la asistencia a las clases de prácticas de laboratorio (AP1) y la calificación de los cuestionarios planteados (AP2). No es necesaria una nota mínima.
+
+Calificación
+
+Si se han alcanzado los mínimos establecidos en las Partes 1 y 2, la nota final se calcula como:
+
+**Calificación\_final = 0,4 x Calificación\_P1 + 0,45 x Calificación\_P2 + 0,1 x Calificación\_P3 +**
+
+**0,05 x Calificación\_P4**
+
+- La calificación de P1 (Calificación\_P1) se obtiene como (si se han alcanzado los mínimos establecidos):
+
+**Calificación\_P1 = 0,35 x Calificación\_ET1 + 0,15 x Calificación\_ET2 + 0,5 x Calificación\_ET3**
+
+En el caso en que no se alcancen 5 puntos sobre 10 en alguna de las calificaciones Calificación\_ET1, Calificación\_ET2 o Calificación\_ET3, la calificación de la Parte 1 Calificación\_P1 se obtendrá como el mínimo entre 4 puntos sobre 10 y la oportuna nota media ponderada de las calificaciones Calificación\_ET1, Calificación\_ET2 y Calificación\_ET3.
+
+- La calificación de P2 (Calificación\_P2) se obtiene como (si se han alcanzado los mínimos establecidos):
+
+**Calificación\_P2 = 0,5 x Calificación\_EP1 + 0,5 x Calificación\_EP2**
+
+En el caso en que no se alcancen 5 puntos sobre 10 en alguna de las calificaciones Calificación\_EP1 o Calificación\_EP2, la calificación de la Parte 2 Calificación\_P2 se obtendrá como el mínimo entre 4 puntos sobre 10 y la oportuna nota media ponderada de las calificaciones Calificación\_EP1 y Calificación\_EP2.
+
+- La calificación de P3 (Calificación\_P3) se obtiene como:
+
+**Calificación\_P3 = 0,25 x Calificación\_C1 + 0,25 x Calificación\_C2 + 0,25 x Calificación\_C3 + 0,25 x Calificación\_C4**
+
+- La calificación de P4 (Calificación\_P4) se obtiene como:
+
+**Calificación\_P4 = 0,5 x Calificación\_AP1 + 0,5 x Calificación\_AP2**
+
+En el caso en que no se alcancen 5 puntos sobre 10 en la Parte 1 o en la Parte 2, la calificación final de la asignatura se obtendrá como el mínimo entre 4 puntos sobre 10 y la oportuna nota media ponderada de las cuatro partes.
+
+Para poder aprobar la asignatura en la convocatoria ordinaria, la calificación final tras realizar la media ponderada de las cuatro partes P1, P2, P3 y P4 debe ser de al menos 5 puntos sobre 10.
+
+Las actividades evaluables no realizadas por el alumno entrarán a contabilizar en el cómputo de la nota correspondiente con un cero. No obstante, si el peso total de estas actividades supone más del 50% de la nota total, la calificación final será “no presentado”.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Convocatorias extraordinarias (Junio / Enero)**
+
+Elementos evaluables
+
+La evaluación extraordinaria constará de los siguientes elementos evaluables:
+
+- Parte 1 (P1): Exámenes de carácter teórico (ET) (50%): Se deben de alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Teórico 1 (ET1) (35%): Examen correspondiente a contenidos del Tema 2 que se realizará en fecha oficial de la Convocatoria Extraordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Teórico 2 (ET2) (15%): Examen correspondiente a contenidos del Tema 3 en fecha oficial de la Convocatoria Extraordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Teórico 3 (ET3) (50%): Examen correspondiente a contenidos del Tema 4 que se realizará en la fecha oficial de la Convocatoria Extraordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Parte 2 (P2): Exámenes de las prácticas (EP) (50%): Se deben de alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Práctico 1 (EP1) (50%): Examen correspondiente a contenidos de SQL que se realizará en fecha oficial de la Convocatoria Extraordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+- Examen Práctico 2 (EP2) (50%): Examen correspondiente a contenidos de PL/SQL que se realizará en la fecha oficial de la Convocatoria Extraordinaria establecida por el Centro. Es necesario alcanzar un mínimo de 5 puntos sobre 10.
+
+En la Convocatoria Extraordinaria de Junio, se conservarán las calificaciones de todos los elementos evaluables que en Convocatoria Ordinaria se haya obtenido una puntuación mínima de 5 puntos sobre 10. Por lo tanto, en la Convocatoria Extraordinaria de Junio solo será necesario presentarse a los elementos evaluables en los que no se haya obtenido un mínimo de 5 puntos sobre 10 en Convocatoria Ordinaria.
+
+Calificación
+
+Si se han alcanzado los mínimos establecidos en las Partes 1 y 2, la nota final se calcula como:
+
+**Calificación\_final = 0,5 x Calificación\_P1 + 0,5 x Calificación\_P2**
+
+- La calificación de P1 (Calificación\_P1) se obtiene como (si se han alcanzado los mínimos establecidos):
+
+**Calificación\_P1 = 0,35 x Calificación\_ET1 + 0,15 x Calificación\_ET2 + 0,5 x Calificación\_ET3**
+
+En el caso en que no se alcancen 5 puntos sobre 10 en alguna de las calificaciones Calificación\_ET1, Calificación\_ET2 o Calificación\_ET3, la calificación de la Parte 1 Calificación\_P1 se obtendrá como el mínimo entre 4 puntos sobre 10 y la oportuna nota media ponderada de las calificaciones Calificación\_ET1, Calificación\_ET2 y Calificación\_ET3.
+
+- La calificación de P2 (Calificación\_P2) se obtiene como (si se han alcanzado los mínimos establecidos):
+
+**Calificación\_P2 = 0,5 x Calificación\_EP1 + 0,5 x Calificación\_EP2**
+
+En el caso en que no se alcancen 5 puntos sobre 10 en alguna de las calificaciones Calificación\_EP1 o Calificación\_EP2, la calificación de la Parte 2 Calificación\_P2 se obtendrá como el mínimo entre 4 puntos sobre 10 y la oportuna nota media ponderada de las calificaciones Calificación\_EP1 y Calificación\_EP2.
+
+En el caso en que no se alcancen 5 puntos sobre 10 en la Parte 1 o en la Parte 2, la calificación final de la asignatura se obtendrá como el mínimo entre 4 puntos sobre 10 y la oportuna nota media ponderada de las cuatro partes.
+
+Para poder aprobar la asignatura en la convocatoria ordinaria, la calificación final tras realizar la media ponderada de las dos partes P1 y P2 debe ser de al menos 5 puntos sobre 10.
+
+Las actividades evaluables no realizadas por el alumno entrarán a contabilizar en el cómputo de la nota correspondiente con un cero. No obstante, si el peso total de estas actividades supone más del 50% de la nota total, la calificación final será “no presentado”.
+
+Consideraciones
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+**Evaluación diferenciada**
+
+Se rige por las mismas directrices con la evaluación en Convocatoria extraordinaria (Junio/Enero).
+
+## Bibliografía
+
+Referencias bibliográficas
+
+- Connolly, T., Begg. C. Sistemas de bases de datos: un enfoque práctico para diseño, implementación y gestión. Pearson. 2005.
+- Dan Sullivan, NoSQL for Mere Mortals, Addison-Wesley, 2015.
+- Elmasri R., Navathe S.B. Fundamentos de sistemas de bases de datos. Addison Wesley. 2007.
+- Gabillaud J. Oracle 10g: SQL, PL/SQL, SQL Plus. 1a edición. Ediciones ENI. 2005.
+- Garcia-Molina, H., Ullman, J., Widom, J. Database systems: the complete book. Prentice Hall. 2009.
+- Juan Carlos Trujillo Mondejar, Norberto Mazón López y Jesús Pardillo Vela. Diseño y explotación de almacenes de datos. Conceptos básicos de modelado multidimensional. Editorial Club Universitario. ISBN 978-84-8454-902-4.
+- Piattini M., Marcos E., Calero C., Vela B. Tecnología y diseño de bases de datos. Rama. 2006.
+- Sadalage,P.; Fowler, M. NoSQL distilled: a brief guide to the emerging world of polyglot persistence. Addison-Wesley. 2009.
+- Silberschatz, Korth, Sudarshan. Fundamentos de bases de datos. McGraw Hill. 2006.
+
+Recursos software
+
+- JDK + Eclipse
+
+<https://www.eclipse.org/downloads/>
+
+- JDBC ™ Database Access
+
+<https://www.oracle.com/database/technologies/jdbc-upc-downloads.html>
+
+- Oracle SQL Developer
+
+<https://www.oracle.com/tools/downloads/sqldev-downloads.html>
+
+- MongoDB
+
+<https://www.mongodb.com/try/download/community>
+
+- Docker
+
+[https://www.docker.com/get-started](https://www.docker.com/get-started%22)
+
+Otros recursos
+
+- Acceso a internet, particularmente al Campus Virtual.
+- Aplicaciones ofimáticas para la realización de trabajos

@@ -1,0 +1,175 @@
+---
+{
+ "course_code": "2GITICID-0-006",
+ "course_name": "Procesamiento de Datos en Arquitecturas de Altas Prestaciones",
+ "institution_slug": "uniovi_dg_infdatos",
+ "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/informaticadatos/-/fof/asignatura/2GITICID-0-006",
+ "source_language": "es",
+ "ects_catalog": 6.0,
+ "blocks_found": {
+  "contents": true,
+  "learning_outcomes": true,
+  "assessment": true,
+  "bibliography": true,
+  "prerequisites": true
+ },
+ "fetched_at": "2026-11-20T05:14:11",
+ "content_sha256": "7039358f956bc130c570ef9811e5c67e4cf199b07a4be7ba6dfdf0a1dd36939f"
+}
+---
+
+# Procesamiento de Datos en Arquitecturas de Altas Prestaciones
+
+Guía docente 2026-2027 · Universidad de Oviedo · Doble Grado en Ingeniería Informática en Tecnologías de la Información / Grado en Ciencia e Ingeniería de Datos · 2GITICID-0-006
+
+## Datos de la asignatura
+
+- **Curso:** Tercero
+- **Temporalidad:** Segundo Semestre
+- **Carácter:** Optativa
+- **Créditos:** 6
+- **Pertenece al itinerario Bilingüe:** No
+- **Actividades:** Prácticas de Laboratorio (14 Horas); Clases Expositivas (16 Horas); Docencia On Line (30 Horas)
+
+## Contextualización
+
+La asignatura Procesamiento de Datos en Arquitecturas de Altas Prestaciones forma parte del grupo de asignaturas optativas en la titulación.
+
+El objetivo de la asignatura es que el alumnado conozca las técnicas de procesamiento de datos sobre arquitecturas de altas prestaciones.
+
+## Requisitos
+
+Para afrontar esta asignatura es recomendable que el alumnado haya adquirido las competencias abordadas en las asignaturas de cursos previos. De forma concreta, es recomendable que el alumnado tenga una base sólida de programación y de computadores.
+
+## Competencias y resultados del aprendizaje
+
+Se espera que mediante esta asignatura el alumnado adquiera una serie de Competencias Básicas y Generales comunes a todo el Grado en Ciencia e Ingeniería de Datos y otras Competencias Específicas más vinculadas a los contenidos de la asignatura.
+
+Esta asignatura contribuye a la adquisición de las siguientes Competencias Básicas:
+
+- CB2 - Que los estudiantes sepan aplicar sus conocimientos a su trabajo o vocación de una forma profesional y posean las competencias que suelen demostrarse por medio de la elaboración y defensa de argumentos y la resolución de problemas dentro de su área de estudio.
+- CB3 - Que los estudiantes tengan la capacidad de reunir e interpretar datos relevantes (normalmente dentro de su área de estudio) para emitir juicios que incluyan una reflexión sobre temas relevantes de índole social, científica o ética.
+- CB4 - Que los estudiantes puedan transmitir información, ideas, problemas y soluciones a un público tanto especializado como no especializado.
+
+Esta asignatura también contribuye a adquirir las siguientes Competencias Generales:
+
+- CG01 - Elegir y aplicar los métodos y técnicas más adecuados para analizar y resolver problemas definidos por datos que representen un reto por su volumen, velocidad, variedad o heterogeneidad, incluidos métodos informáticos, matemáticos, estadísticos y de procesado de la señal.
+- CG02 - Tener las habilidades experimentales y analíticas para trabajar con autonomía siendo capaz de plantear experimentos y de describir, analizar, evaluar e interpretar la información resultante para proponer soluciones alternativas y novedosas frente a problemas conocidos y/o emergentes.
+- CG03 - Crear modelos y tomar decisiones basadas en los datos disponibles combinando los conocimientos adquiridos y siendo capaz de aplicar otros nuevos para la resolución de problemas.
+- CG04 - Capacidad de integrarse en un equipo multidisciplinar en el marco de un proyecto de ciencia de datos.
+- CG07 - Identificar oportunidades para aplicaciones innovadoras orientadas a datos en entornos tecnológicos en continua evolución.
+- CG08 - Conocer y aplicar los aspectos éticos y legales relacionados con el tratamiento de los
+- datos y la aplicación del conocimiento obtenido.
+- CG09: Capacidad para expresar los resultados del procesamiento de datos de manera clara y convincente tanto por escrito como oralmente.
+
+Los resultados de aprendizaje que el alumnado alcanzará tras cursar la asignatura son los siguientes:
+
+- RPROA1: Comprender la arquitectura y el funcionamiento de los clústeres de computadores.
+- RPROA2: Conocer los procesadores específicos para IA, las GPUs y las FPGAs y estimar el rendimiento adicional que ofrecen al procesar cargas de trabajo de IA.
+- RPROA3: Conocer y utilizar sistemas de ficheros paralelos.
+- RPROA4: Configurar y utilizar planificadores de tareas.
+- RPROA5: Desarrollar programas paralelos que utilicen clústeres, GPUs, etc.
+- RPROA6: Utilizar herramientas de medición y visualización del rendimiento.
+- RPROA7: Comprender y aplicar técnicas de optimización del rendimiento.
+
+## Contenidos
+
+1. Clústeres y redes de interconexión de alta velocidad.
+
+2. Procesadores para IA, GPUs, FPGAs.
+
+3. Sistemas de ficheros paralelos y planificadores de tareas.
+
+4. Programación paralela en arquitecturas de memoria compartida y distribuida.
+
+5. Medición, optimización y visualización del rendimiento.
+
+## Metodología y plan de trabajo
+
+|  |  | Trabajo presencial |  |  |  | Trabajo no presencial |  |  | Trabajo personal |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| Temas | Horas <br> totales | Clase <br> Expositiva | Prácticas de <br> laboratorio | Evaluación | Total | Clase <br> Expositiva | Prácticas de <br> laboratorio | Total | Estudio <br> individual | Total |
+| Tema 1 | 15 | 2 | 1 |  | 3 | 1 | 1 | 2 | 10 | 10 |
+| Tema 2 | 35 | 3 | 3 |  | 6 | 4 | 5 | 9 | 20 | 20 |
+| Tema 3 | 23 | 2 | 2 |  | 4 | 2 | 2 | 4 | 15 | 15 |
+| Tema 4 | 33 | 2 | 3 |  | 5 | 5 | 3 | 8 | 20 | 20 |
+| Tema 5 | 40 | 5 | 3 |  | 8 | 2 | 5 | 7 | 25 | 25 |
+| Exámenes | 4 |  |  | 4 | 4 |  |  |  |  |  |
+| **Total** | **150** | **14** | **12** | **4** | **30** | **14** | **16** | **30** | **90** | **90** |
+
+| Modalidades |  | Horas | % | Totales |
+| --- | --- | --- | --- | --- |
+| Presencial | Clases expositivas | 14 | 9.33% | 30 |
+|  | Prácticas de laboratorio | 12 | 8.00% |  |
+|  | Sesiones de evaluación | 4 | 2.67% |  |
+| No presencial | Clases Expositivas | 14 | 9.33% | 30 |
+|  | Prácticas de laboratorio | 16 | 10.67% |  |
+| Personal | Estudio individual | 90 | 60.00% | 90 |
+|  | Total | 150 |  |  |
+
+En las clases expositivas se desarrollarán los principales conceptos de cada uno de los temas. En las prácticas de laboratorio se realizarán prácticas en un ordenador para ilustrar y consolidar los conocimientos sobre la materia y poner en práctica las habilidades y destrezas que se deben adquirir.
+
+## Evaluación del aprendizaje
+
+**Convocatoria ordinaria**
+
+**Elementos evaluables**
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen parcial (EX1): consta de una prueba escriba a realizar tras finalizar el segundo tema. Se evaluarán todos los contenidos de los temas 1 y 2.
+- Examen parcial (EX2): consta de una prueba escriba a realizar la última semana de clase. Se evaluarán todos los contenidos de los temas 3, 4 y 5.
+- Trabajo (TR1): consta de un trabajo sobre el contenido práctico de la asignatura a entregar a mediados del cuatrimestre. Se entregará a través del Campus Virtual.
+- Trabajo (TR2): consta de un trabajo sobre el contenido práctico de la asignatura a entregar a finales del cuatrimestre. Se entregará a través del Campus Virtual.
+- Participación (PA): se valorará la participación activa durante el curso mediante cuestionarios online. No hay nota mínima.
+- Asistencia (AS): se controlará la asistencia a las clases de prácticas de laboratorio. Para optar a esta calificación es necesario una asistencia igual o superior al 80% de las prácticas de laboratorio.
+
+Para superar la asignatura en la evaluación ordinaria será necesario obtener una calificación media mínima de 4 sobre 10 entre los dos exámenes (EX1 y EX2) y una calificación media mínima de 4 sobre 10 entre los dos trabajos (TR1 y TR2). En caso de no alcanzar estos mínimos, la asignatura se considerará no superada independientemente de la nota final obtenida en el conjunto de actividades evaluables.
+
+**Calificaciones**
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+Nota = 0.40 x [(EX1 + EX2)/2] + 0.45 x [(TR1 + TR2)/2] + 0.10 x PA + 0.05 x AS
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4.
+
+**Consideraciones**
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+Las calificaciones no se conservan de una convocatoria a otra.
+
+**Convocatorias extraordinarias**
+
+**Elementos evaluables**
+
+La evaluación ordinaria consta de los siguientes elementos evaluables:
+
+- Examen final (EX): consta de una prueba escriba a realizar en la fecha oficial de la convocatoria. Se evaluarán todos los contenidos impartidos durante el curso.
+- Trabajo final (TR): consta de un trabajo sobre el contenido práctico de la asignatura a entregar a través del Campus Virtual en la fecha oficial de la convocatoria.
+
+Para superar la asignatura en la evaluación ordinaria será necesario obtener una calificación mínima de 4 sobre 10 en cada parte (EX y TR). En caso de no alcanzar estos mínimos, la asignatura se considerará no superada independientemente de la nota final obtenida en el conjunto de actividades evaluables.
+
+**Calificaciones**
+
+Si se han alcanzado todos los mínimos establecidos, la nota final de la convocatoria se calcula como:
+
+Nota = 0.50 x EX + 0.50 x TR
+
+En caso contrario, la calificación de la convocatoria será el mínimo entre la nota obtenida con la fórmula anterior y 4.
+
+**Consideraciones**
+
+En caso de duda por parte del profesorado sobre la autoría de alguna prueba evaluable o el uso de medios no autorizados (p.e. herramientas de IA), se podrá solicitar al estudiante su defensa presencial.
+
+Las calificaciones no se conservan de una convocatoria a otra.
+
+**Evaluación diferenciada**
+
+Se rige por las mismas directrices que la evaluación en Convocatoria extraordinaria.
+
+## Bibliografía
+
+- Hennessy, David A. Patterson. "Computer Architecture: A Quantitative Approach by John L." Hennessy, David A. Patterson (2017).
+- Hager, Georg, and Gerhard Wellein. Introduction to high performance computing for scientists and engineers. CRC Press, 2010.

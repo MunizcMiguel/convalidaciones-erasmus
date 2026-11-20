@@ -1,0 +1,80 @@
+{
+  "course_name_original": "Simulation dynamique des systèmes",
+  "course_name_en": "Dynamic Systems Simulation",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Mastery of CATIA V5",
+    "statics",
+    "kinematics",
+    "dynamics",
+    "power transmission",
+    "mechanical engineering"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Model and simulate the dynamic behavior of a mechanism with non-permanent contacts and springs, in order to check that it meets specifications.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Analyze the degree of hyperstatism of a mechanism to check the relevance of a model supplied to dynamic simulation software.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use dynamic simulation software to design or optimize a mechanism.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Mechanism theory (sthenic analysis and kinematics of systems) (8h)",
+    "Rotor balancing (2h)",
+    "Dynamic simulation of a jigsaw mechanism using dynamic simulation software (NX) (3h)",
+    "Optimization of the operation of this mechanism (balancing) (2h)",
+    "Validation and verification of the numerical model of a braking roller by comparison with an analytical model (9h)",
+    "Calculation of model performance indicators to ensure compliance with specification requirements"
+  ],
+  "teaching_methods": [
+    "Tabletop analytical modeling",
+    "Computer numerical simulation"
+  ],
+  "workload_hours_total": 28.0,
+  "workload_hours_contact": 24.0,
+  "assessment_methods": [
+    {
+      "method": "DS1",
+      "weight_percentage": 25.0
+    },
+    {
+      "method": "PJ1",
+      "weight_percentage": 75.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*DS1+3*PJ1)/4.",
+  "bibliography": [
+    "P. AGATI - Liaisons, mécanismes et assemblages - DUNOD",
+    "M. LAJOIE / B. LODIER : Modélisation et schématisation cinématiques des mécanismes - BREAL",
+    "M. LAJOIE / B. LODIER - Mécanique et mécanismes en prépas scientifiques - ELLIPSES",
+    "AUBLIN - Systèmes mécaniques - Théorie et dimensionnement - DUNOD"
+  ],
+  "isced_f_code": "0715",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0523",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-L3-S05.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "ee6f02e65f4c44486917da1425756ee5f17f74662715fa5d7a8f4f05ac2be121",
+  "extracted_at": "2026-11-18T09:59:40",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

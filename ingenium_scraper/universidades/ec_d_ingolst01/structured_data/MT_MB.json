@@ -1,0 +1,112 @@
+{
+  "course_name_original": "Mechatronik",
+  "course_name_en": "Mechatronics",
+  "ects": 5.0,
+  "semester": "4th semester",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Know and confidently use subject-specific terminology.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Name the properties of sensors and actuators.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Can name the properties of a microcontroller.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Design a sampled-data control loop using z-transformation and know techniques for implementing controllers on a microcontroller.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Apply learned methods to similar problems in mechatronics.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Solve tasks also in a small group, and can communicate and explain technical content.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Independently and in a team delve into mechatronics topics and can competently discuss them.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand how their own learning style can be improved and how collaboration with others can be enhanced.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic structure of Mechatronics",
+    "Definition, characteristics and basic principles of Mechatronics",
+    "Sampled-data control",
+    "Approximate solution using difference quotients",
+    "z-Transformation",
+    "Consideration of the hold element",
+    "Tustin approximation and Euler difference equation",
+    "Construction of a sampled-data control loop",
+    "Microcontrollers",
+    "Architecture",
+    "Interfaces and A/D and D/A conversion",
+    "Implementation of sampled-data control in the microcontroller",
+    "Sensors",
+    "Classification and properties, signal forms, signal conditioning",
+    "Measurement chain, integrated and intelligent sensor technology",
+    "Measurement of quantities such as displacement, distance, velocity, acceleration, force, pressure, flow, temperature, light quantity",
+    "Actuators",
+    "Overview, classification, properties, areas of application",
+    "Electric motors: DC, synchronous, asynchronous motors, stepper motor",
+    "Application in control engineering examples"
+  ],
+  "teaching_methods": [
+    "Seminared instruction",
+    "Exercises",
+    "Practical work"
+  ],
+  "workload_hours_total": 125.0,
+  "workload_hours_contact": 47.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam, 90 minutes",
+      "weight_percentage": null
+    },
+    {
+      "method": "Proof of attendance (pass/fail) for practical part",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": null,
+  "bibliography": [
+    "RODDECK, Werner, 2023. Einführung in die Mechatronik [online]. Wiesbaden: Springer Vieweg. PDF e-Book. ISBN 978-3-658-41950-9. Verfügbar unter: https://doi.org/10.1007/978-3-658-41950-9.",
+    "BOLTON, William, 2004. Bausteine mechatronischer Systeme. München [u.a.]: Pearson Studium. ISBN 3-8273-7098-1",
+    "BERNSTEIN, Herbert, 2004. Grundlagen der Mechatronik. Berlin [u.a.]: VDE-Verl.. ISBN 3-8007-2754-4"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Technische Hochschule Ingolstadt",
+  "institution_slug": "ec_d_ingolst01",
+  "degree": "Maschinenbau (B.Eng.)",
+  "course_code": "MT_MB",
+  "academic_year": "WS 2026/27",
+  "source_url": "https://www.thi.de/fileadmin/daten/fakultaetM/Modulhandbuch/Bachelor_MB/MHBuch_MB_SPO_2023_24_Stand_2026-07-16.pdf",
+  "source_language": "de",
+  "source_sha256": "b2a717f322f1cbe1169a6d5a973edb74bb6503c7adf35fcadb245f98f4be529c",
+  "extracted_at": "2026-11-18T04:05:33",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Gestión de Servicios Telemáticos",
+  "course_name_en": "Management of Telematic Services",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Engineering of Networks",
+    "Management of Telecommunication Networks",
+    "Basic Communication Services",
+    "Ability to read and understand documentation written in English"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Ability to build, exploit and manage telecommunication networks, services, processes and applications, understood as systems for capturing, transporting, representing, processing, storing, managing and presenting multimedia information, from the point of view of telematic services.",
+      "type": "competence",
+      "code": "CT1"
+    },
+    {
+      "text": "Ability to build, exploit and manage telematic services using analytical tools for planning, sizing and analysis.",
+      "type": "competence",
+      "code": "CT3"
+    },
+    {
+      "text": "Ability to follow the technological progress of transmission, switching and processing to improve telematic networks and services.",
+      "type": "competence",
+      "code": "CT5"
+    },
+    {
+      "text": "Know and apply technological advances in communication infrastructures and telematic services, applying quality criteria and service level agreements.",
+      "type": "unspecified",
+      "code": "RA-13.27"
+    },
+    {
+      "text": "Develop design, implementation, management and improvement processes for communication networks and telematic services based on Deming's continuous improvement cycle.",
+      "type": "unspecified",
+      "code": "RA-13.28"
+    },
+    {
+      "text": "Design and apply methods of collaboration with clients and service personnel responsible for managing it with quality throughout its entire life cycle.",
+      "type": "unspecified",
+      "code": "RA-13.29"
+    },
+    {
+      "text": "Design strategies for placing communication services on the market taking into account technological, cost and quality parameters.",
+      "type": "unspecified",
+      "code": "RA-13.30"
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Service Management and ITIL v3",
+    "Introduction to ITIL4",
+    "General management practices",
+    "Service management practices",
+    "Technical management practices",
+    "Elaboration of BPMN diagrams for ITSM process modeling",
+    "Attitude, conduct, and culture in IT Management",
+    "Exam questions through gamification",
+    "Simulation of ITSM processes with the Apollo 13 case study",
+    "Tools for IT Service Management",
+    "Service Catalog",
+    "User Management",
+    "SLA / UC Management",
+    "Configuration Management",
+    "Incident Management",
+    "Problem Management",
+    "Change Management"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practice / Seminars / Workshops",
+    "Laboratory / field / computer lab / language lab practices",
+    "Group tutorials",
+    "Evaluation sessions",
+    "Group work",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Partial Exam (EP)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Final Exam (EF)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Group Work (TG)",
+      "weight_percentage": 40.0
+    },
+    {
+      "method": "Team Simulation (SE)",
+      "weight_percentage": 10.0
+    }
+  ],
+  "assessment_rules": "For the ordinary call, a minimum of 4 out of 10 points is required in the Partial Exam, Final Exam, Group Work, and Team Simulation, along with 80% attendance to laboratory practice sessions. The final grade is calculated as 0.1 * EP + 0.4 * EF + 0.4 * TG + 0.1 * SE, and must be 5 or higher to pass. If minimums are not met, the final grade will be the minimum between the calculated result and 4.5. For extraordinary calls, only the Group Work grade from the ordinary call is retained. A global theory exam (ET) must be passed with at least 5 out of 10 points, and the final grade is 0.5 * ET + 0.5 * TG. For differentiated evaluation, a global theory exam (ET) and individual work (TI) must each be passed with at least 5 out of 10 points, and the final grade is 0.5 * ET + 0.5 * TI.",
+  "bibliography": [
+    "ITIL 4 Foundation (Spanish Edition). Axelos, ISBN: 978-0113316182",
+    "Guía de ITIL Practitioner. Axelos, ISBN: 978-0113315321",
+    "ITIL® Lifecycle Approach Based on ITIL® V3 – 5 Management Guides (español), Van Haren Publishing, ISBN: 978-9087531089",
+    "ITIL 4 Managing Professional: Create, Deliver and Support. Axelos, ISBN: 978-0113316328",
+    "ITIL 4 Managing Professional Drive Stakeholder Value. Axelos, ISBN: 978-0113316366",
+    "ITIL 4 Managing Professional High-velocity IT. Axelos, ISBN: ISBN: 978-0113316403",
+    "ITIL 4 Managing Professional Direct, Plan and Improve. Axelos, ISBN: 978-0113316441"
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-4-012",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-4-012",
+  "source_language": "es",
+  "source_sha256": "bbfd64a0eaae3db04fd3b6894bcd0e9156dab3c1d70b60abaa07f35a9029f2f7",
+  "extracted_at": "2026-11-20T06:04:46",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

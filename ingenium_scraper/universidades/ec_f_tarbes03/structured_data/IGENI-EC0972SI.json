@@ -1,0 +1,153 @@
+{
+  "course_name_original": "Commande Avancée des Robots",
+  "course_name_en": "Advanced Robot Control",
+  "ects": null,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Introduction to robotics",
+    "Concepts of kinematic model",
+    "Concept of spaces in robotics (joint, operational)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze a robotics application and manipulate tools to control robots according to the appropriate level of need.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Explain how the tools work (models, trajectory generator and control law) and to argue their choices for a given application.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Understand and use geometric, kinematic and dynamic models (direct and inverse) of robots as tools to analyze and solve robotic control problems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Explain the concepts of singularity and kinematic redundancy, and interpret their impact on the performance and feasibility of robotic tasks.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Justify the need to generate joint or operational trajectories, argue the choice between these two approaches, and explain the transition between them depending on the objectives.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Identify and apply basic trajectories used in robotics for specific tasks, taking into account system constraints.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Describe and apply advanced control laws allowing a robot to follow a desired trajectory, while explaining the role and principles of force control.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use available geometric, kinematic and dynamic models to simulate and solve robotic control problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use algorithms to generate joint and operational trajectories, taking into account singularities, using Matlab-type software tools.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Actively participate in the practical phases of APPs to solve concrete problems, by collaborating effectively within the team and implementing the tools provided.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Promote critical thinking on the choices of trajectories and control laws, taking into account operational constraints and performance.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Develop a proactive attitude in the use of models and tools to solve complex problems.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Encourage active collaboration and knowledge sharing during the outward and return phases of APPs, respecting the contributions of each member.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Stimulate creativity in the use of models and control laws to design solutions adapted to the problems posed.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Strengthen commitment to autonomous and collaborative learning, while cultivating curiosity for advanced industrial robotic applications.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Overview of learning and learning objectives",
+    "Presentation of Problem-Based Learning (PBL)",
+    "PBL 1: Modeling of manipulator robots",
+    "Geometric and kinematic models (direct and inverse)",
+    "Dynamic models: principles and use in control",
+    "Kinematic singularity and redundancy: analysis and implications",
+    "PBL 2: Motion and trajectory planning",
+    "Types of trajectories: joint and operational",
+    "Transition between Joint and operational trajectories: principles and constraints",
+    "Basic trajectories in robotics: examples and implementations",
+    "PBL 3: Control and tracking of trajectories",
+    "Control laws to follow a desired trajectory",
+    "Force control: principles and applications",
+    "Adjustment of controls according to trajectories and dynamic constraints",
+    "Restructuring course",
+    "Overall synthesis of the APPs and concepts covered",
+    "Discussions around the questions raised during the return phases of the APPs",
+    "Assessment of the targeted learning (AAVs)."
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Practical work (TP)",
+    "Problem-Based Learning (PBL) sessions",
+    "Individual personal work",
+    "Small group sessions with tutor",
+    "Use of learning notebooks",
+    "Collaborative group work"
+  ],
+  "workload_hours_total": 16.0,
+  "workload_hours_contact": 16.0,
+  "assessment_methods": [
+    {
+      "method": "CC1 (Continuous Control 1)",
+      "weight_percentage": null
+    },
+    {
+      "method": "DS1 (Final Exam 1)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*CC1+1*DS1)/2. The weights for CC1 and DS1 are not explicitly given as percentages.",
+  "bibliography": [
+    "Khalil W, Dombre E. Modeling, identification and control of robots. Butterworth-Heinemann Ed., Rev. 2004.",
+    "L. Sciavicco, B. Siciliano, Modelling and control of robot manipulators, Springer Science & Business Media, 2012.",
+    "Online resources given during the PBL sessions : https://petercorke.com/resources/robot-academy/, http://www.diag.uniroma1.it/deluca/rob1_en/material_rob1_en.html, \t"
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0972SI",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "446d9176366fe37991a193d4e2fa564cb518a28942a4d7cded0bf58ec4622c43",
+  "extracted_at": "2026-11-18T10:00:43",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

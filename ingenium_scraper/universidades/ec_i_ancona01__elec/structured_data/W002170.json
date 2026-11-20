@@ -1,0 +1,124 @@
+{
+  "course_name_original": "INTERNET AND NETWORKS (W002170)",
+  "course_name_en": "Internet and Networks",
+  "ects": 9.0,
+  "semester": "Primo Semestre",
+  "year_of_study": 3,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Basic concepts of signal and telecommunications theory."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "To know and understand the current status and future trends of telecommunication standards, to prepare the student for immediate employment. This includes in-depth study of problems linked to the design of telecommunication networks (geographic, metropolitan, local areas), different transmission solutions, network architectures, protocols, and application fields. It will investigate standards and emerging protocols, analyzing achievable performance under changing design choices at each level of the protocol architecture. Much of the course is devoted to the TCP/IP architecture, from native protocols to the latest RFCs and their use in various network architectures.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "To be able to make informed choices based on quality of service and traffic characteristics required by specific applications, and to use this knowledge for the development and implementation of efficient solutions in different application contexts. In general, to evaluate, analyze, and solve problems in new and emerging areas using modern technologies. This aims at short-term employment and provides a strong basis for graduated students.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "To be able to understand the issues involved, apply acquired knowledge, propose solutions, and learn new planning methodologies, management, and monitoring of TLC networks. Specifically, students will deepen practical aspects by designing basic network components, configuring equipment and systems, monitoring elementary networks, designing and testing TLC services, and performing analysis, design, and management of systems for information treatment, transmission, and processing. Laboratory use of network simulators and communication devices, along with creating and testing simple communication systems, will develop cross-skills in ICT disciplines (electronics, computer science, signal theory, electromagnetic fields, antennas). Students will thus be able to use, develop, and manage disparate technologies and skills within broader contexts related to their field of study.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Standardization bodies",
+    "Protocols and architectures",
+    "ISO/OSI",
+    "TCP/IP",
+    "Data communications interfaces",
+    "Asynchronous and synchronous transmission",
+    "Interfacing",
+    "Mechanical, electrical, functional and procedural characteristics of some typical interfaces",
+    "Transport of the information",
+    "PDH",
+    "SDH",
+    "Data Link protocols",
+    "Line control",
+    "Flow control",
+    "Error detection and control",
+    "ARQ techniques",
+    "HDLC protocol",
+    "WAN",
+    "Circuit switching concepts",
+    "Routing in circuit-switching networks",
+    "Control signalling",
+    "Packet switching principles",
+    "Routing in packet-switching networks",
+    "Notes on X.25, ISDN and B-ISDN, Frame Relay and ATM",
+    "Congestion control in data networks",
+    "Traffic Management",
+    "LAN architecture",
+    "Internetworking devices",
+    "Wireless LAN",
+    "Ethernet",
+    "IEEE 802.x",
+    "Internetworking protocols",
+    "Internet Protocol: IPv4 vs Ipv6",
+    "IP Addressing",
+    "IP Routing",
+    "Transport protocols: TCP, UDP",
+    "DHCP",
+    "HTTP",
+    "HTTPS",
+    "Network security",
+    "QoS",
+    "Network innovation",
+    "Full IP network",
+    "Core & Access Evolution",
+    "Standard Bluetooth: Bluetooth Low Energy, Beacon Bluetooth, Bluetooth 5.0",
+    "Laboratory activities (24 hours)",
+    "Wireshark",
+    "WireShark captures",
+    "ICMP (Ping, Trace route, etc.)",
+    "TCP",
+    "UDP",
+    "DNS",
+    "ARP",
+    "RARP",
+    "Network simulators"
+  ],
+  "teaching_methods": [
+    "Frontal lessons",
+    "Laboratory activity",
+    "Lectures"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 72.0,
+  "assessment_methods": [
+    {
+      "method": "Verbal examination",
+      "weight_percentage": null
+    },
+    {
+      "method": "Presentation and discussion of an optional project",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The learning assessment is through a verbal examination, optionally including the presentation and discussion of a project. The verbal examination is evaluated with a score out of thirty, with a minimum of eighteen points required for a positive evaluation. Students must demonstrate overall knowledge of topics, correct presentation, and use of proper technical terminology. For the maximum score, students must show a thorough understanding of topics and mastery of technical language. Praise is awarded for correct performance and particular brilliance.",
+  "bibliography": [
+    "Achille Pattavina, \"Internet e Reti\", Pearson.",
+    "William Stallings, \"Data and Computer Communications\", Prentice Hall.",
+    "William Stallings, \"High-speed networks and Internets: Performance and Quality of Services\", Prentice Hall.",
+    "Hu Hanrahan, \"Network Convergence: Services, Applications, Transport and Operation Support\", John Wiley & Sons.",
+    "Lecturer's slides available from the course website on the Moodle web platform; additional reading material (like papers) suggested or provided by the lecturer through the same website. https://learn.univpm.it"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universita Politecnica Delle Marche — Ingegneria Elettronica e delle Tecnologie Digitali (L-8)",
+  "institution_slug": "ec_i_ancona01__elec",
+  "degree": "Laurea in Ingegneria Elettronica E Delle Tecnologie Digitali (Electronic And Digital Technologies Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "W002170",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://univpm.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=36211_99004_33209&ordinamento_aa=2022&af_percorso=36211&corso_cod=1775&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "25a1f6ea289f95ad4e7352551b26b436f0144a709274dbc06b9b9e0e2f95365c",
+  "extracted_at": "2026-11-20T12:44:23",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

@@ -1,0 +1,179 @@
+{
+  "course_name_original": "Modelos Estadísticos de Predicción",
+  "course_name_en": "Statistical Prediction Models",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Probabilidad",
+    "Ampliación de Matemáticas",
+    "Inferencia Estadística"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will be able to apply their knowledge to their work or vocation in a professional manner and possess the competencies typically demonstrated through the development and defense of arguments and problem-solving within their field of study.",
+      "type": "competence",
+      "code": "CB2"
+    },
+    {
+      "text": "Students will be able to gather and interpret relevant data (usually within their field of study) to make judgments that include reflection on relevant social, scientific, or ethical issues.",
+      "type": "competence",
+      "code": "CB3"
+    },
+    {
+      "text": "Students will be able to transmit information, ideas, problems, and solutions to both specialized and non-specialized audiences.",
+      "type": "competence",
+      "code": "CB4"
+    },
+    {
+      "text": "Students will have developed the necessary learning skills to undertake further studies with a high degree of autonomy.",
+      "type": "competence",
+      "code": "CB5"
+    },
+    {
+      "text": "Choose and apply the most appropriate methods and techniques to analyze and solve problems defined by data that pose a challenge due to their volume, velocity, variety, or heterogeneity, including computational, mathematical, statistical, and signal processing methods.",
+      "type": "competence",
+      "code": "CG1"
+    },
+    {
+      "text": "Possess experimental and analytical skills to work autonomously, being able to design experiments and to describe, analyze, evaluate, and interpret the resulting information to propose alternative and novel solutions to known and/or emerging problems.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Create models and make decisions based on available data, combining acquired knowledge and being able to apply new knowledge to solve problems.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to integrate into a multidisciplinary team within the framework of a data science project.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Ability to express data processing results clearly and convincingly, both in writing and orally.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Analyze data from complex phenomena by applying statistical techniques and probability calculation.",
+      "type": "competence",
+      "code": "CE3"
+    },
+    {
+      "text": "Understand and correctly apply exploratory data analysis and statistical modeling techniques, evaluating the quality of the models, validating, and interpreting them.",
+      "type": "competence",
+      "code": "CE4"
+    },
+    {
+      "text": "Obtain a prediction model based on the simple linear regression model.",
+      "type": "unspecified",
+      "code": "RMODP1"
+    },
+    {
+      "text": "Perform a critical analysis of the assumptions on which the model is based, and statistically analyze whether these are verified using statistical inference techniques.",
+      "type": "unspecified",
+      "code": "RMODP2"
+    },
+    {
+      "text": "Adequately apply multiple linear regression techniques and perform an inferential statistical analysis of the model's assumptions.",
+      "type": "unspecified",
+      "code": "RMODP3"
+    },
+    {
+      "text": "Know the different types of time series and the components of a time series.",
+      "type": "unspecified",
+      "code": "RMODP4"
+    },
+    {
+      "text": "Apply exponential smoothing models to make predictions with a time series.",
+      "type": "unspecified",
+      "code": "RMODP5"
+    },
+    {
+      "text": "Use ARIMA models, adequately estimating their components and making predictions.",
+      "type": "unspecified",
+      "code": "RMODP6"
+    },
+    {
+      "text": "Critically analyze models and apply the most appropriate one in each case.",
+      "type": "unspecified",
+      "code": "RMODP7"
+    },
+    {
+      "text": "Apply predictive modeling techniques in cases of real data.",
+      "type": "unspecified",
+      "code": "RMODP8"
+    }
+  ],
+  "syllabus_topics": [
+    "Predictive models according to data type. Basic steps in prediction. Statistics in predictive models.",
+    "Simple linear regression. Model formulation and estimation. Model assumptions. Inference for model parameters. Goodness of fit. Prediction.",
+    "Multiple linear regression. Model formulation and estimation. Model assumptions. Inference for model parameters. ANOVA and model fitting. Model selection. Use of qualitative predictors. Model diagnostics and multicollinearity.",
+    "Predictions for time-measured data. Time series decomposition: location, trend, and seasonality. Simple prediction methods. Linear models in time series. Goodness of fit. Model validation.",
+    "Exponential smoothing models: basic, double, triple. Likelihood-based models.",
+    "Stationarity. Lag operators. Autoregressive models. Moving average models. Non-seasonal and seasonal ARIMA models."
+  ],
+  "teaching_methods": [
+    "Online teaching",
+    "Laboratory practices",
+    "Expository classes",
+    "Academic tutoring",
+    "Autonomous student work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical-practical exam (F)",
+      "weight_percentage": 35.0
+    },
+    {
+      "method": "Theoretical continuous assessment tests (CT)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Activities on the Virtual Campus (CV)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Attendance and participation (AP)",
+      "weight_percentage": 5.0
+    },
+    {
+      "method": "Reports, assignments, and practical exercises (EP)",
+      "weight_percentage": 20.0
+    },
+    {
+      "method": "Practical controls (CP)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For the ordinary assessment, a minimum of 3.5 out of 10 must be obtained in the final theoretical-practical exam (F). If this minimum is met, the final grade is calculated as 0.35F + 0.10CT + 0.10CV + 0.05AP + 0.20EP + 0.20CP. If the minimum in the final exam is not met, the final grade will be the minimum between the calculated score and 4.0. In extraordinary calls, students can either keep continuous assessment grades or retake theoretical and practical continuous assessment tests through additional exams. For differentiated assessment and the advanced extraordinary call, the final grade is 0.60FT + 0.40FP, with a minimum of 3.5 out of 10 in the theoretical exam, otherwise, the grade is the minimum of the calculated score and 4.0.",
+  "bibliography": [
+    "Peña, D. (1994). Estadística. Modelos y métodos. Volumen 2. Modelos lineales y series temporales. Alianza Universidad Textos.",
+    "Faraway, J. J. (2015). Linear Models with R (2nd ed.). Chapman and Hall/CRC.",
+    "Faraway, J. J. (2016). Extending the Linear Model with R: Generalized Linear, Mixed Effects and Nonparametric Regression Models. Chapman and Hall/CRC.",
+    "Fernández-Avilés, G., & Montero, J. M. (2024). Fundamentos de Ciencia de Datos con R. McGraw Hill. Disponible en: https://cdr-book.github.io/index.html Se recomienda especialmente el Capítulo 15: Modelización lineal: https://cdr-book.github.io/cap-lm.html",
+    "Hyndman, R. J., & Athanasopoulos, G. (2021). Forecasting: Principles and Practice (3rd ed.). OTexts. Disponible en: https://otexts.com/fpp3/",
+    "Peña, D. (2005). Análisis de series temporales. Alianza Universidad Textos.",
+    "Cryer, J. D., & Chan, K.-S. (2008). Time Series Analysis: With Applications in R (2nd ed.). Springer.",
+    "Wickham, H., & Grolemund, G. (2023). R for Data Science (2nd ed.). O’Reilly. Disponible en: https://r4ds.hadley.nz/ Traducción al español disponible en: https://es.r4ds.hadley.nz/",
+    "James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning with Applications in R (2nd ed.). Springer. Disponible en abierto en: https://www.statlearning.com"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ciencia e Ingeniería de Datos (Informática, Oviedo)",
+  "institution_slug": "uniovi_gcid",
+  "degree": "Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "GCINGD01-2-010",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/datos/-/fof/asignatura/GCINGD01-2-010",
+  "source_language": "es",
+  "source_sha256": "a4e632b98dee45ae03df2d40f0da9b660a450fe3dc9adf33256b025a00d21fe0",
+  "extracted_at": "2026-11-20T05:56:03",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

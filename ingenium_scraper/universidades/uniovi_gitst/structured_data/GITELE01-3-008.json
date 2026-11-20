@@ -1,0 +1,154 @@
+{
+  "course_name_original": "Procesado de Señal",
+  "course_name_en": "Signal Processing",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 3,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Prior knowledge of signals and systems in continuous and discrete variables",
+    "Basic concepts of communication signals",
+    "Communication channels and analog and digital communication systems",
+    "Solid foundation in algebra and statistics"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know and understand the main mechanisms for encoding information in the form of a signal, regardless of its nature, efficiently and adapted to the problem under study.",
+      "type": "unspecified",
+      "code": "RA-8.12"
+    },
+    {
+      "text": "Design mechanisms for sampling continuous signals and for efficient handling of the obtained samples, suitable for the characteristics of the information contained therein.",
+      "type": "unspecified",
+      "code": "RA-8.13"
+    },
+    {
+      "text": "Conveniently manage information in the real domain and in transformed domains, continuous and discrete, as well as the relationships between the parameters that characterize these domains.",
+      "type": "unspecified",
+      "code": "RA-8.14"
+    },
+    {
+      "text": "Analyze the information contained in deterministic and random signals, as well as their main properties.",
+      "type": "unspecified",
+      "code": "RA-8.15"
+    },
+    {
+      "text": "Design and analyze equivalent analog and digital systems to process information represented in the form of a signal.",
+      "type": "unspecified",
+      "code": "RA-8.16"
+    },
+    {
+      "text": "Design and analyze digital filters, both fixed and adaptive, according to the properties of the input and output signals, whether they are deterministic or random in nature.",
+      "type": "unspecified",
+      "code": "RA-8.17"
+    },
+    {
+      "text": "Appropriately apply signal processing techniques for the implementation of different transmission and reception subsystems.",
+      "type": "unspecified",
+      "code": "RA-8.18"
+    },
+    {
+      "text": "Know and use the main processing tools for voice, audio and image signals and the particularization of general signal processing tools to this type of information.",
+      "type": "unspecified",
+      "code": "RA-8.19"
+    },
+    {
+      "text": "Know and conveniently use the terminology specific to signal treatment in communications and their processing, both in Spanish and English.",
+      "type": "unspecified",
+      "code": "RA-8.20"
+    },
+    {
+      "text": "Argue and justify, orally and in writing, solutions adopted for communication problems based on signal processing techniques.",
+      "type": "unspecified",
+      "code": "RA-8.21"
+    }
+  ],
+  "syllabus_topics": [
+    "Information encoding and sampling",
+    "Continuous and discrete nature of information",
+    "Information encoding in signals",
+    "Sampling of continuous signals: analysis in real and transformed domains",
+    "Modification of sampling rate through processing: decimation and interpolation",
+    "Systems for analog and digital processing",
+    "Characteristics of analog signal processing",
+    "Characteristics of digital signal processing",
+    "Representation of continuous systems using digital systems",
+    "Representation of digital systems using continuous systems",
+    "Digital filters: design and characterization",
+    "Definition of digital systems through difference equations",
+    "FIR and IIR systems",
+    "Impulse response, frequency response, and system function of a digital filter",
+    "Design and characterization of filters in the Z-domain",
+    "Structures for digital filters",
+    "Analysis of deterministic signals",
+    "Analysis of the properties of deterministic signals in the real domain",
+    "Analysis of the properties of deterministic signals in transformed domains",
+    "Analysis of random signals",
+    "Probabilistic tools for the study of random signals",
+    "Statistical properties of random signals",
+    "Estimation of the properties of random signals",
+    "Optimal filtering and adaptive systems",
+    "Optimal filters",
+    "Calculation of optimal filters using normal equations",
+    "Iterative calculation of optimal filters: steepest descent algorithm",
+    "Adaptive systems: LMS algorithm",
+    "Variants of LMS",
+    "Other iterative and adaptive algorithms",
+    "Transmission and reception subsystems based on signal processing",
+    "Matched filter",
+    "Channel equalization",
+    "Predistortion for channel correction",
+    "Processing in transmission and reception systems with spatial diversity",
+    "Other subsystems based on signal processing",
+    "Voice and audio processing",
+    "Voice and audio signals: properties",
+    "Specific tools",
+    "Voice coding",
+    "Audio coding",
+    "Image Processing"
+  ],
+  "teaching_methods": [
+    "Group tutorials",
+    "Classroom/seminar practices",
+    "Laboratory practices",
+    "Expository classes",
+    "Autonomous work",
+    "Group work",
+    "Readings and debate"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam on problems and questions related to course content (Theory Block)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practical evaluations (Practical Block) through three tests: sixth laboratory session, last laboratory session, fourth classroom practice session",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For ordinary and extraordinary calls, the final grade is calculated as: Theory Block grade (max 7 points) + Practical Block grade (max 3 points). The practical evaluation consists of three tests (10% each). In extraordinary calls, if the continuous practical evaluation is not obtained or not approved, it can be replaced by a practical exam. For differentiated evaluation, the practical block (30%) is assessed via a practical exam taken consecutively to the theoretical exam (70%).",
+  "bibliography": [
+    "A.V. Oppenheim, R.W. Schafer, Tratamiento de Señales en Tiempo Discreto, Prentice Hall 2011.",
+    "M. Hayes, Statistical Digital Signal Processing and Modeling, Wiley, 1996.",
+    "J.G. Proakis, D.G. Manolakis, Digital Signal Processing, Prentice Hall, 1996.",
+    "Hayes, M.H.: Statistical Digital Signal Processing and Modeling, New York, Wiley, 1996.",
+    "E. Soria, M. Martínez, J.V. Francés, G. Camps, Tratamiento Digital de Señales. Pearson Educación, 2003.",
+    "S. Haykin, Adaptive Filter Theory, Prentice Hall, 1996."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-3-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-3-008",
+  "source_language": "es",
+  "source_sha256": "83dd9546f14a03d89044893c5af5865a21b4f21dce18d883ce29082f0face8b6",
+  "extracted_at": "2026-11-20T06:04:13",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

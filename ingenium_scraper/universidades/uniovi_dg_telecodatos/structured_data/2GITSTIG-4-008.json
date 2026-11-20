@@ -1,0 +1,104 @@
+{
+  "course_name_original": "Ingeniería de Redes",
+  "course_name_en": "Network Engineering",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 4,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Knowledge of protocol architectures",
+    "Knowledge of OSI model physical, data link, network, and transport layers",
+    "Fundamentals of Telematics",
+    "Network and Systems Architecture"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Know the methods of network routing and interconnection.",
+      "type": "knowledge",
+      "code": "RA-7.18"
+    },
+    {
+      "text": "Design and develop network interconnection applications, as well as analyze and interpret their results.",
+      "type": "skill",
+      "code": "RA-7.19"
+    },
+    {
+      "text": "Analyze and evaluate routing protocols using computer tools.",
+      "type": "skill",
+      "code": "RA-7.20"
+    },
+    {
+      "text": "Create and use models of real networks using network simulators.",
+      "type": "skill",
+      "code": "RA-7.21"
+    },
+    {
+      "text": "Use congestion control techniques to correctly plan and dimension networks.",
+      "type": "skill",
+      "code": "RA-7.22"
+    }
+  ],
+  "syllabus_topics": [
+    "Review of network interconnection",
+    "Interior routing protocols",
+    "RIP",
+    "EIGRP",
+    "OSPF",
+    "Exterior routing protocols",
+    "BGP",
+    "Multicast",
+    "IGMP",
+    "PIM",
+    "Congestion control",
+    "Classification of congestion control methods",
+    "Implicit and explicit congestion control",
+    "Traffic modeling",
+    "Quality of service",
+    "Introduction to QoS concepts",
+    "Integrated Services",
+    "Differentiated Services"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Classroom practices / Seminars",
+    "Laboratory practices",
+    "Group tutorials",
+    "Individual work"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Theory exam (TE)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Continuous evaluation of laboratory practices (PL)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "For ordinary and extraordinary calls, the final grade is calculated as 0.7 x TE + 0.3 x PL, provided both TE and PL are at least 5 out of 10. If any part is not passed, the final grade will be 4.5 points. Grades for passed blocks are saved between calls of the same academic year. The differentiated evaluation follows the same terms as the conventional evaluation.",
+  "bibliography": [
+    "Comunicaciones y redes de computadores, 7ª Ed., William Stallings, Prentice Hall.",
+    "Redes de ordenadores, 4ª Ed., Andrew S. Tanenbaum, Prentice Hall.",
+    "Redes de computadoras, un enfoque descendente, James F. Kurose, Addison Wesley",
+    "Redes e Internet de alta velocidad: rendimiento y calidad de servicio, 2ª Ed., William Stallings, Prentice Hall."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_dg_telecodatos",
+  "degree": "Doble Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación / Grado en Ciencia e Ingeniería de Datos",
+  "course_code": "2GITSTIG-4-008",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicaciondatos/-/fof/asignatura/2GITSTIG-4-008",
+  "source_language": "es",
+  "source_sha256": "9171b0271ea2f2cfe223a774b8abe2be9c472e7adb2427a80df99df25587fd22",
+  "extracted_at": "2026-11-20T06:06:25",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

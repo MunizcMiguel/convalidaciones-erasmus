@@ -1,0 +1,224 @@
+{
+  "course_name_original": "Teoría de la Comunicación",
+  "course_name_en": "Communication Theory",
+  "ects": 9.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 2,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "es",
+    "en"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Ability to autonomously learn new knowledge and techniques suitable for the conception, development, or exploitation of telecommunication systems and services.",
+      "type": "competence",
+      "code": "CR1"
+    },
+    {
+      "text": "Ability to analyze and specify the fundamental parameters of a communication system.",
+      "type": "competence",
+      "code": "CR4"
+    },
+    {
+      "text": "Ability to evaluate the advantages and disadvantages of different technological alternatives for deploying or implementing communication systems, from the perspective of signal space, disturbances and noise, and analog and digital modulation systems.",
+      "type": "competence",
+      "code": "CR5"
+    },
+    {
+      "text": "Ability to conceive, deploy, organize and manage telecommunication networks, systems, services and infrastructures in residential (home, city and digital communities), business or institutional contexts, being responsible for their implementation and continuous improvement, as well as knowing their economic and social impact.",
+      "type": "competence",
+      "code": "CR6"
+    },
+    {
+      "text": "Knowledge of telecommunications regulations and standards at national, European and international levels.",
+      "type": "competence",
+      "code": "CR15"
+    },
+    {
+      "text": "Knowledge, understanding and ability to apply the necessary legislation during the development of the profession of Telecommunication Technical Engineer and facility for handling specifications, regulations and mandatory standards.",
+      "type": "competence",
+      "code": "CG2"
+    },
+    {
+      "text": "Knowledge of basic subjects and technologies, which enables learning new methods and technologies, as well as providing great versatility to adapt to new situations.",
+      "type": "competence",
+      "code": "CG3"
+    },
+    {
+      "text": "Ability to solve problems with initiative, decision-making, creativity, and to communicate and transmit knowledge, skills and abilities, understanding the ethical and professional responsibility of the Telecommunication Technical Engineer's activity.",
+      "type": "competence",
+      "code": "CG4"
+    },
+    {
+      "text": "Knowledge for carrying out measurements, calculations, valuations, appraisals, expert reports, studies, reports, task planning and other similar works in their specific field of telecommunications.",
+      "type": "competence",
+      "code": "CG5"
+    },
+    {
+      "text": "Facility for handling specifications, regulations and mandatory standards.",
+      "type": "competence",
+      "code": "CG6"
+    },
+    {
+      "text": "Ability to work in a multidisciplinary group and in a multilingual environment and to communicate, both in writing and orally, knowledge, procedures, results and ideas related to telecommunications and electronics.",
+      "type": "competence",
+      "code": "CG9"
+    },
+    {
+      "text": "Correctly and fluently manage the logarithmic units of power, gain, and attenuation used in communication systems (CR.4, CG.3, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.1"
+    },
+    {
+      "text": "Apply the fundamentals of time and frequency domain analysis to solve problems in communication systems (CR.4, CR.5, CG.3, CG.4).",
+      "type": "skill",
+      "code": "RA-8.2"
+    },
+    {
+      "text": "Characterize information, as a signal and as a stochastic process, to be transmitted by a communication system, as well as the disturbances that limit the performance of said system (CR.4, CR.5, CG.3, CG.4).",
+      "type": "skill",
+      "code": "RA-8.3"
+    },
+    {
+      "text": "Describe and distinguish the functional blocks of analog and digital communication systems (CR.1, CR.4, CR.5, CG.3, CG.5, CG.6).",
+      "type": "knowledge",
+      "code": "RA-8.4"
+    },
+    {
+      "text": "Obtain the fundamental parameters of analog and digital communication systems (CR.4, CG.3, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.5"
+    },
+    {
+      "text": "Understand the limitations and performance of different analog and digital modulation systems (CR.5, CG.3, CG.5, CG.6).",
+      "type": "knowledge",
+      "code": "RA-8.6"
+    },
+    {
+      "text": "Appropriately evaluate the trade-off between bandwidth and power consumption to achieve a certain quality in a given configuration of an analog or digital communication system (CR.1, CR.5, CR.15, CG.4, CG.5, CG.6).",
+      "type": "skill",
+      "code": "RA-8.7"
+    },
+    {
+      "text": "Understand the main analog and digital modulation techniques to identify the most appropriate technique in a given transmission configuration (CR.1, CR.5, CG.3, CG.5, CG.6).",
+      "type": "knowledge",
+      "code": "RA-8.9"
+    },
+    {
+      "text": "Discuss and evaluate in a group the most appropriate analog and/or digital modulation technique under given operating conditions and restrictions (CR.1, CR.5, CG.4, CG.9).",
+      "type": "skill",
+      "code": "RA-8.10"
+    },
+    {
+      "text": "Apply knowledge of the different technological alternatives for deploying communication systems to functionally design systems that meet certain pre-imposed requirements and performance specifications (CR.1, CR.5, CR.6, CR.15, CG.2, CG.3, CG.4, CG.6).",
+      "type": "skill",
+      "code": "RA-8.11"
+    }
+  ],
+  "syllabus_topics": [
+    "Characterization of signals and baseband information signaling.",
+    "Physical signals and their mathematical models.",
+    "Characteristic parameters of signals: voltage, power, energy and their logarithmic units.",
+    "Energy Spectral Density (ESD) and Power Spectral Density (PSD).",
+    "Bandwidth.",
+    "Correlation between signals. Autocorrelation.",
+    "Incorrelation, orthogonality and incoherence.",
+    "Stochastic process: mathematical model and interpretation.",
+    "Statistical averages: mathematical expectation, correlation function and covariance function.",
+    "Independence, incorrelation and orthogonality.",
+    "Stationarity and ergodicity.",
+    "Power and spectral characterization of processes.",
+    "Gaussian random processes.",
+    "Characterization of thermal noise as a random process.",
+    "Characterization of filtered random processes.",
+    "Baseband information signaling.",
+    "Analog voice, audio, and video signals.",
+    "Analog pulse modulations: PAM, PWM, and PPM.",
+    "Quantization of analog signals.",
+    "Digital pulse modulations: PCM.",
+    "Symbol and bit energy, spectral density and efficiency.",
+    "Baseband transmission communication systems.",
+    "Introduction. General model of a communication system.",
+    "Introduction to channel sharing and information multiplexing concepts.",
+    "Quality parameters.",
+    "Resources of a communication system.",
+    "Characterization of systems in time and frequency.",
+    "Attenuation, gain and logarithmic units (decibel dB).",
+    "Characterization of filtered signals.",
+    "Linear distortion: amplitude and phase distortion.",
+    "Non-linear distortion: harmonic distortion and intermodulation distortion.",
+    "Definition of noise: thermal noise.",
+    "White noise.",
+    "Representation of noise in a communication system: equivalent noise bandwidth, equivalent noise temperature and noise factor.",
+    "Friis formula.",
+    "Transmission of analog baseband signals and reception in the presence of noise.",
+    "Signal-to-noise ratio.",
+    "Transmission of baseband pulsed signals and receivers in the presence of noise.",
+    "Intersymbol interference (ISI).",
+    "Bayesian decision.",
+    "Optimal digital receiver implementation in Gaussian channel.",
+    "Shannon's theorem.",
+    "Representation of noise in signal space.",
+    "Calculation of error probability and properties.",
+    "Band-pass transmission communication systems.",
+    "Band-pass signals and band-pass stochastic processes: complex envelope and phasor diagram.",
+    "Band-pass noise.",
+    "Low-pass equivalent of a system.",
+    "Modulation: objectives of modulation, spectral and power efficiency.",
+    "Analog modulations: amplitude, phase, and frequency modulations.",
+    "Definition, spectral and power analysis.",
+    "Introduction to single-carrier digital amplitude, phase, and frequency modulations for band-pass transmission.",
+    "Band-pass communication system model.",
+    "Transmission and reception schemes: Direct receiver, superheterodyne.",
+    "Quality analysis in pre-detection and post-detection.",
+    "Receiver sensitivity.",
+    "Signal-to-noise ratio.",
+    "Error probability in digital systems."
+  ],
+  "teaching_methods": [
+    "Classroom/Seminar Practices",
+    "Group Tutorials",
+    "Expository Classes",
+    "Laboratory Practices",
+    "Group Work",
+    "Individual Work"
+  ],
+  "workload_hours_total": 225.0,
+  "workload_hours_contact": 87.0,
+  "assessment_methods": [
+    {
+      "method": "Final exam (Ef)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Practical evaluation (Ep)",
+      "weight_percentage": 30.0
+    }
+  ],
+  "assessment_rules": "The final grade (Nf) for the ordinary call is calculated as Nf = 0.7xEf + 0.3xEp, where Ef is the final written exam and Ep is the evaluation of laboratory practices. In extraordinary calls and differentiated evaluation, the calculation remains the same, but the practical evaluation (Ep) can be a new individual practical test or the grade obtained during the semester. In case of doubt regarding authorship or unauthorized means, a physical defense may be requested.",
+  "bibliography": [
+    "Bruce Carlson, Paul B. Crilly and Janet C. Rutledge “Communication systems”, 4th edition, Mc. Graw Hill. 2002.",
+    "B.P. Lathi, Z. Ding, “Modern digital and analog communication systems”, 4th ed. Oxford Univ. Press. 2010",
+    "J.G. Proakis, M. Salehi, “Communication systems engineering”, 2nd ed. Prentice Hall. 2002.",
+    "A. Grami, “Introduction to Digital Communications”, Academic Press – Elsevier. 2015.",
+    "M.P. Fitz, “Fundamentals of communication systems”, 1st ed. McGraw Hill. 2007",
+    "P. Z. Peebles, Jr, “Principios de probabilidad, variables aleatorias y señales aleatorias”, Cuarta edición, McGrawHill.",
+    "Transparencies of the subject “Teoría de la Comunicación”.",
+    "Collections of questions and problems for the subject."
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-2-005",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-2-005",
+  "source_language": "es",
+  "source_sha256": "7d00e523fd7df0d849e59a981682171151bd9fe5b3bb4a95e90697f6be10611f",
+  "extracted_at": "2026-11-20T06:03:56",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

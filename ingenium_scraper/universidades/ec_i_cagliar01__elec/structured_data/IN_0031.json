@@ -1,0 +1,118 @@
+{
+  "course_name_original": "DATABASES (IN/0031)",
+  "course_name_en": "DATABASES",
+  "ects": 6.0,
+  "semester": "First Semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Knowledge of data representation in computers, computer architecture, basic algorithms for sorting and searching, high-level programming languages.",
+    "Ability to specify an algorithm of low complexity into a program in a high-level language.",
+    "Ability to understand the language of logic used in the math courses of the first year of any engineering course.",
+    "For students enrolled in the degree course in Electrical, Electronic and Computer Engineering, it is advised they have passed the exam of the course on Foundations of Computer Science."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Knowledge and understanding of the relational data model. In particular, the techniques and methodologies to design, build, manage and maintain a relational database are described. The conceptual database design is carried out through the ER model, while the design of queries is carried out through the SQL language. In addition to the relational model, the course also presents the basic characteristics of the data models falling within the so-called 'NoSQL' movement.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Applying knowledge and understanding for each topic of the course, gaining the basic skills both for designing a database, and for understanding an existing model written in the SQL language. Students will be able to compute the reduction in the computational cost of query execution when indexes are used, and the corresponding memory use.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Making judgements: students will evaluate the different alternatives when designing a database during the different phases, i.e., conceptual design, query specification, choice of the indexes. All the alternatives should be in agreement with the requirements, and should allow the maintenance and evolution of the database, as well as exhibiting the minimum performance required by the application during the operation. The basic knowledge of the models falling in the 'NoSQL' movement will allow the student to assess in which cases one of these models can be preferred to the relational model.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Communication: the design of the conceptual model of a database for a given application requires the capability of translating the requirements expressed by the user in natural language, into the formalism of the relational model. The students will learn the basic communication capabilities needed to interact with non technical users in order to clearly define the application requirements.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Lifelong learning skills: throughout the course the student will be exposed to the sources of the technical and professional literature on database systems that enable lifelong learning capabilities. In particular, the section of the course on 'NoSQL' database is based on the most recent development of data models, whose material is mainly available in technical websites.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Database Architecture",
+    "The relational model, table definition and query formulation in SQL and relational algebra",
+    "Database conceptual design using the ER model, and ER-to-Relational mapping",
+    "Normalization",
+    "Database security and privacy",
+    "SQL and programming languages",
+    "XML and JSON",
+    "File organizations, index structures and physical database design",
+    "Big data",
+    "Transactions",
+    "Distributed databases",
+    "Basic concepts on \"NoSQL\" databases"
+  ],
+  "teaching_methods": [
+    "Practise",
+    "Lesson",
+    "lectures with slides",
+    "exercises on the PostgreSQL DBMA and on a \"NoSQL\" database",
+    "seminar or site visit"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written test on query specification in SQL, and use of SQL in programs written in high level languages",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test on query specification in relational algebra",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test on conceptual design of a database using the ER model, and translation into a relational schema",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test on candidate keys, normal forms and normalization of a given relation with a set of functional dependencies",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test on indexes for query speedup, file access and query optimization",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test on security and privacy in databases",
+      "weight_percentage": null
+    },
+    {
+      "method": "Written test on NoSQL models",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral test (optional, to increase final mark)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The final test is carried out in writing and consists of questions and exercises. The test is valid if the student answers each exercise/question, with scores from 0 to a maximum for each part. The final score is the sum of these scores, with a maximum total of 32; a score of 32 results in '30 cum laude'. Students can take a partial exam for the first half of the course and a second test after the end of the course for the second half. An oral test can be taken to increase the final mark.",
+  "bibliography": [
+    "Atzeni, Ceri et al., \"Basi di Dati 6/ed\", McGraw Hill, 2023",
+    "Ramez Elmasri, Shamkant B. Navathe Fundamentals of Database Systems, 7/E Pearson, 2017",
+    "Pramod J. Sadalage, Martin Fowler NoSQL Distilled: A Brief Guide to the Emerging World of Polyglot Persistence Addison-Wesley Professional 2012"
+  ],
+  "isced_f_code": "0612",
+  "missing_sections": [],
+  "institution": "Università Degli Studi Di Cagliari — Ingegneria Elettronica, Informatica e delle Telecomunicazioni (L-8)",
+  "institution_slug": "ec_i_cagliar01__elec",
+  "degree": "Laurea in Ingegneria Elettronica, Informatica E Delle Telecomunicazioni (First Level Degree In Electronic, Computer And Telecommunication Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "IN/0031",
+  "academic_year": "A.A. 2025/26 (años 1-3 de cohortes 2025, 2024 y 2023)",
+  "source_url": "https://unica.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2025&insegnamento=18691&ordinamento_aa=2022&af_percorso=2&corso_cod=11037&corso_aa=2023",
+  "source_language": "en",
+  "source_sha256": "a9c10c53c73b67e4e125371a206b6f467525aab046a2e80bf5dce16de9b547a8",
+  "extracted_at": "2026-11-20T12:44:49",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

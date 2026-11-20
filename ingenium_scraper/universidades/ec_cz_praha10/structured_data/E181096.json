@@ -1,0 +1,77 @@
+{
+  "course_name_original": "Modelling and Process Control",
+  "course_name_en": "Modelling and Process Control",
+  "ects": 4.0,
+  "semester": null,
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Mathematical modeling, simulation and process control, specific examples of technical applications, basic principles of control, continuous and discrete system models, control elements.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Computer simulation using MATLAB and MAPLE, system responses to changes of various parameters and disturbances, system stability, analysis and optimization of model parameters with respect to the quality of control.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Basic equations of transport phenomena: continuity equation, steady-state and unsteady balances, reaction kinetics, phase equilibrium.",
+    "Outflow of the tank, unsteady balance. Solution of nonlinear equations - linearization. System stability.",
+    "Perfectly mixed batch reactor - mathematical model. Analytical vs numerical solution. Numerical solution methods of differential equations, Euler method of the 1st order, 2nd order, Runge-Kutta.",
+    "Batch reactor with subsequent reactions (1st order). Analytical solution, numerical solution, finding optimal reaction time to get maximum of the intermediate product, non-isothermal solution.",
+    "Optimization - one-dimensional and multi-dimensional, linear, nonlinear. One-dimensional optimization - golden section method to find a minimum of model function, Brent's method. Multi-dimensional optimization. Constrained optimization (penalty function).",
+    "Continuous systems - ideally mixed tank reactor, series of 3 reactors. Response to a jump at the inlet concentration, gain of the system, time constant of the process.",
+    "Controlling the outlet concentration of continuous stirred tank reactor. Basic types of controllers, mathematical models, properties, constants. Feed-back and feed-forward controllers, manipulative variable.",
+    "Continuous stirred tank reactor, non-isothermal reaction of 2nd order. Diagram of stationary solutions, parameter dependancy, parameter mapping method.",
+    "Continuous stirred tank reactor, non-isothermal 2nd order reaction - PI controller. Stability of steady-state solution - nonlinear system of equations. Ljapunov method - linearization using Taylor's expansion, Jacobi matrix, eigenvalues.",
+    "Evaluation of control process quality - setting controller constants. Stability degree, critical gain of controller, integral criteria using deviations.",
+    "Distillation column - basic balance equations, different controller configurations.",
+    "SIMULINK. Block algebra, block diagram of a system, basic block types, block libraries.",
+    "MATLAB, basic usage. Basic matrix operations, scripts, user-defined functions. Numerical solution of equations (fzero, fsolve), plotting graphs (plot), solution of ordinary differential equations (ode45).",
+    "MATLAB - solution of the tank outflow problem, friction coefficient dependancy on velocity, laminar and turbulent region, dependancy on Reynolds number. Numerical solution of differential equations, response to step change at the inlet, comparing solution of linearized and original, non-linear equations. Finding parameter values leading to oscillatory solution.",
+    "Perfectly mixed batch reactor - implementation of numerical method in Matlab, comparing with ode45 method, numerical stability and time step effect, implicit scheme of solving differential eqautions, stiff problems.",
+    "Batch reactor with subsequent reactions - non-isothermal regime, nonlinear system of differential equations, numerical solution in Matlab. Optimization the temperature regime.",
+    "Isothermal series of 3 ideally mixed reactors - comparing analytical and numerical solutions in Matlab.",
+    "Outlet concentration control at continuous stirred tank reactor, analysis of characteristic equation roots - system stability. Simulation in Matlab, imaginary roots of characteristic equation - oscillatory solution.",
+    "Continuous stirred tank reactor, non-isothermal, 2nd order reaction. Diagram of steady-state solution using Matlab, stability of individual points - numerical and analytical expression of Jacobi matrix and eigenvalues.",
+    "Continuous stirred tank reactor, non-isothermal, 2nd order reaction - PI controller, numerical solution using Matlab, sensitivity to change of controller constants, oscillatory solution, discontinuity in solution.",
+    "Quality of control process - finding optimal value of PI controller integration constant using Matlab.",
+    "Three continuous stirred tank reactors in series - optimization of controller constants using quadratic deviation, comparing values with Ziegler-Nichols method.",
+    "Distillation column - simulation in Matlab, implementing PI controllers.",
+    "SIMULINK - dynamic model of continuous stirred tank reactor, adding PID controller, controller deviation, series of three reactors."
+  ],
+  "teaching_methods": [],
+  "workload_hours_total": null,
+  "workload_hours_contact": null,
+  "assessment_methods": [],
+  "assessment_rules": null,
+  "bibliography": [
+    "W.L. Luyben: Process Modeling, Simulation, and Control for Chemical Enginers, 1974, 1990.",
+    "F. Dusek: MATLAB a SIMULINK, uvod do pouzivani, Univerzita Pardubice, 2001, in Czech.",
+    "J. Balate: Automaticke rizeni, BEN, 2003, in Czech.",
+    "M. Holodniok, A. Klic, M. Kubicek, M. Marek: Metody analyzy nelinearnich dynamickych modelu, Academia, 1986, in Czech.",
+    "B.W. Bequette: Process Control: Modeling, Design and Simulation, Prentice Hall, Upper Saddle River, 2003.",
+    "D. Acheson: From Calculus to Chaos: An Introduction to Dynamics, New York : Oxford Univ. Press, 1997."
+  ],
+  "isced_f_code": null,
+  "missing_sections": [
+    "assessment_methods",
+    "prerequisites"
+  ],
+  "institution": "Czech Technical University In Prague (Ctu)",
+  "institution_slug": "ec_cz_praha10",
+  "degree": "Oferta Erasmus+ en inglés de la Fac. de Ingeniería Mecánica (sin plan de grado atado)",
+  "course_code": "E181096",
+  "academic_year": "2026/2027",
+  "source_url": "https://bilakniha.cvut.cz/en/predmet2145306.html",
+  "source_language": "en",
+  "source_sha256": "321d549acb25ff97621ba2cda6991eba7f0e5bbbeaf7dfdb5a027d5752e66fd2",
+  "extracted_at": "2026-11-20T01:16:58",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

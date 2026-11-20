@@ -1,0 +1,151 @@
+{
+  "course_name_original": "Automatización Industrial",
+  "course_name_en": "Industrial Automation",
+  "ects": 6.0,
+  "semester": "7",
+  "year_of_study": 4,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "es"
+  ],
+  "prerequisites": [],
+  "learning_outcomes": [
+    {
+      "text": "Provide the student with the basic concepts, equipment, and tools for the design and implementation of industrial automation.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Introduce the student to the structure, programming, and installation of Industrial Programmable Logic Controllers (PLCs).",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Equip the student with the ability to solve real problems and industrial automation projects.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Industrial Automation",
+    "Introduction. Presentation of the course contents.",
+    "Relationship with previous courses.",
+    "New functions and elements of industrial automation. Industry 4.0.",
+    "Internal Architecture and Configuration of a Programmable Logic Controller",
+    "Introduction.",
+    "Internal architecture.",
+    "Operating principle.",
+    "Characteristics of the programmable logic controller.",
+    "Configuration of the programmable logic controller.",
+    "Practice 1: Description and configuration of an industrial automation system. CPU memory, data types and addressing.",
+    "Operating Cycle of a Programmable Logic Controller and Real-Time Control",
+    "Introduction.",
+    "Operating modes.",
+    "Operating cycle.",
+    "Execution time and real-time control.",
+    "Fast processing elements.",
+    "Input/Output Interfaces",
+    "Introduction.",
+    "Types of input/output interfaces.",
+    "Digital input/output.",
+    "Analog input/output.",
+    "Specific interfaces.",
+    "Practice 2: Introduction to TIA PORTAL software and programming languages. Logical operations.",
+    "Industrial Sensors and Actuators",
+    "Introduction.",
+    "Characteristics of industrial sensors.",
+    "Input characteristics of industrial sensors.",
+    "Electrical, mechanical, operational, dynamic and environmental characteristics.",
+    "General application industrial sensors.",
+    "Actuators: Classification.",
+    "Electric actuators.",
+    "Hydraulic and pneumatic actuators.",
+    "Practice 3: Memory operations.",
+    "PLC Programming",
+    "Introduction.",
+    "Instructions in PLCs.",
+    "Programming languages.",
+    "IEC 1131-3 standardized system for programmable logic controller programming.",
+    "Basic operations.",
+    "Practice 4: Timing, counter and comparison operations.",
+    "Control Systems Implemented with Programmable Logic Controllers",
+    "Introduction.",
+    "Main concepts of GRAFCET.",
+    "Implementation of GRAFCET on programmable logic controllers.",
+    "Practice 5: Control systems implemented with programmable logic controllers: Practical case 1.",
+    "Practice 6: Control systems implemented with programmable logic controllers: Practical case 2.",
+    "Structured Programming",
+    "Hierarchy, operating modes and safety. Structured design.",
+    "Selection of the type of user program structure.",
+    "Organization of the user program.",
+    "Modular task programming.",
+    "Practice 7: Control systems implemented with programmable logic controllers: Practical case 3.",
+    "Complementary and System Operations",
+    "Mathematical functions.",
+    "Shift operations.",
+    "Conversion operations.",
+    "Analog signal processing.",
+    "Practice 8: Analog signal processing.",
+    "Advanced PLC Programming",
+    "PID control loops.",
+    "High-speed counters.",
+    "Supervision and communication systems.",
+    "Practice 9: Programming a PID control loop (I).",
+    "Practice 10: Programming a PID control loop (II)."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Laboratory practices",
+    "Computer lab practices",
+    "Seminars",
+    "Problem-solving classes",
+    "Scheduled tutorials"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 55.5,
+  "assessment_methods": [
+    {
+      "method": "Final theoretical/practical exam and/or cumulative/eliminatory partial exams",
+      "weight_percentage": null
+    },
+    {
+      "method": "Utilization of practical activities (in class, laboratory, computer room, field, visits, etc.)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Resolution and submission of activities (cases, problems, reports, assignments, projects, etc.), individually and/or in groups",
+      "weight_percentage": null
+    },
+    {
+      "method": "Active class participation",
+      "weight_percentage": null
+    },
+    {
+      "method": "Attendance to contact activities",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For continuous assessment, the final grade (CF) is calculated as: CF = (0.5 * AE1) + (0.3 * AE2) + (0.2 * AE3). A minimum score of 5 out of 10 is required for the final exam (AE1) and for the practice evaluation (AE2) to pass. If these minimums are not met, but the calculated total score exceeds 5, the final grade will be 4. AE1 and AE2 are recoverable, while AE3 is not. For global assessment, students must take a written final exam, worth 70% of the final grade, and a practice exam, worth 30% of the final grade. A minimum score of 5 out of 10 is required for both the written final exam and the practice exam to pass.",
+  "bibliography": [
+    "YUSTE, R. y GUERRERO, V., “Autómatas Programables SIEMENS Grafcet y Guía Gemma con TIA Portal”, Ed. Marcombo, 2017.",
+    "MANDADO y otros, “AUTÓMATAS PROGRAMABLES Y SISTEMAS DE AUTOMATIZACIÓN, Ed. Marcombo. 2009”.",
+    "Manual de sistema del Controlador programable S7-1200: https://cache.industry.siemens.com/dl/files/593/109741593/att_895707/v1/s71200_system_manual_es-ES_es-ES.pdf",
+    "BALCELLS, J., ROMERAL, J.L., \"Autómatas Programables\", Ed. Marcombo. 1997.",
+    "MANDADO y otros, “AUTÓMATAS PROGRAMABLES: ENTORNO Y APLICACIONES”, Ed. THOMSON. 2005.",
+    "PIEDRAFITA, R, “INGENIERÍA DE LA AUTOMATIZACIÓN INDUSTRIAL”, Ed. Ra-Ma, 2004.",
+    "E. GARCÍA MORENO, “Automatización de procesos industriales”, Ed. Universidad Politécnica de Valencia, 2004."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Extremadura",
+  "institution_slug": "es_extremadura",
+  "degree": "Grado en Ingeniería Mecánica (Rama Industrial)",
+  "course_code": "501080",
+  "academic_year": "2026-27",
+  "source_url": "https://eii.unex.es/wp-content/uploads/sites/8/2026/07/plan0818-501080-2026-27.pdf",
+  "source_language": "es",
+  "source_sha256": "6887178123d50055c49926403d7e29504334dde2d205fb268d5962b07fd947c5",
+  "extracted_at": "2026-11-13T21:35:19",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

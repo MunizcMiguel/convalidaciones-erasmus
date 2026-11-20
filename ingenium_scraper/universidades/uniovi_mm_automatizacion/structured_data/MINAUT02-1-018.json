@@ -1,0 +1,173 @@
+{
+  "course_name_original": "Sistemas Avanzados de Automatización",
+  "course_name_en": "Advanced Automation Systems",
+  "ects": 6.0,
+  "semester": "Second Semester",
+  "year_of_study": 1,
+  "course_type": "elective",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Sufficient knowledge of the subjects from Module 1 (Training Complements) and Module 2 (Instrumental)"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Possess and understand knowledge that provides a basis or opportunity to be original in the development and/or application of ideas, often in a research context.",
+      "type": "unspecified",
+      "code": "CB6"
+    },
+    {
+      "text": "Students know how to apply the acquired knowledge and their problem-solving ability in new or little-known environments within broader (or multidisciplinary) contexts related to their field of study.",
+      "type": "unspecified",
+      "code": "CB7"
+    },
+    {
+      "text": "Students are able to integrate knowledge and face the complexity of forming judgments based on information that, being incomplete or limited, includes reflections on social and ethical responsibilities linked to the application of their knowledge and judgments.",
+      "type": "unspecified",
+      "code": "CB8"
+    },
+    {
+      "text": "Students know how to communicate their conclusions and the knowledge and ultimate reasons that support them to specialized and non-specialized audiences in a clear and unambiguous way.",
+      "type": "unspecified",
+      "code": "CB9"
+    },
+    {
+      "text": "Students possess the learning skills that allow them to continue studying in a way that will largely be self-directed or autonomous.",
+      "type": "unspecified",
+      "code": "CB10"
+    },
+    {
+      "text": "Write, scientifically interpret, and orally communicate, to specialized audiences, documents within the scope of the master's lines.",
+      "type": "unspecified",
+      "code": "CG1"
+    },
+    {
+      "text": "Develop the potential of information and communication technologies in industrial production.",
+      "type": "unspecified",
+      "code": "CG2"
+    },
+    {
+      "text": "Apply the knowledge obtained in the master's to achieve greater efficiency, effectiveness, reliability or safety in an industrial environment.",
+      "type": "unspecified",
+      "code": "CG3"
+    },
+    {
+      "text": "Manage, both theoretically and practically, the specific equipment for monitoring and control of automatic production systems.",
+      "type": "unspecified",
+      "code": "CG5"
+    },
+    {
+      "text": "Correctly apply the mandatory specifications, regulations and standards in the field of automatic industrial production systems.",
+      "type": "unspecified",
+      "code": "CG7"
+    },
+    {
+      "text": "Know the subjects and technologies that enable them to learn new methods and technologies, as well as provide them with sufficient versatility to adapt to new situations.",
+      "type": "unspecified",
+      "code": "CG8"
+    },
+    {
+      "text": "Develop optimal solutions for complex multidisciplinary problems in the field of automation and supervision of industrial production systems.",
+      "type": "unspecified",
+      "code": "CG9"
+    },
+    {
+      "text": "Use the acquired knowledge to maintain a critical and active attitude in the management of automation projects.",
+      "type": "unspecified",
+      "code": "CG10"
+    },
+    {
+      "text": "Analyze, design and build industrial computer applications.",
+      "type": "unspecified",
+      "code": "CE5"
+    },
+    {
+      "text": "Effectively use a systematic approach to the development of industrial process control logic, using standardized techniques for the analysis, design, implementation and documentation of the adopted solution.",
+      "type": "unspecified",
+      "code": "CE6"
+    },
+    {
+      "text": "Compare and evaluate commercial systems and technologies for process automation, selecting the most appropriate for a given application.",
+      "type": "unspecified",
+      "code": "CE7"
+    },
+    {
+      "text": "Design efficient automated systems using the most appropriate architecture for each case.",
+      "type": "unspecified",
+      "code": "CE8"
+    },
+    {
+      "text": "Apply modeling and programming techniques based on object orientation and available CASE tools for their implementation.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Qualify for the design and implementation of advanced automation systems, with special attention to distributed control systems.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Know and apply advanced instrumentation for its integration into automation systems.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Qualify for risk analysis, design and implementation of strategies for their reduction in automated machines and processes through the use of standardized functional safety techniques.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Modeling and programming techniques based on object orientation, components and CASE tools",
+    "Distributed control systems (DCS). Main characteristics. Fields of application. Selection criteria",
+    "DCS Architecture. Plant configuration, engineering and programming components. Monitoring, alarms, trends, historical data, diagnostics",
+    "Advanced integration of instrumentation in automation systems. Main devices. Standards and application tools",
+    "Functional safety. Regulations. Risk assessment and reduction. Design and validation of safe control systems. Safety controllers and networks. Integration into automation systems. Case studies"
+  ],
+  "teaching_methods": [
+    "Expositive classes",
+    "Laboratory practical classes",
+    "Seminars with external professionals",
+    "Company visits"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 45.0,
+  "assessment_methods": [
+    {
+      "method": "Attendance, participation and submission of assignments associated with seminars (SEM)",
+      "weight_percentage": 10.0
+    },
+    {
+      "method": "Submission of assignments (TR)",
+      "weight_percentage": 70.0
+    },
+    {
+      "method": "Written evaluation test in the classroom (EVA)",
+      "weight_percentage": 20.0
+    }
+  ],
+  "assessment_rules": "For ordinary and extraordinary calls, the final grade is calculated as: (SEM * 0.1) + (TR * 0.7) + (EV * 0.2). A minimum global score of 5 out of 10 for assignments (TR) and a minimum of 4 out of 10 for the written test (EV) are required to compensate with other tests. For differentiated evaluation, the final grade is: (TR * 0.6) + (EV * 0.4), with a minimum of 4 out of 10 in each of these two tests. Grades obtained in each test can be carried over between different calls within the same academic year.",
+  "bibliography": [
+    "Valeriy Vyatkin, ”IEC 61499 Function Blocks for Embedded and Distributed Control Systems Design, second Edition”, 2011, 297 p., Instrumentation Society of America (ISA) ISBN/ID: 978-1-936007-93-6.",
+    "Documentación técnica sobre SIMATIC PCS 7 de Siemens. Varios artículos y manuales. <http://www.automation.siemens.com/mcms/process-control-systems/en/distributed-control-system-simatic-pcs-7/tutorial/Pages/Default.aspx>",
+    "Documentación técnica sobre Freelance: “The hybrid process control system” de ABB.Varios artículos y manuales. <http://www.abb.com/product/seitp334/f19eb2a9bbb465f7c12574e400489cf0.aspx?productLanguage=es&country=ES>",
+    "*Guide to application of the Machinery Directive 2006/42/EC.* 2nd Edition. June 2010 <http://ec.europa.eu/enterprise/sectors/mechanical/documents/legislation/index_en.htm>",
+    "Software-Assistent SISTEMA: Safety Integrity Software Tool for the Evaluation of Machine Applications. A Tool for the Easy Application of the Control Standard EN ISO 13849-1.",
+    "PHOENIX CONTACT GmbH & Co. KG. SAFECONF, safe configuration software.",
+    "ISO 13849-1:2015. Safety of machinery -- Safety-related parts of control systems -- Part 1: General principles for design.",
+    "ISO 13849-1:2012. Safety of machinery -- Safety-related parts of control systems -- Part 2: Validation.",
+    "ISO 12100:2010. Safety of machinery -- General principles for design -- Risk assessment and risk reduction."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Máster Universitario en Ingeniería de Automatización e Informática Industrial (EPI Gijón)",
+  "institution_slug": "uniovi_mm_automatizacion",
+  "degree": "Máster Universitario en Ingeniería de Automatización e Informática Industrial",
+  "course_code": "MINAUT02-1-018",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/masteres/ingenieriayarquitectura/automatizacion/-/fof/asignatura/MINAUT02-1-018",
+  "source_language": "es",
+  "source_sha256": "5a5bb6f7efd655bc669b1c47ce73ca0ac46502df644abe464977cd3df8ec01fc",
+  "extracted_at": "2026-11-20T06:00:22",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

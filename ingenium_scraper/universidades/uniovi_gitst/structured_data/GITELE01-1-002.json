@@ -1,0 +1,130 @@
+{
+  "course_name_original": "Dispositivos Electrónicos y Fotónicos",
+  "course_name_en": "Electronic and Photonic Devices",
+  "ects": 6.0,
+  "semester": "Segundo Semestre",
+  "year_of_study": 1,
+  "course_type": "compulsory",
+  "language_of_instruction": [
+    "en",
+    "es"
+  ],
+  "prerequisites": [
+    "Basic concepts of electricity (electrostatics and electrodynamics): electric charge, electric field, electric potential, electric current density, electric current, and Ohm's Law.",
+    "Integration of differential equations with separable variables.",
+    "Mathematical relationships between charges, fields and potentials (can be advanced in this course if not synchronized with Physics program).",
+    "Integration of linear differential equations.",
+    "Kirchhoff's Laws.",
+    "Thévenin, Norton, and Millman theorems.",
+    "DC circuit analysis.",
+    "Transient analysis in first-order circuits with DC excitation."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Analyze and quantify conduction phenomena in semiconductor materials and in junctions between different types of semiconductors and between semiconductors and metals.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Analyze the operation of simple circuits with semiconductor diodes (idealized and real) and calculate the values of their electrical variables.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Relate the different types of semiconductor diodes to their applications.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Analyze and quantify conduction phenomena in bipolar and field-effect transistors and establish a comparison between their properties.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.9"
+    },
+    {
+      "text": "Calculate the electrical variables in simple circuits with bipolar and field-effect transistors (both idealized and real), describing the conduction states in the transistors.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4"
+    },
+    {
+      "text": "Analyze the electrical operation of logic gates and establish a comparison between the properties of different logic families.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.9"
+    },
+    {
+      "text": "Analyze and quantify conduction and electrical energy generation phenomena in semiconductor materials and in semiconductor material junctions when light radiation is incident.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.5, CG.9"
+    },
+    {
+      "text": "Analyze the phenomena by which a semiconductor material can generate light radiation.",
+      "type": "skill",
+      "code": "CB.4, CG.3, CG.4, CG.9"
+    }
+  ],
+  "syllabus_topics": [
+    "Basic theory of semiconductor materials. Materials and types of semiconductors. Band diagrams and conduction phenomena. Equilibrium concentrations. Quantification of electrical current in semiconductors (field and diffusion currents). Non-equilibrium carrier concentrations and continuity equation.",
+    "Basic theory of PN junctions. Carrier concentration, electric fields and voltages in unbiased and biased PN junctions. Calculation of the voltage-current equation of a junction and its validity limits. Characteristic curve. Band diagrams of a PN junction and tunneling effect.",
+    "Semiconductor diodes. PN diodes and their models. Analysis of elementary circuits with diodes. Other diodes: varicap diodes, Zener diodes and PIN diodes. Analysis of elementary circuits with Zener diodes. Metal-semiconductor junctions and Schottky diodes. Diode manufacturing.",
+    "Optoelectronic devices. Voltage-current equation of a junction in the presence of light. Photodiodes and photovoltaic cells. Direct and indirect semiconductors. Light-emitting diodes (LEDs) and their applications.",
+    "Bipolar transistors. Asymmetrically doped junctions and short junctions. Physical principle of the bipolar transistor. General equation of a transistor and Ebers-Moll model. Transistor operating regions. Current gain in active region. Common-base and common-emitter characteristic curves. Phototransistors and optocouplers. Manufacturing of bipolar transistors.",
+    "Field-effect transistors. Principle of operation and characteristic curves of junction field-effect transistors (JFETs). MESFET transistors. Principle of operation and characteristic curves of metal-oxide semiconductor field-effect transistors (MOSFETs), both enhancement and depletion. Manufacturing of field-effect transistors.",
+    "Transistor biasing circuits. Objectives of biasing circuits. Bipolar transistor biasing. JFET biasing. MOSFET biasing.",
+    "Logic families. Bipolar technology logic families (TTL). MOS technology logic families (CMOS)."
+  ],
+  "teaching_methods": [
+    "Expository classes",
+    "Classroom/Seminar practices",
+    "Laboratory practices"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Classroom Assessment Tests (PEAs)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF1) - PEAs-new part",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF1) - Non-PEAs part",
+      "weight_percentage": null
+    },
+    {
+      "method": "Final Exam (EF1) - Problem Solving (RP)",
+      "weight_percentage": null
+    },
+    {
+      "method": "Laboratory Practices (PL) exam",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "For the ordinary call, the theoretical block grade is the highest of two formulas: (0.45 x PEAs) + (0.15 x Non-PEAs) + (0.25 x RP) or (0.45 x PEAs-new) + (0.15 x Non-PEAs) + (0.25 x RP). The practical block grade is 0.15 x PL. The final grade is Theory + Practices. For the extraordinary call and differentiated evaluation, the final grade is calculated as (0.85 x EF2/EF) + (0.15 x PL). Attendance to the first laboratory practice is mandatory to take the laboratory practice control, except for students under differentiated evaluation. The PL grade is kept for convocations within the same academic year and the first extraordinary convocation of the following year.",
+  "bibliography": [
+    "Título:Fundamentos de microelectrónica, nanoelectrónica y fotónica. Autor:J. M. Abella Martín, J. M. Martínez Duarte y F. Agulló Rueda. Editorial:Pearson Prentice Hall. ISBN:84-205-4651-8.",
+    "Título:Semiconductor Devices Explained. Autor:T. Mouthaan. Editorial:John Wiley and Sons. ISBN:0-47-198854-5.",
+    "Título:Modular series on solid state devices. Volume I: Semiconductor fundamentals. Autor:Robert F. Pierret. Editorial:Addison-Wesley Publishing Company. ISBN:0-201-12295-2.",
+    "Título:Modular series on solid state devices. Volume II: The PN junction diode. Autor:Gerold W. Neudeck. Editorial:Addison-Wesley Publishing Company. ISBN:0-201-12296-0.",
+    "Título:Modular series on solid state devices. Volume III: The bipolar junction transistor. Autor:Gerold W. Neudeck. Editorial:Addison-Wesley Publishing Company. ISBN:0-201-12297-9.",
+    "Título:Modular series on solid state devices. Volume IV: Field effect devices. Autor:Robert F. Pierret. Editorial:Addison-Wesley Publishing Company. ISBN:0-201-12298-7.",
+    "Título:Solid state electronic devices. Autores:Ben G. Streetmam y Sanjay Banerjee. Editorial:Prentice Hall. ISBN:0-13-025538-6.",
+    "Título:Semiconductor devices. Autores:S. M. Sze Editorial:John Wiley and Sons. ISBN:0-47-133372-7.",
+    "Título:Introduction to semiconductor materials and devices. Autor:M. S. Tyagi. Editorial:John Wiley and Sons. ISBN:0-47-160560-3.",
+    "Título:Dispositivos semiconductores. Autos:Jasprit Singh. Editorial:McGraw-Hill. ISBN:9-70-101024-8.",
+    "Título:Physics of semiconductor devices. Autores:S. M. Sze Editorial:John Wiley and Sons. ISBN:0-47-105661-8."
+  ],
+  "isced_f_code": "0714",
+  "missing_sections": [],
+  "institution": "Universidad de Oviedo - Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación (Telecomunicación, Gijón)",
+  "institution_slug": "uniovi_gitst",
+  "degree": "Grado en Ingeniería en Tecnologías y Servicios de Telecomunicación",
+  "course_code": "GITELE01-1-002",
+  "academic_year": "2026-2027",
+  "source_url": "https://www.uniovi.es/estudia/grados/ingenieria/telecomunicacion/-/fof/asignatura/GITELE01-1-002",
+  "source_language": "es",
+  "source_sha256": "77591d5872a021714cadf91bfceae6b41462d766cb5ad12d8a1085cc4e74a59f",
+  "extracted_at": "2026-11-20T06:03:28",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

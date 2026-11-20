@@ -1,0 +1,123 @@
+{
+  "course_name_original": "Calcul scientifique pour l'ingénieur",
+  "course_name_en": "Scientific Computing for Engineers",
+  "ects": null,
+  "semester": null,
+  "year_of_study": 2,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Basic knowledge of applied mathematics, in particular linear algebra and numerical analysis.",
+    "Prior command of the basics of programming with Python."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Understand and apply the tools of scientific computing, demonstrating an in-depth mastery of the fundamental principles, including computational modelling, numerical reproducibility, and error analysis, when confronted with engineering contexts.",
+      "type": "competence",
+      "code": null
+    },
+    {
+      "text": "Formulate mathematical models, select and implement appropriate numerical methods, and validate their results against experimental data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Demonstrate practical expertise in using Python and its scientific libraries such as NumPy, SciPy, Matplotlib and SymPy to solve real-world problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Understand the fundamental principles of scientific computing: computational modelling, numerical precision, reproducibility of calculations, and error analysis.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Understand the history of computational methods in engineering.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Know key concepts such as constitutive laws and their identification from experimental data.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Be able to use scientific Python libraries to solve concrete problems.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be able to implement appropriate numerical methods to solve differential equations or fit mathematical models to experimental data.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Use Python as a primary tool for scientific development, exploiting its libraries to run simulations, visualise data and produce structured technical reports.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Be aware of the growing importance of scientific computing in research and industry.",
+      "type": "unspecified",
+      "code": null
+    },
+    {
+      "text": "Become aware of the central role that numerical simulations play in the design and optimisation of complex systems, as well as the scientific, social and ethical implications of using computational models.",
+      "type": "unspecified",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to Scientific Computing for Engineers",
+    "Importance of computational modelling in engineering.",
+    "Key concepts: numerical simulations, model validation and verification.",
+    "History of scientific computing: from mathematical foundations to modern supercomputers.",
+    "Fundamentals of numerical precision: floating-point arithmetic (IEEE 754), numerical errors and reproducibility.",
+    "Introduction to the scientific Python environment: Jupyter Notebooks.",
+    "Getting started with Jupyter Notebook.",
+    "Numerical approximations and introduction to NumPy.",
+    "Practical use of Scipy to analyse scientific data.",
+    "Presentation of the constitutive laws (Ludwig and Johnson-Cook).",
+    "Parameter adjustment via curve_fit and least_squares.",
+    "Complete analysis of the Johnson-Cook law with temperature dependency.",
+    "Drafting of a technical report in the form of a Python notebook."
+  ],
+  "teaching_methods": [
+    "Lectures (CM)",
+    "Tutorials (TD)",
+    "Practical sessions (TP)",
+    "Project-based learning (Projet encadré)",
+    "Independent project work (Projet en autonomie)",
+    "Interactive tools like Jupyter Notebook"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 11.5,
+  "assessment_methods": [
+    {
+      "method": "Rapport (RAP1)",
+      "weight_percentage": 100.0
+    }
+  ],
+  "assessment_rules": "The evaluation formula is (1*RAP1)/1, indicating that the final grade is based entirely on RAP1 (Report).",
+  "bibliography": [
+    "Fangohr, H., Introduction to Python for Computational Science and Engineering.",
+    "Johansson, R., Numerical Python: Scientific Computing and Data Science Applications with Numpy, SciPy and Matplotlib.",
+    "Langtangen, H.P., A Primer on Scientific Programming with Python.",
+    "Perkovic, L., Introduction to computing using Python. John Wiley & Sons, Inc, Hoboken"
+  ],
+  "isced_f_code": "0541",
+  "missing_sections": [],
+  "institution": "École Nationale D'Ingénieurs De Tarbes",
+  "institution_slug": "ec_f_tarbes03",
+  "degree": "Titre d'ingénieur ENIT (cycle ingénieur, semestres 5-10; orientación mecánica/producción)",
+  "course_code": "IGENI-EC0922",
+  "academic_year": "2025-26",
+  "source_url": "https://www.enit.fr/_attachment/nouvel-article-75/IGENI-M-S09.pdf?download=true",
+  "source_language": "fr",
+  "source_sha256": "8ff21a84ad0605ff2474e55d7961df2e5689e2e138100fbaa6423003e3f8b624",
+  "extracted_at": "2026-11-18T10:00:27",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

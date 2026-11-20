@@ -1,0 +1,84 @@
+{
+  "course_name_original": "Parametrisierte Algorithmen",
+  "course_name_en": "Parameterized Algorithms",
+  "ects": 6.0,
+  "semester": "One semester",
+  "year_of_study": null,
+  "course_type": "elective",
+  "language_of_instruction": [
+    "en"
+  ],
+  "prerequisites": [
+    "Successful completion of the \"Algorithms and Data Structures\" module is required",
+    "Successful completion of the \"Efficient Algorithms\" module is recommended"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students can identify adequate parameterizations for hard computational problems",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can develop efficient fixed-parameter algorithms and analyze their runtime",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can design data reduction rules and analyze their effectiveness",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can demonstrate the algorithmic difficulty of parameterized computational problems",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Parameterized and exact algorithms",
+    "Fundamental algorithmic techniques for parameterized algorithms: search tree algorithms, tree decompositions, iterative compression, color coding",
+    "Data reduction and kernelization",
+    "Advanced algorithmic techniques for parameterized algorithms, for example, parameterization over lower bounds, inclusion-exclusion, representative sets",
+    "Parameterized complexity theory"
+  ],
+  "teaching_methods": [
+    "Lecture",
+    "Tutorial"
+  ],
+  "workload_hours_total": 180.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Weekly exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral presentation of solutions to at least two exercises",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral examination (individual examination) or written examination",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "To acquire credit points, students must achieve at least 50% of the points from the weekly exercises and orally present the solution to at least two exercises. Grading is based on a scale of 0 to 15 points according to the examination regulations for the M.Sc. Computer Science degree program. The examination performance consists of either an oral examination (individual) or a written examination.",
+  "bibliography": [
+    "Cygan et al. Parameterized Algorithms. Springer Verlag, 2015.",
+    "Downey, Fellows: Fundamentals of Parameterized Complexity Theory. Springer Verlag 2013.",
+    "Niedermeier: Invitation to Fixed-Parameter Algorithms. Oxford University Press, 2006.",
+    "Flum, Grohe: Parameterized Complexity Theory. Springer Verlag, 2006."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Philipps-Universität Marburg",
+  "institution_slug": "ec_d_marburg01",
+  "degree": "B.Sc. Informatik",
+  "course_code": "CS531",
+  "academic_year": "WiSe 2026/27",
+  "source_url": "https://www.mathematik.uni-marburg.de/modulhandbuch/20262/BSc_Informatik/Informatik_Wahlpflichtmodule/Parametrisierte_Algorithmen.html",
+  "source_language": "de",
+  "source_sha256": "499670523fdc5963190e35cc2411c1b868f56bc6f91f939cc35110ff507a6f08",
+  "extracted_at": "2026-11-20T09:22:31",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

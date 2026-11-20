@@ -1,0 +1,80 @@
+{
+  "course_name_original": "SOFTWARE DEVELOPMENT FOR MOBILE DEVICES (863123)",
+  "course_name_en": "Software Development for Mobile Devices",
+  "ects": 6.0,
+  "semester": "Second semester",
+  "year_of_study": 3,
+  "course_type": "compulsory",
+  "language_of_instruction": [],
+  "prerequisites": [
+    "Computer Architecture",
+    "Programming 2",
+    "Good command of programming techniques",
+    "Good command of at least one object-oriented language (e.g. Java, Kotlin, C ++, Python)",
+    "Basic knowledge of networked and distributed application programming techniques"
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Design and implement distributed applications involving mobile devices of various kinds: from the user interface of interactive devices, to application logic, from connection to cloud services, to sensor control, up to packaging and the deployment of mobile applications on stores available online.",
+      "type": "skill",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Pervasive computing: definitions, application scenarios, enabling technologies.",
+    "Main operating systems in the mobile and embedded fields. Introduction to Android.",
+    "Development, debugging toolchain.",
+    "Version control and continuous integration, devops for mobile, wearable and embedded systems.",
+    "Design of graphic interfaces on mobile platforms.",
+    "Android core components.",
+    "Background processes and services.",
+    "Android UI: activities, layouts, views.",
+    "Interprocess communication in android: Intents and filters.",
+    "Android Security.",
+    "Microservices and Services integration issues. (annotated examples for the Java platform).",
+    "Management of resources (cpu, network, peripherals), sensors (gps, inertial sensors, specific sensors) and software services (telephony, mail, etc.)",
+    "Application life cycle.",
+    "Deploy an application.",
+    "Introduction to the android market.",
+    "Toolchain development, debugging."
+  ],
+  "teaching_methods": [
+    "Lectures",
+    "Assisted exercises",
+    "Project work"
+  ],
+  "workload_hours_total": null,
+  "workload_hours_contact": 48.0,
+  "assessment_methods": [
+    {
+      "method": "Presentation of project work",
+      "weight_percentage": null
+    },
+    {
+      "method": "Oral interview",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "The exam consists of the presentation of the agreed and developed project work, followed by an oral interview to ascertain knowledge of the topics covered in the lectures. The material produced in the project work will be discussed at the examination. Grading is based on a final score (Voto Finale).",
+  "bibliography": [
+    "Android Programming, Bill Phillips, Chris Stewart, et. to the.",
+    "Operating Systems Foundations with Linux on the Raspberry Pi",
+    "Kotlin Programming by Example, Iyanu Adelekan",
+    "Building Microservices: Designing Fine-Grained Systems by Sam Newman",
+    "RESTful Web Services, Leonard Richardson, Sam Ruby",
+    "Restlet in Action, Jerome Louvel, et. al."
+  ],
+  "isced_f_code": "0613",
+  "missing_sections": [],
+  "institution": "Università del Sannio — Ingegneria Informatica (L-8)",
+  "institution_slug": "ec_i_beneven02__tele",
+  "degree": "Laurea in Ingegneria Informatica (Computer Engineering), classe L-8 Classe delle lauree in Ingegneria dell'informazione",
+  "course_code": "863123",
+  "academic_year": "A.A. 2026/27 (años 1-3 de cohortes 2026, 2025 y 2024)",
+  "source_url": "https://unisannio.coursecatalogue.cineca.it/api/v1/insegnamento?anno=2026&insegnamento=8081&ordinamento_aa=2023&af_percorso=9999&corso_cod=10050&corso_aa=2024",
+  "source_language": "en",
+  "source_sha256": "160f4cef05845aaf5a2e2fdc71dd90c3c2062babbf99838614783a3341f0b06c",
+  "extracted_at": "2026-11-20T12:46:09",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}

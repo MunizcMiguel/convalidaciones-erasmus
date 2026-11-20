@@ -1,0 +1,87 @@
+{
+  "course_name_original": "Einführung in die Kryptographie 1",
+  "course_name_en": "Introduction to Cryptography 1",
+  "ects": 5.0,
+  "semester": "Wintersemester",
+  "year_of_study": null,
+  "course_type": "unknown",
+  "language_of_instruction": [
+    "de"
+  ],
+  "prerequisites": [
+    "Ability for abstract and logical thinking."
+  ],
+  "learning_outcomes": [
+    {
+      "text": "Students will have knowledge of symmetric and asymmetric cryptographic methods.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They can decide under which conditions certain ciphers are used in practice and how the security parameters are to be chosen.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "They are familiar with the mathematical foundations on which current cryptographic methods are based.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "Through the description of selected practically relevant ciphers, such as the AES or RSA algorithm and the Diffie-Hellman key exchange, students will also achieve an algorithmic and technical understanding of modern cryptography.",
+      "type": "knowledge",
+      "code": null
+    },
+    {
+      "text": "They are able to argumentatively defend a specific solution.",
+      "type": "skill",
+      "code": null
+    },
+    {
+      "text": "Students can acquire language competencies in the scientific language English through the bilingual e-learning offer.",
+      "type": "competence",
+      "code": null
+    }
+  ],
+  "syllabus_topics": [
+    "Introduction to modern applied cryptography and basics of IT security",
+    "Focus on cryptographic methods, necessary mathematics, and interaction of cryptography and IT security",
+    "Symmetric cryptography",
+    "Description of historical symmetric ciphers (Caesar cipher, affine cipher, One Time Pad)",
+    "Current symmetric methods (Advanced Encryption Standard, Data Encryption Standard, Stream ciphers)",
+    "Introduction to asymmetric cryptography",
+    "RSA algorithm",
+    "Diffie-Hellman key exchange",
+    "Relevant basics of number theory (Rings of integers, Groups, Fields, Discrete logarithms, Euclidean algorithm, Euler's totient function)",
+    "Algorithmic introduction to asymmetric cryptographic methods"
+  ],
+  "teaching_methods": [
+    "Lecture with exercise",
+    "Digital format"
+  ],
+  "workload_hours_total": 150.0,
+  "workload_hours_contact": 60.0,
+  "assessment_methods": [
+    {
+      "method": "Written exam (120 minutes)",
+      "weight_percentage": null
+    }
+  ],
+  "assessment_rules": "Credits are awarded upon successful passing of the module exam. The exam is a 120-minute written examination.",
+  "bibliography": [],
+  "isced_f_code": "0613",
+  "missing_sections": [
+    "bibliography"
+  ],
+  "institution": "Ruhr-Universität Bochum — IT-Sicherheit / Informationstechnik (B.Sc.)",
+  "institution_slug": "ec_d_bochum01__tele",
+  "degree": "IT-Sicherheit / Informationstechnik (B.Sc., PO 2022)",
+  "course_code": "einfuhrung-in-die-kryptographie-1",
+  "academic_year": "SoSe 2026 (PO 2022, Stand 11.03.26)",
+  "source_url": "https://informatik.rub.de/wp-content/uploads/2026/03/MHB-BSc-ITS-SoSe-26.pdf",
+  "source_language": "de",
+  "source_sha256": "30bf4ba6d063dbe2b52c491ae230d05b6c94552abc5fc5e479e5856321ac6f4a",
+  "extracted_at": "2026-11-20T12:36:04",
+  "extractor_model": "gemini-2.5-flash",
+  "schema_version": "1.1"
+}
